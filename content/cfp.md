@@ -24,6 +24,7 @@ In particular, this year we are building content tracks around the following spe
 * Observability
 * Stream
 * Web Server
+* DataVisualization
 
 If your proposed presentation falls into one of these categories, please select that topic in the CfP entry form. Or select **General** if it's related to some other topic or project area.
 
