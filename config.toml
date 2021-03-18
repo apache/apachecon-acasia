@@ -36,7 +36,7 @@ weight = 200
 
 [[languages.zh.menu.main]]
 name = "日程"
-url = "/tracks.html"
+url = "zh/tracks.html"
 weight = -100
 
 [[languages.zh.menu.main]]
