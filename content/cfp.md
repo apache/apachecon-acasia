@@ -23,6 +23,7 @@ In particular, this year we are building content tracks around the following spe
 * Middleware
 * Observability
 * Stream
+* Workflow/Data Governance
 * Web Server
 * DataVisualization
 
