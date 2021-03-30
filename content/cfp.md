@@ -12,20 +12,20 @@ We are looking for presentations about anything relating to Apache Software Foun
 
 In particular, this year we are building content tracks around the following specific topics/projects:
 
-* API / Microservice
-* Big Data
-* Community
-* Culture
-* Integration
-* Incubator
-* IoT/IIoT
-* Messaging
-* Middleware
-* Observability
-* Streaming
-* Workflow/Data Governance
-* Web Server
-* DataVisualization
+* [API / Microservice](tracks/api.html)
+* [Big Data](tracks/bigdata.html)
+* [Community](tracks/community.html)
+* [Culture](tracks/culture.html)
+* [Integration](tracks/integration.html)
+* [Incubator](tracks/incubator.html)
+* [IoT/IIoT](tracks/iot.html)
+* [Messaging](tracks/messaging.html)
+* [Middleware](tracks/middleware.html)
+* [Observability](tracks/observability.html)
+* [Streaming](tracks/streaming.html)
+* [Workflow/Data Governance](tracks/workflowdatagovernance.html)
+* [Web Server](tracks/webserverandtomcat.html)
+* [DataVisualization](tracks/datavisualization.html)
 
 If your proposed presentation falls into one of these categories, please select that topic in the CfP entry form. Or select **General** if it's related to some other topic or project area.
 
