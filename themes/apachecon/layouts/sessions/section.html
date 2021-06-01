@@ -22,7 +22,7 @@
                 {{ $time := "" }}
                 {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
                 {{ $pageDay := dateFormat "2006-01-02" .Date }}
-                {{ $pageTime := dateFormat "15:04" .Date }}
+                {{ $pageTime := dateFormat "15:04 GMT+8" .Date }}
 
                 {{ if eq $pageDay $day }}
                     {{if eq $pageTime $time}}

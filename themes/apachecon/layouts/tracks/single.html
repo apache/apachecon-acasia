@@ -29,7 +29,7 @@
                        {{else}}
                           <h2>{{ $pageDay }}</h2>
                        {{end}}
-                <p><b>{{dateFormat "15:04" .Date}}</b> {{.Params.stype}} : {{.Params.presenters}} : <a href="{{.Permalink}}">{{.Title}}</a></p>
+                <p><b>{{dateFormat "15:04 GMT+8" .Date}}</b> {{.Params.stype}} : {{.Params.presenters}} : <a href="{{.Permalink}}">{{.Title}}</a></p>
                      {{ $day = $pageDay }}
                     {{end}}
                 {{end}}
