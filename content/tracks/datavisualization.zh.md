@@ -1,5 +1,6 @@
 ---
 title: 数据可视化
+trackchairs: "羡辙"
 ---
 
 在大数据时代，数据可视化是帮助用户快速理解数据、探索数据的重要手段。在 Apache 软件基金会，我们有 [Apache ECharts](https://echarts.apache.org), [Apache Superset](https://superset.apache.org) 等优秀的可视化项目，应对各种不同场景下的可视化需求。

@@ -1,5 +1,6 @@
 ---
 title: 中间件
+trackchairs: "张亮， Jean-Baptiste Onofre"
 ---
 
 中间件是构架在应用系统之上的基础设施中的最广泛存在，用于处理多样化的非功能性需求。

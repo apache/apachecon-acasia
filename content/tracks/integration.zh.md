@@ -1,5 +1,6 @@
 ---
 title: 集成
+trackchairs: "姜宁, Zoran Regvart, María Arias de Reyna"
 ---
 集成是将基于各种不同平台、用不同方案建立的异构系统集成在一起的一种方法和技术。
 在ASF有多种个项目提供了多种集成解决方案，例如[Apache Camel](https://camel.apache.org/)提供了应用集成方案, [Apache Gobblin](https://gobblin.apache.org/)提供数据集成方案。

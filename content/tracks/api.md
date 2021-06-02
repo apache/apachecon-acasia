@@ -1,5 +1,6 @@
 ---
 title: API / Microservice
+trackchairs: "Ming Wen"
 ---
 API is the base of service connectivity. Through API, we can build various services and provide them to users. With the increasing complexity of applications, monolith is gradually split into microservices, and products can be iterated quickly at the same time, it also brings technical challenges in terms of safety, maintenance and observability.
 

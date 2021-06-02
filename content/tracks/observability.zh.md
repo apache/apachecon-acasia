@@ -1,5 +1,6 @@
 ---
 title: 可观测性
+trackchairs: "吴晟"
 ---
 
 软件中的可观测性是指分析和解释系统运行状态的能力，犹豫在分布式环境官方运用的今天，这种能力越来越受到重视。在Apache基金会目前的项目中，只用[SkyWalking](https://skywalking.apache.org)关注于这个技术领域。

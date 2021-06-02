@@ -16,12 +16,12 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h2>{{.Title}}</h2>
+                    <h2>{{i18n "tracks"}}</h2>
                 </header>
 
                 <ul>
                     {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
-                    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                    <li><a href="{{.Permalink}}">{{.Title}}</a> {{i18n "trackchairs"}} : {{.Params.trackchairs}}</li>
                     {{end}}
                 </ul>
 
@@ -34,5 +34,3 @@
 
 </body>
 </html>
-
-
