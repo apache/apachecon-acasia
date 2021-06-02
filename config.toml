@@ -22,16 +22,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 unsafe = true
 
 # menu for en ((final list includes translated pages from /content)
-
 [[languages.en.menu.main]]
 name = "Schedule"
-url = "tracks.html"
+url = "/tracks.html"
 weight = -100
-
-[[languages.en.menu.main]]
-name = "中文"
-url = "zh"
-weight = 200
 
 # menu for ZH language (final list includes translated pages from /content)
 
@@ -39,8 +33,3 @@ weight = 200
 name = "日程"
 url = "zh/tracks.html"
 weight = -100
-
-[[languages.zh.menu.main]]
-name = "English"
-url = "/"
-weight = 200
