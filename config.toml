@@ -30,6 +30,6 @@ weight = -100
 # menu for ZH language (final list includes translated pages from /content)
 
 [[languages.zh.menu.main]]
-name = "日程"
+name = "会议日程"
 url = "zh/tracks.html"
 weight = -100

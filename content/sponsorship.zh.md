@@ -2,7 +2,7 @@
 title: 会议赞助
 menu:
   main:
-    weight: -200
+    weight: -30
 ---
 
 自1998年以来--早在ASF成立之前--ApacheCon已经吸引了各个层次的参与者，在350多个Apache项目和他们不同的社区中探索 "明天的技术"。
