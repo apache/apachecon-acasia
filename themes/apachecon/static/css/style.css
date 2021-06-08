@@ -732,14 +732,6 @@ h4 > a:hover::after {
 				font-size: 1.8em;
 			}
 
-		.page-session ul {
-			margin-left: 20px;
-		}
-
-			.page-session ul li {
-				list-style: disc;
-			}
-
 /* Footer */
 
 	#footer {
