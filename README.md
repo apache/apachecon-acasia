@@ -2,6 +2,14 @@
 
 This repository contains a Hugo based site for ApacheCon.
 
+To install Hugo:
+
+```
+brew install hugo
+# or
+port install hugo
+```
+
 To test it locally, run:
 
 ```
