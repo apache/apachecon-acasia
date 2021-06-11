@@ -1,5 +1,20 @@
 .page-session ul {
-    margin-left: 20px;
+    margin-left: 30px;
+
+    li {
+        list-style: disc;
+    }
+}
+
+.page ol {
+  margin-left: 20px;
+  li {
+      list-style: decimal;
+  }
+}
+
+.page ul {
+    margin-left: 40px;
 
     li {
         list-style: disc;
