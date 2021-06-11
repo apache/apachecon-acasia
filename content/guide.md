@@ -39,9 +39,9 @@ Check the full-screen status, PPT and code editor, browser requires full-screen 
 ## Step 5: Pre-delivery check
 1. Name the video in the following format: Name of sub-forum - Name of lecturer (e.g. Community & Culture - JiangBo)
 2. Check the sound quality, there can be a current floor noise, but no obvious noise (e.g. flipping books, dragging chairs, car horns, birds chirping, etc.)
-3. Check that the picture is 1920\*1080 pixels and that the ratio is windows16:9 or mac16:10
-4. The video frame rate is not less than 30fps (right click on the mouse and check "Details" in "Properties") and the picture must not be jagged or faint
-5. Audio is in stereo, no mono and stereo crossover
+3. Check that the picture is 1920\*1080 pixels and that the ratio is windows16:9 or mac16:10.
+4. The video frame rate is not less than 30fps (right click on the mouse and check "Details" in "Properties") and the picture must not be jagged or faint.
+5. Audio is in stereo, no mono and stereo crossover.
 
 ## Step 6: Video delivery
 Once the self-test properties are met, please upload the video to a web drive and deliver the recorded file to Track Chair by sharing the link.
