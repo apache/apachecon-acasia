@@ -35,6 +35,7 @@ Check the full-screen status, PPT and code editor, browser requires full-screen 
 
 
 ## Step 4: Official recording
+As there are multiple speakers to deliver the speech in the same session, it is much easy to use [Zoom](https://www.zoom.us/) to record the session, as the speaker video could be appeared when the speaker is saying.
 
 ## Step 5: Pre-delivery check
 1. Name the video in the following format: Name of sub-forum - Name of lecturer (e.g. Community & Culture - JiangBo)
