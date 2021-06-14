@@ -16,6 +16,11 @@ tracks_dictionary = {"Integration": "integration",
                      "Big Data": "bigdata",
                      "API / Microservice": "api"
                      }
+session_types_dictionary = {"中文演讲": "Chinese Session",
+                             "Regular Session": "English Session"}
+
+session_types_chinese_dictionary = {"中文演讲": "中文演讲",
+                             "Regular Session": "英文演讲"}
 
 
 def remove_speakers_email(speakers):
@@ -23,7 +28,7 @@ def remove_speakers_email(speakers):
     result_list = []
     for speaker in speaker_list:
         result_list.append(remove_speaker_email(speaker))
-    return ','.join(result_list)
+    return ', '.join(result_list)
 
 
 def remove_speaker_email(speaker):
@@ -42,26 +47,41 @@ for index in sessions.index:
         if not pd.isnull(sessions.at[index, 'Time schedule']):
             schedule_time = sessions.at[index, 'Time schedule']
         title = sessions.at[index, 'English Title']
+
+        # map the session type
+        session_type = session_types_dictionary.get(sessions.at[index, 'Type'])
+
         # update the track information
         track = tracks_dictionary.get(sessions.at[index, 'Category'])
         speakers = remove_speakers_email(sessions.at[index, 'Speaker(s)'])
         abstract = sessions.at[index, "English Abstract"]
+        speaker_bios = sessions.at[index, "English Bios"]
         markdown_en_file.write(mate_data.format(title,
                                                 schedule_time,
                                                 track,
                                                 speakers,
-                                                sessions.at[index, 'Type']))
+                                                session_type))
         markdown_en_file.write(abstract)
+        markdown_en_file.write("\n ### Speakers: \n ")
+        markdown_en_file.write(speaker_bios)
         markdown_en_file.close()
 
         if not pd.isnull(sessions.at[index, 'Chinese Title']):
             title = sessions.at[index, 'Chinese Title']
         if not pd.isnull(sessions.at[index, "Chinese Abstract"]):
             abstract = sessions.at[index, "Chinese Abstract"]
+        if not pd.isnull(sessions.at[index, "Chinese Bios"]):
+            speaker_bios = sessions.at[index, "Chinese Bios"]
+
+        # map the session type
+        session_zh_type = session_types_chinese_dictionary.get(sessions.at[index, 'Type'])
+
         markdown_zh_file.write(mate_data.format(title,
                                                 schedule_time,
                                                 track,
                                                 speakers,
-                                                sessions.at[index, 'Type']))
+                                                session_zh_type))
         markdown_zh_file.write(abstract)
+        markdown_zh_file.write("\n ### 讲师: \n ")
+        markdown_zh_file.write(speaker_bios)
         markdown_zh_file.close()
