@@ -6,14 +6,13 @@ theme = "apachecon"
 uglyURLs = true
 #hasCJKLanguage = true
 enableRobotsTXT = true
-googleAnalytics = "G-FHFFJCFDG9"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 
 [params]
   author = "ALC-Beijing"
-  description = "Welconme to Apache Con Asia 2021"
+  description = "Welcome to Apache Con Asia 2021"
   keywords = ["ApacheCon","ApacheConAsia","ApacheConAsia2021"]
 
 [languages.en]
