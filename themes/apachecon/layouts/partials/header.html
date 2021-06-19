@@ -10,10 +10,10 @@
         gtag('js', new Date());
         gtag('config', 'UA-192418729-1');
     </script>
-    <title>ApacheCon Asia</title>
+    <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}} - {{ $.Site.Title }}{{end}} - Powered by {{$.Site.Params.author}}</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
+    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+    <meta name="keywords" content="{{if .IsHome}}{{ delimit $.Site.Params.keywords ", " }}{{else}}{{ delimit .Keywords ", " }}{{end}}" />
 
     <meta property='og:title' content='ApacheCon Asia'/>
     <meta property='og:url' content='//apachecon.com/acasia2021'/>
