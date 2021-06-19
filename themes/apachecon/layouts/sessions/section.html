@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 {{ partial "header.html" . }}
 <body>
 
@@ -13,30 +13,41 @@
 
         <!-- Content -->
         <div id="content" class="container">
-            <section>
+            <br>
                 <header class="major">
                     <h2>{{.Title}}</h2>
                 </header>
 
                 {{ $day := "" }}
                 {{ $time := "" }}
+                {{ $day2 := "0001-01-01" }}
+                {{ $day1 := "2021-08-06" }}
                 {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
-                {{ $pageDay := dateFormat "2006-01-02" .Date }}
-                {{ $pageTime := dateFormat "15:04 GMT+8" .Date }}
+                    {{ $pageDay := dateFormat "2006-01-02" .Date }}
+                    {{ $pageTime := dateFormat "15:04 GMT+8" .Date }}
 
-                {{ if eq $pageDay $day }}
-                    {{if eq $pageTime $time}}
+                    {{ if eq $pageDay $day }}
+                        {{if eq $pageTime $time}}
+                        {{else}}
+                            <h3>{{$pageTime}}</h3>
+                        {{end}}
+
+                        <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
+                        <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
                     {{else}}
-                    <h3>{{$pageTime}}</h3>
-                    {{end}}
-                    <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
-                    <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
-                {{else}}
-                <h2>{{ $pageDay }}</h2>
+                        {{ if eq $pageDay $day2 }}
+                        {{else}}
+                        {{ if eq $pageDay $day1 }}
+                        {{else}}
+                            </br>
+                        {{end}}
+                            <h2>{{ $pageDay }}</h2>
+                            <h3>{{$pageTime}}</h3>
+                        {{end}}
 
-                {{end}}
-                {{ $day = $pageDay }}
-                {{ $time = $pageTime }}
+                    {{end}}
+                    {{ $day = $pageDay }}
+                    {{ $time = $pageTime }}
                 {{end}}
 
 
