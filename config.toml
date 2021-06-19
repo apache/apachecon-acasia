@@ -4,9 +4,17 @@ title = "ApacheCon Asia 2021"
 theme = "apachecon"
 # When enabled, creates URL of the form /filename.html instead of /filename/.
 uglyURLs = true
+#hasCJKLanguage = true
+enableRobotsTXT = true
+googleAnalytics = "G-FHFFJCFDG9"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
+
+[params]
+  author = "ALC-Beijing"
+  description = "Welconme to Apache Con Asia 2021"
+  keywords = ["ApacheCon","ApacheConAsia","ApacheConAsia2021"]
 
 [languages.en]
 languageName = "English"
