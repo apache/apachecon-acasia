@@ -19,6 +19,8 @@
                     <h2>{{i18n "tracks"}}</h2>
                 </header>
 
+                {{$language:=i18n "translation"}}
+                {{$English:="English"}}
                 <ul>
                     <li class="track-head">
                         <span class="track-title">Tracks</span>
@@ -32,6 +34,13 @@
                         <!-- @TODO: information of the track chair, link would be better -->
                     </li>
                     {{end}}
+
+                    {{ if eq $language $English }}
+                        <li><a href="zh/sessions.html">{{i18n "sessions"}}</a></li>
+                    {{else}}
+                        <li><a href="sessions.html">{{i18n "sessions"}}</a></li>
+                    {{end}}
+
                 </ul>
 
 
