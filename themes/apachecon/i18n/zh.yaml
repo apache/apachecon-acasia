@@ -4,5 +4,9 @@ trackchairs:
 track:
   other: 议题
 
+sessions:
+  other: 会议列表
+
 translation:
   other: English
+

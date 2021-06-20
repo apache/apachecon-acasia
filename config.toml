@@ -33,13 +33,3 @@ weight = -100
 name = "会议日程"
 url = "zh/tracks.html"
 weight = -100
-
-[[languages.en.menu.main]]
-name = "Sessions"
-url = "/sessions.html"
-weight = -60
-
-[[languages.zh.menu.main]]
-name = "会议"
-url = "zh/sessions.html"
-weight = -60

@@ -19,15 +19,26 @@
                     <h2>{{i18n "tracks"}}</h2>
                 </header>
 
+                {{$language:=i18n "translation"}}
+                {{$English:="English"}}
                 <ul>
                     {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
                     <li><a href="{{.Permalink}}">{{.Title}}</a> {{i18n "trackchairs"}} : {{.Params.trackchairs}}</li>
                     {{end}}
+
+                    {{ if eq $language $English }}
+                        <li><a href="zh/sessions.html">{{i18n "sessions"}}</a></li>
+                    {{else}}
+                        <li><a href="sessions.html">{{i18n "sessions"}}</a></li>
+                    {{end}}
+
                 </ul>
+
 
             </section>
         </div>
     </div>
+
 
     {{ partial "footer.html" . }}
 
