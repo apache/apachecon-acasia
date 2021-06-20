@@ -20,6 +20,8 @@
 
                 {{ $day := "" }}
                 {{ $time := "" }}
+                {{ $day1 := "0001-01-01" }}
+                {{ $day2 := "2021-08-06" }}
                 {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
                 {{ $pageDay := dateFormat "2006-01-02" .Date }}
                 {{ $pageTime := dateFormat "15:04 GMT+8" .Date }}
@@ -29,10 +31,20 @@
                     {{else}}
                     <h3>{{$pageTime}}</h3>
                     {{end}}
+
                     <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
                     <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
                 {{else}}
-                <h2>{{ $pageDay }}</h2>
+                    {{ if eq $pageDay $day1 }}
+                    {{else}}
+
+                    {{ if eq $pageDay $day2 }}
+                    {{else}}
+                        </br>
+                    {{end}}
+                        <h2>{{ $pageDay }}</h2>
+                        <h3>{{$pageTime}}</h3>
+                    {{end}}
 
                 {{end}}
                 {{ $day = $pageDay }}
