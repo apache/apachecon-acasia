@@ -23,6 +23,8 @@
 
     {{ $style := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ $acasia2021 := resources.Get "scss/acasia2021.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $acasia2021.Permalink }}">
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.dropotron.min.js"></script>
