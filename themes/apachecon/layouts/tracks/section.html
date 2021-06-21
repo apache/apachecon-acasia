@@ -27,8 +27,8 @@
                     {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
                     <li class="bg-{{mod $page_index 2}}">
                         <!-- <span class="track-window">}</span> @TODO: track window -->
-                        <span class="track-title" style=""><a href="{{.Permalink}}" title="{{.Title}} - {{.Params.trackchairs}}">{{.Title}}</a></span>
-                        <span class="track-chair" style="">{{.Params.trackchairs}}</span> 
+                        <span class="track-title"><a href="{{.Permalink}}" title="{{.Title}} - {{.Params.trackchairs}}">{{.Title}}</a></span>
+                        <span class="track-chair">{{.Params.trackchairs}}</span>
                         <!-- @TODO: information of the track chair, link would be better -->
                     </li>
                     {{end}}
