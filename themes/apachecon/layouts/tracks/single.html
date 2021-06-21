@@ -29,10 +29,11 @@
                         {{ $pageDay := dateFormat "2006-01-02" .Date }}
                         {{ if eq $pageDay $day }}
                     <p>
-                        <!-- @TODO: to session list of the day -->
+                        <!-- @TODO: link to session list of the day -->
                         <span>{{dateFormat "15:04 GMT+8" .Date}}</span>
                         <a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a>
                         <sub>{{.Params.stype}}</sub>
+                        <!-- @TODO: link to info page of the speaker -->
                         <span>{{if .Params.speaker}} {{.Params.speaker}} {{else}} {{.Params.presenters}} {{end}}</span>
                     </p>
                         {{else}}
