@@ -14,16 +14,24 @@
 
         <!-- Content -->
         <div id="content" class="container">
-            <section>
+            <section class="track">
                 <header class="major">
                     <h2>{{i18n "tracks"}}</h2>
                 </header>
 
                 <ul>
+                    <li class="track-head">
+                        <span class="track-title">Tracks</span>
+                        <span class="track-chair">{{i18n "trackchairs"}}</span>
+                    </li>
                     {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
-                    <li><a href="{{.Permalink}}">{{.Title}}</a> {{i18n "trackchairs"}} : {{.Params.trackchairs}}</li>
+                    <li class="bg-{{mod $page_index 2}}">
+                        <!-- <span class="track-window">}</span> @TODO: track window -->
+                        <span class="track-title" style=""><a href="{{.Permalink}}" title="{{.Title}} - {{.Params.trackchairs}}">{{.Title}}</a></span>
+                        <span class="track-chair" style="">{{.Params.trackchairs}}</span> 
+                        <!-- @TODO: information of the track chair, link would be better -->
+                    </li>
                     {{end}}
-
                 </ul>
 
 
