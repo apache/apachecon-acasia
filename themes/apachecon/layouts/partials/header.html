@@ -15,7 +15,7 @@
     <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
     <meta name="keywords" content="{{if .IsHome}}{{ delimit $.Site.Params.keywords ", " }}{{else}}{{ delimit .Keywords ", " }}{{end}}" />
 
-    <meta property='og:title' content='ApacheCon Asia'/>
+    <meta property='og:title' content='{{ if .Title}}{{.Title}}{{else}}{{ $.Site.Title }}{{end}}'/>
     <meta property='og:url' content='//apachecon.com/acasia2021'/>
     <base href="{{.Site.BaseURL}}"/>
     <!--[if lte IE 8]>
