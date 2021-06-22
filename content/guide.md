@@ -5,18 +5,22 @@ menu:
       weight: 40
 ---
 
-## Step 1: Create a PowerPoint presentation
-Please make sure to use the PPT template provided by the conference organizers to create your presentation PPT
+## Step 1: Create a presentation slides
+Please use the PPT template provided by the conference organizers to create your presentation slides
 Download the PPT template at
 http://apachecon.com/acasia2021/Template_ApacheCon_Asia.pptx
 
-## Advice for writing PPT
+* The Keynote session is expected to be a pre-recorded video for up to 30 minutes.
+* The General session is expected to be a pre-recorded video for up to 40 minutes.
+
+
+## Advice for writing slides
 1. A good presentation should be clear, logical, focused and well thought out.
-2. In the PPT, the text should be as concise as possible and accompanied by corresponding pictures, which should fit the theme and should not be fancy or colourful.
+2. In the presentation slides, the text should be as concise as possible and accompanied by corresponding pictures, which should fit the theme and should not be fancy or colourful.
 3. Use bold, italic, underline and large font size to highlight the key points you want to express and make it more intuitive for the viewer to understand what you mean.
 
 ## Step 2: Rehearse before recording
-It is recommended that you carry out several rehearsals before the official recording, with the PPT file for the presentation, to repeat the incoherent and un-fluent parts of it, and to revise the PPT in time if there are any logical irregularities or mistakes.
+It is recommended that you carry out several rehearsals before the official recording, with the slides file for the presentation, to repeat the incoherent and un-fluent parts of it, and to revise the slides in time if there are any logical irregularities or mistakes.
 
 ## Step 3: Commissioning the equipment before the formal recording
 1. The specific operations are as follows.
@@ -42,8 +46,8 @@ As there are multiple speakers to deliver the speech in the same session, it is 
 2. Check the sound quality, there can be a current floor noise, but no obvious noise (e.g. flipping books, dragging chairs, car horns, birds chirping, etc.)
 3. Check that the picture is 1920\*1080 pixels and that the ratio is windows16:9 or mac16:10.
 4. The video frame rate is not less than 30fps (right click on the mouse and check "Details" in "Properties") and the picture must not be jagged or faint.
-5. Audio is in stereo, no mono and stereo crossover.
 
 ## Step 6: Video delivery
 Once the self-test properties are met, please upload the video to a web drive and deliver the recorded file to Track Chair by sharing the link.
+
 Track Chair will provide you with feedback on any problems with the video, so please correct them if necessary.
