@@ -7,7 +7,7 @@ menu:
 ## 第一步：制作演讲幻灯片
 请使用大会主办方提供的 PPT 模板制作演讲幻灯片
 PPT模板下载地址：
-http://apachecon.com/acasia2021/Template_ApacheCon_Asia.pptx
+https://apachecon.com/acasia2021/Template_ApacheCon_Asia.pptx
 
 * 主题演讲的录像时间不超过 30 分钟。
 * 常规演讲的录像时间不超过 40 分钟。

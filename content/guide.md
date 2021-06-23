@@ -8,7 +8,7 @@ menu:
 ## Step 1: Create a presentation slides
 Please use the PPT template provided by the conference organizers to create your presentation slides
 Download the PPT template at
-http://apachecon.com/acasia2021/Template_ApacheCon_Asia.pptx
+https://apachecon.com/acasia2021/Template_ApacheCon_Asia.pptx
 
 * The Keynote session is expected to be a pre-recorded video for up to 30 minutes.
 * The General session is expected to be a pre-recorded video for up to 40 minutes.
