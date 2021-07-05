@@ -4,8 +4,8 @@
 from xml.dom.minidom import parse
 from pypinyin import lazy_pinyin
 import xml.dom.minidom
-import csv
 import openpyxl
+import csv
  
  # 首先定义一个CSV文件
 head =["row","pic","zh_name","en_name","mail","session"]
