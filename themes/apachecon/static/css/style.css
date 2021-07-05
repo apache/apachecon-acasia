@@ -508,6 +508,18 @@ h4 > a:hover::after {
 			color: white;
 		}
 
+		.wrapper.style3 a {
+			cursor: pointer;
+			/* color: #db1d86; */
+			color:#ebb145;
+			text-decoration: underline;
+		}
+		.wrapper.style3 a:hover {
+			cursor: pointer;
+			color:#ebb145;
+			background: #5a4400;
+		}
+
 			.wrapper.style3 .container {
 				padding-left: 6em;
 				padding-right: 6em;
