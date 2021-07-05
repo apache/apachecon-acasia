@@ -28,13 +28,13 @@
 	}
 
 	a {
-        color: black;
-		text-decoration: none;
+        color: #9e2165;
+		text-decoration: underline;
 	}
 
 	a:hover {
         cursor: pointer;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 	strong, b {
@@ -716,6 +716,11 @@ h4 > a:hover::after {
 	#main {
 		padding: 4em 0;
 	}
+
+		#main #content a:hover {
+			background: #f3e0ea;
+			cursor: pointer;
+		}
 
 		#main #content .major, #main #sidebar .major {
 			text-align: left;
