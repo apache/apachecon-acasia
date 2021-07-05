@@ -9,5 +9,5 @@ menu:
 
 注册是免费的，但如果你愿意，你可以在我们的三个可选的捐款级别之一注册，即10美元、20美元或50美元，以帮助支持该活动，以及Apache软件基金会。
 
-今天就点击下面链接注册吧！
-https://hopin.com/events/apachecon-asia-2021
+**今天就点击下面链接注册吧！
+https://hopin.com/events/apachecon-asia-2021**

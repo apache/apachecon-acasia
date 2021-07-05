@@ -9,5 +9,5 @@ menu:
 
 Registration is free, but if you wish you can register at one of our three optional donation levels, $10, $20, or $50, to help support the event, and the Apache Software Foundation.
 
-Register today through the below link!
-https://hopin.com/events/apachecon-asia-2021
+**Register today through the below link!
+https://hopin.com/events/apachecon-asia-2021**
