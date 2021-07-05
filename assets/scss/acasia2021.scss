@@ -81,3 +81,28 @@ section.track {
     }
 }
 
+
+section.sponsorship{
+    background:#ffffff;
+    text-align: center;
+    overflow: hidden;
+    dl{
+        padding-top: 2em;
+        overflow: auto;
+        dt{
+            padding-bottom: 1em;
+            font-size: 2em;
+        }
+        dd {
+            overflow: auto;
+            min-height: 100px;
+            line-height: 100px;
+            vertical-align: baseline;
+            img {
+                min-width: 100px;
+                max-width: 300px;
+                padding: 0 10px;
+            }
+        }
+    }
+}

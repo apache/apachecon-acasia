@@ -7,3 +7,14 @@ track:
 translation:
   other: English
 
+sponsorship_strategy:
+  other: 战略赞助
+
+sponsorship_platinum:
+  other: 白金赞助
+
+sponsorship_gold:
+  other: 金牌赞助
+
+sponsorship_media:
+  other: 战略合作媒体

@@ -6,3 +6,16 @@ tracks:
 
 translation:
   other: 中文
+
+sponsorship_strategy:
+  other: Strategic
+
+sponsorship_platinum:
+  other: Platinum
+
+sponsorship_gold:
+  other: Gold
+
+sponsorship_media:
+  other: Strategic Media
+
