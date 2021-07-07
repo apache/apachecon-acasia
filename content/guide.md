@@ -5,49 +5,63 @@ menu:
       weight: 40
 ---
 
-## Step 1: Create a presentation slides
-Please use the PPT template provided by the conference organizers to create your presentation slides
-Download the PPT template at
-https://apachecon.com/acasia2021/Template_ApacheCon_Asia.pptx
 
-* The Keynote session is expected to be a pre-recorded video for up to 30 minutes.
-* The General session is expected to be a pre-recorded video for up to 40 minutes.
+>This guide is asimplified version,  which aims to let you quickly understand the recording rules and important matters. 
+>For more detailed guide, please download: 
+>[apachecon_full_recording_guide](https://apachecon.com/acasia2021/video_guide_en_full.pdf)
 
 
-## Advice for writing slides
-1. A good presentation should be clear, logical, focused and well thought out.
-2. In the presentation slides, the text should be as concise as possible and accompanied by corresponding pictures, which should fit the theme and should not be fancy or colourful.
-3. Use bold, italic, underline and large font size to highlight the key points you want to express and make it more intuitive for the viewer to understand what you mean.
+# Step 1: Make a a presentation slide
 
-## Step 2: Rehearse before recording
-It is recommended that you carry out several rehearsals before the official recording, with the slides file for the presentation, to repeat the incoherent and un-fluent parts of it, and to revise the slides in time if there are any logical irregularities or mistakes.
+Please use the official template for PPT making.
+PPT template download:
 
-## Step 3: Commissioning the equipment before the formal recording
-1. The specific operations are as follows.
-2. Check whether the recording software and recording equipment are started normally
-3. Computer resolution 1920\*1080 in accordance with the aspect ratio Windows (16:9) or Mac (16:10)
-4. Video encoding: H264 (mac uses QuickTime to record mov format) Video recording resolution, computer screen resolution, and exported video resolution after editing, all three ratios should be consistent, resolution 1920\*1080 Frame rate 30 (FPS) Bit rate 1500 or more (this is not strictly required, subject to the actual video)
-5. Check desktop background, no other third party logo.
-7. Please turn off extraneous windows and panel pop-ups (e.g. recording software toolbar, etc.)
-Check the full-screen status, PPT and code editor, browser requires full-screen recording, browser should be displayed in full screen, zoom at least 125%
-8. Adjust the code compiler and browser.
-  * If you need to show the code when sharing, the code editor should be adjusted to a larger font size when recording, and the standard is 20-22 lines of code lines when the code editor is set to full screen. (The higher the resolution, the larger the corresponding font size, 1280\*720 corresponds to 24 characters, 1920\*1080 corresponds to 30 characters)
-  *  When demonstrating the effect of code in the browser console, use "Ctrl" + "+" to make the console font size larger (in short, as long as it can be resized to enlarge, for mobile viewing).
-9. Code folding: When the width of code or command statements exceeds the width of the editor and other interfaces, set the code to automatically fold to ensure that no scroll bars appear below the editor. For example, MySQL clients, linux commands, code writing, etc.
-10. The IDE can only be used with a white or black background, with a contrasting colour scheme.
-11. All active windows (e.g. PPT, IDE, emulator, browser, etc.) should be called up and opened at any time, and closed or minimised when you are finished, and either returned to the desktop after closing or minimising, or continue to open other windows in full screen (windows should not be stacked one on top of the other).
+[Template_ApacheCon_Asia.pptx](https://apachecon.com/acasia2021/Template_ApacheCon_Asia.pptx)
+* Keynote recording time is not more than 30 minute
+* Session recording time is not more than 40 minute
 
+# Step 2: Equipment/environment preparation before recording
+Pay attention to 5 key points:
+1. Computer resolution 1920x1080 in accordance with the aspect ratio Windows (16:9) or Mac (16:10)
+2. Close all irrelevant software or windows in advance, especially those with pop-up windows, to ensure that there is no personal or business privacy information on the desktop or relevant interface, and no other third-party logo
+3. To share the code, it is recommended that:
+    * Increase the font size, the standard is when the code editor is set to full screen, the code behavior is 20-22 lines
+    * IDE can only use white background or black background
+4. A good appearance. If earphones are needed, earmuffs are not recommended. Please use wireless earphones as much as possible.
+5. Please record your video in a quiet environment like a conference room or negotiate with the people around in advance to make sure there is no noise, personnel interference, frequent personnel walking and so on during the recording.
 
-## Step 4: Official recording
-As there are multiple speakers to deliver the speech in the same session, it is much easy to use [Zoom](https://www.zoom.us/) to record the session, as the speaker video could be appeared when the speaker is saying.
+# Step 3: Rehearse before recording
+1. It is recommended that you carry out several rehearsals before the official recording, with the slides file for the presentation, to repeat the incoherent and un-fluent parts of it, and to revise the slides in time if there are any logical irregularities or mistakes.
+2. f it is possible, we suggest that you ask your colleagues, family members or even professionals to rehearse twice and ask them to give some advice as audiences.
+3. **Before the official recording, you can simply record a paragraph and check the effect first:whether the output is correct, whether the voice is normal and whether the image and temperament are good. These are very important, please make sure all of  these problems before it is all done**
 
-## Step 5: Pre-delivery check
-1. Name the video in the following format: Name of sub-forum - Name of lecturer (e.g. Community & Culture - JiangBo)
+# Step 4:  Official recording
+## 4.1 Basic rules
+1. Keep your upper body properly in the middle of the screen, not too close or too far, such as the face close to the screen, the screen is almost occupied by the face, or all above your knees are in the screen.
+2. During the speech, make your eyes pay attention to the direction of the camera and have the feeling of looking at the audience.
+3. During the recording, your materials should be displayed on the full screen, and your own avatars should be displayed on the small screen in the upper right corner. If there are other participants, please hide them (if others do not open the video, please go to "Settings" >"Video" >"Meeting",select "Hide Non-video Participants"to hide participants who do not use video).
+
+    **The final effect can be as follows in two ways**:
+    <img src="images/alc_1.jpeg" width="800"/>
+        <img src="images/alc_2.jpeg" width="800"/>
+4. Because there is no audience interaction, you could not  get the feedback like live speech, so you must always pay attention to your voice-speed, rhythm and passion.
+5. Grasp the time. Please complete within the specified time.
+
+## 4.2 Recording tools
+We recommend using ZOOM to recording, for the ZOOM tutorial, see the download file in this articl head/end.
+
+**It will be okay if you have other tools that can achieve the similar effect.**
+
+# Step5: Pre-delivery check
+1. Name the video in the following format: Your name-Topicof your speech-Name of Track (e.g. JunxuChen- Speed limiting with Apache APISIX - API/Microservice)
 2. Check the sound quality, there can be a current floor noise, but no obvious noise (e.g. flipping books, dragging chairs, car horns, birds chirping, etc.)
-3. Check that the picture is 1920\*1080 pixels and that the ratio is windows16:9 or mac16:10.
-4. The video frame rate is not less than 30fps (right click on the mouse and check "Details" in "Properties") and the picture must not be jagged or faint.
+3. Check that the picture is 1920x1080 pixels and that the ratio is windows 16:9 or mac 16:10.
+4. The video frame rate is not less than 30fps (right click on the mouse and check “Details” in “Properties”) and the picture must not be jagged or faint.
 
-## Step 6: Video delivery
+# Step 6: Video delivery
 Once the self-test properties are met, please upload the video to a web drive and deliver the recorded file to Track Chair by sharing the link.
 
 Track Chair will provide you with feedback on any problems with the video, so please correct them if necessary.
+
+For more detailed guide, please download: 
+[apachecon_full_recording_guide](https://apachecon.com/acasia2021/video_guide_en_full.pdf)
