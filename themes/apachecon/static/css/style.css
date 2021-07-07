@@ -28,13 +28,13 @@
 	}
 
 	a {
-        color: black;
-		text-decoration: none;
+        color: #9e2165;
+		text-decoration: underline;
 	}
 
 	a:hover {
         cursor: pointer;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 	strong, b {
@@ -508,6 +508,18 @@ h4 > a:hover::after {
 			color: white;
 		}
 
+		.wrapper.style3 a {
+			cursor: pointer;
+			/* color: #db1d86; */
+			color:#ebb145;
+			text-decoration: underline;
+		}
+		.wrapper.style3 a:hover {
+			cursor: pointer;
+			color:#ebb145;
+			background: #5a4400;
+		}
+
 			.wrapper.style3 .container {
 				padding-left: 6em;
 				padding-right: 6em;
@@ -716,6 +728,11 @@ h4 > a:hover::after {
 	#main {
 		padding: 4em 0;
 	}
+
+		#main #content a:hover {
+			background: #f3e0ea;
+			cursor: pointer;
+		}
 
 		#main #content .major, #main #sidebar .major {
 			text-align: left;
