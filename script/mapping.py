@@ -1,5 +1,5 @@
-# 将ApacheConAsia讲师信息收集表.xlsx、ApacheConSessions.xlsx、drawing1.xml文件放到项目根目录
-# 将会在根目录生成mapping.csv文件
+# Put the ApacheConAsia讲师信息收集表.xlsx、ApacheConSessions.xlsx、drawing1.xml file in the project root directory
+# will be generated in the root directory mapping.csv file
 
 from xml.dom.minidom import parse
 from pypinyin import lazy_pinyin
@@ -8,57 +8,56 @@ import openpyxl
 import csv
 
  
- # 首先定义一个CSV文件
+ # First, define a CSV file
 head =["collect_row","pic","zh_name","en_name","position","track","title","mail","sessions_row"]
 with open("./mapping.csv","a+",encoding="utf-8",newline="") as f:
    csvf=csv.writer(f)
    csvf.writerow(head)
 
-# 使用minidom解析器打开 XML 文档
+# Using minidom parser to open XML document
 DOMTree = xml.dom.minidom.parse("./drawing1.xml")
 
-#打开execl文件
+# Open the EXECL file
 collect=openpyxl.load_workbook("./ApacheConAsia讲师信息收集表.xlsx")
 session=openpyxl.load_workbook("./ApacheConSessions.xlsx")
 
-# 在集合中获取数据
+# Getting data in a collection
 collection = DOMTree.documentElement
 twoCellAnchors = collection.getElementsByTagName("xdr"+":"+"twoCellAnchor")
 
-# 取两个固定符号之间的字符串
+# Take the string between two fixed symbols
 def get_str_btw(str,begin,end):
    par=str.partition(begin)
    return (par[2].partition(end))[0][:]
 
-# 获取row和pic
+# Get row and pic
 for twoCellAnchor in twoCellAnchors:
  
-   # 获取到row
+   # Get row
    from1 = twoCellAnchor.getElementsByTagName('xdr'+':'+'to')[0]
    row1=from1.getElementsByTagName('xdr'+':'+'row')[0]
    row=int(row1.childNodes[0].data)
 
-   # 获取到pic
+   # Get pic
    pic = twoCellAnchor.getElementsByTagName('xdr'+':'+'pic')[0]
    blipFill = pic.getElementsByTagName('xdr'+':'+'blipFill')[0]
    blip = blipFill.getElementsByTagName('a'+':'+'blip')[0]
    if blip.hasAttribute("r"+":"+"embed"):
       pic="picture"+(blip.getAttribute("r"+":"+"embed"))[3:]
 
-   # 获取活跃的表对象
+   # Gets the active table object
    collect_active=collect.active
    session_active=session.active
 
-   # 获取讲师姓名、职位、track、演讲主题、邮箱
+   # Get the name, position, track and email address of the lecturer
    zh_name=collect_active.cell(row,3).value
    position=collect_active.cell(row,6).value
    track=collect_active.cell(row,9).value
-   #title=collect_active.cell(row,4).value
    mail=collect_active.cell(row,10).value
 
-   # 判断是否为中文名字
+   # Judge whether it is a Chinese name
    if '\u4e00' <=zh_name <='\u9fff':
-      # 将中文姓名转化成英文名
+      # Translate Chinese name into English name
       name_list=lazy_pinyin(zh_name)
       xin=name_list[0]
       ming_list=name_list[1:]
@@ -69,7 +68,8 @@ for twoCellAnchor in twoCellAnchors:
    else:
       en_name=zh_name
 
-   # 根据收集表得到的mail，从session表中查找到对应行,若没有对应行，返回0
+   # According to the mail from the collection table, find the corresponding row from the session table. 
+   # If there is no corresponding row, return 0
    flag=False
    for cell1 in session_active['J']:
       str=cell1.value
@@ -85,15 +85,10 @@ for twoCellAnchor in twoCellAnchors:
       session_row=0
       title=collect_active.cell(row,4).value       
 
-   # 将数据写入CSV文件
+   # Write data to a CSV file
    data=[
       (row,pic,zh_name,en_name,position,track,title,mail,session_row)
    ]
    with open("./mapping.csv","a+",encoding="utf-8",newline="") as f:
       csvf=csv.writer(f)
       csvf.writerows(data)
-
-
-
-
-   

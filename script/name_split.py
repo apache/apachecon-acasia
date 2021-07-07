@@ -1,7 +1,7 @@
 # Put the 活动行名单.xlsx file in the project root directory,will be generated in the root directory name_split.csv file
 
-import openpyxl
 import csv
+import openpyxl
 
  # First, define a CSV file
 head =["Email","FirstName","LastName"]
