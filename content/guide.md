@@ -6,8 +6,8 @@ menu:
 ---
 
 
->This guide is asimplified version,  which aims to let you quickly understand the recording rules and important matters. 
->For more detailed guide, please download: 
+>This guide is asimplified version,  which aims to let you quickly understand the recording rules and important matters.
+>For more detailed guide, please download:
 >[apachecon_full_recording_guide](https://apachecon.com/acasia2021/video_guide_en_full.pdf)
 
 
@@ -17,8 +17,8 @@ Please use the official template for PPT making.
 PPT template download:
 
 [Template_ApacheCon_Asia.pptx](https://apachecon.com/acasia2021/Template_ApacheCon_Asia.pptx)
-* Keynote recording time is not more than 30 minute
-* Session recording time is not more than 40 minute
+* Keynote recording time is not more than 30 minute. It is recommended that you limit your presentation to 25 minutes, taking into account overtures and Q&A.
+* Session recording time is not more than 40 minute. It is recommended that you limit your presentation to 35 minutes, taking into account overtures and Q&A.
 
 # Step 2: Equipment/environment preparation before recording
 Pay attention to 5 key points:
@@ -63,5 +63,5 @@ Once the self-test properties are met, please upload the video to a web drive an
 
 Track Chair will provide you with feedback on any problems with the video, so please correct them if necessary.
 
-For more detailed guide, please download: 
+For more detailed guide, please download:
 [apachecon_full_recording_guide](https://apachecon.com/acasia2021/video_guide_en_full.pdf)
