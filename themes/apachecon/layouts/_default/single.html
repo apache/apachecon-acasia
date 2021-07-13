@@ -32,6 +32,10 @@
         </div>
     </div>
 
+    {{ if eq .Params.identifier "sponsorship" }}
+    {{ partial "sponsorship.html" . }}
+    {{ end }}
+
     {{ partial "footer.html" . }}
 
 
