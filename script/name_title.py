@@ -36,17 +36,6 @@ def translateName_ch_en(zh_name):
       en_name=ming.capitalize()+" "+xin.capitalize()
    return (en_name)
 
-# Translate Chinese title into English title
-def translateTitle_ch_en(zh_title):
-   title_list=lazy_pinyin(zh_title)
-   title_first=title_list[0]
-   title_body_list=title_list[1:]
-   en_title=""
-   for i in title_body_list:
-      en_title=en_title+i
-   en_title=title_first.capitalize()+" "+en_title
-   return (en_title)
-
 # Gets the active table object
 session_active=session.active
 collect_active=collect.active
@@ -57,8 +46,7 @@ for cell1 in session_active['J']:
    mail_list=str.split(",")
    for i in mail_list:
       if row>1 :
-         session_mail=get_str_btw(i,'<','>')
-         
+         session_mail=get_str_btw(i,'<','>')  
          names=i.split(" <")
          zh_title=session_active.cell(row,7).value
          en_title=session_active.cell(row,6).value
@@ -85,7 +73,7 @@ for cell1 in session_active['J']:
                if position.value==zh_title or position.value==en_title:
                   zh_position=collect_active.cell(position.row,6).value
 
-                  # 中文翻译成英文
+                  # Translation from Chinese to English
                   translator=Translator(from_lang="chinese",to_lang="english")
                   en_position=translator.translate(zh_position)
                   flag=True
@@ -94,7 +82,6 @@ for cell1 in session_active['J']:
                zh_position=0
                en_position=0
             
-
             # Write data to a CSV file
             zh_data=[(zh_name,zh_title,track,zh_position)]
             en_data=[(en_name,en_title,track,en_position)]
