@@ -42,12 +42,12 @@ url = "zh/tracks.html"
 weight = -100
 
 [[languages.en.menu.main]]
-name = "search"
+name = "retrieval"
 url = "search.html"
-weight = -120
+weight = 0
 
 [[languages.zh.menu.main]]
-name = "搜索"
+name = "检索"
 url = "zh/search.html"
-weight = -120
+weight = 0
 

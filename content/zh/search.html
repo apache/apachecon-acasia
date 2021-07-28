@@ -1,5 +1,5 @@
 +++
-title = "搜索"
+title = "检索"
 #menu = "main"
 #weight = -80
 +++
@@ -55,7 +55,7 @@ title = "搜索"
   }
 </style>
 <div class="search" οnlοad="getTestXmlValue();">
-  <input type="text" placeholder="请输入搜索内容..." id="search-key" />
+  <input type="text" placeholder="请输入检索的内容..." id="search-key" />
   <button onclick="search()">
     <svg t="1583982313567" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1271"
       width="200" height="200" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -67,7 +67,7 @@ title = "搜索"
     </svg>
   </button>
 </div>
-<h1 id="search-tip" style="color: #c05b4d;text-align: center;display: none;">搜索中，请稍后 ...</h1>
+<h1 id="search-tip" style="color: #c05b4d;text-align: center;display: none;">检索中，请稍后...</h1>
 <br />
 <div id="result"></div>
 
@@ -91,7 +91,7 @@ title = "搜索"
     document.getElementById("search-key").value = "";
 
     // tip
-    document.getElementById("search-tip").innerText = "搜索中，请稍后 ...";
+    document.getElementById("search-tip").innerText = "检索中，请稍后 ...";
     document.getElementById("search-tip").style.display = "block";
 
     // clear
@@ -106,11 +106,7 @@ title = "搜索"
     xmltext.open("POST", "zh/index.xml", false);
     xmltext.send();
     resp = xmltext.responseXML;
-    
-    
-
     items = resp.getElementsByTagName("item");
-    //alert(items[0].getElementsByTagName("description")[1].innerHTML);
     // search
     var i = 0;
     haveResult = false;
@@ -128,7 +124,7 @@ title = "搜索"
       i++;
     }
     if (!haveResult) {
-      document.getElementById("search-tip").innerText = "搜索完毕，未发现结果 ...";
+      document.getElementById("search-tip").innerText = "检索完毕，未发现结果 ...";
       document.getElementById("search-tip").style.display = "block";
     }
   }

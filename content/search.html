@@ -1,5 +1,5 @@
 +++
-title = "search"
+title = "retrieval"
 #weight = -80
 +++
 
@@ -54,7 +54,7 @@ title = "search"
   }
 </style>
 <div class="search" οnlοad="getTestXmlValue();">
-  <input type="text" placeholder="Please enter the search content..." id="search-key" />
+  <input type="text" placeholder="Please enter the content to be retrieved..." id="search-key" />
   <button onclick="search()">
     <svg t="1583982313567" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1271"
       width="200" height="200" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -66,7 +66,7 @@ title = "search"
     </svg>
   </button>
 </div>
-<h1 id="search-tip" style="color: #c05b4d;text-align: center;display: none;">Searching, please wait...</h1>
+<h1 id="search-tip" style="color: #c05b4d;text-align: center;display: none;">Retrieving, please wait...</h1>
 <br />
 <div id="result"></div>
 
@@ -90,7 +90,7 @@ title = "search"
     document.getElementById("search-key").value = "";
 
     // tip
-    document.getElementById("search-tip").innerText = "Searching, please wait...";
+    document.getElementById("search-tip").innerText = "Retrieving, please wait...";
     document.getElementById("search-tip").style.display = "block";
 
     // clear
@@ -127,7 +127,7 @@ title = "search"
       i++;
     }
     if (!haveResult) {
-      document.getElementById("search-tip").innerText = "Search completed, no results found...";
+      document.getElementById("search-tip").innerText = "Retrieval completed, no results found...";
       document.getElementById("search-tip").style.display = "block";
     }
   }
