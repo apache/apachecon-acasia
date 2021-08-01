@@ -33,6 +33,9 @@
                     {{end}}
 
                     <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a> 
+                        {{if eq .Params.track "bigdata"}}
+                            (ROOM{{.Params.room}})
+                        {{end}}
                     <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
                     
                 {{else}}

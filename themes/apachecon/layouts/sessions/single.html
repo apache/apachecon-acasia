@@ -18,7 +18,10 @@
                 <header class="major">
                     <h3>{{.Title}}</h3>
                     <h4>{{.Params.presenters}}</h4>
-                    {{.Params.stype}}  {{dateFormat "2006-01-02 15:04 GMT+8" .Date}}
+                    {{.Params.stype}}  {{dateFormat "2006-01-02 15:04 GMT+8" .Date}}&nbsp;
+                    {{if eq .Params.track "bigdata"}}
+                        (ROOM{{.Params.room}})
+                    {{end}}
                     <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></li>
                 </header>
 
