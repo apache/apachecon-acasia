@@ -23,8 +23,11 @@
 
                 <article>{{.Content}}</article>
                 {{$fn := .File.TranslationBaseName}}
+                {{ $bigdata := "bigdata" }}
                 {{ $day := "" }}
                 {{ range $page_index, $page_val :=  sort .Site.Pages "Date" "asc" }}
+                {{if eq $bigdata .Params.track}}
+                {{else}}
                     {{if eq $fn .Params.track}}
                         {{ $pageDay := dateFormat "2006-01-02" .Date }}
                         {{ if eq $pageDay $day }}
@@ -46,7 +49,71 @@
                         {{ $day = $pageDay }}
                     {{end}}
                 {{end}}
+                {{end}}
                     </dd>
+
+                {{ range $page_index, $page_val :=  sort .Site.Pages "Date" "asc" }}
+                {{if eq $bigdata .Params.track}}
+                {{if eq "A" .Params.room}}
+                    {{if eq $fn .Params.track}}
+                        {{ $pageDay := dateFormat "2006-01-02" .Date }}
+                        {{ if eq $pageDay $day }}
+                           {{else}}
+                           {{if $day}}</dl>
+                           {{end}}
+                    <dl>
+                      <dt class="session-date" style="float: left;"><h3 class="lh-2em">{{ $pageDay }}</h3>
+                        <h3 class="lh-2em">ROOMA</h3>
+                    </dt>
+                      <dd class="session-list">
+                        {{end}}
+                        <p>
+                            <!-- @TODO: link to session list of the day -->
+                            <span>{{dateFormat "15:04 GMT+8" .Date}}</span>
+                            <a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a>
+                            <sub>{{.Params.stype}}</sub>
+                            <!-- @TODO: link to info page of the speaker -->
+                            <span>{{if .Params.speaker}} {{.Params.speaker}} {{else}} {{.Params.presenters}} {{end}}</span>
+                        </p>
+                        {{ $day = $pageDay }}
+                    {{end}}
+                {{end}}
+                {{end}}
+                {{end}}
+                    </dd>    
+            
+                {{ range $page_index, $page_val :=  sort .Site.Pages "Date" "asc" }}
+                {{if eq $bigdata .Params.track}}
+                {{if eq "B" .Params.room}}
+                    {{if eq $fn .Params.track}}
+                        {{ $pageDay := dateFormat "2006-01-02" .Date }}
+                        {{ if eq $pageDay $day }}
+                           {{else}}
+                           {{if $day}}</dl>
+                           {{end}}
+                    <dl>
+                      <dt class="session-date" style="float: left;"><h3 class="lh-2em">{{ $pageDay }}</h3>
+                        <h3 class="lh-2em">ROOMB</h3>
+                    </dt>
+                      <dd class="session-list">
+                        {{end}}
+                        <p>
+                            <!-- @TODO: link to session list of the day -->
+                            <span>{{dateFormat "15:04 GMT+8" .Date}}</span>
+                            <a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a>
+                            <sub>{{.Params.stype}}</sub>
+                            <!-- @TODO: link to info page of the speaker -->
+                            <span>{{if .Params.speaker}} {{.Params.speaker}} {{else}} {{.Params.presenters}} {{end}}</span>
+                        </p>
+                        {{ $day = $pageDay }}
+                    {{end}}
+                {{end}}
+                {{end}}
+                {{end}}
+                    </dd>  
+                
+                
+                    
             </section>
         </div>
     </div>
