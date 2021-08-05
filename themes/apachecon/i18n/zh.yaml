@@ -21,3 +21,18 @@ sponsorship_silver:
 
 sponsorship_media:
   other: 战略合作媒体
+
+search:
+  other: 检索
+
+searchContent:
+  other: 请输入检索的内容...
+
+searching:
+  other: 检索中，请稍后...
+
+searched:
+  other: 检索完毕，未发现结果...
+
+readMore:
+  other: 阅读更多

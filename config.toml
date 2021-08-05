@@ -40,3 +40,14 @@ weight = -100
 name = "会议日程"
 url = "zh/tracks.html"
 weight = -100
+
+[[languages.en.menu.main]]
+name = "retrieval"
+url = "/search.html"
+weight = 0
+
+[[languages.zh.menu.main]]
+name = "检索"
+url = "zh/search.html"
+weight = 0
+

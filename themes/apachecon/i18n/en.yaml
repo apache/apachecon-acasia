@@ -21,3 +21,18 @@ sponsorship_silver:
 
 sponsorship_media:
   other: Strategic Media
+
+search:
+  other: Retrieval
+
+searchContent:
+  other: Please enter the content to be retrieved...
+
+searching:
+  other: Retrieving, please wait...
+
+searched:
+  other: Retrieval completed, no results found...
+
+readMore:
+  other: Read more

@@ -1,0 +1,48 @@
+/* 手机适配 */
+@media screen and (max-width: 500px) {
+    .search{
+      padding-right: 25px;
+    }
+
+    .search input{
+      width: 100%;
+    }
+
+    .search button{
+      display: none;
+    }
+ }
+ /* 电脑适配 */
+ @media screen and (min-width: 500px) {
+     .search{
+       width: 500px;
+     }
+
+     .search input{
+       width: 444px;
+     }
+ }
+
+ /* 通用样式 */
+ .search{
+   margin: auto;
+ }
+
+ .search input{
+   outline: none;
+   border: 2px solid #c05b4d;
+   height: 32px;
+   padding: 10px;
+ }
+ .search button{
+   outline: none;
+   border: 0px;
+   height: 32px;
+   width:42px;
+   position:absolute;
+   background-color:#c05b4d ;
+ }
+ .search .icon{
+   width: 28px;
+   height: 28px;
+ }
