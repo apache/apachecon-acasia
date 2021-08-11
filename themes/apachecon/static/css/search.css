@@ -30,7 +30,7 @@
 
  .search input{
    outline: none;
-   border: 2px solid #c05b4d;
+   border: 2px solid #9E2165;
    height: 32px;
    padding: 10px;
  }
@@ -40,7 +40,7 @@
    height: 32px;
    width:42px;
    position:absolute;
-   background-color:#c05b4d ;
+   background-color:#9E2165;
  }
  .search .icon{
    width: 28px;

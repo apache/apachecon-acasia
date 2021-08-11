@@ -21,16 +21,8 @@
             <section class="track">
             <div class="search" οnlοad="getTestXmlValue();">
               <input type="text" placeholder="{{i18n "searchContent"}}" id="search-key" />
-              <input type="hidden" name="search_hidden" value="{{i18n "search"}}" id="search_hidden" />
               <button onclick="search()">
-                <svg t="1583982313567" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1271"
-                  width="200" height="200" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <defs>
-                    <style type="text/css"></style>
-                  </defs>
-                  <path d="M694.857143 475.428571q0-105.714286-75.142857-180.857142T438.857143 219.428571 258 294.571429 182.857143 475.428571t75.142857 180.857143T438.857143 731.428571t180.857143-75.142857T694.857143 475.428571z m292.571428 475.428572q0 29.714286-21.714285 51.428571t-51.428572 21.714286q-30.857143 0-51.428571-21.714286l-196-195.428571q-102.285714 70.857143-228 70.857143-81.714286 0-156.285714-31.714286t-128.571429-85.714286-85.714286-128.571428T36.571429 475.428571t31.714285-156.285714 85.714286-128.571428 128.571429-85.714286T438.857143 73.142857t156.285714 31.714286 128.571429 85.714286 85.714285 128.571428T841.142857 475.428571q0 125.714286-70.857143 228l196 196q21.142857 21.142857 21.142857 51.428572z"
-                    p-id="1272" fill="#ffffff"></path>
-                </svg>
+                <img class="icon" src="images/search.png">
               </button>
             </div>
             <h1 id="search-tip" style="color: #c05b4d;text-align: center;display: none;">{{i18n "searching"}}</h1>
@@ -74,15 +66,9 @@
     }
 
     // xml
-    var language="{{i18n "translation"}}";
-    //var language = document.getElementById("search_hidden").val();
-    //alert(language);
+    var language="{{i18n "translation"}}";;
     xmltext = new XMLHttpRequest;
-    if(language=="中文"){
-      xmltext.open("POST", "index.xml", false);
-    }else if(language=="English"){
-      xmltext.open("POST", "zh/index.xml", false);
-    }
+    xmltext.open("POST", "{{i18n "searchIndex"}}", false);
     
     xmltext.send();
     resp = xmltext.responseXML;
