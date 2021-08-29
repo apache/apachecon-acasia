@@ -1,9 +1,4 @@
----
-title: 演讲录像指导
-menu:
-   main:
-      weight: 40
----
+
 
 > 本指导是精简版本，旨在让大家快速了解录制的规则及重要事项，需要更详细的操作指导请大家点击下载：[演讲录像指导完整版.PDF](https://apachecon.com/acasia2021/video_guide_zh_full.pdf)
 

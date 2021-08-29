@@ -5,4 +5,4 @@ keywords: ApacheCon, ApacheAsiaCon, ApacheAsiaCon2021
 ---
 Join us from the comfort of your own home for three days of Apache project content across dozens of categories, from Big Data to Fintech to Search to Tomcat and more.
 
-Please check out [the conference schedule](tracks.html) and [register](https://hopin.com/events/apachecon-asia-2021) today!
+Please check out [the conference schedule](tracks.html) and [the conference videos](https://www.youtube.com/c/TheApacheFoundation/playlists?view=50&sort=dd&shelf_id=2).

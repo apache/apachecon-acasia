@@ -1,9 +1,3 @@
----
-title: 观众注册
-menu:
-   main:
-      weight: 20
----
 
 **[ApacheCon Asia 2021](https://apachecon.com/acasia2021/zh/)** 将在网上举行。所有的会议、赞助商展位和与会者的互动都将在 **[Hopin平台](https://hopin.com/) 上进行**。
 

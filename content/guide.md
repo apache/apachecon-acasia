@@ -1,9 +1,4 @@
----
-title:  VideoGuide
-menu:
-   main:
-      weight: 40
----
+
 
 
 >This guide is asimplified version,  which aims to let you quickly understand the recording rules and important matters.
