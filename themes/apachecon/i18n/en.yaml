@@ -39,3 +39,9 @@ readMore:
 
 searchIndex:
   other: index.xml
+
+prevPage:
+  other: Previous
+
+nextPage:
+  other: Next

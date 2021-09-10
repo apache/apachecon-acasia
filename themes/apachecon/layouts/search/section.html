@@ -16,8 +16,9 @@
           <!-- Content -->
           <div id="content" class="container">
             <header class="major">
-              <h2>{{i18n "search"}}</h2>
+              <h2>{{i18n "search"}}<span id="searchTitle"></span></h2>
           </header>
+
             <section class="track">
             <div class="search" οnlοad="getTestXmlValue();">
               <input type="text" placeholder="{{i18n "searchContent"}}" id="search-key" />
@@ -29,12 +30,83 @@
             <br />
             <div id="result"></div>      
           </section>
+                   
+            <div class="page_btn clear" id="pageCtl" style="display: none;">
+                <span class="page_box">                 
+                <ul id="pagination-clean"> 
+
+                  <li class="prev"><a>{{i18n "prevPage"}}</a></li>
+                  <input type="hidden" class="hidden"/>                 
+                    <span class="pageNum">                
+                        <span class="current_page">1</span>
+                        <span style="padding:0 3px;">/</span>
+                        <span class="total"></span>
+                    </span>
+                  <li class="next"><a>{{i18n "nextPage"}}</a></li>   
+                                                           
+                </ul>                     
+                </span>
+            </div>  
+
           </div>
       </div>
       
       {{ partial "footer.html" . }}
       
   </body>
+
+  <style>
+    
+    .page_btn {
+      float:left; 
+      position:relative; 
+      left:50%;
+    }
+
+    .page_btn a {
+        cursor: pointer;
+        padding: 5px;
+        border: solid 1px #ccc;
+        font-size: 12px·
+    }
+
+    .page_box {
+        float: right
+    }
+
+    .pageNum {
+        padding: 0 10px
+    }
+
+    #pagination-clean{
+      white-space: nowrap;
+      
+    }
+
+    #pagination-clean li{
+      display: inline-block;
+      border:0; margin:0; padding:0;
+      font-size:14px;
+    
+      margin-right:2px;
+    }
+
+    .selected{
+      font-weight:bold; 
+     background-color: #F3E0EA;
+    }
+
+    .highlightMark{
+      color: #9E2165;
+      font-weight:bold;
+    }
+
+    .post-title{
+      font-weight:bold;
+    }
+
+</style>
+
   <script type="text/javascript">
    // enter
   window.onload = function() {
@@ -48,6 +120,7 @@
 
   // search
   function search() {
+    
     key = document.getElementById("search-key").value;
     if (key === "") {
       return;
@@ -68,38 +141,50 @@
     // xml
     var language="{{i18n "translation"}}";;
     xmltext = new XMLHttpRequest;
-    xmltext.open("POST", "{{i18n "searchIndex"}}", false);
-    
+    xmltext.open("POST", "{{i18n "searchIndex"}}", false);   
     xmltext.send();
     resp = xmltext.responseXML;
-
     items = resp.getElementsByTagName("item");
     
     var i = 0;
+    
     haveResult = false;
     while (i < items.length) {
       txt = items[i].getElementsByTagName("title")[0].innerHTML + items[i].getElementsByTagName("description")[0].innerHTML;
     
-      if (txt.indexOf(key) > -1) {
+      if (txt.indexOf(key.toLowerCase()) > -1) {
+
         haveResult = true;
         title = items[i].getElementsByTagName("title")[0].innerHTML;
         link = items[i].getElementsByTagName("link")[0].innerHTML;
-        time = items[i].getElementsByTagName("pubDate")[0].innerHTML;
+        time = items[i].getElementsByTagName("pubDate")[0].innerHTML;        
+        // Highlight mark
         mark = items[i].getElementsByTagName("description")[0].innerHTML;
-        addItem(title, link, time, mark)
+        mark = mark.replace(new RegExp(key,'i'), "<span class='highlightMark'>"+key.slice(0,1).toUpperCase()+key.slice(1)+"</span>");
+
+        //  Filter data date：Mon, 01 Jan 0001 00:00:00 +0000
+        if(time != "Mon, 01 Jan 0001 00:00:00 +0000"){
+          addItem(title, link, time, mark)
+        }      
       }
-      i++;
+      i++;   
     }
+    
     if (!haveResult) {
       document.getElementById("search-tip").innerText = "{{i18n "searched"}}";
       document.getElementById("search-tip").style.display = "block";
+      document.getElementById("pageCtl").style.display = "none";
+    }else{
+      // Pagination display
+      document.getElementById("searchTitle").innerText = ":"+key;
+      page()
     }
   }
 
   // add
   function addItem(title, link, time, mark) {
     document.getElementById("search-tip").style.display = "none";
-    tmpl = "<article class=\"post\" style=\"border-bottom: 1px solid #e6e6e6;\" >" +
+    tmpl = "<article class=\"post\" style=\"border-bottom: 1px solid #e6e6e6;display: none\" >" +
       "<header class=\"post-header\">" +
       "<h1 class=\"post-title\"><a class=\"post-link\" href=\"" + link + "\" target=\"_blank\">" + title + "</a></h1>" +
       "<div class=\"post-meta\">" +
@@ -117,5 +202,96 @@
     div.innerHTML = tmpl;
     document.getElementById('result').appendChild(div)
   }
-  </script>
+ 
+  function page(){
+  
+    $(".search").remove();
+    $("#pageCtl").show();
+    var current_page = 5; // Data displayed per page
+    $("article").slice(0,current_page).show();
+    var total_q = $('article').size(); // Total data         
+    var current_num = 1; // Current number of pages
+    var total_page = Math.ceil(total_q / current_page); // PageCount
+    var next = $(".next"); // next page
+    var prev = $(".prev"); // previous page
+    $(".total").text(total_page); // Show total pages
+    $(".current_page").text(current_num);  //Displays the current number of pages
+
+    // Adds a page number based on the current number of pages
+    for (var i = total_page; i>=1; i--){
+      $('.hidden').after("<li class='tmp' value='"+i+"'><a>"+i+"</a></li>");      
+    }
+    // The first page is selected by default
+    $("#pagination-clean li").eq(1).addClass('selected');
+
+    // Click the page number to jump
+    $(".tmp").click(function () {  
+      var clickPage=$(this).val()  
+      current_num = clickPage
+      $(".current_page").text(current_num);
+      $(this).addClass("selected"); 
+      $.each($("article"), function (index, item) {
+          var start = current_page * (current_num - 1);
+          var end = current_page * current_num;
+          if (index >= start && index < end) {
+              $(this).show();
+          } else {
+              $(this).hide();
+          }
+      }) 
+  })
+
+    // next page
+    $(".next").click(function () {
+      if (current_num >= $(".total").text()) {   
+          $(".next").removeAttr('onclick');  
+          return false;
+        } else {
+            $(".current_page").text(++current_num);         
+            $.each($("article"), function (index, item) {
+                var start = current_page * (current_num - 1);
+                var end = current_page * current_num;
+                if (index >= start && index < end) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            })
+            $("#pagination-clean li").eq(current_num).siblings('li').removeClass('selected');
+           $("#pagination-clean li").eq(current_num).addClass('selected');
+        }
+    })
+
+    // previous page
+    $(".prev").click(function () {
+        if (current_num <= 1) {
+          $(".prev").removeAttr('onclick');
+          return false;
+        } else {
+            $(".current_page").text(--current_num);
+            $.each($("article"), function (index, item) {
+                var start = current_page * (current_num - 1);
+                var end = current_page * current_num;
+                if (index >= start && index < end) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            })  
+            $("#pagination-clean li").eq(current_num).siblings('li').removeClass('selected');
+            $("#pagination-clean li").eq(current_num).addClass('selected');          
+        }
+    })
+
+  // Page number selection
+  $("#pagination-clean li").click(function(){
+    if($(this).attr("class") != "next" & $(this).attr("class") != "prev"){
+      $(this).siblings('li').removeClass('selected');  // Delete styles for other sibling elements
+      $(this).addClass('selected');                    // Adds the style of the current element
+    }   
+  })
+
+}
+</script>
+
 </html>

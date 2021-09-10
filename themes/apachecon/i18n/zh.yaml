@@ -39,3 +39,9 @@ readMore:
 
 searchIndex:
   other: zh/index.xml
+
+prevPage:
+  other: 上一页
+
+nextPage:
+  other: 下一页
