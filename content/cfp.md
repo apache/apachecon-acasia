@@ -4,7 +4,7 @@ menu:
   main:
     weight: -300
 ---
-The call for presentations is now open! Submit proposals by **Tuesday, May 31st, 2021 8:00** AM (Beijing time - UTC +8). **Please do not wait until the last minute.**
+The call for presentations is now open! Submit proposals by **Tuesday, May 31st, 2022 8:00** AM (Beijing time - UTC +8). **Please do not wait until the last minute.**
 
 [Submit your talk proposal now!](https://shimo.im/forms/6ZTBLanjqW8pY3dj/fill?channel=website)
 
