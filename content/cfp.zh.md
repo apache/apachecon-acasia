@@ -22,7 +22,7 @@ menu:
 * [物联网 / 工业物联网](zh/tracks/iot.html)
 * [消息队列](zh/tracks/messaging.html)
 * [中间件](zh/tracks/middleware.html)
-* [可观察性](tracks/observability.html)
+* [可观察性](zh/tracks/observability.html)
 * [流处理](zh/tracks/streaming.html)
 * [调度 / 数据处理](zh/tracks/workflowdatagovernance.html)
 * [Web服务器](zh/tracks/webserverandtomcat.html)
