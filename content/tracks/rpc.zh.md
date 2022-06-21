@@ -1,5 +1,5 @@
 ---
-title: rpc
+title: RPC
 trackchairs: "刘军, 王伟冰"
 ---
 RPC（Remote Procedure Call）即远程过程调用，是用于解决分布式系统架构中的跨进程、跨主机通信问题的技术方案，是当今广泛运行的分布式系统背后的核心技术。随着云原生微服务架构的演进，RPC 开始扮演着更为重要的角色。
