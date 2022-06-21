@@ -1,5 +1,5 @@
 ---
-title: rpc
+title: RPC
 trackchairs: "Jun Liu, Weibing Wang"
 ---
 RPC (Remote Procedure Call) is one of the key solutions of the distributed architecture aiming to solve the cross-process and cross-host communication. It has been the core technology behind the widely running distributed system since the invention of distributed architecture and RPC. Standing in the era of Cloud Computing, especially the development of Microservices, Cloud Native, and other popular architectures, RPC began to play a more important role than ever before. 
