@@ -10,7 +10,7 @@
     {{ partial "smallpageheader.html" . }}
 
     <!-- Main -->
-    <div id="main" class="wrapper style4">
+    <div id="main" class="wrapper style4 page-session">
 
         <!-- Content -->
         <div id="content" class="container">
@@ -18,11 +18,18 @@
                 <header class="major">
                     <h3>{{.Title}}</h3>
                     <h4>{{.Params.presenters}}</h4>
-                    {{dateFormat "2006-01-02 15:04" .Date}}
-                    <a class="label" href="tracks/{{.Params.track}}.html">#{{.Params.track}}</a></li>
+                    {{.Params.stype}}  {{dateFormat "2006-01-02 15:04 GMT+8" .Date}}&nbsp;
+                    {{if eq .Params.track "bigdata"}}
+                        (ROOM : {{.Params.room}})
+                    {{end}}
+                    <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></li>
                 </header>
 
                 {{.Content}}
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src="{{.Params.speechLink}}"  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
 
             </section>
         </div>
@@ -32,4 +39,3 @@
 
 </body>
 </html>
-

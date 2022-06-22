@@ -2,7 +2,7 @@
 title: 会议赞助
 menu:
   main:
-    weight: -200
+    weight: -30
 ---
 
 自1998年以来--早在ASF成立之前--ApacheCon已经吸引了各个层次的参与者，在350多个Apache项目和他们不同的社区中探索 "明天的技术"。
@@ -13,4 +13,4 @@ Apache会议是全球Apache社区的主要聚会；将您的品牌与世界上�
 
 但不要相信我们的话，这里有[一些我们过去的赞助商](https://feathercast.apache.org/2016/05/09/why-did-you-sponsor-apachebigdata/)，谈论他们为什么赞助ApacheCon。
 
-[下载我们的赞助手册](https://www.apachecon.com/acasia2021/2021_ApacheCon_prospectus_zh.pdf)，让我们知道你将如何帮助Apache社区。如果您有任何问题，请联系 sponsor@apachecon.com。
+[下载我们的赞助手册](https://www.apachecon.com/acasia2022/2022_ApacheCon_Asia_prospectus_cn.pdf)，让我们知道你将如何帮助Apache社区。如果您有任何问题，请联系 sponsor@apachecon.com。

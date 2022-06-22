@@ -28,8 +28,13 @@
 	}
 
 	a {
-        color: black;
+        color: #9e2165;
 		text-decoration: underline;
+	}
+
+	a:hover {
+        cursor: pointer;
+		text-decoration: none;
 	}
 
 	strong, b {
@@ -456,7 +461,7 @@ h4 > a:hover::after {
 
 		.wrapper.style1 {
 			padding: 0em;
-			background: #1b1b1b url(../images/acasia2021-banner.png) no-repeat;
+			background: #1e0f5a url(../images/acasia2022-banner.png) no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -501,6 +506,18 @@ h4 > a:hover::after {
 			background: #282661;
 			text-align: center;
 			color: white;
+		}
+
+		.wrapper.style3 a {
+			cursor: pointer;
+			/* color: #db1d86; */
+			color:#ebb145;
+			text-decoration: underline;
+		}
+		.wrapper.style3 a:hover {
+			cursor: pointer;
+			color:#ebb145;
+			background: #5a4400;
 		}
 
 			.wrapper.style3 .container {
@@ -711,6 +728,11 @@ h4 > a:hover::after {
 	#main {
 		padding: 4em 0;
 	}
+
+		#main #content a:hover {
+			background: #f3e0ea;
+			cursor: pointer;
+		}
 
 		#main #content .major, #main #sidebar .major {
 			text-align: left;

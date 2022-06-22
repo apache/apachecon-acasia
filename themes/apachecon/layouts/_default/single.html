@@ -17,7 +17,7 @@
 
 
     <!-- Main -->
-    <div id="main" class="wrapper style4">
+    <div id="main" class="wrapper style4 page">
 
         <!-- Content -->
         <div id="content" class="container">
@@ -32,9 +32,12 @@
         </div>
     </div>
 
+    {{ if eq .Params.identifier "sponsorship" }}
+    {{ partial "sponsorship.html" . }}
+    {{ end }}
+
     {{ partial "footer.html" . }}
 
 
 </body>
 </html>
-

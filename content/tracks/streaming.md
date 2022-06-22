@@ -1,5 +1,6 @@
 ---
 title: Streaming
+trackchairs: "Yu Li"
 ---
 Streaming data processing is a big deal in big data these days, businesses crave ever-more timely insights into their data, and what was once a ‘batch’ mindset is quickly being replaced with stream processing. More and more companies, small and large, are rethinking their architecture with real-time context at the forefront, and starting to build their streaming platforms with powerful open source engines such as [Apache Flink](https://flink.apache.org/), [Apache Spark](https://spark.apache.org/), [Apache Kafka](https://kafka.apache.org/), [Apache Pulsar](https://pulsar.apache.org/), [Apache Storm](https://storm.apache.org/), etc.
 

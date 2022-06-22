@@ -3,23 +3,28 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192418729-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
         gtag('config', 'UA-192418729-1');
     </script>
-    <title>ApacheCon Asia</title>
+    <title>{{if .IsHome}}{{ $.Site.Title }}{{else}}{{.Title}} - {{ $.Site.Title }}{{end}} - Powered by {{$.Site.Params.author}}</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
+    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+    <meta name="keywords" content="{{if .IsHome}}{{ delimit $.Site.Params.keywords ", " }}{{else}}{{ delimit .Keywords ", " }}{{end}}" />
 
-    <meta property='og:title' content='ApacheCon Asia'/>
-    <meta property='og:url' content='//apachecon.com/acasia2021'/>
+    <meta property='og:title' content='{{ if .Title}}{{.Title}}{{else}}{{ $.Site.Title }}{{end}}'/>
+    <meta property='og:url' content='//apachecon.com/acasia2022'/>
     <base href="{{.Site.BaseURL}}"/>
     <!--[if lte IE 8]>
     <script src="css/ie/html5sh?iv.js"></script><![endif]-->
+
+    {{ $style := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ $acasia2021 := resources.Get "scss/acasia2021.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $acasia2021.Permalink }}">
+
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.dropotron.min.js"></script>
     <script src="js/skel.min.js"></script>
@@ -29,6 +34,7 @@
         <link rel="stylesheet" href="css/skel.css"/>
         <link rel="stylesheet" href="css/style.css"/>
     </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="css/ie/v8.css"/><![endif]-->
 </head>

@@ -1,0 +1,47 @@
+trackchairs:
+  other: 出品人
+
+track:
+  other: 议题
+
+translation:
+  other: English
+
+sponsorship_strategy:
+  other: 战略赞助
+
+sponsorship_platinum:
+  other: 白金赞助
+
+sponsorship_gold:
+  other: 金牌赞助
+
+sponsorship_silver:
+  other: 白银赞助
+
+sponsorship_media:
+  other: 战略合作媒体
+
+search:
+  other: 检索
+
+searchContent:
+  other: 请输入检索的内容...
+
+searching:
+  other: 检索中，请稍后...
+
+searched:
+  other: 检索完毕，未发现结果...
+
+readMore:
+  other: 阅读更多
+
+searchIndex:
+  other: zh/index.xml
+
+prevPage:
+  other: 上一页
+
+nextPage:
+  other: 下一页

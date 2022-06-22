@@ -13,4 +13,4 @@ Sponsors of past events include IBM, Comcast, Microsoft, Amazon, Google, Red Hat
 
 But don't take our word for it, here's [some of our past sponsors](https://feathercast.apache.org/2016/05/09/why-did-you-sponsor-apachebigdata/), talking about why they sponsor ApacheCon.
 
-[Download our sponsorship prospectus](https://www.apachecon.com/acah2021/2021_ApacheCon_prospectus.pdf) and let us know how you can help the Apache community. Contact sponsor@apachecon.com with any questions you may have.
+[Download our sponsorship prospectus](https://www.apachecon.com/acasia2022/2022_ApacheCon_Asia_prospectus.pdf) and let us know how you can help the Apache community. Contact sponsor@apachecon.com with any questions you may have.
