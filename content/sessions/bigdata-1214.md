@@ -17,8 +17,8 @@ By analyzing ETL SQL execution logic and various Filter conditions, determine wh
 2. An ODS table stores some confidential data in a complex structure. Through SQL analysis of the downstream table, it can identify whether the downstream table contains part of the data in the complex structure, and then identify the permission enlargement problem. For example, whether to contain the data of a key in the map
 3. Whether a confidential field has been desensitized
  ### Speakers: 
- <img src="images/speaker/1214.png" width="200" /><br>Shuai Han: Bytes Dance, Senior R&d Engineer, Bytedance - Senior R&D engineer of Big Data Computing Engine Group, with years of big data r&d experience. Familiar with SparkSQL, Hive, Calcite, Druid and other big data components.
+ <img src="images/speaker/1214.png" width="200" /><br>Shuai Han: Bytedance - Senior R&D engineer of Big Data Computing Engine Group, with years of big data r&d experience. Familiar with SparkSQL, Hive, Calcite, Druid and other big data components.
 
- <img src="images/speaker/1214_2.png" width="200" /><br>Ke Sun: Bytes Dance,, Senior R&d Engineer, Bytedance - Senior R&D engineer of Big Data Computing Engine Group, responsible for unified SQL query service, Hive metadata, permission service and big data security compliance, with years of experience in big data research and development. Familiar with various big data components such as SparkSQL, Hive, Hudi, Parquet and Calcite.
+ <img src="images/speaker/1214_2.png" width="200" /><br>Ke Sun: Bytedance - Senior R&D engineer of Big Data Computing Engine Group, responsible for unified SQL query service, Hive metadata, permission service and big data security compliance, with years of experience in big data research and development. Familiar with various big data components such as SparkSQL, Hive, Hudi, Parquet and Calcite.
 
  
