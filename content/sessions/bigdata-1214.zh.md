@@ -17,6 +17,8 @@ stype: "中文演讲"
 2. 某ODS表中以复杂结构存储了一些机密数据，通过对下游表进行SQL分析，识别出下游表是否包含复杂结构的一部分数据, 进而识别权限放大问题。例如，是否包含map中某一个key的数据等
 3. 某个机密字段是否已经完成脱敏
  ### Speakers: 
- <img src="images/speaker/1214.png" width="200" /><br>韩帅: 字节跳动, 高级研发工程师, 字节跳动-大数据计算引擎组 高级研发工程师, 拥有多年大数据研发经验。熟悉SparkSQL, Hive, Calcite, Druid等多种大数据组件。
- <img src="images/speaker/1214_2.png" width="200" /><br>孙科: 字节跳动, 高级研发工程师, 字节跳动-大数据计算引擎组 高级研发工程师, 负责统一 SQL 查询服务, Hive 元数据, 权限服务和大数据安全合规相关工作，拥有多年大数据研发经验，熟悉SparkSQL, Hive, Hudi, Parquet和Calcite等多种大数据组件。
+ <img src="images/speaker/1214.png" width="200" /><br>韩帅: 字节跳动-大数据计算引擎组 高级研发工程师, 拥有多年大数据研发经验。熟悉SparkSQL, Hive, Calcite, Druid等多种大数据组件。
+
+ <img src="images/speaker/1214_2.png" width="200" /><br>孙科: 字节跳动-大数据计算引擎组 高级研发工程师, 负责统一 SQL 查询服务, Hive 元数据, 权限服务和大数据安全合规相关工作，拥有多年大数据研发经验，熟悉SparkSQL, Hive, Hudi, Parquet和Calcite等多种大数据组件。
+
  
