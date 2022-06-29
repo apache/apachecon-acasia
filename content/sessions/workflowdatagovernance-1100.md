@@ -1,5 +1,5 @@
 ---
-title: "Data processing platform based on Apache Seatunnel"
+title: "oppo Data processing platform based on Apache Seatunnel"
 date: "" 
 track: "workflowdatagovernance"
 presenters: "范未太"
