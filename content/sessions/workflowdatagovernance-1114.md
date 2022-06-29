@@ -1,5 +1,5 @@
 ---
-title: "How can more people benefit from data processing"
+title: "How to make more people benefit from data processing in the bank"
 date: "" 
 track: "workflowdatagovernance"
 presenters: "陈卫"
