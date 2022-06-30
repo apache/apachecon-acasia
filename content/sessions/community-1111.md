@@ -1,5 +1,5 @@
 ---
-title: "From o&M to Tech-writer, how to understand the importance of documentation to open software area"
+title: "From O&M to Tech-Writer, how to understand the importance of documentation for open source software"
 date: "" 
 track: "community"
 presenters: "韩飞"
