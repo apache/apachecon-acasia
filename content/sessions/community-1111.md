@@ -1,5 +1,5 @@
 ---
-title: "From o&M to Tech-writer, how to understand the importance of documentation to open software area"
+title: "From O&M to Tech-Writer, how to understand the importance of documentation for open source software"
 date: "" 
 track: "community"
 presenters: "韩飞"
@@ -10,6 +10,6 @@ From operations to the change of technical writing, in fact, more can understand
 Open source software documentation not important? Want to know what features just look at the source code is bad? I believe that many developers will have these ideas, so standing in the perspective of operation and technical writing Humphrey, how to view this problem?
 Many people have heard of and participated in open source, but many people have the misconception that open source software is for developers, and non-developers are not allowed to participate in the open source community. This misconception leads many people to stop looking at open source. In this talk, Humphrey will focus on how to participate in the open source community from a documentation perspective, and how to contribute to the open source community in non-code ways.
  ### Speakers: 
- <img src="images/speaker/1111.png" width="200" /><br>Fei Han: Apache APISIX, Technical Documentation Engineer, At present, I am engaged in the official document writing of open source software Apache APISIX in API7.ai. Before, I participated in several offline Metaup meetings of QNAP South China and made speeches.
+ <img src="images/speaker/1111.png" width="200" /><br>Fei Han: Apache APISIX, Technical Documentation Engineer, At present, I am engaged in the official document writing of open source software Apache APISIX in API7.ai. Before, I participated in several offline Meetup meetings of QNAP South China and made speeches.
 
  
