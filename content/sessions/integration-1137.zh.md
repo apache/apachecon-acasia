@@ -1,5 +1,5 @@
 ---
-title: "骆驼K变成夸克斯土著"
+title: "CamelK与Quarkus融合"
 date: "" 
 track: "integration"
 presenters: "Pasquale Congiusti"
@@ -9,6 +9,6 @@ stype: "英文演讲"
 
 Pasquale将进行一个演示，通过各种“操作”，让您了解如何最好地操作运行在Kubernetes上的Camel K Quarkus本地应用程序。
  ### Speakers: 
- <img src="images/speaker/1137.png" width="200" /><br>Pasquale Congiusti: Apache APISIX, Red Hat, Pasquale自2019年起担任Red Hat的软件工程师。自2021年以来，他是Apache Camel的提交者，也是Camel K的活跃贡献者，该项目旨在简化云中的Camel应用程序开发。他经常为Apache Camel和Syndesis开源项目做出贡献。
+ <img src="images/speaker/1137.png" width="200" /><br>Pasquale Congiusti: Pasquale自2019年起担任Red Hat的软件工程师。自2021年以来，他是Apache Camel的提交者，也是Camel K的活跃贡献者，该项目旨在简化云中的Camel应用程序开发。他经常为Apache Camel和Syndesis开源项目做出贡献。
 
  

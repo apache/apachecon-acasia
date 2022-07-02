@@ -12,7 +12,7 @@ This session covers all the latest development of the Camel projects, and roadma
 
 During the session we will show quick demos of Camel.
  ### Speakers: 
- <img src="images/speaker/1141.png" width="200" /><br>Claus Ibsen: Apache APISIX, Red Hat, Claus Ibsen is an open-source enthusiast and software developer from Red Hat. He's co-leading the Apache Camel project, a project used for integration; which he has been working on full time for more than a decade.
+ <img src="images/speaker/1141.png" width="200" /><br>Claus Ibsen: Red Hat, Senior Principal Software Engineer, Claus Ibsen is an open-source enthusiast and software developer from Red Hat. He's co-leading the Apache Camel project, a project used for integration; which he has been working on full time for more than a decade.
 
 Claus is a member at Apache Software Foundation and a Java Champion.
 

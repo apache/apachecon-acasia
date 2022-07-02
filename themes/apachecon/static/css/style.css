@@ -602,10 +602,27 @@ h4 > a:hover::after {
 	}
 
 	.logo-img {
-    float: left;
-    position: relative;
-    margin: 20px 15px 15px 10px;
-}
+		float: left;
+		position: relative;
+		margin: 17px 15px 15px 10px;
+	}
+
+	@media screen and (max-width: 1100px) {
+		.logo-img {
+			margin-top: 15px;
+			transform: scale(0.5) translate(-150px, 0);
+		}
+	}
+
+	@media screen and (max-width: 920px) {
+		.container {
+			width: 100%;
+		}
+
+		.logo-img {
+			transform: scale(0.4) translate(-220px, 0);
+		}
+	}
 
 		#nav > ul {
 			margin: 0;
@@ -616,17 +633,21 @@ h4 > a:hover::after {
 				display: inline-block;
 				margin-left: 0.5em;
 				padding: 0 0.5em;
-                text-transform: uppercase;
                 font-weight: 600;
+			}
+
+			@media screen and (max-width: 920px) {
+				#nav > ul > li {
+					margin-left: 0;
+					padding: 0 0.3em;
+				}
 			}
 
 				#nav > ul > li a {
 					color: inherit;
 					line-height: 4em;
-					letter-spacing: 2px;
 					text-decoration: none;
-					text-transform: uppercase;
-					font-weight: 600;
+					font-weight: 500;
 					font-size: 1em;
 				}
 

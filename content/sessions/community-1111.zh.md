@@ -1,5 +1,5 @@
 ---
-title: "从运维到 Tech-Writer，如何理解文档对于开软件区的重要性"
+title: "从运维到Tech-Writer，如何理解文档对于开源软件的重要性"
 date: "" 
 track: "community"
 presenters: "韩飞"
@@ -10,5 +10,6 @@ stype: "中文演讲"
 开源软件的文档不重要？想要知道什么功能只看源码不好吗？相信很多开发人员都会有这些想法，那么站在运维和技术写作的角度的韩飞，如何看待这一问题呢？
 很多人听过开源，也参与过开源，但是很多人会有这样的误区，开源软件是开发人员才能参与的，非开发人员是无法参与开源社区的。这个误区导致很多人望开源而止步。那么在本次演讲中，韩飞将从文档角度为着重大家介绍如何参与开源社区，并大家介绍以非代码方式为开源社区做贡献。
  ### Speakers: 
- <img src="images/speaker/1111.png" width="200" /><br>韩飞: Apache APISIX, 技术文档工程师, 目前在 API7.ai 从事开源软件 Apache APISIX 官方文档写作的工作，之前曾参与过 QNAP 华南多场线下 Metaup 并发表演讲。
+ <img src="images/speaker/1111.png" width="200" /><br>韩飞: Apache APISIX, 技术文档工程师, 目前在 API7.ai 从事开源软件 Apache APISIX 官方文档写作的工作，之前曾参与过 QNAP 华南多场线下 Meetup 并发表演讲。
+
  

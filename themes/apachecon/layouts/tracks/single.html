@@ -10,7 +10,7 @@
     {{ partial "smallpageheader.html" . }}
 
     <!-- Main -->
-    <div id="main" class="wrapper style4">
+    <div id="main" class="wrapper style4 page-session">
 
         <!-- Content -->
         <div id="content" class="container">
@@ -23,7 +23,7 @@
 
                 <article>{{.Content}}</article>
                 {{$fn := .File.TranslationBaseName}}
-                {{ $bigdata := "bigdata" }}
+                {{ $bigdata := "no_bigdata" }} <!--comment out the bigdata schedule logic-->
                 {{ $day := "" }}
                 {{ range $page_index, $page_val :=  sort .Site.Pages "Date" "asc" }}
                 {{if eq $bigdata .Params.track}}
@@ -53,7 +53,7 @@
                     </dd>
 
                 {{ range $page_index, $page_val :=  sort .Site.Pages "Date" "asc" }}
-                {{if eq $bigdata .Params.track}}
+                {{if eq $bigdata .Params.track}} 
                 {{if eq "A" .Params.room}}
                     {{if eq $fn .Params.track}}
                         {{ $pageDay := dateFormat "2006-01-02" .Date }}

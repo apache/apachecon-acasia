@@ -9,6 +9,6 @@ Cloud native development requires your microservices to have a small resource fo
 
 Pasquale will show a demo illustrating various "operational" aspects that will let you understand how best operate a Camel K Quarkus native application running on Kubernetes.
  ### Speakers: 
- <img src="images/speaker/1137.png" width="200" /><br>Pasquale Congiusti: Apache APISIX, Red Hat, Pasquale is a Software Engineer at Red Hat since 2019. He is Apache Camel committer since 2021 and active contributor of Camel K, an Apache Camel project which goal is to simplify Camel application developments in the Cloud. He often contributes to Apache Camel and Syndesis open source projects.
+ <img src="images/speaker/1137.png" width="200" /><br>Pasquale Congiusti: Pasquale is a Software Engineer at Red Hat since 2019. He is Apache Camel committer since 2021 and active contributor of Camel K, an Apache Camel project which goal is to simplify Camel application developments in the Cloud. He often contributes to Apache Camel and Syndesis open source projects.
 
  
