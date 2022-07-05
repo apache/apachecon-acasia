@@ -1,5 +1,5 @@
 ---
-title: "In this talk an extension of Apache Atlas’ data model and an alternative open source user interface is presented, which addresses non-technical users. In more detail, in this presentation the underlying extension of the data model is motivated and explained. Further, it is motivated which derived information is required by the business user to increase the usability. Next the open source backend functionality is explained and the underlying technologies are motivated. Finally, a short tutorial is provided on how to setup your own system with a related open source helm chart and explains how to get started."
+title: "An extension of Apache Atlas’ data model and an alternative open source user interface"
 date: "2022-07-29T14:10:00"
 track: "bigdata"
 presenters: "Wombacher, Andreas"
