@@ -2,6 +2,7 @@
 title: "摆脱主题元数据的限制，Apache Pulsar的无限数据保留"
 date: "2022-07-30T14:50:00"
 track: "messaging"
+room: "A"
 presenters: "Penghui Li"
 stype: "中文演讲"
 ---

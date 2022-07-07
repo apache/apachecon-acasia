@@ -2,6 +2,7 @@
 title: "基于 Zeppelin 的 Flink/Spark 云原生实践"
 date: "2022-07-29T16:10:00"
 track: "bigdata"
+room: "B"
 presenters: "陶克路,王正"
 stype: "中文演讲"
 ---

@@ -2,6 +2,7 @@
 title: "Practice of mobile Cloud RabbitMQ message queue in Openstack super scale application"
 date: "2022-07-31T17:30:00"
 track: "messaging"
+room: "B"
 presenters: "胡宗棠"
 stype: "Chinese Session"
 ---

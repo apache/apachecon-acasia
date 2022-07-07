@@ -2,6 +2,7 @@
 title: "大数据Python生态在传智教育的实践和思考"
 date: "2022-07-31T16:50:00"
 track: "bigdata"
+room: "B"
 presenters: "张敬存,赵晨杰"
 stype: "中文演讲"
 ---

@@ -2,6 +2,7 @@
 title: "How Tencent Applies ?Apache Pulsar to Apache InLong"
 date: "2022-07-31T16:50:00"
 track: "messaging"
+room: "B"
 presenters: "LinChen"
 stype: "Chinese Session"
 ---

@@ -2,6 +2,7 @@
 title: "小米基于 RocketMQ 搭建高可用在线消息平台实践"
 date: "2022-07-29T14:00:00"
 track: "messaging"
+room: "A"
 presenters: "王帆"
 stype: "中文演讲"
 ---

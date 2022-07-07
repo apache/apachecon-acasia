@@ -2,6 +2,7 @@
 title: "Apache SeaTunnel Next-generation data transmission system"
 date: "2022-07-30T15:30:00"
 track: "bigdata"
+room: "B"
 presenters: "谢磊"
 stype: "Chinese Session"
 ---

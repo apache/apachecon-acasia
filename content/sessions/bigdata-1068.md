@@ -2,6 +2,7 @@
 title: "Flink/Spark cloud native practices based on Zeppelin"
 date: "2022-07-29T16:10:00"
 track: "bigdata"
+room: "B"
 presenters: "陶克路,王正"
 stype: "Chinese Session"
 ---

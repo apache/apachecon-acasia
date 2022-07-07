@@ -2,6 +2,7 @@
 title: "EBay built the Unified & ServerLess Spark gateway practice based on Apache Kyuubi(Incubating)"
 date: "2022-07-29T14:50:00"
 track: "bigdata"
+room: "B"
 presenters: "王斐"
 stype: "Chinese Session"
 ---

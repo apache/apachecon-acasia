@@ -2,6 +2,7 @@
 title: "虎牙基于图数据的应用元数据平台实践"
 date: "2022-07-31T16:10:00"
 track: "bigdata"
+room: "A"
 presenters: "邹磊"
 stype: "中文演讲"
 ---

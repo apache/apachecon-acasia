@@ -1,7 +1,8 @@
 ---
 title: "消息驱动的轻量级计算在物流领域的应用"
-date: "2022-07-29T16:40:00"
+date: "2022-07-30T16:40:00"
 track: "messaging"
+room: "B"
 presenters: "王鑫"
 stype: "中文演讲"
 ---

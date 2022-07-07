@@ -2,6 +2,7 @@
 title: "Deep Dive into Message Chunking in Pulsar"
 date: "2022-07-30T16:10:00"
 track: "messaging"
+room: "A"
 presenters: "Zike Yang"
 stype: "Chinese Session"
 ---

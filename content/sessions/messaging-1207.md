@@ -2,6 +2,7 @@
 title: "Another Way for Intergrating Pulsar and Lakehouse: Connector for Sinking Pulsar Topic Data into the Lakehouse Storage"
 date: "2022-07-31T14:50:00"
 track: "messaging"
+room: "A"
 presenters: "Yong Zhang"
 stype: "Chinese Session"
 ---

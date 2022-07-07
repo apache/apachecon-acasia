@@ -2,6 +2,7 @@
 title: "在Kubernetes集群上使用Livy会话执行交互式数据工程工作负载"
 date: "2022-07-30T16:50:00"
 track: "bigdata"
+room: "B"
 presenters: "Anmol Chaturvedi, Haripriya Bendapudi, Praneet Sharma"
 stype: "英文演讲"
 ---

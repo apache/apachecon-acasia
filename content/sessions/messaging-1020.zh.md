@@ -1,7 +1,8 @@
 ---
-title: "朝着一个没有zookeeper的脉冲星"
+title: "朝着一个没有zookeeper的Pulsar前进"
 date: "2022-07-30T14:10:00"
 track: "messaging"
+room: "A"
 presenters: "David Kjerrumgaard"
 stype: "英文演讲"
 ---

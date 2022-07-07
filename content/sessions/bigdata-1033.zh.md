@@ -2,6 +2,7 @@
 title: "Apache Druid云原生架构演变"
 date: "2022-07-29T14:50:00"
 track: "bigdata"
+room: "A"
 presenters: "金嘉怡"
 stype: "中文演讲"
 ---

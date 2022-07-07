@@ -1,5 +1,5 @@
 ---
-title: "The practice and landing of the real-time computing data flow business engine based on Apache Flink in JINGdong Retail"
+title: "The practice and landing of the real-time computing data flow business engine based on Apache Flink in Jingdong Retail"
 date: "2022-07-29T15:30:00"
 track: "streaming"
 presenters: "ying zhang"

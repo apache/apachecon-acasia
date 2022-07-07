@@ -2,6 +2,7 @@
 title: "Get rid of topic metadata limitation for infinite data retention of Apache Pulsar"
 date: "2022-07-30T14:50:00"
 track: "messaging"
+room: "A"
 presenters: "Penghui Li"
 stype: "Chinese Session"
 ---

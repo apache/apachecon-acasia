@@ -2,6 +2,7 @@
 title: "eBay基于Apache Kyuubi(Incubating) 构建Unified & ServerLess Spark网关实践"
 date: "2022-07-29T14:50:00"
 track: "bigdata"
+room: "B"
 presenters: "王斐"
 stype: "中文演讲"
 ---

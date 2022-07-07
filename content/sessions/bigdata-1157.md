@@ -2,6 +2,7 @@
 title: "Apache Hive 4.0 Unreleased Features"
 date: "2022-07-30T16:50:00"
 track: "bigdata"
+room: "A"
 presenters: "Yan Liu"
 stype: "Chinese Session"
 ---

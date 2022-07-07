@@ -2,6 +2,7 @@
 title: "Xiaomi's practice of building a high availability online messaging platform based on RocketMQ"
 date: "2022-07-29T14:00:00"
 track: "messaging"
+room: "A"
 presenters: "王帆"
 stype: "Chinese Session"
 ---

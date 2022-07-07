@@ -2,6 +2,7 @@
 title: "Fine grained authorization to Cloud stores using Apache Ranger"
 date: "2022-07-29T16:10:00"
 track: "bigdata"
+room: "A"
 presenters: "Mukund"
 stype: "English Session"
 ---

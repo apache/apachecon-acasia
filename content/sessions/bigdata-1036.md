@@ -2,6 +2,7 @@
 title: "BIGTOP 3.0 with the upgraded Mpack: New era of BigData Distribution"
 date: "2022-07-31T13:30:00"
 track: "bigdata"
+room: "B"
 presenters: "Yuqi Gu（顾煜祺）"
 stype: "English Session"
 ---

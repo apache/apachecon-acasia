@@ -1,6 +1,7 @@
 ---
 title: "鲁班RocketMQ平台消息灰度方案"
-date: "2022-07-29T14:40:00"
+date: "2022-07-30T14:40:00"
+room: "B"
 track: "messaging"
 presenters: "区二立"
 stype: "中文演讲"

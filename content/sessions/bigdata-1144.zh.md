@@ -2,6 +2,7 @@
 title: "Apache Kylin 技术的演进之路 -- MOLAP 技术的下半场"
 date: "2022-07-31T14:10:00"
 track: "bigdata"
+room: "A"
 presenters: "俞霄翔"
 stype: "中文演讲"
 ---

@@ -2,6 +2,7 @@
 title: "整合脉冲星和Lakehouse的另一种方法:将脉冲星主题数据下沉到Lakehouse存储的连接器"
 date: "2022-07-31T14:50:00"
 track: "messaging"
+room: "A"
 presenters: "Yong Zhang"
 stype: "中文演讲"
 ---

@@ -2,6 +2,7 @@
 title: "When failure is not an option."
 date: "2022-07-31T13:30:00"
 track: "messaging"
+room: "B"
 presenters: "David Kjerrumgaard"
 stype: "English Session"
 ---

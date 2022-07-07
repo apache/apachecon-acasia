@@ -2,6 +2,7 @@
 title: "Application of Apache Pulsar in Open-Telemetry - Collector"
 date: "2022-07-31T17:30:00"
 track: "messaging"
+room: "A"
 presenters: "Tao Jiuming"
 stype: "Chinese Session"
 ---

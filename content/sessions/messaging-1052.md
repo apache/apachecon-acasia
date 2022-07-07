@@ -1,6 +1,7 @@
 ---
 title: "Apache RocketMQ 5.0: Evolution of a messaging, event, and stream converged high availability architecture"
-date: "2022-07-29T16:00:00"
+date: "2022-07-30T16:00:00"
+room: "B"
 track: "messaging"
 presenters: "金融通"
 stype: "Chinese Session"

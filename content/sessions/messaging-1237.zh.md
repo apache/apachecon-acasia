@@ -2,6 +2,7 @@
 title: "基于 RocketMQ 的全链路业务灰度"
 date: "2022-07-29T14:40:00"
 track: "messaging"
+room: "A"
 presenters: "曾林"
 stype: "中文演讲"
 ---

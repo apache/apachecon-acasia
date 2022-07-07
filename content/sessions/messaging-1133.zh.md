@@ -2,6 +2,7 @@
 title: "BIGO基于Pulsar在高吞吐追赶读场景下的性能优化实践"
 date: "2022-07-29T16:10:00"
 track: "messaging"
+room: "B"
 presenters: "吴展鹏"
 stype: "中文演讲"
 ---

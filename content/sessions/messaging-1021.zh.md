@@ -2,6 +2,7 @@
 title: "TableView简介:Pulsar的数据库表抽象"
 date: "2022-07-31T13:30:00"
 track: "messaging"
+room: "A"
 presenters: "David Kjerrumgaard"
 stype: "英文演讲"
 ---

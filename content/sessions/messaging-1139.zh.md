@@ -2,6 +2,7 @@
 title: "华为终端基于Apache Pulsar的消息队列演进之路"
 date: "2022-07-29T13:30:00"
 track: "messaging"
+room: "B"
 presenters: "林琳,王小童"
 stype: "中文演讲"
 ---

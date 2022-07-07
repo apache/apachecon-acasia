@@ -2,6 +2,7 @@
 title: "Cloud Shuffle Service 在字节跳动 Spark 场景的应用实践"
 date: "2022-07-30T16:10:00"
 track: "bigdata"
+room: "B"
 presenters: "刘磊"
 stype: "中文演讲"
 ---

@@ -2,6 +2,7 @@
 title: "RocketMQ event and data flow fusion processing of big data ecology"
 date: "2022-07-29T15:20:00"
 track: "messaging"
+room: "A"
 presenters: "李伟"
 stype: "Chinese Session"
 ---

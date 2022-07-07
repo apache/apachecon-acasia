@@ -2,6 +2,7 @@
 title: "Hadoop云存储连接器-过去，现在和未来!"
 date: "2022-07-29T15:30:00"
 track: "bigdata"
+room: "B"
 presenters: "Mukund"
 stype: "英文演讲"
 ---

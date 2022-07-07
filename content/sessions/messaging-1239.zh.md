@@ -1,7 +1,8 @@
 ---
 title: "基于RocketMQ Connect构建全新数据流转处理平台"
-date: "2022-07-29T15:20:00"
+date: "2022-07-30T15:20:00"
 track: "messaging"
+room: "B"
 presenters: "周波"
 stype: "中文演讲"
 ---

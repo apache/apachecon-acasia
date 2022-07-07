@@ -2,6 +2,7 @@
 title: "Apache SeaTunnel 下一代数据传输系统"
 date: "2022-07-30T15:30:00"
 track: "bigdata"
+room: "B"
 presenters: "谢磊"
 stype: "中文演讲"
 ---

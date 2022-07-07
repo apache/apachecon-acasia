@@ -2,6 +2,7 @@
 title: "Apache Ozone的灾难恢复"
 date: "2022-07-31T13:30:00"
 track: "bigdata"
+room: "A"
 presenters: "Sadanand Shenoy,Rakesh Radhakrishnan"
 stype: "英文演讲"
 ---

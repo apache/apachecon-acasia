@@ -2,6 +2,7 @@
 title: "Building a real-time analytics dashboard with Apache Kafka, Apache Pinot, and Streamlit"
 date: "2022-07-29T13:30:00"
 track: "bigdata"
+room: "B"
 presenters: "Dunith Dhanushka, Karin Wolok"
 stype: "English Session"
 ---

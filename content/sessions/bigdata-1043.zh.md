@@ -2,6 +2,7 @@
 title: "扩展开源大数据云应用是容易/困难的"
 date: "2022-07-29T15:30:00"
 track: "bigdata"
+room: "A"
 presenters: "Paul Brebner"
 stype: "英文演讲"
 ---

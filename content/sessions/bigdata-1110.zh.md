@@ -2,6 +2,7 @@
 title: "Flink Table Store：流式数仓架构与场景"
 date: "2022-07-31T14:50:00"
 track: "bigdata"
+room: "A"
 presenters: "李劲松"
 stype: "中文演讲"
 ---

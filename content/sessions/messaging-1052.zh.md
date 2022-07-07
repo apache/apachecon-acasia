@@ -1,7 +1,8 @@
 ---
 title: "Apache RocketMQ 5.0：消息、事件、流融合高可用架构的演进"
-date: "2022-07-29T16:00:00"
+date: "2022-07-30T16:00:00"
 track: "messaging"
+room: "B"
 presenters: "金融通"
 stype: "中文演讲"
 ---

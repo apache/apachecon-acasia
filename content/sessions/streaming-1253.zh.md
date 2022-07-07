@@ -1,6 +1,6 @@
 ---
 title: "使用 Apache Pulsar 开发基于 Apache Flink 的流批一体化应用"
-date: "2022-07-29T14:10:00"
+date: "2022-07-30T14:10:00"
 track: "streaming"
 presenters: "盛宇帆"
 stype: "中文演讲"

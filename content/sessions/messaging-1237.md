@@ -2,6 +2,7 @@
 title: "RocketMQ based full link business gray scale"
 date: "2022-07-29T14:40:00"
 track: "messaging"
+room: "A"
 presenters: "曾林"
 stype: "Chinese Session"
 ---

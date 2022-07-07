@@ -1,7 +1,8 @@
 ---
 title: "RocketMQ Streams-轻流计算在云安全和边缘计算的最佳实践"
-date: "2022-07-29T14:00:00"
+date: "2022-07-30T14:00:00"
 track: "messaging"
+room: "B"
 presenters: "袁小栋"
 stype: "中文演讲"
 ---

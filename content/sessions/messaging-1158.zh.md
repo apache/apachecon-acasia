@@ -2,6 +2,7 @@
 title: "Apache Pulsar 在腾讯云稳定性优化实践"
 date: "2022-07-29T15:30:00"
 track: "messaging"
+room: "B"
 presenters: "冉小龙"
 stype: "中文演讲"
 ---

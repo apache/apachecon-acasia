@@ -2,6 +2,7 @@
 title: "How Kafka-on-Pulsar Integrates with Pulsar Schema to Leverage Pulsar for Kafka Users"
 date: "2022-07-30T15:30:00"
 track: "messaging"
+room: "A"
 presenters: "Yunze Xu"
 stype: "Chinese Session"
 ---

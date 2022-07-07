@@ -1,6 +1,6 @@
 ---
 title: "Introduce the Flink SQL Connector for Pulsar and PulsarCatalog"
-date: "2022-07-29T15:30:00"
+date: "2022-07-30T15:30:00"
 track: "streaming"
 presenters: "Yufei Zhang"
 stype: "English Session"

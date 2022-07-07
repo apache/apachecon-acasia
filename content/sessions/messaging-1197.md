@@ -2,6 +2,7 @@
 title: "Working principle and practice of Load Manager in Apache Pulsar"
 date: "2022-07-31T16:10:00"
 track: "messaging"
+room: "B"
 presenters: "王锴"
 stype: "Chinese Session"
 ---

@@ -2,6 +2,7 @@
 title: "如何使用 Apache Seatunnel 简化数据同步"
 date: "2022-07-30T15:30:00"
 track: "bigdata"
+room: "A"
 presenters: "陶克路"
 stype: "中文演讲"
 ---

@@ -2,6 +2,7 @@
 title: "规模故事:分析在1000 QPS以上"
 date: "2022-07-31T16:50:00"
 track: "bigdata"
+room: "A"
 presenters: "Merlino Gian"
 stype: "英文演讲"
 ---

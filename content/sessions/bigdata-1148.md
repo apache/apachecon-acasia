@@ -2,6 +2,7 @@
 title: "Hadoop Vectored IO: your data just got faster!"
 date: "2022-07-30T16:10:00"
 track: "bigdata"
+room: "A"
 presenters: "Mukund Thakur"
 stype: "English Session"
 ---

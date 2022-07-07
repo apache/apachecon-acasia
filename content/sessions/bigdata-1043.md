@@ -2,6 +2,7 @@
 title: "Scaling Open Source Big Data Cloud Applications is Easy/Hard"
 date: "2022-07-29T15:30:00"
 track: "bigdata"
+room: "A"
 presenters: "Paul Brebner"
 stype: "English Session"
 ---

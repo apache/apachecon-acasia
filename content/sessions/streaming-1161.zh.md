@@ -1,6 +1,6 @@
 ---
 title: "以云本机的方式使用Apache Pulsar函数"
-date: "2022-07-29T16:50:00"
+date: "2022-07-30T16:50:00"
 track: "streaming"
 presenters: "Rui Fu"
 stype: "中文演讲"

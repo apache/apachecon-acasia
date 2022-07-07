@@ -2,6 +2,7 @@
 title: "闪送大规模ActiveMQ平滑迁移RocketMQ"
 date: "2022-07-29T16:40:00"
 track: "messaging"
+room: "A"
 presenters: "高向阳"
 stype: "中文演讲"
 ---

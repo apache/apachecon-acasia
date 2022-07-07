@@ -2,6 +2,7 @@
 title: "用傲腾持久内存打造极速Pulsar"
 date: "2022-07-31T14:10:00"
 track: "messaging"
+room: "B"
 presenters: "胡风华"
 stype: "中文演讲"
 ---

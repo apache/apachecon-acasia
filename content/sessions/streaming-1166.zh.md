@@ -1,6 +1,6 @@
 ---
 title: "介绍用于Pulsar和PulsarCatalog的Flink SQL连接器"
-date: "2022-07-29T15:30:00"
+date: "2022-07-30T15:30:00"
 track: "streaming"
 presenters: "Yufei Zhang"
 stype: "英文演讲"

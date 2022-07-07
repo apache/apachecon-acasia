@@ -2,6 +2,7 @@
 title: "Disaster Recovery in Apache Ozone"
 date: "2022-07-31T13:30:00"
 track: "bigdata"
+room: "A"
 presenters: "Sadanand Shenoy,Rakesh Radhakrishnan"
 stype: "English Session"
 ---

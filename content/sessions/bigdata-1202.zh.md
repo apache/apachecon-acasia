@@ -2,6 +2,7 @@
 title: "Support Customized Kubernetes Schedulers: 为Spark on Kubernetes提供更完善的调度能力"
 date: "2022-07-30T17:30:00"
 track: "bigdata"
+room: "B"
 presenters: "姜逸坤,王雷博"
 stype: "中文演讲"
 ---

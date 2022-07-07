@@ -2,6 +2,7 @@
 title: "腾讯如何将Apache Pulsar应用于Apache InLong"
 date: "2022-07-31T16:50:00"
 track: "messaging"
+room: "B"
 presenters: "LinChen"
 stype: "中文演讲"
 ---

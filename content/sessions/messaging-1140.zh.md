@@ -2,6 +2,7 @@
 title: "大数据生态的RocketMQ事件、数据流融合处理"
 date: "2022-07-29T15:20:00"
 track: "messaging"
+room: "A"
 presenters: "李伟"
 stype: "中文演讲"
 ---

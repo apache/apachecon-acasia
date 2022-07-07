@@ -2,6 +2,7 @@
 title: "使用Apache Ranger对云存储进行细粒度授权"
 date: "2022-07-29T16:10:00"
 track: "bigdata"
+room: "A"
 presenters: "Mukund"
 stype: "英文演讲"
 ---

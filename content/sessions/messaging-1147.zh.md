@@ -2,6 +2,7 @@
 title: "KoP在新浪微博的优化与实践"
 date: "2022-07-29T14:50:00"
 track: "messaging"
+room: "B"
 presenters: "沈文兵"
 stype: "中文演讲"
 ---

@@ -2,6 +2,7 @@
 title: "Huawei terminals evolve message queues based on Apache Pulsar"
 date: "2022-07-29T13:30:00"
 track: "messaging"
+room: "B"
 presenters: "林琳,王小童"
 stype: "Chinese Session"
 ---

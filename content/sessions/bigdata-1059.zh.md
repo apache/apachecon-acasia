@@ -2,6 +2,7 @@
 title: "Apache Ozone 的最近进展和实践分享"
 date: "2022-07-30T14:10:00"
 track: "bigdata"
+room: "A"
 presenters: "Yan Liu,Yi Chen"
 stype: "中文演讲"
 ---

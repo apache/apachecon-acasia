@@ -2,6 +2,7 @@
 title: "Apache InLong在腾讯云中的优化与实践"
 date: "2022-07-30T17:30:00"
 track: "bigdata"
+room: "A"
 presenters: "Yunqing Mo"
 stype: "中文演讲"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Making Flink K8S works as your wish"
-date: "2022-07-29T16:10:00"
+date: "2022-07-30T16:10:00"
 track: "streaming"
 presenters: "赵波"
 stype: "Chinese Session"

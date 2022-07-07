@@ -2,6 +2,7 @@
 title: "Sharing of recent progress and practices in Apache Ozone"
 date: "2022-07-30T14:10:00"
 track: "bigdata"
+room: "A"
 presenters: "Yan Liu,Yi Chen"
 stype: "Chinese Session"
 ---

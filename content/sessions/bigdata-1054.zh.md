@@ -2,6 +2,7 @@
 title: "HBase在美团的改进和实践"
 date: "2022-07-30T14:50:00"
 track: "bigdata"
+room: "B"
 presenters: "哈晓琳"
 stype: "中文演讲"
 ---

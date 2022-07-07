@@ -2,6 +2,7 @@
 title: "Towards a ZooKeeper-less Pulsar"
 date: "2022-07-30T14:10:00"
 track: "messaging"
+room: "A"
 presenters: "David Kjerrumgaard"
 stype: "English Session"
 ---

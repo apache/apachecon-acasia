@@ -2,6 +2,7 @@
 title: "Optimization and practice of Apache InLong in Tencent Cloud"
 date: "2022-07-30T17:30:00"
 track: "bigdata"
+room: "A"
 presenters: "Yunqing Mo"
 stype: "Chinese Session"
 ---

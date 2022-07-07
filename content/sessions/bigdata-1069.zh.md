@@ -2,6 +2,7 @@
 title: "开源大数据Studio: Dolphinscheduler + Notebook"
 date: "2022-07-31T15:30:00"
 track: "bigdata"
+room: "A"
 presenters: "高楚枫"
 stype: "中文演讲"
 ---

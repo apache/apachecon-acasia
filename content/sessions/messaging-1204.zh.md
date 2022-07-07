@@ -2,6 +2,7 @@
 title: "Deep Dive into Apache Pulsar Transaction - How it works and notes for it. "
 date: "2022-07-31T15:30:00"
 track: "messaging"
+room: "B"
 presenters: "孟祥迎"
 stype: "中文演讲"
 ---

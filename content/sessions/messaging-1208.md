@@ -2,6 +2,7 @@
 title: "Build one Real-time Data Warehouse Based on Apache Pulsar"
 date: "2022-07-31T15:30:00"
 track: "messaging"
+room: "A"
 presenters: "Dezhi Liu,杨子棵"
 stype: "Chinese Session"
 ---

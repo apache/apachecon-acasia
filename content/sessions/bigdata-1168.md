@@ -2,6 +2,7 @@
 title: "Hadoop Cloud storage connectors - past, present & future!"
 date: "2022-07-29T15:30:00"
 track: "bigdata"
+room: "B"
 presenters: "Mukund"
 stype: "English Session"
 ---

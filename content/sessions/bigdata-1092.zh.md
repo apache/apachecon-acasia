@@ -2,6 +2,7 @@
 title: "使用Apache Kafka、Apache Pinot和Streamlit构建实时分析仪表板"
 date: "2022-07-29T13:30:00"
 track: "bigdata"
+room: "B"
 presenters: "Dunith Dhanushka, Karin Wolok"
 stype: "英文演讲"
 ---

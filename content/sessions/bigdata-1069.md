@@ -2,6 +2,7 @@
 title: "Dolphinscheduler + Notebook open-source Big data Studio"
 date: "2022-07-31T15:30:00"
 track: "bigdata"
+room: "A"
 presenters: "高楚枫"
 stype: "Chinese Session"
 ---

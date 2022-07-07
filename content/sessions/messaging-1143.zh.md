@@ -2,6 +2,7 @@
 title: "基于Pulsar Functions的日志加工DSL设计与实现"
 date: "2022-07-29T16:50:00"
 track: "messaging"
+room: "B"
 presenters: "王嘉凌"
 stype: "中文演讲"
 ---

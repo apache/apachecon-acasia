@@ -2,6 +2,7 @@
 title: "移动云RabbitMQ消息队列在Openstack超大规模应用中的实践"
 date: "2022-07-31T17:30:00"
 track: "messaging"
+room: "B"
 presenters: "胡宗棠"
 stype: "中文演讲"
 ---

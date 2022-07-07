@@ -2,6 +2,7 @@
 title: "Spark在小米的应用实践"
 date: "2022-07-31T14:50:00"
 track: "bigdata"
+room: "B"
 presenters: "王准"
 stype: "中文演讲"
 ---

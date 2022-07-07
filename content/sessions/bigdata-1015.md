@@ -2,6 +2,7 @@
 title: "Large scale migration to Parquet in Uber"
 date: "2022-07-31T14:10:00"
 track: "bigdata"
+room: "B"
 presenters: "Huicheng Song"
 stype: "English Session"
 ---

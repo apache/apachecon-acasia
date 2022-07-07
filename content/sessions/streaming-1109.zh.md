@@ -1,6 +1,6 @@
 ---
 title: "基于 Flink CDC 和 Hudi 高效地构建实时数据湖"
-date: "2022-07-29T13:30:00"
+date: "2022-07-30T13:30:00"
 track: "streaming"
 presenters: "徐榜江"
 stype: "中文演讲"

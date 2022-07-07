@@ -2,6 +2,7 @@
 title: "This section describes how to use the Cloud Shuffle Service in the Spark scenario of Bytedance"
 date: "2022-07-30T16:10:00"
 track: "bigdata"
+room: "B"
 presenters: "刘磊"
 stype: "Chinese Session"
 ---

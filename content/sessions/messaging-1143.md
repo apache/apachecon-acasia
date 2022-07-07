@@ -2,6 +2,7 @@
 title: "Design and implementation of Log Processing DSL based on Pulsar Functions"
 date: "2022-07-29T16:50:00"
 track: "messaging"
+room: "B"
 presenters: "王嘉凌"
 stype: "Chinese Session"
 ---

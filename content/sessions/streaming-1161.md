@@ -1,6 +1,6 @@
 ---
 title: "Use Apache Pulsar Functions in a Cloud-Native way"
-date: "2022-07-29T16:50:00"
+date: "2022-07-30T16:50:00"
 track: "streaming"
 presenters: "Rui Fu"
 stype: "Chinese Session"

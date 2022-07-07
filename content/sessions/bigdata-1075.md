@@ -2,6 +2,7 @@
 title: "What's new in Apache Impala 4.x"
 date: "2022-07-30T14:10:00"
 track: "bigdata"
+room: "B"
 presenters: "Quanlong Huang（黄权隆）"
 stype: "Chinese Session"
 ---

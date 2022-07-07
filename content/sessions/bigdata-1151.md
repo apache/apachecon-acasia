@@ -2,6 +2,7 @@
 title: "Apache Ozone behind Simulation and AI industries"
 date: "2022-07-30T13:30:00"
 track: "bigdata"
+room: "B"
 presenters: "Kota Uenishi"
 stype: "English Session"
 ---

@@ -2,6 +2,7 @@
 title: "Apache Ozone: Multi-Protocol aware system handles both Files and Objects efficiently"
 date: "2022-07-29T14:10:00"
 track: "bigdata"
+room: "B"
 presenters: "Rakesh Radhakrishnan, Mukul Kumar Singh"
 stype: "English Session"
 ---

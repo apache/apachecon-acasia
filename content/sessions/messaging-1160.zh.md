@@ -1,6 +1,7 @@
 ---
 title: "Apache RocketMQ 5.0 在流存储领域的实践与探索"
-date: "2022-07-29T17:20:00"
+date: "2022-07-30T17:20:00"
+room: "B"
 track: "messaging"
 presenters: "刘振东"
 stype: "中文演讲"
