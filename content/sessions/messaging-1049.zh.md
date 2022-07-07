@@ -1,7 +1,8 @@
 ---
 title: "RocketMQ Streams-轻流计算在云安全和边缘计算的最佳实践"
-date: "" 
+date: "2022-07-30T14:00:00"
 track: "messaging"
+room: "B"
 presenters: "袁小栋"
 stype: "中文演讲"
 ---
@@ -9,5 +10,6 @@ stype: "中文演讲"
 
 在这个专题中，大家不仅可以了解rocketmq-streams的实现原理，也可以基于阿里对rocketmq-streams的应用实践，来判断自己的业务是否可以有更轻的方案，降低产品成本，提供竞争力
  ### Speakers: 
- <img src="images/speaker/1049.png" width="200" /><br>袁小栋: 阿里云, 高级技术专家, 袁小栋：Apache RocketMQ Committer, rocketmq-streams cofounder，阿里云高级技术专家，安全智能计算引擎负责人
+ <img src="images/speaker/1049.png" width="200" /><br>袁小栋: 阿里云, 高级技术专家, 袁小栋：Apache RocketMQ Committer, rocketmq-streams cofounder，阿里云高级技术专家，安全智能计算引擎负责人
+
  

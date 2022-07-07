@@ -1,6 +1,6 @@
 ---
 title: "SpamAssassin 4.0: new features to detect new spam types"
-date: "" 
+date: "2022-07-30T16:50:00"
 track: "middleware"
 presenters: "Bechis Giovanni"
 stype: "English Session"

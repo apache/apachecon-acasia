@@ -1,7 +1,8 @@
 ---
 title: "Get rid of topic metadata limitation for infinite data retention of Apache Pulsar"
-date: "" 
+date: "2022-07-30T14:50:00"
 track: "messaging"
+room: "A"
 presenters: "Penghui Li"
 stype: "Chinese Session"
 ---
@@ -16,5 +17,6 @@ The topic metadata limitation is mainly in two parts:
 
 This talk will share how Pulsar gets rid of the limitation to support infinite data retention of the topic.
  ### Speakers: 
- <img src="images/speaker/1185.png" width="200" /><br>Penghui Li: StreamNative, Tech lead & Apache Pulsar PMC member/committer, Penghui Li is passionate about helping organizations to architect and implement messaging services. Prior to StreamNative, Penghui was a Software Engineer at Zhaopin.com, where he was the leading Pulsar advocate and helped the company adopt and implement the technology. He is an Apache Pulsar Committer and PMC member
+ <img src="images/speaker/1185.png" width="200" /><br>Penghui Li: StreamNative, Tech lead & Apache Pulsar PMC member/committer, Penghui Li is passionate about helping organizations to architect and implement messaging services. Prior to StreamNative, Penghui was a Software Engineer at Zhaopin.com, where he was the leading Pulsar advocate and helped the company adopt and implement the technology. He is an Apache Pulsar Committer and PMC member
+
  

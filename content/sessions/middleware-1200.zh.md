@@ -1,6 +1,6 @@
 ---
 title: "使用Sharding Sphere来进一步扩展Amazon Aurora的读写能力"
-date: "" 
+date: "2022-07-30T16:10:00"
 track: "middleware"
 presenters: "马丽丽"
 stype: "中文演讲"
@@ -14,5 +14,6 @@ stype: "中文演讲"
 5. ShardingSphereProxy对Amazon AuroraFailover对支持
 6. ShardingSphereJDBC与Amazon Aurora的结合
  ### Speakers: 
- <img src="images/speaker/1200.png" width="200" /><br>马丽丽: 亚马逊云科技, 数据库专家架构师, 马丽丽，亚马逊云科技数据库专家架构师，十几年来一直在数据库领域进行研究和产品创新：从IBM DB2、到 MPP 并行数据仓库Greenplum、到计算和存储解耦的 Apache HAWQ、再到云上数据库 Amazon Aurora 和 ElastiCache。她在国际会议上发表多篇数据库方面学术论文（SIGMOD, GCC, SKG, PDCAT），并拥有多项国际专利。她是Apache HAWQ 项目PMC成员，也是Greenplum早期团队成员。她曾于2017年DTCC大会上分享过“Apache HAWQ 2.X最新技术解密”，在Greenplum社区分享过Greenplum的PL/Container实现，以及在亚马逊云科技的平台分享过Amazon Aurora Serverless以及MemoryDB等话题。
+ <img src="images/speaker/1200.png" width="200" /><br>马丽丽: 亚马逊云科技, 数据库专家架构师, 马丽丽，亚马逊云科技数据库专家架构师，十几年来一直在数据库领域进行研究和产品创新：从IBM DB2、到 MPP 并行数据仓库Greenplum、到计算和存储解耦的 Apache HAWQ、再到云上数据库 Amazon Aurora 和 ElastiCache。她在国际会议上发表多篇数据库方面学术论文（SIGMOD, GCC, SKG, PDCAT），并拥有多项国际专利。她是Apache HAWQ 项目PMC成员，也是Greenplum早期团队成员。她曾于2017年DTCC大会上分享过“Apache HAWQ 2.X最新技术解密”，在Greenplum社区分享过Greenplum的PL/Container实现，以及在亚马逊云科技的平台分享过Amazon Aurora Serverless以及MemoryDB等话题。
+
  

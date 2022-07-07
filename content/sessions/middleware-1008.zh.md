@@ -1,6 +1,6 @@
 ---
 title: "Apache EventMesh如何解决SaaS组合式应用集成标准化问题"
-date: "" 
+date: "2022-07-30T14:10:00"
 track: "middleware"
 presenters: "罗锦荣(Alex Luo)"
 stype: "中文演讲"

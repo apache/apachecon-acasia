@@ -1,6 +1,6 @@
 ---
 title: "我们如何在SkyWalking中使用ECharts"
-date: "" 
+date: "2022-07-29T15:20:00"
 track: "datavisualization"
 presenters: "Fan Qiuxia"
 stype: "中文演讲"

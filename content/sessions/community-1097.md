@@ -1,6 +1,6 @@
 ---
 title: "How to work remotely with open source developers in a friendly way"
-date: "" 
+date: "2022-07-30T14:50:00"
 track: "community"
 presenters: "李广远"
 stype: "Chinese Session"

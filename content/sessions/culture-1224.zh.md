@@ -1,6 +1,6 @@
 ---
 title: "技术写作的艺术"
-date: "" 
+date: "2022-07-30T16:40:00"
 track: "culture"
 presenters: "Matthew Sacks"
 stype: "英文演讲"

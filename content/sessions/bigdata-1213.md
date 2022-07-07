@@ -1,7 +1,8 @@
 ---
 title: "Bytedance data Lake table optimization management service based on Apache HUDI"
-date: "" 
+date: "2022-07-30T14:50:00"
 track: "bigdata"
+room: "A"
 presenters: "喻兆靖"
 stype: "Chinese Session"
 ---

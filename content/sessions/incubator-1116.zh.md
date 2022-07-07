@@ -1,6 +1,6 @@
 ---
 title: "Apache Pegasus(孵化)社区在SensorsData是如何发展的"
-date: "" 
+date: "2022-07-29T14:10:00"
 track: "incubator"
 presenters: "YingChun Lai,Dan Wang"
 stype: "中文演讲"

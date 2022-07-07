@@ -1,6 +1,6 @@
 ---
 title: "尚硅谷数据统一处理及治理开源平台"
-date: "" 
+date: "2022-07-31T14:50:00"
 track: "workflowdatagovernance"
 presenters: "张晨"
 stype: "中文演讲"
@@ -13,5 +13,6 @@ stype: "中文演讲"
     在该平台中引入了诸多的开源框架，包括Apache Dolphin Scheduler、StreamX、Prometheus 等开源框架。
 	尚硅谷作为技术传播机构，与多个开源团队达成合作，也会在此讲解中分享各个主流框架的特性和使用。
  ### Speakers: 
- <img src="images/speaker/1247.png" width="200" /><br>张晨: 尚硅谷IT教育, 项目总监, 尚硅谷主持开发数据管理平台项目，用户画像、数据仓库、实时数据仓库项目，多年技术讲师，增参与国家电网公司、中信银行、中植集团的一线项目。
+ <img src="images/speaker/1247.png" width="200" /><br>张晨: 尚硅谷IT教育, 项目总监, 尚硅谷主持开发数据管理平台项目，用户画像、数据仓库、实时数据仓库项目，多年技术讲师，增参与国家电网公司、中信银行、中植集团的一线项目。
+
  

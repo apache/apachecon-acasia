@@ -1,6 +1,6 @@
 ---
 title: "Sharing the architecture of DevLake, a research and development performance data integration platform"
-date: "" 
+date: "2022-07-29T13:30:00"
 track: "integration"
 presenters: "陈映初"
 stype: "Chinese Session"

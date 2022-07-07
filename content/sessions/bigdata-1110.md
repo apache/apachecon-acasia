@@ -1,7 +1,8 @@
 ---
 title: "Flink Table Store: Streaming data warehouse architecture and scenario"
-date: "" 
+date: "2022-07-31T14:50:00"
 track: "bigdata"
+room: "A"
 presenters: "李劲松"
 stype: "Chinese Session"
 ---

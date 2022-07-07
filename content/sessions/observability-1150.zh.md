@@ -1,6 +1,6 @@
 ---
 title: "Apache Http服务器的可观察性解决方案"
-date: "" 
+date: "2022-07-29T16:00:00"
 track: "observability"
 presenters: "Ajay Nagariya, Debajit Das, Kumar Pratyush"
 stype: "英文演讲"

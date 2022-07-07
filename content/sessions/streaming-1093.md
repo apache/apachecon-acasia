@@ -1,6 +1,6 @@
 ---
 title: "Build streaming delta warehouse -- CDC based on data lake format"
-date: "" 
+date: "2022-07-30T14:50:00"
 track: "streaming"
 presenters: "毕岩"
 stype: "Chinese Session"

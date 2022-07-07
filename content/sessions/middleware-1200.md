@@ -1,6 +1,6 @@
 ---
 title: "Use Sharding Sphere to further expand Amazon Aurora's literacy"
-date: "" 
+date: "2022-07-30T16:10:00"
 track: "middleware"
 presenters: "马丽丽"
 stype: "Chinese Session"

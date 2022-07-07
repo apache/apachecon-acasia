@@ -1,7 +1,8 @@
 ---
 title: "Deep Dive into Apache Pulsar: How Two-Phase Deletion Protocol works between Storage and Metadata"
-date: "" 
+date: "2022-07-30T16:50:00"
 track: "messaging"
+room: "A"
 presenters: "赵延"
 stype: "Chinese Session"
 ---

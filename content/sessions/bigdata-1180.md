@@ -1,7 +1,8 @@
 ---
 title: "How can I use Apache Seatunnel to simplify data synchronization"
-date: "" 
+date: "2022-07-30T15:30:00"
 track: "bigdata"
+room: "A"
 presenters: "陶克路"
 stype: "Chinese Session"
 ---

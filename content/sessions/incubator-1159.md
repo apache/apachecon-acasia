@@ -1,6 +1,6 @@
 ---
 title: "AGE's Journey to Graduation"
-date: "" 
+date: "2022-07-29T13:30:00"
 track: "incubator"
 presenters: "Eya Abdisho, John Gemignani, Josh Innis"
 stype: "English Session"

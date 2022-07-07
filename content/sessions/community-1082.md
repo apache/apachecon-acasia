@@ -1,6 +1,6 @@
 ---
 title: "Apache Doris community operation practice and thinking"
-date: "" 
+date: "2022-07-30T14:10:00"
 track: "community"
 presenters: "鲁志敬"
 stype: "Chinese Session"

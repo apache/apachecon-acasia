@@ -1,6 +1,7 @@
 ---
 title: "Luban RocketMQ platform message grayscale scheme"
-date: "" 
+date: "2022-07-30T14:40:00"
+room: "B"
 track: "messaging"
 presenters: "区二立"
 stype: "Chinese Session"

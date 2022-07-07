@@ -1,7 +1,8 @@
 ---
 title: "Deep Dive into Apache Pulsar: How Two-Phase Deletion Protocol works between Storage and Metadata"
-date: "" 
+date: "2022-07-30T16:50:00"
 track: "messaging"
+room: "A"
 presenters: "赵延"
 stype: "中文演讲"
 ---
@@ -10,5 +11,6 @@ stype: "中文演讲"
 因此，我们引入两阶段删除协议来解决以上场景。本次分享将详细介绍两段数据删除的工作原理，让 Apache Pulsar 用户和开发者更加了解该功能背后的原理和工作机制。
  ### Speakers: 
  <img src="images/speaker/1189.png" width="200" /><br>赵延: StreamNative, Software Engineer, Apche dubbo commiter/Alibaba nacos commiter/SOFAJRaft commiter. 
-发表过同程旅行对于 SOFAJRaft 的探索. https://www.sofastack.tech/blog/sofajraft-in-practice-in-the-same-tour/
+发表过同程旅行对于 SOFAJRaft 的探索. https://www.sofastack.tech/blog/sofajraft-in-practice-in-the-same-tour/
+
  

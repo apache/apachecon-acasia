@@ -1,6 +1,6 @@
 ---
 title: "如何促进与上市公司的开源合作"
-date: "" 
+date: "2022-07-31T16:50:00"
 track: "community"
 presenters: "Yacine Si Tayeb"
 stype: "英文演讲"

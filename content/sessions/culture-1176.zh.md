@@ -1,6 +1,6 @@
 ---
 title: "上游第一:开源软件社区的民族志研究"
-date: "" 
+date: "2022-07-29T16:00:00"
 track: "culture"
 presenters: "Zhou, Jesse(周禹任）"
 stype: "英文演讲"

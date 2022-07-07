@@ -1,6 +1,6 @@
 ---
 title: "如何吸引亚洲文化背景的开发者参与到开源"
-date: "" 
+date: "2022-07-29T14:40:00"
 track: "culture"
 presenters: "张晋涛"
 stype: "中文演讲"

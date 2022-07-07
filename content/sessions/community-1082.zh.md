@@ -1,6 +1,6 @@
 ---
 title: "Apache Doris 社区运营实践与思考"
-date: "" 
+date: "2022-07-30T14:10:00"
 track: "community"
 presenters: "鲁志敬"
 stype: "中文演讲"

@@ -1,6 +1,6 @@
 ---
 title: "Apache Camel: Project update and what's coming next"
-date: "" 
+date: "2022-07-29T14:10:00"
 track: "integration"
 presenters: "Claus Ibsen, Andrea Cosentino"
 stype: "English Session"

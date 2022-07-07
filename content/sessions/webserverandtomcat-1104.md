@@ -1,6 +1,6 @@
 ---
 title: "Dubbo Mesh based on Dubbo-Go-Pixiu"
-date: "" 
+date: "2022-07-31T14:40:00"
 track: "webserverandtomcat"
 presenters: "麻志辉"
 stype: "Chinese Session"

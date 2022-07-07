@@ -1,6 +1,6 @@
 ---
 title: "从0到1.5k星:启动一个新的开源项目"
-date: "" 
+date: "2022-07-31T13:30:00"
 track: "community"
 presenters: "Maxim Wheatley"
 stype: "英文演讲"

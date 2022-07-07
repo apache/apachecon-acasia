@@ -1,6 +1,6 @@
 ---
 title: "拥抱云原生，基于 Kubernetes 的 ShardingSphere 云化改造"
-date: "" 
+date: "2022-07-29T16:10:00"
 track: "middleware"
 presenters: "李卓"
 stype: "中文演讲"
@@ -26,5 +26,6 @@ Kubernetes CRD 是什么
 另外定制资源这个 Kubernetes 扩展的存在，也可以帮助 ShardingSphere-Proxy 对运行时集群中依赖的元数据进行存储。依托于 Kubernetes 的中 CRD 的 list/watch 能力，能够做到对于元数据变动后向其他集群中的节点进行广播，并实时更新其余节点的运行时元数据。
 DistSQL（Distributed SQL）是 Apache ShardingSphere 特有的操作语言。 它与标准 SQL 的使用方式完全一致，用于提供增量功能的 SQL 级别操作能力。在去 Zookeeper 的过程中，因为元数据变动的入口变得多元，如何将 DistSQL 写入的配置和用户直接修改 CRD 都提供支持，团队也提供了自己的思路。利用 ShardingSphere-Sidecar 结合 ShardingSphered 的做法，使 ShardingSphere-Proxy 可以做到对这两种元数据变动入口的同时支持。并且在未来 ShardingSphere-Sidecar 也有可能去支持 Service Mesh 的 xDS 协议。这样就大大的增加了 ShardingSphere-Proxy 在云环境中的扩展能力。
  ### Speakers: 
- <img src="images/speaker/1089.png" width="200" /><br>李卓: SphereEx, 云研发工程师, SphereEx 云研发部 云研发工程师、ShardingSphere-Operator 核心开发者、Apache ShardingSphere  Contributor
+ <img src="images/speaker/1089.png" width="200" /><br>李卓: SphereEx, 云研发工程师, SphereEx 云研发部 云研发工程师、ShardingSphere-Operator 核心开发者、Apache ShardingSphere  Contributor
+
  

@@ -1,6 +1,6 @@
 ---
 title: "Accessibility design for Apache ECharts"
-date: "" 
+date: "2022-07-29T14:00:00"
 track: "datavisualization"
 presenters: "羡辙"
 stype: "Chinese Session"

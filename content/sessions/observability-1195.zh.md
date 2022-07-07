@@ -1,6 +1,6 @@
 ---
 title: "Apache SkyWalking:一个开源的整体应用程序性能监控和观察工具"
-date: "" 
+date: "2022-07-29T14:00:00"
 track: "observability"
 presenters: "Marc Navarro Sonnenfeld"
 stype: "英文演讲"

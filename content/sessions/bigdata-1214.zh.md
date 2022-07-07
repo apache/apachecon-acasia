@@ -1,7 +1,8 @@
 ---
 title: "基于血缘的离线数仓数据发现方法"
-date: "" 
+date: "2022-07-29T16:50:00"
 track: "bigdata"
+room: "B"
 presenters: "韩帅,孙科"
 stype: "中文演讲"
 ---

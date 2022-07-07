@@ -1,6 +1,6 @@
 ---
 title: "State of the Cat"
-date: "" 
+date: "2022-07-30T14:00:00"
 track: "webserverandtomcat"
 presenters: "Mark Thomas"
 stype: "English Session"

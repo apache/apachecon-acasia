@@ -1,7 +1,8 @@
 ---
 title: "Evolution of Apache Kylin technology -- second half of MOLAP technology"
-date: "" 
+date: "2022-07-31T14:10:00"
 track: "bigdata"
+room: "A"
 presenters: "俞霄翔"
 stype: "Chinese Session"
 ---

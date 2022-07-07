@@ -1,7 +1,8 @@
 ---
 title: "HBase improvements and practices in Meituan"
-date: "" 
+date: "2022-07-30T14:50:00"
 track: "bigdata"
+room: "B"
 presenters: "哈晓琳"
 stype: "Chinese Session"
 ---

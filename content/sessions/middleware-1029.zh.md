@@ -1,6 +1,6 @@
 ---
 title: "为Java项目创建跨平台、可复制的二进制构建"
-date: "" 
+date: "2022-07-30T17:30:00"
 track: "middleware"
 presenters: "Mark Thomas"
 stype: "英文演讲"

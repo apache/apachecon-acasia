@@ -1,6 +1,6 @@
 ---
-title: "The practice and landing of the real-time computing data flow business engine based on Apache Flink in JINGdong Retail"
-date: "" 
+title: "The practice and landing of the real-time computing data flow business engine based on Apache Flink in Jingdong Retail"
+date: "2022-07-29T15:30:00"
 track: "streaming"
 presenters: "ying zhang"
 stype: "Chinese Session"
@@ -16,5 +16,6 @@ And other technical points, mainly share some machine learning engineering and r
  <img src="images/speaker/1112.png" width="200" /><br>ying zhang: jingdong, Algorithm engineer, I used to be responsible for data processing and lightweight training system and online learning data link construction, including Feature Dump link construction, label pipeline construction, sample splicing, sample pre-processing, Feature engineering and small model distributed training. Now I am in charge of real-time computing business of data analysis and optimization Department. And hope to precipitate a set of complete and efficient enabling business framework on this basis
 
 
-As a contributor for many open source projects such as Alink and DL on Flink, I have made speeches at Flink Forward Asia 2021 and InfoQ QCon+ Case Study Society Global Software Conference
+As a contributor for many open source projects such as Alink and DL on Flink, I have made speeches at Flink Forward Asia 2021 and InfoQ QCon+ Case Study Society Global Software Conference
+
  
