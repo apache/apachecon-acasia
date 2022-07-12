@@ -1,5 +1,5 @@
 ---
-title: "Apache DolphinScheduler在联想作为统一调度器中心的实践"
+title: "Apache DolphinScheduler在联想作为统一调度中心的实践"
 date: "2022-07-29T13:30:00"
 track: "workflowdatagovernance"
 presenters: "Gang Li"
