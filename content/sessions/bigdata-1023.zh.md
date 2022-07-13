@@ -1,5 +1,5 @@
 ---
-title: "Linkis 如何为多样化的大数据计算存储引擎提供计算治理能力"
+title: "Linkis 如何为多样化的大数据引擎提供计算治理能力"
 date: "2022-07-31T15:30:00"
 track: "bigdata"
 room: "B"
