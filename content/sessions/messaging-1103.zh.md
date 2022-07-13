@@ -1,16 +1,16 @@
 ---
-title: "腾讯如何将Apache Pulsar应用于Apache InLong"
+title: "腾讯将 Apache Pulsar 应用于Apache InLong技术实践"
 date: "2022-07-31T16:50:00"
 track: "messaging"
 room: "B"
-presenters: "LinChen"
+presenters: "陈林"
 stype: "中文演讲"
 ---
-1什么是InLong?
-2脉冲星如何应用于InLong?
-我们对脉冲星做了哪些优化?
-4实践案例
+1. 什么是Apache InLong.
+2. Apache Pulsar 如何应用于InLong.
+3. 我们针对 Apache Pulsr 做了哪些优化.
+4. 一线实践场景
  ### Speakers: 
- <img src="images/speaker/1103.png" width="200" /><br>LinChen: 腾讯, 大数据开发工程师, 就职于腾讯泰格数据平台部门，工作内容为脉冲星的维护与开发。开源项目的贡献者，如Pulsar, KoP，簿记员。
+ <img src="images/speaker/1103.png" width="200" /><br>陈林：腾讯, 大数据开发工程师，就职于腾讯TEG数据平台部门，工作聚焦于 Pulsar 维护与开发。是多个开源项目的贡献者，如 Apache Pulsar、KoP和 BookKeeper。
 
  

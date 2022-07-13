@@ -6,7 +6,7 @@ room: "A"
 presenters: "Zike Yang"
 stype: "Chinese Session"
 ---
-Apache Pulsar, like all messaging systems, imposes a size limit on each message sent to the broker. It prevents the payload of each message from exceeding the max message size set in the pulsar broker. However, many users need the Pulsar client to send large messages to the broker for use cases such as image processing and audio processing. 
+Like all messaging systems, Apache Pulsar imposes a size limit on each message sent to the broker. It prevents the payload of each message from exceeding the max message size set in the pulsar broker. However, many users need the Pulsar client to send large messages to the broker for use cases such as image and audio processing. 
 
 Therefore, instead of increasing the configuration of max message size, Pulsar provides a message chunking feature to enable sending large messages. With message chunking, the producer can split a large message into multiple chunks based on the max message size configuration and send each chunk to the broker as an ordinary message. The consumer then combines the chunks back to the original message.
 

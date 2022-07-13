@@ -15,9 +15,6 @@
   
           <!-- Content -->
           <div id="content" class="container">
-            <header class="major">
-              <h2>{{i18n "search"}}<span id="searchTitle"></span></h2>
-          </header>
 
             <section class="track">
             <div class="search" οnlοad="getTestXmlValue();">
@@ -125,7 +122,7 @@
     if (key === "") {
       return;
     }
-    document.getElementById("search-key").value = "";
+    // document.getElementById("search-key").value = "";
 
     // tip
     document.getElementById("search-tip").innerText = "{{i18n "searching"}}";
@@ -151,10 +148,8 @@
     haveResult = false;
     while (i < items.length) {
       txt = items[i].getElementsByTagName("title")[0].innerHTML + items[i].getElementsByTagName("description")[0].innerHTML;
-    
       if (txt.indexOf(key.toLowerCase()) > -1) {
 
-        haveResult = true;
         title = items[i].getElementsByTagName("title")[0].innerHTML;
         link = items[i].getElementsByTagName("link")[0].innerHTML;
         time = items[i].getElementsByTagName("pubDate")[0].innerHTML;        
@@ -164,19 +159,19 @@
 
         //  Filter data date：Mon, 01 Jan 0001 00:00:00 +0000
         if(time != "Mon, 01 Jan 0001 00:00:00 +0000"){
+          haveResult = true;
           addItem(title, link, time, mark)
         }      
       }
       i++;   
     }
-    
     if (!haveResult) {
+
       document.getElementById("search-tip").innerText = "{{i18n "searched"}}";
       document.getElementById("search-tip").style.display = "block";
       document.getElementById("pageCtl").style.display = "none";
     }else{
       // Pagination display
-      document.getElementById("searchTitle").innerText = ":"+key;
       page()
     }
   }
@@ -201,11 +196,12 @@
     div = document.createElement("div")
     div.innerHTML = tmpl;
     document.getElementById('result').appendChild(div)
+
   }
  
   function page(){
   
-    $(".search").remove();
+
     $("#pageCtl").show();
     var current_page = 5; // Data displayed per page
     $("article").slice(0,current_page).show();

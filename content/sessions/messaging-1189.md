@@ -1,16 +1,15 @@
 ---
-title: "Deep Dive into Apache Pulsar: How Two-Phase Deletion Protocol works between Storage and Metadata"
+title: "Deep Dive into Apache Pulsar: How the Two-Phase Deletion Protocol Works between Storage and Metadata"
 date: "2022-07-30T16:50:00"
 track: "messaging"
 room: "A"
-presenters: "赵延"
+presenters: "Yan Zhao"
 stype: "Chinese Session"
 ---
-At present, Apache Pulsar has two steps to delete data: step 1 delete metadata and Step 2 delete actual stored data.
-Because the two steps are separated, the success of step 2 cannot be guaranteed. As a result, the metadata may be deleted successfully, but the actual stored data still exists. Existing users of Pulsar also encountered this problem in production, where there was a large amount of dirty data that could not be deleted.
-Therefore, we introduce the two-phase deletion protocol to solve the above scenarios. In this post, you will learn more about how two sections of data removal work, so that Users and developers of Apache Pulsar can better understand how this feature works.
+There are two steps to delete data in Apache Pulsar: delete metadata and actual stored data.
+As these two steps are separated, we may not know precisely whether the second step is successful. This means the metadata may be deleted successfully, but the actual stored data could still exist. This issue has also occurred in production as reported by existing Apache Pulsar users, resulting in a large amount of dirty data that could not be deleted.
+To solve this problem, we can introduce a two-phase deletion protocol. This session will deeply examine how the deletion protocol works, so that Pulsar users and developers can better understand it.
  ### Speakers: 
- <img src="images/speaker/1189.png" width="200" /><br>Yan Zhao: StreamNative, Software Engineer, Apche dubbo commiter/Alibaba nacos commiter/SOFAJRaft commiter.
-Made with trip for SOFAJRaft exploration. https://www.sofastack.tech/blog/sofajraft-in-practice-in-the-same-tour/
+ <img src="images/speaker/1189.png" width="200" /><br>Yan Zhao, StreamNative Software Engineer, Apache Dubbo Committer, Alibaba Nacos Committer, and SOFAJRaft Committer. He wrote an article about how LY.COM explored SOFAJRaft: https://www.sofastack.tech/blog/sofajraft-in-practice-in-the-same-tour/.
 
  
