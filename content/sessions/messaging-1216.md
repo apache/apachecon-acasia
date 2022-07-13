@@ -10,8 +10,8 @@ Data security has become an essential competitive advantage for enterprises. As 
 
 In this speech, we will focus on the authentication and authorization implementation of Apache Pulsar. First, we will discuss how enterprises can create a secure Apache Pulsar cluster and build personalized Pulsar-based authentication or authorization plug-ins. Second, we will explain how to provide users with a unified authentication and authorization framework on the cloud to meet different needs.
  ### Speakers: 
- <img src="images/speaker/1216.png" width="200" /><br>Teng Fu, StreamNative Technical Support Engineer. With 9 years of big data experience in telecom operations, he is familiar with the platform architecture, building, security and maintenance of big data. He also has experience in creating platform products using real-time data warehouses, cloud-native tools and AI-driven technologies.
+ <img src="images/speaker/1216_2.png" width="200" /><br>Teng Fu, StreamNative Technical Support Engineer. With 9 years of big data experience in telecom operations, he is familiar with the platform architecture, building, security and maintenance of big data. He also has experience in creating platform products using real-time data warehouses, cloud-native tools and AI-driven technologies.
 
- <img src="images/speaker/1216_2.png" width="200" /><br>Quangning E, StreamNative Software Engineer, Apache Pulsar Committer, Major Contributor to Apache Pulsar IO and Apache Pulsar Manager. He is focused on cloud platforms, cloud computing, and big data related fields.
+ <img src="images/speaker/1216.png" width="200" /><br>Quangning E, StreamNative Software Engineer, Apache Pulsar Committer, Major Contributor to Apache Pulsar IO and Apache Pulsar Manager. He is focused on cloud platforms, cloud computing, and big data related fields.
 
  

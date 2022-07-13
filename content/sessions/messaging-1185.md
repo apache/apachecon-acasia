@@ -12,8 +12,8 @@ But the Logical Storage Model also means that we need to maintain metadata for e
 
 The topic metadata limitation is mainly in two parts:
 
-1. The large Znode size to maintain the metadata of a topic
-2. The memory consumption to cache all the ledgers of a topic 
+1. a) The large Znode size to maintain the metadata of a topic
+2. b) The memory consumption to cache all the ledgers of a topic 
 
 Penghui will share how Pulsar gets rid of the limitation to support infinite data retention of the topic.
  ### Speakers: 

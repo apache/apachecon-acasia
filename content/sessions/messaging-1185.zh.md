@@ -12,10 +12,10 @@ Pulsar 主题数据不会受到单个节点存储资源的限制，无论该主�
 
 主题元数据限制主要分为两部分:
 
-1. 用于维护主题元数据的大 Znode 大小
-2. 内存消费以缓存一个主题的所有 ledger
+1. a) 用于维护主题元数据的大 Znode 大小
+2. b) 内存消费以缓存一个主题的所有 ledger
 
-这次演讲将分享 Apache Pulsar如何摆脱限制，支持无限数据保留的主题。
+这次演讲将分享 Apache Pulsar 如何摆脱限制，支持无限数据保留的主题。
  ### Speakers: 
  <img src="images/speaker/1185.png" width="200" /><br>李鹏辉：StreamNative 首席架构师，Apache Pulsar PMC 成员与 Committer。在加入 StreamNative 之前，李鹏辉就职于智联招聘(Zhaopin.com)担任软件工程师，并领导团队落地部署 Pulsar。
 

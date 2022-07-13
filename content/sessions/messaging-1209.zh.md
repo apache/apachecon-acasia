@@ -12,6 +12,6 @@ vivo移动互联网旨在为3.5亿的全球vivo智能手机用户提供极致的
 
 在本次演讲中，我们将分享选择Pulsar的理由、vivo在Pulsar集群管理、性能调优、监控等方面的实践经验。
  ### Speakers: 
- <img src="images/speaker/1209.png" width="200" /><br>vivo互联网大数据工程师，目前负责vivo分布式消息中间件建设.
- <img src="images/speaker/2023.jpg" width="200" /><br>vivo互联网大数据工程师，曾任微服务应用架构师，现负责vivo分布式消息中间件的能力建设
- 
+ <img src="images/speaker/1209.png" width="200" /><br>全利民，vivo互联网大数据工程师，目前负责vivo分布式消息中间件建设。
+
+ <img src="images/speaker/2023.jpg" width="200" /><br>陈建波，vivo互联网大数据工程师，曾任微服务应用架构师，现负责vivo分布式消息中间件的能力建设。 

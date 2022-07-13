@@ -10,8 +10,8 @@ stype: "中文演讲"
 
 本次将针对 Apache Pulsar 的认证和授权实现，从集群和 Cloud 两个方向出发，分别讲述企业如何构建一个安全的 Apache Pulsar 集群和打造满足个性化要求的 Pulsar 认证或授权插件，以及如何在 Cloud 上为用户提供统一的认证的授权框架以满足不同的需求。
  ### Speakers: 
- <img src="images/speaker/1216.png" width="200" /><br>傅腾，StreamNative 技术支持工程师，有着 9 年电信运营商行业大数据相关经验，熟悉大数据的平台架构、建设、安全和维护，对实时数仓、云原生和 AI 具有平台类产品建设经验。
+ <img src="images/speaker/1216_2.png" width="200" /><br>傅腾，StreamNative 技术支持工程师，有着 9 年电信运营商行业大数据相关经验，熟悉大数据的平台架构、建设、安全和维护，对实时数仓、云原生和 AI 具有平台类产品建设经验。
 
- <img src="images/speaker/1216_2.png" width="200" /><br>俄广宁，StreamNative 高级软件工程师，Apache Pulsar Committer，是 Apache Pulsar IO 和 Apache Pulsar Manager 的主要贡献者，专门从事云平台、云计算和大数据相关领域的工作。
+ <img src="images/speaker/1216.png" width="200" /><br>俄广宁，StreamNative 高级软件工程师，Apache Pulsar Committer，是 Apache Pulsar IO 和 Apache Pulsar Manager 的主要贡献者，专门从事云平台、云计算和大数据相关领域的工作。
 
  
