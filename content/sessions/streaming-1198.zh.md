@@ -1,6 +1,6 @@
 ---
-title: "Making Flink K8S works as your wish"
-date: "" 
+title: "让 Flink 在 K8s 上运行的更好"
+date: "2022-07-30T16:10:00"
 track: "streaming"
 presenters: "赵波"
 stype: "中文演讲"

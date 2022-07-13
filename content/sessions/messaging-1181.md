@@ -1,7 +1,8 @@
 ---
 title: "Create Pulsar with Auteng persistent memory"
-date: "" 
+date: "2022-07-31T14:10:00"
 track: "messaging"
+room: "B"
 presenters: "胡风华"
 stype: "Chinese Session"
 ---

@@ -1,7 +1,8 @@
 ---
 title: "Apache Pulsar 中 Load Manager 的工作原理与实践"
-date: "" 
+date: "2022-07-31T16:10:00"
 track: "messaging"
+room: "B"
 presenters: "王锴"
 stype: "中文演讲"
 ---
@@ -9,5 +10,6 @@ Apache Pulsar 是一个可水平伸缩的消息系统，因此我们必须保证
  ### Speakers: 
  <img src="images/speaker/1197.png" width="200" /><br>王锴: StreamNative, 软件工程师, StreamNative 软件工程师
 Apache Pulsar Contributor
-StreamNative KoP 核心维护者之一
+StreamNative KoP 核心维护者之一
+
  

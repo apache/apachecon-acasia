@@ -1,6 +1,6 @@
 ---
 title: "Citizen Streaming Engineer - A How To"
-date: "" 
+date: "2022-07-29T14:50:00"
 track: "integration"
 presenters: "Timothy SPann"
 stype: "English Session"

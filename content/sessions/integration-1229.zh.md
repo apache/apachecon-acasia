@@ -1,6 +1,6 @@
 ---
 title: "启动和运行:低代码云本地集成"
-date: "" 
+date: "2022-07-29T16:50:00"
 track: "integration"
 presenters: "Rachel Yordán"
 stype: "英文演讲"

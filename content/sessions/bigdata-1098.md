@@ -1,7 +1,8 @@
 ---
 title: "Optimization and practice of Apache InLong in Tencent Cloud"
-date: "" 
+date: "2022-07-30T17:30:00"
 track: "bigdata"
+room: "A"
 presenters: "Yunqing Mo"
 stype: "Chinese Session"
 ---
@@ -12,5 +13,6 @@ stype: "Chinese Session"
  ### Speakers: 
  <img src="images/speaker/1098.png" width="200" /><br>Yunqing Mo: Tencent Cloud, Big data senior engineer, Yunqing Mo: a Big Data practitioner.
 Ongoing open source projects: Apache InLong
-Previous speaking experience: Participating for the first time
+Previous speaking experience: Participating for the first time
+
  

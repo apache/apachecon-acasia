@@ -1,6 +1,6 @@
 ---
 title: "基于Apache Flink的流批一体在京东物流的实践"
-date: "" 
+date: "2022-07-29T13:30:00"
 track: "streaming"
 presenters: "康琪"
 stype: "中文演讲"
@@ -12,5 +12,6 @@ stype: "中文演讲"
 - 未来计划。
  ### Speakers: 
  <img src="images/speaker/1057.png" width="200" /><br>康琪: 京东, 技术专家, 京东物流技术专家，专注于实时计算和流批一体领域。
-Apache Flink & Apache Calcite Contributor；Flink Forward Asia 2021讲师。
+Apache Flink & Apache Calcite Contributor；Flink Forward Asia 2021讲师。
+
  

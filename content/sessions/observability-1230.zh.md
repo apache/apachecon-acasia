@@ -1,6 +1,6 @@
 ---
 title: "利用AIOps实现Apache skywalk的健壮异常警报功能"
-date: "" 
+date: "2022-07-29T15:20:00"
 track: "observability"
 presenters: "Chen Yihao"
 stype: "英文演讲"

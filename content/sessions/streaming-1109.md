@@ -1,6 +1,6 @@
 ---
 title: "Efficient construction of real-time data lakes based on Flink CDC and Hudi"
-date: "" 
+date: "2022-07-30T13:30:00"
 track: "streaming"
 presenters: "徐榜江"
 stype: "Chinese Session"

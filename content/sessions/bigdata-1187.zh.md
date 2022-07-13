@@ -1,7 +1,8 @@
 ---
 title: "基于 Apache Calcite 的多引擎虚拟列技术"
-date: "" 
+date: "2022-07-31T16:10:00"
 track: "bigdata"
+room: "B"
 presenters: "谢佳君"
 stype: "中文演讲"
 ---
@@ -13,5 +14,6 @@ stype: "中文演讲"
 - 相比于 View，提供 Hive 实体Table 一致的使用体验
 - 可以在数据加密/脱敏等多种应用场景落地，例如明文字段配置高权限级别，添加脱敏的虚拟列字段并配置低权限级别，提供灵活的使用方式
  ### Speakers: 
- <img src="images/speaker/1187.png" width="200" /><br>谢佳君: 字节跳动, 高级研发工程师, 字节跳动数据引擎部门高级研发工程师，专注于SQL的解析优化，热爱开源，是Apache Calcite的contributor之一。
+ <img src="images/speaker/1187.png" width="200" /><br>谢佳君: 字节跳动, 高级研发工程师, 字节跳动数据引擎部门高级研发工程师，专注于SQL的解析优化，热爱开源，是Apache Calcite的contributor之一。
+
  

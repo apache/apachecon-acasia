@@ -1,7 +1,8 @@
 ---
 title: "大规模迁移到Uber的Parquet"
-date: "" 
+date: "2022-07-31T14:10:00"
 track: "bigdata"
+room: "B"
 presenters: "Huicheng Song"
 stype: "英文演讲"
 ---

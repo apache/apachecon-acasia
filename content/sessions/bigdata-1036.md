@@ -1,7 +1,8 @@
 ---
 title: "BIGTOP 3.0 with the upgraded Mpack: New era of BigData Distribution"
-date: "" 
+date: "2022-07-31T13:30:00"
 track: "bigdata"
+room: "B"
 presenters: "Yuqi Gu（顾煜祺）"
 stype: "English Session"
 ---
@@ -10,5 +11,6 @@ New Bigtop 3.0, the first release based on Hadoop 3, supported Linux distributio
  ### Speakers: 
  <img src="images/speaker/1036.png" width="200" /><br>Yuqi Gu（顾煜祺）: Arm China, Senior Software Engineer, Yuqi Gu currently works for Arm(https://www.arm.com/) and Linaro(https://www.linaro.org/).
 He is serving as the committer and PMC member of Apache Bigtop. He is also an active contributor in Apache Arrow.
-His expertise including BigData related technologies, Arm64 performance optimization, Linux kernel/application, etc.
+His expertise including BigData related technologies, Arm64 performance optimization, Linux kernel/application, etc.
+
  

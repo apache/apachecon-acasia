@@ -1,7 +1,8 @@
 ---
 title: "Deep Dive into Message Chunking in Pulsar"
-date: "" 
+date: "2022-07-30T16:10:00"
 track: "messaging"
+room: "A"
 presenters: "Zike Yang"
 stype: "Chinese Session"
 ---
@@ -11,5 +12,6 @@ Therefore, instead of increasing the configuration of max message size, Pulsar p
 
 In this talk, Zike Yang will explain the concept of message chunking, deep dive into its implementation, and share best practices for this feature.
  ### Speakers: 
- <img src="images/speaker/1156.png" width="200" /><br>Zike Yang: StreamNative, Software Engineer, Zike Yang is a software engineer at Streamnative. He is also an Apache Pulsar committer.
+ <img src="images/speaker/1156.png" width="200" /><br>Zike Yang: StreamNative, Software Engineer, Zike Yang is a software engineer at Streamnative. He is also an Apache Pulsar committer.
+
  

@@ -1,6 +1,6 @@
 ---
 title: "From O&M to Tech-Writer, how to understand the importance of documentation for open source software"
-date: "" 
+date: "2022-07-31T14:50:00"
 track: "community"
 presenters: "韩飞"
 stype: "Chinese Session"

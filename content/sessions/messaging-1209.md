@@ -1,7 +1,8 @@
 ---
 title: "Exploration and practice of Apache Pulsar in Vivo"
-date: "" 
+date: "2022-07-29T14:10:00"
 track: "messaging"
+room: "B"
 presenters: "全利民"
 stype: "Chinese Session"
 ---

@@ -1,7 +1,8 @@
 ---
 title: "Tales at Scale: Analytics at 1000 QPS and Beyond"
-date: "" 
+date: "2022-07-31T16:50:00"
 track: "bigdata"
+room: "A"
 presenters: "Gian Merlino"
 stype: "English Session"
 ---

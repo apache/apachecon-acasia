@@ -1,6 +1,6 @@
 ---
 title: "Open source and commercial-friendly past and future"
-date: "" 
+date: "2022-07-29T16:40:00"
 track: "culture"
 presenters: "适兕"
 stype: "Chinese Session"

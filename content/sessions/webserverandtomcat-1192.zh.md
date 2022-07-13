@@ -1,6 +1,6 @@
 ---
 title: "tomcat在快手的应用实践"
-date: "" 
+date: "2022-07-30T16:00:00"
 track: "webserverandtomcat"
 presenters: "宋洋"
 stype: "中文演讲"
@@ -11,5 +11,6 @@ stype: "中文演讲"
 
 公司目前知名开源项目如https://github.com/KwaiAppTeam/KOOM，KOOM计划做完整的客户端内存解决方案，开发者可以通过接入KOOM，解决自己项目中的OOM问题。
 
-讲师宋洋曾进行过大量的jvm优化工作，并取得了很大的收益，对jvm常用优化技术和排查问题手段有丰富的经验。
+讲师宋洋曾进行过大量的jvm优化工作，并取得了很大的收益，对jvm常用优化技术和排查问题手段有丰富的经验。
+
  

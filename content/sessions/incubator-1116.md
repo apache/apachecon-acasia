@@ -1,6 +1,6 @@
 ---
 title: "How does Apache Pegasus (incubating) community develop at SensorsData"
-date: "" 
+date: "2022-07-29T14:10:00"
 track: "incubator"
 presenters: "YingChun Lai, Dan Wang"
 stype: "Chinese Session"

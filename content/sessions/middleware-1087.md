@@ -1,6 +1,6 @@
 ---
 title: "Build cloud native data transfer platform based on Apache EventMesh"
-date: "" 
+date: "2022-07-29T16:50:00"
 track: "middleware"
 presenters: "梁荣华"
 stype: "Chinese Session"

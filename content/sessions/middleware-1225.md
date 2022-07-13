@@ -1,6 +1,6 @@
 ---
 title: "Kafka high availability architecture practices"
-date: "" 
+date: "2022-07-30T14:50:00"
 track: "middleware"
 presenters: "刘俊洋"
 stype: "Chinese Session"

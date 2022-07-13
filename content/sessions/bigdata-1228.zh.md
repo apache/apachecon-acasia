@@ -1,7 +1,8 @@
 ---
 title: "Apache Ozone:高效地处理文件和对象的多协议感知系统"
-date: "" 
+date: "2022-07-29T14:10:00"
 track: "bigdata"
+room: "B"
 presenters: "Rakesh Radhakrishnan, Mukul Kumar Singh"
 stype: "英文演讲"
 ---

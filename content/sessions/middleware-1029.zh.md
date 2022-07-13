@@ -1,7 +1,7 @@
 ---
 title: "为Java项目创建跨平台、可复制的二进制构建"
-date: "" 
-track: "general"
+date: "2022-07-30T17:30:00"
+track: "middleware"
 presenters: "Mark Thomas"
 stype: "英文演讲"
 ---
@@ -15,6 +15,6 @@ Mark是Apache Tomcat 10.0和10.1的发布经理，他试图每个月左右发布
 
 在ASF的其他地方，Mark是ASF安全和基础设施团队的一员，他还在Commons PMC工作，专注于Commons Pool和DBCP。
 
-Mark是ASF的成员，并于2016年至2019年担任董事。他自2018年2月起担任品牌管理副总裁。
+Mark是ASF的会员，并于2016年至2019年担任董事。他自2018年2月起担任品牌管理副总裁。
 
  

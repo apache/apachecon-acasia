@@ -1,6 +1,6 @@
 ---
 title: "AGE的毕业之旅"
-date: "" 
+date: "2022-07-29T13:30:00"
 track: "incubator"
 presenters: "Eya Abdisho, John Gemignani, Josh Innis"
 stype: "英文演讲"

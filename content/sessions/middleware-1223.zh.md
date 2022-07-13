@@ -1,6 +1,6 @@
 ---
 title: "基于消息的分布式事务"
-date: "" 
+date: "2022-07-30T15:30:00"
 track: "middleware"
 presenters: "余洲"
 stype: "中文演讲"

@@ -1,7 +1,8 @@
 ---
 title: "Make Apache Pulsar as Lakehouse: Introduction Lakehouse Tiered Storage Integration for Pulsar"
-date: "" 
+date: "2022-07-31T14:10:00"
 track: "messaging"
+room: "A"
 presenters: "陈航"
 stype: "中文演讲"
 ---
@@ -15,5 +16,6 @@ To support streaming offload and make the offloading mechanism more scalable, we
 
 Moreover, we also can provide a compaction service backend by offloader and act the topic as a table. Each update operation for a key is transformed as an upsert action to the table.
  ### Speakers: 
- <img src="images/speaker/1188.png" width="200" /><br>陈航: StreamNative, Engineer, Hang Chen is an engineer from StreamNative, and he is an Apache Pulsar PMC member. He focuses on storage modules for Pulsar, including BookKeeper, tiered storage, and lakehouse.
+ <img src="images/speaker/1188.png" width="200" /><br>陈航: StreamNative, Engineer, Hang Chen is an engineer from StreamNative, and he is an Apache Pulsar PMC member. He focuses on storage modules for Pulsar, including BookKeeper, tiered storage, and lakehouse.
+
  

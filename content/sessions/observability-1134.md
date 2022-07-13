@@ -1,6 +1,6 @@
 ---
 title: "Apache SkyWalking MAL practice --  VMs and Kubernetes Monitoring"
-date: "" 
+date: "2022-07-29T17:20:00"
 track: "observability"
 presenters: "Kai Wan"
 stype: "English Session"

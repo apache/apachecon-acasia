@@ -1,7 +1,8 @@
 ---
 title: "The Design and Implementation of Apache Flink Connector 2.0 "
-date: "" 
+date: "2022-07-31T17:30:00"
 track: "bigdata"
+room: "A"
 presenters: "杨勇强"
 stype: "Chinese Session"
 ---

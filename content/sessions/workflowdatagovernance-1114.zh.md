@@ -1,6 +1,6 @@
 ---
 title: "如何在银行当中让更多人受益数据处理"
-date: "" 
+date: "2022-07-31T13:30:00"
 track: "workflowdatagovernance"
 presenters: "陈卫"
 stype: "中文演讲"

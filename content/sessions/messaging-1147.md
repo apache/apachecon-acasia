@@ -1,7 +1,8 @@
 ---
 title: "Optimization and practice of KoP in Sina Weibo"
-date: "" 
+date: "2022-07-29T14:50:00"
 track: "messaging"
+room: "B"
 presenters: "沈文兵"
 stype: "Chinese Session"
 ---

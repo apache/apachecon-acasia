@@ -1,6 +1,6 @@
 ---
 title: "Apache Linkis 数据处理实践"
-date: "" 
+date: "2022-07-31T14:10:00"
 track: "workflowdatagovernance"
 presenters: "李孟"
 stype: "中文演讲"
@@ -15,5 +15,6 @@ dolphinscheduler 拉起Linkis 计算任务，dolphinscheduler Shell 任务类型
 小结
 到此Linkis 数据处理的整体链路，涉及到元数据，调度任务，形成完整闭环。
  ### Speakers: 
- <img src="images/speaker/1132.png" width="200" /><br>李孟: 上海仙翁科技, 数据架构, 多年数据架构经验，CSDN博客专家，开源爱好者，Beam社区贡献者，WeDataSphere社区贡献者。
+ <img src="images/speaker/1132.png" width="200" /><br>李孟: 上海仙翁科技, 数据架构, 多年数据架构经验，CSDN博客专家，开源爱好者，Beam社区贡献者，WeDataSphere社区贡献者。
+
  

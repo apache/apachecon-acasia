@@ -1,6 +1,6 @@
 ---
 title: "How to attract Developers from Asian cultures to open source"
-date: "" 
+date: "2022-07-29T14:40:00"
 track: "culture"
 presenters: "张晋涛"
 stype: "Chinese Session"

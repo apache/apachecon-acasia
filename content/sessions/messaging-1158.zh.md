@@ -1,7 +1,8 @@
 ---
 title: "Apache Pulsar 在腾讯云稳定性优化实践"
-date: "" 
+date: "2022-07-29T15:30:00"
 track: "messaging"
+room: "B"
 presenters: "冉小龙"
 stype: "中文演讲"
 ---
@@ -16,5 +17,6 @@ Apache Pulsar 在腾讯云中已经得到大规模的生产实践。在过去一
 腾讯云中间件团队高级研发工程师
 Apache Pulsar Committer
 RoP Maintainer
-Apache Pulsar Go SDK, Go Functions 和 Pulsarctl 作者及主要维护者
+Apache Pulsar Go SDK, Go Functions 和 Pulsarctl 作者及主要维护者
+
  

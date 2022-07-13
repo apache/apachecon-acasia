@@ -1,6 +1,6 @@
 ---
 title: "The collision of differential pattern and open source culture"
-date: "" 
+date: "2022-07-29T14:00:00"
 track: "culture"
 presenters: "姜宁,李圳虎"
 stype: "Chinese Session"

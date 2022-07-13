@@ -1,6 +1,6 @@
 ---
 title: "从运维到Tech-Writer，如何理解文档对于开源软件的重要性"
-date: "" 
+date: "2022-07-31T14:50:00"
 track: "community"
 presenters: "韩飞"
 stype: "中文演讲"

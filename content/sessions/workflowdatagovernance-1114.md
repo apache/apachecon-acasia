@@ -1,6 +1,6 @@
 ---
 title: "How to make more people benefit from data processing in the bank"
-date: "" 
+date: "2022-07-31T13:30:00"
 track: "workflowdatagovernance"
 presenters: "陈卫"
 stype: "Chinese Session"
