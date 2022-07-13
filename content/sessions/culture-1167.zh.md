@@ -16,10 +16,10 @@ stype: "中文演讲"
 
  <img src="images/speaker/1167-1.png" width="200" /> 顾钧：Milvus开源向量数据库布道师，Zilliz合伙人。
 
-陈元熹：海华永泰律师事务所合伙人律师，华盛顿大学法学硕士，竞争与反垄断委员会副主任，秘书长。
+<img src="images/speaker/1167-2.png" width="200" /> 陈元熹：海华永泰律师事务所合伙人律师，华盛顿大学法学硕士，竞争与反垄断委员会副主任，秘书长。
 
-王晓研： 九合创投投资总监，主要负责云原生和infra领域的早期投资
+<img src="images/speaker/1167-3.png" width="200" /> 王晓研： 九合创投投资总监，主要负责云原生和infra领域的早期投资
 
-Wing： 牛津CS毕业，DC-DAO成员
+<img src="images/speaker/1167-4.png" width="200" />  Wing： 牛津CS毕业，DC-DAO成员
 
  

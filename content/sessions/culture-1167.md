@@ -16,8 +16,8 @@ What is commercially friendly? A betrayal of open source? Too much compromise wi
 
  <img src="images/speaker/1167-1.png" width="200" /> GuJun：Milvus Open Source advocate，Zilliz co-partner。
 
-Chen Yuanxi: Partner Attorney of Haihua Yongtai Law Firm, Master of Laws from the University of Washington, Deputy Director and Secretary General of the Competition and Anti-Monopoly Commission.
+<img src="images/speaker/1167-2.png" width="200" />  Chen Yuanxi: Partner Attorney of Haihua Yongtai Law Firm, Master of Laws from the University of Washington, Deputy Director and Secretary General of the Competition and Anti-Monopoly Commission.
 
-XiaoYan Wang： Investment Direct in Unity Venture,be in charge of investment in cloud native infrastructure field.
+<img src="images/speaker/1167-3.png" width="200" />  XiaoYan Wang： Investment Direct in Unity Venture,be in charge of investment in cloud native infrastructure field.
 
-Wing： Graduated from Oxford University Computer Science，DC-DAO member.
+<img src="images/speaker/1167-4.png" width="200" />  Wing： Graduated from Oxford University Computer Science，DC-DAO member.
