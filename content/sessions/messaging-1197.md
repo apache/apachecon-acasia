@@ -1,15 +1,13 @@
 ---
-title: "Working principle and practice of Load Manager in Apache Pulsar"
+title: "Load Manager in Apache Pulsar: How Does it Work and How to Use it"
 date: "2022-07-31T16:10:00"
 track: "messaging"
 room: "B"
-presenters: "王锴"
+presenters: "Kai Wang"
 stype: "Chinese Session"
 ---
-Apache Pulsar is a horizontally scalable messaging system, so we must ensure that the Load of brokers in the cluster is as balanced as possible. The Load Manager is responsible for this function. This talk will introduce the basic working principle of the Load Manager. And how to use and manage the Load Manager in Pulsar.
+Apache Pulsar is a messaging system that supports horizontal scaling, so we must ensure that the load is balanced across brokers as much as possible. This is where the Load Manager in Pulsar comes in. This talk will introduce how the Load Manager works and how to use and manage the Load Manager in Pulsar.
  ### Speakers: 
- <img src="images/speaker/1197.png" width="200" /><br>Kai Wang: StreamNative, Software engineer, StreamNative Software engineer
-Apache Pulsar Contributor
-One of the StreamNative KoP core maintainers
+ <img src="images/speaker/1197.png" width="200" /><br>Kai Wang, StreamNative Software Engineer, Apache Pulsar Contributor, one of the core maintainers of StreamNative KoP.
 
  

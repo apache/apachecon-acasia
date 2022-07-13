@@ -1,14 +1,13 @@
 ---
-title: "Application of Apache Pulsar in Open-Telemetry - Collector"
+title: "Using Apache Pulsar on OpenTelemetry Collector"
 date: "2022-07-31T17:30:00"
 track: "messaging"
 room: "A"
-presenters: "Tao Jiuming"
+presenters: "Jiuming Tao "
 stype: "Chinese Session"
 ---
-The OpenTelemetry ecosystem is mature for observability solutions and has amassed a certain number of users so far that the community has integrated Apache Pulsar into the OpenTelemetry ecosystem as part of its underlying support for observability. In actual observability scenarios, the huge data production rate and relatively slow data consumption rate at the data acquisition end are often the biggest problems that restrict data integrity. This talk will share how to use Apache Pulsar Receiver/Exporter as a buffer on the open-Telemetry - Collector platform to solve these problems.
+The OpenTelemetry ecosystem provides relatively mature solutions among observability options, which already have a certain number of users. The community has integrated Apache Pulsar into the OpenTelemetry ecosystem as part of its underlying support solutions to observability. In production, a massive amount of data is produced while consumed at a relatively slow rate. This is often the biggest problem that impairs data integrity. In this speech, we will discuss using Apache Pulsar Receiver/Exporter as a buffer on OpenTelemetry Collector to solve the problem.
  ### Speakers: 
- <img src="images/speaker/1250.png" width="200" /><br>Tao Jiuming: StreamNative, Software Engineer, StreamNative Platform Engineer
-Apache Pulsar Contributor
+ <img src="images/speaker/1250.png" width="200" /><br>Tao Jiuming, StreamNative Platform Engineer, Apache Pulsar Contributor.
 
  

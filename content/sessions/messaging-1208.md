@@ -1,15 +1,15 @@
 ---
-title: "Build one Real-time Data Warehouse Based on Apache Pulsar"
+title: "Build a Real-time Data Warehouse Based on Apache Pulsar"
 date: "2022-07-31T15:30:00"
 track: "messaging"
 room: "A"
-presenters: "Dezhi Liu,杨子棵"
+presenters: "Dezhi Liu, Zike Yang"
 stype: "Chinese Session"
 ---
-Introduce the Apache Pulsar storage separation architecture and hierarchical storage mode, and the construction ideas of real-time data warehouse. 
+The speech will start by Introducing the unique architecture of Apache Pulsar, featuring the separation of computing and storage and Pulsar’s tiered storage. After that, we will discuss building-time data warehouse based on Pulsar.
  ### Speakers: 
- <img src="images/speaker/1208.png" width="200" /><br>Dezhi Liu: StreamNative, solution expert, StreamNative solution expert, former Tencent billing platform technical expert, Apache Pulsar Committer, past topics to share Application of Apache Pulsar in Tencent Midas Scenario.
+ <img src="images/speaker/1208.png" width="200" /><br>Dezhi Liu, StreamNative Solution Expert, former Tencent billing platform technical expert, Apache Pulsar Committer. He once shared the application of Apache Pulsar in the Tencent Midas Scenario.
 
- <img src="images/speaker/1208_2.png" width="200" /><br>杨子棵: StreamNative, 软件工程师, 杨子棵是来自于StreamNative的软件工程师，同时也是一位Apache Pulsar Committer。
+ <img src="images/speaker/1208_2.png" width="200" /><br>Zike Yang, StreamNative Software Engineer, Apache Pulsar Committer.
 
  

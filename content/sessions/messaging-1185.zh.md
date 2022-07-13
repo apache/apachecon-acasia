@@ -3,20 +3,20 @@ title: "摆脱主题元数据的限制，Apache Pulsar的无限数据保留"
 date: "2022-07-30T14:50:00"
 track: "messaging"
 room: "A"
-presenters: "Penghui Li"
+presenters: "李鹏辉"
 stype: "中文演讲"
 ---
-摘要:Pulsar主题数据不会受到单个节点存储资源的限制，即使该主题是未分区的主题，或者分区的主题只有单个分区。最根本的原因是Pulsar使用了逻辑存储模型。pulsar主题数据将分布到更多的bookies节点，分区/主题不会1:1绑定到任何存储节点。
+Pulsar 主题数据不会受到单个节点存储资源的限制，无论该主题是未分区的主题还是单分区主题。最根本的原因是 Pulsar 使用了逻辑存储模型。Pulsar 主题数据将分布到更多的 bookie 节点，分区/主题不会 1:1 绑定到任何存储节点。
 
-但是，逻辑存储模型还意味着我们需要为元数据存储中的每个数据段维护元数据，即一个分类账列表，以表明数据存储在哪个分类账中。如果想要无限的主题数据保存，元数据存储方式将成为瓶颈。减少账本滚转的频率可以延长遇到瓶颈的时间，但主题卸载也会导致账本滚转。它可以通过加载管理器、重启代理或手动触发。
+但是，逻辑存储模型还意味着我们需要为元数据存储中的每个数据段维护元数据，即一个 ledger 列表，以表明数据存储在哪个 ledger 中。如果想要无限的主题数据保存，元数据存储方式将成为瓶颈。减少 ledger 滚动的频率可以延长遇到瓶颈的时间，但主题卸载也会导致 ledger 滚动。加载 manager、重启 broker 或手动都会触发 ledger 滚动。
 
-本课题元数据限制主要分为两部分:
+主题元数据限制主要分为两部分:
 
-1. 用于维护主题元数据的大znode大小
-2. 缓存一个主题的所有分类账所消耗的内存
+1. 用于维护主题元数据的大 Znode 大小
+2. 内存消费以缓存一个主题的所有 ledger
 
-这次演讲将分享脉冲星如何摆脱限制，支持无限数据保留的主题。
+这次演讲将分享 Apache Pulsar如何摆脱限制，支持无限数据保留的主题。
  ### Speakers: 
- <img src="images/speaker/1185.png" width="200" /><br>Penghui Li: StreamNative, 技术负责人，Apache Pulsar PMC成员/提交人, 李鹏辉热衷于帮助组织构建和实现消息服务。在加入StreamNative之前，彭辉是智联招聘(Zhaopin.com)的软件工程师，他是Pulsar的主要倡导者，并帮助公司采用和实施该技术。他是阿帕奇脉冲星委员和PMC成员
+ <img src="images/speaker/1185.png" width="200" /><br>李鹏辉：StreamNative 首席架构师，Apache Pulsar PMC 成员与 Committer。在加入 StreamNative 之前，李鹏辉就职于智联招聘(Zhaopin.com)担任软件工程师，并领导团队落地部署 Pulsar。
 
  

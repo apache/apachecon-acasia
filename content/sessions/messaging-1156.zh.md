@@ -1,17 +1,16 @@
 ---
-title: "深入研究Pulsar信息分块"
+title: "深入研究 Pulsar 中的消息分块"
 date: "2022-07-30T16:10:00"
 track: "messaging"
 room: "A"
-presenters: "Zike Yang"
+presenters: "杨子棵"
 stype: "中文演讲"
 ---
-与所有消息系统一样，Apache Pulsar对发送给代理的每条消息都施加了大小限制。它防止每个消息的有效负载超过pulsar代理中设置的最大消息大小。然而，许多用户需要Pulsar客户端向代理发送大型消息，用于图像处理和音频处理等用例。
+Apache Pulsar 与所有消息系统一样，会对发送到 broker 的每条消息限制大小。这可以防止每条消息的负载超过 broker 中设置的 `maxMessageSize`。
 
-因此，Pulsar没有增加最大消息大小的配置，而是提供了消息分块特性，以支持发送大消息。使用消息分块，生产者可以根据最大消息大小配置将一个大消息分成多个块，并将每个块作为普通消息发送给代理。然后，使用者将这些块合并回原始消息。
-
-在这次演讲中，杨子科将解释消息分块的概念，深入研究它的实现，并分享这一特性的最佳实践。
+然而，在诸如图像处理和音频处理等应用场景中，很多用户需要 Pulsar 客户端向 broker 发送大消息。因此，Pulsar 在发送大消息时，除了增加 `maxMessageSize` 的值外，也提供了消息分块功能来支持。通过消息分块，生产者可以根据 `maxMessageSize` 将大消息拆分为多个块，并将每个块作为普通消息发送给 broker。消费者之后会将这些块消息组合回原始消息。
+在这篇演讲中，杨子棵将解释消息分块的概念，深入探讨其实现，并分享此功能的最佳实践.
  ### Speakers: 
- <img src="images/speaker/1156.png" width="200" /><br>Zike Yang: StreamNative, 软件工程师, Zike Yang是Streamnative的软件工程师。他也是阿帕奇脉冲星的提交者。
+ <img src="images/speaker/1156.png" width="200" /><br>Zike Yang：StreamNative 软件工程师，Apache Pulsar Committer。
 
  
