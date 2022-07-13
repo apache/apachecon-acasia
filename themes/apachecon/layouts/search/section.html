@@ -213,6 +213,9 @@
     $(".total").text(total_page); // Show total pages
     $(".current_page").text(current_num);  //Displays the current number of pages
 
+    // Clear the page buttons
+    $(".tmp").remove()
+
     // Adds a page number based on the current number of pages
     for (var i = total_page; i>=1; i--){
       $('.hidden').after("<li class='tmp' value='"+i+"'><a>"+i+"</a></li>");      
