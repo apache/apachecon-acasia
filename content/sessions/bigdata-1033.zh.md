@@ -1,5 +1,5 @@
 ---
-title: "Apache Druid云原生架构演变"
+title: "Apache Druid云原生架构演进"
 date: "2022-07-29T14:50:00"
 track: "bigdata"
 room: "A"
