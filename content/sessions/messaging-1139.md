@@ -1,15 +1,15 @@
 ---
-title: "Huawei terminals evolve message queues based on Apache Pulsar"
+title: "The Evolution Of Apache Pulsar As A Message Queue In Huawei Device"
 date: "2022-07-29T13:30:00"
 track: "messaging"
 room: "B"
-presenters: "林琳,王小童"
+presenters: "Lin Lin, Xiaotong Wang"
 stype: "Chinese Session"
 ---
-In the cloud native era, the message queue of Huawei terminals, as an infrastructure, is faced with many challenges, such as a large number of MQ types and difficult to maintain, difficult to build disaster recovery capabilities, and high machine costs. This section will share huawei terminal experience in message queue evolution and how to deal with the above problems.
+In the cloud-native era, the infrastructure of the message queue in the Huawei Device is faced with many challenges. The large number of MQ types has caused difficulty in maintaining and building disaster tolerance capabilities and high costs. This section will cover Huawei Device’s experience rebuilding the message queue and dealing with the above problems.
  ### Speakers: 
- <img src="images/speaker/1139.png" width="200" /><br>Lin Lin: huawei, SDE experts, Huawei terminal SDE expert, Apache Pulsar PMC, with nearly 10 years of experience in middleware and infrastructure design, is committed to creating stable and reliable infrastructure
+ <img src="images/speaker/1139.png" width="200" /><br>Lin Lin: Huawei Device SDE Expert, Apache Pulsar PMC member, with nearly 10 years of experience in middleware and infrastructure design, is committed to creating stable and reliable infrastructure.
 
- <img src="images/speaker/1139_2.png" width="200" /><br>Xiaotong Wang: huawei, Senior Engineer, Senior engineer of Huawei Terminal Cloud Service Basic cloud platform, responsible for the design and evolution of distributed message queue and distributed gateway
+ <img src="images/speaker/1139_2.png" width="200" /><br>Xiaotong Wang: Senior Engineer of Huawei Device Cloud Platform, Xiaotong is working on designing and maintaining distributed message queue and distributed gateway.
 
  

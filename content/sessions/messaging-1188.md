@@ -1,12 +1,12 @@
 ---
-title: "Make Apache Pulsar as Lakehouse: Introduction Lakehouse Tiered Storage Integration for Pulsar"
+title: "Make Apache Pulsar as Lakehouse: Introducing the Lakehouse Tiered Storage Integration for Pulsar"
 date: "2022-07-31T14:10:00"
 track: "messaging"
 room: "A"
-presenters: "陈航"
+presenters: "Hang Chen"
 stype: "Chinese Session"
 ---
-Apache Pulsar is a message bus to cache data and decouples between different systems. To support long-term topic data storage, we introduced tiered storage to offload cold data into tiered storage such as GCS, S3, HDFS, etc. However, current offloaded data is organized by Pulsar and is not open-format, which is a raw data format, and only Pulsar can access the data. It is hard to integrate with other significant data components, such as Presto, Flink SQL, and Spark SQL.
+Apache Pulsar is a message bus to cache data and decouples between different systems. To support long-term topic data storage, we introduced tiered storage to offload cold data into tiered storage such as GCS, S3, HDFS, etc. However, current offloaded data is organized by Pulsar and is not open-format, which is a raw data format; only Pulsar can access the data. It is hard to integrate with other significant data components, such as Presto, Flink SQL, and Spark SQL.
 
 To solve the problems we faced, we introduced Lakehouse storage lib to manage offload data and integrate with the current topic cold data offload mechanism. With Lakehouse storage lib support, we can use all features provided by Lakehouse, such as transaction support, Schema enforcement, governance, and BI support.
 
