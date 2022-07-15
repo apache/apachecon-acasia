@@ -12,7 +12,7 @@ What exactly is the ASF's connection to China? What are some of the interesting 
 
 ### Speakers: 
 <img src="images/speaker/2012.png" width="200" /><br>
-Willem Jiang, Board Director of Apache Software Foundation (ASF) 2022, Chairman of ApacheCon Asia, Founder of Apache Local Community (ALC) Beijing, Technical Expert of Huawei Open Source Management Center, and former Principal Software Engineer of Red Hat Software.
+Willem Jiang, Board Director of Apache Software Foundation (ASF) 2022, Chair of ApacheCon Asia, Founder of Apache Local Community (ALC) Beijing, Technical Expert of Huawei Open Source Management Center, and former Principal Software Engineer of Red Hat Software.
 
 <img src="images/speaker/2012_1.png" width="200" /><br>
 Sheng Wu, Founding Engineer of Tetrate, Founder of Apache SkyWalking, AWS Container Hero, Microsoft MVP
