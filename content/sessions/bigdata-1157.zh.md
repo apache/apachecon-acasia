@@ -3,7 +3,7 @@ title: "Apache Hive 4.0 的新特性"
 date: "2022-07-30T16:50:00"
 track: "bigdata"
 room: "A"
-presenters: "Yan Liu"
+presenters: "刘岩"
 stype: "中文演讲"
 ---
 Apache Hive 4.0的发布计划已经暂停很久了 ，但是社区并没有停止研发和改进的脚步，被解决并被标记为Apache Hive 4.0的Patch 已经累加到了很高的一个数量级。  

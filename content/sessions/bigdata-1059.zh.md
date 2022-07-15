@@ -3,7 +3,7 @@ title: "Apache Ozone 的最近进展和实践分享"
 date: "2022-07-30T14:10:00"
 track: "bigdata"
 room: "A"
-presenters: "Yan Liu,Yi Chen"
+presenters: "刘岩, 陈怡"
 stype: "中文演讲"
 ---
 Apache Ozone是Hadoop社区推出的新一代分布式存储，构架简洁易扩展，兼容Hadoop文件系统，无缝支持MR, Hive，Spark和Impala等计算引擎；兼容S3对象协议，支持AWS客户端访问；丰富的企业级特性，包括用户认证，数据透明加密，GDPR规范，访问权限控制，配额管理等等。

@@ -32,14 +32,19 @@
                 <span class="page_box">                 
                 <ul id="pagination-clean"> 
 
+                  <li class="first"><a>I<</a></li>
                   <li class="prev"><a>{{i18n "prevPage"}}</a></li>
-                  <input type="hidden" class="hidden"/>                 
-                    <span class="pageNum">                
-                        <span class="current_page">1</span>
-                        <span style="padding:0 3px;">/</span>
-                        <span class="total"></span>
-                    </span>
-                  <li class="next"><a>{{i18n "nextPage"}}</a></li>   
+                  <span class='ellipsis-pre' style='display:none'>...</span>
+
+                  <input type="hidden" class="hidden"/> 
+                  <span class='ellipsis-end' style='display:none'>...</span>
+                  <span class="pageNum">                
+                      <span class="current_page">1</span>
+                      <span style="padding:0 3px;">/</span>
+                      <span class="total"></span>
+                  </span>
+                  <li class="next"><a>{{i18n "nextPage"}}</a></li>
+                  <li class="last"><a>>I</a></li>   
                                                            
                 </ul>                     
                 </span>
@@ -58,13 +63,14 @@
       float:left; 
       position:relative; 
       left:50%;
+      transform: translateX(-50%);
     }
 
     .page_btn a {
-        cursor: pointer;
-        padding: 5px;
-        border: solid 1px #ccc;
-        font-size: 12px·
+      cursor: pointer;
+      padding: 5px;
+      border: solid 1px #ccc;
+      font-size: 12px·
     }
 
     .page_box {
@@ -122,7 +128,6 @@
     if (key === "") {
       return;
     }
-    // document.getElementById("search-key").value = "";
 
     // tip
     document.getElementById("search-tip").innerText = "{{i18n "searching"}}";
@@ -201,7 +206,6 @@
  
   function page(){
   
-
     $("#pageCtl").show();
     var current_page = 5; // Data displayed per page
     $("article").slice(0,current_page).show();
@@ -210,20 +214,63 @@
     var total_page = Math.ceil(total_q / current_page); // PageCount
     var next = $(".next"); // next page
     var prev = $(".prev"); // previous page
+    let first = $(".first") // first page
+    let last = $(".last") // last page
+
+    $(".ellipsis-end").hide() // Hide the leading ellipsis
+    $(".ellipsis-pre").hide() // Hide the end ellipsis
     $(".total").text(total_page); // Show total pages
     $(".current_page").text(current_num);  //Displays the current number of pages
+
+    // Clear the page buttons
+    $(".tmp").remove()
 
     // Adds a page number based on the current number of pages
     for (var i = total_page; i>=1; i--){
       $('.hidden').after("<li class='tmp' value='"+i+"'><a>"+i+"</a></li>");      
     }
     // The first page is selected by default
-    $("#pagination-clean li").eq(1).addClass('selected');
+    $("#pagination-clean li").eq(2).addClass('selected');
+
+    
+    if(total_page > 10){
+      $('.ellipsis-end').show()
+    }
+
+    // Hide redundant page buttons
+    function buttonHide(page = 1){
+      if(total_page > 10){
+        $.each($('.tmp'),(index, el) => {
+          if(page - $(el).val() > 3 ||  page - $(el).val() < -3){
+            $(el).hide()
+          } else {
+            $(el).show()
+          }
+        })
+      }
+    }
+    buttonHide()
 
     // Click the page number to jump
     $(".tmp").click(function () {  
       var clickPage=$(this).val()  
       current_num = clickPage
+
+      buttonHide(clickPage)
+ 
+      if(clickPage > 5){
+        $('.ellipsis-pre').show()
+      } else {
+        $('.ellipsis-pre').hide()
+
+      }
+
+      if(clickPage < total_page - 5){
+        $('.ellipsis-end').show()
+      } else {
+        $('.ellipsis-end').hide()
+      }
+
       $(".current_page").text(current_num);
       $(this).addClass("selected"); 
       $.each($("article"), function (index, item) {
@@ -253,9 +300,10 @@
                     $(this).hide();
                 }
             })
-            $("#pagination-clean li").eq(current_num).siblings('li').removeClass('selected');
-           $("#pagination-clean li").eq(current_num).addClass('selected');
+            $("#pagination-clean li").eq(current_num + 1).siblings('li').removeClass('selected');
+            $("#pagination-clean li").eq(current_num + 1).addClass('selected');
         }
+        buttonHide(current_num)
     })
 
     // previous page
@@ -274,17 +322,28 @@
                     $(this).hide();
                 }
             })  
-            $("#pagination-clean li").eq(current_num).siblings('li').removeClass('selected');
-            $("#pagination-clean li").eq(current_num).addClass('selected');          
+            $("#pagination-clean li").eq(current_num + 1).siblings('li').removeClass('selected');
+            $("#pagination-clean li").eq(current_num + 1).addClass('selected');    
+            buttonHide(current_num)
         }
+    })
+    // first page
+    $('.first').click(function(){
+      document.getElementsByClassName('tmp')[0].click()  
+    })
+
+    // last page
+    $('.last').click(function(){
+      document.getElementsByClassName('tmp')[total_page - 1].click()  
     })
 
   // Page number selection
   $("#pagination-clean li").click(function(){
-    if($(this).attr("class") != "next" & $(this).attr("class") != "prev"){
+    let class_list = $(this).attr("class").split(" ") 
+    if(class_list.includes("tmp")){
       $(this).siblings('li').removeClass('selected');  // Delete styles for other sibling elements
       $(this).addClass('selected');                    // Adds the style of the current element
-    }   
+    }
   })
 
 }

@@ -5,12 +5,12 @@ track: "integration"
 presenters: "Claus Ibsen, Andrea Cosentino"
 stype: "英文演讲"
 ---
-骆驼是集成的瑞士刀，是ASF最著名的集成项目。
+Camel是集成的瑞士刀，是ASF最著名的集成项目。
 Camel提供了300多个连接器，用于在各种系统之间传输数据。该工具箱还提供了基于现代或遗留企业最疯狂的需求的路由、过滤和转换数据的选项。
 
-这一环节涵盖了“骆驼”项目的所有最新发展，以及下一步的路线图。
+这一环节涵盖了“Camel”项目的所有最新发展，以及下一步的路线图。
 
-在会议期间，我们将展示快速演示骆驼。
+在会议期间，我们将展示快速演示Camel的功能。
  ### Speakers: 
  <img src="images/speaker/1141.png" width="200" /><br>Claus Ibsen: Apache APISIX, Red Hat, Claus Ibsen是Red Hat的开源爱好者和软件开发者。他是Apache Camel项目的共同负责人，这是一个用于集成的项目;他已经全职工作了十多年。
 

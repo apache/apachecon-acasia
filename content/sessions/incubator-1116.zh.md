@@ -12,7 +12,6 @@ Sensors Data是中国最大的大数据分析和营销技术服务提供商之�
 我是Apache Pegasus(孵化)的PPMC, Apache Kudu的提交者和PMC, Apache Doris(孵化)的提交者。现在我关注阿帕奇·帕伽索斯和库杜。
 我曾经在公司内部做过技术演讲。
 
- <img src="images/speaker/1116_2.png" width="200" /><br>Dan Wang: 传感器数据, 软件工程师, 现在我在传感器数据部门工作。Sensors Data是全球最大的大数据分析和营销技术服务提供商之一，提供大数据分析产品和平台，为各种规模的组织提供咨询服务和行业解决方案，推动业务增长，目前为全球超过1500家公司提供服务。
-我是Apache Pegasus(孵化)的贡献者。我在Apache Pegasus的第一次聚会上做了一个技术讲座。
+ <img src="images/speaker/1116_2.png" width="200" /><br>Dan Wang: 传感器数据, 软件工程师, 现在我在传感器数据部门工作。Sensors Data是全球最大的大数据分析和营销技术服务提供商之一，提供大数据分析产品和平台，为各种规模的组织提供咨询服务和行业解决方案，推动业务增长，目前为全球超过1500家公司提供服务。我是Apache Pegasus(孵化)的committer。我在Apache Pegasus的第一次聚会上做了一个技术讲座。
 
  

@@ -22,7 +22,7 @@ To generate final site, use:
 
 
 ```
-hugo  -b https://apachecon.com/acasia2022/ -d <destination_directory> -F
+hugo -b https://apachecon.com/acasia2022/ -d <destination_directory> -F
 ```
 
 ## FAQ
