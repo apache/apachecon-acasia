@@ -5,11 +5,14 @@ track: "keynote"
 presenters: "Willem Jiang, Sheng Wu, Ted Liu, Jerry Tan,  Bo Jiang"
 stype: "Chinese Panel"
 ---
+The Apache Software Foundation (ASF) is a non-profit charitable organization founded in 1999 with the mission to "Provide software for the public good". server, the Apache Group, a group of enthusiasts who developed the Apache HTTP server. After more than two decades, the Apache Software Foundation has become the world's largest open source foundation, overseeing more than 350 free, enterprise-class projects and more than 190 million lines of code that are the cornerstones of widely used applications around the world.
+
+What exactly is the ASF's connection to China? What are some of the interesting stories that have occurred over its two decades of existence, and how has these ASF's success stories in China helped the open source cause in China? This panel will invite senior members of the Apache Software Foundation who will share the success stories of ASF in China. 
 
 
 ### Speakers: 
 <img src="images/speaker/2012.png" width="200" /><br>
-Willem Jiang, Director of Apache Software Foundation (ASF) 2022, Chairman of ApacheCon Asia, Founder of Apache Local Community (ALC) Beijing, Technical Expert of Huawei Open Source Management Center, and former Principal Software Engineer of Red Hat Software.
+Willem Jiang, Board Director of Apache Software Foundation (ASF) 2022, Chairman of ApacheCon Asia, Founder of Apache Local Community (ALC) Beijing, Technical Expert of Huawei Open Source Management Center, and former Principal Software Engineer of Red Hat Software.
 
 <img src="images/speaker/2012_1.png" width="200" /><br>
 Sheng Wu, Founding Engineer of Tetrate, Founder of Apache SkyWalking, AWS Container Hero, Microsoft MVP
