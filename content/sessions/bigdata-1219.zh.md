@@ -10,6 +10,6 @@ stype: "中文演讲"
 在此背景下，字节跳动 Spark 团队一方面针对 ESS 做了大量的优化，包括 Shuffle 相关参数优化(减少随机读的请求)、增加 Shuffle 限流等，大大提高了 ESS 在 SSD 集群的稳定性；另一方面在 HDD 磁盘/在离线混部等场景的集群中，我们提出了 Cloud Shuffle Service(CSS) 作为解决方案，即 map task 通过 push 的方式将同一个 partition 的数据推送到同一个 CSS 工作节点，reduce task 可以从对应的节点进行顺序读，大大提高了读取的性能和 Shuffle 的稳定性，有效保障了SLA。
 目前字节跳动内部的线上 Spark / Flink / MapReduce 均已接入CSS。
  ### Speakers: 
- <img src="images/speaker/1219.png" width="200" /><br>魏中佳: 毕业于电子科技大学，现任字节跳动大数据开发工程师，专注大数据分布式计算领域，主要负责 Spark 内核开发及字节自研 Shuffle Service 开发。
+ <img src="images/speaker/1219.png" width="200" /><br>魏中佳: 毕业于电子科技大学，现任字节跳动基础架构大数据开发工程师，专注大数据分布式计算领域，主要负责 Spark 内核开发及字节自研 Shuffle Service 开发。
 
  
