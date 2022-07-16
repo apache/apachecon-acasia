@@ -1,5 +1,5 @@
 ---
-title: "Apache Doris Flink connector 2.0的设计与实现"
+title: "Flink 实时写入Apache Doris 的优化实现与未来规划"
 date: "2022-07-31T17:30:00"
 track: "bigdata"
 room: "A"
