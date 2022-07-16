@@ -1,5 +1,5 @@
 ---
-title: "使用 Apache ShardingSphere 来进一步扩展 Amazon Aurora 的读写能力"
+title: "云原生数据库如何走向极致扩展- Amazon Aurora 的做法"
 date: "2022-07-30T16:10:00"
 track: "middleware"
 presenters: "马丽丽"
