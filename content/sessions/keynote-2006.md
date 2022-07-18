@@ -2,7 +2,7 @@
 title: "What We All Need To Do Together To Secure The Open Source Software Supply Chain"
 date: "" 
 track: "keynote"
-presenters: "Justin Mclean"
+presenters: "Brian Behlendorf"
 stype: "English Session"
 ---
 Brian will speak about the ways in which the open source community have become vulnerable to new kinds of attacks on the software supply chain, and the efforts of many to address those challenges. Those efforts require new processes, new tools, and new initiatives to drive adoption.

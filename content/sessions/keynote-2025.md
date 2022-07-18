@@ -2,7 +2,7 @@
 title: "The road from Apache Doris open source project to product commercialization exploration"
 date: "" 
 track: "keynote"
-presenters: "Linjiang Lien"
+presenters: "Linjiang Lian"
 stype: "Chinese Session"
 ---
 Apache Doris is a high-performance, real-time analytic database based on the MPP architecture, and SelectDB is an open source technology company that has developed a new generation of cloud-native real-time data warehouse based on Doris. 
@@ -12,4 +12,4 @@ In this talk, we will introduce how an open source core technology is moving tow
 ### Speakers: 
 <img src="images/speaker/2025.png" width="200" />
 <br>
-Linjiang Lien, CEO of SelectDB, former director of Baidu, has over 12 years of experience in R&D and commercialization in the field of big data and cloud computing, and is one of the earliest generation of Hadoop engineers in China.
+Linjiang Lian, CEO of SelectDB, former director of Baidu, has over 12 years of experience in R&D and commercialization in the field of big data and cloud computing, and is one of the earliest generation of Hadoop engineers in China.
