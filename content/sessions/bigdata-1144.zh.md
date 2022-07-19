@@ -1,7 +1,8 @@
 ---
-title: "Apache Kylin 技术的演进之路 -- MOLAP 技术的下半场"
-date: "" 
+title: "更易用、更强劲的大数据分析平台 -- Kylin 5.0 社区路线一览"
+date: "2022-07-31T14:10:00"
 track: "bigdata"
+room: "A"
 presenters: "俞霄翔"
 stype: "中文演讲"
 ---
@@ -14,5 +15,6 @@ stype: "中文演讲"
   - 微服务和云原生
 3. 技术预览版使用演示
  ### Speakers: 
- <img src="images/speaker/1144.png" width="200" /><br>俞霄翔: Kyligence, 高级研发工程师, Apache Kylin PMC member
+ <img src="images/speaker/1144.png" width="200" /><br>俞霄翔: Apache Kylin PMC member，Kyligence 开源组研发工程师
+
  

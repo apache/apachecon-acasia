@@ -1,6 +1,6 @@
 ---
 title: "oppo基于Apache Seatunnel的数据处理平台"
-date: "" 
+date: "2022-07-30T13:50:00"
 track: "workflowdatagovernance"
 presenters: "范未太"
 stype: "中文演讲"

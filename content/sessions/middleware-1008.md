@@ -1,6 +1,6 @@
 ---
 title: "How does Apache EventMesh solve the SaaS composite application integration standardization problem"
-date: "" 
+date: "2022-07-30T14:10:00"
 track: "middleware"
 presenters: "罗锦荣(Alex Luo)"
 stype: "Chinese Session"

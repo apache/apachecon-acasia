@@ -1,6 +1,6 @@
 ---
 title: "Exploration and practice of low code platform for big data visualization"
-date: "" 
+date: "2022-07-29T16:00:00"
 track: "datavisualization"
 presenters: "王海虎"
 stype: "Chinese Session"

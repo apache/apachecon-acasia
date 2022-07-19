@@ -1,7 +1,8 @@
 ---
 title: "Huya application metadata platform practice based on graph data"
-date: "" 
+date: "2022-07-31T16:10:00"
 track: "bigdata"
+room: "A"
 presenters: "邹磊"
 stype: "Chinese Session"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Up & Running: Low Code Cloud-Native Integrations"
-date: "" 
+date: "2022-07-29T16:50:00"
 track: "integration"
 presenters: "Rachel Yordán"
 stype: "English Session"

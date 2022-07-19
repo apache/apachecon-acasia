@@ -1,6 +1,6 @@
 ---
 title: "Integrating systems in the age of Quarkus, serverless and Kafka"
-date: "" 
+date: "2022-07-29T16:10:00"
 track: "integration"
 presenters: "Zineb Bendhiba"
 stype: "English Session"

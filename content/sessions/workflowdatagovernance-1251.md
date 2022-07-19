@@ -1,6 +1,6 @@
 ---
 title: "In-depth practice of Apache Oozie"
-date: "" 
+date: "2022-07-29T14:10:00"
 track: "workflowdatagovernance"
 presenters: "张俊帆"
 stype: "Chinese Session"

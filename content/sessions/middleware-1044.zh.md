@@ -1,6 +1,6 @@
 ---
 title: "当 Apache ZooKeeper 和 Apache Curator 遇到哲学家用餐问题"
-date: "" 
+date: "2022-07-29T15:30:00"
 track: "middleware"
 presenters: "Paul Brebner"
 stype: "英文演讲"

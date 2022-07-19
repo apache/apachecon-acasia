@@ -1,6 +1,6 @@
 ---
 title: "Embrace cloud native, based on Kubernetes ShardingSphere cloud transformation"
-date: "" 
+date: "2022-07-29T16:10:00"
 track: "middleware"
 presenters: "李卓"
 stype: "Chinese Session"
@@ -26,5 +26,6 @@ By combining the Kubernetes Operator mode, shardingSphere-Proxy can enhance its 
 In addition, the existence of custom resources, a Kubernetes extension, can also help ShardingSphere-Proxy store metadata dependent on the runtime cluster. Relying on the list/ Watch capability of CRD in Kubernetes, it can broadcast the changes of metadata to nodes in other clusters and update the runtime metadata of other nodes in real time.
 DistSQL (Distributed SQL) is an operating language unique to Apache ShardingSphere. It is used exactly the same way as standard SQL and is used to provide SQL-level operational capabilities for incremental functionality. During the Zookeeper process, as the entry point for metadata changes became more diverse, support was provided for how to write DistSQL to the configuration and for users to directly modify the CRD, and the team provided its own ideas. Shardingsphere-proxy can support the two metadata change entries simultaneously by combining ShardingSphered with Shardingspherecar. Shardingsphere-sidecar may also support xDS protocol of Service Mesh in the future. This greatly increases the expansion capability of ShardingSphere-Proxy in the cloud environment.
  ### Speakers: 
- <img src="images/speaker/1089.png" width="200" /><br>Eunice li: SphereEx, Cloud R&D Engineer, SphereEx Cloud R&d, Cloud R&D Engineer, ShardingSphere-Operator core developer, Apache ShardingSphere Contributor
+ <img src="images/speaker/1089.png" width="200" /><br>Eunice li: SphereEx, Cloud R&D Engineer, SphereEx Cloud R&d, Cloud R&D Engineer, ShardingSphere-Operator core developer, Apache ShardingSphere Contributor
+
  

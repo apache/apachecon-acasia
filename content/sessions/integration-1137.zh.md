@@ -1,6 +1,6 @@
 ---
 title: "CamelK与Quarkus融合"
-date: "" 
+date: "2022-07-29T15:30:00"
 track: "integration"
 presenters: "Pasquale Congiusti"
 stype: "英文演讲"

@@ -1,6 +1,6 @@
 ---
 title: "When Open source and Open Converge: Open's core values and Public acceptance"
-date: "" 
+date: "2022-07-30T16:00:00"
 track: "culture"
 presenters: "高丰"
 stype: "Chinese Session"

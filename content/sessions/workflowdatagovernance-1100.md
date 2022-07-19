@@ -1,6 +1,6 @@
 ---
 title: "oppo Data processing platform based on Apache Seatunnel"
-date: "" 
+date: "2022-07-30T13:50:00"
 track: "workflowdatagovernance"
 presenters: "范未太"
 stype: "Chinese Session"

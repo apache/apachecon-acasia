@@ -1,6 +1,6 @@
 ---
 title: "差序格局与开源文化的碰撞"
-date: "" 
+date: "2022-07-29T14:00:00"
 track: "culture"
 presenters: "姜宁,李圳虎"
 stype: "中文演讲"

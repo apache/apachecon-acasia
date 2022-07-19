@@ -1,6 +1,6 @@
 ---
 title: "The exploration and practice of creating Apache project localization user group"
-date: "" 
+date: "2022-07-31T14:10:00"
 track: "community"
 presenters: "王殿进"
 stype: "Chinese Session"

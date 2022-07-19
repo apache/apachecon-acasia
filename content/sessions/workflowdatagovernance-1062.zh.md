@@ -1,6 +1,6 @@
 ---
 title: "BIGO中DolphinScheduler的改进与应用"
-date: "" 
+date: "2022-07-30T14:30:00"
 track: "workflowdatagovernance"
 presenters: "XU SHUAI"
 stype: "中文演讲"

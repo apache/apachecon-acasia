@@ -1,7 +1,8 @@
 ---
 title: "模拟和人工智能行业背后的Apache Ozone"
-date: "" 
+date: "2022-07-30T13:30:00"
 track: "bigdata"
+room: "B"
 presenters: "Kota Uenishi"
 stype: "英文演讲"
 ---

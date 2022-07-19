@@ -1,6 +1,6 @@
 ---
 title: "DolphinScheduler application in T3 one-stop travel platform"
-date: "" 
+date: "2022-07-30T15:10:00"
 track: "workflowdatagovernance"
 presenters: "李心恺,赵玉威"
 stype: "Chinese Session"

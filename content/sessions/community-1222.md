@@ -1,6 +1,6 @@
 ---
 title: "Sharing openGauss Community Governance Practices: From Open Source to Open Governance"
-date: "" 
+date: "2022-07-30T15:30:00"
 track: "community"
 presenters: "梅相如"
 stype: "Chinese Session"

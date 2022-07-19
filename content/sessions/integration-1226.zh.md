@@ -1,6 +1,6 @@
 ---
 title: "在Quarkus、Serverless和Kafka时代下的系统集成"
-date: "" 
+date: "2022-07-29T16:10:00"
 track: "integration"
 presenters: "Bendhiba Zineb"
 stype: "英文演讲"

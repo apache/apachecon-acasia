@@ -1,6 +1,6 @@
 ---
 title: "Himalaya is based on the Apache ShardingSphere practice"
-date: "" 
+date: "2022-07-30T13:30:00"
 track: "middleware"
 presenters: "彭荣新,沈辉"
 stype: "Chinese Session"

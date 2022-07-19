@@ -1,6 +1,6 @@
 ---
 title: "Optimization practice of Apache Flink stability in large cluster"
-date: "" 
+date: "2022-07-29T14:50:00"
 track: "streaming"
 presenters: "邱从贤"
 stype: "Chinese Session"

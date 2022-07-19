@@ -1,6 +1,6 @@
 ---
 title: "How to enable and foster open source collaboration with leading corporations listed on the stock market"
-date: "" 
+date: "2022-07-30T14:10:00"
 track: "community"
 presenters: "Yacine Si Tayeb"
 stype: "English Session"

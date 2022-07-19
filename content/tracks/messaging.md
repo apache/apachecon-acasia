@@ -8,6 +8,6 @@ It is used to decouple heavyweight processing, to buffer or batch work, and to s
 
 In ASF, there are various projects that provide messaging services, for example:
 [Apache Pulsar](https://pulsar.apache.org/), [Apache Kafka](https://kafka.apache.org/)
-, [Apache RocketMQ](https://rocketmq.apache.org/), [Apache ActiveMQ](https://activemq.apache.org/), [Apache Inlong(incubating)](https://inlong.apache.org/), etc.
+, [Apache RocketMQ](https://rocketmq.apache.org/), [Apache ActiveMQ](https://activemq.apache.org/), [Apache Inlong](https://inlong.apache.org/), etc.
 
 In this topic, the messaging communities will share first-line experiences and best practices, exchange ideas and knowledge, and discuss the roadmap and the future of messaging technologies.

@@ -1,6 +1,6 @@
 ---
 title: "Jakarta EE"
-date: "" 
+date: "2022-07-31T14:00:00"
 track: "webserverandtomcat"
 presenters: "Mark Thomas"
 stype: "English Session"

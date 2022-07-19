@@ -1,6 +1,6 @@
 ---
 title: "Message-based distributed transactions"
-date: "" 
+date: "2022-07-30T15:30:00"
 track: "middleware"
 presenters: "余洲"
 stype: "Chinese Session"

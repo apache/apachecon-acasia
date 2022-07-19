@@ -1,7 +1,8 @@
 ---
 title: "Scaling Open Source Big Data Cloud Applications is Easy/Hard"
-date: "" 
+date: "2022-07-29T15:30:00"
 track: "bigdata"
+room: "A"
 presenters: "Paul Brebner"
 stype: "English Session"
 ---
@@ -15,5 +16,6 @@ In this presentation, Paul will explore some of the performance goals, challenge
  PostgreSQL, Debezium, Cadence, and more. 
 Since learning to program on a VAX 11/780, Paul has extensive R&D and consulting experience in distributed systems, technology innovation, software architecture and engineering, software performance and scalability, grid and cloud computing, and data analytics and machine learning.
 
-Paul has worked at UNSW, several tech start-ups, CSIRO, UCL (UK), and NICTA. Paul has an MSc in Machine Learning and a BSc (Computer Science and Philosophy).
+Paul has worked at UNSW, several tech start-ups, CSIRO, UCL (UK), and NICTA. Paul has an MSc in Machine Learning and a BSc (Computer Science and Philosophy).
+
  
