@@ -1,6 +1,6 @@
 ---
 title: "Apache's success story in China"
-date: "" 
+date: "2022-07-29T10:30:00" 
 track: "keynote"
 presenters: "Willem Jiang, Sheng Wu, Ted Liu, Jerry Tan,  Bo Jiang"
 stype: "Chinese Panel"

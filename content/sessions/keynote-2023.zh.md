@@ -1,6 +1,6 @@
 ---
 title: "在开放社群中推动教育公益和青年发展"
-date: "" 
+date: "2022-07-31T10:00:00" 
 track: "keynote"
 presenters: "刘于瑜"
 stype: "中文演讲"

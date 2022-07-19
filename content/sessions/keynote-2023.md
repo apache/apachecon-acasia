@@ -1,6 +1,6 @@
 ---
 title: "Focus on Basic Open Source Software and Promote Open Source Development"
-date: "" 
+date: "2022-07-31T10:00:00" 
 track: "keynote"
 presenters: "Miya Liu"
 stype: "Chinese Session"

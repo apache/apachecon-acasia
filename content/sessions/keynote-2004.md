@@ -1,6 +1,6 @@
 ---
 title: "Brand Management - An Introduction"
-date: "" 
+date: "2022-07-30T09:20:00" 
 track: "keynote"
 presenters: "Mark Thomas"
 stype: "English Session"

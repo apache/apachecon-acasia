@@ -1,6 +1,6 @@
 ---
 title: "Digitally solved open source"
-date: "" 
+date: "2022-07-31T09:30:00" 
 track: "keynote"
 presenters: "Frank Zhao"
 stype: "Chinese Session"

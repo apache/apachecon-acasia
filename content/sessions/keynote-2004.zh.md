@@ -1,6 +1,6 @@
 ---
 title: "品牌管理 - 概述"
-date: "" 
+date: "2022-07-30T09:20:00" 
 track: "keynote"
 presenters: "Mark Thomas"
 stype: "英文演讲"

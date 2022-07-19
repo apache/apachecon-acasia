@@ -1,6 +1,6 @@
 ---
 title: "数解开源"
-date: "" 
+date: "2022-07-31T09:30:00" 
 track: "keynote"
 presenters: "Frank Zhao"
 stype: "中文演讲"

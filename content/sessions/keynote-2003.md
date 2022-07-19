@@ -1,6 +1,6 @@
 ---
 title: "Practical Steps to Encourage Community Growth"
-date: "" 
+date: "2022-07-30T09:00:00" 
 track: "keynote"
 presenters: "Rich Bowen"
 stype: "English Session"

@@ -1,6 +1,6 @@
 ---
 title: "Learning the Apache Way through the ASF Incubator"
-date: "" 
+date: "2022-07-31T09:00:00" 
 track: "keynote"
 presenters: "Justin Mclean"
 stype: "English Session"

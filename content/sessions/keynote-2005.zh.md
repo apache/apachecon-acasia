@@ -1,6 +1,6 @@
 ---
 title: "通过 ASF 孵化器学习 Apache 之道"
-date: "" 
+date: "2022-07-31T09:00:00" 
 track: "keynote"
 presenters: "Justin Mclean"
 stype: "英文演讲"

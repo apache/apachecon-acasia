@@ -1,6 +1,6 @@
 ---
 title: "开源社区是最好的社会大学"
-date: "" 
+date: "2022-07-31T09:45:00" 
 track: "keynote"
 presenters: "夏小雅"
 stype: "中文演讲"

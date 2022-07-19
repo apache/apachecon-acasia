@@ -1,6 +1,6 @@
 ---
 title: "@ApacheCon Asia：来自 Z 世代的开源新生力量"
-date: "" 
+date: "2022-07-31T11:00:00" 
 track: "keynote"
 presenters: "李梦，陈意昊，谢其骏， 张俊杰， 黄章衡"
 stype: "中文圆桌"

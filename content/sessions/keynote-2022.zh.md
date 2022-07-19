@@ -1,6 +1,6 @@
 ---
 title: "聚焦开源基础软件，共同繁荣开源生态"
-date: "" 
+date: "2022-07-29T10:10:00" 
 track: "keynote"
 presenters: "任旭东"
 stype: "中文演讲"

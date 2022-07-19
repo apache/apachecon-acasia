@@ -1,6 +1,6 @@
 ---
 title: "How China is developing a global open source governance strategy"
-date: "" 
+date: "2022-07-30T10:50:00" 
 track: "keynote"
 presenters: "Wei Wang, YongLei Wang, Richard Bian, Frank Zhao"
 stype: "Chinese Panel"

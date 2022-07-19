@@ -1,6 +1,6 @@
 ---
 title: "@ApacheConAsia: Open Source Newcomers from Generation Z"
-date: "" 
+date: "2022-07-31T11:00:00" 
 track: "keynote"
 presenters: "Meng Li, Sky, Qijun Xie, Jieker, Zhangheng Huang"
 stype: "Chinese Panel"

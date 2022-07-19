@@ -1,6 +1,6 @@
 ---
 title: "促进社区成长的实践路径"
-date: "" 
+date: "2022-07-30T09:00:00" 
 track: "keynote"
 presenters: "Rich Bowen"
 stype: "英文演讲"

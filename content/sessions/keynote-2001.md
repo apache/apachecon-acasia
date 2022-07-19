@@ -1,6 +1,6 @@
 ---
 title: "InnerSource and the Apache Way: How to learn Open Source"
-date: "" 
+date: "2022-07-29T09:40:00" 
 track: "keynote"
 presenters: "Danese Cooper"
 stype: "English Session"

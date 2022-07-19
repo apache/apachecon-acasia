@@ -1,8 +1,8 @@
 ---
 title: "腾讯将 Apache Pulsar 应用于Apache InLong技术实践"
-date: "2022-07-31T16:50:00"
+date: "2022-07-31T13:30:00"
 track: "messaging"
-room: "B"
+room: "A"
 presenters: "陈林"
 stype: "中文演讲"
 ---

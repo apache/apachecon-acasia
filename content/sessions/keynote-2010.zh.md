@@ -1,6 +1,6 @@
 ---
 title: "中国如何发展全球性开源治理策略"
-date: "" 
+date: "2022-07-30T10:50:00" 
 track: "keynote"
 presenters: "王伟, 王永雷, 边思康, 赵生宇 "
 stype: "中文圆桌"

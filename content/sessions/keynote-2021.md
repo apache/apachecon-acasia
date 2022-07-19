@@ -1,6 +1,6 @@
 ---
 title: "Open source communities are the best social universities"
-date: "" 
+date: "2022-07-31T09:45:00" 
 track: "keynote"
 presenters: "Xia Xiaoya"
 stype: "Chinese Session"

@@ -1,6 +1,6 @@
 ---
 title: "Focus on Basic Open Source Software and Promote Open Source Development"
-date: "" 
+date: "2022-07-29T10:10:00" 
 track: "keynote"
 presenters: "Ren Xudong"
 stype: "Chinese Session"

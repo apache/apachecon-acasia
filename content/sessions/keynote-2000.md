@@ -1,6 +1,6 @@
 ---
 title: "OpenChain Project Introduction"
-date: "" 
+date: "2022-07-30T09:55:00" 
 track: "keynote"
 presenters: "Shane Coughlan"
 stype: "English Session"

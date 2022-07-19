@@ -1,6 +1,6 @@
 ---
 title: "Apache 在中国的成功故事"
-date: "" 
+date: "2022-07-29T10:30:00" 
 track: "keynote"
 presenters: "姜宁, 吴晟, 刘天栋, 谭中意, 江波"
 stype: "中文圆桌"

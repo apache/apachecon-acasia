@@ -1,5 +1,5 @@
 ---
-title: "Use Apache ShardingSphere to further expand Amazon Aurora's literacy"
+title: "The Extreme Scalability of Amazon Aurora - A Cloud Native Database"
 date: "2022-07-30T16:10:00"
 track: "middleware"
 presenters: "马丽丽"
