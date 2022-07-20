@@ -1,8 +1,8 @@
 ---
 title: "Apache InLong在腾讯云中的优化与实践"
-date: "2022-07-30T17:30:00"
+date: "2022-07-29T15:30:00"
 track: "bigdata"
-room: "A"
+room: "B"
 presenters: "Yunqing Mo"
 stype: "中文演讲"
 ---
@@ -11,8 +11,6 @@ stype: "中文演讲"
 3.InLong Sort的实现细节
 4. 实践案例
  ### Speakers: 
- <img src="images/speaker/1098.png" width="200" /><br>Yunqing Mo: 腾讯云, 大数据高级工程师, 莫云青:大数据从业者。
-正在进行的开源项目:Apache InLong
-演讲经历:第一次参加
+ <img src="images/speaker/1098.png" width="200" /><br>莫云卿: 来自腾讯云,主要从事大数据开发工作。热爱开源，是 Apache InLong 的 Contributor，同时也是 Apache InLong Sort 的 Maintainer。
 
  
