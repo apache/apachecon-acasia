@@ -6,7 +6,7 @@ presenters: "黄向东，温铭，张亮，代立冬"
 stype: "中文圆桌"
 ---
 在开源日益兴起的时代，围绕着Apache顶级项目打造产品的商业化公司越来越多。顶级项目的新创企业们也获得了投资界的较多青睐，比如开源微服务 API 网关 Apache APISIX的商业化公司支流科技、以 Apache Shardingsphere 为基石的SphereEx、捐献出 Apache DolphinScheduler 的易观、围绕着时序数据库 Apache IoTDB 打造的Timecho天谋科技。那么，Apache顶级项目这个title对进行商业化有什么帮助？有什么掣肘？开源和商业化这两件事如何平衡？
-本次邀请到了深圳支流科技的联合创始人&CEO 温铭、SphereEx 创始人兼CEO 张亮、易观大数据平台总监 & Apache DolphinScheduler PPMC 代立冬、Apache Member、Apache IoTDB PMC Chair 黄向东，来对顶级项目新创企业这类公司从不同的视角提出相关的看法。
+本次邀请到了深圳支流科技的联合创始人&CEO 温铭、SphereEx 创始人兼CEO 张亮、白鲸开源联合创始人 & Apache DolphinScheduler PMC Chair 代立冬、Apache Member、Apache IoTDB PMC Chair 黄向东，来对顶级项目新创企业这类公司从不同的视角提出相关的看法。
 
 ### Speakers: 
 <img src="images/speaker/2013.png" width="200" /><br>
@@ -19,4 +19,4 @@ stype: "中文圆桌"
 张亮，SphereEx 创始人兼CEO，数据库领域知名实践者，拥有超过 10 年的数据库领域探索、实践经验，热爱开源，擅长分布式架构，推崇优雅代码。曾在多个大型互联网集团公司任职架构、数据库团队负责人。Apache Member 、微软 MVP 、阿里云 MVP、腾讯云 TVP、华为云 MVP、Apache ShardingSphere 创始人 & PMC Chair。出版书籍《未来架构——从服务化到云原生》，在 ICDE 发表论文《Apache ShardingSphere：A Holistic and Pluggable Platform for Data Sharding》。
 
 <img src="images/speaker/2013_3.png" width="200" /><br>
-代立冬，易观大数据平台总监 & Apache DolphinScheduler PPMC，负责每日数百亿条数据处理链条的流程规划，技术选型，技术攻关及人才梯队建设等工作。专注于数据领域研发数据平台架构10年，擅长于数据平台建设、集群性能调优、数据仓库建设，曾任多家大数据公司数据架构师。
+代立冬，白鲸开源联合创始人、Apache DolphinScheduler PMC Chair、Apache Member、Apache SeaTunnel PPMC、Apache 孵化器导师、ApacheCon Asia Bigdata Track co-Chair、组织过万人的大数据技术社区，2021 中国开源先锋 33 人。专注于数据领域研发数据平台架构 10 多年，擅长于数据平台建设、集群性能调优、数据仓库建设。
