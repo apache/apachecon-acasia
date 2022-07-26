@@ -1,5 +1,5 @@
 ---
-title: "闪送大规模ActiveMQ平滑迁移RocketMQ"
+title: "大规模ActiveMQ平滑迁移RocketMQ"
 date: "2022-07-29T16:40:00"
 track: "messaging"
 room: "A"
