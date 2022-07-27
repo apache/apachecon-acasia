@@ -1,5 +1,5 @@
 ---
-title: "字节跳动基于 Apache Hudi 的数据湖表优化管理服务服务"
+title: "字节跳动基于 Apache Hudi 的数据湖表优化管理服务"
 date: "2022-07-30T14:50:00"
 track: "bigdata"
 room: "A"
