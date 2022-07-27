@@ -10,6 +10,6 @@ Apache Kyuubi(Incubating)是一个大数据网关，支持多租户和分布式�
 
 eBay软件工程师王斐将会介绍Apache Kyuubi的架构和主要特性，丰富的使用场景以及eBay如何基于Apache Kyuubi构建Unified & ServerLess Spark Gateway，以及Apache Kyuubi社区的最新特性和roadMap。
  ### Speakers: 
- <img src="images/speaker/1061.png" width="200" /><br>王斐: eBay, MTS1, Software Engineer, 王斐，eBay 数据基础架构部门 Hadoop team Spark 软件工程师，负责公司内部Spark, Kyuubi平台的开发和维护。Apache Kyuubi(Incubating) committer & PPMC member。
+ <img src="images/speaker/1061.png" width="200" /><br>王斐: eBay, Staff Software Engineer, 数据基础架构部门 Hadoop team Spark 软件工程师，负责公司内部Spark, Kyuubi平台的开发和维护。Apache Kyuubi(Incubating) committer & PPMC member。
 
  
