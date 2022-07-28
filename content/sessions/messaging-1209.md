@@ -1,5 +1,5 @@
 ---
-title: "Route to the Next-Generation Message Middleware: How vivo migrated to Pulsar"
+title: "The Exploration and Practice of Apache Pulsar in vivo"
 date: "2022-07-29T14:10:00"
 track: "messaging"
 room: "B"
