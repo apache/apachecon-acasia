@@ -1,5 +1,5 @@
 ---
-title: "RocketMQ 与 Kafka 的比较及一种绘画技巧在中西文化中应用的比较。"
+title: "比较性思维在 RocketMQ 与 Kafka 选型中的应用"
 date: "" 
 track: "messaging"
 presenters: "彭龙"
