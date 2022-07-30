@@ -1,6 +1,6 @@
 ---
 title: "Secondary development and practice of Apache DolphinScheduler scheduling in Unicom big data"
-date: "" 
+date: "2022-07-29T14:50:00"
 track: "workflowdatagovernance"
 presenters: "刘武"
 stype: "Chinese Session"

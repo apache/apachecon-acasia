@@ -1,6 +1,6 @@
 ---
 title: "From Zero to 1.5k Stars: Launching a New Open Source Project"
-date: "" 
+date: "2022-07-31T13:30:00"
 track: "community"
 presenters: "Maxim Wheatley"
 stype: "English Session"

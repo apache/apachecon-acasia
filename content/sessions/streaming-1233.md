@@ -1,6 +1,6 @@
 ---
 title: "Practice of Jinshan Cloud real-time computing platform based on Apache Flink and its application in epidemic prevention scenarios"
-date: "" 
+date: "2022-07-29T16:50:00"
 track: "streaming"
 presenters: "郑舒力"
 stype: "Chinese Session"

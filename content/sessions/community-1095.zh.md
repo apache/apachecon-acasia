@@ -1,6 +1,6 @@
 ---
 title: "开源网站信息架构的攻守之道"
-date: "" 
+date: "2022-07-31T15:30:00"
 track: "community"
 presenters: "Yu Liu"
 stype: "中文演讲"
@@ -9,5 +9,6 @@ stype: "中文演讲"
  ### Speakers: 
  <img src="images/speaker/1095.png" width="200" /><br>Yu Liu: StreamNative, Information Architect, Yu Liu 是 Apache Pulsar PMC 成员和 Apache Trafodion committer。
 
-作为StreamNative 的 Information Architect，她一直致力于提升用户的内容体验，并积极参与开源行业和技术传播行业各类活动，曾在 ApacheCon Asia、COSCon China、OpenInfra Days China、tcworld China、中国技术传播论坛等大会上发表关于开源社区内容运营和文档代码化的演讲，并踊跃投身于 Our Code is Open 和 OSPP 等开源活动。
+作为StreamNative 的 Information Architect，她一直致力于提升用户的内容体验，并积极参与开源行业和技术传播行业各类活动，曾在 ApacheCon Asia、COSCon China、OpenInfra Days China、tcworld China、中国技术传播论坛等大会上发表关于开源社区内容运营和文档代码化的演讲，并踊跃投身于 Our Code is Open 和 OSPP 等开源活动。
+
  

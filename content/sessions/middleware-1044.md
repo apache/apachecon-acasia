@@ -1,6 +1,6 @@
 ---
 title: "Apache Zookeeper and Apache Curator Meet the Dining Philosophers"
-date: "" 
+date: "2022-07-29T15:30:00"
 track: "middleware"
 presenters: "Paul Brebner"
 stype: "English Session"
@@ -11,5 +11,6 @@ A ZooKeeper walks into a pub … (actually an Outback pub), and ends up helping 
 
 Since learning to program on a VAX 11/780, Paul has extensive R&D, teaching, and consulting experience in distributed systems, technology innovation, software architecture and engineering, software performance and scalability, grid and cloud computing, and data analytics and machine learning.
 
-Paul has also worked at Waikato University, UNSW, CSIRO, UCL (UK), NICTA/ANU, and several tech start-ups. Paul has an MSc in Machine Learning and a BSc (Computer Science and Philosophy).
+Paul has also worked at Waikato University, UNSW, CSIRO, UCL (UK), NICTA/ANU, and several tech start-ups. Paul has an MSc in Machine Learning and a BSc (Computer Science and Philosophy).
+
  

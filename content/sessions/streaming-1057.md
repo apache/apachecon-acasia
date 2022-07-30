@@ -1,6 +1,6 @@
 ---
 title: "Practice of flow batch integration in JINGdong Logistics based on Apache Flink"
-date: "" 
+date: "2022-07-29T13:30:00"
 track: "streaming"
 presenters: "康琪"
 stype: "Chinese Session"

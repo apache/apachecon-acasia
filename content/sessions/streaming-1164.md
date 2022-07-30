@@ -1,6 +1,6 @@
 ---
 title: "Millet real-time data integration practice based on FlinkSQL"
-date: "" 
+date: "2022-07-29T14:10:00"
 track: "streaming"
 presenters: "胡焕"
 stype: "Chinese Session"

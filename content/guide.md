@@ -6,7 +6,8 @@ menu:
 ---
 
 
->This guide is asimplified version,  which aims to let you quickly understand the recording rules and important matters.
+>This guide is asimplified version,  which aims to let you quickly understand the recording rules and important matters. 
+> For more detailed guide, please download: [Full_Recording_Guide.pdf](https://apachecon.com/acasia2022/video_guide_en_full.pdf).
 
 
 # Step 1: Make a a presentation slide
@@ -39,9 +40,9 @@ Pay attention to 5 key points:
 2. During the speech, make your eyes pay attention to the direction of the camera and have the feeling of looking at the audience.
 3. During the recording, your materials should be displayed on the full screen, and your own avatars should be displayed on the small screen in the upper right corner. If there are other participants, please hide them (if others do not open the video, please go to "Settings" >"Video" >"Meeting",select "Hide Non-video Participants"to hide participants who do not use video).
 
-    **The final effect can be as follows in two ways**:
-    <img src="images/alc_1.jpeg" width="800"/>
-        <img src="images/alc_2.jpeg" width="800"/>
+    **The final effect can be as follows in two ways, but not only**:
+    <img src="images/alc_1.jpg" width="800"/>
+        <img src="images/alc_2.jpg" width="800"/>
 4. Because there is no audience interaction, you could not  get the feedback like live speech, so you must always pay attention to your voice-speed, rhythm and passion.
 5. Grasp the time. Please complete within the specified time.
 
@@ -57,6 +58,5 @@ We recommend using ZOOM to recording, for the ZOOM tutorial, see the download fi
 4. The video frame rate is not less than 30fps (right click on the mouse and check “Details” in “Properties”) and the picture must not be jagged or faint.
 
 # Step 6: Video delivery
-Once the self-test properties are met, please upload the video to a web drive and deliver the recorded file to Track Chair by sharing the link.
-
-Track Chair will provide you with feedback on any problems with the slides and video, so please correct them if necessary.
+Once the self-test properties are met, please upload the video to a web drive and update the download link to the system of Bagevent, we will inform you the link of Bagevent by email in advance.
+Track Chair will provide you with feedback on any problems with the video, so please correct them if necessary.

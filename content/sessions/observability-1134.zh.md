@@ -1,6 +1,6 @@
 ---
 title: "Apache SkyWalking MAL实践——vm和Kubernetes监控"
-date: "" 
+date: "2022-07-29T17:20:00"
 track: "observability"
 presenters: "Kai Wan"
 stype: "英文演讲"

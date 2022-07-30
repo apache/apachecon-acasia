@@ -1,6 +1,6 @@
 ---
 title: "Open source website information architecture of the way to attack and defend"
-date: "" 
+date: "2022-07-31T15:30:00"
 track: "community"
 presenters: "Yu Liu"
 stype: "Chinese Session"
@@ -9,5 +9,6 @@ In recent years, a new round of global scientific and technological revolution a
  ### Speakers: 
  <img src="images/speaker/1095.png" width="200" /><br>Yu Liu: StreamNative, Information Architect, Yu Liu is an Apache Pulsar PMC member and An Apache Trafodion Committer.
 
-As the Information Architect of StreamNative, she is committed to improving the user's content experience and actively participates in various activities in the open source and technology communication industries. He has delivered speeches on open source community content operation and document coding in ApacheCon Asia, COSCon China, OpenInfra Days China, TCWorld China, China Technology Communication Forum and other conferences. And actively engaged in Open source activities such as Our Code is Open and OSPP.
+As the Information Architect of StreamNative, she is committed to improving the user's content experience and actively participates in various activities in the open source and technology communication industries. He has delivered speeches on open source community content operation and document coding in ApacheCon Asia, COSCon China, OpenInfra Days China, TCWorld China, China Technology Communication Forum and other conferences. And actively engaged in Open source activities such as Our Code is Open and OSPP.
+
  

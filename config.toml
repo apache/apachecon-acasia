@@ -10,10 +10,13 @@ enableRobotsTXT = true
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 
+
+
 [params]
   author = "ALC-Beijing"
   description = "Welcome to Apache Con Asia 2022"
   keywords = ["ApacheCon","ApacheConAsia","ApacheConAsia2022"]
+  schedule = ["2022-07-29", "2022-07-30", "2022-07-31"]
 
 [languages.en]
 languageName = "English"

@@ -1,6 +1,6 @@
 ---
 title: "UPSTREAM FIRST: AN ETHNOGRAPHIC STUDY OF OPEN SOURCE SOFTWARE COMMUNITY"
-date: "" 
+date: "2022-07-29T16:00:00"
 track: "culture"
 presenters: "Zhou, Jesse(周禹任）"
 stype: "English Session"
@@ -9,5 +9,6 @@ This presentation is based on an in-depth research. The research aims to trace t
  ### Speakers: 
  <img src="images/speaker/1176.png" width="200" /><br>Zhou, Jesse(周禹任）: Peking University, Student, Apache IoTDB Committer;
 Undergraduate student of Peking University;
-Coming graduate student at the University of Chicago.
+Coming graduate student at the University of Chicago.
+
  

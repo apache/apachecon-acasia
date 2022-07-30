@@ -1,6 +1,6 @@
 ---
 title: "Apache Linkis data processing practices"
-date: "" 
+date: "2022-07-31T14:10:00"
 track: "workflowdatagovernance"
 presenters: "李孟"
 stype: "Chinese Session"

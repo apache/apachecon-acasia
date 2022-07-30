@@ -1,6 +1,6 @@
 ---
 title: "The application practice of Tomcat in Kuaishou"
-date: "" 
+date: "2022-07-30T16:00:00"
 track: "webserverandtomcat"
 presenters: "宋洋"
 stype: "Chinese Session"

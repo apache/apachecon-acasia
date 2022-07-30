@@ -1,7 +1,8 @@
 ---
 title: "What's new in Apache Impala 4.x"
-date: "" 
+date: "2022-07-30T14:10:00"
 track: "bigdata"
+room: "B"
 presenters: "Quanlong Huang（黄权隆）"
 stype: "Chinese Session"
 ---
@@ -11,5 +12,6 @@ Apache Impala is a distributed, massively parallel analytic query engine. This p
  <img src="images/speaker/1075.png" width="200" /><br>Quanlong Huang: Cloudera, Staff Software Engineer, Member of Cloudera Impala's r&d team
 Apache Impala PMC member and Committer
 Apache ORC Committer
-The presentations focus on internal sharing and technology sharing with Cloudera customers and potential customers
+The presentations focus on internal sharing and technology sharing with Cloudera customers and potential customers
+
  

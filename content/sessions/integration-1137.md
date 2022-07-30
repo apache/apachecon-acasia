@@ -1,6 +1,6 @@
 ---
 title: "Camel K goes Quarkus Native"
-date: "" 
+date: "2022-07-29T15:30:00"
 track: "integration"
 presenters: "Pasquale Congiusti"
 stype: "English Session"

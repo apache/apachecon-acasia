@@ -1,7 +1,8 @@
 ---
 title: "FLiPN Awesome Streaming with Open Source"
-date: "" 
+date: "2022-07-30T13:30:00"
 track: "messaging"
+room: "A"
 presenters: "Timothy Spann"
 stype: "English Session"
 ---

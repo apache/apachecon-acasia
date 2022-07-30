@@ -1,7 +1,8 @@
 ---
-title: "闪送大规模ActiveMQ平滑迁移RocketMQ"
-date: "" 
+title: "大规模ActiveMQ平滑迁移RocketMQ"
+date: "2022-07-29T16:40:00"
 track: "messaging"
+room: "A"
 presenters: "高向阳"
 stype: "中文演讲"
 ---
@@ -9,5 +10,6 @@ stype: "中文演讲"
 在该演讲中，我将分享在不影响各业务团队迭代的前提下，如何去平滑，快速迁移到RocketMQ的落地方案。
  ### Speakers: 
  <img src="images/speaker/1070.png" width="200" /><br>高向阳: 北京转转精神科技有限责任公司, 资深研发工程师, 前闪送资深研发工程师，中间件团队负责人，包括Dubbo服务治理，分布式消息平台，微服务网关平台等。
-现转转中台负责履约OMS团队负责人。
+现转转中台负责履约OMS团队负责人。
+
  

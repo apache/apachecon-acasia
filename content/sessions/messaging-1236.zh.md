@@ -15,4 +15,3 @@ stype: "中文演讲"
  ### Speakers: 
  <img src="images/speaker/1236.png" width="200" /><br>彭龙: 美的集团, 软件工程师, 消息中间件，及大数据生态领域爱好者。
 
- 

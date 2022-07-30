@@ -1,6 +1,6 @@
 ---
 title: "基于 Flink CDC 和 Hudi 高效地构建实时数据湖"
-date: "" 
+date: "2022-07-30T13:30:00"
 track: "streaming"
 presenters: "徐榜江"
 stype: "中文演讲"
@@ -12,5 +12,6 @@ CDC（Change Data Capture）是用于从数据库中捕获变更的技术，Flin
  ### Speakers: 
  <img src="images/speaker/1109.png" width="200" /><br>徐榜江: 阿里云, 高级研发工程师, Apache Flink Committer & Flink CDC Maintainer， 专注在Flink SQL，Flink CDC，数据集成领域，曾在国内外多次演讲和分享Apache Flink， Flink CDC 相关技术。
 https://github.com/apache/flink
-https://github.com/ververica/flink-cdc-connectors
+https://github.com/ververica/flink-cdc-connectors
+
  
