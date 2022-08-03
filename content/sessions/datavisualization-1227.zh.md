@@ -11,4 +11,4 @@ stype: "英文演讲"
 
 在这次演讲中，我们将探索该特性的细节，新的上下文菜单，扩展功能的钩子，以及在构建自定义可视化插件和时间轴时使用该特性。我们还将展示该特性如何与Apache ECharts (Superset使用的主要可视化库)集成，以及未来的开发计划。
  ### Speakers:
- <img src="images/speaker/1227.png" width="200" /><br>Ville Brofeldt: 苹果, 软件工程师, Ville Brofeldt是Apache Superset项目的长期提交者和PMC成员，在数据可视化、数据工程和预测分析方面拥有丰富的经验。
+ <img src="images/speaker/1227.png" width="200" /><br>Ville Brofeldt: 软件工程师, Ville Brofeldt是Apache Superset项目的长期提交者和PMC成员，在数据可视化、数据工程和预测分析方面拥有丰富的经验。
