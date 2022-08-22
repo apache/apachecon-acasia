@@ -1,0 +1,21 @@
+---
+title: "Extending Valves in Tomcat "
+date: "2022-07-30T15:20:00"
+track: "webserverandtomcat"
+presenters: "Dennis Jacob"
+stype: "English Session"
+speechLink: "https://www.youtube.com/embed/Jmw-d0kyZ_4"
+---
+Valves act as a request pre-processing mechanism in Tomcat. Custom Valves can be developed by extending the base Valve Class, to integrate additional capabilities for the requests that are accepted by the Tomcat server for processing. Request traffic rate limiting, implementing enhanced mTLS security, debugging mechanisms etc. are some of the examples, where custom Tomcat Valves can be leveraged for extending capabilities of Tomcat.
+
+A custom Tomcat Valve can be developed to implement enhanced mTLS security, for use cases such as Tomcat Application server works as an API Gateway, and accepts and process requests from only trusted clients. A Tomcat connector allows to secure the inbound traffic with two-way TLS handshake, using the attributes on the SSLHostConfig section. However, this approach still can't be considered as very secure method of traffic. Tomcat can accept the requests from any client that provides a valid certificate as part of 2-way TLS handshake, as long as the certificate provided by the client can be trusted against the CA trust chain configured on the Tomcat. A custom Valve can be developed which checks the client certificate parameters such as Certificate Distinguished Name (DN) or Certificate serial number to ensure that the request is indeed comes from a client that provides the correct certificate. Distinguished Name or Client Serial Number can be securely stored at Tomcat, as a whitelisted set of client certificates, and only those clients that provide the valid certificate will be accepted for request processing at the Tomcat.
+
+Rate Limiting is another area where custom Tomcat Valves can be used. Rate Limiting is restricting the number of requests that can be processed by the application deployed on Tomcat. This can be achieved by developing a custom Tomcat Valve that can be integrated with rate limiting capabilities offered with Google Guava API libraries. Google Guava RateLimiter offers the traffic throttling based on the Token bucket algorithm implementations. For every incoming request that comes to the Tomcat, it is validated against the token availability to ensure the traffic rate that has been set, is maintained. If the inbound request rate is more than what is set at the Valve, requests will be rejected with a custom response code. This rate limiting capability of the custom Tomcat Valve can be further enhanced with a dynamically set rate limiting, that avoids Tomcat application server to be restarted when a new rate is set. This can be achieved by using certain controller requests which also will be processed by the same Valve and will set the new rate limits dynamically, after ensuring the controller requests are authenticated. This will be very useful capability when it requires a dynamic traffic request throttling is required.
+
+Debugging is also one useful application area of custom Tomcat Valves. There are already Valves such as Header Dumper Valve that comes with Tomcat, which can dump the header values. However, custom Tomcat Valves can be developed for capturing and dump the request content, session details, certificate parameters including expiry dates (only if there is client authentication is enabled) apart from dumping the header details. This will be very useful at times when there is troubleshooting required to view the request details.
+
+Valves are a powerful mechanism in Tomcat that leverages the capabilities of Tomcat request processing pipeline. The capabilities of Tomcat Valves can be extended with custom Valves to meet different use cases such as explained above.
+ ### Speakers: 
+ <img src="images/speaker/1146.png" width="200" /><br>Dennis Jacob: Apache APISIX, VISA, I am currently working as a Senior Consultant in Middleware Engineering with a leading payment technology organization, with overall 18 years of IT experience. Apart from Middleware Engineering, my interests include application security and cloud native technologies. I am passionate about experimenting on the latest advancements in technology, and speaking to communities and local groups.
+
+ 

@@ -3,7 +3,6 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192418729-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
@@ -16,7 +15,7 @@
     <meta name="keywords" content="{{if .IsHome}}{{ delimit $.Site.Params.keywords ", " }}{{else}}{{ delimit .Keywords ", " }}{{end}}" />
 
     <meta property='og:title' content='{{ if .Title}}{{.Title}}{{else}}{{ $.Site.Title }}{{end}}'/>
-    <meta property='og:url' content='//apachecon.com/acasia2021'/>
+    <meta property='og:url' content='//apachecon.com/acasia2022'/>
     <base href="{{.Site.BaseURL}}"/>
     <!--[if lte IE 8]>
     <script src="css/ie/html5sh?iv.js"></script><![endif]-->

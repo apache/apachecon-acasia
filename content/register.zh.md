@@ -1,6 +1,26 @@
+---
+title: 会议注册
+menu:
+  main:
+    weight: -10
+---
+**[ApacheCon Asia 2022](https://apachecon.com/acasia2022/zh/)** 将在网上举行。
 
-**[ApacheCon Asia 2021](https://apachecon.com/acasia2021/zh/)** 将在网上举行。所有的会议、赞助商展位和与会者的互动都将在 **[Hopin平台](https://hopin.com/) 上进行**。
+观众注册是免费的，但如果你愿意选择购买个人赞助票 ￥199 以帮助支持该活动，以及Apache软件基金会。
 
-注册是免费的，但如果你愿意，你可以在我们的三个可选的捐款级别之一注册，即10美元、20美元或50美元，以帮助支持该活动，以及Apache软件基金会。
+<iframe id="promote_ticket_iframe" width="100%" src="https://www.bagevent.com/widget/ticket/8212989?widget=2" frameborder="0" scrolling="no"></iframe>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['BagEventIFrameResize'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        };
+        a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.bagevent.com/resources/js/iframeResizer/iframeResizer.min.js', 'bfr');
+    bfr('iFrameResize', {checkOrigin: false, heightCalculationMethod: 'taggedElement'}, "#promote_ticket_iframe");
+</script>
 
-**[今天就注册吧！](https://hopin.com/events/apachecon-asia-2021)**

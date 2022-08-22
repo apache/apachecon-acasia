@@ -2,7 +2,7 @@
 
 This repository contains a Hugo based site for ApacheCon.
 
-To install Hugo:
+To install Hugo :
 
 ```
 brew install hugo
@@ -10,50 +10,52 @@ brew install hugo
 port install hugo
 ```
 
+Please chose hugo below v0.93, otherwise the build will failed.  
+
 To test it locally, run:
 
 ```
-hugo server -b http://localhost:1313/acasia2021 -F
+hugo server -b http://localhost:1313/acasia2022 -F
 ```
 
 To generate final site, use:
 
 
 ```
-hugo  -b https://apachecon.com/acasia2021/ -d <destination_directory> -F
+hugo -b https://apachecon.com/acasia2022/ -d <destination_directory> -F
 ```
 
 ## FAQ
 
 ### How to fix the typos in Session page
-If you want to session typos of “https://apachecon.com/acasia2021/sessions/1155.html”
+If you want to session typos of “https://apachecon.com/acasia2022/sessions/1155.html”
 You just need to go the file 1155.md in content/sessions directory.
 If it is chinese version, you just need to update the file of 1155.zh.md.
 
 
 ### How can I publish the website to ApacheCon
-First you need to write access right of [ApacheCon website](https://svn.apache.org/repos/infra/apachecon/www.apachecon.com/acasia2021/)
+First you need to write access right of [ApacheCon website](https://svn.apache.org/repos/infra/apachecon/www.apachecon.com/acasia2022/)
 
 Checking out the this repo
 ```
-git@github.com:alc-beijing/acasia2021.git <source-directory>
+git@github.com:alc-beijing/acasia-website.git <source-directory>
 ```
 
 Checking out the content of website to <site-directory>
 ```
-svn co https://svn.apache.org/repos/infra/apachecon/www.apachecon.com/acasia2021/ <site-directory>
+svn co https://svn.apache.org/repos/infra/apachecon/www.apachecon.com/acasia2022/ <site-directory>
 ```
 
 After doing some modifications on the markdown files, you can use hugo command to generate the website from the source directory
 ```
 cd <source-directory>
-hugo -b https://apachecon.com/acasia2021/ -d <site-directory> -F
+hugo -b https://apachecon.com/acasia2022/ -d <site-directory> -F
 ```
 
 Publishing the website
 ```
 cd <site-directory>
-svn ci -m "Publish the website of acasia2021"
+svn ci -m "Publish the website of acasia2022"
 ```
 
 ### How can I modify the content of the main page:

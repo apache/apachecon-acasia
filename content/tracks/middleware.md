@@ -1,6 +1,6 @@
 ---
 title: Middleware
-trackchairs: "Liang Zhang，Jean-Baptiste Onofre"
+trackchairs: "Liang Zhang, Jia Feng"
 ---
 
 Middleware is the most widely existing infrastructure based on application system, which is used to process with various non-functional requirements.

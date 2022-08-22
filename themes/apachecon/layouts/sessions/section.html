@@ -22,36 +22,46 @@
                 {{ $time := "" }}
                 {{ $day1 := "0001-01-01" }}
                 {{ $day2 := "2021-08-06" }}
+                <!-- Tabbox  -->
+                <div class="tab_box">
+                    {{ range $index, $value := .Site.Params.schedule }}
+                        <button class="tab_{{$value}}" onclick="tabChange({{ $value }})">{{ $value }}</button>
+                    {{ end }}   
+                </div>
+
                 {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
                 {{ $pageDay := dateFormat "2006-01-02" .Date }}
                 {{ $pageTime := dateFormat "15:04 GMT+8" .Date }}
 
                 {{ if eq $pageDay $day }}
-                    {{if eq $pageTime $time}}
-                    {{else}}
-                    <h3>{{$pageTime}}</h3>
-                    {{end}}
-
-                    <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
-                        {{if eq .Params.track "bigdata"}}
-                            (ROOM : {{.Params.room}})
+                    <div class="tab_content tab_content_{{$pageDay}}">
+                        {{if eq $pageTime $time}}
+                        {{else}}
+                            <h3>{{$pageTime}}</h3>
                         {{end}}
-                    <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
+                        {{ if .Title}}
+                            <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
+                                {{if eq .Params.track "bigdata"}}
+                                    (ROOM : {{.Params.room}})
+                                {{end}}
+                            <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
+                        {{end}}
+                    </div>
 
                 {{else}}
                     {{ if eq $pageDay $day1 }}
                     {{else}}
-
-                    {{ if eq $pageDay $day2 }}
-                    {{else}}
-                        </br>
+                        {{ if eq $pageDay $day2 }}
+                        {{else}}
+                            <!-- </br> -->
+                        {{end}}
+                        <div class="tab_content tab_content_{{$pageDay}}">
+                            <h2>{{ $pageDay }}</h2>
+                            <h3>{{$pageTime}}</h3>
+                            <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
+                            <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
+                        </div>
                     {{end}}
-                        <h2>{{ $pageDay }}</h2>
-                        <h3>{{$pageTime}}</h3>
-                        <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
-                        <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
-                    {{end}}
-
                 {{end}}
                 {{ $day = $pageDay }}
                 {{ $time = $pageTime }}
@@ -63,6 +73,60 @@
 
     {{ partial "footer.html" . }}
 
+    <style>
+        .tab_box{
+            border-bottom: 1px solid #0f072d;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        .tab_box button{
+            position: relative;
+            bottom: -1px;
+            margin: 0;
+            border-style: none;
+            background-color: transparent;
+            border: 1px solid #0f072d;
+            padding: 5px 10px;
+            font-size: 19px;
+            cursor: pointer;
+        }
+        .tab_box .tab_selected{
+            background-color: #0f072d;
+            color:white;
+        }
+        .tab_content h2{
+            margin: 18px 0;
+        }
+        .tab_content p{
+            text-indent: 2em;
+        }
 
+
+    </style>
+
+<script>
+    const tab_list = {{ .Site.Params.schedule }}
+
+    window.onload = function() {
+        tabChange(tab_list[0])
+    }
+
+    function tabChange(index){
+        
+        tab_list.forEach(el => {
+            const tab_name = `.tab_content_${el}`
+            const button_name = `.tab_${el}`
+            if( index == el){
+                $(button_name).addClass('tab_selected')
+                $(tab_name).show()
+
+            }else{
+                $(button_name).removeClass('tab_selected')
+                $(tab_name).hide()
+
+            }
+        });
+    }
+</script>
 </body>
 </html>
