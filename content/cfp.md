@@ -5,7 +5,7 @@ menu:
       weight: 10
 ---
 
-The call for presentations is now open! Submit proposals by **Tuesday, Jun 6st, 2022 8:00** AM (Beijing time - UTC +8). **Please do not wait until the last minute.**
+The call for presentations is now open! Submit proposals by **Tuesday, Jun 6th, 2022 8:00** AM (Beijing time - UTC +8). **Please do not wait until the last minute.**
 
 [Submit your talk proposal now!](https://www.bagevent.com/event/speechApply/8432178)
 
