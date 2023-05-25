@@ -28,7 +28,7 @@ In particular, this year we are building content tracks around the following spe
 * [RPC](tracks/rpc.html)
 * [Streaming](tracks/streaming.html)
 * [Workflow / Data Processing](tracks/workflowdatagovernance.html)
-* [Web Server](tracks/webserverandtomcat.html)
+* [Web Server / Tomcat](tracks/webserverandtomcat.html)
 
 If your proposed presentation falls into one of these categories, please select that topic in the CFP entry form. Or select **Others** if it's related to some other topic or project area.
 
