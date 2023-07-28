@@ -1,5 +1,5 @@
 ---
-title: "基于Apache Spark和K8S等打造高性能云原生湖仓分析引擎"
+title: "云原生数据湖如何提速两倍以上"
 date: "2023-08-19T13:30:00" 
 track: "datalake"
 presenters: "史少锋"

@@ -1,5 +1,5 @@
 ---
-title: "Build a high-performance cloud-native lake analysis engine based on Apache Spark and K8S"
+title: "How to boost a cloud-native lakehouse with 2x performance"
 date: "2023-08-19T13:30:00" 
 track: "datalake"
 presenters: "史少锋"
