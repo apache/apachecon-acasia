@@ -1,6 +1,6 @@
 ---
 title: "Millet RocketMQ cost reduction and efficiency and disaster recovery practice"
-date: "2023-08-20:15:45:00" 
+date: "2023-08-20T15:45:00" 
 track: "messaging"
 presenters: "邓志文"
 stype: "Chinese Session"

@@ -1,6 +1,6 @@
 ---
 title: "Design and Implementation of the Event-Driven Engine RocketMQ EventBridge"
-date: "2023-08-20:13:30:00" 
+date: "2023-08-20T13:30:00" 
 track: "messaging"
 presenters: "Chen Yongming"
 stype: "Chinese Session"
