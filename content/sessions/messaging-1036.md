@@ -1,6 +1,6 @@
 ---
 title: "Apache Pulsar 3.0: First LTS release and new features"
-date: "2023-08-18T14:00:00" 
+date: "2023-08-18T13:30:00" 
 track: "messaging"
 presenters: "Zike Yang"
 stype: "Chinese Session"

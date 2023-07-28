@@ -1,6 +1,6 @@
 ---
 title: "Kafka without Zookeeper"
-date: "2023-08-18T13:30:00" 
+date: "2023-08-18T15:45:00" 
 track: "messaging"
 presenters: "Luke Chen,邓子明"
 stype: "Chinese Session"

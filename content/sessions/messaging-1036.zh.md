@@ -1,6 +1,6 @@
 ---
 title: "Apache Pulsar 3.0：首个LTS版本及其新特性"
-date: "2023-08-18T14:00:00" 
+date: "2023-08-18T13:30:00" 
 track: "messaging"
 presenters: "Zike Yang"
 stype: "中文演讲"

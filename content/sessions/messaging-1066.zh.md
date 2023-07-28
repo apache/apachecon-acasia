@@ -1,6 +1,6 @@
 ---
 title: "没有Zookeeper的Kafka"
-date: "2023-08-18T13:30:00" 
+date: "2023-08-18T15:45:00" 
 track: "messaging"
 presenters: "Luke Chen,邓子明"
 stype: "中文演讲"
@@ -18,6 +18,6 @@ stype: "中文演讲"
 
 在这次演讲之后，观众可以更好地了解KRaft是什么，它是如何工作的，以及它与基于Zookeeper的Kafka的区别是什么，最重要的是，如何监控它并对其进行故障排除。
  ### Speakers: 
- <img src="https://img.bagevent.com/resource/20230526/1018099720.jpg" width="200" /><br>路加福音陈: RedHat, 高级软件工程师, 我是RedHat的一名高级软件工程师，致力于在云上运行Apache Kafka的产品。我也是Apache Kafka的提交者和PMC成员。我为Apache Kafka贡献了3年多的时间。
+ <img src="https://img.bagevent.com/resource/20230526/1018099720.jpg" width="200" /><br>Luke Chen: RedHat, 高级软件工程师, 我是RedHat的一名高级软件工程师，致力于在云上运行Apache Kafka的产品。我也是Apache Kafka的提交者和PMC成员。我为Apache Kafka贡献了3年多的时间。
  <br><br><img src="https://img.bagevent.com/resource/20230525/1008439060.jpg" width="200" /><br>邓子明: 字节跳动, 数据开发, Apache Kafka提交者
  <br><br>

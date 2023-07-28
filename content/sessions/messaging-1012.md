@@ -1,6 +1,6 @@
 ---
 title: "Deep Dive the replication protocol in Kafka"
-date: "2023-08-18T15:45:00" 
+date: "2023-08-18T16:30:00" 
 track: "messaging"
 presenters: "Luke Chen"
 stype: "English Session"

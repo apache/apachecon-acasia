@@ -1,8 +1,8 @@
 ---
-title: "rocketmq Million Queue capability support - rocksdb kv storage"
+title: "RocketMQ Million Queue capability support - rocksdb kv storage"
 date: "2023-08-20:14:00:00" 
 track: "messaging"
-presenters: "赵福建"
+presenters: "Zhao Fujian"
 stype: "Chinese Session"
 ---
 The existing rocketmq storage architecture has the following problems:

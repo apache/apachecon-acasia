@@ -1,6 +1,6 @@
 ---
 title: "深入了解Kafka中的复制协议"
-date:  "2023-08-18T15:45:00" 
+date:  "2023-08-18T16:30:00" 
 track: "messaging"
 presenters: "Luke Chen"
 stype: "英文演讲"
@@ -9,5 +9,5 @@ stype: "英文演讲"
 
 通过这次演讲，听众可以重新思考这些复制协议，也许其中的一些想法可以带到其他分布式系统项目中。希望它也能帮助读者更多地了解Apache Kafka。
  ### Speakers: 
- <img src="https://img.bagevent.com/resource/20230602/1539258830.jpg" width="200" /><br>路加福音陈: RedHat, 高级软件工程师, 我是RedHat的一名高级软件工程师，致力于在云上运行Apache Kafka的产品。我也是Apache Kafka的提交者和PMC成员。我为Apache Kafka贡献了3年多的时间。
+ <img src="https://img.bagevent.com/resource/20230602/1539258830.jpg" width="200" /><br>Luke Chen: RedHat, 高级软件工程师, 我是RedHat的一名高级软件工程师，致力于在云上运行Apache Kafka的产品。我也是Apache Kafka的提交者和PMC成员。我为Apache Kafka贡献了3年多的时间。
  <br><br>
