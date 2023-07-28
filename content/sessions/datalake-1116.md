@@ -11,7 +11,7 @@ Outline:
 This paper introduces the reason why Iceberg is introduced in Xiaomi and the current production state of Iceberg in Xiaomi
 - Lakehouse architecture upgrade practice
 It is divided into two parts: table upgrade practice and business architecture upgrade practice. The table upgrading practice mainly describes how to upgrade Hive tables into Iceberg tables and how to make them into products. The service architecture upgrade practice mainly brings practical services to obtain greater benefits by upgrading links to the lake architecture
-- Optimization
+- Function Optimization
 This paper mainly introduces the reading principle of Iceberg and the development of the Parquet Page Index feature, further enhancing Iceberg's Data Skipping capability. It also discusses the integration of Parquet encryption capability in Iceberg to achieve column-level data encryption
 - Construction and evolution of managed table optimization services
 This paper mainly introduces the issues encountered and the system architecture before the launch of the managed table optimization service, as well as the supported optimization task types, table monitoring, and other related content
