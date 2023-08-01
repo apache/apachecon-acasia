@@ -1,8 +1,8 @@
 ---
-title: "The past and present lives of Dubco-go-Pixiu"
+title: "The past and present of Dubco-go-Pixiu"
 date: "2023-08-20T15:45:00" 
 track: "webserverandtomcat"
-presenters: "吕梦超"
+presenters: "Mengchao Lv"
 stype: "Chinese Session"
 ---
 Dubco-go-pixiu is an open source API gateway and cluster access solution for the Dubbo ecosystem. As an API gateway, Pixiu has the ability to receive external HTTP/Dubbo/Triple network requests and convert them into Dubbo/Triple and other protocols to achieve seamless HTTP/Dubbo/Triple connection in the Dubbo ecosystem. In the upcoming 1.0 release, we will also introduce the first version of the Dubbo Mesh Proxyless control surface.

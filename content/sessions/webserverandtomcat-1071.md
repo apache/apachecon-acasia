@@ -2,7 +2,7 @@
 title: "Tomcat's technical insider and practice in the Himalayas"
 date: "2023-08-20T13:30:00" 
 track: "webserverandtomcat"
-presenters: "彭荣新"
+presenters: "Rongxin Peng"
 stype: "Chinese Session"
 ---
 Systematically share the overall architecture of tomcat, network model, thread model, memory copy, buffer, protocol resolution, class loader, etc., so that you have a new understanding of tomcat, while combining the problems encountered in the practice of tomcat in the Himalayas and tuning measures. And best practices on how to work with downstream gateways such as nginx, api gateways.
