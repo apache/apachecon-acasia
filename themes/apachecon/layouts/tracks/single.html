@@ -23,7 +23,7 @@
 
                 <article>{{.Content}}</article>
                 {{$fn := .File.TranslationBaseName}}
-                {{ $bigtracks := "messaging bigdata" }} 
+                {{ $bigtracks := "bigdata" }} 
                 {{ $day := "" }}
                 {{ range $page_index, $page_val :=  sort .Site.Pages "Date" "asc" }}
                 {{if in $bigtracks .Params.track}} <!--do nothing here-->

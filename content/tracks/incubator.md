@@ -3,5 +3,6 @@ title: Incubator
 trackchairs: "Juan Pan, Calvin Kirs"
 ---
 
-The Apache Incubator provides services to projects (called "podlings") that want to enter the Apache Software Foundation (ASF).
-This track will share the experience and pointers about the incubator journey, which will help you learn more about the Apache style of governance and operation, how projects enter incubator and graduate to become a TLP. Besides, it is introduced that more knowledge on how to build an active and diverse open source community, and how to be aligned with Apache regulations.
+The Apache Incubator offers valuable services to projects, referred to as "podlings," seeking entry into the Apache Software Foundation (ASF). This conference track aims to provide insights and guidance on the incubator journey, enabling attendees to gain a deeper understanding of Apache's governance and operational practices. 
+
+Participants will learn about the process of entering the incubator and progressing towards becoming a Top-Level Project (TLP). Additionally, this track will explore strategies for building an active and diverse open-source community, while ensuring compliance with Apache's regulations.

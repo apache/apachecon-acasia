@@ -6,7 +6,7 @@ menu:
 ---
 At the Apache Software Foundation, all online interactions are governed by the [ASF Code of Conduct](http://apache.org/foundation/policies/conduct.html), while in-person events are subject to the [Anti-Harassment Policy](http://apache.org/foundation/policies/anti-harassment.html).
 
-ApacheCon is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Participants violating these rules may be sanctioned or expelled without a refund, at the discretion of the event organizers.
+CommunitOverCode (formerly ApacheCon) is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Participants violating these rules may be sanctioned or expelled without a refund, at the discretion of the event organizers.
 
 Harassment includes offensive verbal comments, deliberate intimidation, stalking, following, unwanted photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Participants asked to stop any harassing behaviour are expected to comply immediately.
 

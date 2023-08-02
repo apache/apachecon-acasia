@@ -1,0 +1,11 @@
+---
+title: "Bytedance cloud-native YARN practice"
+date: "2023-08-20T15:45:00" 
+track: "cloudnative"
+presenters: "Shao Kaiyang"
+stype: "Chinese Session"
+---
+The internal offline service of Bytedance has a huge scale, with hundreds of thousands of nodes and millions of tasks running online every day, and tens of millions of resources used every day. The internal offline scheduling system and online scheduling system are responsible for the scheduling management of offline services and online services respectively. However, with the development of business scale, this system has exposed some shortcomings: offline is two sets of systems, some major activity scenarios need to be carried out offline resource conversion through operation and maintenance, heavy operation and maintenance burden, long conversion period; Because resource pools are not unified, the overall resource utilization is low, and quota control and machine operation and maintenance cannot be reused. Big data jobs cannot enjoy the various benefits of cloud native, such as: reliable and stable isolation capabilities, convenient operation and maintenance capabilities. Offline systems need to be unified, while traditional big data engines are not designed for cloud native deployment, and each computing engine and task needs to be deeply reformed to support the original YARN features, and the transformation cost is huge. Based on this background, Bytedance proposes a cloud-native YARN solution, Serverless YARN, which is 100% compatible with Hadoop YARN protocol. Big data jobs in Hadoop ecosystem can be transparently migrated to cloud-native systems without modification. Online resources and offline resources can be efficiently and flexibly converted and time-shared, which significantly improves the overall resource utilization of the cluster.
+ ### Speakers: 
+ <img src="https://img.bagevent.com/resource/20230609/1633079160.png" width="200" /><br>Shao Kaiyang: ByteDance,  Cloud-Native Computing R&D Engineer at the Volcano Engine, responsible for offline scheduling in ByteDance infrastructure, with many years of engineering architecture experience.
+ <br><br>

@@ -6,7 +6,7 @@ menu:
 ---
 在Apache软件基金会，所有在线互动均受[ASF行为准则](http://apache.org/foundation/policies/conduct.html)的管辖，而面对面的活动则受[反骚扰政策](http://apache.org/foundation/policies/anti-harassment.html)。
 
-ApacheCon致力于为每个人提供无骚扰的体验。我们不容忍任何形式的参与者骚扰。违反这些规则的参加者可以根据活动组织者的判断，予以制裁或开除，且不予退款。
+CommunitOverCode (前 ApacheCon ) 致力于为每个人提供无骚扰的体验。我们不容忍任何形式的参与者骚扰。违反这些规则的参加者可以根据活动组织者的判断，予以制裁或开除，且不予退款。
 
 骚扰包括令人反感的口头评论，故意的恐吓，跟踪，跟踪，不必要的摄影或录音，谈话或其他事件的持续中断，不适当的身体接触以及不受欢迎的性关注。被要求停止任何骚扰行为的参与者应立即遵守。
 

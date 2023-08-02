@@ -1,0 +1,11 @@
+---
+title: "Developer content experience decryption journey, follow the wind and waves"
+date: "2023-08-19T14:00:00" 
+track: "community"
+presenters: "Yu Liu"
+stype: "Chinese Session"
+---
+In recent years, the software industry has entered the era of cloud native 2.0, and the emergence of new technologies has brought a sweet burden to developers - they enjoy more choice, but also bear greater complexity. With the rise of the "developer first" culture and the increasing weight of developer decisions on product selection, the world's major tech giants are shifting from a traditional sales approach to a developer-centric approach to product promotion (B2D), where quality content is the most effective marketing strategy. In the face of this group of critical players, in order to accelerate the flywheel effect, how to design content that makes developers fall in love at first sight? How to create an "Aha Moment" for content in order to enhance the development experience? In order to increase user engagement, how to keep developers engaged with content over time? In order to strengthen brand competitiveness, how to develop a differentiated content strategy for open source and commercial products? This share will take the top open source project Apache Pulsar and industry best practices as examples of how to design engaging content experiences for developers.
+ ### Speakers: 
+ <img src="https://img.bagevent.com/resource/20230601/0947243980.jpeg" width="200" /><br>Yu Liu: StreamNative, Technical Writer, Yu Liu is an Apache Pulsar PMC member and Apache Trafodion committer. As StreamNative's Technical Writer, she has been committed to improving the user's content experience, actively preaching to the open source community, and participating in various events in the open source and technology communication industry. He has delivered speeches on information architecture, content operation and strategy, content coding and other topics at conferences such as ApacheCon Asia, COSCon, OpenInfra Days China, tcworld China, and China Technology Communication Forum. And actively participate in Open source activities such as Our Code is Open and OSPP.
+ <br><br>

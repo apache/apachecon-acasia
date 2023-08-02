@@ -2,6 +2,8 @@
 
 This repository contains a Hugo based site for ApacheCon.
 
+NOTE: Please use hugo v0.92.2 to avoid the website build error.
+
 To install Hugo :
 
 ```
@@ -15,20 +17,20 @@ Please chose hugo below v0.93, otherwise the build will failed.
 To test it locally, run:
 
 ```
-hugo server -b http://localhost:1313/acasia2022 -F
+hugo server -b http://localhost:1313/acasia2023 -F
 ```
 
 To generate final site, use:
 
 
 ```
-hugo -b https://apachecon.com/acasia2022/ -d <destination_directory> -F
+hugo -b https://apachecon.com/acasia2023/ -d <destination_directory> -F
 ```
 
 ## FAQ
 
 ### How to fix the typos in Session page
-If you want to fix session typos of https://apachecon.com/acasia2022/sessions/1155.html
+If you want to fix session typos of https://apachecon.com/acasia2023/sessions/1155.html
 You just need to go the file 1155.md in content/sessions directory.
 If it is chinese version, you just need to update the file of 1155.zh.md.
 
