@@ -1,6 +1,6 @@
 ---
 title: "How increasing partition size in Apache Cassandra can reduce disk usage by over 30%"
-date: "2023-08-19T16:15:00" 
+date: "2023-08-19T16:45:00" 
 track: "datastorage"
 presenters: "John Del Castillo"
 stype: "English Session"

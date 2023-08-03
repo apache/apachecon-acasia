@@ -1,6 +1,6 @@
 ---
 title: "基于Apache Linkis快速高效构建数据应用工具"
-date: "2023-08-19T16:45:00" 
+date: "2023-08-19T16:15:00" 
 track: "datastorage"
 presenters: "王和平"
 stype: "中文演讲"

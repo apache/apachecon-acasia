@@ -1,6 +1,6 @@
 ---
 title: "Build data applications quickly and efficiently based on Apache Linkis"
-date: "2023-08-19T16:45:00" 
+date: "2023-08-19T16:15:00" 
 track: "datastorage"
 presenters: "王和平"
 stype: "Chinese Session"

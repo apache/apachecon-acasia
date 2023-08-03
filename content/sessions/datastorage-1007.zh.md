@@ -1,6 +1,6 @@
 ---
 title: "如何在Apache Cassandra中增加分区大小可以减少超过30%的磁盘使用"
-date: "2023-08-19T16:15:00" 
+date: "2023-08-19T16:45:00" 
 track: "datastorage"
 presenters: "John Del Castillo"
 stype: "英文演讲"
