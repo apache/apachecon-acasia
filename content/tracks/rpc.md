@@ -2,12 +2,12 @@
 title: RPC & Service Mesh
 trackchairs: "Jun Liu"
 ---
-RPC (Remote Procedure Call) is one of the key solutions of the distributed architecture aiming to solve the cross-process and cross-host communication. It has been the core technology behind the widely running distributed system since the invention of distributed architecture and RPC. Standing in the era of Cloud Computing, especially the development of Microservices, Cloud Native, and other popular architectures, RPC began to play a more important role than ever before.
+RPC (Remote Procedure Call) is used to solve the problem of cross-process and cross-host communication in distributed system. With the wide application of micro-service architecture in recent years, we have built solutions for micro-service Frameworks and solutions for development and service governance.
 
-This forum focus on high-performance, high-extensible RPC frameworks as well as their use cases.
+Apache Dubbo is currently the most widely used and most influential open source microservice development framework in China. In this forum, we will focus on the new features, ecosystem and practices of the Dubbo framework:
 
-The topics suitable but not restricted for this forum are as follows:
+1. The latest progress of Dubbo3 in RPC protocol, cloud-native observability, Kubernetes, service Mesh, Native Image, etc.
+2. The latest developments of microservice ecosystem, including distributed transaction solution, rate limiting and downgrading, service governance, etc.
+3. Summary of microservice practical experience from typical enterprises such as Industrial and Commercial Bank of China and Zhengcai Cloud.
 
-1. RPC frameworks focusing on solving the communicating issues in distributed systems, such as RPC, Dubbo, ServiceComb, Thrift, etc., sharing of feature evolution, performance optimization, and others are welcomed.
-2. Projects that play as middleware or infrastructure in distributed systems and are directly or closely related to RPC frameworks, such as APISIX, Shenyu, Skywalking, etc.
-3. Usecases or experiences with RPC frameworks powered by the ASF, such as practices on bRPC and Dubbo.
+This forum would be very helpful for tech managers, architects, and developers engaged in enterprise-level microservice architecture.
