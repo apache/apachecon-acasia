@@ -6,24 +6,11 @@ presenters: "Xi Shihao"
 stype: "Chinese Session"
 ---
 
-1. Introduction to the Requirements Analysis of LixiangAutomotive Big Data Middleware and Analysis of Pain Points.
-   - Selection analysis and factors to consider.
-   - Functions and positioning of Linkis.
-  
-2. Linkis' Implementation in Lixiang Automotive
-   - Exploration and implementation process in the company.
-   - Problems encountered during the implementation process and solutions.
-   - Application cases and effect evaluation of Linkis in Lixiang Automotive.
+Apache Linkis is a layer of computing middleware between applications and engines. 
 
-3. Value of Linkis in Lixiang Automotive
-   - Current business volume supported by Linkis in Lixiang Automotive.
-   - Application cases and effects of Linkis in the company.
+The content of my sharing mainly includes: Why do we choose Linkis as the bigdata middleware inside the Li Auto; The features we have added and fixed during our implementation of Linkis, and how these features help us to develop simpler and improve our work efficiency; The challenges and issues we encountered during our implementation, and our solutions and suggestions; The new features and improvements in our plan. 
 
-4. Planning and Prospects
-   - Prospects and planning for the future development of Linkis, including improvement and innovation directions.
-   - Discussion of the future development of big data in Lixiang Automotive.
-  
-5. Q&A Session.
+I hope my sharing provide some experience for teams currently using or planning to use Linkis.
 
  ### Speakers: 
  <img src="https://img.bagevent.com/resource/20230601/2247400013693984.jpg" width="200" /><br>
