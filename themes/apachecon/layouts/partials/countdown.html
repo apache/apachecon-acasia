@@ -1,0 +1,57 @@
+<div class="count-down mb-5">
+  {{ $array := slice "weeks" "days" "hours" "minutes" "seconds" }}
+  {{ range $index, $element := $array }}
+  <div class="circle-progress-wrap">
+    <div class="circle-progress">
+        <svg width="56" height="56">
+          <circle cx="28" cy="28" r="26" stroke-width="2" stroke="#533894" fill="none"></circle>
+          <circle id="circle2-{{$element}}" cx="28" cy="28" r="26" stroke-width="2" stroke="#FFC107" fill="none"
+          transform="matrix(0,-1,1,0,0, 56)" stroke-dasharray=""></circle>
+        </svg>
+        <div class="count" id="count-{{ $element }}">00</div>
+    </div>
+    <div class="count-label text-center mt-1">{{ i18n $element }}</div>
+  </div>
+  {{ end }}
+</div>
+
+<script>
+  const deadline = new Date('2024-07-25T24:00:00').getTime();
+
+  function animateBorder (ele, value) {
+    const circle = document.getElementById(`circle2-${ele}`);
+    document.getElementById(`count-${ele}`).innerHTML = value;
+    const percent = value / 60, perimeter = Math.PI * 2 * 26;
+    circle.setAttribute('stroke-dasharray', perimeter * percent + " " + perimeter * (1- percent));
+  }
+
+
+
+  function updateCountdown () {
+    const now = new Date().getTime();
+    const timeDiff = deadline - now;
+
+    // 检查是否到达截止时间
+    if (timeDiff <= 0) {
+      clearInterval(countdownInterval);
+      return;
+    }
+
+    const weeks = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 7));
+    const days = Math.floor((timeDiff % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+    // 更新倒计时数字
+    animateBorder('weeks', weeks);
+    animateBorder('days', days)
+    animateBorder('hours', hours)
+    animateBorder('minutes', minutes)
+    animateBorder('seconds', seconds)
+  }
+
+  // 每秒更新一次倒计时
+  const countdownInterval = setInterval(updateCountdown, 1000);
+
+</script>

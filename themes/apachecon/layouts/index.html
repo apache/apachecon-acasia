@@ -5,28 +5,52 @@
 	<body class="homepage">
 
 		<!-- Header Wrapper -->
-			<div class="wrapper style1">
-
-				<div id="header">
-					<div class="container">
-
-							<h1><a href="#" id="logo">&nbsp;</a></h1>
-
-						{{ partial "nav.html" . }}
-
-					</div>
-				</div>
-
-				<div id="banner">
-					<section class="container">
-					</section>
-				</div>
+			<div  class="style1">
+				{{ if eq .Site.Language.Lang "zh" }}
+					<img class="pc-show" src="images/cocasia2024-banner-zh.jpg" alt="Community Over Code Asia 2024" width="100%">
+					<img class="mobile-show" src="images/mobile-cocasia2024-banner-zh.jpg" alt="Community Over Code Asia 2024" width="100%">
+				{{ else }}
+					<img class="pc-show" src="images/cocasia2024-banner-en.jpg" alt="Community Over Code Asia 2024" width="100%">
+					<img class="mobile-show" src="images/mobile-cocasia2024-banner-en.jpg" alt="Community Over Code Asia 2024" width="100%">
+				{{ end }}
+				
+				<img src="images/cocasia2024-logo.png" alt="logo" class="logo pc-show" width="200" >
+				{{ partial "nav.html" . }}
 			</div>
 
 			<div class="wrapper style3">
 				<section class="container">
-                <p><b>{{.Title}}</b></p>
-              {{.Content}}
+					<div class="row justify-content-center">
+             <div class="col col-md-12 col-lg-10">
+							<h2 class="px-3 mb-5">{{.Title}}</h3>
+							
+							{{ partial "countdown.html" . }}
+
+              <div class="text-start">
+								{{.Content}}
+							</div>
+							<a href="https://www.apachecon.com/acasia2023" target="_blank" role="button" class="btn btn-warning mt-5">{{ i18n "visit-2023"}}</a>
+						 </div>
+					</div>
+				</section>
+			</div>
+
+			<div class="wrapper style4">
+				<section class="container">
+					<div class="row">
+						<div class="col-12 col-lg-5 title">
+							CommunityOverCode Asia 2023 Highlight Video
+						</div>
+						<div class="col-12 col-lg-7">
+							<div class="bg-dark">
+								{{ if eq .Site.Language.Lang "zh" }}
+									<iframe src="//player.bilibili.com/player.html?aid=496038034&bvid=BV1KK411v7Z7&cid=1401841719&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="405"> </iframe>
+								{{ else }}
+								<iframe width="100%" height="405" src="https://www.youtube.com/embed/d9wNE-ExkCI?si=J5QiOUXgb4_O-v-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+								{{ end }}
+							</div>
+						</div>
+					</div>
 				</section>
 			</div>
 

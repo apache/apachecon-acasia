@@ -6,23 +6,27 @@
 
     <meta property='og:title' content='{{ if .Title}}{{.Title}}{{else}}{{ $.Site.Title }}{{end}}'/>
     <meta property='og:url' content='//apachecon.com/acasia2023'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="{{.Site.BaseURL}}"/>
     <!--[if lte IE 8]>
     <script src="css/ie/html5sh?iv.js"></script><![endif]-->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
 
     {{ $style := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     {{ $acasia2021 := resources.Get "scss/acasia2021.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $acasia2021.Permalink }}">
 
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.dropotron.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/skel-layers.min.js"></script>
-    <script src="js/init.js"></script>
+    <!-- <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script> -->
+    <!-- <script src="js/init.js"></script> -->
     <noscript>
-        <link rel="stylesheet" href="css/skel.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
+        <!-- <link rel="stylesheet" href="css/skel.css"/> -->
     </noscript>
     <link rel="stylesheet" href="css/search.css"/>
     <!--[if lte IE 8]>

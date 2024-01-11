@@ -48,3 +48,27 @@ prevPage:
 
 nextPage:
   other: Next
+
+home:
+  other: Home
+
+register:
+  other: Register
+
+visit-2023:
+  other: Visit CommunityOverCode 2023
+
+weeks:
+  other: Weeks
+
+days:
+  other: Days
+
+hours:
+  other: Hours
+
+minutes:
+  other: Minutes  
+
+seconds:
+  other: Seconds

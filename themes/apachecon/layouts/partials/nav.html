@@ -1,18 +1,63 @@
-<nav id="nav">
-    <ul>
-        {{ range .Site.Menus.main }}
-        <li>
-            {{ .Pre }}
-            <a href="{{.URL}}">{{ .Name }}</a>
-        </li>
-        {{end}}
-        {{ if .IsTranslated }}
-						{{ range .Translations }}
-            <li>
-							<a href="{{ .URL }}">{{ i18n "translation" }}</a>
-            </li>
-						{{ end}}
-				{{ end }}
 
-    </ul>
+<nav id="nav" class="navbar navbar-dark navbar-expand-lg {{if .IsHome }} bg-transparent{{ else }}bg-dark-custom{{ end }}">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        {{ if .IsHome }}
+            <div>&nbsp;</div>
+        {{ else}}
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="images/apachecon.png" height="30" ALIGN=CENTER>
+            </a>
+        {{end}}
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    {{ i18n "home"}}
+                </a>
+            </li>
+            {{ range .Site.Menus.main }}
+                <li class="nav-item">
+                    {{ .Pre }}
+                    <a href="{{.URL}}" class="nav-link">{{ .Name }}</a>
+                </li>
+            {{end}}
+            {{ if .IsTranslated }}
+                {{ range .Translations }}
+                    <li class="nav-item">
+                        <a href="{{ .URL }}" class="nav-link" >{{ i18n "translation" }}</a>
+                    </li>
+                {{ end}}
+            {{ end }}
+            <button type="button" class="btn btn-warning ms-0 ms-lg-4">
+                {{ i18n "register" }}
+            </button>
+        </ul>
+    </div>
+  </div>
 </nav>
+<script>
+    const isHome = "{{ .IsHome }}";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>

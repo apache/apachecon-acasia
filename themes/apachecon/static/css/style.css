@@ -21,76 +21,12 @@
 
 	body, input, select, textarea {
 		color: #424242;
+		/* font-size: 12pt;
+		font-weight: 300; */
+	}
+	body * {
 		font-family: 'Montserrat', sans-serif;
-		font-size: 12pt;
-		font-weight: 300;
-		line-height: 1.65em;
 	}
-
-	a {
-        color: #9e2165;
-		text-decoration: underline;
-	}
-
-	a:hover {
-        cursor: pointer;
-		text-decoration: none;
-	}
-
-	strong, b {
-		font-weight: 700;
-	}
-
-	em, i {
-		font-style: italic;
-	}
-
-	p, ul, ol, dl, table, blockquote {
-		margin: .5em 0 .75em 0;
-	}
-
-	p {
-		line-height: 1.8em;
-	}
-
-		p.medium {
-			font-size: 1.4em;
-		}
-
-	h1, h2, h3, h4, h5, h6 {
-		color: inherit;
-
-	}
-
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
-		}
-
-h1 > a:hover::after,
-h2 > a:hover::after,
-h3 > a:hover::after,
-h4 > a:hover::after {
-	content: '\00A7';
-	padding-left: 0.5em;
-	color: gray;
-}
-
-	h2 {
-		font-size: 1.5em;
-		font-weight: 800;
-	}
-
-	h3 {
-		font-size: 1.25em;
-		font-weight: 700;
-	}
-
-	h4 {
-		font-size: 1em;
-		font-weight: 700;
-	}
-
 
 	sub {
 		font-size: 0.6em;
@@ -129,6 +65,12 @@ h4 > a:hover::after {
 		header.major h2 {
 			font-size: 2.6em;
 			font-weight: 700;
+		}
+
+		@media screen and (max-width: 768px) {
+			header.major h2 {
+				font-size: 1.6em;
+			}
 		}
 
 		header.major .byline {
@@ -455,16 +397,11 @@ h4 > a:hover::after {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0em 4em 0em;
+		padding: 4em 0em;
 	}
-
-
-		.wrapper.style1 {
-			padding: 0em;
-			background: #1e0f5a url(../images/cocasia2024-banner.png) no-repeat;
-			background-size: contain;
-			background-position: center;
-		}
+	.wrapper.style1 {
+    padding: 0em;
+  }
 
 		.wrapper.style2 {
 			background: #f2f2f2;
@@ -502,35 +439,23 @@ h4 > a:hover::after {
 			}
 
 		.wrapper.style3 {
-			padding-bottom: 6em;
 			background: #282661;
 			text-align: center;
 			color: white;
 		}
-
-		.wrapper.style3 a {
-			cursor: pointer;
-			/* color: #db1d86; */
-			color:#ebb145;
-			text-decoration: underline;
+		.wrapper.style3 p:last-child {
+			margin-bottom: 0;
 		}
-		.wrapper.style3 a:hover {
-			cursor: pointer;
-			color:#ebb145;
-			background: #5a4400;
-		}
-
-			.wrapper.style3 .container {
-				padding-left: 6em;
-				padding-right: 6em;
-			}
-
-			.wrapper.style3 p {
-				font-size: 1.6em;
-			}
 
 		.wrapper.style4 {
 			background: white;
+		}
+
+		.wrapper.style4 .title {
+			display: flex;
+			align-items: center;
+			font-size: 2.5em;
+			font-weight: 700;
 		}
 
 		.wrapper.style5 {
@@ -550,12 +475,24 @@ h4 > a:hover::after {
 					border: 10px solid;
 					border-color: white;
 				}
+	@media screen and (max-width: 1199px) {
+		.wrapper.style4 .title {
+			font-size: 30px;
+		}
+	}					
+				
+	@media screen and (max-width: 992px) {
+		.wrapper.style4 .title {
+			font-size: 24px;
+			margin-bottom: 2rem;
+		}
+	}		
 
 /* Header */
 
 	#header {
 		color: white;
-		height: 4em;
+		min-height: 4em;
 		background: rgba(0, 0, 0, 0.5);
 	}
 
@@ -568,14 +505,72 @@ h4 > a:hover::after {
 	}
 
 	.homepage #nav {
-		position: static;
-		right: none;
-		text-align: right;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
 	}
 
-    .homepage a {
-        color: #ffffff;
-    }
+	#nav .btn-wrap {
+		display: none;
+	}
+
+	.bg-custom {
+		background-color: #272662 !important;
+ 	}
+	.bg-dark-custom {
+		background-color: rgba(0, 0, 0, 0.5) !important;
+	}
+
+	@media screen and (max-width: 991px) {
+		#nav .btn-wrap {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	.homepage .pc-show {
+		display: block;
+	}
+	.homepage .mobile-show {
+		display: none;
+	}
+
+	.homepage .logo {
+		position: absolute;
+		left: 72px;
+		top: 0;
+		max-width: 200px;
+		height: auto;
+	} 
+
+	@media screen and (max-width: 775px) {
+		.homepage  .logo {
+			max-width: 150px;
+		}
+
+		.homepage .pc-show {
+			display: none;
+		}
+		.homepage .mobile-show {
+			display: block ;
+		}
+	}
+
+	@media screen and (max-width: 992px) {
+		.homepage  .logo {
+			max-width: 150px;
+		}
+	}
+
+	@media screen and (max-width: 775px) {
+		.homepage .pc-show {
+			display: none;
+		}
+		.homepage .mobile-show {
+			display: block ;
+		}
+	}
 
 	#logo {
 		line-height: 2em;
@@ -595,73 +590,12 @@ h4 > a:hover::after {
 			color: inherit;
 		}
 
-	#nav {
-		position: absolute;
-		top: 0;
-		right: 0;
-	}
-
-	.logo-img {
-		float: left;
-		position: relative;
-		margin: 17px 15px 15px 10px;
-	}
-
-	@media screen and (max-width: 1100px) {
-		.logo-img {
-			margin-top: 15px;
-			transform: scale(0.5) translate(-150px, 0);
-		}
-	}
-
 	@media screen and (max-width: 920px) {
-		.container {
-			width: 100%;
-		}
 
 		.logo-img {
 			transform: scale(0.4) translate(-220px, 0);
 		}
 	}
-
-		#nav > ul {
-			margin: 0;
-		}
-
-			#nav > ul > li {
-				border-radius: 4px;
-				display: inline-block;
-				margin-left: 0.5em;
-				padding: 0 0.5em;
-                font-weight: 600;
-			}
-
-			@media screen and (max-width: 920px) {
-				#nav > ul > li {
-					margin-left: 0;
-					padding: 0 0.3em;
-				}
-			}
-
-				#nav > ul > li a {
-					color: inherit;
-					line-height: 4em;
-					text-decoration: none;
-					font-weight: 500;
-					font-size: 1em;
-				}
-
-				#nav > ul > li:first-child {
-					margin-left: 0;
-				}
-
-				#nav > ul > li.active a {
-					color: white;
-				}
-
-				#nav > ul > li > ul {
-					display: none;
-				}
 
 /* Dropotron */
 
@@ -778,10 +712,10 @@ h4 > a:hover::after {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 2em 0;
+		padding: 6em 0;
 		text-align: center;
 		color: black;
-        background-image: linear-gradient(goldenrod,orange,red,purple)
+    background: linear-gradient(180deg, #FFC107 2.49%, #FFA500 28%, #F00 65.5%, #800080 100%);
 	}
 
 	#footer a {
@@ -801,7 +735,6 @@ h4 > a:hover::after {
 		}
 
 		#footer .copyright {
-			margin-top: 3em;
 			text-align: center;
 		}
 
@@ -855,4 +788,50 @@ h4 > a:hover::after {
 	white-space: nowrap;
 	vertical-align: baseline;
 	border-radius: .25em;
+}
+
+/** count down **/
+.count-down {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	
+.count-down .circle-progress-wrap {
+	text-align: center;
+	margin-right: 4rem;
+}
+.count-down .circle-progress-wrap:last-child {
+	margin-right: 0;
+}
+.count-down  .circle-progress {
+	position: relative;
+}
+.count-down .count {
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 700;
+	color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+	.count-down {
+		justify-content: space-between !important;
+	}
+	.count-down .circle-progress-wrap {
+		margin-right: 0;
+	}
+
+	.count-down .count {
+		font-size: 15px;
+	}
+
+	.count-down .count-label {
+		font-size: 12px;
+		font-weight: 600;
+	}
+	
 }

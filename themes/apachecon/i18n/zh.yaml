@@ -48,3 +48,27 @@ prevPage:
 
 nextPage:
   other: 下一页
+
+home:
+  other: 首页
+
+register:
+  other: 注册
+
+visit-2023:
+  other: 访问 CommunityOverCode 2023
+
+weeks:
+  other: 周
+
+days:
+  other: 天
+
+hours:
+  other: 小时
+
+minutes:
+  other: 分钟 
+
+seconds:
+  other: 秒
