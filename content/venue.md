@@ -3,6 +3,7 @@ title: Venue
 menu:
    main:
       weight: 20
+draft: true          
 ---
 
 Hey there! Welcome to the CommunityOverCode Asia 2023 ASF Asia Summit! We've got something special lined up for you during these highly anticipated three days - a cozy stay at the Park Plaza Beijing Science Park. Trust us, it's the perfect spot for all you fellow attendees looking for a place to crash.

@@ -3,6 +3,7 @@ title: Terms&Condition
 menu:
    main:
       weight: 25
+draft: true      
 ---
 
 ## REFUND POLICY

@@ -3,6 +3,7 @@ title: 邀请函
 menu:
    main:
       weight: 20
+draft: true        
 ---
 
 需要签证邀请函的人，请参考本页面上的说明。

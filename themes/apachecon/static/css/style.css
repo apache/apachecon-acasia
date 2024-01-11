@@ -27,6 +27,9 @@
 	body * {
 		font-family: 'Montserrat', sans-serif;
 	}
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 700;
+	}
 
 	sub {
 		font-size: 0.6em;
@@ -536,10 +539,14 @@
 		display: none;
 	}
 
-	.homepage .logo {
+	.homepage .logo-wrap {
 		position: absolute;
-		left: 72px;
 		top: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	.homepage .logo {
 		max-width: 200px;
 		height: auto;
 	} 

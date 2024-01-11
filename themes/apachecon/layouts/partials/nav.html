@@ -19,11 +19,11 @@
     </div>
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="index.html">
                     {{ i18n "home"}}
                 </a>
-            </li>
+            </li> -->
             {{ range .Site.Menus.main }}
                 <li class="nav-item">
                     {{ .Pre }}
@@ -37,9 +37,9 @@
                     </li>
                 {{ end}}
             {{ end }}
-            <button type="button" class="btn btn-warning ms-0 ms-lg-4">
+            <!-- <button type="button" class="btn btn-warning ms-0 ms-lg-4">
                 {{ i18n "register" }}
-            </button>
+            </button> -->
         </ul>
     </div>
   </div>

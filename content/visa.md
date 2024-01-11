@@ -3,6 +3,7 @@ title: Visa
 menu:
    main:
       weight: 20
+draft: true      
 ---
 For those needing a visa invitation letter, please refer to the instructions on this page.
 

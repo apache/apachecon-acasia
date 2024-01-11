@@ -3,6 +3,7 @@ title: 酒店
 menu:
    main:
       weight: 20
+draft: true      
 ---
 
 欢迎来到 CommunityOverCode ASF 亚洲峰会！在这令人期待的三天盛宴中，我们精心为您安排了丽亭华苑酒店，真诚地推荐给有住宿需求的各位同行。

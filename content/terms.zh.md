@@ -3,6 +3,7 @@ title: 条款和条件
 menu:
    main:
       weight: 25
+draft: true      
 ---
 
 ## 退款政策

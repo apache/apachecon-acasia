@@ -14,7 +14,9 @@
 					<img class="mobile-show" src="images/mobile-cocasia2024-banner-en.jpg" alt="Community Over Code Asia 2024" width="100%">
 				{{ end }}
 				
-				<img src="images/cocasia2024-logo.png" alt="logo" class="logo pc-show" width="200" >
+				<div class="container logo-wrap">
+					<img src="images/cocasia2024-logo.png" alt="logo" class="logo pc-show" width="200" >
+				</div>
 				{{ partial "nav.html" . }}
 			</div>
 
@@ -44,9 +46,9 @@
 						<div class="col-12 col-lg-7">
 							<div class="bg-dark">
 								{{ if eq .Site.Language.Lang "zh" }}
-									<iframe src="//player.bilibili.com/player.html?aid=496038034&bvid=BV1KK411v7Z7&cid=1401841719&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="405"> </iframe>
+									<iframe src="//player.bilibili.com/player.html?aid=496038034&bvid=BV1KK411v7Z7&cid=1401841719&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="405"> </iframe>
 								{{ else }}
-								<iframe width="100%" height="405" src="https://www.youtube.com/embed/d9wNE-ExkCI?si=J5QiOUXgb4_O-v-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+								<iframe width="100%" height="405" src="https://www.youtube.com/embed/d9wNE-ExkCI?si=J5QiOUXgb4_O-v-c" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 								{{ end }}
 							</div>
 						</div>
