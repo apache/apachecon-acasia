@@ -6,13 +6,32 @@
 
 		<!-- Header Wrapper -->
 			<div  class="style1">
-				{{ if eq .Site.Language.Lang "zh" }}
-					<img class="pc-show" src="images/cocasia2024-banner-zh.jpg" alt="Community Over Code Asia 2024" width="100%">
-					<img class="mobile-show" src="images/mobile-cocasia2024-banner-zh.jpg" alt="Community Over Code Asia 2024" width="100%">
-				{{ else }}
-					<img class="pc-show" src="images/cocasia2024-banner-en.jpg" alt="Community Over Code Asia 2024" width="100%">
-					<img class="mobile-show" src="images/mobile-cocasia2024-banner-en.jpg" alt="Community Over Code Asia 2024" width="100%">
-				{{ end }}
+				<img class="pc-show" src="images/cocasia2024-banner-bg.jpg" alt="Community Over Code Asia 2024" width="100%">
+				<div class="container banner-wrap">
+					{{ if eq .Site.Language.Lang "zh" }}
+						<img class="pc-show banner-text" src="images/cocasia2024-text-cn.png" alt="Community Over Code Asia 2024" width="100%">
+						<img class="mobile-show" src="images/mobile-cocasia2024-banner-zh.jpg" alt="Community Over Code Asia 2024" width="100%">
+					{{ else }}
+						<img class="pc-show banner-text" src="images/cocasia2024-text-en.png" alt="Community Over Code Asia 2024" width="100%">
+						<img class="mobile-show" src="images/mobile-cocasia2024-banner-en.jpg" alt="Community Over Code Asia 2024" width="100%">
+					{{ end }}
+
+					<div class="home-btn-wrap">
+						<a 
+						  href="https://sessionize.com/communityovercode-asia-2024" 
+							target="_blank" 
+							role="button" 
+							class="btn btn-warning me-3 btn-lg">
+							{{ i18n "call_for_proposals" }}
+						</a>
+						<a 
+						  href="#register" 
+							role="button" 
+							class="btn btn-warning btn-lg">
+							{{ i18n "register" }}
+						</a>
+					</div>
+				</div>
 				
 				<div class="container logo-wrap">
 					<img src="images/cocasia2024-logo.png" alt="logo" class="logo pc-show" width="200" >
@@ -33,6 +52,29 @@
 							</div>
 							<a href="https://www.apachecon.com/acasia2023" target="_blank" role="button" class="btn btn-warning mt-5">{{ i18n "visit-2023"}}</a>
 						 </div>
+					</div>
+				</section>
+			</div>
+
+			<div class="wrapper style6" id="register">
+				<section class="container">
+					<h2 class="text-center">{{ i18n "register" }}</h2>
+					<div class="mt-5">
+						<iframe id="promote_ticket_iframe" width="100%" src="https://www.bagevent.com/widget/ticket/8766402?widget=2" frameborder="0" scrolling="no"></iframe>
+						<script>
+								(function (i, s, o, g, r, a, m) {
+										i['BagEventIFrameResize'] = r;
+										i[r] = i[r] || function () {
+												(i[r].q = i[r].q || []).push(arguments)
+										};
+										a = s.createElement(o),
+										m = s.getElementsByTagName(o)[0];
+										a.async = 1;
+										a.src = g;
+										m.parentNode.insertBefore(a, m)
+								})(window, document, 'script', 'https://www.bagevent.com/resources/js/iframeResizer/iframeResizer.min.js', 'bfr');
+								bfr('iFrameResize', {checkOrigin: false, heightCalculationMethod: 'taggedElement'}, "#promote_ticket_iframe");
+						</script>
 					</div>
 				</section>
 			</div>

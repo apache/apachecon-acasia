@@ -1,0 +1,41 @@
+<div class="sponsor"> 
+  <div class="container">
+    <div class="row justify-content-center">
+      
+      {{ $array := slice "1" "2" "3" "4" }}
+      {{ range $index, $element := $array }}
+      <div class="col col-md-12 col-lg-8">
+        <div class="card border-0 mb-3">
+          <div class="card-body d-flex">
+            <div class="icon me-4">✅</div>
+            <div>
+              <h5>{{ i18n (printf "sponsor_title_%s" $element) }}</h5>
+              <p class="mb-0">{{ i18n (printf "sponsor_description_%s" $element) }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="text-center mt-3 pt-3">
+      <a href="pdf/CoC_Asia_2024_Prospectus.pdf" role="button" class="btn btn-lg btn-warning" download>{{ i18n "sponsor-download" }}</a>
+    </div>
+  </div>
+</div>
+<style>
+  .sponsor {
+    background-color: #f8f9fa;
+  }
+  .sponsor .icon {
+    line-height: 1.5;
+  }
+  @media screen and (max-width: 775px) {
+    .sponsor .btn-lg {
+      --bs-btn-padding-x: 0.75rem;
+      --bs-btn-padding-y: 0.375rem;
+      --bs-btn-font-size: 1rem;
+      --bs-btn-border-radius: var(--bs-border-radius);
+    }
+  }
+</style>

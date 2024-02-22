@@ -1,12 +1,12 @@
 
-<nav id="nav" class="navbar navbar-dark navbar-expand-lg {{if .IsHome }} bg-transparent{{ else }}bg-dark-custom{{ end }}">
+<nav id="nav" class="navbar navbar-dark navbar-expand-lg bg-transparent">
   <div class="container py-1">
     <div class="btn-wrap d-flex align-items-center justify-content-between">
         {{ if .IsHome }}
-            <div>&nbsp;</div>
+            <div class="navbar-brand">&nbsp;</div>
         {{ else}}
             <a href="index.html" class="navbar-brand">
-                <img class="logo-img" src="images/apachecon.png" height="30" ALIGN=CENTER>
+                <img class="logo-img" src="images/cocasia2024-logo.png" height="120" width="200px" ALIGN=CENTER>
             </a>
         {{end}}
          <button
@@ -19,11 +19,16 @@
     </div>
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                    {{ i18n "home"}}
-                </a>
-            </li> -->
+            {{ if .IsHome }}
+                <div class="d-none">&nbsp;</div>
+            {{ else}}
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        {{ i18n "home"}}
+                    </a>
+                </li>
+            {{end}}
+            
             {{ range .Site.Menus.main }}
                 <li class="nav-item">
                     {{ .Pre }}
@@ -37,9 +42,12 @@
                     </li>
                 {{ end}}
             {{ end }}
-            <!-- <button type="button" class="btn btn-warning ms-0 ms-lg-4">
-                {{ i18n "register" }}
-            </button> -->
+            <div class="ms-0 ms-lg-4">
+                <a href="{{ if .IsHome }}#register{{else}}index.html#register{{end}}" role="button" class="btn btn-warning">
+                    {{ i18n "register" }}
+                </a>
+            </div>
+            
         </ul>
     </div>
   </div>

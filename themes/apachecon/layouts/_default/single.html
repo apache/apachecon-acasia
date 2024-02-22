@@ -9,31 +9,24 @@
 
     <!-- Header -->
     <div id="header">
-        <div class="container">
-            {{ partial "nav.html" . }}
-        </div>
+        {{ partial "nav.html" . }}
     </div>
-
 
     <!-- Main -->
-    <div id="main" class="wrapper style4 page">
+    <div id="main" class="wrapper page">
 
         <!-- Content -->
-        <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h2>{{.Title}}</h2>
-                </header>
-
+        <div id="content">
+            <h2 class="text-center mb-5">{{ .Title }}</h2>
+            <section> 
                 {{.Content}}
-
             </section>
+
+            {{ if eq .Params.identifier "sponsor" }}
+            {{ partial "sponsor.html" . }}
+            {{ end }}
         </div>
     </div>
-
-    {{ if eq .Params.identifier "sponsorship" }}
-    {{ partial "sponsorship.html" . }}
-    {{ end }}
 
     {{ partial "footer.html" . }}
 

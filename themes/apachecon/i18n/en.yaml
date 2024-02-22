@@ -72,3 +72,33 @@ minutes:
 
 seconds:
   other: Seconds
+
+call_for_proposals:
+  other: Call for Proposals
+
+sponsor-download:
+  other: Download the Prospctus
+
+sponsor_title_1:
+  other: Brand Boost and Marketing
+
+sponsor_description_1:
+  other: Sponsoring CommunityOverCode Asia boosts your visibility among developers and the open-source community, enhancing your brand and promoting your products to a captive audience.
+
+sponsor_title_2:
+  other: Networking and Opportunities
+
+sponsor_description_2:
+  other: This event is a melting pot of global tech leaders and decision-makers, offering sponsors a prime opportunity to forge valuable connections, explore partnerships, and recruit top talent.
+
+sponsor_title_3:
+  other: Get the latest on Apache Software Foundation projects and network with developers
+
+sponsor_description_3:
+  other: CommunityOverCode Asia brings together global Apache Software Foundation projects developers and contributors. Attend to gain insights, build lasting industry connections, and engage in deep collaboration.
+
+sponsor_title_4:
+  other: Community Engagement and Reputation
+
+sponsor_description_4:
+  other: By sponsoring CommunityOverCode Asia, you’re not just supporting the open-source community; you’re boosting your social responsibility credentials and building a positive industry reputation.  

@@ -3,7 +3,7 @@
 /* Basic */
 
 	body {
-		background: #222222;
+		background: #f8f9fa;
 	}
 
 		body.loading * {
@@ -467,17 +467,21 @@
 			color: white;
 		}
 
-			.wrapper.style5 .image {
-				display: block;
-				width: 60%;
-				margin: 0em auto 2em auto;
-			}
+		.wrapper.style5 .image {
+			display: block;
+			width: 60%;
+			margin: 0em auto 2em auto;
+		}
 
-				.wrapper.style5 .image img {
-					border-radius: 50%;
-					border: 10px solid;
-					border-color: white;
-				}
+		.wrapper.style5 .image img {
+			border-radius: 50%;
+			border: 10px solid;
+			border-color: white;
+		}
+
+		.wrapper.style6 {
+			background-color: #F8F9FA;
+		}			
 	@media screen and (max-width: 1199px) {
 		.wrapper.style4 .title {
 			font-size: 30px;
@@ -496,7 +500,9 @@
 	#header {
 		color: white;
 		min-height: 4em;
-		background: rgba(0, 0, 0, 0.5);
+		background-image: url(../images/cocasia2024-nav-bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 		#header .container {
@@ -517,18 +523,28 @@
 	#nav .btn-wrap {
 		display: none;
 	}
+	#nav .navbar-brand {
+		position: relative;
+	}
+	#nav .navbar-brand .logo-img {
+		position: absolute;
+		top: -27px;
+		left: 0;
+	}
 
 	.bg-custom {
 		background-color: #272662 !important;
  	}
-	.bg-dark-custom {
-		background-color: rgba(0, 0, 0, 0.5) !important;
-	}
 
 	@media screen and (max-width: 991px) {
 		#nav .btn-wrap {
 			display: block;
 			width: 100%;
+		}
+
+		#nav .navbar-brand .logo-img {
+			transform: scale(0.5) translate(-100px, 0);
+			top: -60px;
 		}
 	}
 
@@ -537,6 +553,18 @@
 	}
 	.homepage .mobile-show {
 		display: none;
+	}
+	.homepage .home-btn-wrap {
+		margin-top: 40px;
+		text-align: center;
+	}
+
+	.homepage .banner-wrap {
+		position: absolute; 
+		top: 24%;
+		left: 0;
+		right: 0;
+		margin: auto;
 	}
 
 	.homepage .logo-wrap {
@@ -551,6 +579,12 @@
 		height: auto;
 	} 
 
+	@media screen and (max-width: 1440px) {
+		.homepage .banner-wrap {
+			top: 17%;
+		}
+	}
+
 	@media screen and (max-width: 775px) {
 		.homepage  .logo {
 			max-width: 150px;
@@ -561,6 +595,27 @@
 		}
 		.homepage .mobile-show {
 			display: block ;
+		}
+
+		.homepage .btn-lg {
+			--bs-btn-padding-x: 0.75rem;
+    	--bs-btn-padding-y: 0.375rem;
+			--bs-btn-font-size: 1rem;
+			--bs-btn-border-radius: var(--bs-border-radius);
+		}
+
+		.homepage .banner-wrap {
+			position: relative;
+			top: 0;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.homepage .home-btn-wrap {
+			position: absolute;
+			top: 57%;
+			left: 0;
+			right: 0;
+			margin: auto;
 		}
 	}
 
@@ -596,13 +651,6 @@
 		#logo a {
 			color: inherit;
 		}
-
-	@media screen and (max-width: 920px) {
-
-		.logo-img {
-			transform: scale(0.4) translate(-220px, 0);
-		}
-	}
 
 /* Dropotron */
 
@@ -691,10 +739,10 @@
 		padding: 4em 0;
 	}
 
-		#main #content a:hover {
+		/* #main #content a:hover {
 			background: #f3e0ea;
 			cursor: pointer;
-		}
+		} */
 
 		#main #content .major, #main #sidebar .major {
 			text-align: left;
@@ -721,12 +769,12 @@
 	#footer {
 		padding: 6em 0;
 		text-align: center;
-		color: black;
-    background: linear-gradient(180deg, #FFC107 2.49%, #FFA500 28%, #F00 65.5%, #800080 100%);
+		color: #fff;
+    background: #282661;
 	}
 
 	#footer a {
-		color: #000000;
+		color: #fff;
 		text-decoration: underline;
 	}
 
