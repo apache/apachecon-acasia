@@ -102,3 +102,21 @@ sponsor_title_4:
 
 sponsor_description_4:
   other: By sponsoring CommunityOverCode Asia, you’re not just supporting the open-source community; you’re boosting your social responsibility credentials and building a positive industry reputation.  
+
+guide:
+  other: Guide
+
+visa_letter_request :
+  other: Visa Letter Request
+
+venue:
+  other: Venue
+
+about-hangzhou:
+  other: About Hangzhou
+
+getting-there:
+  other: Getting There
+
+venue_travel:
+  other: Venue + Travel
