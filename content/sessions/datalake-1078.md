@@ -13,5 +13,5 @@ This sharing mainly introduces Paimon:
 - CDC into the lake part of the column update
 - Change log stream reading in real time
  ### Speakers: 
- <img src="https://img.bagevent.com/resource/20230511/1038445730.PNG" width="200" /><br>Li Jinsong: Alibaba, Senior technical specialist, Founder of Apache Paimon, PMC member of Apache Flink, Founder of Apache Paimon, PMC member of Apache Flink, Founder of Apache Paimon, PMC member of Apache Flink, Committer of Apache Iceberg&Beam. Successively engaged in distributed flow computing, distributed batch computing, lake storage, and now focuses on the technology of flow lake storage.
+ <img src="https://img.bagevent.com/resource/20230511/1038445730.PNG" width="200" /><br>Li Jinsong: Alibaba, Senior technical specialist, PPMC Member of Apache Paimon, PMC member of Apache Flink, Committer of Apache Iceberg&Beam. Successively engaged in distributed flow computing, distributed batch computing, lake storage, and now focuses on the technology of flow lake storage.
  <br><br>
