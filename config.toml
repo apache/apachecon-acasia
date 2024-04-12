@@ -15,7 +15,7 @@ DefaultContentLanguage = "en"
 [params]
   author = "ALC-Beijing"
   description = "Welcome to CommunityOverCode (ApacheCon Asia) 2024"
-  keywords = ["CommunityOverCode","CommunityOverCodeAsia","ApacheConAsia2024"]
+  keywords = ["CommunityOverCode","CommunityOverCodeAsia","ApacheConAsia2024", "Apache 软件基金会亚洲大会 2024"]
   schedule = ["2024-07-26", "2024-07-27", "2024-07-28"]
 
 [languages.en]
