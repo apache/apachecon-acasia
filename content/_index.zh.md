@@ -1,5 +1,6 @@
 ---
-title: 二零二四年七月二十六日至二十八日 Community Over Code - ASF旗下大会 2024 亚洲大会将在杭州举行！
+title: CommunityOverCode Asia 2024 - ASF旗下大会 将于2024年7月26-28日在杭州举行
+keywords: CommunityOverCodeAsia, CommunityOverCode, ApacheCon,  CommunityOverCodeAsia2024
 ---
 
 CommunityOverCode 是 Apache 软件基金会（ASF）的官方全球系列大会，其前身为 ApacheCon。自1998 年以来，在 ASF 成立之前，ApacheCon 已经吸引了各个层次的参与者，在 300 多个 Apache 项目及其不同的社区中探索 "明天的技术"。CommunityOverCode 通过动手实作、主题演讲、实际案例研究、培训、黑客松活动等方式，展示 Apache 项目的最新发展和新兴创新。
