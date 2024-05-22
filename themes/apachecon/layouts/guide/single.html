@@ -41,7 +41,6 @@
                             {{ else }}
                             {{ $url = printf "/zh%s" $guide.url }}
                             {{ end }}
-
                             <li class="nav-item">
                                 <a href="{{ $url }}" class="nav-link {{ if eq $currentUrl $url }} active{{ end }}"
                                     aria-current="true">

@@ -109,6 +109,9 @@ guide:
 visa_letter_request :
   other: Visa Letter Request
 
+accessibility:
+  other: Accessibility  
+
 venue:
   other: Venue
 
