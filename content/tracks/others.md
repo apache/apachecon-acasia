@@ -1,6 +1,6 @@
 ---
 title: General
-trackchairs: "Yu Xiao"
+trackchairs: "Willem Jiang"
 ---
 
 The General track of Community Over Code.

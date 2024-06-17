@@ -1,6 +1,6 @@
 ---
 title: AI / machine learning
-trackchairs: "Jerry Tan"
+trackchairs: "Jerry Tan, junping Du, Gabriel Wang"
 ---
 
 Machine learning (ML) is the study of computer algorithms that can improve automatically through experience and by the use of data. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so.
