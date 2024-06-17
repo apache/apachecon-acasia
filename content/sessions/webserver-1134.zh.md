@@ -1,5 +1,5 @@
 ---
-title: "Dubbo's gateway - Dubbo Go Pixiu""
+title: "Dubbo's gateway - Dubbo Go Pixiu"
 date: "2024-07-28 14:30:00" 
 track: "webserver"
 presenters: "Mengchao lv"
