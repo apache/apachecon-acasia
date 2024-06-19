@@ -113,6 +113,12 @@ accessibility:
 visa_letter_request :
   other: 申请签证
 
+presentation_slides_template:
+  other: 下载演示文档模板
+
+convince_your_boss:
+  other: 向您所在公司阐述参会价值
+
 venue:
   other: 会场
 

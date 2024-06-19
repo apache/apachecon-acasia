@@ -110,7 +110,14 @@ visa_letter_request :
   other: Visa Letter Request
 
 accessibility:
-  other: Accessibility  
+  other: Accessibility 
+
+presentation_slides_template:
+  other: Presentation Slides Template
+
+convince_your_boss:
+  other: Convince Your Boss
+
 
 venue:
   other: Venue

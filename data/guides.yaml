@@ -3,3 +3,9 @@
 
 - name: accessibility
   url: /guide/accessibility.html
+
+- name: presentation_slides_template
+  url: /guide/presentation_slides_template.html
+
+- name: convince_your_boss
+  url: /guide/convince_your_boss.html  
