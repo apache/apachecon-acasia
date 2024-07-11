@@ -14,7 +14,7 @@ weight: 20
   </div>
 </div>
 
-The [Zheda Yuanzheng Forest Hotel](https://www.trip.com/hotels/hangzhou-hotel-detail-83055190/zheda-yuanzheng-forest-hotel/), located on the south side of the Yuquan Building (Building A), in the Zhejiang University Forest Park, Hangzhou City, Zhejiang Province, leverages the talent construction and innovation ecosystem resources of Zhejiang University. It is a comprehensive facility that combines conference, hotel, and leisure services. Nestled against the mountains and near water, the center boasts a beautiful environment, making it an ideal location for academic exchanges, seminars, corporate training, and various conferences.
+The [ZJU Forest Conference Center](https://www.amap.com/place/B0H1BUZSBR), located on the south side of the Yuquan Building (Building A), in the Zhejiang University Forest Park, Hangzhou City, Zhejiang Province, leverages the talent construction and innovation ecosystem resources of Zhejiang University. It is a comprehensive facility that combines conference, hotel, and leisure services. Nestled against the mountains and near water, the center boasts a beautiful environment, making it an ideal location for academic exchanges, seminars, corporate training, and various conferences.
 Given its location in Hangzhou, attendees can also enjoy the natural beauty and rich cultural heritage of the city, including famous attractions like West Lake and Lingyin Temple.
 
 ### About Hangzhou
