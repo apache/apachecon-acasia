@@ -1,42 +1,83 @@
-<div class="sponsor"> 
-  <div class="container">
-    <div class="row justify-content-center">
-      
-      {{ $array := slice "1" "2" "3" "4" }}
-      {{ range $index, $element := $array }}
-      <div class="col col-md-12 col-lg-8">
-        <div class="card border-0 mb-3">
-          <div class="card-body d-flex">
-            <div class="icon me-4">✅</div>
-            <div>
-              <h5>{{ i18n (printf "sponsor_title_%s" $element) }}</h5>
-              <p class="mb-0">{{ i18n (printf "sponsor_description_%s" $element) }}</p>
-            </div>
-          </div>
-        </div>
+<section class="sponsorship">
+  <dl>
+    <dt>{{ i18n "sponsorship_platinum" }}</dt>
+    <dd class="platinum">
+      <div class="img-wrap">
+        <img src="images/logo/logo-Aliyun.png" alt="AliCloud" />
       </div>
-      {{ end }}
-    </div>
-
-    <!-- disable the prospectus download-->
-    <!--div class="text-center mt-3 pt-3">
-      <a href="pdf/CoC_Asia_2024_Prospectus.pdf" role="button" class="btn btn-lg btn-warning" download>{{ i18n "sponsor-download" }}</a>
-    </div-->
-  </div>
-</div>
+      <div class="img-wrap">
+        <img src="images/logo/logo-AntOpenSource.png" alt="AntOpenSource" />
+      </div>
+      <div class="img-wrap">
+        <img src="images/logo/logo-ByteDanceOpenSource.jpg" alt="ByteDanceOpenSource" />
+      </div>
+    </dd>
+  </dl>
+  <dl>
+    <dt>{{ i18n "sponsorship_gold" }}</dt>
+    <dd>
+      <div class="img-wrap">
+        <img src="images/logo/logo-SelectDB.png" alt="SelectDB" />
+      </div>
+      <div class="img-wrap">
+        <img src="images/logo/logo-Openbayes.png" alt="Openbayes" />
+      </div>
+      <div class="img-wrap">
+        <img src="images/logo/logo-Mi.jpg" alt="Mi" />
+      </div>
+    </dd>
+  </dl>
+  <dl>
+    <dt>{{ i18n "sponsorship_silver" }}</dt>
+    <dd>
+      <div class="img-wrap">
+        <img src="images/logo/BAIDU.png" alt="BaiDu" />
+      </div>
+    </dd>
+  </dl>
+  <dl>
+    <dt>{{ i18n "sponsorship_community" }}</dt>
+    <dd>
+      <div class="img-wrap">
+        <img src="images/logo/logo-sf.png" alt="SegmentFault" />
+      </div>
+    </dd>
+  </dl>
+</section>
 <style>
-  .sponsor {
-    background-color: #f8f9fa;
+  .sponsorship dl {
+    max-width: 860px;
+    margin: 0 auto;
   }
-  .sponsor .icon {
-    line-height: 1.5;
+
+  .sponsorship dl dd {
+    min-height: unset !important;
   }
-  @media screen and (max-width: 775px) {
-    .sponsor .btn-lg {
-      --bs-btn-padding-x: 0.75rem;
-      --bs-btn-padding-y: 0.375rem;
-      --bs-btn-font-size: 1rem;
-      --bs-btn-border-radius: var(--bs-border-radius);
-    }
+
+  .sponsorship dl dd img {
+    max-height: 38px !important;
+    max-width: 138px !important;
+    object-fit: contain;
+    width: auto;
+    height: auto;
+
+  }
+
+  .sponsorship dl dd {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sponsorship dl dd .img-wrap {
+    width: 162px;
+    height: 62px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    margin-bottom: 16px;
   }
 </style>
