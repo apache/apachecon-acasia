@@ -7,6 +7,24 @@ tracks:
 translation:
   other: 中文
 
+organizer:
+  other: Organizer
+
+sponsorship_community:
+  other: Strategic Community
+
+sponsorship_power:
+  other: Power Bank Special Partner
+
+sponsorship_coffee:
+  other: Coffee Special Partner
+
+sponsorship_special:
+  other: Translation Special Partner
+
+sponsorship_market:
+  other: Open Source Market Community
+
 sponsorship_strategy:
   other: Strategic
 

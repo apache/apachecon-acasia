@@ -7,6 +7,24 @@ track:
 translation:
   other: English
 
+organizer:
+  other: 主办方
+
+sponsorship_community:
+  other: 战略合作社区
+
+sponsorship_coffee:
+  other: 咖啡特约合作伙伴
+
+sponsorship_power:
+  other: 充电宝特约合作伙伴
+
+sponsorship_special:
+  other: 翻译特约合作伙伴
+
+sponsorship_market:
+  other: 开源市集合作社区
+
 sponsorship_strategy:
   other: 战略赞助
 
