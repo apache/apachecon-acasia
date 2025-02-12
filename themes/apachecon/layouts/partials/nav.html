@@ -1,12 +1,12 @@
 
-<nav id="nav" class="navbar navbar-dark navbar-expand-lg bg-transparent">
+<nav id="nav" class="navbar navbar-expand-lg bg-transparent">
   <div class="container py-1">
     <div class="btn-wrap d-flex align-items-center justify-content-between">
         {{ if .IsHome }}
             <div class="navbar-brand">&nbsp;</div>
         {{ else}}
             <a href="index.html" class="navbar-brand">
-                <img class="logo-img" src="images/cocasia2024-logo.png" height="120" width="200px" ALIGN=CENTER>
+                <img class="logo-img" src="images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
             </a>
         {{end}}
          <button
@@ -43,7 +43,7 @@
                 {{ end}}
             {{ end }}
             <!-- <div class="ms-0 ms-lg-4">
-                <a href="{{ if .IsHome }}#register{{else}}index.html#register{{end}}" role="button" class="btn btn-warning">
+                <a href="{{ if eq .Site.Language.Lang "zh" }}/zh/{{end}}{{ if .IsHome }}#register{{else}}index.html#register{{end}}" role="button" class="btn btn-warning">
                     {{ i18n "register" }}
                 </a>
             </div> -->

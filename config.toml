@@ -1,6 +1,6 @@
 # set the baseURL for CI verification
 baseURL = "/"
-title = "CommunityOverCode Asia 2024"
+title = "CommunityOverCode Asia 2025"
 theme = "apachecon"
 # When enabled, creates URL of the form /filename.html instead of /filename/.
 uglyURLs = true
@@ -14,9 +14,9 @@ DefaultContentLanguage = "en"
 
 [params]
   author = "ALC-Beijing"
-  description = "Welcome to CommunityOverCode (ApacheCon Asia) 2024"
-  keywords = ["CommunityOverCode","CommunityOverCodeAsia","ApacheConAsia2024", "Apache 软件基金会亚洲大会 2024"]
-  schedule = ["2024-07-26", "2024-07-27", "2024-07-28"]
+  description = "Welcome to CommunityOverCode (ApacheCon Asia) 2025"
+  keywords = ["CommunityOverCode","CommunityOverCodeAsia","ApacheConAsia2025", "Apache 软件基金会亚洲大会 2025"]
+  schedule = ["2025-07-25", "2025-07-26", "2025-07-27"]
 
 [languages.en]
 languageName = "English"
@@ -32,25 +32,25 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 unsafe = true
 
 # menu for en (final list includes translated pages from /content)
-[[languages.en.menu.main]]
-name = "Guide"
-url = "/guide/visa_letter_request.html"
-weight = 3
+# [[languages.en.menu.main]]
+# name = "Guide"
+# url = "/guide/visa_letter_request.html"
+# weight = 3
 
-[[languages.en.menu.main]]
-name = "Venue + Travel"
-url = "/venue_travel/venue.html"
-weight = 4
+# [[languages.en.menu.main]]
+# name = "Venue + Travel"
+# url = "/venue_travel/venue.html"
+# weight = 4
 
 
 # menu for ZH language (final list includes translated pages from /content)
 
-[[languages.zh.menu.main]]
-name = "参会指南"
-url = "/zh/guide/visa_letter_request.html"
-weight = 3
+# [[languages.zh.menu.main]]
+# name = "参会指南"
+# url = "/zh/guide/visa_letter_request.html"
+# weight = 3
 
-[[languages.zh.menu.main]]
-name = "会场 + 旅行"
-url = "/zh/venue_travel/venue.html"
-weight = 4
+# [[languages.zh.menu.main]]
+# name = "会场 + 旅行"
+# url = "/zh/venue_travel/venue.html"
+# weight = 4

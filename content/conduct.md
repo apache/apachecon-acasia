@@ -1,8 +1,8 @@
 ---
 title: Code of Conduct
-menu:
-   main:
-      weight: 20          
+# menu:
+#    main:
+#       weight: 20          
 ---
 At the Apache Software Foundation, all online interactions are governed by the [ASF Code of Conduct](http://apache.org/foundation/policies/conduct.html), while in-person events are subject to the [Anti-Harassment Policy](http://apache.org/foundation/policies/anti-harassment.html).
 

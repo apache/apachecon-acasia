@@ -1,8 +1,8 @@
 ---
 title: 行为准则
-menu:
-   main:
-      weight: 20       
+# menu:
+#    main:
+#       weight: 20       
 ---
 在Apache软件基金会，所有在线互动均受[ASF行为准则](http://apache.org/foundation/policies/conduct.html)的管辖，而面对面的活动则受[反骚扰政策](http://apache.org/foundation/policies/anti-harassment.html)。
 

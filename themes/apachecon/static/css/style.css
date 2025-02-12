@@ -503,7 +503,7 @@
 	#header {
 		color: white;
 		min-height: 4em;
-		background-image: url(../images/cocasia2024-nav-bg.jpg);
+		background-image: url(../images/2025-nav-bg.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -537,7 +537,7 @@
 	}
 
 	.bg-custom {
-		background-color: #272662 !important;
+		background-color: #5accff !important;
  	}
 
 	@media screen and (max-width: 991px) {
@@ -565,10 +565,11 @@
 
 	.homepage .banner-wrap {
 		position: absolute; 
-		top: 24%;
+		top: 25%;
 		left: 0;
 		right: 0;
 		margin: auto;
+		padding: 0 50px;
 	}
 
 	.homepage .logo-wrap {
@@ -584,6 +585,9 @@
 	} 
 
 	@media screen and (max-width: 1440px) {
+		.homepage  .logo {
+			max-width: 121px;
+		}
 		.homepage .banner-wrap {
 			top: 17%;
 		}
