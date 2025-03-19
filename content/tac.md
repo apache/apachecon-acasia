@@ -12,4 +12,4 @@ Those who are thinking of applying for financial assistance should know that [th
 
 **Please read [entire page](https://tac.apache.org/) BEFORE applying for assistance.**
 
-[Apply travel assistance for CommunityOverCode Asia 2024!](https://tac-apply.apache.org/)
+[Apply travel assistance for Community Over Code Asia 2024!](https://tac-apply.apache.org/)

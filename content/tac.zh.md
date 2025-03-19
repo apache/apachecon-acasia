@@ -12,4 +12,4 @@ Apache软件基金会 [旅行资助委员会（Travel Assistance Committee，TAC
 
 **在申请旅行资助之前，请仔细阅读[整个旅行赞助说明页面](https://tac.apache.org/)。**
 
-[申请CommunityOverCode Asia 2024旅行资助！](https://tac-apply.apache.org/)
+[申请 Community Over Code Asia 2024旅行资助！](https://tac-apply.apache.org/)
