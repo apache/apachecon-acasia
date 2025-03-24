@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Seata&#39;s Cloud-Native Evolution: A Roadmap from Deployment to Future Possibilities - CommunityOverCode Asia 2024 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src *;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Seata&#39;s Cloud-Native Evolution: A Roadmap from Deployment to Future Possibilities'/>
+    <meta property='og:url' content='https://asia.communityovercode.org/2024'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/2024"/>
+    
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="/2024/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/2024/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/2024/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/2024/scss/acasia2021.min.4d8823c67361eb6bcc127980e7d7abc34545374e41cd842aa752bfe6650f31b4.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    
+    
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+    
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    
+<div id="header">
+    <div class="container">
+        
+        
+<nav id="nav" class="navbar navbar-dark navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="/2024/images/cocasia2024-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/schedule.html" class="nav-link">Schedule</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/sponsor.html" class="nav-link">Sponsor</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/guide/visa_letter_request.html" class="nav-link">Guide</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/venue_travel/venue.html" class="nav-link">Venue &#43; Travel</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/conduct.html" class="nav-link">Code of Conduct</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/2024/zh/sessions/cloudnative-1009.html" class="nav-link" >中文</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+</div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3>Seata&#39;s Cloud-Native Evolution: A Roadmap from Deployment to Future Possibilities</h3>
+                    <h4>Xiangkun Yi</h4>
+                    Chinese Session  2024-07-28 15:00 GMT&#43;8&nbsp;
+                    
+                    <a class="label" href="/2024/tracks/cloudnative.html">#cloudnative</a></li>
+                </header>
+
+                <p>The evolution from monolithic architecture to microservices, and from standalone databases to distributed database systems, has become an undisputed reality in modern service delivery. Applications are now broken down into multiple independently deployable services, necessitating remote collaboration among services to complete transactions. This shift introduces complexity in distributed transaction management, requiring solutions that are not only efficient but also adaptable to the ever-changing cloud-native environment.</p>
+<p>The discussion will include how Seata is stepping into Seata 2.0 by adapting to the cloud-native trends. Particularly, the introduction of the Raft consensus mechanism for storing transaction metadata allows for distributed transaction processing without relying on traditional databases and message queues, using file storage and inter-cluster consistency instead. Additionally, the use of Seata&rsquo;s K8s Operator as a means of managing and automating Seata service deployments underscores Seata 2.0&rsquo;s cloud-native adaptability.</p>
+<p>Looking ahead, the presentation will explore Seata&rsquo;s further work in the cloud-native domain, including managing cluster configurations through a console and enhancing cluster operations with the expansion of seata-ctl. This represents a key step towards a comprehensive cloud-native distributed transaction management solution. This talk will not only showcase Seata&rsquo;s current achievements but also provide a clear roadmap for its development, illustrating how it adapts to and leads the future trends in microservice architecture.</p>
+<h3 id="speakers">Speakers:</h3>
+<p><img src="https://sessionize.com/image/91bb-400o400o1-nKKKZUWXVJ5XYnXihK1tQW.jpg" width="200" /><br>Xiangkun Yi: Tsinghua University,, I&rsquo;m Xiangkun Yin, and I am currently a Master&rsquo;s student specializing in Software Engineering at Tsinghua University. With a keen interest in open-source projects, I&rsquo;ve actively contributed to several communities, and have recently been honored with the Committer role in Apache Seata (Incubating). Within Seata, I have made some major contributions, leading several key projects, such as the Seata operator, the frontend designer, seata-go Saga implementation.
+<br><br></p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="/2024/images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="/2024/images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="/2024/images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>CommunityOverCode operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2024, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>云中事件驱动集成技术的最佳实践 - CommunityOverCode Asia 2024 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src *;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='云中事件驱动集成技术的最佳实践'/>
+    <meta property='og:url' content='https://asia.communityovercode.org/2024'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/2024"/>
+    
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="/2024/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/2024/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/2024/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/2024/scss/acasia2021.min.4d8823c67361eb6bcc127980e7d7abc34545374e41cd842aa752bfe6650f31b4.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    
+    
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+    
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    
+<div id="header">
+    <div class="container">
+        
+        
+<nav id="nav" class="navbar navbar-dark navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="/2024/images/cocasia2024-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/index.html">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/schedule.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/sponsor.html" class="nav-link">会议赞助</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/conduct.html" class="nav-link">行为准则</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/2024/sessions/others-1117.html" class="nav-link" >English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+</div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3>云中事件驱动集成技术的最佳实践</h3>
+                    <h4>武晓慧, Alan Liu</h4>
+                    中文演讲  2024-07-26 17:15 GMT&#43;8&nbsp;
+                    
+                    <a class="label" href="/2024/zh/tracks/others.html">#others</a></li>
+                </header>
+
+                <p>在过去十年中，用户对现代应用程序的需求发生了重大变化。用户希望应用程序能够实时地处理和响应他们的需求，并且始终可用。此外，应用程序还面临着从客户机到服务器传输的前所未有的数据量，包括实时数据、云计算事件、来自分布式业务系统的消息以及来自大数据源的海量数据。用户还希望新的应用程序能够快速开发和部署，并结合敏捷方法和DevOps实践。这使得开发人员使用合适的体系结构进行发展和迭代，以实现最终应用程序的快速开发和部署。</p>
+<p>在当前Kubernetes容器开发的浪潮中，挑战在于如何有效地实现企业微服务应用程序。这包括引导企业及其最终用户将传统应用程序实践转变为事件驱动的微服务应用程序。我们将用真实的环境用户用例来说明我们的最佳实践，这些用例基于我们在该领域的世界级产品经验。包括如何从一开始就设计，主要利用kubertes平台能力，结合最新的上游项目Camel-K作为集成框架，集成现有的数据和系统，结合云原生无服务器架构、Kafka和消息中间件平台，以及采用capture data Change技术实现基于流的数据驱动架构和应用。这种方法旨在解决客户的痛点，并最终实现业务的稳定性和敏捷性。</p>
+<h3 id="speakers">Speakers:</h3>
+<p><img src="https://sessionize.com/image/e988-400o400o1-HeJc6unYc27myQAbSfqTs3.jpg" width="200" /><br>武晓慧: Redhat首席软件维护工程师, 吴晓辉，在红帽担任首席软件维护工程师，为客户提供支持，主要关注云原生开发，消息传递，集成领域。
+<br><br><img src="https://sessionize.com/image/9817-400o400o1-hQ99g9187n5ER31PcjX8u8.jpg" width="200" /><br>Alan Liu: Redhat高级解决方案架构师, 在企业级软件和Web分布式系统方面有超过16年的经验，专注于开源云计算、容器、云原生和Devops自动化，
+·过程，负责产品的定义、设计、实施、测试和发布
+•拥有Red Hat RHCA、CloudNative-Developer Openshift Microservice、AMQ.等技术认证
+·在VMware、SAP、Adobe等多家国外知名公司担任技术团队负责人
+·《企业开源实践之旅》、《开发云原生事件驱动应用》作者
+<br><br></p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="/2024/images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="/2024/images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="/2024/images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>CommunityOverCode operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2024, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

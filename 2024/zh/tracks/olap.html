@@ -1,0 +1,1833 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>OLAP &amp; Data Analysis - CommunityOverCode Asia 2024 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src *;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='OLAP &amp; Data Analysis'/>
+    <meta property='og:url' content='https://asia.communityovercode.org/2024'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/2024"/>
+    
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="/2024/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/2024/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/2024/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/2024/scss/acasia2021.min.4d8823c67361eb6bcc127980e7d7abc34545374e41cd842aa752bfe6650f31b4.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    
+    
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+    
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    
+<div id="header">
+    <div class="container">
+        
+        
+<nav id="nav" class="navbar navbar-dark navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="/2024/images/cocasia2024-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/index.html">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/schedule.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/sponsor.html" class="nav-link">会议赞助</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/conduct.html" class="nav-link">行为准则</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/2024/tracks/olap.html" class="nav-link" >English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+</div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section class="session">
+                <header class="major">
+                    <h2 class="text-center">OLAP &amp; Data Analysis</h2>
+                    <hr></hr>
+                    <h3>出品人 : 陈明雨, 鲁志敬, 王殿进</h3>
+                </header>
+
+                <article><p>随着大数据时代的到来，数据分析和OLAP技术在企业中的应用也越来越广泛。为了促进业界在这一领域的交流和分享，我们设立了OLAP和数据分析专场。我们希望邀请业内的专家和学者分享他们在数据分析和OLAP技术方面的研究成果、实践经验和最新发展。</p>
+<p>在ASF，有各种关于OLAP和数据分析的项目，例如： Apache Doris, Apache Druid, Apache Kylin, Apache Pinot, Apache Hawq等。</p>
+<p>该主题可以涵盖数据分析和OLAP技术的研究进展、应用案例、最佳实践、性能优化等方面。我们相信，这将给与会者带来极大的好处。</p>
+</article>
+                
+                 
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                    <dl>
+                      <dt class="session-date" style="float: left;"><h3 class="lh-2em">2024-07-26</h3></dt>
+                      <dd class="session-list">
+                        
+                        <p>
+                            
+                            <span>14:00 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1095.html" title="Apache Doris用于高效的半结构化数据分析">Apache Doris用于高效的半结构化数据分析</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Kang Xiao </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>14:30 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1096.html" title="Apache面筋(孵化):用原生引擎提升Apache Spark性能">Apache面筋(孵化):用原生引擎提升Apache Spark性能</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Weiting Chen,Lu Cao </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>15:00 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1097.html" title="Apache Kylin: 5.0新功能介绍">Apache Kylin: 5.0新功能介绍</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Lu Cao,Zhan Pengfei </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>15:45 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1098.html" title="Apache Doris在邮储银行的应用与探索">Apache Doris在邮储银行的应用与探索</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Cun Liu </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>16:15 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1099.html" title="使用Apache方解石更好地评估Text2SQL">使用Apache方解石更好地评估Text2SQL</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Jiajun Xie </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>16:45 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1100.html" title="从Elasticsearch到Apache Doris:实时分析和统一日志检索，财务实践">从Elasticsearch到Apache Doris:实时分析和统一日志检索，财务实践</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Jianqun liu </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>17:15 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1101.html" title="Impala 4.4:一个更智能的查询引擎">Impala 4.4:一个更智能的查询引擎</a>
+                            <sub>英文演讲</sub>
+                            
+                            <span> Quanlong Huang,Manish Maheshwari </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           </dl>
+                           
+                    <dl>
+                      <dt class="session-date" style="float: left;"><h3 class="lh-2em">2024-07-27</h3></dt>
+                      <dd class="session-list">
+                        
+                        <p>
+                            
+                            <span>14:00 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1102.html" title="Apache多丽丝存储和计算分离">Apache多丽丝存储和计算分离</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Gavin Chou </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>14:30 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1103.html" title="在AntGroup优化Apache HoraeDB的高基数指标">在AntGroup优化Apache HoraeDB的高基数指标</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Jiacai Liu,Chunshao Ren </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>15:00 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1104.html" title="在智能运维行业对Apache Echart的应用与挑战">在智能运维行业对Apache Echart的应用与挑战</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> 王海虎 </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>15:45 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1105.html" title="用于Spark优化的文件运行时统计">用于Spark优化的文件运行时统计</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Zhengjie He </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>16:15 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1106.html" title="阿帕奇·多丽丝在财通证券的实践">阿帕奇·多丽丝在财通证券的实践</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Asher Wang </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>16:45 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1107.html" title="Apache Kyuubi在小米OLAP系统中的深度实现">Apache Kyuubi在小米OLAP系统中的深度实现</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Yaodong Zhang </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>17:15 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1108.html" title="Apache Linkis在长桥证券的应用与实践">Apache Linkis在长桥证券的应用与实践</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Hanmin Du </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           </dl>
+                           
+                    <dl>
+                      <dt class="session-date" style="float: left;"><h3 class="lh-2em">2024-07-28</h3></dt>
+                      <dd class="session-list">
+                        
+                        <p>
+                            
+                            <span>14:00 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1109.html" title="集成Apache Celeborn和Apache麸质云原生Shuffle">集成Apache Celeborn和Apache麸质云原生Shuffle</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Weiting Chen,Kai Zhang </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>14:30 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1110.html" title="美团的Apache Spark和Apache Gluten之旅">美团的Apache Spark和Apache Gluten之旅</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Weiting Chen,Xianghao Lu </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>15:00 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1111.html" title="Apache Druid在K8s架构上的多级HA">Apache Druid在K8s架构上的多级HA</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Benedict Jin </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>16:15 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1112.html" title="在Elasticsearch中使用Apache Calcite支持Sql">在Elasticsearch中使用Apache Calcite支持Sql</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> 文炫达 </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            <span>16:45 GMT&#43;8</span>
+                            <a href="/2024/zh/sessions/olap-1113.html" title="异步物化视图的应用和技术原理">异步物化视图的应用和技术原理</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Si Wu </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                    </dd>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    </dd>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    </dd>
+
+
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="/2024/images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="/2024/images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="/2024/images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>CommunityOverCode operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2024, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+
+</body>
+</html>

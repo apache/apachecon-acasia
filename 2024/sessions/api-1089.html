@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Exploring next stop of microservices, Koupleless modular development framework and serving system - CommunityOverCode Asia 2024 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src *;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Exploring next stop of microservices, Koupleless modular development framework and serving system'/>
+    <meta property='og:url' content='https://asia.communityovercode.org/2024'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/2024"/>
+    
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="/2024/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/2024/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/2024/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/2024/scss/acasia2021.min.4d8823c67361eb6bcc127980e7d7abc34545374e41cd842aa752bfe6650f31b4.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    
+    
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+    
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    
+<div id="header">
+    <div class="container">
+        
+        
+<nav id="nav" class="navbar navbar-dark navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="/2024/images/cocasia2024-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/schedule.html" class="nav-link">Schedule</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/sponsor.html" class="nav-link">Sponsor</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/guide/visa_letter_request.html" class="nav-link">Guide</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/venue_travel/venue.html" class="nav-link">Venue &#43; Travel</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/conduct.html" class="nav-link">Code of Conduct</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/2024/zh/sessions/api-1089.html" class="nav-link" >中文</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+</div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3>Exploring next stop of microservices, Koupleless modular development framework and serving system</h3>
+                    <h4>Zhao Zhenling</h4>
+                    Chinese Session  2024-07-26 14:30 GMT&#43;8&nbsp;
+                    
+                    <a class="label" href="/2024/tracks/api.html">#api</a></li>
+                </header>
+
+                <p>The development of microservices has greatly solved the issue of organizational specialization. However, it has also introduced some challenges:</p>
+<ol>
+<li>Business developers need to be aware of complex infrastructure, leading to slow start-ups and low development efficiency.</li>
+<li>There is no standard for microservices decomposition. Insufficient decomposition may lead to collaboration blockers among team members, while over-decomposition may lead to resource usage and long-term maintenance cost issues.</li>
+<li>How to establish a rational standard for microservice decomposition to fundamentally avoid issues of under- or over-decomposition?</li>
+</ol>
+<p>After researching these pain points, the Middleware Team at Ant Group has designed an upgrade to the traditional microservice decomposition model that addresses infrastructure abstraction and refines development and operation granularity. Unlike traditional microservices that only undergo horizontal decomposition, this upgraded model includes both vertical and horizontal divisions. It divides vertically into bases and modules, so modules do not consume extra machine capacity (saving resources), and module developers only focus on their business logic (low cognitive load). Horizontally, it decomposes into multiple modules, allowing developers to iterate independently without interference (high collaboration efficiency).</p>
+<p>This new architectural model has been adopted by all BGs within Ant Group, integrating 700k core applications. With this new model, build sizes have been reduced from gigabytes to megabytes, business startup times have decreased to seconds, and iteration efficiency has been greatly improved, earning recognition and praise from business teams.</p>
+<p>Speech Outline:</p>
+<ol>
+<li>Background of microservices and application development at Ant Group.</li>
+<li>Solutions and outcomes of the Koupleless development framework.</li>
+<li>Introduction to the Koupleless operation scheduling platform.</li>
+<li>The full capabilities required by this model.</li>
+<li>The advantages and disadvantages of this model, and how to balance them.</li>
+<li>Practical experience and case study outcomes.</li>
+<li>Summary and future outlook.</li>
+</ol>
+<p>What you&rsquo;ll gain:</p>
+<ol>
+<li>Insights into Ant Group&rsquo;s cutting-edge technology and achievements in microservices and application development.</li>
+<li>New perspectives on rational microservice decomposition, addressing issues from over-decomposition or lack thereof, while also avoiding the additional overhead of microservices. You can also adopt Koupleless to help your enterprise significantly cut costs and boost efficiency.</li>
+<li>Understanding how the new model balances pros and cons, finding the optimal balance between isolation and sharing to solve current issues.</li>
+<li>Awareness of the current status and challenges of this new model within the industry, as well as future prospects.</li>
+</ol>
+<h3 id="speakers">Speakers:</h3>
+<p><img src="https://sessionize.com/image/349c-400o400o1-np4rx9ZwZDXWyvBTFsqANz.png" width="200" /><br>Zhao Zhenling: nan, Technical Expert in AntGroup, Experienced in the fields of Microservices, Serverless and Cloud-Native domains, I have eight years of experience in internet technology development, primarily focusing on Microservices, Serverless and Cloud-Native domains. I joined Ant Group in 2018, responsible for building PaaS/Serverless and Auto-Scaling based on K8s Deployment. Currently, I am mainly in charge of designing and building modular development framework and building it&rsquo;s platform Serverless-related works, this had been Ant Group&rsquo;s new application and devops architecture, which is widely used in Ant Group&rsquo;s applications with 700k core machines, and also received the 2022 Cloud Native Technology Innovation Award from the China Academy of Information and Communications Technology.<em>x000D</em>
+<em>x000D</em>
+Additionally, I am also a developer and maintainer for the SOFAArk community and a contributor to the KNative community.
+<br><br></p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="/2024/images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="/2024/images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="/2024/images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>CommunityOverCode operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2024, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

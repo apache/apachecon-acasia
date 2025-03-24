@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>在智能运维行业对Apache Echart的应用与挑战 - CommunityOverCode Asia 2024 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src *;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='在智能运维行业对Apache Echart的应用与挑战'/>
+    <meta property='og:url' content='https://asia.communityovercode.org/2024'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/2024"/>
+    
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="/2024/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/2024/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/2024/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/2024/scss/acasia2021.min.4d8823c67361eb6bcc127980e7d7abc34545374e41cd842aa752bfe6650f31b4.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    
+    
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+    
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    
+<div id="header">
+    <div class="container">
+        
+        
+<nav id="nav" class="navbar navbar-dark navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="/2024/images/cocasia2024-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/index.html">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/schedule.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/sponsor.html" class="nav-link">会议赞助</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/conduct.html" class="nav-link">行为准则</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/2024/sessions/olap-1104.html" class="nav-link" >English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+</div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3>在智能运维行业对Apache Echart的应用与挑战</h3>
+                    <h4>王海虎</h4>
+                    中文演讲  2024-07-27 15:00 GMT&#43;8&nbsp;
+                    
+                    <a class="label" href="/2024/zh/tracks/olap.html">#olap</a></li>
+                </header>
+
+                <p>在智能运维行业对Apache Echart的应用与挑战</p>
+<ol>
+<li>运维行业简介
+A.行业简介
+B.行业特性
+c. IT资产、日志场景、告警场景、ITIL
+d.存在大量数据、强可视化诉求、深度与Echart绑定</li>
+<li>日志分析场景图表弊端展现
+A.日志存在大量数据
+B.日志数据精确到分钟级
+C.卡顿，白屏，死机场景出现</li>
+<li>过程中尝试与挑战(SSR, SVG, Canvas)
+a.通过画布方案尝试
+b.通过SVG方案尝试
+c.通过SSR方案尝试</li>
+<li>最终方案敲定（数据聚合、与切分）
+A.通过聚合数据尝试
+b.利用dataZoom配合数据切分尝试
+C.问题解决得到客户认可</li>
+</ol>
+<h3 id="speakers">Speakers:</h3>
+<p><img src="https://sessionize.com/image/cf46-400o400o1-Uyo8LLwFftA6LLq6KmvRy5.png" width="200" /><br>王海虎: 智能运维专家
+7年多开发经验。目前就职于云智慧公司，在公司内部担任数据可视化&amp;低代码专家，同时担任产品研发总监。外部担任中国信通院低代码专家,开源项目FlyFish的负责人,Cloudwise AIOps社区专家,清华Thulab的DWF项目开发者,AntV贡献者。主攻可视化，3d引擎，低代码方向。参编了多篇行业低代码的标准规范建设，有着大型智能运维平台建设经验。一直以来在可视化及运维领域方向深耕。</p>
+<p><strong>演讲方面</strong>
+参与过:中国信通院,Apache开源中国,CSDN, ITPUB, linux nextArch,又拍云等官方组织的演讲活动。
+演讲过:低代码,Devops,大数据可视化,网络应用开发,开源圆桌讨论,场景落地,应用深度探索沙龙等相关话题。
+<br><br></p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="/2024/images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="/2024/images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="/2024/images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>CommunityOverCode operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2024, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

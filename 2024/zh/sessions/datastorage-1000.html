@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>降低ByteDance中SparkSQL计算成本的优化 - CommunityOverCode Asia 2024 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src *;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='降低ByteDance中SparkSQL计算成本的优化'/>
+    <meta property='og:url' content='https://asia.communityovercode.org/2024'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/2024"/>
+    
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="/2024/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/2024/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/2024/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/2024/scss/acasia2021.min.4d8823c67361eb6bcc127980e7d7abc34545374e41cd842aa752bfe6650f31b4.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    
+    
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+    
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    
+<div id="header">
+    <div class="container">
+        
+        
+<nav id="nav" class="navbar navbar-dark navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="/2024/images/cocasia2024-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/index.html">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/schedule.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/sponsor.html" class="nav-link">会议赞助</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/conduct.html" class="nav-link">行为准则</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/2024/sessions/datastorage-1000.html" class="nav-link" >English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+</div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3>降低ByteDance中SparkSQL计算成本的优化</h3>
+                    <h4>甘红楠</h4>
+                    中文演讲  2024-07-27 14:30 GMT&#43;8&nbsp;
+                    
+                    <a class="label" href="/2024/zh/tracks/datastorage.html">#datastorage</a></li>
+                </header>
+
+                <p>字节跳动使用SparkSQL作为ETL的主要工具之一。通过对在线任务的分析，我们发现导致Spark作业性能下降的主要因素有三个:对大量数据进行变换、扫描大量小文件和低效的推测执行。对大量数据进行Shuffle处理可能会导致网络拥塞、IO瓶颈等问题，影响Shuffle服务的稳定性。读取大量小文件会增加数据传输开销和内存使用。低效的推测执行经常启动和终止备份任务，浪费集群资源并影响其他任务的调度。这些因素显著增加了计算成本。</p>
+<p>我们使用两种主要技术优化Shuffle: bucket和ZSTD Shuffle。首先，我们基于开源的SparkSQL显著增强了Bucket优化。这包括覆盖更多的Exchange消除场景、改进可用性和提高适应性。我们还构建了一个Bucket推荐系统来自动识别哪些表可以在转换为Bucket时减少Shuffle数据。在ODS场景下，推荐的Bucket优化可以减少多达99.9%的Shuffle数据，节省高达58%的计算资源。其次，我们将Shuffle数据的压缩算法从LZ4改为ZSTD，压缩比明显提高，减少了40%以上的Shuffle数据。</p>
+<p>我们设计并实现了一个基于shuffle的小文件整合功能，以防止小文件的生成，从而消除了下游任务扫描大量小文件的需要。该功能通过在写入表之前引入Shuffle并控制Shuffle并行性来实现文件整合，从而避免了二次HDFS读写操作。此外，我们利用AQE (Adaptive Query Execution)框架来优化Shuffle Read，防止数据倾斜。</p>
+<p>为了缓解投机执行效率低下造成的问题，我们首先分析了所有在线任务的配置文件，发现为投机执行而启动的大量任务最终被终止，导致相当大的集群资源浪费。随后，我们引入了Efficient Speculation optimization，根据数据处理的速度来决定是否发起投机执行，从而避免了由于数据倾斜而发起投机执行(因为投机执行无法解决这种情况)。最后，我们适当提高了投机执行的启动阈值，进一步减少了投机执行造成的计算资源浪费。优化后，推测执行任务数量减少了15%，计算资源消耗减少了9%。</p>
+<h3 id="speakers">Speakers:</h3>
+<p><img src="https://sessionize.com/image/c52a-400o400o1-fqHUaN3MbFjUnx1NxULM9c.jpg" width="200" /><br>甘红楠: 字节跳动高级研发工程师，字节跳动高级研发工程师,</p>
+<ul>
+<li>复旦大学学士、硕士学位</li>
+<li>SparkSQL内核开发者ByteDance</li>
+<li>对SQL优化感兴趣
+<br><br></li>
+</ul>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="/2024/images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="/2024/images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="/2024/images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>CommunityOverCode operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2024, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

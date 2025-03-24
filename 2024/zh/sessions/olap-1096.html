@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Apache面筋(孵化):用原生引擎提升Apache Spark性能 - CommunityOverCode Asia 2024 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src *;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Apache面筋(孵化):用原生引擎提升Apache Spark性能'/>
+    <meta property='og:url' content='https://asia.communityovercode.org/2024'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/2024"/>
+    
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="/2024/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/2024/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/2024/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/2024/scss/acasia2021.min.4d8823c67361eb6bcc127980e7d7abc34545374e41cd842aa752bfe6650f31b4.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    
+    
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+    
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    
+<div id="header">
+    <div class="container">
+        
+        
+<nav id="nav" class="navbar navbar-dark navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="/2024/images/cocasia2024-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/index.html">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/schedule.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/sponsor.html" class="nav-link">会议赞助</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/conduct.html" class="nav-link">行为准则</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/2024/sessions/olap-1096.html" class="nav-link" >English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+</div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3>Apache面筋(孵化):用原生引擎提升Apache Spark性能</h3>
+                    <h4>Weiting Chen,Lu Cao</h4>
+                    中文演讲  2024-07-26 14:30 GMT&#43;8&nbsp;
+                    
+                    <a class="label" href="/2024/zh/tracks/olap.html">#olap</a></li>
+                </header>
+
+                <p>2022年初，英特尔和Kyligence推出了继Gazelle项目之后的开源项目Gluten。Gazelle是Intel基于Apache arrow的本地SQL引擎，旨在减轻Spark SQL的处理。麸取代了Gazelle，合并了各种原生引擎，如Velox和ClickHouse，为Apache Spark用户提供了性能增强。通过将Spark与向量化SQL引擎连接起来，麸质解决了性能障碍，并利用了高级向量扩展(AVX)技术。该项目提供了面参插件、计划转换、回退处理、内存管理、Columnar Shuffle、Shim Layer和Metrics等组件，与Spark和本地库无缝集成。英特尔与Meta和Velox社区合作，通过Velox后端集成实现了高达8倍的加速。到2024年，面筋被贡献给Apache，成为Apache面筋(孵化)。Apache面筋是一个拥有活跃开发者社区的开源项目，它计划支持事务基准测试，并扩展与gpu和fpga等硬件加速器的兼容性。</p>
+<h3 id="speakers">Speakers:</h3>
+<p><img src="https://sessionize.com/image/e235-400o400o1-KjhshizwVAnsatfkEDJsxo.png" width="200" /><br>Weiting Chen: 英特尔，高级软件工程师, Weiting是英特尔数据中心和人工智能集团的高级软件工程师。他拥有十年的工作经验，专注于大数据和云解决方案。他对Spark、OpenStack等项目做出了重大贡献，最近，他还作为Apache面筋(孵化)项目的初始提交者之一。他的职责之一是利用硬件的潜力来提高大数据工作负载的性能。
+<br><br><img src="https://sessionize.com/image/b493-400o400o1-UeepFtXKMfrCdMdhveFm76.jpg" width="200" /><br>Lu Cao: 南, Kyligence，研发高级经理, Lu是Kyligence的高级研发经理，也是Apache Carbondata的提交者。他目前领导OLAP团队的前瞻性研发，专注于构建下一代OLAP分析平台。他对开源技术的研究有浓厚的兴趣，有构建企业数据平台和实时数据处理系统的经验。
+<br><br></p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="/2024/images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="/2024/images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="/2024/images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>CommunityOverCode operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2024, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

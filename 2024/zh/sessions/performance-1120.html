@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>概述的工具，技术和技巧- 扩张Ozone性能，以最大限度地利用CPU，网络和磁盘 - CommunityOverCode Asia 2024 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src *;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='概述的工具，技术和技巧- 扩张Ozone性能，以最大限度地利用CPU，网络和磁盘'/>
+    <meta property='og:url' content='https://asia.communityovercode.org/2024'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/2024"/>
+    
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="/2024/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/2024/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/2024/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/2024/scss/acasia2021.min.4d8823c67361eb6bcc127980e7d7abc34545374e41cd842aa752bfe6650f31b4.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    
+    
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+    
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    
+<div id="header">
+    <div class="container">
+        
+        
+<nav id="nav" class="navbar navbar-dark navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="/2024/images/cocasia2024-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/index.html">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/schedule.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/sponsor.html" class="nav-link">会议赞助</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/zh/conduct.html" class="nav-link">行为准则</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/2024/sessions/performance-1120.html" class="nav-link" >English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+</div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3>概述的工具，技术和技巧- 扩张Ozone性能，以最大限度地利用CPU，网络和磁盘</h3>
+                    <h4>Ritesh Shukla,Tanvi Penumudy</h4>
+                    英文演讲  2024-07-26 15:00 GMT&#43;8&nbsp;
+                    
+                    <a class="label" href="/2024/zh/tracks/performance.html">#performance</a></li>
+                </header>
+
+                <p>在过去的一年中，在增强Ozone的性能方面取得了重大进展，这是一个分布式对象存储，旨在在商用硬件上进行扩展，能够处理数十亿个文件。这些增强功能不仅确保了Ozone可以使网络饱和(前提是驱动器足够快)，而且还从单线程的角度提高了读写操作期间的性能。本演讲将深入探讨用于实现这些性能提升的各种工具和技术，重点介绍系统级的关键优化。</p>
+<p>我们将介绍的优化包括(但不限于)</p>
+<ol>
+<li>序列化和反序列化影响和优化。</li>
+<li>零拷贝缓冲区的影响:这对大数据传输特别有益，减少对系统性能的影响，提高整体效率。</li>
+<li>并发性改进:对Ratis的并发性模型的增强，实现了Raft共识算法，可以更好地利用系统资源，减少瓶颈并改善响应时间。</li>
+<li>核心系统级优化:已经实现了许多其他系统级优化，包括更有效的内存管理、优化的I/O路径和增强的错误处理机制。</li>
+</ol>
+<p>使用指标和Grafana仪表板进行性能监控</p>
+<p>我们性能增强策略的一个关键方面涉及到指标和Grafana仪表板的使用。这些工具使我们能够有效地监视整个集群的性能，并获得有助于进一步优化的见解。</p>
+<p>跨集群拼接性能:通过将来自不同节点的指标集成到一个集中的Grafana仪表板中，我们可以一目了然地查看整个集群的性能。这种整体视图有助于识别集群中的瓶颈和负载分布不均。</p>
+<p>设计有效的仪表板:有效的仪表板设计对于有效的监控至关重要。我们的重点是识别和显示指标，提供对系统性能的实时洞察，帮助我们快速做出明智的决策。
+选择正确的度量标准:选择适当的度量标准进行监视是至关重要的。我们优先考虑反映系统健康和性能的指标，例如延迟、吞吐量、错误率和资源利用率。</p>
+<p>高级诊断技术</p>
+<p>此外，我们采用先进的诊断技术来查明性能问题并优化系统行为:</p>
+<ol>
+<li>使用火焰图:火焰图对于识别热点和了解系统在不同负载条件下的行为是非常宝贵的。它们提供了进程执行的可视化堆栈跟踪，这有助于隔离性能问题和优化代码路径。</li>
+</ol>
+<p>Hadoop生态系统中的协作与创新</p>
+<p>我们的方法的一个独特优势在于我们与Hadoop生态系统的协作，特别是与HBase这样的团队的协作。这种合作促进了对双方都有利的创新</p>
+<p>Ozone和HBase:</p>
+<ol>
+<li>与HBase的集成:我们与HBase团队的合作使Ozone和HBase更好地集成在一起，使HBase能够利用Ozone的可扩展性和健壮性来进行存储管理。这种协同作用不仅提高了性能，而且增强了两个系统的功能。</li>
+<li>向上创新:Hadoop生态系统内的紧密合作使我们能够“向上”创新。通过理解和优化堆栈不同层之间的交互，我们可以引入显著提高整体系统性能和效率的改进。</li>
+</ol>
+<h3 id="speakers">Speakers:</h3>
+<p><img src="https://sessionize.com/image/8296-400o400o1-Njj22QN2B89Sv2EsqnYVby.png" width="200" /><br>:Ritesh Shukla: Cloudera，首席工程师, Ritesh是一名Apache Ozone PMC。他在分布式存储解决方案和系统方面拥有超过十年的经验。他热衷于在解决方案中选择这三者:简单、正确和高效。他目前正在研究Ozone，一个满足HDFS和S3工作负载的分布式对象存储。
+<br><br><img src="https://sessionize.com/image/0080-400o400o1-KnM7q1SWC4LLRJTzCDNQpA.jpg" width="200" /><br>Tanvi Penumudy: 南, Cloudera软件工程师2, Tanvi Penumudy是Cloudera的一名软件工程师，在过去的两年半里，他一直积极地为Apache Ozone项目做出贡献。她持有Bennett University的计算机科学与工程学士学位。
+<br><br></p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="/2024/images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="/2024/images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="/2024/images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>CommunityOverCode operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2024, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

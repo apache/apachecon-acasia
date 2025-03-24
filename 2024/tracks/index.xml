@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tracks on CommunityOverCode Asia 2024</title>
+    <link>/2024/tracks.html</link>
+    <description>Recent content in Tracks on CommunityOverCode Asia 2024</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/2024/tracks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI / machine learning</title>
+      <link>/2024/tracks/ai.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/ai.html</guid>
+      <description>Machine learning (ML) is the study of computer algorithms that can improve automatically through experience and by the use of data. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so. It has a wide range of application scenarios in industry and plays an increasingly important role.
+Three types of topics suitable for this sub forum are as follows:</description>
+    </item>
+    
+    <item>
+      <title>Cloud Native</title>
+      <link>/2024/tracks/cloudnative.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/cloudnative.html</guid>
+      <description>Apache Software Projects practice in the cloud native environment, such as K8s, service mesh, serverless(lambda). More projects are required to deploy and run on the modern infra, and leverage them. In the Cloud Native track, we are going to share the experiences how Apache&amp;rsquo;s projects resolves this complex issue. Also, what tools and methods the ASF provided today to help the users to observe and understand the distributed system.</description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>/2024/tracks/community.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/community.html</guid>
+      <description>Why ASF believes &amp;ldquo;Community over Code&amp;rdquo;? There is more to open source than just code contribution.
+The Community track covers topics such as community governance model, growing open source project communities, diversity &amp;amp; inclusion, measuring community health, community management tools and data, project roadmaps, case studies, and any other topic around sustaining open source and open source communities.
+We welcome you to share your community story with a broader audience.</description>
+    </item>
+    
+    <item>
+      <title>Data Lake &amp; Data Warehouse</title>
+      <link>/2024/tracks/datalake.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/datalake.html</guid>
+      <description>Data Lake and Data Warehouse are important solutions for storing and managing data, and they play a crucial role in data management, data analysis, and decision-making. In ASF, there are various projects about Data Lake and Data Warehouse, for example: Apache Hive, Apache Hudi, Apache Iceberg, Apache Paimon, Apache Cassandra, Apache HBase etc. In this topic, you will get the latest status of data lake and warehouse, best practices the companies use them in the production, and the roadmap of these projects.</description>
+    </item>
+    
+    <item>
+      <title>Data Storage &amp; Computing</title>
+      <link>/2024/tracks/datastorage.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/datastorage.html</guid>
+      <description>Big data is an important branch of computer science,Researches and innovations in the big data storage and computing have never stopped. Big Data is leading and changing various industries and is inseparable from our lives.
+Big Data is also a very important part of ASF. ASF has so many big data storage and computing projects, such as Apache Hadoop, Apache Spark, Apache HBase, Apache Ozone, Apache CarbonData, Apache Cassandra, Apache ZooKeeper etc.</description>
+    </item>
+    
+    <item>
+      <title>DataOps</title>
+      <link>/2024/tracks/dataops.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/dataops.html</guid>
+      <description>Introducing the DataOps Track at ApacheCon, featuring some of the most innovative and cutting-edge projects in the Apache ecosystem. This track brings together leading experts and contributors from Apache DolphinScheduler, Apache Airflow, Apache SeaTunnel, Apache Flume, Apache Sqoop, Apache Griffin, Apache Atlas and other DataOps-related projects to explore the latest advances in data operations, automation, and orchestration. Whether you&amp;rsquo;re a seasoned data professional or just getting started in the field, this track offers something for everyone, with sessions covering topics such as data pipelines, ETL, orchestration, data qulity, metadata, and more.</description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>/2024/tracks/others.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/others.html</guid>
+      <description>The General track of Community Over Code.</description>
+    </item>
+    
+    <item>
+      <title>Incubator</title>
+      <link>/2024/tracks/incubator.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/incubator.html</guid>
+      <description>The Apache Incubator offers valuable services to projects, referred to as &amp;ldquo;podlings,&amp;rdquo; seeking entry into the Apache Software Foundation (ASF). This conference track aims to provide insights and guidance on the incubator journey, enabling attendees to gain a deeper understanding of Apache&amp;rsquo;s governance and operational practices.
+Participants will learn about the process of entering the incubator and progressing towards becoming a Top-Level Project (TLP). Additionally, this track will explore strategies for building an active and diverse open-source community, while ensuring compliance with Apache&amp;rsquo;s regulations.</description>
+    </item>
+    
+    <item>
+      <title>IoT and IIoT</title>
+      <link>/2024/tracks/iot.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/iot.html</guid>
+      <description>Recent years, the emerging Internet of Things (IoT) and Industrial Internet of Things (IIoT) applications show the requirements about the embedded operation system, data collection from the side, data management both on the side and the cloud, and data analysis technologies. The Apache Software Foundation provides many related projects, like Apache IoTDB, Apache Mynewt, Apache PLC4X and Apache Streampipes to meet users&#39; requirements.
+This track will introduce the recent progress, some core technologies and the use experience of IoT related Apache projects.</description>
+    </item>
+    
+    <item>
+      <title>Keynote</title>
+      <link>/2024/tracks/keynote.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/keynote.html</guid>
+      <description>Keynote track is the main track. we invite many famous people in open source community, they will share their visions and insights about open source.</description>
+    </item>
+    
+    <item>
+      <title>Messaging</title>
+      <link>/2024/tracks/messaging.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/messaging.html</guid>
+      <description>Messaging system is used to enable communication between systems by sending messages to each other. It is used to decouple heavyweight processing, to buffer or batch work, and to smooth spiky workloads, also it can be used as the basic infrastructure for event driven and streaming systems.
+In ASF, there are various projects that provide messaging services, for example: Apache Pulsar, Apache Kafka, Apache RocketMQ, Apache ActiveMQ, Apache Inlong, etc.</description>
+    </item>
+    
+    <item>
+      <title>Monolith vs Microservice</title>
+      <link>/2024/tracks/api.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/api.html</guid>
+      <description>Microservices have become the default choice for our technology stack, and it seems that anything other than microservices is considered outdated. However, in the past two years, doubts about microservices have started to emerge, and people have begun to miss the simplicity and directness of monolithic services, avoiding the various governance costs that come with service-oriented architecture. The industry has also witnessed the emergence of new programming frameworks that provide developers with the experience and efficiency of monolithic development while retaining the flexibility, scalability, and even certain serverless characteristic</description>
+    </item>
+    
+    <item>
+      <title>OLAP &amp; Data Analysis</title>
+      <link>/2024/tracks/olap.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/olap.html</guid>
+      <description>With the advent of the big data era, the application of data analysis and OLAP technology in enterprises is becoming more and more widespread. In order to promote communication and sharing in this field in the industry, we have set up the OLAP and Data Analysis Track. We hope to invite experts and scholars in the industry to share their research results, practical experience, and latest developments in data analysis and OLAP technology.</description>
+    </item>
+    
+    <item>
+      <title>Performace</title>
+      <link>/2024/tracks/performance.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/performance.html</guid>
+      <description>Why an ApacheCon Performance Engineering Track? Because many Apache projects address domains with software performance and scalability challenges (E.g. Web, Cloud, Databases, Streaming Data, Big Data, Data Analytics, Search, Geospatial, etc), while others provide performance engineering tools (E.g. benchmarking, testing, monitoring, etc) that are widely used, so the track will provide opportunities for cross-fertilization between projects of different software categories and maturity.</description>
+    </item>
+    
+    <item>
+      <title>Streaming</title>
+      <link>/2024/tracks/streaming.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/streaming.html</guid>
+      <description>Streaming data processing is a big deal in big data these days, businesses crave ever-more timely insights into their data, and what was once a ‘batch’ mindset is quickly being replaced with stream processing. More and more companies, small and large, are rethinking their architecture with real-time context at the forefront, and starting to build their streaming platforms with powerful open source engines such as Apache Flink, Apache Spark, Apache Kafka, Apache Pulsar, Apache Storm, Apache StreamPark (incubating), Apache Paimon (incubating) etc.</description>
+    </item>
+    
+    <item>
+      <title>Web Server/Tomcat</title>
+      <link>/2024/tracks/webserver.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/tracks/webserver.html</guid>
+      <description>Web server plays a crucial role in internet era, and have demonstrated their strong vitality after years of development. These projects includes but not limited to Apache Tomcat / Apache Http Server / Apache Sling / Apache Traffic Server / Apache Traffic Control and etc.
+In this topic, you will know the latest status of web servers, best practices the companies use them in the production, and the roadmap of these projects.</description>
+    </item>
+    
+  </channel>
+</rss>

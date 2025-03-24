@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Thoughts and Practices on Storage and Computing Separation Architecture at Xiaomi - CommunityOverCode Asia 2024 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src *;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Thoughts and Practices on Storage and Computing Separation Architecture at Xiaomi'/>
+    <meta property='og:url' content='https://asia.communityovercode.org/2024'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/2024"/>
+    
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="/2024/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/2024/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/2024/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/2024/scss/acasia2021.min.4d8823c67361eb6bcc127980e7d7abc34545374e41cd842aa752bfe6650f31b4.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    
+    
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+    
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    
+<div id="header">
+    <div class="container">
+        
+        
+<nav id="nav" class="navbar navbar-dark navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="/2024/images/cocasia2024-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/schedule.html" class="nav-link">Schedule</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/sponsor.html" class="nav-link">Sponsor</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/guide/visa_letter_request.html" class="nav-link">Guide</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/venue_travel/venue.html" class="nav-link">Venue &#43; Travel</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/2024/conduct.html" class="nav-link">Code of Conduct</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/2024/zh/sessions/datastorage-1041.html" class="nav-link" >中文</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+</div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3>Thoughts and Practices on Storage and Computing Separation Architecture at Xiaomi</h3>
+                    <h4>Xing Yong</h4>
+                    Chinese Session  2024-07-26 15:45 GMT&#43;8&nbsp;
+                    
+                    <a class="label" href="/2024/tracks/datastorage.html">#datastorage</a></li>
+                </header>
+
+                <p>In order to achieve ultimate cost-effectiveness, Xiaomi has carried out multi-stage exploration and technical practice in the domain of big data storage and computing architecture.</p>
+<p>In terms of storage, we have built HDFS Tiering capabilities of object-based storage, and also implemented the storage of Apache Iceberg on the cloud; In the realm of computing, we have leveraged Yarn federation to achieve hybrid cloud scheduling, enabling us to expand our resources to include ARM-based machines and Spot instances, among other heterogeneous resources.</p>
+<p>This presentation will primarily focus on the practical implementation of the aforementioned architecture in a production environment, while showcasing the business benefits derived from the separation of storage and computing.</p>
+<p>Outline：</p>
+<ol>
+<li>Thoughts on the Separation of Storage and Computing</li>
+</ol>
+<ul>
+<li>Core Elements and Cost Model</li>
+<li>Key Challenges</li>
+</ul>
+<p>By examining the system evolutionary history of the separation of storage and computing, we can analyze the core elements of this architecture and abstract a cost model for it.
+From the architectural perspective, we can deduce the key challenges involved in implementing the separation of storage and computing, thereby identifying the key issues to be addressed, such as multi-cloud migration and scheduling, dedicated bandwidth between hybrid clouds, challenges using object storage, and unified metadata management.</p>
+<ol start="2">
+<li>Practical Implementation on the Separation of Storage and Computing</li>
+</ol>
+<ul>
+<li>HDFS Tiering Architecture</li>
+<li>Iceberg Object-based Storage Architecture</li>
+<li>Yarn Federation Hybrid Cloud Architecture</li>
+</ul>
+<p>Xiaomi has experienced a journey in storage architecture, implementing the HDFS Tiering architecture and the Iceberg object-based storage architecture. We will focus on the challenges encountered during the landing process and technical solutions. In terms of computing scheduling, we has built the hybrid cloud scheduling capabilities of Yarn, enabling the scheduling of different heterogeneous resources, including ARM-based machines, Spot instances, and elastic container instances, based on job and resource profiling.</p>
+<p>This presentation will delve into the challenges and solutions throughout this process.</p>
+<p>Benefits of the audience：</p>
+<ul>
+<li>Understanding the core elements, cost model, and key challenges on the separation of storage and computing.</li>
+<li>Insights into cloud object-based storage architecture practices based on HDFS and Iceberg.</li>
+<li>Insights into multi-cloud and hybrid cloud scheduling based on Yarn.</li>
+</ul>
+<h3 id="speakers">Speakers:</h3>
+<p><img src="https://sessionize.com/image/0d11-400o400o1-aipcfzCvzuZraw1v3xxNAN.jpg" width="200" /><br>Xing Yong: Company: Xiaomi, Title: Head of Cloud Computing Platform, Xiaomi Senior Software R&amp;D Engineer. Responsible for the development of distributed storage and computing system.
+<br><br></p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="/2024/images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="/2024/images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="/2024/images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>CommunityOverCode operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2024, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

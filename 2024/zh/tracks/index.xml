@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tracks on CommunityOverCode Asia 2024</title>
+    <link>/2024/zh/tracks.html</link>
+    <description>Recent content in Tracks on CommunityOverCode Asia 2024</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/2024/zh/tracks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DataOps</title>
+      <link>/2024/zh/tracks/dataops.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/dataops.html</guid>
+      <description>在ApacheCon的DataOps专题，该专题集中展示了Apache生态系统中一些最具创新性和尖端的项目。该专题汇聚了来自Apache DolphinScheduler、Apache Airflow、Apache SeaTunnel、Apache Flume、Apache Sqoop、Apache Griffin、Apache Atlas以及其他与DataOps相关的项目的领先专家和贡献者，探索数据操作、自动化和编排的最新进展。无论您是经验丰富的数据专业人员还是刚刚入门的新手，这个专题都为每个人提供了有价值的内容，包括数据管道、ETL、编排、数据质量、元数据等多个主题的会话。在ApacheCon上，加入我们一起深入探索DataOps领域的精彩世界。</description>
+    </item>
+    
+    <item>
+      <title>Incubator</title>
+      <link>/2024/zh/tracks/incubator.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/incubator.html</guid>
+      <description>Apache 孵化器为所有希望成为 Apache 软件基金会（ASF）项目提供帮助和服务。本会场，我们将分享与孵化器相关的经验和指导，包括 Apache 软件基金会的治理和运作风格，以及项目如何进入 ASF 孵化器并晋升为顶级项目等。此外，您还将学习到如何建立成熟、活跃和多样化的开源社区，以及如何确保项目的发展符合 Apache 软件基金会的法律法规和 Apache way 的原则等内容。</description>
+    </item>
+    
+    <item>
+      <title>Keynote</title>
+      <link>/2024/zh/tracks/keynote.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/keynote.html</guid>
+      <description>Keynote是主会场，我们邀请了各位开源大咖，来分享他们在开源社区的心得和感悟。</description>
+    </item>
+    
+    <item>
+      <title>Monolith vs Microservice</title>
+      <link>/2024/zh/tracks/api.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/api.html</guid>
+      <description>微服务一度成为我们技术选型的默认选项,似乎不是微服务的就是落后的.但在近两年开始,关于微服务的质疑开始涌现,大家开始怀念单体服务的简单直接,避免服务化后的各种治理成本。 业界也涌现出了一些全新的编程框架,让开发者具备单体开发的体验与高效,同时具备微服务部署的灵活性与伸缩性,甚至具备一定的 Serverless 特性。</description>
+    </item>
+    
+    <item>
+      <title>OLAP &amp; Data Analysis</title>
+      <link>/2024/zh/tracks/olap.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/olap.html</guid>
+      <description>随着大数据时代的到来，数据分析和OLAP技术在企业中的应用也越来越广泛。为了促进业界在这一领域的交流和分享，我们设立了OLAP和数据分析专场。我们希望邀请业内的专家和学者分享他们在数据分析和OLAP技术方面的研究成果、实践经验和最新发展。
+在ASF，有各种关于OLAP和数据分析的项目，例如： Apache Doris, Apache Druid, Apache Kylin, Apache Pinot, Apache Hawq等。
+该主题可以涵盖数据分析和OLAP技术的研究进展、应用案例、最佳实践、性能优化等方面。我们相信，这将给与会者带来极大的好处。</description>
+    </item>
+    
+    <item>
+      <title>Web Server/Tomcat</title>
+      <link>/2024/zh/tracks/webserver.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/webserver.html</guid>
+      <description>Web 服务器在互联网时代扮演了至关重要的作用，在多年的发展中依然历久弥坚，保持自己的活力，显示出其强大的生命力，这些项目包括但不限于 Apache Tomcat / Apache Http Server 为代表的 Web 服务器 ，以及 Apache Sling / Apache Traffic Server / Apache Traffic Control 等更多的生态项目。
+在这里，您将了解 Web 服务器领域的最新成果，一线大厂在生产当中的最佳实践，以及这些项目的最新发展规划。</description>
+    </item>
+    
+    <item>
+      <title>云原生</title>
+      <link>/2024/zh/tracks/cloudnative.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/cloudnative.html</guid>
+      <description>项目在云原生环境中的实践，如K8s、服务网、无服务器（lambda）。更多的项目需要在现代基础设施上部署和运行，并利用它们。 在云原生主题中，您将了解到Apache项目解决可观测性的经验分享，Apache项目会使用哪些工具和方法观测、理解分布式系统。</description>
+    </item>
+    
+    <item>
+      <title>人工智能 / 机器学习</title>
+      <link>/2024/zh/tracks/ai.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/ai.html</guid>
+      <description>机器学习（ML）是对计算机算法的研究，它可以通过经验和数据的使用来自动改进。机器学习算法基于样本数据（称为训练数据）建立模型，以便在没有明确编程的情况下进行预测或决策。它在工业中有着广泛的应用场景，并发挥着越来越重要的作用。
+适合本分论坛的三类Topic如下：
+ 聚焦于机器学习的框架和基础库项目，包括Mxnet，TVM，Mahout，singa，SystemML等 基于传统Apache大数据存储和计算项目在机器学习场景下做特定的优化的，例如Spark Mlib，FLink ML等 基于apache项目实现工业场景下的机器学习平台（例如Airflow + Kafka + Cassandra + Spark等）  </description>
+    </item>
+    
+    <item>
+      <title>开源社区</title>
+      <link>/2024/zh/tracks/community.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/community.html</guid>
+      <description>为什么 ASF 相信 &amp;ldquo;社区重于代码&amp;rdquo;？开源不仅仅是代码贡献。
+社区专场涵盖的主题包括：社区治理模式、发展开源项目社区、多样性和包容性、衡量社区健康、社区管理工具与数据、项目路线图、案例研究，以及其他任何关于开源和开源社区可持续性的主题。
+我们欢迎你与更多的人分享你的社区故事。</description>
+    </item>
+    
+    <item>
+      <title>性能</title>
+      <link>/2024/zh/tracks/performance.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/performance.html</guid>
+      <description>为什么要设立ApacheCon性能工程专题？因为许多Apache项目都是针对具有软件性能和可扩展性挑战的领域（如网络、云、数据库、流数据、大数据、数据分析、搜索、地理空间等），而其他项目则提供性能工程工具（如基准测试、测试、监控等），并被广泛使用，所以该专题将为不同软件类别和成熟度的项目之间提供交叉融合的机会。</description>
+    </item>
+    
+    <item>
+      <title>数据存储与计算</title>
+      <link>/2024/zh/tracks/datastorage.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/datastorage.html</guid>
+      <description>大数据是计算机科学的一个重要分支,大数据存储和计算领域的研究和创新从未停止。大数据正在深刻的引领和改变着各个行业，已经与我们的生活密不可分。
+大数据也是 ASF 非常重要的组成部分，ASF 有非常多的大数据存储和计算领域的项目，比如大家熟知的 Apache Hadoop, Apache Spark, Apache HBase, Apache Ozone, Apache CarbonData, Apache Cassandra, Apache ZooKeeper 等等，在这个主题中，大家会学习到这些技术的前沿趋势和来自一线用户的实践经验、原理、架构分析等精彩内容</description>
+    </item>
+    
+    <item>
+      <title>数据湖/数据仓库</title>
+      <link>/2024/zh/tracks/datalake.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/datalake.html</guid>
+      <description>数据湖和数据仓库是存储和管理数据的重要解决方案，它们在数据管理、数据分析和决策中发挥着关键作用。 在ASF，有不少是与数据湖和数据仓库有关的项目，例如： Apache Hive, Apache Hudi, Apache Iceberg, Apache Paimon, Apache Cassandra, Apache HBase等。 在这个主题中，你将得到数据湖和仓库的最新情况，公司在生产中使用它们的最佳做法，以及这些项目的路线图。</description>
+    </item>
+    
+    <item>
+      <title>流处理</title>
+      <link>/2024/zh/tracks/streaming.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/streaming.html</guid>
+      <description>流式数据处理是当今大数据领域的趋势，很多企业渴望更及时地洞察自己的数据，而曾经的“批处理”思维正迅速被流式处理所取代。越来越多的公司，无论大小，都在重新思考技术架构时把实时性作为第一考量，并开始用强大的开源引擎如Apache Flink, Apache Spark, Apache Kafka, Apache Pulsar, Apache Storm, Apache StreamPark (incubating), Apache Paimon (incubating) 等构建自己的实时计算平台。
+在该主题中，您将了解到一线大厂把这些Apache项目应用到其生产环境中的实际经验，以及这些Apache项目生态的最新发展和流计算技术未来的发展方向。</description>
+    </item>
+    
+    <item>
+      <title>消息系统</title>
+      <link>/2024/zh/tracks/messaging.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/messaging.html</guid>
+      <description>消息系统通过消息的方式实现系统之间的相互通信。它用于系统解耦、削峰填谷、数据交换等场景，同时也逐渐成为消息驱动和流系统的基础组件。
+在 Apache 基金会中， 已经有的消息系统包括：Apache Pulsar, Apache Kafka , Apache RocketMQ, Apache ActiveMQ, Apache Inlong 等等。
+在消息系统这个主题中，这些社区将分享一线的生产经验和最佳实践、交流观点和想法、并讨论消息系统的技术路线和未来的发展趋势。</description>
+    </item>
+    
+    <item>
+      <title>物联网（IoT）和工业物联网（IIoT）</title>
+      <link>/2024/zh/tracks/iot.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/iot.html</guid>
+      <description>近年来， 日渐兴起的物联网（Internet of Things）与工业物联网（Industrial Internet of Things）应用对嵌入式操作系统、边缘数据采集、边-云数据管理、数据分析提出了许多挑战。为此，Apache 软件基金会提供了如Apache IoTDB, Apache Mynewt, Apache PLC4X和Apache Streampipes等一系列IoT相关的项目。
+IoT/IIoT主题将围绕Apache软件基金会中IoT相关项目的最新进展、核心技术以及用户经验分享等话题展开研讨，致力于打造成IoT应用用户和开发者们的技术盛宴。</description>
+    </item>
+    
+    <item>
+      <title>通用</title>
+      <link>/2024/zh/tracks/others.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/tracks/others.html</guid>
+      <description>通用演讲</description>
+    </item>
+    
+  </channel>
+</rss>

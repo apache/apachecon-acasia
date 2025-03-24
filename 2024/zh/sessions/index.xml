@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sessions on CommunityOverCode Asia 2024</title>
+    <link>/2024/zh/sessions.html</link>
+    <description>Recent content in Sessions on CommunityOverCode Asia 2024</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jul 2024 17:15:00 +0000</lastBuildDate><atom:link href="/2024/zh/sessions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Nifi和Minifi的物联网用例</title>
+      <link>/2024/zh/sessions/iot-1073.html</link>
+      <pubDate>Sun, 28 Jul 2024 17:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/iot-1073.html</guid>
+      <description>介绍和重新介绍Apache Nifi和Minifi用于各种物联网数据收集和数据路由用例，并进行技术深入研究
+Speakers: Yan Liu: Cloudera, Cloudera解决方案工程。Apache Hive和Apache Flink贡献者。超过10年的大数据实践经验，我目前的重点是使用Apache Flink, Apache Hive和Apache Iceberg的实时数据仓库。 </description>
+    </item>
+    
+    <item>
+      <title>BanyanDB的新的基于列的存储引擎</title>
+      <link>/2024/zh/sessions/cloudnative-1013.html</link>
+      <pubDate>Sun, 28 Jul 2024 17:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/cloudnative-1013.html</guid>
+      <description>在本次会议中，我将介绍BanyanDB最新的基于列的存储引擎。这种先进的技术旨在提高内存效率，需要更少的存储，并减少与管理可观察性数据相关的开销。
+引入这个新引擎是我们有效和高效地处理大量数据的能力的重大突破。我们将讨论它的设计原则、好处以及它对当前系统的影响。此外，我们将探索其潜在的应用以及该技术在云原生系统中的未来方向。
+Speakers: Hongtao高: 南, 高级工程师, 高洪涛，tetrate.io高级工程师，前华为云专家。Apache SkyWalking的PMC成员之一，参与了一些流行的开源项目，如Apache ShardingSphere和Elastic-Job。他对分布式数据库、容器调度、微服务、ServicMesh等技术有深入的了解。 </description>
+    </item>
+    
+    <item>
+      <title>从建立内部源代码社区和开放源代码社区的经验教训</title>
+      <link>/2024/zh/sessions/community-1026.html</link>
+      <pubDate>Sun, 28 Jul 2024 17:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1026.html</guid>
+      <description>在公司里建立社区?我知道这听起来很难，但也很有挑战性和乐趣。在这次演讲中，我将分享我将开源文化引入公司的经验，以及在公司中建立内部源代码或类似开源的社区的实践。同时，我也在公司外部建立一个真正的开源社区(https://codekitchen.community)。我将分享建立这两个社区的差异和经验教训，以及如何找到相互授权的联系。
+Speakers: Grey Li:戴尔公司的高级软件工程师, 戴尔高级软件工程师，微软Python类MVP, CodeKitchen社区的创始人，Flask和APIFlask的维护者，《Python Web Development with Flask》的作者。 </description>
+    </item>
+    
+    <item>
+      <title>在哪里渲染你的webapp -实用指南</title>
+      <link>/2024/zh/sessions/webserver-1139.html</link>
+      <pubDate>Sun, 28 Jul 2024 17:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/webserver-1139.html</guid>
+      <description>在过去，人们几乎没有选择在哪里渲染网页——一切都发生在服务器上。现在有很多选择——服务器端、客户端、边缘以及它们的各种组合。做出错误的选择可能很难恢复，并将在整个web应用程序的生命周期中产生负面影响。
+本次演讲将介绍渲染的主要方法，从用户体验、开发人员体验和操作角度概述它们的优点和权衡。代码示例将构建在Apache Sling(一个基于java的web应用程序框架)之上，但不需要以前了解Sling。我们还将探索Apache Traffic Server作为一个边缘服务器，支持卸载渲染。
+在这次演讲之后，与会者将对web应用程序的各种渲染方法有一个更好的实际理解，并将有一个框架来为他们的应用程序选择合适的渲染体系结构。
+Speakers: Robert Munteanu: Adobe高级计算机科学家, 作为Adobe AEM核心云基金会团队的高级计算机科学家，Robert Munteanu是一名对开源充满热情的软件开发人员。他是Apache软件基金会的成员，经常为许多开源项目做出贡献，特别是Apache Sling和Apache Jackrabbit。Robert经常在会议上发表演讲，曾在Devoxx、比利时ApacheCon和EclipseCon等会议上发表演讲。 </description>
+    </item>
+    
+    <item>
+      <title>Apache nutx:改变物联网行业的操作系统</title>
+      <link>/2024/zh/sessions/iot-1072.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/iot-1072.html</guid>
+      <description>Apache NuttX是一个实时操作系统(RTOS)，其特点是符合标准和占用空间小。它可以扩展到8位到64位的微控制器环境，主要遵循Posix和ANSI标准。Apache NuttX的整体设计、代码组织和编译过程与Linux非常相似，这将大大降低Android/Linux开发人员的迁移成本。本演讲将介绍Apache NuttX的设计原理和主要子系统，包括:
+ 与POSIX标准的兼容性，提高开发效率和代码可重用性，并减少学习曲线; 高完整性降低开发成本，提供文件系统、网络协议栈、图形库、驱动框架、shell等功能; 模块化设计，可根据Kconfig配置进行裁剪和定制，适合不同的产品形态。  Speakers: 李桂丁: Apache nutx PMC, Apache NuttX PMC，小米Vela内核组负责人。2017年加入小米，主要负责Vela内核的开发。2018年，他向NuttX社区提交了他的第一个补丁，并在接下来的几年里继续向社区提交补丁，完成了从常规贡献者到Committer，再到PMC成员的转变。目前，他已经提供了400多个补丁，涵盖了IPC、Scheduler、SMP、Arch、MM等模块，他的贡献可以在Apache NuttX内核中找到。 </description>
+    </item>
+    
+    <item>
+      <title>gravino:一个多区域、地理分布的元数据湖</title>
+      <link>/2024/zh/sessions/incubator-1066.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/incubator-1066.html</guid>
+      <description>欢迎来到Gravitino讲座!管理元数据既复杂又耗时，但Gravitino提供了终极解决方案。它为具有地理分布式架构支持的多区域数据提供了单一数据源。这允许您在一个地方存储和管理您的数据，从全球任何地方访问。通过统一的数据和人工智能资产管理，您可以获得集中的安全和数据访问管理，使数据保护更容易。gravino通过简化任务和提供以下好处，帮助您更专注于数据: —安全、集中的元数据存储和管理 -随时随地的数据访问 -简化的数据管理与一个易于使用的用户界面 Gravitino是简化元数据管理过程的理想解决方案。它是开源的，免费的，所以今天就试试Gravitino来体验它的好处吧!
+Speakers: Justin Mclean: 开源社区经理，ASF董事会成员, Justin Mclean是一位经验丰富的专业人士，在web应用程序开发、教育和社区工作方面拥有30多年的经验，并且是开源软件的积极贡献者。Justin是世界各地会议的知名演讲者，目前担任Datastrato的社区经理。他在Apache软件基金会指导项目，担任ASF孵化器副总裁，也是ASF董事会成员。 </description>
+    </item>
+    
+    <item>
+      <title>Pekko Stream赢了</title>
+      <link>/2024/zh/sessions/webserver-1138.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/webserver-1138.html</guid>
+      <description>什么是Pekko, Pekko是如何在淘宝上使用的
+Speakers: 何品: 技术专家, Pekko PMC和贡献者 </description>
+    </item>
+    
+    <item>
+      <title>使用eBPF监控Kubernetes网络流量</title>
+      <link>/2024/zh/sessions/cloudnative-1012.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/cloudnative-1012.html</guid>
+      <description>随着越来越多的应用程序部署在Kubernetes中，监控Kubernetes中的网络流量变得越来越重要。在本节课中，我将向您演示如何使用eBPF技术非侵入性地监视应用程序网络流量，全面涵盖从L2到L7。
+Speakers: Han Liu: 软件工程师, SkyWalking PMC &amp;amp; Committer，开源爱好者，专注于Go, eBPF和其他技术开发。 </description>
+    </item>
+    
+    <item>
+      <title>在开源社区赢得AI开发者的心:B2D的创新内容营销策略</title>
+      <link>/2024/zh/sessions/community-1025.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1025.html</guid>
+      <description>在人工智能2.0时代，开源大型语言模型(如LlaMa和Mistral)的出现正在改变人工智能开发人员的社区和体验，为企业对开发者(B2D)运营提供前所未有的机遇和挑战。作为B2D操作员，你可能会考虑以下问题:
+-你是否在寻找与AI开发者产生共鸣的有针对性的内容营销策略，吸引他们的注意力，释放他们的潜力?
+你考虑过AI大型语言模型开发者和传统开发者有什么不同吗?他们在选择产品时进行了怎样的决策过程?在开发者旅程的每个阶段有什么好处、痛点和关键因素?
+-你是否注意到，尽管开发者通常对营销策略漠不关心，但他们在潜意识层面上会受到某些策略的影响?这些方法成功的秘诀是什么?
+-您是否有兴趣了解领先的AI大型语言模型公司如何通过技术内容和营销实践吸引和留住用户，如何通过社区活动和支持服务培养和加强信任，以及如何通过产品更新和公告发展生态系统?
+在我的演讲中，借鉴了我01年在内容创作和社区管理方面的经验。AI，我将分析现实世界的挑战，构建思维过程，调查解决问题的方法，并提供可行的解决方案。我的目标是帮助你制作高质量的内容，增强你的营销策略，扩大你的合作网络，最终为一个繁荣的开源人工智能开发者社区做出贡献。
+Speakers: Yu Liu: 01.AI，内容策略师, Yu Liu是01的内容策略师。AI，以及Apache Pulsar PMC成员和Apache Trafodion committer
+在她的职业生涯中，她一直致力于提升开发者的内容体验和管理开源社区。她曾在ApacheCon Asia、中国开源大会、Google Women Techmakers、Dev.Together、OpenInfra Days China、tcworld China、China Technical Communication Forum等会议上发表过关于开发者体验、信息架构、内容运营与战略、Docs as Code等主题的演讲。此外，她还积极参与了“我们的代码是开放的”、“开源促进计划”(中国的GSoC)和Linux基金会组织的各种开源活动。 在业余时间，她喜欢爵士舞、瑜伽、乒乓球、弹钢琴、唱歌和学习中医。 </description>
+    </item>
+    
+    <item>
+      <title>大语言模型时代数据基础设施的演变</title>
+      <link>/2024/zh/sessions/ai-1006.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/ai-1006.html</guid>
+      <description>由llm驱动的数据可以使应用更加高效、精准和个性化，AI已经广泛应用于自然语言处理、推荐系统和数据分析等多种场景，并取得了显著的效果。大模型可以更好地优化数据，深度优化的数据可以更好地训练大模型，llm和数据相辅相成。
+在本次演讲中，我们将介绍我们的开源Gravitino如何构建一个统一的元数据湖，以单一的真相来源管理数据团队和AI团队的所有元数据，不仅填补了AI模型元数据管理的空白，而且还提供了Java、Python和NodeJS客户端，允许不同部门的数据团队、AI团队和业务团队使用Gravitino在单一的真相来源中管理他们的元数据。Gravitino不仅填补了AI模型元数据管理的空白，还提供了Java、Python、NodeJS客户端，让不同部门的数据团队、AI团队、业务团队无缝完成数据ETL、数据清洗、特征工程、模型训练、模型发布、APP与模型集成的全过程，加速了数据与AI的融合。
+Gravitino还提供统一的IAM权限管理和多数据源异构(结构化/非结构化)数据的统一读写，支持多云，让AI团队可以充分利用公有和私有数据中心的GPU、存储、云服务等基础设施资源，降低模型训练的成本和周期。 他还将分享小米、唯品会和其他互联网公司如何使用引力子来解决人工智能模型训练中的问题和挑战。
+演讲大纲: +大模型时代需要什么样的基础设施 +数据基础设施向AI基础设施的演进 +技术挑战和解决方案 +发展规划和未来展望
+观众的好处: +大模型时代数据基础设施的最新趋势 +如何无缝整合数据和AI 如何安全高效地开发模型 +如何有效管理大模型的生命周期
+Speakers: Xun Liu: Datastrato联合创始人兼首席运营官, Xun Liu，有着二十年的软件开发经验，过去十年一直在大数据开发领域工作。他是Apache软件基金会的成员和孵化器导师，在Apache中孵化了许多开源项目，也是Apache Hadoop和zeppelin的Committer成员
+Xun Liu是Datastrato的联合创始人兼首席运营官，目前负责公司开源项目Gravitino的运营。 </description>
+    </item>
+    
+    <item>
+      <title>异步物化视图的应用和技术原理</title>
+      <link>/2024/zh/sessions/olap-1113.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1113.html</guid>
+      <description> 介绍异步物化视图的应用场景 异步物化视图的技术原理和当前限制，包括全增量构造、透明重写物化视图等 异步物化视图的限制 异步物化视图的未来功能  Speakers: Si Wu: 北京飞轮数据科技有限公司中国浙江省杭州市。数据库开发人员, Si Wu是一名数据库优化器开发人员，在物化视图方面有多年的经验。他是Apache Doris的贡献者，并对数据库保持着浓厚的兴趣，不断学习和开发。好奇心驱使他探索一切事物. Si Wu 毕业于武汉理工大学理工科专业。目前就职于北京飞轮数据科技有限公司，从事数据库开发工作。 </description>
+    </item>
+    
+    <item>
+      <title>Apache APISIX在中国移动云中的实践</title>
+      <link>/2024/zh/sessions/cloudnative-1011.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/cloudnative-1011.html</guid>
+      <description>Apache APISIX是一个动态、实时、高性能的API网关。它提供了动态上游、流量限制、可观察性等丰富的流量管理功能。它还支持多种协议，如http, grpc, dubbo, mqtt等。 本报告介绍了基于Apisix的云原生网关在中国移动云上的实践，包括对云原生网关架构的分析，入口控制器的开发，以及它如何帮助中国移动网盘处理数十亿的日常访问流量。
+Speakers: 金Lv: 南, 软件工程师, 中国移动云原生平台工程师、API网关平台总监 </description>
+    </item>
+    
+    <item>
+      <title>Apache Paimon:从孵化器到TLP</title>
+      <link>/2024/zh/sessions/incubator-1065.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/incubator-1065.html</guid>
+      <description>Apache Paimon是用于批处理和流处理的统一数据格式。Paimon在其湖泊格式中创新地结合了LSM树结构，使Flink, Spark, Starrocks等中的实时湖屋架构成为可能。我们将首先概述Apache Paimon，以及Paimon如何帮助用户构建具有低延迟和高吞吐量的数据基础设施。
+从Apache Flink社区的子项目开始，Paimon曾经有机会直接成为Apache顶级项目。接下来，我们将讨论为什么我们仍然选择经历孵化过程，我们如何逐步构建到顶级项目，我们从社区中获得什么并回报给社区，以及我们如何在Apache的方式下建立一个活跃和多样化的社区。
+最后，我们将从产品和社区的角度讨论Apache Paimon毕业后的路线图和未来。
+Speakers: Caizhi Weng: 阿里云高级工程师;Apache Paimon PMC成员, 专注于数据和流计算。 </description>
+    </item>
+    
+    <item>
+      <title>使用ASF开源项目构建时间序列数据库</title>
+      <link>/2024/zh/sessions/iot-1071.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/iot-1071.html</guid>
+      <description>该演讲将重点介绍如何利用内存列式存储格式Apache Arrow、即用即用的查询引擎Apache Datafusion，以及通用存储数据访问层Apache OpenDAL。通过集成这些强大的ASF开源项目，我们构建了一个云原生、高性能、灵活的时间序列数据库，为时间序列数据提供高效的存储和查询支持。
+Speakers: Wenkang Xu: GreptimeDB,工程师, 前Windows Phone应用程序开发人员，二手电动自行车用户，以及应届毕业生数据库工程师。 </description>
+    </item>
+    
+    <item>
+      <title>在Elasticsearch中使用Apache Calcite支持Sql</title>
+      <link>/2024/zh/sessions/olap-1112.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1112.html</guid>
+      <description>Elasticsearch已广泛应用于广告场景。但是，在许多场景中，它们的查询模式灵活而复杂，其性能需求无法由ES满足。为了在这些场景中更有效地支持复杂的分析处理(AP)查询，我们使用方解石框架在Elasticsearch集群上实现了SQL解析和执行计划构建。它支持大多数常见的SQL操作，并支持高效的join。 在本演讲中，我们将深入研究Elasticsearch如何利用方解石来优化执行计划。我们的讨论将涵盖几个关键主题:基于外部表定义和管理元数据、查询分区修剪、过滤条件下推、Elasticsearch路由机制和自定义数据分发策略、RuntimeFilter的优化等。
+Speakers: 文炫达: 字节跳动数据研发工程师，从事Elasticsearch内核的AD部门研发，熟悉ES元数据。 </description>
+    </item>
+    
+    <item>
+      <title>小米基于引力子的数据与AI Fabric的实践</title>
+      <link>/2024/zh/sessions/ai-1005.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/ai-1005.html</guid>
+      <description>随着数据和人工智能的融合越来越紧密，对两者的统一管理成为企业内部的挑战。Databricks推出了一款商业产品，通过Unity Catalog将大数据和人工智能连接起来。然而，由于它是专有的，企业很难在内部实现此解决方案。
+在过去的几年里，小米统一了表数据管理的元数据系统，带来了显著的效益。今年，我们将元数据管理扩展到人工智能数据领域。通过Gravitino，我们可以在统一的系统下管理非表格数据和表格数据，实现数据+AI的统一元数据。
+大纲:
+ 小米的业务特点和挑战 -管理表格数据不仅包括Hive和Iceberg，还包括OLTP表，如MySQL和Oracle。统一管理这些数据类型可以提高内部效率。 数据+ AI一体化需求 -随着大模型的日益普及，数据与AI的融合被越来越多地提及。统一元数据对于集成数据+人工智能至关重要。我们将分享小米在数据+人工智能集成方面所实现的元素。 基于引力子的统一元数据 -小米如何基于Gravitino实现数据+AI的统一元数据管理。 基于统一元数据的在线开发平台 -使用Gravitino强大的引擎插件和PythonClient，如何实现统一的开发平台。我们将分享开发商可以享受的便利。 引力子的未来计划 -我们将分享引力子社区的未来规划。  关于Gravintio 由Datastrato开源的Gravitino正准备捐赠给Apache基金会。
+Speakers: Kang Zhou: 小米，数据开发平台组长, 小米高级软件开发工程师。负责大数据平台的开发 Apache Kylin, Gravintio的贡献者 </description>
+    </item>
+    
+    <item>
+      <title>开源治理:律师的实用指南</title>
+      <link>/2024/zh/sessions/community-1024.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1024.html</guid>
+      <description>凭借在法律实践中丰富的职业生涯，专门从事知识产权法，本次演讲将从经验丰富的法律角度探讨开源治理和合规性。 作为一名为许多企业提供咨询服务的律师，我将分享通过第一手经验开发的实际见解和经过验证的策略。 这次演讲将集中讨论遵守开源许可的复杂性，以及如何制定可扩展和适应任何企业规模的治理框架。 关键主题包括减轻许可证兼容性方面的风险、进行彻底的开放源代码审计，以及建立适合企业特定需求的稳健策略，而不管其规模如何。 本课程旨在为法律专业人士、合规官员和商业领袖提供可操作的知识，以合法合规的方式有效管理开源软件，促进创新，同时维护他们的利益。
+Speakers: Tao Ye: 格兰德尔律师事务所合伙人律师, 叶涛律师擅长为软件和互联网企业提供法律服务 作为Linux基金会亚太地区的开源传播者，叶涛深入参与开源社区。值得注意的是，他成功辩护了中国第一起GPL反诉案 陶烨活跃于各种开源社区，于2023年被Linux基金会开源软件学院授予“开源之星奖”。 </description>
+    </item>
+    
+    <item>
+      <title>隧道技术架构演变及其在人工智能中的应用</title>
+      <link>/2024/zh/sessions/dataops-1060.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/dataops-1060.html</guid>
+      <description>通过分享SeaTunnel项目技术架构的演变，我们将了解如何从零开始构建数据集成工具，需要考虑哪些核心需求，以及如何最好地实现这些需求。
+同时，我们将为大家介绍SeaTunnel在AI领域的应用。
+Speakers: JUN GAO: ASF成员，Apache SeaTunnel PMC主席，Apache DolphinScheduler PMC成员, ASF成员，Apache SeaTunnel PMC主席，Apache DolphinScheduler PMC成员 </description>
+    </item>
+    
+    <item>
+      <title>零代码插装，支持所有版本Apache Tomcat的可观察性</title>
+      <link>/2024/zh/sessions/webserver-1137.html</link>
+      <pubDate>Sun, 28 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/webserver-1137.html</guid>
+      <description>随着JVMT技术的引入，基于javaagent的工具(如Apache Skywalking-Java)越来越受到用户的欢迎。尽管javaagent对用户代码没有干扰，但是当用户代码发生变化时，需要相应地调整相应的插装代码。Apache Tomcat作为一个历史悠久、活跃的开源项目，其发布的版本非常多，而且Apache Tomcat的发布非常频繁，这给javaagent的开发带来了很多挑战。该会话在javaagent中为所有版本的Apache Tomcat构建了统一的检测工具，并通过静态分析javaagent和Apache Tomcat的代码来确保检测工具的完整性。
+Speakers: Liu Ziming: 杭州阿里云, 阿里巴巴研发工程师 </description>
+    </item>
+    
+    <item>
+      <title>Apache DolphinScheduler Api重构的实践</title>
+      <link>/2024/zh/sessions/dataops-1059.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/dataops-1059.html</guid>
+      <description>提供一个关于DolphinScheduler api重构实践和相关任务的会话，包括
+ 为什么要将restful标准放入DolphinScheduler Api中 Api文档生成管道优化 Api测试管道优化  Speakers: Yifan Sun: EMR，阿里云，EMR无服务器Spark, EMR笔记本，EMR工作流, EMR无服务器Spark平台团队负责人@阿里云，也拥有EMR笔记本和EMR工作流的所有权。 </description>
+    </item>
+    
+    <item>
+      <title>RayII.Java——基于java的Ray项目的新设计和实现</title>
+      <link>/2024/zh/sessions/ai-1004.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/ai-1004.html</guid>
+      <description>Project Ray是一个在人工智能领域发展迅速的开源分布式人工智能框架 即将进入的3。X发展阶段。Ray最初是为高性能强化学习而诞生的，但后来得到了发展 一个统一的计算框架，用于扩展AI和Python工作负载。雷也是背后训练大语言的人 像ChatGPT这样的模型。 Ray的架构和实现是否可以进一步改进/扩展以适应不同的硬件和 软件生态系统是我们目前进一步研究工作的主要方向，包括Ray的各种可能的重建。本主题的目标是我们对Ray基于java的重新设计和实现的最新探索:
+  当前设计和实现的利弊 Ray Core;
+  Graalvm的总体思路和架构设计 中心化RayII.Java(使用Python+Java代替当前的 Python+ c++软件层在当前Ray项目和 更多)和我们的测试平台;
+  尝试将RayII.Java与知名Java集成 AI领域的框架，如DJL和H2O;
+  探索支持加速Ray应用 java在更异构的硬件上 平台(如FPGA和NPU等)，Ray只支持 现在是GPU)。
+  主要技术参考链接:  https://ray.io/ https://github.com/ray-project https://en.wikipedia.org/wiki/OpenAI https://en.wikipedia.org/wiki/Python_ (programming_language) https://en.wikipedia.org/wiki/Java_ (programming_language) https://en.wikipedia.org/wiki/Raspberry_Pi https://www.graalvm.org/ https://djl.ai/ https://h2o.ai/ https://en.wikipedia.org/wiki/Field_Programmable_Gate_Array https://en.wikichip.org/wiki/neural_processor  Speakers: 冯李: 南, indie-developer, 我曾在摩托罗拉、三星等公司工作过，现在是一名独立开发者 积累了十多年跨平台移动开发经验，过去几年专注于云及边缘基础设施领域 我对技术创新有浓厚的兴趣和实践能力，热心参加开源社区的各种活动，如IT会议、技术分享、开源项目贡献。 </description>
+    </item>
+    
+    <item>
+      <title>从一个开源新手到streampark提交者，我关于apache streampark的故事</title>
+      <link>/2024/zh/sessions/incubator-1064.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/incubator-1064.html</guid>
+      <description>它讲述了一个2003年出生的新手第一次参与开源的故事。他逐渐加入了apache straempark社区，领导了几个主要特性，并被提名为提交者。 他加入了新公司，贡献了开源，并负责公司内部与streampark相关的开发。在这个过程中，从社区到代码，我成长了很多。我将分享我的旅程，我对开源和社区的理解，以及我对streampark社区的感受。 最后，分享StreamPark社区目前正在做的工作和社区未来的计划。
+Speakers: Cancai Cai: StreamPark提交者，Calcite/Flink贡献者, 大数据平台开发工程师，开源爱好者，参与开源不到一年，喜欢研究sql引擎和流系统 </description>
+    </item>
+    
+    <item>
+      <title>在GraalVM静态编译下实现Tomcat应用程序的自动可观察性</title>
+      <link>/2024/zh/sessions/webserver-1136.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/webserver-1136.html</guid>
+      <description>GraalVM静态编译在提高Tomcat web应用程序启动速度和运行时内存使用方面有显著的效果。它在云原生生态系统中蓬勃发展是非常有价值的。但是，最初基于Java Agent提供的自动检测将在静态编译后失效。我们的团队在GraalVM中设计了一个静态仪表解决方案来解决上述问题(https://github.com/oracle/graal/pull/8077)。本次讲座将介绍以下两个部分:
+ 解决方案的总体设计思想。 该解决方案的测试结果为Tomcat web应用在Otel Java Agent上。  Speakers: Zihao饶: 南, 热爱开源, 热情的开源贡献者
+阿里云智能研发工程师 Spring-Cloud 阿里指导委员会成员(https://github.com/alibaba/spring-cloud-alibaba) OpenTelemetry Java Instrumentation Triager https://github.com/steverao
+我还作为演讲者参加了一些开源峰会，如ApacheCon Asia 2022 (https://apachecon.com/acasia2022/sessions/webserverandtomcat-1079.html)
+社区代码2023 (https://tomcat.apache.org/presentations.html) </description>
+    </item>
+    
+    <item>
+      <title>基于Apache方式的蚂蚁群开源孵化</title>
+      <link>/2024/zh/sessions/community-1023.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1023.html</guid>
+      <description>蚂蚁集团(拥有25000名员工的金融科技公司)一直是开源社区的积极参与者，有许多项目，但大多数项目主要由蚂蚁集团管理和运营，我们长期以来没有积极与OSS基金会合作，包括Apache基金会。
+成立开源项目办公室(OSPO)并开始适当地进行OSS治理已经改变了这一点。现在，蚂蚁集团已经有了量身定制的OSS技术战略，以及全面的内部治理流程+实践+产品来支持该战略。Ant Group知道建立内部开源文化和与社区合作的重要性，但改变的发生需要时间。我们如何加速变革?
+Ant Group开源孵化深深植根于Apache方式的原则，是一个专门的平台，在开源生态系统中促进创新和协作。它奉行社区驱动的发展、精英管理、透明度和开放沟通的核心原则，确保在其保护下培育的项目坚持最高的质量、包容性和可持续性标准。
+这种孵化提供了一个培育环境，在这个环境中，新生的想法可以演变成健壮的、可用于生产的软件解决方案。它提供全面的支持服务，包括经验丰富的开源贡献者的指导，获得尖端的工具和基础设施，关于许可和知识产权问题的法律指导，以及项目治理和社区建设方面的战略援助。
+Speakers: Peggy Dong: 蚂蚁集团，开源治理专家, 我相信开源代表了一种向善的力量。被开源、协作和共享的理念所吸引，我在去年初加入了蚂蚁开源OSPO。在此之前，我主要从事战略规划，希望给开源教育带来不一样的视角。 </description>
+    </item>
+    
+    <item>
+      <title>揭示IoTDB流处理引擎在工业物联网边缘云应用中的强大功能</title>
+      <link>/2024/zh/sessions/iot-1070.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/iot-1070.html</guid>
+      <description>在工业互联网领域，时间序列数据已经成为跨越设备、传感器和其他终端的各个领域的关键价值来源。工业互联网时代的到来，开启了设备、边缘、云协同互动的新时代:设备代表数据采集的终端设备;边缘作为控制器，在边缘负责数据聚合;云表示用于数据处理的云服务器。这种终端设备与云的共生关系在工业互联网内部形成了一个全面的闭环生态系统，既包括从终端到云的上游数据传输，也包括从云到终端的下游数据传输。
+在这种背景下，最新的IoTDB因其创新的流处理引擎而脱颖而出，支持数据同步和实时流计算等功能。这一进步为工业互联网边缘云应用提供了量身定制的整体解决方案。本演讲旨在深入探讨IoTDB流处理引擎的基本原理、实际使用技术、典型应用场景和最新进展。
+Speakers: Steve Yurong Su: Timecho Ltd.高级研发工程师Apache IoTDB和Apache TsFile的PMC成员。Apache StreamPipes提交器。, 专注于大规模工业物联网场景，擅长边缘云时间序列处理、时间序列数据库内核、实时数据库内核开发。 </description>
+    </item>
+    
+    <item>
+      <title>阿帕奇尤尼科恩州</title>
+      <link>/2024/zh/sessions/cloudnative-1010.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/cloudnative-1010.html</guid>
+      <description>Apache YuniKorn是一个轻量级的通用资源调度器，用于在Kubernetes中运行批处理工作负载。YuniKorn扩展了Kubernetes的调度能力，支持各种工作负载，如批处理、数据分析和机器学习任务，并支持Spark、Flink和TensorFlow等框架。
+YuniKorn 1.0.0于2022年发布，包含许多主要功能，例如应用感知调度，分层资源队列，组调度。从那时起，该项目继续发展，直到最新版本1.5.0(于2024年3月14日发布)，包含了许多新功能，如抢占、用户配额强制和事件系统。
+在这次演讲中，我们将提供一个项目的基本介绍，并关注最近版本中发生的变化和改进。除此之外，我们还想展望未来，强调社区目前正在研究的一些主题，并对计划中的功能的路线图给出一个见解。
+Speakers: yu lin陈: 南, ASF, Apache YuniKorn提交者, Yu-Lin Chen是Apache YuniKorn提交者和开源爱好者。他曾在台湾美光记忆体担任高级数据工程师，负责构建可靠的大数据系统。 Chia-Ping蔡: 南, Apache成员，Apache HBase PMC成员，Apache Kafka PMC成员，Apache YuniKorn PMC成员, 通过撰写分布式系统论文获得博士学位 x000D 通过为分布式系统贡献代码，成为PMC成员 x000D 通过享受分布式系统，成为一个有价值的人 </description>
+    </item>
+    
+    <item>
+      <title>Apache APISIX如何增强web服务器</title>
+      <link>/2024/zh/sessions/webserver-1135.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/webserver-1135.html</guid>
+      <description>Apache APISIX如何增强web服务器 大纲:
+ Apache APISIX简介 Apache APISIX如何与web服务器协作 Apache APISIX可以为web服务器提供的增强功能 微服务架构中的典型场景 结论  Speakers: Wei Jin: API7解决方案架构师/ Apache APISIX PMC / Apache APISIX入口控制器创始人/ Apache Skywalking提交者, API7解决方案架构师/ Apache APISIX PMC / Apache APISIX -入口-控制器创始人/ Apache Skywalking Committer. 有丰富的行业经验 领导Apache apisix-ingress-controller项目(https://github.com/apache/apisix-ingress-controller). 参与为Apache APISIX / Apache skywalk等项目做出贡献 作为一名讲师，他做过多次讲座 </description>
+    </item>
+    
+    <item>
+      <title>Apache Druid在K8s架构上的多级HA</title>
+      <link>/2024/zh/sessions/olap-1111.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1111.html</guid>
+      <description>详细讲解Apache Druid在K8s架构上如何从上到下保证多级高可用性，以及它在Shopee中的大规模商业应用。
+Speakers: Benedict Jin: 专业工程师, Apache Druid的提交者和PMC成员; Shopee Expert Engineer，Druid技术负责人; 阿里云开源社区成员; 《极客时光》签约讲师; 《Java编码问题》等的中文翻译。 </description>
+    </item>
+    
+    <item>
+      <title>Apache graphhar(孵化):项目的起源和进入Apache孵化器的旅程</title>
+      <link>/2024/zh/sessions/incubator-1063.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/incubator-1063.html</guid>
+      <description>近年来已经开发了许多图形系统，例如Neo4j、Nebula graph和Apache HugeGraph。这些系统都有自己的图形数据存储格式，这使得不同系统之间的图形数据交换变得复杂。对于大规模图形数据存储和处理的标准数据文件格式的需求是显而易见的，它可以被各种现有系统使用，因为它可以减少各种系统一起工作时的开销。 为了填补这一空白，我们启动了graphhar项目，为图形数据存储和交换提供标准的数据文件格式。 2024年3月25日，GraphAr正式进入Apache孵化器。本次分享将围绕graphhar项目的起源和发展历程，以及它进入Apache孵化器的历程展开。它将介绍graphhar在孵化过程中的机遇和挑战，以及作为孵化器的新成员，它将涵盖我们对Apache方式的理解和实施。
+Speakers: Weibin Zeng: 阿里巴巴高级软件工程师, Apache graphhar(孵化)PPMC，一个开源爱好者，喜欢分享和互相帮助。 Xue Li: 阿里巴巴高级软件工程师, 薛力是graphhar的共同创建者，同时也是graphhar格式及其c++ /Scala库的核心开发人员。 </description>
+    </item>
+    
+    <item>
+      <title>ospp2020 -2024 -面向中国大学生的最佳开源方式</title>
+      <link>/2024/zh/sessions/community-1022.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1022.html</guid>
+      <description>开源促进计划(OSPP)是由中国科学院软件研究所主办的暑期项目，长期得到开源软件供应链促进计划的支持。旨在鼓励大学生积极参与开源软件的维护和发展，促进开源软件社区的蓬勃发展，共同构建开源软件供应链。我们向世界各地的大学生开放招生。学生可选择自己感兴趣的项目进行申请，获得资深维护者(社区导师)指导的机会。根据项目的难度和完成程度，参与者还将获得奖金和完成证书。
+Speakers: 李梦: ISCAS,OSPP运营总监, ISCAS OSPP运营总监 </description>
+    </item>
+    
+    <item>
+      <title>Seata的云原生演进:从部署到未来可能性的路线图</title>
+      <link>/2024/zh/sessions/cloudnative-1009.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/cloudnative-1009.html</guid>
+      <description>从单片架构到微服务，从独立数据库到分布式数据库系统的演变，已经成为现代服务交付中无可争议的现实。应用程序现在被分解为多个可独立部署的服务，需要服务之间的远程协作来完成事务。这种转变给分布式事务管理带来了复杂性，需要的解决方案不仅要高效，而且要适应不断变化的云原生环境。
+讨论将包括Seata如何通过适应云原生趋势进入Seata 2.0。特别是，Raft共识机制的引入允许分布式事务处理，而不依赖于传统的数据库和消息队列，而是使用文件存储和集群间一致性。此外，使用Seata的K8s Operator作为管理和自动化Seata服务部署的一种手段，强调了Seata 2.0的云原生适应性。
+展望未来，该演讲将探讨Seata在云原生领域的进一步工作，包括通过控制台管理集群配置，以及通过扩展Seata -ctl增强集群操作。这是迈向全面的云原生分布式事务管理解决方案的关键一步。本次演讲不仅将展示Seata目前的成就，还将为其发展提供清晰的路线图，说明它如何适应并引领微服务架构的未来趋势。
+Speakers: 尹祥琨: 清华大学, 我叫尹祥琨，目前是清华大学软件工程专业的一名硕士研究生。由于对开源项目非常感兴趣，我积极地为几个社区做出了贡献，并且最近被授予Apache Seata(孵化)中的Committer角色。在Seata，我做出了一些重大贡献，领导了几个关键项目，如Seata操作器、前端设计、Seata -go Saga实现。 </description>
+    </item>
+    
+    <item>
+      <title>京东算法调试系统(观星)简介</title>
+      <link>/2024/zh/sessions/ai-1003.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/ai-1003.html</guid>
+      <description>1.观星的数据基石 基于Flink &amp;amp; ClickHouse的实时数据链构建 基于Iceberg &amp;amp; Starrocks的准实时数据链构建
+2.上层应用:推荐系统的等级解释 跟踪链接 调试链接 用户行为画像 用户画像&amp;amp;&amp;amp;项目画像
+3.上层应用:模型解释 常用算法:形状值、树形、IG等 模型解释在京东的应用 全局特征的重要性和排名 多输入sku的特征重要性比较 单个sku在spu/产品词/品类下的特征竞争力比较
+4.上层应用:流程解释 用户行为动态线分析 推荐系统指标构建
+Speakers: 张颖: 京东，算法开发工程师，Alink, TF在Flink贡献者, 架构师，Alink, DL on Flink贡献者 </description>
+    </item>
+    
+    <item>
+      <title>基于RocketMQ的云原生MQTT核心设计</title>
+      <link>/2024/zh/sessions/iot-1069.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/iot-1069.html</guid>
+      <description>随着智能家居、工业互联网和车联网的快速发展，针对物联网(IoT)设备的消息通信需求正在经历前所未有的增长。在这种情况下，高效可靠的消息传递标准变得至关重要。MQTT协议在新一代物联网场景中得到广泛认可，正逐步成为行业标准。MQTT 5.0协议凭借其卓越的设计，已成为物联网场景中的新行业标准。
+在本节中，我们将介绍基于MQTT 5.0协议的RocketMQ实现的无服务器核心设计。我们将具体演示如何重新设计开源保留和将消息的存储机制，确保消息的稳定可靠传递，并实现核心协议设计，如有序消息、共享订阅和消息TTL。
+面对设备通信周期峰谷差异的挑战，我们还将讨论如何将无服务器架构应用于消息队列，有效降低运营成本，同时利用云原生环境特性为物联网设备提供快速响应和灵活扩展的通信能力。
+此外，我们将探索MQTT在云生态系统中的实际集成，并引入基于统一存储的数据生态系统集成解决方案。
+Speakers: 刘伟光: 阿里云研发工程师, 刘伟光于2022年6月获得华中科技大学硕士学位后，在阿里云开始了他的职业生涯，担任研发工程师。他关注的领域是消息队列技术的研究和开发，尤其擅长MQTT和Kafka。 </description>
+    </item>
+    
+    <item>
+      <title>革命性的工作流编排与AI</title>
+      <link>/2024/zh/sessions/dataops-1058.html</link>
+      <pubDate>Sun, 28 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/dataops-1058.html</guid>
+      <description>主题:讨论如何在DolphinScheduler中利用AI来增强工作流中任务间依赖关系的管理，以确保更有效的数据工程和提高数据质量
+主要内容:
+  Apache DolphinScheduler简介 Apache DolphinScheduler是一个分布式的、可扩展的、可视化的工作流调度开源系统，专为各种环境中的数据处理任务而设计。
+  ai增强的工作流编排智能 -预测调度: 通过人工智能预测任务执行时间，DolphinScheduler可以更智能地调度任务，优化资源利用率，最大限度地减少等待时间。 -异常检测和自动修复: 利用人工智能监控工作流执行状态，DolphinScheduler可以自动检测异常并触发修复过程，从而提高系统的稳定性和可靠性。
+  案例研究和实际应用 -提供具体的案例研究，展示企业如何在数据工程操作中有效地使用DolphinScheduler，以及通过这些实践取得的切实成果。 -行业特定的用例
+  未来的前景 -探索与人工智能融合的潜力和方向: 讨论将DolphinScheduler与AI相结合的未来前景，重点关注其进一步自动化和增强工作流智能的潜力，包括在数据驱动的流程管理中增加自动化和优化的可能性。
+  Speakers: Lidong Dai: WhaleOps Technology联合创始人，Apache DolphinScheduler PMC主席, Apache孵化器导师，Apache DolphinScheduler PMC主席和Apache SeaTunnel PMC成员 </description>
+    </item>
+    
+    <item>
+      <title>Apache Kyuubi &amp; Celeborn &amp; Dolphinscheduler在Cisco的实践</title>
+      <link>/2024/zh/sessions/cloudnative-1008.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/cloudnative-1008.html</guid>
+      <description> 背景 kuyubi的实践(私有云和公共云) 整合 kyubi 与Dolphinscheduler 将 Kyuubi 与Celeborn整合  Speakers: He Zhao: 思科，数据工程师, 2019年至今，在思科担任数据工程师 Pengqli Li: 思科，数据工程师, 从事大数据开发工作，熟悉大数据存储和处理技术。 </description>
+    </item>
+    
+    <item>
+      <title>Dubbo&#39;s gateway - Dubbo Go Pixiu</title>
+      <link>/2024/zh/sessions/webserver-1134.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/webserver-1134.html</guid>
+      <description>基于Dubbo -go的代理网关服务，解决了外部协议调用内部Dubbo集群的问题。目前支持HTTP和gRPC
+Speakers: Mengchao lv: 阿里巴巴高级JAVA工程师, dubbo社区成员，专攻RPC &amp;amp;代理，目前在dubbo Go Pixiu社区工作，通过Http直接调用dubbo集群和dubbo网格控制平面能力来构建dubbo生态系统。 </description>
+    </item>
+    
+    <item>
+      <title>为什么我们需要建立一个统一的元数据层——引力子?</title>
+      <link>/2024/zh/sessions/dataops-1057.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/dataops-1057.html</guid>
+      <description>如今，越来越多的数据以不同的形式存储在不同的云和系统中，这给企业的数据治理、安全控制和数据合规性带来了挑战。AI需求的爆炸式增长，也对数据治理提出了更多的要求。统一元数据管理平台Gravitino(拟捐赠给Apache孵化器)，帮助企业清晰掌控Data + AI资产，实现多云多引擎支持，数据权限统一管理，敏感数据识别，脱敏规则设置等;本主题将结合具体案例，重点讨论以元数据为核心的数据遵从性和数据治理。
+Speakers: 史少锋: Datastrato，工程副总裁; 史少锋，Apache成员，Apache Incubator PMC, Apache Kylin PMC, Apache麸质和Apache Horaedb导师等;Datastarto工程副总裁，Gravitino贡献者。 </description>
+    </item>
+    
+    <item>
+      <title>从孵化到首次发布的旅程:揭示Apache answer 的发布方式</title>
+      <link>/2024/zh/sessions/incubator-1062.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/incubator-1062.html</guid>
+      <description>和我一起分享Answer的旅程——从参与开源获得的变革性见解，通过对Apache的丰富的捐赠过程，到我们的第一个版本的充满挑战但回报丰厚的道路。了解开源如何重塑了我的理解，Answer集成到Apache软件基金会背后的协作努力，以及在启动初始版本的复杂性中导航所需的持久性。本次会议是对经验教训和开源社区不屈不挠精神的简明探讨。
+Speakers: Star Linkin: Apache Answer PPMC成员，SegmentFault架构师思否, 专业Golang后端开发工程师 </description>
+    </item>
+    
+    <item>
+      <title>增强Apache项目内部LLM的可观察性:基于OTel和Auto Python Probe Injection</title>
+      <link>/2024/zh/sessions/ai-1002.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/ai-1002.html</guid>
+      <description>在当前的技术发展趋势中，人工智能中的大模型已经成为推动创新的关键力量。然而，这导致对这些模型的可观测性和监测的需求不断增加。在Apache生态系统中，OpenTelemetry作为一个新兴的开源项目，为跨语言遥测数据收集和分析提供了标准化的工具和接口，而自动探针注入技术的发展进一步简化了监控系统的集成过程。本主题将深入研究如何利用Apache项目和OpenTelemetry，结合自动探针注入技术，为人工智能大型模型构建高效、灵活和可扩展的可观察性系统。
+主题的内容将包括:
+ Apache和AI可观察性:讨论Apache项目为AI大型模型构建可观察性架构的贡献，以及Apache生态系统如何促进该领域的创新和发展。 OpenTelemetry的价值与应用:详细介绍OpenTelemetry在人工智能大模型可观测性中的作用，包括如何使用OpenTelemetry来收集、处理和分析遥测数据。 -自动探针注入革命:分析自动探针注入技术如何解决在大规模分布式AI系统中集成遥测系统的挑战，使开发人员和运营团队更方便地部署和管理监控工具。 -集成策略和最佳实践:分享成功案例，展示如何将Apache项目、OpenTelemetry和自动探针注入结合起来，增强大型模型的可观察性，促进系统性能优化和故障诊断。 -面对未来的挑战和机遇:讨论人工智能可观察性领域即将面临的挑战，以及Apache生态系统和开源社区如何协同推动该领域的技术进步和创新。  本主题旨在向参与者展示如何利用Apache生态系统内的资源和项目，实现AI大模型的高效可观察性，进一步支持AI应用的稳定性和可靠性，并为开源社区和企业提供实用的见解和策略。
+Speakers: Li Yanhong: 可观测性研发工程师, 我是阿里云原生应用平台可观测性团队的一名大模型可观测性研发工程师。作为大模型可观察性和Python Agent的核心成员，我负责大模型和Python Agent的可观察性的研发。我在这一领域的广泛研究和实际工作使我积累了丰富的专业知识，特别是在Langchain和llama-index等大型模型的可观测性研究方面。 </description>
+    </item>
+    
+    <item>
+      <title>物联网流处理与Apache StreamPipes和Apache Pulsar</title>
+      <link>/2024/zh/sessions/iot-1068.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/iot-1068.html</guid>
+      <description>Apache StreamPipes是一个自助服务(工业)物联网工具箱，使非技术用户能够连接，分析和探索物联网数据流。在Apache StreamPipes 0.93.0版本中增加了对脉冲星消息传递系统的支持，我们获得了将StreamPipes的用户友好界面与脉冲星强大的流消息处理和存储能力相结合的能力。这使得构建更复杂和性能要求更高的物联网流处理应用程序变得更容易。
+在本次演讲中，我们将讨论如何使用StreamPipes和脉冲星有效地构建和操作物联网流服务。我们将重点利用StreamPipes来构建基于脉冲星的流计算应用程序，利用脉冲星现有的功能，如各种订阅模型，精确的消息确认机制，数据模式，消息读写优化，以丰富StreamPipes的流计算能力。我们还将探索使用StreamPipes和脉冲星开发物联网流媒体服务的最佳实践。
+Speakers: Zike Yang:Apache Pulsar/StreamPipes PMC成员, Zike Yang是Apache Pulsar和Apache StreamPipes团队的一员，是一名Committer &amp;amp; PMC成员 他现在的主要关注点是消息传递系统和流处理。 </description>
+    </item>
+    
+    <item>
+      <title>美团的Apache Spark和Apache Gluten之旅</title>
+      <link>/2024/zh/sessions/olap-1110.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1110.html</guid>
+      <description>美团的会议探讨了他们在生产环境中使用Spark和矢量化引擎。它涵盖了当前瓶颈的识别，选择Gluten作为Spark插件的理由，矢量化引擎的必要性，该领域正在进行的研究，以及在实际操作中实现的实际成本节约和性能改进。该演讲详细介绍了美团面临的挑战、决策过程，以及在大规模数据处理管道中采用矢量化引擎的变革影响。会议将包括以下资料:
+ Spark在美团的用例 美团在矢量化实施中的挑战 为什么选择麸质+ Velox作为最佳解决方案 真实案例中的成本和性能结果 未来矢量化计划  Speakers: Weiting Chen: 英特尔，高级软件工程师, 韦廷是英特尔数据中心和人工智能集团的高级软件工程师。他拥有十年的工作经验，专注于大数据和云解决方案。他对Spark、OpenStack等项目做出了重大贡献，最近，他还作为Apache面筋(孵化)项目的初始提交者之一。他的职责之一是利用硬件的潜力来提高大数据工作负载的性能。 Xianghao Lu: 软件工程师, 是一个有大数据经验的软件工程师，包括Spark, Hadoop。 </description>
+    </item>
+    
+    <item>
+      <title>通过Apache Answer增强您的社区参与</title>
+      <link>/2024/zh/sessions/community-1021.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1021.html</guid>
+      <description>Apache Answer是一个开源的问答平台软件。它旨在通过您需要和喜爱的功能增强您的社区参与度。
+在这个环节中，我们将从如何帮助用户找到更好的答案，如何珍惜和奖励好的行为，以及如何以有趣的方式吸引用户的路径开始。
+我们也很乐意与您分享我们对这个项目的想法，以及您如何使用Apache Answer来建立您的下一个在线社区。
+Speakers: 朱婧: Apache Answer的PPMC成员， 社区经理, 开放源码的新手。热爱开源。 刚刚开始开源之旅的营销老手，Apache Answer总是陪伴着我。 </description>
+    </item>
+    
+    <item>
+      <title>AI无处不在:开源&#43;Wasm在大语言模型民主化访问</title>
+      <link>/2024/zh/sessions/ai-1001.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/ai-1001.html</guid>
+      <description>这次演讲的重点是人工智能的民主化，通过开源的大型语言模型(llm)和WebAssembly (Wasm)，使人工智能易于访问和高效。
+据估计，AI工作负载的推理消耗了90%以上的计算资源。Wasm不仅降低了人工智能推理成本，还提高了大型语言模型(LLM)的部署和可访问性，使您能够在PC上编写LLM应用程序并在任何地方运行-从边缘到云，高端服务器到低功耗物联网设备，跨越cpu和gpu。我们将有交互式演示，在各种环境中部署开源LLM，并使用Wasm通过简单的步骤创建无服务器LLM应用程序。
+我们还将介绍Wasm和Wasm运行时如何提供高性能和安全性，使AI模型和应用程序可移植，可访问，可靠和安全。
+与会者将学习如何在自己的设备上运行开源llm，并将这些技术集成到自己的人工智能项目中。
+Speakers: Miley Fu: CNCF大使，开源运行时WasmEdge的创始成员, Miley是一名开发人员倡导者，她热衷于授权开发人员构建和贡献开源。作为创始成员，她在CNCF沙盒中从事WasmEdge运行时工作超过5年，她在KubeCon、KCD深圳、CloudDay意大利、DevRelCon、日本开源峰会、AWS用户组、全球人工智能笔记、KubeDay新加坡等地发表了演讲。Miley撰写科技内容并组织开发活动，包括KCD深圳，开源博览会，WebAssembly和Rust meetup在台北，新加坡，中国等。 </description>
+    </item>
+    
+    <item>
+      <title>Apache Amoro(孵化):从零开始探索社区运营</title>
+      <link>/2024/zh/sessions/incubator-1061.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/incubator-1061.html</guid>
+      <description>2024年3月，Amoro项目成功投票进入Apache软件基金会孵化器。Amoro是一个基于各种开源数据湖表的湖库管理系统。本次分享将以Amoro的发展历史和现状为主线，重点介绍Amoro如何实现开源理念和The Apache Way，探索如何利用现有的AI工具运营社区，以及社区孵化过程中的一些机遇和挑战。
+Speakers: Zheng Yu Chen: Apache Amoro PPMC, HuoLaLa高级大数据开发, Zheng Yu Chen(ConradJam)， Apache Flink中文社区志愿者，长期从事游戏行业数据开发。此前在游戏公司负责Flink公共多云数据解决方案、数据同步、大数据运营流水线平台从0到1的设计与搭建。 </description>
+    </item>
+    
+    <item>
+      <title>Apache IoTDB:一个具有可扩展分区和共识算法的分布式时间序列数据库</title>
+      <link>/2024/zh/sessions/iot-1067.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/iot-1067.html</guid>
+      <description>Apache IoTDB (Database for Internet of Things)是一个高性能的物联网原生分布式时间序列数据库系统。在本节中，我们首先简要介绍IoTDB。然后，我们讨论了它的可扩展分区算法和创新的负载均衡。接下来，我们提出了一个统一的共识算法框架，支持各种共识算法，包括由Apache Ratis(高性能Raft库)实现的强一致性共识算法(Raft)和基于异步复制思想的弱一致性共识算法。我们还简要介绍了Ratis，并讨论了IoTDB在一长串Raft实现中选择Ratis的原因。最后，我们分享了在时间序列场景中部署和应用该框架的一些思考。
+Speakers: Xinyu Tan: 天谋科技 数据库内核开发工程师, Apache IoTDB/TsFile PMC </description>
+    </item>
+    
+    <item>
+      <title>Apache Pulsar跨kubernetes集群场景的部署实践</title>
+      <link>/2024/zh/sessions/cloudnative-1007.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/cloudnative-1007.html</guid>
+      <description>Apache Pulsar集群通常由Apache Pulsar、Apache ZooKeeper、Apache BookKeeper等组成，其中Apache ZooKeeper、Apache BookKeeper通常在Kubernetes中作为statfulset服务。在跨kubernetes集群部署的情况下，这些组件经常面临诸如如何跨多个集群维护统一的顺序索引，以及如何维护最小数量的可用集群副本等问题。本主题探讨如何在跨kubernetes集群场景中部署Apache Pulsar。
+Speakers: Tian Fang: AscentStream, Backend-Engineer, 专注于云原生、无服务器、流、EDA等，CNCF FaaS项目OpenFunction维护者。 </description>
+    </item>
+    
+    <item>
+      <title>Apache方式的实现:来自阿里巴巴的OpenRank实践</title>
+      <link>/2024/zh/sessions/community-1020.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1020.html</guid>
+      <description>在这个环节中，我将全面介绍我在阿里巴巴OSPO的一次研究实践。我们开发了一个名为OpenRank的社交网络贡献评估算法，并利用其结果建立了一个游戏化机制，以激励阿里巴巴开源社区的开发者之间的合作。OpenRank算法深受Apache方式的启发，尤其是“社区高于代码”。
+并将实践研究成果总结为研究论文，已被国际顶级学术会议ICSE 2024接受。
+Speakers: 赵生宇: 南, 博士学位。同济大学考生, 博士学位。考生，同济大学计算机科学专业。对开源数据研究特别感兴趣。曾任阿里巴巴开源项目办公室社区经理。 </description>
+    </item>
+    
+    <item>
+      <title>基于Apache Dolphinscheduler的阿里云大数据调度探索与实践</title>
+      <link>/2024/zh/sessions/dataops-1056.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/dataops-1056.html</guid>
+      <description>Apache Dolphinscheduler是一个分布式且易于扩展的工作流调度平台，可以帮助用户实现高效可靠的工作流调度和管理。阿里云EMR工作流是基于Apache Dolphinscheduler构建的云原生无服务器大数据开发和调度平台。本次演讲将从易用性、可扩展性、稳定性等方面分享基于Apache Dolphinscheduler的EMR工作流的探索与实践。
+Speakers: Xin Cheng: SDE 阿里云，Apache Dolphinscheduler提交者, 2019年获北京邮电大学学士学位，2022年获清华大学硕士学位。他目前是阿里云和Apache Dolphinscheduler Committer的软件开发工程师。 </description>
+    </item>
+    
+    <item>
+      <title>通过虚拟线程提升Tomcat性能</title>
+      <link>/2024/zh/sessions/webserver-1133.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/webserver-1133.html</guid>
+      <description>在本次会议中，我将分享tomcat如何与虚拟线程合作来提高应用程序性能，以及一些注意事项，例如虚拟线程的限制。
+Speakers: Han Li: Apache Tomcat PMC成员, Han Li，网易有道(网易有道信息技术(北京)有限公司)高级工程师，Apache tomcat提交者、PMC成员 </description>
+    </item>
+    
+    <item>
+      <title>集成Apache Celeborn和Apache麸质云原生Shuffle</title>
+      <link>/2024/zh/sessions/olap-1109.html</link>
+      <pubDate>Sun, 28 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1109.html</guid>
+      <description>会议探讨了Apache Celeborn(孵化)和Apache麸质(孵化)的集成，这是一个新的孵化Apache项目，用于支持本地SQL引擎，以增强Apache Spark在大数据计算环境中的性能。面筋通过使用像Velox和ClickHouse这样的本地引擎来解决CPU计算瓶颈，并引入了Columnar Shuffle机制。将远程洗牌服务Celeborn集成到面筋中，增强了Spark的性能、稳定性和弹性。性能测试显示，在不同环境下的结果有所改善。总的来说，麸质旨在为Spark用户提供无缝的体验，以利用原生引擎的优势，而无需迁移挑战，而Celeborn则在云原生环境中增强Shuffle操作。
+Speakers: Weiting Chen: 英特尔，高级软件工程师, Weiting是英特尔数据中心和人工智能集团的高级软件工程师。他拥有十年的工作经验，专注于大数据和云解决方案。他对Spark、OpenStack等项目做出了重大贡献，最近，他还作为Apache面筋(孵化)项目的初始提交者之一。他的职责之一是利用硬件的潜力来提高大数据工作负载的性能。 Kai Zhang: 阿里云，软件工程师, Celeborn PMC成员和 Gluten 贡献者，主要从事EMR Spark相关的开发工作。 </description>
+    </item>
+    
+    <item>
+      <title>Apache Linkis在长桥证券的应用与实践</title>
+      <link>/2024/zh/sessions/olap-1108.html</link>
+      <pubDate>Sat, 27 Jul 2024 17:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1108.html</guid>
+      <description>在当今的金融领域，大数据已成为业务创新和提升竞争力的关键驱动力。长桥证券是一家著名的金融服务企业，一直致力于利用先进的技术来提升其数据处理和分析能力，以更好地为客户服务和优化运营。Apache Linkis作为一款软件解决方案，凭借其强大的数据处理能力、灵活的资源调度机制和严格的安全管理，成为长桥证券在大数据领域的重要合作伙伴。
+长桥证券与Apache Linkis的集成使大量数据的快速处理和分析成为可能，同时通过集成多个计算引擎满足多样化和复杂的业务需求。软件提供的实时数据分析和监控功能，使长桥证券能够更准确地了解市场动态，及时调整经营策略。此外，Apache Linkis的跨部门数据共享和协作功能显著提高了长桥证券内部的数据利用效率，促进了业务创新。
+此外，长桥证券充分利用Apache Linkis的优化和可扩展性，不断升级和完善其系统。通过整合新技术和新功能，公司不断提高软件的性能和稳定性，确保高效的业务运营。此外，长桥证券根据不断变化的业务需求，采用弹性扩展和动态资源配置。
+综上所述，Apache Linkis在长桥证券的应用和实践，不仅提升了公司的数据处理和分析能力，也推动了业务的创新和发展。随着大数据技术的不断推进和应用场景的拓展，长桥证券旨在进一步深化与Apache Linkis的合作，共同挖掘大数据在金融行业的巨大潜力。
+Speakers: Hanmin Du: 大数据平台开发人员, 我积极参与了多个开源项目的代码贡献，包括Linkis, Trino, WeBankFinTech, Dromara和Arrow。在这些社区中，我投入了大量的时间和精力来编写和优化代码，同时也与社区成员合作，共同解决技术挑战，推动项目发展 x000D 通过参与开源代码贡献，我深深感受到了开源精神的力量和魅力。开源项目不仅让我学习到最新的技术知识和实践经验，还让我认识了许多志同道合的开发人员，与他们一起成长和进步 x000D 我认为开源技术是行业发展的重要动力，是培养优秀工程师的摇篮。我将继续积极参与开源社区，为开源事业贡献力量，努力成为一名更加优秀的软件工程师。 </description>
+    </item>
+    
+    <item>
+      <title>ResilientDB，一种高吞吐量的许可区块链结构</title>
+      <link>/2024/zh/sessions/datastorage-1050.html</link>
+      <pubDate>Sat, 27 Jul 2024 17:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1050.html</guid>
+      <description>ResilientDB是一个分布式区块链框架，它是开源的，轻量级的，模块化的，高性能的。
+ResilientDB是由加州大学戴维斯分校的ExpoLab于2018年创建的高吞吐量许可区块链结构。通过采用包含深层管道的多线程架构，ResilientDB提倡以系统为中心的设计。此外，ResilientDB模块化了每个组件(网络、共识协议和应用程序)，使每个级别的开发人员能够专注于他们的专业。
+Speakers: Junchao Chen: 南, 加州大学戴维斯分校的博士生，《弹性数据库》的作者, 2011年至2017年在腾讯微信担任核心工程师，负责后端消息系统。主要开发群聊系统和相册 2019年到2022年，他是谷歌的前工程师 负责Google assistant的后端系统。有助于提高系统性能。 </description>
+    </item>
+    
+    <item>
+      <title>云原生消息系统Apache Pulsar在腾讯云上的大规模生产实践</title>
+      <link>/2024/zh/sessions/messaging-1087.html</link>
+      <pubDate>Sat, 27 Jul 2024 17:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1087.html</guid>
+      <description>Apache Pulsar是一个云原生、分布式消息传递和流媒体平台。Apache Pulsar采用存储与计算分离的架构。支持大型集群、多租户、百万级主题、跨区域数据复制、持久存储、分层存储、高可扩展性等企业级和金融服务。Apache Pulsar提供了一个统一的消费模型，支持消息队列和流场景。它不仅可以为队列场景提供企业级的读写服务质量和强一致性保证，还可以为流场景提供高吞吐量和低延迟。 Apache Pulsar已在企业重点业务中实现，具有丰富的应用场景。目前，腾讯云也已经在生产实践中大规模应用了Apache Pulsar。在生产实践中，腾讯云对Apache Pulsar进行了一系列性能优化和稳定性增强，确保系统在不同场景下稳定高效地为用户运行。同时，面对云上复杂的网络环境和业务需求，支持更多的功能和特性，支持业务向云迁移。 在本次演讲中，我们将重点介绍腾讯云在Apache Pulsar的稳定性、性能和功能特性方面的关键工作，为开发者提供参考。
+Speakers: 韩明泽: 腾讯云计算（北京）有限责任公司, 毕业于武汉大学计算机专业。腾讯云高级研发工程师。开源社区爱好者。我在美团和腾讯有超过7年的消息队列相关的研发和运营经验。目前主要负责腾讯云脉冲星产品TDMQ的核心部分。同时，我也是Apache Pulsar贡献者和RoP维护者。 </description>
+    </item>
+    
+    <item>
+      <title>Apache Kyuubi在小米OLAP系统中的深度实现</title>
+      <link>/2024/zh/sessions/olap-1107.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1107.html</guid>
+      <description>—统一的SQL网关，用于大数据安全、SQL流量管理和可用性 —屏蔽不同底层引擎访问方式的差异，为用户提供一致的SQL服务入口点。它兼容Hive JDBC并支持HTTP访问，为集成BI工具和SQL ide(如Apache Superset、Cloudera Hue、DataGrip、DBeaver、PowerBI和Tableau)提供了便利。在底层，它与主流的计算和分析引擎，如Spark, Trino, JDBC (Mysql/Postgres/Impala/Doris)和Flink接口。通过与内部统一权限和目录服务集成，小米通过统一的SQL权限验证和数据拦截功能增强了Kyuubi代理层，解决了数据隐私和安全问题，并降低了与引擎层单独实现相关的成本。 -利用自动路由机制，提高SQL分发效率和资源利用率 —预先对SQL语句进行语法和语义分析，结合底层引擎的特点，实现自动路由功能，将SQL定向到最适合的执行引擎。对于相同类型的引擎，根据引擎集群的工作负载管理SQL分布，实现资源的合理利用和高效调度。 -任务级的详细SQL指标，用于全面了解用户SQL执行细节，授权治理，优化和诊断 —从kyubi Proxy层到底层引擎，收集端到端的SQL执行细节指标，形成统一的SQL特性库。这包括沿袭信息、跨各个维度的SQL APP/Stage/ task级指标，以及执行过程的DAG信息。基于这些信息，可以在SQL执行之前、期间和之后实现健康诊断，并帮助治理和优化Iceberg，为内部元数据仓库构建提供更丰富的指标。 -探索kuubi的笔记本功能 -随着AI的快速发展，特别是在算法场景中，Notebook是一种更受欢迎的开发范式。然而，在开发过程中，数据处理和分析是必不可少的，仅靠SQL无法满足算法复杂的处理场景。Kyuubi不仅支持SQL，还支持Scala/Python Code模式，提供了更大的可能性。我们尝试将Kyuubi与Jupyter Notebook集成在一起，为用户提供一种以代码为中心的方法，在同一架构内解决数据处理和算法挑战。与Spark代码提交模式相比，Notebook显著提高了开发效率，避免了冗长的调试、打包和部署过程。
+Speakers: Yaodong Zhang: 软件研发工程师, 负责小米OLAP系统的开发，Apache kyubi提交者。 </description>
+    </item>
+    
+    <item>
+      <title>Bigtop和Bigtop- manager与openEuler:大数据分发的新时代</title>
+      <link>/2024/zh/sessions/datalake-1037.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datalake-1037.html</guid>
+      <description>目前，还没有免费的大数据组件管理平台来简化数据管理和分析。这是因为Cloudera Data Platform (CDP)不再是免费的。
+随着人们对类似平台的兴趣日益浓厚，Apache Bigtop和它的孵化项目Bigtop- manager作为免费开源的CDP替代品进入市场。这些替代方案旨在提供一种更简单、更快速的数据管理和分析方法。
+此外，openEuler拥有超过300个组织成员，并且已经看到了重要的企业部署，特别是在中国。越来越多的中国用户对Bigtop和openEuler都表现出了兴趣。
+在这次演讲中，我们将概述即将发布的Bigtop 3.3版本及其对openEuler的支持状态。我们还将推出新的工具包，Bigtop-Manager。一个简单的演示将演示大数据组件的部署和管理解决方案。
+Speakers: Yuqi Gu: Work@Arm, -在Arm中国工作。与Arm内部的开源软件组、架构技术组和各种业务组密切合作。该角色涉及为Arm服务器启用和优化开源软件堆栈
+ Apache Bigtop PMC成员，Apache Bigtop前主席(2021~2023) Apache Ambari PMC成员，Committer.x000D ——guyuqi@apache.org Zhiguo Wu: 空谈是廉价的，给我看看代码, Apache Ambari的PMC成员，Apache Bigtop的提交者，现在致力于开发Bigtop Manager   </description>
+    </item>
+    
+    <item>
+      <title>为成功的开源事业发展软技能</title>
+      <link>/2024/zh/sessions/community-1019.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1019.html</guid>
+      <description>开源不仅仅是关于代码。本课程将讨论软技能在围绕Apache项目的开源社区中建立成功职业生涯中的关键作用。 学习如何有效地沟通、协作和应对挑战，成为一个全面的、有价值的开放源代码贡献者。
+与会者将学习:
+-制作清晰的文档，演示文稿和代码注释，以实现项目内的无缝协作。 -在不同的团队中建立信任、建设性地解决冲突和有效工作的策略。 -利用会议、在线社区和指导机会来建立一个强大的网络，并提高您在Apache生态系统中的知名度。 -通过持续的参与和内容创造来建立你作为有价值贡献者的声誉的技巧。
+Speakers: Sumaiya Nalukwago: IT专业人士|社区领导者|科技内容创造者, Sumaiya Nalukwago是一位充满激情的IT专业人士和技术倡导者。Sumaiya拥有姆巴拉拉科技大学(MUST)的信息技术学士学位，她的专长在于帮助他人驾驭科技领域
+在MUST期间，Sumaiya作为Google开发者学生俱乐部的第一位女性负责人开辟了一条道路，为学生们培养了一个充满活力的社区，让他们使用Google技术学习和开发。这种对包容性的奉献延伸到她目前担任谷歌开发小组云和女性技术制造商社区负责人的角色。Sumaiya是建立多元化和繁荣的技术社区的拥护者，每个人都可以在这里茁壮成长
+Sumaiya对科技教育的热情超越了大学环境。作为姆巴拉拉创新村的首席培训师，她为年轻人提供在数字经济中取得成功所需的技能。她的培训不仅包括技术知识，还包括软技能、多样性和包容性实践，以及更广泛的IT素养
+Sumaiya通过她的YouTube频道Tech Over with Sumaiya将她的影响力扩展到课堂之外。这个平台提供了有价值的、非编码的内容，使技术爱好者能够驾驭复杂的技术世界
+Sumaiya致力于培育包容性的技术社区，获得了国际认可。2023年，她被提名为著名的女性技术网络全球奖，在2100多名女性技术社区类别的参与者中进入前10名决赛。她还于2024年3月受到美国驻乌干达大使馆的表彰，以表彰她对科技的贡献
+Sumaiya的承诺超越了数字领域。她透过与姆巴拉拉市扶轮青年服务团的义工工作，积极地为她的社区做出贡献。 </description>
+    </item>
+    
+    <item>
+      <title>我们如何利用回收的低成本计算资源进行大规模的近线模型推断</title>
+      <link>/2024/zh/sessions/streaming-1132.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/streaming-1132.html</guid>
+      <description>由于GPU资源的不断增值，我们对小红书的图像搜索系统进行了重构，创建了近线/离线推理管道，最终开发出一种高质量的节省成本和提高效率的解决方案，利用空闲的计算资源来处理数十亿数据规模的模型推理任务:
+在具有潮汐特性的瞬时且易于驱逐的资源池中，我们建立了一个虚拟化的k8s集群，以启用Flink作业的提交。 我们与业务团队合作，将图像搜索系统的复杂推理管道(之前由10多个微服务组成)简化为几个PyFlink作业。 由于基于cpu的推理在BI领域比传统的数据处理慢得多，Flink的本地检查点机制不再适用。我们将自适应调度程序与自定义容错机制相结合，以确保瞬时资源的稳定和连续运行。 最终，我们显著提高了图像搜索数据管道的效率和稳定性，同时节省了数十万核心·天的固定资源。由于Flink集成了流和批处理功能，整个管道还统一了业务需求的近线和离线推理路径，在事务和社区算法等其他领域实现了成功。在未来，我们还考虑将推理能力与Ray集成，以支持更广泛的使用场景。
+Speakers: Yun Tang: 流媒体引擎小红书技术负责人, 我有超过10年的大数据系统开发和研究经验，主要专注于实时计算(从Spark Streaming到Flink)。我于2017年加入阿里云，从事与Flink相关的开发任务，如状态管理、容错、生态系统集成等，并成为Flink社区的提交者。2022年，我加入小红书，担任实时计算团队负责人，负责推动集成流和批处理场景的采用，并在公司内部实施近线/离线机器学习推理解决方案。我也在探索像Ray这样的分布式计算系统。 </description>
+    </item>
+    
+    <item>
+      <title>改进小米RocketMQ服务产品的实践</title>
+      <link>/2024/zh/sessions/messaging-1086.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1086.html</guid>
+      <description>本次分享主要介绍了小米在提升RocketMQ产品实力方面的实践，主要包括提升RocketMQ服务本身的稳定性，以及提升Flink RocketMQ、Schema、MQTT等服务等周边产品实力的实践。
+Speakers: Kunming Han: 小米，软件研发工程师, 主要负责小米公司消息队列相关工作 </description>
+    </item>
+    
+    <item>
+      <title>识别，调和，重复:在Apache臭氧统一副本的路径</title>
+      <link>/2024/zh/sessions/datastorage-1049.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1049.html</guid>
+      <description>分布式系统中的故障通常是无界的。Apache Ozone需要抵抗故障，并在面对这些故障时保持数据的持久性和一致性。和解是一项正在开发的新功能，它允许Ozone从故障中恢复，而不依赖于故障发生的方式以及故障之间的持续时间。协调允许对等体识别、报告和解决任何类型的差异，并且可以跨数据持久性模型(如复制和擦除编码)工作。系统可以在没有管理员干预的情况下启动并完成此过程。本演讲将涵盖副本协调背后的动机，可应用于任何存储系统的一般策略，以及使其成为可能的实现细节。
+Speakers: 伊桑玫瑰: 南, Cloudera高级软件工程师，Apache Ozone PMC成员, Ethan是Cloudera存储团队的一名工程师，他的时间主要用于与开源社区一起开发臭氧，以及帮助新用户将臭氧带入生产环境。他拥有伦斯勒理工学院计算机科学学士学位。 :舒克拉: 南, Cloudera，首席工程师, Ritesh是一名Apache Ozone PMC。他在分布式存储解决方案和系统方面拥有超过十年的经验。他热衷于在解决方案中选择这三者:简单、正确和高效。他目前正在研究Ozone，一个满足HDFS和S3工作负载的分布式对象存储。 </description>
+    </item>
+    
+    <item>
+      <title>Apache Paimon数据湖架构的洞察与设计分析</title>
+      <link>/2024/zh/sessions/datalake-1036.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datalake-1036.html</guid>
+      <description>在本次演讲中，我将深入研究Apache Paimon数据湖项目的核心实现细节。
+1.我将介绍CDC摄取背后的逻辑，这是一种关键的数据同步机制，允许实时捕获和集成数据更改。这确保了数据湖中的信息始终是最新的。 2.我将详细讨论Paimon表的读写过程，以及它的设计理念。这一部分将包括对Paimon体系结构的理解，特别是如何有效地管理和访问存储在数据湖中的数据。我们将探索如何通过“Bucket”和“Tag”这两个核心概念来优化数据的组织和检索，从而提高数据处理的效率。 3.我将解释主键表下的重复数据删除、部分更新和聚合合并引擎的实现逻辑。 通过本次演讲，与会者将深入了解Apache Paimon数据湖项目。
+Speakers: 陈卓宇: 小红书-搜索推荐引擎组-apache streaprk PPMC, paimon贡献者, 对开源充满热情。 </description>
+    </item>
+    
+    <item>
+      <title>Kafka分级存储在华为云上的实践与优化</title>
+      <link>/2024/zh/sessions/messaging-1085.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1085.html</guid>
+      <description>本节将分析本地Kafka在实际生产中的痛点，讲解Kafka分层存储架构和原理，并详细介绍华为云对分层存储的实践和优化，最后对华为云Kafka的未来进行展望。
+Speakers: Lan Ding: 华为云消息引擎研发专家, 华为云中间件团队软件工程师，Apache RocketMQ贡献者，Apache Kafka贡献者，负责华为云Kafka的开发。 </description>
+    </item>
+    
+    <item>
+      <title>从代码到社区:开发者在StreamPark的旅程</title>
+      <link>/2024/zh/sessions/community-1018.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1018.html</guid>
+      <description>加入我的演讲，探索开发人员在Apache StreamPark项目中的综合经验。从最初的编码尝试到深入的社区参与，我将在整个过程中分享所面临的技术挑战、实现的解决方案以及与其他开发人员的合作。这次演讲不仅是对StreamPark功能的分析，也是对个人成长和社区力量的探索。请听我讲述我如何在这个开源项目中找到自己的位置，如何通过实际例子见证技术与人类洞察力的融合，以及如何在挑战中拥抱机遇。
+Speakers: Chao Zhang: Apache StreamPark提交者, Apache StreamPark提交者 </description>
+    </item>
+    
+    <item>
+      <title>关于依赖任务的每个细节</title>
+      <link>/2024/zh/sessions/dataops-1055.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/dataops-1055.html</guid>
+      <description>依赖任务是Apache DolphinScheduler的一项高级功能，它为用户提供了管理复杂的跨dag依赖关系的惊人灵活性。然而，由于它的复杂性和跨不同发布版本的演变，有时用户会对它的行为感到困惑。这个演讲将带你了解什么是依赖任务，它是如何工作的，以及它的每一个细节!
+Speakers: Chufeng Gao: SDE@Alibaba云，PMC Member@Apache DolphinScheduler, Chufeng Gao，阿里云EMR无服务器Spark团队软件工程师。他专注于大数据编排工具已经三年多了。同时，Chufeng是一个开源爱好者，为Apache DolphinScheduler和Apache Airflow等多个开源项目做出了贡献。
+https://github.com/EricGao888 </description>
+    </item>
+    
+    <item>
+      <title>小米HBase稳定性和性能优化实践</title>
+      <link>/2024/zh/sessions/datastorage-1048.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1048.html</guid>
+      <description>背景 本节主要介绍小米内部HBase应用的现状和规模，以及遇到的挑战。此外，它还将介绍一些内部优化措施的实现和随后获得的好处。 方法和实践 2.1稳定性实践 —热点区域处理 -业务热点请求导致队列拥塞，影响其他区域读写操作;通过将热点区域隔离到负载较低的节点上来解决这个问题。 —TPS负载均衡 -现有的平衡解决方案不能有效地处理请求量的突然峰值，导致TPS负载不均匀引入TPS负载平衡来缓解这些问题，符合小米的内部使用场景。 —在异常重启时加速重放数据 —节点异常重启，大量的wal导致数据回放时间过长;减少播放wal的数量，加快数据播放时间，将区域不提供业务的时间从160秒优化到16秒。 2.2性能优化实践 -本节将重点介绍小米的内部考虑和实现HBase请求队列的分组线程模型，对请求进行优先级排序，以更好地满足内部业务需求。 2.3跨版本升级 -强调小米从0.98版本迁移到2。X，包括背景，过程，遇到的挑战，以及相应的解决方案。 总结及未来规划 本节将主要讨论小米对HBase未来发展的思考，并概述应对即将到来的挑战和需求的计划策略。 侦听器的好处: 通过本次分享，您可以深入了解小米内部针对业务使用场景的优化解决方案和方法，以及提升系统稳定性和性能的实践。
+Speakers: Yuting sun: 存储研发工程师, 小米软件研发工程师，主要负责HBase开发 </description>
+    </item>
+    
+    <item>
+      <title>小米利用派蒙优化Flink稳定性和提高业务效率的实践</title>
+      <link>/2024/zh/sessions/streaming-1131.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/streaming-1131.html</guid>
+      <description>本次分享主要介绍了小米在稳定性方面的一些优化，以及Flink+Paimon的案例分享，帮助小米提高业务生产效率。
+ Flink稳定性优化 1.1Flink HA能力建设 容错在生产中是非常重要的。本节主要讨论小米在其作业处理架构中建立健壮的高可用性(HA)功能方面的努力，特别是深入研究检查点高可用性和MQ高可用性等机制。 1.2通过Flink Job调试提高问题诊断效率 实时作业的故障排除非常复杂，例如聚合结果不符合预期、数据疑似丢失等。 在本节中，我们将介绍小米Flink Jobs的操作员级调试功能的实现过程。 1.3 Flink故障自动恢复能力建设 生产环境非常复杂。我们希望自动处理一些常见场景的故障，如热点机恢复、长期检查点触发故障等，减少用户的精力投入和运维压力。 Flink + Paimon如何帮助提高业务效率 本节将介绍小米Flink+派蒙的实际场景，以及派蒙如何帮助提高业务效率。  Speakers: 王胜杰: 小米计算引擎研发工程师, 小米计算引擎研发工程师。负责计算机引擎的开发 </description>
+    </item>
+    
+    <item>
+      <title>阿帕奇·多丽丝在财通证券的实践</title>
+      <link>/2024/zh/sessions/olap-1106.html</link>
+      <pubDate>Sat, 27 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1106.html</guid>
+      <description>介绍Apache Doris在财通证券的用例。
+Speakers: Asher Wang: 数据架构师, 15年以上数据仓库和大数据工作经验。现就职于财通证券，担任大数据架构师。负责大数据基础设施、数据集成、数据平台等工作 </description>
+    </item>
+    
+    <item>
+      <title>Apache RocketMQ中批处理消息的演变</title>
+      <link>/2024/zh/sessions/messaging-1084.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1084.html</guid>
+      <description>本课题从RocketMQ的模型设计到其内部机制，全面分析了RocketMQ批处理消息特性的迭代演化。通过持续不断的迭代，实现了AutoBatch功能，增强了可用性，同时实现了达到先进行业水平的性能，从而满足了各种业务需求。本主题不仅分享了RocketMQ的原理和批处理的演变，还包括与批处理消息相关的性能优化，我相信这将为每个人提供一些不同的观点。
+Speakers: You Fu: 阿里云消息队列研发工程师, Apache Rocketmq深度参与批处理能力的演进 对各种性能优化解决方案和技术充满热情 </description>
+    </item>
+    
+    <item>
+      <title>BitSail:一个基于Apache生态系统的通用数据集成框架</title>
+      <link>/2024/zh/sessions/streaming-1130.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/streaming-1130.html</guid>
+      <description>在本次演讲中，我们将探讨BitSail在Apache生态系统中的实际应用，重点是由Apache Flink提供支持的通用数据集成框架的设计和实现。
+我们将讨论在构建一个可扩展且高效的框架以促进无缝数据集成时所涉及的挑战和解决方案。
+此外，会议还将介绍BitSail如何与各种Apache开源数据源连接，增强不同系统之间的连接和数据流。
+将分享实际示例和案例研究，以展示这些集成在真实场景中的有效性，强调利用Apache技术实现健壮的数据管理解决方案的优势
+Speakers: Weike Dong: 字节跳动的高级软件工程师, Weike在流计算领域已经有好几年的经验 他之前深度参与了腾讯基于Flink的完整流处理平台的构建,目前，他在字节跳动负责数据集成框架BitSail的战略规划和开发。 </description>
+    </item>
+    
+    <item>
+      <title>Kafka云原生架构在小红书公司的实践</title>
+      <link>/2024/zh/sessions/datastorage-1047.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1047.html</guid>
+      <description>在这节课中，我们将介绍Kafka云原生架构在我们公司的实践，包括基于ObjectStore的分层存储，基于k8的部署架构和基于这些架构的自动平衡/自动扩展模式。
+Speakers: Yihao Zhang: 小红书大数据存储架构专家, 小红书大数据存储团队负责人。目前负责小红书数据流引擎的构建，如Apache Kafka，分布式文件加速系统等。 Zhangheng Huang: 小红书消息引擎研发专家, Apache/RocketMQ和SOFASTACK/SOFAJRaft_x000D_的提交者 目前专注于云原生消息系统的探索与实践 </description>
+    </item>
+    
+    <item>
+      <title>小米湖仓数据与人工智能集成的实践</title>
+      <link>/2024/zh/sessions/datalake-1035.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datalake-1035.html</guid>
+      <description>本次分享主要介绍小米在data和AI场景下的数据湖实践。在BI场景中，我们将介绍使用Apache Iceberg的业务实践和智能优化策略。在AI场景中，我们将介绍对非结构化数据的管理。此外，我们将介绍我们在数据和人工智能场景下使用重力子实现元数据统一的解决方案。
+ Apache Iceberg在小米的优化与实践   Apache Iceberg的实践 Apache Iceberg在小米内部管理数万个表和近50 PB的数据。我们将介绍小米使用Apache冰山的内部业务场景，包括离线和实时场景，以及Apache Iceberg如何帮助用户降低成本，提高效率。 -智能优化Apache Iceberg -本节将介绍如何智能优化Apache Iceberg以提高查询效率。我们将介绍表画像和查询指标系统，以及如何使用Zorder帮助用户自动完成表优化。  人工智能场景中非结构化数据的管理和使用 -介绍小米使用Gravitino Fileset管理非结构化数据的做法 -我们将介绍如何使用重力文件集来管理非结构化数据。如何标准化非结构化数据的路径访问，如何管理数据生命周期，如何与Spark引擎集成，以及如何与TensorFlow或PyTorch等机器学习引擎集成 介绍Data和AI场景下元数据统一实践 -冰山元数据服务简介 -我们将介绍如何使用Gravetino来管理冰山的元数据。为什么我们使用冰山休息目录而不是Hive目录?冰山休息目录能带来什么优势? -介绍使用Gravitino统一元数据的实践 -介绍如何使用Gravitino统一数据湖元数据，统一元数据给我们带来哪些优势，如何实现结构化和非结构化数据元数据的统一管理。  Speakers: Peidian Li: 小米软件研发工程师, 小米软件研发工程师，负责Apache Iceberg、Apache Paimon、Gravitino的开发。 </description>
+    </item>
+    
+    <item>
+      <title>建立在Apache DolphinScheduler之上的联通数字技术综合数据资产平台</title>
+      <link>/2024/zh/sessions/dataops-1054.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/dataops-1054.html</guid>
+      <description> 基于Apache dolphinscheduler，将整个数据处理环节串联起来，从数据采集到数据应用的全程运行管理。 匹配代码数据研发平台，将数据探索和数据研发向低成本、高效率方向转变。 针对标准、BI和数据开发的智能实用解决方案  Speakers: Liu Wu : 高级大数据开发工程师, 有多年大数据相关的系统管理和平台开发经验。涉及的技术点包括大数据生态、实时计算与存储、数据仓库、数据湖，并参与社区代码提交如调度dolphinscheduler、数据湖paimon、dinky等贡献 </description>
+    </item>
+    
+    <item>
+      <title>我怎么做才能成为Apache提交者?</title>
+      <link>/2024/zh/sessions/community-1017.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1017.html</guid>
+      <description>为什么要为开源做贡献?我对开源的看法是，在GitHub上浏览主要公司和基金会的主页和项目列表真的很了不起。他们无私地分享自己的劳动，为整个人类社会贡献自己的成果，促进了工业和社会的发展，这令人鼓舞。
+为什么要成为Apache提交者?成为一名Apache Committer提供了许多好处，包括个人专业成长、与有才华的同行建立联系、通过Apache电子邮件和Committer证书对个人能力的认可、在就业市场上的竞争力增强、积极和广泛地参与项目开发、提高行业中的专业形象、免费使用JetBrains工具、在国内和国际上不受地域限制地获得行业认可。
+从哪里开始呢?从礼貌和友好地参与社区互动开始。通过提交相关文章/视频、提交pull requests (pr)、参与社区讨论、解决其他用户问题、为社区/项目改进提供建议、增强文档、进行代码审查、检查DSIP是否有目标提交、以及在公开会议上发表项目主题演讲等方式做出贡献。总之，以任何可能的方式为社区做出贡献。值得注意的是，所有的贡献都应该坚持Apache风格，并鼓励通过GitHub, Slack和电子邮件等平台进行交流(微信不包括在内)。
+社区比代码重要。社区-&amp;gt;代码-&amp;gt;项目-&amp;gt;用户-&amp;gt;社区的循环形成了一个正反馈循环。
+立场:与项目/社区的利益保持一致。
+要成为Apache Committer，就要把自己当成Apache Committer。利用你的专业知识为项目/社区做出长期和可持续的贡献。
+积极主动，表现出积极主动。
+每个角色在Apache官方网站上都有明确具体的评估流程。社区的运作结构确保了最大程度的公平和正义，捐款盗窃事件很少发生。所以，自信点，继续你的贡献吧;他们会被看到和欣赏。
+从来没有一个组织像我这样的理想主义者的理想如此一致。
+晋升路径:用户-&amp;gt;贡献者-&amp;gt;提交者-&amp;gt;PMC-&amp;gt;ASF成员。
+术语解释:提交者是Apache组织官方认可的角色。
+成就感是个人价值的集中体现。
+很少有人从事开源。在各个行业的程序员中，截至2024年3月25日，只有8400多人。如果你的贡献稍微多一点，你的贡献很容易被注意到。
+所有大型商业实体，甚至政府部门，都依赖于开源。他们是无形的贡献者，使整个社会顺利运转。
+刘慈歆的小说《2018年4月1日》提到了“IT共和国”:“IT共和国是虚拟国际社会中的超级大国，拥有8000万人口，而且还在快速增长。它是一个主要由It工程师组成的国家，有着强烈的政治要求和对物理国际社会的强大影响。”
+“程序员、网络工程师和数据库管理员构成了IT共和国的主体。这个阶层是19世纪工业大军在21世纪的翻版，但随着劳动部分从体力向智力的转变，负担非但没有减少，反而增加了。在程序代码的海洋和网络硬件和软件的迷宫中，他们像两百多年前的码头工人一样扛着沉重的负担，像妓女一样通宵工作。信息技术的发展日新月异，除了那些有幸爬上管理岗位的人，其他人的知识和技能很快就会过时。新的IT毕业生像饥饿的白蚁一样蜂拥而至，把老人们(他们实际上并不老，大多在30多岁)推到一边，取代或抛弃他们。但新来者没有理由自满。对他们中的大多数人来说，这也是不太遥远的未来……这个阶级叫做技术无产阶级。
+不要说我们一无所有;我们将格式化世界!这些是国际国歌的修改过的歌词。”
+要想成为改变世界的人，首先要有改变世界的想法。
+希望有抱负的个人尽快成为提交者。
+Speakers: YuXing Liu: 前腾讯数据开发，Apache dolphinscheduler贡献者, 前腾讯数据开发，负责Apache Dolphinscheduler内部分支开发和线下ETL建设。目前积极参与Apache Dolphinscheduler的构建和贡献，努力在早期阶段成为提交者
+喜欢分享，渴望与朋友分享好东西
+热爱开源，相信技术可以改变世界，促进全球发展，促进自由和开放。希望为开源社区贡献自己的力量。 </description>
+    </item>
+    
+    <item>
+      <title>用于Spark优化的文件运行时统计</title>
+      <link>/2024/zh/sessions/olap-1105.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1105.html</guid>
+      <description>在本演示中，我们将探索在SparkSQL优化器中基于拼花文件的统计信息的应用，重点关注使用这些统计信息实现基于成本的优化。
+我们将讨论查询优化中的挑战，以及如何以低成本的方式收集统计信息。
+此外，我们将分享一些基于成本的优化规则，包括交换消除，布隆过滤器下推，并行性估计等，并展示如何使用统计信息来避免这些优化规则中的坏情况。
+我们还将分享在超大规模数据上验证的结果，以展示这些优化的有效性。
+Speakers: Zhengjie He: 字节跳动数据工程师, 毕业于中国科学院大学。目前，我在字节跳动从事大数据引擎的开发工作。我对SQL执行计划优化、计算引擎成本降低和其他OLAP技术非常感兴趣。 </description>
+    </item>
+    
+    <item>
+      <title>Apache Celeborn在Bilibili上的生产实践</title>
+      <link>/2024/zh/sessions/datastorage-1046.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1046.html</guid>
+      <description> 介绍Apache Celeborn的最新功能 介绍Apache Celeborn在Bilibili上的最佳实践 简要介绍一下Apache Celeborn在Bilibili上的执行情况 概述Apache Celeborn未来的实际计划  Speakers: Nicholas Jiang: Bilibili，高级开发工程师, Apache Celeborn/Kyuubi/RocketMQ提交者，Apache Paimon PPMC </description>
+    </item>
+    
+    <item>
+      <title>Apache Flink CDC在霍拉拉的实践与应用</title>
+      <link>/2024/zh/sessions/streaming-1129.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/streaming-1129.html</guid>
+      <description>lalmove &amp;amp; Huolala是一个按需配送平台，其使命是通过快速，简单和负担得起的配送来赋予社区权力。
+在社区最新的Apache Flink CDC 3.0上进行实践，并在生产中使用它。现在，我们运行着100多个任务，分享我们在生产实践中遇到的挑战和问题，并回馈给社区
+Speakers: Zheng Yu Chen: Apache Amoro PPMC, HuoLaLa 高级大数据开发, (ConradJam)， Apache Flink中文社区志愿者，长期从事游戏行业数据开发。此前在游戏公司负责Flink公共多云数据解决方案、数据同步、大数据运营流水线平台从0到1的设计与搭建。 </description>
+    </item>
+    
+    <item>
+      <title>Apache RocketMQ存储的演变</title>
+      <link>/2024/zh/sessions/messaging-1083.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1083.html</guid>
+      <description>消息传递系统随着云原生和微服务的概念而发展，见证了高度动态和异步系统(如无服务器和事件驱动架构)的活力。因此，消息队列本身的体系结构和模型发生了重大变化。本演讲介绍了数据密集型应用程序如何在其现代化过程中引入新的解决方案来支持大规模队列。它将涵盖分层存储能力和新的索引设计，热数据和热数据的粒度流量控制，以及云本地存储和集成硬件软件技术的实验。讨论将深入探讨技术选择的分析和权衡，分享像消息传递系统这样的基础设施服务如何利用软件和硬件进步带来的好处。这些进步满足了流处理和实时分析场景中不断增长的数据分析需求，同时平衡了成本和机器效率。会议旨在展示消息基础设施如何真正地拥抱云原生原则，将消息策略扩展到流领域，并作为未来事件驱动架构(EDA)、全面无服务器和轻量级计算环境的基础。
+Speakers: himin Li: 阿里巴巴，二级工程师, 在构建高可用性和分布式系统以及性能调优方面拥有丰富的经验，我的重点是分布式消息传递系统和有状态计算领域。我也是Apache RocketMQ Committer团队的一员。 </description>
+    </item>
+    
+    <item>
+      <title>动员你的社区军队:一个商业开源的视角</title>
+      <link>/2024/zh/sessions/community-1016.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1016.html</guid>
+      <description>今天的开发者关系不可避免地与开源软件及其社区联系在一起。分类别了解不同的开源社区，在企业战略框架内制定开源战略，与开源开发者形成良好的互动，共同创造价值，成为开发者关系工作者必须了解和掌握的话题。
+本次演讲首先从多个维度对开源社区进行了分类，明确了与不同社区相处的特点和方式;然后讨论了商业开源应该如何适应不同的企业战略和开源社区类别;最后给出了一个开源开发者之间关系的例子，工作的切入点包括如何建立相应的画像和分段，以及如何基于内容和协调开展具体的工作。
+Speakers: Zili Chen: 腾讯软件开发员，Apache Flink Committer, Zili Chen为Apache Flink贡献了一年多，现在是Flink提交者之一。他专注于分布式系统的一致性和面向用户界面的灵活性。 </description>
+    </item>
+    
+    <item>
+      <title>在数据湖中自由航行:最佳实践与Apache Iceberg实现</title>
+      <link>/2024/zh/sessions/datalake-1034.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datalake-1034.html</guid>
+      <description>将数据湖和数据仓库融合到一个统一的体系结构中，即所谓的Lakehouse范式，已经在数据工程社区中获得了显著的吸引力。Apache Iceberg已经成为实现Lakehouse架构的基石技术，为高效管理大规模事务性数据湖提供了强大的功能。 在本节课中，我们将探讨使用Apache Iceberg实现Lakehouse架构的最佳实践。通过真实世界的例子和实际见解，与会者将学习如何设计、部署和优化lakhouse解决方案，利用Iceberg在数据管理、可靠性和性能方面的优势。
+Speakers: Bill Zhang: Cloudera，Iceberg集成数据仓库产品经理, Bill是Cloudera的高级产品管理总监，负责Open Data Lakehouse产品战略和Apache Iceberg与所有Cloudera Data Platform (CDP)形式因素的集成。Bill还领导了Apache Hive产品路线图和采用。最近，Bill负责SAP HANA数据平台和SAP HANA云的解决方案管理。在此之前，他领导Sybase Replication Server的产品管理。 </description>
+    </item>
+    
+    <item>
+      <title>在智能运维行业对Apache Echart的应用与挑战</title>
+      <link>/2024/zh/sessions/olap-1104.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1104.html</guid>
+      <description>在智能运维行业对Apache Echart的应用与挑战
+ 运维行业简介 A.行业简介 B.行业特性 c. IT资产、日志场景、告警场景、ITIL d.存在大量数据、强可视化诉求、深度与Echart绑定 日志分析场景图表弊端展现 A.日志存在大量数据 B.日志数据精确到分钟级 C.卡顿，白屏，死机场景出现 过程中尝试与挑战(SSR, SVG, Canvas) a.通过画布方案尝试 b.通过SVG方案尝试 c.通过SSR方案尝试 最终方案敲定（数据聚合、与切分） A.通过聚合数据尝试 b.利用dataZoom配合数据切分尝试 C.问题解决得到客户认可  Speakers: 王海虎: 智能运维专家 7年多开发经验。目前就职于云智慧公司，在公司内部担任数据可视化&amp;amp;低代码专家，同时担任产品研发总监。外部担任中国信通院低代码专家,开源项目FlyFish的负责人,Cloudwise AIOps社区专家,清华Thulab的DWF项目开发者,AntV贡献者。主攻可视化，3d引擎，低代码方向。参编了多篇行业低代码的标准规范建设，有着大型智能运维平台建设经验。一直以来在可视化及运维领域方向深耕。
+演讲方面 参与过:中国信通院,Apache开源中国,CSDN, ITPUB, linux nextArch,又拍云等官方组织的演讲活动。 演讲过:低代码,Devops,大数据可视化,网络应用开发,开源圆桌讨论,场景落地,应用深度探索沙龙等相关话题。 </description>
+    </item>
+    
+    <item>
+      <title>小米数据集成全链路数据监控实践</title>
+      <link>/2024/zh/sessions/dataops-1053.html</link>
+      <pubDate>Sat, 27 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/dataops-1053.html</guid>
+      <description>本演讲介绍了小米在数据集成实践中构建的可视化全链路数据监控系统。
+本次分享的重点是数据集成全链路数据监控技术在小米的实施。从数据集成链路系统出发，针对数据集成实践中遇到的可靠性挑战，从可视化的角度对全链路数据监控建设方案的提出与实施等方面进行分享与讲解。演讲围绕数据集成可靠性和全链路监控两个主题，阐述了构建可观测数据集成全链路监控系统对提高数据集成可靠性和用户体验的好处。
+第一节。数据集成在小米的发展 在小米的日常运营中，数据整合起着至关重要的作用。它是连接各个业务模块，实现数据共享和流通的桥梁。通过数据集成，我们可以高效地整合不同来源、不同格式的数据，为后续的数据分析和业务决策提供有力的支持。本章将介绍小米数据集成的发展历史、支持的数据链路、业务范围和工作数量级
+第二部分:数据集成面临的可靠性挑战 对于普通用户来说，数据集成通常是一个黑箱过程。他们不了解数据是如何从一个系统传输到另一个系统的，也不了解在传输过程中可能遇到的问题。这种不透明性增加了用户对数据可靠性的担忧。本章将介绍用户对数据集成可靠性的质疑，以及小米在数据集成过程中遇到的数据一致性的挑战。
+第三部分:全链路数据监控的构建与实践 本章从同步链路的可靠性入手，介绍了全链路数据监控系统的构建，包括大规模的数据统计、实时的业务流量监控、基于滚动窗口的全链路数据计数统计、端到端数据对比等。通过这些能力建设的努力，小米在数据集成可靠性方面的工作得到了证明。
+第四部分:未来前景及改善方向 未来将扩大实时监控链路的范围，提升流量控制能力，提高链路稳定性，支持离线场景下的数据验证。
+在数据集成领域，对于构建可观察的监控环节系统，增强数据集成的稳定性，改善用户体验具有借鉴意义。
+Speakers: Jianqiang Sun: 小米, 小米软件研发工程师，主要负责数据集成相关工作 </description>
+    </item>
+    
+    <item>
+      <title>Apache seattunnel实现了批处理和流集成的高效数据同步</title>
+      <link>/2024/zh/sessions/dataops-1052.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/dataops-1052.html</guid>
+      <description>Apache seattunnel结构如何在Flink上构建一个高效的数据集成工具
+Speakers: Chao Tian: Apache seattunnel PMC成员, 开源爱好者为DataX、Flink CDC、Debezium、Chunjun等数据集成项目做出了贡献，是Apache SeaTunnel PMC成员。 </description>
+    </item>
+    
+    <item>
+      <title>Apache StreamPark高可扩展性实践</title>
+      <link>/2024/zh/sessions/streaming-1128.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/streaming-1128.html</guid>
+      <description>介绍Apache StreamPark基于插件的扩展功能和工程解决方案，演示插件开发如何适应各种业务场景，并演示与Flink CDC和Paimon的集成解决方案。
+Speakers: Xinyu Dai:Apache StreamPark社区, 大数据软件工程师，Apache StreamPark/Paimon贡献者 </description>
+    </item>
+    
+    <item>
+      <title>在AntGroup优化Apache HoraeDB的高基数指标</title>
+      <link>/2024/zh/sessions/olap-1103.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1103.html</guid>
+      <description>高基数是时间序列数据库(tsdb)面临的一个重大挑战。当度量跟踪大量实体时，或者度量本身具有大量可能值时，就会发生这种情况。 传统的时间序列数据库通常没有针对处理大量唯一值组合进行优化，从而导致在处理高基数度量时性能下降和效率低下。 本主题将探讨Apache HoraeDB如何解决这个问题。
+Speakers: Jiacai Liu: 高级软件工程师, Apache HoraeDB核心开发人员，PPMC成员-在蚂蚁集团开创了HoraeDB从零到生产现实的旅程。开源的传道者激发了技术上的启示 Chunshao Ren: 高级软件工程师, Apache HoraeDB核心开发人员，PPMC成员-在蚂蚁集团开创了HoraeDB从零到生产现实的旅程。 </description>
+    </item>
+    
+    <item>
+      <title>引力冰山REST目录服务，原因及其他</title>
+      <link>/2024/zh/sessions/datalake-1033.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datalake-1033.html</guid>
+      <description>本节将介绍冰山社区为什么要引入冰山REST编目，以及REST编目的最新进展。为什么gravino集成了Iceberg REST目录服务，它的未来。
+Speakers: Xiaojing Fang: 数据分析师，软件工程师, 10年大数据领域工作经验，先后在阿里巴巴、腾讯、快手从事分布式计算和调度系统工作。 </description>
+    </item>
+    
+    <item>
+      <title>我从零开始启动一个开源项目的故事</title>
+      <link>/2024/zh/sessions/community-1015.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1015.html</guid>
+      <description>近年来，开源的普及程度一直在上升。许多公司正在积极参与上游开源项目并做出贡献。他们也在主动开源他们成熟的解决方案。
+然而，对于大多数中小型团队来说，从头开始启动一个开源项目是具有挑战性的。在过去的一年里，我有机会在一家创业公司做这项工作，包括项目立项、决策、策划、搭建、组织、最终公开。
+老实说，这是一份既艰苦又令人兴奋的工作。我们为我们的开源项目采用了许多Apache方法，包括如何孵化我们的项目，以及如何通过Apache项目成熟度模型来度量它，等等。我想我可以把我的整个过程分享给大家，供大家在遇到同样的情况时参考。
+Speakers: Dianjin Wang: ALC北京会员，ApacheCon Asia 2021-2024出品人，HashData开源负责人。 </description>
+    </item>
+    
+    <item>
+      <title>腾讯云中的Kafka无服务器架构</title>
+      <link>/2024/zh/sessions/messaging-1082.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1082.html</guid>
+      <description>Kafka在腾讯云中被广泛使用。由于Kafka架构的问题，有很大的操作压力。为了提前保证稳定性和成本，一套Kafka无服务器架构正在逐步探索。本次分享将介绍腾讯云Kafka无服务器架构的演进过程和经验。
+Speakers: 鲁仕林: 南, 腾讯云计算（北京）有限责任公司，北京市海淀区马连洼街道腾讯总部大楼，腾讯云专家工程师, 我毕业于天津大学软件工程专业。目前负责腾讯云Kafka内核的开发和优化，有7年消息中间件的开发和运维经验。曾在腾讯、字节跳动等公司负责消息中间件的开发，有大型集群运维经验。我也是Apache项目Kafka和RocketMQ的开源贡献者，我对贡献和回馈开源社区充满热情。 </description>
+    </item>
+    
+    <item>
+      <title>降低ByteDance中SparkSQL计算成本的优化</title>
+      <link>/2024/zh/sessions/datastorage-1000.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1000.html</guid>
+      <description>字节跳动使用SparkSQL作为ETL的主要工具之一。通过对在线任务的分析，我们发现导致Spark作业性能下降的主要因素有三个:对大量数据进行变换、扫描大量小文件和低效的推测执行。对大量数据进行Shuffle处理可能会导致网络拥塞、IO瓶颈等问题，影响Shuffle服务的稳定性。读取大量小文件会增加数据传输开销和内存使用。低效的推测执行经常启动和终止备份任务，浪费集群资源并影响其他任务的调度。这些因素显著增加了计算成本。
+我们使用两种主要技术优化Shuffle: bucket和ZSTD Shuffle。首先，我们基于开源的SparkSQL显著增强了Bucket优化。这包括覆盖更多的Exchange消除场景、改进可用性和提高适应性。我们还构建了一个Bucket推荐系统来自动识别哪些表可以在转换为Bucket时减少Shuffle数据。在ODS场景下，推荐的Bucket优化可以减少多达99.9%的Shuffle数据，节省高达58%的计算资源。其次，我们将Shuffle数据的压缩算法从LZ4改为ZSTD，压缩比明显提高，减少了40%以上的Shuffle数据。
+我们设计并实现了一个基于shuffle的小文件整合功能，以防止小文件的生成，从而消除了下游任务扫描大量小文件的需要。该功能通过在写入表之前引入Shuffle并控制Shuffle并行性来实现文件整合，从而避免了二次HDFS读写操作。此外，我们利用AQE (Adaptive Query Execution)框架来优化Shuffle Read，防止数据倾斜。
+为了缓解投机执行效率低下造成的问题，我们首先分析了所有在线任务的配置文件，发现为投机执行而启动的大量任务最终被终止，导致相当大的集群资源浪费。随后，我们引入了Efficient Speculation optimization，根据数据处理的速度来决定是否发起投机执行，从而避免了由于数据倾斜而发起投机执行(因为投机执行无法解决这种情况)。最后，我们适当提高了投机执行的启动阈值，进一步减少了投机执行造成的计算资源浪费。优化后，推测执行任务数量减少了15%，计算资源消耗减少了9%。
+Speakers: 甘红楠: 字节跳动高级研发工程师，字节跳动高级研发工程师,
+ 复旦大学学士、硕士学位 SparkSQL内核开发者ByteDance 对SQL优化感兴趣   </description>
+    </item>
+    
+    <item>
+      <title>Apache DolphinScheduler与Kubernetes的改进和增强</title>
+      <link>/2024/zh/sessions/dataops-1051.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/dataops-1051.html</guid>
+      <description>思科Webex改进和增强了Apache DolphinScheduler和Kubernetes
+Speakers: Qingwang Li: 思科Webex，软件工程师, Cisco Webex，软件工程师，Apache DolphinScheduler提交者 </description>
+    </item>
+    
+    <item>
+      <title>Apache多丽丝存储和计算分离</title>
+      <link>/2024/zh/sessions/olap-1102.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1102.html</guid>
+      <description>共享Apache Doris 存储与计算分离的架构、详细设计和用例
+Speakers: Gavin Chou: SelectDB高级研发工程师, 我从事分布式/云存储系统的工作，我目前正在SelectDB学习和使用OLAP数据库。 </description>
+    </item>
+    
+    <item>
+      <title>关于ASF及其来自中国的项目</title>
+      <link>/2024/zh/sessions/community-1014.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/community-1014.html</guid>
+      <description>中国的开源运动已经蓬勃发展了十多年，使其成为仅次于美国的世界第二大开源开发者和贡献者。《2023中国开源报告》从开发者、技术、项目、社区、企业、教育、基金会、开源商业化、国内外开源编年史等多个角度对中国的开源发展进行了梳理。这次交流将更多地关注非洲猪瘟及其项目，特别是来自中国的项目。在这个分享中，你可以找到更多关于中国开源的事情。
+Speakers: Ted Liu: ASF会员|开源社联合创始人、董事, Ted Liu是开源技术的热情倡导者和志愿者。他与人共同创立了开源社，这是一个在中国白手起家的开源联盟。此外，Ted还是Apache软件基金会(ASF)的成员，在那里他担任孵化器PMC和几个项目和社区发展PMC的导师。
+Ted也是一些企业公司的开源顾问，包括腾讯、华为和Bain &amp;amp; company
+在全职致力于开源之前，Ted在科技行业担任过各种高级职位。他曾担任微软中国战略业务发展总监，微软开放技术和微软亚太研发集团首席技术传道者，甲骨文中国渠道和联盟总监，Linux战略总监，大中华区中间件业务部总经理，Turbolinux亚太区副总裁。 </description>
+    </item>
+    
+    <item>
+      <title>基于Apache Paimon的中国联通流媒体湖应用实践</title>
+      <link>/2024/zh/sessions/datalake-1032.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datalake-1032.html</guid>
+      <description>本课题拟介绍中国联通基于Apache Paimon构建流数据仓库的实践经验，主要包括中国联通的两个核心业务项目:实时用户标签和自然人。它将涵盖业务背景，流批集成数据仓库架构，在实践中遇到的问题和相应的解决方案，使用Apache Paimon解决问题所获得的好处，以及未来的计划。
+Speakers: Yunpeng Wang: Apache Paimon贡献者;现为中国联通数字科技有限公司数据智能事业部大数据技术专家，负责万亿级Flink实时计算, Apache Paimon贡献者; 现任中国联通数字科技有限公司数据智能事业部大数据技术专家，负责万亿级Flink实时计算开发、运维和平台建设，负责Streaming lakhouse的实施 Zhenhao Li: 中国联通数字科技有限公司数据智能事业部专家软件开发工程师，负责万亿级实时计算平台开发。专注于流媒体湖屋建设和基础设施编排。 </description>
+    </item>
+    
+    <item>
+      <title>基于中国移动云的RocketMQ跨az演化</title>
+      <link>/2024/zh/sessions/messaging-1081.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1081.html</guid>
+      <description>本讲座将介绍RocketMQ在中国移动云跨az方面的发展，并讨论跨可用区容灾场景下多集群架构的最佳实践。然后讨论Kubernetes多集群架构的演变、好处和挑战。我们将分享云(中国移动云)多集群架构从KubeFed到karma ada再到Kosmos的演进过程，并总结其中的经验教训。 在本次演讲中，听众将全面了解Kubernetes多集群架构，并学习如何利用它来优化云原生应用程序。
+Speakers: Wei Wang: 中国移动，软件工程师, 中国移动云能力中心软件工程师 专注于消息服务、云原生、微服务领域。目前负责消息服务产品的云原生演进 x000D LeiChun Yu: 中国移动，软件工程师, 中国移动云能力中心高级云原生开发者，Kosmos开源社区维护者。擅长云计算和大数据，具有丰富的项目实施经验。参与多个重点项目的开发，显著提高了系统性能和稳定性。热衷于新技术，研究领域包括云原生和人工智能。热心分享技术见解和实践成果，为团队和行业发展贡献智慧 </description>
+    </item>
+    
+    <item>
+      <title>基于字节跳动的Flink SQL性能优化的探索与实践。</title>
+      <link>/2024/zh/sessions/streaming-1127.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/streaming-1127.html</guid>
+      <description>随着内部对字节流任务的需求日益增长，Flink SQL的大规模实现已经在多个部门中变得越来越普遍。Flink SQL作为一个经济高效的切入点，已经看到流SQL任务的规模提升到超过30K，而任务资源利用率已经达到数百万核。在公司强调降低成本和提高效率的同时，我们在查询优化和查询执行方面进行了大量的性能增强。字节跳动中的这些广泛实现使CPU使用量减少了大约17%。 在本演示中，我们将详细概述在ByteDance中执行的主要优化和实现的结果。
+ 背景 -当前状态的Flink流SQL在字节跳动 -面临的挑战 Flink SQL的深度优化 -查询优化 -查询执行 ——其他 实现和收益 未来的计划 ——探索更多优化方向  Speakers: 李精卫: 字节跳动基础架构工程师，目前主要负责字节跳动Flink SQL相关的工作 </description>
+    </item>
+    
+    <item>
+      <title>集成Apache Cassandra Java驱动程序与OpenTelemetry的端到端跟踪</title>
+      <link>/2024/zh/sessions/datastorage-1045.html</link>
+      <pubDate>Sat, 27 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1045.html</guid>
+      <description>在当今的分布式系统架构(包括Apache Cassandra分布式数据库)中，故障排除是一个主要挑战。尽管有许多可观察性框架，但兼容性和配置问题仍然存在。OpenTelemetry通过标准化可观测性数据收集改变了游戏规则。本演讲将演示如何将Apache Cassandra Java Driver与OpenTelemetry集成到端到端跟踪中，展示如何收集和可视化跟踪事件以进行分析。这大大加快了诊断问题和解决性能瓶颈的速度。我们还将分享真实世界的例子，以强调端到端跟踪在增强系统健壮性和可观察性方面的重要性。
+Speakers: 何思瑶: DataStax软件工程师，Apache Cassandra Java Driver开发者, 我是DataStax Connectivity团队的一名软件工程师，专门从事Apache Cassandra Java Driver的开发。我对开源技术和社区驱动的开发充满热情，为增强驱动程序的功能和性能做出了贡献。我渴望分享关于Apache Cassandra Java Driver及其背后充满活力的社区的见解，希望促进协作和创新。 Wei Deng: DataStax, Wei Deng是DataStax的先锋解决方案架构师，他是在云原生环境中部署 Apache Cassandra和DataStax Enterprise的高级现场顾问。他在20多年前就开始使用开源SSL库。在DataStax，他曾与数百名客户合作，帮助他们在生产环境中实现飞行加密。 </description>
+    </item>
+    
+    <item>
+      <title>Impala 4.4:一个更智能的查询引擎</title>
+      <link>/2024/zh/sessions/olap-1101.html</link>
+      <pubDate>Fri, 26 Jul 2024 17:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1101.html</guid>
+      <description>Apache Impala是一个基于MPP架构的本地查询引擎，用于开放数据和表格式。在本次会议中，我们将分享过去一年中Impala社区的更新，包括即将发布的4.4版本的核心特性，例如，工作负载感知自动扩展、方解解尺集成、JDBC联邦、Codegen缓存、中间结果缓存、查询历史表等。
+Speakers: Quanlong Huang: Cloudera，高级职员工程师, 黄泉龙是Cloudera的软件工程师。在过去的6年多里，他一直在为Apache Impala项目做出贡献。他是Apache Impala的提交者和PMC成员，也是Apache ORC的提交者和其他一些开源项目(如Apache Hive、Apache Hadoop、Apache Thrift等)的贡献者。 Manish Maheshwari: Cloudera的产品经理, 我是Cloudera的Impala和Kudu产品经理。十年来，我一直是一名大数据从业者，从事多种大数据产品并将其交付给客户 </description>
+    </item>
+    
+    <item>
+      <title>云中事件驱动集成技术的最佳实践</title>
+      <link>/2024/zh/sessions/others-1117.html</link>
+      <pubDate>Fri, 26 Jul 2024 17:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/others-1117.html</guid>
+      <description>在过去十年中，用户对现代应用程序的需求发生了重大变化。用户希望应用程序能够实时地处理和响应他们的需求，并且始终可用。此外，应用程序还面临着从客户机到服务器传输的前所未有的数据量，包括实时数据、云计算事件、来自分布式业务系统的消息以及来自大数据源的海量数据。用户还希望新的应用程序能够快速开发和部署，并结合敏捷方法和DevOps实践。这使得开发人员使用合适的体系结构进行发展和迭代，以实现最终应用程序的快速开发和部署。
+在当前Kubernetes容器开发的浪潮中，挑战在于如何有效地实现企业微服务应用程序。这包括引导企业及其最终用户将传统应用程序实践转变为事件驱动的微服务应用程序。我们将用真实的环境用户用例来说明我们的最佳实践，这些用例基于我们在该领域的世界级产品经验。包括如何从一开始就设计，主要利用kubertes平台能力，结合最新的上游项目Camel-K作为集成框架，集成现有的数据和系统，结合云原生无服务器架构、Kafka和消息中间件平台，以及采用capture data Change技术实现基于流的数据驱动架构和应用。这种方法旨在解决客户的痛点，并最终实现业务的稳定性和敏捷性。
+Speakers: 武晓慧: Redhat首席软件维护工程师, 吴晓辉，在红帽担任首席软件维护工程师，为客户提供支持，主要关注云原生开发，消息传递，集成领域。 Alan Liu: Redhat高级解决方案架构师, 在企业级软件和Web分布式系统方面有超过16年的经验，专注于开源云计算、容器、云原生和Devops自动化， ·过程，负责产品的定义、设计、实施、测试和发布 •拥有Red Hat RHCA、CloudNative-Developer Openshift Microservice、AMQ.等技术认证 ·在VMware、SAP、Adobe等多家国外知名公司担任技术团队负责人 ·《企业开源实践之旅》、《开发云原生事件驱动应用》作者 </description>
+    </item>
+    
+    <item>
+      <title>基于Apache Kafka的无服务器架构升级</title>
+      <link>/2024/zh/sessions/messaging-1080.html</link>
+      <pubDate>Fri, 26 Jul 2024 17:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1080.html</guid>
+      <description>Apache Kafka Community Edition是一个优秀的分布式事件流平台，但由于其计算和存储的一体化设计，其弹性较差，并且运行大规模集群的成本较高。阿里云Kafka在开源Kafka的基础上全面升级，结合弹性计算、高性能分布式文件存储、容器服务等云原生基础设施，实现Kafka的云原生化。它具有低延迟、高吞吐量、极高的弹性、易于操作和维护等特点。云原生Kafka架构可以高效应对超大规模Kafka集群的运维，是实现Kafka无服务器云服务的技术基础。
+Speakers: Fujian Zhao: 阿里巴巴高级软件工程师, 2020年6月毕业于东南大学，2020年7月加入阿里巴巴。 </description>
+    </item>
+    
+    <item>
+      <title>标准化单片/微服务交通管理——科安安全技术有限公司的高级实践</title>
+      <link>/2024/zh/sessions/api-1094.html</link>
+      <pubDate>Fri, 26 Jul 2024 17:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/api-1094.html</guid>
+      <description>kal安全技术有限公司使用Higress作为API网关，采用最新的K8s Gateway API标准取代Nginx。实现了统一、标准化的单片/微服务入口流量管理机制。
+Speakers: Tianyi Zhang,: 阿里云，API网关，精通工程师, 阿里云API网关工程师，阿里开源网关Higress维护者。 ZhengHao Zhang: 柯尔软件有限公司，envoy gateway，高级软件工程师, 特使云原生网关负责人,阿里巴巴higress开源项目贡献者,前戴尔科技以及中国电科第50研究所软件工程师,有丰富的nginx&amp;amp;envoy实战经验,拥抱开源,对开源技术以及云原生技术有着浓厚的兴趣。 </description>
+    </item>
+    
+    <item>
+      <title>简化Iceberg表生命周期管理:一个全面的方法</title>
+      <link>/2024/zh/sessions/datastorage-1044.html</link>
+      <pubDate>Fri, 26 Jul 2024 17:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1044.html</guid>
+      <description>Iceberg表已经成为管理大规模数据湖的强大解决方案，它提供了ACID兼容事务、高效数据组织和模式演化等特性。然而，随着数据湖变得越来越复杂，有效管理冰山表生命周期的挑战也越来越大。 本节将深入探讨在冰山表的整个生命周期中简化其管理的策略。我们将探索优化表创建、时间旅行、压缩、模式演变、数据保留和存档过程的技术。此外，我们还将讨论用于监视和维护Iceberg表的运行状况和性能的最佳实践。
+Speakers: Yan Liu: Cloudera, Cloudera解决方案工程。Apache Hive和Apache Flink贡献者。超过10年的大数据实践经验，我目前的重点是使用Apache Flink, Apache Hive和Apache Iceberg的实时数据仓库。 Bill Zhang: Cloudera，Iceberg集成数据仓库产品经理, Bill是Cloudera的高级产品管理总监，负责Open Data Lakehouse产品战略和Apache Iceberg与所有Cloudera Data Platform (CDP)形式因素的集成。Bill还领导了Apache Hive产品路线图和采用。最近，Bill负责SAP HANA数据平台和SAP HANA云的解决方案管理。在此之前，他领导Sybase Replication Server的产品管理。 </description>
+    </item>
+    
+    <item>
+      <title>Apache EventMesh事件网格助力构建事件平台</title>
+      <link>/2024/zh/sessions/messaging-1079.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1079.html</guid>
+      <description>介绍ApacheEventMesh在吉利汽车的一些典型的使用场景,如何构建事件平台并在生产环境中的落地实践。
+Speakers: Fazhan Qiao: 吉利汽车集团，它基础设施架构师, 就职于吉利汽车集团，负责it基础设施系统集成及治理。构建api网关，消息集成，事件集成，数据集成，iot集成等产品能力。使用Apache Eventmesh产品并参与社区建设。 </description>
+    </item>
+    
+    <item>
+      <title>Seata架构演变:客户端和服务器部署表单的最佳实践</title>
+      <link>/2024/zh/sessions/api-1093.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/api-1093.html</guid>
+      <description>本内容将介绍Seata客户端的网络通信架构，以及如何在不同的存储模式和注册类型下与服务器完美结合，使客户端和服务器都能实现理想的高可用性形态，以及在未来的部署形态中可能会发生哪些变化?未来的架构演进将如何使Seata更加成熟，生态架构更加闭环，节省用户运维部署成本，降低入门级学习门槛，贴近用户传统使用习惯，与其他顶级中间件一样成熟?
+Speakers: Chen Jianbin: Apache Seata(孵化)PPMC成员, 多年专注于微服务和分布事务领域，拥有分布事务和微服务领域多项专利发明。 </description>
+    </item>
+    
+    <item>
+      <title>从Elasticsearch到Apache Doris:实时分析和统一日志检索，财务实践</title>
+      <link>/2024/zh/sessions/olap-1100.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1100.html</guid>
+      <description>从Elasticsearch到Apache Doris:实时分析与统一日志检索，中国电信百付金融安全数据架构升级实践
+Speakers: Jianqun liu: 中国电信百思付通股份有限公司技术总监，中国电信高级安全专家，10年以上研发和架构经验 </description>
+    </item>
+    
+    <item>
+      <title>基于Raft的高性能物联网数据复制</title>
+      <link>/2024/zh/sessions/datastorage-1043.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1043.html</guid>
+      <description>首先，本次会议将介绍Apache IoTDB，物联网本地分布式数据库及其高可用性设计注意事项。然后讨论了选择Raft共识算法和Apache Ratis库背后的基本原理。之后，会议将概述Apache IoTDB如何使用Apache Ratis，它的注意事项和改进。最后，会议将讨论针对物联网的Raft优化，即非阻塞Raft以及社区在IoTDB上实施和部署NB-Raft的计划。
+Speakers: 宋子阳: 清华大学研究生，Apache Ratis PMC成员，开源大粉丝!, 我叫宋子阳(William)，目前就读于清华大学计算机科学专业硕士研究生。我的研究方向主要是分布式系统和数据库。我是Apache IoTDB的提交者，也是Apache Ratis的PMC成员。 </description>
+    </item>
+    
+    <item>
+      <title>快手公司基于湖底的湖屋建设实践</title>
+      <link>/2024/zh/sessions/datalake-1031.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datalake-1031.html</guid>
+      <description>Apache Hudi用强大的新增量处理框架重新构想了缓慢的老派批处理数据，以实现低延迟的分钟级分析。 在这个分享中，我们将首先介绍传统数据仓库令人头疼的问题。然后阐述了如何利用HUDI来解决这些问题。最后，我们给出了快手的几个用户案例来介绍使用HUDI取代旧管道后的好处。
+Speakers: Zhang Jing: 快手公司，技术专家, 张静，快手公司软件工程师她是Apache Flink、Apache Calcite和Apache Hudi的提交者。她正在研究流处理和湖屋。 </description>
+    </item>
+    
+    <item>
+      <title>授权实时数据集成与Flink CDC</title>
+      <link>/2024/zh/sessions/streaming-1126.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/streaming-1126.html</guid>
+      <description>在数据速度和数据量迅速升级的时代，Apache Flink与变化数据捕获(CDC)技术相结合，为实时数据集成提供了变革性的解决方案。本演讲将深入探讨Flink CDC的架构和实现，重点介绍这种组合如何促进不同行业的实时数据同步、分析和决策。
+Speakers: Qingsheng Ren: Apache Flink提交者和PMC成员, 任庆生是Apache Flink提交者和PMC成员。他目前的工作主要集中在增强Flink生态系统，包括连接器和更改数据捕获(CDC)解决方案。 </description>
+    </item>
+    
+    <item>
+      <title>玩WASM</title>
+      <link>/2024/zh/sessions/others-1116.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/others-1116.html</guid>
+      <description>当Apache项目与WASM结合使用时，会产生哪些奇妙的反应?我们来谈谈神宇、杜波和脉冲星。
+Speakers: ZiCheng Zhan: 我是一名Java开发人员和rust爱好者，毕业于江西师范大学。2021年2月与@hengyunabc合作在arthas创建vmtool。2022年4月，我成为ShenYu的提交者，并创建了MemorySafeLinkedBlockingQueue。一个月后，我加入了ShenYu PMC团队，开始构建一个名为open-coroutine的堆栈协同程序crate。2023年4月，我为open-coroutine实现了先发制人的调度特性。2024年1月，我在Apache ShenYu中支持WASM插件，并迅速将这个想法传播到其他社区，如dubbo和pulsar。 </description>
+    </item>
+    
+    <item>
+      <title>Golang中的微服务架构</title>
+      <link>/2024/zh/sessions/api-1092.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/api-1092.html</guid>
+      <description>Golang中的微服务架构
+Speakers: Yuanxiao Zhao: AlibabaCloud, 微服务研发工程师 </description>
+    </item>
+    
+    <item>
+      <title>HStream:兼容Kafka协议的现代流数据平台</title>
+      <link>/2024/zh/sessions/streaming-1125.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/streaming-1125.html</guid>
+      <description>HStream是一个兼容Kafka协议的现代分布式流数据平台。它是开源的，网址是https://github.com/hstreamdb/hstream。凭借其云原生架构设计和针对大规模流数据优化的存储引擎，HStream成功地消除了Apache Kafka的许多痛点，允许用户在单个平台上高效地完成所有实时消息、事件和其他数据流的一站式摄取、存储、处理和分发。
+在这个环节中，我们将介绍流数据平台的技术演变，HStream的技术架构和流存储引擎的设计，包括HStream如何解决Kafka在快速弹性扩展、副本迁移、负载倾斜、高数据可靠性等方面的痛点。
+Speakers: Bin Wang: EMQ高级工程师，开源流媒体数据平台HStream项目负责人。他在流系统、实时数据处理和数据库系统方面有丰富的经验。 </description>
+    </item>
+    
+    <item>
+      <title>KafkaConnect在中间件容灾中的实践</title>
+      <link>/2024/zh/sessions/messaging-1078.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1078.html</guid>
+      <description>Kafka和RocketMQ是流行的高性能消息中间件，以确保它们的高可用性。本演讲主要介绍了如何使用KafkaConnect进行消息中间件、跨数据中心、跨集群迁移和灾难恢复。
+Speakers: 王海军: 华为云、消息、容灾, 华为云中间件团队软件工程师 </description>
+    </item>
+    
+    <item>
+      <title>使用Apache方解石更好地评估Text2SQL</title>
+      <link>/2024/zh/sessions/olap-1099.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1099.html</guid>
+      <description>llm越来越多地应用在工作和生活，通过对话让llm生成sql，有助于提升数据分析的效率。 无论用什么llm去生成sql，都会遇到对生成的sql进行评价的问题:
+ 不同的sql方言，如何实现等价判断? 同语义但不同名的函数，如何实现等价判断？ 中间逻辑不同，最终结果相同的sql，如何实现等价判断? 使用Apache方解石进行&amp;quot;标准化&amp;quot;改写，能有效地解决上述问题。  Speakers: Jiajun Xie: 火山引擎las高级研发工程师, 2022、2023年ApacheCon亚洲讲师，Apache Calcite Committer </description>
+    </item>
+    
+    <item>
+      <title>构建包容的开源生态系统</title>
+      <link>/2024/zh/sessions/others-1115.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/others-1115.html</guid>
+      <description>Apache软件基金会(ASF)在由不同观点推动的创新中蓬勃发展。本节讨论了为每个人建立一个更包容、更友好的环境的策略，无论背景、经验水平或技术专长如何。
+与会者将获得以下知识:
+-我们将探讨无意识偏见及其对开源社区包容性的潜在影响。 发现促进项目团队多样性的策略，培养尊重不同方法和技能的文化。 -探索指导计划的力量，在Apache生态系统中赋予代表性不足的群体权力。 -讨论可以促进来自不同背景的开发人员的可访问性和参与的倡议和工具。
+Speakers: Sumaiya Nalukwago: IT专业人士|社区领导者|科技内容创造者, Sumaiya Nalukwago是一位充满激情的IT专业人士和技术倡导者。Sumaiya拥有姆巴拉拉科技大学(MUST)的信息技术学士学位，她的专长在于帮助他人驾驭科技领域
+在MUST期间，Sumaiya作为Google开发者学生俱乐部的第一位女性负责人开辟了一条道路，为学生们培养了一个充满活力的社区，让他们使用Google技术学习和开发。这种对包容性的奉献延伸到她目前担任谷歌开发小组云和女性技术制造商社区负责人的角色。Sumaiya是建立多元化和繁荣的技术社区的拥护者，每个人都可以在这里茁壮成长
+Sumaiya对科技教育的热情超越了大学环境。作为姆巴拉拉创新村的首席培训师，她为年轻人提供在数字经济中取得成功所需的技能。她的培训不仅包括技术知识，还包括软技能、多样性和包容性实践，以及更广泛的IT素养
+Sumaiya通过她的YouTube频道Tech Over with Sumaiya将她的影响力扩展到课堂之外。这个平台提供了有价值的、非编码的内容，使技术爱好者能够驾驭复杂的技术世界
+Sumaiya致力于培育包容性的技术社区，获得了国际认可。2023年，她被提名为著名的女性技术网络全球奖，在2100多名女性技术社区类别的参与者中进入前10名决赛。她还于2024年3月受到美国驻乌干达大使馆的表彰，以表彰她对科技的贡献
+Sumaiya的承诺超越了数字领域。她透过与姆巴拉拉市扶轮青年服务团的义工工作，积极地为她的社区做出贡献。 </description>
+    </item>
+    
+    <item>
+      <title>通过冰山上的黑斑羚进行行级修改</title>
+      <link>/2024/zh/sessions/datastorage-1042.html</link>
+      <pubDate>Fri, 26 Jul 2024 16:15:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1042.html</guid>
+      <description>Apache Impala是一个分布式、大规模并行的大数据查询引擎。最初，它专注于通过长时间运行的批处理作业获取的大型数据集之上的快速查询执行。表模式和摄取的数据通常保持不变，行级别的修改是不切实际的。今天对现代数据仓库引擎的期望已经显著提高，用户现在希望在他们的数据仓库中拥有类似rdbms的功能，例如:模式和分区演化、时间旅行，以及本次演讲的重点:行级修改。Apache Iceberg是一种先进的表格式，它为大规模数据提供了这些高级写入功能。
+在本次演讲中，您将了解Apache Impala如何利用Iceberg的大规模数据编写能力，以及Impala如何实现数据操作操作，如DELETE, UPDATE和MERGE。和我们一起来探索黑斑羚是如何进化以满足这些新需求的。
+Speakers: Péter Rózsa: Cloudera，软件工程师, psamter Rózsa自2020年以来一直是Cloudera的软件工程师，从2022年开始为Apache Impala做出贡献。他一直在为Impala项目的不同部分工作，最近是冰山集成项目 Zoltán Borók-Nagy: Cloudera，首席工程师, Zoltán是Cloudera的一名软件工程师，正在开发Apache Impala。他也是该项目的PMC成员。目前，他正在领导黑斑羚/冰山的整合工作。在Cloudera之前，Zoltán致力于c++静态分析工具。他对分布式、大规模并行系统、数据库和性能工程感兴趣。 </description>
+    </item>
+    
+    <item>
+      <title>Apache Doris在邮储银行的应用与探索</title>
+      <link>/2024/zh/sessions/olap-1098.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1098.html</guid>
+      <description>总结了Apache Doris在邮储银行的应用现状和未来应用计划，反映了Apache Doris给金融系统带来的技术赋能和业务效率提升。
+Speakers: Cun Liu: 邮储银行，数据工程师, Cun Liu，邮储银行软件研发中心，主要负责数据分析、数据挖掘和数据维护工作。 </description>
+    </item>
+    
+    <item>
+      <title>Apache Flink中的混合流和批处理</title>
+      <link>/2024/zh/sessions/streaming-1124.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/streaming-1124.html</guid>
+      <description>长期以来，流处理和批处理一直是大规模数据处理的两种截然不同的模式。随着统一流和批处理的发展，Apache Flink现在允许在单个引擎中管理这两者。这模糊了流处理和批处理之间的区别，从而产生了一种新的统一数据处理模式，称为混合模式。在这种混合模式下，用户不需要预先确定Flink作业的执行模式。相反，Flink根据数据新鲜度要求自适应地选择和切换执行模式，以有效地平衡延迟和吞吐量。 在这次演讲中，我们将讨论混合模式的概念和优势，并介绍随之而来的技术挑战和设计解决方案。我们将演示混合模式如何在各种用例中将吞吐量提高50%以上。此外，我们还将介绍Flink社区在这一领域的最新发展和未来计划。
+Speakers: Xuannan Su: 阿里巴巴集团, Xuannan是阿里巴巴的一名软件工程师。他专注于Apache Flink运行时的开发。 </description>
+    </item>
+    
+    <item>
+      <title>Impala发现了Iceberg元数据表</title>
+      <link>/2024/zh/sessions/datalake-1030.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datalake-1030.html</guid>
+      <description>存储大量元数据是Apache Iceberg表格式的关键特性之一，它可以帮助查询引擎高效地计划和执行查询。由于Iceberg提供了一个API来查询这些元数据，它可以在查询引擎中以一组虚拟表的形式呈现，这些虚拟表可以用SQL进行查询，包括过滤、聚合和与其他元数据甚至常规表的连接。这个特性为数据库管理员提供了一个非常有用的表维护工具。
+在过去的一年里，我们一直致力于在Apache Impala(一个高性能、分布式、大规模并行的查询引擎)中提供Iceberg元数据表。Impala中的查询执行是用c++实现的，由于Iceberg的API是基于java的，这给它带来了一些挑战。
+此外，Iceberg返回数据(作为Java对象，通过JNI访问)的格式也不同于Impala通常从磁盘文件接收输入数据的格式，即使是相同的SQL数据类型也是如此。在复杂类型(结构体、数组和映射)的情况下，这种差异尤其明显，这就需要额外的步骤来合并它们。
+本演讲将引导您了解所有与Iceberg元数据表相关的Impala新功能，并描述我们如何克服在实现过程中出现的障碍。
+Speakers: Daniel Becker: Cloudera软件工程师, Daniel Becker于2019年开始在Cloudera开发Apache Impala。他对Impala的贡献涵盖了各种主题，包括LLVM代码生成、复杂类型、Parquet和Iceberg。他是Apache Impala PMC的成员，拥有Pázmány psamter Catholic University的学位。 </description>
+    </item>
+    
+    <item>
+      <title>RocketMQ ACL 2.0:消息系统企业级安全体系的进化之路</title>
+      <link>/2024/zh/sessions/messaging-1077.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1077.html</guid>
+      <description>RocketMQ作为一款广泛应用的分布式消息中间件,其ACL(访问控制列表)机制对于保障系统安全至关重要。随着技术的发展和业务规模的扩大,原有1.0的ACL面临一些安全挑战,如IP白名单滥用,缺乏精细化控制和组件间访问控制等。为解决这些问题,RocketMQ推出了ACL 2.0,通过用户认证和权限校验分离、安全性和性能之间的平衡,授权资源的多种匹配模式,灵活可扩展的插件化等机制的引入;同时融合了RBAC, ABAC的权限访问控制机制,提供超级用户,普通用户等多种角色,多维度的权限控制体系,极大增强了消息中间件的安全性,提供了更精细的访问控制,并在确保性能和可扩展性的同时,为大规模分布式环境下的安全运维打下坚实基础。
+Speakers: 丁双喜:阿里巴巴-云智能-技术专家, 丁双喜，阿里云的技术专家，专注于消息中间件解决方案的研究、开发和商业化。 </description>
+    </item>
+    
+    <item>
+      <title>以Dubbo为代表的分布式中间件基准机制的探索与实践</title>
+      <link>/2024/zh/sessions/api-1091.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/api-1091.html</guid>
+      <description>与单一框架相比，分布式中间件的构建通常会遇到更多的问题。例如，测试自动化、多进程编排和调度、性能瓶颈分析方法等。本文将以Dubbo为例，探索用于分布式中间件的一站式基准构建解决方案。
+Speakers: Xiaobin Wang: 政才云公司开发工程师，Apache Dubbo提交者 </description>
+    </item>
+    
+    <item>
+      <title>以最简单和最便宜的方式进行集成</title>
+      <link>/2024/zh/sessions/others-1114.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/others-1114.html</guid>
+      <description>Camel4。X是一个非常新的版本。这个集成项目版本引入了许多新特性。我将介绍Camel4.5中的新特性，包括云上的Camel- k、JBang、Apache Camel Karavan 4.4.0，用于简化和加速与Apache Camel集成开发的低代码一站式商店，支持的平台包括quarkus和springboot。我将向您展示如何快速、轻松地以云原生方式满足集成需求。最后，我还将向您展示camel的力量，如何轻松地将您的AI模型与apache camel集成。
+Speakers: 武晓慧: Redhat首席软件维护工程师, 吴晓辉，在红帽担任首席软件维护工程师，为客户提供支持，主要关注云原生开发，消息传递，集成领域。 冯征: RedHat，首席软件工程师, 自2019年以来，我为Apache Camel项目做出了贡献，也是一名提交者。我主要关心的是Camel For Quarkus扩展，特别是事务集成。 </description>
+    </item>
+    
+    <item>
+      <title>小米存储与计算分离架构的思考与实践</title>
+      <link>/2024/zh/sessions/datastorage-1041.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:45:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1041.html</guid>
+      <description>为了达到最终的成本效益，小米在大数据存储和计算架构领域进行了多阶段的探索和技术实践。
+在存储方面，我们构建了HDFS的分层对象存储功能，并在云端实现了Apache Iceberg的存储;在计算领域，我们利用Yarn federation来实现混合云调度，使我们能够扩展我们的资源，包括基于arm的机器和Spot实例，以及其他异构资源。
+本次演讲将主要关注上述架构在生产环境中的实际实现，同时展示存储和计算分离所带来的业务优势。
+大纲:
+ 关于存储与计算分离的思考 -核心要素和成本模型 -主要挑战  通过研究存储与计算分离的系统演化历史，我们可以分析该体系结构的核心元素，并为其抽象出一个成本模型。 从体系结构的角度来看，我们可以推断出实现存储和计算分离所涉及的关键挑战，从而确定要解决的关键问题，例如多云迁移和调度、混合云之间的专用带宽、使用对象存储的挑战以及统一的元数据管理。
+存储与计算分离的实际实现 —HDFS分级架构 -冰山对象存储架构   Yarn Federation混合云架构  小米经历了一段存储架构之旅，实现了HDFS tier架构和Iceberg对象存储架构。我们将重点讨论着陆过程中遇到的挑战和技术解决方案。在计算调度方面，我们已经构建了Yarn的混合云调度能力，可以基于作业和资源分析来调度不同的异构资源，包括基于arm的机器、Spot实例和弹性容器实例。
+本演讲将深入探讨整个过程中的挑战和解决方案。
+观众的好处: -了解存储和计算分离的核心要素，成本模型和关键挑战。 -基于HDFS和Iceberg的云对象存储架构实践洞察。 -基于Yarn的多云和混合云调度的见解。
+Speakers: Xing Yong: 公司:小米，职务:云计算平台负责人，小米高级软件研发工程师。负责分布式存储和计算系统的开发。 </description>
+    </item>
+    
+    <item>
+      <title>Apache Dubbo如何在单体和微服务之间切换</title>
+      <link>/2024/zh/sessions/api-1090.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/api-1090.html</guid>
+      <description>近年来，单片架构与微服务架构的比较再次出现在大家的视野中，并被广泛讨论。甚至还有从微服务架构迁移回单片架构的案例。那么，是单片架构更好，还是微服务架构更好呢?在软件世界里没有灵丹妙药，正确的选择是适合你的。 Apache Dubbo在微服务架构领域有许多优秀的特性和功能。它如何同时支持单片和微服务架构，并允许软件系统在它们之间切换?这归功于Apache Dubbo 3的多实例功能。x版本。
+Speakers: 华钟明: Apache Dubbo PMC member，见证了Dubbo从Apache孵化到毕业。Dapr成员，Apache Maven提交者，GSoC/OSPP/GLCC导师。 </description>
+    </item>
+    
+    <item>
+      <title>Apache Kylin: 5.0新功能介绍</title>
+      <link>/2024/zh/sessions/olap-1097.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1097.html</guid>
+      <description>Kylin 5.0 GA版本将于2024年7月发布。本次分享会将介绍Kylin 5.0的一系列重量级新特性，如方解石组件升级、存储引擎升级、智能建模功能、元数据重构、内部表函数与Native engine的集成等。
+Speakers: Lu Cao: Kyligence，研发高级经理, Lu是Kyligence的高级研发经理，也是Apache Carbondata的提交者。他目前领导OLAP团队的前瞻性研发，专注于构建下一代OLAP分析平台。他对开源技术的研究有浓厚的兴趣，有构建企业数据平台和实时数据处理系统的经验。 Zhan Pengfei: Kyligence，高级软件工程师, Pengfei目前在OLAP团队工作，专注于构建下一代OLAP分析平台。他对研究开源技术有着浓厚的兴趣，并且在Kylin的查询和建模方面有着丰富的经验。 </description>
+    </item>
+    
+    <item>
+      <title>Apache StreamPark——一个简化流处理的框架</title>
+      <link>/2024/zh/sessions/streaming-1123.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/streaming-1123.html</guid>
+      <description>介绍为什么Apache StreamPark(Incubating)使流处理变得更容易，它解决了什么核心问题，如何使用它，社区发展，以及未来的计划。
+Speakers: 王华杰: Apache StreamPark PPMC成员, Apache StreamPark的创始人，PPMC成员 </description>
+    </item>
+    
+    <item>
+      <title>中国移动云上基于Kubernetes的Kafka多集群架构</title>
+      <link>/2024/zh/sessions/messaging-1076.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1076.html</guid>
+      <description>在这次演讲中，我们将分享Kubernetes上的多集群kafka架构的经验。我们将介绍在每个kafka集群之间管理CPU、内存、磁盘IO、网络IO资源的最佳实践，kafka集群和pod的重要指标，以及多个Kubernetes集群之间的高可用架构。 在这个演讲中，你将学习如何优化kafka在Kubernetes上的部署。
+Speakers: Jialing Wang: 中国移动，软件工程师, 中国移动云中心Apache Kafka和脉冲星开发经理。Apache Pulsar Contributor，专注于中间件消息传递系统领域 </description>
+    </item>
+    
+    <item>
+      <title>有效地管理和优化Apache Iceberg 与Apache Amoro</title>
+      <link>/2024/zh/sessions/datalake-1029.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datalake-1029.html</guid>
+      <description>Apache Iceberg作为一种开放的数据湖表格式，提供了一个高度开放和高效的统一存储解决方案。在生产环境中，必须管理和优化其文件和元数据，以实现更好的性能和减少开销。Amoro作为一个数据湖管理系统，可以对冰山的小文件进行实时压缩和删除，提高实际查询性能。此外，它还帮助Iceberg自动执行维护过程，例如过期快照、清理孤立数据和删除过期数据，从而大大减少了人工维护工作。
+Speakers: Xu Bai: 思科Webex，软件工程师, 来自思科Webex数据平台团队，专注于数据湖的开发、优化和管理。Amoro的提交者。 </description>
+    </item>
+    
+    <item>
+      <title>概述的工具，技术和技巧- 扩张Ozone性能，以最大限度地利用CPU，网络和磁盘</title>
+      <link>/2024/zh/sessions/performance-1120.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/performance-1120.html</guid>
+      <description>在过去的一年中，在增强Ozone的性能方面取得了重大进展，这是一个分布式对象存储，旨在在商用硬件上进行扩展，能够处理数十亿个文件。这些增强功能不仅确保了Ozone可以使网络饱和(前提是驱动器足够快)，而且还从单线程的角度提高了读写操作期间的性能。本演讲将深入探讨用于实现这些性能提升的各种工具和技术，重点介绍系统级的关键优化。
+我们将介绍的优化包括(但不限于)
+ 序列化和反序列化影响和优化。 零拷贝缓冲区的影响:这对大数据传输特别有益，减少对系统性能的影响，提高整体效率。 并发性改进:对Ratis的并发性模型的增强，实现了Raft共识算法，可以更好地利用系统资源，减少瓶颈并改善响应时间。 核心系统级优化:已经实现了许多其他系统级优化，包括更有效的内存管理、优化的I/O路径和增强的错误处理机制。  使用指标和Grafana仪表板进行性能监控
+我们性能增强策略的一个关键方面涉及到指标和Grafana仪表板的使用。这些工具使我们能够有效地监视整个集群的性能，并获得有助于进一步优化的见解。
+跨集群拼接性能:通过将来自不同节点的指标集成到一个集中的Grafana仪表板中，我们可以一目了然地查看整个集群的性能。这种整体视图有助于识别集群中的瓶颈和负载分布不均。
+设计有效的仪表板:有效的仪表板设计对于有效的监控至关重要。我们的重点是识别和显示指标，提供对系统性能的实时洞察，帮助我们快速做出明智的决策。 选择正确的度量标准:选择适当的度量标准进行监视是至关重要的。我们优先考虑反映系统健康和性能的指标，例如延迟、吞吐量、错误率和资源利用率。
+高级诊断技术
+此外，我们采用先进的诊断技术来查明性能问题并优化系统行为:
+ 使用火焰图:火焰图对于识别热点和了解系统在不同负载条件下的行为是非常宝贵的。它们提供了进程执行的可视化堆栈跟踪，这有助于隔离性能问题和优化代码路径。  Hadoop生态系统中的协作与创新
+我们的方法的一个独特优势在于我们与Hadoop生态系统的协作，特别是与HBase这样的团队的协作。这种合作促进了对双方都有利的创新
+Ozone和HBase:
+ 与HBase的集成:我们与HBase团队的合作使Ozone和HBase更好地集成在一起，使HBase能够利用Ozone的可扩展性和健壮性来进行存储管理。这种协同作用不仅提高了性能，而且增强了两个系统的功能。 向上创新:Hadoop生态系统内的紧密合作使我们能够“向上”创新。通过理解和优化堆栈不同层之间的交互，我们可以引入显著提高整体系统性能和效率的改进。  Speakers: :Ritesh Shukla: Cloudera，首席工程师, Ritesh是一名Apache Ozone PMC。他在分布式存储解决方案和系统方面拥有超过十年的经验。他热衷于在解决方案中选择这三者:简单、正确和高效。他目前正在研究Ozone，一个满足HDFS和S3工作负载的分布式对象存储。 Tanvi Penumudy: 南, Cloudera软件工程师2, Tanvi Penumudy是Cloudera的一名软件工程师，在过去的两年半里，他一直积极地为Apache Ozone项目做出贡献。她持有Bennett University的计算机科学与工程学士学位。 </description>
+    </item>
+    
+    <item>
+      <title>用EloqKV提升Apache Cassandra</title>
+      <link>/2024/zh/sessions/datastorage-1040.html</link>
+      <pubDate>Fri, 26 Jul 2024 15:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1040.html</guid>
+      <description>Apache Cassandra是一个可扩展的分布式NoSQL数据库，用于管理跨多个商用服务器的大量数据，确保高可用性，无单点故障。在本次会议中，我们将介绍一个新项目EloqKV，它建立在Apache Cassandra的强大基础之上。EloqKV通过提供亚毫秒的读/写性能和完整的事务支持来增强其功能，有效地作为Cassandra的一致缓存层。用户可以使用熟悉的Redis API访问Data Substrate，享受内存数据库的速度，同时利用Cassandra全面存储大型数据集的能力。
+Speakers: Hubert Zhang: EloqData首席技术官, Hubert Zhang是EloqData的首席技术官。在加入EloqData之前，Hubert是VMware Greenplum数据库的技术主管。他也是Apache HAWQ项目管理委员会(PMC)的成员。 </description>
+    </item>
+    
+    <item>
+      <title>AMQP在火箭mq实践</title>
+      <link>/2024/zh/sessions/messaging-1075.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1075.html</guid>
+      <description>AMQP协议是消息中间件领域的标准应用层协议。凭借其悠久的历史、活跃的社区、丰富的生态、全覆盖的多语言SDK等优势，它已经成为使用最广泛的标准消息协议之一，直到今天，Kafka、RocketMQ等。目前，分布式消息队列产品非常流行，但在消息传递领域仍然占有一席之地，被用户广泛采用。
+但是由于历史原因，目前RabbitMQ的开源实现存在架构上的局限性，导致在性能、可扩展性、可维护性、可扩展性等方面存在一定的不足。作为一个经过验证的分布式消息中间件，Apache RocketMQ基于Apache RocketMQ，兼容AMQP 0.9.1协议，为已经使用AMQP协议和旧系统升级的用户提供更可靠、易于操作和高性能的消息中间件解决方案。
+本演讲主要讲述了基于Apache RocketMQ实现兼容AMQP协议的技术体系结构和关键技术，包括以下几个部分:
+ AMQP开源产品RabbitMQ的架构 AMQP对RocketMQ的总体架构设计 RocketMQ上AMQP的关键技术要点 AMQP在RocketMQ上的功能和性能比较 RocketMQ上的AMQP开源  Speakers: Le Zhang: 腾讯技术专家, 我目前就职于腾讯云，负责消息队列和微服务相关的系统研发。我在中间件领域工作了10年。我也是一个开源社区的爱好者，也是Apollo &amp;amp; Spring Cloud腾讯的创始人。 </description>
+    </item>
+    
+    <item>
+      <title>Apache Fury序列化简介</title>
+      <link>/2024/zh/sessions/performance-1119.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/performance-1119.html</guid>
+      <description>Apache Fury是一个非常快速的多语言序列化框架，由JIT和零复制提供支持。会议将包括四个部分: 为什么我们需要一个新的序列化框架? 〇缺少protobuf/flatbuffer/json 〇什么是愤怒 〇与现有框架相比，Fury的速度有多快 〇Fury中直观的xlang编程模型 ●Fury中的序列化协议 〇fury xlang规格介绍 〇Fury如何支持引用和多态性 〇Fury如何支持模式进化 为什么Fury这么快 〇运行时代码在java/python/nodejs中如何加速序列化 在c++ /Rust中编译时有效的代码 ●Fury的未来
+Speakers: Chaokun Yang: 蚂蚁集团高级工程师, Chaokun是Apache Fury的创造者，他在2019.07年创造了Fury。他在蚂蚁集团公司工作。他在分布式框架(如Spark/Flink)和数据科学框架(如Dask/Mars/Jax)方面经验丰富。目前主要从事分布式视频和多模型处理系统的研究</description>
+    </item>
+    
+    <item>
+      <title>Apache HBase on Ozone</title>
+      <link>/2024/zh/sessions/datastorage-1039.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1039.html</guid>
+      <description>Apache Ozone是Hadoop生态系统中的下一代分布式存储系统。它公开了Hadoop兼容文件系统API和S3协议兼容API。在最新的1.4.0版本中，Ozone已经顺利支持了Apache Spark、YARN、Hive和Impala。Apache HBase是一个类似bigtable的数据存储，在Hadoop生态系统中扮演着非常重要的角色。在本次会议中，我将分享该功能是如何设计的，我们遇到的挑战，以及最新的发展状况。
+Speakers: Sammi Chen: Cloudera首席存储工程师, Cloudera首席存储工程师，专注于Apache Hadoop和Apache Ozone内核开发，现任Ozone PMC和Hadoop PMC主席，曾任腾讯和英特尔大数据存储技术负责人。 </description>
+    </item>
+    
+    <item>
+      <title>Apache Paimon:用于流、批处理和OLAP的统一湖泊</title>
+      <link>/2024/zh/sessions/datalake-1028.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datalake-1028.html</guid>
+      <description>Apache Paimon是一种湖泊格式，可以使用Flink和Spark构建实时湖屋架构，用于流和批处理操作。去年进入孵化器，今年正式毕业为TLP。从Flink内建存储成长为通用存储格式。本节将介绍:
+ Paimon从实时更新开始，解决CDC数据进入湖中的核心问题。 Paimon解决了大量可用性问题，用Spark构建离线数据仓库。 Paimon提供了删除向量、z-order和索引等技术来提供高性能的OLAP查询。  Speakers: Jingsong Li: Apache Paimon PMC主席，Apache Flink PMC成员, Jingsong是Apache Flink和Apache Beam的提交者，他是阿里巴巴的高级工程师 自2014年以来，他一直专注于阿里巴巴内部的流计算研究和开发 自2017年以来，他一直专注于阿里Blink的开发，并积极贡献Apache Flink社区 最近，他主要关注在数据仓库架构中使用Apache Flink统一流和批处理。 </description>
+    </item>
+    
+    <item>
+      <title>Apache面筋(孵化):用原生引擎提升Apache Spark性能</title>
+      <link>/2024/zh/sessions/olap-1096.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1096.html</guid>
+      <description>2022年初，英特尔和Kyligence推出了继Gazelle项目之后的开源项目Gluten。Gazelle是Intel基于Apache arrow的本地SQL引擎，旨在减轻Spark SQL的处理。麸取代了Gazelle，合并了各种原生引擎，如Velox和ClickHouse，为Apache Spark用户提供了性能增强。通过将Spark与向量化SQL引擎连接起来，麸质解决了性能障碍，并利用了高级向量扩展(AVX)技术。该项目提供了面参插件、计划转换、回退处理、内存管理、Columnar Shuffle、Shim Layer和Metrics等组件，与Spark和本地库无缝集成。英特尔与Meta和Velox社区合作，通过Velox后端集成实现了高达8倍的加速。到2024年，面筋被贡献给Apache，成为Apache面筋(孵化)。Apache面筋是一个拥有活跃开发者社区的开源项目，它计划支持事务基准测试，并扩展与gpu和fpga等硬件加速器的兼容性。
+Speakers: Weiting Chen: 英特尔，高级软件工程师, Weiting是英特尔数据中心和人工智能集团的高级软件工程师。他拥有十年的工作经验，专注于大数据和云解决方案。他对Spark、OpenStack等项目做出了重大贡献，最近，他还作为Apache面筋(孵化)项目的初始提交者之一。他的职责之一是利用硬件的潜力来提高大数据工作负载的性能。 Lu Cao: 南, Kyligence，研发高级经理, Lu是Kyligence的高级研发经理，也是Apache Carbondata的提交者。他目前领导OLAP团队的前瞻性研发，专注于构建下一代OLAP分析平台。他对开源技术的研究有浓厚的兴趣，有构建企业数据平台和实时数据处理系统的经验。 </description>
+    </item>
+    
+    <item>
+      <title>Flink应用程序的动态和增量配置管理</title>
+      <link>/2024/zh/sessions/streaming-1122.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/streaming-1122.html</guid>
+      <description>在快速发展的流处理领域，Apache Flink已经成为一个强大的平台，用于开发健壮的、可扩展的和实时的数据处理应用程序。然而，在动态环境中管理Flink应用程序的配置带来了重大挑战，包括对灵活性、一致性的需求，以及在不停机的情况下适应更改的能力。本次技术会议介绍了eBay通知平台团队采用的一种综合方法，用于动态和增量配置管理，简化了动态更新Flink应用程序设置的过程。
+我们提出的解决方案利用与Flink运行时接口的集中配置服务来提供统一的配置管理系统。我们将深入研究这个系统的体系结构，它包括实时更新、版本控制、回滚功能和特定于环境的配置概要文件等特性。
+Speakers: Wei Chen: eBay，软件工程师, Wei专注于通过利用大数据和流处理技术来增强eBay的通知平台。他也是一名技术博客作者，并积极参与开源社区。 </description>
+    </item>
+    
+    <item>
+      <title>探索微服务的下一站，无耦合模块化开发框架和服务系统</title>
+      <link>/2024/zh/sessions/api-1089.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:30:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/api-1089.html</guid>
+      <description>微服务的发展极大地解决了组织专门化的问题。然而，它也带来了一些挑战:
+ 业务开发人员需要了解复杂的基础设施，这会导致启动缓慢和开发效率低下。 微服务分解没有标准。不充分的分解可能导致团队成员之间的协作障碍，而过度分解可能导致资源使用和长期维护成本问题。 如何建立合理的微服务分解标准，从根本上避免分解不足或过度的问题?  在研究了这些痛点之后，Ant Group的中间件团队设计了对传统微服务分解模型的升级，该模型解决了基础设施抽象问题，并细化了开发和操作粒度。与只进行水平分解的传统微服务不同，这个升级的模型包括垂直和水平划分。它垂直分为基和模块，因此模块不消耗额外的机器容量(节省资源)，模块开发人员只关注他们的业务逻辑(低认知负载)。横向上，它分解成多个模块，允许开发人员独立迭代而不受干扰(高协作效率)。
+Ant Group内的所有bg都采用了这种新的体系结构模型，集成了70万个核心应用程序。使用这个新模型，构建大小已经从千兆字节减少到兆字节，业务启动时间已经减少到秒，迭代效率已经大大提高，赢得了业务团队的认可和赞扬。
+演讲大纲:
+ 蚂蚁集团微服务和应用开发背景。 无耦合开发框架的解决方案和成果。 无组作业调度平台简介。 此模型所需的全部功能。 这种模式的优点和缺点，以及如何平衡它们。 实践经验和案例研究成果。 总结与展望。  你会得到什么:
+ 洞察蚂蚁集团在微服务和应用开发方面的前沿技术和成就。 关于合理微服务分解的新视角，解决了过度分解或缺乏分解的问题，同时也避免了微服务的额外开销。您还可以采用Koupleless来帮助您的企业大幅降低成本并提高效率。 了解新模型如何平衡利弊，在隔离和共享之间找到最佳平衡，以解决当前问题。 了解这种新模式在行业内的现状和挑战，以及未来的前景。  Speakers: 赵Zhenling: AntGroup技术专家，在微服务、无服务器和云原生领域经验丰富, 我在互联网技术开发方面有八年的经验，主要专注于微服务，无服务器和云原生领域。我于2018年加入蚂蚁集团，负责构建基于K8s部署的PaaS/无服务器和自动扩展。目前，我主要负责模块化开发框架的设计和搭建及其平台serverless的相关工作，这是蚂蚁集团全新的应用和开发架构，广泛应用于蚂蚁集团700k核心机的应用，并获得了中国信息通信研究院2022年云原生技术创新奖。此外，我还是SOFAArk社区的开发人员和维护者，以及KNative社区的贡献者。 </description>
+    </item>
+    
+    <item>
+      <title>Apache Celeborn社区进化和Apache Flink混合洗牌集成</title>
+      <link>/2024/zh/sessions/streaming-1121.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/streaming-1121.html</guid>
+      <description>Apache Celeborn作为一个中间数据服务，旨在提高大数据计算引擎的性能、稳定性和灵活性，在性能优化、内存存储、安全特性和提高稳定性等各个领域取得了新的进展。 同时，在Apache Community Over Code Asia 2023上，Flink推出了一种新的混合洗牌架构，旨在动态适应流和批处理洗牌模式。 Flink和Celeborn之间的合作进一步成熟了混合洗牌架构，并支持本地和远程洗牌之间的灵活切换，允许同时利用两种洗牌模式的优势。 在本次会议中，我们将分享这个高级洗牌框架，重点介绍: ●Apache Celeborn在不同引擎中的最新功能和未来路线图。 ●Flink与Celeborn的整合工作和未来计划。
+Speakers: Yuxin Tan: 阿里云高级开发工程师, 阿里云开源大数据平台，专注于Apache Flink / Apache Celeborn项目。 Jiashu Xiong: 阿里云高级开发工程师, Apache Celeborn PMC成员，主要关注Apache Celeborn的优化以及Apache Celeborn与Flink、Spark等引擎的集成 </description>
+    </item>
+    
+    <item>
+      <title>Apache Doris用于高效的半结构化数据分析</title>
+      <link>/2024/zh/sessions/olap-1095.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/olap-1095.html</guid>
+      <description>半结构化数据分析的特点与挑战。阿帕奇多丽丝的传统技术和新解决方案。
+Speakers: Kang Xiao: SelectDB,副总裁, SelectDB, VP Qianxin和360，董事, 百度高级工程师 </description>
+    </item>
+    
+    <item>
+      <title>Apache脉冲星星团规模控制与稳定性实践</title>
+      <link>/2024/zh/sessions/messaging-1074.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/messaging-1074.html</guid>
+      <description>无论是服务云本地化还是AI模型训练，作为基础组件的消息队列的稳定性越来越重要。 上层业务的规模越来越大，对消息队列性能和吞吐量的要求也越来越高。 集群的不断扩张将使集群规模不断扩大。大集群容易出现热点、爆炸半径过大等问题，影响上层业务的稳定性。 集群规模过小，无法承载不断增长的业务流量，自然会出现资源利用率不足等问题。 华为终端云中间件团队多年来总结了一套一线生产环境的集群规模控制实践。集群大小和业务隔离控制在合理范围内，对于高流量业务，消息队列是无服务器的，服务器跨集群调度资源。 在保证集群资源利用率的前提下，不断提高消息队列的稳定性。
+Speakers: Lin Lin: 华为终端云消息队列技术总监, 华为SDE专家，中间件技术总监，曾就职于腾讯、蚂蚁金服 专注于中间件和基础设施，拥有10年以上相关经验，致力于构建高质量的基础设施 Apache脉冲星提交者&amp;amp; PMC成员 “深入理解Apache Dubbo与实战”“深入解析Apache Pulsar”作者 </description>
+    </item>
+    
+    <item>
+      <title>使用HTTP/3增强Dubbo在云原生环境中的性能和可靠性</title>
+      <link>/2024/zh/sessions/api-1088.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/api-1088.html</guid>
+      <description>Apache Dubbo是一个高性能RPC框架，致力于提供出色的服务治理功能。随着HTTP/3的引入，其基于QUIC协议的特性为Dubbo微服务通信提供了新的可能性。HTTP/3通过减少延迟、提高传输速度、增强安全性、提高抗丢包能力和支持0-RTT连接，为Dubbo在云原生环境中的微服务通信提供了显著的性能和可靠性改进。
+Speakers: Sean Yang: 云软件集团(Citrix)首席软件工程师, 18年的Java架构和开发经验 熟练掌握分布式系统架构设计和性能调优, 前菜鸟资源中心团队TL, 前阿里巴巴CCO架构团队TL, 云软件集团(思杰)首席软件工程师 </description>
+    </item>
+    
+    <item>
+      <title>在网易使用Apache Gluten和Velox引擎加速Apache Kyuubi的查询</title>
+      <link>/2024/zh/sessions/datalake-1027.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datalake-1027.html</guid>
+      <description>会议探讨了Kyuubi(一个纯SQL网关)和面筋(一个矢量化执行引擎)的协同使用，以增强SQL查询的性能。Kyuubi通过Thrift JDBC/ODBC接口或RESTful api为最终用户简化了大规模数据操作，减少了对lake - house使用的障碍。它的多租户架构确保了服务器端的资源隔离/共享和数据安全性。会议重点介绍了网易以Apache Gluten和Velox为后端引擎实现的Kyuubi，旨在解决性能瓶颈并分享实际结果。麸质支持各种原生后端，目前的重点是Velox和ClickHouse，未来可能会与Apache Data Fusion等项目集成。
+Speakers: 尤夕多: 网易数帆技术专家，Apache Kyuubi PMC成员/ Apache Spark Committer / Apache Gluten PPMC成员, https://github.com/ulysses-you </description>
+    </item>
+    
+    <item>
+      <title>新的篇章:HugeGraph的自控存储、高性能计算和人工智能的未来</title>
+      <link>/2024/zh/sessions/datastorage-1038.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/datastorage-1038.html</guid>
+      <description>要点:
+ (介绍)整个GraphSystem新版本的概览图(结合了最新的各种组件/存储库)。 (主)首个自控存储分布式PD + Store版本。(基于Raft + RocksDB) (新版本)Vermeer内存图形计算系统+哈勃新开源版本。 (New Repository/Exploration)新的Graph AI Repository/Exploration内容。 (结论)未来展望和规划(LLM/GQL/Memory Management/RocksDB-Plus…)  Speakers: Imba Jin: Apache HugeGraph PPMC成员, HugeGraph PPMC成员，目前负责开源社区的发布管理。他擅长于分布式存储(文件系统/KV数据库)和图形存储/图形计算，并领导了社区的性能优化和技术发展。他对开源和红外相关技术充满热情，欢迎大家与他交流(GitHub: imbajin) </description>
+    </item>
+    
+    <item>
+      <title>让我们看看Apache Impala在 Apache Iceberg 上跑得有多快</title>
+      <link>/2024/zh/sessions/performance-1118.html</link>
+      <pubDate>Fri, 26 Jul 2024 14:00:00 +0000</pubDate>
+      
+      <guid>/2024/zh/sessions/performance-1118.html</guid>
+      <description>Apache Impala是一个分布式大规模并行查询引擎，专为大规模数据的高性能查询而设计。最近出现了一长串支持Apache Iceberg表的新特性，比如读、写、时间旅行等等。然而，在大数据环境中，性能也是必须的。由于黑斑羚被设计得很快，它有自己的方式来读取冰山表。其他引擎可能只是简单地使用Iceberg库来执行读取，而Impala本身有一个c++实现来优化速度。
+如今，即使是大数据存储技术，也必须不仅提供存储数据的可能性，还必须提供在行级别上更改和删除数据的可能性。Apache Iceberg通过使用数据文件旁边的删除文件解决了这个问题。查询引擎负责在查询数据时对数据文件应用删除文件。为了有效地读取这些表的数据，我们在Impala中实现了新的针对冰山的操作符。
+在这个演讲中，我们将深入到实现的细节，并揭示Impala出色的性能背后的秘密，以及在读取带有位置删除文件的冰山表时的秘密。我们还将展示一些测量结果，将Impala的性能与其他开源查询引擎进行比较。
+在演讲结束时，你应该对Impala和Iceberg的架构有一个高层次的了解，我们在Impala中特别为Iceberg实现的性能技巧，你将看到Impala是如何与其他引擎竞争的。
+Speakers: Zoltan Borok-Nagy: Cloudera，首席工程师, Zoltán是Cloudera的一名软件工程师，正在开发Apache Impala。他也是该项目的PMC成员。目前，他正在领导黑斑羚/冰山的整合工作。在Cloudera之前，Zoltán致力于c++静态分析工具。他对分布式、大规模并行系统、数据库和性能工程感兴趣。 </description>
+    </item>
+    
+  </channel>
+</rss>
