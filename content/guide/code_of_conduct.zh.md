@@ -3,7 +3,7 @@ title: 行为准则
 weight: 22
 ---
 
-在Apache软件基金会，所有在线互动均受ASF行为准则的管辖，而面对面的活动则受反骚扰政策。
+在Apache软件基金会，所有在线互动均受[ASF行为准则](http://apache.org/foundation/policies/conduct.html)的管辖，而面对面的活动则受[反骚扰政策](http://apache.org/foundation/policies/anti-harassment.html)。
 
 Community Over Code (前 ApacheCon ) 致力于为每个人提供无骚扰的体验。我们不容忍任何形式的参与者骚扰。违反这些规则的参加者可以根据活动组织者的判断，予以制裁或开除，且不予退款。
 
