@@ -12,7 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/venue_travel/venue.html</guid>
-      <description>Venue    The Zheda Yuanzheng Forest Hotel, located on the south side of the Yuquan Building (Building A), in the Zhejiang University Forest Park, Hangzhou City, Zhejiang Province, leverages the talent construction and innovation ecosystem resources of Zhejiang University. It is a comprehensive facility that combines conference, hotel, and leisure services. Nestled against the mountains and near water, the center boasts a beautiful environment, making it an ideal location for academic exchanges, seminars, corporate training, and various conferences.</description>
+      <description>Venue This year&amp;rsquo;s conference will be held at the Convention Center of Zhongguancun National Independent Innovation Demonstration Zone (located at No. 2 Xinjian Gongmen Road, Haidian District, Beijing).
+Nestled in the heart of Haidian District, Beijing, the Convention Center of Zhongguancun National Independent Innovation Demonstration Zone stands adjacent to the time-honored cultural scenic area of &amp;ldquo;Three Hills and Five Gardens&amp;rdquo; and the thriving Zhongguancun Science City. It serves as a confluence point of technology and culture, as well as a brilliant stage for innovation and exchange.</description>
     </item>
     
     <item>
@@ -21,9 +22,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/guide/visa_letter_request.html</guid>
-      <description>For those needing a visa invitation letter, please refer to the instructions on this page
+      <description>For those needing a visa invitation letter, please refer to the instructions on this page.
 INSTRUCTIONS Before asking for a visa invitation letter, please check out the website of Chinese Visa Application Service Center for the visa application in your city.
-Please pay attention to the latest visa policy of China:   144-Hour Visa-Free Transit Policy   China has resumed the 144-hour visa-free transit policy, which allows people from certain countries to enjoy six days of travel to select areas of the country without applying for a visa beforehand.</description>
+Please pay attention to the latest visa policy of China:   240-Hour Visa-Free Transit Policy which allows people from certain countries to enjoy ten days of travel to select areas of the country without applying for a visa beforehand.</description>
     </item>
     
     <item>
@@ -39,11 +40,22 @@ We strongly recommend you to use the template, but if you don’t plan to use it
     
     <item>
       <title>Convince Your Boss</title>
+      <link>/guide/code_of_conduct.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/guide/code_of_conduct.html</guid>
+      <description>At the Apache Software Foundation, all online interactions are governed by the ASF Code of Conduct, while in-person events are subject to the Anti-Harassment Policy.
+Community Over Code (formerly ApacheCon) is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Participants violating these rules may be sanctioned or expelled without a refund, at the discretion of the event organizers.
+Harassment includes offensive verbal comments, deliberate intimidation, stalking, following, unwanted photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</description>
+    </item>
+    
+    <item>
+      <title>Convince Your Boss</title>
       <link>/guide/convince_your_boss.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/guide/convince_your_boss.html</guid>
-      <description>Want to attend but not sure how to bring it up with your boss? We’ve created this sample email to help you explain why it’s important to attend Community Over Code Asia 2024. Feel free to use the full letter or pieces that work for you. See you in Hangzhou!
+      <description>Want to attend but not sure how to bring it up with your boss? We’ve created this sample email to help you explain why it’s important to attend Community Over Code Asia 2025. Feel free to use the full letter or pieces that work for you. See you in Beijing!
 Download Template </description>
     </item>
     
@@ -96,17 +108,6 @@ Three types of topics suitable for this sub forum are as follows:</description>
       
       <guid>/tracks/cloudnative.html</guid>
       <description>Apache Software Projects practice in the cloud native environment, such as K8s, service mesh, serverless(lambda). More projects are required to deploy and run on the modern infra, and leverage them. In the Cloud Native track, we are going to share the experiences how Apache&amp;rsquo;s projects resolves this complex issue. Also, what tools and methods the ASF provided today to help the users to observe and understand the distributed system.</description>
-    </item>
-    
-    <item>
-      <title>Code of Conduct</title>
-      <link>/conduct.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/conduct.html</guid>
-      <description>At the Apache Software Foundation, all online interactions are governed by the ASF Code of Conduct, while in-person events are subject to the Anti-Harassment Policy.
-CommunitOverCode (formerly ApacheCon) is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Participants violating these rules may be sanctioned or expelled without a refund, at the discretion of the event organizers.
-Harassment includes offensive verbal comments, deliberate intimidation, stalking, following, unwanted photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</description>
     </item>
     
     <item>
@@ -248,6 +249,16 @@ In ASF, there are various projects that provide messaging services, for example:
       
       <guid>/tracks/streaming.html</guid>
       <description>Streaming data processing is a big deal in big data these days, businesses crave ever-more timely insights into their data, and what was once a ‘batch’ mindset is quickly being replaced with stream processing. More and more companies, small and large, are rethinking their architecture with real-time context at the forefront, and starting to build their streaming platforms with powerful open source engines such as Apache Flink, Apache Spark, Apache Kafka, Apache Pulsar, Apache Storm, Apache StreamPark (incubating), Apache Paimon (incubating) etc.</description>
+    </item>
+    
+    <item>
+      <title>Terms &amp; Conditions</title>
+      <link>/guide/terms.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/guide/terms.html</guid>
+      <description>Refund Policy If you must cancel for any reason please notify us via email at vivian@segmentfault.com. Refunds will only be issued for cancellations received 14 days prior to the first day of the event and may take up to 14 days to process. Please note that all refunds are subject to a 3% processing fee. You can cancel or modify your registration from your confirmation email.
+Photo &amp;amp; Video Release I hereby consent to the photographing of myself and the recording of my voice and the use of these photographs and/or recordings singularly or in conjunction with other photographs and/or recordings for advertising, publicity, commercial or other business purposes for The Apache Software Foundation.</description>
     </item>
     
     <item>

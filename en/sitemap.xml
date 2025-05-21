@@ -38,6 +38,18 @@
                 href="/guide/presentation_slides_template.html"
                 />
   </url><url>
+    <loc>/guide/code_of_conduct.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/guide/code_of_conduct.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/guide/code_of_conduct.html"
+                />
+  </url><url>
     <loc>/guide/convince_your_boss.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -121,18 +133,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tracks/cloudnative.html"
-                />
-  </url><url>
-    <loc>/conduct.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/conduct.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/conduct.html"
                 />
   </url><url>
     <loc>/tracks/community.html</loc>
@@ -361,6 +361,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tags.html"
+                />
+  </url><url>
+    <loc>/guide/terms.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/guide/terms.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/guide/terms.html"
                 />
   </url><url>
     <loc>/tracks.html</loc>

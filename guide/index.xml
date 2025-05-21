@@ -12,9 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/guide/visa_letter_request.html</guid>
-      <description>For those needing a visa invitation letter, please refer to the instructions on this page
+      <description>For those needing a visa invitation letter, please refer to the instructions on this page.
 INSTRUCTIONS Before asking for a visa invitation letter, please check out the website of Chinese Visa Application Service Center for the visa application in your city.
-Please pay attention to the latest visa policy of China:   144-Hour Visa-Free Transit Policy   China has resumed the 144-hour visa-free transit policy, which allows people from certain countries to enjoy six days of travel to select areas of the country without applying for a visa beforehand.</description>
+Please pay attention to the latest visa policy of China:   240-Hour Visa-Free Transit Policy which allows people from certain countries to enjoy ten days of travel to select areas of the country without applying for a visa beforehand.</description>
     </item>
     
     <item>
@@ -30,11 +30,22 @@ We strongly recommend you to use the template, but if you don’t plan to use it
     
     <item>
       <title>Convince Your Boss</title>
+      <link>/guide/code_of_conduct.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/guide/code_of_conduct.html</guid>
+      <description>At the Apache Software Foundation, all online interactions are governed by the ASF Code of Conduct, while in-person events are subject to the Anti-Harassment Policy.
+Community Over Code (formerly ApacheCon) is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Participants violating these rules may be sanctioned or expelled without a refund, at the discretion of the event organizers.
+Harassment includes offensive verbal comments, deliberate intimidation, stalking, following, unwanted photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</description>
+    </item>
+    
+    <item>
+      <title>Convince Your Boss</title>
       <link>/guide/convince_your_boss.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/guide/convince_your_boss.html</guid>
-      <description>Want to attend but not sure how to bring it up with your boss? We’ve created this sample email to help you explain why it’s important to attend Community Over Code Asia 2024. Feel free to use the full letter or pieces that work for you. See you in Hangzhou!
+      <description>Want to attend but not sure how to bring it up with your boss? We’ve created this sample email to help you explain why it’s important to attend Community Over Code Asia 2025. Feel free to use the full letter or pieces that work for you. See you in Beijing!
 Download Template </description>
     </item>
     
@@ -46,6 +57,16 @@ Download Template </description>
       <guid>/guide/accessibility.html</guid>
       <description>Community Over Code Asia strives to be a welcoming, inclusive, and accessible environment for all, regardless of ability.
 Participants requiring special accommodations should provide details in their registration and/or by emailing us at ningjiang@apache.org. This information will be kept private and only be shared with individuals who need to know to secure these accommodations.</description>
+    </item>
+    
+    <item>
+      <title>Terms &amp; Conditions</title>
+      <link>/guide/terms.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/guide/terms.html</guid>
+      <description>Refund Policy If you must cancel for any reason please notify us via email at vivian@segmentfault.com. Refunds will only be issued for cancellations received 14 days prior to the first day of the event and may take up to 14 days to process. Please note that all refunds are subject to a 3% processing fee. You can cancel or modify your registration from your confirmation email.
+Photo &amp;amp; Video Release I hereby consent to the photographing of myself and the recording of my voice and the use of these photographs and/or recordings singularly or in conjunction with other photographs and/or recordings for advertising, publicity, commercial or other business purposes for The Apache Software Foundation.</description>
     </item>
     
   </channel>

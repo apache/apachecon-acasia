@@ -50,6 +50,18 @@
                 href="/zh/guide/convince_your_boss.html"
                 />
   </url><url>
+    <loc>/zh/guide/code_of_conduct.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/guide/code_of_conduct.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/guide/code_of_conduct.html"
+                />
+  </url><url>
     <loc>/zh/cfp.html</loc>
     <priority>0</priority>
     <xhtml:link
@@ -315,6 +327,18 @@
                 href="/zh/guide/accessibility.html"
                 />
   </url><url>
+    <loc>/zh/guide/terms.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/guide/terms.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/guide/terms.html"
+                />
+  </url><url>
     <loc>/zh/tracks/streaming.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -349,18 +373,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tracks/iot.html"
-                />
-  </url><url>
-    <loc>/zh/conduct.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/conduct.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/conduct.html"
                 />
   </url><url>
     <loc>/zh/tracks/others.html</loc>
