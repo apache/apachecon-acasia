@@ -900,11 +900,11 @@
 }
 
 .side-left-nav .nav-item  .nav-link {
-	color: #9E2165;
+	color: #000;
 }
 
 .side-left-nav .nav-link.active {
-	background-color: #9E2165;
+	background-color: #7bd7fe;
 	color: white;
 	border-radius: var(--radius-rounded-2, 6px);
 }

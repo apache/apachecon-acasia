@@ -27,7 +27,7 @@
                           {{ else }}
                           {{ $url = "/zh/venue_travel/venue.html" }}
                           {{ end }}
-                          {{ $array := slice "venue" "about-hangzhou" "getting-there" }}
+                          {{ $array := slice "venue" "getting-there" }}
                           {{ range $index, $element := $array }}
                             <li class="nav-item">
                                 {{ if eq $.Site.Language.Lang "en" }}

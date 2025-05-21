@@ -1,48 +1,84 @@
 <section class="sponsorship">
-  <dl>
-    <dt>{{ i18n "sponsorship_platinum" }}</dt>
-    <dd class="platinum">
-      <div class="img-wrap">
-        <img src="images/logo/logo-Aliyun.png" alt="AliCloud" />
+  {{ $sponsors := slice 
+    (dict "title" "sponsor_title_1" "logo" "images/sponsor/icon1.png" "description" "sponsor_description_1")
+    (dict "title" "sponsor_title_2" "logo" "images/sponsor/icon2.png" "description" "sponsor_description_2")
+    (dict "title" "sponsor_title_3" "logo" "images/sponsor/icon3.png" "description" "sponsor_description_3")
+    (dict "title" "sponsor_title_4" "logo" "images/sponsor/icon4.png" "description" "sponsor_description_4")
+  }}
+
+  <div class="row justify-content-center">
+    <div class="col col-sm-12 col-md-10 col-lg-8">
+      {{ range $sponsors }}
+        <div class="card mb-4 border-0">
+          <div class="card-body d-flex align-items-center p-4">
+            <img  class="me-4" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" style="color:transparent" 
+            src="{{ .logo }}">
+            <div class="text-start">
+              <strong>{{ i18n .title }}</strong>
+              <span>{{ i18n .description }}</span>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+      <a href="pdf/CoC_Asia_2025-Prospectus.pdf" class="btn btn-lg btn-warning mt-5" target="_blank">{{ i18n "sponsor-download" }}</a>
+      <div style="text-align:center;margin-top:40px;">
+        {{ i18n "sponsorship_consultation" }} {{ i18n "sponsor_contact" }}
+        <br>
+        <span style="margin-right:20px">{{ i18n "sponsor_email" }}
+          <a href="mailto: linda@sifou.com">linda@sifou.com</a>
+        </span>
+        <span>{{i18n "sponsor_wechat" }}xuxiaolin0528</span>
       </div>
-      <div class="img-wrap">
-        <img src="images/logo/logo-AntOpenSource.png" alt="AntOpenSource" />
-      </div>
-      <div class="img-wrap">
-        <img src="images/logo/logo-ByteDanceOpenSource.jpg" alt="ByteDanceOpenSource" />
-      </div>
-    </dd>
-  </dl>
-  <dl>
-    <dt>{{ i18n "sponsorship_gold" }}</dt>
-    <dd>
-      <div class="img-wrap">
-        <img src="images/logo/logo-SelectDB.png" alt="SelectDB" />
-      </div>
-      <div class="img-wrap">
-        <img src="images/logo/logo-Openbayes.png" alt="Openbayes" />
-      </div>
-      <div class="img-wrap">
-        <img src="images/logo/logo-Mi.jpg" alt="Mi" />
-      </div>
-    </dd>
-  </dl>
-  <dl>
-    <dt>{{ i18n "sponsorship_silver" }}</dt>
-    <dd>
-      <div class="img-wrap">
-        <img src="images/logo/BAIDU.png" alt="BaiDu" />
-      </div>
-    </dd>
-  </dl>
-  <dl>
-    <dt>{{ i18n "sponsorship_community" }}</dt>
-    <dd>
-      <div class="img-wrap">
-        <img src="images/logo/logo-sf.png" alt="SegmentFault" />
-      </div>
-    </dd>
-  </dl>
+    </div>
+  </div>
+</div>
+
+  <div class="bg-white mt-5 d-none">
+    <dl>
+      <dt>{{ i18n "sponsorship_platinum" }}</dt>
+      <dd class="platinum">
+        <div class="img-wrap">
+          <img src="images/logo/logo-Aliyun.png" alt="AliCloud" />
+        </div>
+        <div class="img-wrap">
+          <img src="images/logo/logo-AntOpenSource.png" alt="AntOpenSource" />
+        </div>
+        <div class="img-wrap">
+          <img src="images/logo/logo-ByteDanceOpenSource.jpg" alt="ByteDanceOpenSource" />
+        </div>
+      </dd>
+    </dl>
+    <dl>
+      <dt>{{ i18n "sponsorship_gold" }}</dt>
+      <dd>
+        <div class="img-wrap">
+          <img src="images/logo/logo-SelectDB.png" alt="SelectDB" />
+        </div>
+        <div class="img-wrap">
+          <img src="images/logo/logo-Openbayes.png" alt="Openbayes" />
+        </div>
+        <div class="img-wrap">
+          <img src="images/logo/logo-Mi.jpg" alt="Mi" />
+        </div>
+      </dd>
+    </dl>
+    <dl>
+      <dt>{{ i18n "sponsorship_silver" }}</dt>
+      <dd>
+        <div class="img-wrap">
+          <img src="images/logo/BAIDU.png" alt="BaiDu" />
+        </div>
+      </dd>
+    </dl>
+    <dl>
+      <dt>{{ i18n "sponsorship_community" }}</dt>
+      <dd>
+        <div class="img-wrap">
+          <img src="images/logo/logo-sf.png" alt="SegmentFault" />
+        </div>
+      </dd>
+    </dl>
+  </div>
 </section>
 <style>
   .sponsorship dl {

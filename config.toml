@@ -32,25 +32,25 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 unsafe = true
 
 # menu for en (final list includes translated pages from /content)
-# [[languages.en.menu.main]]
-# name = "Guide"
-# url = "/guide/visa_letter_request.html"
-# weight = 3
+[[languages.en.menu.main]]
+name = "Guide"
+url = "/guide/visa_letter_request.html"
+weight = 3
 
-# [[languages.en.menu.main]]
-# name = "Venue + Travel"
-# url = "/venue_travel/venue.html"
-# weight = 4
+[[languages.en.menu.main]]
+name = "Venue + Travel"
+url = "/venue_travel/venue.html"
+weight = 4
 
 
 # menu for ZH language (final list includes translated pages from /content)
 
-# [[languages.zh.menu.main]]
-# name = "参会指南"
-# url = "/zh/guide/visa_letter_request.html"
-# weight = 3
+[[languages.zh.menu.main]]
+name = "参会指南"
+url = "/zh/guide/visa_letter_request.html"
+weight = 3
 
-# [[languages.zh.menu.main]]
-# name = "会场 + 旅行"
-# url = "/zh/venue_travel/venue.html"
-# weight = 4
+[[languages.zh.menu.main]]
+name = "会场 + 旅行"
+url = "/zh/venue_travel/venue.html"
+weight = 4

@@ -1,7 +1,7 @@
 ---
 title: 会议赞助
 identifier: sponsor
-# menu:
-#   main:
-#     weight: -30
+menu:
+  main:
+    weight: -30
 ---

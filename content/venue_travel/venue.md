@@ -5,30 +5,30 @@ weight: 20
 
 ### Venue
 
+This year's conference will be held at the Convention Center of Zhongguancun National Independent Innovation Demonstration Zone (located at No. 2 Xinjian Gongmen Road, Haidian District, Beijing).
+
+Nestled in the heart of Haidian District, Beijing, the Convention Center of Zhongguancun National Independent Innovation Demonstration Zone stands adjacent to the time-honored cultural scenic area of "Three Hills and Five Gardens" and the thriving Zhongguancun Science City. It serves as a confluence point of technology and culture, as well as a brilliant stage for innovation and exchange. Boasting a vast total construction area and a scientifically designed interior layout, the convention center features multiple functional meeting rooms that can accommodate meeting events of various scales and needs, ranging from small seminars for several dozen participants to large-scale summits for over a thousand attendees. Thanks to its unique architectural design, state-of-the-art conference facilities, and exceptional geographical location, the venue has become the premier choice for hosting a wide array of high-end conferences, forums, exhibitions, and business events both domestically and internationally, setting a new trend for the integration of technological innovation and cultural exchange.
+
 <div class="row">
   <div class="col-12 col-lg-6 mb-3">
-    <img src="/images/venue-2.jpg"  alt="" width="100%" />
+    <img src="/images/venue/venue1.png"  alt="" width="100%" />
   </div>
   <div class="col-12 col-lg-6 mb-3">
-    <img src="/images/venue-1.jpg"  alt="" width="100%"  />
+    <img src="/images/venue/venue2.png"  alt="" width="100%"  />
+  </div>
+  <div class="col-12 col-lg-6 mb-3">
+    <img src="/images/venue/venue3.png"  alt="" width="100%"  />
+  </div>
+
+  <div class="col-12 col-lg-6 mb-3">
+    <img src="/images/venue/venue4.png"  alt="" width="100%"  />
   </div>
 </div>
 
-The [Zheda Yuanzheng Forest Hotel](https://www.trip.com/hotels/hangzhou-hotel-detail-83055190/zheda-yuanzheng-forest-hotel/), located on the south side of the Yuquan Building (Building A), in the Zhejiang University Forest Park, Hangzhou City, Zhejiang Province, leverages the talent construction and innovation ecosystem resources of Zhejiang University. It is a comprehensive facility that combines conference, hotel, and leisure services. Nestled against the mountains and near water, the center boasts a beautiful environment, making it an ideal location for academic exchanges, seminars, corporate training, and various conferences.
-Given its location in Hangzhou, attendees can also enjoy the natural beauty and rich cultural heritage of the city, including famous attractions like West Lake and Lingyin Temple.
-
-### About Hangzhou
-
-[Hangzhou](https://en.wikipedia.org/wiki/Hangzhou), the capital of Zhejiang Province in Eastern China, is a city that harmoniously blends its rich historical heritage with a vibrant push towards technological innovation and modernization. Known for its picturesque landscapes, Hangzhou is famously home to the West Lake, a UNESCO World Heritage site that has inspired poets and artists for centuries with its tranquil beauty and historic relics. The city's natural scenery, including the tea-covered hills of Longjing and the serene waters of Xixi Wetland, make it a top destination for tourists seeking both relaxation and cultural immersion.
-
-In terms of technological development, Hangzhou has established itself as a significant hub in China's digital economy. Without mentioning specific companies, it's important to note that the city is a breeding ground for innovation and entrepreneurship in sectors like e-commerce, fintech, and artificial intelligence. Hangzhou's commitment to technological advancement is evident in its infrastructure, research facilities, and the hosting of major tech-focused events and forums that attract talent and investment from around the world. This provides a solid foundation for building a vibrant ecosystem of innovation, research, and development, making Hangzhou a global leader in the digital economy.
-
-Hangzhou's blend of natural beauty, historical depth, and technological progress makes it a unique city that offers a glimpse into China's past and its future. The city's efforts to maintain its cultural heritage while aggressively pursuing technological innovation create a dynamic environment that appeals to both tourists and tech professionals alike.
-
 ### Getting There
 
-We recommend that you use Google Maps, Baidu Maps, Gaode Map, etc., to check the specific transportation methods to the venue. Hangzhou has 2 main train stations and the [Xiaoshan International Airport](https://en.wikipedia.org/wiki/Hangzhou_Xiaoshan_International_Airport).
+**Taking a taxi**: Search for "Zhongguancun National Innovation Demonstration Zone Conference Center".
 
-Hangzhou West Railway Station is 7.3 kilometers away from the venue in a straight line, Hangzhou East Railway Station is also 7.3 kilometers away in a straight line, and Hangzhou Xiaoshan International Airport is 36.6 kilometers away in a straight line.
+**Taking the subway**: Take Metro Line 16 to the "Wanquanheqiao" Station. Exit from Exit A, then walk for 700 meters (about 11 minutes) to reach the park.
 
-We suggest that you take public transportation such as the subway or bus for a green travel experience.
+**Location**: [Zhongguancun National Zizhu Innovative Demonstration Area - Conference Center](https://maps.apple.com/?address=%E4%B8%AD%E5%9B%BD%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E6%96%B0%E5%BB%BA%E5%AE%AB%E9%97%A8%E8%B7%AF2%E5%8F%B7&auid=1118368620452725&ll=39.989483,116.293350&lsp=57879&q=%E4%B8%AD%E5%85%B3%E6%9D%91%E5%9B%BD%E5%AE%B6%E8%87%AA%E4%B8%BB%E5%88%9B%E6%96%B0%E7%A4%BA%E8%8C%83%E5%8C%BA-%E4%BC%9A%E8%AE%AE%E4%B8%AD%E5%BF%83&_ext=EiQpLp67o0X9Q0AxmD0PjgUSXUA5/XUt2wgAREBBqUGSuYYTXUA%3D)

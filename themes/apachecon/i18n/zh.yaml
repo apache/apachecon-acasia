@@ -98,29 +98,41 @@ call_for_proposals:
 sponsor-download:
   other:  下载完整招商计划书
 
-sponsor_title_1:
-  other: 品牌曝光和市场推广
+sponsorship_consultation:
+  other: '赞助咨询：'
 
-sponsor_description_1:
-  other: 赞助 Community Over Code Asia 可增加企业在开发者群体和开源社区中的曝光度，提升品牌形象，并通过参会者的关注来推广您的产品和服务。
+sponsor_contact:
+  other: 徐琳
+
+sponsor_email:
+  other: '邮箱：'
+
+sponsor_wechat:
+  other: '微信：'
+
+sponsor_title_1:
+  other: '品牌曝光和市场推广：'
+
+sponsor_description_1: 
+   other: 赞助 Community Over Code Asia 可增加企业在开发者群体和开源社区中的曝光度，提升品牌形象，并通过参会者的关注来推广您的产品和服务。
 
 sponsor_title_2:
-  other: 扩展商业联系和合作机会
+  other: '扩展商业联系和合作机会：'
 
-sponsor_description_2:
-  other: 会议聚集了全球的技术专家、行业领袖和决策者，从一线工程师到企业 C-Level，这为赞助企业提供了一个与潜在合作伙伴、客户和供应商建立联系的平台，开拓新的商业机会，这也将有利于企业吸引和招揽业内顶级人才。
+sponsor_description_2: 
+   other: 会议聚集了全球的技术专家、行业领袖和决策者，从一线工程师到企业 C-Level，这为赞助企业提供了一个与潜在合作伙伴、客户和供应商建立联系的平台，开拓新的商业机会，这也将有利于企业吸引和招揽业内顶级人才。
 
 sponsor_title_3:
-  other: 了解 Apache 软件基金会项目的最新进展， 并与项目开发者进行深入交流和合作
+  other: '了解 Apache 软件基金会项目的最新进展， 并与项目开发者进行深入交流和合作：'
 
-sponsor_description_3:
-  other: Community Over Code Asia 邀请了来自全球的 Apache 软件基金会项目的开发人员。参与本届大会将有助于帮助企业洞察项目最新进展，和行业技术专家、项目开发人员及生态伙伴建立长期联系，并进行深入交流和合作。
+sponsor_description_3: 
+   other: Community Over Code Asia 邀请了来自全球的 Apache 软件基金会项目的开发人员。参与本届大会将有助于帮助企业洞察项目最新进展，和行业技术专家、项目开发人员及生态伙伴建立长期联系，并进行深入交流和合作。
 
 sponsor_title_4:
-  other: 社区贡献与企业声誉提升
+  other: '社区贡献与企业声誉提升：'
 
-sponsor_description_4:
-  other: 赞助 Community Over Code Asia 显示了企业对开源社区的承诺和支持，有助于提升企业的社会责任形象和雇主品牌，并在行业内树立积极的声誉。
+sponsor_description_4: 
+   other: 赞助 Community Over Code Asia 显示了企业对开源社区的承诺和支持，有助于提升企业的社会责任形象和雇主品牌，并在行业内树立积极的声誉。
 
 guide:
   other: 参会指南
@@ -136,6 +148,12 @@ presentation_slides_template:
 
 convince_your_boss:
   other: 向您所在公司阐述参会价值
+
+code_of_conduct: 
+  other: 行为准则
+
+terms_condition:
+  other: 条款和条件  
 
 venue:
   other: 会场

@@ -1,7 +1,7 @@
 ---
 title: Sponsor
 identifier: sponsor
-# menu:
-#   main:
-#     weight: -30
+menu:
+  main:
+    weight: -30
 ---

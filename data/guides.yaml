@@ -1,11 +1,17 @@
 - name: visa_letter_request
   url: /guide/visa_letter_request.html
 
-- name: accessibility
-  url: /guide/accessibility.html
-
 - name: presentation_slides_template
   url: /guide/presentation_slides_template.html
 
 - name: convince_your_boss
-  url: /guide/convince_your_boss.html  
+  url: /guide/convince_your_boss.html
+
+- name: code_of_conduct
+  url: /guide/code_of_conduct.html
+
+- name: terms_condition
+  url: /guide/terms.html
+
+- name: accessibility
+  url: /guide/accessibility.html  
