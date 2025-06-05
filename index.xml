@@ -97,8 +97,7 @@ Participants requiring special accommodations should provide details in their re
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/ai.html</guid>
-      <description>Machine learning (ML) is the study of computer algorithms that can improve automatically through experience and by the use of data. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so. It has a wide range of application scenarios in industry and plays an increasingly important role.
-Three types of topics suitable for this sub forum are as follows:</description>
+      <description>The AI Sub-forum is a professional exchange platform focusing on the integration of artificial intelligence (AI) technology and Apache open-source projects. This sub-forum aims to bring together developers, researchers, and industry users from around the world to explore the application and development of AI technology in the open-source ecosystem, showcase cutting-edge technologies, share practical experience, and promote the implementation of open-source AI solutions across various industries. Topics suitable for this sub-forum include:</description>
     </item>
     
     <item>
@@ -107,7 +106,7 @@ Three types of topics suitable for this sub forum are as follows:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/cloudnative.html</guid>
-      <description>Apache Software Projects practice in the cloud native environment, such as K8s, service mesh, serverless(lambda). More projects are required to deploy and run on the modern infra, and leverage them. In the Cloud Native track, we are going to share the experiences how Apache&amp;rsquo;s projects resolves this complex issue. Also, what tools and methods the ASF provided today to help the users to observe and understand the distributed system.</description>
+      <description>Apache Software Projects practice in the cloud native environment, such as K8s, service mesh, serverless(lambda). More projects are required to deploy and run on the modern infra, and leverage them. In the Cloud Native track, we are going to share the experiences how Apache’s projects resolves this complex issue. Also, what tools and methods the ASF provided today to help the users to observe and understand the distributed system.</description>
     </item>
     
     <item>
@@ -146,7 +145,7 @@ Big Data is also a very important part of ASF. ASF has so many big data storage 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/dataops.html</guid>
-      <description>Introducing the DataOps Track at ApacheCon, featuring some of the most innovative and cutting-edge projects in the Apache ecosystem. This track brings together leading experts and contributors from Apache DolphinScheduler, Apache Airflow, Apache SeaTunnel, Apache Flume, Apache Sqoop, Apache Griffin, Apache Atlas and other DataOps-related projects to explore the latest advances in data operations, automation, and orchestration. Whether you&amp;rsquo;re a seasoned data professional or just getting started in the field, this track offers something for everyone, with sessions covering topics such as data pipelines, ETL, orchestration, data qulity, metadata, and more.</description>
+      <description>Featuring some of the most innovative and cutting-edge projects in the Apache ecosystem. This track brings together leading experts and contributors from Apache DolphinScheduler, Apache Airflow, Apache SeaTunnel, Apache Flume, Apache Sqoop, Apache Griffin, Apache Atlas and other DataOps-related projects to explore the latest advances in data operations, automation, and orchestration. Whether you’re a seasoned data professional or just getting started in the field, this track offers something for everyone, with sessions covering topics such as data pipelines, ETL, orchestration, data qulity, metadata, and more.</description>
     </item>
     
     <item>
@@ -174,8 +173,8 @@ Participants will learn about the process of entering the incubator and progress
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/iot.html</guid>
-      <description>Recent years, the emerging Internet of Things (IoT) and Industrial Internet of Things (IIoT) applications show the requirements about the embedded operation system, data collection from the side, data management both on the side and the cloud, and data analysis technologies. The Apache Software Foundation provides many related projects, like Apache IoTDB, Apache Mynewt, Apache PLC4X and Apache Streampipes to meet users&#39; requirements.
-This track will introduce the recent progress, some core technologies and the use experience of IoT related Apache projects.</description>
+      <description>The loT Track will be a gathering of innovativeminds and industry experts in the loT field. This track focuses on theatest trends,technologies, and applications in the lnternet ofThings. During the event, attendees will have the opportunity toexplore a wide range of topics, including loT device data collectingdata storage, data analytics, security, and the loT solutions.
+In order to better realize the core needs of the IoT industry such as device communication, data management, and edge-cloud collaboration.</description>
     </item>
     
     <item>
@@ -193,17 +192,28 @@ This track will introduce the recent progress, some core technologies and the us
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/messaging.html</guid>
-      <description>Messaging system is used to enable communication between systems by sending messages to each other. It is used to decouple heavyweight processing, to buffer or batch work, and to smooth spiky workloads, also it can be used as the basic infrastructure for event driven and streaming systems.
-In ASF, there are various projects that provide messaging services, for example: Apache Pulsar, Apache Kafka, Apache RocketMQ, Apache ActiveMQ, Apache Inlong, etc.</description>
+      <description>With the large-scale landing of serverless, IoT and real-time data technology, event-driven architecture and event streaming technology have been more widely applied, making message queue become more and more important infrastructure. Today, a number of excellent messaging projects have emerged in the Apache ecosystem, including Apache Pulsar, Apache Kafka, Apache RocketMQ, Apache ActiveMQ, Apache Inlong, etc, facing new technological trends, each messaging project is also continuing to evolve.
+In this topic, you will learn how different messaging systems make the best technical evolution direction based on their own architectural characteristics, including storage and computing separation, serverless, messaging-streaming integration,and so on.</description>
     </item>
     
     <item>
-      <title>Monolith vs Microservice</title>
+      <title>Microservice</title>
       <link>/tracks/api.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/api.html</guid>
-      <description>Microservices have become the default choice for our technology stack, and it seems that anything other than microservices is considered outdated. However, in the past two years, doubts about microservices have started to emerge, and people have begun to miss the simplicity and directness of monolithic services, avoiding the various governance costs that come with service-oriented architecture. The industry has also witnessed the emergence of new programming frameworks that provide developers with the experience and efficiency of monolithic development while retaining the flexibility, scalability, and even certain serverless characteristic</description>
+      <description>Whether in the era of Cloud Native or AI-led transformation today, microservices remain the cornerstone of underlying systems, helping us build resilient and scalable distributed systems. Join us as we uncover:
+  High-Performance RPC Frameworks – Learn how projects like Apache Dubbo, Apache Thrift, and Apache bRPC are redefining service-to-service communication with speed, efficiency, and interoperability.
+  AI-Driven Microservices – Discover how AI and ML are revolutionizing service orchestration, anomaly detection, and autonomous scaling in microservice ecosystems.</description>
+    </item>
+    
+    <item>
+      <title>Observability</title>
+      <link>/tracks/observability.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tracks/observability.html</guid>
+      <description>As we navigate the evolving landscape of distributed systems and microservices architectures, observability has become a vital component for ensuring system health, performance, and reliability. The observability track aims to bring together industry experts, practitioners, and enthusiasts who are passionate about observability within Apache projects and related ecosystems. Our objective is to provide a platform for sharing insights, techniques, tools, and best practices that facilitate seamless observability across Apache&amp;rsquo;s diverse suite of projects, including Apache Skywalking, Apache Spark, Apache Flink, Apache Pulsar, Apache Hadoop, and etc.</description>
     </item>
     
     <item>
@@ -216,12 +226,13 @@ In ASF, there are various projects that provide messaging services, for example:
     </item>
     
     <item>
-      <title>Performace</title>
-      <link>/tracks/performance.html</link>
+      <title>Rust</title>
+      <link>/tracks/rust.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tracks/performance.html</guid>
-      <description>Why an ApacheCon Performance Engineering Track? Because many Apache projects address domains with software performance and scalability challenges (E.g. Web, Cloud, Databases, Streaming Data, Big Data, Data Analytics, Search, Geospatial, etc), while others provide performance engineering tools (E.g. benchmarking, testing, monitoring, etc) that are widely used, so the track will provide opportunities for cross-fertilization between projects of different software categories and maturity.</description>
+      <guid>/tracks/rust.html</guid>
+      <description>The Rust ecosystem is rapidly approaching. Many ASF projects provide their Rust SDK. Also, quite a few new TLPs/podllings are primarily written in Rust, including Apache DataFusion,Apache OpenDAL, Apache HoraeDB (incubating), and so on.
+This track aims to share the evolution of Rust projects and integrations within and around the ASF. Hopefully, we show how ASF projects provide good Rust practices, and a Rust project can grow it community healthily under the Apache way.</description>
     </item>
     
     <item>
@@ -262,13 +273,13 @@ Photo &amp;amp; Video Release I hereby consent to the photographing of myself an
     </item>
     
     <item>
-      <title>Web Server/Tomcat</title>
+      <title>Web Application &amp; Framework</title>
       <link>/tracks/webserver.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/webserver.html</guid>
-      <description>Web server plays a crucial role in internet era, and have demonstrated their strong vitality after years of development. These projects includes but not limited to Apache Tomcat / Apache Http Server / Apache Sling / Apache Traffic Server / Apache Traffic Control and etc.
-In this topic, you will know the latest status of web servers, best practices the companies use them in the production, and the roadmap of these projects.</description>
+      <description>With the growing demands of modern web applications, building efficient, scalable, and secure web systems has become a core objective of technological development.
+Within the Apache ecosystem, numerous outstanding projects have emerged, ranging from classic web servers (such as Tomcat, HTTP Server) to essential development tools (like Apache Commons, FreeMarker, Echarts), as well as frameworks specializing in enterprise-level integration and security (e.g., Camel, Shiro). These projects play critical roles in modern web architectures.</description>
     </item>
     
   </channel>

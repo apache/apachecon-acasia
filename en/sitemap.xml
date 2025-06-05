@@ -279,6 +279,18 @@
                 href="/tracks/api.html"
                 />
   </url><url>
+    <loc>/tracks/observability.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tracks/observability.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tracks/observability.html"
+                />
+  </url><url>
     <loc>/tracks/olap.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -291,16 +303,16 @@
                 href="/tracks/olap.html"
                 />
   </url><url>
-    <loc>/tracks/performance.html</loc>
+    <loc>/tracks/rust.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tracks/performance.html"
+                href="/zh/tracks/rust.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tracks/performance.html"
+                href="/tracks/rust.html"
                 />
   </url><url>
     <loc>/schedule.html</loc>

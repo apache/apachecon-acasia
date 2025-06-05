@@ -104,7 +104,7 @@ Community Over Code (前 ApacheCon ) 致力于为每个人提供无骚扰的体�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/tracks/dataops.html</guid>
-      <description>在ApacheCon的DataOps专题，该专题集中展示了Apache生态系统中一些最具创新性和尖端的项目。该专题汇聚了来自Apache DolphinScheduler、Apache Airflow、Apache SeaTunnel、Apache Flume、Apache Sqoop、Apache Griffin、Apache Atlas以及其他与DataOps相关的项目的领先专家和贡献者，探索数据操作、自动化和编排的最新进展。无论您是经验丰富的数据专业人员还是刚刚入门的新手，这个专题都为每个人提供了有价值的内容，包括数据管道、ETL、编排、数据质量、元数据等多个主题的会话。在ApacheCon上，加入我们一起深入探索DataOps领域的精彩世界。</description>
+      <description>本专题聚焦 Apache 生态系统中最具创新性和最前沿的项目。该专题汇聚了来自Apache DolphinScheduler、Apache Airflow、Apache SeaTunnel、Apache Flume、Apache Sqoop、Apache Griffin、Apache Atlas以及其他与DataOps相关的项目的领先专家和贡献者，探索数据操作、自动化和编排的最新进展。无论您是经验丰富的数据专业人员还是刚刚入门的新手，这个专题都为每个人提供了有价值的内容，包括数据管道、ETL、编排、数据质量、元数据等多个主题的会话。在ApacheCon上，加入我们一起深入探索DataOps领域的精彩世界。</description>
     </item>
     
     <item>
@@ -126,12 +126,17 @@ Community Over Code (前 ApacheCon ) 致力于为每个人提供无骚扰的体�
     </item>
     
     <item>
-      <title>Monolith vs Microservice</title>
+      <title>Microservice</title>
       <link>/zh/tracks/api.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/tracks/api.html</guid>
-      <description>微服务一度成为我们技术选型的默认选项,似乎不是微服务的就是落后的.但在近两年开始,关于微服务的质疑开始涌现,大家开始怀念单体服务的简单直接,避免服务化后的各种治理成本。 业界也涌现出了一些全新的编程框架,让开发者具备单体开发的体验与高效,同时具备微服务部署的灵活性与伸缩性,甚至具备一定的 Serverless 特性。</description>
+      <description>不论是在云原生时代，还是在 AI 引领变革今天，微服务依然是底层系统的基石，它帮助我们构建弹性、可扩展的分布式系统。加入我们，一同了解：
+  高性能 RPC 框架 – 探讨像 Apache Dubbo、Apache Thrift 和 Apache bRPC 这样的项目如何通过速度、效率和互操作性重新定义服务间通信。
+  下一代服务网格 – 超越传统的 Sidecar，我们将探讨 Proxyless Mesh 的崛起，以及它如何在云原生环境中改变可观察性、安全性和流量管理。
+  云原生微服务 – 从 Kubernetes 到 Serverless 架构，我们讨论云原生原则如何优化微服务架构的可扩展性、韧性和自动化。
+  AI 驱动的微服务 – 了解人工智能和机器学习如何在微服务生态系统中变革服务编排、异常检测和自主扩展。
+  </description>
     </item>
     
     <item>
@@ -146,13 +151,24 @@ Community Over Code (前 ApacheCon ) 致力于为每个人提供无骚扰的体�
     </item>
     
     <item>
+      <title>Rust</title>
+      <link>/zh/tracks/rust.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/tracks/rust.html</guid>
+      <description>Rust 生态系统正在迅速发展。许多 ASF 项目提供了其 Rust SDK。此外，相当一部分新的顶级项目 (TLP) / Podling 主要使用 Rust 编写，包括 Apache DataFusion、Apache OpenDAL、Apache HoraeDB (孵化中) 等等。
+本专题旨在分享 ASF 内部及周边 Rust 项目和集成的演进。我们希望展示 ASF 项目如何提供优秀的 Rust 实践，以及一个 Rust 项目如何在 Apache Way 的指导下健康地发展其社区。</description>
+    </item>
+    
+    <item>
       <title>Web Server/Tomcat</title>
       <link>/zh/tracks/webserver.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/tracks/webserver.html</guid>
-      <description>Web 服务器在互联网时代扮演了至关重要的作用，在多年的发展中依然历久弥坚，保持自己的活力，显示出其强大的生命力，这些项目包括但不限于 Apache Tomcat / Apache Http Server 为代表的 Web 服务器 ，以及 Apache Sling / Apache Traffic Server / Apache Traffic Control 等更多的生态项目。
-在这里，您将了解 Web 服务器领域的最新成果，一线大厂在生产当中的最佳实践，以及这些项目的最新发展规划。</description>
+      <description>随着现代 Web 应用需求的不断增长，构建高效、可扩展且安全的 Web 系统已成为技术发展的核心目标。
+在 Apache 生态系统中，涌现了众多优秀项目，从经典的 Web 服务器（如 Tomcat、HTTP Server）到基础开发工具（如 Apache Commons、FreeMarker、Echarts），再到专注于企业级集成和安全的框架（如 Camel、Shiro）。这些项目在现代 Web 架构中扮演着至关重要的角色。
+在这里，您将深入了解这些项目的最新进展，学习生产环境中的最佳实践，并探讨它们未来的发展方向。</description>
     </item>
     
     <item>
@@ -170,9 +186,12 @@ Community Over Code (前 ApacheCon ) 致力于为每个人提供无骚扰的体�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/tracks/ai.html</guid>
-      <description>机器学习（ML）是对计算机算法的研究，它可以通过经验和数据的使用来自动改进。机器学习算法基于样本数据（称为训练数据）建立模型，以便在没有明确编程的情况下进行预测或决策。它在工业中有着广泛的应用场景，并发挥着越来越重要的作用。
-适合本分论坛的三类Topic如下：
- 聚焦于机器学习的框架和基础库项目，包括Mxnet，TVM，Mahout，singa，SystemML等 基于传统Apache大数据存储和计算项目在机器学习场景下做特定的优化的，例如Spark Mlib，FLink ML等 基于apache项目实现工业场景下的机器学习平台（例如Airflow + Kafka + Cassandra + Spark等）  </description>
+      <description>AI分论坛是一个专注于人工智能（AI）技术与Apache开源项目结合的专业交流平台。该分论坛旨在汇聚全球开发者、研究人员和行业用户，共同探讨AI技术在开源生态中的应用与发展，展示前沿技术、分享实践经验，并推动开源AI解决方案在各行业的落地。
+适合本论坛的议题为：
+  Apache基金会下的AI相关项目（例如聚焦于开源AI框架和基础库项目Apache TVM、Mahout、Singa、SystemML等）
+  Apache单个项目在AI场景下的优化（例如Spark MLib，Flink ML等项目）
+  基于Apache多个项目组合后在工业场景的AI解决方案例如某某企业的AI业务构建方法
+  </description>
     </item>
     
     <item>
@@ -194,6 +213,17 @@ Community Over Code (前 ApacheCon ) 致力于为每个人提供无骚扰的体�
     </item>
     
     <item>
+      <title>可观测性</title>
+      <link>/zh/tracks/observability.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/tracks/observability.html</guid>
+      <description>随着我们驾驭分布式系统和微服务架构不断演变的格局，可观测性已成为确保系统健康、性能和可靠性的重要组成部分。可观测性专题旨在汇集行业专家、实践者和爱好者，他们对 Apache 项目及相关生态系统中的可观测性充满热情。我们的目标是提供一个平台，用于分享见解、技术、工具和最佳实践，以促进 Apache 多样化项目套件（包括 Apache Skywalking、Apache Spark、Apache Flink、Apache Pulsar、Apache Hadoop 等）的无缝可观测性。
+我们邀请提交探索与可观测性相关的广泛主题的稿件，包括但不限于：
+ 仪器化技术：用于检测 Apache 项目以增强可观测性的创新方法。 指标和监控：有效收集和可视化来自各种 Apache 应用程序指标的策略。 分布式追踪：在 Apache 生态系统中实施分布式追踪，以追踪跨服务的请求，包括与 Apache SkyWalking 的集成。 日志管理：Apache 项目中日志记录的最佳实践以及与外部日志管理解决方案的集成。 性能优化：使用可观测性数据识别和解决 Apache 项目性能瓶颈的案例研究。 实际案例：在 Apache 项目（包括 Apache SkyWalking）中实施可观测性时遇到的成功案例和挑战。  </description>
+    </item>
+    
+    <item>
       <title>开源社区</title>
       <link>/zh/tracks/community.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -202,15 +232,6 @@ Community Over Code (前 ApacheCon ) 致力于为每个人提供无骚扰的体�
       <description>为什么 ASF 相信 &amp;ldquo;社区重于代码&amp;rdquo;？开源不仅仅是代码贡献。
 社区专场涵盖的主题包括：社区治理模式、发展开源项目社区、多样性和包容性、衡量社区健康、社区管理工具与数据、项目路线图、案例研究，以及其他任何关于开源和开源社区可持续性的主题。
 我们欢迎你与更多的人分享你的社区故事。</description>
-    </item>
-    
-    <item>
-      <title>性能</title>
-      <link>/zh/tracks/performance.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/tracks/performance.html</guid>
-      <description>为什么要设立ApacheCon性能工程专题？因为许多Apache项目都是针对具有软件性能和可扩展性挑战的领域（如网络、云、数据库、流数据、大数据、数据分析、搜索、地理空间等），而其他项目则提供性能工程工具（如基准测试、测试、监控等），并被广泛使用，所以该专题将为不同软件类别和成熟度的项目之间提供交叉融合的机会。</description>
     </item>
     
     <item>
@@ -272,9 +293,8 @@ Community Over Code (前 ApacheCon ) 致力于为每个人提供无骚扰的体�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/tracks/messaging.html</guid>
-      <description>消息系统通过消息的方式实现系统之间的相互通信。它用于系统解耦、削峰填谷、数据交换等场景，同时也逐渐成为消息驱动和流系统的基础组件。
-在 Apache 基金会中， 已经有的消息系统包括：Apache Pulsar, Apache Kafka , Apache RocketMQ, Apache ActiveMQ, Apache Inlong 等等。
-在消息系统这个主题中，这些社区将分享一线的生产经验和最佳实践、交流观点和想法、并讨论消息系统的技术路线和未来的发展趋势。</description>
+      <description>伴随着云原生Serverless、物联网、实时数据技术的规模化落地，事件驱动架构、事件流技术得以更广泛的应用，使得消息队列成为越来越重要的基础设施。今天在Apache生态中已经涌现了多个优秀的消息项目，包括：Apache Pulsar, Apache Kafka , Apache RocketMQ, Apache ActiveMQ, Apache Inlong 等等。
+在这个主题中，你将了解到不同的消息系统如何基于自身的架构特点做出最优的技术演进方向，包括存算分离、Serverless、消息流一体等；也能学习各大厂商如何结合自身的行业特点、业务场景选择合适的消息技术，获得消息技术的最佳实践。</description>
     </item>
     
     <item>
@@ -283,8 +303,9 @@ Community Over Code (前 ApacheCon ) 致力于为每个人提供无骚扰的体�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/tracks/iot.html</guid>
-      <description>近年来， 日渐兴起的物联网（Internet of Things）与工业物联网（Industrial Internet of Things）应用对嵌入式操作系统、边缘数据采集、边-云数据管理、数据分析提出了许多挑战。为此，Apache 软件基金会提供了如Apache IoTDB, Apache Mynewt, Apache PLC4X和Apache Streampipes等一系列IoT相关的项目。
-IoT/IIoT主题将围绕Apache软件基金会中IoT相关项目的最新进展、核心技术以及用户经验分享等话题展开研讨，致力于打造成IoT应用用户和开发者们的技术盛宴。</description>
+      <description>物联网专题将汇聚物联网领域的创新人才和行业专家。该专题聚焦物联网的最新趋势、技术和应用。活动期间，与会者将有机会探讨广泛的主题，包括物联网设备数据收集、数据存储、数据分析、安全以及物联网解决方案。
+为了更好地满足物联网行业的核心需求，如设备通信、数据管理和边云协同，Apache 软件基金会涵盖了许多物联网相关的项目，例如 Apache IoTDB、Apache Mynewt、Apache PLC4X 和 Apache Streampipes 等。每个项目的技术和应用都在不断改进。
+参与者可以分享想法，相互学习，并建立伙伴关系，以推动物联网行业的发展。让我们一起探索物联网的未来！</description>
     </item>
     
     <item>

@@ -171,6 +171,18 @@
                 href="/zh/tracks/olap.html"
                 />
   </url><url>
+    <loc>/zh/tracks/rust.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tracks/rust.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tracks/rust.html"
+                />
+  </url><url>
     <loc>/zh/search.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -267,6 +279,18 @@
                 href="/zh/sponsor.html"
                 />
   </url><url>
+    <loc>/zh/tracks/observability.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tracks/observability.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tracks/observability.html"
+                />
+  </url><url>
     <loc>/zh/tracks/community.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -277,18 +301,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tracks/community.html"
-                />
-  </url><url>
-    <loc>/zh/tracks/performance.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tracks/performance.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tracks/performance.html"
                 />
   </url><url>
     <loc>/zh/tracks/datastorage.html</loc>
