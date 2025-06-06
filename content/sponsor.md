@@ -3,5 +3,5 @@ title: Sponsor
 identifier: sponsor
 menu:
   main:
-    weight: -30
+    weight: 4
 ---

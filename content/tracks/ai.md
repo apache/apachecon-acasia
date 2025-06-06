@@ -1,5 +1,5 @@
 ---
-title: AI / machine learning
+title: AI
 trackchairs: "Jerry Tan, junping Du, Gabriel Wang"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: OLAP & Data Analysis
+title: OLAP和数据分析
 trackchairs: "陈明雨, 鲁志敬, 王殿进"
 ---
 

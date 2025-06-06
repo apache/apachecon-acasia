@@ -6,5 +6,6 @@ resources/_gen
 .idea/
 .hugo_build.lock
 .vscode/
-
+script/env
+node_modules/
 

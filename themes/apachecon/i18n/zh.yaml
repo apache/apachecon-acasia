@@ -166,3 +166,9 @@ getting-there:
 
 venue_travel:
   other: 会场 + 旅行
+
+business_travel:
+  other: 差旅住宿
+
+unknown_date:
+  other: 时间待定

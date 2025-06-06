@@ -7,7 +7,9 @@
 <!-- Header Wrapper -->
 <div class="wrapper style1">
 
-    {{ partial "smallpageheader.html" . }}
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        {{ partial "nav.html" . }}
+    </div>
 
     <!-- Main -->
     <div id="main" class="wrapper style4 page-session">
@@ -16,9 +18,10 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3>{{.Title}}</h3>
+                    <h3 class="text-center">{{.Title}}</h3>
                     <h4>{{.Params.presenters}}</h4>
-                    {{.Params.stype}}  {{dateFormat "2006-01-02 15:04 GMT+8" .Date}}&nbsp;
+                    <!-- {{.Params.stype}}  {{dateFormat "2006-01-02 15:04 GMT+8" .Date}}&nbsp; -->
+                    {{.Params.stype}} 
                     {{if in "bigdata" .Params.track }}
                         (ROOM : {{.Params.room}})
                     {{end}}

@@ -7,7 +7,10 @@
 <!-- Header Wrapper -->
 <div class="wrapper style1">
 
-    {{ partial "smallpageheader.html" . }}
+    <!-- Header -->
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        {{ partial "nav.html" . }}
+    </div>
 
     <!-- Main -->
     <div id="main" class="wrapper style4 page-session">
@@ -16,7 +19,7 @@
         <div id="content" class="container">
             <section class="session">
                 <header class="major">
-                    <h2 class="text-center">{{.Title}}</h2>
+                    <h2 class="text-center mb-5">{{ .Title }}</h2>
                     <hr></hr>
                     <h3>{{i18n "trackchairs"}} : {{.Params.trackchairs}}</h3>
                 </header>
@@ -35,12 +38,14 @@
                            {{if $day}}</dl>
                            {{end}}
                     <dl>
-                      <dt class="session-date" style="float: left;"><h3 class="lh-2em">{{ $pageDay }}</h3></dt>
+                      <!-- <dt class="session-date" style="float: left;"><h3 class="lh-2em">{{ $pageDay }}</h3></dt> -->
+                       <dt class="session-date">{{ i18n "unknown_date" }}</dt>
                       <dd class="session-list">
                         {{end}}
                         <p>
                             <!-- @TODO: link to session list of the day -->
-                            <span>{{dateFormat "15:04 GMT+8" .Date}}</span>
+                            <!-- <span>{{dateFormat "15:04 GMT+8" .Date}}</span> -->
+                            <span></span>
                             <a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a>
                             <sub>{{.Params.stype}}</sub>
                             <!-- @TODO: link to info page of the speaker -->

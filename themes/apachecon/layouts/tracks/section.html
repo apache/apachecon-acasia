@@ -7,7 +7,10 @@
 <!-- Header Wrapper -->
 <div class="wrapper style1">
 
-    {{ partial "smallpageheader.html" . }}
+    <!-- Header -->
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        {{ partial "nav.html" . }}
+    </div>
 
     <!-- Main -->
     <div id="main" class="wrapper style4">
@@ -19,21 +22,26 @@
                     <h2 class="text-center">{{i18n "tracks"}}</h2>
                 </header>
 
-                <ul>
-                    <li class="track-head">
-                        <span class="track-title">Tracks</span>
-                        <span class="track-chair">{{i18n "trackchairs"}}</span>
-                    </li>
-                    {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
-                    <li class="bg-{{mod $page_index 2}}">
-                        <!-- <span class="track-window">}</span> @TODO: track window -->
-                        <span class="track-title"><a href="{{.Permalink}}" title="{{.Title}} - {{.Params.trackchairs}}">{{.Title}}</a></span>
-                        <span class="track-chair">{{.Params.trackchairs}}</span>
-                        <!-- @TODO: information of the track chair, link would be better -->
-                    </li>
-                    {{end}}
+                <table class="table table-striped">
+                    <thead class="track-head">
+                        <tr>
+                            <th>Tracks</th>
+                            <th>{{i18n "trackchairs"}}</th>
+                        </tr>
+    
+                    </thead>
+                    <tbody>
+                        {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
+                        <tr>
+                            <!-- <span class="track-window">}</span> @TODO: track window -->
+                            <td><a href="{{.Permalink}}" title="{{.Title}} - {{.Params.trackchairs}}" style="color: #1aa7e3">{{.Title}}</a></td>
+                            <td>{{.Params.trackchairs}}</td>
+                            <!-- @TODO: information of the track chair, link would be better -->
+                        </tr>
+                        {{end}}
+                    </tbody>
 
-                </ul>
+                </table>
 
 
             </section>

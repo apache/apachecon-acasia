@@ -1,6 +1,6 @@
 ---
 title: Community
-trackchairs: "tison, Nadia Jiang, Ted Liu"
+trackchairs: "Nadia Jiang, Ted Liu"
 ---
 
 Why ASF believes "Community over Code"? There is more to open source than just code contribution.

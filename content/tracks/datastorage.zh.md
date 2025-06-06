@@ -1,6 +1,6 @@
 ---
 title: 数据存储与计算
-trackchairs: "李岗, , Uma Maheswara Rao Gangumalla"
+trackchairs: "李岗, 郭超, Uma Maheswara Rao Gangumalla, Nandakumar Vadivelu"
 ---
 
 大数据是计算机科学的一个重要分支,大数据存储和计算领域的研究和创新从未停止。大数据正在深刻的引领和改变着各个行业，已经与我们的生活密不可分。

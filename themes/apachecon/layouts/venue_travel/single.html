@@ -3,6 +3,13 @@
 <html>
 {{ partial "header.html" . }}
 
+<style>
+  tbody, td, tfoot, th, thead, tr {
+    border-width: 1px;
+    padding: 0.5rem;
+  }
+</style>
+
 <body>
     <!-- Header Wrapper -->
     <div class="wrapper style1">
@@ -41,6 +48,10 @@
                                 {{end}}
                             </li>
                             {{ end }}
+                            {{ $currentUrl := .URL }}
+                            <li class="nav-item">
+                              <a href="{{ if eq $.Site.Language.Lang "zh" }}/zh/venue_travel/travel.html{{else}}/venue_travel/travel.html{{end}}" class="nav-link">{{ i18n "business_travel" }}</a>
+                            </li>
                             <li class="nav-item">
                               <a href="{{ if eq $.Site.Language.Lang "zh" }}/zh/guide/visa_letter_request.html{{else}}/guide/visa_letter_request.html{{end}}" class="nav-link">{{ i18n "visa_letter_request" }}</a>
                             </li>
@@ -90,8 +101,12 @@
  
   const links = document.querySelectorAll(".side-left-nav a");
   links.forEach((link) => {
-    const id = link.getAttribute("href").split('#')[1];
-    if (id === topId.id) {
+    const href = link.getAttribute("href");
+    const currentUrl = window.location.href;
+    const id = href.split('#')[1];
+    if (currentUrl.includes(href)) {
+      link.classList.add("active");
+    } else if (id === topId.id) {
       link.classList.add("active");
     } else {
       link.classList.remove("active");

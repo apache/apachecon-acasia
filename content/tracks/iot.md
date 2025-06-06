@@ -1,6 +1,6 @@
 ---
 title: IoT and IIoT
-trackchairs: "Jialin Qiao, Christofer Dutz"
+trackchairs: "Jialin Qiao, Chuqing Qin"
 ---
 
 Recent years, the emerging Internet of Things (IoT) and Industrial Internet of Things (IIoT) applications show the requirements about the embedded operation system, data collection from the side, data management both on the side and the cloud, and data analysis technologies.

@@ -1,6 +1,6 @@
 ---
 title: Data Lake & Data Warehouse
-trackchairs: "Lidong Dai, Shaofeng Shi"
+trackchairs: "Lidong Dai, Shaofeng Shi, Zongtang Hu"
 ---
 
 Data Lake and Data Warehouse are important solutions for storing and managing data, and they play a crucial role in data management, data analysis, and decision-making.

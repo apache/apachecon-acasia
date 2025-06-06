@@ -1,6 +1,6 @@
 /* acasia2021.scss */
 section.session {
-    border-bottom: #9e2165 solid 1px;
+    border-bottom: #1aa7e3 solid 1px;
     article {
         padding-bottom: 20px;
     }
@@ -8,7 +8,7 @@ section.session {
         padding-top: 10px;
         overflow: hidden;
         height: auto;
-        border-top: #9e2165 solid 1px;
+        border-top: #1aa7e3 solid 1px;
         dt {
             font-weight: normal;
             vertical-align: middle;
@@ -18,7 +18,7 @@ section.session {
             display: inline-block;
         }
         a {
-            color: #9e2165;
+            color: #1aa7e3;
         }
         h3 {
             font-weight: normal;
@@ -38,47 +38,6 @@ section.session {
     }
     .lh-2em {
         line-height: 2em;
-    }
-}
-
-section.track {
-    ul {
-        li {
-            line-height: 2.5em;
-            vertical-align: middle;
-            list-style: none;
-        }
-    }
-
-    .track-head { 
-        background-color: #9e2165; 
-        height: 2em;
-        line-height: 2em;
-        vertical-align: middle;
-        color: #ffffff;
-        font-weight: bold;
-        /* font-style: italic; */
-        font-size: 1.5em;
-    }
-
-    .track-title {
-        padding: 0 15px;
-        display: inline-block; 
-        min-width: 300px; 
-        // font-weight: bold; 
-        a {
-            color: #9e2165;
-        }
-    }
-
-    .bg-0 {
-        // background-color: #eeeeee;
-        border-bottom: #9e2165 solid 1px; 
-    }
-
-    .bg-1 {
-        // background-color: #eeeeee;
-        background-color: #f7edf2;
     }
 }
 

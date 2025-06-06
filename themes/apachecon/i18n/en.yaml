@@ -2,7 +2,7 @@ trackchairs:
   other: Track Chairs
 
 tracks:
-  other: Tracks
+  other: Schedule
 
 translation:
   other: 中文
@@ -166,3 +166,9 @@ getting-there:
 
 venue_travel:
   other: Venue + Travel
+
+business_travel:
+  other: Business Travel  
+
+unknown_date:
+  other: Unknown Date  

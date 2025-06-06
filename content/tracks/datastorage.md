@@ -1,6 +1,6 @@
 ---
 title: Data Storage & Computing
-trackchairs: "Gang Li, Maxwell Guo, Uma Maheswara Rao Gangumalla"
+trackchairs: "Gang Li, Maxwell Guo, Uma Maheswara Rao Gangumalla, Nandakumar Vadivelu"
 ---
 
 Big data is an important branch of computer science,Researches and innovations in the big data storage and computing have never stopped.
