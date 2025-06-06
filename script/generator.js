@@ -107,6 +107,36 @@ function formatExcelDate(excelDate) {
   return date.toISOString().slice(0, 19);
 }
 
+function splitFrontmatterAndContent(fileContent) {
+  const parts = fileContent.split('---\n');
+  if (parts.length >= 3) {
+    return {
+      frontmatter: parts[1],
+      content: parts.slice(2).join('---\n')
+    };
+  }
+  return null;
+}
+
+function updateFileContent(filePath, newFrontmatter, newContent) {
+  if (fs.existsSync(filePath)) {
+    const existingContent = fs.readFileSync(filePath, 'utf8');
+    const parts = splitFrontmatterAndContent(existingContent);
+    
+    if (parts) {
+      // update frontmatter
+      const updatedContent = `---\n${newFrontmatter}---\n${parts.content}`;
+      fs.writeFileSync(filePath, updatedContent, 'utf8');
+    } else {
+      const fullContent = `---\n${newFrontmatter}---\n${newContent}`;
+      fs.writeFileSync(filePath, fullContent, 'utf8');
+    }
+  } else {
+    const fullContent = `---\n${newFrontmatter}---\n${newContent}`;
+    fs.writeFileSync(filePath, fullContent, 'utf8');
+  }
+}
+
 /**
  * 主函数 - 处理Excel文件并生成Markdown文件
  */
@@ -161,10 +191,13 @@ function main() {
       }
       
       // 修改后:
-      const enContent = `---\ntitle: "${title || ''}"\ndate: "${scheduleTime || ''}"\ntrack: "${track || ''}"\npresenters: "${speakers || ''}"\nstype: "${sessionType || ''}"\n--- \n\n${enAbstract || ''}\n\n### Speakers:\n\n${headImgHtml}\n\n${speakerBios || ''}`;
-      
-      // 写入英文markdown文件
-      fs.writeFileSync(enFilePath, enContent);
+      const enFrontmatter = `title: "${title}"
+date: "${scheduleTime}"
+track: "${track}"
+presenters: "${speakers}"
+stype: "${sessionType}"`;
+      const enContent = `${abstract}\n### Speakers:\n${headImgHtml}\n${speakerBios}`;
+      updateFileContent(enFilePath, enFrontmatter, enContent);
       
       // 处理中文内容
       let zhTitle = title;
@@ -187,10 +220,14 @@ function main() {
       
       const sessionZhType = sessionTypesChineseDictionary[session['Language']];
     
-      let zhContent = `---\ntitle: "${zhTitle || ''}"\ndate: "${scheduleTime || ''}"\ntrack: "${track || ''}"\npresenters: "${speakers || ''}"\nstype: "${sessionZhType || ''}"\n--- \n\n${zhAbstract || ''}\n\n### 讲师:\n\n${headImgHtml}\n\n${zhSpeakerBios || ''}`;
+      const zhFrontmatter = `title: "${title}"
+date: "${scheduleTime}"
+track: "${track}"
+presenters: "${speakers}"
+stype: "${sessionZhType}"`;
+        const zhContent = `${zhAbstract}\n### 讲师:\n${headImgHtml}\n${zhSpeakerBios}`;
       
-      // 写入中文markdown文件
-      fs.writeFileSync(zhFilePath, zhContent);
+      updateFileContent(zhFilePath, zhFrontmatter, zhContent);
     }
   }
 }
