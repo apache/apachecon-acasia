@@ -3,6 +3,9 @@ title: Web Server/Tomcat
 trackchairs: "Huxing Zhang, Han Li"
 ---
 
-Web server plays a crucial role in internet era, and have demonstrated their strong vitality after years of development. These projects includes but not limited to  [Apache Tomcat](https://tomcat.apache.org) / [Apache Http Server](https://httpd.apache.org/) / [Apache Sling](https://sling.apache.org/) / [Apache Traffic Server](https://trafficserver.apache.org/) / [Apache Traffic Control](https://trafficcontrol.apache.org/) and etc.
+With the growing demands of modern web applications, building efficient, scalable, and secure web systems has become a core objective of technological development.  
 
-In this topic, you will know the latest status of web servers, best practices the companies use them in the production, and the roadmap of these projects.
+Within the Apache ecosystem, numerous outstanding projects have emerged, ranging from classic web servers (such as Tomcat, HTTP Server) to essential development tools (like Apache Commons, FreeMarker, Echarts), as well as frameworks specializing in enterprise-level integration and security (e.g., Camel, Shiro). These projects play critical roles in modern web architectures.  
+
+Here, you will gain in-depth insights into the latest developments of these projects, learn best practices for production environments, and explore their future directions.
+

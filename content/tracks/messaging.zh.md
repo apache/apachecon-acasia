@@ -3,9 +3,7 @@ title: 消息系统
 trackchairs: "翟佳, 林清山, 胡宗棠"
 ---
 
-消息系统通过消息的方式实现系统之间的相互通信。它用于系统解耦、削峰填谷、数据交换等场景，同时也逐渐成为消息驱动和流系统的基础组件。
-
-在 Apache 基金会中， 已经有的消息系统包括：[Apache Pulsar](https://pulsar.apache.org/), [Apache Kafka](https://kafka.apache.org/)
+伴随着云原生Serverless、物联网、实时数据技术的规模化落地，事件驱动架构、事件流技术得以更广泛的应用，使得消息队列成为越来越重要的基础设施。今天在Apache生态中已经涌现了多个优秀的消息项目，包括：[Apache Pulsar](https://pulsar.apache.org/), [Apache Kafka](https://kafka.apache.org/)
 , [Apache RocketMQ](https://rocketmq.apache.org/), [Apache ActiveMQ](https://activemq.apache.org/), [Apache Inlong](https://inlong.apache.org/) 等等。
 
-在消息系统这个主题中，这些社区将分享一线的生产经验和最佳实践、交流观点和想法、并讨论消息系统的技术路线和未来的发展趋势。
+在这个主题中，你将了解到不同的消息系统如何基于自身的架构特点做出最优的技术演进方向，包括存算分离、Serverless、消息流一体等；也能学习各大厂商如何结合自身的行业特点、业务场景选择合适的消息技术，获得消息技术的最佳实践。

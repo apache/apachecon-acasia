@@ -3,10 +3,7 @@ title: Messaging
 trackchairs: "Jia Zha, Qingshan Lin, Zongtang Hu"
 ---
 
-Messaging system is used to enable communication between systems by sending messages to each other.
-It is used to decouple heavyweight processing, to buffer or batch work, and to smooth spiky workloads, also it can be used as the basic infrastructure for event driven and streaming systems.
+With the large-scale landing of serverless, IoT and real-time data technology, event-driven architecture and event streaming technology have been more widely applied, making message queue become more and more important infrastructure. Today, a number of excellent  messaging projects have emerged in the Apache ecosystem, including
+[Apache Pulsar](https://pulsar.apache.org/), [Apache Kafka](https://kafka.apache.org/), [Apache RocketMQ](https://rocketmq.apache.org/), [Apache ActiveMQ](https://activemq.apache.org/), [Apache Inlong](https://inlong.apache.org/), etc, facing new technological trends, each messaging project is also continuing to evolve. 
 
-In ASF, there are various projects that provide messaging services, for example:
-[Apache Pulsar](https://pulsar.apache.org/), [Apache Kafka](https://kafka.apache.org/), [Apache RocketMQ](https://rocketmq.apache.org/), [Apache ActiveMQ](https://activemq.apache.org/), [Apache Inlong](https://inlong.apache.org/), etc.
-
-In this topic, the messaging communities will share first-line experiences and best practices, exchange ideas and knowledge, and discuss the roadmap and the future of messaging technologies.
+In this topic, you will learn how different messaging systems make the best technical evolution direction based on their own architectural characteristics, including storage and computing separation,  serverless, messaging-streaming integration,and so on.  You can also learn how major manufacturers choose the right messaging technology based on their own industry characteristics and business scenarios, and obtain the best practices of messaging technology.

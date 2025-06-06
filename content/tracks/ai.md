@@ -3,11 +3,9 @@ title: AI
 trackchairs: "Jerry Tan, junping Du, Gabriel Wang"
 ---
 
-Machine learning (ML) is the study of computer algorithms that can improve automatically through experience and by the use of data. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so.
-It has a wide range of application scenarios in industry and plays an increasingly important role.
+The AI Sub-forum is a professional exchange platform focusing on the integration of artificial intelligence (AI) technology and Apache open-source projects. This sub-forum aims to bring together developers, researchers, and industry users from around the world to explore the application and development of AI technology in the open-source ecosystem, showcase cutting-edge technologies, share practical experience, and promote the implementation of open-source AI solutions across various industries. Topics suitable for this sub-forum include:
 
-Three types of topics suitable for this sub forum are as follows:
+* AI-related projects under the Apache Foundation (e.g., focusing on open-source AI frameworks and foundational libraries such as Apache TVM, Mahout, Singa, SystemML, etc.).
+* Optimization of individual Apache projects in AI scenarios (e.g., projects like Spark MLlib, Flink ML).
 
-* AI Framework and AI library projects focusing on machine learning, including Mxnet, TVM, Mahout, singa, SystemML, etc
-* Based on the traditional Apache big data storage and computing project, specific optimization is made in the machine learning scenario, such as spark mlib, Flink ML，etc
-* Implement machine learning platform in industrial scenario based on Apache project (such as airflow + Kafka + Cassandra + spark, etc.)
+* AI solutions in industrial scenarios based on combinations of multiple Apache projects (e.g., methods for building AI businesses by certain enterprises using a combination of Apache projects).

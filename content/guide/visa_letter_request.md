@@ -40,3 +40,4 @@ If, after understanding all the information above, you believe you still need an
 - The company represented and the person’s position
 - The person’s address and telephone number
 - The date the person intends to visit China
+- Who supports the person’s travel experience

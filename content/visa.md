@@ -42,4 +42,5 @@ If you believe you still need an invitation letter, please send the following in
 - The name of the Chinese embassy or consulate where to apply for a visa.
 - The company represented and the person’s position
 - The person’s address and telephone number
-- The date the person intends to visit China
+- The date the person intends to visit and leave China
+- Who supports the person’s travel experience
