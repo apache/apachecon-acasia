@@ -21,7 +21,7 @@
     
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
-    <link rel="stylesheet" href="/scss/acasia2021.min.fd6d9566d871567b04ae799012378e57e76ca6d06fcecfb385ced640f7329f62.css">
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -32,6 +32,13 @@
     <link rel="stylesheet" href="css/search.css"/>
 </head>
 
+
+<style>
+  tbody, td, tfoot, th, thead, tr {
+    border-width: 1px;
+    padding: 0.5rem;
+  }
+</style>
 
 <body>
     
@@ -69,6 +76,11 @@
             
                 <li class="nav-item">
                     
+                    <a href="/zh/tracks.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
                     <a href="/zh/sponsor.html" class="nav-link">会议赞助</a>
                 </li>
             
@@ -80,6 +92,11 @@
                 <li class="nav-item">
                     
                     <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="" class="nav-link"></a>
                 </li>
             
             
@@ -150,6 +167,10 @@
                                 
                             </li>
                             
+                            
+                            <li class="nav-item">
+                              <a href="/zh/venue_travel/travel.html" class="nav-link">差旅住宿</a>
+                            </li>
                             <li class="nav-item">
                               <a href="/zh/guide/visa_letter_request.html" class="nav-link">申请签证</a>
                             </li>
@@ -243,8 +264,12 @@
  
   const links = document.querySelectorAll(".side-left-nav a");
   links.forEach((link) => {
-    const id = link.getAttribute("href").split('#')[1];
-    if (id === topId.id) {
+    const href = link.getAttribute("href");
+    const currentUrl = window.location.href;
+    const id = href.split('#')[1];
+    if (currentUrl.includes(href)) {
+      link.classList.add("active");
+    } else if (id === topId.id) {
       link.classList.add("active");
     } else {
       link.classList.remove("active");

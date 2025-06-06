@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Seata 的历程：从阿里巴巴的创新到 Apache 的成功及未来 - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Seata 的历程：从阿里巴巴的创新到 Apache 的成功及未来'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        
+<nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/index.html">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/sponsor.html" class="nav-link">会议赞助</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="" class="nav-link"></a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/webserver-915271.html" class="nav-link" >English</a>
+                    </li>
+                
+            
+            <div class="ms-0 ms-lg-4">
+                <a href="/zh/index.html#register" role="button" class="btn btn-warning">
+                    注册参会
+                </a>
+            </div>
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">Seata 的历程：从阿里巴巴的创新到 Apache 的成功及未来</h3>
+                    <h4>Min Ji</h4>
+                    
+                    中文演讲 
+                    
+                    <a class="label" href="/zh/tracks/webserver.html">#webserver</a></li>
+                </header>
+
+                <p>Seata 是一个开源的分布式事务解决方案，专注于在微服务架构下提供高性能、用户友好的分布式事务服务。Seata 最初是阿里巴巴内部开发的，在双十一等大型活动期间作为中间件确保跨应用程序的数据一致性，有效支撑了上层业务运营。经过多年的发展和完善，其商业化产品已在阿里云和金融云上线。2019 年 1 月，Seata 正式开源，旨在构建更完善的技术生态，让更多用户能够享受到技术进步带来的便利。Seata 的未来计划包括社区驱动的开发，帮助用户快速落地分布式事务解决方案。</p>
+<p>就此话题而言，Seata 在阿里巴巴的演变历程，标志着其在开源之前的初始发展历程及其在阿里巴巴的关键地位。Apache 孵化之旅标志着 Seata 通过 Apache 孵化器寻求全球合作和信誉的关键一步。 Seata 的架构演变展示了其技术框架如何不断发展和适应各种需求，从而增强了其功能性和可靠性。最后，Seata 的未来计划和愿景包括持续发展，并借助社区贡献来扩展其功能和应用。</p>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://sessionize.com/image/ed51-400o400o1-BTDBgQinUQrS5cv8CRWb4e.jpg" width="200" /><br/></p>
+<p>Ji Min (Qing Ming) 是阿里云分布式事务产品负责人，同时也是 Higress 的维护者。他拥有超过 10 年的研发架构经验，在推动集团内部中间件的规模化落地以及微服务 PaaS 解决方案的商业化和开源过程中发挥了关键作用。目前，他致力于推动下一代微服务架构的发展。</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2025, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

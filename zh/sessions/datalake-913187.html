@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>小米利用 Apache Paimon 实现高效数据和 AI 优化 - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='小米利用 Apache Paimon 实现高效数据和 AI 优化'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        
+<nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/index.html">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/sponsor.html" class="nav-link">会议赞助</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="" class="nav-link"></a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/datalake-913187.html" class="nav-link" >English</a>
+                    </li>
+                
+            
+            <div class="ms-0 ms-lg-4">
+                <a href="/zh/index.html#register" role="button" class="btn btn-warning">
+                    注册参会
+                </a>
+            </div>
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">小米利用 Apache Paimon 实现高效数据和 AI 优化</h3>
+                    <h4>Houliang Qi</h4>
+                    
+                    中文演讲 
+                    
+                    <a class="label" href="/zh/tracks/datalake.html">#datalake</a></li>
+                </header>
+
+                <p>本次会议将重点介绍小米如何利用 Apache Paimon 在信息化数据仓库、AI 数据仓库以及 LLM 数据处理中提升效率、降低成本。此外，我们将讨论如何利用 JuiceFS 支持 Paimon 的多云存储能力。最后，我们将介绍 Apache Gravitino 在 Paimon 元数据管理中的应用。
+内容提要：</p>
+<ol>
+<li>Apache Paimon 在信息化数据仓库中的应用实践</li>
+</ol>
+<ul>
+<li>我们将详细阐述如何使用 Paimon 作为维度表替代 Iceberg 和 HBase，在满足业务时效性要求的同时，实现 31% 的成本降低。此外，我们将讲解如何使用自定义 Lookup Shuffle 和远程存储作为 Lookup Cache 加速 Lookup Join 过程，使 Lookup Join 性能显著提升 60 倍。2</li>
+</ul>
+<ol start="2">
+<li>Apache Paimon 在 AI 数据仓库中的应用实践</li>
+</ol>
+<ul>
+<li>在广告算法模型中，样本数据的数量和时效性至关重要。在引入 Paimon 之前，我们的离线和实时样本数据分别通过独立的流水线进行处理。离线样本通过 Spark Join 进行连接，导致整体数据产出的时效性不高，计算成本也较高。此外，离线和实时样本架构是两个独立的系统，开发效率低下。通过引入 Paimon 的部分更新功能，我们实现了实时样本连接，将模型训练样本生成时间从数天缩短到数小时。3</li>
+</ul>
+<ol start="3">
+<li>Apache Paimon 在 LLM 数据预处理中的实践</li>
+</ol>
+<ul>
+<li>在 LLM 数据预处理中，数据去重是至关重要的一步。我们将介绍如何利用 Paimon 的主键表和聚合合并引擎特性，简化 LLM 数据预处理流程。4</li>
+</ul>
+<ol start="4">
+<li>Apache Paimon 多云存储能力构建与实践</li>
+</ol>
+<ul>
+<li>云原生 Lakehouse 架构是新兴趋势，在小米，我们基于 JuiceFS 构建了多云存储能力。这种方式可以有效屏蔽业务应用底层存储（例如 OSS/Blob/KS3/S3）的差异，不仅解决了自建 HDFS 存储成本高、节点偶尔慢的问题，还能充分发挥云存储低成本、高扩展性和高可靠性的优势，满足业务海量数据存储的需求。5</li>
+</ul>
+<ol start="5">
+<li>基于 Gravitino 的元数据湖统一实践</li>
+</ol>
+<ul>
+<li>我们将介绍如何使用 Gravitino 管理 Paimon 的元数据，并探讨如何使用 Gravitino 统一跨数据湖的元数据，以及统一元数据为我们的数据管理流程带来的优势。</li>
+</ul>
+<p>通过本次分享，用户将了解小米如何利用 Apache Paimon 优化数据/AI 仓储和 LLM 预处理以提高效率和节省成本，如何通过 Paimon 实现多云灵活性，以及​​如何使用 Apache Gravitino 统一元数据管理。</p>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://sessionize.com/image/8968-400o400o1-XFskLG5iSQjayU8GPBBL9V.jpg" width="200" /><br/></p>
+<p>Apache IoTDB 和 Apache TsFile PMC 成员，小米软件研发工程师，专注于小米数据湖平台的开发与实施。</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2025, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

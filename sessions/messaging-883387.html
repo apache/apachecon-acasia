@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Best Practices for High Availability of Apache Pulsar on Tencent Cloud - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Best Practices for High Availability of Apache Pulsar on Tencent Cloud'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        
+<nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/tracks.html" class="nav-link">Schedule</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/guide/visa_letter_request.html" class="nav-link">Guide</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/sponsor.html" class="nav-link">Sponsor</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/venue_travel/venue.html" class="nav-link">Venue &#43; Travel</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/zh/sessions/messaging-883387.html" class="nav-link" >中文</a>
+                    </li>
+                
+            
+            <div class="ms-0 ms-lg-4">
+                <a href="index.html#register" role="button" class="btn btn-warning">
+                    Register
+                </a>
+            </div>
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">Best Practices for High Availability of Apache Pulsar on Tencent Cloud</h3>
+                    <h4>明泽 韩</h4>
+                    
+                    Chinese Session 
+                    
+                    <a class="label" href="/tracks/messaging.html">#messaging</a></li>
+                </header>
+
+                <p>Apache Pulsar is is an cloud-native, distributed messaging and streaming platform. Apache Pulsar adopts a storage and computing separation architecture.Support large clusters, multi-tenants, million-level topics, cross-regional data replication, persistent storage, tiered storage, high scalability and other enterprise-level and financial services. Apache Pulsar provides a unified consumption model that supports both message queue and streaming scenarios. It can not only provide enterprise-level read and write service quality and strong consistency guarantee for queue scenarios, but also provide high throughput and low latency for streaming scenarios.
+Apache Pulsar has been implemented in key enterprise businesses, and has rich application scenarios. At present, Tencent Cloud has also applied Apache Pulsar on a large scale in production practice for nearly 5 years. In production practice, Tencent Cloud has made a series of performance optimizations and stability enhancements for Apache Pulsar to ensure stable and efficient system operation for users in different scenarios.
+In this speech, we will focus on Apache Pulsar on Tencent Cloud&rsquo;s best practices for high availability, Including high availability of broker and bookkeeper clusters, high availability of zookeeper clusters, and high availability practices across clusters. Hope this speech can  provide some references for developers.</p>
+<h3 id="speakers">Speakers:</h3>
+<p><img src="https://sessionize.com/image/9c17-400o400o1-JPuaxw3mCtQ2zt9Ew94C2n.jpg" width="200" /><br/></p>
+<p>Graduated from Wuhan University majoring in computer science. Tencent Cloud senior R&amp;D engineer. Open source community enthusiast. I have more than 8 years of experience in message queue-related R&amp;D and operations in Meituan and Tencent. Currently, I am mainly responsible for the core part of Tencent Cloud TDMQ for Pulsar product. At the same time, I am an Apache Pulsar Contributor and RoP Maintainer.</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2025, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

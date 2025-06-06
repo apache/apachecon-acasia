@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/tracks/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI / machine learning</title>
+      <title>AI</title>
       <link>/tracks/ai.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -65,10 +65,10 @@ Big Data is also a very important part of ASF. ASF has so many big data storage 
     
     <item>
       <title>General</title>
-      <link>/tracks/others.html</link>
+      <link>/tracks/general.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tracks/others.html</guid>
+      <guid>/tracks/general.html</guid>
       <description>The General track of Community Over Code.</description>
     </item>
     
@@ -123,12 +123,22 @@ In this topic, you will learn how different messaging systems make the best tech
     </item>
     
     <item>
+      <title>Microservice</title>
+      <link>/tracks/microservice.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tracks/microservice.html</guid>
+      <description>Microservices architecture remains the foundational framework for building the vast majority of applications today, not to mention the substantial existing ecosystem of microservice-based applications. Therefore, exploring how to construct efficient and stable microservices architectures should always be a primary focus.
+We have also observed the rapid advancement of AI agent technologies. Microservices need to consider integration with AI agent technologies—such as enhancing the efficiency and stability of agent development, and enabling rapid adoption of intelligent capabilities for existing microservices applications.</description>
+    </item>
+    
+    <item>
       <title>Observability</title>
       <link>/tracks/observability.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/observability.html</guid>
-      <description>As we navigate the evolving landscape of distributed systems and microservices architectures, observability has become a vital component for ensuring system health, performance, and reliability. The observability track aims to bring together industry experts, practitioners, and enthusiasts who are passionate about observability within Apache projects and related ecosystems. Our objective is to provide a platform for sharing insights, techniques, tools, and best practices that facilitate seamless observability across Apache&amp;rsquo;s diverse suite of projects, including Apache Skywalking, Apache Spark, Apache Flink, Apache Pulsar, Apache Hadoop, and etc.</description>
+      <description>As an essential technical capability in the cloud-native era, observability—the ability to analyze and interpret a system&amp;rsquo;s operational state—has gained increasing importance. Especially in today&amp;rsquo;s widespread adoption of distributed environments, observability platforms serve as the cornerstone for ensuring software system stability.</description>
     </item>
     
     <item>
@@ -146,8 +156,8 @@ In this topic, you will learn how different messaging systems make the best tech
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/rust.html</guid>
-      <description>The Rust ecosystem is rapidly approaching. Many ASF projects provide their Rust SDK. Also, quite a few new TLPs/podllings are primarily written in Rust, including Apache DataFusion,Apache OpenDAL, Apache HoraeDB (incubating), and so on.
-This track aims to share the evolution of Rust projects and integrations within and around the ASF. Hopefully, we show how ASF projects provide good Rust practices, and a Rust project can grow it community healthily under the Apache way.</description>
+      <description>The Rust ecosystem is flourishing. Many ASF projects now offer Rust SDKs, and several new ASF projects are primarily written in Rust, such as Apache OpenDAL and Apache HoraeDB (Incubating), among others.
+The Rust Track aims to share the evolution of Rust projects and integrations within the ASF and broader open-source ecosystem. It will demonstrate how ASF projects provide excellent Rust implementations and illustrate how the incubator helps Rust projects develop healthy communities under the guidance of The Apache Way.</description>
     </item>
     
     <item>
@@ -160,7 +170,7 @@ This track aims to share the evolution of Rust projects and integrations within 
     </item>
     
     <item>
-      <title>Web Application &amp; Framework</title>
+      <title>Web Server/Tomcat</title>
       <link>/tracks/webserver.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

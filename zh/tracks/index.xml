@@ -48,7 +48,7 @@
     </item>
     
     <item>
-      <title>OLAP &amp; Data Analysis</title>
+      <title>OLAP和数据分析</title>
       <link>/zh/tracks/olap.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -64,12 +64,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/tracks/rust.html</guid>
-      <description>Rust 生态系统正在迅速发展。许多 ASF 项目提供了其 Rust SDK。此外，相当一部分新的顶级项目 (TLP) / Podling 主要使用 Rust 编写，包括 Apache DataFusion、Apache OpenDAL、Apache HoraeDB (孵化中) 等等。
-本专题旨在分享 ASF 内部及周边 Rust 项目和集成的演进。我们希望展示 ASF 项目如何提供优秀的 Rust 实践，以及一个 Rust 项目如何在 Apache Way 的指导下健康地发展其社区。</description>
+      <description>Rust 生态系统正在蓬勃发展。许多 ASF 项目都提供了 Rust SDK，不少新的 ASF 项目主要用 Rust 编写，例如 Apache OpenDAL 和 Apache HoraeDB (Incubating) 等等。
+Rust 专场旨在分享 ASF 内部及开源生态中 Rust 项目和集成的演变历程，展示 ASF 项目如何提供良好的 Rust 实践，并说明孵化器如何帮助 Rust 项目在 The Apache Way 的指导下健康地发展社区。</description>
     </item>
     
     <item>
-      <title>Web Server/Tomcat</title>
+      <title>Web 服务器</title>
       <link>/zh/tracks/webserver.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -89,7 +89,7 @@
     </item>
     
     <item>
-      <title>人工智能 / 机器学习</title>
+      <title>人工智能</title>
       <link>/zh/tracks/ai.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -108,9 +108,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/tracks/observability.html</guid>
-      <description>随着我们驾驭分布式系统和微服务架构不断演变的格局，可观测性已成为确保系统健康、性能和可靠性的重要组成部分。可观测性专题旨在汇集行业专家、实践者和爱好者，他们对 Apache 项目及相关生态系统中的可观测性充满热情。我们的目标是提供一个平台，用于分享见解、技术、工具和最佳实践，以促进 Apache 多样化项目套件（包括 Apache Skywalking、Apache Spark、Apache Flink、Apache Pulsar、Apache Hadoop 等）的无缝可观测性。
-我们邀请提交探索与可观测性相关的广泛主题的稿件，包括但不限于：
- 仪器化技术：用于检测 Apache 项目以增强可观测性的创新方法。 指标和监控：有效收集和可视化来自各种 Apache 应用程序指标的策略。 分布式追踪：在 Apache 生态系统中实施分布式追踪，以追踪跨服务的请求，包括与 Apache SkyWalking 的集成。 日志管理：Apache 项目中日志记录的最佳实践以及与外部日志管理解决方案的集成。 性能优化：使用可观测性数据识别和解决 Apache 项目性能瓶颈的案例研究。 实际案例：在 Apache 项目（包括 Apache SkyWalking）中实施可观测性时遇到的成功案例和挑战。  </description>
+      <description>作为云原生时代必备的技术能力，软件中的可观测性（指分析和解释系统运行状态的能力）越来越受到重视，特别是在分布式环境广泛运用的今天，可观测性平台能力可谓保障软件系统稳定的基石。</description>
     </item>
     
     <item>
@@ -122,6 +120,16 @@
       <description>为什么 ASF 相信 &amp;ldquo;社区重于代码&amp;rdquo;？开源不仅仅是代码贡献。
 社区专场涵盖的主题包括：社区治理模式、发展开源项目社区、多样性和包容性、衡量社区健康、社区管理工具与数据、项目路线图、案例研究，以及其他任何关于开源和开源社区可持续性的主题。
 我们欢迎你与更多的人分享你的社区故事。</description>
+    </item>
+    
+    <item>
+      <title>微服务</title>
+      <link>/zh/tracks/microservice.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/tracks/microservice.html</guid>
+      <description>微服务架构仍然是当下绝大部分应用构建的基础架构,更不用说过往存量的微服务应用体量,因此探索如何构建高效、稳定的微服务架构始终应该是一条重要主线。
+我们也注意到AI智能体技术的飞速发展，微服务需要考虑与 AI 智能体技术结合，如加速智能体构建的效率与稳定性，为存量微服务应用快速接入智能化能力等。</description>
     </item>
     
     <item>
@@ -176,11 +184,11 @@
     
     <item>
       <title>通用</title>
-      <link>/zh/tracks/others.html</link>
+      <link>/zh/tracks/general.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/zh/tracks/others.html</guid>
-      <description>通用演讲</description>
+      <guid>/zh/tracks/general.html</guid>
+      <description>Apache 顶级项目的实际应用案例。</description>
     </item>
     
   </channel>

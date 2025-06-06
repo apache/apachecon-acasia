@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ &amp; OpenTelemetry - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ &amp; OpenTelemetry'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        
+<nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/tracks.html" class="nav-link">Schedule</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/guide/visa_letter_request.html" class="nav-link">Guide</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/sponsor.html" class="nav-link">Sponsor</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/venue_travel/venue.html" class="nav-link">Venue &#43; Travel</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/zh/sessions/observability-914976.html" class="nav-link" >中文</a>
+                    </li>
+                
+            
+            <div class="ms-0 ms-lg-4">
+                <a href="index.html#register" role="button" class="btn btn-warning">
+                    Register
+                </a>
+            </div>
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ &amp; OpenTelemetry</h3>
+                    <h4>Minghui Zhang</h4>
+                    
+                    Chinese Session 
+                    
+                    <a class="label" href="/tracks/observability.html">#observability</a></li>
+                </header>
+
+                <p>In distributed systems, Apache RocketMQ serves as a core messaging middleware, and its performance optimization and fault diagnosis often directly impact the stability and efficiency of the entire system. However, as business complexity grows, the observability of messaging systems is increasingly becoming a key factor in addressing production issues.
+This session will focus on practical approaches to enhancing Apache RocketMQ&rsquo;s observability, with an emphasis on how OpenTelemetry can improve client transparency and address challenges in complex scenarios such as multi-messaging system integration. For the client-side, we will demonstrate the use of zero-code instrumentation tools to automatically monitor the operational status of producers and consumers. Key metrics like RED (Rate, Errors, Duration), consumer lag, and others will be observed, alongside an exploration of how distributed tracing technology can enable end-to-end correlation across upstream and downstream systems. This includes common send/receive operations, batch processing, and poll-mode scenarios. Additionally, we will introduce continuous profiling techniques to help capture performance bottlenecks in real-time and quickly pinpoint issues.
+For specialized scenarios, we will take the Internet of Things (IoT) as an example to analyze the observability challenges when integrating MQTT with Apache RocketMQ. We will discuss strategies for building lightweight, unified TraceContext to achieve cross-protocol full-chain tracing.
+By attending this session, you will gain a deep understanding of the core methodologies for integrating observability into messaging systems, along with actionable solutions ranging from client-side optimization to handling complex scenarios. These insights will empower you to tackle performance tuning and fault diagnosis challenges with greater confidence and efficiency.</p>
+<h3 id="speakers">Speakers:</h3>
+<p><img src="https://sessionize.com/image/9377-400o400o1-Ugp4XdU1Y7Gr49zsJjkss6.jpg" width="200" /><br/></p>
+<p>As the developer of Alibaba Cloud APM&rsquo;s auto instrumentation tools, I specialize in providing immediate, out-of-the-box solutions for Java, Golang, and more, leveraging the OpenTelemetry standard. My expertise in equipping users with cloud-native APM capabilities has enhanced application performance monitoring across various cloud environments.</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2025, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

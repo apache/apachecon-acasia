@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sessions on Community Over Code Asia 2025</title>
+    <link>/sessions.html</link>
+    <description>Recent content in Sessions on Community Over Code Asia 2025</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/sessions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Unlocking maximize heterogeneous GPU utilization in Cloud Native way: Leveraging the Power of HAMi</title>
+      <link>/sessions/ai-913390.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-913390.html</guid>
+      <description>With AI&amp;rsquo;s growing popularity, Kubernetes has become the de facto AI infrastructure. However, the increasing number of clusters with diverse AI devices (e.g., NVIDIA, Intel, Huawei Ascend,Hygon,Metax,Cambrian,Mthreads,iluvatar) presents a major challenge. AI devices are expensive, how to better improve resource utilization? How to better integrate with K8s clusters? How to manage heterogeneous AI devices consistently, support flexible scheduling policies, and observability all bring many challenges The HAMi project was born for this purpose.</description>
+    </item>
+    
+    <item>
+      <title>A decade of lessons in Open Source licensing</title>
+      <link>/sessions/community-905764.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-905764.html</guid>
+      <description>In this talk, I will provide insights into how developers and community members in the open-source community navigate legal and licensing policies. Over the past decade, I have reviewed over 1000 open-source releases for compliance with various licensing and distribution policies. I will discuss common misconceptions that open-source community members have about licensing, highlight frequent issues encountered during releases, and share how our policies and processes have evolved over time to help catch these issues.</description>
+    </item>
+    
+    <item>
+      <title>A Near Real-Time Trading Data Statistics and Analysis System Implemented with Polars</title>
+      <link>/sessions/rust-912220.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/rust-912220.html</guid>
+      <description>Non-convex Tech&amp;rsquo;s automated trading system handles over 20 billion yuan in daily transaction volume, generating massive amounts of order and trade data. To rapidly monitor system performance in fast-changing market conditions, we developed a statistics and analysis system using Rust and Polars - an outstanding Rust-based open-source dataframe library. This article will present the key challenges addressed by the system, along with its overall architecture and implementation approach. Non-convex Tech continues to innovate through open-source initiatives.</description>
+    </item>
+    
+    <item>
+      <title>Accelerate Spark Queries with Gluten and Velox Engine on Arm64</title>
+      <link>/sessions/datalake-884074.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-884074.html</guid>
+      <description>Apache Spark SQL provides a robust solution, enabling users to process massive datasets efficiently. Recently, Project Gluten was introduced as an Apache Arrow-based native SQL engine designed to enhance Spark SQL&amp;rsquo;s capabilities. Concurrently, several vectorized SQL engines with vibrant open-source communities have gained traction. Among them, the Meta-led Velox project stands out as a promising vectorized database acceleration library.
+The Gluten-Velox integration represents a significant leap forward, delivering an optimized Spark SQL accelerator tailored for the Arm platform.</description>
+    </item>
+    
+    <item>
+      <title>Accelerating Multi-stream Join by Stream Graph Computing</title>
+      <link>/sessions/streaming-907134.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-907134.html</guid>
+      <description>Stream computing is becoming increasingly critical in domains such as anomaly detection, search, recommendation systems, financial transactions, etc. Traditional stream computing engines like Flink and Spark Streaming typically handle multi-stream join scenarios using table-based join operations. However, as analytical dimensions deepen, these table-based stream engines face significant performance limitations. GeaFlow, an open-source streaming graph computing engine, breaks these constraints with a novel approach. It not only efficiently executes multi-hop queries by leveraging the inherent relationships within graph data but also incorporates built-in incremental graph algorithms.</description>
+    </item>
+    
+    <item>
+      <title>Accelerating Spark jobs with Apache Gluten at ByteDance Scale</title>
+      <link>/sessions/olap-911510.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/olap-911510.html</guid>
+      <description>During this talk, we will present how ByteDance leverages the native engine, which is based on the open-source Gluten framework and in-house native acceleration engine Bolt, to drive significant cost saving in Spark use cases. Apache Gluten is pivotal, acting as middleware to seamlessly integrate native backends and enhance Spark performance. We will also cover the best practices for rolling it out in EB-scale data warehouses in the production environment and the optimizations on performance &amp;amp; compatibility, along with our future roadmaps.</description>
+    </item>
+    
+    <item>
+      <title>AgentKit: Unlocking the Vision of a Borderless Digital Future — Building AI Automation with Rust and</title>
+      <link>/sessions/rust-914521.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/rust-914521.html</guid>
+      <description>We are standing at the forefront of a paradigm shift in human-computer interaction. Large language models are breaking boundaries every day, yet a key challenge remains: how can we enable AI to interact with applications across diverse platforms in a unified and secure way? AgentKit is a bold response to this challenge — a cross-platform AI automation framework envisioned on the foundation of Rust’s safety and the open-source ecosystem.
+This talk will take you on a journey beginning with our experimental results on the Android platform via Droidrun.</description>
+    </item>
+    
+    <item>
+      <title>AI-Era Distributed Transactions: Practice and Outlook of the Seata Saga Pattern</title>
+      <link>/sessions/microservice-915357.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/microservice-915357.html</guid>
+      <description>This session will begin with an introduction to Seata and distributed transactions, followed by a detailed discussion on the implementation and usage of the Saga pattern. Finally, it will explore how the Saga pattern can be integrated with AI, such as connecting with AI Agents and Workflows.
+Speakers: 
+Open-source enthusiast Apache Seata(incubating) Committer</description>
+    </item>
+    
+    <item>
+      <title>AIScript - how to write an interpreter language in Rust</title>
+      <link>/sessions/rust-914505.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/rust-914505.html</guid>
+      <description>I&amp;rsquo;ll share my journey building AIScript, a new interpreter language specifically designed for AI application development. This talk will dive deep into language implementation techniques using Rust, covering:
+ Language Implementation Architecture   Building a robust lexer with comprehensive error reporting Implementing a recursive descent parser Creating an efficient bytecode compiler and virtual machine Designing a module system that supports both native and script modules  Novel Language Features   AI-native primitives: Built-in support for prompts, agents (inspired by OpenAI Swarm), and AI function Unique error handling syntax inspired by Rust/Zig/Golang Builtin data validation similar to Python&amp;rsquo;s Pydantic Encapsulates Rust&amp;rsquo;s best practice of web development (axum, sqlx, etc) into the language syntax  Real-world Challenges   Garbage collector using gc-arena Performance optimizations in the VM Type checking and validation implementation  Speakers:</description>
+    </item>
+    
+    <item>
+      <title>Ant Group&#39;s Next Generation High SLA Streaming Computing System Built on Apache Technology Stack</title>
+      <link>/sessions/streaming-880299.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-880299.html</guid>
+      <description>● Background: Introduce Ant Group&amp;rsquo;s real-time business and technical background ● Solution: Introduce the new generation of stream computing systems built on Apache technology stacks such as Flink and Calcite ● Key design: Introduce core technologies such as full-link SLA observability, scenario-based disaster recovery, and state-compatible computing enhancement ● Application cases: Introduce application cases in Ant Group&amp;rsquo;s key business scenarios ● Main progress: Introduce the current construction progress and future prospects of the system</description>
+    </item>
+    
+    <item>
+      <title>Apache Amoro &amp; iceberg in Huolala Prdouction</title>
+      <link>/sessions/datalake-904992.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-904992.html</guid>
+      <description>At Huolala, we leveraged Apache Amoro to build a next-generation lakehouse platform with Apache Iceberg as its core. While managing petabyte-scale daily data processing, we tackled critical stability challenges, including:
+Production Stability Challenges:
+ Small file compaction and snapshot expiration in production Large-scale data migration with object storage (e.g., S3, OSS) Real-time monitoring &amp;amp; alerting for merge tasks and metadata operations Optimized table design to minimize small files and compaction overhead  Architectural Innovations:</description>
+    </item>
+    
+    <item>
+      <title>Apache APISIX x IoT: Making Data Flow Safer and Smarter</title>
+      <link>/sessions/iot-915210.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/iot-915210.html</guid>
+      <description>Challenges in the Internet of Things (IoT)  Core requirements of IoT Limitations of traditional gateways Differentiated advantages of APISIX
+Technical Highlights of APISIX in IoT Scenarios  High performance with low resource consumption Dynamic traffic management Security protection mechanisms Protocol conversion and data aggregation
+Real-world Application Cases and Best Practices  Intelligent transportation systems Industrial IoT (IIoT) Smart city edge nodes
+Future Outlook and Ecosystem Expansion  Directions for technological evolution AI-driven traffic prediction Deepening integration with 5G and edge computing</description>
+    </item>
+    
+    <item>
+      <title>Apache Cassandra Drivers Best Practices: Maximize Performance and Robustness</title>
+      <link>/sessions/datastorage-900118.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datastorage-900118.html</guid>
+      <description>Want to get the most out of your Apache Cassandra applications? This session dives into best practices for using Cassandra drivers effectively to build faster, more resilient systems. We’ll cover common pitfalls to avoid, practical tips for performance tuning, and advanced configurations. You’ll learn how to leverage features like speculative execution policies and auto-paging, as well as how to set up logging and metrics for improved observability. While the concepts apply to all official Cassandra drivers, this talk will use the Java Driver for concrete examples.</description>
+    </item>
+    
+    <item>
+      <title>Apache Cassandra: Past, Present, and Future</title>
+      <link>/sessions/datastorage-899504.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datastorage-899504.html</guid>
+      <description>An introduction to Cassandra&amp;rsquo;s past and present features , as well as sharing what the Cassandra community plans to do in the next release version and what dose the community is doing now.
+Speakers: 
+Apache Cassandra Committer</description>
+    </item>
+    
+    <item>
+      <title>Apache DolphinScheduler at Yili Group: Best Practices in Customization, Monitoring, and Operations</title>
+      <link>/sessions/dataops-903557.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-903557.html</guid>
+      <description>This session will delve into Yili Group&amp;rsquo;s implementation journey with Apache DolphinScheduler, a powerful open-source workflow orchestration tool. We will share practical insights into how we tailored DolphinScheduler to meet the specific needs of large-scale dairy production and supply chain management, including:
+ Custom Development:  Extended functionalities for complex ETL workflows, resource quota management, and integration with internal systems (e.g., ERP, IoT platforms). Optimization strategies for high-concurrency task scheduling in hybrid cloud environments.</description>
+    </item>
+    
+    <item>
+      <title>Apache Doris AI exploration and practice</title>
+      <link>/sessions/ai-912444.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-912444.html</guid>
+      <description>As a popular OLAP real-time analysis database, Apache Doris has built or is planning more AI-related features and peripheral components, such as vector retrieval, MCP, RAG and other functions or components, in the current era of rapid changes in the AI ​​wave. Through this communication and demonstration, the current progress of Doris in the direction of AI will be announced.
+Speakers: 
+Apache Doris Committer, Apache Doris Community Evangelist, Doris-MCP Contributor, SelectDB Senior Solution Architect, PowerData Community Initiator, has assisted hundreds of companies in the Apache Doris community to complete real-time data warehouse construction and optimization evolution.</description>
+    </item>
+    
+    <item>
+      <title>Apache Doris Implementation Practice in Cainiao&#39;s Large Scale Business Scenarios</title>
+      <link>/sessions/olap-912431.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/olap-912431.html</guid>
+      <description>Apache Doris has undergone nearly 2 years of development at Cainiao, from early validation exploration to gradual implementation of core business scenarios, and has gone through the test of the Double 11 promotion peak, Currently, Doris is the best choice for OLAP at Cainiao. In this sharing, we will introduce Doris&#39; entire development process from 0 to 1 at Cainiao, the challenges she encountered, and more.
+How can we achieve large-scale deployment based on the business scenario of Cainiao, helping businesses achieve significant cost reduction and stability improvement.</description>
+    </item>
+    
+    <item>
+      <title>Apache Flink 2.1: Continuing Evolution Toward Data &#43; AI All-in-One</title>
+      <link>/sessions/streaming-894592.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-894592.html</guid>
+      <description>Abstract: After a decade of evolution, Apache Flink has solidified its position as the de facto standard in stream processing, delivering sub-second latency for real-time data processing. However, emerging trends in cloud-native architectures, data lakes, and artificial intelligence have introduced new challenges and requirements. In response, Flink has undergone continuous innovation and architectural upgrades to provide more user-friendly, cost-effective, and scalable real-time solutions, further enhancing the integration of Data and AI.</description>
+    </item>
+    
+    <item>
+      <title>Apache Gravitino (incubating), the answer of metadata management in AI era</title>
+      <link>/sessions/ai-911703.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-911703.html</guid>
+      <description>Metadata management has become a cornerstone in the AI era. This talk will explore how Apache Gravitino enables the management of unstructured data and models at scale, along with Xiaomi’s real-world implementations of leveraging Gravitino for large language model (LLM) data processing and model lifecycle management.
+Outline:
+ The challenges of dataset and model management in AI workflows and how Gravitino addresses these through its Fileset Catalog for structured AI dataset governance and Model Catalog for unified model lifecycle management.</description>
+    </item>
+    
+    <item>
+      <title>Apache Gravitino Best Practices for Multi-Cluster Management</title>
+      <link>/sessions/dataops-912400.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-912400.html</guid>
+      <description>Apache Gravitino 统一管理了 Data 和 AI 的元数据，特别是在管理云上和云下多集群的场景中，可以非常好的发挥 Gravitino 统一元数据后，带来的数据在云上和云下无感知迁移和使用、大数据集群丝滑滚动升级、统一公有云和私有化部署的大数据集群的权限系统。 在本次的分享中，除了介绍 Apache Gravitino 在多集群管理中的诸多特性之外，还讲分享海内外用户的 Apache Gravitino 最佳实践。
+Speakers: 
+Xun Liu, with twenty years of software development experience, has been working in the field of big data development for the past ten years. He is a Member of the Apache Software Foundation and an incubator mentor, and has incubated a number of open-source projects in Apache, as well as a member of the Committer of Apache Hadoop and Zeppelin.</description>
+    </item>
+    
+    <item>
+      <title>Apache Gravitino: The universal catalog for data and AI</title>
+      <link>/sessions/datalake-905768.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-905768.html</guid>
+      <description>Welcome to a presentation on Gravitino! Managing metadata can be complex and time-consuming, but Gravitino offers the ultimate solution. It provides a single source of truth for multi-regional data with geo-distributed architecture support. This allows you to store and manage your data in one place, accessible from anywhere globally. With unified data and AI asset management, you get centralized security and data access management, making data protection easier. Gravitino helps you focus more on your data by simplifying tasks and offering these benefits:</description>
+    </item>
+    
+    <item>
+      <title>Apache HertzBeat, a new generation open-source real-time monitoring and alerting platform</title>
+      <link>/sessions/cloudnative-905997.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/cloudnative-905997.html</guid>
+      <description>Apache HertzBeat is a next-generation open-source real-time monitoring and alerting platform. It highlights the importance of monitoring and the pain points of traditional solutions, positioning HertzBeat as an &amp;ldquo;All in One&amp;rdquo; solution for unified monitoring and an enhanced user experience.
+Speakers: 
+I am currently employed by China Unicom Data Intelligence Co., Ltd. I contributed my first line of code to the Apache ShenYu community in 2024 and am currently a Committer for both Apache ShenYu and Apache HertzBeat.</description>
+    </item>
+    
+    <item>
+      <title>Apache Hop: Integrating LLMs, Graph Databases &amp; Spreadsheets</title>
+      <link>/sessions/dataops-902311.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-902311.html</guid>
+      <description>In this session, I will explore how to seamlessly integrate large language models (LLMs), graph databases, and spreadsheets using Apache Hop.
+Designed with beginners in mind—especially those who currently create or update their data manually—I will cover the essentials of building automated workflows that drastically reduce repetitive tasks.
+You will learn best practices for designing data pipelines, leveraging key plugins, and streamlining complex data flows, all centered on Apache Hop’s next-generation capabilities.</description>
+    </item>
+    
+    <item>
+      <title>Apache Hudi in Action: Accelerating Kuaishou&#39;s Data Warehouse Architecture Upgrade</title>
+      <link>/sessions/datalake-915337.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-915337.html</guid>
+      <description>Topic Introduction: Apache Hudi is a powerful table format that provides extensive capabilities for both offline and real-time scenarios. During the process of advancing its data warehouse architecture upgrade, Kuaishou has leveraged Hudi&amp;rsquo;s data lake capabilities to enhance timeliness, reduce costs, and improve development efficiency in scenarios such as real-time data ingestion into the lake, partial updates, and large wide table.
+This topic is divided into three parts:
+ Apache Hudi Use Cases and Challenges at Kuaishou:  Share Kuaishou&amp;rsquo;s Hudi-based business scenarios and the challenges encountered during large-scale implementation.</description>
+    </item>
+    
+    <item>
+      <title>Apache HugeGraph 1.5.0: Best Practices for Enterprise-Grade Deployment</title>
+      <link>/sessions/general-914611.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/general-914611.html</guid>
+      <description>This session presents enterprise-level upgrade practices from Apache HugeGraph 0.12.0 to 1.5.0, where the HStore storage engine replaced HBase to achieve migration of 10 billion vertices/edges and a performance breakthrough, reducing P99 latency in critical scenarios to under 50ms. It covers seamless upgrades, Spark-based efficient data import, JRaft/RocksDB tuning, and monitoring system construction, delivering a highly stable graph computing solution for real-time risk control and similar scenarios, while exploring future directions such as the integration of graph technology and AI.</description>
+    </item>
+    
+    <item>
+      <title>Apache Iceberg ingestion with Apache NiFi and Polaris</title>
+      <link>/sessions/streaming-880900.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-880900.html</guid>
+      <description>A cornerstone requirement of an Iceberg-based data lakehouse is data ingestion. One approach is to leverage Apache NiFi. NiFi, a multimodal data pipelining tool, has a multitude of processors that can be assembled into a flow to address your specific scenarios. NiFi&amp;rsquo;s low-code/no-code approach allows data engineers to rapidly build, deploy, and monitor their data ingestion &amp;amp; transformation pipelines. NiFi also allows custom processor development with a variety of languages, including Java and Python.</description>
+    </item>
+    
+    <item>
+      <title>Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses</title>
+      <link>/sessions/datalake-896996.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-896996.html</guid>
+      <description>In this talk, we&amp;rsquo;ll dive deep into Apache Iceberg and discover practical techniques for maintaining large-scale data tables efficiently. We’ll guide you through the core challenges of table maintenance in modern data lakes and share strategies to optimize performance and ensure data integrity. You’ll learn how to apply best practices to manage metadata, handle table compaction, and automate maintenance tasks to minimize downtime and improve query performance.
+Session Outline
+Introduction</description>
+    </item>
+    
+    <item>
+      <title>Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures</title>
+      <link>/sessions/datalake-868208.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-868208.html</guid>
+      <description>Most Apache Iceberg talks wax poetic about time travel and ACID compliance—yawn. But what about the features nobody’s shouting about? The ones that turn chaos into control, experiments into wins, and static tables into agentic powerhouses - let your data platform think for itself ? Welcome, here we will learn Iceberg’s hidden toolkit.
+Here’s the plan for our 30-minute dive: Start with a 5-minute intro on why Iceberg’s hidden gems outshine the basics.</description>
+    </item>
+    
+    <item>
+      <title>Apache Kafka 4.0 in Huawei Cloud</title>
+      <link>/sessions/cloudnative-913295.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/cloudnative-913295.html</guid>
+      <description>In this session, I will introduce some key features of Apache Kafka 4.0, including the next-generation consumer rebalance protocol (KIP-848), queues for Kafka (KIP-932), and more, then discuss how to smoothly upgrade from older Kafka versions to 4.0 and analyze the implications for client compatibility. Finally, I will share Huawei Cloud’s explorations and practices in cloud-native based on Apache Kafka 4.0.
+Speakers: 
+Software engineer of Huawei Cloud Middleware Team, Apache RocketMQ Contributor, Apache Kafka Contributor, responsible for the development of Huawei Cloud Kafka.</description>
+    </item>
+    
+    <item>
+      <title>Apache NIFI 2.0</title>
+      <link>/sessions/iot-868355.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/iot-868355.html</guid>
+      <description>With the release of Apache NIFI 2.0 , I will introduce the new features and functionalities for Apache NIFI 2.0, including Nifi Cloud Native and Nifi Functions.
+Speakers: 
+Cloudera Solution Engineering . Apache Hive and Apache Flink Contributor. Over 10 Years of Practical Experience in Big Data and my current focus is real-time data warehouse using Apache Flink, Apache Hive, and Apache Iceberg.</description>
+    </item>
+    
+    <item>
+      <title>Apache Ozone Best Practices at Shopee</title>
+      <link>/sessions/datastorage-910450.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datastorage-910450.html</guid>
+      <description>At Shopee, we have been using Ozone for over four years, with the number of stored objects reaching the billions. In this session, I will introduce two features we developed: Object Lifecycle Management and Storage Class.
+Speakers: 
+I have been working in the big data field for over ten years, with a strong interest in distributed storage and performance optimization. I am currently leading the storage team in the data infra department at Shopee</description>
+    </item>
+    
+    <item>
+      <title>Apache Ozone: Balance Data Through Disk Balancer</title>
+      <link>/sessions/datastorage-900329.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datastorage-900329.html</guid>
+      <description>Apache Ozone is a distributed storage system in the Hadoop ecosystem. As a distributed storage system, it’s important to make sure that data is evenly distributed across Datanodes and disks, so that storage spaces and resources can be efficiently and fully utilized. To achieve this goal, Ozone supports Container Balancer and Disk Balancer, one to address the requirement of data evenly distributed across Datanodes, the other to address the requirement of data evenly distributed across all disks in each Datanode.</description>
+    </item>
+    
+    <item>
+      <title>Apache Polaris (Incubating) &amp; Apache XTable: Unifying Iceberg, Hudi, and other Table Formats</title>
+      <link>/sessions/datalake-916062.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-916062.html</guid>
+      <description>Apache Polaris (Incubating) implements the Apache Iceberg REST catalog specification and allows users to manage Iceberg tables, views, and other related metadata. Role-based access control governs which users have access to what data, and Polaris supports attaching policies to tables in order to categorize data and to configure table maintenance.
+A new integration with Apache XTable promises to extend this same functionality to non-Iceberg tables. Polaris recently introduced &amp;ldquo;generic tables&amp;rdquo; &amp;ndash; allowing users to manage their Apache Hudi tables within Polaris alongside tables backed by Apache Kafka or other systems.</description>
+    </item>
+    
+    <item>
+      <title>Apache RocketMQ Eventbridge: Why Your GenAI Needs EDA？</title>
+      <link>/sessions/messaging-908058.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-908058.html</guid>
+      <description>If you are involved in the field of AI, you should pay attention to the significant assistance that EDA provides to LLMs and AI Agents. This presentation will primarily discuss the changes that EDA is bringing to GenAI:
+ Through Real-Time RAG, EDA makes your LLMs smarter. EDA helps you use LLMs better. With the help of MCP, EDA empowers your Agents. To enhance Multi-Agent capabilities, you should pay attention to EDA.</description>
+    </item>
+    
+    <item>
+      <title>Apache SeaTunnel MCP Introduction and Demonstration</title>
+      <link>/sessions/dataops-908655.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-908655.html</guid>
+      <description>A Model Context Protocol (MCP) server for Apache Seatunnel. This provides access to your Apache Seatunnel RESTful API V2 instance and the surrounding ecosystem.
+Speakers: 
+A Practitioner Who Likes to Toss</description>
+    </item>
+    
+    <item>
+      <title>APACHE SOFTWARE - THE JOURNEY OF THE OPEN SOURCE ADOPTION FOR THE MEXICAN GOVERNMENT</title>
+      <link>/sessions/community-915782.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-915782.html</guid>
+      <description>The session will describe the challenges that have faced for the Open Source Adoption in the Mexican Federal Administration and how the projects which implements Apache Software have been succesful in benefit of the Mexican Population at National scale.
+Speakers: 
+Hailing from Mexico City, Victor Romero now has over 20 years of experience in the area of ​​Information Technology applied to Financial Services after completing his Bachelor of Computer Science at the National Polytechnic Institute,</description>
+    </item>
+    
+    <item>
+      <title>Application of Apache Flink in China Telecom&#39;s Logging Scenario</title>
+      <link>/sessions/streaming-890348.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-890348.html</guid>
+      <description>The telecommunications log scenario has been replaced from backend services to Flink tasks, including log access, log parsing, and log alerts. With 50+clusters and 2000+ Flink tasks, the timeliness has been improved by 200%
+Speakers: 
+Zuo Yan, a telecommunications data intelligence technology expert, is responsible for building the data center and log platform. Contributors for open-source projects such as Apache Flink, Apache Doris, Flink CDC, StarRocks, and Fluss.</description>
+    </item>
+    
+    <item>
+      <title>Application of Dubbo-go in microservice architecture</title>
+      <link>/sessions/microservice-915324.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/microservice-915324.html</guid>
+      <description>This submission explores the practical application of Dubbo-go, the Go implementation of Apache Dubbo, within a modern microservice architecture. It highlights how Dubbo-go enables high-performance RPC communication, service discovery, and seamless integration with cloud-native infrastructure. The talk will cover real-world usage scenarios, including service governance, interface definition, and inter-language communication with Java-based Dubbo services. By sharing hands-on experience and best practices, the session aims to demonstrate how Dubbo-go can serve as a robust and scalable solution for building production-ready microservices in Go.</description>
+    </item>
+    
+    <item>
+      <title>Best Practices for High Availability of Apache Pulsar on Tencent Cloud</title>
+      <link>/sessions/messaging-883387.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-883387.html</guid>
+      <description>Apache Pulsar is is an cloud-native, distributed messaging and streaming platform. Apache Pulsar adopts a storage and computing separation architecture.Support large clusters, multi-tenants, million-level topics, cross-regional data replication, persistent storage, tiered storage, high scalability and other enterprise-level and financial services. Apache Pulsar provides a unified consumption model that supports both message queue and streaming scenarios. It can not only provide enterprise-level read and write service quality and strong consistency guarantee for queue scenarios, but also provide high throughput and low latency for streaming scenarios.</description>
+    </item>
+    
+    <item>
+      <title>Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ &amp; OpenTelemetry</title>
+      <link>/sessions/observability-914976.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/observability-914976.html</guid>
+      <description>In distributed systems, Apache RocketMQ serves as a core messaging middleware, and its performance optimization and fault diagnosis often directly impact the stability and efficiency of the entire system. However, as business complexity grows, the observability of messaging systems is increasingly becoming a key factor in addressing production issues. This session will focus on practical approaches to enhancing Apache RocketMQ&amp;rsquo;s observability, with an emphasis on how OpenTelemetry can improve client transparency and address challenges in complex scenarios such as multi-messaging system integration.</description>
+    </item>
+    
+    <item>
+      <title>BifroMQ: A High-Performance MQTT Broker for Multi-Tenant</title>
+      <link>/sessions/incubator-908738.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/incubator-908738.html</guid>
+      <description>BifroMQ is a Java-based, high-performance MQTT broker currently incubating at the Apache Software Foundation. It is designed from the ground up to support native multi-tenancy, linear scalability, and massive concurrent connections—all while ensuring consistently low-latency messaging. In this session, we will explore the architectural principles that shape BifroMQ’s design, driven by the unique challenges of building a multi-tenant distributed MQTT broker.
+Speakers: 
+I joined Baidu in 2017 and have since been focused on designing and building large-scale distributed systems, with a particular emphasis on high-performance messaging infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>Bridging the Divide: Harmonizing Apache SkyWalking and OpenTelemetry in Production Environments</title>
+      <link>/sessions/observability-914543.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/observability-914543.html</guid>
+      <description>In today&amp;rsquo;s dynamic cloud ecosystems, many enterprises find themselves navigating the complexities of using multiple observability stacks due to architectural migrations, team preferences, or language support limitations. Specifically, Apache SkyWalking and OpenTelemetry, both powerful in their own right, often coexist within the same production environment. However, this coexistence frequently leads to compatibility challenges that can manifest as broken traces, failed plugin enhancements, and, in severe cases, business call errors and application startup failures.</description>
+    </item>
+    
+    <item>
+      <title>Bridging the Language Divide: Practical Tactics for Global Collaboration in Open Source</title>
+      <link>/sessions/community-904940.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-904940.html</guid>
+      <description>Open source projects thrive when people from diverse backgrounds and languages unite under a shared goal. However, language barriers often hinder meaningful participation, making it difficult for newcomers and community members to stay engaged. In this session, we’ll explore how contributors can systematically break down these linguistic walls by using AI-assisted video translation and subtitles, accessible documentation, and practical community workflows. Drawing from experiences helping multiple open source initiatives localize content, we’ll share strategies for ensuring everyone—regardless of their native language—has an equal seat at the table.</description>
+    </item>
+    
+    <item>
+      <title>Build a cloud native Lakehouse architecture based on Iceberg &amp; Amoro &amp; Gravitino in Tencent Cloud</title>
+      <link>/sessions/datalake-906852.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-906852.html</guid>
+      <description>Since 2020, Tencent has been leveraging Apache Iceberg to build its lakehouse data infrastructure. In 2022, Tencent Cloud began offering Iceberg-based lakehouse services to users in the cloud. In 2024, we introduced great projects including Apache Amoro and Apache Gravitino to deliver more powerful, intelligent, and full-scenario-capable lakehouse service for users.
+This keynote will share Tencent Cloud&amp;rsquo;s extensive experience with lakehouse architecture over the years, highlighting rich user practices. We will focus on demonstrating how to leverage these Apache projects to build cloud-native Lakehouse architectures, with particular emphasis on streaming computing and BI scenarios.</description>
+    </item>
+    
+    <item>
+      <title>Building a real-time data lakehouse in practice</title>
+      <link>/sessions/datalake-905869.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-905869.html</guid>
+      <description>In the era of real-time driven business decision-making, the architecture design of high-throughput data lake warehouse has become the decisive battlefield for enterprise digital transformation. Faced with the insurmountable timeliness bottleneck of traditional batch processing architecture, we built a streaming lake warehouse system based on Flink CDC 3.0 + Apache Iceberg + Apache Amoro, and successfully achieved the minute-level readiness and query performance transition of a single customer&amp;rsquo;s daily average of tens of billions of data streams.</description>
+    </item>
+    
+    <item>
+      <title>Building a Unified Lakehouse Solution with Apache Cloudberry</title>
+      <link>/sessions/datalake-915987.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-915987.html</guid>
+      <description>Data warehouses excel at fast analytics, while data lakes focus on scalable storage and flexible data management. The lakehouse architecture aims to combine the best of both—seamlessly integrating data across lakes and warehouses for efficient analysis and unified governance.
+As a next-generation open-source MPP database, Apache Cloudberry extends its technical boundaries to build an open lakehouse solution. This talk introduces Cloudberry’s key capabilities in enabling a unified lakehouse architecture:
+ Accelerated lake queries on Parquet/ORC without data movement Unified data gateway for querying and writing across heterogeneous sources Integrated data processing and sync pipeline, enabling end-to-end flow from ingestion to analytics Open metadata and storage formats for easier ecosystem integration and reduced migration cost  Speakers:</description>
+    </item>
+    
+    <item>
+      <title>Building Highly Reliable Subscription &amp; Push with Apache Pulsar: Challenges and Best Practices</title>
+      <link>/sessions/messaging-890417.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-890417.html</guid>
+      <description>Analyzing Huawei Cloud IoT&amp;rsquo;s best practices in building a subscription and push service based on Apache Pulsar. While subscription and push services may seem straightforward, they involve numerous architectural decisions. This talk delves into how we designed a unified push service architecture to ensure high reliability and stability for massive data distribution, enabling customers to efficiently integrate with data streams and accelerate digital transformation.
+Speakers: 
+Open-source enthusiast and experienced engineer.</description>
+    </item>
+    
+    <item>
+      <title>Catalogs as Context: Using metadata to power and govern the next wave of AI development</title>
+      <link>/sessions/ai-910135.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-910135.html</guid>
+      <description>Developing powerful AI tooling has been our theme of the year, with agents and foundational models picking up steam across the board. Therein still lies the question though: how do we serve data for these applications to work effectively? What about at enterprise scale? What even is context? In this talk we discuss the current big data landscape, challenges to data platforming for AI, and why data catalogues and metadata are the only viable path forward to effective, governed AI-development.</description>
+    </item>
+    
+    <item>
+      <title>Celeborn’s Revolution in Multi-Engine Support, Performance Mastery, and Enterprising Innovation</title>
+      <link>/sessions/datastorage-896070.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datastorage-896070.html</guid>
+      <description>Apache Celeborn has made significant progress over the past year, introducing new capabilities, performance optimizations, and expanded engine support.
+Functional enhancements include: end-to-end validation for data integrity, Multi-layer storage and HybridShuffle for flexible data management, CLI tools and RESTful API for enhanced usability, Multi-level quota for resource governance, worker tags, dynamic configuration, etc.
+Performance improvements address: Spark skew optimization to eliminate extra sorting in skewed scenarios, SortShuffle partition splitting to prevent performance degradation from uneven partitions, Reduced latency in Commit and Fetch phases by optimizing synchronization bottlenecks.</description>
+    </item>
+    
+    <item>
+      <title>Challenges and Practices of Measuring Open Source Community Project Health</title>
+      <link>/sessions/community-914170.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-914170.html</guid>
+      <description>The open-source world is an ecosystem in which projects and communities are interconnected. Understanding a project&amp;rsquo;s health through measurements and seeking suitable means to achieve a prosperous and sustainable open-source software community is a topic of great concern for both maintainers and community developers. The health of an open-source project is not limited to traditional metrics of software engineering quality and iteration management; it also encompasses factors such as community status and values within open collaboration.</description>
+    </item>
+    
+    <item>
+      <title>China Open Source &amp; AI at  a Glance</title>
+      <link>/sessions/community-916502.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-916502.html</guid>
+      <description>Based on the *2024 China Open Source Annual Report&amp;quot;, China&amp;rsquo;s open-source ecosystem is thriving, with rapid growth in contributors, projects, and adoption. AI remains a key driver, as Chinese open-source models like DeepSeek and Qwen gain global traction. Collaboration between academia, enterprises, and communities is accelerating innovation, while government policies further support open-source development. Despite challenges in sustainability and governance, China&amp;rsquo;s open-source community continues to expand its global influence. Let’s explore how these trends shape the future of open source and AI in China and the world!</description>
+    </item>
+    
+    <item>
+      <title>Code, Culture, and Policy: Shaping Asia’s Open Source Future in a Global Context</title>
+      <link>/sessions/keynote-889680.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-889680.html</guid>
+      <description>As open source becomes vital for global innovation, the impact of policymaking on its growth is crucial. This keynote explores the unique challenges and opportunities for Asia&amp;rsquo;s open source ecosystem, contrasting it with Western legislative frameworks like the U.S. CHIPS Act and Europe’s Cyber Resilience Act (CRA). While these policies aim to enhance technological leadership, Asia’s approach—shaped by its cultural and geopolitical context—presents a distinct narrative.
+With initiatives like China’s 14th Five-Year Plan promoting indigenous technologies, Taiwan’s g0v community driving civic tech innovation, and India&amp;rsquo;s policy on adoption of OSS in e-Governance, Asia is forging its path.</description>
+    </item>
+    
+    <item>
+      <title>Cross-Version Upgrade to HBase 2.3 and Stability Governance at Xiaomi</title>
+      <link>/sessions/datastorage-912451.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datastorage-912451.html</guid>
+      <description>Abstract: At Xiaomi, HBase serves as a distributed wide-table service for both offline and online scenarios. However, 40% of nodes still operate on version 0.98 internally, resulting in high maintenance costs due to dual-version support. Unifying the version to 2.3 is critical to improving development efficiency. Additionally, version 2.3 itself faces stability challenges, such as GC issues and cluster-wide downtime recovery failures. This presentation shares Xiaomi’s practical experience in addressing these challenges.</description>
+    </item>
+    
+    <item>
+      <title>Data Security Analysis Practices Based on Apache Doris in China Telecom Bestpay</title>
+      <link>/sessions/olap-897534.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/olap-897534.html</guid>
+      <description>Evolution of BestPay&amp;rsquo;s Security Data Architecture and Use Cases: 1.Unified Log Analysis &amp;amp; Auditing 2.User Security Profiling and Malicious Behavior Detection
+Speakers: 
+Jianqun Lau, China Telecom Bestpay Co.,Ltd. Technical Director , ChinaTelecom Senior Security Specialist ，10+ years of R&amp;amp;D and architecture experience</description>
+    </item>
+    
+    <item>
+      <title>Data Warehouse Virtualization Technology Based on Apache Calcite</title>
+      <link>/sessions/olap-913442.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/olap-913442.html</guid>
+      <description>In the construction of data warehouses, there are increasingly more indicators and dimensions, maintenance costs are becoming higher, and storage resource pressure is increasing. How to manage indicators and reduce the maintenance cost of indicators? How to design a data warehouse model to reduce storage costs? In order to solve these problems, Douyin Group Data Platform Team has built a complete set of &amp;ldquo;Data Warehouse Virtualization&amp;rdquo; solutions based on Apache Calcite and Apache Hive, including the following technologies: Virtual columns and virtual associated columns SQL Define Function and Parameterized View Virtual partition (view of partition) The combination of these abilities not only facilitates the management of data analysis metrics, but also helps reduce storage costs Specific typical cases and implementation principles will be introduced in the presentation PPT.</description>
+    </item>
+    
+    <item>
+      <title>Decrypting the architectural innovation and multi-scenario best practices of the apache  kafka</title>
+      <link>/sessions/messaging-913139.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-913139.html</guid>
+      <description>Alibaba Cloud Kafka has been fully upgraded based on open source Kafka, combining cloud native infrastructure such as elastic computing, high-performance distributed file storage and container services to achieve a high-performance storage and computing separation architecture. The fast recovery mechanism of cloud native kafka greatly reduces RTO, while its read-write isolation mechanism fully guarantees the quality of service. Its low latency, high throughput, extreme elasticity and easy operation and maintenance make the cloud native kafka architecture sufficient to cope with many business scenarios.</description>
+    </item>
+    
+    <item>
+      <title>Disaggregated State Management In Apache Flink</title>
+      <link>/sessions/streaming-913186.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-913186.html</guid>
+      <description>The past decade has seen a transformative evolution in Flink’s deployment paradigms, workload patterns, and hardware advancements. From the tightly coupled compute-storage nodes of the map-reduce era, we have transitioned to a cloud-native world where containerized deployments on Kubernetes are now the norm. To fully embrace this shift, Flink 2.0 introduces Disaggregated State Management, leveraging Distributed File Systems (DFS) as the primary storage medium. This architectural innovation addresses critical challenges posed by the cloud-native environment while enabling new levels of scalability, performance, and flexibility.</description>
+    </item>
+    
+    <item>
+      <title>Dive into Vectorized Execution for Apache Cloudberry: Design, Challenges, and Performance Gains</title>
+      <link>/sessions/olap-914602.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/olap-914602.html</guid>
+      <description>As analytical workloads grow in both scale and complexity, the demand for high-performance data processing engines continues to rise. While MPP architectures are effective at scaling out performance across hardware, databases built on PostgreSQL — such as Greenplum and Apache Cloudberry — face limitations due to PostgreSQL’s execution engine.
+To overcome these constraints, we introduce a vectorized execution engine for Apache Cloudberry, which is designed to unlock greater efficiency through batch processing and low-level instruction optimizations.</description>
+    </item>
+    
+    <item>
+      <title>Elevating Data Processing: Strategies for Seamless Batch Management in Cloud Architectures</title>
+      <link>/sessions/cloudnative-868204.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/cloudnative-868204.html</guid>
+      <description>Organizations today are overwhelmed with vast data requiring effective batch processing. Managing these jobs can lead to complexity, resource wastage, and increased operational costs, hindering business productivity.
+Cloud-native technologies, including the Batch Processing Gateway, Spark on Kubernetes, and the Yunicorn Scheduler, offer robust solutions to these challenges. These tools automate job management, streamline resource allocation, and enhance scheduling efficiency. Our talk will delve into how these technologies work together to optimize processing workloads and improve operational workflows.</description>
+    </item>
+    
+    <item>
+      <title>Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI</title>
+      <link>/sessions/datastorage-889852.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datastorage-889852.html</guid>
+      <description>We are rapidly entering the Agentic Application Age, where AI-driven agents not only assist but autonomously make decisions and manage tasks. However, the data infrastructure underpinning these applications faces significant challenges in scalability, consistency, and performance.
+With Apache Cassandra 5.0 introducing Vector Search, it has emerged as a key AI database. Yet, Agentic Applications demand more than just vector capabilities. In this session, we will first explore Cassandra 5.0’s Vector Search feature, examine the critical limitations of existing solutions, and introduce Eloq ConvergedDB on Apache Cassandra, an innovative approach designed to overcome these challenges.</description>
+    </item>
+    
+    <item>
+      <title>Empowering Serverless Messaging Architectures with Apache RocketMQ</title>
+      <link>/sessions/messaging-906870.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-906870.html</guid>
+      <description>In our latest work, which was accepted to the the ACM FSE 2025 Industry Track, Apache RocketMQ serves as a powerful foundation for serverless messaging systems, addressing the scalability, cost, and metadata challenges of traditional middleware. By decoupling storage and compute, Apache RocketMQ enables independent resource scaling, critical for unpredictable cloud workloads. Its elastic write partitions eliminate single-queue throughput limits, while light message queue support millions of queues with minimal cold-start latency.</description>
+    </item>
+    
+    <item>
+      <title>Enhancing API Discovery with LLM: Supported with eBay&#39;s NuGraph Powered by Apache TinkerPop</title>
+      <link>/sessions/ai-910588.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-910588.html</guid>
+      <description>Apache TinkerPop offers a robust framework for graph computing, essential for managing complex data interactions. In the realm of API discovery, traditional methods (e.g. vector database) often struggle with the precision and scale required for precise and real-time interactions. Precise and efficient data aggregation is crucial for delivering accurate and timely responses in API discovery. NuGraph, eBay&amp;rsquo;s proprietary graph database solution, utilizes Apache TinkerPop to efficiently manage intricate data structures. On top of it, a novel approach was built with Large Language Models (LLMs) to perform aggregation queries.</description>
+    </item>
+    
+    <item>
+      <title>Enhancing Performance and Reducing Cost for Object Store Access with Apache OpenDAL and Foyer</title>
+      <link>/sessions/rust-908074.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/rust-908074.html</guid>
+      <description>Foyer is a hybrid in-memory and disk cache library in Rust. For systems utilizing Apache OpenDAL to access object stores, integrating Foyer can significantly enhance access performance and reduce costs. In this session, we will delve into the Foyer system and its integration with Apache OpenDAL. Additionally, we will present real-world case studies, such as RisingWave, to illustrate the benefits that Foyer and Apache OpenDAL bring to object store-based storage systems.</description>
+    </item>
+    
+    <item>
+      <title>Enhancing Virtual Collaboration: Integrating GenAI into Apache OpenMeetings</title>
+      <link>/sessions/general-914547.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/general-914547.html</guid>
+      <description>This session explores the transformative potential of integrating Generative AI (GenAI) into Apache OpenMeetings, an open-source web conferencing tool. We’ll demonstrate how GenAI can elevate virtual collaboration through features like real-time multilingual transcription, AI-generated meeting summaries, and intelligent meeting assistants that automate action items. Attendees will learn how to extend OpenMeetings using LLMs (e.g., GPT-4) and open-source frameworks to create dynamic virtual avatars, context-aware chatbots, and personalized content recommendations. We’ll showcase use cases such as AI-driven customer support portals, interactive training sessions, and automated post-meeting workflows.</description>
+    </item>
+    
+    <item>
+      <title>Event-Driven Agent: From Stream Processing to Agentic AI Framework</title>
+      <link>/sessions/streaming-913378.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-913378.html</guid>
+      <description>In the era of rapidly advancing large language models and Agentic AI applications, the integration of big data technologies—particularly real-time processing engines like Apache Flink—is a critical topic for data infrastructure professionals.
+Agentic AI applications can be categorized into two types based on their triggering mechanisms: human-request driven agents and event-driven agents. ● Human-request driven agents often require contextual information to fulfill requests, and Flink’s real-time data processing capabilities ensure the timely delivery of updated contextual information.</description>
+    </item>
+    
+    <item>
+      <title>Exploration and practice of Apache Pulsar in online scenarios of Xiaohongshu Company</title>
+      <link>/sessions/messaging-913153.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-913153.html</guid>
+      <description>This sharing will compare the features of Pulsar and Rocketmq, as well as how Pulsar is implemented in the online scenario of Xiaohongshu (including feature delay, multi-active, compression, etc.), and what actual benefits the enterprise gets.
+Speakers: 
+The person in charge of online MQ of Xiaohongshu Company, Apache BookKeeper Committer, has 5 years of development experience in MQ and is committed to building stable and reliable basic components.</description>
+    </item>
+    
+    <item>
+      <title>Flex: Unified Stream and Batch Vectorized Engine</title>
+      <link>/sessions/streaming-909040.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-909040.html</guid>
+      <description>Flex is designed to be a unified engine that supports both stream and batch processing, leveraging vectorization to maximize performance. Its goal is to seamlessly handle diverse data workloads, whether they are real-time streams or batch jobs, with high efficiency and scalability.
+Speakers: 
+Expert in Distributed Computing Engines at Ant Financial, Calcite Committer and Flink Contributor with 10 years of Big Data development experience, focus on Flink/Spark/HBase.</description>
+    </item>
+    
+    <item>
+      <title>From Chaos to Order: The Journey of Apache OzHera (Incubating)&#39;s First Release Process</title>
+      <link>/sessions/incubator-908926.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/incubator-908926.html</guid>
+      <description>Releasing the first version of an Apache incubating project is never a smooth ride—and Apache OzHera (Incubating) was no exception. In this talk, I will share the real-world journey of bringing OzHera’s first official release to life: navigating ASF release policies and handling technical debt to coordinating time zones and engaging with the wider community. You’ll hear the lessons we learned through trial and error, the mistakes we made (and fixed), and the practices we established to bring order to the chaos.</description>
+    </item>
+    
+    <item>
+      <title>From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry</title>
+      <link>/sessions/ai-915004.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-915004.html</guid>
+      <description>Enterprises today struggle to harness AI’s full potential due to fragmented data systems, inefficient pipelines, and silos between analytics and machine learning. Apache Cloudberry, an open-source MPP data warehouse, redefines this paradigm by deeply integrating data processing with AI - eliminating barriers and accelerating innovation. In this session, we’ll demonstrate how Cloudberry enables:
+ Unified Execution – Run native AI/ML models (e.g., PyTorch, Scikit-learn) directly on warehouse data. Multi-Modal Analytics – Process structured and unstructured data (PDFs, images, and other documents) in a unified framework.</description>
+    </item>
+    
+    <item>
+      <title>From Graph to Intelligence: HugeGraph Powers Business AI Upgrades</title>
+      <link>/sessions/incubator-914993.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/incubator-914993.html</guid>
+      <description>This PRE will explore the latest advancements in GraphAI and graph technologies. Following the rise of GraphRAG and Graph Agents in the past year, we will focus on HugeGraph&amp;rsquo;s real-world Graph AI implementations. We will delve into solutions for complex queries and the design and application of Function Graphs in intelligent operations, and share practical experiences in vertical domain graphs (legal, person, enterprise) on balancing improved recall accuracy with optimized efficiency and cost.</description>
+    </item>
+    
+    <item>
+      <title>From Hadoop to Kubernetes: The Cloud-Native Evolution of Li Auto&#39;s Big Data Platform</title>
+      <link>/sessions/cloudnative-911204.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/cloudnative-911204.html</guid>
+      <description>Abstract: In the construction of our big data platform, we transitioned from traditional deployments using the Apache Hadoop ecosystem to achieving storage-compute separation with JuiceFS, and finally migrated to a Kubernetes-centric scheduling system. This technological evolution spans three aspects: storage, computing, and cluster architecture, aiming to enhance data processing efficiency.
+Storage Optimization By replacing HDFS with JuiceFS, we implemented elastic computing with centralized storage, resolving capacity scaling and resource utilization challenges in cloud environments.</description>
+    </item>
+    
+    <item>
+      <title>From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry</title>
+      <link>/sessions/incubator-906736.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/incubator-906736.html</guid>
+      <description>Apache Cloudberry, a massively parallel processing (MPP) database based on Greenplum, entered the Apache Incubator with the vision of bringing analytical power to the open-source community. As one of the initiators and ongoing contributors to the project, I’ve had the opportunity to closely experience every stage of the incubation journey — from drafting the proposal and forming the PPMC to announcing and marketing promotion, to cleaning up the source code, and building community momentum.</description>
+    </item>
+    
+    <item>
+      <title>From Solo to Synergy: Involving the Whole Community in Apache OzHera (Incubating)’s Release</title>
+      <link>/sessions/incubator-908929.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/incubator-908929.html</guid>
+      <description>A successful release in an Apache project is never a one-person show. In this talk, I’ll share how the Apache OzHera (Incubating) community worked together to deliver its first release—not just as a task for the release manager, but as a shared responsibility across the entire community. From writing release notes and reviewing code to testing artifacts and voting on the mailing list, every step required collective effort and collaboration. I’ll reflect on how we moved from a “solo contributor” mindset to a culture of shared ownership, and offer insights into how other communities—especially those in the Incubator—can encourage broader participation in their release processes.</description>
+    </item>
+    
+    <item>
+      <title>From Zero to Million: How I got the first Million downloads on my Open-Source PHP package</title>
+      <link>/sessions/community-871534.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-871534.html</guid>
+      <description>I will start by explaining a little bit about the project, it’s differentials and how the CI/CD process helped it to succeed.
+The second part will explain the process and the most important decisions and suggestions that I got from friends and co-workers (highlighting the importance of sharing your personal projects with people you thrust).
+Third part will speak about how to get financial support for a free and Open Source project.</description>
+    </item>
+    
+    <item>
+      <title>Fundamental Optimizations in Apache DataFusion</title>
+      <link>/sessions/rust-915098.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/rust-915098.html</guid>
+      <description>Apache DataFusion is a high-performance SQL Execution Engine in Rust. This session will share some generic and fundamental optimizations. Most of them are not specific to any DSL, hence don&amp;rsquo;t require extensive knowledge of SQL algorithms and can be applied to other scenarios.
+Speakers: 
+Apache DataFusion PMC, Apache Arrow Committer, Apache HoraeDB PPMC Senior SWE at Greptime https://github.com/waynexia</description>
+    </item>
+    
+    <item>
+      <title>Future Proof Data Platform in the AI and Cloud native era</title>
+      <link>/sessions/general-875124.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/general-875124.html</guid>
+      <description>Organizations with a lot of data, such as internet/AI/Robotics companies, have built/run/used data platform over time to meet progressive needs. With cloud native evolution and AI explosion, a paradigm shift is underway. For example, New disaggregated architecture start taking share from distributed share nothing architect that had worked well in the internet era. And AI with its unstructured data needs, introduced new requirements, such GPU in computing vector indexes. In this talk, Tom will highlight the major new tech trends that will impact data infrastructure and how organizations shall prepare themselves for the coming wave.</description>
+    </item>
+    
+    <item>
+      <title>High Performance, Low Cost, Open Observability powered by Apache Doris</title>
+      <link>/sessions/cloudnative-911323.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/cloudnative-911323.html</guid>
+      <description>Users can build High Performance, Low Cost, Open Observability powered by Apache Doris. It&amp;rsquo;s 5x times more cost efficient then Elastcicsearch and compatible to open standard such as OpenTelemetry.
+ Observability challenges Observability powered by Apache Doris, including architecture, ecosystem, key technics Typical user cases  Speakers: 
+SelectDB, VP QianXin and 360, Director Baidu, Senior Engineer</description>
+    </item>
+    
+    <item>
+      <title>History based optimizations for SparkSQL</title>
+      <link>/sessions/olap-913223.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/olap-913223.html</guid>
+      <description>In this presentation, we will conduct an in-depth exploration of the application of History-Based Optimizations (HBO) within the context of SparkSQL, a critical component in modern big data processing ecosystems. Our discussion will not only cover the fundamental principles of HBO but also delve into the compelling reasons for its adoption, especially in scenarios where Adaptive Query Execution (AQE) is already in place. We will dissect how HBO addresses limitations inherent to AQE, thereby providing enhanced query performance and resource utilization.</description>
+    </item>
+    
+    <item>
+      <title>How to handle your Star schema in the Streamhouse world</title>
+      <link>/sessions/streaming-906176.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-906176.html</guid>
+      <description>Almost every company who wants to build its own data platform for business analytics goes through a scenario of denormalizing their original data model from OLTP space in their data warehouse or lakehouse space. The end goal is to build some useful reports and power some real time business dashboard. While doing this, data teams may make many sub-optimal solutions and attempts in terms of data freshness, infrastructure cost and cost of maintenance.</description>
+    </item>
+    
+    <item>
+      <title>How to Keep Your Open Source Project Going After the Hype Dies Down</title>
+      <link>/sessions/keynote-915301.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-915301.html</guid>
+      <description>This session will explain the Gartner Hype Cycle and how it applies to open source software projects. I&amp;rsquo;ll share insight into the role that both word-of-mouth and social media play in getting developers to contribute to your open source project. We&amp;rsquo;ll discuss how to get attention and how to adapt as that attention inevitably fades.
+freeCodeCamp&amp;rsquo;s open source project has over 400,000 stars on GitHub and more than 50,000 codebase contributions over the past 10 years.</description>
+    </item>
+    
+    <item>
+      <title>Hybrid Search in Apache Doris</title>
+      <link>/sessions/ai-915118.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-915118.html</guid>
+      <description>Doris&amp;rsquo;s hybrid search capability combines traditional full-text search (keyword-based lexical search) with vector search (semantics-based search) to deliver an advanced search function aimed at improving the accuracy and relevance of search results. This capability is particularly well-suited for complex search scenarios that require both keyword matching and semantic understanding, such as e-commerce, content recommendation, and knowledge base search. Core Concepts of Hybrid Search Hybrid search leverages the strengths of both search methods to provide more precise search results: Full-Text Search (BM25): Based on inverted indexes and keyword matching, it excels at accurately matching user-input query terms.</description>
+    </item>
+    
+    <item>
+      <title>Impala on Iceberg with Puffins</title>
+      <link>/sessions/datalake-914225.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-914225.html</guid>
+      <description>The Apache Iceberg table format has become a de-facto standard in the Big Data world. Its numerous advantages over traditional file system based table formats - like row level modifications, transactions, partition transforms and time travelling - have made it a natural first choice for many projects.
+Statistics about the data can be of immense help to database engines in creating efficient query plans. As a leading table format, Iceberg aims to provide a standardised way of storing these statistics: in addition to file level attributes already present in the core specification (like min and max values), it has introduced the Puffin file format for storing statistics over the whole table.</description>
+    </item>
+    
+    <item>
+      <title>Implementation and Tuning Practice of Apache IoTDB System Monitoring Framework</title>
+      <link>/sessions/cloudnative-913294.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/cloudnative-913294.html</guid>
+      <description>Since version 1.0.0, Apache IoTDB has provided a unified system monitoring framework, allowing database developers to define system monitoring indicators such as counters and register them for unified management, and supporting the Prometheus + Grafana monitoring indicator visualization solution. After a year of practice, 4 visual monitoring panels and a lot of tuning experience based on system monitoring have been formed.
+Speakers: 
+Zhang Hongyin, Apache Committer, Master&amp;rsquo;s student of Tsinghua University, Class of 2022, is currently responsible for Apache IoTDB memory management, system monitoring, and standardized testing.</description>
+    </item>
+    
+    <item>
+      <title>Inside the Apache Software Foundation Board</title>
+      <link>/sessions/community-905769.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-905769.html</guid>
+      <description>This talk delves into the inner workings of the Apache Software Foundation board, shedding light on its workings and the responsibilities of its board members. Attendees will gain a comprehensive understanding of the ASF board’s governance structure, decision-making processes, and its crucial role in overseeing one of the world’s largest groups of open-source communities. Drawing from real-life experiences, the speaker will share personal insights, challenges faced, and the rewarding aspects of contributing to ASF’s mission.</description>
+    </item>
+    
+    <item>
+      <title>Inside the Directory Table of Apache Cloudberry</title>
+      <link>/sessions/olap-913140.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/olap-913140.html</guid>
+      <description>AI applications and data science workflows increasingly rely on unstructured data. Apache Cloudberry introduces Directory Table, a new table type designed to manage unstructured data natively within the database. It supports unified metadata management, integration with in-database analytics, and advanced data science workflows. This talk will walk through the design philosophy, implementation details, and usage examples of the Directory Table, illustrating how it bridges structured and unstructured data in a unified platform.</description>
+    </item>
+    
+    <item>
+      <title>Insights into the Apache Community from China Open Source Annual Report</title>
+      <link>/sessions/keynote-914074.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-914074.html</guid>
+      <description>With the rapid development of the global open-source ecosystem, the influence of China&amp;rsquo;s open-source community on the international stage has continued to grow. This report is based on data analysis from the China Open Source Annual Report, focusing on the participation, technical contributions, and development trends of the Apache open-source community in China. It aims to reveal the community&amp;rsquo;s role and challenges within the global open-source ecosystem.
+Speakers: 
+Wang Wei, currently a professor at the School of Data Science and Engineering, East China Normal University, X-lab open laboratory founder.</description>
+    </item>
+    
+    <item>
+      <title>Integrating LLMs into CI/CD Pipelines: A Case Study on Improving Apache Project Code Quality</title>
+      <link>/sessions/ai-912416.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-912416.html</guid>
+      <description>In this session, we’ll explore how Large Language Models (LLMs) can be systematically integrated into GitHub Actions to enhance code quality and security in Apache projects, story behind the real-world example of apache/brpc#2911. Is ideal for developers and maintainers seeking actionable, low-overhead strategies to design, implements and deploy AI agent for code quality assurance. We&amp;rsquo;ll incentivize audience thinking on: Human-AI Collaboration: Contrast the traditional &amp;ldquo;copilot&amp;rdquo; model (human-driven, synchronous) with asynchronous AI agent workflows in pipelines, highlighting efficiency gains and trade-offs.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Apache Cloudberry: Evolution, Key Features, and Roadmap</title>
+      <link>/sessions/datalake-915155.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-915155.html</guid>
+      <description>Apache Cloudberry is an advanced and mature open-source MPP database, derived from the open-source version of the Pivotal Greenplum Database® but built on a more modern PostgreSQL kernel and with more advanced enterprise capabilities. Cloudberry can serve as a data warehouse and can also be used for large-scale analytics and AI/ML workloads. In this session, we’ll explore the origin of the project, its journey into the Apache Incubator, and how it differentiates itself from other analytical databases.</description>
+    </item>
+    
+    <item>
+      <title>IoTDB Time-Series Data Subscription: Design and Efficient Practices</title>
+      <link>/sessions/iot-915157.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/iot-915157.html</guid>
+      <description>Apache IoTDB, as a high‑performance time‑series database, introduced the in‑DB stream processing framework Pipe in recent years, providing a solid foundation for real‑time data handling. However, in data integration and backup scenarios, Pipe‑based solutions still suffer from complex development, unstable operation, and limited flexibility. To address these issues, we’ve designed and implemented an in‑DB stream‑processing–based time‑series data subscription module with the following advantages:
+ Minimal onboarding: Provides a Kafka‑style subscription interface—one line of code is all it takes to start the data stream, with no extra plugin development required.</description>
+    </item>
+    
+    <item>
+      <title>Kafka migration and disaster recovery architecture</title>
+      <link>/sessions/messaging-879741.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-879741.html</guid>
+      <description>This session introduces the smooth migration of self-built Kafka cluster to Tencent Cloud CKafka solution, without paying attention to the produce and consume application switching order during migration. In addition, this section describes the fault disaster recovery on Tencent Cloud CKafka.
+Speakers: 
+I graduated from Tianjin University majoring in software engineering. At present, I am responsible for the development and optimization of Kafka kernel in Tencent Cloud, and have 7 years of experience in the development and operation and maintenance of message middleware.</description>
+    </item>
+    
+    <item>
+      <title>Lance, the data format for the frontiers of multimodal AI</title>
+      <link>/sessions/ai-910203.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-910203.html</guid>
+      <description>The frontier of multimodal models is trained on petabytes of multimodal AI data, encompassing videos, images, and long text. The complexity and scale of new AI data pose challenges to the existing data infrastructure.
+The Apache-licensed Lance format is built on Apache Arrow and Apache Datafusion, written in Rust as core, by a team of Apache Hadoop, Apache HBase, Apache Iceberg, Apache Arrow and Delta lake PMC members. Lance format is a new AI-focused columnar format and table format, inspired heavily from Apache Parquet, Apache Iceberg and Apache Hudi projects.</description>
+    </item>
+    
+    <item>
+      <title>Large-scale Shuffle with Apache Celeborn at Ant Group</title>
+      <link>/sessions/datastorage-912411.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datastorage-912411.html</guid>
+      <description>Processing petabyte-scale shuffle data everyday poses significant challenges for batch jobs, especially shuffle performance. In this talk, Erik will present how Apache Celeborn is used with Spark at Ant Group, dive into several topics including correctness validation, bottleneck diagnose, performance optimization and DFS integration.
+Speakers: 
+Erik Fang, Software Engineer at Ant Group, Tech Leader</description>
+    </item>
+    
+    <item>
+      <title>Lessons Learned in Building a Cloud MQTT Solution</title>
+      <link>/sessions/messaging-908848.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-908848.html</guid>
+      <description>MQTT has emerged as the de facto standard for the Internet of Things (IoT), powering a wide range of applications across industries such as automotive, manufacturing, telecommunications, oil and gas, and more.
+At Tencent Cloud, we have developed a robust, cloud-based MQTT solution built on a shared, resilient stream log. In this presentation, we will share key insights and lessons learned from our development journey. We will begin by outlining the overall architecture, highlighting performance optimizations, and sharing operational best practices.</description>
+    </item>
+    
+    <item>
+      <title>Lessons Learned: Building Service Gateway with Tomcat And Virtual Threads</title>
+      <link>/sessions/webserver-889038.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-889038.html</guid>
+      <description>This technical session shares practical experiences and key insights gained from building and deploying a production service gateway using Tomcat and Java 21 virtual threads. We&amp;rsquo;ll explore how Tomcat&amp;rsquo;s native virtual thread support transforms gateway performance, the challenges faced during migration, and best practices that emerged during our journey of modernizing a traditional Tomcat-based service gateway with Project Loom&amp;rsquo;s virtual threads.
+Speakers: 
+A veteran distributed systems architect with over a five years of hands-on experience in:</description>
+    </item>
+    
+    <item>
+      <title>Mastering Large-Scale Shuffle: The Dream11 Playbook with Remote Shuffle Service</title>
+      <link>/sessions/datastorage-873334.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datastorage-873334.html</guid>
+      <description>At Dream11, Apache Celeborn is used for petabyte-scale shuffle, leveraging rack awareness to minimize cross-rack data transfer and ensure high availability by replicating shuffle data across different racks. It decouples shuffle storage from compute nodes, enabling elastic scaling of storage independent of compute demands. Parallel partition writes and adaptive shuffle reads optimize throughput and reduce latency. Elastic scaling allows dynamic resource allocation, maintaining cost efficiency under varying workloads. This design enhances fault tolerance and reduces job completion time by over 50%.</description>
+    </item>
+    
+    <item>
+      <title>Microservice Innovation in the AI Era: From Architecture Reshaping to Agent Driven Development</title>
+      <link>/sessions/microservice-915240.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/microservice-915240.html</guid>
+      <description>In the constantly evolving wave of AI technology, microservice architecture has also ushered in unprecedented opportunities for upgrading. This speech will delve into how to integrate agents with microservice architecture to build &amp;ldquo;AI native&amp;rdquo; systems with autonomous decision-making capabilities. By introducing MCP (Model Context Protocol), a model context protocol, we can achieve efficient communication and context sharing between models and business services, and solve the problems of state maintenance, intention understanding and multiple rounds of collaboration in the invocation of large models.</description>
+    </item>
+    
+    <item>
+      <title>Modern ETL for Text Vector Data Using Apache SeaTunnel and Amazon Bedrock</title>
+      <link>/sessions/ai-905033.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-905033.html</guid>
+      <description>In the wave of enterprise intelligence upgrades, information retrieval is shifting from “keyword matching” to “semantic understanding.” Traditional search engines based on inverted indexes rely on string-level matching, which makes it difficult to capture the true intent behind user queries. This limits the effectiveness of search experiences, recommendation accuracy, customer service responses, and the intelligence of knowledge-based Q&amp;amp;A systems.
+For example, on an e-commerce platform, when a user searches for “white dress suitable for summer,” a system that only matches keywords in product titles or categories is unlikely to understand the full semantic meaning of “suitable for summer,” which may involve fabric, style, and other dimensions.</description>
+    </item>
+    
+    <item>
+      <title>Modern ETL for Text Vector Data Using Apache SeaTunnel and Amazon Bedrock</title>
+      <link>/sessions/dataops-906790.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-906790.html</guid>
+      <description>In the wave of enterprise intelligence upgrades, information retrieval is shifting from “keyword matching” to “semantic understanding.” Traditional search engines based on inverted indexes rely on string-level matching, which makes it difficult to capture the true intent behind user queries. This limits the effectiveness of search experiences, recommendation accuracy, customer service responses, and the intelligence of knowledge-based Q&amp;amp;A systems.
+For example, on an e-commerce platform, when a user searches for “white dress suitable for summer,” a system that only matches keywords in product titles or categories is unlikely to understand the full semantic meaning of “suitable for summer,” which may involve fabric, style, and other dimensions.</description>
+    </item>
+    
+    <item>
+      <title>Navigating the Incubator process</title>
+      <link>/sessions/incubator-905766.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/incubator-905766.html</guid>
+      <description>This talk provides an overview of the Apache Software Foundation (ASF) and its incubation process. It guides projects on learning the Apache Way, ensuring compliance with licensing and intellectual property rights, and fostering community growth. The process involves creating a proposal, entering the incubator, focusing on community building and making releases, and eventually graduating as a top-level ASF project. Key aspects covered in this talk include, complying with licensing, engaging in open and transparent practices, and adopting a vendor-neutral approach.</description>
+    </item>
+    
+    <item>
+      <title>Nurturing New Contributors: The Art of Crafting Good First Issues</title>
+      <link>/sessions/community-912217.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-912217.html</guid>
+      <description>In the world of open source development, the journey of a new contributor often begins with their first issue. This presentation explores the crucial role of &amp;lsquo;good first issues&amp;rsquo; in GitHub repositories and how they serve as a gateway for newcomers to the open source community. We&amp;rsquo;ll delve into the best practices for creating these issues, focusing on clarity, approachability, and educational value.
+The talk will cover strategies for identifying appropriate tasks, writing clear descriptions, and providing necessary context and resources.</description>
+    </item>
+    
+    <item>
+      <title>Optimization and practice of Doris on Paimon in Xiaomi</title>
+      <link>/sessions/olap-911203.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/olap-911203.html</guid>
+      <description>How does Doris on Paimon integrate with Xiaomi&amp;rsquo;s OLAP architecture system and integrate with OLAP multi engines (Spark, Presto) a. Unified SQL gateway proxy access: Implement traffic control, unified authentication, and simplify Doris&#39; access through a unified proxy layer protocol and client SDK b. SQL automatic routing: By analyzing RBO and CBO rules, the most suitable SQL is routed to Doris for execution, achieving the effect of accelerating and reducing costs c.</description>
+    </item>
+    
+    <item>
+      <title>Optimizing Parquet Storage: Metadata Management, Performance Tuning &amp; Seamless Migration</title>
+      <link>/sessions/datalake-913345.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-913345.html</guid>
+      <description>This session delves into advanced techniques for optimizing Parquet storage ecosystems. We’ll explore a comprehensive approach to managing metadata—from efficient collection and storage to building a scalable metadata warehouse. Attendees will learn practical strategies for storage optimization, including ZSTD compression upgrades, local/global sorting, and column-level tuning for enhanced performance. Additionally, we’ll cover seamless migration of legacy formats through in-place backtracking and heterogeneous format interoperability. Whether you’re handling large-scale datasets or fine-tuning storage efficiency, this session offers actionable insights to elevate your Parquet workflows.</description>
+    </item>
+    
+    <item>
+      <title>Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark Cluster</title>
+      <link>/sessions/observability-914145.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/observability-914145.html</guid>
+      <description>In today&amp;rsquo;s era of artificial intelligence + big data, enterprises are facing the challenges of rapid growth and diversified needs of massive data. Combining Apache Flink/Spark, two popular distributed computing engines, enterprises can build flexible real-time and batch data processing pipelines. However, in a large-scale stream processing service cluster environment, observability faces many challenges, mainly including dynamic perception of elastic tasks, large amounts of observable data, and strict requirements for real-time performance.</description>
+    </item>
+    
+    <item>
+      <title>Practical Experiences in Ant Open Source Incubation</title>
+      <link>/sessions/community-913430.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-913430.html</guid>
+      <description>Ant Group (fintech company with 25K employees) has been an active participant in Open Source community with many projects, such as Apache Fury, Apache Seata, Apache Seata, Apache HoraeDB.
+The Ant Group Open Source Incubation, deeply rooted in the principles of the Apache Way, is a dedicated platform fostering innovation and collaboration within the open-source ecosystem. It embraces the core tenets of community-driven development, meritocracy, transparency, and open communication, ensuring that projects nurtured under its umbrella adhere to the highest standards of quality, inclusivity, and sustainability.</description>
+    </item>
+    
+    <item>
+      <title>Practice of Apache Flink Real-time Computing in China Mobile Cloud</title>
+      <link>/sessions/streaming-914285.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-914285.html</guid>
+      <description>The diversity of computing scenarios continuously drives the innovation of big data technologies. And the real-time lakehouse represents the current mainstream trend. The real-time lakehouse has been widely applied to various businesses of Mobile Cloud. Facing complex usage scenarios and extremely large data volumes, many challenges have been encountered during the construction of the real-time lakehouse. This sharing will introduce Mobile Cloud&amp;rsquo;s thoughts and construction in the aspect of the real-time lakehouse.</description>
+    </item>
+    
+    <item>
+      <title>Practice of Flink Memory Governance at ByteDance</title>
+      <link>/sessions/streaming-903630.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-903630.html</guid>
+      <description>As the demand for streaming tasks continues to grow within ByteDance, Flink has been widely adopted across various business domains at scale. Among the resource costs of these large-scale tasks, memory stands out as a significant contributor—especially heap memory. The total allocated memory for all tasks has reached tens of thousands of terabytes, yet the JVM heap utilization remains below 50%, and container-level memory usage is under 70%. Against the backdrop of company-wide cost reduction and efficiency improvement, we have carried out a series of memory optimizations focused on heap memory usage prediction, off-heap memory usage tracking, and simplifying Flink’s memory model.</description>
+    </item>
+    
+    <item>
+      <title>Practices of Metrics Collection for Apache Pulsar in Large-Scale Partition</title>
+      <link>/sessions/messaging-880460.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-880460.html</guid>
+      <description>Apache Pulsar is a high-performance messaging queue that supports a massive number of Topics, allowing users to create hundreds of thousands or even millions of partitions within a single cluster. Metrics are a crucial tool for us to identify and diagnose issues in production environments. The effectiveness of observability directly impacts the speed of troubleshooting. In scenarios with a large number of partitions, enabling Topic-level Metrics can generate a significant number of Metrics strings in a short period, causing severe memory fluctuations and potentially destabilizing the cluster.</description>
+    </item>
+    
+    <item>
+      <title>Practices of SkyWalking&#39;s Auto-Instrumentation Agent for Ruby</title>
+      <link>/sessions/observability-908230.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/observability-908230.html</guid>
+      <description>Distributed tracing is crucial in observability, driving improvements in tracing agent usability across languages. This talk demonstrates Ruby application monitoring with Apache SkyWalking and dives into its auto-instrumentation implementation.
+Speakers: 
+Apache SkyWalking PMC Member &amp;amp; Committer, open-telemetry Member, openzipkin &amp;amp; pinpoint-apm Contributor.</description>
+    </item>
+    
+    <item>
+      <title>Production Practice of Apache Gluten and Apache Celeborn at Xiaomi</title>
+      <link>/sessions/datastorage-905877.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datastorage-905877.html</guid>
+      <description>This talk will dive into the real-world adoption of Apache Gluten and Apache Celeborn at Xiaomi, covering technical background, deployment journey, challenges, and future roadmap.
+ Technology Landscape Xiaomi has built a large-scale offline computing platform centered around Spark, supporting over 100,000+ offline jobs running daily. This section will introduce the core technical architecture and key components Xiaomi relies on in offline computing, as well as the positioning of Gluten and Celeborn.</description>
+    </item>
+    
+    <item>
+      <title>Quantum AI: The Dawn of Hyper-Intelligence</title>
+      <link>/sessions/ai-897112.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-897112.html</guid>
+      <description>The fusion of Quantum Computing and AI is set to shatter the limits of classical computation, unlocking an era of hyper-intelligence. With quantum-enhanced models capable of exponential learning, solving complex problems in seconds, and redefining decision-making, are we entering a phase where AI will operate beyond human comprehension?
+This session explores the next frontier of AI, focusing on:
+Quantum Machine Learning (QML): How AI leverages quantum mechanics for unprecedented problem-solving</description>
+    </item>
+    
+    <item>
+      <title>Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake</title>
+      <link>/sessions/streaming-868206.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-868206.html</guid>
+      <description>Message queues are essential for real-time use cases like payment processing, fraud detection, and AI-powered support systems—but traditional queues often lack scalability, durability, and replayability. In this talk, we explore how Kafka 4.0 brings native queue semantics to the world of distributed streaming, enabling fair, concurrent, and isolated message processing at scale.
+We’ll show how Apache Flink’s native LLM integration leverages this queue model to perform real-time Large Language Model (LLM) inference—like sentiment analysis or summarization—and how enriched results can be written directly to Apache Iceberg, a powerful data lakehouse for long-term analytics, data versioning &amp;amp; time travel and ML feedback loops.</description>
+    </item>
+    
+    <item>
+      <title>Radical Transparency for Software Teams</title>
+      <link>/sessions/general-915544.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/general-915544.html</guid>
+      <description>Redefine team communication with radical transparency. Fostering a culture of openness, honesty, and positivity in your team, can create a work environment where everyone feels empowered to do their best work and grow both personally and professionally. This talk will give an overview to bringing radical transparency into your DevOps, software and product development processes.
+Speakers: 
+Author of &amp;ldquo;Radical Therapy for Software Teams&amp;rdquo;, CEO of Buildly, and 20+ year career in Software, Open Source and Startups.</description>
+    </item>
+    
+    <item>
+      <title>Rapid Construction of Intelligent Microservices with Higress</title>
+      <link>/sessions/microservice-916450.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/microservice-916450.html</guid>
+      <description>In this talk, we will explore how Higress, a high-performance cloud-native API gateway, can be utilized to swiftly build intelligent microservices. Higress facilitates quick and efficient building of intelligent microservices, enhancing both development agility and operational intelligence. Through its powerful artificial intelligence capabilities and exceptional traffic management, Higress is transforming how organizations deploy and manage microservice-based intelligent agents across diverse cloud environments.
+Speakers: 
+Ji Min (Qing Ming) is the head of distributed transaction products at Alibaba Cloud and a maintainer for Higress.</description>
+    </item>
+    
+    <item>
+      <title>RBIR: Rewrite Bigdata in Rust</title>
+      <link>/sessions/rust-885440.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/rust-885440.html</guid>
+      <description>Rust is rapidly becoming a key player in data infrastructure, with many new big data systems being developed in Rust. This trend, known as &amp;ldquo;Rewrite Bigdata in Rust&amp;rdquo; (RBIR), aims to build a modern big data ecosystem using Rust. RBIR consists of three approaches: creating new Rust-based projects, re-implementing existing systems in Rust, and integrating Rust-powered components into other languages. The movement is driven by Rust&amp;rsquo;s thriving community, excellent tooling, and strong return on investment.</description>
+    </item>
+    
+    <item>
+      <title>Real-Time Assurance Practices for Tencent Big Data Flink on Cloud-Native Hybrid Low-Priority Cluster</title>
+      <link>/sessions/streaming-910380.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-910380.html</guid>
+      <description>Background a. Oceanus is Tencent&amp;rsquo;s big data real-time computing platform, providing full lifecycle services for real-time applications based on Apache Flink. b. The computing resources are idle, low-cost, and low-priority resources mined by Tencent Big Data through cloud-native hybrid deployment, built on large-scale federated clusters. These resources offer high elasticity and low cost but are prone to eviction and instability. c. Under the goal of cost reduction and efficiency improvement, leveraging the low-priority computing resources has reduced real-time operational costs, meeting the demands of core businesses like Tencent Ads, while simultaneously posing severe challenges to Flink&amp;rsquo;s real-time stability.</description>
+    </item>
+    
+    <item>
+      <title>Replicas as a Strength, Not a Burden: Scalable Consensus for OLAP Engines with LSM Storage</title>
+      <link>/sessions/iot-914800.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/iot-914800.html</guid>
+      <description>This session challenges the norm by presenting a new way of thinking about consensus as a scalability solution. In this session, we first analyze the mismatch between conventional consensus designs like Raft or Paxos and the unique semantics of LSM-based OLAP systems. Then we introduce a state replication framework tailored to LSM&amp;rsquo;s hierarchical storage structure to address this gap. By leveraging the high compression ratio of LSM&amp;rsquo;s sorted string tables (SSTables), this approach enables parallel state propagation across replicas, reducing consensus overhead and allowing performance to scale with the number of replicas rather than decline.</description>
+    </item>
+    
+    <item>
+      <title>Reshaping OpenTelemetry with Apache Arrow</title>
+      <link>/sessions/webserver-915263.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-915263.html</guid>
+      <description>OpenTelemetry is a widely adopted open-source standard for building observability frameworks, offering tools, APIs, and SDKs to generate, collect, and export telemetry data like metrics, logs, and traces. However, its transport protocol relies on Protocol Buffer messages that are stateless and easy to interpret but have a row-based structure that complicates compression. This limitation becomes more significant when transferring large volumes of data across network boundaries.
+In my session, I will present a proposal to address this issue by enhancing the OpenTelemetry protocol with Apache Arrow, referred to as OTel-Arrow.</description>
+    </item>
+    
+    <item>
+      <title>Resolving Data Silos: Apache Gravitino&#39;s Production Implementation Practices at Bilibili</title>
+      <link>/sessions/datalake-892384.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-892384.html</guid>
+      <description>Apache Gravitino is a unified metadata management platform adopted by Bilibili to address data silos, enabling metadata view integration across heterogeneous data sources such as Hive, Iceberg, Kafka and so on. Leveraging ​end-to-end lineage tracking, it traces data workflows from ingestion, processing, to service delivery, optimizing resource utilization and impact analysis of schema changes. By integrating Iceberg&amp;rsquo;s partitioning strategies (e.g., Truncate/Bucket) and Branch features, Gravitino supports flexible data versioning, multi-stream data stitching, and isolated testing environments.</description>
+    </item>
+    
+    <item>
+      <title>Rising to the Challenges in Security</title>
+      <link>/sessions/keynote-914928.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-914928.html</guid>
+      <description>This talk discusses the current state of security in open source software, and in particular, how the ASF is responding to the growing threat. The ASF started with the first project: a web server running on an open source operating system. Since then, the organization has built hundreds of communities based on principles of openness, collaboration, and public good. Open source is now considered to be the principal component of most commercial software projects, accounting for some 90% of all commercial code, with an estimated value of USD $8.</description>
+    </item>
+    
+    <item>
+      <title>RobustMQ - Next-Generation High-Performance Cloud-native Converged message Queue</title>
+      <link>/sessions/rust-898182.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/rust-898182.html</guid>
+      <description>RobustMQ is an open source project in the field of message queuing, built on top of Apache OpenDAL and written 100% in Rust. Its goal is to build a next-generation converged message queue with high performance, high availability, compatibility with a variety of mainstream message queue protocols, and complete Serverless capabilities on the architecture.
+It is based on Apache OpenDAL connecting object Storage (S3), HDFS, File, MySQL, Redis and many other different storage engines.</description>
+    </item>
+    
+    <item>
+      <title>Safe Airflow Upgrades with LLM Guardians: Automating Version Migration and Error Prevention</title>
+      <link>/sessions/dataops-891327.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-891327.html</guid>
+      <description>Upgrading Airflow can be challenging, small change may trigger pipeline failures and long fixing. This session presents solution that simplifies migrations across multiple Airflow releases version by automate analyzing code repositories, change notes, best practices, and other essential documentation using LLM Guardian that identifies potential issues. It scans DAGs and dependency to predict incompatibilities, and generate fixes (e.g., deprecated operator replacements).
+You&amp;rsquo;ll see how the system scans DAG for hidden risks, auto-generates targeted code patches, and post-migration to verify stability and performance.</description>
+    </item>
+    
+    <item>
+      <title>Scalable Join &amp; Aggregation with External State and Dynamic Tables</title>
+      <link>/sessions/streaming-909075.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-909075.html</guid>
+      <description>1.	Background &amp;amp; Motivation•	Flink SQL challenges at scale: large state, long joins, complex maintenance•	Business use case: automotive data warehouse and alerting systems2.	State Externalization with Delta Join and Merge Engine•	Delta Join: external dimension tables with up-to-date snapshots•	Merge Engine: external upsert tables for aggregation results•	How we minimized internal state while ensuring correctness and latency3.	The Role of Dynamic Tables•	Intermediate table explosion: a hidden cost of state externalization•	How Dynamic Tables automate schema creation, lifecycle, and data lineage•	Empowering developers: write business logic, forget the plumbing4.</description>
+    </item>
+    
+    <item>
+      <title>Scaling Together: Community-Driven Load Testing for Python Apps</title>
+      <link>/sessions/webserver-883006.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-883006.html</guid>
+      <description>Performance bottlenecks can make or break your app, but load testing often gets pushed aside during development. In the open-source world, why aren&amp;rsquo;t we treating performance testing as a shared responsibility? This talk shows how developers, testers, and infrastructure engineers can collaborate to build scalable Python applications.
+We&amp;rsquo;ll use a Django case study and Apache JMeter to demonstrate effective stress-testing techniques and common pitfalls to avoid. We&amp;rsquo;ll also explore open-source tools like Locust and k6, and discuss how the community can contribute by sharing test plans, scripts, and best practices.</description>
+    </item>
+    
+    <item>
+      <title>Seata&#39;s Journey: From an Alibaba Innovation to Apache Success and Beyond</title>
+      <link>/sessions/webserver-915271.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-915271.html</guid>
+      <description>Seata is an open-source distributed transaction solution with a focus on providing high-performance and user-friendly distributed transaction services in microservice architectures. Initially developed for internal use within Alibaba, Seata served as middleware ensuring data consistency across applications during major events like Double 11, effectively supporting upper-layer business operations. With years of development and improvement, its commercialized products have been offered on Alibaba Cloud and Financial Cloud. In January 2019, Seata was officially open-sourced to foster a better technical ecosystem and make technological advancements accessible to more users.</description>
+    </item>
+    
+    <item>
+      <title>SeaTunnel Architecture Analysis and Cloudberry Integration Practice</title>
+      <link>/sessions/dataops-915377.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-915377.html</guid>
+      <description>In this session, we will explore Apache SeaTunnel, a high-performance distributed data integration platform designed for seamless synchronization of massive datasets across heterogeneous sources. Attendees will gain insights into SeaTunnel’s core architecture, including its modular plugin system, unified abstractions leveraging Spark and Flink, and its evolution from V1 to V2 with enhanced scalability and engine-agnostic design. We will delve into advanced features such as dynamic sharding strategies, data sampling techniques, and optimized handling of string-based partitioning for efficient data distribution.</description>
+    </item>
+    
+    <item>
+      <title>Secure your Dubbo application using Triple and xDS</title>
+      <link>/sessions/microservice-871350.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/microservice-871350.html</guid>
+      <description>Currently Cloud Native Security is becoming more and more important. Dubbo as a significant framework with network should do more to protect users from attack. In this section, you will learn how to build a zero-trust network with Dubbo Triple protocol and xDS protocol using Service Mesh.
+Speakers: 
+Apache Dubbo PMC. Interested in Cloud Native, Micro Service and Security.</description>
+    </item>
+    
+    <item>
+      <title>SF Express&#39;s Journey with Apache Spark and Gluten</title>
+      <link>/sessions/datalake-911489.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-911489.html</guid>
+      <description>The session by SF Express delves into their use of Apache Spark and Apache Gluten within their production environment. It addresses the identification of current bottlenecks, the rationale for selecting Gluten as a Spark plugin, the need for a vectorized engine, ongoing research in this area, and the tangible cost savings and performance improvements achieved in their real-world operations. The presentation provides detailed insights into SF Express&amp;rsquo;s challenges, decision-making process, and the transformative impact of adopting a vectorized engine in their large-scale data processing pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Solving Complex Problems with AI Agents Design Patterns Using Spring AI</title>
+      <link>/sessions/webserver-895485.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-895485.html</guid>
+      <description>This session demonstrates how to use Spring AI and design patterns to build AI agents to tackle complex problems. We&amp;rsquo;ll explore patterns for breaking down problems into sub-tasks, integrating external tools and APIs, and managing agent state.
+The session will cover key design principles, real-world examples, and best practices, empowering software engineers to create sophisticated AI agents easily.
+Attendees will gain practical insights into how to apply these patterns to create agents capable of performing tasks such as data analysis, decision-making, and process automation.</description>
+    </item>
+    
+    <item>
+      <title>Storage Engine for RocketMQ Based on Commitlog and RocksDB</title>
+      <link>/sessions/messaging-909302.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-909302.html</guid>
+      <description>Storage Engine for RocketMQ Based on Commitlog and RocksDB Delay message, transaction message, POP and index are core features of RocketMQ. These features involve multiple state transitions in memory and are implemented based on the file system. The existing implementation faces the following issues:
+ Queue-Based Implementation cause more merge operations (e.g., POP consumption result merging, transaction message OP message merging) that result in complex workflows, low efficiency, and poor scalability.</description>
+    </item>
+    
+    <item>
+      <title>Supercharge Lakehouse Implementation with Apache Iceberg</title>
+      <link>/sessions/datalake-914503.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-914503.html</guid>
+      <description>The modern data lakehouse architecture combines the best of data lakes and data warehouses, enabling scalable analytics with ACID transactions, schema evolution, and performance optimizations. Apache Iceberg has emerged as a leading open-table format that supercharges lakehouse implementations by providing reliability, scalability, and seamless integration with popular open source compute engines like Spark, Flink, Doris, StarRocks, Impala, Hive, Nifi, Kafka and Trino.
+In this session, we will explore how Apache Iceberg enhances lakehouse architectures by ensuring data reliability, optimizing performance, enabling multi-engine compatibility and simplifying maintenance, In addition, we’ll also discuss real-world use cases, best practices for migrating Hive tables to Iceberg tables, and how to leverage its features to build a high-performance, future-proof lakehouse.</description>
+    </item>
+    
+    <item>
+      <title>Technical Progression of Flink &#43; Paimon Real-time Lakehouse Solutions</title>
+      <link>/sessions/datalake-915110.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-915110.html</guid>
+      <description>The lakehouse architecture has emerged as a transformative trend in recent years. By leveraging Flink as a stream-batch unified processing engine and Paimon as a stream-batch unified lake format, the Streaming Lakehouse architecture has enabled real-time data freshness for the lakehouse. While structured data remains widely used in Paimon, semi-structured and unstructured data are becoming increasingly critical in artificial intelligence applications. The Flink and Paimon communities have collaborated closely, combining their strengths and integrating cutting-edge features to deliver significant enhancements and optimizations for users.</description>
+    </item>
+    
+    <item>
+      <title>The Evolution of Apache Kvrocks: Search, Vector, and Beyond</title>
+      <link>/sessions/datastorage-883342.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datastorage-883342.html</guid>
+      <description>Since graduating from the ASF Incubator, Apache Kvrocks has made significant progress. The project has attracted an increasing number of contributors and continues to evolve with new features. Notably, we have introduced a Search module that supports complex queries and secondary indexing, with compatibility for both RediSearch query and SQL syntax. Building on this foundation, Kvrocks has expanded into new frontiers by integrating cutting-edge features such as vector search, making it a more versatile and powerful data store for modern applications.</description>
+    </item>
+    
+    <item>
+      <title>The Exploration and Practice of State Storage in Tencent Big Data Flink with Separation of Computati</title>
+      <link>/sessions/datastorage-913138.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datastorage-913138.html</guid>
+      <description>1.Background: Flink, as a stateful stream processing system, has a state storage engine that plays a crucial role. In Flink, state is used to store intermediate results during the data stream computation process. Flink provides state read and write services for operators through the State Backend component. However, under the current architecture where computation and storage are integrated, the following issues arise: a. Local disk limitations: The state data in RocksDB is heavily dependent on local disks, and when the local disk space is full, jobs cannot run properly.</description>
+    </item>
+    
+    <item>
+      <title>The Future of ETL with Branching &amp; Tagging in Apache Hive</title>
+      <link>/sessions/datalake-914197.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-914197.html</guid>
+      <description>As data pipelines grow more complex, traditional &amp;ldquo;push-and-forget&amp;rdquo; ETL approaches no longer enough. The data world is evolving—and it&amp;rsquo;s taking a page from modern software engineering. Say hello to Branching and Tagging—concepts that have transformed code management and are now revolutionizing how we work with data.
+In this session, we&amp;rsquo;ll explore how Apache Hive, powered by Apache Iceberg, introduces these game-changing features into the data space. You&amp;rsquo;ll learn how to streamline your workflows, manage data versions with ease, and build cleaner, more efficient pipelines.</description>
+    </item>
+    
+    <item>
+      <title>The Intelligent Evolution of Fully Managed Resource Management for Tencent&#39;s Real-Time Computing</title>
+      <link>/sessions/streaming-910362.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-910362.html</guid>
+      <description>Background and Industry Pain Points a. Flink, as a long-running stateful computation, is widely used in scenarios such as real-time data warehousing, real-time analytics, and online training. b. Real-time resource configuration and operations are a universal challenge: over-provisioning leads to waste, while under-provisioning causes lag and failover. Additionally, resource demands vary significantly over time. Evolution of Autoscaling Architecture — Fully Managed Intelligent Resource Management a. Automated resource solutions for the entire lifecycle of jobs, including startup, runtime, upgrades, and exceptions (lag, failover).</description>
+    </item>
+    
+    <item>
+      <title>The Journey of an Open Source Contributor: Evolving from PR Submissions to Project Maintenance</title>
+      <link>/sessions/community-871883.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-871883.html</guid>
+      <description>Getting started with open source can be daunting, but every experienced contributor was once a beginner. In this talk, I will share my personal journey—from my first pull request to becoming an Apache Committer and the maintainer of multiple open-source projects. Drawing from my experience open-source initiatives, I will discuss how newcomers can effectively contribute to projects, build their reputation, and expand their influence within the community. Additionally, I will explore strategies for fostering community engagement, making meaningful contributions beyond code.</description>
+    </item>
+    
+    <item>
+      <title>The Next Generation Microservice Communication Protocol Based on HTTP.</title>
+      <link>/sessions/microservice-915252.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/microservice-915252.html</guid>
+      <description>As microservice architectures continue to evolve, there is an increasing demand for communication frameworks with enhanced flexibility, universality, and performance. A notable industry example is the newly introduced Triple X protocol by Apache Dubbo, which breaks the boundaries of traditional RPC communication methods. It achieves unified access, protocol-agnostic operation, and enhanced semantic communication capabilities, while fully supporting mainstream protocols such as HTTP/2, gRPC, and Protobuf, greatly improving the compatibility and development efficiency of heterogeneous systems.</description>
+    </item>
+    
+    <item>
+      <title>The practice of Apache Doris in the trusted data space of China Unicom Digital Intelligence Company</title>
+      <link>/sessions/olap-914989.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/olap-914989.html</guid>
+      <description>How to build the underlying storage of the data sandbox in the trusted data space based on Apache Doris, achieve the control of data resources, and ensure that the data is &amp;ldquo;usable but invisible&amp;rdquo;. The application of the federated query capability of Apache Doris in the data processing and analysis within the data space. Create efficient spatial services for indicators and labels through unified storage.  Speakers: 
+With years of experience in the big data field, covering areas such as platform architecture design, data governance, and real - time data processing and analysis.</description>
+    </item>
+    
+    <item>
+      <title>The Practice to Building a Developer Friendly Open Source Database Community</title>
+      <link>/sessions/community-881123.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-881123.html</guid>
+      <description>OceanBase Database is a distributed relational database developed by Ant Group. It has been supporting the Double 11 Shopping Festival for 11 years. It started as an e-commerce database used by Taobao Favorites and gradually became the database of all core systems of Ant Group. It then grew into the database of core systems of many enterprises, especially the financial industry.
+The database is responsible for data storage and management. It is the core guarantee of the application system.</description>
+    </item>
+    
+    <item>
+      <title>To MCP or Not to MCP? Designing Composable AI Systems with Open Protocols</title>
+      <link>/sessions/ai-904935.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-904935.html</guid>
+      <description>How should we design tools and services for AI agents? Should we keep baking custom APIs, or is there a better way? This session introduces the Model Context Protocol (MCP)—a new open protocol that enables AI agents to discover and call external tools in a secure, structured way.
+We’ll cover the basics of MCP (host/client/server roles, lifecycle, standard I/O vs. HTTP), compare it to existing agent tool APIs (LangChain, OpenAI tool format), and argue for why an open protocol is necessary to avoid fragmentation in the AI ecosystem.</description>
+    </item>
+    
+    <item>
+      <title>Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support for Hudi / Icebe</title>
+      <link>/sessions/datalake-910660.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-910660.html</guid>
+      <description>Abstract: With the ongoing evolution of lakehouse architectures and real-time data lakes, enterprises increasingly require a unified, high-performance, and scalable data integration framework to support both writing to and reading from multiple data lake formats such as Apache Hudi, Iceberg, and Paimon. As a next-generation data integration engine, Apache SeaTunnel leverages its Connector V2 architecture and stream-batch unified design to build deep integration support for these three mainstream data lake formats.</description>
+    </item>
+    
+    <item>
+      <title>Unlocking the Potential of the Dubbo Ecosystem: Building AI-Driven Applications with dubbo-go-pixiu</title>
+      <link>/sessions/webserver-912573.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-912573.html</guid>
+      <description>Learn how to leverage Dubbo-go-Pixiu to seamlessly connect external protocols with internal Dubbo services, providing a unified entry point for AI model inference services, data processing services, and more.
+Understand the advantages of Dubbo-go-Pixiu in handling multi-protocol communication scenarios commonly encountered in AI applications.
+Explore how to utilize Dubbo-go-Pixiu&amp;rsquo;s capabilities in traffic governance, security authentication, and observability to ensure stable operation and secure access for AI applications.
+Speakers: 
+A seasoned backend infrastructure R&amp;amp;D professional with over a decade of hands-on experience, deeply familiar with instant messaging, NoSQL systems, and service governance, and has played a role in enhancing notable projects like Redis, Pika, Dubbo, Sentinel, and Seata.</description>
+    </item>
+    
+    <item>
+      <title>Virtual Queue in RocketMQ 5.0: Enhancing Backward Compatibility with Legacy Remoting-Based Clients</title>
+      <link>/sessions/messaging-908855.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-908855.html</guid>
+      <description>Apache RocketMQ is a distributed messaging and streaming platform known for its low latency, high performance, and high reliability. The newly released version 5.0 has two major advancements:
+ Decouples storage from compute for better scalability and cloud-native adaptability. Introduces POP consumption mode to shift balancing logic from clients to the broker. To adapt to these features, the community has launched a new gRPC-based client. However, existing users who access RocketMQ with a remoting-based client cannot benefit from these 5.</description>
+    </item>
+    
+    <item>
+      <title>What changes can be brought by combining microservices with OpenAPI?</title>
+      <link>/sessions/microservice-914994.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/microservice-914994.html</guid>
+      <description>As microservices architectures evolve, the demand for standardized, observable, and integrable service interfaces is growing rapidly. While RESTful APIs have long benefited from the OpenAPI specification, RPC frameworks like Apache Dubbo have lacked a native, standardized schema representation — until now.
+In this session, we’ll dive into the brand-new Dubbo OpenAPI feature set. You’ll learn how Dubbo now supports OpenAPI 3.0, enabling automated API documentation, enhanced developer experience, seamless integration with gateways, test platforms, and low-code systems.</description>
+    </item>
+    
+    <item>
+      <title>What’s New in Apache Impala 4.5: Iceberg, Performance &amp; More</title>
+      <link>/sessions/olap-915180.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/olap-915180.html</guid>
+      <description>Apache Impala is a native query engine implemented in MPP architecture for open data and table formats.
+In this session, we will share the updates in the Impala community during the past year, including the core features of the 4.5 release, e.g. MERGE, OPTIMIZE statement support and Puffin file reading for Apache Iceberg tables, explicit language support for query and session management, and numerous performance improvements across a broad domain.</description>
+    </item>
+    
+    <item>
+      <title>When Flink Meets Fluss: The Future of Streaming Warehouse</title>
+      <link>/sessions/streaming-889266.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-889266.html</guid>
+      <description>Kafka and Flink have been widely used together in streaming processing scenarios, becoming a defacto standard paradigm for building streaming warehouses and real-time analytics. However, it still faces many challenging issues that are hard to resolve. This session will explore the challenges and problems this paradigm faces in streaming analytics.
+We will first discuss the limitations and pain points of Kafka when used with Flink. Then we will introduce Fluss, a next-generation streaming storage designed for streaming analytics.</description>
+    </item>
+    
+    <item>
+      <title>Why do we need an open source AI gateway</title>
+      <link>/sessions/ai-913176.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-913176.html</guid>
+      <description>In the era of AI application explosion, API traffic is surging, yet challenges like cost control, security compliance, and multi-model management persist. Apache APISIX, the world’s most active open-source API gateway, will officially launch its AI Gateway capability in 2025, offering a one-stop solution for developers and enterprises.
+Why Choose APISIX AI Gateway?
+Unified AI Service Management: Seamlessly proxy requests to mainstream LLMs like OpenAI, Deepseek, and QWen, avoid vendor lock-in, and optimize costs/performance through dynamic traffic orchestration.</description>
+    </item>
+    
+    <item>
+      <title>Why is it So Hard?</title>
+      <link>/sessions/community-914929.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-914929.html</guid>
+      <description>Why is it So Hard&amp;hellip;
+to submit patches to a project/podling? to become a committer on a project/podling? to release code to the public? to maintain trademarks for a project/podling?
+This talk explains what common barriers are to accomplishing objectives of people and projects. It explains why The ASF has:
+ licensing requirements for code contributions and releases, download, signing, and checksum protocols voting requirements for releases and project membership trademark requirements for web sites and documentation  With a better common understanding of the legal and technical reasons for apparently arbitrary requirements, people will have an appreciation for how things can be easier.</description>
+    </item>
+    
+    <item>
+      <title>Xiaomi Vela: Leading the Open-Source IoT Operating System Ecosystem</title>
+      <link>/sessions/iot-915160.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/iot-915160.html</guid>
+      <description>The Xiaomi Vela operating system is Xiaomi Group&amp;rsquo;s operating system designed for IoT and smart wearable scenarios. It has been installed on over 100 million devices within Xiaomi&amp;rsquo;s IoT product lineup, serving as a key technological foundation for Xiaomi&amp;rsquo;s HyperOS, and has been officially open-sourced as openvela. This keynote speech will primarily focus on the progress Xiaomi Vela has made in the technical field and its open-source ecosystem over the past year.</description>
+    </item>
+    
+    <item>
+      <title>Xiaomi&#39;s Efficient Data &amp; AI Optimization with Apache Paimon</title>
+      <link>/sessions/datalake-913187.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-913187.html</guid>
+      <description>This session will primarily focus on how Xiaomi leverages Apache Paimon to enhance efficiency and reduce costs in its information-based data warehouse, AI data warehouse, and LLM data processing. Additionally, we will discuss how we utilize JuiceFS to support Paimon&amp;rsquo;s multi-cloud storage capabilities. Finally, we&amp;rsquo;ll introduce the application of Apache Gravitino in managing Paimon&amp;rsquo;s metadata. Outline:
+ Application Practice of Apache Paimon in the Information-based Data Warehouse   We will elaborate on how we employ Paimon as a dimension table to replace Iceberg and HBase.</description>
+    </item>
+    
+    <item>
+      <title>Xiaomi&#39;s RocketMQ-MQTT best practice: The Journey of Enhancing Quality and Cost Efficiency</title>
+      <link>/sessions/messaging-905772.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-905772.html</guid>
+      <description>This presentation will introduce the evolution of Xiaomi&amp;rsquo;s MQTT system architecture, highlighting advancements in stability, performance, and cost optimization. Key initiatives include managing massive topics, ensuring message ordering, disaster recovery mechanisms, tiered storage solutions, dictionary compression techniques, data integration, containerization, and more.
+Speakers: 
+Joined Xiaomi in 2018, specializing in messaging and storage systems. Responsible for Xiaomi&amp;rsquo;s MQ, HBase, and ElasticSearch platforms, among others.</description>
+    </item>
+    
+    <item>
+      <title>​​Building Inverted Indexes on Iceberg with Tantivy: A Hands-on Approach​​</title>
+      <link>/sessions/datalake-915144.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-915144.html</guid>
+      <description>In big data scenarios, efficient data retrieval is a core requirement for many business applications.​​ As the cornerstone of full-text search and complex queries, inverted indexes can significantly improve query performance, particularly excelling in log analysis scenarios requiring fuzzy matching. Compared to traditional solutions, leveraging the storage scalability and compute-storage separation advantages of lakehouse table formats can effectively reduce index storage costs. However, implementing scalable, low-maintenance inverted indexes in data lake architectures using modern table formats (like Apache Iceberg) still presents multiple challenges, including real-time synchronization between indexes and data, consistency guarantees in distributed environments, and query optimization issues.</description>
+    </item>
+    
+    <item>
+      <title>优化可观测性：揭秘BanyanDB的热-温-冷架构</title>
+      <link>/sessions/observability-910659.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/observability-910659.html</guid>
+      <description>In this sharing session, I will focus on BanyanDB&amp;rsquo;s innovative hot-warm-cold architecture, a design that marks a significant leap forward in modern system observability. We will analyze why tiered architecture is the optimal choice for managing massive metrics, traces, and logging data, and how BanyanDB ingeniously puts this concept into practice while balancing excellent performance, cost-effectiveness, and data storage efficiency.
+This presentation will reveal the core advantages of BanyanDB&amp;rsquo;s architecture: it not only provides instant insights and accelerates decision-making processes but also significantly reduces operational costs while ensuring data storage scalability.</description>
+    </item>
+    
+  </channel>
+</rss>
