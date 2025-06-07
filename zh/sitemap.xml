@@ -771,18 +771,6 @@
                 href="/zh/sessions/ai-910203.html"
                 />
   </url><url>
-    <loc>/zh/tracks/api.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tracks/api.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tracks/api.html"
-                />
-  </url><url>
     <loc>/zh/tracks/olap.html</loc>
     <xhtml:link
                 rel="alternate"

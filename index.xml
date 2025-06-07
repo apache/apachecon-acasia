@@ -1149,23 +1149,13 @@ In this topic, you will learn how different messaging systems make the best tech
     
     <item>
       <title>Microservice</title>
-      <link>/tracks/api.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tracks/api.html</guid>
-      <description>Whether in the era of Cloud Native or AI-led transformation today, microservices remain the cornerstone of underlying systems, helping us build resilient and scalable distributed systems. Join us as we uncover:
-  High-Performance RPC Frameworks – Learn how projects like Apache Dubbo, Apache Thrift, and Apache bRPC are redefining service-to-service communication with speed, efficiency, and interoperability.
-  AI-Driven Microservices – Discover how AI and ML are revolutionizing service orchestration, anomaly detection, and autonomous scaling in microservice ecosystems.</description>
-    </item>
-    
-    <item>
-      <title>Microservice</title>
       <link>/tracks/microservice.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/microservice.html</guid>
-      <description>Microservices architecture remains the foundational framework for building the vast majority of applications today, not to mention the substantial existing ecosystem of microservice-based applications. Therefore, exploring how to construct efficient and stable microservices architectures should always be a primary focus.
-We have also observed the rapid advancement of AI agent technologies. Microservices need to consider integration with AI agent technologies—such as enhancing the efficiency and stability of agent development, and enabling rapid adoption of intelligent capabilities for existing microservices applications.</description>
+      <description>Whether in the era of Cloud Native or AI-led transformation today, microservices remain the cornerstone of underlying systems, helping us build resilient and scalable distributed systems. Join us as we uncover:
+  High-Performance RPC Frameworks – Learn how projects like Apache Dubbo, Apache Thrift, and Apache bRPC are redefining service-to-service communication with speed, efficiency, and interoperability.
+  AI-Driven Microservices – Discover how AI and ML are revolutionizing service orchestration, anomaly detection, and autonomous scaling in microservice ecosystems.</description>
     </item>
     
     <item>

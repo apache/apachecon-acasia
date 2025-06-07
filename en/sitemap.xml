@@ -1419,18 +1419,6 @@
                 href="/tracks/messaging.html"
                 />
   </url><url>
-    <loc>/tracks/api.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tracks/api.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tracks/api.html"
-                />
-  </url><url>
     <loc>/tracks/microservice.html</loc>
     <xhtml:link
                 rel="alternate"

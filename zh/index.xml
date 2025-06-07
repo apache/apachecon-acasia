@@ -764,20 +764,6 @@ Lance 格式已被许多领先的 AI 公司采用，如 MidJourney、WorldLabs�
     </item>
     
     <item>
-      <title>Microservice</title>
-      <link>/zh/tracks/api.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/tracks/api.html</guid>
-      <description>不论是在云原生时代，还是在 AI 引领变革今天，微服务依然是底层系统的基石，它帮助我们构建弹性、可扩展的分布式系统。加入我们，一同了解：
-  高性能 RPC 框架 – 探讨像 Apache Dubbo、Apache Thrift 和 Apache bRPC 这样的项目如何通过速度、效率和互操作性重新定义服务间通信。
-  下一代服务网格 – 超越传统的 Sidecar，我们将探讨 Proxyless Mesh 的崛起，以及它如何在云原生环境中改变可观察性、安全性和流量管理。
-  云原生微服务 – 从 Kubernetes 到 Serverless 架构，我们讨论云原生原则如何优化微服务架构的可扩展性、韧性和自动化。
-  AI 驱动的微服务 – 了解人工智能和机器学习如何在微服务生态系统中变革服务编排、异常检测和自主扩展。
-  </description>
-    </item>
-    
-    <item>
       <title>OLAP和数据分析</title>
       <link>/zh/tracks/olap.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1728,8 +1714,12 @@ Jark Wu 是 Apache Flink 的提交者和 PMC 成员。他领导着阿里云的 F
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/tracks/microservice.html</guid>
-      <description>微服务架构仍然是当下绝大部分应用构建的基础架构,更不用说过往存量的微服务应用体量,因此探索如何构建高效、稳定的微服务架构始终应该是一条重要主线。
-我们也注意到AI智能体技术的飞速发展，微服务需要考虑与 AI 智能体技术结合，如加速智能体构建的效率与稳定性，为存量微服务应用快速接入智能化能力等。</description>
+      <description>不论是在云原生时代，还是在 AI 引领变革今天，微服务依然是底层系统的基石，它帮助我们构建弹性、可扩展的分布式系统。加入我们，一同了解：
+  高性能 RPC 框架 – 探讨像 Apache Dubbo、Apache Thrift 和 Apache bRPC 这样的项目如何通过速度、效率和互操作性重新定义服务间通信。
+  下一代服务网格 – 超越传统的 Sidecar，我们将探讨 Proxyless Mesh 的崛起，以及它如何在云原生环境中改变可观察性、安全性和流量管理。
+  云原生微服务 – 从 Kubernetes 到 Serverless 架构，我们讨论云原生原则如何优化微服务架构的可扩展性、韧性和自动化。
+  AI 驱动的微服务 – 了解人工智能和机器学习如何在微服务生态系统中变革服务编排、异常检测和自主扩展。
+  </description>
     </item>
     
     <item>
