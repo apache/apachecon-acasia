@@ -379,7 +379,7 @@ Hailing from Mexico City, Victor Romero now has over 20 years of experience in t
       <guid>/sessions/streaming-890348.html</guid>
       <description>The telecommunications log scenario has been replaced from backend services to Flink tasks, including log access, log parsing, and log alerts. With 50+clusters and 2000+ Flink tasks, the timeliness has been improved by 200%
 Speakers: 
-Zuo Yan, a telecommunications data intelligence technology expert, is responsible for building the data center and log platform. Contributors for open-source projects such as Apache Flink, Apache Doris, Flink CDC, StarRocks, and Fluss.</description>
+Yan Zuo, a telecommunications data intelligence technology expert, is responsible for building the data center and log platform. Contributors for open-source projects such as Apache Flink, Apache Doris, Flink CDC, StarRocks, and Fluss.</description>
     </item>
     
     <item>
@@ -1005,6 +1005,16 @@ The talk will cover strategies for identifying appropriate tasks, writing clear 
     </item>
     
     <item>
+      <title>Optimizing Observability: Unveiling BanyanDB&#39;s Hot-Warm-Cold Architecture</title>
+      <link>/sessions/observability-910659.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/observability-910659.html</guid>
+      <description>In this sharing session, I will focus on BanyanDB&amp;rsquo;s innovative hot-warm-cold architecture, a design that marks a significant leap forward in modern system observability. We will analyze why tiered architecture is the optimal choice for managing massive metrics, traces, and logging data, and how BanyanDB ingeniously puts this concept into practice while balancing excellent performance, cost-effectiveness, and data storage efficiency.
+This presentation will reveal the core advantages of BanyanDB&amp;rsquo;s architecture: it not only provides instant insights and accelerates decision-making processes but also significantly reduces operational costs while ensuring data storage scalability.</description>
+    </item>
+    
+    <item>
       <title>Optimizing Parquet Storage: Metadata Management, Performance Tuning &amp; Seamless Migration</title>
       <link>/sessions/datalake-913345.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1243,7 +1253,7 @@ We&amp;rsquo;ll use a Django case study and Apache JMeter to demonstrate effecti
       <guid>/sessions/microservice-871350.html</guid>
       <description>Currently Cloud Native Security is becoming more and more important. Dubbo as a significant framework with network should do more to protect users from attack. In this section, you will learn how to build a zero-trust network with Dubbo Triple protocol and xDS protocol using Service Mesh.
 Speakers: 
-Apache Dubbo PMC. Interested in Cloud Native, Micro Service and Security.</description>
+Apache Dubbo PMC member. Interested in Cloud Native, Micro Service and Security.</description>
     </item>
     
     <item>
@@ -1502,16 +1512,6 @@ Joined Xiaomi in 2018, specializing in messaging and storage systems. Responsibl
       
       <guid>/sessions/datalake-915144.html</guid>
       <description>In big data scenarios, efficient data retrieval is a core requirement for many business applications.​​ As the cornerstone of full-text search and complex queries, inverted indexes can significantly improve query performance, particularly excelling in log analysis scenarios requiring fuzzy matching. Compared to traditional solutions, leveraging the storage scalability and compute-storage separation advantages of lakehouse table formats can effectively reduce index storage costs. However, implementing scalable, low-maintenance inverted indexes in data lake architectures using modern table formats (like Apache Iceberg) still presents multiple challenges, including real-time synchronization between indexes and data, consistency guarantees in distributed environments, and query optimization issues.</description>
-    </item>
-    
-    <item>
-      <title>优化可观测性：揭秘BanyanDB的热-温-冷架构</title>
-      <link>/sessions/observability-910659.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sessions/observability-910659.html</guid>
-      <description>In this sharing session, I will focus on BanyanDB&amp;rsquo;s innovative hot-warm-cold architecture, a design that marks a significant leap forward in modern system observability. We will analyze why tiered architecture is the optimal choice for managing massive metrics, traces, and logging data, and how BanyanDB ingeniously puts this concept into practice while balancing excellent performance, cost-effectiveness, and data storage efficiency.
-This presentation will reveal the core advantages of BanyanDB&amp;rsquo;s architecture: it not only provides instant insights and accelerates decision-making processes but also significantly reduces operational costs while ensuring data storage scalability.</description>
     </item>
     
   </channel>
