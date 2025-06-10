@@ -2,9 +2,9 @@
 title: "Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI"
 date: ""
 track: "datastorage"
-presenters: "Hubert Zhang"
+presenters: "Hubert Zhang, Lintao Zhang"
 stype: "英文演讲"
---- 
+---
 
 我们正迅速进入 **智能体应用时代**，在这个时代，AI 驱动的智能体不仅能够辅助人类，还能自主做出决策并管理任务。然而，支撑这些应用的数据基础设施在可扩展性、一致性和性能方面面临着重大挑战。
 
@@ -30,4 +30,12 @@ AI 应用的未来需要可扩展、一致且高性能的数据基础设施。�
 
 <img src="https://sessionize.com/image/a965-400o400o1-E9kixxxRCcLxkKoQ9y7dRC.png" width="200" /><br/>
 
+Hubert Zhang
+
 Hubert Zhang 是 EloqData 的首席技术官（CTO）。在加入 EloqData 之前，Hubert 曾是 VMware Greenplum 数据库的技术负责人。他还是 Apache HAWQ 项目管理委员会（PMC）的成员。
+
+<img src="https://sessionize.com/image/2f8b-400o400o1-MyxGEXHK65dpEA5LW96TB8.jpg" width="200" /><br/>
+
+Lintao Zhang
+
+Lintao Zhang 是 EloqData 的联合创始人兼首席执行官，为人工智能时代的应用构建下一代数据库基础设施。 此前，他是微软研究院的合作伙伴研究经理，从事云基础设施、分布式系统和人工智能方面的研究。他是 PacificA 复制协议的发明人，该协议被用于 Apache Kafka、Apache Pegasus 和 ElasticSearch。他在顶级会议上发表了 50 多篇论文，并获得了许多研究奖项。林涛是 IEEE Fellow 和 ACM Distinguished Member。他拥有北京大学学士学位和普林斯顿大学博士学位。

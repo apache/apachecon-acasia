@@ -2,9 +2,9 @@
 title: "Celeborn 的革新：多引擎支持、性能掌控与技术创新"
 date: ""
 track: "datastorage"
-presenters: "Jiashu Xiong"
+presenters: "Jiashu Xiong, Ethan Feng"
 stype: "中文演讲"
---- 
+---
 
 Apache Celeborn 在过去一年中取得了显著进展，引入了新功能、性能优化以及扩展的引擎支持。
 
@@ -28,4 +28,12 @@ Apache Celeborn 在过去一年中取得了显著进展，引入了新功能、�
 
 <img src="https://sessionize.com/image/b0bb-400o400o1-Jde4MGnDZsTAE7Kbn5uYbL.jpg" width="200" /><br/>
 
+Jiashu Xiong
+
 Jiashu Xiong 是 Apache Celeborn 的项目管理委员会（PMC）成员，主要专注于 Apache Celeborn 的优化以及 Apache Celeborn 与 Flink、Spark 等引擎的集成。
+
+<img src="https://sessionize.com/image/e847-400o400o1-hgvjeWTfvwJykGxMzAEbcA.jpg" width="200" /><br/>
+
+Ethan Feng
+
+Apache Celeborn 的 PMC 成员，主要致力于优化 Apache Celeborn。

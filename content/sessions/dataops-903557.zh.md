@@ -4,7 +4,7 @@ date: ""
 track: "dataops"
 presenters: "朱学通"
 stype: "中文演讲"
---- 
+---
 
 本环节将深入探讨伊利集团在使用 Apache DolphinScheduler（一款强大的开源工作流编排工具）过程中的实施历程。我们将分享如何针对大规模乳品生产及供应链管理需求对 DolphinScheduler 进行定制化的实践经验，包括：  
 1. 定制开发：  
@@ -22,6 +22,8 @@ stype: "中文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/4cf8-400o400o1-kvqNJ2DsjgqVvb33hZaJp.jpg" width="200" /><br/>
+
+朱学通
 
 一位拥有 **10 年以上经验** 的 **大数据架构师与技术负责人**，专注于 **OLAP 优化（StarRocks、Spark）**、**实时数据湖（Flink、Paimon）** 和 **多云集成**。  
  

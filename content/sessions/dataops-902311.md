@@ -4,7 +4,7 @@ date: ""
 track: "dataops"
 presenters: "Koji Annoura"
 stype: "English Session"
---- 
+---
 
 In this session, I will explore how to seamlessly integrate large language models (LLMs), graph databases, and spreadsheets using Apache Hop.
 
@@ -16,11 +16,12 @@ Discover how this flexible integration approach can open new doors for both mach
 
 Join us to unlock greater efficiency and innovation in your data workflows.
 
-
-
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/f9de-400o400o1-D78g36ew5QtQNn1tnaatXY.jpg" width="200" /><br/>
+
+Koji Annoura
 
 Koji Annoura has over 40 years of experience as a full-stack developer.
 

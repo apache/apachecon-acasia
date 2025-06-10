@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "刘朝阳"
 stype: "中文演讲"
---- 
+---
 
 主题介绍：
 Apache Hudi 是一种强大的表格式，提供丰富的能力，涵盖离线和实时场景。在快手推进数据仓库架构升级的过程中，Hudi 的数据湖能力在实时数据入湖、部分更新、大宽表等场景下，提升了时效性、降低了成本、提升了开发效率。
@@ -27,6 +27,8 @@ Apache Hudi 是一种强大的表格式，提供丰富的能力，涵盖离线�
 ### 讲师:
 
 <img src="https://sessionize.com/image/8a30-400o400o1-DXZEDcKH4tBMugeSDeE4vj.jpg" width="200" /><br/>
+
+刘朝阳
 
 快手核心Hudi工程师 | Apache Hudi活跃贡献者 | Apache RocketMQ提交者
 

@@ -4,7 +4,7 @@ date: ""
 track: "streaming"
 presenters: "Ron Liu"
 stype: "中文演讲"
---- 
+---
 
 摘要：
 经过十年的演进，Apache Flink 已巩固其作为流处理领域事实上的标准地位，为实时数据处理提供亚秒级延迟。然而，云原生架构、数据湖和人工智能等新兴趋势带来了新的挑战和要求。为此，Flink 持续创新和架构升级，以提供更易于使用、更经济高效、更可扩展的实时解决方案，进一步增强数据与 AI 的融合。本场讲座将详细介绍 Flink 在 AI 时代的核心功能和架构演进，包括全新的状态存储与计算分离架构、持续提升的流批统一处理能力、深入分析流批统一物化表、与 Lakehouse 深度集成构建实时数据湖，以及在 AI 领域针对实时 AI 应用的探索和实践。
@@ -18,5 +18,7 @@ stype: "中文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/bcad-400o400o1-DU58jc51RyrFi5E6cvTQW1.jpg" width="200" /><br/>
+
+Ron Liu
 
 Apache Flink 提交者，Apache Flink 2.1 发布经理。长期专注于大数据领域，在流式处理、批量计算和存储方面拥有丰富的经验。

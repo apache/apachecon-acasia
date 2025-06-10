@@ -4,7 +4,7 @@ date: ""
 track: "datastorage"
 presenters: "Zhiwen Deng"
 stype: "Chinese Session"
---- 
+---
 
 Abstract:
 At Xiaomi, HBase serves as a distributed wide-table service for both offline and online scenarios. However, 40% of nodes still operate on version 0.98 internally, resulting in high maintenance costs due to dual-version support. Unifying the version to 2.3 is critical to improving development efficiency. Additionally, version 2.3 itself faces stability challenges, such as GC issues and cluster-wide downtime recovery failures. This presentation shares Xiaomi’s practical experience in addressing these challenges.
@@ -42,6 +42,10 @@ Aims to address evolving needs in cost efficiency, stability, and functionality.
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/6052-400o400o1-npyQeJA1PdnzCtTC2HXP7X.jpg" width="200" /><br/>
 
+Zhiwen Deng
+
 Xiaomi distributed system R&D engineer, participated in the design and implementation of message queues and HBase, and is also the committer of Apache RocketMQ
+

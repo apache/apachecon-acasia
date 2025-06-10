@@ -4,7 +4,7 @@ date: ""
 track: "messaging"
 presenters: "Juntao Ji"
 stype: "Chinese Session"
---- 
+---
 
 In our latest work, which was accepted to the the ACM FSE 2025 Industry Track, Apache RocketMQ serves as a powerful foundation for serverless messaging systems, addressing the scalability, cost, and metadata challenges of traditional middleware. By decoupling storage and compute, Apache RocketMQ enables independent resource scaling, critical for unpredictable cloud workloads. Its elastic write partitions eliminate single-queue throughput limits, while light message queue support millions of queues with minimal cold-start latency. 
 
@@ -12,6 +12,9 @@ We demonstrate this with our RocketMQ-based RabbitMQ implementation, which retai
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/dd3d-400o400o1-JenBFKL54ncn91nqVyA8nE.jpg" width="200" /><br/>
+
+Juntao Ji
 
 Senior middleware R&D engineer at Alibaba Cloud Computing, responsible for the feature development of RocketMQ and RabbitMQ. Contributor to the Apache RocketMQ open source community. Published several top papers in CCF-A conferences or journals (ASE 23', FM 24', FSE 25', etc.).

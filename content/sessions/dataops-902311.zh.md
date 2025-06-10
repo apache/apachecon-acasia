@@ -4,7 +4,7 @@ date: ""
 track: "dataops"
 presenters: "Koji Annoura"
 stype: "英文演讲"
---- 
+---
 
 在本场会议中，我将探讨如何利用Apache Hop实现大型语言模型（LLMs）、图数据库与电子表格的无缝集成。
 
@@ -19,6 +19,8 @@ stype: "英文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/f9de-400o400o1-D78g36ew5QtQNn1tnaatXY.jpg" width="200" /><br/>
+
+Koji Annoura
 
 Koji Annoura 拥有超过 40 年的全栈开发经验。  
 

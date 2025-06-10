@@ -4,7 +4,7 @@ date: ""
 track: "datastorage"
 presenters: "Yongyuan Liang"
 stype: "Chinese Session"
---- 
+---
 
 This talk will dive into the real-world adoption of Apache Gluten and Apache Celeborn at Xiaomi, covering technical background, deployment journey, challenges, and future roadmap.
 1. Technology Landscape
@@ -18,6 +18,10 @@ We will briefly share Xiaomi's future plans for Spark, focusing on directions fo
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/791b-400o400o1-MfKwkHsY6VSRSHfZmGQa7o.jpg" width="200" /><br/>
 
+Yongyuan Liang
+
 Computing Engine R&D Engineer. Responsible for the development of computing engine
+

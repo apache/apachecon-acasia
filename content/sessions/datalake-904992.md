@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Zheng Yu Chen"
 stype: "Chinese Session"
---- 
+---
 
 At Huolala, we leveraged Apache Amoro to build a next-generation lakehouse platform with Apache Iceberg as its core. While managing petabyte-scale daily data processing, we tackled critical stability challenges, including:
 
@@ -31,6 +31,10 @@ This talk will provide actionable insights for data engineers and architects imp
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/8dab-400o400o1-wspZVa98jevB6AB6cPZU8m.jpg" width="200" /><br/>
 
+Zheng Yu Chen
+
 Chen Zheng Yu (ConradJam), Apache Flink Chinese community volunteer,Apache Amoro PPMC,he  has been engaged in data development in bigdata for a long time. At present, he is responsible for the design and construction of Flink public multi-cloud data solution, data synchronization and big data operation pipeline platform from 0 to 1 
+

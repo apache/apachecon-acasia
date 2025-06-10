@@ -4,7 +4,7 @@ date: ""
 track: "cloudnative"
 presenters: "Shekhar Prasad Rajak"
 stype: "英文演讲"
---- 
+---
 
 
 当今企业面临海量数据处理的挑战，需要高效的批处理方案。管理这些任务可能导致复杂性增加、资源浪费及运营成本上升，从而阻碍业务效率。
@@ -16,6 +16,8 @@ stype: "英文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/7609-400o400o1-YbaJq6TQuhpFBv63wn2hn8.jpg" width="200" /><br/>
+
+Shekhar Prasad Rajak
 
 谢卡尔对开源软件充满热情，并积极参与多个项目，包括SymPy、Ruby gems（如他所著的daru和daru-view）、Bundler、NumPy和SciPy。  
 

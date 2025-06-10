@@ -4,7 +4,7 @@ date: ""
 track: "datastorage"
 presenters: "Yongyuan Liang"
 stype: "中文演讲"
---- 
+---
 
 本次演讲将深入探讨 Apache Gluten 和 Apache Celeborn 在小米的实际应用情况，涵盖技术背景、部署历程、挑战以及未来规划。
 
@@ -23,5 +23,7 @@ Celeborn 在解决 Spark External Shuffle Service 的不稳定性方面发挥了
 ### 讲师:
 
 <img src="https://sessionize.com/image/791b-400o400o1-MfKwkHsY6VSRSHfZmGQa7o.jpg" width="200" /><br/>
+
+Yongyuan Liang
 
 Yongyuan Liang，计算引擎研发工程师，负责计算引擎的开发工作。

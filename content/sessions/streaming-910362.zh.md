@@ -2,9 +2,9 @@
 title: "腾讯实时计算的智能演进：全托管资源管理"
 date: ""
 track: "streaming"
-presenters: "Zihao Chen"
+presenters: "Zihao Chen, Jiangang Liu"
 stype: "中文演讲"
---- 
+---
 
 
 1. 背景与行业痛点  
@@ -29,4 +29,12 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/c17d-400o400o1-3ksWtZ8Yz4P3kYR9cEC4tH.jpg" width="200" /><br/>
 
+Zihao
+
 Zihao 多年来一直从事与Flink内核相关的研发工作。近年来，他主要专注于开发Flink的自动扩展功能，旨在提升Flink任务的稳定性和资源利用率。此外，他在SIGMOD会议上发表了一篇关于流处理场景下自动扩展的行业论文。
+
+<img src="https://sessionize.com/image/95fa-400o400o1-pRGUUw1BJpnhknhJaHnEvg.png" width="200" /><br/>
+
+Jiangang Liu
+
+腾讯实时计算Flink负责人，专注于云原生演进、弹性扩展以及存储与计算的分离。此前曾担任快手Flink技术负责人，负责实时计算架构设计与大规模落地实施，成功推动了2020年快手与央视春晚的实时连接项目。在此之前，参与了百度Matrix在离线混合计算领域的开发工作。

@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Yuqi Gu"
 stype: "中文演讲"
---- 
+---
 
 Apache Spark SQL 提供了一个强大的解决方案，使用户能够高效地处理海量数据集。最近，Project Gluten 作为基于 Apache Arrow 的原生 SQL 引擎被引入，旨在增强 Spark SQL 的功能。与此同时，几个拥有活跃开源社区的向量化 SQL 引擎也受到了广泛关注。其中，由 Meta 领导的 Velox 项目脱颖而出，成为了一个有前途的向量化数据库加速库。
 
@@ -15,6 +15,8 @@ Gluten-Velox 的集成代表了向前迈出的重要一步，为 Arm 平台量�
 ### 讲师:
 
 <img src="https://sessionize.com/image/c0c6-400o400o1-ssHnQc9M2G2yMbua5opioP.jpg" width="200" /><br/>
+
+Yuqi Gu
 
 - 任职于安谋科技（Arm China），与 Arm 基础设施业务线（Infra LoB）紧密合作。该职位涉及推动 ARM 基础设施产品（服务器和网络）从初步评估到最终部署的全过程。
 - Apache Bigtop 项目管理委员会（PMC）成员，Apache Bigtop 前任主席（2021~2023）。

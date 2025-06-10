@@ -4,7 +4,7 @@ date: ""
 track: "datastorage"
 presenters: "YanPeng shi"
 stype: "Chinese Session"
---- 
+---
 
 1.Background:
 Flink, as a stateful stream processing system, has a state storage engine that plays a crucial role. In Flink, state is used to store intermediate results during the data stream computation process. Flink provides state read and write services for operators through the State Backend component. However, under the current architecture where computation and storage are integrated, the following issues arise:
@@ -32,6 +32,10 @@ Hot updates for underlying Fuse components: Updates to the underlying Fuse compo
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/8ab3-400o400o1-J6rdbW4HhzZRzSqmcX56bS.jpg" width="200" /><br/>
 
+YanPeng shi
+
 Tencent Senior Engineer, graduated with a Master's degree from Beijing University of Posts and Telecommunications in 2021, focusing on Flink core development.
+

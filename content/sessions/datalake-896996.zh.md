@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Akshat Mathur"
 stype: "英文演讲"
---- 
+---
 
 在本次演讲中，我们将深入探讨 Apache Iceberg，并发现高效维护大规模数据表的实用技术。我们将引导您了解现代数据湖中表维护的核心挑战，并分享优化性能和确保数据完整性的策略。您将学习如何应用最佳实践来管理元数据、处理表压缩以及自动化维护任务，以最大限度地减少停机时间并提高查询性能。
 
@@ -32,6 +32,8 @@ stype: "英文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/d598-400o400o1-TWRJCfGzVB3ZKDH85a4riC.jpg" width="200" /><br/>
+
+Akshat Mathur
 
 Akshat Mathur 在数据工程这一充满活力的领域拥有超过 7 年的专业经验，曾帮助多家组织设计和实施稳健的数据基础设施，助力它们成功利用数据的力量。目前，他负责管理 Cloudera 数据湖仓的产品战略。
 

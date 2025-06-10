@@ -4,7 +4,7 @@ date: ""
 track: "community"
 presenters: "Peggy Dong"
 stype: "英文演讲"
---- 
+---
 
 蚂蚁集团（一家拥有2.5万名员工的金融科技公司）一直是开源社区的积极参与者，拥有多个项目，如 Apache Fury、Apache Seata、Apache HoraeDB 等。
 
@@ -25,5 +25,7 @@ stype: "英文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/f673-400o400o1-4VK35jwN6xiau6NkXpBJPD.png" width="200" /><br/>
+
+Peggy Dong
 
 我相信开源代表着一股向善的力量。被开源、协作和分享的理念所吸引，我加入了蚂蚁开源办公室（OSPO）已有三年。在此之前，我主要从事战略规划工作，希望能为开源治理带来不同的视角。

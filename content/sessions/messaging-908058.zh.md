@@ -4,7 +4,7 @@ date: ""
 track: "messaging"
 presenters: "沈林"
 stype: "中文演讲"
---- 
+---
 
 如果您身处 AI 领域，EDA 为 LLM 和 AI Agent 提供的重要帮助不容忽视。本演讲将重点探讨 EDA 为 GenAI 带来的改变：
 
@@ -18,5 +18,7 @@ stype: "中文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/d767-400o400o1-GDcfWFXy2nx3iSwf9Qd5M1.png" width="200" /><br/>
+
+沈林
 
 Apache RocketMQ PMC成员，阿里云 EventBridge 负责人，专注于 EDA 研究。

@@ -2,9 +2,9 @@
 title: "Apache DolphinScheduler at Yili Group: Best Practices in Customization, Monitoring, and Operations"
 date: ""
 track: "dataops"
-presenters: "Xuetong Zhu"
+presenters: "朱 学通"
 stype: "Chinese Session"
---- 
+---
 
 This session will delve into Yili Group's implementation journey with Apache DolphinScheduler, a powerful open-source workflow orchestration tool. We will share practical insights into how we tailored DolphinScheduler to meet the specific needs of large-scale dairy production and supply chain management, including:  
 1. **Custom Development**:  
@@ -19,10 +19,12 @@ This session will delve into Yili Group's implementation journey with Apache Dol
 4. **Community Collaboration**:  
    - Contributions back to the Apache DolphinScheduler community, including feature enhancements and bug fixes.  
 
-
-
 ### Speakers:
+
 
 <img src="https://sessionize.com/image/4cf8-400o400o1-kvqNJ2DsjgqVvb33hZaJp.jpg" width="200" /><br/>
 
+朱 学通
+
 a **Big Data Architect & Tech Lead** with 10+ years of experience, specializing in **OLAP optimization (StarRocks, Spark), real-time data lakes (Flink, Paimon), and multi-cloud integration**. At Yili Group, he led the adoption of **StarRocks**, improving query speeds by **10x** and reducing ETL development time by **20x** via **DolphinScheduler** and **DataX**
+

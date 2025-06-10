@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Longfei Liu"
 stype: "Chinese Session"
---- 
+---
 
 In big data scenarios, efficient data retrieval is a core requirement for many business applications.​​ As the cornerstone of full-text search and complex queries, inverted indexes can significantly improve query performance, particularly excelling in log analysis scenarios requiring fuzzy matching. Compared to traditional solutions, leveraging the storage scalability and compute-storage separation advantages of lakehouse table formats can effectively reduce index storage costs. However, implementing scalable, low-maintenance inverted indexes in data lake architectures using modern table formats (like Apache Iceberg) still presents multiple challenges, including real-time synchronization between indexes and data, consistency guarantees in distributed environments, and query optimization issues.
 
@@ -18,6 +18,10 @@ In big data scenarios, efficient data retrieval is a core requirement for many b
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/ef8c-400o400o1-E5oCBuuC86mqfMxuzYXMs1.png" width="200" /><br/>
 
+Longfei Liu
+
 A decade of hands-on experience in big data infrastructure development, with deep expertise in distributed storage systems and query performance optimization.
+

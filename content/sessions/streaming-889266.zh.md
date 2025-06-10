@@ -4,7 +4,7 @@ date: ""
 track: "streaming"
 presenters: "Jark Wu"
 stype: "中文演讲"
---- 
+---
 
 Kafka 和 Flink 已广泛应用于流处理场景，成为构建流式数据仓库和实时分析的事实标准范例。然而，它仍然面临许多难以解决的挑战性问题。本讲座将探讨该范例在流式分析中面临的挑战和问题。
 
@@ -19,5 +19,7 @@ Kafka 和 Flink 已广泛应用于流处理场景，成为构建流式数据仓�
 ### 讲师:
 
 <img src="https://sessionize.com/image/19c7-400o400o1-b7b9ecef-9748-4e55-b53e-b20d108e3488.jpg" width="200" /><br/>
+
+Jark Wu
 
 Jark Wu 是 Apache Flink 的提交者和 PMC 成员。他领导着阿里云的 Fluss 和 Flink SQL 团队。凭借十年的 Flink 经验，他深度参与了 Flink SQL 从零到现在的开发和演进。在此期间，他还发起并孵化了 Flink CDC 和 Fluss 项目，进一步扩展了 Flink 生态系统。

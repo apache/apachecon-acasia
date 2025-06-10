@@ -4,7 +4,7 @@ date: ""
 track: "messaging"
 presenters: "Zhou Li"
 stype: "中文演讲"
---- 
+---
 
 基于 Commitlog 和 RocksDB 的 RocketMQ 存储引擎
 延迟消息、事务消息、POP 和索引是 RocketMQ 的核心功能。这些功能涉及内存中的多种状态转换，并且基于文件系统实现。现有实现面临以下问题：
@@ -25,5 +25,7 @@ RocksDB 是 Facebook 开发的一款高性能嵌入式键值存储引擎，广�
 ### 讲师:
 
 <img src="https://sessionize.com/image/89b7-400o400o1-3UL89hviMkFYw2SmgNyGZM.jpg" width="200" /><br/>
+
+Zhou Li
 
 阿里云消息专家，负责阿里巴巴核心消息中间件

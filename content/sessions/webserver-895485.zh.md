@@ -4,7 +4,7 @@ date: ""
 track: "webserver"
 presenters: "Juarez Junior"
 stype: "英文演讲"
---- 
+---
 
 本课程演示如何使用 Spring AI 和设计模式构建 AI 代理来解决复杂问题。我们将探讨将问题分解为子任务、集成外部工具和 API 以及管理代理状态的模式。
 
@@ -15,5 +15,7 @@ stype: "英文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/da35-400o400o1-7iXG3irB2qcqf5PDtHr272.jpg" width="200" /><br/>
+
+Juarez Junior
 
 Juarez Barbosa Junior 是 Oracle 的高级首席开发者布道师兼开发者布道总监。此前，他曾担任微软 Azure 开发者关系主管，以及 IBM 的思想领袖和技术布道师。他拥有超过 20 年的专业经验，曾在 DevRel、软件工程和初创企业相关项目担任高级领导职务。他的知识涵盖 Java、Python、云计算（Oracle OCI、Azure、GCP、IBM Cloud 和 AWS）、DevOps、IaC、CI/CD 和云原生。https://linktr.ee/juarezjunior

@@ -4,7 +4,7 @@ date: ""
 track: "streaming"
 presenters: "Feng Jin"
 stype: "Chinese Session"
---- 
+---
 
 	1.	Background & Motivation
 	•	Flink SQL challenges at scale: large state, long joins, complex maintenance
@@ -26,10 +26,12 @@ stype: "Chinese Session"
 	•	Improved job resilience and observability
 	•	Where we’re going next: tighter integration with metadata and scheduling
 
-
-
 ### Speakers:
+
 
 <img src="https://sessionize.com/image/849a-400o400o1-JY6LVQLecrGWcQHMZZkw7V.jpg" width="200" /><br/>
 
+Feng Jin
+
 Feng Jin is currently a member of the Compute Platform team at Xiaomi, where he is responsible for maintaining the internal Flink framework and building the company’s real-time lakehouse architecture. He has extensive experience in large-scale stream processing, Flink SQL optimization, and state management. He is also an Apache Flink committer and actively contributes to the open-source community.
+

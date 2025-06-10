@@ -4,7 +4,7 @@ date: ""
 track: "streaming"
 presenters: "Pengxiang Wang"
 stype: "Chinese Session"
---- 
+---
 
 1. Background
     a. Oceanus is Tencent's big data real-time computing platform, providing full lifecycle services for real-time applications based on Apache Flink.
@@ -25,10 +25,12 @@ stype: "Chinese Session"
     a. Building upon the existing lossy single-point restart mechanism, we explore lossless recovery capabilities.
     b. Develop a universal JM failover high-availability solution to address single-point vulnerabilities of JobManager.
 
-
-
 ### Speakers:
+
 
 <img src="https://sessionize.com/image/d261-400o400o1-fxPaH1DkrWnKKr7M1jP91s.jpg" width="200" /><br/>
 
+Pengxiang Wang
+
 Pengxiang Wang,  graduated from Beihang University, senior software engineer from Tencent big data, having lots of practicing experience in real-time data processing, mainly focusing on stability improvement of Flink in runtime.
+

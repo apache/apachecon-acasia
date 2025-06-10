@@ -4,7 +4,7 @@ date: ""
 track: "streaming"
 presenters: "Xintong Song"
 stype: "中文演讲"
---- 
+---
 
 在大型语言模型和代理型人工智能应用快速发展的时代，大数据技术的整合——尤其是实时处理引擎如Apache Flink——已成为数据基础设施专业人士关注的重点议题。
 
@@ -23,5 +23,7 @@ stype: "中文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/47dd-400o400o1-aEC9VKjiLoZ17X9guibiwx.jpg" width="200" /><br/>
+
+Xintong Song
 
 Xintong 是Apache Flink项目管理委员会（PMC）成员。他目前担任阿里巴巴云计算公司高级软件工程师，并领导Flink Java引擎团队。在此之前，他获得了北京大学计算机科学博士学位。

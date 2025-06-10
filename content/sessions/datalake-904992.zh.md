@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Zheng Yu Chen"
 stype: "中文演讲"
---- 
+---
 
 在货拉拉，我们利用Apache Amoro构建了以Apache Iceberg为核心的新一代湖仓平台。在管理PB级日处理数据量的过程中，我们解决了关键的稳定性挑战，包括：
 
@@ -33,4 +33,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/8dab-400o400o1-wspZVa98jevB6AB6cPZU8m.jpg" width="200" /><br/>
 
-陈正宇（ConradJam），Apache Flink中文社区志愿者，Apache Amoro项目管理委员会成员（PPMC），长期从事大数据数据开发工作。目前，他负责从0到1设计并构建Flink公有云多云数据解决方案、数据同步和大数据运维流水线平台。
+Zheng Yu Chen
+
+Zheng Yu Chen（ConradJam），Apache Flink中文社区志愿者，Apache Amoro项目管理委员会成员（PPMC），长期从事大数据数据开发工作。目前，他负责从0到1设计并构建Flink公有云多云数据解决方案、数据同步和大数据运维流水线平台。

@@ -4,7 +4,7 @@ date: ""
 track: "datastorage"
 presenters: "YanPeng Shi"
 stype: "中文演讲"
---- 
+---
 
 1. 背景：
 Flink 作为一个有状态的流处理系统，其状态存储引擎扮演着至关重要的角色。在 Flink 中，状态用于在数据流计算过程中存储中间结果。Flink 通过 State Backend 组件为算子提供状态的读写服务。然而，在当前的计算存储一体化架构下，存在以下问题：
@@ -33,5 +33,7 @@ Flink 作为一个有状态的流处理系统，其状态存储引擎扮演着�
 ### 讲师:
 
 <img src="https://sessionize.com/image/8ab3-400o400o1-J6rdbW4HhzZRzSqmcX56bS.jpg" width="200" /><br/>
+
+YanPeng shi
 
 YanPeng Shi，腾讯高级工程师，2021 年毕业于北京邮电大学，获得硕士学位，专注于 Flink 核心开发。

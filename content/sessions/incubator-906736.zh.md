@@ -4,7 +4,7 @@ date: ""
 track: "incubator"
 presenters: "Dianjin Wang"
 stype: "中文演讲"
---- 
+---
 
 Apache Cloudberry 是一款基于 Greenplum 的大规模并行处理 (MPP) 数据库，它已进入 Apache 孵化器，旨在为开源社区带来强大的分析能力。作为该项目的发起人和持续贡献者之一，我有幸亲身经历了孵化过程的每个阶段——从起草提案、组建 PPMC，到项目发布和市场推广，再到清理源代码以及构建社区动力。
 
@@ -13,5 +13,7 @@ Apache Cloudberry 是一款基于 Greenplum 的大规模并行处理 (MPP) 数�
 ### 讲师:
 
 <img src="https://sessionize.com/image/ba51-400o400o1-JXYRfvPWpWpQEji2NhNp6J.jpg" width="200" /><br/>
+
+Dianjin Wang
 
 Apache Cloudberry PPMC成员，ALC Beijing成员，ApacheCon Asia 2021-2025分会主席，HashData开源负责人

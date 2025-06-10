@@ -4,7 +4,7 @@ date: ""
 track: "datastorage"
 presenters: "Zhiwen Deng"
 stype: "中文演讲"
---- 
+---
 
 摘要：
 在小米，HBase 作为分布式宽表服务，同时支持离线和在线场景。然而，内部仍有 40% 的节点运行在 0.98 版本上，由于需要支持双版本，导致维护成本高昂。将版本统一到 2.3 对于提高开发效率至关重要。此外，2.3 版本本身也面临稳定性挑战，如 GC 问题和集群级停机恢复失败。本次演讲将分享小米在应对这些挑战方面的实践经验。
@@ -44,5 +44,7 @@ HBase 在小米有着悠久的历史，但也积累了技术债务。主要挑�
 ### 讲师:
 
 <img src="https://sessionize.com/image/6052-400o400o1-npyQeJA1PdnzCtTC2HXP7X.jpg" width="200" /><br/>
+
+Zhiwen Deng
 
 Zhiwen Deng，小米分布式系统研发工程师，参与了消息队列和 HBase 的设计与实现，同时也是 Apache RocketMQ 的提交者。

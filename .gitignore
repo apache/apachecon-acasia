@@ -8,4 +8,5 @@ resources/_gen
 .vscode/
 script/env
 node_modules/
+.xlsx
 

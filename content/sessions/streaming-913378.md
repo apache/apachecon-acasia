@@ -4,7 +4,7 @@ date: ""
 track: "streaming"
 presenters: "Xintong Song"
 stype: "Chinese Session"
---- 
+---
 
 In the era of rapidly advancing large language models and Agentic AI applications, the integration of big data technologies—particularly real-time processing engines like Apache Flink—is a critical topic for data infrastructure professionals.
 
@@ -20,10 +20,11 @@ This presentation will cover:
 ● Why Apache Flink is well-suited for building event-driven agents
 ● The design principles and current development status of the framework
 
-
-
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/47dd-400o400o1-aEC9VKjiLoZ17X9guibiwx.jpg" width="200" /><br/>
+
+Xintong Song
 
 Xintong is an Apache Flink PMC member. He is also a Staff Software Engineer and leads the Flink Java Engine Team at Alibaba Cloud. Prior to that, he received a Ph.D. degree in computer science from Peking University.

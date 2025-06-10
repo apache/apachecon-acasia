@@ -4,7 +4,7 @@ date: ""
 track: "messaging"
 presenters: "Shengzhong Liu"
 stype: "Chinese Session"
---- 
+---
 
 Apache RocketMQ is a distributed messaging and streaming platform known for its low latency, high performance, and high reliability. The newly released version 5.0 has two major advancements:
 1. Decouples storage from compute for better scalability and cloud-native adaptability.
@@ -13,6 +13,10 @@ To adapt to these features, the community has launched a new gRPC-based client. 
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/5517-400o400o1-QHVT45RWPFxxgwib7bn9VX.jpg" width="200" /><br/>
 
+Shengzhong Liu
+
 Since graduating from Southeast University in 2019, I have been working at Tencent Cloud as a software development engineer, specializing in message queue technologies in recent years.
+

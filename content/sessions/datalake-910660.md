@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Lidong Dai"
 stype: "English Session"
---- 
+---
 
 Abstract:
 With the ongoing evolution of lakehouse architectures and real-time data lakes, enterprises increasingly require a unified, high-performance, and scalable data integration framework to support both writing to and reading from multiple data lake formats such as Apache Hudi, Iceberg, and Paimon.
@@ -36,11 +36,12 @@ Building a real-time product data warehouse with MySQL CDC → SeaTunnel → Ice
 7. Future Outlook and Ecosystem Integration
 Plans for supporting DeltaLake and more
 
-------
-
-
 ### Speakers:
+
 
 <img src="https://sessionize.com/image/a63f-400o400o1-TAZzBju9ZdRb4umYVxMo2D.png" width="200" /><br/>
 
+Lidong Dai
+
 Apache Incubator Mentor, Apache DolphinScheduler PMC Chair & Apache SeaTunnel PMC member
+

@@ -4,7 +4,7 @@ date: ""
 track: "community"
 presenters: "Craig Russell"
 stype: "英文演讲"
---- 
+---
 
 为何如此艰难……
 
@@ -24,6 +24,8 @@ stype: "英文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/3194-400o400o1-94Sk7eKXZREt1kbzW2diBZ.jpg" width="200" /><br/>
+
+Craig Russell
 
 Craig 于 2005 年作为孵化中的 JDO 项目的提交者加入 Apache，并于 2007 年成为 Apache 成员。他于 2009 年被任命为助理秘书，并于 2010 年担任秘书，直至 2019 年。他于 2019 年当选为董事会董事，并担任了四届董事。
 

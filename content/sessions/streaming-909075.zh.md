@@ -4,7 +4,7 @@ date: ""
 track: "streaming"
 presenters: "Feng Jin"
 stype: "中文演讲"
---- 
+---
 
 
 1. 背景与动机
@@ -30,5 +30,7 @@ stype: "中文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/849a-400o400o1-JY6LVQLecrGWcQHMZZkw7V.jpg" width="200" /><br/>
+
+Feng Jin
 
 Feng Jin 目前是小米计算平台团队成员，负责维护内部 Flink 框架并构建公司实时 Lakehouse 架构。他在大规模流处理、Flink SQL 优化和状态管理方面拥有丰富的经验。他也是 Apache Flink 的提交者，积极为开源社区做出贡献。

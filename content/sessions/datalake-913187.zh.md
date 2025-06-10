@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Houliang Qi"
 stype: "中文演讲"
---- 
+---
 
 本次会议将重点介绍小米如何利用 Apache Paimon 在信息化数据仓库、AI 数据仓库以及 LLM 数据处理中提升效率、降低成本。此外，我们将讨论如何利用 JuiceFS 支持 Paimon 的多云存储能力。最后，我们将介绍 Apache Gravitino 在 Paimon 元数据管理中的应用。
 内容提要：
@@ -24,5 +24,7 @@ stype: "中文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/8968-400o400o1-XFskLG5iSQjayU8GPBBL9V.jpg" width="200" /><br/>
+
+Houliang Qi
 
 Apache IoTDB 和 Apache TsFile PMC 成员，小米软件研发工程师，专注于小米数据湖平台的开发与实施。

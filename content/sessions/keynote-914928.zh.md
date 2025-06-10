@@ -4,7 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Craig Russell"
 stype: "英文演讲"
---- 
+---
 
 本次演讲将探讨开源软件安全的现状，特别是 Apache 软件基金会（ASF）如何应对日益增长的威胁。
 ASF 从第一个项目——一个运行在开源操作系统上的 Web 服务器——起步。自那时起，该组织基于开放性、协作性和公共利益的原则，建立了数百个社区。
@@ -17,6 +17,8 @@ ASF 致力于与其他开源基金会和政府实体合作，继续为公共利�
 ### 讲师:
 
 <img src="https://sessionize.com/image/3194-400o400o1-94Sk7eKXZREt1kbzW2diBZ.jpg" width="200" /><br/>
+
+Craig Russell
 
 Craig 于 2005 年作为孵化中的 JDO 项目的提交者加入 Apache，并于 2007 年成为 Apache 成员。他于 2009 年被任命为助理秘书，并于 2010 年担任秘书，直至 2019 年。他于 2019 年当选为董事会董事，并担任了四届董事。
 

@@ -4,12 +4,15 @@ date: ""
 track: "messaging"
 presenters: "Fan Wang"
 stype: "Chinese Session"
---- 
+---
 
 This presentation will introduce the evolution of Xiaomi's MQTT system architecture, highlighting advancements in stability, performance, and cost optimization. Key initiatives include managing massive topics, ensuring message ordering, disaster recovery mechanisms, tiered storage solutions, dictionary compression techniques, data integration, containerization, and more.
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/cae3-400o400o1-GXWj5X6MXUxLT5kfwqCJqB.jpg" width="200" /><br/>
+
+Fan Wang
 
 Joined Xiaomi in 2018, specializing in messaging and storage systems. Responsible for Xiaomi's MQ, HBase, and ElasticSearch platforms, among others.

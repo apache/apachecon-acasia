@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Daniel Becker"
 stype: "英文演讲"
---- 
+---
 
 Apache Iceberg 表格式已成为大数据领域的事实标准。与基于传统文件系统的表格式相比，它拥有诸多优势，例如行级修改、事务、分区转换和时间旅行，使其成为许多项目自然而然的首选。数据统计
 
@@ -15,5 +15,7 @@ Apache Iceberg 表格式已成为大数据领域的事实标准。与基于传�
 ### 讲师:
 
 <img src="https://sessionize.com/image/6933-400o400o1-72rRP3UXJeo1bZhvM4bFDm.jpg" width="200" /><br/>
+
+Daniel Becker
 
 Daniel Becker 于 2019 年开始在 Cloudera 从事 Apache Impala 工作。他为 Impala 做出的贡献涵盖多个主题，包括 LLVM 代码生成、复杂类型、Parquet 和 Iceberg。他是 Apache Impala PMC 成员，拥有帕兹马尼彼得天主教大学的学位

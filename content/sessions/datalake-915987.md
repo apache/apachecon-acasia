@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Rose Duan"
 stype: "Chinese Session"
---- 
+---
 
 Data warehouses excel at fast analytics, while data lakes focus on scalable storage and flexible data management.
 The lakehouse architecture aims to combine the best of both—seamlessly integrating data across lakes and warehouses for efficient analysis and unified governance.
@@ -19,7 +19,10 @@ This talk introduces Cloudberry’s key capabilities in enabling a unified lakeh
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/5feb-400o400o1-ns3S5cNdoMFDN2jL1rrsNH.jpg" width="200" /><br/>
 
+Rose Duan
 
-Apache Cloudberry 贡献者，HashData 的数据库内核开发人员。
+Apache Cloudberry contributor, database kernel developer at HashData.。
+

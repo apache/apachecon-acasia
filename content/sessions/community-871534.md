@@ -4,7 +4,7 @@ date: ""
 track: "community"
 presenters: "Lucas Rocha"
 stype: "English Session"
---- 
+---
 
 I will start by explaining a little bit about the project, it’s differentials and how the CI/CD process helped it to succeed.
 
@@ -16,10 +16,14 @@ Last part will provide valorous advices for who is starting or looking for a pro
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/b35d-400o400o1-NiCoDqJwV8R7ywLQJpJ6hh.jpg" width="200" /><br/>
+
+Lucas Rocha
 
 As a passionate full-stack web developer with a deep enthusiasm for technology, I have cultivated a diverse and extensive skill set in software development, contributing to a variety of projects across different industries. My technical expertise encompasses a wide spectrum of programming languages and solution platforms, making me adept at navigating complex technological landscapes.
 
 Since embarking on my programming career in 2011, I have developed proficiency in an array of programming languages and frameworks. My repertoire includes JavaScript with its various frameworks and libraries (Express, NestJS, loopback.io, React, Angular), C# with .NET Core, PHP with popular frameworks (Laravel, Symfony, Yii), Python using Flask, and Java with Spring. This broad skill set enables me to effectively tackle unique project requirements, ensuring that each solution I deliver is not only tailored to specific needs but also upholds the highest standards of quality and innovation. My commitment to each project goes beyond just meeting specifications; it's about creating solutions that drive progress and make a meaningful impact.
 
 https://www.linkedin.com/in/lucasredeaberta/
+

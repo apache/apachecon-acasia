@@ -2,9 +2,9 @@
 title: "优化 Parquet 存储：元数据管理、性能调优和无缝迁移"
 date: ""
 track: "datalake"
-presenters: "甘红楠"
+presenters: "甘 红楠, He Zhengjie"
 stype: "中文演讲"
---- 
+---
 
 本次会议将深入探讨优化 Parquet 存储生态系统的高级技术。我们将探索一种全面的元数据管理方法——从高效的收集和存储到构建可扩展的元数据仓库。与会者将学习实用的存储优化策略，包括 ZSTD 压缩升级、本地/全局排序以及用于提升性能的列级调优。此外，我们还将介绍如何通过就地回溯和异构格式互操作性无缝迁移旧格式。无论您是处理大规模数据集还是优化存储效率，本次会议都能提供切实可行的见解，帮助您提升 Parquet 工作流程。
 
@@ -17,6 +17,15 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/c52a-400o400o1-fqHUaN3MbFjUnx1NxULM9c.jpg" width="200" /><br/>
 
+甘 红楠
+
 * 复旦大学学士和硕士学位
 * 字节跳动 SparkSQL 内核开发人员
 * 对 SQL 优化感兴趣
+
+
+<img src="https://sessionize.com/image/d454-400o400o1-ahCLB728yY3mjf8N7yAAtu.jpg" width="200" /><br/>
+
+He Zhengjie
+
+我是一名大数据工程师，在查询引擎优化方面拥有数年专业知识，专门从事大规模数据系统的性能调整和经济高效的查询执行。

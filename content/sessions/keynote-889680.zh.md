@@ -4,7 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Divya Mohan"
 stype: "英文演讲"
---- 
+---
 
 随着开源在全球创新中变得愈发重要，政策制定对其发展的影响也至关重要。本次主旨演讲将探讨亚洲开源生态系统面临的独特挑战与机遇，并将其与西方的立法框架（如美国的《芯片与科学法案》和欧洲的《网络弹性法案》）进行对比。尽管这些政策旨在增强技术领导力，但亚洲基于其文化和地缘政治背景所采取的方法却呈现出了截然不同的面貌。
 
@@ -13,5 +13,7 @@ stype: "英文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/8870-400o400o1-PDR3hsSKRCfWb1Fbh3WVdT.jpg" width="200" /><br/>
+
+Divya Mohan
 
 Divya 是 SUSE 的高级技术布道师，致力于推动 Rancher 的云原生开源项目。她担任 Kubernetes 和 LitmusChaos 项目的文档联合主席，并在汇丰银行和 IGate Global Solutions Pvt Ltd 任职期间，在系统工程领域积累了丰富的工作经验。作为 KCNA 考试的共同创建者和 CNCF 大使，她致力于让技术社区和技术更加易于访问和包容。

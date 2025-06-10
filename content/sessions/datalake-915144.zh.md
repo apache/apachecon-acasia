@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Longfei Liu"
 stype: "中文演讲"
---- 
+---
 
 在大数据场景中，高效的数据检索是许多业务应用的核心需求。​​作为全文搜索和复杂查询的基石，倒排索引可以显著提升查询性能，尤其在需要模糊匹配的日志分析场景中表现优异。与传统解决方案相比，利用 Lakehouse 表格式的存储可扩展性和计算存储分离优势，可以有效降低索引存储成本。然而，在数据湖架构中使用现代表格式（如 Apache Iceberg）实现可扩展、低维护的倒排索引仍然存在诸多挑战，包括索引与数据的实时同步、分布式环境下的一致性保证以及查询优化问题。
 
@@ -19,6 +19,8 @@ stype: "中文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/ef8c-400o400o1-E5oCBuuC86mqfMxuzYXMs1.png" width="200" /><br/>
+
+Longfei Liu
 
 360（奇虎 360）高级软件工程师​​
 

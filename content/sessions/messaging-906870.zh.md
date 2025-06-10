@@ -4,7 +4,7 @@ date: ""
 track: "messaging"
 presenters: "Juntao Ji"
 stype: "中文演讲"
---- 
+---
 
 我们最新的研究成果已被 ACM FSE 2025 行业专题收录，Apache RocketMQ 为无服务器消息系统奠定了坚实的基础，解决了传统中间件在可扩展性、成本和元数据方面的挑战。通过解耦存储和计算，Apache RocketMQ 实现了独立的资源扩展，这对于不可预测的云工作负载至关重要。其弹性写入分区消除了单队列吞吐量限制，而轻量级消息队列则以最小的冷启动延迟支持数百万个队列。
 
@@ -13,5 +13,7 @@ stype: "中文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/dd3d-400o400o1-JenBFKL54ncn91nqVyA8nE.jpg" width="200" /><br/>
+
+Juntao Ji
 
 阿里云计算高级中间件研发工程师，负责 RocketMQ 和 RabbitMQ 的功能开发。Apache RocketMQ 开源社区贡献者。在 CCF-A 会议或期刊（ASE 23'、FM 24'、FSE 25' 等）发表多篇顶级论文。

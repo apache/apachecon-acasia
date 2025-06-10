@@ -4,7 +4,7 @@ date: ""
 track: "streaming"
 presenters: "Pengxiang Wang"
 stype: "中文演讲"
---- 
+---
 
 1. 背景
     a. Oceanus是腾讯的大数据实时计算平台，基于Apache Flink为实时应用提供全生命周期服务。
@@ -28,5 +28,7 @@ stype: "中文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/d261-400o400o1-fxPaH1DkrWnKKr7M1jP91s.jpg" width="200" /><br/>
+
+Pengxiang Wang
 
 Pengxiang Wang，毕业于北京航空航天大学，腾讯大数据高级软件工程师，拥有丰富的实时数据处理实践经验，主要专注于Flink运行时稳定性提升。

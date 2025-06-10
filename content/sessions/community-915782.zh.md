@@ -4,13 +4,15 @@ date: ""
 track: "community"
 presenters: "Victor Manuel Romero Rodriguez"
 stype: "英文演讲"
---- 
+---
 
 本次演讲将描述墨西哥联邦政府在采纳开源软件过程中所面临的挑战，以及实施 Apache 软件的项目如何在全国范围内成功惠及墨西哥民众。
 
 ### 讲师:
 
 <img src="https://sessionize.com/image/abff-400o400o1-JtwN2B9o1VxeTfF87sDK3d.jpg" width="200" /><br/>
+
+Víctor Manuel Romero Rodríguez
 
 Victor Romero 来自墨西哥城，在国立理工学院获得计算机科学学士学位后，在信息技术应用于金融服务领域拥有超过 20 年的经验。
 

@@ -4,7 +4,7 @@ date: ""
 track: "community"
 presenters: "Shaoting Duan"
 stype: "中文演讲"
---- 
+---
 
 OceanBase 数据库是由蚂蚁集团自主研发的分布式关系型数据库。它已经连续11年支撑了双11购物节。最初，它是作为淘宝收藏夹使用的电商数据库，后来逐渐发展成为蚂蚁集团所有核心系统的数据库。随后，它又成长为众多企业，尤其是金融行业核心系统的数据库。
 
@@ -17,5 +17,7 @@ OceanBase 数据库是由蚂蚁集团自主研发的分布式关系型数据库�
 ### 讲师:
 
 <img src="https://sessionize.com/image/ab9e-400o400o1-Dnvu6ddqricK6Mu1ScZ4uf.jpg" width="200" /><br/>
+
+Shaoting Duan
 
 作为 OceanBase 开发者社区的负责人，Shaoting Duan 致力于推广和宣讲前沿科技，并建设和开发开源社区。她曾在 Sun、Adobe、百度和阿里巴巴等世界500强企业工作，负责 OceanBase、OpenSolaris、Java、Flash 和 HTML5 等开源技术社区的开发与建设，以及人才培养和大学项目生态建设。

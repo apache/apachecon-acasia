@@ -4,7 +4,7 @@ date: ""
 track: "dataops"
 presenters: "Azhar Izzannada Elbachtiar"
 stype: "英文演讲"
---- 
+---
 
 升级Airflow可能充满挑战，即使是微小的更改也可能引发管道故障并导致漫长的修复过程。本Session将介绍一种解决方案，通过自动化分析代码仓库、更改日志、最佳实践及其他关键文档，利用LLM守护程序识别潜在问题，从而简化跨多个Airflow版本的迁移流程。该系统会扫描DAG和依赖关系以预测兼容性问题，并生成修复方案（例如替换已废弃的操作符）。
 
@@ -18,6 +18,8 @@ stype: "英文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/ecc3-400o400o1-hKUcGLGcQw4KXhK3RVPwa2.jpg" width="200" /><br/>
+
+Azhar Izzannada Elbachtiar
 
 我是一名专注于数据工程的工程师，对探索新兴技术和机器学习充满热情。目前，我负责维护支持创新、数据驱动型解决方案的机器学习基础设施。
 

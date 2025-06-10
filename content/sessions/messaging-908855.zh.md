@@ -4,7 +4,7 @@ date: ""
 track: "messaging"
 presenters: "Shengzhong Liu"
 stype: "中文演讲"
---- 
+---
 
 Apache RocketMQ 是一个分布式消息和流式传输平台，以其低延迟、高性能和高可靠性而闻名。最新发布的 5.0 版本有两大改进：
 1. 将存储与计算解耦，从而提高可扩展性和云原生适应性。
@@ -14,5 +14,7 @@ Apache RocketMQ 是一个分布式消息和流式传输平台，以其低延迟�
 ### 讲师:
 
 <img src="https://sessionize.com/image/5517-400o400o1-QHVT45RWPFxxgwib7bn9VX.jpg" width="200" /><br/>
+
+Shengzhong Liu
 
 自2019年从东南大学毕业以来，我一直在腾讯云担任软件开发工程师，近年来专注于消息队列技术。

@@ -4,7 +4,7 @@ date: ""
 track: "streaming"
 presenters: "Xin Wang"
 stype: "中文演讲"
---- 
+---
 
 
 ● 背景：介绍蚂蚁集团的实时业务和技术背景
@@ -16,5 +16,7 @@ stype: "中文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/3431-400o400o1-W4FtSbysmF3yQTCTtNkpiH.jpg" width="200" /><br/>
+
+Xin Wang
 
 ASF 成员 & IPMC 成员，蚂蚁集团实时数据与数据原生团队负责人。

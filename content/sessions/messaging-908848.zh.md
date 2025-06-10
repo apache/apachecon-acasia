@@ -4,7 +4,7 @@ date: ""
 track: "messaging"
 presenters: "Senze Zhang"
 stype: "中文演讲"
---- 
+---
 
 MQTT 已成为物联网 (IoT) 的事实标准，为汽车、制造、电信、石油天然气等行业的众多应用提供支持。
 
@@ -13,5 +13,7 @@ MQTT 已成为物联网 (IoT) 的事实标准，为汽车、制造、电信、�
 ### 讲师:
 
 <img src="https://sessionize.com/image/8338-400o400o1-J1yXkRRbD17bMbsVpMyBw8.png" width="200" /><br/>
+
+Senze Zhang
 
 Senze Zhang 是一位资深的消息队列系统工程师，在高性能消息解决方案的设计、实现和优化方面拥有丰富的经验，参与部署过 RocketMQ、Kafka、MQTT 等多个业界领先的消息队列平台。

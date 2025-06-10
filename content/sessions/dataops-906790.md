@@ -4,7 +4,7 @@ date: ""
 track: "dataops"
 presenters: "Xin Zhang"
 stype: "Chinese Session"
---- 
+---
 
 In the wave of enterprise intelligence upgrades, information retrieval is shifting from “keyword matching” to “semantic understanding.” Traditional search engines based on inverted indexes rely on string-level matching, which makes it difficult to capture the true intent behind user queries. This limits the effectiveness of search experiences, recommendation accuracy, customer service responses, and the intelligence of knowledge-based Q&A systems.
 
@@ -16,6 +16,10 @@ Using SeaTunnel’s OpenSearch Sink plugin, we can call the embedding service du
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/2a81-400o400o1-Jsau5kyb24ZgXpGbt5aVrk.png" width="200" /><br/>
 
+Xin Zhang
+
 Xin Zhang is an AWS Solutions Architect, responsible for solution consulting and design based on the AWS Cloud platform. He has a rich experience in R&D and architecture practice in the fields of system architecture, data warehousing, and real-time computing.
+

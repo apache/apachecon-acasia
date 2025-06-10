@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Shekhar Prasad Rajak"
 stype: "英文演讲"
---- 
+---
 
 大多数关于 Apache Iceberg 的演讲都热衷于谈论时间旅行和 ACID 合规性——这已经不足为奇了。但那些鲜为人知的功能呢？那些能够将混乱转化为秩序、将实验转化为胜利、将静态表格转化为自主驱动力的功能——让你的数据平台能够自我思考？欢迎来到这里，我们将一起探索 Iceberg 的隐藏工具包。
 
@@ -13,6 +13,8 @@ stype: "英文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/7609-400o400o1-YbaJq6TQuhpFBv63wn2hn8.jpg" width="200" /><br/>
+
+Shekhar Prasad Rajak
 
 Shekhar 对开源软件充满热情，并积极参与多个项目，包括 SymPy、Ruby gems（如他编写的 daru 和 daru-view）、Bundler、NumPy 和 SciPy。
 他在 2016 年和 2017 年成功完成了 Google 编程之夏（Google Summer of Code）项目，并担任 SciRuby 的管理员，指导了多个组织。

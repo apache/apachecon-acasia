@@ -4,7 +4,7 @@ date: ""
 track: "dataops"
 presenters: "Azhar Izzannada Elbachtiar"
 stype: "English Session"
---- 
+---
 
 Upgrading Airflow can be challenging, small change may trigger pipeline failures and long fixing. This session presents solution that simplifies migrations across multiple Airflow releases version by automate analyzing code repositories, change notes, best practices, and other essential documentation using LLM Guardian that identifies potential issues. It scans DAGs and dependency to predict incompatibilities, and generate fixes (e.g., deprecated operator replacements).
 
@@ -15,11 +15,12 @@ Key takeaways:
 - Precision Fixes: Updates syntax, dependencies, and configurations while preserving workflows.
 - Confidence Building: Generates audit-ready reports and dry-run results to justify upgrades.
 
-
-
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/ecc3-400o400o1-hKUcGLGcQw4KXhK3RVPwa2.jpg" width="200" /><br/>
+
+Azhar Izzannada Elbachtiar
 
 I'm a dedicated Data Engineer with a passion for exploring emerging technologies and machine learning. Currently, I also maintain machine learning infrastructure that drives innovative, data-powered solutions. 
 

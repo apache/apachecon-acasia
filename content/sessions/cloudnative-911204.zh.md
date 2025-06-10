@@ -4,7 +4,7 @@ date: ""
 track: "cloudnative"
 presenters: "Han Qian"
 stype: "中文演讲"
---- 
+---
 
 摘要：  
 在构建大数据平台的过程中，我们从基于Apache Hadoop生态系统的传统部署模式，过渡到通过JuiceFS实现存储与计算分离，最终迁移至以Kubernetes为核心的调度系统。这一技术演进涵盖存储、计算和集群架构三个方面，旨在提升数据处理效率。  
@@ -29,6 +29,8 @@ Apache项目（Hadoop、Spark、YARN）的适配经验
 ### 讲师:
 
 <img src="https://sessionize.com/image/e9db-400o400o1-pJDLPcWh44dKmtxc2n8k7U.jpg" width="200" /><br/>
+
+Han Qian
 
 Li Auto 大数据基础设施负责人
 负责构建服务于100万辆以上联网车辆的100PB级数据平台

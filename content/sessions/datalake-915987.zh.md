@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Rose Duan"
 stype: "中文演讲"
---- 
+---
 
 数据仓库擅长快速分析，而数据湖则注重可扩展存储和灵活的数据管理。Lakehouse
 架构旨在将两者的优势结合起来——无缝集成跨数据湖和数据仓库的数据，以实现高效分析和统一治理。
@@ -20,5 +20,7 @@ stype: "中文演讲"
 ### 讲师:
 
 <img src="https://sessionize.com/image/5feb-400o400o1-ns3S5cNdoMFDN2jL1rrsNH.jpg" width="200" /><br/>
+
+Rose Duan
 
 Apache Cloudberry 贡献者，HashData 的数据库内核开发人员。

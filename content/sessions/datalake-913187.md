@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Houliang Qi"
 stype: "Chinese Session"
---- 
+---
 
 This session will primarily focus on how Xiaomi leverages Apache Paimon to enhance efficiency and reduce costs in its information-based data warehouse, AI data warehouse, and LLM data processing. Additionally, we will discuss how we utilize JuiceFS to support Paimon's multi-cloud storage capabilities. Finally, we'll introduce the application of Apache Gravitino in managing Paimon's metadata.
 Outline:
@@ -23,6 +23,10 @@ Through this sharing, users will learn how Xiaomi leverages Apache Paimon to opt
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/8968-400o400o1-XFskLG5iSQjayU8GPBBL9V.jpg" width="200" /><br/>
 
+Houliang Qi
+
 PMC member of Apache IoTDB and Apache TsFile. Software R&D Engineer at Xiaomi, specializing in the development and implementation of Xiaomi's datalake platform.
+

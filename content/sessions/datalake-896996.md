@@ -4,7 +4,7 @@ date: ""
 track: "datalake"
 presenters: "Akshat Mathur"
 stype: "English Session"
---- 
+---
 
 In this talk, we'll dive deep into Apache Iceberg and discover practical techniques for maintaining large-scale data tables efficiently. We’ll guide you through the core challenges of table maintenance in modern data lakes and share strategies to optimize performance and ensure data integrity. You’ll learn how to apply best practices to manage metadata, handle table compaction, and automate maintenance tasks to minimize downtime and improve query performance. 
 
@@ -36,8 +36,13 @@ This session is designed to empower data engineers and software professionals wi
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/d598-400o400o1-TWRJCfGzVB3ZKDH85a4riC.jpg" width="200" /><br/>
+
+Akshat Mathur
 
 With over 7 years of dedicated experience in the dynamic field of data engineering, Helped architecting and implementing robust data infrastructure for a variety of organizations, contributing to their success in harnessing the power of data, and now managing product strategy for Cloudera's Data Lakehouse
 
 Akshat has made contributions towards Apache Hive and Tez
+
+

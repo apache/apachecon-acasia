@@ -4,7 +4,7 @@ date: ""
 track: "community"
 presenters: "Peggy Dong"
 stype: "English Session"
---- 
+---
 
 Ant Group (fintech company with 25K employees) has been an active participant in Open Source community with many projects, such as Apache Fury, Apache Seata, Apache Seata, Apache HoraeDB.
 
@@ -24,6 +24,10 @@ The speech focuses on analyzing the challenges that Ant OSS has encountered in t
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/f673-400o400o1-4VK35jwN6xiau6NkXpBJPD.png" width="200" /><br/>
 
+Peggy Dong
+
 I believe  Open source represents a force for good. Being attracted by the concepts of open source, collaboration and sharing, I joined Ant Open Source OSPO for three years. Before this, I was mainly engaged in strategic planning, hoping to bring a different perspective to open source governance.
+

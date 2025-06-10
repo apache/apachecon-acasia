@@ -2,9 +2,9 @@
 title: "衡量开源社区项目健康的挑战与实践"
 date: ""
 track: "community"
-presenters: "Xiaoya Xia"
+presenters: "Xiaoya Xia, Divya Mohan"
 stype: "英文演讲"
---- 
+---
 
 开源世界是一个项目和社区相互关联的生态系统。通过衡量来了解项目的健康状况，并寻求合适的方法来实现繁荣和可持续的开源软件社区，这是维护者和社区开发者都非常关心的话题。开源项目的健康状况不仅限于软件工程质量和迭代管理的传统指标，还包括社区状态和开放协作中的价值观等因素。
 
@@ -21,4 +21,12 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/e746-400o400o1-irRRfX45oHJUwig85uBoD.jpg" width="200" /><br/>
 
+Xiaoya Xia
+
 Xiaoya Xia 是蚂蚁集团开源办公室（OSPO）的成员，她专注于通过数据驱动的洞察来推动开源项目的成功。在加入蚂蚁集团之前，Xiaoya 是华东师范大学（ECNU）的博士生，专注于开源生态系统可持续性的研究。
+
+<img src="https://sessionize.com/image/8870-400o400o1-PDR3hsSKRCfWb1Fbh3WVdT.jpg" width="200" /><br/>
+
+Divya Mohan
+
+Divya is a Senior Technical Evangelist at SUSE, where she contributes to Rancher’s cloud native open source projects. She co-chairs the documentation for the Kubernetes & LitmusChaos projects & has previously worked extensively in the systems engineering space during her tenure with HSBC & IGate Global Solutions Pvt Ltd. A co-creator of the KCNA exam & a CNCF ambassador, she is invested in making technical communities & technologies more accessible & inclusive.
