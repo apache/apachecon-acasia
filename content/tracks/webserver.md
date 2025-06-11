@@ -1,5 +1,5 @@
 ---
-title: Web Server/Tomcat
+title: Web Application & Framework
 trackchairs: "Huxing Zhang, Han Li"
 ---
 
