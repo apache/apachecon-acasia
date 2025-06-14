@@ -173,6 +173,7 @@ This talk will take you on a journey beginning with our experimental results on 
       <guid>/sessions/microservice-915357.html</guid>
       <description>This session will begin with an introduction to Seata and distributed transactions, followed by a detailed discussion on the implementation and usage of the Saga pattern. Finally, it will explore how the Saga pattern can be integrated with AI, such as connecting with AI Agents and Workflows.
 Speakers: 
+Feng Zhang
 Open-source enthusiast Apache Seata(incubating) Committer</description>
     </item>
     
@@ -235,6 +236,7 @@ Future Outlook and Ecosystem Expansion  Directions for technological evolution A
       <guid>/sessions/datastorage-899504.html</guid>
       <description>An introduction to Cassandra&amp;rsquo;s past and present features , as well as sharing what the Cassandra community plans to do in the next release version and what dose the community is doing now.
 Speakers: 
+Guo Chao
 Apache Cassandra Committer</description>
     </item>
     
@@ -256,6 +258,7 @@ Apache Cassandra Committer</description>
       <guid>/sessions/ai-912444.html</guid>
       <description>As a popular OLAP real-time analysis database, Apache Doris has built or is planning more AI-related features and peripheral components, such as vector retrieval, MCP, RAG and other functions or components, in the current era of rapid changes in the AI ​​wave. Through this communication and demonstration, the current progress of Doris in the direction of AI will be announced.
 Speakers: 
+奕嘉 苏
 Apache Doris Committer, Apache Doris Community Evangelist, Doris-MCP Contributor, SelectDB Senior Solution Architect, PowerData Community Initiator, has assisted hundreds of companies in the Apache Doris community to complete real-time data warehouse construction and optimization evolution.</description>
     </item>
     
@@ -265,8 +268,7 @@ Apache Doris Committer, Apache Doris Community Evangelist, Doris-MCP Contributor
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/sessions/olap-912431.html</guid>
-      <description>Apache Doris has undergone nearly 2 years of development at Cainiao, from early validation exploration to gradual implementation of core business scenarios, and has gone through the test of the Double 11 promotion peak, Currently, Doris is the best choice for OLAP at Cainiao. In this sharing, we will introduce Doris&#39; entire development process from 0 to 1 at Cainiao, the challenges she encountered, and more.
-How can we achieve large-scale deployment based on the business scenario of Cainiao, helping businesses achieve significant cost reduction and stability improvement.</description>
+      <description>Apache Doris has undergone nearly 2 years of development at Cainiao, from early validation exploration to gradual implementation of core business scenarios, and has gone through the test of the Double 11 promotion peak, Currently, Doris is the best choice for OLAP at Cainiao. In this sharing, we will introduce Doris&#39; entire development process from 0 to 1 at Cainiao, the challenges she encountered, and more How can we achieve large-scale deployment based on the business scenario of Cainiao, helping businesses achieve significant cost reduction and stability improvement.</description>
     </item>
     
     <item>
@@ -295,9 +297,7 @@ Outline:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/sessions/dataops-912400.html</guid>
-      <description>Apache Gravitino 统一管理了 Data 和 AI 的元数据，特别是在管理云上和云下多集群的场景中，可以非常好的发挥 Gravitino 统一元数据后，带来的数据在云上和云下无感知迁移和使用、大数据集群丝滑滚动升级、统一公有云和私有化部署的大数据集群的权限系统。 在本次的分享中，除了介绍 Apache Gravitino 在多集群管理中的诸多特性之外，还讲分享海内外用户的 Apache Gravitino 最佳实践。
-Speakers: 
-Xun Liu, with twenty years of software development experience, has been working in the field of big data development for the past ten years. He is a Member of the Apache Software Foundation and an incubator mentor, and has incubated a number of open-source projects in Apache, as well as a member of the Committer of Apache Hadoop and Zeppelin.</description>
+      <description>Apache Gravitino unifies the management of Data and AI metadata. Especially in the scenario of managing multiple clusters on and off the cloud, Gravitino&amp;rsquo;s unification of metadata can be very well utilized to bring out the benefits of sense-less migration and usage of data on and off the cloud, silky-smooth rolling upgrades of big data clusters, and unification of the permissions system for big data clusters in the public cloud and in privatized deployments.</description>
     </item>
     
     <item>
@@ -317,6 +317,7 @@ Xun Liu, with twenty years of software development experience, has been working 
       <guid>/sessions/cloudnative-905997.html</guid>
       <description>Apache HertzBeat is a next-generation open-source real-time monitoring and alerting platform. It highlights the importance of monitoring and the pain points of traditional solutions, positioning HertzBeat as an &amp;ldquo;All in One&amp;rdquo; solution for unified monitoring and an enhanced user experience.
 Speakers: 
+Hongyu Liu
 I am currently employed by China Unicom Data Intelligence Co., Ltd. I contributed my first line of code to the Apache ShenYu community in 2024 and am currently a Committer for both Apache ShenYu and Apache HertzBeat.</description>
     </item>
     
@@ -389,6 +390,7 @@ Here’s the plan for our 30-minute dive: Start with a 5-minute intro on why Ice
       <guid>/sessions/cloudnative-913295.html</guid>
       <description>In this session, I will introduce some key features of Apache Kafka 4.0, including the next-generation consumer rebalance protocol (KIP-848), queues for Kafka (KIP-932), and more, then discuss how to smoothly upgrade from older Kafka versions to 4.0 and analyze the implications for client compatibility. Finally, I will share Huawei Cloud’s explorations and practices in cloud-native based on Apache Kafka 4.0.
 Speakers: 
+Lan Ding
 Software engineer of Huawei Cloud Middleware Team, Apache RocketMQ Contributor, Apache Kafka Contributor, responsible for the development of Huawei Cloud Kafka.</description>
     </item>
     
@@ -400,6 +402,7 @@ Software engineer of Huawei Cloud Middleware Team, Apache RocketMQ Contributor, 
       <guid>/sessions/iot-868355.html</guid>
       <description>With the release of Apache NIFI 2.0 , I will introduce the new features and functionalities for Apache NIFI 2.0, including Nifi Cloud Native and Nifi Functions.
 Speakers: 
+Yan Liu
 Cloudera Solution Engineering . Apache Hive and Apache Flink Contributor. Over 10 Years of Practical Experience in Big Data and my current focus is real-time data warehouse using Apache Flink, Apache Hive, and Apache Iceberg.</description>
     </item>
     
@@ -411,6 +414,7 @@ Cloudera Solution Engineering . Apache Hive and Apache Flink Contributor. Over 1
       <guid>/sessions/datastorage-910450.html</guid>
       <description>At Shopee, we have been using Ozone for over four years, with the number of stored objects reaching the billions. In this session, I will introduce two features we developed: Object Lifecycle Management and Storage Class.
 Speakers: 
+Hui Fei
 I have been working in the big data field for over ten years, with a strong interest in distributed storage and performance optimization. I am currently leading the storage team in the data infra department at Shopee</description>
     </item>
     
@@ -451,6 +455,7 @@ A new integration with Apache XTable promises to extend this same functionality 
       <guid>/sessions/dataops-908655.html</guid>
       <description>A Model Context Protocol (MCP) server for Apache Seatunnel. This provides access to your Apache Seatunnel RESTful API V2 instance and the surrounding ecosystem.
 Speakers: 
+Haicheng Zhang
 A Practitioner Who Likes to Toss</description>
     </item>
     
@@ -462,6 +467,7 @@ A Practitioner Who Likes to Toss</description>
       <guid>/sessions/community-915782.html</guid>
       <description>The session will describe the challenges that have faced for the Open Source Adoption in the Mexican Federal Administration and how the projects which implements Apache Software have been succesful in benefit of the Mexican Population at National scale.
 Speakers: 
+Víctor Manuel Romero Rodríguez
 Hailing from Mexico City, Victor Romero now has over 20 years of experience in the area of ​​Information Technology applied to Financial Services after completing his Bachelor of Computer Science at the National Polytechnic Institute,</description>
     </item>
     
@@ -471,9 +477,10 @@ Hailing from Mexico City, Victor Romero now has over 20 years of experience in t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/sessions/streaming-890348.html</guid>
-      <description>The telecommunications log scenario has been replaced from backend services to Flink tasks, including log access, log parsing, and log alerts. With 50+clusters and 2000+ Flink tasks, the timeliness has been improved by 200%
+      <description>The telecommunications log scenario has been replaced from backend services to Flink tasks, including log access, log parsing, and log alerts. With 50+clusters and 2000+Flink tasks, the timeliness has been improved by 200%
 Speakers: 
-Yan Zuo, a telecommunications data intelligence technology expert, is responsible for building the data center and log platform. Contributors for open-source projects such as Apache Flink, Apache Doris, Flink CDC, StarRocks, and Fluss.</description>
+左 岩
+Zuo Yan, a telecommunications data intelligence technology expert, is responsible for building the data center and log platform. Contributors for open-source projects such as Apache Flink, Apache Doris, Flink CDC, StarRocks, and Fluss.</description>
     </item>
     
     <item>
@@ -511,6 +518,7 @@ Yan Zuo, a telecommunications data intelligence technology expert, is responsibl
       <guid>/sessions/incubator-908738.html</guid>
       <description>BifroMQ is a Java-based, high-performance MQTT broker currently incubating at the Apache Software Foundation. It is designed from the ground up to support native multi-tenancy, linear scalability, and massive concurrent connections—all while ensuring consistently low-latency messaging. In this session, we will explore the architectural principles that shape BifroMQ’s design, driven by the unique challenges of building a multi-tenant distributed MQTT broker.
 Speakers: 
+Hao Yonny(Yu)
 I joined Baidu in 2017 and have since been focused on designing and building large-scale distributed systems, with a particular emphasis on high-performance messaging infrastructure.</description>
     </item>
     
@@ -570,6 +578,7 @@ As a next-generation open-source MPP database, Apache Cloudberry extends its tec
       <guid>/sessions/messaging-890417.html</guid>
       <description>Analyzing Huawei Cloud IoT&amp;rsquo;s best practices in building a subscription and push service based on Apache Pulsar. While subscription and push services may seem straightforward, they involve numerous architectural decisions. This talk delves into how we designed a unified push service architecture to ensure high reliability and stability for massive data distribution, enabling customers to efficiently integrate with data streams and accelerate digital transformation.
 Speakers: 
+Zhangjian He
 Open-source enthusiast and experienced engineer.</description>
     </item>
     
@@ -677,6 +686,7 @@ We welcome you to share your community story with a broader audience.</descripti
       <guid>/sessions/olap-897534.html</guid>
       <description>Evolution of BestPay&amp;rsquo;s Security Data Architecture and Use Cases: 1.Unified Log Analysis &amp;amp; Auditing 2.User Security Profiling and Malicious Behavior Detection
 Speakers: 
+Jianqun liu
 Jianqun Lau, China Telecom Bestpay Co.,Ltd. Technical Director , ChinaTelecom Senior Security Specialist ，10+ years of R&amp;amp;D and architecture experience</description>
     </item>
     
@@ -691,7 +701,7 @@ Big Data is also a very important part of ASF. ASF has so many big data storage 
     </item>
     
     <item>
-      <title>Data Warehouse Virtualization Technology Based on Apache Calcite</title>
+      <title>Data Warehouse Virtualization Technology Based on Apache Calcite（基于 Apache Calcite 的“数仓虚拟化”技术）</title>
       <link>/sessions/olap-913442.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -810,6 +820,7 @@ Agentic AI applications can be categorized into two types based on their trigger
       <guid>/sessions/messaging-913153.html</guid>
       <description>This sharing will compare the features of Pulsar and Rocketmq, as well as how Pulsar is implemented in the online scenario of Xiaohongshu (including feature delay, multi-active, compression, etc.), and what actual benefits the enterprise gets.
 Speakers: 
+Steven Lu
 The person in charge of online MQ of Xiaohongshu Company, Apache BookKeeper Committer, has 5 years of development experience in MQ and is committed to building stable and reliable basic components.</description>
     </item>
     
@@ -821,7 +832,8 @@ The person in charge of online MQ of Xiaohongshu Company, Apache BookKeeper Comm
       <guid>/sessions/streaming-909040.html</guid>
       <description>Flex is designed to be a unified engine that supports both stream and batch processing, leveraging vectorization to maximize performance. Its goal is to seamlessly handle diverse data workloads, whether they are real-time streams or batch jobs, with high efficiency and scalability.
 Speakers: 
-Expert in Distributed Computing Engines at Ant Financial, Calcite Committer and Flink Contributor with 10 years of Big Data development experience, focus on Flink/Spark/HBase.</description>
+Jacky Lau
+Expert in Distributed Computing Engines at Ant Financial, Calcite Committer and Flink Contributor with 10 years of Big Data development experience, focus on Flink/Spark/HBase</description>
     </item>
     
     <item>
@@ -899,6 +911,7 @@ Third part will speak about how to get financial support for a free and Open Sou
       <guid>/sessions/rust-915098.html</guid>
       <description>Apache DataFusion is a high-performance SQL Execution Engine in Rust. This session will share some generic and fundamental optimizations. Most of them are not specific to any DSL, hence don&amp;rsquo;t require extensive knowledge of SQL algorithms and can be applied to other scenarios.
 Speakers: 
+Ruihang Xia
 Apache DataFusion PMC, Apache Arrow Committer, Apache HoraeDB PPMC Senior SWE at Greptime https://github.com/waynexia</description>
     </item>
     
@@ -928,6 +941,7 @@ Apache DataFusion PMC, Apache Arrow Committer, Apache HoraeDB PPMC Senior SWE at
       <guid>/sessions/cloudnative-911323.html</guid>
       <description>Users can build High Performance, Low Cost, Open Observability powered by Apache Doris. It&amp;rsquo;s 5x times more cost efficient then Elastcicsearch and compatible to open standard such as OpenTelemetry.
  Observability challenges Observability powered by Apache Doris, including architecture, ecosystem, key technics Typical user cases  Speakers: 
+Kang Xiao
 SelectDB, VP QianXin and 360, Director Baidu, Senior Engineer</description>
     </item>
     
@@ -986,6 +1000,7 @@ Statistics about the data can be of immense help to database engines in creating
       <guid>/sessions/cloudnative-913294.html</guid>
       <description>Since version 1.0.0, Apache IoTDB has provided a unified system monitoring framework, allowing database developers to define system monitoring indicators such as counters and register them for unified management, and supporting the Prometheus + Grafana monitoring indicator visualization solution. After a year of practice, 4 visual monitoring panels and a lot of tuning experience based on system monitoring have been formed.
 Speakers: 
+洪胤 张
 Zhang Hongyin, Apache Committer, Master&amp;rsquo;s student of Tsinghua University, Class of 2022, is currently responsible for Apache IoTDB memory management, system monitoring, and standardized testing.</description>
     </item>
     
@@ -1025,7 +1040,7 @@ Participants will learn about the process of entering the incubator and progress
       <guid>/sessions/keynote-914074.html</guid>
       <description>With the rapid development of the global open-source ecosystem, the influence of China&amp;rsquo;s open-source community on the international stage has continued to grow. This report is based on data analysis from the China Open Source Annual Report, focusing on the participation, technical contributions, and development trends of the Apache open-source community in China. It aims to reveal the community&amp;rsquo;s role and challenges within the global open-source ecosystem.
 Speakers: 
-Wang Wei, currently a professor at the School of Data Science and Engineering, East China Normal University, X-lab open laboratory founder.</description>
+Wei Wang</description>
     </item>
     
     <item>
@@ -1074,6 +1089,7 @@ In order to better realize the core needs of the IoT industry such as device com
       <guid>/sessions/messaging-879741.html</guid>
       <description>This session introduces the smooth migration of self-built Kafka cluster to Tencent Cloud CKafka solution, without paying attention to the produce and consume application switching order during migration. In addition, this section describes the fault disaster recovery on Tencent Cloud CKafka.
 Speakers: 
+仕林 鲁
 I graduated from Tianjin University majoring in software engineering. At present, I am responsible for the development and optimization of Kafka kernel in Tencent Cloud, and have 7 years of experience in the development and operation and maintenance of message middleware.</description>
     </item>
     
@@ -1104,6 +1120,7 @@ The Apache-licensed Lance format is built on Apache Arrow and Apache Datafusion,
       <guid>/sessions/datastorage-912411.html</guid>
       <description>Processing petabyte-scale shuffle data everyday poses significant challenges for batch jobs, especially shuffle performance. In this talk, Erik will present how Apache Celeborn is used with Spark at Ant Group, dive into several topics including correctness validation, bottleneck diagnose, performance optimization and DFS integration.
 Speakers: 
+Erik Fang
 Erik Fang, Software Engineer at Ant Group, Tech Leader</description>
     </item>
     
@@ -1125,6 +1142,7 @@ At Tencent Cloud, we have developed a robust, cloud-based MQTT solution built on
       <guid>/sessions/webserver-889038.html</guid>
       <description>This technical session shares practical experiences and key insights gained from building and deploying a production service gateway using Tomcat and Java 21 virtual threads. We&amp;rsquo;ll explore how Tomcat&amp;rsquo;s native virtual thread support transforms gateway performance, the challenges faced during migration, and best practices that emerged during our journey of modernizing a traditional Tomcat-based service gateway with Project Loom&amp;rsquo;s virtual threads.
 Speakers: 
+Yike Xiao
 A veteran distributed systems architect with over a five years of hands-on experience in:</description>
     </item>
     
@@ -1230,17 +1248,7 @@ The talk will cover strategies for identifying appropriate tasks, writing clear 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/sessions/olap-911203.html</guid>
-      <description>How does Doris on Paimon integrate with Xiaomi&amp;rsquo;s OLAP architecture system and integrate with OLAP multi engines (Spark, Presto) a. Unified SQL gateway proxy access: Implement traffic control, unified authentication, and simplify Doris&#39; access through a unified proxy layer protocol and client SDK b. SQL automatic routing: By analyzing RBO and CBO rules, the most suitable SQL is routed to Doris for execution, achieving the effect of accelerating and reducing costs c.</description>
-    </item>
-    
-    <item>
-      <title>Optimizing Observability: Unveiling BanyanDB&#39;s Hot-Warm-Cold Architecture</title>
-      <link>/sessions/observability-910659.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sessions/observability-910659.html</guid>
-      <description>In this sharing session, I will focus on BanyanDB&amp;rsquo;s innovative hot-warm-cold architecture, a design that marks a significant leap forward in modern system observability. We will analyze why tiered architecture is the optimal choice for managing massive metrics, traces, and logging data, and how BanyanDB ingeniously puts this concept into practice while balancing excellent performance, cost-effectiveness, and data storage efficiency.
-This presentation will reveal the core advantages of BanyanDB&amp;rsquo;s architecture: it not only provides instant insights and accelerates decision-making processes but also significantly reduces operational costs while ensuring data storage scalability.</description>
+      <description>How does Doris on Paimon integrate with Xiaomi&amp;rsquo;s OLAP architecture system and integrate with OLAP multi engines (Spark, Presto) a、 Unified SQL gateway proxy access: Implement traffic control, unified authentication, and simplify Doris&#39; access through a unified proxy layer protocol and client SDK b. SQL automatic routing: By analyzing RBO and CBO rules, the most suitable SQL is routed to Doris for execution, achieving the effect of accelerating and reducing costs c.</description>
     </item>
     
     <item>
@@ -1306,6 +1314,7 @@ The Ant Group Open Source Incubation, deeply rooted in the principles of the Apa
       <guid>/sessions/observability-908230.html</guid>
       <description>Distributed tracing is crucial in observability, driving improvements in tracing agent usability across languages. This talk demonstrates Ruby application monitoring with Apache SkyWalking and dives into its auto-instrumentation implementation.
 Speakers: 
+Zixin Zhou
 Apache SkyWalking PMC Member &amp;amp; Committer, open-telemetry Member, openzipkin &amp;amp; pinpoint-apm Contributor.</description>
     </item>
     
@@ -1348,6 +1357,7 @@ We’ll show how Apache Flink’s native LLM integration leverages this queue mo
       <guid>/sessions/general-915544.html</guid>
       <description>Redefine team communication with radical transparency. Fostering a culture of openness, honesty, and positivity in your team, can create a work environment where everyone feels empowered to do their best work and grow both personally and professionally. This talk will give an overview to bringing radical transparency into your DevOps, software and product development processes.
 Speakers: 
+Gregory Lind
 Author of &amp;ldquo;Radical Therapy for Software Teams&amp;rdquo;, CEO of Buildly, and 20+ year career in Software, Open Source and Startups.</description>
     </item>
     
@@ -1359,6 +1369,7 @@ Author of &amp;ldquo;Radical Therapy for Software Teams&amp;rdquo;, CEO of Build
       <guid>/sessions/microservice-916450.html</guid>
       <description>In this talk, we will explore how Higress, a high-performance cloud-native API gateway, can be utilized to swiftly build intelligent microservices. Higress facilitates quick and efficient building of intelligent microservices, enhancing both development agility and operational intelligence. Through its powerful artificial intelligence capabilities and exceptional traffic management, Higress is transforming how organizations deploy and manage microservice-based intelligent agents across diverse cloud environments.
 Speakers: 
+Min Ji
 Ji Min (Qing Ming) is the head of distributed transaction products at Alibaba Cloud and a maintainer for Higress.</description>
     </item>
     
@@ -1501,7 +1512,8 @@ We&amp;rsquo;ll use a Django case study and Apache JMeter to demonstrate effecti
       <guid>/sessions/microservice-871350.html</guid>
       <description>Currently Cloud Native Security is becoming more and more important. Dubbo as a significant framework with network should do more to protect users from attack. In this section, you will learn how to build a zero-trust network with Dubbo Triple protocol and xDS protocol using Service Mesh.
 Speakers: 
-Apache Dubbo PMC member. Interested in Cloud Native, Micro Service and Security.</description>
+河清 江
+Apache Dubbo PMC. Interested in Cloud Native, Micro Service and Security.</description>
     </item>
     
     <item>
@@ -1633,7 +1645,7 @@ In this session, we&amp;rsquo;ll explore how Apache Hive, powered by Apache Iceb
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/sessions/microservice-915252.html</guid>
-      <description>As microservice architectures continue to evolve, there is an increasing demand for communication frameworks with enhanced flexibility, universality, and performance. A notable industry example is the newly introduced Triple X protocol by Apache Dubbo, which breaks the boundaries of traditional RPC communication methods. It achieves unified access, protocol-agnostic operation, and enhanced semantic communication capabilities, while fully supporting mainstream protocols such as HTTP/2, gRPC, and Protobuf, greatly improving the compatibility and development efficiency of heterogeneous systems.</description>
+      <description>As the microservice architecture continues to evolve, the flexibility, versatility and performance of communication frameworks have put forward higher requirements. A typical representative in the industry is the Triple X protocol introduced by Apache Dubbo, which breaks through the boundaries of traditional RPC communication, realizes unified access, protocol-independent, semantically enhanced communication capabilities, and comprehensively supports mainstream protocols such as HTTP/2, gRPC, Protobuf, etc., which greatly improves the compatibility and development efficiency of heterogeneous systems.</description>
     </item>
     
     <item>
@@ -1642,7 +1654,9 @@ In this session, we&amp;rsquo;ll explore how Apache Hive, powered by Apache Iceb
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/sessions/olap-914989.html</guid>
-      <description>How to build the underlying storage of the data sandbox in the trusted data space based on Apache Doris, achieve the control of data resources, and ensure that the data is &amp;ldquo;usable but invisible&amp;rdquo;. The application of the federated query capability of Apache Doris in the data processing and analysis within the data space. Create efficient spatial services for indicators and labels through unified storage.  Speakers: 
+      <description>1.How to build the underlying storage of the data sandbox in the trusted data space based on Apache Doris, achieve the control of data resources, and ensure that the data is &amp;ldquo;usable but invisible&amp;rdquo;. 2.The application of the federated query capability of Apache Doris in the data processing and analysis within the data space. 3.Create efficient spatial services for indicators and labels through unified storage.
+Speakers: 
+Zhuyuan Yang
 With years of experience in the big data field, covering areas such as platform architecture design, data governance, and real - time data processing and analysis.</description>
     </item>
     
@@ -1685,7 +1699,7 @@ We’ll cover the basics of MCP (host/client/server roles, lifecycle, standard I
 Understand the advantages of Dubbo-go-Pixiu in handling multi-protocol communication scenarios commonly encountered in AI applications.
 Explore how to utilize Dubbo-go-Pixiu&amp;rsquo;s capabilities in traffic governance, security authentication, and observability to ensure stable operation and secure access for AI applications.
 Speakers: 
-A seasoned backend infrastructure R&amp;amp;D professional with over a decade of hands-on experience, deeply familiar with instant messaging, NoSQL systems, and service governance, and has played a role in enhancing notable projects like Redis, Pika, Dubbo, Sentinel, and Seata.</description>
+Stocks Alex</description>
     </item>
     
     <item>
@@ -1788,6 +1802,7 @@ This talk explains what common barriers are to accomplishing objectives of peopl
       <guid>/sessions/messaging-905772.html</guid>
       <description>This presentation will introduce the evolution of Xiaomi&amp;rsquo;s MQTT system architecture, highlighting advancements in stability, performance, and cost optimization. Key initiatives include managing massive topics, ensuring message ordering, disaster recovery mechanisms, tiered storage solutions, dictionary compression techniques, data integration, containerization, and more.
 Speakers: 
+Fan Wang
 Joined Xiaomi in 2018, specializing in messaging and storage systems. Responsible for Xiaomi&amp;rsquo;s MQ, HBase, and ElasticSearch platforms, among others.</description>
     </item>
     
@@ -1798,6 +1813,16 @@ Joined Xiaomi in 2018, specializing in messaging and storage systems. Responsibl
       
       <guid>/sessions/datalake-915144.html</guid>
       <description>In big data scenarios, efficient data retrieval is a core requirement for many business applications.​​ As the cornerstone of full-text search and complex queries, inverted indexes can significantly improve query performance, particularly excelling in log analysis scenarios requiring fuzzy matching. Compared to traditional solutions, leveraging the storage scalability and compute-storage separation advantages of lakehouse table formats can effectively reduce index storage costs. However, implementing scalable, low-maintenance inverted indexes in data lake architectures using modern table formats (like Apache Iceberg) still presents multiple challenges, including real-time synchronization between indexes and data, consistency guarantees in distributed environments, and query optimization issues.</description>
+    </item>
+    
+    <item>
+      <title>优化可观测性：揭秘BanyanDB的热-温-冷架构</title>
+      <link>/sessions/observability-910659.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/observability-910659.html</guid>
+      <description>In this talk, I&amp;rsquo;ll focus on BanyanDB&amp;rsquo;s innovative hot-warm-cold architecture, a design that marks a major leap forward in the field of modern system observability. We will explain why a tiered architecture is the right choice for managing massive amounts of metrics, tracking, and logging data, and how BanyanDB skillfully puts this concept into practice while balancing superior performance, cost-effectiveness, and data storage efficiency.
+This session will reveal the core benefits of the BanyanDB architecture: it not only provides instant insights to accelerate decision-making, but also significantly reduces operational costs while ensuring scalability of data storage.</description>
     </item>
     
   </channel>
