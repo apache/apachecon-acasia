@@ -2,7 +2,7 @@
 title: "Apache HugeGraph 1.5.0: Best Practices for Enterprise-Grade Deployment"
 date: ""
 track: "general"
-presenters: "Hao Zhao"
+presenters: "浩 赵"
 stype: "Chinese Session"
 ---
 
@@ -13,7 +13,7 @@ This session presents enterprise-level upgrade practices from Apache HugeGraph 0
 
 <img src="https://sessionize.com/image/62a1-400o400o1-UaS49NKQx2cdgskM6goq17.jpg" width="200" /><br/>
 
-浩 赵:  Apache Hugegraph Contributor/Senior Big Data Engineer
+赵 浩:  Apache Hugegraph Contributor/Senior Big Data Engineer
 
  Apache Hugegraph Contributor/Senior Big Data Engineer
 

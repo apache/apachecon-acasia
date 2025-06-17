@@ -2,7 +2,7 @@
 title: "Secure your Dubbo application using Triple and xDS"
 date: ""
 track: "microservice"
-presenters: "Heqing Jiang"
+presenters: "河清 江"
 stype: "Chinese Session"
 ---
 

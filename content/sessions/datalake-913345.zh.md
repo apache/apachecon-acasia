@@ -2,7 +2,6 @@
 title: "优化 Parquet 存储：元数据管理、性能调优和无缝迁移"
 date: ""
 track: "datalake"
-
 presenters: "甘红楠, 何正杰"
 stype: "中文演讲"
 ---

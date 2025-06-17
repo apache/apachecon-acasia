@@ -2,7 +2,7 @@
 title: "Apache Hudi in Action: Accelerating Kuaishou's Data Warehouse Architecture Upgrade"
 date: ""
 track: "datalake"
-presenters: "Chaoyang Liu"
+presenters: "朝阳 刘"
 stype: "Chinese Session"
 ---
 
@@ -29,7 +29,7 @@ Discuss Kuaishou's roadmap for integrating data lake capabilities with BI (Busin
 
 <img src="https://sessionize.com/image/8a30-400o400o1-DXZEDcKH4tBMugeSDeE4vj.jpg" width="200" /><br/>
 
-朝阳 刘: Core Hudi R&D Engineer at Kuaishou
+朝阳 刘: 快手核心Hudi工程师 | Apache Hudi活跃贡献者 | Apache RocketMQ提交者
 
 Core Hudi Engineer at Kuaishou | Apache Hudi Active Contributor | Apache RocketMQ Committer
 

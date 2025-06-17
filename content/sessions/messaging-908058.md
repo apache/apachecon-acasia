@@ -2,9 +2,9 @@
 title: "Apache RocketMQ Eventbridge: Why Your GenAI Needs EDA？"
 date: ""
 track: "messaging"
-presenters: "Lin Shen"
+presenters: "林 沈"
 stype: "Chinese Session"
---- 
+---
 
 If you are involved in the field of AI, you should pay attention to the significant assistance that EDA provides to LLMs and AI Agents. This presentation will primarily discuss the changes that EDA is bringing to GenAI:
 

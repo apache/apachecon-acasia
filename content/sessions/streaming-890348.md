@@ -2,7 +2,7 @@
 title: "Application of Apache Flink in China Telecom's Logging Scenario"
 date: ""
 track: "streaming"
-presenters: "Yan Zuo"
+presenters: "左 岩"
 stype: "Chinese Session"
 ---
 

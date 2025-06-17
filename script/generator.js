@@ -111,7 +111,7 @@ function updateFileContent(filePath, newFrontmatter, newContent) {
       const updatedFrontmatter = Object.entries(newFrontmatterObj)
         .map(([key, value]) => `${key}: "${value}"`)
         .join('\n');
-      const updatedContent = `---\n${updatedFrontmatter}\n---\n\n${parts.content}`;
+      const updatedContent = `---\n${updatedFrontmatter}\n---\n${parts.content}`;
       fs.writeFileSync(filePath, updatedContent, 'utf8');
     } else {
       const fullContent = `---\n${newFrontmatter}\n---\n\n${newContent}`;

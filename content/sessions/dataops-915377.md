@@ -2,7 +2,7 @@
 title: "SeaTunnel Architecture Analysis and Cloudberry Integration Practice"
 date: ""
 track: "dataops"
-presenters: "Hongyu Chen"
+presenters: "虹宇 陈"
 stype: "Chinese Session"
 ---
 
