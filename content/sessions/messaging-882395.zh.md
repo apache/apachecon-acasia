@@ -1,7 +1,7 @@
 ---
 title: "腾讯云上的 Kafka：无缝迁移与灾难恢复"
 date: ""
-track: "messaging"Add commentMore actions
+track: "messaging"
 presenters: "鲁仕林"
 stype: "Chinese Session"
 ---
