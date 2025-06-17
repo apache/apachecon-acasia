@@ -866,7 +866,7 @@ Wei Wang: Professor of East China Normal University</description>
       <guid>/sessions/messaging-882395.html</guid>
       <description>This session introduces the seamless migration of self-built Kafka cluster to Tencent Cloud CKafka solution, without paying attention to the produce and consume application switching order during migration. In addition, this section describes the fault disaster recovery on Tencent Cloud CKafka.
 Speakers: 
-仕林 鲁: Tencent Cloud Expert Engineer
+Shilin Lu: Tencent Cloud Expert Engineer
 I graduated from Tianjin University majoring in software engineering. At present, I am responsible for the development and optimization of Kafka kernel in Tencent Cloud, and have 7 years of experience in the development and operation and maintenance of message middleware.</description>
     </item>
     
