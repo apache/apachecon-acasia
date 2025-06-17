@@ -17,9 +17,8 @@ Users can build High Performance, Low Cost, Open Observability powered by Apache
 
 <img src="https://sessionize.com/image/40fa-400o400o1-LJ32faVgD31ycD9L9S4w5G.png" width="200" /><br/>
 
-Kang Xiao
+Kang Xiao: Apache Doris PMC Member and SelectDB VP
 
 SelectDB, VP
 QianXin and 360, Director
 Baidu, Senior Engineer
-

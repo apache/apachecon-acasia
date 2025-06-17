@@ -13,6 +13,6 @@ Flex is designed to be a unified engine that supports both stream and batch proc
 
 <img src="https://sessionize.com/image/d1f0-400o400o1-Y9Jb1kV34FfnXoT1DRv3hh.jpg" width="200" /><br/>
 
-Jacky Lau
+Jacky Lau: Expert in Distributed Computing Engines at Ant Financial, Calcite Committer and Flink Contributor
 
 Expert in Distributed Computing Engines at Ant Financial, Calcite Committer and Flink Contributor with 10 years of Big Data development experience, focus on Flink/Spark/HBase

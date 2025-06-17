@@ -15,7 +15,6 @@ In this talk I will show you how you can tackle this typical use case which most
 
 <img src="https://sessionize.com/image/a61c-400o400o1-HAF3PCbZfVSFWcBNV3JJu6.jpg" width="200" /><br/>
 
-Alexey Novakov
+Alexey Novakov: Ververica, Product Solution Architect
 
 I am a Solution Architect working for last the last 6 years on data solutions and products. At Ververica I am focusing on supporting clients to solve their challenges in adopting data stream processing with Apache Flink. Among my previous project and companies I developed different systems such as Data Lakes, Data Integration and Data Virtualization Layers. In my spare time, I contribute to various open-source projects or start my own for fun. Apart from programming I have some hobbies like astronomy, playing music and gym.
-

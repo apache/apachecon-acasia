@@ -12,6 +12,6 @@ Flex 旨在打造一个统一的引擎，支持流式和批处理，并利用矢
 
 <img src="https://sessionize.com/image/d1f0-400o400o1-Y9Jb1kV34FfnXoT1DRv3hh.jpg" width="200" /><br/>
 
-Jacky Lau
+Jacky Lau: 蚂蚁金服分布式计算引擎专家、Calcite Committer 和 Flink 投稿人
 
 蚂蚁金服分布式计算引擎专家，Calcite Committer 和 Flink Contributor，拥有 10 年大数据开发经验，专注于 Flink/Spark/HBase

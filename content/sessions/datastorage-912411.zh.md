@@ -13,6 +13,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/b1c9-400o400o1-ViFu91gMiwhoxRXCaUYbM2.jpg" width="200" /><br/>
 
-Erik Fang
+Erik Fang: 蚂蚁集团软件工程师，技术负责人
 
 Erik Fang，蚂蚁集团软件工程师，技术负责人

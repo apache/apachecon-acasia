@@ -26,7 +26,7 @@ Through this sharing, users will learn how Xiaomi leverages Apache Paimon to opt
 
 <img src="https://sessionize.com/image/8968-400o400o1-XFskLG5iSQjayU8GPBBL9V.jpg" width="200" /><br/>
 
-Houliang Qi
+Houliang Qi: Xiaomi
 
 PMC member of Apache IoTDB and Apache TsFile. Software R&D Engineer at Xiaomi, specializing in the development and implementation of Xiaomi's datalake platform.
 

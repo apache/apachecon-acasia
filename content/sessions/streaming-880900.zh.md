@@ -14,6 +14,6 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/7ced-400o400o1-nQpjeSxnTeKrZ8WmXy1V7q.jpg" width="200" /><br/>
 
-Lester Martin
+Lester Martin: 天合光能开发人员倡导者 - Starburst
 
 Lester Martin 是一位经验丰富的开发倡导者、培训师、博主和数据工程师，专注于使用 Trino、Iceberg、Hive、Spark、Flink、Kafka、NiFi、NoSQL 数据库以及经典关系型数据库管理系统 (RDBMS) 进行数据管道和数据湖分析。访问 Lester 的博客：https://lestermartin.blog。

@@ -14,6 +14,6 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/8870-400o400o1-PDR3hsSKRCfWb1Fbh3WVdT.jpg" width="200" /><br/>
 
-Divya Mohan
+Divya Mohan: 开放源代码维护者和倡导者
 
 Divya 是 SUSE 的高级技术布道师，致力于推动 Rancher 的云原生开源项目。她担任 Kubernetes 和 LitmusChaos 项目的文档联合主席，并在汇丰银行和 IGate Global Solutions Pvt Ltd 任职期间，在系统工程领域积累了丰富的工作经验。作为 KCNA 考试的共同创建者和 CNCF 大使，她致力于让技术社区和技术更加易于访问和包容。

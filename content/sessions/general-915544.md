@@ -13,7 +13,6 @@ Redefine team communication with radical transparency.  Fostering a culture of o
 
 <img src="https://sessionize.com/image/a2ff-400o400o1-s5BFvtTz2tqV3PWZFaWQJo.png" width="200" /><br/>
 
-Gregory Lind
+Gregory Lind: Author of "Radical Therapy for Software Teams", Buildly CEO and Founder
 
 Author of "Radical Therapy for Software Teams", CEO of Buildly, and 20+ year career in Software, Open Source and Startups. Founder and CTO of four successful startups in 3 different countries. Worked with NGOs and Government agencies building open source grant management systems.
-

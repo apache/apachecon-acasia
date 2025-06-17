@@ -18,7 +18,7 @@ stype: "Chinese Session"
 
 <img src="https://sessionize.com/image/3431-400o400o1-W4FtSbysmF3yQTCTtNkpiH.jpg" width="200" /><br/>
 
-Xin Wang
+Xin Wang: ASF Member & IPMC Member,  Ant Group Real time Data and Data Native Team Leader.
 
 ASF Member & IPMC Member,  Ant Group Real time Data and Data Native Team Leader.
 

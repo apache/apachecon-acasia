@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/3c29-400o400o1-BiComMLVtWVfHasDpxJ8zj.jpg" width="200" /><br/>
 
-Hui Fei
+Hui Fei: 存储团队主管，数据基础设施，Shopee
 
 我在大数据领域工作超过十年，对分布式存储和性能优化有着浓厚的兴趣。目前，我在 Shopee 的数据基础设施部门担任存储团队的负责人。

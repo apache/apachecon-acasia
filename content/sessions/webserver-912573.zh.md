@@ -14,6 +14,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/90c0-400o400o1-YD8s8BJWzqmRyiYtzK6zaR.png" width="200" /><br/>
 
-Stocks Alex
+Stocks Alex: Dubbogo 社区的发言人
 
 资深后端基础设施研发专家，拥有十余年实践经验，精通即时通讯、NoSQL 系统、服务治理，在 Redis、Pika、Dubbo、Sentinel、Seata 等知名项目中发挥了重要作用。

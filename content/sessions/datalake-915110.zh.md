@@ -18,6 +18,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/6797-400o400o1-dbccedf4-ca5c-4ac7-9407-da8d909f00a6.jpg" width="200" /><br/>
 
-Xuannan Su
+Xuannan Su: 阿里巴巴
 
 Xuannan 是阿里巴巴的一名软件工程师，2019 年获得卡内基梅隆大学硕士学位后，专注于 Apache Flink 及其生态系统的开发。

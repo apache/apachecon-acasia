@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/3f1d-400o400o1-LXK34oxikVSsnDfxJVqaiE.png" width="200" /><br/>
 
-Wu Xinfan
+Wu Xinfan: AI 基础架构工程师、apache dubbo committer
 
 开源爱好者，Apache Dubbo 提交者，目前致力于构建 AI 计算平台。

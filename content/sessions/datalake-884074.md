@@ -13,14 +13,12 @@ The Gluten-Velox integration represents a significant leap forward, delivering a
 In this talk, we will provide a brief introduction to the native engines Gluten and Velox and explore the enablement of Gluten and Velox on Arm64, presenting experimental results that demonstrate the potential of this approach on the Arm Neoverse N2 platform. Additionally, we will discuss an optimization case for Velox on Arm64, showcasing strategies to further enhance performance.
 
 
-
-
 ### Speakers:
 
 
 <img src="https://sessionize.com/image/c0c6-400o400o1-ssHnQc9M2G2yMbua5opioP.jpg" width="200" /><br/>
 
-Yuqi Gu
+Yuqi Gu: Apache Bigtop and Ambari PMC member (guyuqi@apache.org)
 
 - Work at Arm China. Collaborate closely with Arm Infra LoB. The role involves promoting ARM infrastructure products (server and networking) from initial evaluation to final deployment. 
 - Apache Bigtop PMC member, Apache Bigtop former Chair (2021~2023).

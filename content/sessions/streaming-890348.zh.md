@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/3e2f-400o400o1-nyYsi4kXsTiAwBjfBy4BNP.png" width="200" /><br/>
 
-左 岩
+左 岩: Flink 推动了日志革命，其实时洞察力可将效率提高 200%！
 
 Zuo Yan，电信数据智能技术专家，负责数据中心及日志平台搭建。Apache Flink、Apache Doris、Flink CDC、StarRocks、Fluss 等开源项目的贡献者。

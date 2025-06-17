@@ -34,6 +34,6 @@ Flink 作为一个有状态的流处理系统，其状态存储引擎扮演着�
 
 <img src="https://sessionize.com/image/8ab3-400o400o1-J6rdbW4HhzZRzSqmcX56bS.jpg" width="200" /><br/>
 
-YanPeng shi
+YanPeng shi: 腾讯高级工程师
 
 YanPeng Shi，腾讯高级工程师，2021 年毕业于北京邮电大学，获得硕士学位，专注于 Flink 核心开发。

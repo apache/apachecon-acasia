@@ -20,7 +20,7 @@ Key takeaways:
 
 <img src="https://sessionize.com/image/ecc3-400o400o1-hKUcGLGcQw4KXhK3RVPwa2.jpg" width="200" /><br/>
 
-Azhar Izzannada Elbachtiar
+Azhar Izzannada Elbachtiar: Data Engineer at Mekari
 
 I'm a dedicated Data Engineer with a passion for exploring emerging technologies and machine learning. Currently, I also maintain machine learning infrastructure that drives innovative, data-powered solutions. 
 

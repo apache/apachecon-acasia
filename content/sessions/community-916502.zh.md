@@ -12,7 +12,7 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/355a-400o400o1-RRrjWXYem9ZpGBUpd4jGBT.png" width="200" /><br/>
 
-Ted Liu
+Ted Liu: ASF 成员 | KAIYUANSHE 联合创始人
 
 Ted Liu 是开源技术的热情倡导者和志愿者。他联合创立了开源联盟开源社（Kaiyuanshe），这是一个从零开始建立的中国开源联盟。此外，Ted 还是 Apache 软件基金会（ASF）的成员，担任孵化器项目管理委员会（PMC）成员以及多个项目和社区发展 PMC 的导师。
 

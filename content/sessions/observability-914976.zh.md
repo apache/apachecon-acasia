@@ -15,6 +15,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/9377-400o400o1-Ugp4XdU1Y7Gr49zsJjkss6.jpg" width="200" /><br/>
 
-Minghui Zhang
+Minghui Zhang: 阿里云, 杭州
 
 作为阿里云 APM 自动监测工具的开发者，我专注于利用 OpenTelemetry 标准，为 Java、Golang 等语言提供即时、开箱即用的解决方案。我擅长为用户提供云原生 APM 功能，增强了跨各种云环境的应用程序性能监控。

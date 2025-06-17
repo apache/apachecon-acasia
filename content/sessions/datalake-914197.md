@@ -17,7 +17,7 @@ We'll also dive into what's next for Apache Hive—giving you a front-row seat t
 
 <img src="https://sessionize.com/image/eaac-400o400o1-4tyV3Kp9qDQ4mSJ4t3tDoV.jpg" width="200" /><br/>
 
-Attila Turóczy
+Attila Turóczy: Senior Director of Engineering at Cloudera
 
 Apache Hive, Impala and Big Data enthusiasm at Cloudera
 

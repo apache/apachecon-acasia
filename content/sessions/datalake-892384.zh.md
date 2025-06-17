@@ -12,6 +12,6 @@ Apache Gravitino 是哔哩哔哩采用的一个统一元数据管理平台，旨
 
 <img src="https://sessionize.com/image/1f8c-400o400o1-HBNHNwxpA2kUNRMibne31Z.jpg" width="200" /><br/>
 
-Tianhang Li
+Tianhang Li: Bilibili 大数据开发工程师 | Apache Gravitino 贡献者 | 元数据管理和 Spark 优化专家
 
 李天航是哔哩哔哩的大数据开发工程师，专注于大规模数据场景下的元数据管理和 Spark 计算引擎优化。

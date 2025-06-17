@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/9339-400o400o1-pg5e1X6d1Zvbp9W8Rq7uEh.jpg" width="200" /><br/>
 
-Siyao He
+Siyao He: DataStax 软件工程师兼 Apache Cassandra 驱动程序维护员
 
 我是 DataStax 连接团队的一名软件工程师，专注于 Apache Cassandra 驱动的开发。我对开源技术和社区驱动的开发充满热情，并致力于增强驱动的功能和性能。我热衷于分享关于 Apache Cassandra Java 驱动及其背后活跃社区的见解，希望促进合作与创新。

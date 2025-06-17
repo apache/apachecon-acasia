@@ -16,6 +16,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/2e0e-400o400o1-hAVvmRH9pQCek9sGMGgcjH.jpg" width="200" /><br/>
 
-He Liang
+He Liang: Apache Dubbo 的核心开发者
 
 He Liang 是 Apache Dubbo 的核心开发者，也是开源社区的活跃贡献者。他专注于分布式服务治理和 RPC 框架的演进。目前，他领导 Dubbo 生态系统中 OpenAPI 和 AI Agent 集成的开发，旨在推动 Dubbo 与现代云原生架构的深度融合。

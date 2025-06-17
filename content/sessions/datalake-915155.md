@@ -14,7 +14,7 @@ In this session, we’ll explore the origin of the project, its journey into the
 
 <img src="https://sessionize.com/image/7d99-400o400o1-KXGZ6fS6aQcuWW63gVwjQs.jpg" width="200" /><br/>
 
-Max Yang
+Max Yang: Apache Cloudberry PPMC Member, Tech VP of HashData
 
 Apache Cloudberry PPMC Member, Tech VP of HashData
 

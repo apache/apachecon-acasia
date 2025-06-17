@@ -21,7 +21,7 @@ Join us to unlock greater efficiency and innovation in your data workflows.
 
 <img src="https://sessionize.com/image/f9de-400o400o1-D78g36ew5QtQNn1tnaatXY.jpg" width="200" /><br/>
 
-Koji Annoura
+Koji Annoura: UTI,Inc. CTO
 
 Koji Annoura has over 40 years of experience as a full-stack developer.
 

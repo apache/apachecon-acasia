@@ -12,6 +12,6 @@ Apache SeaTunnel 的模型上下文协议（MCP）服务器。该服务器可访
 
 <img src="https://sessionize.com/image/5b51-400o400o1-LRLn5ZYuUjM2fthfiQ9yVW.jpg" width="200" /><br/>
 
-Haicheng Zhang
+Haicheng Zhang: 航天信息大数据开发工程师 开发组组长
 
 一位喜欢折腾的从业者

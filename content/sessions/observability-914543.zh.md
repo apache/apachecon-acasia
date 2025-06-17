@@ -17,6 +17,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/b6e1-400o400o1-pQaQfhiHLxaGPmnakbBHWu.jpg" width="200" /><br/>
 
-Cheng Chen
+Cheng Chen: 一线工程师
 
 阿里云高级开发工程师，在可观测性领域拥有多年丰富经验，对可观测数据的采集、计算、存储、分析和可视化有着深入的了解。

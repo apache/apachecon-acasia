@@ -21,12 +21,12 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/e746-400o400o1-irRRfX45oHJUwig85uBoD.jpg" width="200" /><br/>
 
-Xiaoya Xia
+Xiaoya Xia: 开源分析师，Ant 集团
 
 Xiaoya Xia 是蚂蚁集团开源办公室（OSPO）的成员，她专注于通过数据驱动的洞察来推动开源项目的成功。在加入蚂蚁集团之前，Xiaoya 是华东师范大学（ECNU）的博士生，专注于开源生态系统可持续性的研究。
 
 <img src="https://sessionize.com/image/8870-400o400o1-PDR3hsSKRCfWb1Fbh3WVdT.jpg" width="200" /><br/>
 
-Divya Mohan
+Divya Mohan: 开放源代码维护者和倡导者
 
-Divya is a Senior Technical Evangelist at SUSE, where she contributes to Rancher’s cloud native open source projects. She co-chairs the documentation for the Kubernetes & LitmusChaos projects & has previously worked extensively in the systems engineering space during her tenure with HSBC & IGate Global Solutions Pvt Ltd. A co-creator of the KCNA exam & a CNCF ambassador, she is invested in making technical communities & technologies more accessible & inclusive.
+Divya 是 SUSE 的高级技术布道师，负责 Rancher 的云原生开源项目。她是 Kubernetes 和 LitmusChaos 项目文档的联合主席，此前在汇丰银行和 IGate Global Solutions Pvt Ltd 任职期间曾在系统工程领域广泛工作。作为 KCNA 考试的共同创建者和 CNCF 大使，她致力于使技术社区和技术更具可访问性和包容性。

@@ -12,14 +12,14 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/c023-400o400o1-XrDyFVcAPGBBg2RCKps4W4.jpg" width="200" /><br/>
 
-Ravi Rana
+Ravi Rana: 技术负责人
 
 Ravi Rana 是 Dream11 的技术负责人，拥有 10 年以上的软件工程专业经验。
 
 
 <img src="https://sessionize.com/image/ff4d-400o400o1-Wr3YbdVGhUXaDsQG43bhfe.png" width="200" /><br/>
 
-Mehul Batra
+Mehul Batra: 技术负责人
 
 一直在寻找吸引人的数据基础设施项目和读物
 (训练你的思维和身体)
@@ -27,6 +27,6 @@ Mehul Batra
 
 <img src="https://sessionize.com/image/cb28-400o400o1-Utccibvy6GXbntEwxXRRRY.jpg" width="200" /><br/>
 
-Mohit Jain
+Mohit Jain: 技术负责人
 
 我在大数据和 ML 的交叉点工作，在扩展实时、批处理和 ML 工作负载的同时，使 Spark 和 Flink 的速度更快。无论是优化分布式计算、简化数据管道，还是构建直观的工具，我的目标都是将复杂的数据挑战转化为无缝、高性能的解决方案。

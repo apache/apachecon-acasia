@@ -16,7 +16,7 @@ Gluten-Velox 的集成代表了向前迈出的重要一步，为 Arm 平台量�
 
 <img src="https://sessionize.com/image/c0c6-400o400o1-ssHnQc9M2G2yMbua5opioP.jpg" width="200" /><br/>
 
-Yuqi Gu
+Yuqi Gu: Apache Bigtop 和 Ambari PMC 成员 (guyuqi@apache.org)
 
 - 任职于安谋科技（Arm China），与 Arm 基础设施业务线（Infra LoB）紧密合作。该职位涉及推动 ARM 基础设施产品（服务器和网络）从初步评估到最终部署的全过程。
 - Apache Bigtop 项目管理委员会（PMC）成员，Apache Bigtop 前任主席（2021~2023）。

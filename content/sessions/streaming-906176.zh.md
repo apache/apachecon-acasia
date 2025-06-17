@@ -14,6 +14,6 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/a61c-400o400o1-HAF3PCbZfVSFWcBNV3JJu6.jpg" width="200" /><br/>
 
-Alexey Novakov
+Alexey Novakov: Ververica，产品解决方案架构师
 
 我是一名解决方案架构师，过去六年来一直致力于数据解决方案和产品。在 Ververica，我专注于帮助客户解决使用 Apache Flink 进行数据流处理时遇到的挑战。在我之前的项目和公司中，我开发了不同的系统，例如数据湖、数据集成和数据虚拟化层。闲暇时，我会为各种开源项目做贡献，或者出于兴趣创建自己的项目。除了编程，我还有一些爱好，比如天文学、音乐和健身。

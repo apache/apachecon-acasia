@@ -26,6 +26,6 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/f673-400o400o1-4VK35jwN6xiau6NkXpBJPD.png" width="200" /><br/>
 
-Peggy Dong
+Peggy Dong: 蚂蚁金服集团，开源治理专家
 
 我相信开源代表着一股向善的力量。被开源、协作和分享的理念所吸引，我加入了蚂蚁开源办公室（OSPO）已有三年。在此之前，我主要从事战略规划工作，希望能为开源治理带来不同的视角。

@@ -18,6 +18,6 @@ OceanBase 数据库是由蚂蚁集团自主研发的分布式关系型数据库�
 
 <img src="https://sessionize.com/image/ab9e-400o400o1-Dnvu6ddqricK6Mu1ScZ4uf.jpg" width="200" /><br/>
 
-Shaoting Duan
+Shaoting Duan: 开发人员社区经理
 
 作为 OceanBase 开发者社区的负责人，Shaoting Duan 致力于推广和宣讲前沿科技，并建设和开发开源社区。她曾在 Sun、Adobe、百度和阿里巴巴等世界500强企业工作，负责 OceanBase、OpenSolaris、Java、Flash 和 HTML5 等开源技术社区的开发与建设，以及人才培养和大学项目生态建设。

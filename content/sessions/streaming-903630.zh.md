@@ -24,13 +24,13 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/0408-400o400o1-Qugv97SCsud3LMz6G4ZKqV.jpg" width="200" /><br/>
 
-Yiheng Tang
+Yiheng Tang: 字节跳动基础设施工程师
 
 字节跳动 Flink Runtime 开发人员
 
 <img src="https://sessionize.com/image/183a-400o400o1-4CYkeMZCjrpekwjGgjF934.jpg" width="200" /><br/>
 
-Shaojun Wang
+Shaojun Wang: 字节跳动，中国，编程语言工程师
 
 1. Apache 孵化项目 teaclave 的 PPMC
 2. 自 2017 年起成为 Gopher 开发者

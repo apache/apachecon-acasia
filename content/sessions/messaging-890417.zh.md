@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/a7d4-400o400o1-4GZYizF3DAJcbH1tVcZhj4.jpg" width="200" /><br/>
 
-Zhangjian He
+Zhangjian He: 华为云 IoT 高级工程师 | 华为云开源团队成员
 
 开源爱好者和经验丰富的工程师。自 2017 年开始软件开发以来，我在领导华为云物联网平台的云原生转型以及工业物联网平台的开发中发挥了关键作用。我是 Apache BookKeeper/ServiceComb PMC 成员、Apache Pulsar Committer 和 CNCF openGemini Maintenanceer。我专注于编码、软件工程、开源和生态系统开发，推动最佳实践和开发标准。

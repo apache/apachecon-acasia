@@ -14,7 +14,7 @@ In this talk, Erik will present how Apache Celeborn is used with Spark at Ant Gr
 
 <img src="https://sessionize.com/image/b1c9-400o400o1-ViFu91gMiwhoxRXCaUYbM2.jpg" width="200" /><br/>
 
-Erik Fang
+Erik Fang: Software Engineer at Ant Group, Tech Leader
 
 Erik Fang,
 Software Engineer at Ant Group, Tech Leader

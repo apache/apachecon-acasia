@@ -13,6 +13,6 @@ BifroMQ 是一款基于 Java 的高性能 MQTT 代理，目前在 Apache 软件�
 
 <img src="https://sessionize.com/image/0094-400o400o1-RDjUe8M4DMe6r3yxEKKAk7.jpg" width="200" /><br/>
 
-Hao Yonny(Yu)
+Hao Yonny(Yu): 百度, 高级软件工程师
 
 我于 2017 年加入百度，此后一直专注于设计和构建大规模分布式系统，尤其注重高性能消息传递基础设施。我是 BifroMQ 的创建者和积极维护者，BifroMQ 是一个云原生、多租户 MQTT 代理，目前正在 Apache 软件基金会孵化。

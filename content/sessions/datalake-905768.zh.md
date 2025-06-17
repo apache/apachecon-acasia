@@ -17,6 +17,6 @@ Gravitino 是简化元数据管理流程的理想解决方案。它是开源且�
 
 <img src="https://sessionize.com/image/f7f9-400o400o1-psgL8jgznDsATwZF9JLL66.jpg" width="200" /><br/>
 
-Justin Mclean
+Justin Mclean: 开源社区经理，ASF 董事会成员
 
 Justin Mclean 是一位拥有超过 30 年丰富经验的专业人士，在 Web 应用开发、教育和社区工作领域有着深厚的造诣，同时也是开源软件的积极贡献者。Justin 是全球知名技术大会的常邀演讲嘉宾，目前担任 Datastrato 公司的社区经理。他在 Apache 软件基金会（ASF）担任多个重要职务，包

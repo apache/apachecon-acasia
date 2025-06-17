@@ -15,7 +15,6 @@ In this talk, I will share firsthand insights into what it takes to navigate the
 
 <img src="https://sessionize.com/image/ba51-400o400o1-JXYRfvPWpWpQEji2NhNp6J.jpg" width="200" /><br/>
 
-Dianjin Wang
+Dianjin Wang: PPMC Member of Apache Cloudberry, ALC Beijing Member, Track Chair of ApacheCon Asia 2021-2025, Head of Open Source at HashData
 
 PPMC Member of Apache Cloudberry, ALC Beijing Member, Track Chair of ApacheCon Asia 2021-2025, Head of Open Source at HashData
-

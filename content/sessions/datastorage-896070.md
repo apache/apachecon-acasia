@@ -23,14 +23,14 @@ Additionally, stability has been strengthened, and the community remains active,
 
 <img src="https://sessionize.com/image/b0bb-400o400o1-Jde4MGnDZsTAE7Kbn5uYbL.jpg" width="200" /><br/>
 
-Jiashu Xiong
+Jiashu Xiong: Alibaba Cloud, Senior Development Engineer
 
 Apache Celeborn PMC member, mainly focused on the optimization of Apache Celeborn and the integration of Apache Celeborn with engines such as Flink and Spark
 
 
 <img src="https://sessionize.com/image/e847-400o400o1-hgvjeWTfvwJykGxMzAEbcA.jpg" width="200" /><br/>
 
-Ethan Feng
+Ethan Feng: Aliyun,senior developer
 
 PMC member of Apache Celeborn, mainly focused on optimizing Apache Celeborn.
 

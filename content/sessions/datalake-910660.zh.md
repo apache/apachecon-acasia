@@ -28,6 +28,6 @@ SeaTunnel 的统一处理策略与接口抽象能力
 
 <img src="https://sessionize.com/image/a63f-400o400o1-TAZzBju9ZdRb4umYVxMo2D.png" width="200" /><br/>
 
-Lidong Dai
+Lidong Dai: Whaleops Technology 联合创始人
 
 Apache 孵化器导师、Apache DolphinScheduler PMC 主席和 Apache SeaTunnel PMC 成员

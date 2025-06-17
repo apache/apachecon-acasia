@@ -34,7 +34,7 @@ This talk will provide actionable insights for data engineers and architects imp
 
 <img src="https://sessionize.com/image/8dab-400o400o1-wspZVa98jevB6AB6cPZU8m.jpg" width="200" /><br/>
 
-Zheng Yu Chen
+Zheng Yu Chen: Apache Amoro PPMC , HuoLaLa Senior Big Data Dev
 
 Chen Zheng Yu (ConradJam), Apache Flink Chinese community volunteer,Apache Amoro PPMC,he  has been engaged in data development in bigdata for a long time. At present, he is responsible for the design and construction of Flink public multi-cloud data solution, data synchronization and big data operation pipeline platform from 0 to 1 
 

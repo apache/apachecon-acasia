@@ -24,7 +24,6 @@ This session will delve into Yili Group's implementation journey with Apache Dol
 
 <img src="https://sessionize.com/image/4cf8-400o400o1-kvqNJ2DsjgqVvb33hZaJp.jpg" width="200" /><br/>
 
-朱 学通
+朱 学通: Yili Group,Big Data Engineering Manager
 
 a **Big Data Architect & Tech Lead** with 10+ years of experience, specializing in **OLAP optimization (StarRocks, Spark), real-time data lakes (Flink, Paimon), and multi-cloud integration**. At Yili Group, he led the adoption of **StarRocks**, improving query speeds by **10x** and reducing ETL development time by **20x** via **DolphinScheduler** and **DataX**
-

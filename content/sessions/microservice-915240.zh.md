@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/3aa9-400o400o1-RgrYnToTdtH4CBGkoGkrBt.jpg" width="200" /><br/>
 
-丛国庆
+丛国庆: Apache Dubbo/Commiter
 
 Apache Dubbo Commiter，热衷于开源，在微服务和中间件领域有一定投入

@@ -19,7 +19,7 @@ Last part will provide valorous advices for who is starting or looking for a pro
 
 <img src="https://sessionize.com/image/b35d-400o400o1-NiCoDqJwV8R7ywLQJpJ6hh.jpg" width="200" /><br/>
 
-Lucas Rocha
+Lucas Rocha: Senior Software Engineer at Oracle
 
 As a passionate full-stack web developer with a deep enthusiasm for technology, I have cultivated a diverse and extensive skill set in software development, contributing to a variety of projects across different industries. My technical expertise encompasses a wide spectrum of programming languages and solution platforms, making me adept at navigating complex technological landscapes.
 

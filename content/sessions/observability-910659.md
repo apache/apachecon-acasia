@@ -15,7 +15,7 @@ This session will reveal the core benefits of the BanyanDB architecture: it not 
 
 <img src="https://sessionize.com/image/3884-400o400o1-N3BvQwYViSUncHQ9QkAmiP.jpg" width="200" /><br/>
 
-Hongtao Gao
+Hongtao Gao: Tetrate, Senior Engineer
 
 Hongtao Gao is the senior engineer of [tetrate.io](http://tetrate.io/) and a former Huawei Cloud expert. One of PMC members of Apache SkyWalking and participates in some popular open-source projects such as Apache ShardingSphere and Elastic-Job. He has an in-depth understanding of distributed databases, container scheduling, microservices, ServicMesh, and other technologies.
 

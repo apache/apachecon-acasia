@@ -24,6 +24,6 @@ Celeborn 在解决 Spark External Shuffle Service 的不稳定性方面发挥了
 
 <img src="https://sessionize.com/image/791b-400o400o1-MfKwkHsY6VSRSHfZmGQa7o.jpg" width="200" /><br/>
 
-Yongyuan Liang
+Yongyuan Liang: 小米，北京
 
 Yongyuan Liang，计算引擎研发工程师，负责计算引擎的开发工作。

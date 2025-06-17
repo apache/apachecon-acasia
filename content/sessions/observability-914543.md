@@ -18,7 +18,6 @@ The goal of this presentation is to equip enterprises using both Apache SkyWalki
 
 <img src="https://sessionize.com/image/b6e1-400o400o1-pQaQfhiHLxaGPmnakbBHWu.jpg" width="200" /><br/>
 
-Cheng Chen
+Cheng Chen: A frontline engineer
 
 Senior Development Engineer at Alibaba Cloud with years of extensive experience in the observability domain, possessing in-depth expertise in the collection, computation, storage, analysis, and visualization of observable data.
-

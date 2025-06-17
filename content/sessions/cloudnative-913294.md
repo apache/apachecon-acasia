@@ -13,6 +13,6 @@ Since version 1.0.0, Apache IoTDB has provided a unified system monitoring frame
 
 <img src="https://sessionize.com/image/4d3b-400o400o1-KCzTKrVsyHFxNEWdi4vEMv.jpg" width="200" /><br/>
 
-洪胤 张
+洪胤 张: Apache Committer, Master's student at Tsinghua University
 
 Zhang Hongyin, Apache Committer, Master's student of Tsinghua University, Class of 2022, is currently responsible for Apache IoTDB memory management, system monitoring, and standardized testing.

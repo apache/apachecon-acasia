@@ -12,7 +12,7 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/3cdf-400o400o1-fFUnsGQVJZX8XbLKVe2HQD.jpg" width="200" /><br/>
 
-Yike Xiao
+Yike Xiao: 智联招聘, 高级软件工程师
 
 资深分布式系统架构师，拥有超过五年的实践经验：
 - 丰富的 RPC 框架架构和扩展经验

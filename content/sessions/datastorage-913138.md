@@ -35,7 +35,7 @@ Hot updates for underlying Fuse components: Updates to the underlying Fuse compo
 
 <img src="https://sessionize.com/image/8ab3-400o400o1-J6rdbW4HhzZRzSqmcX56bS.jpg" width="200" /><br/>
 
-YanPeng shi
+YanPeng shi: Tencent senior engineer
 
 Tencent Senior Engineer, graduated with a Master's degree from Beijing University of Posts and Telecommunications in 2021, focusing on Flink core development.
 

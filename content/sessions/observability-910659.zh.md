@@ -14,6 +14,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/3884-400o400o1-N3BvQwYViSUncHQ9QkAmiP.jpg" width="200" /><br/>
 
-Hongtao Gao
+Hongtao Gao: 高级工程师
 
 Hongtao Gao 是 [tetrate.io](http://tetrate.io/) 高级工程师，前华为云专家。Apache SkyWalking PMC 成员之一，参与 Apache ShardingSphere、Elastic-Job 等热门开源项目。对分布式数据库、容器调度、微服务、ServicMesh 等技术有深入理解。

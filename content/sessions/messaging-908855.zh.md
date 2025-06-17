@@ -15,6 +15,6 @@ Apache RocketMQ 是一个分布式消息和流式传输平台，以其低延迟�
 
 <img src="https://sessionize.com/image/5517-400o400o1-QHVT45RWPFxxgwib7bn9VX.jpg" width="200" /><br/>
 
-Shengzhong Liu
+Shengzhong Liu: 腾讯
 
 自2019年从东南大学毕业以来，我一直在腾讯云担任软件开发工程师，近年来专注于消息队列技术。

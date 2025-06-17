@@ -25,6 +25,6 @@ This presentation will cover:
 
 <img src="https://sessionize.com/image/47dd-400o400o1-aEC9VKjiLoZ17X9guibiwx.jpg" width="200" /><br/>
 
-Xintong Song
+Xintong Song: Apache Flink PMC Member, Staff Software Engineer @ Alibaba Cloud
 
 Xintong is an Apache Flink PMC member. He is also a Staff Software Engineer and leads the Flink Java Engine Team at Alibaba Cloud. Prior to that, he received a Ph.D. degree in computer science from Peking University.

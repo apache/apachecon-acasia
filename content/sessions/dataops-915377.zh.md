@@ -14,6 +14,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/4882-400o400o1-LRN5sGimgNASAwXPaiW7v2.jpg" width="200" /><br/>
 
-陈虹宇
+陈虹宇: 网易 SeaTunnel 撰稿人兼数据集成研发工程师
 
 网易数据集成研发工程师，拥有四年大规模数据传输系统经验，并持有东南大学计算机科学硕士学位。他参与Apache SeaTunnel项目，专精于为企业级ETL挑战构建高性能数据集成解决方案。其专业领域涵盖分布式系统、数据处理引擎及管道架构。

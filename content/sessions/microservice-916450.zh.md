@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/ed51-400o400o1-BTDBgQinUQrS5cv8CRWb4e.jpg" width="200" /><br/>
 
-Min Ji
+Min Ji: Apache Seata PPMC/Higress 维护员
 
 Ji Min (Qing Ming) 是阿里云分布式事务产品负责人，同时也是 Higress 的维护者。他拥有超过 10 年的研发架构经验，在推动集团内部中间件的规模化落地以及微服务 PaaS 解决方案的商业化和开源过程中发挥了关键作用。目前，他致力于推动下一代微服务架构的发展。

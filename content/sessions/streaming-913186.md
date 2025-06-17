@@ -14,7 +14,7 @@ In this session, we will introduce the the design of storage and Disaggregated S
 
 <img src="https://sessionize.com/image/9fb0-400o400o1-3GuCetdzM1ZnG45ZrGcUgh.jpg" width="200" /><br/>
 
-Zhaoqian (Zakelly) Lan
+Zhaoqian (Zakelly) Lan: Apache Flink PMC Member & Committer, Technical Expert at Alibaba Cloud
 
 Zhaoqian (Zakelly) Lan has been contributing to open source projects for many years and is an active PMC member & committer in Apache Flink project. He specializes in streaming and key-value storage. Currently, Zhaoqian works at Alibaba Cloud, where he focuses on advancing the state management and checkpointing capabilities of Flink, driving innovation and efficiency improvements.
 

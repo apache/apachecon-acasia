@@ -14,6 +14,6 @@ freeCodeCamp 的开源项目在 GitHub 上拥有超过 400,000 个星标，过�
 
 <img src="https://sessionize.com/image/5abe-400o400o1-swyUNMsPchJr8DQS2Y1pMM.jpg" width="200" /><br/>
 
-Quincy Larson
+Quincy Larson: freeCodeCamp.org 创始人
 
 Quincy Larson 是一名教师，也是 freeCodeCamp.org 的创始人。freeCodeCamp.org 是一个开源项目，已经帮助数百万人学习编程。

@@ -13,22 +13,22 @@ The session by SF Express delves into their use of Apache Spark and Apache Glute
 
 <img src="https://sessionize.com/image/e235-400o400o1-KjhshizwVAnsatfkEDJsxo.png" width="200" /><br/>
 
-Weiting Chen
+Weiting Chen: Intel, Senior Software Engineer
 
 Weiting is a senior software engineer at Intel's Data Center and AI Group. With a decade of experience, he specializes in Big Data and Cloud Solutions. He has made significant contributions to projects like Spark, OpenStack, and recently, the Apache Gluten (Incubating) project as one of its initial committers. Among his responsibilities is harnessing the potential of hardware to enhance the performance of big data workloads.
 
 <img src="https://sessionize.com/image/22e8-400o400o1-nPfwNC4gYPKosjbJtNQhjh.jpg" width="200" /><br/>
 
-Xixu Wang
+Xixu Wang: Shunfeng Technology, Big Data Platform R&D Senior Engineer, apache doris committer, apache kudu pmc
 
 He has worked in Baidu, Weibo, Xiaomi, and Shenze, mainly engaged in big data computing engine, storage engine development, and has participated in Apache Doris, Apache Kudu, Apache Gluten development, and has a wealth of experience in big data field.
 
-Backend has worked in Baidu, Weibo, Xiaomi, Shenze, mainly engaged in big data computing engine, storage engine development, backend involved in Apache Doris, Apache Kudu, Apache Gluten development, has extensive experience in the field of big data.
+Backend has worked in Baidu, Weibo, Xiaomi, Shenze, mainly engaged in big data computing engine, storage engine development, backend involved in Apache Doris, Apache Kudu, Apache Gluten development, has extensive experience in the field of big data
 
 
 <img src="https://sessionize.com/image/bb1f-400o400o1-hpctkrGW8rkQqshJ2MRrG9.jpg" width="200" /><br/>
 
-Feilong He
+Feilong He: Intel, Software Engineer
 
 Feilong is a software engineer at Intel with over seven years of experience in the field of data analytics. He actively contributes to the Apache incubating Gluten project and the Meta Velox project as a developer.
 

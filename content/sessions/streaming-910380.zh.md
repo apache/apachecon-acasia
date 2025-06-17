@@ -29,6 +29,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/d261-400o400o1-fxPaH1DkrWnKKr7M1jP91s.jpg" width="200" /><br/>
 
-Pengxiang Wang
+Pengxiang Wang: 腾讯高级大数据工程师
 
 Pengxiang Wang，毕业于北京航空航天大学，腾讯大数据高级软件工程师，拥有丰富的实时数据处理实践经验，主要专注于Flink运行时稳定性提升。

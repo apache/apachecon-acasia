@@ -13,7 +13,7 @@ The session will describe the challenges that have faced for the Open Source Ado
 
 <img src="https://sessionize.com/image/abff-400o400o1-JtwN2B9o1VxeTfF87sDK3d.jpg" width="200" /><br/>
 
-Víctor Manuel Romero Rodríguez
+Víctor Manuel Romero Rodríguez: CTO FINTECHEANDO - INFOTEC TECH LEAD
 
 Hailing from Mexico City, Victor Romero now has over 20 years of experience in the area of ​​Information Technology applied to Financial Services after completing his Bachelor of Computer Science at the National Polytechnic Institute,
 

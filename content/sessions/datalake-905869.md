@@ -20,18 +20,13 @@ This system has been implemented in the production practice of telecom operators
 
 <img src="https://sessionize.com/image/25e4-400o400o1-9iGsggaDEwoFcYqGXtpqoM.jpg" width="200" /><br/>
 
-Congxian Qiu
+Congxian Qiu: Apache Flink Committer, Apache(incubating) Amoro PMC member
 
 Congxian Qiu is an expert in StateCloud R&D, with many years of experience in big data infrastructure. He has participated in and led the development of large-scale data processing frameworks. He is an Apache Committer and Apache(incubating) Amoro PMC member.
 
-Congxian是StateCloud研发专家，拥有多年大数据基础设施经验，参与并领导了大规模数据处理框架的开发。他是Apache Committer和Apache（incubating）Amoro PMC成员。
-
-
 <img src="https://sessionize.com/image/dd80-400o400o1-SKrNUnGVHC8xTrBeHtFLHN.jpg" width="200" /><br/>
 
-Zhuojun Jiang
+Zhuojun Jiang: Senior Big Data Engineer, China Telecom Cloud Technology Co., Ltd
 
 Zhuojun Jiang is a Senior Big Data Engineer at China Telecom Cloud Technology Co., Ltd., specializing in real-time data lakehouse architecture. She focuses on big data development, system performance optimization, and real-time data synchronization based on technologies like Apache FlinkCDC, Iceberg, and Amoro. Jiang actively contributes to the open-source community and shares practical insights through industry forums and technical talks.
-
-Zhuojun Jiang 是中国电信云科技有限公司的高级大数据工程师，专注于实时数据湖库架构研究。她专注于基于 Apache FlinkCDC、Iceberg 和 Amoro 等技术的大数据开发、系统性能优化和实时数据同步。蒋卓君积极参与开源社区的贡献，并通过行业论坛和技术讲座分享实践见解。
 

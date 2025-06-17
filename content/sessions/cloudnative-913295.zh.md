@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/1797-400o400o1-SXw7AkzP9sW9VsRkFiQ9gT.jpg" width="200" /><br/>
 
-Lan Ding
+Lan Ding: 华为云中间件团队软件工程师
 
 华为云中间件团队软件工程师，Apache RocketMQ 贡献者，Apache Kafka 贡献者，负责华为云 Kafka 的开发工作。

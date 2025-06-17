@@ -12,6 +12,6 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/f7f9-400o400o1-psgL8jgznDsATwZF9JLL66.jpg" width="200" /><br/>
 
-Justin Mclean
+Justin Mclean: 开源社区经理，ASF 董事会成员
 
 Justin Mclean 是一位拥有 30 余年丰富经验的资深专家，深耕于 Web 应用开发、教育及社区工作领域，同时也是开源软件的积极贡献者。作为国际知名技术大会的常邀演讲嘉宾，Justin 现任 Datastrato 公司社区经理。他在 Apache 软件基金会(ASF)担任多重重要职务：既是多个 Apache 项目的导师，又身兼 ASF 孵化器副总裁，同时还是 ASF 董事会成员。

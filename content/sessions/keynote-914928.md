@@ -19,7 +19,7 @@ The ASF is committed to working with other open source foundations and governmen
 
 <img src="https://sessionize.com/image/3194-400o400o1-94Sk7eKXZREt1kbzW2diBZ.jpg" width="200" /><br/>
 
-Craig Russell
+Craig Russell: ASF Member, Incubator PMC member, Emeritus Board chair
 
 Craig joined Apache as a committer on the incubating JDO project in 2005 and became an Apache Member in 2007. I was appointed Assistant Secretary in 2009 and Secretary in 2010, where I served until 2019. I was elected to the Board of Directors in 2019 and served four terms as a Director.
 

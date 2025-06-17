@@ -31,7 +31,7 @@ We aim to provide actionable references for teams undergoing similar transformat
 
 <img src="https://sessionize.com/image/e9db-400o400o1-pJDLPcWh44dKmtxc2n8k7U.jpg" width="200" /><br/>
 
-Han Qian
+Han Qian: Li Auto | Head of Big Data Infrastructure
 
 Head of Big Data Infrastructure @ Li Auto
 Lead Architect of 100PB-scale data platforms serving 1M+ connected vehicles

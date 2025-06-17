@@ -14,7 +14,7 @@ A Model Context Protocol (MCP) server for Apache Seatunnel. This provides access
 
 <img src="https://sessionize.com/image/5b51-400o400o1-LRLn5ZYuUjM2fthfiQ9yVW.jpg" width="200" /><br/>
 
-Haicheng Zhang
+Haicheng Zhang: Aisino Big Data Development Engineer Development Team Leader
 
 A Practitioner Who Likes to Toss
 

@@ -14,6 +14,6 @@ Apache Pulsar 已在企业关键业务中落地，拥有丰富的应用场景。
 
 <img src="https://sessionize.com/image/9c17-400o400o1-JPuaxw3mCtQ2zt9Ew94C2n.jpg" width="200" /><br/>
 
-韩明泽
+韩明泽: 腾讯
 
 毕业于武汉大学计算机专业。腾讯云高级研发工程师。开源社区爱好者。在美团和腾讯拥有超过 8 年的消息队列相关研发和运营经验。目前主要负责腾讯云 TDMQ for Pulsar 产品的核心部分。同时，我是 Apache Pulsar Contributor 和 RoP Maintenanceer。

@@ -14,6 +14,6 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/3658-400o400o1-7QN8vyMNv5mXWRii1Qrf8k.jpg" width="200" /><br/>
 
-Bill Zhang
+Bill Zhang: Cloudera、Lakehouse 和 Iceberg 集成
 
 Bill 是 Cloudera 的产品战略副总裁，负责 Open Data Lakehouse 产品战略以及 Apache Iceberg 与所有 Cloudera 数据平台 (CDP) 的集成。最近，Bill 还负责 Apache Hive 的产品路线图和应用

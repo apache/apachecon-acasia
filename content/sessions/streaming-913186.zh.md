@@ -13,6 +13,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/9fb0-400o400o1-3GuCetdzM1ZnG45ZrGcUgh.jpg" width="200" /><br/>
 
-Zhaoqian (Zakelly) Lan
+Zhaoqian (Zakelly) Lan: Apache Flink PMC 成员和 Committer，阿里巴巴云技术专家
 
 Zhaoqian（Zakelly）兰多年来一直致力于开源项目，是Apache Flink项目的活跃PMC成员及提交者。他专精于流处理与键值存储技术。目前，赵谦就职于阿里云，专注于提升Flink的状态管理与检查点功能，推动技术创新与效率优化。

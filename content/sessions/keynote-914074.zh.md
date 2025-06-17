@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/c9d3-400o400o1-ppTduZcHdbdZoE2Ns9x5h7.jpg" width="200" /><br/>
 
-Wei Wang
+Wei Wang: 华东师范大学教授
 
 Wei Wang，现任华东师范大学数据科学与工程学院教授，X-lab 开放实验室创始人。他是中国计算机学会（CCF）杰出会员、CCF 开源发展委员会成员、中国电子技术标准化研究院开源治理系列标准负责人、木兰开源社区技术委员会委员、开源俱乐部主任。他的研究兴趣是开源开发生态。

@@ -14,7 +14,7 @@ Apache Pulsar 是一个高性能消息队列，支持海量 Topic，允许用户
 
 <img src="https://sessionize.com/image/f542-400o400o1-4vaXwyGZYAujcJxNoeruQG.jpg" width="200" /><br/>
 
-lin lin
+lin lin: 华为SDE专家，中间件技术总监
 
 Lin Lin，华为SDE专家，中间件技术总监，曾就职于腾讯、蚂蚁金服
 专注于中间件和基础设施领域，拥有超过10年的相关经验，致力于打造高品质的基础设施

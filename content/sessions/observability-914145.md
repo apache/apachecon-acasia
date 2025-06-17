@@ -18,7 +18,7 @@ Outline:
 
 <img src="https://sessionize.com/image/56ef-400o400o1-XytGZCfxa3CMsDEHvoHNHJ.JPG" width="200" /><br/>
 
-Runqi Lin
+Runqi Lin: Alibaba, Shanghai
 
 Worked in the team of Alibaba Cloud Simple Log Service, mainly focusing on observable data collectors, gateway service monitoring, massive data access management.
 
@@ -32,7 +32,6 @@ Previous speaking experience:
 
 <img src="https://sessionize.com/image/5271-400o400o1-9nHB2BX82b2yKXrUs9Hbnm.jpg" width="200" /><br/>
 
-Hongyi Zhou
+Hongyi Zhou: Alibaba,Hangzhou
 
 As a member of the Alibaba Cloud E-MapReduce team, my core responsibilities include the design and implementation of highly reliable system architectures, establishing comprehensive business observability, and ensuring the stability of business operations.
-

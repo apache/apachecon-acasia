@@ -17,7 +17,6 @@ This talk will show you how we introduced support for Puffin stats in Apache Imp
 
 <img src="https://sessionize.com/image/6933-400o400o1-72rRP3UXJeo1bZhvM4bFDm.jpg" width="200" /><br/>
 
-Daniel Becker
+Daniel Becker: Senior Software Engineer
 
 Daniel Becker started working on Apache Impala in 2019 at Cloudera. His Impala contributions encompass various topics, including LLVM code generation, complex types, Parquet and Iceberg. He is a member of the Apache Impala PMC and has a degree from Pázmány Péter Catholic University.
-

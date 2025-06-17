@@ -13,7 +13,7 @@ Alibaba Cloud Kafka has been fully upgraded based on open source Kafka, combinin
 
 <img src="https://sessionize.com/image/b457-400o400o1-Y92ZtWACNJJirb5DrifdVu.jpg" width="200" /><br/>
 
-Fujian Zhao
+Fujian Zhao: Alibaba Senior Software Engineer
 
 Graduated from Southeast University in June 2020, and joined Alibaba in July 2020.
 

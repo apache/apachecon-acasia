@@ -15,7 +15,6 @@ This presentation will iterate through a few common approaches and ultimately de
 
 <img src="https://sessionize.com/image/7ced-400o400o1-nQpjeSxnTeKrZ8WmXy1V7q.jpg" width="200" /><br/>
 
-Lester Martin
+Lester Martin: Trino Developer Advocate - Starburst
 
 Lester Martin is a seasoned developer advocate, trainer, blogger, and data engineer focused on data pipelines & data lake analytics using Trino, Iceberg, Hive, Spark, Flink, Kafka, NiFi, NoSQL databases, and, of course, classical RDBMSs.  Check out Lester's blog at https://lestermartin.blog.
-

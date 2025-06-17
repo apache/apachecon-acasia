@@ -17,6 +17,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/3431-400o400o1-W4FtSbysmF3yQTCTtNkpiH.jpg" width="200" /><br/>
 
-Xin Wang
+Xin Wang: ASF 成员和 IPMC 成员，蚂蚁小组实时数据和原生数据组组长。
 
 ASF 成员 & IPMC 成员，蚂蚁集团实时数据与数据原生团队负责人。

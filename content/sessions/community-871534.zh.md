@@ -18,7 +18,7 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/b35d-400o400o1-NiCoDqJwV8R7ywLQJpJ6hh.jpg" width="200" /><br/>
 
-Lucas Rocha
+Lucas Rocha: 甲骨文公司高级软件工程师
 
 作为一名对技术充满热情的全栈 Web 开发者，我在软件开发领域积累了丰富多样的技能，参与了不同行业的多个项目。我的技术专长涵盖了广泛的编程语言和解决方案平台，使我能够熟练应对复杂的技术环境。
 

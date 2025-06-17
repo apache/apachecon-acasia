@@ -17,8 +17,7 @@ Attendees will gain practical insights into how to apply these patterns to creat
 
 <img src="https://sessionize.com/image/da35-400o400o1-7iXG3irB2qcqf5PDtHr272.jpg" width="200" /><br/>
 
-Juarez Junior
+Juarez Junior: Software Engineering, Solutions Architecture, Developer Relations
 
 Juarez Barbosa Junior is a Sr Principal Developer Evangelist - Director of Developer Evangelism at Oracle. Previously, he was an Azure Developer Relations Lead at Microsoft and a Thought Leader and Technical Evangelist at IBM. He has over 20 years of professional experience, having held senior leadership roles in DevRel, software engineering, and startup-related initiatives. His knowledge comprises Java, Python, Cloud Computing (Oracle OCI, Azure, GCP, IBM Cloud, and AWS), 
 DevOps, IaC, CI/CD, and Cloud Native.  https://linktr.ee/juarezjunior
-

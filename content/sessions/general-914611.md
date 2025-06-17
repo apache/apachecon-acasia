@@ -13,7 +13,7 @@ This session presents enterprise-level upgrade practices from Apache HugeGraph 0
 
 <img src="https://sessionize.com/image/62a1-400o400o1-UaS49NKQx2cdgskM6goq17.jpg" width="200" /><br/>
 
-浩 赵
+浩 赵:  Apache Hugegraph Contributor/Senior Big Data Engineer
 
-Apache Hugegraph Contributor/Senior Big Data Engineer
+ Apache Hugegraph Contributor/Senior Big Data Engineer
 

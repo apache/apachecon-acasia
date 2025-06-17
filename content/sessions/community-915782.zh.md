@@ -12,7 +12,7 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/abff-400o400o1-JtwN2B9o1VxeTfF87sDK3d.jpg" width="200" /><br/>
 
-Víctor Manuel Romero Rodríguez
+Víctor Manuel Romero Rodríguez: CTO FINTECHEANDO - INFOTEC TECH LEAD
 
 Victor Romero 来自墨西哥城，在国立理工学院获得计算机科学学士学位后，在信息技术应用于金融服务领域拥有超过 20 年的经验。
 

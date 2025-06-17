@@ -39,7 +39,7 @@ This session is designed to empower data engineers and software professionals wi
 
 <img src="https://sessionize.com/image/d598-400o400o1-TWRJCfGzVB3ZKDH85a4riC.jpg" width="200" /><br/>
 
-Akshat Mathur
+Akshat Mathur: Product Manager @ Cloudera
 
 With over 7 years of dedicated experience in the dynamic field of data engineering, Helped architecting and implementing robust data infrastructure for a variety of organizations, contributing to their success in harnessing the power of data, and now managing product strategy for Cloudera's Data Lakehouse
 

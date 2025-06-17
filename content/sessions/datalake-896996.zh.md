@@ -33,7 +33,7 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/d598-400o400o1-TWRJCfGzVB3ZKDH85a4riC.jpg" width="200" /><br/>
 
-Akshat Mathur
+Akshat Mathur:  Cloudera 产品经理
 
 Akshat Mathur 在数据工程这一充满活力的领域拥有超过 7 年的专业经验，曾帮助多家组织设计和实施稳健的数据基础设施，助力它们成功利用数据的力量。目前，他负责管理 Cloudera 数据湖仓的产品战略。
 

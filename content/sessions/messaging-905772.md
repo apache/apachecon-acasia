@@ -13,6 +13,6 @@ This presentation will introduce the evolution of Xiaomi's MQTT system architect
 
 <img src="https://sessionize.com/image/cae3-400o400o1-GXWj5X6MXUxLT5kfwqCJqB.jpg" width="200" /><br/>
 
-Fan Wang
+Fan Wang: Xiaomi Message Queue Team Leader, Apache RocketMQ Committer
 
 Joined Xiaomi in 2018, specializing in messaging and storage systems. Responsible for Xiaomi's MQ, HBase, and ElasticSearch platforms, among others.

@@ -31,14 +31,14 @@ The future of AI applications requires data infrastructure that is scalable, con
 
 <img src="https://sessionize.com/image/a965-400o400o1-E9kixxxRCcLxkKoQ9y7dRC.png" width="200" /><br/>
 
-Hubert Zhang
+Hubert Zhang: EloqData CTO
 
 Hubert Zhang serves as the Chief Technology Officer (CTO) at EloqData. Prior to joining EloqData, Hubert was the Technical Lead for the Greenplum Database at VMware. He is also a member of the Project Management Committee (PMC) for Apache HAWQ.
 
 
 <img src="https://sessionize.com/image/2f8b-400o400o1-MyxGEXHK65dpEA5LW96TB8.jpg" width="200" /><br/>
 
-Lintao Zhang
+Lintao Zhang: Co-founder and CEO, EloqData
 
 Lintao Zhang is the Co-founder and CEO of EloqData, building the next generation database infrastructure for applications in the AI age.  Previously he was a Partner Research Manager at Microsoft Research, working on cloud infrastructures, distributed systems and AI. He was a inventor of the PacificA replication protocol that is used in Apache Kafka, Apache Pegasus, and ElasticSearch. He has published over fifty papers in top conferences and won many awards for his research. Lintao is an IEEE Fellow and a ACM Distinguished Member. He received his Bachelor's degree from Peking University, and his Ph.D. from Princeton University. 
 

@@ -13,6 +13,6 @@ In the constantly evolving wave of AI technology, microservice architecture has 
 
 <img src="https://sessionize.com/image/3aa9-400o400o1-RgrYnToTdtH4CBGkoGkrBt.jpg" width="200" /><br/>
 
-国庆 丛
+国庆 丛: Apache Dubbo/Commiter
 
 Apache Dubbo Commiter， Passionate about open source, with a certain investment in microservices and middleware fields

@@ -26,6 +26,6 @@ RocksDB 是 Facebook 开发的一款高性能嵌入式键值存储引擎，广�
 
 <img src="https://sessionize.com/image/89b7-400o400o1-3UL89hviMkFYw2SmgNyGZM.jpg" width="200" /><br/>
 
-Zhou Li
+Zhou Li: 阿里云
 
 阿里云消息专家，负责阿里巴巴核心消息中间件

@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/cf5c-400o400o1-HKnHKDN66HEPQDSc9TVhnT.jpg" width="200" /><br/>
 
-LEI XIE
+LEI XIE: 中国移动易云，Apache Committer
 
 Apache 开源项目爱好者，Apache Committer，目前主要负责中国移动云的流计算平台研发。

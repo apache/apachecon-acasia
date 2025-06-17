@@ -17,7 +17,7 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/56ef-400o400o1-XytGZCfxa3CMsDEHvoHNHJ.JPG" width="200" /><br/>
 
-Runqi Lin
+Runqi Lin: 阿里, 上海
 
 曾就职于阿里云简易日志服务团队，主要负责可观察数据收集器、网关服务监控、海量数据访问管理等工作。
 
@@ -30,6 +30,6 @@ Github：https://github.com/linrunqi08
 
 <img src="https://sessionize.com/image/5271-400o400o1-9nHB2BX82b2yKXrUs9Hbnm.jpg" width="200" /><br/>
 
-Hongyi Zhou
+Hongyi Zhou: 阿里,杭州
 
 作为阿里云E-MapReduce团队的一员，我的核心职责包括设计和实现高可靠的系统架构，建立完善的业务可观测性，保障业务运行的稳定性。

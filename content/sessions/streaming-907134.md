@@ -13,7 +13,7 @@ Stream computing is becoming increasingly critical in domains such as anomaly de
 
 <img src="https://sessionize.com/image/b616-400o400o1-G8HEVFg7VaTfKEYWtC3oA7.jpg" width="200" /><br/>
 
-Zhao Qingwen
+Zhao Qingwen: Antgroup, Engineer
 
 Joined AntGroup in 2019 and is one of the core developers of GeaFlow.  
 

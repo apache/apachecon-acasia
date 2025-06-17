@@ -16,6 +16,6 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/eaac-400o400o1-4tyV3Kp9qDQ4mSJ4t3tDoV.jpg" width="200" /><br/>
 
-Attila Turóczy
+Attila Turóczy: Cloudera 高级工程总监
 
 Cloudera 高级工程总监

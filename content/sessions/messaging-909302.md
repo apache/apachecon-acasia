@@ -22,7 +22,7 @@ Storage Engine for RocketMQ Based on Commitlog and RocksDB
 
 <img src="https://sessionize.com/image/89b7-400o400o1-3UL89hviMkFYw2SmgNyGZM.jpg" width="200" /><br/>
 
-Zhou Li
+Zhou Li: aliyun
 
 Messaging Expert at Alibaba Cloud, responsible for Alibaba's core messaging middleware
 

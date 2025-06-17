@@ -19,6 +19,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/d767-400o400o1-GDcfWFXy2nx3iSwf9Qd5M1.png" width="200" /><br/>
 
-沈林
+沈林: Apache RocketMQ PMC
 
 Apache RocketMQ PMC成员，阿里云 EventBridge 负责人，专注于 EDA 研究。

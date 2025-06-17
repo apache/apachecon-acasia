@@ -24,6 +24,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/47dd-400o400o1-aEC9VKjiLoZ17X9guibiwx.jpg" width="200" /><br/>
 
-Xintong Song
+Xintong Song: Apache Flink PMC 成员，阿里巴巴云软件工程师
 
 Xintong 是Apache Flink项目管理委员会（PMC）成员。他目前担任阿里巴巴云计算公司高级软件工程师，并领导Flink Java引擎团队。在此之前，他获得了北京大学计算机科学博士学位。

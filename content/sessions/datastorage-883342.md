@@ -13,7 +13,7 @@ Since graduating from the ASF Incubator, Apache Kvrocks has made significant pro
 
 <img src="https://sessionize.com/image/3652-400o400o1-nL4YWvqdsyoi1XovLkoiGQ.jpg" width="200" /><br/>
 
-Mingyang Liu
+Mingyang Liu: Member & V.P. of Apache Kvrocks, ASF
 
 Mingyang Liu is a compiler engineer at a fabless semiconductor company with interests in compilers, AI systems, program analysis, programming languages, and databases. He enjoys contributing to open-source projects and is active in many open-source communities. He serves as the PMC Chair of Apache Kvrocks and is an ASF Member. (https://github.com/pragmatwice)
 

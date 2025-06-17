@@ -14,6 +14,6 @@ Apache Cloudberry 是一款基于 Greenplum 的大规模并行处理 (MPP) 数�
 
 <img src="https://sessionize.com/image/ba51-400o400o1-JXYRfvPWpWpQEji2NhNp6J.jpg" width="200" /><br/>
 
-Dianjin Wang
+Dianjin Wang: Apache Cloudberry PPMC成员，ALC Beijing成员，ApacheCon Asia 2021-2025分会主席，HashData开源负责人
 
 Apache Cloudberry PPMC成员，ALC Beijing成员，ApacheCon Asia 2021-2025分会主席，HashData开源负责人

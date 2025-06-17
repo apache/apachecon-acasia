@@ -16,7 +16,7 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/7609-400o400o1-YbaJq6TQuhpFBv63wn2hn8.jpg" width="200" /><br/>
 
-Shekhar Prasad Rajak
+Shekhar Prasad Rajak: 热情的开源倡导者，苹果公司软件工程师。
 
 Shekhar 对开源软件充满热情，并积极参与多个项目，包括SymPy、Ruby gems（如他所著的 daru 和daru-view）、Bundler、NumPy 和 SciPy。  
 他于 2016 年和 2017 年成功完成 Google Summer of Code 项目，并担任 SciRuby 的管理员，指导了多个组织。

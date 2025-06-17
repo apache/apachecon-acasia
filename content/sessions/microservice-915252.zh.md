@@ -12,6 +12,6 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/e810-400o400o1-GuMsx4QRh7uDsQcqtTQeJm.png" width="200" /><br/>
 
-Jun Liu
+Jun Liu: Apache 成员、Spring AI 阿里巴巴作者、Spring Cloud 阿里巴巴作者、Apache Dubbo PMC 主席
 
 超过 10 年微服务领域经验。对云原生、RPC、微服务、AI 等感兴趣。

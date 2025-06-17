@@ -13,7 +13,7 @@ Apache Ozone is a distributed storage system in the Hadoop ecosystem. As a distr
 
 <img src="https://sessionize.com/image/f062-400o400o1-JwG1ArqNeWcX7KNGJHGgSv.jpg" width="200" /><br/>
 
-Sammi Chen
+Sammi Chen: Cloudera Principal Storage Engineer 
 
 Cloudera principal storage engineer,  focusing on Apache Hadoop and Apache Ozone kernel development, currently being the Chair of Ozone PMC and Hadoop PMC, former big data storage tech leader of Tencent and Intel. 
 

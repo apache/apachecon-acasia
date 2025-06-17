@@ -13,7 +13,7 @@ Apache HertzBeat is a next-generation open-source real-time monitoring and alert
 
 <img src="https://sessionize.com/image/d76b-400o400o1-wmu7Pfw1uhFLyi2grzXbzB.png" width="200" /><br/>
 
-Hongyu Liu
+Hongyu Liu: Software Engineer in China Unicom, Apache Shenyu\Hertzbeat Committer
 
 I am currently employed by China Unicom Data Intelligence Co., Ltd. I contributed my first line of code to the Apache ShenYu community in 2024 and am currently a Committer for both Apache ShenYu and Apache HertzBeat.
 

@@ -19,7 +19,7 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/ecc3-400o400o1-hKUcGLGcQw4KXhK3RVPwa2.jpg" width="200" /><br/>
 
-Azhar Izzannada Elbachtiar
+Azhar Izzannada Elbachtiar: Mekari 数据工程师
 
 我是一名专注于数据工程的工程师，对探索新兴技术和机器学习充满热情。目前，我负责维护支持创新、数据驱动型解决方案的机器学习基础设施。
 

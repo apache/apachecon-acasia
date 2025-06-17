@@ -29,7 +29,7 @@ Discuss Kuaishou's roadmap for integrating data lake capabilities with BI (Busin
 
 <img src="https://sessionize.com/image/8a30-400o400o1-DXZEDcKH4tBMugeSDeE4vj.jpg" width="200" /><br/>
 
-朝阳 刘
+朝阳 刘: Core Hudi R&D Engineer at Kuaishou
 
 Core Hudi Engineer at Kuaishou | Apache Hudi Active Contributor | Apache RocketMQ Committer
 

@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/b457-400o400o1-Y92ZtWACNJJirb5DrifdVu.jpg" width="200" /><br/>
 
-Fujian Zhao
+Fujian Zhao: 阿里巴巴高级软件工程师
 
 2020年6月毕业于东南大学，2020年7月加入阿里巴巴。

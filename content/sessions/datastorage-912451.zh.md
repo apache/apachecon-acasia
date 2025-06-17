@@ -45,6 +45,6 @@ HBase 在小米有着悠久的历史，但也积累了技术债务。主要挑�
 
 <img src="https://sessionize.com/image/6052-400o400o1-npyQeJA1PdnzCtTC2HXP7X.jpg" width="200" /><br/>
 
-Zhiwen Deng
+Zhiwen Deng: 小米分布式系统研发工程师
 
 Zhiwen Deng，小米分布式系统研发工程师，参与了消息队列和 HBase 的设计与实现，同时也是 Apache RocketMQ 的提交者。

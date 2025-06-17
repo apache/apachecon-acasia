@@ -13,7 +13,7 @@ With the rapid development of the global open-source ecosystem, the influence of
 
 <img src="https://sessionize.com/image/c9d3-400o400o1-ppTduZcHdbdZoE2Ns9x5h7.jpg" width="200" /><br/>
 
-Wei Wang
+Wei Wang: Professor of East China Normal University
 
 Wang Wei, currently a professor at the School of Data Science and Engineering, East China Normal University, X-lab open laboratory founder. Outstanding member of CCF, member of CCF Open Source Development Committee, person in charge of open source governance series standards of China Electronics Standardization Institute, member of Mulan Open Source Community Technical Committee, director of Open Source Club. His research interests is open source development ecology.
 

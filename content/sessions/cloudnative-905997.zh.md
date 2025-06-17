@@ -12,6 +12,6 @@ Apache HertzBeat 是一款新一代开源实时监控与告警平台。它强调
 
 <img src="https://sessionize.com/image/d76b-400o400o1-wmu7Pfw1uhFLyi2grzXbzB.png" width="200" /><br/>
 
-Hongyu Liu
+Hongyu Liu: 中国联通软件工程师，Apache Shenyu\Hertzbeat Committer
 
 我目前就职于中国联通数据智能有限公司。我于2024年向Apache ShenYu社区贡献了我的第一行代码，并目前担任Apache ShenYu和Apache HertzBeat的Committer。

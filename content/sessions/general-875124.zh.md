@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/0fee-400o400o1-UrGw8m5cEy88Yt2LE1MqNY.jpg" width="200" /><br/>
 
-Tom Tan
+Tom Tan: 数据与人工智能（DataStrato 公司现任顾问）
 
 Tom Tan 是一位在人工智能、数据与基础设施领域经验丰富的工程领导者。于 2005 年加入苹果公司，在 2010-2018年期间作为工程总监，领导了苹果公司面向云服务和企业服务的数据与机器学习平台研发。离开苹果后，Tom 曾担任人工智能/计算机视觉领域先驱企业 Cloudwalk Inc 的工程副总裁。2021-2024 在日本互联网公司 SmartNews 负责人工智能、数据与基础设施工程团队。目前，Tom 担任 DataStrato 公司顾问，并参与 Apache Gravitino 开源项目。

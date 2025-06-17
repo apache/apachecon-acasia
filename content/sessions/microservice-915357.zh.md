@@ -12,7 +12,7 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/ff07-400o400o1-9EDorTxm4s8EUAGsan1y1V.jpg" width="200" /><br/>
 
-Feng Zhang
+Feng Zhang: DiDi Global Inc，高级软件工程师
 
 开源爱好者
 Apache Seata（孵化）提交者

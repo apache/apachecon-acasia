@@ -22,7 +22,7 @@ This talk introduces Cloudberry’s key capabilities in enabling a unified lakeh
 
 <img src="https://sessionize.com/image/5feb-400o400o1-ns3S5cNdoMFDN2jL1rrsNH.jpg" width="200" /><br/>
 
-Rose Duan
+Rose Duan: Apache Cloudberry Database Developer
 
-Apache Cloudberry contributor, database kernel developer at HashData.。
+Apache Cloudberry contributor, database kernel developer at HashData.
 

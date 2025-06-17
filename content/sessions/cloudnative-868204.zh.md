@@ -17,7 +17,7 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/7609-400o400o1-YbaJq6TQuhpFBv63wn2hn8.jpg" width="200" /><br/>
 
-Shekhar Prasad Rajak
+Shekhar Prasad Rajak: 热情的开源倡导者，苹果公司软件工程师。
 
 谢卡尔对开源软件充满热情，并积极参与多个项目，包括SymPy、Ruby gems（如他所著的daru和daru-view）、Bundler、NumPy和SciPy。  
 

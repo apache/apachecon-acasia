@@ -27,7 +27,7 @@ The speech focuses on analyzing the challenges that Ant OSS has encountered in t
 
 <img src="https://sessionize.com/image/f673-400o400o1-4VK35jwN6xiau6NkXpBJPD.png" width="200" /><br/>
 
-Peggy Dong
+Peggy Dong: Ant Group,Open Source Governance Expert
 
 I believe  Open source represents a force for good. Being attracted by the concepts of open source, collaboration and sharing, I joined Ant Open Source OSPO for three years. Before this, I was mainly engaged in strategic planning, hoping to bring a different perspective to open source governance.
 

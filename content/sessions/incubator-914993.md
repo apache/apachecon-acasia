@@ -13,18 +13,14 @@ This PRE will explore the latest advancements in GraphAI and graph technologies.
 
 <img src="https://sessionize.com/image/8a76-400o400o1-QqTm1dPmXJ7rejnaFJwptg.jpg" width="200" /><br/>
 
-Song Jin
+Song Jin: HugeGraph committer
 
 I am currently a second-year graduate student at Wuhan University, actively contributing to the HugeGraph-AI community. My primary research focus is on GraphRAG.
-
-我目前是武汉大学研究生二年级学生，积极参与 HugeGraph-AI 社区的贡献。我的主要研究方向是 GraphRAG。
 
 
 <img src="https://sessionize.com/image/a4c6-400o400o1-SkLjRuNKy7hLZfXnMfQZdt.jpg" width="200" /><br/>
 
-Zhe Wang
+Zhe Wang: Hugegraph commiter
 
 Interested in graph store and graph AI.
-
-对图形存储和图形 AI 感兴趣。
 

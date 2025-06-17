@@ -45,7 +45,7 @@ Aims to address evolving needs in cost efficiency, stability, and functionality.
 
 <img src="https://sessionize.com/image/6052-400o400o1-npyQeJA1PdnzCtTC2HXP7X.jpg" width="200" /><br/>
 
-Zhiwen Deng
+Zhiwen Deng: Xiaomi Software R&D Engineer
 
 Xiaomi distributed system R&D engineer, participated in the design and implementation of message queues and HBase, and is also the committer of Apache RocketMQ
 

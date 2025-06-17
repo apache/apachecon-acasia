@@ -15,6 +15,6 @@ In my session, I will present a proposal to address this issue by enhancing the 
 
 <img src="https://sessionize.com/image/4df2-400o400o1-EVUc7f9M53frxPdweN8rwZ.jpg" width="200" /><br/>
 
-Lei Huang
+Lei Huang: Database Developer at Greptime, Hangzhou, China
 
 Lei is a passionate open-source database developer from China. After obtaining his master's degree in Computer Science from Peking University, he joined Alipay to work on infrastructure and middleware development, leading the development of a massive-scale message queue used for transaction processing. Later, he joined Greptime as a founding member, primarily responsible for the development of the storage engine. His main interests are distributed systems and database storage subsystems.

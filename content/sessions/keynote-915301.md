@@ -15,7 +15,7 @@ freeCodeCamp's open source project has over 400,000 stars on GitHub and more tha
 
 <img src="https://sessionize.com/image/5abe-400o400o1-swyUNMsPchJr8DQS2Y1pMM.jpg" width="200" /><br/>
 
-Quincy Larson
+Quincy Larson: Founder of freeCodeCamp.org
 
 Quincy Larson is a teacher and founder of freeCodeCamp.org, an open source project that has helped helped millions of people learn programming.
 

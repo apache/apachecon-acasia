@@ -20,7 +20,7 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/ef8c-400o400o1-E5oCBuuC86mqfMxuzYXMs1.png" width="200" /><br/>
 
-Longfei Liu
+Longfei Liu: 360 高级软件工程师（奇虎 360）
 
 360（奇虎 360）高级软件工程师​​
 

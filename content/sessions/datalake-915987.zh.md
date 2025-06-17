@@ -21,6 +21,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/5feb-400o400o1-ns3S5cNdoMFDN2jL1rrsNH.jpg" width="200" /><br/>
 
-Rose Duan
+Rose Duan: Apache Cloudberry 贡献者
 
 Apache Cloudberry 贡献者，HashData 的数据库内核开发人员。

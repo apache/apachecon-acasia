@@ -14,6 +14,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/427b-400o400o1-XCDWSeV9FXWG42HjVudX9.jpg" width="200" />
 
-Jinsong Zhou
+Jinsong Zhou: 腾讯软件工程师, Apache Amoro（孵化中）的 PPMC 成员
 
 Jinsong Zhou，腾讯软件工程师，在数据库和大数据领域拥有 8 年经验。目前，他领导网易基于 Apache Iceberg 的 Lakehouse 架构的实现，并担任 Apache Amoro（孵化中）的 PPMC 成员，积极推动社区发展。

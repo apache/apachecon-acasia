@@ -16,6 +16,6 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/da35-400o400o1-7iXG3irB2qcqf5PDtHr272.jpg" width="200" /><br/>
 
-Juarez Junior
+Juarez Junior: 软件工程、解决方案架构、开发人员关系
 
 Juarez Barbosa Junior 是 Oracle 的高级首席开发者布道师兼开发者布道总监。此前，他曾担任微软 Azure 开发者关系主管，以及 IBM 的思想领袖和技术布道师。他拥有超过 20 年的专业经验，曾在 DevRel、软件工程和初创企业相关项目担任高级领导职务。他的知识涵盖 Java、Python、云计算（Oracle OCI、Azure、GCP、IBM Cloud 和 AWS）、DevOps、IaC、CI/CD 和云原生。https://linktr.ee/juarezjunior

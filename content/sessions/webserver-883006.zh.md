@@ -16,6 +16,6 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/e619-400o400o1-LVL7kbGPbs9VLELb31AX3G.jpg" width="200" /><br/>
 
-Steve Yonkeu
+Steve Yonkeu: 软件工程师
 
 Steve Yonkeu 是一位后端软件工程师，致力于提供卓越的架构、性能和模块化。五年多来，他一直领导着世界各地的团队、项目和开源社区。Steve 也是 Django 喀麦隆社区和 Python 喀麦隆社区的创始人。他也是 PyCon Africa 的组织者。

@@ -21,7 +21,7 @@ We will briefly share Xiaomi's future plans for Spark, focusing on directions fo
 
 <img src="https://sessionize.com/image/791b-400o400o1-MfKwkHsY6VSRSHfZmGQa7o.jpg" width="200" /><br/>
 
-Yongyuan Liang
+Yongyuan Liang: Xiaomi,Beijing
 
 Computing Engine R&D Engineer. Responsible for the development of computing engine
 

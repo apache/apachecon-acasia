@@ -13,7 +13,7 @@ As the microservice architecture continues to evolve, the flexibility, versatili
 
 <img src="https://sessionize.com/image/e810-400o400o1-GuMsx4QRh7uDsQcqtTQeJm.png" width="200" /><br/>
 
-Jun Liu
+Jun Liu: Apache Member, Spring AI Alibaba Author, Spring Cloud Alibaba Author, Apache Dubbo PMC Chair
 
 More than 10 years experience in the Microservice field. Interested in  Cloud Native, RPC, Microservice, AI, etc.
 

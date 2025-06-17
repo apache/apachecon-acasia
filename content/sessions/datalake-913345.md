@@ -20,7 +20,7 @@ Key takeaways:
 
 <img src="https://sessionize.com/image/c52a-400o400o1-fqHUaN3MbFjUnx1NxULM9c.jpg" width="200" /><br/>
 
-Hongnan Gan
+甘 红楠: ByteDance Senior R&D Engineer
 
 * BS and MEng Degree of Fudan University
 * SparkSQL kernel developer in ByteDance
@@ -29,6 +29,6 @@ Hongnan Gan
 
 <img src="https://sessionize.com/image/d454-400o400o1-ahCLB728yY3mjf8N7yAAtu.jpg" width="200" /><br/>
 
-Zhengjie He
+He Zhengjie: ByteDance Data Engineer
 
 I am a Big Data Engineer with several years of expertise in Query engine optimization, specializing in performance tuning and cost-efficient query execution for large-scale data systems.

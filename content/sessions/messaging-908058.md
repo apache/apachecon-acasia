@@ -17,8 +17,10 @@ Additionally, it will present the practices and explorations done by Apache Rock
 
 ### Speakers:
 
+
 <img src="https://sessionize.com/image/d767-400o400o1-GDcfWFXy2nx3iSwf9Qd5M1.png" width="200" /><br/>
 
-Lin Shen
+林 沈: Apache RocketMQ PMC
 
-Apache RocketMQ PMC member,  Lead of Alibaba Cloud EventBridge, focusing on EDA research.
+Apache RocketMQ PMC,  Lead of Alibaba Cloud EventBridge, focusing on EDA research.
+

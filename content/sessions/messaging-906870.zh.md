@@ -14,6 +14,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/dd3d-400o400o1-JenBFKL54ncn91nqVyA8nE.jpg" width="200" /><br/>
 
-Juntao Ji
+Juntao Ji: 高级开发工程师（阿里巴巴云计算）
 
 阿里云计算高级中间件研发工程师，负责 RocketMQ 和 RabbitMQ 的功能开发。Apache RocketMQ 开源社区贡献者。在 CCF-A 会议或期刊（ASE 23'、FM 24'、FSE 25' 等）发表多篇顶级论文。

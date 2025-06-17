@@ -13,7 +13,7 @@ Based on the *2024 China Open Source Annual Report", China's open-source ecosyst
 
 <img src="https://sessionize.com/image/355a-400o400o1-RRrjWXYem9ZpGBUpd4jGBT.png" width="200" /><br/>
 
-Ted Liu
+Ted Liu: ASF member | Co-founder of KAIYUANSHE
 
 Ted Liu is a passionate advocate and volunteer for open-source technology. He co-founded Kaiyuanshe, an open-source alliance in China established from the ground up. Additionally, Ted is a member of the Apache Software Foundation (ASF), where he serves as an incubator PMC and mentor for several projects and community development PMC. 
 

@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/cae3-400o400o1-GXWj5X6MXUxLT5kfwqCJqB.jpg" width="200" /><br/>
 
-Fan Wang
+Fan Wang: 小米消息队列团队负责人，Apache RocketMQ Committer
 
 2018年加入小米，专注于消息和存储系统，负责小米MQ、HBase、ElasticSearch等平台。

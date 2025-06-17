@@ -20,7 +20,7 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/f9de-400o400o1-D78g36ew5QtQNn1tnaatXY.jpg" width="200" /><br/>
 
-Koji Annoura
+Koji Annoura: UTI,Inc. CTO
 
 Koji Annoura 拥有超过 40 年的全栈开发经验。  
 

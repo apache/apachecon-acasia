@@ -25,6 +25,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/8968-400o400o1-XFskLG5iSQjayU8GPBBL9V.jpg" width="200" /><br/>
 
-Houliang Qi
+Houliang Qi: 小米软件研发工程师
 
 Apache IoTDB 和 Apache TsFile PMC 成员，小米软件研发工程师，专注于小米数据湖平台的开发与实施。

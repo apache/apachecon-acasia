@@ -14,6 +14,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/7248-400o400o1-BjZnK4uk17L2eC9ZJkMqHU.png" width="200" /><br/>
 
-姜宁
+姜宁: ByteDance OSPO 首席开源布道者
 
 Willem Jiang（姜宁）是字节跳动开源办公室（OSPO）的首席开源布道师，同时也是 Apache 软件基金会的董事会董事。他参与了多个 Apache 项目的贡献，包括 Camel、CXF、ServiceMix 和 ServiceComb。在加入字节跳动之前，Willem 曾在华为担任了六年的开源技术专家。在此之前，他是 RedHat 的首席工程师，负责 Fuse ESB 的工作。他还曾在 FuseSource、IONA 和 Travelsky.inc 等公司工作。

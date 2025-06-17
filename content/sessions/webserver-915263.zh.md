@@ -14,6 +14,6 @@ OpenTelemetry 是一个广泛采用的开源标准，用于构建可观测性框
 
 <img src="https://sessionize.com/image/4df2-400o400o1-EVUc7f9M53frxPdweN8rwZ.jpg" width="200" /><br/>
 
-Lei Huang
+Lei Huang: 中国杭州 Greptime 数据库开发人员
 
 Lei 是一位来自中国的热情开源数据库开发者。在北京大学获得计算机科学硕士学位后，他加入支付宝，从事基础设施和中间件开发工作，并领导开发了用于交易处理的大规模消息队列。后来，他作为创始成员加入 Greptime，主要负责存储引擎的开发。他的主要兴趣是分布式系统和数据库存储子系统。

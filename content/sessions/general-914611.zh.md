@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/62a1-400o400o1-UaS49NKQx2cdgskM6goq17.jpg" width="200" /><br/>
 
-赵浩
+赵浩: Apache HugeGraph 贡献者 / 高级大数据工程师
 
 Apache HugeGraph 贡献者 / 高级大数据工程师

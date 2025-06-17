@@ -30,7 +30,6 @@ stype: "Chinese Session"
 
 <img src="https://sessionize.com/image/d261-400o400o1-fxPaH1DkrWnKKr7M1jP91s.jpg" width="200" /><br/>
 
-Pengxiang Wang
+Pengxiang Wang: Tencent senior big data engineer
 
 Pengxiang Wang,  graduated from Beihang University, senior software engineer from Tencent big data, having lots of practicing experience in real-time data processing, mainly focusing on stability improvement of Flink in runtime.
-

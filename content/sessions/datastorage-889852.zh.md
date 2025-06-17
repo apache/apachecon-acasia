@@ -30,12 +30,12 @@ AI 应用的未来需要可扩展、一致且高性能的数据基础设施。�
 
 <img src="https://sessionize.com/image/a965-400o400o1-E9kixxxRCcLxkKoQ9y7dRC.png" width="200" /><br/>
 
-Hubert Zhang
+Hubert Zhang: EloqData CTO
 
 Hubert Zhang 是 EloqData 的首席技术官（CTO）。在加入 EloqData 之前，Hubert 曾是 VMware Greenplum 数据库的技术负责人。他还是 Apache HAWQ 项目管理委员会（PMC）的成员。
 
 <img src="https://sessionize.com/image/2f8b-400o400o1-MyxGEXHK65dpEA5LW96TB8.jpg" width="200" /><br/>
 
-Lintao Zhang
+Lintao Zhang: Co-founder and CEO, EloqData
 
 Lintao Zhang 是 EloqData 的联合创始人兼首席执行官，为人工智能时代的应用构建下一代数据库基础设施。 此前，他是微软研究院的合作伙伴研究经理，从事云基础设施、分布式系统和人工智能方面的研究。他是 PacificA 复制协议的发明人，该协议被用于 Apache Kafka、Apache Pegasus 和 ElasticSearch。他在顶级会议上发表了 50 多篇论文，并获得了许多研究奖项。林涛是 IEEE Fellow 和 ACM Distinguished Member。他拥有北京大学学士学位和普林斯顿大学博士学位。

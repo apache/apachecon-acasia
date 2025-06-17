@@ -16,6 +16,6 @@ By attending this session, you will gain a deep understanding of the core method
 
 <img src="https://sessionize.com/image/9377-400o400o1-Ugp4XdU1Y7Gr49zsJjkss6.jpg" width="200" /><br/>
 
-Minghui Zhang
+Minghui Zhang: Alibaba Cloud, Hangzhou
 
 As the developer of Alibaba Cloud APM's auto instrumentation tools, I specialize in providing immediate, out-of-the-box solutions for Java, Golang, and more, leveraging the OpenTelemetry standard. My expertise in equipping users with cloud-native APM capabilities has enhanced application performance monitoring across various cloud environments. 

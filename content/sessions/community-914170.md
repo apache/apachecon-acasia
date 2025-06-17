@@ -23,14 +23,14 @@ Additionally, this session will feature a Birds of a Feather (BoF) segment, invi
 
 <img src="https://sessionize.com/image/e746-400o400o1-irRRfX45oHJUwig85uBoD.jpg" width="200" /><br/>
 
-Xiaoya Xia
+Xiaoya Xia: Open Source Analyst, Ant Group 
 
 Xiaoya Xia is a member of the Ant Group OSPO, where she focuses on catalyzing open source success through data-driven insights. Before joining Ant Group, Xiaoya was a PhD at East China Normal University (ECNU), where she concentrated on research into open source ecosystem sustainability. 
 
 
 <img src="https://sessionize.com/image/8870-400o400o1-PDR3hsSKRCfWb1Fbh3WVdT.jpg" width="200" /><br/>
 
-Divya Mohan
+Divya Mohan: Open source maintainer & advocate
 
 Divya is a Senior Technical Evangelist at SUSE, where she contributes to Rancher’s cloud native open source projects. She co-chairs the documentation for the Kubernetes & LitmusChaos projects & has previously worked extensively in the systems engineering space during her tenure with HSBC & IGate Global Solutions Pvt Ltd. A co-creator of the KCNA exam & a CNCF ambassador, she is invested in making technical communities & technologies more accessible & inclusive.
 

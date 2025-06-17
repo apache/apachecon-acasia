@@ -22,7 +22,7 @@ NOTE FOR THE COMMITTEE: Fluss is currently an open-source project under the Alib
 
 <img src="https://sessionize.com/image/19c7-400o400o1-b7b9ecef-9748-4e55-b53e-b20d108e3488.jpg" width="200" /><br/>
 
-Jark Wu
+Jark Wu: Alibaba
 
 Jark Wu is a committer and PMC member of Apache Flink. He leads both the Fluss and Flink SQL teams at Alibaba Cloud. With a decade of experience in Flink, he has been deeply involved in developing and evolving Flink SQL from zero to now. Throughout this journey, he has also initiated and incubated Flink CDC and Fluss projects, further expanding the Flink ecosystem.
 

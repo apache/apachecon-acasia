@@ -18,7 +18,6 @@ In this talk, we will introduce some of the important work, including:
 
 <img src="https://sessionize.com/image/6797-400o400o1-dbccedf4-ca5c-4ac7-9407-da8d909f00a6.jpg" width="200" /><br/>
 
-Xuannan Su
+Xuannan Su: Alibaba Group
 
-Xuannan is a software engineer at Alibaba. He is focusing on the development of Apache Flink and its ecosystem after he received his master's degree from Carnegie Mellon University in 2019. 。
-
+Xuannan is a software engineer at Alibaba. He is focusing on the development of Apache Flink and its ecosystem after he received his master's degree from Carnegie Mellon University in 2019. 

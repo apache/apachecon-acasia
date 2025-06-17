@@ -13,14 +13,14 @@ At Dream11, Apache Celeborn is used for petabyte-scale shuffle, leveraging rack 
 
 <img src="https://sessionize.com/image/c023-400o400o1-XrDyFVcAPGBBg2RCKps4W4.jpg" width="200" /><br/>
 
-Ravi Rana
+Ravi Rana: Technical Lead
 
 Technical Lead at Dream11. 10+ professional experience in software engineering 
 
 
 <img src="https://sessionize.com/image/ff4d-400o400o1-Wr3YbdVGhUXaDsQG43bhfe.png" width="200" /><br/>
 
-Mehul Batra
+Mehul Batra: Technical Lead 
 
 Always on a quest for captivating data infrastructure projects and reads
 (Train your Mind & Body)
@@ -28,7 +28,7 @@ Always on a quest for captivating data infrastructure projects and reads
 
 <img src="https://sessionize.com/image/cb28-400o400o1-Utccibvy6GXbntEwxXRRRY.jpg" width="200" /><br/>
 
-Mohit Jain
+Mohit Jain: Technical Lead
 
 I work at the intersection of big data and ML, making Spark and Flink faster while scaling real-time, batch, and ML workloads. Whether it's optimizing distributed computing, streamlining data pipelines, or building intuitive tools, my goal is to turn complex data challenges into seamless, high-performance solutions.
 

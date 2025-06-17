@@ -13,7 +13,7 @@ Apache Gravitino 统一管理了 Data 和 AI 的元数据，特别是在管理�
 
 <img src="https://sessionize.com/image/3a57-400o400o1-HHMKT93DXTop9ZVUktXYvG.jpg" width="200" /><br/>
 
-Xun Liu
+Xun Liu: Apache Gravitino PMC
 
 Xun Liu 拥有二十年的软件开发经验，过去十年一直致力于大数据开发领域。他是Apache软件基金会成员及孵化器导师，曾在Apache孵化多个开源项目，并担任Apache Hadoop和Zeppelin的提交者成员。
 

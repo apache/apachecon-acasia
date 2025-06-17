@@ -17,7 +17,6 @@ Whether you’re building microservices, designing internal APIs, or driving dev
 
 <img src="https://sessionize.com/image/2e0e-400o400o1-hAVvmRH9pQCek9sGMGgcjH.jpg" width="200" /><br/>
 
-He Liang
+He Liang: Apache Dubbo Contributor
 
 He Liang is a core developer of Apache Dubbo and an active contributor in the open-source community. He specializes in distributed service governance and the evolution of RPC frameworks. Currently, he leads the development of OpenAPI and AI Agent integration within the Dubbo ecosystem, aiming to drive deeper integration between Dubbo and modern cloud-native architectures.
-

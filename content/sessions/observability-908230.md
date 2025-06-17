@@ -13,7 +13,7 @@ Distributed tracing is crucial in observability, driving improvements in tracing
 
 <img src="https://sessionize.com/image/e804-400o400o1-S7uzJdBLwNehbXvexSNvbV.jpg" width="200" /><br/>
 
-Zixin Zhou
+Zixin Zhou: Apache SkyWalking PMC Member & Committer
 
 Apache SkyWalking PMC Member & Committer, open-telemetry Member, openzipkin & pinpoint-apm Contributor.
 

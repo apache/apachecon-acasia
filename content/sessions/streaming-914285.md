@@ -13,7 +13,7 @@ The diversity of computing scenarios continuously drives the innovation of big d
 
 <img src="https://sessionize.com/image/cf5c-400o400o1-HKnHKDN66HEPQDSc9TVhnT.jpg" width="200" /><br/>
 
-LEI XIE
+LEI XIE: China Mobile Ecloud, Apache Committer
 
 An enthusiast of Apache open source projects and also an Apache Committer, currently mainly responsible for the research and development of China Mobile Cloud's stream computing platform.
 

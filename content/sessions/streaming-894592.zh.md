@@ -19,6 +19,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/bcad-400o400o1-DU58jc51RyrFi5E6cvTQW1.jpg" width="200" /><br/>
 
-Ron Liu
+Ron Liu: 阿里巴巴云，高级工程师
 
 Apache Flink 提交者，Apache Flink 2.1 发布经理。长期专注于大数据领域，在流式处理、批量计算和存储方面拥有丰富的经验。

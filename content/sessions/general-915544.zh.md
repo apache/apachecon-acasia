@@ -12,7 +12,7 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/a2ff-400o400o1-s5BFvtTz2tqV3PWZFaWQJo.png" width="200" /><br/>
 
-Gregory Lind
+Gregory Lind: 软件团队的激进疗法》作者、Buildly 首席执行官兼创始人
 
 《软件团队的激进疗法》作者，Buildly 公司首席执行官，拥有 20 余年软件、开源及初创企业领域经验。
 

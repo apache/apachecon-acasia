@@ -33,6 +33,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/8dab-400o400o1-wspZVa98jevB6AB6cPZU8m.jpg" width="200" /><br/>
 
-Zheng Yu Chen
+Zheng Yu Chen: Apache Amoro PPMC ，HuoLaLa 高级大数据开发人员
 
 Zheng Yu Chen（ConradJam），Apache Flink中文社区志愿者，Apache Amoro项目管理委员会成员（PPMC），长期从事大数据数据开发工作。目前，他负责从0到1设计并构建Flink公有云多云数据解决方案、数据同步和大数据运维流水线平台。

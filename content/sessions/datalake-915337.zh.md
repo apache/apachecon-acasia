@@ -28,7 +28,7 @@ Apache Hudi 是一种强大的表格式，提供丰富的能力，涵盖离线�
 
 <img src="https://sessionize.com/image/8a30-400o400o1-DXZEDcKH4tBMugeSDeE4vj.jpg" width="200" /><br/>
 
-刘朝阳
+刘朝阳: 快手核心 Hudi 工程师
 
 快手核心Hudi工程师 | Apache Hudi活跃贡献者 | Apache RocketMQ提交者
 

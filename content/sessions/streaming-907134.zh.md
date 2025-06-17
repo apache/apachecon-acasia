@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/b616-400o400o1-G8HEVFg7VaTfKEYWtC3oA7.jpg" width="200" /><br/>
 
-Zhao Qingwen
+Zhao Qingwen: 蚂蚁集团, 工程师
 
 2019年加入蚂蚁集团，是GeaFlow的核心开发者之一。

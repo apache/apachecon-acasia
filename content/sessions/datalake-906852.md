@@ -15,7 +15,7 @@ This keynote will share Tencent Cloud's extensive experience with lakehouse arch
 
 <img src="https://sessionize.com/image/427b-400o400o1-XCDWSeV9FXWG42HjVudX9.jpg" width="200" /><br/>
 
-Jinsong Zhou
+Jinsong Zhou: Software engineer at Tencent, PPMC member of Apache Amoro (incubating)
 
 Jin Song Zhou, a software engineer at Tencent, brings 8 years of expertise in the fields of databases and big data. Currently leading the implementation of a lakehouse architecture based on Apache Iceberg at NetEase, also serving as a PPMC member for Apache Amoro (incubating), actively fostering community development.
 

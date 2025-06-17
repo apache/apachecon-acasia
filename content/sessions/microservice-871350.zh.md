@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/7fc1-400o400o1-X9gMm8oS6VzNP1XRDNJEAV.jpg" width="200" /><br/>
 
-河清 江
+江河清：Apache Dubbo PMC
 
 Apache Dubbo PMC。对云原生、微服务和安全感兴趣。

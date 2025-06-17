@@ -15,7 +15,6 @@ In relation to the topic, Seata's Evolution within Alibaba signifies its initial
 
 <img src="https://sessionize.com/image/ed51-400o400o1-BTDBgQinUQrS5cv8CRWb4e.jpg" width="200" /><br/>
 
-Min Ji
+Min Ji: Apache Seata PPMC/Higress Maintainer
 
 Ji Min (Qing Ming) is the head of distributed transaction products at Alibaba Cloud and a maintainer for Higress. With more than 10 years of experience in research and development architecture, Ji has played a key role in driving the large-scale implementation of middleware within the group, as well as the commercialization and open-sourcing of microservices PaaS solutions. He is currently dedicated to advancing the next generation of microservices architecture.
-

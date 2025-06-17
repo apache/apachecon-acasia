@@ -15,7 +15,6 @@ The session will also showcase a practical integration case with Cloudberry, dem
 
 <img src="https://sessionize.com/image/4882-400o400o1-LRN5sGimgNASAwXPaiW7v2.jpg" width="200" /><br/>
 
-虹宇 陈
+虹宇 陈: SeaTunnel Contributor and Data Integration R&D Engineer at NetEase
 
 A Data Integration R&D Engineer at NetEase with four years of experience in large-scale data transmission systems and a Master's degree in Computer Science from Southeast University. He contributes to Apache SeaTunnel and specializes in building high-performance data integration solutions for enterprise-level ETL challenges. His expertise spans distributed systems, data processing engines, and pipeline architecture.
-

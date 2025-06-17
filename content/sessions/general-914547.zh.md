@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/ead4-400o400o1-MxgoGiatXrXoHtbuJ6EW4d.jpg" width="200" /><br/>
 
-Wentao Liu
+Wentao Liu: ictrek.com 业务开发经理
 
 在 Linux 社区拥有超过20年的丰富经验。在早期的 Linux 技术实践中，他曾将 LVS 技术成功应用于第四层交换机的研发生产。如今，作为大语言模型（LLMs）和云原生技术的倡导者，他正专注于AI智能体、大语言模型与检索增强生成（RAG）、AI/ML 与 Kubernetes 的集成等前沿领域，特别是在MLOps和语音转文字（Speech-to-text）应用集成方面进行深入研究。他曾在 FOSSASIA、ApacheCon、FOSDEM 等多个开源技术大会上发表演讲，分享其在开源技术领域的学习与实践经验。

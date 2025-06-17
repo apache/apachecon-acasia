@@ -18,6 +18,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/2a81-400o400o1-Jsau5kyb24ZgXpGbt5aVrk.png" width="200" /><br/>
 
-Xin Zhang
+Xin Zhang: Amaozn 网络服务，解决方案架构师
 
 Xin Zhang 是亚马逊云科技（AWS）解决方案架构师，负责基于AWS云平台的解决方案咨询与设计。他在系统架构、数据仓库及实时计算等领域的研发与架构实践方面拥有丰富经验。

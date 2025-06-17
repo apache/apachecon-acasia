@@ -20,7 +20,7 @@ Key Takeaways:
 
 <img src="https://sessionize.com/image/bcad-400o400o1-DU58jc51RyrFi5E6cvTQW1.jpg" width="200" /><br/>
 
-Ron Liu
+Ron Liu: Alibaba Cloud, Senior Engineer
 
 Apache Flink Committer, Apache Flink 2.1 Release Manager. I've been focusing on big data, with extensive experience in streaming, batch computing, and storage.
 

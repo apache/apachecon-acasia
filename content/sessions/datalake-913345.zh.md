@@ -19,7 +19,7 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/c52a-400o400o1-fqHUaN3MbFjUnx1NxULM9c.jpg" width="200" /><br/>
 
-甘 红楠
+甘红楠: 字节跳动高级研发工程师
 
 * 复旦大学学士和硕士学位
 * 字节跳动 SparkSQL 内核开发人员
@@ -28,6 +28,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/d454-400o400o1-ahCLB728yY3mjf8N7yAAtu.jpg" width="200" /><br/>
 
-He Zhengjie
+He Zhengjie: 字节跳动大数据工程师
 
 我是一名大数据工程师，在查询引擎优化方面拥有数年专业知识，专门从事大规模数据系统的性能调整和经济高效的查询执行。

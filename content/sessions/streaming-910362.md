@@ -29,13 +29,12 @@ stype: "Chinese Session"
 
 <img src="https://sessionize.com/image/c17d-400o400o1-3ksWtZ8Yz4P3kYR9cEC4tH.jpg" width="200" /><br/>
 
-Zihao Chen
+Zihao Chen: Tencent, Software Development Engineer
 
 Zihao has been engaged in R&D related to the Flink kernel for many years. In recent years, he has mainly focused on developing the autoscaling capabilities of Flink, which are aimed at improving the stability and resource utilization of Flink jobs. Additionally, he published an industry paper at SIGMOD conference about autoscaling in streaming scenarios.
 
 <img src="https://sessionize.com/image/95fa-400o400o1-pRGUUw1BJpnhknhJaHnEvg.png" width="200" /><br/>
 
-Jiangang Liu
+Jiangang Liu: Tencent, Head of Real-time Computing Flink
 
 Tencent Real-Time Computing Flink Lead, specializing in the cloud-native evolution, elastic scaling, and separation of storage and computation. Previously served as the Flink Technical Lead at Kuaishou, leading real-time computing architecture design and large-scale implementation, successfully driving the real-time connection project between Kuaishou and CCTV Spring Festival Gala in 2020. Prior to that, participated in Baidu Matrix's development work in offline hybrid computing.
-

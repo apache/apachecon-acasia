@@ -41,7 +41,7 @@ Plans for supporting DeltaLake and more
 
 <img src="https://sessionize.com/image/a63f-400o400o1-TAZzBju9ZdRb4umYVxMo2D.png" width="200" /><br/>
 
-Lidong Dai
+Lidong Dai: WhaleOps Technology co-founder
 
 Apache Incubator Mentor, Apache DolphinScheduler PMC Chair & Apache SeaTunnel PMC member
 

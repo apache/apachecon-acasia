@@ -23,7 +23,7 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/4cf8-400o400o1-kvqNJ2DsjgqVvb33hZaJp.jpg" width="200" /><br/>
 
-朱学通
+朱学通: 伊利集团，大数据工程经理
 
 一位拥有 **10 年以上经验** 的 **大数据架构师与技术负责人**，专注于 **OLAP 优化（StarRocks、Spark）**、**实时数据湖（Flink、Paimon）** 和 **多云集成**。  
  

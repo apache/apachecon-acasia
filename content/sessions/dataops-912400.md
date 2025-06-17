@@ -14,7 +14,7 @@ In this session, in addition to introducing the many features of Apache Gravitin
 
 <img src="https://sessionize.com/image/3a57-400o400o1-HHMKT93DXTop9ZVUktXYvG.jpg" width="200" /><br/>
 
-Xun Liu
+Xun Liu: Apache Gravitino PMC
 
 Xun Liu, with twenty years of software development experience, has been working in the field of big data development for the past ten years. He is a Member of the Apache Software Foundation and an incubator mentor, and has incubated a number of open-source projects in Apache, as well as a member of the Committer of Apache Hadoop and Zeppelin.
 

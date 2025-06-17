@@ -12,6 +12,6 @@ stype: "英文演讲"
 
 <img src="https://sessionize.com/image/b2ba-400o400o1-07109e43-e2ee-48d4-9e94-c01a1d0f8c01.jpg" width="200" /><br/>
 
-Guo Chao
+Guo Chao: 数据库工程师、NoSQL
 
 Guo Chao 是 Apache Cassandra 的提交者（Committer）。

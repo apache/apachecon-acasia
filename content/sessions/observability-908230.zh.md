@@ -12,6 +12,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/e804-400o400o1-S7uzJdBLwNehbXvexSNvbV.jpg" width="200" /><br/>
 
-Zixin Zhou
+Zixin Zhou: 阿帕奇 SkyWalking 项目管理委员会成员兼 Committer
 
 Apache SkyWalking PMC 成员和提交者、open-telemetry 成员、openzipkin 和 pinpoint-apm 贡献者。

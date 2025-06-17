@@ -13,7 +13,6 @@ In this session, I will introduce some key features of Apache Kafka 4.0, includi
 
 <img src="https://sessionize.com/image/1797-400o400o1-SXw7AkzP9sW9VsRkFiQ9gT.jpg" width="200" /><br/>
 
-Lan Ding
+Lan Ding: Huawei Cloud message engine R&D expert
 
 Software engineer of Huawei Cloud Middleware Team, Apache RocketMQ Contributor, Apache Kafka Contributor, responsible for the development of Huawei Cloud Kafka.
-

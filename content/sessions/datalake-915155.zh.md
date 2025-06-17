@@ -13,6 +13,6 @@ Apache Cloudberry 是一款先进且成熟的开源 MPP 数据库，它源自 Pi
 
 <img src="https://sessionize.com/image/7d99-400o400o1-KXGZ6fS6aQcuWW63gVwjQs.jpg" width="200" /><br/>
 
-Max Yang
+Max Yang: Apache Cloudberry PPMC 成员，HashData 技术副总裁
 
 Apache Cloudberry PPMC 成员、HashData 技术副总裁

@@ -15,7 +15,7 @@ In this speech, we will focus on Apache Pulsar on Tencent Cloud's best practices
 
 <img src="https://sessionize.com/image/9c17-400o400o1-JPuaxw3mCtQ2zt9Ew94C2n.jpg" width="200" /><br/>
 
-明泽 韩
+明泽 韩: tencent
 
-Graduated from Wuhan University majoring in computer science. Tencent Cloud senior R&D engineer. Open source community enthusiast. I have more than 8 years of experience in message queue-related R&D and operations in Meituan and Tencent. Currently, I am mainly responsible for the core part of Tencent Cloud TDMQ for Pulsar product. At the same time, I am an Apache Pulsar Contributor and RoP Maintainer.
+Graduated from Wuhan University majoring in computer science. Tencent Cloud senior R&D engineer. Open source community enthusiast. I have more than 8 years of experience in message queue-related R&D and operations in Meituan and Tencent. Currently, I am mainly responsible for the core part of Tencent Cloud TDMQ for Pulsar product. At the same time, I am an Apache Pulsar Contributor and RoP Maintainer.=
 

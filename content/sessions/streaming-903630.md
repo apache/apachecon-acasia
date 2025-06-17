@@ -26,20 +26,15 @@ Agenda:
 
 <img src="https://sessionize.com/image/0408-400o400o1-Qugv97SCsud3LMz6G4ZKqV.jpg" width="200" /><br/>
 
-Yiheng Tang
+Yiheng Tang: Bytedance Infrastructure Engineer
 
 Flink Runtime Developer at Bytedance
 
 
 <img src="https://sessionize.com/image/183a-400o400o1-4CYkeMZCjrpekwjGgjF934.jpg" width="200" /><br/>
 
-Shaojun Wang
+Shaojun Wang: ByteDance, China, Programming Language Engineer
 
 1. The PPMC of the Apache incubating project teaclave
 2. A Gopher since 2017
 3. A Programming Language Engineer @ByteDance
-
-1. Apache 孵化项目 teaclave 的 PPMC
-2. 自 2017 年起成为 Gopher 开发者
-3. 字节跳动编程语言工程师
-

@@ -12,6 +12,6 @@ stype: "中文会议"
 
 <img src="https://sessionize.com/image/6fb0-400o400o1-PEobn7xbiQsRk7JmKQ6i9W.jpg" width="200" /><br/>
 
-Shuxin Pan
+Shuxin Pan: Apache Committer | 开源爱好者
 
 Shuxin Pan 是 Apache 的提交者，也是多个热门开源项目的维护者。他在人工智能和服务端开发方面拥有丰富的经验，目前就职于一家金融公司。凭借多年的开源贡献经验，他希望能够帮助更多新人进入开源世界。

@@ -16,7 +16,6 @@ To adapt to these features, the community has launched a new gRPC-based client. 
 
 <img src="https://sessionize.com/image/5517-400o400o1-QHVT45RWPFxxgwib7bn9VX.jpg" width="200" /><br/>
 
-Shengzhong Liu
+Shengzhong Liu: Tencent.
 
 Since graduating from Southeast University in 2019, I have been working at Tencent Cloud as a software development engineer, specializing in message queue technologies in recent years.
-

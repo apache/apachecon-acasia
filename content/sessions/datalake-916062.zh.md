@@ -16,6 +16,6 @@ Apache Polaris（孵化中）实现了 Apache Iceberg REST 目录规范，并允
 
 <img src="https://sessionize.com/image/d65d-400o400o1-LvXU1jeMwf7eRJ4iZsGDwd.png" width="200" /><br/>
 
-Eric Maynard
+Eric Maynard: 数据互操作性 @ Snowflake
 
 Eric Maynard 是 Snowflake 的一名工程师，致力于 Apache Iceberg、Apache Polaris（孵化）以及格式之间（元）数据的转换。

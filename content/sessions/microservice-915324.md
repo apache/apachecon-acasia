@@ -13,7 +13,6 @@ This submission explores the practical application of Dubbo-go, the Go implement
 
 <img src="https://sessionize.com/image/3f1d-400o400o1-LXK34oxikVSsnDfxJVqaiE.png" width="200" /><br/>
 
-Wu Xinfan
+Wu Xinfan: AI infra engineer、apache dubbo committer
 
 Open-source enthusiast, Apache Dubbo committer, currently working on building AI computing platforms.
-

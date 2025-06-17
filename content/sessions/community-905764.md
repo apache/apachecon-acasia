@@ -13,7 +13,6 @@ In this talk, I will provide insights into how developers and community members 
 
 <img src="https://sessionize.com/image/f7f9-400o400o1-psgL8jgznDsATwZF9JLL66.jpg" width="200" /><br/>
 
-Justin Mclean
+Justin Mclean: Open Source Community Manager, ASF Board Member
 
 Justin Mclean is a highly experienced professional with over 30 years in web application development, education, and community work, and is an active contributor to open source software. Justin is a renowned speaker at conferences worldwide and currently serves as the Community Manager at Datastrato. He mentors projects in the Apache Software Foundation and holds positions as VP of the ASF Incubator, and is an ASF board member.
-

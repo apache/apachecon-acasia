@@ -13,7 +13,7 @@ Getting started with open source can be daunting, but every experienced contribu
 
 <img src="https://sessionize.com/image/6fb0-400o400o1-PEobn7xbiQsRk7JmKQ6i9W.jpg" width="200" /><br/>
 
-Shuxin Pan
+Shuxin Pan: Apache Committer | Open Source Enthusiast
 
 Shuxin Pan is an Apache Committer and maintainer of several popular open-source projects. He has extensive experience in AI and server-side development and currently works for a financial company. With many years of open-source contributions, he hopes to help newcomers enter the open-source world.
 

@@ -16,7 +16,7 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/40fa-400o400o1-LJ32faVgD31ycD9L9S4w5G.png" width="200" /><br/>
 
-Kang Xiao
+Kang Xiao: Apache Doris PMC Member | SelectDB，副总裁
 
 SelectDB，副总裁
 钱信和360，总监

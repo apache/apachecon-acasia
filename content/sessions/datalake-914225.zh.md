@@ -16,6 +16,6 @@ Apache Iceberg 表格式已成为大数据领域的事实标准。与基于传�
 
 <img src="https://sessionize.com/image/6933-400o400o1-72rRP3UXJeo1bZhvM4bFDm.jpg" width="200" /><br/>
 
-Daniel Becker
+Daniel Becker: 高级软件工程师
 
 Daniel Becker 于 2019 年开始在 Cloudera 从事 Apache Impala 工作。他为 Impala 做出的贡献涵盖多个主题，包括 LLVM 代码生成、复杂类型、Parquet 和 Iceberg。他是 Apache Impala PMC 成员，拥有帕兹马尼彼得天主教大学的学位

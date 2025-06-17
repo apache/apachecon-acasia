@@ -15,8 +15,9 @@ This presentation will share our practical experience in collecting Metrics unde
 
 <img src="https://sessionize.com/image/f542-400o400o1-4vaXwyGZYAujcJxNoeruQG.jpg" width="200" /><br/>
 
-lin lin
+lin lin: Huawei, SDE expert, Middleware technology director
 
 Lin Lin, Huawei SDE expert, Middleware technology director, worked for Tencent and Ant Financial
 Focused on middleware and infrastructure, has more than 10 years of relevant experience, and is committed to building high-quality infrastructure
 Apache Pulsar Committer & PMC member
+

@@ -13,7 +13,7 @@ This technical session shares practical experiences and key insights gained from
 
 <img src="https://sessionize.com/image/3cdf-400o400o1-fFUnsGQVJZX8XbLKVe2HQD.jpg" width="200" /><br/>
 
-Yike Xiao
+Yike Xiao: 智联招聘, Senior Software Engineer
 
 A veteran distributed systems architect with over a five years of hands-on experience in:
 - Extensive experience architecting and scaling RPC frameworks
