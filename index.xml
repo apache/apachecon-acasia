@@ -352,15 +352,6 @@ This topic is divided into three parts:
     </item>
     
     <item>
-      <title>Apache Iceberg ingestion with Apache NiFi and Polaris</title>
-      <link>/sessions/streaming-880900.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-880900.html</guid>
-      <description>A cornerstone requirement of an Iceberg-based data lakehouse is data ingestion. One approach is to leverage Apache NiFi. NiFi, a multimodal data pipelining tool, has a multitude of processors that can be assembled into a flow to address your specific scenarios. NiFi&amp;rsquo;s low-code/no-code approach allows data engineers to rapidly build, deploy, and monitor their data ingestion &amp;amp; transformation pipelines. NiFi also allows custom processor development with a variety of languages, including Java and Python.</description>
-    </item>
-    
-    <item>
       <title>Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses</title>
       <link>/sessions/datalake-896996.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -591,11 +582,11 @@ Zhangjian He: Huawei Cloud IoT Senior Engineer | Huawei Cloud Open Source Team M
     
     <item>
       <title>Catalogs as Context: Using metadata to power and govern the next wave of AI development</title>
-      <link>/sessions/ai-910135.html</link>
+      <link>/sessions/ai-954593.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/sessions/ai-910135.html</guid>
-      <description>Developing powerful AI tooling has been our theme of the year, with agents and foundational models picking up steam across the board. Therein still lies the question though: how do we serve data for these applications to work effectively? What about at enterprise scale? What even is context? In this talk we discuss the current big data landscape, challenges to data platforming for AI, and why data catalogues and metadata are the only viable path forward to effective, governed AI-development.</description>
+      <guid>/sessions/ai-954593.html</guid>
+      <description>Developing powerful AI tooling has been our theme of the year, with agents and foundational models picking up steam across the board. Therein still lies the question though: how do we serve data for these applications to work effectively? What about at enterprise scale? What even is context? In this talk we discuss the current big data landscape, challenges to data platforming for AI, and why data catalogues and metadata are the only viable path forward to effective, governed AI - development.</description>
     </item>
     
     <item>
@@ -881,26 +872,6 @@ Storage Optimization By replacing HDFS with JuiceFS, we implemented elastic comp
     </item>
     
     <item>
-      <title>From Solo to Synergy: Involving the Whole Community in Apache OzHera (Incubating)’s Release</title>
-      <link>/sessions/incubator-908929.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sessions/incubator-908929.html</guid>
-      <description>A successful release in an Apache project is never a one-person show. In this talk, I’ll share how the Apache OzHera (Incubating) community worked together to deliver its first release—not just as a task for the release manager, but as a shared responsibility across the entire community. From writing release notes and reviewing code to testing artifacts and voting on the mailing list, every step required collective effort and collaboration. I’ll reflect on how we moved from a “solo contributor” mindset to a culture of shared ownership, and offer insights into how other communities—especially those in the Incubator—can encourage broader participation in their release processes.</description>
-    </item>
-    
-    <item>
-      <title>From Zero to Million: How I got the first Million downloads on my Open-Source PHP package</title>
-      <link>/sessions/community-871534.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sessions/community-871534.html</guid>
-      <description>I will start by explaining a little bit about the project, it’s differentials and how the CI/CD process helped it to succeed.
-The second part will explain the process and the most important decisions and suggestions that I got from friends and co-workers (highlighting the importance of sharing your personal projects with people you thrust).
-Third part will speak about how to get financial support for a free and Open Source project.</description>
-    </item>
-    
-    <item>
       <title>Fundamental Optimizations in Apache DataFusion</title>
       <link>/sessions/rust-915098.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -949,15 +920,6 @@ SelectDB, VP QianXin and 360, Director Baidu, Senior Engineer</description>
       
       <guid>/sessions/olap-913223.html</guid>
       <description>In this presentation, we will conduct an in-depth exploration of the application of History-Based Optimizations (HBO) within the context of SparkSQL, a critical component in modern big data processing ecosystems. Our discussion will not only cover the fundamental principles of HBO but also delve into the compelling reasons for its adoption, especially in scenarios where Adaptive Query Execution (AQE) is already in place. We will dissect how HBO addresses limitations inherent to AQE, thereby providing enhanced query performance and resource utilization.</description>
-    </item>
-    
-    <item>
-      <title>How to handle your Star schema in the Streamhouse world</title>
-      <link>/sessions/streaming-906176.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-906176.html</guid>
-      <description>Almost every company who wants to build its own data platform for business analytics goes through a scenario of denormalizing their original data model from OLTP space in their data warehouse or lakehouse space. The end goal is to build some useful reports and power some real time business dashboard. While doing this, data teams may make many sub-optimal solutions and attempts in terms of data freshness, infrastructure cost and cost of maintenance.</description>
     </item>
     
     <item>
@@ -1078,15 +1040,15 @@ In order to better realize the core needs of the IoT industry such as device com
     </item>
     
     <item>
-      <title>Kafka migration and disaster recovery architecture</title>
-      <link>/sessions/messaging-879741.html</link>
+      <title>Kafka on Tencent Cloud: Seamless Migration &amp; Disaster Recovery</title>
+      <link>/sessions/messaging-882395.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/sessions/messaging-879741.html</guid>
-      <description>This session introduces the smooth migration of self-built Kafka cluster to Tencent Cloud CKafka solution, without paying attention to the produce and consume application switching order during migration. In addition, this section describes the fault disaster recovery on Tencent Cloud CKafka.
+      <guid>/sessions/messaging-882395.html</guid>
+      <description>This session introduces the seamless migration of self-built Kafka cluster to Tencent Cloud CKafka solution, without paying attention to the produce and consume application switching order during migration. In addition, this section describes the fault disaster recovery on Tencent Cloud CKafka.
 Speakers: 
-Shilin Lu: Tencent Cloud Specialist Engineer, Tencent Cloud Computing (Beijing) Limited Liability Company, Tencent Headquarters Building, Malianwa Street, Haidian District, Beijing, China
-I graduated from Tianjin University majoring in software engineering.</description>
+仕林 鲁: Tencent Cloud Expert Engineer
+I graduated from Tianjin University majoring in software engineering. At present, I am responsible for the development and optimization of Kafka kernel in Tencent Cloud, and have 7 years of experience in the development and operation and maintenance of message middleware.</description>
     </item>
     
     <item>
@@ -1450,16 +1412,6 @@ It is based on Apache OpenDAL connecting object Storage (S3), HDFS, File, MySQL,
       <guid>/tracks/rust.html</guid>
       <description>The Rust ecosystem is flourishing. Many ASF projects now offer Rust SDKs, and several new ASF projects are primarily written in Rust, such as Apache OpenDAL and Apache HoraeDB (Incubating), among others.
 The Rust Track aims to share the evolution of Rust projects and integrations within the ASF and broader open-source ecosystem. It will demonstrate how ASF projects provide excellent Rust implementations and illustrate how the incubator helps Rust projects develop healthy communities under the guidance of The Apache Way.</description>
-    </item>
-    
-    <item>
-      <title>Safe Airflow Upgrades with LLM Guardians: Automating Version Migration and Error Prevention</title>
-      <link>/sessions/dataops-891327.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sessions/dataops-891327.html</guid>
-      <description>Upgrading Airflow can be challenging, small change may trigger pipeline failures and long fixing. This session presents solution that simplifies migrations across multiple Airflow releases version by automate analyzing code repositories, change notes, best practices, and other essential documentation using LLM Guardian that identifies potential issues. It scans DAGs and dependency to predict incompatibilities, and generate fixes (e.g., deprecated operator replacements).
-You&amp;rsquo;ll see how the system scans DAG for hidden risks, auto-generates targeted code patches, and post-migration to verify stability and performance.</description>
     </item>
     
     <item>

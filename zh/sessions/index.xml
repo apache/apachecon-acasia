@@ -678,18 +678,6 @@ Yuchen Ding: Apache IoTDB 贡献者, 清华大学
     </item>
     
     <item>
-      <title>Kafka 迁移与容灾架构</title>
-      <link>/zh/sessions/messaging-879741.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/messaging-879741.html</guid>
-      <description>本专题介绍如何将自建 Kafka 集群平滑迁移至腾讯云 CKafka 解决方案，迁移过程中无需关注生产端和消费端应用的切换顺序。此外，本节还介绍了腾讯云 CKafka 上的故障容灾方案。
-讲师: 
-鲁仕林: 腾讯云计算（北京）有限责任公司，北京市海淀区马连洼街道腾讯总部大楼，腾讯云专家工程师
-我毕业于天津大学软件工程专业。目前负责腾讯云Kafka内核的开发与优化，拥有7年消息中间件开发和运维经验。曾在腾讯、字节跳动等公司负责消息中间件开发，具备大规模集群运维经验。我也是Apache Kafka和RocketMQ项目的开源贡献者，热衷于为开源社区做出贡献和回馈。</description>
-    </item>
-    
-    <item>
       <title>Lance：面向多模态 AI 前沿的数据格式</title>
       <link>/zh/sessions/ai-910203.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -915,18 +903,6 @@ Li Auto 大数据基础设施负责人 负责构建服务于100万辆以上联�
     </item>
     
     <item>
-      <title>从单独行动到协同合作：让整个社区参与 Apache OzHera（孵化版）的发布</title>
-      <link>/zh/sessions/incubator-908929.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/incubator-908929.html</guid>
-      <description>在 Apache 项目中，一次成功的发布绝非孤军奋战。在本次演讲中，我将分享 Apache OzHera（孵化）社区如何齐心协力地交付其首个版本——这不仅仅是发布经理的任务，更是整个社区的共同责任。从撰写发​​布说明、审查代码到测试工件和在邮件列表上投票，每一步都需要集体努力和协作。我将回顾我们如何从“独立贡献者”的思维模式转变为共享所有权的文化，并分享其他社区（尤其是孵化器中的社区）如何鼓励更广泛地参与其发布流程的见解。如果您曾感觉发布流程完全落在您一个人的肩上，也许本次演讲将向您展示如何将这份重担转化为团队的胜利。
-讲师: 
-Shuxin Pan: Apache 提交者 | 开源项目爱好者
-Shuxin Pan 是 Apache 的提交者，也是多个热门开源项目的维护者。他在人工智能和服务端开发方面拥有丰富的经验，目前就职于一家金融公司。凭借多年的开源贡献经验，他希望能够帮助更多新人进入开源世界。</description>
-    </item>
-    
-    <item>
       <title>从图到智能：HugeGraph 助力商业AI升级</title>
       <link>/zh/sessions/incubator-914993.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -977,23 +953,6 @@ Chuanxin Bian 博士是专注于深度学习、自然语言处理和时间序列
 讲师: 
 Shuxin Pan: Apache 提交者 | 开源项目爱好者
 Shuxin Pan是 Apache 的提交者，也是多个热门开源项目的维护者。他在人工智能和服务端开发方面拥有丰富的经验，目前就职于一家金融公司。凭借多年的开源贡献经验，他希望能够帮助更多新人进入开源世界。</description>
-    </item>
-    
-    <item>
-      <title>从零到百万：我的开源 PHP 包如何获得首个百万下载量</title>
-      <link>/zh/sessions/community-871534.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/community-871534.html</guid>
-      <description>我将首先介绍一下这个项目，它的独特之处以及 CI/CD 流程如何帮助它取得成功。
-第二部分将解释整个过程，以及我从朋友和同事那里得到的最重要的决策和建议（强调与你信任的人分享个人项目的重要性）。
-第三部分将讨论如何为免费和开源项目获得资金支持。在这里，我也会透露如果我能回到过去，我会做出哪些不同的决策。
-最后一部分将为那些刚开始或正在寻找项目开始的人提供宝贵的建议。我也会尽量在演讲结束时激励人们去做我所做的事情（甚至做得更好）。
-讲师: 
-Lucas Rocha: 甲骨文公司高级软件工程师
-作为一名对技术充满热情的全栈 Web 开发者，我在软件开发领域积累了丰富多样的技能，参与了不同行业的多个项目。我的技术专长涵盖了广泛的编程语言和解决方案平台，使我能够熟练应对复杂的技术环境。
-自 2011 年开始我的编程生涯以来，我已经熟练掌握了多种编程语言和框架。我的技能库包括 JavaScript 及其各种框架和库（Express、NestJS、loopback.io、React、Angular）、使用 .NET Core 的 C#、使用流行框架（Laravel、Symfony、Yii）的 PHP、使用 Flask 的 Python 以及使用 Spring 的 Java。这种广泛的技能集使我能够有效地应对独特的项目需求，确保我交付的每个解决方案不仅针对特定需求进行定制，而且符合高质量和创新的标准。我对每个项目的承诺不仅仅是满足规格要求；更重要的是创造能够推动进步并产生有意义影响的解决方案。
-https://www.linkedin.com/in/lucasredeaberta/</description>
     </item>
     
     <item>
@@ -1087,19 +1046,6 @@ Apache Cloudberry 贡献者，HashData 的数据库内核开发人员。</descri
 讲师: 
 Bill Zhang: Cloudera、Lakehouse 和 Iceberg 集成
 Bill 是 Cloudera 的产品战略副总裁，负责 Open Data Lakehouse 产品战略以及 Apache Iceberg 与所有 Cloudera 数据平台 (CDP) 的集成。最近，Bill 还负责 Apache Hive 的产品路线图和应用</description>
-    </item>
-    
-    <item>
-      <title>使用 Apache NiFi 和 Polaris 进行 Apache Iceberg 数据采集</title>
-      <link>/zh/sessions/streaming-880900.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/streaming-880900.html</guid>
-      <description>基于 Iceberg 的数据湖的一项基本要求是数据采集。一种方法是利用 Apache NiFi。NiFi 是一款多模态数据流水线工具，拥有众多处理器，可以组合成一个流程，以满足您的特定场景。NiFi 的低代码/无代码方法使数据工程师能够快速构建、部署和监控其数据采集和转换流水线。NiFi 还支持使用多种语言（包括 Java 和 Python）进行自定义处理器开发。
-本演示将介绍几种常用方法，最终演示一个丰富的数据流水线，该流水线从 Kafka 获取数据，执行典型的转换处理（包括数据丰富），并将数据加载到高性能 Iceberg 表中，该表将通过流行的查询引擎使用并通过 Apache Polaris REST 目录访问。
-讲师: 
-Lester Martin: 天合光能开发人员倡导者 - Starburst
-Lester Martin 是一位经验丰富的开发倡导者、培训师、博主和数据工程师，专注于使用 Trino、Iceberg、Hive、Spark、Flink、Kafka、NiFi、NoSQL 数据库以及经典关系型数据库管理系统 (RDBMS) 进行数据管道和数据湖分析。访问 Lester 的博客：https://lestermartin.blog。</description>
     </item>
     
     <item>
@@ -1429,19 +1375,6 @@ Jun Liu: Apache 成员、Spring AI 阿里巴巴作者、Spring Cloud 阿里巴�
     </item>
     
     <item>
-      <title>如何在 Streamhouse 环境中处理星型模式</title>
-      <link>/zh/sessions/streaming-906176.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/streaming-906176.html</guid>
-      <description>几乎每家想要构建自己的业务分析数据平台的公司，都会经历这样一个场景：将原始数据模型从 OLTP 空间反规范化到数据仓库或 Lakehouse 空间。最终目标是构建一些实用的报告，并为实时业务仪表板提供支持。在此过程中，数据团队可能会在数据新鲜度、基础设施成本和维护成本方面做出许多次优的解决方案和尝试。挑战在于找到合适的解决方案和工具，将所有 10 或 20 个表（维度）与单个“事实”表连接起来。考虑到来自 OLTP 系统的表中的所有数据始终处于变化状态，因为它们是以数据流的形式被提取的。
-在本次演讲中，我将向您展示如何处理大多数公司在数据仓库建设过程中都希望构建的典型用例。我们将基于 Ververica 的 Streamhouse 架构，使用统一存储和计算组件（例如 Flink CDC 和 Apache Paimon）来实现。
-讲师: 
-Alexey Novakov: Ververica，产品解决方案架构师
-我是一名解决方案架构师，过去六年来一直致力于数据解决方案和产品。在 Ververica，我专注于帮助客户解决使用 Apache Flink 进行数据流处理时遇到的挑战。在我之前的项目和公司中，我开发了不同的系统，例如数据湖、数据集成和数据虚拟化层。闲暇时，我会为各种开源项目做贡献，或者出于兴趣创建自己的项目。除了编程，我还有一些爱好，比如天文学、音乐和健身。</description>
-    </item>
-    
-    <item>
       <title>如何在热度消退后持续推动你的开源项目</title>
       <link>/zh/sessions/keynote-915301.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1468,21 +1401,6 @@ Quincy Larson 是一名教师，也是 freeCodeCamp.org 的创始人。freeCodeC
 
 汪少军: 字节跳动，编程语言工程师
  Apache 孵化项目 teaclave 的 PPMC 自 2017 年起成为 Gopher 开发者 字节跳动编程语言工程师  </description>
-    </item>
-    
-    <item>
-      <title>安全气流升级与LLM守护者：自动化版本迁移与错误预防</title>
-      <link>/zh/sessions/dataops-891327.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/dataops-891327.html</guid>
-      <description>升级Airflow可能充满挑战，即使是微小的更改也可能引发管道故障并导致漫长的修复过程。本Session将介绍一种解决方案，通过自动化分析代码仓库、更改日志、最佳实践及其他关键文档，利用LLM守护程序识别潜在问题，从而简化跨多个Airflow版本的迁移流程。该系统会扫描DAG和依赖关系以预测兼容性问题，并生成修复方案（例如替换已废弃的操作符）。
-您将看到系统如何扫描 DAG 以发现隐藏风险，自动生成针对性代码补丁，并在迁移后验证稳定性和性能。演示将重点展示即使对于使用向后兼容代码调整和回滚计划的遗留系统，也能实现快速、无错误的过渡。想象一下，将原本需要数月的时间缩短至仅需数小时，同时降低风险并保持环境安全。
-关键要点：
- 智能分析：通过交叉引用变更日志、GitHub历史记录和供应商包来标记风险。 精确修复：更新语法、依赖项和配置，同时保留工作流程。 增强信心：生成符合审计要求的报告和模拟运行结果，以证明升级的必要性。  讲师: 
-Azhar Izzannada Elbachtiar: Mekari 数据工程师
-我是一名专注于数据工程的工程师，对探索新兴技术和机器学习充满热情。目前，我负责维护支持创新、数据驱动型解决方案的机器学习基础设施。
-我热衷于解决复杂挑战，并持续拓展对新技术趋势的理解。除了技术工作外，我还喜欢作为演讲者分享见解、激发创意，并与技术社区互动，与他人分享知识。</description>
     </item>
     
     <item>
@@ -1799,16 +1717,14 @@ Apache Cloudberry 贡献者</description>
     </item>
     
     <item>
-      <title>目录即语境：运用元数据驱动和治理下一代 AI 发展</title>
-      <link>/zh/sessions/ai-910135.html</link>
+      <title>目录即情境： 利用元数据推动和管理下一波人工智能开发浪潮</title>
+      <link>/zh/sessions/ai-954593.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/zh/sessions/ai-910135.html</guid>
-      <description>开发强大的 AI 工具是我们今年的主题，智能体和基础模型在各领域都取得了长足进展。但核心问题依然存在：我们如何为这些应用提供有效运作的数据？企业级规模又该如何实现？语境（context）的本质究竟是什么？本次演讲将探讨当前大数据生态现状、AI 数据平台面临的挑战，以及为何数据目录和元数据是通向高效、可控 AI 开发的唯一可行路径。我们将以开源框架 Apache Gravitino 为例，阐释为何此类解决方案必须保持厂商中立性。
-演讲嘉宾: 
-Lisa N. Cao: Datastrato 产品经理
-Lisa 是一位数据工程师、产品经理，也是开源数据基础设施和 DataOps 领域的知名演讲者。作为 Apache Gravitino 创建公司 Datastrato 的核心成员，她正在为生成式 AI 用例和端到端数据集成重新定义数据目录领域。她现任 Linux 基金会外展委员会委员，领导企业 AI 开放平台（OPEA）开发者体验工作组，并主导持续交付基金会（CDF）的 DataOps 计划。
-Lisa 还是 Google Women Techmakers 大使，温哥华 Datajam 创始人及三届主席，曾任 BiocSwirl 项目首席维护者。她曾荣获 Terry Fox 金质奖章（2021）和 Linux 基金会 LiFT&amp;quot;开源领域杰出女性&amp;quot;奖项（2021）。她组织的技术社区活动包括旧金山&amp;quot;AI 数据交流会&amp;quot;、湾区&amp;quot;数据工程师沙龙&amp;quot;以及温哥华&amp;quot;RLadies&amp;quot;等。</description>
+      <guid>/zh/sessions/ai-954593.html</guid>
+      <description>开发强大的 AI 工具是我们今年的主题，智能体和基础模型在各领域都取得了显著进展。但核心问题依然存在：我们如何为这些应用提供有效运作的数据？企业级规模又该如何实现？上下文的本质究竟是什么？本次演讲将探讨当前大数据生态现状、AI 数据平台面临的挑战，以及为何数据目录和元数据是通向高效、可控 AI 开发的唯一可行路径。我们将以开源框架 Apache Gravitino 为例，阐释为何此类解决方案必须保持厂商中立性。
+演讲嘉宾: Jerry Shao：Datastrato 首席技术官Add commentMore actions
+Jerry Shao 是 Datastrato 联合创始人兼 CTO，十余年深耕开源大数据领域。作为 Apache 成员，他是 Apache Spark 和 Apache Inlong 的提交者及 PMC 成员，同时是 Apache Gravitino（孵化中）项目的创始人。</description>
     </item>
     
     <item>
@@ -1835,6 +1751,17 @@ Yike Xiao: 智联招聘, 高级软件工程师
 讲师: 
 Lidong Dai: Whaleops Technology 联合创始人
 Apache 孵化器导师、Apache DolphinScheduler PMC 主席和 Apache SeaTunnel PMC 成员</description>
+    </item>
+    
+    <item>
+      <title>腾讯云上的 Kafka：无缝迁移与灾难恢复</title>
+      <link>/zh/sessions/messaging-882395.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/messaging-882395.html</guid>
+      <description>本次演讲将介绍如何将自建 Kafka 集群无缝迁移至腾讯云 CKafka 解决方案，无需关注迁移过程中生产消费应用的切换顺序。同时还将详细介绍腾讯云 CKafka 的故障容灾方案。
+演讲嘉宾: 鲁仕林：腾讯云专家工程师
+毕业于天津大学软件工程专业，目前负责腾讯云 Kafka 内核开发与优化工作，拥有 7 年消息中间件开发运维经验。曾在腾讯、字节跳动等公司负责消息中间件研发，具备大规模集群运维经验。同时作为 Apache Kafka 和 RocketMQ 开源项目贡献者，积极参与开源社区建设。</description>
     </item>
     
     <item>

@@ -411,18 +411,6 @@
                 href="/sessions/general-914611.html"
                 />
   </url><url>
-    <loc>/sessions/streaming-880900.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-880900.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/streaming-880900.html"
-                />
-  </url><url>
     <loc>/sessions/datalake-896996.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -687,16 +675,16 @@
                 href="/venue_travel/travel.html"
                 />
   </url><url>
-    <loc>/sessions/ai-910135.html</loc>
+    <loc>/sessions/ai-954593.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/ai-910135.html"
+                href="/zh/sessions/ai-954593.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/sessions/ai-910135.html"
+                href="/sessions/ai-954593.html"
                 />
   </url><url>
     <loc>/categories.html</loc>
@@ -1071,30 +1059,6 @@
                 href="/sessions/incubator-906736.html"
                 />
   </url><url>
-    <loc>/sessions/incubator-908929.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/incubator-908929.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/incubator-908929.html"
-                />
-  </url><url>
-    <loc>/sessions/community-871534.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-871534.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/community-871534.html"
-                />
-  </url><url>
     <loc>/sessions/rust-915098.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1165,18 +1129,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/sessions/olap-913223.html"
-                />
-  </url><url>
-    <loc>/sessions/streaming-906176.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-906176.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/streaming-906176.html"
                 />
   </url><url>
     <loc>/sessions/keynote-915301.html</loc>
@@ -1323,16 +1275,16 @@
                 href="/sessions/iot-915157.html"
                 />
   </url><url>
-    <loc>/sessions/messaging-879741.html</loc>
+    <loc>/sessions/messaging-882395.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/messaging-879741.html"
+                href="/zh/sessions/messaging-882395.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/sessions/messaging-879741.html"
+                href="/sessions/messaging-882395.html"
                 />
   </url><url>
     <loc>/tracks/keynote.html</loc>
@@ -1777,18 +1729,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tracks/rust.html"
-                />
-  </url><url>
-    <loc>/sessions/dataops-891327.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataops-891327.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/dataops-891327.html"
                 />
   </url><url>
     <loc>/sessions/streaming-909075.html</loc>

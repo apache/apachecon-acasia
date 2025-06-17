@@ -735,18 +735,6 @@
                 href="/zh/sessions/iot-915157.html"
                 />
   </url><url>
-    <loc>/zh/sessions/messaging-879741.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/messaging-879741.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/messaging-879741.html"
-                />
-  </url><url>
     <loc>/zh/tracks/keynote.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1059,18 +1047,6 @@
                 href="/zh/sessions/keynote-914074.html"
                 />
   </url><url>
-    <loc>/zh/sessions/incubator-908929.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/incubator-908929.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/incubator-908929.html"
-                />
-  </url><url>
     <loc>/zh/sessions/incubator-914993.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1117,18 +1093,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/incubator-908926.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/community-871534.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/community-871534.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-871534.html"
                 />
   </url><url>
     <loc>/zh/sessions/keynote-889680.html</loc>
@@ -1237,18 +1201,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/datalake-914503.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-880900.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/streaming-880900.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-880900.html"
                 />
   </url><url>
     <loc>/zh/sessions/rust-908074.html</loc>
@@ -1551,18 +1503,6 @@
                 href="/zh/sessions/olap-913223.html"
                 />
   </url><url>
-    <loc>/zh/sessions/streaming-906176.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/streaming-906176.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-906176.html"
-                />
-  </url><url>
     <loc>/zh/sessions/keynote-915301.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1585,18 +1525,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/streaming-903630.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataops-891327.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/dataops-891327.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataops-891327.html"
                 />
   </url><url>
     <loc>/zh/sessions/ai-912416.html</loc>
@@ -2007,16 +1935,16 @@
                 href="/zh/tracks/iot.html"
                 />
   </url><url>
-    <loc>/zh/sessions/ai-910135.html</loc>
+    <loc>/zh/sessions/ai-954593.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/sessions/ai-910135.html"
+                href="/sessions/ai-954593.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/ai-910135.html"
+                href="/zh/sessions/ai-954593.html"
                 />
   </url><url>
     <loc>/zh/sessions/webserver-889038.html</loc>
@@ -2041,6 +1969,18 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/datalake-910660.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/messaging-882395.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/messaging-882395.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/messaging-882395.html"
                 />
   </url><url>
     <loc>/zh/sessions/datastorage-913138.html</loc>
