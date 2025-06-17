@@ -244,7 +244,7 @@ Apache DataFusion PMC、Apache Arrow 提交者、Apache HoraeDB PPMC Greptime �
       
       <guid>/zh/sessions/ai-912444.html</guid>
       <description>作为一款热门的 OLAP 实时分析数据库，Apache Doris 在当前 AI 浪潮快速变革的时代背景下，已构建或正在规划更多与 AI 相关的功能及周边组件，如向量检索、MCP、RAG 等功能模块。本次演讲将通过交流与演示，公布 Doris 在 AI 方向的当前进展。
-演讲嘉宾: 奕嘉 苏: Apache Doris Committer、SelectDB 解决方案架构师、PowerData 赞助商
+演讲嘉宾: 苏奕嘉: Apache Doris Committer、SelectDB 解决方案架构师、PowerData 赞助商
 Apache Doris Committer，Apache Doris 社区布道师，Doris-MCP 贡献者，SelectDB 高级解决方案架构师，PowerData 社区发起人，曾协助 Apache Doris 社区数百家企业完成实时数仓建设与优化演进。</description>
     </item>
     
@@ -268,7 +268,7 @@ Zhuyuan Yang: 中国联通数字智能有限公司技术专家
       <description>Apache Doris 在菜鸟网络已经经历了近 2 年的发展，从早期的验证探索到逐步在核心业务场景中落地实施，并经历了双十一促销高峰的考验。目前，Doris 是菜鸟网络 OLAP 的首选方案。在本次分享中，我们将介绍 Doris 在菜鸟网络从 0 到 1 的整个开发过程，它所遇到的挑战，以及更多内容。
 我们如何基于菜鸟网络的业务场景实现大规模部署，帮助业务实现显著的成本降低和稳定性提升。
 讲师: 
-黄 校: 菜鸟 数据技术专家
+黄校: 菜鸟 数据技术专家
 目前就职于菜鸟网络，负责菜鸟数据平台和底层基础设施的开发与维护，拥有 7 年大数据领域工作经验，菜鸟 OLAP 新手布道者，推动 Doris 在菜鸟网络的大规模实施和使用。</description>
     </item>
     
@@ -309,8 +309,8 @@ Apache Flink 提交者，Apache Flink 2.1 发布经理。长期专注于大数�
       <guid>/zh/sessions/streaming-890348.html</guid>
       <description>电信日志场景已从后端服务替换为 Flink 任务，包括日志接入、日志解析和日志告警。凭借 50+ 个集群和 2000+ 个 Flink 任务，时效性提升了 200%
 讲师: 
-左 岩: Flink 推动了日志革命，其实时洞察力可将效率提高 200%！
-Zuo Yan，电信数据智能技术专家，负责数据中心及日志平台搭建。Apache Flink、Apache Doris、Flink CDC、StarRocks、Fluss 等开源项目的贡献者。</description>
+左岩: Flink 推动了日志革命，其实时洞察力可将效率提高 200%！
+左岩，电信数据智能技术专家，负责数据中心及日志平台搭建。Apache Flink、Apache Doris、Flink CDC、StarRocks、Fluss 等开源项目的贡献者。</description>
     </item>
     
     <item>
@@ -509,7 +509,7 @@ Quanlong Huang 是 Cloudera 的一名软件工程师。他在过去的 6 年多�
       <guid>/zh/sessions/cloudnative-913294.html</guid>
       <description>自 1.0.0 版本起，Apache IoTDB 提供了统一的系统监控框架，允许数据库开发人员定义系统监控指标（如计数器）并将其注册以实现统一管理，同时支持 Prometheus + Grafana 监控指标可视化解决方案。经过一年的实践，已形成 4 个可视化监控面板及大量基于系统监控的调优经验。
 讲师: 
-洪胤 张: Apache 贡献者，清华大学 2022 届硕士研究生
+张洪胤: Apache 贡献者，清华大学 2022 届硕士研究生
 Apache 贡献者，清华大学 2022 届硕士研究生，目前负责 Apache IoTDB 的内存管理、系统监控及标准化测试工作。</description>
     </item>
     
@@ -736,7 +736,7 @@ Hubert Zhang 是 EloqData 的首席技术官（CTO）。在加入 EloqData 之�
       <guid>/zh/sessions/streaming-909040.html</guid>
       <description>Flex 旨在打造一个统一的引擎，支持流式和批处理，并利用矢量化技术最大限度地提升性能。其目标是无缝处理各种数据工作负载，无论是实时流式处理还是批处理作业，都能高效且可扩展地运行。
 讲师: 
-Jacky Lau: 蚂蚁金服分布式计算引擎专家、Calcite Committer 和 Flink 投稿人
+Jacky Lau: 蚂蚁金服分布式计算引擎专家、Calcite Committer 和 Flink 贡献者
 蚂蚁金服分布式计算引擎专家，Calcite Committer 和 Flink Contributor，拥有 10 年大数据开发经验，专注于 Flink/Spark/HBase</description>
     </item>
     
@@ -1084,8 +1084,8 @@ Li Auto 大数据基础设施负责人 负责构建服务于100万辆以上联�
       <guid>/zh/sessions/keynote-914074.html</guid>
       <description>随着全球开源生态系统的快速发展，中国开源社区在国际舞台上的影响力持续增强。本报告基于《中国开源年度报告》的数据分析，聚焦 Apache 开源社区在中国的参与度、技术贡献以及发展趋势，旨在揭示该社区在全球开源生态系统中的角色与挑战。
 讲师: 
-Wei Wang: 华东师范大学教授
-Wei Wang，现任华东师范大学数据科学与工程学院教授，X-lab 开放实验室创始人。他是中国计算机学会（CCF）杰出会员、CCF 开源发展委员会成员、中国电子技术标准化研究院开源治理系列标准负责人、木兰开源社区技术委员会委员、开源俱乐部主任。他的研究兴趣是开源开发生态。</description>
+王伟: 华东师范大学教授
+王伟，现任华东师范大学数据科学与工程学院教授，X-lab 开放实验室创始人。他是中国计算机学会（CCF）杰出会员、CCF 开源发展委员会成员、中国电子技术标准化研究院开源治理系列标准负责人、木兰开源社区技术委员会委员、开源俱乐部主任。他的研究兴趣是开源开发生态。</description>
     </item>
     
     <item>
@@ -1207,7 +1207,7 @@ Yu Yin: 产品负责人 @dynamia.ai | 开源维护员 @HAMi | 在 Kubernetes 上
  元数据生命周期管理（捕获、存储和利用）的最佳实践。 使用 ZSTD 和数据组织提升查询/压缩性能的成熟方法。 无需中断管道即可实现透明格式迁移的策略。  讲师: 
 甘红楠: 字节跳动高级研发工程师
  复旦大学学士和硕士学位 字节跳动 SparkSQL 内核开发人员 对 SQL 优化感兴趣  
-He Zhengjie: 字节跳动大数据工程师
+何正杰: 字节跳动大数据工程师
 我是一名大数据工程师，在查询引擎优化方面拥有数年专业知识，专门从事大规模数据系统的性能调整和经济高效的查询执行。</description>
     </item>
     
@@ -1350,8 +1350,8 @@ Ji Min (Qing Ming) 是阿里云分布式事务产品负责人，同时也是 Hig
       
       <guid>/zh/sessions/rust-912220.html</guid>
       <description>非凸科技的自动交易系统每日处理超过 200 亿元人民币的交易量，产生海量订单和交易数据。 为了在快速变化的市场环境中快速监控系统性能，我们使用 Rust 和 Polars（一个基于 Rust 的优秀开源数据框架库）开发了一套统计分析系统。 本文将介绍该系统所面临的关键挑战，以及其总体架构和实现方法。 非凸科技持续通过开源项目进行创新。我们的高性能异步日志库 ftlog 具有基于时间的分段、限速写入、异步 I/O 以及按业务类型进行多目标日志记录的功能。我们正在开发 RTL（Rust 交易语言），这是一种基于 Rust 宏的领域特定语言，旨在加速策略研究、回测和实时交易的迭代周期。此外，我们正在使用 Rust + WebAssembly 创建基于浏览器的高性能可视化工具，显著提高战略研究人员的工作流程效率。  讲师: 
-Qiao dan: 非凸人工智能实验室主任；深入探索大模型技术在金融领域的综合应用。
-非凸人工智能实验室主任，负责搜索、推荐等��域大规模分布式机器学习策略的开发和迭代。毕业于北京大学</description>
+Qiao Dan: 非凸人工智能实验室主任；深入探索大模型技术在金融领域的综合应用。
+非凸人工智能实验室主任，负责搜索、推荐等领域大规模分布式机器学习策略的开发和迭代。毕业于北京大学</description>
     </item>
     
     <item>
@@ -1472,7 +1472,7 @@ Ke Jia 是 Gluten 的 PPMC 成员和 Velox 的提交者。Ke 主要负责功能�
 本次分享将介绍三方面的实践经验： 基于 Flink CDC3.0，多业务表异构数据秒级入库，解决了历史数据漂移与增量同步的精准对接难题； Iceberg 性能调优设计，复杂查询性能相比 Hive 提升 400%； Apache Amoro 自优化框架的创新应用，在高效合并小文件和清洗数据的同时，提供高效的读取性能。
 该系统已在电信运营商的生产实践中落地，支撑每日PB级数据处理的业务峰值，可为参与者提供可无缝迁移的实时湖仓架构范式。
 讲师: 
-Congxian Qiu: Apache Flink Committer、Apache（孵化中）Amoro PMC 成员
+Congxian Qiu: Apache Flink Committer、Apache（incubating）Amoro PMC 成员
 Congxian 是 StateCloud 研发专家，拥有多年大数据基础设施经验，参与并领导了大规模数据处理框架的开发。他是 Apache Committer 和 Apache（incubating）Amoro PMC 成员。
 
 Zhuojun Jiang: 高级大数据工程师，中国电信云技术有限公司
@@ -1487,8 +1487,8 @@ Zhuojun Jiang 是中国电信云科技有限公司的高级大数据工程师，
       <guid>/zh/sessions/datalake-906852.html</guid>
       <description>自2020年以来，腾讯一直利用Apache Iceberg构建其Lakehouse数据基础设施。2022年，腾讯云开始在云上向用户提供基于Iceberg的Lakehouse服务。2024年，我们引入了包括Apache Amoro和Apache Gravitino在内的优秀项目，为用户提供更强大、更智能、更全场景的Lakehouse服务。
 本次主题演讲将分享腾讯云多年来在Lakehouse架构方面的丰富经验，并重点介绍丰富的用户实践。我们将重点演示如何利用这些Apache项目构建云原生的Lakehouse架构，尤其侧重于流计算和BI场景。
-讲师: Jinsong Zhou: 腾讯软件工程师, Apache Amoro（孵化中）的 PPMC 成员
-Jinsong Zhou，腾讯软件工程师，在数据库和大数据领域拥有 8 年经验。目前，他领导网易基于 Apache Iceberg 的 Lakehouse 架构的实现，并担任 Apache Amoro（孵化中）的 PPMC 成员，积极推动社区发展。</description>
+讲师: Jinsong Zhou: 腾讯软件工程师, Apache Amoro（incubating）的 PPMC 成员
+Jinsong Zhou，腾讯软件工程师，在数据库和大数据领域拥有 8 年经验。目前，他领导网易基于 Apache Iceberg 的 Lakehouse 架构的实现，并担任 Apache Amoro（incubating）的 PPMC 成员，积极推动社区发展。</description>
     </item>
     
     <item>
@@ -1622,7 +1622,7 @@ Jun Liu: Apache 成员、Spring AI 阿里巴巴作者、Spring Cloud 阿里巴�
 我们将讨论的一个关键挑战是在不同计算引擎上实现 HBO，这是异构大数据环境中的一个常见痛点。
 核心要点：
  一套优化规则 跨引擎实现 HBO实施的实用见解  讲师: 
-He Zhengjie: ByteDance 数据工程师
+何正杰: ByteDance 数据工程师
 我是一名大数据工程师，拥有多年查询引擎优化方面的专业知识，专注于大规模数据系统的性能调优和成本高效的查询执行。
 
 甘红楠: 字节跳动高级研发工程师
@@ -1664,10 +1664,10 @@ Quincy Larson 是一名教师，也是 freeCodeCamp.org 的创始人。freeCodeC
       <description>随着字节跳动内部流式任务需求的持续增长，Flink 已在各个业务领域大规模应用。在这些大规模任务的资源成本中，内存——尤其是堆内存——是显著的消耗。所有任务的总分配内存已达到数万 TB，但 JVM 堆内存利用率始终低于 50%，容器级内存使用率低于 70%。在全公司降本增效的背景下，我们围绕堆内存使用量预测、堆外内存使用量跟踪以及 Flink 内存模型的简化，开展了一系列内存优化。这些工作已在字节跳动成功推广，节省了超过数千 TB 的内存空间。 在本次演讲中，我们将介绍字节跳动 Flink 和 JVM 团队主导的关键联合优化工作，并分享我们取得的成果。
 议程：
  背景   字节跳动 Flink 的当前内存使用情况 我们面临的关键挑战  堆内存使用情况预测 堆外内存使用情况跟踪 Flink 内存模型的简化：统一内存池 实现方式及优势 未来规划   探索进一步的优化方向  讲师: 
-Yiheng Tang: 字节跳动基础设施工程师
+唐以恒: 字节跳动基础设施工程师
 字节跳动 Flink Runtime 开发人员
 
-Shaojun Wang: 字节跳动，中国，编程语言工程师
+汪少军: 字节跳动，编程语言工程师
  Apache 孵化项目 teaclave 的 PPMC 自 2017 年起成为 Gopher 开发者 字节跳动编程语言工程师  </description>
     </item>
     
@@ -1853,8 +1853,6 @@ Wentao Liu: ictrek.com 业务开发经理
       <description>Kafka 和 Flink 已广泛应用于流处理场景，成为构建流式数据仓库和实时分析的事实标准范例。然而，它仍然面临许多难以解决的挑战性问题。本讲座将探讨该范例在流式分析中面临的挑战和问题。
 我们将首先讨论 Kafka 与 Flink 结合使用的局限性和痛点。然后，我们将介绍 Fluss，一款专为流式分析设计的下一代流式存储。我们将介绍 Fluss 的架构和核心创新，重点介绍它如何与 Flink 无缝集成，从而赋能下一代流式数据仓库。您将发现 Flink 与 Fluss 的结合所带来的颠覆性功能，例如流式列修剪、增量连接、联合读取和合并引擎。
 最后，我们将探讨 Flink + Fluss 的实际用例，展示这一强大的组合如何带来真正的优势，例如降低基础设施成本、提升性能以及增强大规模流式和批处理工作负载的稳定性。
-=======================================================
-委员会须知：Fluss 目前是阿里巴巴旗下的一个开源项目，计划于 2025 年 5 月捐赠给 Apache 软件基金会。如果一切顺利，到大会召开时，它很可能已经是 Apache 孵化项目了。
 讲师: 
 Jark Wu: 阿里巴巴
 Jark Wu 是 Apache Flink 的提交者和 PMC 成员。他领导着阿里云的 Fluss 和 Flink SQL 团队。凭借十年的 Flink 经验，他深度参与了 Flink SQL 从零到现在的开发和演进。在此期间，他还发起并孵化了 Flink CDC 和 Fluss 项目，进一步扩展了 Flink 生态系统。</description>
@@ -2096,7 +2094,7 @@ HashData 公司的 软件工程师。</description>
       <guid>/zh/sessions/olap-913140.html</guid>
       <description>AI应用和数据科学工作流程越来越依赖于非结构化数据。Apache Cloudberry 引入了目录表（Directory Table），这是一种新的表类型，旨在在数据库内部原生地管理非结构化数据。它支持统一的元数据管理、与数据库内分析的集成以及高级数据科学工作流程。 本次演讲将深入探讨目录表的设计理念、实现细节和使用示例，展示它如何在统一平台上桥接结构化和非结构化数据。
 讲师: 
-Wenchao Zhang: hashdata
+张文超: hashdata
 Apache Cloudberry 贡献者</description>
     </item>
     
@@ -2308,7 +2306,7 @@ Miley 是一名开发者倡导者，热衷于赋能开发者构建和贡献开�
       <guid>/zh/sessions/general-915544.html</guid>
       <description>在团队中培养开放、诚实和积极的文化，能够创造一个让每个人都感到被赋能、从而发挥最佳表现并在个人与职业层面共同成长的工作环境。本次演讲将概述如何将彻底透明化融入您的 DevOps、软件及产品开发流程中。
 讲师: 
-Gregory Lind: 软件团队的激进疗法》作者、Buildly 首席执行官兼创始人
+Gregory Lind: 《软件团队的激进疗法》作者、Buildly 首席执行官兼创始人
 《软件团队的激进疗法》作者，Buildly 公司首席执行官，拥有 20 余年软件、开源及初创企业领域经验。
 作为创始人兼首席技术官，曾在三个不同国家成功创立并运营四家初创公司。曾与非政府组织及政府机构合作，构建开源赠款管理系统。</description>
     </item>
@@ -2394,7 +2392,7 @@ Shekhar 对开源软件充满热情，并积极参与多个项目，包括SymPy�
 Weiting Chen: 英特尔，高级软件工程师
 Weiting 是英特尔数据中心和人工智能事业部的高级软件工程师。他拥有十年从业经验，专注于大数据和云解决方案。他为 Spark、OpenStack 以及最近的 Apache Gluten（孵化项目）等项目做出了重要贡献，是该项目的初始提交者之一。他的职责之一是利用硬件潜力来提升大数据工作负载的性能。
 
-Xixu Wang: 顺丰科技，大数据平台研发高级工程师，apache doris committer, apache kudu pmc
+Xixu Wang: 顺丰科技，大数据平台研发高级工程师，apache doris committer, apache kudu pmc 成员
 先后在百度，微博，小米，神策工作过，主要从事大数据计算引擎，存储引擎开发，先后参与Apache Doris, Apache Kudu, Apache Gluten开发，在大数据领域有着丰富的经验
 后台在百度，微博，小米，神策工作过，主要从事大数据计算引擎，存储引擎开发，后台参与Apache Doris、Apache Kudu、Apache Gluten开发，在大数据领域拥有丰富的经验
 

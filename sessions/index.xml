@@ -164,7 +164,7 @@ Apache Cassandra Committer</description>
       <guid>/sessions/ai-912444.html</guid>
       <description>As a popular OLAP real-time analysis database, Apache Doris has built or is planning more AI-related features and peripheral components, such as vector retrieval, MCP, RAG and other functions or components, in the current era of rapid changes in the AI ​​wave. Through this communication and demonstration, the current progress of Doris in the direction of AI will be announced.
 Speakers: 
-奕嘉 苏: Apache Doris Committer、SelectDB Solutions Architect、PowerData Sponsor</description>
+YiJia Su: Apache Doris Committer、SelectDB Solutions Architect、PowerData Sponsor</description>
     </item>
     
     <item>
@@ -383,7 +383,7 @@ Hailing from Mexico City, Victor Romero now has over 20 years of experience in t
       <guid>/sessions/streaming-890348.html</guid>
       <description>The telecommunications log scenario has been replaced from backend services to Flink tasks, including log access, log parsing, and log alerts. With 50+clusters and 2000+Flink tasks, the timeliness has been improved by 200%
 Speakers: 
-左 岩: Flink drives the log revolution, with real-time insights increasing efficiency by 200%!
+Yan Zuo: Flink drives the log revolution, with real-time insights increasing efficiency by 200%!
 Zuo Yan, a telecommunications data intelligence technology expert, is responsible for building the data center and log platform. Contributors for open-source projects such as Apache Flink, Apache Doris, Flink CDC, StarRocks, and Fluss.</description>
     </item>
     
@@ -550,8 +550,8 @@ With initiatives like China’s 14th Five-Year Plan promoting indigenous technol
       <guid>/sessions/olap-897534.html</guid>
       <description>Evolution of BestPay&amp;rsquo;s Security Data Architecture and Use Cases: 1.Unified Log Analysis &amp;amp; Auditing 2.User Security Profiling and Malicious Behavior Detection
 Speakers: 
-Jianqun liu: china
-Jianqun Lau, China Telecom Bestpay Co.,Ltd. Technical Director , ChinaTelecom Senior Security Specialist ，10+ years of R&amp;amp;D and architecture experience</description>
+Jianqun Liu: China Telecom Bestpay Co.,Ltd. Technical Director
+Jianqun Liu:, China Telecom Bestpay Co.,Ltd. Technical Director , ChinaTelecom Senior Security Specialist ，10+ years of R&amp;amp;D and architecture experience</description>
     </item>
     
     <item>
@@ -836,7 +836,7 @@ Statistics about the data can be of immense help to database engines in creating
       <guid>/sessions/cloudnative-913294.html</guid>
       <description>Since version 1.0.0, Apache IoTDB has provided a unified system monitoring framework, allowing database developers to define system monitoring indicators such as counters and register them for unified management, and supporting the Prometheus + Grafana monitoring indicator visualization solution. After a year of practice, 4 visual monitoring panels and a lot of tuning experience based on system monitoring have been formed.
 Speakers: 
-洪胤 张: Apache Committer, Master&amp;rsquo;s student at Tsinghua University</description>
+Hongyin Zhang: Apache Committer, Master&amp;rsquo;s student at Tsinghua University</description>
     </item>
     
     <item>
@@ -904,7 +904,7 @@ Wei Wang: Professor of East China Normal University</description>
       <guid>/sessions/messaging-879741.html</guid>
       <description>This session introduces the smooth migration of self-built Kafka cluster to Tencent Cloud CKafka solution, without paying attention to the produce and consume application switching order during migration. In addition, this section describes the fault disaster recovery on Tencent Cloud CKafka.
 Speakers: 
-仕林 鲁: Tencent Cloud Specialist Engineer, Tencent Cloud Computing (Beijing) Limited Liability Company, Tencent Headquarters Building, Malianwa Street, Haidian District, Beijing, China
+Shilin Lu: Tencent Cloud Specialist Engineer, Tencent Cloud Computing (Beijing) Limited Liability Company, Tencent Headquarters Building, Malianwa Street, Haidian District, Beijing, China
 I graduated from Tianjin University majoring in software engineering.</description>
     </item>
     
@@ -1268,7 +1268,7 @@ We&amp;rsquo;ll use a Django case study and Apache JMeter to demonstrate effecti
       <guid>/sessions/microservice-871350.html</guid>
       <description>Currently Cloud Native Security is becoming more and more important. Dubbo as a significant framework with network should do more to protect users from attack. In this section, you will learn how to build a zero-trust network with Dubbo Triple protocol and xDS protocol using Service Mesh.
 Speakers: 
-河清 江: Apache Dubbo PMC
+Heqing Jiang: Apache Dubbo PMC
 Apache Dubbo PMC. Interested in Cloud Native, Micro Service and Security.</description>
     </item>
     
