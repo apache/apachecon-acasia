@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Apache Iceberg 的隐藏超能力：治理、实验与自主未来 - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Apache Iceberg 的隐藏超能力：治理、实验与自主未来'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        
+<nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/index.html">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/sponsor.html" class="nav-link">会议赞助</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="" class="nav-link"></a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/datalake-868208.html" class="nav-link" >English</a>
+                    </li>
+                
+            
+            <div class="ms-0 ms-lg-4">
+                <a href="/zh/index.html#register" role="button" class="btn btn-warning">
+                    注册参会
+                </a>
+            </div>
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">Apache Iceberg 的隐藏超能力：治理、实验与自主未来</h3>
+                    <h4>Shekhar Prasad Rajak</h4>
+                    英文演讲  2025-07-25 17:15 GMT&#43;8&nbsp;
+                    
+                        (ROOM : 万春厅)
+                    
+                    <a class="label" href="/zh/tracks/datalake.html">#datalake</a></li>
+                </header>
+
+                <p>大多数关于 Apache Iceberg 的演讲都热衷于谈论时间旅行和 ACID 合规性——这已经不足为奇了。但那些鲜为人知的功能呢？那些能够将混乱转化为秩序、将实验转化为胜利、将静态表格转化为自主驱动力的功能——让你的数据平台能够自我思考？欢迎来到这里，我们将一起探索 Iceberg 的隐藏工具包。</p>
+<p>以下是 30 分钟深入探讨的计划：首先用 5 分钟介绍为什么 Iceberg 的隐藏功能比基础知识更耀眼。接着用 6 分钟探讨治理——使用快照实现合规性，利用 REST Catalog 实现动态控制。然后，用 6 分钟介绍分支——使用快照和 Nessie 进行无风险实验。之后，用 5 分钟介绍指标——通过报告和扫描统计来提升速度。再用 6 分钟介绍自主 Iceberg——结合 REST Catalog 和模型上下文协议（MCP），这是一个未来愿景，即 Iceberg 与 AI 代理协同工作。</p>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://sessionize.com/image/7609-400o400o1-YbaJq6TQuhpFBv63wn2hn8.jpg" width="200" /><br/></p>
+<p>Shekhar Prasad Rajak: 热情的开源倡导者，苹果公司软件工程师。</p>
+<p>Shekhar 对开源软件充满热情，并积极参与多个项目，包括 SymPy、Ruby gems（如他编写的 daru 和 daru-view）、Bundler、NumPy 和 SciPy。
+他在 2016 年和 2017 年成功完成了 Google 编程之夏（Google Summer of Code）项目，并担任 SciRuby 的管理员，指导了多个组织。
+Shekhar 曾在 RubyConf 2018、PyCon 2017、ApacheCon 2020 和 Community Over Code 2024 等知名会议上发表演讲，并在众多地区性聚会上分享过见解。目前，他在苹果公司担任软件开发工程师。</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2025, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

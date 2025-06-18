@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Impala 在 Iceberg 上与 Puffins - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Impala 在 Iceberg 上与 Puffins'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        
+<nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/index.html">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/sponsor.html" class="nav-link">会议赞助</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="" class="nav-link"></a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/datalake-914225.html" class="nav-link" >English</a>
+                    </li>
+                
+            
+            <div class="ms-0 ms-lg-4">
+                <a href="/zh/index.html#register" role="button" class="btn btn-warning">
+                    注册参会
+                </a>
+            </div>
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">Impala 在 Iceberg 上与 Puffins</h3>
+                    <h4>Daniel Becker</h4>
+                    英文演讲  2025-07-26 15:00 GMT&#43;8&nbsp;
+                    
+                        (ROOM : 万春厅)
+                    
+                    <a class="label" href="/zh/tracks/datalake.html">#datalake</a></li>
+                </header>
+
+                <p>Apache Iceberg 表格式已成为大数据领域的事实标准。与基于传统文件系统的表格式相比，它拥有诸多优势，例如行级修改、事务、分区转换和时间旅行，使其成为许多项目自然而然的首选。数据统计</p>
+<p>信息可以极大地帮助数据库引擎创建高效的查询计划。作为领先的表格式，Iceberg 旨在提供一种标准化的方式来存储这些统计信息：除了核心规范中已有的文件级属性（例如最小值和最大值）之外，它还引入了 Puffin 文件格式来存储整个表的统计信息。通过使用 Puffin 格式，各种数据库引擎可以共享统计信息，而无需每个引擎都计算和存储自己的版本，从而使多引擎工作流程更简单、更高效。</p>
+<p>本次演讲将向您展示我们如何在 Apache Impala（一个开源、分布式、大规模并行数据库引擎）中引入对 Puffin 统计信息的支持。我们将介绍实现的所有阶段，从仅读取为最新快照计算的统计数据，到优化读取性能，再到考虑较旧快照中缺失的统计数据（较新的快照中缺失）。我们将讨论一个特别有趣的点，即当统计数据来自多个来源时，如何选择最相关的统计数据：这些来源包括 Puffin 文件和 Impala 的传统统计数据来源 Hive Metastore。</p>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://sessionize.com/image/6933-400o400o1-72rRP3UXJeo1bZhvM4bFDm.jpg" width="200" /><br/></p>
+<p>Daniel Becker: 高级软件工程师</p>
+<p>Daniel Becker 于 2019 年开始在 Cloudera 从事 Apache Impala 工作。他为 Impala 做出的贡献涵盖多个主题，包括 LLVM 代码生成、复杂类型、Parquet 和 Iceberg。他是 Apache Impala PMC 成员，拥有帕兹马尼彼得天主教大学的学位</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2025, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support for Hudi / Icebe - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support for Hudi / Icebe'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        
+<nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/tracks.html" class="nav-link">Schedule</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/guide/visa_letter_request.html" class="nav-link">Guide</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/sponsor.html" class="nav-link">Sponsor</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/venue_travel/venue.html" class="nav-link">Venue &#43; Travel</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/zh/sessions/datalake-910660.html" class="nav-link" >中文</a>
+                    </li>
+                
+            
+            <div class="ms-0 ms-lg-4">
+                <a href="index.html#register" role="button" class="btn btn-warning">
+                    Register
+                </a>
+            </div>
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support for Hudi / Icebe</h3>
+                    <h4>Lidong Dai</h4>
+                    English Session  2025-07-27 16:45 GMT&#43;8&nbsp;
+                    
+                        (ROOM : WanChun Hall)
+                    
+                    <a class="label" href="/tracks/datalake.html">#datalake</a></li>
+                </header>
+
+                <p>Abstract:
+With the ongoing evolution of lakehouse architectures and real-time data lakes, enterprises increasingly require a unified, high-performance, and scalable data integration framework to support both writing to and reading from multiple data lake formats such as Apache Hudi, Iceberg, and Paimon.
+As a next-generation data integration engine, Apache SeaTunnel leverages its Connector V2 architecture and stream-batch unified design to build deep integration support for these three mainstream data lake formats. It provides key capabilities such as batch ingestion, real-time streaming writes, and consistency guarantees.</p>
+<p>Outline:</p>
+<ol>
+<li>SeaTunnel Architecture and Runtime Mechanism</li>
+</ol>
+<p>Stream-batch unified architecture design philosophy
+Connector V2 plugin registration, runtime loading, and lifecycle management
+Support for nearly 200 data sources, covering databases, object storage, message queues, data lakes, and more</p>
+<ol start="2">
+<li>Overview of Data Lake Support: Feature Comparison of Hudi / Iceberg / Paimon</li>
+</ol>
+<p>Differences in write mechanisms among the three formats</p>
+<p>SeaTunnel’s unified handling strategy and connector abstraction capability</p>
+<ol start="3">
+<li>
+<p>Detailed Architecture Support for Iceberg in SeaTunnel</p>
+</li>
+<li>
+<p>Streaming Integration Support for Apache Hudi</p>
+</li>
+<li>
+<p>Seamless Integration Practices with Apache Paimon</p>
+</li>
+<li>
+<p>Case Study: Enterprise-Grade Real-Time Lakehouse Implementation</p>
+</li>
+</ol>
+<p>Building a real-time product data warehouse with MySQL CDC → SeaTunnel → Iceberg</p>
+<ol start="7">
+<li>Future Outlook and Ecosystem Integration
+Plans for supporting DeltaLake and more</li>
+</ol>
+<h3 id="speakers">Speakers:</h3>
+<p><img src="https://sessionize.com/image/a63f-400o400o1-TAZzBju9ZdRb4umYVxMo2D.png" width="200" /><br/></p>
+<p>Lidong Dai: WhaleOps Technology co-founder</p>
+<p>Apache Incubator Mentor, Apache DolphinScheduler PMC Chair &amp; Apache SeaTunnel PMC member</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2025, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

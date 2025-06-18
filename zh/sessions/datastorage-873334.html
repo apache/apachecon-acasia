@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>掌握大规模 Shuffle：Dream11 使用远程 Shuffle 服务的实战手册 - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='掌握大规模 Shuffle：Dream11 使用远程 Shuffle 服务的实战手册'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        
+<nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="index.html" class="navbar-brand">
+                <img class="logo-img" src="images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/index.html">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/sponsor.html" class="nav-link">会议赞助</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="" class="nav-link"></a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/datastorage-873334.html" class="nav-link" >English</a>
+                    </li>
+                
+            
+            <div class="ms-0 ms-lg-4">
+                <a href="/zh/index.html#register" role="button" class="btn btn-warning">
+                    注册参会
+                </a>
+            </div>
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+
+</script>
+
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">掌握大规模 Shuffle：Dream11 使用远程 Shuffle 服务的实战手册</h3>
+                    <h4>Ravi Rana, Mehul Batra, Mohit Jain</h4>
+                    英文演讲  2025-07-25 14:30 GMT&#43;8&nbsp;
+                    
+                        (ROOM : 万寿山会议室)
+                    
+                    <a class="label" href="/zh/tracks/datastorage.html">#datastorage</a></li>
+                </header>
+
+                <p>在 Dream11，我们使用 Apache Celeborn 进行 PB 级规模的 Shuffle 操作，利用机架感知（rack awareness）来最小化跨机架的数据传输，并通过在不同机架间复制 Shuffle 数据来确保高可用性。它将 Shuffle 存储与计算节点解耦，使得存储能够独立于计算需求进行弹性扩展。并行分区写入和自适应 Shuffle 读取优化了吞吐量并降低了延迟。弹性扩展允许动态分配资源，在不同工作负载下保持成本效益。这种设计增强了容错能力，并将作业完成时间缩短了 50% 以上。</p>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://sessionize.com/image/c023-400o400o1-XrDyFVcAPGBBg2RCKps4W4.jpg" width="200" /><br/></p>
+<p>Ravi Rana: 技术负责人</p>
+<p>Ravi Rana 是 Dream11 的技术负责人，拥有 10 年以上的软件工程专业经验。</p>
+<p><img src="https://sessionize.com/image/ff4d-400o400o1-Wr3YbdVGhUXaDsQG43bhfe.png" width="200" /><br/></p>
+<p>Mehul Batra: 技术负责人</p>
+<p>一直在寻找吸引人的数据基础设施项目和读物
+(训练你的思维和身体)</p>
+<p><img src="https://sessionize.com/image/cb28-400o400o1-Utccibvy6GXbntEwxXRRRY.jpg" width="200" /><br/></p>
+<p>Mohit Jain: 技术负责人</p>
+<p>我在大数据和 ML 的交叉点工作，在扩展实时、批处理和 ML 工作负载的同时，使 Spark 和 Flink 的速度更快。无论是优化分布式计算、简化数据管道，还是构建直观的工具，我的目标都是将复杂的数据挑战转化为无缝、高性能的解决方案。</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2025, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>
