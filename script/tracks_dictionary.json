@@ -1,0 +1,20 @@
+{
+  "Cloud Native": "cloudnative",
+  "DataOps": "dataops",
+  "Streaming": "streaming",
+  "Incubator": "incubator",
+  "Data Lake & Data Warehouse": "datalake",
+  "OLAP & Data Analysis": "olap",
+  "Community": "community",
+  "Data Storage & Computing": "datastorage",
+  "Web Application & Framework": "webserver",
+  "AI": "ai",
+  "IoT": "iot",
+  "Messaging": "messaging",
+  "Microservice": "microservice",
+  "Observability": "observability",
+  "Rust": "rust",
+  "General": "general",
+  "Keynote": "keynote",
+  "5-mins-Lightning-Talk": "5minstalk"
+}

@@ -38,13 +38,12 @@
                            {{if $day}}</dl>
                            {{end}}
                     <dl>
-                      <!-- <dt class="session-date" style="float: left;"><h3 class="lh-2em">{{ $pageDay }}</h3></dt> -->
-                       <dt class="session-date">{{ i18n "unknown_date" }}</dt>
+                      <dt class="session-date" style="float: left;"><h3 class="lh-2em">{{ $pageDay }}</h3></dt>
                       <dd class="session-list">
                         {{end}}
                         <p>
                             <!-- @TODO: link to session list of the day -->
-                            <!-- <span>{{dateFormat "15:04 GMT+8" .Date}}</span> -->
+                            <span>{{dateFormat "15:04 GMT+8" .Date}}</span>
                             <span></span>
                             <a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a>
                             <sub>{{.Params.stype}}</sub>

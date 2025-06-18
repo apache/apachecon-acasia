@@ -1,28 +1,7 @@
 const fs = require('fs');
 const xlsx = require('xlsx');
 const path = require('path');
-
-// 定义轨道字典
-const tracks_dictionary = {
-  "Cloud Native": "cloudnative",
-  "DataOps": "dataops",
-  "Streaming": "streaming",
-  "Incubator": "incubator",
-  "Data Lake & Data Warehouse": "datalake",
-  "OLAP & Data Analysis": "olap",
-  "Community": "community",
-  "Data Storage & Computing": "datastorage",
-  "Web Application & Framework": "webserver",
-  "AI": "ai",
-  "IoT": "iot",
-  "Messaging": "messaging",
-  "Microservice": "microservice",
-  "Observability": "observability",
-  "Rust": "rust",
-  "General": "general",
-  "Keynote": "keynote",
-  "5-mins-Lightning-Talk": "5minstalk"
-};
+const tracks_dictionary = require('./tracks_dictionary.json');
 
 // 读取Excel文件
 function readExcelFile(filePath) {
@@ -61,11 +40,7 @@ async function cleanupSessions() {
     // 使用 Set 跟踪已处理的文件
     const processedFiles = new Set();
     let deletedCount = 0;
-    
-    // 处理每个文件前先打印当前文件列表
-    files.forEach(file => {
-      const baseName = file.replace(/\.zh\.md$/, '').replace(/\.md$/, '');
-    });
+  
     
     // 处理每个文件
     files.forEach(file => {

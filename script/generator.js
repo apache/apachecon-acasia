@@ -20,6 +20,7 @@
 const fs = require('fs');
 const xlsx = require('xlsx');
 const path = require('path');
+const tracks_dictionary = require('./tracks_dictionary.json');
 
 const outputDir = path.join(__dirname, '../content', 'sessions');
 if (!fs.existsSync(outputDir)) {
@@ -34,28 +35,6 @@ function readExcelFile(filePath) {
   // 将工作表转换为JSON对象数组
   return xlsx.utils.sheet_to_json(worksheet);
 }
-
-// 定义track(轨道/分类)的映射字典，将中文/英文分类名映射为URL友好的格式
-const tracksDictionary = {
-  "Cloud Native": "cloudnative",
-  "DataOps": "dataops",
-  "Streaming": "streaming",
-  "Incubator": "incubator",
-  "Data Lake & Data Warehouse": "datalake",
-  "OLAP & Data Analysis": "olap",
-  "Community": "community",
-  "Data Storage & Computing": "datastorage",
-  "Web Application & Framework": "webserver",
-  "AI": "ai",
-  "IoT": "iot",
-  "Messaging": "messaging",
-  "Microservice": "microservice",
-  "Observability": "observability",
-  "Rust": "rust",
-  "General": "general",
-  "Keynote": "keynote",
-  "5-mins-Lightning-Talk": "5minstalk"
-};
 
 // 定义session类型的英文映射字典
 const sessionTypesDictionary = {
@@ -183,7 +162,7 @@ function main() {
     
     // 只处理状态为"accept"的被接受的session
     if (session['Status'] === 'Accepted') {
-      const track = tracksDictionary[session['Track']];
+      const track = tracks_dictionary[session['Track']];
       const fileName = `${track}-${session['Session Id']}`;
       const enFilePath = path.join(outputDir, `${fileName}.md`);
       const zhFilePath = path.join(outputDir, `${fileName}.zh.md`);
