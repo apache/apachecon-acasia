@@ -1,6 +1,6 @@
 ---
 title: "Apache RocketMQ Eventbridge: Why Your GenAI Needs EDA？"
-date: ""
+date: "2025-07-25T14:00:00"
 track: "messaging"
 presenters: "Lin Shen"
 stype: "Chinese Session"
