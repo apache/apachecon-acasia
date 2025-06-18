@@ -1,6 +1,6 @@
 ---
 title: "SkyWalking 的 Ruby 自动检测代理实践"
-date: ""
+date: "2025-07-27T15:45:00"
 track: "observability"
 presenters: "Zixin Zhou"
 stype: "中文演讲"

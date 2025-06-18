@@ -1,6 +1,6 @@
 ---
 title: "构建开发者友好的开源数据库社区实践"
-date: ""
+date: "2025-07-26T15:45:00"
 track: "community"
 presenters: "Shaoting Duan"
 stype: "中文演讲"

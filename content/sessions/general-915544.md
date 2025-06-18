@@ -1,6 +1,6 @@
 ---
 title: "Radical Transparency for Software Teams"
-date: ""
+date: "2025-07-26T17:15:00"
 track: "general"
 presenters: "Gregory Lind"
 stype: "English Session"

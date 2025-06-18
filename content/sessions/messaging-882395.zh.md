@@ -1,6 +1,6 @@
 ---
 title: "腾讯云上的 Kafka：无缝迁移与灾难恢复"
-date: ""
+date: "2025-07-26T14:00:00"
 track: "messaging"
 presenters: "鲁仕林"
 stype: "Chinese Session"

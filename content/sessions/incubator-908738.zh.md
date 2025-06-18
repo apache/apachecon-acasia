@@ -1,6 +1,6 @@
 ---
 title: "BifroMQ：面向多租户的高性能 MQTT 代理"
-date: ""
+date: "2025-07-27T14:00:00"
 track: "incubator"
 presenters: "Hao Yonny(Yu)"
 stype: "中文演讲"

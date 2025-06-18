@@ -1,11 +1,10 @@
 ---
 title: "使用外部状态和动态表实现可扩展的连接和聚合"
-date: ""
+date: "2025-07-26T16:15:00"
 track: "streaming"
 presenters: "Feng Jin"
 stype: "中文演讲"
 ---
-
 
 1. 背景与动机
   • Flink SQL 在规模化方面的挑战：大状态、长连接、复杂的维护

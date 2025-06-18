@@ -1,6 +1,6 @@
 ---
 title: "The Future of ETL with Branching & Tagging in Apache Hive"
-date: ""
+date: "2025-07-27T16:15:00"
 track: "datalake"
 presenters: "Attila Turóczy"
 stype: "English Session"
@@ -20,4 +20,3 @@ We'll also dive into what's next for Apache Hive—giving you a front-row seat t
 Attila Turóczy: Senior Director of Engineering at Cloudera
 
 Apache Hive, Impala and Big Data enthusiasm at Cloudera
-

@@ -1,6 +1,6 @@
 ---
 title: "China Open Source & AI at  a Glance"
-date: ""
+date: "2025-07-25T16:15:00"
 track: "community"
 presenters: "Ted Liu"
 stype: "Chinese Session"
@@ -20,4 +20,3 @@ Ted Liu is a passionate advocate and volunteer for open-source technology. He co
 Ted is also an open-source advisor to a few enterprise companies, including Tencent, Huawei, and Bain & Company.
 
 Before dedicating himself to open source full-time, Ted held various high-level positions in the tech industry. He was the Director of Strategic Business Development at Microsoft China, Chief Technology Evangelist of Microsoft Open Technologies and Microsoft Asia Pacific R&D Group, Director of Channels and Alliances at Oracle China, Director of Linux Strategy, General Manager of the Middleware Business Unit of Greater China, and Vice President of Turbolinux Asia Pacific.
-

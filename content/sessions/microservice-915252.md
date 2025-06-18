@@ -1,6 +1,6 @@
 ---
 title: "The Next Generation Microservice Communication Protocol Based on HTTP."
-date: ""
+date: "2025-07-27T16:45:00"
 track: "microservice"
 presenters: "Jun Liu"
 stype: "English Session"
@@ -16,4 +16,3 @@ As the microservice architecture continues to evolve, the flexibility, versatili
 Jun Liu: Apache Member, Spring AI Alibaba Author, Spring Cloud Alibaba Author, Apache Dubbo PMC Chair
 
 More than 10 years experience in the Microservice field. Interested in  Cloud Native, RPC, Microservice, AI, etc.
-

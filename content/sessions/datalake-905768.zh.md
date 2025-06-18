@@ -1,6 +1,6 @@
 ---
 title: "Apache Gravitino：数据与AI的通用目录"
-date: ""
+date: "2025-07-25T15:45:00"
 track: "datalake"
 presenters: "Justin Mclean"
 stype: "英文演讲"

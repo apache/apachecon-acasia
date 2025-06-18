@@ -1,6 +1,6 @@
 ---
 title: "Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark Cluster"
-date: ""
+date: "2025-07-27T15:00:00"
 track: "observability"
 presenters: "Runqi Lin, Hongyi Zhou"
 stype: "Chinese Session"

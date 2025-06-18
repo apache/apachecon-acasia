@@ -1,6 +1,6 @@
 ---
 title: "蚂蚁开源孵化实践探索"
-date: ""
+date: "2025-07-26T14:30:00"
 track: "community"
 presenters: "Peggy Dong"
 stype: "英文演讲"

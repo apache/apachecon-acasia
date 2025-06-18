@@ -1,6 +1,6 @@
 ---
 title: "Exploration and practice of Apache Pulsar in online scenarios of Xiaohongshu Company"
-date: ""
+date: "2025-07-25T16:45:00"
 track: "messaging"
 presenters: "Steven Lu, Linlin Duan, Xiangying Meng"
 stype: "Chinese Session"
@@ -30,4 +30,3 @@ Senior R&D Engineer of Message Queue.
 Xiangying Meng: Senior R&D Engineer, Real-time Messaging Middleware Team, Xiaohongshu
 
 Committer of Apache Pulsar and Contributor to Apache BookKeeper
-

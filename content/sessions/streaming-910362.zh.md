@@ -1,11 +1,10 @@
 ---
 title: "腾讯实时计算的智能演进：全托管资源管理"
-date: ""
+date: "2025-07-26T16:45:00"
 track: "streaming"
 presenters: "Zihao Chen, Jiangang Liu"
 stype: "中文演讲"
 ---
-
 
 1. 背景与行业痛点  
   a. Flink 作为一种长期运行的有状态计算，广泛应用于实时数据仓库、实时分析和在线训练等场景。

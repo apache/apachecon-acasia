@@ -1,6 +1,6 @@
 ---
 title: "微服务与 OpenAPI 的结合会带来哪些改变？"
-date: ""
+date: "2025-07-27T17:15:00"
 track: "microservice"
 presenters: "He Liang"
 stype: "中文演讲"

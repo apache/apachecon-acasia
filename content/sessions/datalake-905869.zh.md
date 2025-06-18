@@ -1,6 +1,6 @@
 ---
 title: "在实践中构建实时数据湖"
-date: ""
+date: "2025-07-26T14:00:00"
 track: "datalake"
 presenters: "Congxian Qiu"
 stype: "中文演讲"

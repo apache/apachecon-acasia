@@ -1,6 +1,6 @@
 ---
 title: "Flex: Unified Stream and Batch Vectorized Engine"
-date: ""
+date: "2025-07-25T17:15:00"
 track: "streaming"
 presenters: "Jacky Lau"
 stype: "Chinese Session"

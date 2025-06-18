@@ -1,6 +1,6 @@
 ---
 title: "Apache Ozone: Balance Data Through Disk Balancer"
-date: ""
+date: "2025-07-26T15:45:00"
 track: "datastorage"
 presenters: "Sammi Chen"
 stype: "Chinese Session"
@@ -15,5 +15,4 @@ Apache Ozone is a distributed storage system in the Hadoop ecosystem. As a distr
 
 Sammi Chen: Cloudera Principal Storage Engineer 
 
-Cloudera principal storage engineer,  focusing on Apache Hadoop and Apache Ozone kernel development, currently being the Chair of Ozone PMC and Hadoop PMC, former big data storage tech leader of Tencent and Intel. 
-
+Cloudera principal storage engineer,  focusing on Apache Hadoop and Apache Ozone kernel development, currently being the Chair of Ozone PMC and Hadoop PMC, former big data storage tech leader of Tencent and Intel.

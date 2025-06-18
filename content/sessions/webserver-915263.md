@@ -1,6 +1,6 @@
 ---
 title: "Reshaping OpenTelemetry with Apache Arrow"
-date: ""
+date: "2025-07-26T14:30:00"
 track: "webserver"
 presenters: "Lei Huang"
 stype: "English Session"

@@ -1,6 +1,6 @@
 ---
 title: "开源贡献者之旅：从提交 PR 到项目维护的演变"
-date: ""
+date: "2025-07-26T15:00:00"
 track: "community"
 presenters: "Shuxin Pan"
 stype: "中文会议"

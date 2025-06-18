@@ -1,6 +1,6 @@
 ---
 title: "Mastering Large-Scale Shuffle: The Dream11 Playbook with Remote Shuffle Service"
-date: ""
+date: "2025-07-25T14:30:00"
 track: "datastorage"
 presenters: "Ravi Rana, Mehul Batra, Mohit Jain"
 stype: "English Session"
@@ -31,4 +31,3 @@ Always on a quest for captivating data infrastructure projects and reads
 Mohit Jain: Technical Lead
 
 I work at the intersection of big data and ML, making Spark and Flink faster while scaling real-time, batch, and ML workloads. Whether it's optimizing distributed computing, streamlining data pipelines, or building intuitive tools, my goal is to turn complex data challenges into seamless, high-performance solutions.
-

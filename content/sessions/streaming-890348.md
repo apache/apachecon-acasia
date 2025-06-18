@@ -1,6 +1,6 @@
 ---
 title: "Application of Apache Flink in China Telecom's Logging Scenario"
-date: ""
+date: "2025-07-25T15:45:00"
 track: "streaming"
 presenters: "Yan Zuo"
 stype: "Chinese Session"
@@ -16,4 +16,3 @@ The telecommunications log scenario has been replaced from backend services to F
 Yan Zuo: Flink drives the log revolution, with real-time insights increasing efficiency by 200%!
 
 Zuo Yan, a telecommunications data intelligence technology expert, is responsible for building the data center and log platform. Contributors for open-source projects such as Apache Flink, Apache Doris, Flink CDC, StarRocks, and Fluss.
-

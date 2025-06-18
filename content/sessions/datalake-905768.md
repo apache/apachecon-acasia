@@ -1,6 +1,6 @@
 ---
 title: "Apache Gravitino: The universal catalog for data and AI"
-date: ""
+date: "2025-07-25T15:45:00"
 track: "datalake"
 presenters: "Justin Mclean"
 stype: "English Session"

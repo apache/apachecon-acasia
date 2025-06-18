@@ -1,6 +1,6 @@
 ---
 title: "When Flink Meets Fluss: The Future of Streaming Warehouse"
-date: ""
+date: "2025-07-26T17:15:00"
 track: "streaming"
 presenters: "Jark Wu"
 stype: "Chinese Session"
@@ -21,4 +21,3 @@ Finally, we’ll explore real-world use cases of Flink + Fluss, showcasing how t
 Jark Wu: Alibaba
 
 Jark Wu is a committer and PMC member of Apache Flink. He leads both the Fluss and Flink SQL teams at Alibaba Cloud. With a decade of experience in Flink, he has been deeply involved in developing and evolving Flink SQL from zero to now. Throughout this journey, he has also initiated and incubated Flink CDC and Fluss projects, further expanding the Flink ecosystem.
-

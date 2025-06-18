@@ -1,6 +1,6 @@
 ---
 title: "Seata 的历程：从阿里巴巴的创新到 Apache 的成功及未来"
-date: ""
+date: "2025-07-26T15:45:00"
 track: "webserver"
 presenters: "Min Ji"
 stype: "中文演讲"

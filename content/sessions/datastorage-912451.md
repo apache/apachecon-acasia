@@ -1,6 +1,6 @@
 ---
 title: "Cross-Version Upgrade to HBase 2.3 and Stability Governance at Xiaomi"
-date: ""
+date: "2025-07-26T16:45:00"
 track: "datastorage"
 presenters: "Zhiwen Deng"
 stype: "Chinese Session"
@@ -48,4 +48,3 @@ Aims to address evolving needs in cost efficiency, stability, and functionality.
 Zhiwen Deng: Xiaomi Software R&D Engineer
 
 Xiaomi distributed system R&D engineer, participated in the design and implementation of message queues and HBase, and is also the committer of Apache RocketMQ
-

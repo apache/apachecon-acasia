@@ -1,6 +1,6 @@
 ---
 title: "Apache Cassandra Drivers Best Practices: Maximize Performance and Robustness"
-date: ""
+date: "2025-07-26T14:00:00"
 track: "datastorage"
 presenters: "Siyao He"
 stype: "Chinese Session"
@@ -16,4 +16,3 @@ Want to get the most out of your Apache Cassandra applications? This session div
 Siyao He: Software Engineer at DataStax & Maintainer of Apache Cassandra Drivers
 
 I'm a Software Engineer at DataStax on the Connectivity Team, specializing in the development of the Apache Cassandra Drivers. Passionate about open-source technology and community-driven development, I've contributed to enhancing the driver's functionality and performance. I'm eager to share insights on Apache Cassandra Java Driver and the vibrant community behind it, hoping to foster collaboration and innovation.
-

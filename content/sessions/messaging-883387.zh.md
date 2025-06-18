@@ -1,6 +1,6 @@
 ---
 title: "Apache Pulsar 在腾讯云上的高可用性最佳实践"
-date: ""
+date: "2025-07-25T14:30:00"
 track: "messaging"
 presenters: "韩明泽"
 stype: "中文演讲"

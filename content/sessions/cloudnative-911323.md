@@ -1,6 +1,6 @@
 ---
 title: "High Performance, Low Cost, Open Observability powered by Apache Doris"
-date: ""
+date: "2025-07-25T16:15:00"
 track: "cloudnative"
 presenters: "Kang Xiao"
 stype: "Chinese Session"

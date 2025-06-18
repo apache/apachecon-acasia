@@ -1,6 +1,6 @@
 ---
 title: "释放 Dubbo 生态系统潜能：使用 dubbo-go-pixiu 构建 AI 驱动应用"
-date: ""
+date: "2025-07-26T16:45:00"
 track: "webserver"
 presenters: "Stocks Alex"
 stype: "中文演讲"

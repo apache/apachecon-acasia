@@ -1,6 +1,6 @@
 ---
 title: "Technical Progression of Flink + Paimon Real-time Lakehouse Solutions"
-date: ""
+date: "2025-07-27T15:45:00"
 track: "datalake"
 presenters: "Xuannan Su"
 stype: "Chinese Session"
@@ -20,4 +20,4 @@ In this talk, we will introduce some of the important work, including:
 
 Xuannan Su: Alibaba Group
 
-Xuannan is a software engineer at Alibaba. He is focusing on the development of Apache Flink and its ecosystem after he received his master's degree from Carnegie Mellon University in 2019. 
+Xuannan is a software engineer at Alibaba. He is focusing on the development of Apache Flink and its ecosystem after he received his master's degree from Carnegie Mellon University in 2019.

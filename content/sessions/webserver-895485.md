@@ -1,6 +1,6 @@
 ---
 title: "Solving Complex Problems with AI Agents Design Patterns Using Spring AI"
-date: ""
+date: "2025-07-26T16:15:00"
 track: "webserver"
 presenters: "Juarez Junior"
 stype: "English Session"

@@ -1,6 +1,6 @@
 ---
 title: "基于 Apache SeaTunnel 和 Amazon Bedrock 的现代文本向量数据ETL解决方案"
-date: ""
+date: "2025-07-27T16:15:00"
 track: "dataops"
 presenters: "Xin Zhang"
 stype: "中文演讲"

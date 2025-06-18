@@ -1,6 +1,6 @@
 ---
 title: "Bridging the Divide: Harmonizing Apache SkyWalking and OpenTelemetry in Production Environments"
-date: ""
+date: "2025-07-27T14:30:00"
 track: "observability"
 presenters: "Cheng Chen"
 stype: "Chinese Session"

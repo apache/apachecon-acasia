@@ -1,6 +1,6 @@
 ---
 title: "Implementation and Tuning Practice of Apache IoTDB System Monitoring Framework"
-date: ""
+date: "2025-07-25T16:45:00"
 track: "cloudnative"
 presenters: "Hongyin Zhang"
 stype: "Chinese Session"

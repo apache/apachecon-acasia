@@ -1,6 +1,6 @@
 ---
 title: "培育新贡献者：打造优质入门问题的艺术"
-date: ""
+date: "2025-07-26T14:00:00"
 track: "community"
 presenters: "姜宁"
 stype: "中文演讲"

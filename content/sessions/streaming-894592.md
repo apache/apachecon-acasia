@@ -1,6 +1,6 @@
 ---
 title: "Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One"
-date: ""
+date: "2025-07-25T15:00:00"
 track: "streaming"
 presenters: "Ron Liu"
 stype: "Chinese Session"
@@ -23,4 +23,3 @@ Key Takeaways:
 Ron Liu: Alibaba Cloud, Senior Engineer
 
 Apache Flink Committer, Apache Flink 2.1 Release Manager. I've been focusing on big data, with extensive experience in streaming, batch computing, and storage.
-

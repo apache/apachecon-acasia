@@ -1,6 +1,6 @@
 ---
 title: "Apache Pulsar 在小红书公司线上场景的探索与实践"
-date: ""
+date: "2025-07-25T16:45:00"
 track: "messaging"
 presenters: "Steven Lu, Linlin Duan, Xiangying Meng"
 stype: "中文演讲"

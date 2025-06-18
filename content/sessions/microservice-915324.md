@@ -1,6 +1,6 @@
 ---
 title: "Application of Dubbo-go in microservice architecture"
-date: ""
+date: "2025-07-27T14:30:00"
 track: "microservice"
 presenters: "Wu Xinfan"
 stype: "Chinese Session"

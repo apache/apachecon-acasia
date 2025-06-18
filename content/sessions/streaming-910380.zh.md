@@ -1,6 +1,6 @@
 ---
 title: "腾讯大数据Flink在云原生混合低优先级集群上的实时保障实践"
-date: ""
+date: "2025-07-26T15:45:00"
 track: "streaming"
 presenters: "Pengxiang Wang"
 stype: "中文演讲"

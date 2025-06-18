@@ -1,6 +1,6 @@
 ---
 title: "软件团队的激进透明"
-date: ""
+date: "2025-07-26T17:15:00"
 track: "general"
 presenters: "Gregory Lind"
 stype: "英文演讲"

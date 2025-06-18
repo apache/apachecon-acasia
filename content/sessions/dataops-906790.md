@@ -1,6 +1,6 @@
 ---
 title: "Modern ETL for Text Vector Data Using Apache SeaTunnel and Amazon Bedrock"
-date: ""
+date: "2025-07-27T16:15:00"
 track: "dataops"
 presenters: "Xin Zhang"
 stype: "Chinese Session"

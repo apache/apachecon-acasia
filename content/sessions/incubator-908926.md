@@ -1,6 +1,6 @@
 ---
 title: "From Chaos to Order: The Journey of Apache OzHera (Incubating)'s First Release Process"
-date: ""
+date: "2025-07-27T14:30:00"
 track: "incubator"
 presenters: "Shuxin Pan"
 stype: "Chinese Session"

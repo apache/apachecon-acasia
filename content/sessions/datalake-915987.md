@@ -1,6 +1,6 @@
 ---
 title: "Building a Unified Lakehouse Solution with Apache Cloudberry"
-date: ""
+date: "2025-07-26T14:30:00"
 track: "datalake"
 presenters: "Rose Duan"
 stype: "Chinese Session"
@@ -25,4 +25,3 @@ This talk introduces Cloudberry’s key capabilities in enabling a unified lakeh
 Rose Duan: Apache Cloudberry Database Developer
 
 Apache Cloudberry contributor, database kernel developer at HashData.
-

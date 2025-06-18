@@ -1,6 +1,6 @@
 ---
 title: "Decrypting the architectural innovation and multi-scenario best practices of the apache  kafka"
-date: ""
+date: "2025-07-25T15:45:00"
 track: "messaging"
 presenters: "Fujian Zhao"
 stype: "Chinese Session"
@@ -16,4 +16,3 @@ Alibaba Cloud Kafka has been fully upgraded based on open source Kafka, combinin
 Fujian Zhao: Alibaba Senior Software Engineer
 
 Graduated from Southeast University in June 2020, and joined Alibaba in July 2020.
-

@@ -1,6 +1,6 @@
 ---
 title: "Practice of Apache Flink Real-time Computing in China Mobile Cloud"
-date: ""
+date: "2025-07-26T14:00:00"
 track: "streaming"
 presenters: "LEI XIE"
 stype: "Chinese Session"
@@ -16,4 +16,3 @@ The diversity of computing scenarios continuously drives the innovation of big d
 LEI XIE: China Mobile Ecloud, Apache Committer
 
 An enthusiast of Apache open source projects and also an Apache Committer, currently mainly responsible for the research and development of China Mobile Cloud's stream computing platform.
-

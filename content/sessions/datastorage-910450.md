@@ -1,6 +1,6 @@
 ---
 title: "Apache Ozone Best Practices at Shopee"
-date: ""
+date: "2025-07-26T15:00:00"
 track: "datastorage"
 presenters: "Hui Fei"
 stype: "Chinese Session"
@@ -16,4 +16,3 @@ At Shopee, we have been using Ozone for over four years, with the number of stor
 Hui Fei: Storage Team Lead, Data Infrastructure at Shopee
 
 I have been working in the big data field for over ten years, with a strong interest in distributed storage and performance optimization. I am currently leading the storage team in the data infra department at Shopee
-

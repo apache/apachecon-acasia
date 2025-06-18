@@ -1,6 +1,6 @@
 ---
 title: "The Journey of an Open Source Contributor: Evolving from PR Submissions to Project Maintenance"
-date: ""
+date: "2025-07-26T15:00:00"
 track: "community"
 presenters: "Shuxin Pan"
 stype: "Chinese Session"
@@ -16,4 +16,3 @@ Getting started with open source can be daunting, but every experienced contribu
 Shuxin Pan: Apache Committer | Open Source Enthusiast
 
 Shuxin Pan is an Apache Committer and maintainer of several popular open-source projects. He has extensive experience in AI and server-side development and currently works for a financial company. With many years of open-source contributions, he hopes to help newcomers enter the open-source world.
-

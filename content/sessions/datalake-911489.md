@@ -1,6 +1,6 @@
 ---
 title: "SF Express's Journey with Apache Spark and Gluten"
-date: ""
+date: "2025-07-27T14:30:00"
 track: "datalake"
 presenters: "Weiting Chen, Xixu Wang, Feilong He"
 stype: "Chinese Session"
@@ -31,4 +31,3 @@ Backend has worked in Baidu, Weibo, Xiaomi, Shenze, mainly engaged in big data c
 Feilong He: Intel, Software Engineer
 
 Feilong is a software engineer at Intel with over seven years of experience in the field of data analytics. He actively contributes to the Apache incubating Gluten project and the Meta Velox project as a developer.
-

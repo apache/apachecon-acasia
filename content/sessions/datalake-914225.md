@@ -1,6 +1,6 @@
 ---
 title: "Impala on Iceberg with Puffins"
-date: ""
+date: "2025-07-26T15:00:00"
 track: "datalake"
 presenters: "Daniel Becker"
 stype: "English Session"

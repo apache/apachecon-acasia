@@ -1,6 +1,6 @@
 ---
 title: "探索孵化流程"
-date: ""
+date: "2025-07-27T16:15:00"
 track: "incubator"
 presenters: "Justin Mclean"
 stype: "英文演讲"

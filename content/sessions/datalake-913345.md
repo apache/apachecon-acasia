@@ -1,6 +1,6 @@
 ---
 title: "Optimizing Parquet Storage: Metadata Management, Performance Tuning & Seamless Migration"
-date: ""
+date: "2025-07-26T16:15:00"
 track: "datalake"
 presenters: "Hongnan Gan, Zhengjie He"
 stype: "Chinese Session"

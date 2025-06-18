@@ -1,6 +1,6 @@
 ---
 title: "使用 Higress 快速构建智能微服务"
-date: ""
+date: "2025-07-27T15:45:00"
 track: "microservice"
 presenters: "Min Ji"
 stype: "中文演讲"

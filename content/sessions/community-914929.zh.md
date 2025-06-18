@@ -1,6 +1,6 @@
 ---
 title: "为何如此艰难？"
-date: ""
+date: "2025-07-26T16:15:00"
 track: "community"
 presenters: "Craig Russell"
 stype: "英文演讲"

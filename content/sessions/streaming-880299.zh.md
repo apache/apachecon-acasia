@@ -1,11 +1,10 @@
 ---
 title: "蚂蚁集团基于 Apache 技术栈构建的新一代高 SLA 流式计算系统"
-date: ""
+date: "2025-07-25T14:30:00"
 track: "streaming"
 presenters: "Xin Wang"
 stype: "中文演讲"
 ---
-
 
 ● 背景：介绍蚂蚁集团的实时业务和技术背景
 ● 解决方案：介绍基于 Flink、Calcite 等 Apache 技术栈构建的新一代流式计算系统

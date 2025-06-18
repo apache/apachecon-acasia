@@ -1,6 +1,6 @@
 ---
 title: "经验教训：使用 Tomcat 和虚拟线程构建服务网关"
-date: ""
+date: "2025-07-26T14:00:00"
 track: "webserver"
 presenters: "Yike Xiao"
 stype: "中文演讲"

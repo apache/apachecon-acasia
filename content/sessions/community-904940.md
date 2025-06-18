@@ -1,6 +1,6 @@
 ---
 title: "Bridging the Language Divide: Practical Tactics for Global Collaboration in Open Source"
-date: ""
+date: "2025-07-25T15:00:00"
 track: "community"
 presenters: "Miley Fu"
 stype: "Chinese Session"
@@ -16,4 +16,3 @@ Open source projects thrive when people from diverse backgrounds and languages u
 Miley Fu: CNCF Ambassador, Founding member of open source runtime WasmEdge
 
 Miley is a Developer Advocate with a passion for empowering developers to build and contribute to open source. She is the co-chair and keynote speaker for KubeCon+Open Source Summit and AI Dev China 2024. With over 5 years of experience working on WasmEdge runtime in CNCF sandbox as the founding member, she talks at KubeCon, KCD Shenzhen, CloudDay Italy, DevRelCon, Open Source Summit Japan, AWS User Group, Global AI Note, KubeDay Singapore etc. Miley writes tech content and organizes dev events, including KCD Shenzhen, OpenSource Fairs, WebAssembly & Rust Meetups in Taipei, Singapore, China, etc.
-

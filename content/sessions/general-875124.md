@@ -1,6 +1,6 @@
 ---
 title: "Future Proof Data Platform in the AI and Cloud native era"
-date: ""
+date: "2025-07-26T16:40:00"
 track: "general"
 presenters: "Tom Tan"
 stype: "Chinese Session"
@@ -16,4 +16,3 @@ Organizations with a lot of data, such as internet/AI/Robotics companies, have b
 Tom Tan: Data and AI (current advisor to DataStrato Inc.)
 
 Tom Tan is a seasoned engineering leader in AI, Data and Infrastructure.  Tom joined Apple in 2005. From 2010-2018, as an engineering director, Tom led Apple Inc.'s data and ML platform  for its cloud and enterprise services.  After Apple, Tom was the VP of Engineering at Cloudwalk Inc, an AI/Computer Vision pioneer.  From 2021-2024, Tom led AI, Data and Infrastructure engineering at SmartNews, a Japan based internet company.  Now Tom is a advisor to DataStrato and Apache Gravitino open source project
-

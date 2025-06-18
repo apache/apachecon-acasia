@@ -1,6 +1,6 @@
 ---
 title: "小米利用 Apache Paimon 实现高效数据和 AI 优化"
-date: ""
+date: "2025-07-27T17:15:00"
 track: "datalake"
 presenters: "Houliang Qi"
 stype: "中文演讲"

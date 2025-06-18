@@ -1,6 +1,6 @@
 ---
 title: "A decade of lessons in Open Source licensing"
-date: ""
+date: "2025-07-25T14:00:00"
 track: "community"
 presenters: "Justin Mclean"
 stype: "English Session"

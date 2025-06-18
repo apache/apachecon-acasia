@@ -1,6 +1,6 @@
 ---
 title: "Apache Kafka 4.0 in Huawei Cloud"
-date: ""
+date: "2025-07-25T14:30:00"
 track: "cloudnative"
 presenters: "Lan Ding"
 stype: "Chinese Session"

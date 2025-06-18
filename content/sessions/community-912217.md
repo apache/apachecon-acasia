@@ -1,6 +1,6 @@
 ---
 title: "Nurturing New Contributors: The Art of Crafting Good First Issues"
-date: ""
+date: "2025-07-26T14:00:00"
 track: "community"
 presenters: "Willem Jiang"
 stype: "Chinese Session"
@@ -20,4 +20,3 @@ The talk will cover strategies for identifying appropriate tasks, writing clear 
 Willem Jiang: Principal Open Source Evangelist of ByteDance OSPO 
 
 Willem Jiang (Jiang Ning) is the principal Open Source Evangelist of ByteDance OSPO , and serves as a board director of the Apache Software Foundation. He has contributed to various Apache projects, including Camel, CXF, ServiceMix, and ServiceComb. Prior to joining ByteDance, Willem was the open source technical expert of Huawei for six years. Before that, he was  the principal engineer of RedHat working on Fuse ESB. He also worked for FuseSource, IONA and Travelsky.inc.
-

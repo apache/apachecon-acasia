@@ -1,6 +1,6 @@
 ---
 title: "Storage Engine for RocketMQ Based on Commitlog and RocksDB"
-date: ""
+date: "2025-07-26T15:45:00"
 track: "messaging"
 presenters: "Zhou Li"
 stype: "Chinese Session"
@@ -25,4 +25,3 @@ Storage Engine for RocketMQ Based on Commitlog and RocksDB
 Zhou Li: aliyun
 
 Messaging Expert at Alibaba Cloud, responsible for Alibaba's core messaging middleware
-

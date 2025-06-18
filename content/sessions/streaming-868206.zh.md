@@ -1,6 +1,6 @@
 ---
 title: "队列、处理、预测：Kafka 与 Flink LLM 和 Datalake 开启新时代"
-date: ""
+date: "2025-07-26T15:00:00"
 track: "streaming"
 presenters: "Shekhar Prasad Rajak"
 stype: "英文演讲"

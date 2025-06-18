@@ -1,6 +1,6 @@
 ---
 title: "From Graph to Intelligence: HugeGraph Powers Business AI Upgrades"
-date: ""
+date: "2025-07-27T15:00:00"
 track: "incubator"
 presenters: "Song Jin, Zhe Wang"
 stype: "Chinese Session"
@@ -23,4 +23,3 @@ I am currently a second-year graduate student at Wuhan University, actively cont
 Zhe Wang: Hugegraph commiter
 
 Interested in graph store and graph AI.
-

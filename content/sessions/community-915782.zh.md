@@ -1,6 +1,6 @@
 ---
 title: "APACHE 软件——墨西哥政府开源采纳之旅"
-date: ""
+date: "2025-07-25T14:30:00"
 track: "community"
 presenters: "Victor Manuel Romero Rodriguez"
 stype: "英文演讲"

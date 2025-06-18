@@ -1,12 +1,12 @@
 ---
 title: "Scalable Join & Aggregation with External State and Dynamic Tables"
-date: ""
+date: "2025-07-26T16:15:00"
 track: "streaming"
 presenters: "Feng Jin"
 stype: "Chinese Session"
 ---
 
-	1.	Background & Motivation
+1.	Background & Motivation
 	•	Flink SQL challenges at scale: large state, long joins, complex maintenance
 	•	Business use case: automotive data warehouse and alerting systems
 	2.	State Externalization with Delta Join and Merge Engine
@@ -34,4 +34,3 @@ stype: "Chinese Session"
 Feng Jin: Xiaomi, Senior Software Engineer, Apache Flink Committer
 
 Feng Jin is currently a member of the Compute Platform team at Xiaomi, where he is responsible for maintaining the internal Flink framework and building the company’s real-time lakehouse architecture. He has extensive experience in large-scale stream processing, Flink SQL optimization, and state management. He is also an Apache Flink committer and actively contributes to the open-source community.
-

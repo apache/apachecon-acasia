@@ -1,6 +1,6 @@
 ---
 title: "APACHE SOFTWARE - THE JOURNEY OF THE OPEN SOURCE ADOPTION FOR THE MEXICAN GOVERNMENT"
-date: ""
+date: "2025-07-25T14:30:00"
 track: "community"
 presenters: "Víctor Manuel Romero Rodríguez"
 stype: "English Session"
@@ -22,4 +22,3 @@ As co-founder of Fintechando, the company that creates digital solutions based o
 During this journey, Victor has implemented APIs that enable customer-facing flows and improve the user experience while handling securely the sensitive data of Mexican population.
 
 Having used Apache Software as the pillars to solve the needs of people, Victor is adept at crafting innovative solutions using open source technologies.
-

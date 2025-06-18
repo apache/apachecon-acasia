@@ -1,6 +1,6 @@
 ---
 title: "Impala 在 Iceberg 上与 Puffins"
-date: ""
+date: "2025-07-26T15:00:00"
 track: "datalake"
 presenters: "Daniel Becker"
 stype: "英文演讲"

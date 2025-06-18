@@ -1,6 +1,6 @@
 ---
 title: "Practical Experiences in Ant Open Source Incubation"
-date: ""
+date: "2025-07-26T14:30:00"
 track: "community"
 presenters: "Peggy Dong"
 stype: "English Session"
@@ -30,4 +30,3 @@ The speech focuses on analyzing the challenges that Ant OSS has encountered in t
 Peggy Dong: Ant Group,Open Source Governance Expert
 
 I believe  Open source represents a force for good. Being attracted by the concepts of open source, collaboration and sharing, I joined Ant Open Source OSPO for three years. Before this, I was mainly engaged in strategic planning, hoping to bring a different perspective to open source governance.
-

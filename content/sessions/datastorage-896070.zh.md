@@ -1,6 +1,6 @@
 ---
 title: "Celeborn 的革新：多引擎支持、性能掌控与技术创新"
-date: ""
+date: "2025-07-26T16:15:00"
 track: "datastorage"
 presenters: "Jiashu Xiong, Ethan Feng"
 stype: "中文演讲"

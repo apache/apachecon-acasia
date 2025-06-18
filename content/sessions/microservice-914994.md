@@ -1,6 +1,6 @@
 ---
 title: "What changes can be brought by combining microservices with OpenAPI?"
-date: ""
+date: "2025-07-27T17:15:00"
 track: "microservice"
 presenters: "He Liang"
 stype: "Chinese Session"

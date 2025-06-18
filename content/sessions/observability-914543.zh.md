@@ -1,6 +1,6 @@
 ---
 title: "弥合鸿沟：在生产环境中协调 Apache SkyWalking 和 OpenTelemetry"
-date: ""
+date: "2025-07-27T14:30:00"
 track: "observability"
 presenters: "Cheng Chen"
 stype: "中文演讲"

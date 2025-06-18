@@ -1,6 +1,6 @@
 ---
 title: "Apache Gravitino Best Practices for Multi-Cluster Management"
-date: ""
+date: "2025-07-27T14:30:00"
 track: "dataops"
 presenters: "Xun Liu"
 stype: "Chinese Session"
@@ -19,4 +19,3 @@ Xun Liu: Apache Gravitino PMC
 Xun Liu, with twenty years of software development experience, has been working in the field of big data development for the past ten years. He is a Member of the Apache Software Foundation and an incubator mentor, and has incubated a number of open-source projects in Apache, as well as a member of the Committer of Apache Hadoop and Zeppelin.
 
 Xun Liu is the co-founder and COO of Datastrato, and is currently responsible for the operation of the company's open source project, Gravitino.
-

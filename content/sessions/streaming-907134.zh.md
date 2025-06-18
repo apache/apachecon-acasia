@@ -1,6 +1,6 @@
 ---
 title: "利用流式图计算加速多流连接"
-date: ""
+date: "2025-07-25T14:00:00"
 track: "streaming"
 presenters: "Zhao Qingwen"
 stype: "中文演讲"

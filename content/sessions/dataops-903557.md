@@ -1,6 +1,6 @@
 ---
 title: "Apache DolphinScheduler at Yili Group: Best Practices in Customization, Monitoring, and Operations"
-date: ""
+date: "2025-07-27T14:00:00"
 track: "dataops"
 presenters: "Xuetong Zhu"
 stype: "Chinese Session"

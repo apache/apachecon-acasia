@@ -1,6 +1,6 @@
 ---
 title: "The Practice to Building a Developer Friendly Open Source Database Community"
-date: ""
+date: "2025-07-26T15:45:00"
 track: "community"
 presenters: "Shaoting Duan"
 stype: "Chinese Session"
@@ -22,4 +22,3 @@ For more detailed information about our community, there are developer events, t
 Shaoting Duan: Developer Community Manager 
 
 As the head of the OceanBase developer community, Shaoting Duan is committed to promoting and preaching cutting-edge science and technology, and building and developing open source communities. She has worked for Fortune 500 companies such as Sun, Adobe, Baidu and Alibaba, where she was responsible for the development and construction of open source technology communities such as OceanBase, OpenSolaris, Java, Flash, and HTML5, as well as talent training and university program ecosystem construction.
-

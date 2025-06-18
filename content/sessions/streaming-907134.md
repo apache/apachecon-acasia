@@ -1,6 +1,6 @@
 ---
 title: "Accelerating Multi-stream Join by Stream Graph Computing"
-date: ""
+date: "2025-07-25T14:00:00"
 track: "streaming"
 presenters: "Zhao Qingwen"
 stype: "Chinese Session"
@@ -15,5 +15,4 @@ Stream computing is becoming increasingly critical in domains such as anomaly de
 
 Zhao Qingwen: Antgroup, Engineer
 
-Joined AntGroup in 2019 and is one of the core developers of GeaFlow.  
-
+Joined AntGroup in 2019 and is one of the core developers of GeaFlow.

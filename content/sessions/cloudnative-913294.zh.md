@@ -1,6 +1,6 @@
 ---
 title: "Apache IoTDB 系统监控框架的实施与调优实践"
-date: ""
+date: "2025-07-25T16:45:00"
 track: "cloudnative"
 presenters: "张洪胤"
 stype: "中文演讲"

@@ -1,6 +1,6 @@
 ---
 title: "解密Apache Kafka的架构创新与多场景最佳实践"
-date: ""
+date: "2025-07-25T15:45:00"
 track: "messaging"
 presenters: "Fujian Zhao"
 stype: "中文演讲"

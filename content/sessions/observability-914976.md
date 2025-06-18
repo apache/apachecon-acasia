@@ -1,6 +1,6 @@
 ---
 title: "Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ & OpenTelemetry"
-date: ""
+date: "2025-07-27T14:00:00"
 track: "observability"
 presenters: "Minghui Zhang"
 stype: "Chinese Session"
@@ -18,4 +18,4 @@ By attending this session, you will gain a deep understanding of the core method
 
 Minghui Zhang: Alibaba Cloud, Hangzhou
 
-As the developer of Alibaba Cloud APM's auto instrumentation tools, I specialize in providing immediate, out-of-the-box solutions for Java, Golang, and more, leveraging the OpenTelemetry standard. My expertise in equipping users with cloud-native APM capabilities has enhanced application performance monitoring across various cloud environments. 
+As the developer of Alibaba Cloud APM's auto instrumentation tools, I specialize in providing immediate, out-of-the-box solutions for Java, Golang, and more, leveraging the OpenTelemetry standard. My expertise in equipping users with cloud-native APM capabilities has enhanced application performance monitoring across various cloud environments.

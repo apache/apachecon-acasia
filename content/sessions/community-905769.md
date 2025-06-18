@@ -1,6 +1,6 @@
 ---
 title: "Inside the Apache Software Foundation Board"
-date: ""
+date: "2025-07-25T16:45:00"
 track: "community"
 presenters: "Justin Mclean"
 stype: "English Session"

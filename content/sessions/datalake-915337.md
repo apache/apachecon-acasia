@@ -1,6 +1,6 @@
 ---
 title: "Apache Hudi in Action: Accelerating Kuaishou's Data Warehouse Architecture Upgrade"
-date: ""
+date: "2025-07-25T16:15:00"
 track: "datalake"
 presenters: "Chaoyang Liu"
 stype: "Chinese Session"
@@ -32,6 +32,3 @@ Discuss Kuaishou's roadmap for integrating data lake capabilities with BI (Busin
 Chaoyang Liu: Core Hudi R&D Engineer at Kuaishou
 
 Core Hudi Engineer at Kuaishou | Apache Hudi Active Contributor | Apache RocketMQ Committer
-
-
-

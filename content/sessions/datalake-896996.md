@@ -1,6 +1,6 @@
 ---
 title: "Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses"
-date: ""
+date: "2025-07-25T16:45:00"
 track: "datalake"
 presenters: "Akshat Mathur"
 stype: "English Session"
@@ -44,5 +44,3 @@ Akshat Mathur: Product Manager @ Cloudera
 With over 7 years of dedicated experience in the dynamic field of data engineering, Helped architecting and implementing robust data infrastructure for a variety of organizations, contributing to their success in harnessing the power of data, and now managing product strategy for Cloudera's Data Lakehouse
 
 Akshat has made contributions towards Apache Hive and Tez
-
-

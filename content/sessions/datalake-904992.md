@@ -1,6 +1,6 @@
 ---
 title: "Apache Amoro & iceberg in Huolala Prdouction"
-date: ""
+date: "2025-07-25T15:00:00"
 track: "datalake"
 presenters: "Zheng Yu Chen"
 stype: "Chinese Session"
@@ -36,5 +36,4 @@ This talk will provide actionable insights for data engineers and architects imp
 
 Zheng Yu Chen: Apache Amoro PPMC , HuoLaLa Senior Big Data Dev
 
-Chen Zheng Yu (ConradJam), Apache Flink Chinese community volunteer,Apache Amoro PPMC,he  has been engaged in data development in bigdata for a long time. At present, he is responsible for the design and construction of Flink public multi-cloud data solution, data synchronization and big data operation pipeline platform from 0 to 1 
-
+Chen Zheng Yu (ConradJam), Apache Flink Chinese community volunteer,Apache Amoro PPMC,he  has been engaged in data development in bigdata for a long time. At present, he is responsible for the design and construction of Flink public multi-cloud data solution, data synchronization and big data operation pipeline platform from 0 to 1

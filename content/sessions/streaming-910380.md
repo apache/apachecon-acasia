@@ -1,6 +1,6 @@
 ---
 title: "Real-Time Assurance Practices for Tencent Big Data Flink on Cloud-Native Hybrid Low-Priority Cluster"
-date: ""
+date: "2025-07-26T15:45:00"
 track: "streaming"
 presenters: "Pengxiang Wang"
 stype: "Chinese Session"

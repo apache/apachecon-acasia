@@ -1,6 +1,6 @@
 ---
 title: "顺丰速运与 Apache Spark 和 Gluten 的合作之旅"
-date: ""
+date: "2025-07-27T14:30:00"
 track: "datalake"
 presenters: "Weiting Chen, Xixu Wang, Feilong He"
 stype: "中文演讲"

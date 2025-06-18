@@ -1,6 +1,6 @@
 ---
 title: "使用 Apache Pulsar 构建高可靠订阅和推送服务：挑战与最佳实践"
-date: ""
+date: "2025-07-25T15:00:00"
 track: "messaging"
 presenters: "Zhangjian He"
 stype: "中文演讲"

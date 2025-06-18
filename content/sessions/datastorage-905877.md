@@ -1,6 +1,6 @@
 ---
 title: "Production Practice of Apache Gluten and Apache Celeborn at Xiaomi"
-date: ""
+date: "2025-07-25T15:00:00"
 track: "datastorage"
 presenters: "Yongyuan Liang"
 stype: "Chinese Session"
@@ -24,4 +24,3 @@ We will briefly share Xiaomi's future plans for Spark, focusing on directions fo
 Yongyuan Liang: Xiaomi,Beijing
 
 Computing Engine R&D Engineer. Responsible for the development of computing engine
-

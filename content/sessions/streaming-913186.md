@@ -1,6 +1,6 @@
 ---
 title: "Disaggregated State Management In Apache Flink"
-date: ""
+date: "2025-07-25T16:15:00"
 track: "streaming"
 presenters: "Zhaoqian (Zakelly) Lan"
 stype: "Chinese Session"
@@ -17,4 +17,3 @@ In this session, we will introduce the the design of storage and Disaggregated S
 Zhaoqian (Zakelly) Lan: Apache Flink PMC Member & Committer, Technical Expert at Alibaba Cloud
 
 Zhaoqian (Zakelly) Lan has been contributing to open source projects for many years and is an active PMC member & committer in Apache Flink project. He specializes in streaming and key-value storage. Currently, Zhaoqian works at Alibaba Cloud, where he focuses on advancing the state management and checkpointing capabilities of Flink, driving innovation and efficiency improvements.
-

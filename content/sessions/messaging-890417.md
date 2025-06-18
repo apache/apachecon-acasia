@@ -1,6 +1,6 @@
 ---
 title: "Building Highly Reliable Subscription & Push with Apache Pulsar: Challenges and Best Practices"
-date: ""
+date: "2025-07-25T15:00:00"
 track: "messaging"
 presenters: "Zhangjian He"
 stype: "Chinese Session"
@@ -15,4 +15,3 @@ Analyzing Huawei Cloud IoT's best practices in building a subscription and push 
 Zhangjian He: Huawei Cloud IoT Senior Engineer | Huawei Cloud Open Source Team Member
 
 Open-source enthusiast and experienced engineer. Since starting software development in 2017, I have played a key role in leading the cloud-native transformation of Huawei Cloud's IoT platform and the development of an industrial IoT platform. I serve as an Apache BookKeeper/ServiceComb PMC member, Apache Pulsar Committer, and CNCF openGemini Maintainer. I specialize in coding, software engineering, open source, and ecosystem development, driving best practices and development standards.
-

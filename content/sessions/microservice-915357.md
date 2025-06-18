@@ -1,6 +1,6 @@
 ---
 title: "AI-Era Distributed Transactions: Practice and Outlook of the Seata Saga Pattern"
-date: ""
+date: "2025-07-27T14:00:00"
 track: "microservice"
 presenters: "Feng Zhang"
 stype: "Chinese Session"
@@ -17,4 +17,3 @@ Feng Zhang: DiDi Global Inc, Senior Software Engineer
 
 Open-source enthusiast
 Apache Seata(incubating)  Committer
-

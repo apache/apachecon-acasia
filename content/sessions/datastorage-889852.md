@@ -1,6 +1,6 @@
 ---
 title: "Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI"
-date: ""
+date: "2025-07-25T16:45:00"
 track: "datastorage"
 presenters: "Hubert Zhang, Lintao Zhang"
 stype: "English Session"
@@ -40,5 +40,4 @@ Hubert Zhang serves as the Chief Technology Officer (CTO) at EloqData. Prior to 
 
 Lintao Zhang: Co-founder and CEO, EloqData
 
-Lintao Zhang is the Co-founder and CEO of EloqData, building the next generation database infrastructure for applications in the AI age.  Previously he was a Partner Research Manager at Microsoft Research, working on cloud infrastructures, distributed systems and AI. He was a inventor of the PacificA replication protocol that is used in Apache Kafka, Apache Pegasus, and ElasticSearch. He has published over fifty papers in top conferences and won many awards for his research. Lintao is an IEEE Fellow and a ACM Distinguished Member. He received his Bachelor's degree from Peking University, and his Ph.D. from Princeton University. 
-
+Lintao Zhang is the Co-founder and CEO of EloqData, building the next generation database infrastructure for applications in the AI age.  Previously he was a Partner Research Manager at Microsoft Research, working on cloud infrastructures, distributed systems and AI. He was a inventor of the PacificA replication protocol that is used in Apache Kafka, Apache Pegasus, and ElasticSearch. He has published over fifty papers in top conferences and won many awards for his research. Lintao is an IEEE Fellow and a ACM Distinguished Member. He received his Bachelor's degree from Peking University, and his Ph.D. from Princeton University.

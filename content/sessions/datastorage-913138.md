@@ -1,6 +1,6 @@
 ---
 title: "The Exploration and Practice of State Storage in Tencent Big Data Flink with Separation of Computati"
-date: ""
+date: "2025-07-25T16:15:00"
 track: "datastorage"
 presenters: "YanPeng shi"
 stype: "Chinese Session"
@@ -38,4 +38,3 @@ Hot updates for underlying Fuse components: Updates to the underlying Fuse compo
 YanPeng shi: Tencent senior engineer
 
 Tencent Senior Engineer, graduated with a Master's degree from Beijing University of Posts and Telecommunications in 2021, focusing on Flink core development.
-

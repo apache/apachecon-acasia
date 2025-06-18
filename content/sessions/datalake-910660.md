@@ -1,6 +1,6 @@
 ---
 title: "Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support for Hudi / Icebe"
-date: ""
+date: "2025-07-27T16:45:00"
 track: "datalake"
 presenters: "Lidong Dai"
 stype: "English Session"
@@ -44,4 +44,3 @@ Plans for supporting DeltaLake and more
 Lidong Dai: WhaleOps Technology co-founder
 
 Apache Incubator Mentor, Apache DolphinScheduler PMC Chair & Apache SeaTunnel PMC member
-

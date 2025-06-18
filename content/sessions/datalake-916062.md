@@ -1,6 +1,6 @@
 ---
 title: "Apache Polaris (Incubating) & Apache XTable: Unifying Iceberg, Hudi, and other Table Formats"
-date: ""
+date: "2025-07-26T17:15:00"
 track: "datalake"
 presenters: "Eric Maynard"
 stype: "English Session"
@@ -21,4 +21,3 @@ This talk will outline the new generic tables and conversion features in Polaris
 Eric Maynard: Data Interoperability @ Snowflake
 
 Eric Maynard is an engineer at Snowflake working on Apache Iceberg, Apache Polaris (Incubating), and the translation of (meta)data between formats.
-

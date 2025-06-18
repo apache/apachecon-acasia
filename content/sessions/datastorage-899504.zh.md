@@ -1,6 +1,6 @@
 ---
 title: "Apache Cassandra: 过去、现在与未来"
-date: ""
+date: "2025-07-26T14:30:00"
 track: "datastorage"
 presenters: "Guo Chao"
 stype: "英文演讲"

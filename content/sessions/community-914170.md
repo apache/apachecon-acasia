@@ -1,6 +1,6 @@
 ---
 title: "Challenges and Practices of Measuring Open Source Community Project Health"
-date: ""
+date: "2025-07-25T15:45:00"
 track: "community"
 presenters: "Xiaoya Xia, Divya Mohan"
 stype: "English Session"
@@ -33,4 +33,3 @@ Xiaoya Xia is a member of the Ant Group OSPO, where she focuses on catalyzing op
 Divya Mohan: Open source maintainer & advocate
 
 Divya is a Senior Technical Evangelist at SUSE, where she contributes to Rancher’s cloud native open source projects. She co-chairs the documentation for the Kubernetes & LitmusChaos projects & has previously worked extensively in the systems engineering space during her tenure with HSBC & IGate Global Solutions Pvt Ltd. A co-creator of the KCNA exam & a CNCF ambassador, she is invested in making technical communities & technologies more accessible & inclusive.
-

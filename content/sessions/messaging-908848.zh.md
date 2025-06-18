@@ -1,6 +1,6 @@
 ---
 title: "构建云 MQTT 解决方案的经验教训"
-date: ""
+date: "2025-07-26T14:30:00"
 track: "messaging"
 presenters: "Senze Zhang"
 stype: "中文演讲"

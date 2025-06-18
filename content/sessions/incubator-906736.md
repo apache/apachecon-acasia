@@ -1,6 +1,6 @@
 ---
 title: "From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry"
-date: ""
+date: "2025-07-27T15:45:00"
 track: "incubator"
 presenters: "Dianjin Wang"
 stype: "Chinese Session"

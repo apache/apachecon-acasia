@@ -1,6 +1,6 @@
 ---
 title: "Apache Kvrocks 的演进：搜索、向量及未来"
-date: ""
+date: "2025-07-25T15:45:00"
 track: "datastorage"
 presenters: "Mingyang Liu"
 stype: "中文演讲"

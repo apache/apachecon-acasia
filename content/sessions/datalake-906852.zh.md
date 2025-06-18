@@ -1,6 +1,6 @@
 ---
 title: "在腾讯云上基于 Iceberg & Amoro & Gravitino 构建云原生 Lakehouse 架构"
-date: ""
+date: "2025-07-26T16:45:00"
 track: "datalake"
 presenters: "Jinsong Zhou"
 stype: "中文演讲"

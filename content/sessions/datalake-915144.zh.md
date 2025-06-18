@@ -1,6 +1,6 @@
 ---
 title: "​​使用 Tantivy 在 Iceberg 上构建倒排索引：实践方法​​"
-date: ""
+date: "2025-07-25T14:00:00"
 track: "datalake"
 presenters: "Longfei Liu"
 stype: "中文演讲"

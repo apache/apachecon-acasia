@@ -1,6 +1,6 @@
 ---
 title: "Supercharge Lakehouse Implementation with Apache Iceberg"
-date: ""
+date: "2025-07-27T15:00:00"
 track: "datalake"
 presenters: "Bill Zhang"
 stype: "English Session"
@@ -17,5 +17,4 @@ In this session, we will explore how Apache Iceberg enhances lakehouse architect
 
 Bill Zhang: Cloudera, Lakehouse , Iceberg Integration
 
-Bill is Vice President of product strategies at Cloudera, responsible for Open Data Lakehouse product strategy and Apache Iceberg integration with all Cloudera Data Platform (CDP) form factors.  Most recently, Bill also leads Apache Hive product roadmap and adoption.  
-
+Bill is Vice President of product strategies at Cloudera, responsible for Open Data Lakehouse product strategy and Apache Iceberg integration with all Cloudera Data Platform (CDP) form factors.  Most recently, Bill also leads Apache Hive product roadmap and adoption.

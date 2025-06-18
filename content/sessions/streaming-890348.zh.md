@@ -1,6 +1,6 @@
 ---
 title: "Apache Flink 在中国电信日志场景中的应用"
-date: ""
+date: "2025-07-25T15:45:00"
 track: "streaming"
 presenters: "左岩"
 stype: "中文演讲"

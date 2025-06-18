@@ -1,6 +1,6 @@
 ---
 title: "The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time Computing"
-date: ""
+date: "2025-07-26T16:45:00"
 track: "streaming"
 presenters: "Zihao Chen, Jiangang Liu"
 stype: "Chinese Session"

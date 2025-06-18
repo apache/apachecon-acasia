@@ -1,6 +1,6 @@
 ---
 title: "Scaling Together: Community-Driven Load Testing for Python Apps"
-date: ""
+date: "2025-07-26T15:00:00"
 track: "webserver"
 presenters: "Steve Yonkeu"
 stype: "English Session"

@@ -1,6 +1,6 @@
 ---
 title: "Empowering Serverless Messaging Architectures with Apache RocketMQ"
-date: ""
+date: "2025-07-25T16:15:00"
 track: "messaging"
 presenters: "Juntao Ji"
 stype: "Chinese Session"

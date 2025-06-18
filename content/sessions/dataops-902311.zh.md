@@ -1,6 +1,6 @@
 ---
 title: "Apache Hop：大型语言模型、图数据库与电子表格的无缝集成"
-date: ""
+date: "2025-07-27T15:00:00"
 track: "dataops"
 presenters: "Koji Annoura"
 stype: "英文演讲"

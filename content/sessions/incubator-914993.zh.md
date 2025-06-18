@@ -1,6 +1,6 @@
 ---
 title: "从图到智能：HugeGraph 助力商业AI升级"
-date: ""
+date: "2025-07-27T15:00:00"
 track: "incubator"
 presenters: "Song Jin, Zhe Wang"
 stype: "中文演讲"

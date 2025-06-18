@@ -1,6 +1,6 @@
 ---
 title: "SeaTunnel 架构分析与 Cloudberry 集成实践"
-date: ""
+date: "2025-07-27T16:45:00"
 track: "dataops"
 presenters: "陈虹宇"
 stype: "中文演讲"

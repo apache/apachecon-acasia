@@ -1,6 +1,6 @@
 ---
 title: "Apache Flink 2.1：持续演进，迈向数据 + AI 一体化"
-date: ""
+date: "2025-07-25T15:00:00"
 track: "streaming"
 presenters: "Ron Liu"
 stype: "中文演讲"

@@ -1,6 +1,6 @@
 ---
 title: "从 Hadoop 到 Kubernetes：理想汽车大数据平台的云原生演进"
-date: ""
+date: "2025-07-25T15:45:00"
 track: "cloudnative"
 presenters: "Han Qian"
 stype: "中文演讲"

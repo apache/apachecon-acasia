@@ -1,6 +1,6 @@
 ---
 title: "Lessons Learned in Building a Cloud MQTT Solution"
-date: ""
+date: "2025-07-26T14:30:00"
 track: "messaging"
 presenters: "Senze Zhang"
 stype: "Chinese Session"
@@ -17,4 +17,3 @@ At Tencent Cloud, we have developed a robust, cloud-based MQTT solution built on
 Senze Zhang: Apache RocketMQ Committer
 
 Senze Zhang is a seasoned engineer specializing in the field of message queuing systems. With extensive experience in the design, implementation, and optimization of high-performance messaging solutions, Senze has participated in deploying various industry-leading message queuing platforms including RocketMQ, Kafka, and MQTT.
-

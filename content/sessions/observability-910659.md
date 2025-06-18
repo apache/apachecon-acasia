@@ -1,6 +1,6 @@
 ---
 title: "Optimizing Observability: Unveiling BanyanDB's Hot-Warm-Cold Architecture"
-date: ""
+date: "2025-07-27T16:15:00"
 track: "observability"
 presenters: "Hongtao Gao"
 stype: "Chinese Session"
@@ -18,4 +18,3 @@ This session will reveal the core benefits of the BanyanDB architecture: it not 
 Hongtao Gao: Tetrate, Senior Engineer
 
 Hongtao Gao is the senior engineer of [tetrate.io](http://tetrate.io/) and a former Huawei Cloud expert. One of PMC members of Apache SkyWalking and participates in some popular open-source projects such as Apache ShardingSphere and Elastic-Job. He has an in-depth understanding of distributed databases, container scheduling, microservices, ServicMesh, and other technologies.
-

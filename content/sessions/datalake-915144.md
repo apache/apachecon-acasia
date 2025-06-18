@@ -1,6 +1,6 @@
 ---
 title: "​​Building Inverted Indexes on Iceberg with Tantivy: A Hands-on Approach​​"
-date: ""
+date: "2025-07-25T14:00:00"
 track: "datalake"
 presenters: "Longfei Liu"
 stype: "Chinese Session"
@@ -24,4 +24,3 @@ In big data scenarios, efficient data retrieval is a core requirement for many b
 Longfei Liu: ​​Senior Software Engineer​​ at ​​360 (Qihoo 360)​​
 
 A decade of hands-on experience in big data infrastructure development, with deep expertise in distributed storage systems and query performance optimization.
-

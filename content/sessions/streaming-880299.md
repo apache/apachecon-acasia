@@ -1,6 +1,6 @@
 ---
 title: "Ant Group's Next Generation High SLA Streaming Computing System Built on Apache Technology Stack"
-date: ""
+date: "2025-07-25T14:30:00"
 track: "streaming"
 presenters: "Xin Wang"
 stype: "Chinese Session"
@@ -21,4 +21,3 @@ stype: "Chinese Session"
 Xin Wang: ASF Member & IPMC Member,  Ant Group Real time Data and Data Native Team Leader.
 
 ASF Member & IPMC Member,  Ant Group Real time Data and Data Native Team Leader.
-

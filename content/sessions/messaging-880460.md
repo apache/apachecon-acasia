@@ -1,6 +1,6 @@
 ---
 title: "Practices of Metrics Collection for Apache Pulsar in Large-Scale Partition"
-date: ""
+date: "2025-07-26T15:00:00"
 track: "messaging"
 presenters: "lin lin"
 stype: "Chinese Session"
@@ -20,4 +20,3 @@ lin lin: Huawei, SDE expert, Middleware technology director
 Lin Lin, Huawei SDE expert, Middleware technology director, worked for Tencent and Ant Financial
 Focused on middleware and infrastructure, has more than 10 years of relevant experience, and is committed to building high-quality infrastructure
 Apache Pulsar Committer & PMC member
-

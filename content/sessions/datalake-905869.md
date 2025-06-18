@@ -1,6 +1,6 @@
 ---
 title: "Building a real-time data lakehouse in practice"
-date: ""
+date: "2025-07-26T14:00:00"
 track: "datalake"
 presenters: "Congxian Qiu, Zhuojun Jiang"
 stype: "Chinese Session"
@@ -29,4 +29,3 @@ Congxian Qiu is an expert in StateCloud R&D, with many years of experience in bi
 Zhuojun Jiang: Senior Big Data Engineer, China Telecom Cloud Technology Co., Ltd
 
 Zhuojun Jiang is a Senior Big Data Engineer at China Telecom Cloud Technology Co., Ltd., specializing in real-time data lakehouse architecture. She focuses on big data development, system performance optimization, and real-time data synchronization based on technologies like Apache FlinkCDC, Iceberg, and Amoro. Jiang actively contributes to the open-source community and shares practical insights through industry forums and technical talks.
-

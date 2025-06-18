@@ -1,6 +1,6 @@
 ---
 title: "Apache Kafka 4.0 在华为云上的应用"
-date: ""
+date: "2025-07-25T14:30:00"
 track: "cloudnative"
 presenters: "Lan Ding"
 stype: "中文演讲"

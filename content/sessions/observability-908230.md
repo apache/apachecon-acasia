@@ -1,6 +1,6 @@
 ---
 title: "Practices of SkyWalking's Auto-Instrumentation Agent for Ruby"
-date: ""
+date: "2025-07-27T15:45:00"
 track: "observability"
 presenters: "Zixin Zhou"
 stype: "Chinese Session"
@@ -16,4 +16,3 @@ Distributed tracing is crucial in observability, driving improvements in tracing
 Zixin Zhou: Apache SkyWalking PMC Member & Committer
 
 Apache SkyWalking PMC Member & Committer, open-telemetry Member, openzipkin & pinpoint-apm Contributor.
-

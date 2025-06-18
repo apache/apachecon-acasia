@@ -1,6 +1,6 @@
 ---
 title: "中国移动云中Apache Flink实时计算的实践"
-date: ""
+date: "2025-07-26T14:00:00"
 track: "streaming"
 presenters: "LEI XIE"
 stype: "中文演讲"

@@ -1,6 +1,6 @@
 ---
 title: "Apache Gluten 和 Apache Celeborn 在小米的生产实践"
-date: ""
+date: "2025-07-25T15:00:00"
 track: "datastorage"
 presenters: "Yongyuan Liang"
 stype: "中文演讲"

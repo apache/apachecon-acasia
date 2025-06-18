@@ -1,6 +1,6 @@
 ---
 title: "Resolving Data Silos: Apache Gravitino's Production Implementation Practices at Bilibili"
-date: ""
+date: "2025-07-27T14:00:00"
 track: "datalake"
 presenters: "Tianhang Li"
 stype: "Chinese Session"
@@ -16,4 +16,3 @@ Apache Gravitino is a unified metadata management platform adopted by Bilibili t
 Tianhang Li: "Big Data Development Engineer at Bilibili | Apache Gravitino Contributor | Expert in Metadata Management & Spark Optimization"
 
 Li Tianhang is a Big Data Development Engineer at Bilibili, where he specializes in metadata management and Spark computing engine optimization for large-scale data scenarios
-
