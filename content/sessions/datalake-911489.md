@@ -1,6 +1,7 @@
 ---
 title: "SF Express's Journey with Apache Spark and Gluten"
 date: "2025-07-27T14:30:00"
+room:  "WanChun Hall"
 track: "datalake"
 presenters: "Weiting Chen, Xixu Wang, Feilong He"
 stype: "Chinese Session"

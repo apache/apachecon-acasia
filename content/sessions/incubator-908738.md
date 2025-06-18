@@ -1,6 +1,7 @@
 ---
 title: "BifroMQ: A High-Performance MQTT Broker for Multi-Tenant"
 date: "2025-07-27T14:00:00"
+room:  "Mtn YuQuan Hall"
 track: "incubator"
 presenters: "Hao Yonny(Yu)"
 stype: "Chinese Session"

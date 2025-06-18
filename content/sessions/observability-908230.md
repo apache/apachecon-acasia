@@ -1,6 +1,7 @@
 ---
 title: "Practices of SkyWalking's Auto-Instrumentation Agent for Ruby"
 date: "2025-07-27T15:45:00"
+room:  "Mtn Yang Hall"
 track: "observability"
 presenters: "Zixin Zhou"
 stype: "Chinese Session"

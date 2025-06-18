@@ -1,6 +1,7 @@
 ---
 title: "The Journey of an Open Source Contributor: Evolving from PR Submissions to Project Maintenance"
 date: "2025-07-26T15:00:00"
+room:  "Mtn YuQuan Hall"
 track: "community"
 presenters: "Shuxin Pan"
 stype: "Chinese Session"

@@ -1,6 +1,7 @@
 ---
 title: "Event-Driven Agent: From Stream Processing to Agentic AI Framework"
 date: "2025-07-25T16:45:00"
+room:  "YuanMing Hall"
 track: "streaming"
 presenters: "Xintong Song"
 stype: "Chinese Session"

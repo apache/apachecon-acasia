@@ -1,6 +1,7 @@
 ---
 title: "Apache Gravitino 多集群管理最佳实践"
 date: "2025-07-27T14:30:00"
+room:  "万寿山会议室"
 track: "dataops"
 presenters: "Xun Liu"
 stype: "中文演讲"

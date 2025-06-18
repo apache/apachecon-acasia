@@ -1,6 +1,7 @@
 ---
 title: "AI-Era Distributed Transactions: Practice and Outlook of the Seata Saga Pattern"
 date: "2025-07-27T14:00:00"
+room:  "JingMing Hall"
 track: "microservice"
 presenters: "Feng Zhang"
 stype: "Chinese Session"

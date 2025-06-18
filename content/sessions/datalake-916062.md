@@ -1,6 +1,7 @@
 ---
 title: "Apache Polaris (Incubating) & Apache XTable: Unifying Iceberg, Hudi, and other Table Formats"
 date: "2025-07-26T17:15:00"
+room:  "WanChun Hall"
 track: "datalake"
 presenters: "Eric Maynard"
 stype: "English Session"

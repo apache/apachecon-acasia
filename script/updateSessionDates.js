@@ -3,6 +3,18 @@ const xlsx = require('xlsx');
 const path = require('path');
 const tracks_dictionary = require('./tracks_dictionary.json');
 
+const roomJson = {
+  'YiHe Hall': '颐和厅',
+  'WanChun Hall': '万春厅',
+  'JingYi Hall': '静宜厅',
+  'JingMing Hall': '静明厅',
+  'YuanMing Hall': '圆明厅',
+  'Mtn WanShou Hall': '万寿山会议室',
+  'Mtn BaiWang Hall': '百望山会议室',
+  'Mtn Yang Hall': '阳山会议室',
+  'Mtn YuQuan Hall': '玉泉山会议室',
+}
+
 // 读取Excel文件
 function readExcelFile(filePath) {
   try {
@@ -49,7 +61,11 @@ async function updateSessionDates() {
         const sessionId = session['Session Id'];
         const fileName = `${trackValue}-${sessionId}`;
         const scheduledDate = formatExcelDate(session['Scheduled At']);
-        sessionDates.set(fileName, scheduledDate);
+        const info = {
+          scheduledDate: scheduledDate,
+          room: session['Room'].trim() || '' // 获取房间信息，为空时使用空字符串
+        };
+        sessionDates.set(fileName, info);
       }
     });
     
@@ -84,9 +100,11 @@ async function updateSessionDates() {
             
             if (parts) {
               // 更新 frontmatter 中的 date
+              const info = sessionDates.get(baseName);
+              const realRome = ext.includes('zh') ? roomJson[info.room] : info.room;
               const updatedFrontmatter = parts.frontmatter.replace(
                 /^date:.*$/m,
-                `date: "${scheduledDate}"`
+                `date: "${info.scheduledDate}"\nroom:  "${realRome}"`
               );
               
               // 写回文件

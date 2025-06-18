@@ -21,7 +21,7 @@
                     <h3 class="text-center">{{.Title}}</h3>
                     <h4>{{.Params.presenters}}</h4>
                     {{.Params.stype}}  {{if  .Date}}{{dateFormat "2006-01-02 15:04 GMT+8" .Date}}{{end}}&nbsp;
-                    {{if in "bigdata" .Params.track }}
+                    {{if .Params.room }}
                         (ROOM : {{.Params.room}})
                     {{end}}
                     <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></li>

@@ -1,6 +1,7 @@
 ---
 title: "基于HTTP的下一代微服务通信协议。"
 date: "2025-07-27T16:45:00"
+room:  "静明厅"
 track: "microservice"
 presenters: "Jun Liu"
 stype: "英文演讲"

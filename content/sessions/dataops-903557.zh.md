@@ -1,6 +1,7 @@
 ---
 title: "Apache DolphinScheduler 在伊利集团的应用：定制化、监控与运维的最佳实践"
 date: "2025-07-27T14:00:00"
+room:  "万寿山会议室"
 track: "dataops"
 presenters: "朱学通"
 stype: "中文演讲"

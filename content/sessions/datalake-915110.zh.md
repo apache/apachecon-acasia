@@ -1,6 +1,7 @@
 ---
 title: "Flink + Paimon 实时 Lakehouse 解决方案的技术演进"
 date: "2025-07-27T15:45:00"
+room:  "万春厅"
 track: "datalake"
 presenters: "Xuannan Su"
 stype: "中文演讲"

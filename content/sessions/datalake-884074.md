@@ -1,6 +1,7 @@
 ---
 title: "Accelerate Spark Queries with Gluten and Velox Engine on Arm64"
 date: "2025-07-25T14:30:00"
+room:  "WanChun Hall"
 track: "datalake"
 presenters: "Yuqi Gu"
 stype: "Chinese Session"

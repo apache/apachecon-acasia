@@ -1,6 +1,7 @@
 ---
 title: "Apache Pulsar 在大规模分区环境下的指标收集实践"
 date: "2025-07-26T15:00:00"
+room:  "静宜厅"
 track: "messaging"
 presenters: "lin lin"
 stype: "中文演讲"

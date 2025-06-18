@@ -1,6 +1,7 @@
 ---
 title: "Why is it So Hard?"
 date: "2025-07-26T16:15:00"
+room:  "Mtn YuQuan Hall"
 track: "community"
 presenters: "Craig Russell"
 stype: "English Session"

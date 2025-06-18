@@ -1,6 +1,7 @@
 ---
 title: "Apache Gravitino Best Practices for Multi-Cluster Management"
 date: "2025-07-27T14:30:00"
+room:  "Mtn WanShou Hall"
 track: "dataops"
 presenters: "Xun Liu"
 stype: "Chinese Session"

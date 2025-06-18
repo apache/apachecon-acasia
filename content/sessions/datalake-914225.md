@@ -1,6 +1,7 @@
 ---
 title: "Impala on Iceberg with Puffins"
 date: "2025-07-26T15:00:00"
+room:  "WanChun Hall"
 track: "datalake"
 presenters: "Daniel Becker"
 stype: "English Session"

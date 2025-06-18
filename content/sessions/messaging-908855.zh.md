@@ -1,6 +1,7 @@
 ---
 title: "RocketMQ 5.0 中的虚拟队列：增强与传统基于远程处理的客户端的向后兼容性"
 date: "2025-07-26T16:15:00"
+room:  "静宜厅"
 track: "messaging"
 presenters: "Shengzhong Liu"
 stype: "中文演讲"

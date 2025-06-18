@@ -1,6 +1,7 @@
 ---
 title: "提升数据处理能力：云架构中无缝批处理管理的策略"
 date: "2025-07-25T15:00:00"
+room:  "阳山会议室"
 track: "cloudnative"
 presenters: "Shekhar Prasad Rajak"
 stype: "英文演讲"

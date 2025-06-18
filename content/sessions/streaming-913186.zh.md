@@ -1,6 +1,7 @@
 ---
 title: "Apache Flink 的分散式狀態管理"
 date: "2025-07-25T16:15:00"
+room:  "圆明厅"
 track: "streaming"
 presenters: "Zhaoqian (Zakelly) Lan"
 stype: "中文演讲"

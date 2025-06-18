@@ -1,6 +1,7 @@
 ---
 title: "使用外部状态和动态表实现可扩展的连接和聚合"
 date: "2025-07-26T16:15:00"
+room:  "圆明厅"
 track: "streaming"
 presenters: "Feng Jin"
 stype: "中文演讲"

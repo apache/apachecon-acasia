@@ -1,6 +1,7 @@
 ---
 title: "SeaTunnel Architecture Analysis and Cloudberry Integration Practice"
 date: "2025-07-27T16:45:00"
+room:  "Mtn WanShou Hall"
 track: "dataops"
 presenters: "Hongyu Chen"
 stype: "Chinese Session"

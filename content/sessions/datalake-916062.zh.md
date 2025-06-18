@@ -1,6 +1,7 @@
 ---
 title: "Apache Polaris（孵化中）和 Apache XTable：统一 Iceberg、Hudi 和其他表格式"
 date: "2025-07-26T17:15:00"
+room:  "万春厅"
 track: "datalake"
 presenters: "Eric Maynard"
 stype: "英文演讲"

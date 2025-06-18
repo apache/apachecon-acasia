@@ -1,6 +1,7 @@
 ---
 title: "Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures"
 date: "2025-07-25T17:15:00"
+room:  "WanChun Hall"
 track: "datalake"
 presenters: "Shekhar Prasad Rajak"
 stype: "English Session"

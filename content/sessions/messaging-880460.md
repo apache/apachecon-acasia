@@ -1,6 +1,7 @@
 ---
 title: "Practices of Metrics Collection for Apache Pulsar in Large-Scale Partition"
 date: "2025-07-26T15:00:00"
+room:  "JingYi Hall"
 track: "messaging"
 presenters: "lin lin"
 stype: "Chinese Session"
