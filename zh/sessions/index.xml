@@ -62,19 +62,6 @@ opendal – 一个统一的数据访问层，可与各种存储服务无缝集�
     </item>
     
     <item>
-      <title>SeaTunnel 架构分析与 Cloudberry 集成实践</title>
-      <link>/zh/sessions/dataops-915377.html</link>
-      <pubDate>Sun, 27 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/dataops-915377.html</guid>
-      <description>在本场会议中，我们将深入探讨 Apache SeaTunnel，这一专为实现跨异构数据源大规模数据集无缝同步而设计的高性能分布式数据集成平台。与会者将深入了解 SeaTunnel 的核心架构，包括其模块化插件系统、基于 Spark 和 Flink 的统一抽象层，以及从 V1 到 V2 的演进历程，其中包含增强的可扩展性和引擎无关设计。我们将深入探讨高级功能，如动态分片策略、数据采样技术，以及针对基于字符串的分区进行优化处理，以实现高效的数据分布。
-本次会议还将展示与 Cloudberry 的实际集成案例，演示 SeaTunnel 的 JDBC 基于连接器如何简化双向数据工作流，同时强调性能考量。最后，我们将讨论未来优化计划，包括通过gpfdist协议利用Cloudberry的并行处理能力进行大规模数据迁移的方案。本次演讲适合希望优化数据集成工作流、打破数据孤岛并充分释放现代数据生态系统潜力的数据工程师和架构师。
-讲师: 
-陈虹宇: 网易 SeaTunnel 撰稿人兼数据集成研发工程师
-网易数据集成研发工程师，拥有四年大规模数据传输系统经验，并持有东南大学计算机科学硕士学位。他参与Apache SeaTunnel项目，专精于为企业级ETL挑战构建高性能数据集成解决方案。其专业领域涵盖分布式系统、数据处理引擎及管道架构。</description>
-    </item>
-    
-    <item>
       <title>基于HTTP的下一代微服务通信协议。</title>
       <link>/zh/sessions/microservice-915252.html</link>
       <pubDate>Sun, 27 Jul 2025 16:45:00 +0000</pubDate>
@@ -126,6 +113,19 @@ Cloudera 高级工程总监</description>
     </item>
     
     <item>
+      <title>SeaTunnel 架构分析与 Cloudberry 集成实践</title>
+      <link>/zh/sessions/dataops-915377.html</link>
+      <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/dataops-915377.html</guid>
+      <description>在本场会议中，我们将深入探讨 Apache SeaTunnel，这一专为实现跨异构数据源大规模数据集无缝同步而设计的高性能分布式数据集成平台。与会者将深入了解 SeaTunnel 的核心架构，包括其模块化插件系统、基于 Spark 和 Flink 的统一抽象层，以及从 V1 到 V2 的演进历程，其中包含增强的可扩展性和引擎无关设计。我们将深入探讨高级功能，如动态分片策略、数据采样技术，以及针对基于字符串的分区进行优化处理，以实现高效的数据分布。
+本次会议还将展示与 Cloudberry 的实际集成案例，演示 SeaTunnel 的 JDBC 基于连接器如何简化双向数据工作流，同时强调性能考量。最后，我们将讨论未来优化计划，包括通过gpfdist协议利用Cloudberry的并行处理能力进行大规模数据迁移的方案。本次演讲适合希望优化数据集成工作流、打破数据孤岛并充分释放现代数据生态系统潜力的数据工程师和架构师。
+讲师: 
+陈虹宇: 网易 SeaTunnel 撰稿人兼数据集成研发工程师
+网易数据集成研发工程师，拥有四年大规模数据传输系统经验，并持有东南大学计算机科学硕士学位。他参与Apache SeaTunnel项目，专精于为企业级ETL挑战构建高性能数据集成解决方案。其专业领域涵盖分布式系统、数据处理引擎及管道架构。</description>
+    </item>
+    
+    <item>
       <title>优化可观测性：揭秘BanyanDB的热-温-冷架构</title>
       <link>/zh/sessions/observability-910659.html</link>
       <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
@@ -151,21 +151,6 @@ Apache Dubbo PMC。对云原生、微服务和安全感兴趣。</description>
     </item>
     
     <item>
-      <title>基于 Apache SeaTunnel 和 Amazon Bedrock 的现代文本向量数据ETL解决方案</title>
-      <link>/zh/sessions/dataops-906790.html</link>
-      <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/dataops-906790.html</guid>
-      <description>在企业智能升级的浪潮中，信息检索正从“关键词匹配”向“语义理解”转变。基于倒排索引的传统搜索引擎依赖于字符串级别的匹配，这使得难以捕捉用户查询背后的真实意图。这限制了搜索体验的有效性、推荐准确性、客户服务响应以及基于知识的问答系统的智能性。
-例如，在电子商务平台上，当用户搜索“适合夏季的白色连衣裙”时，仅匹配产品标题或类别中关键词的系统很难理解“适合夏季”的完整语义含义，这可能涉及面料、风格等多个维度。类似的挑战也存在于财务文档搜索、智能客服、知识图谱关联等场景中。
-为解决此问题，我们计划构建基于向量检索的语义搜索系统。核心目标是实时将业务数据中的文本字段转换为语义向量，将其写入支持近似最近邻（ANN）向量搜索的数据库，并实现语义级信息检索。
-通过使用SeaTunnel的OpenSearch Sink插件，我们可以在SeaTunnel的转换阶段调用嵌入服务，将原始文本字段转换为高维密集向量，同时保留关联的ID、标签和元数据以供下游存储。
-讲师: 
-Xin Zhang: Amaozn 网络服务，解决方案架构师
-Xin Zhang 是亚马逊云科技（AWS）解决方案架构师，负责基于AWS云平台的解决方案咨询与设计。他在系统架构、数据仓库及实时计算等领域的研发与架构实践方面拥有丰富经验。</description>
-    </item>
-    
-    <item>
       <title>小米 Vela：引领开源物联网操作系统生态</title>
       <link>/zh/sessions/iot-915160.html</link>
       <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
@@ -187,18 +172,6 @@ Xin Zhang 是亚马逊云科技（AWS）解决方案架构师，负责基于AWS�
 讲师: 
 Justin Mclean: 开源社区经理，ASF 董事会成员
 Justin Mclean 是一位拥有 30 余年丰富经验的资深专家，深耕于 Web 应用开发、教育及社区工作领域，同时也是开源软件的积极贡献者。作为国际知名技术大会的常邀演讲嘉宾，Justin 现任 Datastrato 公司社区经理。他在 Apache 软件基金会(ASF)担任多重重要职务：既是多个 Apache 项目的导师，又身兼 ASF 孵化器副总裁，同时还是 ASF 董事会成员。</description>
-    </item>
-    
-    <item>
-      <title>Apache SeaTunnel MCP 介绍与演示</title>
-      <link>/zh/sessions/dataops-908655.html</link>
-      <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/dataops-908655.html</guid>
-      <description>Apache SeaTunnel 的模型上下文协议（MCP）服务器。该服务器可访问您的 Apache SeaTunnel RESTful API V2 实例及其周边生态系统。
-讲师: 
-Haicheng Zhang: 航天信息大数据开发工程师 开发组组长
-一位喜欢折腾的从业者</description>
     </item>
     
     <item>
@@ -278,6 +251,21 @@ Apache IoTDB/TsFile PMC</description>
     </item>
     
     <item>
+      <title>基于 Apache SeaTunnel 和 Amazon Bedrock 的现代文本向量数据ETL解决方案</title>
+      <link>/zh/sessions/dataops-906790.html</link>
+      <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/dataops-906790.html</guid>
+      <description>在企业智能升级的浪潮中，信息检索正从“关键词匹配”向“语义理解”转变。基于倒排索引的传统搜索引擎依赖于字符串级别的匹配，这使得难以捕捉用户查询背后的真实意图。这限制了搜索体验的有效性、推荐准确性、客户服务响应以及基于知识的问答系统的智能性。
+例如，在电子商务平台上，当用户搜索“适合夏季的白色连衣裙”时，仅匹配产品标题或类别中关键词的系统很难理解“适合夏季”的完整语义含义，这可能涉及面料、风格等多个维度。类似的挑战也存在于财务文档搜索、智能客服、知识图谱关联等场景中。
+为解决此问题，我们计划构建基于向量检索的语义搜索系统。核心目标是实时将业务数据中的文本字段转换为语义向量，将其写入支持近似最近邻（ANN）向量搜索的数据库，并实现语义级信息检索。
+通过使用SeaTunnel的OpenSearch Sink插件，我们可以在SeaTunnel的转换阶段调用嵌入服务，将原始文本字段转换为高维密集向量，同时保留关联的ID、标签和元数据以供下游存储。
+讲师: 
+Xin Zhang: Amaozn 网络服务，解决方案架构师
+Xin Zhang 是亚马逊云科技（AWS）解决方案架构师，负责基于AWS云平台的解决方案咨询与设计。他在系统架构、数据仓库及实时计算等领域的研发与架构实践方面拥有丰富经验。</description>
+    </item>
+    
+    <item>
       <title>AIScript - 如何用 Rust 编写解释器语言</title>
       <link>/zh/sessions/rust-914505.html</link>
       <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
@@ -303,23 +291,15 @@ Apache Dubbo Commiter，热衷于开源，在微服务和中间件领域有一�
     </item>
     
     <item>
-      <title>Apache Hop：大型语言模型、图数据库与电子表格的无缝集成</title>
-      <link>/zh/sessions/dataops-902311.html</link>
+      <title>Apache SeaTunnel MCP 介绍与演示</title>
+      <link>/zh/sessions/dataops-908655.html</link>
       <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
       
-      <guid>/zh/sessions/dataops-902311.html</guid>
-      <description>在本场会议中，我将探讨如何利用Apache Hop实现大型语言模型（LLMs）、图数据库与电子表格的无缝集成。
-本课程专为初学者设计——尤其是目前仍需手动创建或更新数据的用户——我将重点讲解构建自动化工作流的核心要点，这些工作流可大幅减少重复性任务。
-您将学习设计数据管道的最佳实践，利用关键插件，并优化复杂数据流，所有这些都围绕 Apache Hop 的下一代功能展开。
-发现这种灵活的集成方法如何为机器学习项目和数据管理开辟新途径，超越传统 ETL 工具的局限性。
-加入我们，解锁数据工作流中的更高效率与创新。
+      <guid>/zh/sessions/dataops-908655.html</guid>
+      <description>Apache SeaTunnel 的模型上下文协议（MCP）服务器。该服务器可访问您的 Apache SeaTunnel RESTful API V2 实例及其周边生态系统。
 讲师: 
-Koji Annoura: UTI,Inc. CTO
-Koji Annoura 拥有超过 40 年的全栈开发经验。
-自 2009 年起，他一直从事敏捷软件开发工作，并于 2009 年在日本创立了“Neo4j 用户组东京”。
-此外，他自 2021 年起还创立了“Apache Hop 用户组日本”。
-他参与了多家公司和团队的敏捷转型，并参与了敏捷和Scrum的实施。
-他是《MacOS X Server实用指南》的作者之一。</description>
+Haicheng Zhang: 航天信息大数据开发工程师 开发组组长
+一位喜欢折腾的从业者</description>
     </item>
     
     <item>
@@ -394,16 +374,23 @@ Hongyi Zhou: 阿里,杭州
     </item>
     
     <item>
-      <title>Apache Gravitino 多集群管理最佳实践</title>
-      <link>/zh/sessions/dataops-912400.html</link>
+      <title>Apache Hop：大型语言模型、图数据库与电子表格的无缝集成</title>
+      <link>/zh/sessions/dataops-902311.html</link>
       <pubDate>Sun, 27 Jul 2025 14:30:00 +0000</pubDate>
       
-      <guid>/zh/sessions/dataops-912400.html</guid>
-      <description>Apache Gravitino 统一管理了 Data 和 AI 的元数据，特别是在管理云上和云下多集群的场景中，可以非常好的发挥 Gravitino 统一元数据后，带来的数据在云上和云下无感知迁移和使用、大数据集群丝滑滚动升级、统一公有云和私有化部署的大数据集群的权限系统。 在本次的分享中，除了介绍 Apache Gravitino 在多集群管理中的诸多特性之外，还讲分享海内外用户的 Apache Gravitino 最佳实践。
+      <guid>/zh/sessions/dataops-902311.html</guid>
+      <description>在本场会议中，我将探讨如何利用Apache Hop实现大型语言模型（LLMs）、图数据库与电子表格的无缝集成。
+本课程专为初学者设计——尤其是目前仍需手动创建或更新数据的用户——我将重点讲解构建自动化工作流的核心要点，这些工作流可大幅减少重复性任务。
+您将学习设计数据管道的最佳实践，利用关键插件，并优化复杂数据流，所有这些都围绕 Apache Hop 的下一代功能展开。
+发现这种灵活的集成方法如何为机器学习项目和数据管理开辟新途径，超越传统 ETL 工具的局限性。
+加入我们，解锁数据工作流中的更高效率与创新。
 讲师: 
-Xun Liu: Apache Gravitino PMC
-Xun Liu 拥有二十年的软件开发经验，过去十年一直致力于大数据开发领域。他是Apache软件基金会成员及孵化器导师，曾在Apache孵化多个开源项目，并担任Apache Hadoop和Zeppelin的提交者成员。
-Xun Liu 是Datastrato的联合创始人兼首席运营官（COO），目前负责该公司开源项目Gravitino的运营工作。</description>
+Koji Annoura: UTI,Inc. CTO
+Koji Annoura 拥有超过 40 年的全栈开发经验。
+自 2009 年起，他一直从事敏捷软件开发工作，并于 2009 年在日本创立了“Neo4j 用户组东京”。
+此外，他自 2021 年起还创立了“Apache Hop 用户组日本”。
+他参与了多家公司和团队的敏捷转型，并参与了敏捷和Scrum的实施。
+他是《MacOS X Server实用指南》的作者之一。</description>
     </item>
     
     <item>
@@ -501,16 +488,16 @@ wei jin: API7 解决方案架构师 / Apache 成员 / Apache APISIX PMC / Apache
     </item>
     
     <item>
-      <title>Apache DolphinScheduler 在伊利集团的应用：定制化、监控与运维的最佳实践</title>
-      <link>/zh/sessions/dataops-903557.html</link>
+      <title>Apache Gravitino 多集群管理最佳实践</title>
+      <link>/zh/sessions/dataops-912400.html</link>
       <pubDate>Sun, 27 Jul 2025 14:00:00 +0000</pubDate>
       
-      <guid>/zh/sessions/dataops-903557.html</guid>
-      <description>本环节将深入探讨伊利集团在使用 Apache DolphinScheduler（一款强大的开源工作流编排工具）过程中的实施历程。我们将分享如何针对大规模乳品生产及供应链管理需求对 DolphinScheduler 进行定制化的实践经验，包括：
- 定制开发：  扩展复杂ETL工作流的功能，资源配额管理，以及与内部系统（如ERP、物联网平台）的集成。 在混合云环境中进行高并发任务调度的优化策略。   监控与告警：  增强的监控仪表盘，用于实时跟踪工作流健康状况、任务延迟和资源利用率。 与企业通信工具（如钉钉、WeCom）集成的自定义告警机制。   运营最佳实践：  集群性能调优、灾难恢复及版本升级策略的经验总结。 基于指标驱动的方法提升系统稳定性并降低运维成本。   社区协作：  向Apache DolphinScheduler社区贡献功能增强及 bug 修复。    讲师: 
-朱学通: 伊利集团，大数据工程经理
-一位拥有 10 年以上经验 的 大数据架构师与技术负责人，专注于 OLAP 优化（StarRocks、Spark）、实时数据湖（Flink、Paimon） 和 多云集成。
-在伊利集团，他主导了 StarRocks 的落地应用，通过 DolphinScheduler 和 DataX 将查询速度提升了 10 倍，并将 ETL 开发时间缩短了 20 倍。</description>
+      <guid>/zh/sessions/dataops-912400.html</guid>
+      <description>Apache Gravitino 统一管理了 Data 和 AI 的元数据，特别是在管理云上和云下多集群的场景中，可以非常好的发挥 Gravitino 统一元数据后，带来的数据在云上和云下无感知迁移和使用、大数据集群丝滑滚动升级、统一公有云和私有化部署的大数据集群的权限系统。 在本次的分享中，除了介绍 Apache Gravitino 在多集群管理中的诸多特性之外，还讲分享海内外用户的 Apache Gravitino 最佳实践。
+讲师: 
+Xun Liu: Apache Gravitino PMC
+Xun Liu 拥有二十年的软件开发经验，过去十年一直致力于大数据开发领域。他是Apache软件基金会成员及孵化器导师，曾在Apache孵化多个开源项目，并担任Apache Hadoop和Zeppelin的提交者成员。
+Xun Liu 是Datastrato的联合创始人兼首席运营官（COO），目前负责该公司开源项目Gravitino的运营工作。</description>
     </item>
     
     <item>

@@ -140,19 +140,6 @@
                 href="/zh/sessions/rust-885440.html"
                 />
   </url><url>
-    <loc>/zh/sessions/dataops-915377.html</loc>
-    <lastmod>2025-07-27T16:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/dataops-915377.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataops-915377.html"
-                />
-  </url><url>
     <loc>/zh/sessions/microservice-915252.html</loc>
     <lastmod>2025-07-27T16:45:00+00:00</lastmod>
     <xhtml:link
@@ -205,6 +192,19 @@
                 href="/zh/sessions/datalake-914197.html"
                 />
   </url><url>
+    <loc>/zh/sessions/dataops-915377.html</loc>
+    <lastmod>2025-07-27T16:15:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/dataops-915377.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataops-915377.html"
+                />
+  </url><url>
     <loc>/zh/sessions/observability-910659.html</loc>
     <lastmod>2025-07-27T16:15:00+00:00</lastmod>
     <xhtml:link
@@ -231,19 +231,6 @@
                 href="/zh/sessions/microservice-871350.html"
                 />
   </url><url>
-    <loc>/zh/sessions/dataops-906790.html</loc>
-    <lastmod>2025-07-27T16:15:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/dataops-906790.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataops-906790.html"
-                />
-  </url><url>
     <loc>/zh/sessions/iot-915160.html</loc>
     <lastmod>2025-07-27T16:15:00+00:00</lastmod>
     <xhtml:link
@@ -268,19 +255,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/incubator-905766.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataops-908655.html</loc>
-    <lastmod>2025-07-27T15:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/dataops-908655.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataops-908655.html"
                 />
   </url><url>
     <loc>/zh/sessions/datalake-915110.html</loc>
@@ -361,6 +335,19 @@
                 href="/zh/sessions/iot-914800.html"
                 />
   </url><url>
+    <loc>/zh/sessions/dataops-906790.html</loc>
+    <lastmod>2025-07-27T15:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/dataops-906790.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataops-906790.html"
+                />
+  </url><url>
     <loc>/zh/sessions/rust-914505.html</loc>
     <lastmod>2025-07-27T15:00:00+00:00</lastmod>
     <xhtml:link
@@ -387,17 +374,17 @@
                 href="/zh/sessions/microservice-915240.html"
                 />
   </url><url>
-    <loc>/zh/sessions/dataops-902311.html</loc>
+    <loc>/zh/sessions/dataops-908655.html</loc>
     <lastmod>2025-07-27T15:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/sessions/dataops-902311.html"
+                href="/sessions/dataops-908655.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/dataops-902311.html"
+                href="/zh/sessions/dataops-908655.html"
                 />
   </url><url>
     <loc>/zh/sessions/iot-915157.html</loc>
@@ -465,17 +452,17 @@
                 href="/zh/sessions/rust-914521.html"
                 />
   </url><url>
-    <loc>/zh/sessions/dataops-912400.html</loc>
+    <loc>/zh/sessions/dataops-902311.html</loc>
     <lastmod>2025-07-27T14:30:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/sessions/dataops-912400.html"
+                href="/sessions/dataops-902311.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/dataops-912400.html"
+                href="/zh/sessions/dataops-902311.html"
                 />
   </url><url>
     <loc>/zh/sessions/iot-868355.html</loc>
@@ -569,17 +556,17 @@
                 href="/zh/sessions/iot-915210.html"
                 />
   </url><url>
-    <loc>/zh/sessions/dataops-903557.html</loc>
+    <loc>/zh/sessions/dataops-912400.html</loc>
     <lastmod>2025-07-27T14:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/sessions/dataops-903557.html"
+                href="/sessions/dataops-912400.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/dataops-903557.html"
+                href="/zh/sessions/dataops-912400.html"
                 />
   </url><url>
     <loc>/zh/sessions/incubator-908738.html</loc>
@@ -2151,18 +2138,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/keynote-889680.html"
-                />
-  </url><url>
-    <loc>/zh/schedule.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/schedule.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/schedule.html"
                 />
   </url><url>
     <loc>/zh/sponsor.html</loc>

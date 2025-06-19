@@ -100,15 +100,6 @@ In this session, we’ll dive into the brand-new Dubbo OpenAPI feature set. You�
     </item>
     
     <item>
-      <title>SeaTunnel Architecture Analysis and Cloudberry Integration Practice</title>
-      <link>/sessions/dataops-915377.html</link>
-      <pubDate>Sun, 27 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/sessions/dataops-915377.html</guid>
-      <description>In this session, we will explore Apache SeaTunnel, a high-performance distributed data integration platform designed for seamless synchronization of massive datasets across heterogeneous sources. Attendees will gain insights into SeaTunnel’s core architecture, including its modular plugin system, unified abstractions leveraging Spark and Flink, and its evolution from V1 to V2 with enhanced scalability and engine-agnostic design. We will delve into advanced features such as dynamic sharding strategies, data sampling techniques, and optimized handling of string-based partitioning for efficient data distribution.</description>
-    </item>
-    
-    <item>
       <title>The Next Generation Microservice Communication Protocol Based on HTTP.</title>
       <link>/sessions/microservice-915252.html</link>
       <pubDate>Sun, 27 Jul 2025 16:45:00 +0000</pubDate>
@@ -139,16 +130,6 @@ Apache DataFusion PMC, Apache Arrow Committer, Apache HoraeDB PPMC Senior SWE at
     </item>
     
     <item>
-      <title>Modern ETL for Text Vector Data Using Apache SeaTunnel and Amazon Bedrock</title>
-      <link>/sessions/dataops-906790.html</link>
-      <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/dataops-906790.html</guid>
-      <description>In the wave of enterprise intelligence upgrades, information retrieval is shifting from “keyword matching” to “semantic understanding.” Traditional search engines based on inverted indexes rely on string-level matching, which makes it difficult to capture the true intent behind user queries. This limits the effectiveness of search experiences, recommendation accuracy, customer service responses, and the intelligence of knowledge-based Q&amp;amp;A systems.
-For example, on an e-commerce platform, when a user searches for “white dress suitable for summer,” a system that only matches keywords in product titles or categories is unlikely to understand the full semantic meaning of “suitable for summer,” which may involve fabric, style, and other dimensions.</description>
-    </item>
-    
-    <item>
       <title>Navigating the Incubator process</title>
       <link>/sessions/incubator-905766.html</link>
       <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
@@ -165,6 +146,15 @@ For example, on an e-commerce platform, when a user searches for “white dress 
       <guid>/sessions/observability-910659.html</guid>
       <description>In this talk, I&amp;rsquo;ll focus on BanyanDB&amp;rsquo;s innovative hot-warm-cold architecture, a design that marks a major leap forward in the field of modern system observability. We will explain why a tiered architecture is the right choice for managing massive amounts of metrics, tracking, and logging data, and how BanyanDB skillfully puts this concept into practice while balancing superior performance, cost-effectiveness, and data storage efficiency.
 This session will reveal the core benefits of the BanyanDB architecture: it not only provides instant insights to accelerate decision-making, but also significantly reduces operational costs while ensuring scalability of data storage.</description>
+    </item>
+    
+    <item>
+      <title>SeaTunnel Architecture Analysis and Cloudberry Integration Practice</title>
+      <link>/sessions/dataops-915377.html</link>
+      <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-915377.html</guid>
+      <description>In this session, we will explore Apache SeaTunnel, a high-performance distributed data integration platform designed for seamless synchronization of massive datasets across heterogeneous sources. Attendees will gain insights into SeaTunnel’s core architecture, including its modular plugin system, unified abstractions leveraging Spark and Flink, and its evolution from V1 to V2 with enhanced scalability and engine-agnostic design. We will delve into advanced features such as dynamic sharding strategies, data sampling techniques, and optimized handling of string-based partitioning for efficient data distribution.</description>
     </item>
     
     <item>
@@ -199,18 +189,6 @@ In this session, we&amp;rsquo;ll explore how Apache Hive, powered by Apache Iceb
     </item>
     
     <item>
-      <title>Apache SeaTunnel MCP Introduction and Demonstration</title>
-      <link>/sessions/dataops-908655.html</link>
-      <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/sessions/dataops-908655.html</guid>
-      <description>A Model Context Protocol (MCP) server for Apache Seatunnel. This provides access to your Apache Seatunnel RESTful API V2 instance and the surrounding ecosystem.
-Speakers: 
-Haicheng Zhang: Aisino Big Data Development Engineer Development Team Leader
-A Practitioner Who Likes to Toss</description>
-    </item>
-    
-    <item>
       <title>Enhancing Performance and Reducing Cost for Object Store Access with Apache OpenDAL and Foyer</title>
       <link>/sessions/rust-908074.html</link>
       <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
@@ -226,6 +204,16 @@ A Practitioner Who Likes to Toss</description>
       
       <guid>/sessions/incubator-906736.html</guid>
       <description>Apache Cloudberry, a massively parallel processing (MPP) database based on Greenplum, entered the Apache Incubator with the vision of bringing analytical power to the open-source community. As one of the initiators and ongoing contributors to the project, I’ve had the opportunity to closely experience every stage of the incubation journey — from drafting the proposal and forming the PPMC to announcing and marketing promotion, to cleaning up the source code, and building community momentum.</description>
+    </item>
+    
+    <item>
+      <title>Modern ETL for Text Vector Data Using Apache SeaTunnel and Amazon Bedrock</title>
+      <link>/sessions/dataops-906790.html</link>
+      <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-906790.html</guid>
+      <description>In the wave of enterprise intelligence upgrades, information retrieval is shifting from “keyword matching” to “semantic understanding.” Traditional search engines based on inverted indexes rely on string-level matching, which makes it difficult to capture the true intent behind user queries. This limits the effectiveness of search experiences, recommendation accuracy, customer service responses, and the intelligence of knowledge-based Q&amp;amp;A systems.
+For example, on an e-commerce platform, when a user searches for “white dress suitable for summer,” a system that only matches keywords in product titles or categories is unlikely to understand the full semantic meaning of “suitable for summer,” which may involve fabric, style, and other dimensions.</description>
     </item>
     
     <item>
@@ -280,14 +268,15 @@ Min Ji: Apache Seata PPMC/Higress Maintainer</description>
     </item>
     
     <item>
-      <title>Apache Hop: Integrating LLMs, Graph Databases &amp; Spreadsheets</title>
-      <link>/sessions/dataops-902311.html</link>
+      <title>Apache SeaTunnel MCP Introduction and Demonstration</title>
+      <link>/sessions/dataops-908655.html</link>
       <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
       
-      <guid>/sessions/dataops-902311.html</guid>
-      <description>In this session, I will explore how to seamlessly integrate large language models (LLMs), graph databases, and spreadsheets using Apache Hop.
-Designed with beginners in mind—especially those who currently create or update their data manually—I will cover the essentials of building automated workflows that drastically reduce repetitive tasks.
-You will learn best practices for designing data pipelines, leveraging key plugins, and streamlining complex data flows, all centered on Apache Hop’s next-generation capabilities.</description>
+      <guid>/sessions/dataops-908655.html</guid>
+      <description>A Model Context Protocol (MCP) server for Apache Seatunnel. This provides access to your Apache Seatunnel RESTful API V2 instance and the surrounding ecosystem.
+Speakers: 
+Haicheng Zhang: Aisino Big Data Development Engineer Development Team Leader
+A Practitioner Who Likes to Toss</description>
     </item>
     
     <item>
@@ -348,12 +337,14 @@ This talk will take you on a journey beginning with our experimental results on 
     </item>
     
     <item>
-      <title>Apache Gravitino Best Practices for Multi-Cluster Management</title>
-      <link>/sessions/dataops-912400.html</link>
+      <title>Apache Hop: Integrating LLMs, Graph Databases &amp; Spreadsheets</title>
+      <link>/sessions/dataops-902311.html</link>
       <pubDate>Sun, 27 Jul 2025 14:30:00 +0000</pubDate>
       
-      <guid>/sessions/dataops-912400.html</guid>
-      <description>Apache Gravitino unifies the management of Data and AI metadata. Especially in the scenario of managing multiple clusters on and off the cloud, Gravitino&amp;rsquo;s unification of metadata can be very well utilized to bring out the benefits of sense-less migration and usage of data on and off the cloud, silky-smooth rolling upgrades of big data clusters, and unification of the permissions system for big data clusters in the public cloud and in privatized deployments.</description>
+      <guid>/sessions/dataops-902311.html</guid>
+      <description>In this session, I will explore how to seamlessly integrate large language models (LLMs), graph databases, and spreadsheets using Apache Hop.
+Designed with beginners in mind—especially those who currently create or update their data manually—I will cover the essentials of building automated workflows that drastically reduce repetitive tasks.
+You will learn best practices for designing data pipelines, leveraging key plugins, and streamlining complex data flows, all centered on Apache Hop’s next-generation capabilities.</description>
     </item>
     
     <item>
@@ -438,13 +429,12 @@ Future Outlook and Ecosystem Expansion  Directions for technological evolution A
     </item>
     
     <item>
-      <title>Apache DolphinScheduler at Yili Group: Best Practices in Customization, Monitoring, and Operations</title>
-      <link>/sessions/dataops-903557.html</link>
+      <title>Apache Gravitino Best Practices for Multi-Cluster Management</title>
+      <link>/sessions/dataops-912400.html</link>
       <pubDate>Sun, 27 Jul 2025 14:00:00 +0000</pubDate>
       
-      <guid>/sessions/dataops-903557.html</guid>
-      <description>This session will delve into Yili Group&amp;rsquo;s implementation journey with Apache DolphinScheduler, a powerful open-source workflow orchestration tool. We will share practical insights into how we tailored DolphinScheduler to meet the specific needs of large-scale dairy production and supply chain management, including:
- Custom Development:  Extended functionalities for complex ETL workflows, resource quota management, and integration with internal systems (e.g., ERP, IoT platforms). Optimization strategies for high-concurrency task scheduling in hybrid cloud environments.</description>
+      <guid>/sessions/dataops-912400.html</guid>
+      <description>Apache Gravitino unifies the management of Data and AI metadata. Especially in the scenario of managing multiple clusters on and off the cloud, Gravitino&amp;rsquo;s unification of metadata can be very well utilized to bring out the benefits of sense-less migration and usage of data on and off the cloud, silky-smooth rolling upgrades of big data clusters, and unification of the permissions system for big data clusters in the public cloud and in privatized deployments.</description>
     </item>
     
     <item>
@@ -1722,15 +1712,6 @@ In this topic, you will learn how different messaging systems make the best tech
       <guid>/tracks/rust.html</guid>
       <description>The Rust ecosystem is flourishing. Many ASF projects now offer Rust SDKs, and several new ASF projects are primarily written in Rust, such as Apache OpenDAL and Apache HoraeDB (Incubating), among others.
 The Rust Track aims to share the evolution of Rust projects and integrations within the ASF and broader open-source ecosystem. It will demonstrate how ASF projects provide excellent Rust implementations and illustrate how the incubator helps Rust projects develop healthy communities under the guidance of The Apache Way.</description>
-    </item>
-    
-    <item>
-      <title>Schedule</title>
-      <link>/schedule.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/schedule.html</guid>
-      <description></description>
     </item>
     
     <item>
