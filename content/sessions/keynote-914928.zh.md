@@ -4,6 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Craig Russell"
 stype: "英文演讲"
+room: "undefined"
 ---
 
 本次演讲将探讨开源软件安全的现状，特别是 Apache 软件基金会（ASF）如何应对日益增长的威胁。

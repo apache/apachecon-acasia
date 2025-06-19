@@ -4,6 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Quincy Larson"
 stype: "英文演讲"
+room: "undefined"
 ---
 
 本次演讲将解释高德纳（Gartner）炒作周期（Hype Cycle）理论，并探讨它如何适用于开源软件项目。我将分享口碑和社交媒体在吸引开发者为你的开源项目做出贡献方面所扮演的角色。我们将讨论如何吸引关注，以及在关注度不可避免地消退时如何进行调整。

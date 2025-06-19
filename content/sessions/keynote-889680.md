@@ -4,6 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Divya Mohan"
 stype: "English Session"
+room: ""
 ---
 
 As open source becomes vital for global innovation, the impact of policymaking on its growth is crucial. This keynote explores the unique challenges and opportunities for Asia's open source ecosystem, contrasting it with Western legislative frameworks like the U.S. CHIPS Act and Europe’s Cyber Resilience Act (CRA). While these policies aim to enhance technological leadership, Asia’s approach—shaped by its cultural and geopolitical context—presents a distinct narrative.
@@ -18,4 +19,3 @@ With initiatives like China’s 14th Five-Year Plan promoting indigenous technol
 Divya Mohan: Open source maintainer & advocate
 
 Divya is a Senior Technical Evangelist at SUSE, where she contributes to Rancher’s cloud native open source projects. She co-chairs the documentation for the Kubernetes & LitmusChaos projects & has previously worked extensively in the systems engineering space during her tenure with HSBC & IGate Global Solutions Pvt Ltd. A co-creator of the KCNA exam & a CNCF ambassador, she is invested in making technical communities & technologies more accessible & inclusive.
-

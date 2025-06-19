@@ -56,17 +56,15 @@ async function updateSessionDates() {
     // 创建会话时间映射
     const sessionDates = new Map();
     rawSessions.forEach(session => {
-      if (session['Scheduled At']) {
-        const trackValue = tracks_dictionary[session['Track'] || 'unknown'];
-        const sessionId = session['Session Id'];
-        const fileName = `${trackValue}-${sessionId}`;
-        const scheduledDate = formatExcelDate(session['Scheduled At']);
-        const info = {
-          scheduledDate: scheduledDate,
-          room: session['Room'].trim() || '' // 获取房间信息，为空时使用空字符串
-        };
-        sessionDates.set(fileName, info);
-      }
+      const trackValue = tracks_dictionary[session['Track'] || 'unknown'];
+      const sessionId = session['Session Id'];
+      const fileName = `${trackValue}-${sessionId}`;
+      const scheduledDate = formatExcelDate(session['Scheduled At']);
+      const info = {
+        scheduledDate: scheduledDate,
+        room: session['Room'].trim() || '' // 获取房间信息，为空时使用空字符串
+      };
+      sessionDates.set(fileName, info);
     });
     
     // 读取并更新文件
@@ -101,11 +99,20 @@ async function updateSessionDates() {
             if (parts) {
               // 更新 frontmatter 中的 date
               const info = sessionDates.get(baseName);
-              const realRome = ext.includes('zh') ? roomJson[info.room] : info.room;
-              const updatedFrontmatter = parts.frontmatter.replace(
-                /^date:.*$/m,
-                `date: "${info.scheduledDate}"\nroom:  "${realRome}"`
-              );
+              const realRoom = ext.includes('zh') ? roomJson[info.room] : info.room;
+              let updatedFrontmatter = parts.frontmatter;
+              // 检查是否存在 room 字段
+              if (updatedFrontmatter.includes('room:')) {
+                // 更新已存在的 room 和 date
+                updatedFrontmatter = updatedFrontmatter
+                  .replace(/^date:.*$/m, `date: "${info.scheduledDate}"`)
+                  .replace(/^room:.*$/m, `room:  "${realRoom}"`);
+              } else {
+                // 只更新 date，并添加 room
+                updatedFrontmatter = updatedFrontmatter
+                  .replace(/^date:.*$/m, `date: "${info.scheduledDate}"`) + 
+                  `\nroom: "${realRoom}"`;
+              }
               
               // 写回文件
               const updatedContent = `---\n${updatedFrontmatter}\n---\n\n${parts.content}`;

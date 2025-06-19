@@ -1,6 +1,6 @@
 ---
 title: "Apache Hop: Integrating LLMs, Graph Databases & Spreadsheets"
-date: "2025-07-27T15:00:00"
+date: "2025-07-27T14:30:00"
 room:  "Mtn WanShou Hall"
 track: "dataops"
 presenters: "Koji Annoura"

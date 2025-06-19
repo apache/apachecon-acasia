@@ -24,12 +24,10 @@ async function cleanupSessions() {
     // 获取所有 Accepted 状态的 Session Id
     const acceptedIds = new Set();
     rawSessions.forEach(session => {
-      if (session['Status'] === 'Accepted') {
-        const trackValue = tracks_dictionary[session['Track']] || 'unknown';
-        const sessionId = session['Session Id'];
-        const fileName = `${trackValue}-${sessionId}`;
-        acceptedIds.add(fileName);
-      }
+      const trackValue = tracks_dictionary[session['Track']] || 'unknown';
+      const sessionId = session['Session Id'];
+      const fileName = `${trackValue}-${sessionId}`;
+      acceptedIds.add(fileName);
     });
     
     // 读取 sessions 目录

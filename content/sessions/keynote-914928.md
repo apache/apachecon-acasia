@@ -4,6 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Craig Russell"
 stype: "English Session"
+room: ""
 ---
 
 This talk discusses the current state of security in open source software, and in particular, how the ASF is responding to the growing threat.
@@ -29,5 +30,3 @@ room (managers and executives)" make the decisions.
 Once my own project was accepted into Apache, I looked around to see what else I could contribute to, and joined a number of projects where I could help. I also started looking at the intellectual property model of licensing of contributions and licensing of the end products. That led me to start contributing to the Secretary role, processing the "paperwork" granting IP rights to the Foundation.
 
 Recently it has come to my attention that people feel that the Foundation has "too many rules" which go against the free expression that people look for. Looking deeper into this issue, I found that there are some common themes that, if understood better, can make the experience easier.
-
-
