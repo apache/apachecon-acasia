@@ -1,6 +1,6 @@
 ---
 title: "​​Building Inverted Indexes on Iceberg with Tantivy: A Hands-on Approach​​"
-date: "2025-07-25T14:00:00"
+date: "2025-07-25T16:45:00"
 room:  "WanChun Hall"
 track: "datalake"
 presenters: "Longfei Liu"

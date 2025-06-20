@@ -1,6 +1,6 @@
 ---
 title: "The Future of ETL with Branching & Tagging in Apache Hive"
-date: "2025-07-27T16:15:00"
+date: "2025-07-27T15:45:00"
 room:  "WanChun Hall"
 track: "datalake"
 presenters: "Attila Turóczy"

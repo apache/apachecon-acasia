@@ -4,7 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Divya Mohan"
 stype: "English Session"
-room: ""
+room:  ""
 ---
 
 As open source becomes vital for global innovation, the impact of policymaking on its growth is crucial. This keynote explores the unique challenges and opportunities for Asia's open source ecosystem, contrasting it with Western legislative frameworks like the U.S. CHIPS Act and Europe’s Cyber Resilience Act (CRA). While these policies aim to enhance technological leadership, Asia’s approach—shaped by its cultural and geopolitical context—presents a distinct narrative.

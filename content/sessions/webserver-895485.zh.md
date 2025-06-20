@@ -1,6 +1,6 @@
 ---
 title: "使用 Spring AI 的 AI 代理设计模式解决复杂问题"
-date: "2025-07-26T16:15:00"
+date: "2025-07-26T14:00:00"
 room:  "阳山会议室"
 track: "webserver"
 presenters: "Juarez Junior"

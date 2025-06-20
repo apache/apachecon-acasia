@@ -4,7 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Quincy Larson"
 stype: "English Session"
-room: ""
+room:  ""
 ---
 
 This session will explain the Gartner Hype Cycle and how it applies to open source software projects. I'll share insight into the role that both word-of-mouth and social media play in getting developers to contribute to your open source project. We'll discuss how to get attention and how to adapt as that attention inevitably fades.

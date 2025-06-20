@@ -1,6 +1,6 @@
 ---
 title: "Solving Complex Problems with AI Agents Design Patterns Using Spring AI"
-date: "2025-07-26T16:15:00"
+date: "2025-07-26T14:00:00"
 room:  "Mtn Yang Hall"
 track: "webserver"
 presenters: "Juarez Junior"

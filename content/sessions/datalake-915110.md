@@ -1,6 +1,6 @@
 ---
 title: "Technical Progression of Flink + Paimon Real-time Lakehouse Solutions"
-date: "2025-07-27T15:45:00"
+date: "2025-07-27T16:15:00"
 room:  "WanChun Hall"
 track: "datalake"
 presenters: "Xuannan Su"

@@ -1,6 +1,6 @@
 ---
 title: "使用 Apache Arrow 重塑 OpenTelemetry"
-date: "2025-07-26T14:30:00"
+date: "2025-07-26T16:15:00"
 room:  "阳山会议室"
 track: "webserver"
 presenters: "Lei Huang"
