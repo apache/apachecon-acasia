@@ -13,6 +13,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/3652-400o400o1-nL4YWvqdsyoi1XovLkoiGQ.jpg" width="200" /><br/>
 
-Mingyang Liu: Apache Kvrocks 成员兼副总裁，ASF
+Mingyang Liu: ASF 成员 & Apache Kvrocks PMC 主席
 
-Mingyang Liu 是一家无晶圆厂半导体公司的编译器工程师，对编译器、AI 系统、程序分析、编程语言和数据库等领域充满兴趣。他热衷于为开源项目做出贡献，并在多个开源社区中活跃。他是 Apache Kvrocks 的项目管理委员会主席（PMC Chair），同时也是 ASF 成员。（https://github.com/pragmatwice）
+Mingyang Liu 是一家芯片公司的编译器工程师，对编译器、AI 系统、程序分析、编程语言和数据库等领域充满兴趣。他热衷于为开源项目做出贡献，并在多个开源社区中活跃。他是 Apache Kvrocks 的项目管理委员会主席（PMC Chair），同时也是 ASF 成员。（https://github.com/pragmatwice）
