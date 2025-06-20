@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Reshaping OpenTelemetry with Apache Arrow - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <title>eBPF &#43; LLM: DeepFlow&#39;s Full-Stack Observability and AI Agent Practice Cases - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Reshaping OpenTelemetry with Apache Arrow'/>
+    <meta property='og:title' content='eBPF &#43; LLM: DeepFlow&#39;s Full-Stack Observability and AI Agent Practice Cases'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -89,7 +89,7 @@
             
                 
                     <li class="nav-item">
-                        <a href="/zh/sessions/webserver-915263.html" class="nav-link" >中文</a>
+                        <a href="/zh/sessions/observability-914561.html" class="nav-link" >中文</a>
                     </li>
                 
             
@@ -130,21 +130,19 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Reshaping OpenTelemetry with Apache Arrow</h3>
-                    <h4>Lei Huang</h4>
-                    English Session  2025-07-26 16:15 GMT&#43;8&nbsp;
+                    <h3 class="text-center">eBPF &#43; LLM: DeepFlow&#39;s Full-Stack Observability and AI Agent Practice Cases</h3>
+                    <h4>Yang Xiang</h4>
+                    Chinese Session  2025-07-27 16:45 GMT&#43;8&nbsp;
                     
                         (ROOM : Mtn Yang Hall)
                     
-                    <a class="label" href="/tracks/webserver.html">#webserver</a></li>
+                    <a class="label" href="/tracks/observability.html">#observability</a></li>
                 </header>
 
-                <p>OpenTelemetry is a widely adopted open-source standard for building observability frameworks, offering tools, APIs, and SDKs to generate, collect, and export telemetry data like metrics, logs, and traces. However, its transport protocol relies on Protocol Buffer messages that are stateless and easy to interpret but have a row-based structure that complicates compression. This limitation becomes more significant when transferring large volumes of data across network boundaries.</p>
-<p>In my session, I will present a proposal to address this issue by enhancing the OpenTelemetry protocol with Apache Arrow, referred to as OTel-Arrow. This initiative aims to utilize Apache Arrow for bulk data compression and transfer in OpenTelemetry pipelines. We will discuss the OTel-Arrow data model, existing infrastructures that have implemented it, benchmark results comparing OTel-Arrow with the original implementation, and our integration of OTel-Arrow into modern time-series databases using the Apache Parquet format to facilitate fast analytics through a real-time query engine built on Apache DataFusion.</p>
-<h3 id="speakers">Speakers:</h3>
-<p><img src="https://sessionize.com/image/4df2-400o400o1-EVUc7f9M53frxPdweN8rwZ.jpg" width="200" /><br/></p>
-<p>Lei Huang: Database Developer at Greptime, Hangzhou, China</p>
-<p>Lei is a passionate open-source database developer from China. After obtaining his master&rsquo;s degree in Computer Science from Peking University, he joined Alipay to work on infrastructure and middleware development, leading the development of a massive-scale message queue used for transaction processing. Later, he joined Greptime as a founding member, primarily responsible for the development of the storage engine. His main interests are distributed systems and database storage subsystems.</p>
+                <p>Apache APISIX, Kafka, RocketMQ, and Pulsar are excellent middleware software with widespread usage. However, observability for these middleware is typically limited to coarse-grained metrics exposure, without correlation to distributed tracing. Therefore, when facing long-tail performance issues, middleware operators often resort to basic tools like tcpdump or log analysis to troubleshoot and identify root causes, which is highly inefficient. eBPF&rsquo;s zero-intrusion characteristics effectively address these pain points. DeepFlow (an open-source project) leverages eBPF to implement full-stack observability covering &ldquo;code functions, system calls, file I/O, and network forwarding&rdquo; for various Apache middleware services without requiring any configuration changes or process restarts. Additionally, based on the full-stack observability data exposed through the MCP protocol, DeepFlow AI Agent can quickly and independently identify performance bottlenecks and provide optimization suggestions. This presentation will introduce DeepFlow&rsquo;s middleware full-stack observability implementation practices and typical troubleshooting cases using LLM-powered AI agent.</p>
+<p><img src="https://sessionize.com/image/b6e1-400o400o1-pQaQfhiHLxaGPmnakbBHWu.jpg" width="200" /><br/></p>
+<p>Yang Xiang: Yunshan Networks, President</p>
+<p>Received a Ph.D. from Tsinghua University, and currently serving as President at Yunshan Networks and the head of the DeepFlow open-source community. He has presented academic papers on topics such as application observability and network measurement at top international academic conferences including ACM SIGCOMM and ACM IMC.</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

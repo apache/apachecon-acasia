@@ -38,6 +38,27 @@ In this session, we’ll dive into the brand-new Dubbo OpenAPI feature set. You�
     </item>
     
     <item>
+      <title>AI-Era Distributed Transactions: Practice and Outlook of the Seata Saga Pattern</title>
+      <link>/sessions/microservice-915357.html</link>
+      <pubDate>Sun, 27 Jul 2025 16:45:00 +0000</pubDate>
+      
+      <guid>/sessions/microservice-915357.html</guid>
+      <description>This session will begin with an introduction to Seata and distributed transactions, followed by a detailed discussion on the implementation and usage of the Saga pattern. Finally, it will explore how the Saga pattern can be integrated with AI, such as connecting with AI Agents and Workflows.
+Speakers: 
+Feng Zhang: DiDi Global Inc, Senior Software Engineer
+Open-source enthusiast Apache Seata(incubating) Committer</description>
+    </item>
+    
+    <item>
+      <title>eBPF &#43; LLM: DeepFlow&#39;s Full-Stack Observability and AI Agent Practice Cases</title>
+      <link>/sessions/observability-914561.html</link>
+      <pubDate>Sun, 27 Jul 2025 16:45:00 +0000</pubDate>
+      
+      <guid>/sessions/observability-914561.html</guid>
+      <description>Apache APISIX, Kafka, RocketMQ, and Pulsar are excellent middleware software with widespread usage. However, observability for these middleware is typically limited to coarse-grained metrics exposure, without correlation to distributed tracing. Therefore, when facing long-tail performance issues, middleware operators often resort to basic tools like tcpdump or log analysis to troubleshoot and identify root causes, which is highly inefficient. eBPF&amp;rsquo;s zero-intrusion characteristics effectively address these pain points. DeepFlow (an open-source project) leverages eBPF to implement full-stack observability covering &amp;ldquo;code functions, system calls, file I/O, and network forwarding&amp;rdquo; for various Apache middleware services without requiring any configuration changes or process restarts.</description>
+    </item>
+    
+    <item>
       <title>RBIR: Rewrite Bigdata in Rust</title>
       <link>/sessions/rust-885440.html</link>
       <pubDate>Sun, 27 Jul 2025 16:45:00 +0000</pubDate>
@@ -47,21 +68,24 @@ In this session, we’ll dive into the brand-new Dubbo OpenAPI feature set. You�
     </item>
     
     <item>
-      <title>The Next Generation Microservice Communication Protocol Based on HTTP.</title>
-      <link>/sessions/microservice-915252.html</link>
+      <title>SF Express&#39;s Journey with Apache Spark and Gluten</title>
+      <link>/sessions/datalake-911489.html</link>
       <pubDate>Sun, 27 Jul 2025 16:45:00 +0000</pubDate>
       
-      <guid>/sessions/microservice-915252.html</guid>
-      <description>As the microservice architecture continues to evolve, the flexibility, versatility and performance of communication frameworks have put forward higher requirements. A typical representative in the industry is the Triple X protocol introduced by Apache Dubbo, which breaks through the boundaries of traditional RPC communication, realizes unified access, protocol-independent, semantically enhanced communication capabilities, and comprehensively supports mainstream protocols such as HTTP/2, gRPC, Protobuf, etc., which greatly improves the compatibility and development efficiency of heterogeneous systems.</description>
+      <guid>/sessions/datalake-911489.html</guid>
+      <description>The session by SF Express delves into their use of Apache Spark and Apache Gluten within their production environment. It addresses the identification of current bottlenecks, the rationale for selecting Gluten as a Spark plugin, the need for a vectorized engine, ongoing research in this area, and the tangible cost savings and performance improvements achieved in their real-world operations. The presentation provides detailed insights into SF Express&amp;rsquo;s challenges, decision-making process, and the transformative impact of adopting a vectorized engine in their large-scale data processing pipeline.</description>
     </item>
     
     <item>
-      <title>Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support for Hudi / Icebe</title>
-      <link>/sessions/datalake-910660.html</link>
-      <pubDate>Sun, 27 Jul 2025 16:45:00 +0000</pubDate>
+      <title>BifroMQ: A High-Performance MQTT Broker for Multi-Tenant</title>
+      <link>/sessions/incubator-908738.html</link>
+      <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
       
-      <guid>/sessions/datalake-910660.html</guid>
-      <description>Abstract: With the ongoing evolution of lakehouse architectures and real-time data lakes, enterprises increasingly require a unified, high-performance, and scalable data integration framework to support both writing to and reading from multiple data lake formats such as Apache Hudi, Iceberg, and Paimon. As a next-generation data integration engine, Apache SeaTunnel leverages its Connector V2 architecture and stream-batch unified design to build deep integration support for these three mainstream data lake formats.</description>
+      <guid>/sessions/incubator-908738.html</guid>
+      <description>BifroMQ is a Java-based, high-performance MQTT broker currently incubating at the Apache Software Foundation. It is designed from the ground up to support native multi-tenancy, linear scalability, and massive concurrent connections—all while ensuring consistently low-latency messaging. In this session, we will explore the architectural principles that shape BifroMQ’s design, driven by the unique challenges of building a multi-tenant distributed MQTT broker.
+Speakers: 
+Hao Yonny(Yu): Baidu, Senior Software Engineer
+I joined Baidu in 2017 and have since been focused on designing and building large-scale distributed systems, with a particular emphasis on high-performance messaging infrastructure.</description>
     </item>
     
     <item>
@@ -74,15 +98,6 @@ In this session, we’ll dive into the brand-new Dubbo OpenAPI feature set. You�
 Speakers: 
 Ruihang Xia: Apache DataFusion PMC Member, Senior SWE at Greptime Inc.
 Apache DataFusion PMC, Apache Arrow Committer, Apache HoraeDB PPMC Senior SWE at Greptime https://github.com/waynexia</description>
-    </item>
-    
-    <item>
-      <title>Navigating the Incubator process</title>
-      <link>/sessions/incubator-905766.html</link>
-      <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/incubator-905766.html</guid>
-      <description>This talk provides an overview of the Apache Software Foundation (ASF) and its incubation process. It guides projects on learning the Apache Way, ensuring compliance with licensing and intellectual property rights, and fostering community growth. The process involves creating a proposal, entering the incubator, focusing on community building and making releases, and eventually graduating as a top-level ASF project. Key aspects covered in this talk include, complying with licensing, engaging in open and transparent practices, and adopting a vendor-neutral approach.</description>
     </item>
     
     <item>
@@ -117,13 +132,12 @@ Apache Dubbo PMC. Interested in Cloud Native, Micro Service and Security.</descr
     </item>
     
     <item>
-      <title>The Future of ETL with Branching &amp; Tagging in Apache Hive</title>
-      <link>/sessions/datalake-914197.html</link>
+      <title>Technical Progression of Flink &#43; Paimon Real-time Lakehouse Solutions</title>
+      <link>/sessions/datalake-915110.html</link>
       <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
       
-      <guid>/sessions/datalake-914197.html</guid>
-      <description>As data pipelines grow more complex, traditional &amp;ldquo;push-and-forget&amp;rdquo; ETL approaches no longer enough. The data world is evolving—and it&amp;rsquo;s taking a page from modern software engineering. Say hello to Branching and Tagging—concepts that have transformed code management and are now revolutionizing how we work with data.
-In this session, we&amp;rsquo;ll explore how Apache Hive, powered by Apache Iceberg, introduces these game-changing features into the data space. You&amp;rsquo;ll learn how to streamline your workflows, manage data versions with ease, and build cleaner, more efficient pipelines.</description>
+      <guid>/sessions/datalake-915110.html</guid>
+      <description>The lakehouse architecture has emerged as a transformative trend in recent years. By leveraging Flink as a stream-batch unified processing engine and Paimon as a stream-batch unified lake format, the Streaming Lakehouse architecture has enabled real-time data freshness for the lakehouse. While structured data remains widely used in Paimon, semi-structured and unstructured data are becoming increasingly critical in artificial intelligence applications. The Flink and Paimon communities have collaborated closely, combining their strengths and integrating cutting-edge features to deliver significant enhancements and optimizations for users.</description>
     </item>
     
     <item>
@@ -196,12 +210,13 @@ Min Ji: Apache Seata PPMC/Higress Maintainer</description>
     </item>
     
     <item>
-      <title>Technical Progression of Flink &#43; Paimon Real-time Lakehouse Solutions</title>
-      <link>/sessions/datalake-915110.html</link>
+      <title>The Future of ETL with Branching &amp; Tagging in Apache Hive</title>
+      <link>/sessions/datalake-914197.html</link>
       <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
       
-      <guid>/sessions/datalake-915110.html</guid>
-      <description>The lakehouse architecture has emerged as a transformative trend in recent years. By leveraging Flink as a stream-batch unified processing engine and Paimon as a stream-batch unified lake format, the Streaming Lakehouse architecture has enabled real-time data freshness for the lakehouse. While structured data remains widely used in Paimon, semi-structured and unstructured data are becoming increasingly critical in artificial intelligence applications. The Flink and Paimon communities have collaborated closely, combining their strengths and integrating cutting-edge features to deliver significant enhancements and optimizations for users.</description>
+      <guid>/sessions/datalake-914197.html</guid>
+      <description>As data pipelines grow more complex, traditional &amp;ldquo;push-and-forget&amp;rdquo; ETL approaches no longer enough. The data world is evolving—and it&amp;rsquo;s taking a page from modern software engineering. Say hello to Branching and Tagging—concepts that have transformed code management and are now revolutionizing how we work with data.
+In this session, we&amp;rsquo;ll explore how Apache Hive, powered by Apache Iceberg, introduces these game-changing features into the data space. You&amp;rsquo;ll learn how to streamline your workflows, manage data versions with ease, and build cleaner, more efficient pipelines.</description>
     </item>
     
     <item>
@@ -334,12 +349,12 @@ Cloudera Solution Engineering . Apache Hive and Apache Flink Contributor. Over 1
     </item>
     
     <item>
-      <title>SF Express&#39;s Journey with Apache Spark and Gluten</title>
-      <link>/sessions/datalake-911489.html</link>
+      <title>Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support for Hudi / Icebe</title>
+      <link>/sessions/datalake-910660.html</link>
       <pubDate>Sun, 27 Jul 2025 14:30:00 +0000</pubDate>
       
-      <guid>/sessions/datalake-911489.html</guid>
-      <description>The session by SF Express delves into their use of Apache Spark and Apache Gluten within their production environment. It addresses the identification of current bottlenecks, the rationale for selecting Gluten as a Spark plugin, the need for a vectorized engine, ongoing research in this area, and the tangible cost savings and performance improvements achieved in their real-world operations. The presentation provides detailed insights into SF Express&amp;rsquo;s challenges, decision-making process, and the transformative impact of adopting a vectorized engine in their large-scale data processing pipeline.</description>
+      <guid>/sessions/datalake-910660.html</guid>
+      <description>Abstract: With the ongoing evolution of lakehouse architectures and real-time data lakes, enterprises increasingly require a unified, high-performance, and scalable data integration framework to support both writing to and reading from multiple data lake formats such as Apache Hudi, Iceberg, and Paimon. As a next-generation data integration engine, Apache SeaTunnel leverages its Connector V2 architecture and stream-batch unified design to build deep integration support for these three mainstream data lake formats.</description>
     </item>
     
     <item>
@@ -349,18 +364,6 @@ Cloudera Solution Engineering . Apache Hive and Apache Flink Contributor. Over 1
       
       <guid>/sessions/rust-912220.html</guid>
       <description>Non-convex Tech&amp;rsquo;s automated trading system handles over 20 billion yuan in daily transaction volume, generating massive amounts of order and trade data. To rapidly monitor system performance in fast-changing market conditions, we developed a statistics and analysis system using Rust and Polars - an outstanding Rust-based open-source dataframe library. This article will present the key challenges addressed by the system, along with its overall architecture and implementation approach. Non-convex Tech continues to innovate through open-source initiatives.</description>
-    </item>
-    
-    <item>
-      <title>AI-Era Distributed Transactions: Practice and Outlook of the Seata Saga Pattern</title>
-      <link>/sessions/microservice-915357.html</link>
-      <pubDate>Sun, 27 Jul 2025 14:00:00 +0000</pubDate>
-      
-      <guid>/sessions/microservice-915357.html</guid>
-      <description>This session will begin with an introduction to Seata and distributed transactions, followed by a detailed discussion on the implementation and usage of the Saga pattern. Finally, it will explore how the Saga pattern can be integrated with AI, such as connecting with AI Agents and Workflows.
-Speakers: 
-Feng Zhang: DiDi Global Inc, Senior Software Engineer
-Open-source enthusiast Apache Seata(incubating) Committer</description>
     </item>
     
     <item>
@@ -394,15 +397,12 @@ Future Outlook and Ecosystem Expansion  Directions for technological evolution A
     </item>
     
     <item>
-      <title>BifroMQ: A High-Performance MQTT Broker for Multi-Tenant</title>
-      <link>/sessions/incubator-908738.html</link>
+      <title>Navigating the Incubator process</title>
+      <link>/sessions/incubator-905766.html</link>
       <pubDate>Sun, 27 Jul 2025 14:00:00 +0000</pubDate>
       
-      <guid>/sessions/incubator-908738.html</guid>
-      <description>BifroMQ is a Java-based, high-performance MQTT broker currently incubating at the Apache Software Foundation. It is designed from the ground up to support native multi-tenancy, linear scalability, and massive concurrent connections—all while ensuring consistently low-latency messaging. In this session, we will explore the architectural principles that shape BifroMQ’s design, driven by the unique challenges of building a multi-tenant distributed MQTT broker.
-Speakers: 
-Hao Yonny(Yu): Baidu, Senior Software Engineer
-I joined Baidu in 2017 and have since been focused on designing and building large-scale distributed systems, with a particular emphasis on high-performance messaging infrastructure.</description>
+      <guid>/sessions/incubator-905766.html</guid>
+      <description>This talk provides an overview of the Apache Software Foundation (ASF) and its incubation process. It guides projects on learning the Apache Way, ensuring compliance with licensing and intellectual property rights, and fostering community growth. The process involves creating a proposal, entering the incubator, focusing on community building and making releases, and eventually graduating as a top-level ASF project. Key aspects covered in this talk include, complying with licensing, engaging in open and transparent practices, and adopting a vendor-neutral approach.</description>
     </item>
     
     <item>
@@ -415,13 +415,32 @@ I joined Baidu in 2017 and have since been focused on designing and building lar
     </item>
     
     <item>
-      <title>Apache Polaris (Incubating) &amp; Apache XTable: Unifying Iceberg, Hudi, and other Table Formats</title>
-      <link>/sessions/datalake-916062.html</link>
+      <title>The Next Generation Microservice Communication Protocol Based on HTTP.</title>
+      <link>/sessions/microservice-915252.html</link>
+      <pubDate>Sun, 27 Jul 2025 14:00:00 +0000</pubDate>
+      
+      <guid>/sessions/microservice-915252.html</guid>
+      <description>As the microservice architecture continues to evolve, the flexibility, versatility and performance of communication frameworks have put forward higher requirements. A typical representative in the industry is the Triple X protocol introduced by Apache Dubbo, which breaks through the boundaries of traditional RPC communication, realizes unified access, protocol-independent, semantically enhanced communication capabilities, and comprehensively supports mainstream protocols such as HTTP/2, gRPC, Protobuf, etc., which greatly improves the compatibility and development efficiency of heterogeneous systems.</description>
+    </item>
+    
+    <item>
+      <title>Kafka 4.0 Highlights: Features, Removals, and Upgrades</title>
+      <link>/sessions/streaming-910562.html</link>
+      <pubDate>Sat, 26 Jul 2025 17:45:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-910562.html</guid>
+      <description>While there’s already a lot of buzz around Kafka 4.0, most discussions focus on the headline features—like the removal of ZooKeeper or the introduction of new APIs. In this session, we want to highlight some of the lesser-known but equally important changes in Kafka 4.0. These updates might not grab the spotlight, but they can significantly impact how you configure, operate, and debug Kafka in real-world environments.
+One of the major questions users face is how to approach the upgrade to Kafka 4.</description>
+    </item>
+    
+    <item>
+      <title>Build a cloud native Lakehouse architecture based on Iceberg &amp; Amoro &amp; Gravitino in Tencent Cloud</title>
+      <link>/sessions/datalake-906852.html</link>
       <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
       
-      <guid>/sessions/datalake-916062.html</guid>
-      <description>Apache Polaris (Incubating) implements the Apache Iceberg REST catalog specification and allows users to manage Iceberg tables, views, and other related metadata. Role-based access control governs which users have access to what data, and Polaris supports attaching policies to tables in order to categorize data and to configure table maintenance.
-A new integration with Apache XTable promises to extend this same functionality to non-Iceberg tables. Polaris recently introduced &amp;ldquo;generic tables&amp;rdquo; &amp;ndash; allowing users to manage their Apache Hudi tables within Polaris alongside tables backed by Apache Kafka or other systems.</description>
+      <guid>/sessions/datalake-906852.html</guid>
+      <description>Since 2020, Tencent has been leveraging Apache Iceberg to build its lakehouse data infrastructure. In 2022, Tencent Cloud began offering Iceberg-based lakehouse services to users in the cloud. In 2024, we introduced great projects including Apache Amoro and Apache Gravitino to deliver more powerful, intelligent, and full-scenario-capable lakehouse service for users.
+This keynote will share Tencent Cloud&amp;rsquo;s extensive experience with lakehouse architecture over the years, highlighting rich user practices. We will focus on demonstrating how to leverage these Apache projects to build cloud-native Lakehouse architectures, with particular emphasis on streaming computing and BI scenarios.</description>
     </item>
     
     <item>
@@ -446,22 +465,30 @@ We will first discuss the limitations and pain points of Kafka when used with Fl
     </item>
     
     <item>
-      <title>Build a cloud native Lakehouse architecture based on Iceberg &amp; Amoro &amp; Gravitino in Tencent Cloud</title>
-      <link>/sessions/datalake-906852.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/sessions/datalake-906852.html</guid>
-      <description>Since 2020, Tencent has been leveraging Apache Iceberg to build its lakehouse data infrastructure. In 2022, Tencent Cloud began offering Iceberg-based lakehouse services to users in the cloud. In 2024, we introduced great projects including Apache Amoro and Apache Gravitino to deliver more powerful, intelligent, and full-scenario-capable lakehouse service for users.
-This keynote will share Tencent Cloud&amp;rsquo;s extensive experience with lakehouse architecture over the years, highlighting rich user practices. We will focus on demonstrating how to leverage these Apache projects to build cloud-native Lakehouse architectures, with particular emphasis on streaming computing and BI scenarios.</description>
-    </item>
-    
-    <item>
       <title>Cross-Version Upgrade to HBase 2.3 and Stability Governance at Xiaomi</title>
       <link>/sessions/datastorage-912451.html</link>
       <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
       
       <guid>/sessions/datastorage-912451.html</guid>
       <description>Abstract: At Xiaomi, HBase serves as a distributed wide-table service for both offline and online scenarios. However, 40% of nodes still operate on version 0.98 internally, resulting in high maintenance costs due to dual-version support. Unifying the version to 2.3 is critical to improving development efficiency. Additionally, version 2.3 itself faces stability challenges, such as GC issues and cluster-wide downtime recovery failures. This presentation shares Xiaomi’s practical experience in addressing these challenges.</description>
+    </item>
+    
+    <item>
+      <title>Future Proof Data Platform in the AI and Cloud native era</title>
+      <link>/sessions/general-875124.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
+      
+      <guid>/sessions/general-875124.html</guid>
+      <description>Organizations with a lot of data, such as internet/AI/Robotics companies, have built/run/used data platform over time to meet progressive needs. With cloud native evolution and AI explosion, a paradigm shift is underway. For example, New disaggregated architecture start taking share from distributed share nothing architect that had worked well in the internet era. And AI with its unstructured data needs, introduced new requirements, such GPU in computing vector indexes. In this talk, Tom will highlight the major new tech trends that will impact data infrastructure and how organizations shall prepare themselves for the coming wave.</description>
+    </item>
+    
+    <item>
+      <title>Optimizing Parquet Storage: Metadata Management, Performance Tuning &amp; Seamless Migration</title>
+      <link>/sessions/datalake-913345.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-913345.html</guid>
+      <description>This session delves into advanced techniques for optimizing Parquet storage ecosystems. We’ll explore a comprehensive approach to managing metadata—from efficient collection and storage to building a scalable metadata warehouse. Attendees will learn practical strategies for storage optimization, including ZSTD compression upgrades, local/global sorting, and column-level tuning for enhanced performance. Additionally, we’ll cover seamless migration of legacy formats through in-place backtracking and heterogeneous format interoperability. Whether you’re handling large-scale datasets or fine-tuning storage efficiency, this session offers actionable insights to elevate your Parquet workflows.</description>
     </item>
     
     <item>
@@ -510,15 +537,6 @@ Joined Xiaomi in 2018, specializing in messaging and storage systems. Responsibl
     </item>
     
     <item>
-      <title>Future Proof Data Platform in the AI and Cloud native era</title>
-      <link>/sessions/general-875124.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:40:00 +0000</pubDate>
-      
-      <guid>/sessions/general-875124.html</guid>
-      <description>Organizations with a lot of data, such as internet/AI/Robotics companies, have built/run/used data platform over time to meet progressive needs. With cloud native evolution and AI explosion, a paradigm shift is underway. For example, New disaggregated architecture start taking share from distributed share nothing architect that had worked well in the internet era. And AI with its unstructured data needs, introduced new requirements, such GPU in computing vector indexes. In this talk, Tom will highlight the major new tech trends that will impact data infrastructure and how organizations shall prepare themselves for the coming wave.</description>
-    </item>
-    
-    <item>
       <title>Celeborn’s Revolution in Multi-Engine Support, Performance Mastery, and Enterprising Innovation</title>
       <link>/sessions/datastorage-896070.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
@@ -539,12 +557,22 @@ Performance improvements address: Spark skew optimization to eliminate extra sor
     </item>
     
     <item>
-      <title>Optimizing Parquet Storage: Metadata Management, Performance Tuning &amp; Seamless Migration</title>
-      <link>/sessions/datalake-913345.html</link>
+      <title>Introduction to Apache Cloudberry: Evolution, Key Features, and Roadmap</title>
+      <link>/sessions/datalake-915155.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
       
-      <guid>/sessions/datalake-913345.html</guid>
-      <description>This session delves into advanced techniques for optimizing Parquet storage ecosystems. We’ll explore a comprehensive approach to managing metadata—from efficient collection and storage to building a scalable metadata warehouse. Attendees will learn practical strategies for storage optimization, including ZSTD compression upgrades, local/global sorting, and column-level tuning for enhanced performance. Additionally, we’ll cover seamless migration of legacy formats through in-place backtracking and heterogeneous format interoperability. Whether you’re handling large-scale datasets or fine-tuning storage efficiency, this session offers actionable insights to elevate your Parquet workflows.</description>
+      <guid>/sessions/datalake-915155.html</guid>
+      <description>Apache Cloudberry is an advanced and mature open-source MPP database, derived from the open-source version of the Pivotal Greenplum Database® but built on a more modern PostgreSQL kernel and with more advanced enterprise capabilities. Cloudberry can serve as a data warehouse and can also be used for large-scale analytics and AI/ML workloads. In this session, we’ll explore the origin of the project, its journey into the Apache Incubator, and how it differentiates itself from other analytical databases.</description>
+    </item>
+    
+    <item>
+      <title>Reshaping OpenTelemetry with Apache Arrow</title>
+      <link>/sessions/webserver-915263.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-915263.html</guid>
+      <description>OpenTelemetry is a widely adopted open-source standard for building observability frameworks, offering tools, APIs, and SDKs to generate, collect, and export telemetry data like metrics, logs, and traces. However, its transport protocol relies on Protocol Buffer messages that are stateless and easy to interpret but have a row-based structure that complicates compression. This limitation becomes more significant when transferring large volumes of data across network boundaries.
+In my session, I will present a proposal to address this issue by enhancing the OpenTelemetry protocol with Apache Arrow, referred to as OTel-Arrow.</description>
     </item>
     
     <item>
@@ -557,14 +585,12 @@ Performance improvements address: Spark skew optimization to eliminate extra sor
     </item>
     
     <item>
-      <title>Solving Complex Problems with AI Agents Design Patterns Using Spring AI</title>
-      <link>/sessions/webserver-895485.html</link>
+      <title>The Journey of an Open Source Contributor: Evolving from PR Submissions to Project Maintenance</title>
+      <link>/sessions/community-871883.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
       
-      <guid>/sessions/webserver-895485.html</guid>
-      <description>This session demonstrates how to use Spring AI and design patterns to build AI agents to tackle complex problems. We&amp;rsquo;ll explore patterns for breaking down problems into sub-tasks, integrating external tools and APIs, and managing agent state.
-The session will cover key design principles, real-world examples, and best practices, empowering software engineers to create sophisticated AI agents easily.
-Attendees will gain practical insights into how to apply these patterns to create agents capable of performing tasks such as data analysis, decision-making, and process automation.</description>
+      <guid>/sessions/community-871883.html</guid>
+      <description>Getting started with open source can be daunting, but every experienced contributor was once a beginner. In this talk, I will share my personal journey—from my first pull request to becoming an Apache Committer and the maintainer of multiple open-source projects. Drawing from my experience open-source initiatives, I will discuss how newcomers can effectively contribute to projects, build their reputation, and expand their influence within the community. Additionally, I will explore strategies for fostering community engagement, making meaningful contributions beyond code.</description>
     </item>
     
     <item>
@@ -588,18 +614,6 @@ We’ll cover the basics of MCP (host/client/server roles, lifecycle, standard I
     </item>
     
     <item>
-      <title>Why is it So Hard?</title>
-      <link>/sessions/community-914929.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/community-914929.html</guid>
-      <description>Why is it So Hard&amp;hellip;
-to submit patches to a project/podling? to become a committer on a project/podling? to release code to the public? to maintain trademarks for a project/podling?
-This talk explains what common barriers are to accomplishing objectives of people and projects. It explains why The ASF has:
- licensing requirements for code contributions and releases, download, signing, and checksum protocols voting requirements for releases and project membership trademark requirements for web sites and documentation  With a better common understanding of the legal and technical reasons for apparently arbitrary requirements, people will have an appreciation for how things can be easier.</description>
-    </item>
-    
-    <item>
       <title>Apache HugeGraph 1.5.0: Best Practices for Enterprise-Grade Deployment</title>
       <link>/sessions/general-914611.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
@@ -618,12 +632,14 @@ This talk explains what common barriers are to accomplishing objectives of peopl
     </item>
     
     <item>
-      <title>Introduction to Apache Cloudberry: Evolution, Key Features, and Roadmap</title>
-      <link>/sessions/datalake-915155.html</link>
+      <title>Building a Unified Lakehouse Solution with Apache Cloudberry</title>
+      <link>/sessions/datalake-915987.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
       
-      <guid>/sessions/datalake-915155.html</guid>
-      <description>Apache Cloudberry is an advanced and mature open-source MPP database, derived from the open-source version of the Pivotal Greenplum Database® but built on a more modern PostgreSQL kernel and with more advanced enterprise capabilities. Cloudberry can serve as a data warehouse and can also be used for large-scale analytics and AI/ML workloads. In this session, we’ll explore the origin of the project, its journey into the Apache Incubator, and how it differentiates itself from other analytical databases.</description>
+      <guid>/sessions/datalake-915987.html</guid>
+      <description>Data warehouses excel at fast analytics, while data lakes focus on scalable storage and flexible data management. The lakehouse architecture aims to combine the best of both—seamlessly integrating data across lakes and warehouses for efficient analysis and unified governance.
+As a next-generation open-source MPP database, Apache Cloudberry extends its technical boundaries to build an open lakehouse solution. This talk introduces Cloudberry’s key capabilities in enabling a unified lakehouse architecture:
+ Accelerated lake queries on Parquet/ORC without data movement Unified data gateway for querying and writing across heterogeneous sources Integrated data processing and sync pipeline, enabling end-to-end flow from ingestion to analytics Open metadata and storage formats for easier ecosystem integration and reduced migration cost  Speakers:</description>
     </item>
     
     <item>
@@ -688,13 +704,24 @@ I have been working in the big data field for over ten years, with a strong inte
     </item>
     
     <item>
-      <title>Impala on Iceberg with Puffins</title>
-      <link>/sessions/datalake-914225.html</link>
+      <title>Building a real-time data lakehouse in practice</title>
+      <link>/sessions/datalake-905869.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
       
-      <guid>/sessions/datalake-914225.html</guid>
-      <description>The Apache Iceberg table format has become a de-facto standard in the Big Data world. Its numerous advantages over traditional file system based table formats - like row level modifications, transactions, partition transforms and time travelling - have made it a natural first choice for many projects.
-Statistics about the data can be of immense help to database engines in creating efficient query plans. As a leading table format, Iceberg aims to provide a standardised way of storing these statistics: in addition to file level attributes already present in the core specification (like min and max values), it has introduced the Puffin file format for storing statistics over the whole table.</description>
+      <guid>/sessions/datalake-905869.html</guid>
+      <description>In the era of real-time driven business decision-making, the architecture design of high-throughput data lake warehouse has become the decisive battlefield for enterprise digital transformation. Faced with the insurmountable timeliness bottleneck of traditional batch processing architecture, we built a streaming lake warehouse system based on Flink CDC 3.0 + Apache Iceberg + Apache Amoro, and successfully achieved the minute-level readiness and query performance transition of a single customer&amp;rsquo;s daily average of tens of billions of data streams.</description>
+    </item>
+    
+    <item>
+      <title>Lessons Learned: Building Service Gateway with Tomcat And Virtual Threads</title>
+      <link>/sessions/webserver-889038.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-889038.html</guid>
+      <description>This technical session shares practical experiences and key insights gained from building and deploying a production service gateway using Tomcat and Java 21 virtual threads. We&amp;rsquo;ll explore how Tomcat&amp;rsquo;s native virtual thread support transforms gateway performance, the challenges faced during migration, and best practices that emerged during our journey of modernizing a traditional Tomcat-based service gateway with Project Loom&amp;rsquo;s virtual threads.
+Speakers: 
+Yike Xiao: 智联招聘, Senior Software Engineer
+A veteran distributed systems architect with over a five years of hands-on experience in:</description>
     </item>
     
     <item>
@@ -708,41 +735,31 @@ For example, on an e-commerce platform, when a user searches for “white dress 
     </item>
     
     <item>
+      <title>Practical Experiences in Ant Open Source Incubation</title>
+      <link>/sessions/community-913430.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-913430.html</guid>
+      <description>Ant Group (fintech company with 25K employees) has been an active participant in Open Source community with many projects, such as Apache Fury, Apache Seata, Apache Seata, Apache HoraeDB.
+The Ant Group Open Source Incubation, deeply rooted in the principles of the Apache Way, is a dedicated platform fostering innovation and collaboration within the open-source ecosystem. It embraces the core tenets of community-driven development, meritocracy, transparency, and open communication, ensuring that projects nurtured under its umbrella adhere to the highest standards of quality, inclusivity, and sustainability.</description>
+    </item>
+    
+    <item>
+      <title>Practice of Flink Memory Governance at ByteDance</title>
+      <link>/sessions/streaming-903630.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-903630.html</guid>
+      <description>As the demand for streaming tasks continues to grow within ByteDance, Flink has been widely adopted across various business domains at scale. Among the resource costs of these large-scale tasks, memory stands out as a significant contributor—especially heap memory. The total allocated memory for all tasks has reached tens of thousands of terabytes, yet the JVM heap utilization remains below 50%, and container-level memory usage is under 70%. Against the backdrop of company-wide cost reduction and efficiency improvement, we have carried out a series of memory optimizations focused on heap memory usage prediction, off-heap memory usage tracking, and simplifying Flink’s memory model.</description>
+    </item>
+    
+    <item>
       <title>Practices of Metrics Collection for Apache Pulsar in Large-Scale Partition</title>
       <link>/sessions/messaging-880460.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
       
       <guid>/sessions/messaging-880460.html</guid>
       <description>Apache Pulsar is a high-performance messaging queue that supports a massive number of Topics, allowing users to create hundreds of thousands or even millions of partitions within a single cluster. Metrics are a crucial tool for us to identify and diagnose issues in production environments. The effectiveness of observability directly impacts the speed of troubleshooting. In scenarios with a large number of partitions, enabling Topic-level Metrics can generate a significant number of Metrics strings in a short period, causing severe memory fluctuations and potentially destabilizing the cluster.</description>
-    </item>
-    
-    <item>
-      <title>Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake</title>
-      <link>/sessions/streaming-868206.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-868206.html</guid>
-      <description>Message queues are essential for real-time use cases like payment processing, fraud detection, and AI-powered support systems—but traditional queues often lack scalability, durability, and replayability. In this talk, we explore how Kafka 4.0 brings native queue semantics to the world of distributed streaming, enabling fair, concurrent, and isolated message processing at scale.
-We’ll show how Apache Flink’s native LLM integration leverages this queue model to perform real-time Large Language Model (LLM) inference—like sentiment analysis or summarization—and how enriched results can be written directly to Apache Iceberg, a powerful data lakehouse for long-term analytics, data versioning &amp;amp; time travel and ML feedback loops.</description>
-    </item>
-    
-    <item>
-      <title>Scaling Together: Community-Driven Load Testing for Python Apps</title>
-      <link>/sessions/webserver-883006.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/sessions/webserver-883006.html</guid>
-      <description>Performance bottlenecks can make or break your app, but load testing often gets pushed aside during development. In the open-source world, why aren&amp;rsquo;t we treating performance testing as a shared responsibility? This talk shows how developers, testers, and infrastructure engineers can collaborate to build scalable Python applications.
-We&amp;rsquo;ll use a Django case study and Apache JMeter to demonstrate effective stress-testing techniques and common pitfalls to avoid. We&amp;rsquo;ll also explore open-source tools like Locust and k6, and discuss how the community can contribute by sharing test plans, scripts, and best practices.</description>
-    </item>
-    
-    <item>
-      <title>The Journey of an Open Source Contributor: Evolving from PR Submissions to Project Maintenance</title>
-      <link>/sessions/community-871883.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/sessions/community-871883.html</guid>
-      <description>Getting started with open source can be daunting, but every experienced contributor was once a beginner. In this talk, I will share my personal journey—from my first pull request to becoming an Apache Committer and the maintainer of multiple open-source projects. Drawing from my experience open-source initiatives, I will discuss how newcomers can effectively contribute to projects, build their reputation, and expand their influence within the community. Additionally, I will explore strategies for fostering community engagement, making meaningful contributions beyond code.</description>
     </item>
     
     <item>
@@ -768,14 +785,13 @@ Apache Cassandra Committer</description>
     </item>
     
     <item>
-      <title>Building a Unified Lakehouse Solution with Apache Cloudberry</title>
-      <link>/sessions/datalake-915987.html</link>
+      <title>Impala on Iceberg with Puffins</title>
+      <link>/sessions/datalake-914225.html</link>
       <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
       
-      <guid>/sessions/datalake-915987.html</guid>
-      <description>Data warehouses excel at fast analytics, while data lakes focus on scalable storage and flexible data management. The lakehouse architecture aims to combine the best of both—seamlessly integrating data across lakes and warehouses for efficient analysis and unified governance.
-As a next-generation open-source MPP database, Apache Cloudberry extends its technical boundaries to build an open lakehouse solution. This talk introduces Cloudberry’s key capabilities in enabling a unified lakehouse architecture:
- Accelerated lake queries on Parquet/ORC without data movement Unified data gateway for querying and writing across heterogeneous sources Integrated data processing and sync pipeline, enabling end-to-end flow from ingestion to analytics Open metadata and storage formats for easier ecosystem integration and reduced migration cost  Speakers:</description>
+      <guid>/sessions/datalake-914225.html</guid>
+      <description>The Apache Iceberg table format has become a de-facto standard in the Big Data world. Its numerous advantages over traditional file system based table formats - like row level modifications, transactions, partition transforms and time travelling - have made it a natural first choice for many projects.
+Statistics about the data can be of immense help to database engines in creating efficient query plans. As a leading table format, Iceberg aims to provide a standardised way of storing these statistics: in addition to file level attributes already present in the core specification (like min and max values), it has introduced the Puffin file format for storing statistics over the whole table.</description>
     </item>
     
     <item>
@@ -799,32 +815,32 @@ At Tencent Cloud, we have developed a robust, cloud-based MQTT solution built on
     </item>
     
     <item>
-      <title>Practical Experiences in Ant Open Source Incubation</title>
-      <link>/sessions/community-913430.html</link>
+      <title>Nurturing New Contributors: The Art of Crafting Good First Issues</title>
+      <link>/sessions/community-912217.html</link>
       <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
       
-      <guid>/sessions/community-913430.html</guid>
-      <description>Ant Group (fintech company with 25K employees) has been an active participant in Open Source community with many projects, such as Apache Fury, Apache Seata, Apache Seata, Apache HoraeDB.
-The Ant Group Open Source Incubation, deeply rooted in the principles of the Apache Way, is a dedicated platform fostering innovation and collaboration within the open-source ecosystem. It embraces the core tenets of community-driven development, meritocracy, transparency, and open communication, ensuring that projects nurtured under its umbrella adhere to the highest standards of quality, inclusivity, and sustainability.</description>
+      <guid>/sessions/community-912217.html</guid>
+      <description>In the world of open source development, the journey of a new contributor often begins with their first issue. This presentation explores the crucial role of &amp;lsquo;good first issues&amp;rsquo; in GitHub repositories and how they serve as a gateway for newcomers to the open source community. We&amp;rsquo;ll delve into the best practices for creating these issues, focusing on clarity, approachability, and educational value.
+The talk will cover strategies for identifying appropriate tasks, writing clear descriptions, and providing necessary context and resources.</description>
     </item>
     
     <item>
-      <title>Practice of Flink Memory Governance at ByteDance</title>
-      <link>/sessions/streaming-903630.html</link>
+      <title>Practice of Apache Flink Real-time Computing in China Mobile Cloud</title>
+      <link>/sessions/streaming-914285.html</link>
       <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
       
-      <guid>/sessions/streaming-903630.html</guid>
-      <description>As the demand for streaming tasks continues to grow within ByteDance, Flink has been widely adopted across various business domains at scale. Among the resource costs of these large-scale tasks, memory stands out as a significant contributor—especially heap memory. The total allocated memory for all tasks has reached tens of thousands of terabytes, yet the JVM heap utilization remains below 50%, and container-level memory usage is under 70%. Against the backdrop of company-wide cost reduction and efficiency improvement, we have carried out a series of memory optimizations focused on heap memory usage prediction, off-heap memory usage tracking, and simplifying Flink’s memory model.</description>
+      <guid>/sessions/streaming-914285.html</guid>
+      <description>The diversity of computing scenarios continuously drives the innovation of big data technologies. And the real-time lakehouse represents the current mainstream trend. The real-time lakehouse has been widely applied to various businesses of Mobile Cloud. Facing complex usage scenarios and extremely large data volumes, many challenges have been encountered during the construction of the real-time lakehouse. This sharing will introduce Mobile Cloud&amp;rsquo;s thoughts and construction in the aspect of the real-time lakehouse.</description>
     </item>
     
     <item>
-      <title>Reshaping OpenTelemetry with Apache Arrow</title>
-      <link>/sessions/webserver-915263.html</link>
+      <title>Scaling Together: Community-Driven Load Testing for Python Apps</title>
+      <link>/sessions/webserver-883006.html</link>
       <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
       
-      <guid>/sessions/webserver-915263.html</guid>
-      <description>OpenTelemetry is a widely adopted open-source standard for building observability frameworks, offering tools, APIs, and SDKs to generate, collect, and export telemetry data like metrics, logs, and traces. However, its transport protocol relies on Protocol Buffer messages that are stateless and easy to interpret but have a row-based structure that complicates compression. This limitation becomes more significant when transferring large volumes of data across network boundaries.
-In my session, I will present a proposal to address this issue by enhancing the OpenTelemetry protocol with Apache Arrow, referred to as OTel-Arrow.</description>
+      <guid>/sessions/webserver-883006.html</guid>
+      <description>Performance bottlenecks can make or break your app, but load testing often gets pushed aside during development. In the open-source world, why aren&amp;rsquo;t we treating performance testing as a shared responsibility? This talk shows how developers, testers, and infrastructure engineers can collaborate to build scalable Python applications.
+We&amp;rsquo;ll use a Django case study and Apache JMeter to demonstrate effective stress-testing techniques and common pitfalls to avoid. We&amp;rsquo;ll also explore open-source tools like Locust and k6, and discuss how the community can contribute by sharing test plans, scripts, and best practices.</description>
     </item>
     
     <item>
@@ -848,12 +864,13 @@ Zhuyuan Yang: Technical Expert of China Unicom Digital Intelligence Co.</descrip
     </item>
     
     <item>
-      <title>Building a real-time data lakehouse in practice</title>
-      <link>/sessions/datalake-905869.html</link>
+      <title>Apache Polaris (Incubating) &amp; Apache XTable: Unifying Iceberg, Hudi, and other Table Formats</title>
+      <link>/sessions/datalake-916062.html</link>
       <pubDate>Sat, 26 Jul 2025 14:00:00 +0000</pubDate>
       
-      <guid>/sessions/datalake-905869.html</guid>
-      <description>In the era of real-time driven business decision-making, the architecture design of high-throughput data lake warehouse has become the decisive battlefield for enterprise digital transformation. Faced with the insurmountable timeliness bottleneck of traditional batch processing architecture, we built a streaming lake warehouse system based on Flink CDC 3.0 + Apache Iceberg + Apache Amoro, and successfully achieved the minute-level readiness and query performance transition of a single customer&amp;rsquo;s daily average of tens of billions of data streams.</description>
+      <guid>/sessions/datalake-916062.html</guid>
+      <description>Apache Polaris (Incubating) implements the Apache Iceberg REST catalog specification and allows users to manage Iceberg tables, views, and other related metadata. Role-based access control governs which users have access to what data, and Polaris supports attaching policies to tables in order to categorize data and to configure table maintenance.
+A new integration with Apache XTable promises to extend this same functionality to non-Iceberg tables. Polaris recently introduced &amp;ldquo;generic tables&amp;rdquo; &amp;ndash; allowing users to manage their Apache Hudi tables within Polaris alongside tables backed by Apache Kafka or other systems.</description>
     </item>
     
     <item>
@@ -878,28 +895,6 @@ I graduated from Tianjin University majoring in software engineering. At present
     </item>
     
     <item>
-      <title>Lessons Learned: Building Service Gateway with Tomcat And Virtual Threads</title>
-      <link>/sessions/webserver-889038.html</link>
-      <pubDate>Sat, 26 Jul 2025 14:00:00 +0000</pubDate>
-      
-      <guid>/sessions/webserver-889038.html</guid>
-      <description>This technical session shares practical experiences and key insights gained from building and deploying a production service gateway using Tomcat and Java 21 virtual threads. We&amp;rsquo;ll explore how Tomcat&amp;rsquo;s native virtual thread support transforms gateway performance, the challenges faced during migration, and best practices that emerged during our journey of modernizing a traditional Tomcat-based service gateway with Project Loom&amp;rsquo;s virtual threads.
-Speakers: 
-Yike Xiao: 智联招聘, Senior Software Engineer
-A veteran distributed systems architect with over a five years of hands-on experience in:</description>
-    </item>
-    
-    <item>
-      <title>Nurturing New Contributors: The Art of Crafting Good First Issues</title>
-      <link>/sessions/community-912217.html</link>
-      <pubDate>Sat, 26 Jul 2025 14:00:00 +0000</pubDate>
-      
-      <guid>/sessions/community-912217.html</guid>
-      <description>In the world of open source development, the journey of a new contributor often begins with their first issue. This presentation explores the crucial role of &amp;lsquo;good first issues&amp;rsquo; in GitHub repositories and how they serve as a gateway for newcomers to the open source community. We&amp;rsquo;ll delve into the best practices for creating these issues, focusing on clarity, approachability, and educational value.
-The talk will cover strategies for identifying appropriate tasks, writing clear descriptions, and providing necessary context and resources.</description>
-    </item>
-    
-    <item>
       <title>Optimization and practice of Doris on Paimon in Xiaomi</title>
       <link>/sessions/olap-911203.html</link>
       <pubDate>Sat, 26 Jul 2025 14:00:00 +0000</pubDate>
@@ -909,22 +904,46 @@ The talk will cover strategies for identifying appropriate tasks, writing clear 
     </item>
     
     <item>
-      <title>Practice of Apache Flink Real-time Computing in China Mobile Cloud</title>
-      <link>/sessions/streaming-914285.html</link>
+      <title>Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake</title>
+      <link>/sessions/streaming-868206.html</link>
       <pubDate>Sat, 26 Jul 2025 14:00:00 +0000</pubDate>
       
-      <guid>/sessions/streaming-914285.html</guid>
-      <description>The diversity of computing scenarios continuously drives the innovation of big data technologies. And the real-time lakehouse represents the current mainstream trend. The real-time lakehouse has been widely applied to various businesses of Mobile Cloud. Facing complex usage scenarios and extremely large data volumes, many challenges have been encountered during the construction of the real-time lakehouse. This sharing will introduce Mobile Cloud&amp;rsquo;s thoughts and construction in the aspect of the real-time lakehouse.</description>
+      <guid>/sessions/streaming-868206.html</guid>
+      <description>Message queues are essential for real-time use cases like payment processing, fraud detection, and AI-powered support systems—but traditional queues often lack scalability, durability, and replayability. In this talk, we explore how Kafka 4.0 brings native queue semantics to the world of distributed streaming, enabling fair, concurrent, and isolated message processing at scale.
+We’ll show how Apache Flink’s native LLM integration leverages this queue model to perform real-time Large Language Model (LLM) inference—like sentiment analysis or summarization—and how enriched results can be written directly to Apache Iceberg, a powerful data lakehouse for long-term analytics, data versioning &amp;amp; time travel and ML feedback loops.</description>
     </item>
     
     <item>
-      <title>Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures</title>
-      <link>/sessions/datalake-868208.html</link>
+      <title>Solving Complex Problems with AI Agents Design Patterns Using Spring AI</title>
+      <link>/sessions/webserver-895485.html</link>
+      <pubDate>Sat, 26 Jul 2025 14:00:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-895485.html</guid>
+      <description>This session demonstrates how to use Spring AI and design patterns to build AI agents to tackle complex problems. We&amp;rsquo;ll explore patterns for breaking down problems into sub-tasks, integrating external tools and APIs, and managing agent state.
+The session will cover key design principles, real-world examples, and best practices, empowering software engineers to create sophisticated AI agents easily.
+Attendees will gain practical insights into how to apply these patterns to create agents capable of performing tasks such as data analysis, decision-making, and process automation.</description>
+    </item>
+    
+    <item>
+      <title>Why is it So Hard?</title>
+      <link>/sessions/community-914929.html</link>
+      <pubDate>Sat, 26 Jul 2025 14:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-914929.html</guid>
+      <description>Why is it So Hard&amp;hellip;
+to submit patches to a project/podling? to become a committer on a project/podling? to release code to the public? to maintain trademarks for a project/podling?
+This talk explains what common barriers are to accomplishing objectives of people and projects. It explains why The ASF has:
+ licensing requirements for code contributions and releases, download, signing, and checksum protocols voting requirements for releases and project membership trademark requirements for web sites and documentation  With a better common understanding of the legal and technical reasons for apparently arbitrary requirements, people will have an appreciation for how things can be easier.</description>
+    </item>
+    
+    <item>
+      <title>Accelerate Spark Queries with Gluten and Velox Engine on Arm64</title>
+      <link>/sessions/datalake-884074.html</link>
       <pubDate>Fri, 25 Jul 2025 17:15:00 +0000</pubDate>
       
-      <guid>/sessions/datalake-868208.html</guid>
-      <description>Most Apache Iceberg talks wax poetic about time travel and ACID compliance—yawn. But what about the features nobody’s shouting about? The ones that turn chaos into control, experiments into wins, and static tables into agentic powerhouses - let your data platform think for itself ? Welcome, here we will learn Iceberg’s hidden toolkit.
-Here’s the plan for our 30-minute dive: Start with a 5-minute intro on why Iceberg’s hidden gems outshine the basics.</description>
+      <guid>/sessions/datalake-884074.html</guid>
+      <description>Apache Spark SQL provides a robust solution, enabling users to process massive datasets efficiently. Recently, Project Gluten was introduced as an Apache Arrow-based native SQL engine designed to enhance Spark SQL&amp;rsquo;s capabilities. Concurrently, several vectorized SQL engines with vibrant open-source communities have gained traction. Among them, the Meta-led Velox project stands out as a promising vectorized database acceleration library.
+The Gluten-Velox integration represents a significant leap forward, delivering an optimized Spark SQL accelerator tailored for the Arm platform.</description>
     </item>
     
     <item>
@@ -955,17 +974,6 @@ Expert in Distributed Computing Engines at Ant Financial, Calcite Committer and 
       
       <guid>/sessions/olap-913140.html</guid>
       <description>AI applications and data science workflows increasingly rely on unstructured data. Apache Cloudberry introduces Directory Table, a new table type designed to manage unstructured data natively within the database. It supports unified metadata management, integration with in-database analytics, and advanced data science workflows. This talk will walk through the design philosophy, implementation details, and usage examples of the Directory Table, illustrating how it bridges structured and unstructured data in a unified platform.</description>
-    </item>
-    
-    <item>
-      <title>Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses</title>
-      <link>/sessions/datalake-896996.html</link>
-      <pubDate>Fri, 25 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/sessions/datalake-896996.html</guid>
-      <description>In this talk, we&amp;rsquo;ll dive deep into Apache Iceberg and discover practical techniques for maintaining large-scale data tables efficiently. We’ll guide you through the core challenges of table maintenance in modern data lakes and share strategies to optimize performance and ensure data integrity. You’ll learn how to apply best practices to manage metadata, handle table compaction, and automate maintenance tasks to minimize downtime and improve query performance.
-Session Outline
-Introduction</description>
     </item>
     
     <item>
@@ -1037,6 +1045,15 @@ Hongyin Zhang: Apache Committer, Master&amp;rsquo;s student at Tsinghua Universi
       
       <guid>/sessions/community-905769.html</guid>
       <description>This talk delves into the inner workings of the Apache Software Foundation board, shedding light on its workings and the responsibilities of its board members. Attendees will gain a comprehensive understanding of the ASF board’s governance structure, decision-making processes, and its crucial role in overseeing one of the world’s largest groups of open-source communities. Drawing from real-life experiences, the speaker will share personal insights, challenges faced, and the rewarding aspects of contributing to ASF’s mission.</description>
+    </item>
+    
+    <item>
+      <title>​​Building Inverted Indexes on Iceberg with Tantivy: A Hands-on Approach​​</title>
+      <link>/sessions/datalake-915144.html</link>
+      <pubDate>Fri, 25 Jul 2025 16:45:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-915144.html</guid>
+      <description>In big data scenarios, efficient data retrieval is a core requirement for many business applications.​​ As the cornerstone of full-text search and complex queries, inverted indexes can significantly improve query performance, particularly excelling in log analysis scenarios requiring fuzzy matching. Compared to traditional solutions, leveraging the storage scalability and compute-storage separation advantages of lakehouse table formats can effectively reduce index storage costs. However, implementing scalable, low-maintenance inverted indexes in data lake architectures using modern table formats (like Apache Iceberg) still presents multiple challenges, including real-time synchronization between indexes and data, consistency guarantees in distributed environments, and query optimization issues.</description>
     </item>
     
     <item>
@@ -1175,13 +1192,13 @@ Zuo Yan, a telecommunications data intelligence technology expert, is responsibl
     </item>
     
     <item>
-      <title>From Hadoop to Kubernetes: The Cloud-Native Evolution of Li Auto&#39;s Big Data Platform</title>
-      <link>/sessions/cloudnative-911204.html</link>
+      <title>Elevating Data Processing: Strategies for Seamless Batch Management in Cloud Architectures</title>
+      <link>/sessions/cloudnative-868204.html</link>
       <pubDate>Fri, 25 Jul 2025 15:45:00 +0000</pubDate>
       
-      <guid>/sessions/cloudnative-911204.html</guid>
-      <description>Abstract: In the construction of our big data platform, we transitioned from traditional deployments using the Apache Hadoop ecosystem to achieving storage-compute separation with JuiceFS, and finally migrated to a Kubernetes-centric scheduling system. This technological evolution spans three aspects: storage, computing, and cluster architecture, aiming to enhance data processing efficiency.
-Storage Optimization By replacing HDFS with JuiceFS, we implemented elastic computing with centralized storage, resolving capacity scaling and resource utilization challenges in cloud environments.</description>
+      <guid>/sessions/cloudnative-868204.html</guid>
+      <description>Organizations today are overwhelmed with vast data requiring effective batch processing. Managing these jobs can lead to complexity, resource wastage, and increased operational costs, hindering business productivity.
+Cloud-native technologies, including the Batch Processing Gateway, Spark on Kubernetes, and the Yunicorn Scheduler, offer robust solutions to these challenges. These tools automate job management, streamline resource allocation, and enhance scheduling efficiency. Our talk will delve into how these technologies work together to optimize processing workloads and improve operational workflows.</description>
     </item>
     
     <item>
@@ -1257,13 +1274,13 @@ Jianqun Liu:, China Telecom Bestpay Co.,Ltd. Technical Director , ChinaTelecom S
     </item>
     
     <item>
-      <title>Elevating Data Processing: Strategies for Seamless Batch Management in Cloud Architectures</title>
-      <link>/sessions/cloudnative-868204.html</link>
+      <title>From Hadoop to Kubernetes: The Cloud-Native Evolution of Li Auto&#39;s Big Data Platform</title>
+      <link>/sessions/cloudnative-911204.html</link>
       <pubDate>Fri, 25 Jul 2025 15:00:00 +0000</pubDate>
       
-      <guid>/sessions/cloudnative-868204.html</guid>
-      <description>Organizations today are overwhelmed with vast data requiring effective batch processing. Managing these jobs can lead to complexity, resource wastage, and increased operational costs, hindering business productivity.
-Cloud-native technologies, including the Batch Processing Gateway, Spark on Kubernetes, and the Yunicorn Scheduler, offer robust solutions to these challenges. These tools automate job management, streamline resource allocation, and enhance scheduling efficiency. Our talk will delve into how these technologies work together to optimize processing workloads and improve operational workflows.</description>
+      <guid>/sessions/cloudnative-911204.html</guid>
+      <description>Abstract: In the construction of our big data platform, we transitioned from traditional deployments using the Apache Hadoop ecosystem to achieving storage-compute separation with JuiceFS, and finally migrated to a Kubernetes-centric scheduling system. This technological evolution spans three aspects: storage, computing, and cluster architecture, aiming to enhance data processing efficiency.
+Storage Optimization By replacing HDFS with JuiceFS, we implemented elastic computing with centralized storage, resolving capacity scaling and resource utilization challenges in cloud environments.</description>
     </item>
     
     <item>
@@ -1274,16 +1291,6 @@ Cloud-native technologies, including the Batch Processing Gateway, Spark on Kube
       <guid>/sessions/datastorage-905877.html</guid>
       <description>This talk will dive into the real-world adoption of Apache Gluten and Apache Celeborn at Xiaomi, covering technical background, deployment journey, challenges, and future roadmap.
  Technology Landscape Xiaomi has built a large-scale offline computing platform centered around Spark, supporting over 100,000+ offline jobs running daily. This section will introduce the core technical architecture and key components Xiaomi relies on in offline computing, as well as the positioning of Gluten and Celeborn.</description>
-    </item>
-    
-    <item>
-      <title>Accelerate Spark Queries with Gluten and Velox Engine on Arm64</title>
-      <link>/sessions/datalake-884074.html</link>
-      <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
-      
-      <guid>/sessions/datalake-884074.html</guid>
-      <description>Apache Spark SQL provides a robust solution, enabling users to process massive datasets efficiently. Recently, Project Gluten was introduced as an Apache Arrow-based native SQL engine designed to enhance Spark SQL&amp;rsquo;s capabilities. Concurrently, several vectorized SQL engines with vibrant open-source communities have gained traction. Among them, the Meta-led Velox project stands out as a promising vectorized database acceleration library.
-The Gluten-Velox integration represents a significant leap forward, delivering an optimized Spark SQL accelerator tailored for the Arm platform.</description>
     </item>
     
     <item>
@@ -1313,6 +1320,16 @@ YiJia Su: Apache Doris Committer、SelectDB Solutions Architect、PowerData Spon
       
       <guid>/sessions/olap-912431.html</guid>
       <description>Apache Doris has undergone nearly 2 years of development at Cainiao, from early validation exploration to gradual implementation of core business scenarios, and has gone through the test of the Double 11 promotion peak, Currently, Doris is the best choice for OLAP at Cainiao. In this sharing, we will introduce Doris&#39; entire development process from 0 to 1 at Cainiao, the challenges she encountered, and more How can we achieve large-scale deployment based on the business scenario of Cainiao, helping businesses achieve significant cost reduction and stability improvement.</description>
+    </item>
+    
+    <item>
+      <title>Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures</title>
+      <link>/sessions/datalake-868208.html</link>
+      <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-868208.html</guid>
+      <description>Most Apache Iceberg talks wax poetic about time travel and ACID compliance—yawn. But what about the features nobody’s shouting about? The ones that turn chaos into control, experiments into wins, and static tables into agentic powerhouses - let your data platform think for itself ? Welcome, here we will learn Iceberg’s hidden toolkit.
+Here’s the plan for our 30-minute dive: Start with a 5-minute intro on why Iceberg’s hidden gems outshine the basics.</description>
     </item>
     
     <item>
@@ -1405,6 +1422,17 @@ I am currently employed by China Unicom Data Intelligence Co., Ltd. I contribute
     </item>
     
     <item>
+      <title>Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses</title>
+      <link>/sessions/datalake-896996.html</link>
+      <pubDate>Fri, 25 Jul 2025 14:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-896996.html</guid>
+      <description>In this talk, we&amp;rsquo;ll dive deep into Apache Iceberg and discover practical techniques for maintaining large-scale data tables efficiently. We’ll guide you through the core challenges of table maintenance in modern data lakes and share strategies to optimize performance and ensure data integrity. You’ll learn how to apply best practices to manage metadata, handle table compaction, and automate maintenance tasks to minimize downtime and improve query performance.
+Session Outline
+Introduction</description>
+    </item>
+    
+    <item>
       <title>Apache RocketMQ Eventbridge: Why Your GenAI Needs EDA？</title>
       <link>/sessions/messaging-908058.html</link>
       <pubDate>Fri, 25 Jul 2025 14:00:00 +0000</pubDate>
@@ -1424,15 +1452,6 @@ I am currently employed by China Unicom Data Intelligence Co., Ltd. I contribute
 Speakers: 
 Erik Fang: Software Engineer at Ant Group, Tech Leader
 Erik Fang, Software Engineer at Ant Group, Tech Leader</description>
-    </item>
-    
-    <item>
-      <title>​​Building Inverted Indexes on Iceberg with Tantivy: A Hands-on Approach​​</title>
-      <link>/sessions/datalake-915144.html</link>
-      <pubDate>Fri, 25 Jul 2025 14:00:00 +0000</pubDate>
-      
-      <guid>/sessions/datalake-915144.html</guid>
-      <description>In big data scenarios, efficient data retrieval is a core requirement for many business applications.​​ As the cornerstone of full-text search and complex queries, inverted indexes can significantly improve query performance, particularly excelling in log analysis scenarios requiring fuzzy matching. Compared to traditional solutions, leveraging the storage scalability and compute-storage separation advantages of lakehouse table formats can effectively reduce index storage costs. However, implementing scalable, low-maintenance inverted indexes in data lake architectures using modern table formats (like Apache Iceberg) still presents multiple challenges, including real-time synchronization between indexes and data, consistency guarantees in distributed environments, and query optimization issues.</description>
     </item>
     
     <item>

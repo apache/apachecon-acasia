@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Reshaping OpenTelemetry with Apache Arrow - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <title>eBPF &#43; LLM：DeepFlow 全栈可观测性与 AI 代理实践案例 - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Reshaping OpenTelemetry with Apache Arrow'/>
+    <meta property='og:title' content='eBPF &#43; LLM：DeepFlow 全栈可观测性与 AI 代理实践案例'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -59,8 +59,8 @@
         <ul class="navbar-nav">
             
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">
-                        Home
+                    <a class="nav-link" href="/zh/index.html">
+                        首页
                     </a>
                 </li>
             
@@ -68,34 +68,39 @@
             
                 <li class="nav-item">
                     
-                    <a href="/tracks.html" class="nav-link">Schedule</a>
+                    <a href="/zh/tracks.html" class="nav-link">会议日程</a>
                 </li>
             
                 <li class="nav-item">
                     
-                    <a href="/guide/visa_letter_request.html" class="nav-link">Guide</a>
+                    <a href="/zh/sponsor.html" class="nav-link">会议赞助</a>
                 </li>
             
                 <li class="nav-item">
                     
-                    <a href="/sponsor.html" class="nav-link">Sponsor</a>
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
                 </li>
             
                 <li class="nav-item">
                     
-                    <a href="/venue_travel/venue.html" class="nav-link">Venue &#43; Travel</a>
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="" class="nav-link"></a>
                 </li>
             
             
                 
                     <li class="nav-item">
-                        <a href="/zh/sessions/webserver-915263.html" class="nav-link" >中文</a>
+                        <a href="/sessions/observability-914561.html" class="nav-link" >English</a>
                     </li>
                 
             
             <div class="ms-0 ms-lg-4">
-                <a href="index.html#register" role="button" class="btn btn-warning">
-                    Register
+                <a href="/zh/index.html#register" role="button" class="btn btn-warning">
+                    注册参会
                 </a>
             </div>
             
@@ -130,21 +135,20 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Reshaping OpenTelemetry with Apache Arrow</h3>
-                    <h4>Lei Huang</h4>
-                    English Session  2025-07-26 16:15 GMT&#43;8&nbsp;
+                    <h3 class="text-center">eBPF &#43; LLM：DeepFlow 全栈可观测性与 AI 代理实践案例</h3>
+                    <h4>Yang Xiang</h4>
+                    中文演讲  2025-07-27 16:45 GMT&#43;8&nbsp;
                     
-                        (ROOM : Mtn Yang Hall)
+                        (ROOM : 阳山会议室)
                     
-                    <a class="label" href="/tracks/webserver.html">#webserver</a></li>
+                    <a class="label" href="/zh/tracks/observability.html">#observability</a></li>
                 </header>
 
-                <p>OpenTelemetry is a widely adopted open-source standard for building observability frameworks, offering tools, APIs, and SDKs to generate, collect, and export telemetry data like metrics, logs, and traces. However, its transport protocol relies on Protocol Buffer messages that are stateless and easy to interpret but have a row-based structure that complicates compression. This limitation becomes more significant when transferring large volumes of data across network boundaries.</p>
-<p>In my session, I will present a proposal to address this issue by enhancing the OpenTelemetry protocol with Apache Arrow, referred to as OTel-Arrow. This initiative aims to utilize Apache Arrow for bulk data compression and transfer in OpenTelemetry pipelines. We will discuss the OTel-Arrow data model, existing infrastructures that have implemented it, benchmark results comparing OTel-Arrow with the original implementation, and our integration of OTel-Arrow into modern time-series databases using the Apache Parquet format to facilitate fast analytics through a real-time query engine built on Apache DataFusion.</p>
-<h3 id="speakers">Speakers:</h3>
-<p><img src="https://sessionize.com/image/4df2-400o400o1-EVUc7f9M53frxPdweN8rwZ.jpg" width="200" /><br/></p>
-<p>Lei Huang: Database Developer at Greptime, Hangzhou, China</p>
-<p>Lei is a passionate open-source database developer from China. After obtaining his master&rsquo;s degree in Computer Science from Peking University, he joined Alipay to work on infrastructure and middleware development, leading the development of a massive-scale message queue used for transaction processing. Later, he joined Greptime as a founding member, primarily responsible for the development of the storage engine. His main interests are distributed systems and database storage subsystems.</p>
+                <p>Apache APISIX、Kafka、RocketMQ 和 Pulsar 都是优秀的中间件软件，应用广泛。然而这些中间件的可观测性通常仅限于粗粒度的指标暴露，缺乏与分布式追踪的关联。因此当面临长尾性能问题时，中间件运维人员往往只能通过 tcpdump 或日志分析等基础工具进行排障和根因定位，效率低下。eBPF 的零侵入特性有效解决了这些痛点。DeepFlow（开源项目）利用 eBPF 实现了对各类 Apache 中间件服务&quot;代码函数、系统调用、文件 I/O、网络转发&quot;的全栈可观测性，无需任何配置变更或进程重启。同时基于通过 MCP 协议暴露的全栈可观测性数据，DeepFlow AI Agent 能够快速自主识别性能瓶颈并提供优化建议。本次演讲将介绍 DeepFlow 的中间件全栈可观测性实现实践，以及基于 LLM 的 AI 代理典型排障案例。</p>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://sessionize.com/image/b6e1-400o400o1-pQaQfhiHLxaGPmnakbBHWu.jpg" width="200" /><br/></p>
+<p>Yang Xiang: 云山网络，总裁</p>
+<p>清华大学博士，现任云山网络总裁兼 DeepFlow 开源社区负责人。他曾在 ACM SIGCOMM 和 ACM IMC 等国际顶级学术会议上发表过关于应用可观测性和网络测量等主题的学术论文。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Reshaping OpenTelemetry with Apache Arrow - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <title>Kafka 4.0 Highlights: Features, Removals, and Upgrades - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Reshaping OpenTelemetry with Apache Arrow'/>
+    <meta property='og:title' content='Kafka 4.0 Highlights: Features, Removals, and Upgrades'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -89,7 +89,7 @@
             
                 
                     <li class="nav-item">
-                        <a href="/zh/sessions/webserver-915263.html" class="nav-link" >中文</a>
+                        <a href="/zh/sessions/streaming-910562.html" class="nav-link" >中文</a>
                     </li>
                 
             
@@ -130,21 +130,41 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Reshaping OpenTelemetry with Apache Arrow</h3>
-                    <h4>Lei Huang</h4>
-                    English Session  2025-07-26 16:15 GMT&#43;8&nbsp;
+                    <h3 class="text-center">Kafka 4.0 Highlights: Features, Removals, and Upgrades</h3>
+                    <h4>Jiunn-Yang Huang, Chia-Ping Tsai, PoAn Yang, TengYao Chi, YiHuan LEE, Kuan Po Tseng</h4>
+                    Chinese Session  2025-07-26 17:45 GMT&#43;8&nbsp;
                     
-                        (ROOM : Mtn Yang Hall)
+                        (ROOM : YuanMing Hall)
                     
-                    <a class="label" href="/tracks/webserver.html">#webserver</a></li>
+                    <a class="label" href="/tracks/streaming.html">#streaming</a></li>
                 </header>
 
-                <p>OpenTelemetry is a widely adopted open-source standard for building observability frameworks, offering tools, APIs, and SDKs to generate, collect, and export telemetry data like metrics, logs, and traces. However, its transport protocol relies on Protocol Buffer messages that are stateless and easy to interpret but have a row-based structure that complicates compression. This limitation becomes more significant when transferring large volumes of data across network boundaries.</p>
-<p>In my session, I will present a proposal to address this issue by enhancing the OpenTelemetry protocol with Apache Arrow, referred to as OTel-Arrow. This initiative aims to utilize Apache Arrow for bulk data compression and transfer in OpenTelemetry pipelines. We will discuss the OTel-Arrow data model, existing infrastructures that have implemented it, benchmark results comparing OTel-Arrow with the original implementation, and our integration of OTel-Arrow into modern time-series databases using the Apache Parquet format to facilitate fast analytics through a real-time query engine built on Apache DataFusion.</p>
+                <p>While there’s already a lot of buzz around Kafka 4.0, most discussions focus on the headline features—like the removal of ZooKeeper or the introduction of new APIs. In this session, we want to highlight some of the lesser-known but equally important changes in Kafka 4.0. These updates might not grab the spotlight, but they can significantly impact how you configure, operate, and debug Kafka in real-world environments.</p>
+<p>One of the major questions users face is how to approach the upgrade to Kafka 4.0. KIP-896 removes support for protocol versions 2.0 and below, and KIP-1124 offers official guidance for upgrading Kafka clients, Connect, and Streams. On the server side, users must ensure JDK compatibility and consider how to transition from ZooKeeper-based setups to the new architecture. This section will cover the most critical considerations to keep in mind during the upgrade process.</p>
+<p>The Kafka test framework has also undergone a major evolution. Previously, tests were written using an inheritance-heavy design, where subclasses inherited cluster setup logic from parent classes. This made tests difficult to understand and debug, often introducing hidden dependencies and unnecessary configuration. The new test framework simplifies this by using JUnit annotations like @ClusterTest, making test logic clearer, more modular, and easier to maintain.</p>
+<p>Kafka 4.1 will also introduces smarter behavior in how it handles rack-aware rebalancing. In earlier versions, storing rack information consumed a large portion of memory for group metadata—up to 80% in some cases. KIP-1101 introduces a caching mechanism that detects rack topology changes efficiently, reducing memory usage and avoiding unnecessary recalculations during group rebalances.</p>
+<p>Finally, Kafka 4.0 completes a long-awaited logging upgrade with the delivery of KIP-653. Originally proposed in 2020, KIP-653 replaces reload4j with log4j2, finally resolving long-standing CVE concerns and modernizing the logging infrastructure. Alongside this, Kafka drops support for .properties log config files in favor of YAML. This section provides an overview of the migration and what users need to watch out for when adopting log4j2.</p>
 <h3 id="speakers">Speakers:</h3>
-<p><img src="https://sessionize.com/image/4df2-400o400o1-EVUc7f9M53frxPdweN8rwZ.jpg" width="200" /><br/></p>
-<p>Lei Huang: Database Developer at Greptime, Hangzhou, China</p>
-<p>Lei is a passionate open-source database developer from China. After obtaining his master&rsquo;s degree in Computer Science from Peking University, he joined Alipay to work on infrastructure and middleware development, leading the development of a massive-scale message queue used for transaction processing. Later, he joined Greptime as a founding member, primarily responsible for the development of the storage engine. His main interests are distributed systems and database storage subsystems.</p>
+<p><img src="https://sessionize.com/image/1452-400o400o1-JyMyZrzbPcSemqnPycYmag.jpg" width="200" /><br/></p>
+<p>Jiunn-Yang Huang: Backend Engineer</p>
+<p>I’m a backend engineer who contributes to Apache Kafka. I love learning about distributed systems and event streaming—especially how they power real-time data platforms at scale. Contributed over 100 commits last year and worked on memory optimizations in Kafka.</p>
+<p><img src="https://sessionize.com/image/2d3c-400o400o1-S4UZTbkX3EfAsvqD57soTa.jpg" width="200" /><br/></p>
+<p>Chia-Ping Tsai: Apache Member, Apache HBase PMC member, Apache Kafka PMC member, Apache YuniKorn PMC member</p>
+<p>Be a PhD by writing paper of distributed system. Be a PMC member by contributing code to distributed system. Be a valuable guy by enjoying distributed systems</p>
+<p><img src="https://sessionize.com/image/cdca-400o400o1-KCJ6DRaPTfEdWiiTQ4Zzxy.jpg" width="200" /><br/></p>
+<p>PoAn Yang: ASF, Apache YuniKorn committer</p>
+<p>I am an open-source software enthusiast, primarily focusing on Apache Kafka. I am among the top 20 contributors, and my work involves enhancing the AsyncKafkaConsumer and developing the next-generation group coordinator.</p>
+<p><img src="https://sessionize.com/image/b096-400o400o1-4neD1RFWbr1BXxdKrF69st.jpg" width="200" /><br/></p>
+<p>TengYao Chi: Apache Kafka Committer</p>
+<p>TengYao is a software engineer by day, an open source contributor by night.
+In the past year, he has the most commits in Apache Kafka across all contributors in the last 12 months. Most of his contributions are for the async consumer, the next-generation group coordinator protocol, and the migration of log4j2.</p>
+<p>He also loves penguins.</p>
+<p><img src="https://sessionize.com/image/c5ac-400o400o1-DuGnE5zsb5qfQTHAKajgzb.jpg" width="200" /><br/></p>
+<p>YiHuan LEE: Graduate student at National Cheng Kung University</p>
+<p>My research focuses on &ldquo;The Effect of Load Balancing on Kafka Performance&rdquo;</p>
+<p><img src="https://sessionize.com/image/4f33-400o400o1-U8VTJGFMti2BRV8KsAi6VB.png" width="200" /><br/></p>
+<p>Kuan Po Tseng: ASF, Apache Kafka Contributor</p>
+<p>My research focuses on &ldquo;The Effect of Load Balancing on Kafka Performance&rdquo;</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">
