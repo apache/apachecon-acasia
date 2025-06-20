@@ -1,6 +1,6 @@
 ---
 title: "Apache Cloudberry 简介：演变、主要特性和路线图"
-date: "2025-07-26T15:45:00"
+date: "2025-07-26T16:15:00"
 room:  "万春厅"
 track: "datalake"
 presenters: "Max Yang"

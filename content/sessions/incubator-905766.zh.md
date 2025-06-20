@@ -1,6 +1,6 @@
 ---
 title: "探索孵化流程"
-date: "2025-07-27T16:15:00"
+date: "2025-07-27T14:00:00"
 room:  "玉泉山会议室"
 track: "incubator"
 presenters: "Justin Mclean"

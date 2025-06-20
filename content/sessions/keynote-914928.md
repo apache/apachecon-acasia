@@ -4,7 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Craig Russell"
 stype: "English Session"
-room: ""
+room:  ""
 ---
 
 This talk discusses the current state of security in open source software, and in particular, how the ASF is responding to the growing threat.

@@ -1,6 +1,6 @@
 ---
 title: "Practice of Apache Flink Real-time Computing in China Mobile Cloud"
-date: "2025-07-26T14:00:00"
+date: "2025-07-26T14:30:00"
 room:  "YuanMing Hall"
 track: "streaming"
 presenters: "LEI XIE"

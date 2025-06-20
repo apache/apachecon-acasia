@@ -1,6 +1,6 @@
 ---
 title: "Practice of Flink Memory Governance at ByteDance"
-date: "2025-07-26T14:30:00"
+date: "2025-07-26T15:00:00"
 room:  "YuanMing Hall"
 track: "streaming"
 presenters: "Yiheng Tang, Shaojun Wang"

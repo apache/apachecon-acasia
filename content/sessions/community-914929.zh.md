@@ -1,6 +1,6 @@
 ---
 title: "为何如此艰难？"
-date: "2025-07-26T16:15:00"
+date: "2025-07-26T14:00:00"
 room:  "玉泉山会议室"
 track: "community"
 presenters: "Craig Russell"

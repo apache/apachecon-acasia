@@ -1,6 +1,6 @@
 ---
 title: "基于Arm64架构，使用Gluten和Velox引擎加速Spark查询"
-date: "2025-07-25T14:30:00"
+date: "2025-07-25T17:15:00"
 room:  "万春厅"
 track: "datalake"
 presenters: "Yuqi Gu"

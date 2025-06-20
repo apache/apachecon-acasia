@@ -1,6 +1,6 @@
 ---
 title: "Practical Experiences in Ant Open Source Incubation"
-date: "2025-07-26T14:30:00"
+date: "2025-07-26T15:00:00"
 room:  "Mtn YuQuan Hall"
 track: "community"
 presenters: "Peggy Dong"

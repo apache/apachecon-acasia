@@ -1,6 +1,6 @@
 ---
 title: "From Hadoop to Kubernetes: The Cloud-Native Evolution of Li Auto's Big Data Platform"
-date: "2025-07-25T15:45:00"
+date: "2025-07-25T15:00:00"
 room:  "Mtn Yang Hall"
 track: "cloudnative"
 presenters: "Han Qian"

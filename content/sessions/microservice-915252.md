@@ -1,6 +1,6 @@
 ---
 title: "The Next Generation Microservice Communication Protocol Based on HTTP."
-date: "2025-07-27T16:45:00"
+date: "2025-07-27T14:00:00"
 room:  "JingMing Hall"
 track: "microservice"
 presenters: "Jun Liu"

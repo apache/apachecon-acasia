@@ -1,6 +1,6 @@
 ---
 title: "AI时代分布式事务：Seata Saga模式的实践与展望"
-date: "2025-07-27T14:00:00"
+date: "2025-07-27T16:45:00"
 room:  "静明厅"
 track: "microservice"
 presenters: "Feng Zhang"
