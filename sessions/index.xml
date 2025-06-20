@@ -77,6 +77,18 @@ Open-source enthusiast Apache Seata(incubating) Committer</description>
     </item>
     
     <item>
+      <title>Apache SeaTunnel MCP Introduction and Demonstration</title>
+      <link>/sessions/dataops-908655.html</link>
+      <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-908655.html</guid>
+      <description>A Model Context Protocol (MCP) server for Apache Seatunnel. This provides access to your Apache Seatunnel RESTful API V2 instance and the surrounding ecosystem.
+Speakers: 
+Haicheng Zhang: Aisino Big Data Development Engineer Development Team Leader
+A Practitioner Who Likes to Toss</description>
+    </item>
+    
+    <item>
       <title>BifroMQ: A High-Performance MQTT Broker for Multi-Tenant</title>
       <link>/sessions/incubator-908738.html</link>
       <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
@@ -111,15 +123,6 @@ This session will reveal the core benefits of the BanyanDB architecture: it not 
     </item>
     
     <item>
-      <title>SeaTunnel Architecture Analysis and Cloudberry Integration Practice</title>
-      <link>/sessions/dataops-915377.html</link>
-      <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/dataops-915377.html</guid>
-      <description>In this session, we will explore Apache SeaTunnel, a high-performance distributed data integration platform designed for seamless synchronization of massive datasets across heterogeneous sources. Attendees will gain insights into SeaTunnel’s core architecture, including its modular plugin system, unified abstractions leveraging Spark and Flink, and its evolution from V1 to V2 with enhanced scalability and engine-agnostic design. We will delve into advanced features such as dynamic sharding strategies, data sampling techniques, and optimized handling of string-based partitioning for efficient data distribution.</description>
-    </item>
-    
-    <item>
       <title>Secure your Dubbo application using Triple and xDS</title>
       <link>/sessions/microservice-871350.html</link>
       <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
@@ -150,6 +153,15 @@ Apache Dubbo PMC. Interested in Cloud Native, Micro Service and Security.</descr
     </item>
     
     <item>
+      <title>Apache Gravitino Best Practices for Multi-Cluster Management</title>
+      <link>/sessions/dataops-912400.html</link>
+      <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-912400.html</guid>
+      <description>Apache Gravitino unifies the management of Data and AI metadata. Especially in the scenario of managing multiple clusters on and off the cloud, Gravitino&amp;rsquo;s unification of metadata can be very well utilized to bring out the benefits of sense-less migration and usage of data on and off the cloud, silky-smooth rolling upgrades of big data clusters, and unification of the permissions system for big data clusters in the public cloud and in privatized deployments.</description>
+    </item>
+    
+    <item>
       <title>Enhancing Performance and Reducing Cost for Object Store Access with Apache OpenDAL and Foyer</title>
       <link>/sessions/rust-908074.html</link>
       <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
@@ -165,16 +177,6 @@ Apache Dubbo PMC. Interested in Cloud Native, Micro Service and Security.</descr
       
       <guid>/sessions/incubator-906736.html</guid>
       <description>Apache Cloudberry, a massively parallel processing (MPP) database based on Greenplum, entered the Apache Incubator with the vision of bringing analytical power to the open-source community. As one of the initiators and ongoing contributors to the project, I’ve had the opportunity to closely experience every stage of the incubation journey — from drafting the proposal and forming the PPMC to announcing and marketing promotion, to cleaning up the source code, and building community momentum.</description>
-    </item>
-    
-    <item>
-      <title>Modern ETL for Text Vector Data Using Apache SeaTunnel and Amazon Bedrock</title>
-      <link>/sessions/dataops-906790.html</link>
-      <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/sessions/dataops-906790.html</guid>
-      <description>In the wave of enterprise intelligence upgrades, information retrieval is shifting from “keyword matching” to “semantic understanding.” Traditional search engines based on inverted indexes rely on string-level matching, which makes it difficult to capture the true intent behind user queries. This limits the effectiveness of search experiences, recommendation accuracy, customer service responses, and the intelligence of knowledge-based Q&amp;amp;A systems.
-For example, on an e-commerce platform, when a user searches for “white dress suitable for summer,” a system that only matches keywords in product titles or categories is unlikely to understand the full semantic meaning of “suitable for summer,” which may involve fabric, style, and other dimensions.</description>
     </item>
     
     <item>
@@ -230,18 +232,6 @@ In this session, we&amp;rsquo;ll explore how Apache Hive, powered by Apache Iceb
     </item>
     
     <item>
-      <title>Apache SeaTunnel MCP Introduction and Demonstration</title>
-      <link>/sessions/dataops-908655.html</link>
-      <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/sessions/dataops-908655.html</guid>
-      <description>A Model Context Protocol (MCP) server for Apache Seatunnel. This provides access to your Apache Seatunnel RESTful API V2 instance and the surrounding ecosystem.
-Speakers: 
-Haicheng Zhang: Aisino Big Data Development Engineer Development Team Leader
-A Practitioner Who Likes to Toss</description>
-    </item>
-    
-    <item>
       <title>From Graph to Intelligence: HugeGraph Powers Business AI Upgrades</title>
       <link>/sessions/incubator-914993.html</link>
       <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
@@ -267,6 +257,16 @@ A Practitioner Who Likes to Toss</description>
       
       <guid>/sessions/microservice-915240.html</guid>
       <description>In the constantly evolving wave of AI technology, microservice architecture has also ushered in unprecedented opportunities for upgrading. This speech will delve into how to integrate agents with microservice architecture to build &amp;ldquo;AI native&amp;rdquo; systems with autonomous decision-making capabilities. By introducing MCP (Model Context Protocol), a model context protocol, we can achieve efficient communication and context sharing between models and business services, and solve the problems of state maintenance, intention understanding and multiple rounds of collaboration in the invocation of large models.</description>
+    </item>
+    
+    <item>
+      <title>Modern ETL for Text Vector Data Using Apache SeaTunnel and Amazon Bedrock</title>
+      <link>/sessions/dataops-906790.html</link>
+      <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-906790.html</guid>
+      <description>In the wave of enterprise intelligence upgrades, information retrieval is shifting from “keyword matching” to “semantic understanding.” Traditional search engines based on inverted indexes rely on string-level matching, which makes it difficult to capture the true intent behind user queries. This limits the effectiveness of search experiences, recommendation accuracy, customer service responses, and the intelligence of knowledge-based Q&amp;amp;A systems.
+For example, on an e-commerce platform, when a user searches for “white dress suitable for summer,” a system that only matches keywords in product titles or categories is unlikely to understand the full semantic meaning of “suitable for summer,” which may involve fabric, style, and other dimensions.</description>
     </item>
     
     <item>
@@ -379,15 +379,6 @@ Future Outlook and Ecosystem Expansion  Directions for technological evolution A
     </item>
     
     <item>
-      <title>Apache Gravitino Best Practices for Multi-Cluster Management</title>
-      <link>/sessions/dataops-912400.html</link>
-      <pubDate>Sun, 27 Jul 2025 14:00:00 +0000</pubDate>
-      
-      <guid>/sessions/dataops-912400.html</guid>
-      <description>Apache Gravitino unifies the management of Data and AI metadata. Especially in the scenario of managing multiple clusters on and off the cloud, Gravitino&amp;rsquo;s unification of metadata can be very well utilized to bring out the benefits of sense-less migration and usage of data on and off the cloud, silky-smooth rolling upgrades of big data clusters, and unification of the permissions system for big data clusters in the public cloud and in privatized deployments.</description>
-    </item>
-    
-    <item>
       <title>Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ &amp; OpenTelemetry</title>
       <link>/sessions/observability-914976.html</link>
       <pubDate>Sun, 27 Jul 2025 14:00:00 +0000</pubDate>
@@ -412,6 +403,15 @@ Future Outlook and Ecosystem Expansion  Directions for technological evolution A
       
       <guid>/sessions/datalake-892384.html</guid>
       <description>Apache Gravitino is a unified metadata management platform adopted by Bilibili to address data silos, enabling metadata view integration across heterogeneous data sources such as Hive, Iceberg, Kafka and so on. Leveraging ​end-to-end lineage tracking, it traces data workflows from ingestion, processing, to service delivery, optimizing resource utilization and impact analysis of schema changes. By integrating Iceberg&amp;rsquo;s partitioning strategies (e.g., Truncate/Bucket) and Branch features, Gravitino supports flexible data versioning, multi-stream data stitching, and isolated testing environments.</description>
+    </item>
+    
+    <item>
+      <title>SeaTunnel Architecture Analysis and Cloudberry Integration Practice</title>
+      <link>/sessions/dataops-915377.html</link>
+      <pubDate>Sun, 27 Jul 2025 14:00:00 +0000</pubDate>
+      
+      <guid>/sessions/dataops-915377.html</guid>
+      <description>In this session, we will explore Apache SeaTunnel, a high-performance distributed data integration platform designed for seamless synchronization of massive datasets across heterogeneous sources. Attendees will gain insights into SeaTunnel’s core architecture, including its modular plugin system, unified abstractions leveraging Spark and Flink, and its evolution from V1 to V2 with enhanced scalability and engine-agnostic design. We will delve into advanced features such as dynamic sharding strategies, data sampling techniques, and optimized handling of string-based partitioning for efficient data distribution.</description>
     </item>
     
     <item>
@@ -713,6 +713,15 @@ I have been working in the big data field for over ten years, with a strong inte
     </item>
     
     <item>
+      <title>Empowering Serverless Messaging Architectures with Apache RocketMQ</title>
+      <link>/sessions/messaging-906870.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-906870.html</guid>
+      <description>In our latest work, which was accepted to the the ACM FSE 2025 Industry Track, Apache RocketMQ serves as a powerful foundation for serverless messaging systems, addressing the scalability, cost, and metadata challenges of traditional middleware. By decoupling storage and compute, Apache RocketMQ enables independent resource scaling, critical for unpredictable cloud workloads. Its elastic write partitions eliminate single-queue throughput limits, while light message queue support millions of queues with minimal cold-start latency.</description>
+    </item>
+    
+    <item>
       <title>Lessons Learned: Building Service Gateway with Tomcat And Virtual Threads</title>
       <link>/sessions/webserver-889038.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
@@ -751,15 +760,6 @@ The Ant Group Open Source Incubation, deeply rooted in the principles of the Apa
       
       <guid>/sessions/streaming-903630.html</guid>
       <description>As the demand for streaming tasks continues to grow within ByteDance, Flink has been widely adopted across various business domains at scale. Among the resource costs of these large-scale tasks, memory stands out as a significant contributor—especially heap memory. The total allocated memory for all tasks has reached tens of thousands of terabytes, yet the JVM heap utilization remains below 50%, and container-level memory usage is under 70%. Against the backdrop of company-wide cost reduction and efficiency improvement, we have carried out a series of memory optimizations focused on heap memory usage prediction, off-heap memory usage tracking, and simplifying Flink’s memory model.</description>
-    </item>
-    
-    <item>
-      <title>Practices of Metrics Collection for Apache Pulsar in Large-Scale Partition</title>
-      <link>/sessions/messaging-880460.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/sessions/messaging-880460.html</guid>
-      <description>Apache Pulsar is a high-performance messaging queue that supports a massive number of Topics, allowing users to create hundreds of thousands or even millions of partitions within a single cluster. Metrics are a crucial tool for us to identify and diagnose issues in production environments. The effectiveness of observability directly impacts the speed of troubleshooting. In scenarios with a large number of partitions, enabling Topic-level Metrics can generate a significant number of Metrics strings in a short period, causing severe memory fluctuations and potentially destabilizing the cluster.</description>
     </item>
     
     <item>
@@ -1096,15 +1096,6 @@ To overcome these constraints, we introduce a vectorized execution engine for Ap
     </item>
     
     <item>
-      <title>Empowering Serverless Messaging Architectures with Apache RocketMQ</title>
-      <link>/sessions/messaging-906870.html</link>
-      <pubDate>Fri, 25 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/messaging-906870.html</guid>
-      <description>In our latest work, which was accepted to the the ACM FSE 2025 Industry Track, Apache RocketMQ serves as a powerful foundation for serverless messaging systems, addressing the scalability, cost, and metadata challenges of traditional middleware. By decoupling storage and compute, Apache RocketMQ enables independent resource scaling, critical for unpredictable cloud workloads. Its elastic write partitions eliminate single-queue throughput limits, while light message queue support millions of queues with minimal cold-start latency.</description>
-    </item>
-    
-    <item>
       <title>Enhancing API Discovery with LLM: Supported with eBay&#39;s NuGraph Powered by Apache TinkerPop</title>
       <link>/sessions/ai-910588.html</link>
       <pubDate>Fri, 25 Jul 2025 16:15:00 +0000</pubDate>
@@ -1123,6 +1114,15 @@ To overcome these constraints, we introduce a vectorized execution engine for Ap
  Observability challenges Observability powered by Apache Doris, including architecture, ecosystem, key technics Typical user cases  Speakers: 
 Kang Xiao: Apache Doris PMC Member and SelectDB VP
 SelectDB, VP QianXin and 360, Director Baidu, Senior Engineer</description>
+    </item>
+    
+    <item>
+      <title>Practices of Metrics Collection for Apache Pulsar in Large-Scale Partition</title>
+      <link>/sessions/messaging-880460.html</link>
+      <pubDate>Fri, 25 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/sessions/messaging-880460.html</guid>
+      <description>Apache Pulsar is a high-performance messaging queue that supports a massive number of Topics, allowing users to create hundreds of thousands or even millions of partitions within a single cluster. Metrics are a crucial tool for us to identify and diagnose issues in production environments. The effectiveness of observability directly impacts the speed of troubleshooting. In scenarios with a large number of partitions, enabling Topic-level Metrics can generate a significant number of Metrics strings in a short period, causing severe memory fluctuations and potentially destabilizing the cluster.</description>
     </item>
     
     <item>

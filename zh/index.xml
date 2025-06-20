@@ -186,6 +186,18 @@ Apache DataFusion PMC、Apache Arrow 提交者、Apache HoraeDB PPMC Greptime �
     </item>
     
     <item>
+      <title>Apache SeaTunnel MCP 介绍与演示</title>
+      <link>/zh/sessions/dataops-908655.html</link>
+      <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/dataops-908655.html</guid>
+      <description>Apache SeaTunnel 的模型上下文协议（MCP）服务器。该服务器可访问您的 Apache SeaTunnel RESTful API V2 实例及其周边生态系统。
+讲师: 
+Haicheng Zhang: 航天信息大数据开发工程师 开发组组长
+一位喜欢折腾的从业者</description>
+    </item>
+    
+    <item>
       <title>BifroMQ：面向多租户的高性能 MQTT 代理</title>
       <link>/zh/sessions/incubator-908738.html</link>
       <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
@@ -207,19 +219,6 @@ Hao Yonny(Yu): 百度, 高级软件工程师
  Flink 和 Paimon 如何利用 Variant 数据类型和 Variant 分解来提升处理半结构化数据的性能 ；* Flink 如何利用 Paimon 的 bucket 机制加速与 Paimon 维度表的连接； 简化和提升用户数据湖管理体验的增强功能  讲师: 
 Xuannan Su: 阿里巴巴
 Xuannan 是阿里巴巴的一名软件工程师，2019 年获得卡内基梅隆大学硕士学位后，专注于 Apache Flink 及其生态系统的开发。</description>
-    </item>
-    
-    <item>
-      <title>SeaTunnel 架构分析与 Cloudberry 集成实践</title>
-      <link>/zh/sessions/dataops-915377.html</link>
-      <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/dataops-915377.html</guid>
-      <description>在本场会议中，我们将深入探讨 Apache SeaTunnel，这一专为实现跨异构数据源大规模数据集无缝同步而设计的高性能分布式数据集成平台。与会者将深入了解 SeaTunnel 的核心架构，包括其模块化插件系统、基于 Spark 和 Flink 的统一抽象层，以及从 V1 到 V2 的演进历程，其中包含增强的可扩展性和引擎无关设计。我们将深入探讨高级功能，如动态分片策略、数据采样技术，以及针对基于字符串的分区进行优化处理，以实现高效的数据分布。
-本次会议还将展示与 Cloudberry 的实际集成案例，演示 SeaTunnel 的 JDBC 基于连接器如何简化双向数据工作流，同时强调性能考量。最后，我们将讨论未来优化计划，包括通过gpfdist协议利用Cloudberry的并行处理能力进行大规模数据迁移的方案。本次演讲适合希望优化数据集成工作流、打破数据孤岛并充分释放现代数据生态系统潜力的数据工程师和架构师。
-讲师: 
-陈虹宇: 网易 SeaTunnel 撰稿人兼数据集成研发工程师
-网易数据集成研发工程师，拥有四年大规模数据传输系统经验，并持有东南大学计算机科学硕士学位。他参与Apache SeaTunnel项目，专精于为企业级ETL挑战构建高性能数据集成解决方案。其专业领域涵盖分布式系统、数据处理引擎及管道架构。</description>
     </item>
     
     <item>
@@ -257,6 +256,19 @@ Apache Dubbo PMC。对云原生、微服务和安全感兴趣。</description>
  小米 Vela 操作系统简介 小米 Vela 技术实践分享 小米 Vela 开源成果分享（openvela） 未来展望  讲师: 
 杜超: 小米 Vela 开源项目负责人
 小米 Vela 开源项目负责人，在云计算和电信行业的开源项目和市场营销方面拥有十余年经验。曾任 IMGeek 开发者社区创始人。</description>
+    </item>
+    
+    <item>
+      <title>Apache Gravitino 多集群管理最佳实践</title>
+      <link>/zh/sessions/dataops-912400.html</link>
+      <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/dataops-912400.html</guid>
+      <description>Apache Gravitino 统一管理了 Data 和 AI 的元数据，特别是在管理云上和云下多集群的场景中，可以非常好的发挥 Gravitino 统一元数据后，带来的数据在云上和云下无感知迁移和使用、大数据集群丝滑滚动升级、统一公有云和私有化部署的大数据集群的权限系统。 在本次的分享中，除了介绍 Apache Gravitino 在多集群管理中的诸多特性之外，还讲分享海内外用户的 Apache Gravitino 最佳实践。
+讲师: 
+Xun Liu: Apache Gravitino PMC
+Xun Liu 拥有二十年的软件开发经验，过去十年一直致力于大数据开发领域。他是Apache软件基金会成员及孵化器导师，曾在Apache孵化多个开源项目，并担任Apache Hadoop和Zeppelin的提交者成员。
+Xun Liu 是Datastrato的联合创始人兼首席运营官（COO），目前负责该公司开源项目Gravitino的运营工作。</description>
     </item>
     
     <item>
@@ -338,21 +350,6 @@ Apache IoTDB/TsFile PMC</description>
     </item>
     
     <item>
-      <title>基于 Apache SeaTunnel 和 Amazon Bedrock 的现代文本向量数据ETL解决方案</title>
-      <link>/zh/sessions/dataops-906790.html</link>
-      <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/dataops-906790.html</guid>
-      <description>在企业智能升级的浪潮中，信息检索正从“关键词匹配”向“语义理解”转变。基于倒排索引的传统搜索引擎依赖于字符串级别的匹配，这使得难以捕捉用户查询背后的真实意图。这限制了搜索体验的有效性、推荐准确性、客户服务响应以及基于知识的问答系统的智能性。
-例如，在电子商务平台上，当用户搜索“适合夏季的白色连衣裙”时，仅匹配产品标题或类别中关键词的系统很难理解“适合夏季”的完整语义含义，这可能涉及面料、风格等多个维度。类似的挑战也存在于财务文档搜索、智能客服、知识图谱关联等场景中。
-为解决此问题，我们计划构建基于向量检索的语义搜索系统。核心目标是实时将业务数据中的文本字段转换为语义向量，将其写入支持近似最近邻（ANN）向量搜索的数据库，并实现语义级信息检索。
-通过使用SeaTunnel的OpenSearch Sink插件，我们可以在SeaTunnel的转换阶段调用嵌入服务，将原始文本字段转换为高维密集向量，同时保留关联的ID、标签和元数据以供下游存储。
-讲师: 
-Xin Zhang: Amaozn 网络服务，解决方案架构师
-Xin Zhang 是亚马逊云科技（AWS）解决方案架构师，负责基于AWS云平台的解决方案咨询与设计。他在系统架构、数据仓库及实时计算等领域的研发与架构实践方面拥有丰富经验。</description>
-    </item>
-    
-    <item>
       <title>AIScript - 如何用 Rust 编写解释器语言</title>
       <link>/zh/sessions/rust-914505.html</link>
       <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
@@ -375,18 +372,6 @@ Shuang Zhu: ex-Bytedancer, founder of Geddle.com
 讲师: 
 丛国庆: Apache Dubbo/Commiter
 Apache Dubbo Commiter，热衷于开源，在微服务和中间件领域有一定投入</description>
-    </item>
-    
-    <item>
-      <title>Apache SeaTunnel MCP 介绍与演示</title>
-      <link>/zh/sessions/dataops-908655.html</link>
-      <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/dataops-908655.html</guid>
-      <description>Apache SeaTunnel 的模型上下文协议（MCP）服务器。该服务器可访问您的 Apache SeaTunnel RESTful API V2 实例及其周边生态系统。
-讲师: 
-Haicheng Zhang: 航天信息大数据开发工程师 开发组组长
-一位喜欢折腾的从业者</description>
     </item>
     
     <item>
@@ -444,6 +429,21 @@ Runqi Lin: 阿里, 上海
 
 Hongyi Zhou: 阿里,杭州
 作为阿里云E-MapReduce团队的一员，我的核心职责包括设计和实现高可靠的系统架构，建立完善的业务可观测性，保障业务运行的稳定性。</description>
+    </item>
+    
+    <item>
+      <title>基于 Apache SeaTunnel 和 Amazon Bedrock 的现代文本向量数据ETL解决方案</title>
+      <link>/zh/sessions/dataops-906790.html</link>
+      <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/dataops-906790.html</guid>
+      <description>在企业智能升级的浪潮中，信息检索正从“关键词匹配”向“语义理解”转变。基于倒排索引的传统搜索引擎依赖于字符串级别的匹配，这使得难以捕捉用户查询背后的真实意图。这限制了搜索体验的有效性、推荐准确性、客户服务响应以及基于知识的问答系统的智能性。
+例如，在电子商务平台上，当用户搜索“适合夏季的白色连衣裙”时，仅匹配产品标题或类别中关键词的系统很难理解“适合夏季”的完整语义含义，这可能涉及面料、风格等多个维度。类似的挑战也存在于财务文档搜索、智能客服、知识图谱关联等场景中。
+为解决此问题，我们计划构建基于向量检索的语义搜索系统。核心目标是实时将业务数据中的文本字段转换为语义向量，将其写入支持近似最近邻（ANN）向量搜索的数据库，并实现语义级信息检索。
+通过使用SeaTunnel的OpenSearch Sink插件，我们可以在SeaTunnel的转换阶段调用嵌入服务，将原始文本字段转换为高维密集向量，同时保留关联的ID、标签和元数据以供下游存储。
+讲师: 
+Xin Zhang: Amaozn 网络服务，解决方案架构师
+Xin Zhang 是亚马逊云科技（AWS）解决方案架构师，负责基于AWS云平台的解决方案咨询与设计。他在系统架构、数据仓库及实时计算等领域的研发与架构实践方面拥有丰富经验。</description>
     </item>
     
     <item>
@@ -557,16 +557,16 @@ wei jin: API7 解决方案架构师 / Apache 成员 / Apache APISIX PMC / Apache
     </item>
     
     <item>
-      <title>Apache Gravitino 多集群管理最佳实践</title>
-      <link>/zh/sessions/dataops-912400.html</link>
+      <title>SeaTunnel 架构分析与 Cloudberry 集成实践</title>
+      <link>/zh/sessions/dataops-915377.html</link>
       <pubDate>Sun, 27 Jul 2025 14:00:00 +0000</pubDate>
       
-      <guid>/zh/sessions/dataops-912400.html</guid>
-      <description>Apache Gravitino 统一管理了 Data 和 AI 的元数据，特别是在管理云上和云下多集群的场景中，可以非常好的发挥 Gravitino 统一元数据后，带来的数据在云上和云下无感知迁移和使用、大数据集群丝滑滚动升级、统一公有云和私有化部署的大数据集群的权限系统。 在本次的分享中，除了介绍 Apache Gravitino 在多集群管理中的诸多特性之外，还讲分享海内外用户的 Apache Gravitino 最佳实践。
+      <guid>/zh/sessions/dataops-915377.html</guid>
+      <description>在本场会议中，我们将深入探讨 Apache SeaTunnel，这一专为实现跨异构数据源大规模数据集无缝同步而设计的高性能分布式数据集成平台。与会者将深入了解 SeaTunnel 的核心架构，包括其模块化插件系统、基于 Spark 和 Flink 的统一抽象层，以及从 V1 到 V2 的演进历程，其中包含增强的可扩展性和引擎无关设计。我们将深入探讨高级功能，如动态分片策略、数据采样技术，以及针对基于字符串的分区进行优化处理，以实现高效的数据分布。
+本次会议还将展示与 Cloudberry 的实际集成案例，演示 SeaTunnel 的 JDBC 基于连接器如何简化双向数据工作流，同时强调性能考量。最后，我们将讨论未来优化计划，包括通过gpfdist协议利用Cloudberry的并行处理能力进行大规模数据迁移的方案。本次演讲适合希望优化数据集成工作流、打破数据孤岛并充分释放现代数据生态系统潜力的数据工程师和架构师。
 讲师: 
-Xun Liu: Apache Gravitino PMC
-Xun Liu 拥有二十年的软件开发经验，过去十年一直致力于大数据开发领域。他是Apache软件基金会成员及孵化器导师，曾在Apache孵化多个开源项目，并担任Apache Hadoop和Zeppelin的提交者成员。
-Xun Liu 是Datastrato的联合创始人兼首席运营官（COO），目前负责该公司开源项目Gravitino的运营工作。</description>
+陈虹宇: 网易 SeaTunnel 撰稿人兼数据集成研发工程师
+网易数据集成研发工程师，拥有四年大规模数据传输系统经验，并持有东南大学计算机科学硕士学位。他参与Apache SeaTunnel项目，专精于为企业级ETL挑战构建高性能数据集成解决方案。其专业领域涵盖分布式系统、数据处理引擎及管道架构。</description>
     </item>
     
     <item>
@@ -1024,18 +1024,6 @@ Quanlong Huang 是 Cloudera 的一名软件工程师。他在过去的 6 年多�
     </item>
     
     <item>
-      <title>Apache Pulsar 在大规模分区环境下的指标收集实践</title>
-      <link>/zh/sessions/messaging-880460.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/messaging-880460.html</guid>
-      <description>Apache Pulsar 是一个高性能消息队列，支持海量 Topic，允许用户在单个集群内创建数十万甚至数百万个分区。指标是我们在生产环境中识别和诊断问题的关键工具。可观察性的有效性直接影响故障排除的速度。 在分区数量众多的场景下，启用 Topic 级指标可能会在短时间内生成大量指标字符串，从而导致严重的内存波动，并可能导致集群不稳定。 本次演讲将分享我们在此类高分区场景下收集指标的实践经验，并探讨如何在不影响在线内存稳定性的情况下最大限度地收集指标数据，从而实现高效的问题识别和系统监控。
-讲师: 
-lin lin: 华为SDE专家，中间件技术总监
-Lin Lin，华为SDE专家，中间件技术总监，曾就职于腾讯、蚂蚁金服 专注于中间件和基础设施领域，拥有超过10年的相关经验，致力于打造高品质的基础设施 Apache Pulsar Committer &amp;amp; PMC成员</description>
-    </item>
-    
-    <item>
       <title>Shopee 的 Apache Ozone 最佳实践</title>
       <link>/zh/sessions/datastorage-910450.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
@@ -1045,6 +1033,19 @@ Lin Lin，华为SDE专家，中间件技术总监，曾就职于腾讯、蚂蚁�
 讲师: 
 Hui Fei: 存储团队主管，数据基础设施，Shopee
 我在大数据领域工作超过十年，对分布式存储和性能优化有着浓厚的兴趣。目前，我在 Shopee 的数据基础设施部门担任存储团队的负责人。</description>
+    </item>
+    
+    <item>
+      <title>使用 Apache RocketMQ 赋能无服务器消息架构</title>
+      <link>/zh/sessions/messaging-906870.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/messaging-906870.html</guid>
+      <description>我们最新的研究成果已被 ACM FSE 2025 行业专题收录，Apache RocketMQ 为无服务器消息系统奠定了坚实的基础，解决了传统中间件在可扩展性、成本和元数据方面的挑战。通过解耦存储和计算，Apache RocketMQ 实现了独立的资源扩展，这对于不可预测的云工作负载至关重要。其弹性写入分区消除了单队列吞吐量限制，而轻量级消息队列则以最小的冷启动延迟支持数百万个队列。
+我们通过基于 RocketMQ 的 RabbitMQ 实现证明了这一点，该实现在克服 RabbitMQ 扩展限制的同时，保留了完整的协议兼容性。借助 RocketMQ 的架构，我们实现了无限的水平扩展能力，并将元数据管理效率提高了 1000% 以上。该无服务器解决方案已在阿里云上商业化运营。我们的经验表明，RocketMQ 能够将传统消息系统转型为云原生服务，为面向未来的无服务器架构提供了蓝图。
+讲师: 
+Juntao Ji: 高级开发工程师（阿里巴巴云计算）
+阿里云计算高级中间件研发工程师，负责 RocketMQ 和 RabbitMQ 的功能开发。Apache RocketMQ 开源社区贡献者。在 CCF-A 会议或期刊（ASE 23&#39;、FM 24&#39;、FSE 25&#39; 等）发表多篇顶级论文。</description>
     </item>
     
     <item>
@@ -1541,6 +1542,18 @@ Zhaoqian（Zakelly）兰多年来一直致力于开源项目，是Apache Flink�
     </item>
     
     <item>
+      <title>Apache Pulsar 在大规模分区环境下的指标收集实践</title>
+      <link>/zh/sessions/messaging-880460.html</link>
+      <pubDate>Fri, 25 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/messaging-880460.html</guid>
+      <description>Apache Pulsar 是一个高性能消息队列，支持海量 Topic，允许用户在单个集群内创建数十万甚至数百万个分区。指标是我们在生产环境中识别和诊断问题的关键工具。可观察性的有效性直接影响故障排除的速度。 在分区数量众多的场景下，启用 Topic 级指标可能会在短时间内生成大量指标字符串，从而导致严重的内存波动，并可能导致集群不稳定。 本次演讲将分享我们在此类高分区场景下收集指标的实践经验，并探讨如何在不影响在线内存稳定性的情况下最大限度地收集指标数据，从而实现高效的问题识别和系统监控。
+讲师: 
+lin lin: 华为SDE专家，中间件技术总监
+Lin Lin，华为SDE专家，中间件技术总监，曾就职于腾讯、蚂蚁金服 专注于中间件和基础设施领域，拥有超过10年的相关经验，致力于打造高品质的基础设施 Apache Pulsar Committer &amp;amp; PMC成员</description>
+    </item>
+    
+    <item>
       <title>中国开源与人工智能概览</title>
       <link>/zh/sessions/community-916502.html</link>
       <pubDate>Fri, 25 Jul 2025 16:15:00 +0000</pubDate>
@@ -1552,19 +1565,6 @@ Ted Liu: ASF 成员 | KAIYUANSHE 联合创始人
 Ted Liu 是开源技术的热情倡导者和志愿者。他联合创立了开源联盟开源社（Kaiyuanshe），这是一个从零开始建立的中国开源联盟。此外，Ted 还是 Apache 软件基金会（ASF）的成员，担任孵化器项目管理委员会（PMC）成员以及多个项目和社区发展 PMC 的导师。
 Ted 还是几家企业公司的开源顾问，包括腾讯、华为和贝恩公司。
 在全身心投入开源事业之前，Ted 在科技行业担任过多个高级职位。他曾担任微软中国战略业务发展总监、微软开放技术和微软亚太研发集团首席技术布道师、甲骨文中国渠道与联盟总监、Linux 战略总监、大中华区中间件业务部总经理以及拓林思亚太区副总裁。</description>
-    </item>
-    
-    <item>
-      <title>使用 Apache RocketMQ 赋能无服务器消息架构</title>
-      <link>/zh/sessions/messaging-906870.html</link>
-      <pubDate>Fri, 25 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/messaging-906870.html</guid>
-      <description>我们最新的研究成果已被 ACM FSE 2025 行业专题收录，Apache RocketMQ 为无服务器消息系统奠定了坚实的基础，解决了传统中间件在可扩展性、成本和元数据方面的挑战。通过解耦存储和计算，Apache RocketMQ 实现了独立的资源扩展，这对于不可预测的云工作负载至关重要。其弹性写入分区消除了单队列吞吐量限制，而轻量级消息队列则以最小的冷启动延迟支持数百万个队列。
-我们通过基于 RocketMQ 的 RabbitMQ 实现证明了这一点，该实现在克服 RabbitMQ 扩展限制的同时，保留了完整的协议兼容性。借助 RocketMQ 的架构，我们实现了无限的水平扩展能力，并将元数据管理效率提高了 1000% 以上。该无服务器解决方案已在阿里云上商业化运营。我们的经验表明，RocketMQ 能够将传统消息系统转型为云原生服务，为面向未来的无服务器架构提供了蓝图。
-讲师: 
-Juntao Ji: 高级开发工程师（阿里巴巴云计算）
-阿里云计算高级中间件研发工程师，负责 RocketMQ 和 RabbitMQ 的功能开发。Apache RocketMQ 开源社区贡献者。在 CCF-A 会议或期刊（ASE 23&#39;、FM 24&#39;、FSE 25&#39; 等）发表多篇顶级论文。</description>
     </item>
     
     <item>
