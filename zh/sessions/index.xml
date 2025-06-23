@@ -304,6 +304,18 @@ Apache Dubbo Commiter，热衷于开源，在微服务和中间件领域有一�
     </item>
     
     <item>
+      <title>Apache Cloudberry 简介：演变、主要特性和路线图</title>
+      <link>/zh/sessions/datalake-915155.html</link>
+      <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/datalake-915155.html</guid>
+      <description>Apache Cloudberry 是一款先进且成熟的开源 MPP 数据库，它源自 Pivotal Greenplum Database® 的开源版本，但基于更现代的 PostgreSQL 内核构建，并具备更先进的企业级功能。Cloudberry 既可以用作数据仓库，也可以用于大规模分析和 AI/ML 工作负载。 在本次会议中，我们将探讨该项目的起源、进入 Apache 孵化器的历程，以及它与其他分析型数据库的区别。我们将介绍 Cloudberry 的核心功能、架构亮点，并分享其未来发展路线图。本次会议还将与其他数据仓库系统进行简要比较，帮助听众了解 Apache Cloudberry 在生态系统中的地位以及未来的发展方向。
+讲师: 
+Max Yang: Apache Cloudberry PPMC 成员，HashData 技术副总裁
+Apache Cloudberry PPMC 成员、HashData 技术副总裁</description>
+    </item>
+    
+    <item>
       <title>IoTDB 时序数据订阅：设计与高效实践</title>
       <link>/zh/sessions/iot-915157.html</link>
       <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
@@ -328,19 +340,6 @@ Song Jin: HugeGraph committer
 
 Zhe Wang: Hugegraph commiter
 对图形存储和图形 AI 感兴趣。</description>
-    </item>
-    
-    <item>
-      <title>使用 Apache Iceberg 增强 Lakehouse 实施</title>
-      <link>/zh/sessions/datalake-914503.html</link>
-      <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/datalake-914503.html</guid>
-      <description>现代数据湖架构融合了数据湖和数据仓库的优势，通过 ACID 事务、模式演进和性能优化实现可扩展分析。Apache Iceberg 已成为领先的开放表格式，通过提供可靠性、可扩展性以及与 Spark、Flink、Doris、StarRocks、Impala、Hive、Nifi、Kafka 和 Trino 等热门开源计算引擎的无缝集成，为数据湖实现提供强大的支持。
-在本次会议中，我们将探讨 Apache Iceberg 如何通过确保数据可靠性、优化性能、实现多引擎兼容性和简化维护来增强数据湖架构。此外，我们还将讨论实际用例、将 Hive 表迁移到 Iceberg 表的最佳实践，以及如何利用其特性构建高性能、面向未来的数据湖。
-讲师: 
-Bill Zhang: Cloudera、Lakehouse 和 Iceberg 集成
-Bill 是 Cloudera 的产品战略副总裁，负责 Open Data Lakehouse 产品战略以及 Apache Iceberg 与所有 Cloudera 数据平台 (CDP) 的集成。最近，Bill 还负责 Apache Hive 的产品路线图和应用</description>
     </item>
     
     <item>
@@ -717,18 +716,6 @@ Stocks Alex: Dubbogo 社区的发言人
     </item>
     
     <item>
-      <title>Apache Cloudberry 简介：演变、主要特性和路线图</title>
-      <link>/zh/sessions/datalake-915155.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/datalake-915155.html</guid>
-      <description>Apache Cloudberry 是一款先进且成熟的开源 MPP 数据库，它源自 Pivotal Greenplum Database® 的开源版本，但基于更现代的 PostgreSQL 内核构建，并具备更先进的企业级功能。Cloudberry 既可以用作数据仓库，也可以用于大规模分析和 AI/ML 工作负载。 在本次会议中，我们将探讨该项目的起源、进入 Apache 孵化器的历程，以及它与其他分析型数据库的区别。我们将介绍 Cloudberry 的核心功能、架构亮点，并分享其未来发展路线图。本次会议还将与其他数据仓库系统进行简要比较，帮助听众了解 Apache Cloudberry 在生态系统中的地位以及未来的发展方向。
-讲师: 
-Max Yang: Apache Cloudberry PPMC 成员，HashData 技术副总裁
-Apache Cloudberry PPMC 成员、HashData 技术副总裁</description>
-    </item>
-    
-    <item>
       <title>Celeborn 的革新：多引擎支持、性能掌控与技术创新</title>
       <link>/zh/sessions/datastorage-896070.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
@@ -770,6 +757,19 @@ Shengzhong Liu: 腾讯
 讲师: 
 Lei Huang: 中国杭州 Greptime 数据库开发人员
 Lei 是一位来自中国的热情开源数据库开发者。在北京大学获得计算机科学硕士学位后，他加入支付宝，从事基础设施和中间件开发工作，并领导开发了用于交易处理的大规模消息队列。后来，他作为创始成员加入 Greptime，主要负责存储引擎的开发。他的主要兴趣是分布式系统和数据库存储子系统。</description>
+    </item>
+    
+    <item>
+      <title>使用 Apache Iceberg 增强 Lakehouse 实施</title>
+      <link>/zh/sessions/datalake-914503.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/datalake-914503.html</guid>
+      <description>现代数据湖架构融合了数据湖和数据仓库的优势，通过 ACID 事务、模式演进和性能优化实现可扩展分析。Apache Iceberg 已成为领先的开放表格式，通过提供可靠性、可扩展性以及与 Spark、Flink、Doris、StarRocks、Impala、Hive、Nifi、Kafka 和 Trino 等热门开源计算引擎的无缝集成，为数据湖实现提供强大的支持。
+在本次会议中，我们将探讨 Apache Iceberg 如何通过确保数据可靠性、优化性能、实现多引擎兼容性和简化维护来增强数据湖架构。此外，我们还将讨论实际用例、将 Hive 表迁移到 Iceberg 表的最佳实践，以及如何利用其特性构建高性能、面向未来的数据湖。
+讲师: 
+Bill Zhang: Cloudera、Lakehouse 和 Iceberg 集成
+Bill 是 Cloudera 的产品战略副总裁，负责 Open Data Lakehouse 产品战略以及 Apache Iceberg 与所有 Cloudera 数据平台 (CDP) 的集成。最近，Bill 还负责 Apache Hive 的产品路线图和应用</description>
     </item>
     
     <item>

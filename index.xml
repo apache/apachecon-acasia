@@ -293,6 +293,15 @@ In this session, we&amp;rsquo;ll explore how Apache Hive, powered by Apache Iceb
     </item>
     
     <item>
+      <title>Introduction to Apache Cloudberry: Evolution, Key Features, and Roadmap</title>
+      <link>/sessions/datalake-915155.html</link>
+      <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-915155.html</guid>
+      <description>Apache Cloudberry is an advanced and mature open-source MPP database, derived from the open-source version of the Pivotal Greenplum Database® but built on a more modern PostgreSQL kernel and with more advanced enterprise capabilities. Cloudberry can serve as a data warehouse and can also be used for large-scale analytics and AI/ML workloads. In this session, we’ll explore the origin of the project, its journey into the Apache Incubator, and how it differentiates itself from other analytical databases.</description>
+    </item>
+    
+    <item>
       <title>IoTDB Time-Series Data Subscription: Design and Efficient Practices</title>
       <link>/sessions/iot-915157.html</link>
       <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
@@ -328,16 +337,6 @@ For example, on an e-commerce platform, when a user searches for “white dress 
       
       <guid>/sessions/observability-914145.html</guid>
       <description>In today&amp;rsquo;s era of artificial intelligence + big data, enterprises are facing the challenges of rapid growth and diversified needs of massive data. Combining Apache Flink/Spark, two popular distributed computing engines, enterprises can build flexible real-time and batch data processing pipelines. However, in a large-scale stream processing service cluster environment, observability faces many challenges, mainly including dynamic perception of elastic tasks, large amounts of observable data, and strict requirements for real-time performance.</description>
-    </item>
-    
-    <item>
-      <title>Supercharge Lakehouse Implementation with Apache Iceberg</title>
-      <link>/sessions/datalake-914503.html</link>
-      <pubDate>Sun, 27 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/sessions/datalake-914503.html</guid>
-      <description>The modern data lakehouse architecture combines the best of data lakes and data warehouses, enabling scalable analytics with ACID transactions, schema evolution, and performance optimizations. Apache Iceberg has emerged as a leading open-table format that supercharges lakehouse implementations by providing reliability, scalability, and seamless integration with popular open source compute engines like Spark, Flink, Doris, StarRocks, Impala, Hive, Nifi, Kafka and Trino.
-In this session, we will explore how Apache Iceberg enhances lakehouse architectures by ensuring data reliability, optimizing performance, enabling multi-engine compatibility and simplifying maintenance, In addition, we’ll also discuss real-world use cases, best practices for migrating Hive tables to Iceberg tables, and how to leverage its features to build a high-performance, future-proof lakehouse.</description>
     </item>
     
     <item>
@@ -609,15 +608,6 @@ Performance improvements address: Spark skew optimization to eliminate extra sor
     </item>
     
     <item>
-      <title>Introduction to Apache Cloudberry: Evolution, Key Features, and Roadmap</title>
-      <link>/sessions/datalake-915155.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/datalake-915155.html</guid>
-      <description>Apache Cloudberry is an advanced and mature open-source MPP database, derived from the open-source version of the Pivotal Greenplum Database® but built on a more modern PostgreSQL kernel and with more advanced enterprise capabilities. Cloudberry can serve as a data warehouse and can also be used for large-scale analytics and AI/ML workloads. In this session, we’ll explore the origin of the project, its journey into the Apache Incubator, and how it differentiates itself from other analytical databases.</description>
-    </item>
-    
-    <item>
       <title>Reshaping OpenTelemetry with Apache Arrow</title>
       <link>/sessions/webserver-915263.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
@@ -634,6 +624,16 @@ In my session, I will present a proposal to address this issue by enhancing the 
       
       <guid>/sessions/streaming-909075.html</guid>
       <description>Background &amp;amp; Motivation •	Flink SQL challenges at scale: large state, long joins, complex maintenance •	Business use case: automotive data warehouse and alerting systems 2.	State Externalization with Delta Join and Merge Engine •	Delta Join: external dimension tables with up-to-date snapshots •	Merge Engine: external upsert tables for aggregation results •	How we minimized internal state while ensuring correctness and latency 3.	The Role of Dynamic Tables •	Intermediate table explosion: a hidden cost of state externalization •	How Dynamic Tables automate schema creation, lifecycle, and data lineage •	Empowering developers: write business logic, forget the plumbing 4.</description>
+    </item>
+    
+    <item>
+      <title>Supercharge Lakehouse Implementation with Apache Iceberg</title>
+      <link>/sessions/datalake-914503.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-914503.html</guid>
+      <description>The modern data lakehouse architecture combines the best of data lakes and data warehouses, enabling scalable analytics with ACID transactions, schema evolution, and performance optimizations. Apache Iceberg has emerged as a leading open-table format that supercharges lakehouse implementations by providing reliability, scalability, and seamless integration with popular open source compute engines like Spark, Flink, Doris, StarRocks, Impala, Hive, Nifi, Kafka and Trino.
+In this session, we will explore how Apache Iceberg enhances lakehouse architectures by ensuring data reliability, optimizing performance, enabling multi-engine compatibility and simplifying maintenance, In addition, we’ll also discuss real-world use cases, best practices for migrating Hive tables to Iceberg tables, and how to leverage its features to build a high-performance, future-proof lakehouse.</description>
     </item>
     
     <item>
