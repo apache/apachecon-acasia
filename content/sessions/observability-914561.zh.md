@@ -11,7 +11,7 @@ Apache APISIX、Kafka、RocketMQ 和 Pulsar 都是优秀的中间件软件，应
 
 ### 讲师:
 
-<img src="https://sessionize.com/image/b6e1-400o400o1-pQaQfhiHLxaGPmnakbBHWu.jpg" width="200" /><br/>
+<img src="https://sessionize.com/image/b9fe-400o400o1-7eiz9d5NPVegnn7SkHVGzm.jpg" width="200" /><br/>
 
 Yang Xiang: 云山网络，总裁
 

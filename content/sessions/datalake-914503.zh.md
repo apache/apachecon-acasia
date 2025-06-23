@@ -1,6 +1,6 @@
 ---
 title: "使用 Apache Iceberg 增强 Lakehouse 实施"
-date: "2025-07-27T15:00:00"
+date: "2025-07-26T16:15:00"
 room:  "万春厅"
 track: "datalake"
 presenters: "Bill Zhang"
