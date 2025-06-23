@@ -61,13 +61,12 @@ Download Template </description>
     </item>
     
     <item>
-      <title>RobustMQ - Next-Generation High-Performance Cloud-native Converged message Queue</title>
+      <title>RobustMQ - Explore how to rewrite a message queue in Rust</title>
       <link>/sessions/rust-898182.html</link>
       <pubDate>Sun, 27 Jul 2025 17:15:00 +0000</pubDate>
       
       <guid>/sessions/rust-898182.html</guid>
-      <description>RobustMQ is an open source project in the field of message queuing, built on top of Apache OpenDAL and written 100% in Rust. Its goal is to build a next-generation converged message queue with high performance, high availability, compatibility with a variety of mainstream message queue protocols, and complete Serverless capabilities on the architecture.
-It is based on Apache OpenDAL connecting object Storage (S3), HDFS, File, MySQL, Redis and many other different storage engines.</description>
+      <description>RobustMQ is an open-source message queue 100% developed based on the Rust language. It hopes to explore the possibility of combining Rust with message queues, with the goal of delivering a message queue that supports multiple mainstream message protocols, has a fully Serverless architecture, is low-cost, and elastic. Its vision is to tailor a unified messaging infrastructure for AI systems and provide a unified and efficient communication base for AI applications.</description>
     </item>
     
     <item>

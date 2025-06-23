@@ -8,19 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Jul 2025 17:15:00 +0000</lastBuildDate><atom:link href="/zh/sessions/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>RobustMQ - 下一代高性能云原生融合消息队列</title>
+      <title>RobustMQ：探索如何用 Rust 重写消息队列</title>
       <link>/zh/sessions/rust-898182.html</link>
       <pubDate>Sun, 27 Jul 2025 17:15:00 +0000</pubDate>
       
       <guid>/zh/sessions/rust-898182.html</guid>
-      <description>RobustMQ 是一个消息队列领域的开源项目，基于 Apache OpenDAL 构建，100% 使用 Rust 语言编写。其目标是构建一个高性能、高可用、兼容多种主流消息队列协议，并在架构上具备完整 Serverless 能力的下一代融合消息队列。
-它基于 Apache OpenDAL 连接对象存储 (S3)、HDFS、File、MySQL、Redis 等多种不同的存储引擎，屏蔽了底层存储引擎的差异，打造一个可插拔的 Serverless 存储层架构。
-整体分布式分层架构的设计和开发已完成。目前已全面支持 MQTT3/4/5 协议的所有功能，并已发布首个 RobustMQ MQTT 版本。接下来将支持 Kafka 协议。
-它采用 Apache License 2.0 许可，其愿景是打造一款面向人工智能时代的、具有竞争力的消息队列产品。并已成为 Apache 基金会的顶级项目。
-其特点如下：
- 100% Rust 实现：完全用 Rust 实现的消息队列内核。 多协议：支持 MQTT 3.1/3.1.1/5.0、AMQP、RocketMQ Remoting/GRPC、Kafka Protocol、OpenMessing、JNS、SQS 等主流消息协议。 分层架构：计算、存储、调度独立的三层架构，每层均具备集群部署能力，具备快速水平扩展能力。 插件式存储：独立的插件式存储层实现，您可以根据需要选择合适的存储层。兼容传统架构和云原生架构，支持云和 IDC 部署模式。 高内聚架构：提供内置元数据存储组件、分布式Journal存储服务，具备快速、便捷、内聚的部署能力。 丰富的功能：支持顺序消息、死消息、事务消息、幂等消息、延时消息等丰富的消息队列功能。  讲师: 
+      <description>RobustMQ 是一个 100% 基于 Rust 语言开发的开源消息队列。它希望探索 Rust 和消息队列结合的可能性，目标是交付一个支持多种主流消息协议、完全 Serverless 架构、低成本、弹性的消息队列。它的愿景是为 AI 系统量身定制统一的消息基础设施，为 AI 应用提供统一高效通信底座。
+本次分享内容：
+ 我们为什么要写 RobustMQ。 RobustMQ 和现有消息队列组件的区别。 我们是如何用 Rust 从 0 实现一个分布式的存储系统。 我们已经完成 RobustMQ MQTT 第一个 Release版本，它是如何实现的，效果如何。 RobustMQ 的未来演进。  同时我们希望找到对用Rust 实现基础架构组件、消息队列、分布式存储系统感兴趣的同学，一起探索 Rust 在基础架构领域的无限可能。
+讲师: 
 Lobo Xu: RobustMQ Auther
-字节跳动高级工程师，腾讯云高级工程师。曾任腾讯云消息队列 Kafka/RabbitMQ 技术负责人。 他是极客时间专栏《深入解析消息队列》和《Rust 实战：编写下一代云原生消息队列》的作者，也是技术书籍《基础软件之路：企业实践与开源策略》的合著者。 RobustMQ 和 Apache Kafka/RocketMQ/Pulsar 的作者，活跃于消息队列和 Serverless 开源社区。对 MQ 和 Serverless 有着深入的产品、技术和商业理解及愿景。</description>
+RobustMQ 作者，前字节跳动、腾讯云技术专家，极客时间专栏《深入拆解消息队列47讲》和《Rust 实战：手写下一代云原生消息队列》作者，Apache Kafka/RocketMQ/Pulsar Contributor。专注于消息队列和分布式存储系统。</description>
     </item>
     
     <item>
