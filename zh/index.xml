@@ -86,7 +86,7 @@ Community Over Code (前 ApacheCon ) 致力于为每个人提供无骚扰的体�
 本次分享内容：
  我们为什么要写 RobustMQ。 RobustMQ 和现有消息队列组件的区别。 我们是如何用 Rust 从 0 实现一个分布式的存储系统。 我们已经完成 RobustMQ MQTT 第一个 Release版本，它是如何实现的，效果如何。 RobustMQ 的未来演进。  同时我们希望找到对用Rust 实现基础架构组件、消息队列、分布式存储系统感兴趣的同学，一起探索 Rust 在基础架构领域的无限可能。
 讲师: 
-Lobo Xu: RobustMQ Auther
+Lobo Xu: RobustMQ Author
 RobustMQ 作者，前字节跳动、腾讯云技术专家，极客时间专栏《深入拆解消息队列47讲》和《Rust 实战：手写下一代云原生消息队列》作者，Apache Kafka/RocketMQ/Pulsar Contributor。专注于消息队列和分布式存储系统。</description>
     </item>
     
