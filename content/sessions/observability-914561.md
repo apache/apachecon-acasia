@@ -9,7 +9,7 @@ stype: "Chinese Session"
 
 Apache APISIX, Kafka, RocketMQ, and Pulsar are excellent middleware software with widespread usage. However, observability for these middleware is typically limited to coarse-grained metrics exposure, without correlation to distributed tracing. Therefore, when facing long-tail performance issues, middleware operators often resort to basic tools like tcpdump or log analysis to troubleshoot and identify root causes, which is highly inefficient. eBPF's zero-intrusion characteristics effectively address these pain points. DeepFlow (an open-source project) leverages eBPF to implement full-stack observability covering "code functions, system calls, file I/O, and network forwarding" for various Apache middleware services without requiring any configuration changes or process restarts. Additionally, based on the full-stack observability data exposed through the MCP protocol, DeepFlow AI Agent can quickly and independently identify performance bottlenecks and provide optimization suggestions. This presentation will introduce DeepFlow's middleware full-stack observability implementation practices and typical troubleshooting cases using LLM-powered AI agent.
 
-<img src="https://sessionize.com/image/b6e1-400o400o1-pQaQfhiHLxaGPmnakbBHWu.jpg" width="200" /><br/>
+<img src="https://sessionize.com/image/b9fe-400o400o1-7eiz9d5NPVegnn7SkHVGzm.jpg" width="200" /><br/>
 
 Yang Xiang: Yunshan Networks, President
 
