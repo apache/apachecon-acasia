@@ -65,10 +65,3 @@ weight = 4
 name = "会场 + 旅行"
 url = "/zh/venue_travel/venue.html"
 weight = 5
-
-
-[[redirects]]
-  from = "/5minstalk"
-  to = "/tracks/keynote.html"
-  status = 301
-  force = true
