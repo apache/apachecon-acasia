@@ -2348,5 +2348,14 @@ Craig 于 2005 年作为孵化中的 JDO 项目的提交者加入 Apache，并�
       <description>Apache 顶级项目的实际应用案例。</description>
     </item>
     
+    <item>
+      <title>闪电演讲</title>
+      <link>/zh/tracks/5minstalk.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/tracks/5minstalk.html</guid>
+      <description>window.location.href = &#39;/zh/tracks/keynote.html&#39;; </description>
+    </item>
+    
   </channel>
 </rss>

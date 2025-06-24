@@ -102,6 +102,15 @@ In order to better realize the core needs of the IoT industry such as device com
     </item>
     
     <item>
+      <title>Lightning Talk</title>
+      <link>/tracks/5minstalk.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tracks/5minstalk.html</guid>
+      <description>window.location.href = &#39;/tracks/keynote.html&#39;; </description>
+    </item>
+    
+    <item>
       <title>Messaging</title>
       <link>/tracks/messaging.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

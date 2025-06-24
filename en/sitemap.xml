@@ -2202,6 +2202,18 @@
                 href="/tracks/keynote.html"
                 />
   </url><url>
+    <loc>/tracks/5minstalk.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tracks/5minstalk.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tracks/5minstalk.html"
+                />
+  </url><url>
     <loc>/tracks/messaging.html</loc>
     <xhtml:link
                 rel="alternate"

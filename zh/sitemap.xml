@@ -2345,5 +2345,17 @@
                 hreflang="zh"
                 href="/zh/tracks/general.html"
                 />
+  </url><url>
+    <loc>/zh/tracks/5minstalk.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tracks/5minstalk.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tracks/5minstalk.html"
+                />
   </url>
 </urlset>
