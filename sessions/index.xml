@@ -603,13 +603,13 @@ We’ll cover the basics of MCP (host/client/server roles, lifecycle, standard I
     </item>
     
     <item>
-      <title>Virtual Queue in RocketMQ 5.0: Enhancing Backward Compatibility with Legacy Remoting-Based Clients</title>
+      <title>Virtual Queue in RocketMQ 5.0: Enhancing Backward Compatibility With Legacy Remoting-Based Clients</title>
       <link>/sessions/messaging-908855.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
       
       <guid>/sessions/messaging-908855.html</guid>
       <description>Apache RocketMQ is a distributed messaging and streaming platform known for its low latency, high performance, and high reliability. The newly released version 5.0 has two major advancements:
- Decouples storage from compute for better scalability and cloud-native adaptability. Introduces POP consumption mode to shift balancing logic from clients to the broker. To adapt to these features, the community has launched a new gRPC-based client. However, existing users who access RocketMQ with a remoting-based client cannot benefit from these 5.</description>
+ Decouples storage from compute to achieve better scalability and cloud-native adaptability. Introduces POP consumption mode to shift the balancing logic from clients to the broker. To adapt to these features, the community has launched a new gRPC-based client. However, existing users who access RocketMQ with a remoting-based client cannot benefit from these 5.</description>
     </item>
     
     <item>

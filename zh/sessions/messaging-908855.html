@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>RocketMQ 5.0 中的虚拟队列：增强与传统基于远程处理的客户端的向后兼容性 - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <title>RocketMQ 5.0 中的虚拟队列：增强对 Remoting 协议客户端的向后兼容性 - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='RocketMQ 5.0 中的虚拟队列：增强与传统基于远程处理的客户端的向后兼容性'/>
+    <meta property='og:title' content='RocketMQ 5.0 中的虚拟队列：增强对 Remoting 协议客户端的向后兼容性'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -135,7 +135,7 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">RocketMQ 5.0 中的虚拟队列：增强与传统基于远程处理的客户端的向后兼容性</h3>
+                    <h3 class="text-center">RocketMQ 5.0 中的虚拟队列：增强对 Remoting 协议客户端的向后兼容性</h3>
                     <h4>Shengzhong Liu</h4>
                     中文演讲  2025-07-26 16:15 GMT&#43;8&nbsp;
                     
@@ -144,16 +144,16 @@
                     <a class="label" href="/zh/tracks/messaging.html">#messaging</a></li>
                 </header>
 
-                <p>Apache RocketMQ 是一个分布式消息和流式传输平台，以其低延迟、高性能和高可靠性而闻名。最新发布的 5.0 版本有两大改进：</p>
+                <p>Apache RocketMQ 是一个以低延迟、高性能和高可靠性著称的分布式消息与流处理平台。最新发布的 5.0 版本带来了两项重大进步：</p>
 <ol>
-<li>将存储与计算解耦，从而提高可扩展性和云原生适应性。</li>
-<li>引入 POP 消费模式，将负载均衡逻辑从客户端转移到 Broker。
-为了适配这些特性，社区推出了基于 gRPC 的新客户端。但是，使用基于远程处理的客户端访问 RocketMQ 的现有用户无法享受 5.0 的这些改进，除非他们修改代码并替换客户端 SDK。为了增强与传统基于远程处理的客户端的向后兼容性，我们在 RocketMQ 5.0 中提出了虚拟队列解决方案，并且该方案已在腾讯云实践中得到充分验证。</li>
+<li>实现了存储与计算的解耦，进一步提升了系统的可扩展性和云原生适配能力。</li>
+<li>引入了 POP 消费模式，将负载均衡逻辑从客户端迁移到了 Broker 端。
+为适应这些新特性，社区推出了全新的基于 gRPC 协议的客户端。然而，现有通过 Remoting 协议客户端接入 RocketMQ 的用户，若不更新代码和替换客户端 SDK，将无法享受到 5.0 的这些创新能力。为增强对 Remoting 协议客户端的向后兼容性，我们在 RocketMQ 5.0 中提出了虚拟队列方案，并已在腾讯云的实际应用中得到了充分验证。</li>
 </ol>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://sessionize.com/image/5517-400o400o1-QHVT45RWPFxxgwib7bn9VX.jpg" width="200" /><br/></p>
 <p>Shengzhong Liu: 腾讯</p>
-<p>自2019年从东南大学毕业以来，我一直在腾讯云担任软件开发工程师，近年来专注于消息队列技术。</p>
+<p>自2019年从东南大学毕业以来，我一直在腾讯云担任软件开发工程师，近年来专注于消息队列技术的相关工作。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">
