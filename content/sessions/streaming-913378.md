@@ -1,5 +1,5 @@
 ---
-title: "Event-Driven Agent: From Stream Processing to Agentic AI Framework"
+title: "Flink Agents: The Agentic AI Framework based on Apache Flink"
 date: "2025-07-25T16:45:00"
 room:  "YuanMing Hall"
 track: "streaming"
@@ -7,19 +7,17 @@ presenters: "Xintong Song"
 stype: "Chinese Session"
 ---
 
-In the era of rapidly advancing large language models and Agentic AI applications, the integration of big data technologies—particularly real-time processing engines like Apache Flink—is a critical topic for data infrastructure professionals.
+Agentic AI applications can be categorized into two types based on their triggering mechanism: user-triggered agents and system-triggered agents. With the rapid evolving of techniques, we believe the future of agentic AI application is industrialized, and the majority of agentic workload would be triggered by real-time system events and data updates.
 
-Agentic AI applications can be categorized into two types based on their triggering mechanisms: human-request driven agents and event-driven agents. 
-● Human-request driven agents often require contextual information to fulfill requests, and Flink’s real-time data processing capabilities ensure the timely delivery of updated contextual information.
-● In contrast, event-driven agents are triggered by machine-generated events (such as transactions, web clicks, or sensor data), which typically occur at a significantly higher frequency than human requests.
+System-triggered agents must run continuously, act autonomously, and recover from failure without manual intervention. Flink's capabilities in real-time distributed event processing, state management and exact-once consistent fault tolerance make it well-suited as a framework for building such agents. Furthermore, system-triggered agents are often tightly coupled with data processing. Flink's outstanding data processing capabilities brings seamless integration between data and agentic processing, differentiate it from other agent frameworks.
 
-As AI continues to advance and achieve industry-scale deployment, we anticipate that the majority of future Agentic AI workloads will originate from event-driven agents. In response, we are developing a new Event-Driven Agent Framework based on Apache Flink.
+Under such a background, the Flink community has initiated a new sub-project, Flink Agents, an Agentic AI framework based on Apache Flink.
 
 This presentation will cover:
-● The definition and application scenarios of event-driven agents
-● The technical challenges of building event-driven agents
-● Why Apache Flink is well-suited for building event-driven agents
-● The design principles and current development status of the framework
+- Use cases and requirements of system-triggered agents.
+- Why Apache Flink is well-suited for building such
+- High-level architectural design of Flink Agents
+- Demonstration of building agentic application with Flink Agents
 
 ### Speakers:
 
