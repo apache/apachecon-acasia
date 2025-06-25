@@ -1,6 +1,6 @@
 ---
 title: "The Evolution of Apache Kvrocks: Search, Vector, and Beyond"
-date: "2025-07-25T15:45:00"
+date: "2025-07-26T17:15:00"
 room:  "Mtn WanShou Hall"
 track: "datastorage"
 presenters: "Mingyang Liu"

@@ -21,6 +21,7 @@ const fs = require('fs');
 const xlsx = require('xlsx');
 const path = require('path');
 const tracks_dictionary = require('./tracks_dictionary.json');
+const { console } = require('inspector');
 
 const outputDir = path.join(__dirname, '../content', 'sessions');
 if (!fs.existsSync(outputDir)) {
@@ -54,48 +55,9 @@ function formatExcelDate(excelDate) {
   return date.toISOString().slice(0, 19);
 }
 
-function splitFrontmatterAndContent(fileContent) {
-  const parts = fileContent.split('---\n');
-  if (parts.length >= 3) {
-    return {
-      frontmatter: parts[1],
-      content: parts.slice(2).join('---\n')
-    };
-  }
-  return null;
-}
-
-function parseFrontmatter(frontmatter) {
-  const lines = frontmatter.trim().split('\n');
-  const result = {};
-  lines.forEach(line => {
-    const [key, ...values] = line.split(':');
-    if (key && values.length) {
-      result[key.trim()] = values.join(':').trim().replace(/^"(.*)"$/, '$1');
-    }
-  });
-  return result;
-}
-
 function updateFileContent(filePath, newFrontmatter, newContent) {
   if (fs.existsSync(filePath)) {
-    // 如果文件存在，读取原内容
-    const existingContent = fs.readFileSync(filePath, 'utf8');
-    const parts = splitFrontmatterAndContent(existingContent);
-    if (parts) {
-      const existingFrontmatter = parseFrontmatter(parts.frontmatter);
-      const newFrontmatterObj = parseFrontmatter(newFrontmatter);
-      newFrontmatterObj.title = existingFrontmatter.title;
-      
-      const updatedFrontmatter = Object.entries(newFrontmatterObj)
-        .map(([key, value]) => `${key}: "${value}"`)
-        .join('\n');
-      const updatedContent = `---\n${updatedFrontmatter}\n---\n\n${parts.content}`;
-      fs.writeFileSync(filePath, updatedContent, 'utf8');
-    } else {
-      const fullContent = `---\n${newFrontmatter}\n---\n\n${newContent}`;
-      fs.writeFileSync(filePath, fullContent, 'utf8');
-    }
+    console.log('File already exists skip');
   } else {
     const fullContent = `---\n${newFrontmatter}\n---\n\n${newContent}`;
     fs.writeFileSync(filePath, fullContent, 'utf8');
@@ -104,7 +66,6 @@ function updateFileContent(filePath, newFrontmatter, newContent) {
 
 
 function processAndGroupSessions(sessions) {
-  // 创建 Map 用于存储分组数据
   const sessionMap = new Map();
   
   sessions.forEach(session => {
@@ -128,6 +89,7 @@ function processAndGroupSessions(sessions) {
         name: `${session['FirstName'] || ''} ${session['LastName'] || ''}`.trim(),
         avatar: `<img src="${session['Profile Picture']}" width="200" /><br/>\n` || '',
         bio: session['Bio'] || '',
+        tagline: session['TagLine'] || '',
       };
       
       // 检查是否已存在相同讲师（通过名字判断）
@@ -161,7 +123,7 @@ function main() {
     const session = processedSessions[index];
     
     // 只处理状态为"accept"的被接受的session
-    if (session['Status'] === 'Accepted') {
+    // if (session['Status'] === 'Accepted') {
       const track = tracks_dictionary[session['Track']];
       const fileName = `${track}-${session['Session Id']}`;
       const enFilePath = path.join(outputDir, `${fileName}.md`);
@@ -184,12 +146,8 @@ function main() {
       const abstract = session['Description'];
       let speakerBios = '';
       session['speakers'].forEach(speaker => {
-        speakerBios += `\n${speaker.avatar}\n${speaker.name}\n\n${speaker.bio}\n\n`;
+        speakerBios += `\n${speaker.avatar}\n${speaker.name}: ${speaker.tagline}\n\n${speaker.bio}\n\n`;
       })
-      let enAbstract = abstract;
-      if (enAbstract && enAbstract.includes('标题：')) {
-        enAbstract = abstract.split('标题：')[0];
-      }
       
       // 修改后:
       const enFrontmatter = `title: "${title}"
@@ -199,33 +157,18 @@ presenters: "${speakers}"
 stype: "${sessionType}"`;
       const enContent = `${abstract}\n\n### Speakers:\n\n${speakerBios}`;
       updateFileContent(enFilePath, enFrontmatter, enContent);
-      
-      // // 处理中文内容
-      // let zhTitle = title;
-      // let zhAbstract = abstract;
-      // let zhSpeakerBios = speakerBios;
-      
-      // // 如果存在中文版本，则使用中文内容
-      // if (zhAbstract && zhAbstract.includes('标题：')) {
-      //   zhTitle = zhAbstract.split('标题：')[1];
-      //   if (zhTitle && zhTitle.includes('议题介绍：')) {
-      //     const parts = zhTitle.split('议题介绍：');
-      //     zhTitle = parts[0].trim().replaceAll(/\\n/g, '');
-      //     zhAbstract = parts[1];
-      //   }
-      // }
-      
-      // const sessionZhType = sessionTypesChineseDictionary[session['Language']];
-    
-//       const zhFrontmatter = `title: "${title}"
-// date: "${scheduleTime}"
-// track: "${track}"
-// presenters: "${speakers}"
-// stype: "${sessionZhType}"`;
-//         const zhContent = `${zhAbstract}\n\n### 讲师:\n\n${headImgHtml}\n\n${zhSpeakerBios}`;
-      
-//       updateFileContent(zhFilePath, zhFrontmatter, zhContent);
-    }
+
+
+      // .zh.md
+      const sessionZhType = sessionTypesChineseDictionary[session['Language']];
+      const zhFrontmatter = `title: "${title}"
+date: "${scheduleTime}"
+track: "${track}"
+presenters: "${speakers}"
+stype: "${sessionZhType}"`;
+        const zhContent = `${abstract}\n\n### 讲师:\n\n${speakerBios}`;
+      updateFileContent(zhFilePath, zhFrontmatter, zhContent);
+    // }
   }
 }
 
