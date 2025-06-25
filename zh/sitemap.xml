@@ -1388,19 +1388,6 @@
                 href="/zh/sessions/datastorage-889852.html"
                 />
   </url><url>
-    <loc>/zh/sessions/datalake-915144.html</loc>
-    <lastmod>2025-07-25T16:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/datalake-915144.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-915144.html"
-                />
-  </url><url>
     <loc>/zh/sessions/streaming-913378.html</loc>
     <lastmod>2025-07-25T16:45:00+00:00</lastmod>
     <xhtml:link
@@ -1412,6 +1399,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/streaming-913378.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-915144.html</loc>
+    <lastmod>2025-07-25T16:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/datalake-915144.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-915144.html"
                 />
   </url><url>
     <loc>/zh/sessions/ai-915004.html</loc>
