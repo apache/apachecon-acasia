@@ -673,6 +673,19 @@
                 href="/sessions/general-915544.html"
                 />
   </url><url>
+    <loc>/sessions/datastorage-883342.html</loc>
+    <lastmod>2025-07-26T17:15:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datastorage-883342.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/datastorage-883342.html"
+                />
+  </url><url>
     <loc>/sessions/streaming-889266.html</loc>
     <lastmod>2025-07-26T17:15:00+00:00</lastmod>
     <xhtml:link
@@ -1297,6 +1310,32 @@
                 href="/sessions/community-914929.html"
                 />
   </url><url>
+    <loc>/sessions/streaming-913440.html</loc>
+    <lastmod>2025-07-25T17:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-913440.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/streaming-913440.html"
+                />
+  </url><url>
+    <loc>/sessions/datastorage-914565.html</loc>
+    <lastmod>2025-07-25T17:15:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datastorage-914565.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/datastorage-914565.html"
+                />
+  </url><url>
     <loc>/sessions/datalake-884074.html</loc>
     <lastmod>2025-07-25T17:15:00+00:00</lastmod>
     <xhtml:link
@@ -1648,17 +1687,17 @@
                 href="/sessions/cloudnative-868204.html"
                 />
   </url><url>
-    <loc>/sessions/datastorage-883342.html</loc>
+    <loc>/sessions/datastorage-875244.html</loc>
     <lastmod>2025-07-25T15:45:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/datastorage-883342.html"
+                href="/zh/sessions/datastorage-875244.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/sessions/datastorage-883342.html"
+                href="/sessions/datastorage-875244.html"
                 />
   </url><url>
     <loc>/sessions/datalake-904992.html</loc>
@@ -2118,6 +2157,18 @@
                 href="/tracks/dataops.html"
                 />
   </url><url>
+    <loc>/sessions/keynote-961672.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-961672.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/keynote-961672.html"
+                />
+  </url><url>
     <loc>/tracks/general.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -2262,6 +2313,18 @@
                 href="/tracks/olap.html"
                 />
   </url><url>
+    <loc>/sessions/keynote-961040.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-961040.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/keynote-961040.html"
+                />
+  </url><url>
     <loc>/sessions/keynote-914928.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -2344,6 +2407,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="/guide/terms.html"
+                />
+  </url><url>
+    <loc>/sessions/keynote-961585.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-961585.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/keynote-961585.html"
                 />
   </url><url>
     <loc>/tracks.html</loc>

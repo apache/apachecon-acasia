@@ -646,6 +646,18 @@ PoAn Yang: ASF, Apache YuniKorn committer</description>
     </item>
     
     <item>
+      <title>Apache Kvrocks 的演进：搜索、向量及未来</title>
+      <link>/zh/sessions/datastorage-883342.html</link>
+      <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/datastorage-883342.html</guid>
+      <description>自从从 ASF 孵化器毕业以来，Apache Kvrocks 取得了显著的进展。该项目吸引了越来越多的贡献者，并不断通过新增功能实现演进。值得注意的是，我们引入了一个支持复杂查询和二级索引的 Search 模块，该模块同时兼容 RediSearch 查询语法和 SQL 语法。在此基础上，Kvrocks 通过集成前沿功能（如向量搜索）进一步拓展了其应用边界，使其成为现代应用中更加多功能且强大的数据存储解决方案。
+讲师: 
+Mingyang Liu: ASF 成员 &amp;amp; Apache Kvrocks PMC 主席
+Mingyang Liu 是一家芯片公司的编译器工程师，对编译器、AI 系统、程序分析、编程语言和数据库等领域充满兴趣。他热衷于为开源项目做出贡献，并在多个开源社区中活跃。他是 Apache Kvrocks 的项目管理委员会主席（PMC Chair），同时也是 ASF 成员。（https://github.com/pragmatwice）</description>
+    </item>
+    
+    <item>
       <title>在腾讯云上基于 Iceberg &amp; Amoro &amp; Gravitino 构建云原生 Lakehouse 架构</title>
       <link>/zh/sessions/datalake-906852.html</link>
       <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
@@ -1336,6 +1348,23 @@ Shekhar 对开源软件充满热情，并积极参与多个项目，包括SymPy�
     </item>
     
     <item>
+      <title>Kwai Flink 云原生架构演进</title>
+      <link>/zh/sessions/streaming-913440.html</link>
+      <pubDate>Fri, 25 Jul 2025 17:45:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/streaming-913440.html</guid>
+      <description>经过多年的发展，Kwai Flink 的资源规模已达到数百万内核，覆盖整个集团的所有业务场景，集群中运行的作业数以万计。然而，Flink 集群表现出明显的负载波动效应，成本问题日益突出，同时在集群扩展和运维方面也面临挑战。
+Kubernetes（K8S）已经成熟并被广泛采用，引擎的云迁移已成为行业趋势。K8S 可以将分散的资源池统一用于在线服务、实时计算和离线计算，通过相互负载均衡最大化集群中的资源利用率。因此，Flink 的云原生转型迫在眉睫。此外，统一在 K8S 技术栈下还能降低运维与开发成本。
+Kwai 经历了三个主要阶段： Flink On YARN、Flink On YARN On K8S 和 Flink Native On K8S。本演讲将讨论 Kwai 在 Flink 云迁移过程中遇到的挑战、解决方案和收益。
+讲师: 
+Mang Zhang: Flink Contributor
+10 年大数据引擎开发和大数据架构师经验。丰富的大数据实时和离线经验，擅长大数据场景的架构和方案设计。
+
+Heart Zhou: Kwai
+流媒体工程师</description>
+    </item>
+    
+    <item>
       <title>Apache Doris 混合检索技术解析</title>
       <link>/zh/sessions/ai-915118.html</link>
       <pubDate>Fri, 25 Jul 2025 17:15:00 +0000</pubDate>
@@ -1387,6 +1416,18 @@ Yuqi Gu: Apache Bigtop 和 Ambari PMC 成员 (guyuqi@apache.org)
 讲师: 
 张文超: hashdata
 Apache Cloudberry 贡献者</description>
+    </item>
+    
+    <item>
+      <title>适用于 Hadoop 集群的小型文件嗅探系统</title>
+      <link>/zh/sessions/datastorage-914565.html</link>
+      <pubDate>Fri, 25 Jul 2025 17:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/datastorage-914565.html</guid>
+      <description>HDFS（Hadoop 分布式文件系统）在管理大量小文件时经常会遇到性能严重下降的问题。通过 Namenode 服务扫描所有文件以查找小文件会变得非常耗时，并给 Namenodes 增加额外负担。关于如何在不查询Namenode的情况下以省时高效的方式识别HDFS中的小文件热点，目前还缺乏研究。在本环节中，演讲者旨在介绍一种大数据系统，通过解析在Namenode上定期生成的文件系统映像（FSImage）来识别HDFS中的小文件。该系统允许 Hadoop 集群管理员在不影响 Hadoop 集群正常运行的情况下实时监控和识别小文件。此外，它还可用作 Hive 数据仓库中定位小文件热点表的工具。
+讲师: 
+Miao Wang: 中国邮政储蓄银行，数据工程师
+Miao 拥有北京理工大学工程学士学位和康考迪亚大学电子与计算机工程硕士学位。目前，他在中国邮政储蓄银行担任数据工程师。他的兴趣横跨分布式系统、数据湖和大数据。此外，他还是 Apache Iceberg 等多个开源项目的贡献者。</description>
     </item>
     
     <item>
@@ -1642,15 +1683,15 @@ Justin Mclean 是一位拥有超过 30 年丰富经验的专业人士，在 Web 
     </item>
     
     <item>
-      <title>Apache Kvrocks 的演进：搜索、向量及未来</title>
-      <link>/zh/sessions/datastorage-883342.html</link>
+      <title>Gluten: 使用本地引擎加速 spark 和 flink</title>
+      <link>/zh/sessions/datastorage-875244.html</link>
       <pubDate>Fri, 25 Jul 2025 15:45:00 +0000</pubDate>
       
-      <guid>/zh/sessions/datastorage-883342.html</guid>
-      <description>自从从 ASF 孵化器毕业以来，Apache Kvrocks 取得了显著的进展。该项目吸引了越来越多的贡献者，并不断通过新增功能实现演进。值得注意的是，我们引入了一个支持复杂查询和二级索引的 Search 模块，该模块同时兼容 RediSearch 查询语法和 SQL 语法。在此基础上，Kvrocks 通过集成前沿功能（如向量搜索）进一步拓展了其应用边界，使其成为现代应用中更加多功能且强大的数据存储解决方案。
+      <guid>/zh/sessions/datastorage-875244.html</guid>
+      <description>介绍 Apache Gluten 项目，它可以使用本地引擎加速 spark 和 flink 作业，以及我们如何使用它来节省 BIGO 中的资源。
 讲师: 
-Mingyang Liu: ASF 成员 &amp;amp; Apache Kvrocks PMC 主席
-Mingyang Liu 是一家芯片公司的编译器工程师，对编译器、AI 系统、程序分析、编程语言和数据库等领域充满兴趣。他热衷于为开源项目做出贡献，并在多个开源社区中活跃。他是 Apache Kvrocks 的项目管理委员会主席（PMC Chair），同时也是 ASF 成员。（https://github.com/pragmatwice）</description>
+Shuai Xu: Bigo 首席工程师
+Bigo 首席工程师。Bigo 大数据计算机引擎团队负责人。</description>
     </item>
     
     <item>
@@ -2136,6 +2177,19 @@ Rust 专场旨在分享 ASF 内部及开源生态中 Rust 项目和集成的演�
     </item>
     
     <item>
+      <title>七年之痒：我的 Apache 故事</title>
+      <link>/zh/sessions/keynote-961585.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-961585.html</guid>
+      <description>今年是我在阿帕奇软件基金会工作的第七个年头。作为一名贡献者，我在参与 Apache Flink 项目时获得了我的第一个提交位。我为 ASF 项目做出的贡献越多，我在他们的社区中获得的学分也就越多。
+现在，我是 ASF 的董事会成员，也是一名活跃的孵化器导师，指导过七个以上的 podling 项目。欢迎参加本次会议，了解我是如何在更广泛的 ASF 社区中成长的，以及在接下来的几年中，我对 ASF 中的协作者有哪些要求。
+讲师: 
+Zili Chen: ScopeDB 联合创始人
+Zili Chen (@tison) 是 ScopeDB 的联合创始人之一，ScopeDB 是一个利用云服务为半结构化数据构建的数据库。他是一位经验丰富的开源倡导者和 ASF 成员，拥有丰富的经验。他维护过多个重要项目，包括 Apache Flink、Apache ZooKeeper 和 Apache Pulsar。</description>
+    </item>
+    
+    <item>
       <title>云原生</title>
       <link>/zh/tracks/cloudnative.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2156,6 +2210,32 @@ Rust 专场旨在分享 ASF 内部及开源生态中 Rust 项目和集成的演�
   Apache单个项目在AI场景下的优化（例如Spark MLib，Flink ML等项目）
   基于Apache多个项目组合后在工业场景的AI解决方案例如某某企业的AI业务构建方法
   </description>
+    </item>
+    
+    <item>
+      <title>人工智能时代的产品开发：变与不变</title>
+      <link>/zh/sessions/keynote-961040.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-961040.html</guid>
+      <description>GenAI 的快速发展正在深刻地改变产品世界的游戏规则。除了产品本身从“AI赋能”走向“AI Native”，产品的开发流程也正在被重新定义：从用户需求洞察，到设计原型生成，再到编码实现和上线迭代，AI 逐步介入产品生命周期的每一个环节，使得“一个人完成一个产品”的可能性正在变为现实。
+面对这场范式变革，产品经理的角色正在经历深层演化。我们应该如何更新自身的能力模型？在这个充满变化的时代，哪些底层能力始终不变？客户的痛点依旧存在，产品的使命依然是解决真实问题。变与不变之间，正是产品人判断力与创造力的试金石。
+在开源社区中，这种变化尤为显著：AI 降低了协作和贡献的门槛，也重塑了人与人、人与系统之间的交互方式。产品经理需要以更结构化的方式组织开放协作，以更抽象的视角连接社区愿景与实际落地，从而在多元个体中寻找共识、在混沌中驱动秩序。
+本议题尝试用一种开放式的思维和新的交互尝试，为大家带来一些关于产品开发范式的核心思考。
+通过结构化分析与新颖的抬杠式辩论互动，共同探讨 AI 时代产品范式的“变”与“不变”，并尝试回答这样一个问题：当 AI 让世界变得更快，我们是否也能让产品变得更好？
+讲师: 
+Emily Chen: 开源社联合创始人
+陈阳（Emily Chen），开源社联合创始人，现任开源社理事会成员。她是深耕开源社区多年的实践者、组织者与连接者，致力于推动开源文化在全球与中国的发展与融合。
+2008年，陈阳创立了 GNOME.Asia 社区，将 GNOME.Asia 峰会成功带到十多个亚洲国家和地区。2010年，她担任 GNOME 基金会董事会成员，并于2014年在瑞典 GUADEC 大会上荣获 GNOME 基金会最高荣誉——“GNOME Pants Award”。
+自2017年起，陈阳多次组织 GitHub CEO、COO 及全球开源领袖的访华之行，积极推动国际平台与中国开源生态的交流与合作。她曾任OSI 中国联盟代表、中国开源促进联盟副秘书长（2016），在国际标准组织沟通方面发挥了重要作用。
+她发起了多个在中国极具影响力的开源项目，包括开源社年度报告、中国开源年会（COSCon）以及“33位开源先行者”榜单。此外，她还是 Mozilla 的核心贡献者、Google Summer of Code（GSoC）导师，以及2024 开源议会（Open Source Congress）的组织者之一。现任开放原子开源基金会 TOC 导师。
+作为中国开源领域的见证者与推动者，陈阳持续以开放、协作、连接的姿态，探索 AI 时代下全球开源的新范式。
+
+Richard Bian: 蚂蚁金服集团开源主管；蚂蚁金服集团战略与发展（OSS）总监；蚂蚁金服集团新战略计划；
+Richard Bian（中文名：边思康）从第一天起就领导蚂蚁金服集团的开源计划，并将该计划从一个人的努力发展成为一个跨职能的开源项目办公室（OSPO）团队，涵盖管理、战略、开发者体验、产品开发、增长和国际化工作。
+目前，该团队与 20 多个内部开源项目密切合作，帮助他们实现社区发展、数据科学需求、开发人员增长需求、外联和合作伙伴关系合作以及市场拓展。我们制定规则和流程，构建工具和实用程序，设计成熟的产品，为内部用户和外部社区合作伙伴提供帮助。
+Richard 曾在 Square 工作，是前微软工程师，也是一个幼儿的父亲，他喜欢领导战略计划从无到有，并打造开发人员和最终用户喜欢使用的产品。
+Richard 在 4 个不同的国家（新加坡、加拿大、美国和中国）学习和工作了 5 年多，拥有丰富的跨文化合作经验。</description>
     </item>
     
     <item>
@@ -2199,6 +2279,20 @@ Divya 是 SUSE 的高级技术布道师，致力于推动 Rancher 的云原生�
       
       <guid>/zh/tracks/observability.html</guid>
       <description>作为云原生时代必备的技术能力，软件中的可观测性（指分析和解释系统运行状态的能力）越来越受到重视，特别是在分布式环境广泛运用的今天，可观测性平台能力可谓保障软件系统稳定的基石。</description>
+    </item>
+    
+    <item>
+      <title>在开源生态系统中利用 GenAI 推动下一波开发人员创新浪潮</title>
+      <link>/zh/sessions/keynote-961672.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-961672.html</guid>
+      <description>亚马逊网络服务（AWS）和阿帕奇软件基金会（Apache Software Foundation）在开源、云计算和生成式人工智能融合的快速发展环境中建立了战略合作伙伴关系，重新定义了开发人员的体验。本主题演讲将探讨 AWS 如何利用生成式人工智能的变革力量，通过智能云原生服务和人工智能增强型开发平台为 Apache 开源项目开发人员赋能。
+我们将展示生成式人工智能如何在 AWS 上彻底改变 Spark、Kafka 和 Airflow 等核心 Apache 项目的开发人员工作流程。从针对 Apache 框架的亚马逊 Q 开发人员人工智能驱动代码生成专用工具到开放源代码的多代理云部署工具包，我们将展示开发人员如何实现前所未有的生产力提升。演讲将重点介绍 AWS 托管服务如何与人工智能生成功能相结合，将开发人员从常规任务中解放出来，使他们能够专注于创造性地解决问题和创新。
+此外，我们还将分享 AWS 在生成式人工智能领域对开源社区的贡献、我们联合开展的开发人员教育计划，并展望云原生开源技术和生成式人工智能继续共同发展、为开发人员创新开辟新领域的激动人心的未来。
+讲师: 
+Zheng Yubin: AWS，高级开发人员倡导者
+Zheng Yubin, 在 ICT 行业和数字化转型领域拥有 20 多年的经验。现任 AWS 高级开发者布道师，专注于云原生、云安全和生成式人工智能。作为 AWS 中国的第一位女性技术布道师，与开发者社区保持联系。作为一名拥有 18 年经验的架构师，曾为金融、教育、制造和高科技行业提供咨询和技术实施解决方案，包括数据中心建设和软件定义的数据中心。利用行业专业知识，为开发者提供技术指导，寻求共同成功。</description>
     </item>
     
     <item>
