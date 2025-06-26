@@ -106,7 +106,7 @@ async function updateSessionDates() {
                 // 更新已存在的 room 和 date
                 updatedFrontmatter = updatedFrontmatter
                   .replace(/^date:.*$/m, `date: "${info.scheduledDate}"`)
-                  .replace(/^room:.*$/m, `room:  "${realRoom}"`);
+                  .replace(/^room:.*$/m, `room: "${realRoom}"`);
               } else {
                 // 只更新 date，并添加 room
                 updatedFrontmatter = updatedFrontmatter
