@@ -1,7 +1,7 @@
 ---
 title: "Rapid Construction of Intelligent Microservices with Higress"
 date: "2025-07-27T15:45:00"
-room:  "JingMing Hall"
+room: "JingMing Hall"
 track: "microservice"
 presenters: "Min Ji"
 stype: "Chinese Session"

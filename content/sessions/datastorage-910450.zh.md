@@ -1,7 +1,7 @@
 ---
 title: "Shopee 的 Apache Ozone 最佳实践"
 date: "2025-07-26T15:00:00"
-room:  "万寿山会议室"
+room: "万寿山会议室"
 track: "datastorage"
 presenters: "Hui Fei"
 stype: "中文演讲"

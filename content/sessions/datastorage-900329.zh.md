@@ -1,7 +1,7 @@
 ---
 title: "Apache Ozone：通过磁盘平衡器实现数据均衡"
 date: "2025-07-26T15:45:00"
-room:  "万寿山会议室"
+room: "万寿山会议室"
 track: "datastorage"
 presenters: "Sammi Chen"
 stype: "中文演讲"

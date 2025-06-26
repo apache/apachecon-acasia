@@ -1,7 +1,7 @@
 ---
 title: "构建开发者友好的开源数据库社区实践"
 date: "2025-07-26T15:45:00"
-room:  "玉泉山会议室"
+room: "玉泉山会议室"
 track: "community"
 presenters: "Shaoting Duan"
 stype: "中文演讲"

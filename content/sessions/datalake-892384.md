@@ -1,7 +1,7 @@
 ---
 title: "Resolving Data Silos: Apache Gravitino's Production Implementation Practices at Bilibili"
 date: "2025-07-27T14:00:00"
-room:  "WanChun Hall"
+room: "WanChun Hall"
 track: "datalake"
 presenters: "Tianhang Li"
 stype: "Chinese Session"

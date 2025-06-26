@@ -1,7 +1,7 @@
 ---
 title: "Future Proof Data Platform in the AI and Cloud native era"
 date: "2025-07-26T16:45:00"
-room:  "Mtn BaiWang Hall"
+room: "Mtn BaiWang Hall"
 track: "general"
 presenters: "Tom Tan"
 stype: "Chinese Session"

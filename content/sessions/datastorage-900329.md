@@ -1,7 +1,7 @@
 ---
 title: "Apache Ozone: Balance Data Through Disk Balancer"
 date: "2025-07-26T15:45:00"
-room:  "Mtn WanShou Hall"
+room: "Mtn WanShou Hall"
 track: "datastorage"
 presenters: "Sammi Chen"
 stype: "Chinese Session"

@@ -1,7 +1,7 @@
 ---
 title: "Apache Hive 中带有分支和标记的 ETL 的未来"
 date: "2025-07-27T15:45:00"
-room:  "万春厅"
+room: "万春厅"
 track: "datalake"
 presenters: "Attila Turóczy"
 stype: "英文演讲"

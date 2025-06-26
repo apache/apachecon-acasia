@@ -1,7 +1,7 @@
 ---
 title: "The Practice to Building a Developer Friendly Open Source Database Community"
 date: "2025-07-26T15:45:00"
-room:  "Mtn YuQuan Hall"
+room: "Mtn YuQuan Hall"
 track: "community"
 presenters: "Shaoting Duan"
 stype: "Chinese Session"

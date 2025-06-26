@@ -1,7 +1,7 @@
 ---
 title: "Production Practice of Apache Gluten and Apache Celeborn at Xiaomi"
 date: "2025-07-25T15:00:00"
-room:  "Mtn WanShou Hall"
+room: "Mtn WanShou Hall"
 track: "datastorage"
 presenters: "Yongyuan Liang"
 stype: "Chinese Session"

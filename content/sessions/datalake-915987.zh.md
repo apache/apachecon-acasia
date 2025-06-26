@@ -1,7 +1,7 @@
 ---
 title: "使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案"
 date: "2025-07-26T15:45:00"
-room:  "万春厅"
+room: "万春厅"
 track: "datalake"
 presenters: "Rose Duan"
 stype: "中文演讲"

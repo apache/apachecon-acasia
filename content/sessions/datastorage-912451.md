@@ -1,7 +1,7 @@
 ---
 title: "Cross-Version Upgrade to HBase 2.3 and Stability Governance at Xiaomi"
 date: "2025-07-26T16:45:00"
-room:  "Mtn WanShou Hall"
+room: "Mtn WanShou Hall"
 track: "datastorage"
 presenters: "Zhiwen Deng"
 stype: "Chinese Session"

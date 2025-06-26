@@ -1,7 +1,7 @@
 ---
 title: "Scalable Join & Aggregation with External State and Dynamic Tables"
 date: "2025-07-26T15:45:00"
-room:  "YuanMing Hall"
+room: "YuanMing Hall"
 track: "streaming"
 presenters: "Feng Jin"
 stype: "Chinese Session"

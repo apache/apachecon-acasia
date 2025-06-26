@@ -1,7 +1,7 @@
 ---
 title: "Kafka 4.0 Highlights: Features, Removals, and Upgrades"
 date: "2025-07-26T17:15:00"
-room:  "YuanMing Hall"
+room: "YuanMing Hall"
 track: "streaming"
 presenters: "Jiunn-Yang Huang, Chia-Ping Tsai, PoAn Yang, TengYao Chi, YiHuan LEE, Kuan Po Tseng"
 stype: "Chinese Session"

@@ -1,7 +1,7 @@
 ---
 title: "Secure your Dubbo application using Triple and xDS"
 date: "2025-07-27T16:15:00"
-room:  "JingMing Hall"
+room: "JingMing Hall"
 track: "microservice"
 presenters: "Heqing Jiang"
 stype: "Chinese Session"

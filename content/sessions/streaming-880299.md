@@ -1,7 +1,7 @@
 ---
 title: "Ant Group's Next Generation High SLA Streaming Computing System Built on Apache Technology Stack"
 date: "2025-07-25T14:30:00"
-room:  "YuanMing Hall"
+room: "YuanMing Hall"
 track: "streaming"
 presenters: "Xin Wang"
 stype: "Chinese Session"

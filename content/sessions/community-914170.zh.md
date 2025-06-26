@@ -1,7 +1,7 @@
 ---
 title: "衡量开源社区项目健康的挑战与实践"
 date: "2025-07-25T15:45:00"
-room:  "玉泉山会议室"
+room: "玉泉山会议室"
 track: "community"
 presenters: "Xiaoya Xia, Divya Mohan"
 stype: "英文演讲"

@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Apache Cloudberry: Evolution, Key Features, and Roadmap"
 date: "2025-07-27T15:00:00"
-room:  "WanChun Hall"
+room: "WanChun Hall"
 track: "datalake"
 presenters: "Max Yang"
 stype: "Chinese Session"

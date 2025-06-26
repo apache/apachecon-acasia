@@ -1,7 +1,7 @@
 ---
 title: "Apache HertzBeat, a new generation open-source real-time monitoring and alerting platform"
 date: "2025-07-25T14:00:00"
-room:  "Mtn Yang Hall"
+room: "Mtn Yang Hall"
 track: "cloudnative"
 presenters: "Hongyu Liu"
 stype: "Chinese Session"

@@ -1,7 +1,7 @@
 ---
 title: "掌握大规模 Shuffle：Dream11 使用远程 Shuffle 服务的实战手册"
 date: "2025-07-25T14:30:00"
-room:  "万寿山会议室"
+room: "万寿山会议室"
 track: "datastorage"
 presenters: "Ravi Rana, Mehul Batra, Mohit Jain"
 stype: "英文演讲"

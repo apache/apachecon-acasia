@@ -1,7 +1,7 @@
 ---
 title: "Apache HugeGraph 1.5.0：企业级部署最佳实践"
 date: "2025-07-26T15:45:00"
-room:  "百望山会议室"
+room: "百望山会议室"
 track: "general"
 presenters: "赵浩"
 stype: "中文演讲"

@@ -1,7 +1,7 @@
 ---
 title: "Enhancing Virtual Collaboration: Integrating GenAI into Apache OpenMeetings"
 date: "2025-07-26T16:15:00"
-room:  "Mtn BaiWang Hall"
+room: "Mtn BaiWang Hall"
 track: "general"
 presenters: "Wentao Liu"
 stype: "Chinese Session"

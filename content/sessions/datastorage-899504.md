@@ -1,7 +1,7 @@
 ---
 title: "Apache Cassandra: Past, Present, and Future"
 date: "2025-07-26T14:30:00"
-room:  "Mtn WanShou Hall"
+room: "Mtn WanShou Hall"
 track: "datastorage"
 presenters: "Guo Chao"
 stype: "English Session"

@@ -1,7 +1,7 @@
 ---
 title: "开源许可的十年经验教训"
 date: "2025-07-25T14:00:00"
-room:  "玉泉山会议室"
+room: "玉泉山会议室"
 track: "community"
 presenters: "Justin Mclean"
 stype: "英文演讲"

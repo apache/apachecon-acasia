@@ -1,7 +1,7 @@
 ---
 title: "Empowering Serverless Messaging Architectures with Apache RocketMQ"
 date: "2025-07-26T15:00:00"
-room:  "JingYi Hall"
+room: "JingYi Hall"
 track: "messaging"
 presenters: "Juntao Ji"
 stype: "Chinese Session"

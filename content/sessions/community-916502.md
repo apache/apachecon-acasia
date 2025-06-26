@@ -1,7 +1,7 @@
 ---
 title: "China Open Source & AI at  a Glance"
 date: "2025-07-25T16:15:00"
-room:  "Mtn YuQuan Hall"
+room: "Mtn YuQuan Hall"
 track: "community"
 presenters: "Ted Liu"
 stype: "Chinese Session"

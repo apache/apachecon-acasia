@@ -1,7 +1,7 @@
 ---
 title: "Apache Gravitino: The universal catalog for data and AI"
 date: "2025-07-25T15:45:00"
-room:  "WanChun Hall"
+room: "WanChun Hall"
 track: "datalake"
 presenters: "Justin Mclean"
 stype: "English Session"

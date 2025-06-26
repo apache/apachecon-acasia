@@ -1,7 +1,7 @@
 ---
 title: "统一数据湖接入与实时集成：解构 SeaTunnel 对 Hudi / Iceberg / Paimon 的架构级支持"
 date: "2025-07-27T14:30:00"
-room:  "万春厅"
+room: "万春厅"
 track: "datalake"
 presenters: "Lidong Dai"
 stype: "中文演讲"

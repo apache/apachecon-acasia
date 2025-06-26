@@ -1,7 +1,7 @@
 ---
 title: "Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI"
 date: "2025-07-25T16:45:00"
-room:  "万寿山会议室"
+room: "万寿山会议室"
 track: "datastorage"
 presenters: "Hubert Zhang, Lintao Zhang"
 stype: "英文演讲"

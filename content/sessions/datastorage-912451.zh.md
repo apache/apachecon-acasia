@@ -1,7 +1,7 @@
 ---
 title: "小米 HBase 2.3 跨版本升级及稳定性治理实践"
 date: "2025-07-26T16:45:00"
-room:  "万寿山会议室"
+room: "万寿山会议室"
 track: "datastorage"
 presenters: "Zhiwen Deng"
 stype: "中文演讲"

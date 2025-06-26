@@ -1,7 +1,7 @@
 ---
 title: "Apache Kafka 4.0 in Huawei Cloud"
 date: "2025-07-25T14:30:00"
-room:  "Mtn Yang Hall"
+room: "Mtn Yang Hall"
 track: "cloudnative"
 presenters: "Lan Ding"
 stype: "Chinese Session"

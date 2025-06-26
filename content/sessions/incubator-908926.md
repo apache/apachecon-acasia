@@ -1,7 +1,7 @@
 ---
 title: "From Chaos to Order: The Journey of Apache OzHera (Incubating)'s First Release Process"
 date: "2025-07-27T14:30:00"
-room:  "Mtn YuQuan Hall"
+room: "Mtn YuQuan Hall"
 track: "incubator"
 presenters: "Shuxin Pan"
 stype: "Chinese Session"

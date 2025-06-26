@@ -1,7 +1,7 @@
 ---
 title: "Optimizing Observability: Unveiling BanyanDB's Hot-Warm-Cold Architecture"
 date: "2025-07-27T16:15:00"
-room:  "Mtn Yang Hall"
+room: "Mtn Yang Hall"
 track: "observability"
 presenters: "Hongtao Gao"
 stype: "Chinese Session"

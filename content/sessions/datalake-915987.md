@@ -1,7 +1,7 @@
 ---
 title: "Building a Unified Lakehouse Solution with Apache Cloudberry"
 date: "2025-07-26T15:45:00"
-room:  "WanChun Hall"
+room: "WanChun Hall"
 track: "datalake"
 presenters: "Rose Duan"
 stype: "Chinese Session"

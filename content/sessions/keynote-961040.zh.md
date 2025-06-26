@@ -4,7 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Emily Chen, Richard Bian"
 stype: "中文演讲"
-room:  ""
+room: ""
 ---
 
 GenAI 的快速发展正在深刻地改变产品世界的游戏规则。除了产品本身从“AI赋能”走向“AI Native”，产品的开发流程也正在被重新定义：从用户需求洞察，到设计原型生成，再到编码实现和上线迭代，AI 逐步介入产品生命周期的每一个环节，使得“一个人完成一个产品”的可能性正在变为现实。

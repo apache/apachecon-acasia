@@ -1,7 +1,7 @@
 ---
 title: "使用 Apache RocketMQ 赋能无服务器消息架构"
 date: "2025-07-26T15:00:00"
-room:  "静宜厅"
+room: "静宜厅"
 track: "messaging"
 presenters: "Juntao Ji"
 stype: "中文演讲"

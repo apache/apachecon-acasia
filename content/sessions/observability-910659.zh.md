@@ -1,7 +1,7 @@
 ---
 title: "优化可观测性：揭秘BanyanDB的热-温-冷架构"
 date: "2025-07-27T16:15:00"
-room:  "阳山会议室"
+room: "阳山会议室"
 track: "observability"
 presenters: "Hongtao Gao"
 stype: "中文演讲"

@@ -1,7 +1,7 @@
 ---
 title: "Celeborn’s Revolution in Multi-Engine Support, Performance Mastery, and Enterprising Innovation"
 date: "2025-07-26T16:15:00"
-room:  "Mtn WanShou Hall"
+room: "Mtn WanShou Hall"
 track: "datastorage"
 presenters: "Jiashu Xiong, Ethan Feng"
 stype: "Chinese Session"

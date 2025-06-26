@@ -1,7 +1,7 @@
 ---
 title: "Dubbo-go 在微服务架构中的应用"
 date: "2025-07-27T14:30:00"
-room:  "静明厅"
+room: "静明厅"
 track: "microservice"
 presenters: "Wu Xinfan"
 stype: "中文演讲"

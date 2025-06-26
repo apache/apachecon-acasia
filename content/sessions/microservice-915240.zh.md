@@ -1,7 +1,7 @@
 ---
 title: "AI时代的微服务创新：从架构重塑到代理驱动开发"
 date: "2025-07-27T15:00:00"
-room:  "静明厅"
+room: "静明厅"
 track: "microservice"
 presenters: "丛国庆"
 stype: "中文演讲"

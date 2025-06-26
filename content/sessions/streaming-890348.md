@@ -1,7 +1,7 @@
 ---
 title: "Application of Apache Flink in China Telecom's Logging Scenario"
 date: "2025-07-25T15:45:00"
-room:  "YuanMing Hall"
+room: "YuanMing Hall"
 track: "streaming"
 presenters: "Yan Zuo"
 stype: "Chinese Session"

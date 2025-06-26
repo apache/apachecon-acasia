@@ -1,7 +1,7 @@
 ---
 title: "开源贡献者之旅：从提交 PR 到项目维护的演变"
 date: "2025-07-26T16:15:00"
-room:  "玉泉山会议室"
+room: "玉泉山会议室"
 track: "community"
 presenters: "Shuxin Pan"
 stype: "中文会议"

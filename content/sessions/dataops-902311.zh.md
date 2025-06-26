@@ -1,7 +1,7 @@
 ---
 title: "Apache Hop：大型语言模型、图数据库与电子表格的无缝集成"
 date: "2025-07-27T14:30:00"
-room:  "万寿山会议室"
+room: "万寿山会议室"
 track: "dataops"
 presenters: "Koji Annoura"
 stype: "英文演讲"

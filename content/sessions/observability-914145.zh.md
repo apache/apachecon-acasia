@@ -1,7 +1,7 @@
 ---
 title: "全景可观测性：LoongCollector 助力大规模 Apache Flink 和 Spark 集群"
 date: "2025-07-27T15:00:00"
-room:  "阳山会议室"
+room: "阳山会议室"
 track: "observability"
 presenters: "Runqi Lin, Hongyi Zhou"
 stype: "中文演讲"

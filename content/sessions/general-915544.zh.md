@@ -1,7 +1,7 @@
 ---
 title: "软件团队的激进透明"
 date: "2025-07-26T17:15:00"
-room:  "百望山会议室"
+room: "百望山会议室"
 track: "general"
 presenters: "Gregory Lind"
 stype: "英文演讲"

@@ -1,7 +1,7 @@
 ---
 title: "在实践中构建实时数据湖"
 date: "2025-07-26T15:00:00"
-room:  "万春厅"
+room: "万春厅"
 track: "datalake"
 presenters: "Congxian Qiu"
 stype: "中文演讲"

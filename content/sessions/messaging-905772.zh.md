@@ -1,7 +1,7 @@
 ---
 title: "小米 RocketMQ-MQTT 最佳实践：提升质量和成本效率之旅"
 date: "2025-07-26T16:45:00"
-room:  "静宜厅"
+room: "静宜厅"
 track: "messaging"
 presenters: "Fan Wang"
 stype: "中文演讲"

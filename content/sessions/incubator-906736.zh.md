@@ -1,7 +1,7 @@
 ---
 title: "从提案到进展：从孵化 Apache Cloudberry 中汲取的经验教训"
 date: "2025-07-27T15:45:00"
-room:  "玉泉山会议室"
+room: "玉泉山会议室"
 track: "incubator"
 presenters: "Dianjin Wang"
 stype: "中文演讲"

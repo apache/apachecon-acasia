@@ -4,7 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Zili Chen"
 stype: "Chinese Session"
-room:  ""
+room: ""
 ---
 
 This is my seventh year at The Apache Software Foundation. Starting as a contributor, I earned my first commit bit while working on the Apache Flink project. The more I contribute to ASF projects, the more credits I earn in their community.

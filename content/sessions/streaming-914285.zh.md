@@ -1,7 +1,7 @@
 ---
 title: "中国移动云中Apache Flink实时计算的实践"
 date: "2025-07-26T14:30:00"
-room:  "圆明厅"
+room: "圆明厅"
 track: "streaming"
 presenters: "LEI XIE"
 stype: "中文演讲"

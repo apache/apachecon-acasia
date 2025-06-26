@@ -4,7 +4,7 @@ date: "2025-07-25T17:45:00"
 track: "streaming"
 presenters: "Mang Zhang, Heart Zhou"
 stype: "中文演讲"
-room:  "圆明厅"
+room: "圆明厅"
 ---
 
 经过多年的发展，Kwai Flink 的资源规模已达到数百万内核，覆盖整个集团的所有业务场景，集群中运行的作业数以万计。然而，Flink 集群表现出明显的负载波动效应，成本问题日益突出，同时在集群扩展和运维方面也面临挑战。

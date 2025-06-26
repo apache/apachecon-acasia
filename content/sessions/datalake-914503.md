@@ -1,7 +1,7 @@
 ---
 title: "Supercharge Lakehouse Implementation with Apache Iceberg"
 date: "2025-07-26T16:15:00"
-room:  "WanChun Hall"
+room: "WanChun Hall"
 track: "datalake"
 presenters: "Bill Zhang"
 stype: "English Session"

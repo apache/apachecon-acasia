@@ -1,7 +1,7 @@
 ---
 title: "Apache HertzBeat，新一代开源实时监控与告警平台"
 date: "2025-07-25T14:00:00"
-room:  "阳山会议室"
+room: "阳山会议室"
 track: "cloudnative"
 presenters: "Hongyu Liu"
 stype: "中文演讲"

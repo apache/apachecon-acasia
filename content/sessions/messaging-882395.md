@@ -1,7 +1,7 @@
 ---
 title: "Kafka on Tencent Cloud: Seamless Migration & Disaster Recovery"
 date: "2025-07-26T14:00:00"
-room:  "JingYi Hall"
+room: "JingYi Hall"
 track: "messaging"
 presenters: "Shilin Lu"
 stype: "Chinese Session"

@@ -1,7 +1,7 @@
 ---
 title: "Flink Agents: The Agentic AI Framework based on Apache Flink"
 date: "2025-07-25T16:45:00"
-room:  "YuanMing Hall"
+room: "YuanMing Hall"
 track: "streaming"
 presenters: "Xintong Song"
 stype: "Chinese Session"

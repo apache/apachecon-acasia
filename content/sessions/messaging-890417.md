@@ -1,7 +1,7 @@
 ---
 title: "Building Highly Reliable Subscription & Push with Apache Pulsar: Challenges and Best Practices"
 date: "2025-07-25T15:00:00"
-room:  "JingYi Hall"
+room: "JingYi Hall"
 track: "messaging"
 presenters: "Zhangjian He"
 stype: "Chinese Session"

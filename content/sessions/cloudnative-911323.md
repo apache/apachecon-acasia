@@ -1,7 +1,7 @@
 ---
 title: "High Performance, Low Cost, Open Observability powered by Apache Doris"
 date: "2025-07-25T16:15:00"
-room:  "Mtn Yang Hall"
+room: "Mtn Yang Hall"
 track: "cloudnative"
 presenters: "Kang Xiao"
 stype: "Chinese Session"

@@ -1,7 +1,7 @@
 ---
 title: "eBPF + LLM：DeepFlow 全栈可观测性与 AI 代理实践案例"
 date: "2025-07-27T16:45:00"
-room:  "阳山会议室"
+room: "阳山会议室"
 track: "observability"
 presenters: "Yang Xiang"
 stype: "中文演讲"

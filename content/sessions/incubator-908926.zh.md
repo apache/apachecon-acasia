@@ -1,7 +1,7 @@
 ---
 title: "从混乱到有序：Apache OzHera（孵化版）首次发布流程之旅"
 date: "2025-07-27T14:30:00"
-room:  "玉泉山会议室"
+room: "玉泉山会议室"
 track: "incubator"
 presenters: "Shuxin Pan"
 stype: "中文演讲"

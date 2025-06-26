@@ -1,7 +1,7 @@
 ---
 title: "Exploration and practice of Apache Pulsar in online scenarios of Xiaohongshu Company"
 date: "2025-07-25T16:45:00"
-room:  "JingYi Hall"
+room: "JingYi Hall"
 track: "messaging"
 presenters: "Steven Lu, Linlin Duan, Xiangying Meng"
 stype: "Chinese Session"

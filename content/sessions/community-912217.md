@@ -1,7 +1,7 @@
 ---
 title: "Nurturing New Contributors: The Art of Crafting Good First Issues"
 date: "2025-07-26T14:30:00"
-room:  "Mtn YuQuan Hall"
+room: "Mtn YuQuan Hall"
 track: "community"
 presenters: "Willem Jiang"
 stype: "Chinese Session"

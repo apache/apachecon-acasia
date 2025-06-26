@@ -1,7 +1,7 @@
 ---
 title: "Apache Cassandra Drivers Best Practices: Maximize Performance and Robustness"
 date: "2025-07-26T14:00:00"
-room:  "Mtn WanShou Hall"
+room: "Mtn WanShou Hall"
 track: "datastorage"
 presenters: "Siyao He"
 stype: "Chinese Session"

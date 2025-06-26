@@ -1,7 +1,7 @@
 ---
 title: "中国开源与人工智能概览"
 date: "2025-07-25T16:15:00"
-room:  "玉泉山会议室"
+room: "玉泉山会议室"
 track: "community"
 presenters: "Ted Liu"
 stype: "中文演讲"

@@ -1,7 +1,7 @@
 ---
 title: "Building a real-time data lakehouse in practice"
 date: "2025-07-26T15:00:00"
-room:  "WanChun Hall"
+room: "WanChun Hall"
 track: "datalake"
 presenters: "Congxian Qiu, Zhuojun Jiang"
 stype: "Chinese Session"

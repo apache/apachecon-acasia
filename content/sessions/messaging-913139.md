@@ -1,7 +1,7 @@
 ---
 title: "Decrypting the architectural innovation and multi-scenario best practices of the apache  kafka"
 date: "2025-07-25T15:45:00"
-room:  "JingYi Hall"
+room: "JingYi Hall"
 track: "messaging"
 presenters: "Fujian Zhao"
 stype: "Chinese Session"

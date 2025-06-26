@@ -4,7 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Wei Wang"
 stype: "Chinese Session"
-room:  ""
+room: ""
 ---
 
 With the rapid development of the global open-source ecosystem, the influence of China's open-source community on the international stage has continued to grow. This report is based on data analysis from the China Open Source Annual Report, focusing on the participation, technical contributions, and development trends of the Apache open-source community in China. It aims to reveal the community's role and challenges within the global open-source ecosystem.

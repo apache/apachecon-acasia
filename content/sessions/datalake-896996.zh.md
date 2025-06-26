@@ -1,7 +1,7 @@
 ---
 title: "Apache Iceberg：高性能数据湖仓的表维护策略"
 date: "2025-07-25T14:00:00"
-room:  "万春厅"
+room: "万春厅"
 track: "datalake"
 presenters: "Akshat Mathur"
 stype: "英文演讲"

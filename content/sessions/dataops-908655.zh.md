@@ -1,7 +1,7 @@
 ---
 title: "Apache SeaTunnel MCP 介绍与演示"
 date: "2025-07-27T16:15:00"
-room:  "万寿山会议室"
+room: "万寿山会议室"
 track: "dataops"
 presenters: "Haicheng Zhang"
 stype: "中文演讲"

@@ -1,7 +1,7 @@
 ---
 title: "Best Practices for High Availability of Apache Pulsar on Tencent Cloud"
 date: "2025-07-25T14:30:00"
-room:  "JingYi Hall"
+room: "JingYi Hall"
 track: "messaging"
 presenters: "Mingze Han"
 stype: "Chinese Session"

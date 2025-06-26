@@ -1,7 +1,7 @@
 ---
 title: "Disaggregated State Management In Apache Flink"
 date: "2025-07-25T16:15:00"
-room:  "YuanMing Hall"
+room: "YuanMing Hall"
 track: "streaming"
 presenters: "Zhaoqian (Zakelly) Lan"
 stype: "Chinese Session"

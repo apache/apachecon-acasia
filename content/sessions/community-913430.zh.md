@@ -1,7 +1,7 @@
 ---
 title: "蚂蚁开源孵化实践探索"
 date: "2025-07-26T15:00:00"
-room:  "玉泉山会议室"
+room: "玉泉山会议室"
 track: "community"
 presenters: "Peggy Dong"
 stype: "英文演讲"

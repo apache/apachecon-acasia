@@ -1,7 +1,7 @@
 ---
 title: "Build a cloud native Lakehouse architecture based on Iceberg & Amoro & Gravitino in Tencent Cloud"
 date: "2025-07-26T17:15:00"
-room:  "WanChun Hall"
+room: "WanChun Hall"
 track: "datalake"
 presenters: "Jinsong Zhou"
 stype: "Chinese Session"

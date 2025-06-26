@@ -1,7 +1,7 @@
 ---
 title: "Flink Agents：基于 Apache Flink 的智能体构建框架"
 date: "2025-07-25T16:45:00"
-room:  "圆明厅"
+room: "圆明厅"
 track: "streaming"
 presenters: "Xintong Song"
 stype: "中文演讲"

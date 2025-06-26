@@ -1,7 +1,7 @@
 ---
 title: "Apache Cassandra 驱动最佳实践：最大化性能与健壮性"
 date: "2025-07-26T14:00:00"
-room:  "万寿山会议室"
+room: "万寿山会议室"
 track: "datastorage"
 presenters: "Siyao He"
 stype: "中文演讲"

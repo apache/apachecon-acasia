@@ -1,7 +1,7 @@
 ---
 title: "Lessons Learned: Building Service Gateway with Tomcat And Virtual Threads"
 date: "2025-07-26T15:00:00"
-room:  "Mtn Yang Hall"
+room: "Mtn Yang Hall"
 track: "webserver"
 presenters: "Yike Xiao"
 stype: "Chinese Session"

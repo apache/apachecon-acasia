@@ -1,7 +1,7 @@
 ---
 title: "Storage Engine for RocketMQ Based on Commitlog and RocksDB"
 date: "2025-07-26T15:45:00"
-room:  "JingYi Hall"
+room: "JingYi Hall"
 track: "messaging"
 presenters: "Zhou Li"
 stype: "Chinese Session"

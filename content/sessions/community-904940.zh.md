@@ -1,7 +1,7 @@
 ---
 title: "跨越语言鸿沟：开源项目中全球协作的实用策略"
 date: "2025-07-25T15:00:00"
-room:  "玉泉山会议室"
+room: "玉泉山会议室"
 track: "community"
 presenters: "Miley Fu"
 stype: "中文演讲"

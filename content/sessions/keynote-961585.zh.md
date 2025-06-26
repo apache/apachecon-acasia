@@ -4,7 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Zili Chen"
 stype: "中文演讲"
-room:  ""
+room: ""
 ---
 
 今年是我在阿帕奇软件基金会工作的第七个年头。作为一名贡献者，我在参与 Apache Flink 项目时获得了我的第一个提交位。我为 ASF 项目做出的贡献越多，我在他们的社区中获得的学分也就越多。

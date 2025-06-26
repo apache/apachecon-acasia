@@ -1,7 +1,7 @@
 ---
 title: "Flex: Unified Stream and Batch Vectorized Engine"
 date: "2025-07-25T17:15:00"
-room:  "YuanMing Hall"
+room: "YuanMing Hall"
 track: "streaming"
 presenters: "Jacky Lau"
 stype: "Chinese Session"

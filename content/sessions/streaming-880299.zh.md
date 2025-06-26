@@ -1,7 +1,7 @@
 ---
 title: "蚂蚁集团基于 Apache 技术栈构建的新一代高 SLA 流式计算系统"
 date: "2025-07-25T14:30:00"
-room:  "圆明厅"
+room: "圆明厅"
 track: "streaming"
 presenters: "Xin Wang"
 stype: "中文演讲"

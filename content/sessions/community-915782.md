@@ -1,7 +1,7 @@
 ---
 title: "APACHE SOFTWARE - THE JOURNEY OF THE OPEN SOURCE ADOPTION FOR THE MEXICAN GOVERNMENT"
 date: "2025-07-25T14:30:00"
-room:  "Mtn YuQuan Hall"
+room: "Mtn YuQuan Hall"
 track: "community"
 presenters: "Víctor Manuel Romero Rodríguez"
 stype: "English Session"

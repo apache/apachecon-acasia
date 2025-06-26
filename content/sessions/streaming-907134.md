@@ -1,7 +1,7 @@
 ---
 title: "Accelerating Multi-stream Join by Stream Graph Computing"
 date: "2025-07-25T14:00:00"
-room:  "YuanMing Hall"
+room: "YuanMing Hall"
 track: "streaming"
 presenters: "Zhao Qingwen"
 stype: "Chinese Session"

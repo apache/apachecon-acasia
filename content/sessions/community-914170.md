@@ -1,7 +1,7 @@
 ---
 title: "Challenges and Practices of Measuring Open Source Community Project Health"
 date: "2025-07-25T15:45:00"
-room:  "Mtn YuQuan Hall"
+room: "Mtn YuQuan Hall"
 track: "community"
 presenters: "Xiaoya Xia, Divya Mohan"
 stype: "English Session"

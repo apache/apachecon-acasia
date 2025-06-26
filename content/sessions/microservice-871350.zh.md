@@ -1,7 +1,7 @@
 ---
 title: "使用 Triple 和 xDS 保护您的 Dubbo 应用"
 date: "2025-07-27T16:15:00"
-room:  "静明厅"
+room: "静明厅"
 track: "microservice"
 presenters: "江河清"
 stype: "中文演讲"

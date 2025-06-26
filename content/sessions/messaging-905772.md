@@ -1,7 +1,7 @@
 ---
 title: "Xiaomi's RocketMQ-MQTT best practice: The Journey of Enhancing Quality and Cost Efficiency"
 date: "2025-07-26T16:45:00"
-room:  "JingYi Hall"
+room: "JingYi Hall"
 track: "messaging"
 presenters: "Fan Wang"
 stype: "Chinese Session"

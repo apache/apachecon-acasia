@@ -1,7 +1,7 @@
 ---
 title: "高性能、低成本、开源可观测性，由Apache Doris驱动"
 date: "2025-07-25T16:15:00"
-room:  "阳山会议室"
+room: "阳山会议室"
 track: "cloudnative"
 presenters: "Kang Xiao"
 stype: "中文演讲"

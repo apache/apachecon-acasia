@@ -1,7 +1,7 @@
 ---
 title: "Virtual Queue in RocketMQ 5.0: Enhancing Backward Compatibility With Legacy Remoting-Based Clients"
 date: "2025-07-26T16:15:00"
-room:  "JingYi Hall"
+room: "JingYi Hall"
 track: "messaging"
 presenters: "Shengzhong Liu"
 stype: "Chinese Session"

@@ -1,7 +1,7 @@
 ---
 title: "Navigating the Incubator process"
 date: "2025-07-27T14:00:00"
-room:  "Mtn YuQuan Hall"
+room: "Mtn YuQuan Hall"
 track: "incubator"
 presenters: "Justin Mclean"
 stype: "English Session"

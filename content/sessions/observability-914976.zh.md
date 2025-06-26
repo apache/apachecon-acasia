@@ -1,7 +1,7 @@
 ---
 title: "消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究"
 date: "2025-07-27T14:00:00"
-room:  "阳山会议室"
+room: "阳山会议室"
 track: "observability"
 presenters: "Minghui Zhang"
 stype: "中文演讲"

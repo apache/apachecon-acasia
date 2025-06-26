@@ -1,7 +1,7 @@
 ---
 title: "Lessons Learned in Building a Cloud MQTT Solution"
 date: "2025-07-26T14:30:00"
-room:  "JingYi Hall"
+room: "JingYi Hall"
 track: "messaging"
 presenters: "Senze Zhang"
 stype: "Chinese Session"

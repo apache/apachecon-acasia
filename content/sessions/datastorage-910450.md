@@ -1,7 +1,7 @@
 ---
 title: "Apache Ozone Best Practices at Shopee"
 date: "2025-07-26T15:00:00"
-room:  "Mtn WanShou Hall"
+room: "Mtn WanShou Hall"
 track: "datastorage"
 presenters: "Hui Fei"
 stype: "Chinese Session"

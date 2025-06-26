@@ -1,7 +1,7 @@
 ---
 title: "Apache Amoro & iceberg in Huolala Prdouction"
 date: "2025-07-25T15:00:00"
-room:  "WanChun Hall"
+room: "WanChun Hall"
 track: "datalake"
 presenters: "Zheng Yu Chen"
 stype: "Chinese Session"

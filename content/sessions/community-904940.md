@@ -1,7 +1,7 @@
 ---
 title: "Bridging the Language Divide: Practical Tactics for Global Collaboration in Open Source"
 date: "2025-07-25T15:00:00"
-room:  "Mtn YuQuan Hall"
+room: "Mtn YuQuan Hall"
 track: "community"
 presenters: "Miley Fu"
 stype: "Chinese Session"

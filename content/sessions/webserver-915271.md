@@ -1,7 +1,7 @@
 ---
 title: "Seata's Journey: From an Alibaba Innovation to Apache Success and Beyond"
 date: "2025-07-26T15:45:00"
-room:  "Mtn Yang Hall"
+room: "Mtn Yang Hall"
 track: "webserver"
 presenters: "Min Ji"
 stype: "Chinese Session"

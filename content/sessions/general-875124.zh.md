@@ -1,7 +1,7 @@
 ---
 title: "AI 与云原生时代下的未来就绪数据平台"
 date: "2025-07-26T16:45:00"
-room:  "百望山会议室"
+room: "百望山会议室"
 track: "general"
 presenters: "Tom Tan"
 stype: "中文演讲"

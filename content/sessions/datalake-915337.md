@@ -1,7 +1,7 @@
 ---
 title: "Apache Hudi in Action: Accelerating Kuaishou's Data Warehouse Architecture Upgrade"
 date: "2025-07-25T16:15:00"
-room:  "WanChun Hall"
+room: "WanChun Hall"
 track: "datalake"
 presenters: "Chaoyang Liu"
 stype: "Chinese Session"

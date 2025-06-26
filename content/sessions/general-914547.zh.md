@@ -1,7 +1,7 @@
 ---
 title: "强化虚拟协作：将生成式 AI 集成至 Apache OpenMeetings"
 date: "2025-07-26T16:15:00"
-room:  "百望山会议室"
+room: "百望山会议室"
 track: "general"
 presenters: "Wentao Liu"
 stype: "中文演讲"

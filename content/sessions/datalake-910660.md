@@ -1,7 +1,7 @@
 ---
 title: "Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support for Hudi / Icebe"
 date: "2025-07-27T14:30:00"
-room:  "WanChun Hall"
+room: "WanChun Hall"
 track: "datalake"
 presenters: "Lidong Dai"
 stype: "Chinese Session"

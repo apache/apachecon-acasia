@@ -1,7 +1,7 @@
 ---
 title: "From Graph to Intelligence: HugeGraph Powers Business AI Upgrades"
 date: "2025-07-27T15:00:00"
-room:  "Mtn YuQuan Hall"
+room: "Mtn YuQuan Hall"
 track: "incubator"
 presenters: "Song Jin, Zhe Wang"
 stype: "Chinese Session"

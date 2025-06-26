@@ -1,7 +1,7 @@
 ---
 title: "eBPF + LLM: DeepFlow's Full-Stack Observability and AI Agent Practice Cases"
 date: "2025-07-27T16:45:00"
-room:  "Mtn Yang Hall"
+room: "Mtn Yang Hall"
 track: "observability"
 presenters: "Yang Xiang"
 stype: "Chinese Session"

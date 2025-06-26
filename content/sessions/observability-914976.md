@@ -1,7 +1,7 @@
 ---
 title: "Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ & OpenTelemetry"
 date: "2025-07-27T14:00:00"
-room:  "Mtn Yang Hall"
+room: "Mtn Yang Hall"
 track: "observability"
 presenters: "Minghui Zhang"
 stype: "Chinese Session"

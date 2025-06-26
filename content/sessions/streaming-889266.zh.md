@@ -1,7 +1,7 @@
 ---
 title: "当 Flink 遇见 Fluss：流式数据仓库的未来"
 date: "2025-07-26T16:45:00"
-room:  "圆明厅"
+room: "圆明厅"
 track: "streaming"
 presenters: "Jark Wu"
 stype: "中文演讲"

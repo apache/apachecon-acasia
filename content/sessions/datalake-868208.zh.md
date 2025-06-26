@@ -1,7 +1,7 @@
 ---
 title: "Apache Iceberg 的隐藏超能力：治理、实验与自主未来"
 date: "2025-07-25T14:30:00"
-room:  "万春厅"
+room: "万春厅"
 track: "datalake"
 presenters: "Shekhar Prasad Rajak"
 stype: "英文演讲"

@@ -1,7 +1,7 @@
 ---
 title: "Microservice Innovation in the AI Era: From Architecture Reshaping to Agent Driven Development"
 date: "2025-07-27T15:00:00"
-room:  "JingMing Hall"
+room: "JingMing Hall"
 track: "microservice"
 presenters: "GuoQing Cong"
 stype: "Chinese Session"

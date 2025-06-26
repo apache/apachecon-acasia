@@ -1,7 +1,7 @@
 ---
 title: "腾讯大数据 Flink 状态存储的探索与实践：计算存储分离架构"
 date: "2025-07-25T16:15:00"
-room:  "万寿山会议室"
+room: "万寿山会议室"
 track: "datastorage"
 presenters: "YanPeng Shi"
 stype: "中文演讲"

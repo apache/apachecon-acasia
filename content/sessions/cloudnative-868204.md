@@ -1,7 +1,7 @@
 ---
 title: "Elevating Data Processing: Strategies for Seamless Batch Management in Cloud Architectures"
 date: "2025-07-25T15:45:00"
-room:  "Mtn Yang Hall"
+room: "Mtn Yang Hall"
 track: "cloudnative"
 presenters: "Shekhar Prasad Rajak"
 stype: "English Session"

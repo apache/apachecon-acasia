@@ -1,7 +1,7 @@
 ---
 title: "打破数据孤岛：Apache Gravitino在哔哩哔哩的生产实践"
 date: "2025-07-27T14:00:00"
-room:  "万春厅"
+room: "万春厅"
 track: "datalake"
 presenters: "Tianhang Li"
 stype: "中文演讲"

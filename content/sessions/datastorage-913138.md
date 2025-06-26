@@ -1,7 +1,7 @@
 ---
 title: "The Exploration and Practice of State Storage in Tencent Big Data Flink with Separation of Computati"
 date: "2025-07-25T16:15:00"
-room:  "Mtn WanShou Hall"
+room: "Mtn WanShou Hall"
 track: "datastorage"
 presenters: "YanPeng shi"
 stype: "Chinese Session"

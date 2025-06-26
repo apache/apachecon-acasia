@@ -1,7 +1,7 @@
 ---
 title: "Application of Dubbo-go in microservice architecture"
 date: "2025-07-27T14:30:00"
-room:  "JingMing Hall"
+room: "JingMing Hall"
 track: "microservice"
 presenters: "Wu Xinfan"
 stype: "Chinese Session"

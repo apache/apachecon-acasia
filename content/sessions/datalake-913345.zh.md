@@ -1,7 +1,7 @@
 ---
 title: "优化 Parquet 存储：元数据管理、性能调优和无缝迁移"
 date: "2025-07-26T16:45:00"
-room:  "万春厅"
+room: "万春厅"
 track: "datalake"
 
 presenters: "甘红楠, 何正杰"

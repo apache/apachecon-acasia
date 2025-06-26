@@ -1,7 +1,7 @@
 ---
 title: "Xiaomi's Efficient Data & AI Optimization with Apache Paimon"
 date: "2025-07-27T17:15:00"
-room:  "WanChun Hall"
+room: "WanChun Hall"
 track: "datalake"
 presenters: "Houliang Qi"
 stype: "Chinese Session"

@@ -1,7 +1,7 @@
 ---
 title: "蚂蚁集团基于 Apache Celeborn 的大规模 Shuffle 实践"
 date: "2025-07-25T14:00:00"
-room:  "万寿山会议室"
+room: "万寿山会议室"
 track: "datastorage"
 presenters: "Erik Fang"
 stype: "中文演讲"

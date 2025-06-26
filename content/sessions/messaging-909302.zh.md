@@ -1,7 +1,7 @@
 ---
 title: "基于 Commitlog 和 RocksDB 的 RocketMQ 存储引擎"
 date: "2025-07-26T15:45:00"
-room:  "静宜厅"
+room: "静宜厅"
 track: "messaging"
 presenters: "Zhou Li"
 stype: "中文演讲"

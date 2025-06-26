@@ -1,7 +1,7 @@
 ---
 title: "Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One"
 date: "2025-07-25T15:00:00"
-room:  "YuanMing Hall"
+room: "YuanMing Hall"
 track: "streaming"
 presenters: "Ron Liu"
 stype: "Chinese Session"

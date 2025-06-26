@@ -1,7 +1,7 @@
 ---
 title: "Flex：统一的流式和批处理矢量化引擎"
 date: "2025-07-25T17:15:00"
-room:  "圆明厅"
+room: "圆明厅"
 track: "streaming"
 presenters: "Jacky Lau"
 stype: "中文演讲"
