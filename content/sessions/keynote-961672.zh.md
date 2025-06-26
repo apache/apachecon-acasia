@@ -4,7 +4,7 @@ date: ""
 track: "keynote"
 presenters: "Zheng Yubin"
 stype: "中文演讲"
-room: ""
+room:  ""
 ---
 
 亚马逊网络服务（AWS）和阿帕奇软件基金会（Apache Software Foundation）在开源、云计算和生成式人工智能融合的快速发展环境中建立了战略合作伙伴关系，重新定义了开发人员的体验。本主题演讲将探讨 AWS 如何利用生成式人工智能的变革力量，通过智能云原生服务和人工智能增强型开发平台为 Apache 开源项目开发人员赋能。

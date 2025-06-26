@@ -4,7 +4,7 @@ date: "2025-07-25T15:45:00"
 track: "datastorage"
 presenters: "Shuai Xu"
 stype: "Chinese Session"
-room: "Mtn WanShou Hall"
+room:  "Mtn WanShou Hall"
 ---
 
 Introduce Apache Gluten project, which can use native engine to accelerate spark and flink job, and how we use it to save resource in BIGO. 

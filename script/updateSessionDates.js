@@ -99,7 +99,7 @@ async function updateSessionDates() {
             if (parts) {
               // 更新 frontmatter 中的 date
               const info = sessionDates.get(baseName);
-              const realRoom = ext.includes('zh') ? roomJson[info.room] : info.room;
+              const realRoom = (ext.includes('zh') ? roomJson[info.room] : info.room) || "";
               let updatedFrontmatter = parts.frontmatter;
               // 检查是否存在 room 字段
               if (updatedFrontmatter.includes('room:')) {

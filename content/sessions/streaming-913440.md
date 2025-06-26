@@ -4,7 +4,7 @@ date: "2025-07-25T17:45:00"
 track: "streaming"
 presenters: "Mang Zhang, Heart Zhou"
 stype: "Chinese Session"
-room: "YuanMing Hall"
+room:  "YuanMing Hall"
 ---
 
 After years of development, Kwai Flink has reached a resource scale of millions of cores, covering all business scenarios across the group, over tens of thousands of jobs running in the cluster. However, the Flink cluster exhibits significant load fluctuation effects, and cost issues are becoming increasingly prominent, alongside challenges in cluster scaling and operation and maintenance.
