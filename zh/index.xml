@@ -1070,8 +1070,8 @@ Juntao Ji: 高级开发工程师（阿里巴巴云计算）
 本次分享将介绍三方面的实践经验： 基于 Flink CDC3.0，多业务表异构数据秒级入库，解决了历史数据漂移与增量同步的精准对接难题； Iceberg 性能调优设计，复杂查询性能相比 Hive 提升 400%； Apache Amoro 自优化框架的创新应用，在高效合并小文件和清洗数据的同时，提供高效的读取性能。
 该系统已在电信运营商的生产实践中落地，支撑每日PB级数据处理的业务峰值，可为参与者提供可无缝迁移的实时湖仓架构范式。
 讲师: 
-Congxian Qiu: Apache Flink Committer、Apache（incubating）Amoro PMC 成员
-Congxian 是 StateCloud 研发专家，拥有多年大数据基础设施经验，参与并领导了大规模数据处理框架的开发。他是 Apache Committer 和 Apache（incubating）Amoro PMC 成员。
+Congxian Qiu: Apache Flink Committer、Apache（incubating）Amoro PMC 成员, 天翼云副总监
+Congxian 拥有多年大数据基础设施研发经验。目前领导天翼云基于 Apache Iceberg 的数据湖架构开发和实现, 他是 Apache Flink Committer 和 Apache（incubating）Amoro PMC 成员。
 
 Zhuojun Jiang: 高级大数据工程师，中国电信云技术有限公司
 Zhuojun Jiang 是中国电信云科技有限公司的高级大数据工程师，专注于实时数据湖库架构研究。她专注于基于 Apache FlinkCDC、Iceberg 和 Amoro 等技术的大数据开发、系统性能优化和实时数据同步。蒋卓君积极参与开源社区的贡献，并通过行业论坛和技术讲座分享实践见解。</description>
