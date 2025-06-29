@@ -20,9 +20,9 @@ Apache Amoro 自优化框架的创新应用，在高效合并小文件和清洗�
 
 <img src="https://sessionize.com/image/25e4-400o400o1-9iGsggaDEwoFcYqGXtpqoM.jpg" width="200" /><br/>
 
-Congxian Qiu: Apache Flink Committer、Apache（incubating）Amoro PMC 成员
+Congxian Qiu: Apache Flink Committer、Apache（incubating）Amoro PMC 成员, 天翼云副总监
 
-Congxian 是 StateCloud 研发专家，拥有多年大数据基础设施经验，参与并领导了大规模数据处理框架的开发。他是 Apache Committer 和 Apache（incubating）Amoro PMC 成员。
+Congxian 拥有多年大数据基础设施研发经验。目前领导天翼云基于 Apache Iceberg 的数据湖架构开发和实现, 他是 Apache Flink Committer 和 Apache（incubating）Amoro PMC 成员。
 
 <img src="https://sessionize.com/image/dd80-400o400o1-SKrNUnGVHC8xTrBeHtFLHN.jpg" width="200" /><br/>
 
