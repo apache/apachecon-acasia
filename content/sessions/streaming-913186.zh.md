@@ -15,6 +15,6 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/9fb0-400o400o1-3GuCetdzM1ZnG45ZrGcUgh.jpg" width="200" /><br/>
 
-兰兆千: Apache Flink PMC 成员和 Committer，阿里巴巴云技术专家
+兰兆千: Apache Flink PMC 成员和 Committer，阿里云技术专家
 
 兰兆千多年来一直致力于开源项目，是 Apache Flink 项目的活跃 PMC 成员及 Committer。他深耕于流计算引擎与状态存储技术。目前他就职于阿里云，专注于提升 Flink 的状态管理与检查点功能，推动功能创新与性能优化。
