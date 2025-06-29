@@ -1724,7 +1724,7 @@ Yongyuan Liang，计算引擎研发工程师，负责计算引擎的开发工作
     </item>
     
     <item>
-      <title>Apache Gravitino（孵化中）：AI 时代的元数据管理解决方案</title>
+      <title>Apache Gravitino：AI 时代的元数据管理解决方案</title>
       <link>/zh/sessions/ai-911703.html</link>
       <pubDate>Fri, 25 Jul 2025 15:00:00 +0000</pubDate>
       
@@ -1733,7 +1733,10 @@ Yongyuan Liang，计算引擎研发工程师，负责计算引擎的开发工作
 演讲大纲：
  AI 工作流中数据集和模型管理的挑战，以及 Gravitino 如何通过其 Fileset Catalog（结构化 AI 数据集治理）和 Model Catalog（统一模型生命周期管理）解决这些问题 利用 Gravitino 的标签系统、血缘追踪和凭证管理功能，最大化运营效率和治理合规性 Fileset 在小米数据处理中的实践：在 AI 场景中，数据处理涉及下载、提取、过滤、去重和训练等多个阶段。利用 Fileset 提升了数据与 AI 引擎间的管道效率，实现了端到端数据集管理，并建立了统一的元数据视图 小米 AI 大模型管理实践：小米如何管理大模型元数据、部署模型服务，以及我们与 Gravitino 集成的未来计划  演讲嘉宾: 
 Xiaojing Fang: Apache Gravitino PPMC 和 datastrato 软件工程师
-Apache Gravitino PPMC 成员，专注于数据与 AI 基础设施系统。</description>
+Apache Gravitino PPMC 成员，专注于数据与 AI 基础设施系统。
+
+Han Zhang: 小米软件研发工程师
+Apache Gravitino 贡献者，负责小米 AI 开发平台的研发。</description>
     </item>
     
     <item>
