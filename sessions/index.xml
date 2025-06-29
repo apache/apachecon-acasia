@@ -852,14 +852,14 @@ We&amp;rsquo;ll use a Django case study and Apache JMeter to demonstrate effecti
     </item>
     
     <item>
-      <title>The practice of Apache Doris in the trusted data space of China Unicom Digital Intelligence Company</title>
+      <title>The practice of Apache Doris in the trusted data space of China Unicom Data Intelligence Co., Ltd</title>
       <link>/sessions/olap-914989.html</link>
       <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
       
       <guid>/sessions/olap-914989.html</guid>
       <description>1.How to build the underlying storage of the data sandbox in the trusted data space based on Apache Doris, achieve the control of data resources, and ensure that the data is &amp;ldquo;usable but invisible&amp;rdquo;. 2.The application of the federated query capability of Apache Doris in the data processing and analysis within the data space. 3.Create efficient spatial services for indicators and labels through unified storage.
 Speakers: 
-Zhuyuan Yang: Technical Expert of China Unicom Digital Intelligence Co.</description>
+Zhuyuan Yang: Technical Expert of China Unicom Data Intelligence Co.</description>
     </item>
     
     <item>
