@@ -1,5 +1,5 @@
 ---
-title: "Disaggregated State Management In Apache Flink"
+title: "Disaggregated State Management In Apache Flink 2.0"
 date: "2025-07-25T16:15:00"
 room: "YuanMing Hall"
 track: "streaming"

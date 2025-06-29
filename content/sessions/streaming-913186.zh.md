@@ -1,5 +1,5 @@
 ---
-title: "Apache Flink 2.0 的存算分离"
+title: "Apache Flink 2.0 存算分离架构演进"
 date: "2025-07-25T16:15:00"
 room: "圆明厅"
 track: "streaming"
