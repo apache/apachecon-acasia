@@ -377,20 +377,6 @@ Xin Zhang 是亚马逊云科技（AWS）解决方案架构师，负责基于AWS�
     </item>
     
     <item>
-      <title>AgentKit：解锁无边界数字未来的愿景——用 Rust 构建 AI 自动化</title>
-      <link>/zh/sessions/rust-914521.html</link>
-      <pubDate>Sun, 27 Jul 2025 14:30:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/rust-914521.html</guid>
-      <description>我们正站在人机交互范式转变的前沿。大型语言模型每天都在突破界限，但一个关键挑战依然存在：如何让 AI 能够以统一且安全的方式与跨平台的应用程序交互？AgentKit 是对这一挑战的大胆回应——一个基于 Rust 安全性和开源生态系统构建的跨平台 AI 自动化框架。
-本次演讲将带您从我们通过 Droidrun.ai 在 Android 平台上的实验结果开始，逐步了解 AgentKit 的完整蓝图。我们将探讨 Apache 生态系统中的关键项目如何加速其发展。您将了解 Rust 为何是构建此系统的理想语言，AccessKit 如何提供关键的跨平台桥接功能，以及 AgentKit 如何与 Claude MCP 和 Google A2A 等新兴 AI 协议协同工作。
-我将演示 AgentKit 灵活的架构如何支持从纯客户端到混合云的一系列部署模式，同时保持强大的安全边界。这不仅仅是一场愿景分享会，更是向社区发出的公开邀请：加入我们，将 AgentKit 从概念转化为现实，将 Apache 生态系统的成熟度与尖端的 AI 能力相结合，构建真正无边界的智能自动化未来。
-讲师: 
-张汉东: 独立顾问，技术作家
-资深独立 Rust 顾问，前华为顾问，Rust 中文社区布道者，《Rust 编程之道》作者，RustChinaConf 联合主办人。</description>
-    </item>
-    
-    <item>
       <title>Apache Hop：大型语言模型、图数据库与电子表格的无缝集成</title>
       <link>/zh/sessions/dataops-902311.html</link>
       <pubDate>Sun, 27 Jul 2025 14:30:00 +0000</pubDate>
@@ -456,6 +442,20 @@ Shuxin Pan是 Apache 的提交者，也是多个热门开源项目的维护者�
 讲师: 
 Cheng Chen: 一线工程师
 阿里云高级开发工程师，在可观测性领域拥有多年丰富经验，对可观测数据的采集、计算、存储、分析和可视化有着深入的了解。</description>
+    </item>
+    
+    <item>
+      <title>用 Rust 和开源构建人工智能自动化的未来</title>
+      <link>/zh/sessions/rust-914521.html</link>
+      <pubDate>Sun, 27 Jul 2025 14:30:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/rust-914521.html</guid>
+      <description>我们正站在人机交互范式转变的前沿。大型语言模型每天都在突破界限，但一个关键挑战依然存在：如何让 AI 能够以统一且安全的方式与跨平台的应用程序交互？AgentKit 是对这一挑战的大胆回应——一个基于 Rust 安全性和开源生态系统构建的跨平台 AI 自动化框架。
+本次演讲将带您从我们通过 Droidrun.ai 在 Android 平台上的实验结果开始，逐步了解 AgentKit 的完整蓝图。我们将探讨 Apache 生态系统中的关键项目如何加速其发展。您将了解 Rust 为何是构建此系统的理想语言，AccessKit 如何提供关键的跨平台桥接功能，以及 AgentKit 如何与 Claude MCP 和 Google A2A 等新兴 AI 协议协同工作。
+我将演示 AgentKit 灵活的架构如何支持从纯客户端到混合云的一系列部署模式，同时保持强大的安全边界。这不仅仅是一场愿景分享会，更是向社区发出的公开邀请：加入我们，将 AgentKit 从概念转化为现实，将 Apache 生态系统的成熟度与尖端的 AI 能力相结合，构建真正无边界的智能自动化未来。
+讲师: 
+张汉东: 独立顾问，技术作家
+资深独立 Rust 顾问，前华为顾问，Rust 中文社区布道者，《Rust 编程之道》作者，RustChinaConf 联合主办人。</description>
     </item>
     
     <item>
@@ -559,9 +559,21 @@ Minghui Zhang: 阿里云, 杭州
     </item>
     
     <item>
+      <title>Apache Kvrocks 的演进：搜索、向量及未来</title>
+      <link>/zh/sessions/datastorage-883342.html</link>
+      <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/datastorage-883342.html</guid>
+      <description>自从从 ASF 孵化器毕业以来，Apache Kvrocks 取得了显著的进展。该项目吸引了越来越多的贡献者，并不断通过新增功能实现演进。值得注意的是，我们引入了一个支持复杂查询和二级索引的 Search 模块，该模块同时兼容 RediSearch 查询语法和 SQL 语法。在此基础上，Kvrocks 通过集成前沿功能（如向量搜索）进一步拓展了其应用边界，使其成为现代应用中更加多功能且强大的数据存储解决方案。
+讲师: 
+Mingyang Liu: ASF 成员 &amp;amp; Apache Kvrocks PMC 主席
+Mingyang Liu 是一家芯片公司的编译器工程师，对编译器、AI 系统、程序分析、编程语言和数据库等领域充满兴趣。他热衷于为开源项目做出贡献，并在多个开源社区中活跃。他是 Apache Kvrocks 的项目管理委员会主席（PMC Chair），同时也是 ASF 成员。（https://github.com/pragmatwice）</description>
+    </item>
+    
+    <item>
       <title>Kafka 4.0 核心亮点：新特性、移除项与升级指南</title>
       <link>/zh/sessions/streaming-910562.html</link>
-      <pubDate>Sat, 26 Jul 2025 17:45:00 +0000</pubDate>
+      <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
       
       <guid>/zh/sessions/streaming-910562.html</guid>
       <description>虽然 Kafka 4.0 已经引起了广泛的讨论，但大多数讨论都集中在主要功能上，如 ZooKeeper 的移除或新 API 的引入。在本环节中，我们将重点介绍Kafka 4.0中一些鲜为人知但同样重要的变化。这些更新可能并不引人注目，但它们会对你在实际环境中如何配置、操作和调试Kafka产生重大影响。
@@ -579,18 +591,6 @@ PoAn Yang: ASF, Apache YuniKorn committer</description>
     </item>
     
     <item>
-      <title>Apache Kvrocks 的演进：搜索、向量及未来</title>
-      <link>/zh/sessions/datastorage-883342.html</link>
-      <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/datastorage-883342.html</guid>
-      <description>自从从 ASF 孵化器毕业以来，Apache Kvrocks 取得了显著的进展。该项目吸引了越来越多的贡献者，并不断通过新增功能实现演进。值得注意的是，我们引入了一个支持复杂查询和二级索引的 Search 模块，该模块同时兼容 RediSearch 查询语法和 SQL 语法。在此基础上，Kvrocks 通过集成前沿功能（如向量搜索）进一步拓展了其应用边界，使其成为现代应用中更加多功能且强大的数据存储解决方案。
-讲师: 
-Mingyang Liu: ASF 成员 &amp;amp; Apache Kvrocks PMC 主席
-Mingyang Liu 是一家芯片公司的编译器工程师，对编译器、AI 系统、程序分析、编程语言和数据库等领域充满兴趣。他热衷于为开源项目做出贡献，并在多个开源社区中活跃。他是 Apache Kvrocks 的项目管理委员会主席（PMC Chair），同时也是 ASF 成员。（https://github.com/pragmatwice）</description>
-    </item>
-    
-    <item>
       <title>在腾讯云上基于 Iceberg &amp; Amoro &amp; Gravitino 构建云原生 Lakehouse 架构</title>
       <link>/zh/sessions/datalake-906852.html</link>
       <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
@@ -600,20 +600,6 @@ Mingyang Liu 是一家芯片公司的编译器工程师，对编译器、AI 系�
 本次主题演讲将分享腾讯云多年来在Lakehouse架构方面的丰富经验，并重点介绍丰富的用户实践。我们将重点演示如何利用这些Apache项目构建云原生的Lakehouse架构，尤其侧重于流计算和BI场景。
 讲师: Jinsong Zhou: 腾讯软件工程师, Apache Amoro（incubating）的 PPMC 成员
 Jinsong Zhou，腾讯软件工程师，在数据库和大数据领域拥有 8 年经验。目前，他领导腾讯云基于 Apache Iceberg 的 Lakehouse 架构的实现，并担任 Apache Amoro（incubating）的 PPMC 成员，积极推动社区发展。</description>
-    </item>
-    
-    <item>
-      <title>当 Flink 遇见 Fluss：流式数据仓库的未来</title>
-      <link>/zh/sessions/streaming-889266.html</link>
-      <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/streaming-889266.html</guid>
-      <description>Kafka 和 Flink 已广泛应用于流处理场景，成为构建流式数据仓库和实时分析的事实标准范例。然而，它仍然面临许多难以解决的挑战性问题。本讲座将探讨该范例在流式分析中面临的挑战和问题。
-我们将首先讨论 Kafka 与 Flink 结合使用的局限性和痛点。然后，我们将介绍 Fluss，一款专为流式分析设计的下一代流式存储。我们将介绍 Fluss 的架构和核心创新，重点介绍它如何与 Flink 无缝集成，从而赋能下一代流式数据仓库。您将发现 Flink 与 Fluss 的结合所带来的颠覆性功能，例如流式列修剪、增量连接、联合读取和合并引擎。
-最后，我们将探讨 Flink + Fluss 的实际用例，展示这一强大的组合如何带来真正的优势，例如降低基础设施成本、提升性能以及增强大规模流式和批处理工作负载的稳定性。
-讲师: 
-Jark Wu: 阿里巴巴
-Jark Wu 是 Apache Flink 的提交者和 PMC 成员。他领导着阿里云的 Fluss 和 Flink SQL 团队。凭借十年的 Flink 经验，他深度参与了 Flink SQL 从零到现在的开发和演进。在此期间，他还发起并孵化了 Flink CDC 和 Fluss 项目，进一步扩展了 Flink 生态系统。</description>
     </item>
     
     <item>
@@ -699,22 +685,17 @@ Fan Wang: 小米消息队列团队负责人，Apache RocketMQ Committer
     </item>
     
     <item>
-      <title>腾讯实时计算的智能演进：全托管资源管理</title>
-      <link>/zh/sessions/streaming-910362.html</link>
+      <title>当 Flink 遇见 Fluss：流式数据仓库的未来</title>
+      <link>/zh/sessions/streaming-889266.html</link>
       <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
       
-      <guid>/zh/sessions/streaming-910362.html</guid>
-      <description>背景与行业痛点
-a. Flink 作为一种长期运行的有状态计算，广泛应用于实时数据仓库、实时分析和在线训练等场景。 b. 实时资源配置与运维是普遍挑战：过度配置导致资源浪费，而配置不足则引发延迟和故障转移。此外，资源需求随时间变化显著。 自动扩展架构的演进——全托管智能资源管理
-a. 覆盖任务全生命周期的自动化资源解决方案，包括启动、运行时、升级及异常处理（延迟、故障转移）。 b. 借助AI模型实现精准预测（将预测误差从25%降至10%），实现从被动到主动的资源管理转变。
-c. 云原生环境中的极致弹性，通过整合水平和垂直扩展技术，将任务资源利用率提升至90%。 核心技术优化——生产就绪的水平与垂直扩展 a. 水平扩展：通过热更新和预加载优化，实现高度可扩展的二级扩展。
-b. 垂直扩展：通过原地 pod 资源更改的突破性技术，实现实时任务的零停机时间和个性化 pod 配置。 生产案例——从技术到业务价值
-a. 稳定性：应用于腾讯视频、金融和游戏业务，将故障率降低 70%。 b. 资源节约：应用于实时报告和数据同步场景，提升资源利用率30%。 未来规划 a. 基于大型模型驱动的全面资源管理服务，进一步提升智能化水平。 b. 水平扩展：在运维层面实现弹性扩展，避免完全停机。 c. 垂直扩展：结合Pod热迁移技术，突破单节点限制。  讲师: 
-Zihao Chen: 腾讯，软件开发工程师
-Zihao 多年来一直从事与Flink内核相关的研发工作。近年来，他主要专注于开发Flink的自动扩展功能，旨在提升Flink任务的稳定性和资源利用率。此外，他在SIGMOD会议上发表了一篇关于流处理场景下自动扩展的行业论文。
-
-Jiangang Liu: 腾讯，实时计算 Flink 负责人
-腾讯实时计算Flink负责人，专注于云原生演进、弹性扩展以及存储与计算的分离。此前曾担任快手Flink技术负责人，负责实时计算架构设计与大规模落地实施，成功推动了2020年快手与央视春晚的实时连接项目。在此之前，参与了百度Matrix在离线混合计算领域的开发工作。</description>
+      <guid>/zh/sessions/streaming-889266.html</guid>
+      <description>Kafka 和 Flink 已广泛应用于流处理场景，成为构建流式数据仓库和实时分析的事实标准范例。然而，它仍然面临许多难以解决的挑战性问题。本讲座将探讨该范例在流式分析中面临的挑战和问题。
+我们将首先讨论 Kafka 与 Flink 结合使用的局限性和痛点。然后，我们将介绍 Fluss，一款专为流式分析设计的下一代流式存储。我们将介绍 Fluss 的架构和核心创新，重点介绍它如何与 Flink 无缝集成，从而赋能下一代流式数据仓库。您将发现 Flink 与 Fluss 的结合所带来的颠覆性功能，例如流式列修剪、增量连接、联合读取和合并引擎。
+最后，我们将探讨 Flink + Fluss 的实际用例，展示这一强大的组合如何带来真正的优势，例如降低基础设施成本、提升性能以及增强大规模流式和批处理工作负载的稳定性。
+讲师: 
+Jark Wu: 阿里巴巴
+Jark Wu 是 Apache Flink 的提交者和 PMC 成员。他领导着阿里云的 Fluss 和 Flink SQL 团队。凭借十年的 Flink 经验，他深度参与了 Flink SQL 从零到现在的开发和演进。在此期间，他还发起并孵化了 Flink CDC 和 Fluss 项目，进一步扩展了 Flink 生态系统。</description>
     </item>
     
     <item>
@@ -787,17 +768,6 @@ Bill 是 Cloudera 的产品战略副总裁，负责 Open Data Lakehouse 产品�
     </item>
     
     <item>
-      <title>使用外部状态和动态表实现可扩展的连接和聚合</title>
-      <link>/zh/sessions/streaming-909075.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/streaming-909075.html</guid>
-      <description>背景与动机 • Flink SQL 在规模化方面的挑战：大状态、长连接、复杂的维护 • 业务用例：汽车数据仓库和报警系统 使用增量连接和合并引擎实现状态外部化 • 增量连接：包含最新快照的外部维度表 • 合并引擎：用于聚合结果的外部更新插入表 • 如何在确保正确性和延迟的同时最小化内部状态 动态表的作用 • 中间表爆炸：状态外部化的隐性成本 • 动态表如何自动化模式创建、生命周期和数据沿袭 • 赋能开发者：编写业务逻辑，告别管道 实现批流统一 • 轻量级 Flink 状态：仅跟踪偏移量 • 实时和回填工作流使用相同的 SQL 逻辑 • 在回填、审计和重新处理方面的实际优势 成果与经验教训 • 开发者体验和生产力收益 • 提升作业弹性和可观察性 • 下一步计划：与元数据和调度更紧密地集成  讲师: 
-Feng Jin: 小米，高级软件工程师，Apache Flink Committer
-Feng Jin 目前是小米计算平台团队成员，负责维护内部 Flink 框架并构建公司实时 Lakehouse 架构。他在大规模流处理、Flink SQL 优化和状态管理方面拥有丰富的经验。他也是 Apache Flink 的提交者，积极为开源社区做出贡献。</description>
-    </item>
-    
-    <item>
       <title>开源贡献者之旅：从提交 PR 到项目维护的演变</title>
       <link>/zh/sessions/community-871883.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
@@ -819,6 +789,25 @@ Shuxin Pan 是 Apache 的提交者，也是多个热门开源项目的维护者�
 讲师: 
 Wentao Liu: ictrek.com 业务开发经理
 在 Linux 社区拥有超过20年的丰富经验。在早期的 Linux 技术实践中，他曾将 LVS 技术成功应用于第四层交换机的研发生产。如今，作为大语言模型（LLMs）和云原生技术的倡导者，他正专注于AI智能体、大语言模型与检索增强生成（RAG）、AI/ML 与 Kubernetes 的集成等前沿领域，特别是在MLOps和语音转文字（Speech-to-text）应用集成方面进行深入研究。他曾在 FOSSASIA、ApacheCon、FOSDEM 等多个开源技术大会上发表演讲，分享其在开源技术领域的学习与实践经验。</description>
+    </item>
+    
+    <item>
+      <title>腾讯实时计算的智能演进：全托管资源管理</title>
+      <link>/zh/sessions/streaming-910362.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/streaming-910362.html</guid>
+      <description>背景与行业痛点
+a. Flink 作为一种长期运行的有状态计算，广泛应用于实时数据仓库、实时分析和在线训练等场景。 b. 实时资源配置与运维是普遍挑战：过度配置导致资源浪费，而配置不足则引发延迟和故障转移。此外，资源需求随时间变化显著。 自动扩展架构的演进——全托管智能资源管理
+a. 覆盖任务全生命周期的自动化资源解决方案，包括启动、运行时、升级及异常处理（延迟、故障转移）。 b. 借助AI模型实现精准预测（将预测误差从25%降至10%），实现从被动到主动的资源管理转变。
+c. 云原生环境中的极致弹性，通过整合水平和垂直扩展技术，将任务资源利用率提升至90%。 核心技术优化——生产就绪的水平与垂直扩展 a. 水平扩展：通过热更新和预加载优化，实现高度可扩展的二级扩展。
+b. 垂直扩展：通过原地 pod 资源更改的突破性技术，实现实时任务的零停机时间和个性化 pod 配置。 生产案例——从技术到业务价值
+a. 稳定性：应用于腾讯视频、金融和游戏业务，将故障率降低 70%。 b. 资源节约：应用于实时报告和数据同步场景，提升资源利用率30%。 未来规划 a. 基于大型模型驱动的全面资源管理服务，进一步提升智能化水平。 b. 水平扩展：在运维层面实现弹性扩展，避免完全停机。 c. 垂直扩展：结合Pod热迁移技术，突破单节点限制。  讲师: 
+Zihao Chen: 腾讯，软件开发工程师
+Zihao 多年来一直从事与Flink内核相关的研发工作。近年来，他主要专注于开发Flink的自动扩展功能，旨在提升Flink任务的稳定性和资源利用率。此外，他在SIGMOD会议上发表了一篇关于流处理场景下自动扩展的行业论文。
+
+Jiangang Liu: 腾讯，实时计算 Flink 负责人
+腾讯实时计算Flink负责人，专注于云原生演进、弹性扩展以及存储与计算的分离。此前曾担任快手Flink技术负责人，负责实时计算架构设计与大规模落地实施，成功推动了2020年快手与央视春晚的实时连接项目。在此之前，参与了百度Matrix在离线混合计算领域的开发工作。</description>
     </item>
     
     <item>
@@ -885,6 +874,17 @@ Apache Cloudberry 贡献者，HashData 的数据库内核开发人员。</descri
     </item>
     
     <item>
+      <title>使用外部状态和动态表实现可扩展的连接和聚合</title>
+      <link>/zh/sessions/streaming-909075.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/streaming-909075.html</guid>
+      <description>背景与动机 • Flink SQL 在规模化方面的挑战：大状态、长连接、复杂的维护 • 业务用例：汽车数据仓库和报警系统 使用增量连接和合并引擎实现状态外部化 • 增量连接：包含最新快照的外部维度表 • 合并引擎：用于聚合结果的外部更新插入表 • 如何在确保正确性和延迟的同时最小化内部状态 动态表的作用 • 中间表爆炸：状态外部化的隐性成本 • 动态表如何自动化模式创建、生命周期和数据沿袭 • 赋能开发者：编写业务逻辑，告别管道 实现批流统一 • 轻量级 Flink 状态：仅跟踪偏移量 • 实时和回填工作流使用相同的 SQL 逻辑 • 在回填、审计和重新处理方面的实际优势 成果与经验教训 • 开发者体验和生产力收益 • 提升作业弹性和可观察性 • 下一步计划：与元数据和调度更紧密地集成  讲师: 
+Feng Jin: 小米，高级软件工程师，Apache Flink Committer
+Feng Jin 目前是小米计算平台团队成员，负责维护内部 Flink 框架并构建公司实时 Lakehouse 架构。他在大规模流处理、Flink SQL 优化和状态管理方面拥有丰富的经验。他也是 Apache Flink 的提交者，积极为开源社区做出贡献。</description>
+    </item>
+    
+    <item>
       <title>基于 Commitlog 和 RocksDB 的 RocketMQ 存储引擎</title>
       <link>/zh/sessions/messaging-909302.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
@@ -911,23 +911,6 @@ Zhou Li: 阿里云
 讲师: 
 Shaoting Duan: 开发人员社区经理
 作为 OceanBase 开发者社区的负责人，Shaoting Duan 致力于推广和宣讲前沿科技，并建设和开发开源社区。她曾在 Sun、Adobe、百度和阿里巴巴等世界500强企业工作，负责 OceanBase、OpenSolaris、Java、Flash 和 HTML5 等开源技术社区的开发与建设，以及人才培养和大学项目生态建设。</description>
-    </item>
-    
-    <item>
-      <title>腾讯大数据Flink在云原生混合低优先级集群上的实时保障实践</title>
-      <link>/zh/sessions/streaming-910380.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/streaming-910380.html</guid>
-      <description>背景 a. Oceanus是腾讯的大数据实时计算平台，基于Apache Flink为实时应用提供全生命周期服务。 b. 这些计算资源是腾讯大数据通过云原生混合部署方式挖掘的闲置、低成本、低优先级资源，基于大规模联邦集群构建。这些资源具有高弹性和低成本的特点，但容易受到驱逐和不稳定性的影响。 c. 在成本降低与效率提升的目标下，利用低优先级计算资源已显著降低实时运营成本，满足腾讯广告等核心业务需求，同时对Flink的实时稳定性提出严峻挑战。
-  稳定性保障 a. 单点重启：在Flink内核层面实现零中断恢复，同时最小化数据丢失，针对上游/下游任务并发故障等场景进行优化，并支持有界流处理。 b. 热迁移：实现无缝、无中断的驱逐和运行能力。与腾讯云原生架构团队合作，我们将Kubernetes的驱逐-重新分配机制重新设计为状态保留迁移过程，将过渡延迟减少60%，并实现对成本高效资源的可靠利用。 c. 热更新：支持运行时配置调整，通过 TaskManager 资源预留实现水平扩展，将停机时间从分钟级缩短至秒级。
-d. 借助容器资源调整功能，我们基于腾讯 kona JDK 开发了网络缓冲区（MaxDirectMemory）的动态调整机制，以实现水平弹性扩展，并通过 pod 堆内存调整实现垂直扩展。
-  性能优化 a. 加速 TM 部署：通过将常用业务平台 JAR 包打包到自定义 initContainer 镜像并挂载到主容器，利用镜像缓存消除从 HDFS 的重复下载，减少带宽消耗。
-b. Flink 数据传输优化：通过用基于信用的自动分区机制替换传统重新平衡策略，有效缓解由慢节点引起的长尾效应，在广告场景中实现超过 3 倍的吞吐量提升。
-  未来规划 a. 在现有有损单点重启机制的基础上，探索无损恢复能力。 b. 开发通用JM故障转移高可用性解决方案，以解决JobManager的单点脆弱性。
-  讲师: 
-Pengxiang Wang: 腾讯高级大数据工程师
-Pengxiang Wang，毕业于北京航空航天大学，腾讯大数据高级软件工程师，拥有丰富的实时数据处理实践经验，主要专注于Flink运行时稳定性提升。</description>
     </item>
     
     <item>

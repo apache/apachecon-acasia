@@ -286,16 +286,6 @@ For example, on an e-commerce platform, when a user searches for “white dress 
     </item>
     
     <item>
-      <title>AgentKit: Unlocking the Vision of a Borderless Digital Future — Building AI Automation with Rust and</title>
-      <link>/sessions/rust-914521.html</link>
-      <pubDate>Sun, 27 Jul 2025 14:30:00 +0000</pubDate>
-      
-      <guid>/sessions/rust-914521.html</guid>
-      <description>We are standing at the forefront of a paradigm shift in human-computer interaction. Large language models are breaking boundaries every day, yet a key challenge remains: how can we enable AI to interact with applications across diverse platforms in a unified and secure way? AgentKit is a bold response to this challenge — a cross-platform AI automation framework envisioned on the foundation of Rust’s safety and the open-source ecosystem.
-This talk will take you on a journey beginning with our experimental results on the Android platform via Droidrun.</description>
-    </item>
-    
-    <item>
       <title>Apache Hop: Integrating LLMs, Graph Databases &amp; Spreadsheets</title>
       <link>/sessions/dataops-902311.html</link>
       <pubDate>Sun, 27 Jul 2025 14:30:00 +0000</pubDate>
@@ -334,6 +324,16 @@ Cloudera Solution Engineering . Apache Hive and Apache Flink Contributor. Over 1
       
       <guid>/sessions/observability-914543.html</guid>
       <description>In today&amp;rsquo;s dynamic cloud ecosystems, many enterprises find themselves navigating the complexities of using multiple observability stacks due to architectural migrations, team preferences, or language support limitations. Specifically, Apache SkyWalking and OpenTelemetry, both powerful in their own right, often coexist within the same production environment. However, this coexistence frequently leads to compatibility challenges that can manifest as broken traces, failed plugin enhancements, and, in severe cases, business call errors and application startup failures.</description>
+    </item>
+    
+    <item>
+      <title>Building the Future of AI Automation with Rust and Open Source</title>
+      <link>/sessions/rust-914521.html</link>
+      <pubDate>Sun, 27 Jul 2025 14:30:00 +0000</pubDate>
+      
+      <guid>/sessions/rust-914521.html</guid>
+      <description>We are standing at the forefront of a paradigm shift in human-computer interaction. Large language models are breaking boundaries every day, yet a key challenge remains: how can we enable AI to interact with applications across diverse platforms in a unified and secure way? AgentKit is a bold response to this challenge — a cross-platform AI automation framework envisioned on the foundation of Rust’s safety and the open-source ecosystem.
+This talk will take you on a journey beginning with our experimental results on the Android platform via Droidrun.</description>
     </item>
     
     <item>
@@ -421,16 +421,6 @@ Future Outlook and Ecosystem Expansion  Directions for technological evolution A
     </item>
     
     <item>
-      <title>Kafka 4.0 Highlights: Features, Removals, and Upgrades</title>
-      <link>/sessions/streaming-910562.html</link>
-      <pubDate>Sat, 26 Jul 2025 17:45:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-910562.html</guid>
-      <description>While there’s already a lot of buzz around Kafka 4.0, most discussions focus on the headline features—like the removal of ZooKeeper or the introduction of new APIs. In this session, we want to highlight some of the lesser-known but equally important changes in Kafka 4.0. These updates might not grab the spotlight, but they can significantly impact how you configure, operate, and debug Kafka in real-world environments.
-One of the major questions users face is how to approach the upgrade to Kafka 4.</description>
-    </item>
-    
-    <item>
       <title>Build a cloud native Lakehouse architecture based on Iceberg &amp; Amoro &amp; Gravitino in Tencent Cloud</title>
       <link>/sessions/datalake-906852.html</link>
       <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
@@ -438,6 +428,16 @@ One of the major questions users face is how to approach the upgrade to Kafka 4.
       <guid>/sessions/datalake-906852.html</guid>
       <description>Since 2020, Tencent has been leveraging Apache Iceberg to build its lakehouse data infrastructure. In 2022, Tencent Cloud began offering Iceberg-based lakehouse services to users in the cloud. In 2024, we introduced great projects including Apache Amoro and Apache Gravitino to deliver more powerful, intelligent, and full-scenario-capable lakehouse service for users.
 This keynote will share Tencent Cloud&amp;rsquo;s extensive experience with lakehouse architecture over the years, highlighting rich user practices. We will focus on demonstrating how to leverage these Apache projects to build cloud-native Lakehouse architectures, with particular emphasis on streaming computing and BI scenarios.</description>
+    </item>
+    
+    <item>
+      <title>Kafka 4.0 Highlights: Features, Removals, and Upgrades</title>
+      <link>/sessions/streaming-910562.html</link>
+      <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-910562.html</guid>
+      <description>While there’s already a lot of buzz around Kafka 4.0, most discussions focus on the headline features—like the removal of ZooKeeper or the introduction of new APIs. In this session, we want to highlight some of the lesser-known but equally important changes in Kafka 4.0. These updates might not grab the spotlight, but they can significantly impact how you configure, operate, and debug Kafka in real-world environments.
+One of the major questions users face is how to approach the upgrade to Kafka 4.</description>
     </item>
     
     <item>
@@ -458,16 +458,6 @@ Gregory Lind: Author of &amp;ldquo;Radical Therapy for Software Teams&amp;rdquo;
       
       <guid>/sessions/datastorage-883342.html</guid>
       <description>Since graduating from the ASF Incubator, Apache Kvrocks has made significant progress. The project has attracted an increasing number of contributors and continues to evolve with new features. Notably, we have introduced a Search module that supports complex queries and secondary indexing, with compatibility for both RediSearch query and SQL syntax. Building on this foundation, Kvrocks has expanded into new frontiers by integrating cutting-edge features such as vector search, making it a more versatile and powerful data store for modern applications.</description>
-    </item>
-    
-    <item>
-      <title>When Flink Meets Fluss: The Future of Streaming Warehouse</title>
-      <link>/sessions/streaming-889266.html</link>
-      <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-889266.html</guid>
-      <description>Kafka and Flink have been widely used together in streaming processing scenarios, becoming a defacto standard paradigm for building streaming warehouses and real-time analytics. However, it still faces many challenging issues that are hard to resolve. This session will explore the challenges and problems this paradigm faces in streaming analytics.
-We will first discuss the limitations and pain points of Kafka when used with Flink. Then we will introduce Fluss, a next-generation streaming storage designed for streaming analytics.</description>
     </item>
     
     <item>
@@ -498,15 +488,6 @@ We will first discuss the limitations and pain points of Kafka when used with Fl
     </item>
     
     <item>
-      <title>The Intelligent Evolution of Fully Managed Resource Management for Tencent&#39;s Real-Time Computing</title>
-      <link>/sessions/streaming-910362.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-910362.html</guid>
-      <description>Background and Industry Pain Points a. Flink, as a long-running stateful computation, is widely used in scenarios such as real-time data warehousing, real-time analytics, and online training. b. Real-time resource configuration and operations are a universal challenge: over-provisioning leads to waste, while under-provisioning causes lag and failover. Additionally, resource demands vary significantly over time. Evolution of Autoscaling Architecture — Fully Managed Intelligent Resource Management a. Automated resource solutions for the entire lifecycle of jobs, including startup, runtime, upgrades, and exceptions (lag, failover).</description>
-    </item>
-    
-    <item>
       <title>Unlocking the Potential of the Dubbo Ecosystem: Building AI-Driven Applications with dubbo-go-pixiu</title>
       <link>/sessions/webserver-912573.html</link>
       <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
@@ -517,6 +498,16 @@ Understand the advantages of Dubbo-go-Pixiu in handling multi-protocol communica
 Explore how to utilize Dubbo-go-Pixiu&amp;rsquo;s capabilities in traffic governance, security authentication, and observability to ensure stable operation and secure access for AI applications.
 Speakers: 
 Stocks Alex: the speaker of dubbogo community</description>
+    </item>
+    
+    <item>
+      <title>When Flink Meets Fluss: The Future of Streaming Warehouse</title>
+      <link>/sessions/streaming-889266.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-889266.html</guid>
+      <description>Kafka and Flink have been widely used together in streaming processing scenarios, becoming a defacto standard paradigm for building streaming warehouses and real-time analytics. However, it still faces many challenging issues that are hard to resolve. This session will explore the challenges and problems this paradigm faces in streaming analytics.
+We will first discuss the limitations and pain points of Kafka when used with Flink. Then we will introduce Fluss, a next-generation streaming storage designed for streaming analytics.</description>
     </item>
     
     <item>
@@ -573,15 +564,6 @@ In my session, I will present a proposal to address this issue by enhancing the 
     </item>
     
     <item>
-      <title>Scalable Join &amp; Aggregation with External State and Dynamic Tables</title>
-      <link>/sessions/streaming-909075.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-909075.html</guid>
-      <description>Background &amp;amp; Motivation •	Flink SQL challenges at scale: large state, long joins, complex maintenance •	Business use case: automotive data warehouse and alerting systems 2.	State Externalization with Delta Join and Merge Engine •	Delta Join: external dimension tables with up-to-date snapshots •	Merge Engine: external upsert tables for aggregation results •	How we minimized internal state while ensuring correctness and latency 3.	The Role of Dynamic Tables •	Intermediate table explosion: a hidden cost of state externalization •	How Dynamic Tables automate schema creation, lifecycle, and data lineage •	Empowering developers: write business logic, forget the plumbing 4.</description>
-    </item>
-    
-    <item>
       <title>Supercharge Lakehouse Implementation with Apache Iceberg</title>
       <link>/sessions/datalake-914503.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
@@ -589,6 +571,15 @@ In my session, I will present a proposal to address this issue by enhancing the 
       <guid>/sessions/datalake-914503.html</guid>
       <description>The modern data lakehouse architecture combines the best of data lakes and data warehouses, enabling scalable analytics with ACID transactions, schema evolution, and performance optimizations. Apache Iceberg has emerged as a leading open-table format that supercharges lakehouse implementations by providing reliability, scalability, and seamless integration with popular open source compute engines like Spark, Flink, Doris, StarRocks, Impala, Hive, Nifi, Kafka and Trino.
 In this session, we will explore how Apache Iceberg enhances lakehouse architectures by ensuring data reliability, optimizing performance, enabling multi-engine compatibility and simplifying maintenance, In addition, we’ll also discuss real-world use cases, best practices for migrating Hive tables to Iceberg tables, and how to leverage its features to build a high-performance, future-proof lakehouse.</description>
+    </item>
+    
+    <item>
+      <title>The Intelligent Evolution of Fully Managed Resource Management for Tencent&#39;s Real-Time Computing</title>
+      <link>/sessions/streaming-910362.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-910362.html</guid>
+      <description>Background and Industry Pain Points a. Flink, as a long-running stateful computation, is widely used in scenarios such as real-time data warehousing, real-time analytics, and online training. b. Real-time resource configuration and operations are a universal challenge: over-provisioning leads to waste, while under-provisioning causes lag and failover. Additionally, resource demands vary significantly over time. Evolution of Autoscaling Architecture — Fully Managed Intelligent Resource Management a. Automated resource solutions for the entire lifecycle of jobs, including startup, runtime, upgrades, and exceptions (lag, failover).</description>
     </item>
     
     <item>
@@ -661,12 +652,12 @@ Quantum Machine Learning (QML): How AI leverages quantum mechanics for unprecede
     </item>
     
     <item>
-      <title>Real-Time Assurance Practices for Tencent Big Data Flink on Cloud-Native Hybrid Low-Priority Cluster</title>
-      <link>/sessions/streaming-910380.html</link>
+      <title>Scalable Join &amp; Aggregation with External State and Dynamic Tables</title>
+      <link>/sessions/streaming-909075.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
       
-      <guid>/sessions/streaming-910380.html</guid>
-      <description>Background a. Oceanus is Tencent&amp;rsquo;s big data real-time computing platform, providing full lifecycle services for real-time applications based on Apache Flink. b. The computing resources are idle, low-cost, and low-priority resources mined by Tencent Big Data through cloud-native hybrid deployment, built on large-scale federated clusters. These resources offer high elasticity and low cost but are prone to eviction and instability. c. Under the goal of cost reduction and efficiency improvement, leveraging the low-priority computing resources has reduced real-time operational costs, meeting the demands of core businesses like Tencent Ads, while simultaneously posing severe challenges to Flink&amp;rsquo;s real-time stability.</description>
+      <guid>/sessions/streaming-909075.html</guid>
+      <description>Background &amp;amp; Motivation •	Flink SQL challenges at scale: large state, long joins, complex maintenance •	Business use case: automotive data warehouse and alerting systems 2.	State Externalization with Delta Join and Merge Engine •	Delta Join: external dimension tables with up-to-date snapshots •	Merge Engine: external upsert tables for aggregation results •	How we minimized internal state while ensuring correctness and latency 3.	The Role of Dynamic Tables •	Intermediate table explosion: a hidden cost of state externalization •	How Dynamic Tables automate schema creation, lifecycle, and data lineage •	Empowering developers: write business logic, forget the plumbing 4.</description>
     </item>
     
     <item>
