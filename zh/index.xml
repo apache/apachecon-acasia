@@ -284,15 +284,16 @@ Cloudera 高级工程总监</description>
     </item>
     
     <item>
-      <title>SkyWalking 的 Ruby 自动检测代理实践</title>
+      <title>SkyWalking 在 Ruby Agent 和 MCP 中的探索和实践</title>
       <link>/zh/sessions/observability-908230.html</link>
       <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
       
       <guid>/zh/sessions/observability-908230.html</guid>
-      <description>分布式追踪对于可观察性至关重要，它推动了跨语言追踪代理可用性的提升。本次演讲演示了如何使用 Apache SkyWalking 监控 Ruby 应用程序，并深入探讨了其自动检测的实现。
-讲师: 
-Zixin Zhou: 阿帕奇 SkyWalking 项目管理委员会成员兼 Committer
-Apache SkyWalking PMC 成员和提交者、open-telemetry 成员、openzipkin 和 pinpoint-apm 贡献者。</description>
+      <description>摘要： 分布式追踪对于可观察性至关重要，它推动了跨语言追踪代理可用性的提升。本次演讲将介绍如何使用 Apache SkyWalking 监控 Ruby 应用程序，并深入探讨 Ruby Agent 的实现原理，与此同时，还将讨论模型上下文协议（MCP）与 SkyWalking 的集成。
+大纲：
+ 介绍 SkyWalking Ruby Agent 的设计和实现 介绍 SkyWalking MCP 的使用  讲师: 
+周梓鑫: Apache SkyWalking PMC 成员和 Committer
+开源爱好者，Apache SkyWalking PMC 成员和 Committer、CNCF open-telemetry Member 以及 openzipkin 和 pinpoint-apm Contributor。</description>
     </item>
     
     <item>

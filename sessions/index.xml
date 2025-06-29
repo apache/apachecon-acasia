@@ -170,24 +170,23 @@ Apache Dubbo PMC. Interested in Cloud Native, Micro Service and Security.</descr
     </item>
     
     <item>
+      <title>Exploration and Practice of SkyWalking in Ruby Agent and MCP</title>
+      <link>/sessions/observability-908230.html</link>
+      <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/sessions/observability-908230.html</guid>
+      <description>Abstract: Distributed tracing is crucial for observability, driving improvements in cross-language tracing agent availability. This presentation will introduce how to use Apache SkyWalking to monitor Ruby applications, and provide an in-depth exploration of the implementation principles of the Ruby Agent. Additionally, it will discuss the integration of the Model Context Protocol (MCP) with SkyWalking.
+Outline:
+ Introduction to the design and implementation of SkyWalking Ruby Agent. Introduction to the usage of SkyWalking MCP.</description>
+    </item>
+    
+    <item>
       <title>From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry</title>
       <link>/sessions/incubator-906736.html</link>
       <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
       
       <guid>/sessions/incubator-906736.html</guid>
       <description>Apache Cloudberry, a massively parallel processing (MPP) database based on Greenplum, entered the Apache Incubator with the vision of bringing analytical power to the open-source community. As one of the initiators and ongoing contributors to the project, I’ve had the opportunity to closely experience every stage of the incubation journey — from drafting the proposal and forming the PPMC to announcing and marketing promotion, to cleaning up the source code, and building community momentum.</description>
-    </item>
-    
-    <item>
-      <title>Practices of SkyWalking&#39;s Auto-Instrumentation Agent for Ruby</title>
-      <link>/sessions/observability-908230.html</link>
-      <pubDate>Sun, 27 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/sessions/observability-908230.html</guid>
-      <description>Distributed tracing is crucial in observability, driving improvements in tracing agent usability across languages. This talk demonstrates Ruby application monitoring with Apache SkyWalking and dives into its auto-instrumentation implementation.
-Speakers: 
-Zixin Zhou: Apache SkyWalking PMC Member &amp;amp; Committer
-Apache SkyWalking PMC Member &amp;amp; Committer, open-telemetry Member, openzipkin &amp;amp; pinpoint-apm Contributor.</description>
     </item>
     
     <item>

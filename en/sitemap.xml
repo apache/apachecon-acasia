@@ -296,19 +296,6 @@
                 href="/sessions/rust-908074.html"
                 />
   </url><url>
-    <loc>/sessions/incubator-906736.html</loc>
-    <lastmod>2025-07-27T15:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/incubator-906736.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/incubator-906736.html"
-                />
-  </url><url>
     <loc>/sessions/observability-908230.html</loc>
     <lastmod>2025-07-27T15:45:00+00:00</lastmod>
     <xhtml:link
@@ -320,6 +307,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="/sessions/observability-908230.html"
+                />
+  </url><url>
+    <loc>/sessions/incubator-906736.html</loc>
+    <lastmod>2025-07-27T15:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/incubator-906736.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/incubator-906736.html"
                 />
   </url><url>
     <loc>/sessions/microservice-916450.html</loc>
