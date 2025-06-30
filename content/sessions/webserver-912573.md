@@ -1,6 +1,6 @@
 ---
 title: "Unlocking the Potential of the Dubbo Ecosystem: Building AI-Driven Applications with dubbo-go-pixiu"
-date: "2025-07-26T16:45:00"
+date: "2025-07-26T16:15:00"
 room: "Mtn Yang Hall"
 track: "webserver"
 presenters: "Stocks Alex"
