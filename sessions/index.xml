@@ -76,18 +76,6 @@ Open-source enthusiast Apache Seata(incubating) Committer</description>
     </item>
     
     <item>
-      <title>Apache SeaTunnel MCP Introduction and Demonstration</title>
-      <link>/sessions/dataops-908655.html</link>
-      <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/dataops-908655.html</guid>
-      <description>A Model Context Protocol (MCP) server for Apache Seatunnel. This provides access to your Apache Seatunnel RESTful API V2 instance and the surrounding ecosystem.
-Speakers: 
-Haicheng Zhang: Aisino Big Data Development Engineer Development Team Leader
-A Practitioner Who Likes to Toss</description>
-    </item>
-    
-    <item>
       <title>BifroMQ: A High-Performance MQTT Broker for Multi-Tenant</title>
       <link>/sessions/incubator-908738.html</link>
       <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
@@ -441,17 +429,6 @@ One of the major questions users face is how to approach the upgrade to Kafka 4.
     </item>
     
     <item>
-      <title>Radical Transparency for Software Teams</title>
-      <link>/sessions/general-915544.html</link>
-      <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
-      
-      <guid>/sessions/general-915544.html</guid>
-      <description>Redefine team communication with radical transparency. Fostering a culture of openness, honesty, and positivity in your team, can create a work environment where everyone feels empowered to do their best work and grow both personally and professionally. This talk will give an overview to bringing radical transparency into your DevOps, software and product development processes.
-Speakers: 
-Gregory Lind: Author of &amp;ldquo;Radical Therapy for Software Teams&amp;rdquo;, Buildly CEO and Founder</description>
-    </item>
-    
-    <item>
       <title>The Evolution of Apache Kvrocks: Search, Vector, and Beyond</title>
       <link>/sessions/datastorage-883342.html</link>
       <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
@@ -485,19 +462,6 @@ Gregory Lind: Author of &amp;ldquo;Radical Therapy for Software Teams&amp;rdquo;
       
       <guid>/sessions/datalake-913345.html</guid>
       <description>This session delves into advanced techniques for optimizing Parquet storage ecosystems. We’ll explore a comprehensive approach to managing metadata—from efficient collection and storage to building a scalable metadata warehouse. Attendees will learn practical strategies for storage optimization, including ZSTD compression upgrades, local/global sorting, and column-level tuning for enhanced performance. Additionally, we’ll cover seamless migration of legacy formats through in-place backtracking and heterogeneous format interoperability. Whether you’re handling large-scale datasets or fine-tuning storage efficiency, this session offers actionable insights to elevate your Parquet workflows.</description>
-    </item>
-    
-    <item>
-      <title>Unlocking the Potential of the Dubbo Ecosystem: Building AI-Driven Applications with dubbo-go-pixiu</title>
-      <link>/sessions/webserver-912573.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/sessions/webserver-912573.html</guid>
-      <description>Learn how to leverage Dubbo-go-Pixiu to seamlessly connect external protocols with internal Dubbo services, providing a unified entry point for AI model inference services, data processing services, and more.
-Understand the advantages of Dubbo-go-Pixiu in handling multi-protocol communication scenarios commonly encountered in AI applications.
-Explore how to utilize Dubbo-go-Pixiu&amp;rsquo;s capabilities in traffic governance, security authentication, and observability to ensure stable operation and secure access for AI applications.
-Speakers: 
-Stocks Alex: the speaker of dubbogo community</description>
     </item>
     
     <item>
@@ -554,16 +518,6 @@ Performance improvements address: Spark skew optimization to eliminate extra sor
     </item>
     
     <item>
-      <title>Reshaping OpenTelemetry with Apache Arrow</title>
-      <link>/sessions/webserver-915263.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/webserver-915263.html</guid>
-      <description>OpenTelemetry is a widely adopted open-source standard for building observability frameworks, offering tools, APIs, and SDKs to generate, collect, and export telemetry data like metrics, logs, and traces. However, its transport protocol relies on Protocol Buffer messages that are stateless and easy to interpret but have a row-based structure that complicates compression. This limitation becomes more significant when transferring large volumes of data across network boundaries.
-In my session, I will present a proposal to address this issue by enhancing the OpenTelemetry protocol with Apache Arrow, referred to as OTel-Arrow.</description>
-    </item>
-    
-    <item>
       <title>Supercharge Lakehouse Implementation with Apache Iceberg</title>
       <link>/sessions/datalake-914503.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
@@ -599,6 +553,19 @@ In this session, we will explore how Apache Iceberg enhances lakehouse architect
       <guid>/sessions/ai-904935.html</guid>
       <description>How should we design tools and services for AI agents? Should we keep baking custom APIs, or is there a better way? This session introduces the Model Context Protocol (MCP)—a new open protocol that enables AI agents to discover and call external tools in a secure, structured way.
 We’ll cover the basics of MCP (host/client/server roles, lifecycle, standard I/O vs. HTTP), compare it to existing agent tool APIs (LangChain, OpenAI tool format), and argue for why an open protocol is necessary to avoid fragmentation in the AI ecosystem.</description>
+    </item>
+    
+    <item>
+      <title>Unlocking the Potential of the Dubbo Ecosystem: Building AI-Driven Applications with dubbo-go-pixiu</title>
+      <link>/sessions/webserver-912573.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-912573.html</guid>
+      <description>Learn how to leverage Dubbo-go-Pixiu to seamlessly connect external protocols with internal Dubbo services, providing a unified entry point for AI model inference services, data processing services, and more.
+Understand the advantages of Dubbo-go-Pixiu in handling multi-protocol communication scenarios commonly encountered in AI applications.
+Explore how to utilize Dubbo-go-Pixiu&amp;rsquo;s capabilities in traffic governance, security authentication, and observability to ensure stable operation and secure access for AI applications.
+Speakers: 
+Stocks Alex: the speaker of dubbogo community</description>
     </item>
     
     <item>
@@ -652,21 +619,22 @@ Quantum Machine Learning (QML): How AI leverages quantum mechanics for unprecede
     </item>
     
     <item>
+      <title>Reshaping OpenTelemetry with Apache Arrow</title>
+      <link>/sessions/webserver-915263.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-915263.html</guid>
+      <description>OpenTelemetry is a widely adopted open-source standard for building observability frameworks, offering tools, APIs, and SDKs to generate, collect, and export telemetry data like metrics, logs, and traces. However, its transport protocol relies on Protocol Buffer messages that are stateless and easy to interpret but have a row-based structure that complicates compression. This limitation becomes more significant when transferring large volumes of data across network boundaries.
+In my session, I will present a proposal to address this issue by enhancing the OpenTelemetry protocol with Apache Arrow, referred to as OTel-Arrow.</description>
+    </item>
+    
+    <item>
       <title>Scalable Join &amp; Aggregation with External State and Dynamic Tables</title>
       <link>/sessions/streaming-909075.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
       
       <guid>/sessions/streaming-909075.html</guid>
       <description>Background &amp;amp; Motivation •	Flink SQL challenges at scale: large state, long joins, complex maintenance •	Business use case: automotive data warehouse and alerting systems 2.	State Externalization with Delta Join and Merge Engine •	Delta Join: external dimension tables with up-to-date snapshots •	Merge Engine: external upsert tables for aggregation results •	How we minimized internal state while ensuring correctness and latency 3.	The Role of Dynamic Tables •	Intermediate table explosion: a hidden cost of state externalization •	How Dynamic Tables automate schema creation, lifecycle, and data lineage •	Empowering developers: write business logic, forget the plumbing 4.</description>
-    </item>
-    
-    <item>
-      <title>Seata&#39;s Journey: From an Alibaba Innovation to Apache Success and Beyond</title>
-      <link>/sessions/webserver-915271.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/sessions/webserver-915271.html</guid>
-      <description>Seata is an open-source distributed transaction solution with a focus on providing high-performance and user-friendly distributed transaction services in microservice architectures. Initially developed for internal use within Alibaba, Seata served as middleware ensuring data consistency across applications during major events like Double 11, effectively supporting upper-layer business operations. With years of development and improvement, its commercialized products have been offered on Alibaba Cloud and Financial Cloud. In January 2019, Seata was officially open-sourced to foster a better technical ecosystem and make technological advancements accessible to more users.</description>
     </item>
     
     <item>
@@ -720,18 +688,6 @@ I have been working in the big data field for over ten years, with a strong inte
     </item>
     
     <item>
-      <title>Lessons Learned: Building Service Gateway with Tomcat And Virtual Threads</title>
-      <link>/sessions/webserver-889038.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/sessions/webserver-889038.html</guid>
-      <description>This technical session shares practical experiences and key insights gained from building and deploying a production service gateway using Tomcat and Java 21 virtual threads. We&amp;rsquo;ll explore how Tomcat&amp;rsquo;s native virtual thread support transforms gateway performance, the challenges faced during migration, and best practices that emerged during our journey of modernizing a traditional Tomcat-based service gateway with Project Loom&amp;rsquo;s virtual threads.
-Speakers: 
-Yike Xiao: 智联招聘, Senior Software Engineer
-A veteran distributed systems architect with over a five years of hands-on experience in:</description>
-    </item>
-    
-    <item>
       <title>Modern ETL for Text Vector Data Using Apache SeaTunnel and Amazon Bedrock</title>
       <link>/sessions/ai-905033.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
@@ -758,6 +714,15 @@ The Ant Group Open Source Incubation, deeply rooted in the principles of the Apa
       
       <guid>/sessions/streaming-903630.html</guid>
       <description>As the demand for streaming tasks continues to grow within ByteDance, Flink has been widely adopted across various business domains at scale. Among the resource costs of these large-scale tasks, memory stands out as a significant contributor—especially heap memory. The total allocated memory for all tasks has reached tens of thousands of terabytes, yet the JVM heap utilization remains below 50%, and container-level memory usage is under 70%. Against the backdrop of company-wide cost reduction and efficiency improvement, we have carried out a series of memory optimizations focused on heap memory usage prediction, off-heap memory usage tracking, and simplifying Flink’s memory model.</description>
+    </item>
+    
+    <item>
+      <title>Seata&#39;s Journey: From an Alibaba Innovation to Apache Success and Beyond</title>
+      <link>/sessions/webserver-915271.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-915271.html</guid>
+      <description>Seata is an open-source distributed transaction solution with a focus on providing high-performance and user-friendly distributed transaction services in microservice architectures. Initially developed for internal use within Alibaba, Seata served as middleware ensuring data consistency across applications during major events like Double 11, effectively supporting upper-layer business operations. With years of development and improvement, its commercialized products have been offered on Alibaba Cloud and Financial Cloud. In January 2019, Seata was officially open-sourced to foster a better technical ecosystem and make technological advancements accessible to more users.</description>
     </item>
     
     <item>
@@ -813,6 +778,18 @@ At Tencent Cloud, we have developed a robust, cloud-based MQTT solution built on
     </item>
     
     <item>
+      <title>Lessons Learned: Building Service Gateway with Tomcat And Virtual Threads</title>
+      <link>/sessions/webserver-889038.html</link>
+      <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-889038.html</guid>
+      <description>This technical session shares practical experiences and key insights gained from building and deploying a production service gateway using Tomcat and Java 21 virtual threads. We&amp;rsquo;ll explore how Tomcat&amp;rsquo;s native virtual thread support transforms gateway performance, the challenges faced during migration, and best practices that emerged during our journey of modernizing a traditional Tomcat-based service gateway with Project Loom&amp;rsquo;s virtual threads.
+Speakers: 
+Yike Xiao: 智联招聘, Senior Software Engineer
+A veteran distributed systems architect with over a five years of hands-on experience in:</description>
+    </item>
+    
+    <item>
       <title>Nurturing New Contributors: The Art of Crafting Good First Issues</title>
       <link>/sessions/community-912217.html</link>
       <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
@@ -829,16 +806,6 @@ The talk will cover strategies for identifying appropriate tasks, writing clear 
       
       <guid>/sessions/streaming-914285.html</guid>
       <description>The diversity of computing scenarios continuously drives the innovation of big data technologies. And the real-time lakehouse represents the current mainstream trend. The real-time lakehouse has been widely applied to various businesses of Mobile Cloud. Facing complex usage scenarios and extremely large data volumes, many challenges have been encountered during the construction of the real-time lakehouse. This sharing will introduce Mobile Cloud&amp;rsquo;s thoughts and construction in the aspect of the real-time lakehouse.</description>
-    </item>
-    
-    <item>
-      <title>Scaling Together: Community-Driven Load Testing for Python Apps</title>
-      <link>/sessions/webserver-883006.html</link>
-      <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
-      
-      <guid>/sessions/webserver-883006.html</guid>
-      <description>Performance bottlenecks can make or break your app, but load testing often gets pushed aside during development. In the open-source world, why aren&amp;rsquo;t we treating performance testing as a shared responsibility? This talk shows how developers, testers, and infrastructure engineers can collaborate to build scalable Python applications.
-We&amp;rsquo;ll use a Django case study and Apache JMeter to demonstrate effective stress-testing techniques and common pitfalls to avoid. We&amp;rsquo;ll also explore open-source tools like Locust and k6, and discuss how the community can contribute by sharing test plans, scripts, and best practices.</description>
     </item>
     
     <item>

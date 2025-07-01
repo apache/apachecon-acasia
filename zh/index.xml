@@ -184,18 +184,6 @@ Apache DataFusion PMC、Apache Arrow 提交者、Apache HoraeDB PPMC Greptime �
     </item>
     
     <item>
-      <title>Apache SeaTunnel MCP 介绍与演示</title>
-      <link>/zh/sessions/dataops-908655.html</link>
-      <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/dataops-908655.html</guid>
-      <description>Apache SeaTunnel 的模型上下文协议（MCP）服务器。该服务器可访问您的 Apache SeaTunnel RESTful API V2 实例及其周边生态系统。
-讲师: 
-Haicheng Zhang: 航天信息大数据开发工程师 开发组组长
-一位喜欢折腾的从业者</description>
-    </item>
-    
-    <item>
       <title>BifroMQ：面向多租户的高性能 MQTT 代理</title>
       <link>/zh/sessions/incubator-908738.html</link>
       <pubDate>Sun, 27 Jul 2025 16:15:00 +0000</pubDate>
@@ -569,14 +557,14 @@ wei jin: API7 解决方案架构师 / Apache 成员 / Apache APISIX PMC / Apache
     </item>
     
     <item>
-      <title>使用 Polars 实现的近实时交易数据统计分析系统</title>
+      <title>基于 polars 实现的量化交易数据准实时统计和分析系统</title>
       <link>/zh/sessions/rust-912220.html</link>
       <pubDate>Sun, 27 Jul 2025 14:00:00 +0000</pubDate>
       
       <guid>/zh/sessions/rust-912220.html</guid>
-      <description>非凸科技的自动交易系统每日处理超过 200 亿元人民币的交易量，产生海量订单和交易数据。 为了在快速变化的市场环境中快速监控系统性能，我们使用 Rust 和 Polars（一个基于 Rust 的优秀开源数据框架库）开发了一套统计分析系统。 本文将介绍该系统所面临的关键挑战，以及其总体架构和实现方法。 非凸科技持续通过开源项目进行创新。我们的高性能异步日志库 ftlog 具有基于时间的分段、限速写入、异步 I/O 以及按业务类型进行多目标日志记录的功能。我们正在开发 RTL（Rust 交易语言），这是一种基于 Rust 宏的领域特定语言，旨在加速策略研究、回测和实时交易的迭代周期。此外，我们正在使用 Rust + WebAssembly 创建基于浏览器的高性能可视化工具，显著提高战略研究人员的工作流程效率。  讲师: 
-Qiao Dan: 非凸人工智能实验室主任；深入探索大模型技术在金融领域的综合应用。
-非凸人工智能实验室主任，负责搜索、推荐等领域大规模分布式机器学习策略的开发和迭代。毕业于北京大学</description>
+      <description>非凸科技的智能交易程序每日成交额超200亿元，会产生大量的订单、成交等数据。 为了在快速变化的市场行情中，快速观察程序的运行情况，我们基于优秀的Rust开源dataframe库polars，也使用Rust开发了一个统计和分析系统。 本文将介绍这个系统需要解决的问题，以及它的总体设计和实现方式。 非凸科技在其他开源项目上也在不断发力。其中，高性能异步日志库ftlog，支持时间切分、受限写入、异步写入、按业务多目标写入等实用功能。也将持续创新，开发一种基于Rust宏的语言，即RTL（Rust Trading Language），进一步提升策略研究、回测和实盘的迭代效率；以及开发一种在浏览器内基于Rust + WebAssembly 的高性能、可视化工具，帮助策略研究员极大地提高迭代效率。  讲师: 
+乔丹：非凸科技 AI 实验室主任；深入探索大模型技术在金融领域的综合应用。
+负责搜索、推荐等大模型分布式机器学习策略的开发和迭代。毕业于北京大学，从业以来在高性能分布式系统的架构设计、开发和应用领域持续投入和积累。</description>
     </item>
     
     <item>
@@ -672,19 +660,6 @@ Jinsong Zhou，腾讯软件工程师，在数据库和大数据领域拥有 8 �
     </item>
     
     <item>
-      <title>软件团队的激进透明</title>
-      <link>/zh/sessions/general-915544.html</link>
-      <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/general-915544.html</guid>
-      <description>在团队中培养开放、诚实和积极的文化，能够创造一个让每个人都感到被赋能、从而发挥最佳表现并在个人与职业层面共同成长的工作环境。本次演讲将概述如何将彻底透明化融入您的 DevOps、软件及产品开发流程中。
-讲师: 
-Gregory Lind: 《软件团队的激进疗法》作者、Buildly 首席执行官兼创始人
-《软件团队的激进疗法》作者，Buildly 公司首席执行官，拥有 20 余年软件、开源及初创企业领域经验。
-作为创始人兼首席技术官，曾在三个不同国家成功创立并运营四家初创公司。曾与非政府组织及政府机构合作，构建开源赠款管理系统。</description>
-    </item>
-    
-    <item>
       <title>AI 与云原生时代下的未来就绪数据平台</title>
       <link>/zh/sessions/general-875124.html</link>
       <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
@@ -768,18 +743,6 @@ Jark Wu 是 Apache Flink 的提交者和 PMC 成员。他领导着阿里云的 F
     </item>
     
     <item>
-      <title>释放 Dubbo 生态系统潜能：使用 dubbo-go-pixiu 构建 AI 驱动应用</title>
-      <link>/zh/sessions/webserver-912573.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/webserver-912573.html</guid>
-      <description>了解如何利用 Dubbo-go-Pixiu 将外部协议与内部 Dubbo 服务无缝连接，为 AI 模型推理服务、数据处理服务等提供统一的入口。 了解 Dubbo-go-Pixiu 在处理 AI 应用中常见的多协议通信场景方面的优势。 探索如何利用 Dubbo-go-Pixiu 在流量治理、安全认证 和可观测性方面的能力，保障 AI 应用的稳定运行和安全访问。
-讲师: 
-Stocks Alex: Dubbogo 社区的发言人
-资深后端基础设施研发专家，拥有十余年实践经验，精通即时通讯、NoSQL 系统、服务治理，在 Redis、Pika、Dubbo、Sentinel、Seata 等知名项目中发挥了重要作用。</description>
-    </item>
-    
-    <item>
       <title>Celeborn 的革新：多引擎支持、性能掌控与技术创新</title>
       <link>/zh/sessions/datastorage-896070.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
@@ -808,19 +771,6 @@ Apache Celeborn 的 PMC 成员，主要致力于优化 Apache Celeborn。</descr
  实现了存储与计算的解耦，进一步提升了系统的可扩展性和云原生适配能力。 引入了 POP 消费模式，将负载均衡逻辑从客户端迁移到了 Broker 端。 为适应这些新特性，社区推出了全新的基于 gRPC 协议的客户端。然而，现有通过 Remoting 协议客户端接入 RocketMQ 的用户，若不更新代码和替换客户端 SDK，将无法享受到 5.0 的这些创新能力。为增强对 Remoting 协议客户端的向后兼容性，我们在 RocketMQ 5.0 中提出了虚拟队列方案，并已在腾讯云的实际应用中得到了充分验证。  讲师: 
 Shengzhong Liu: 腾讯
 自2019年从东南大学毕业以来，我一直在腾讯云担任软件开发工程师，近年来专注于消息队列技术的相关工作。</description>
-    </item>
-    
-    <item>
-      <title>使用 Apache Arrow 重塑 OpenTelemetry</title>
-      <link>/zh/sessions/webserver-915263.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/webserver-915263.html</guid>
-      <description>OpenTelemetry 是一个广泛采用的开源标准，用于构建可观测性框架，提供用于生成、收集和导出遥测数据（例如指标、日志和轨迹）的工具、API 和 SDK。然而，其传输协议依赖于 Protocol Buffer 消息，这些消息无状态且易于解释，但其基于行的结构使压缩变得复杂。当跨网络边界传输大量数据时，这种限制会更加明显。
-在我的演讲中，我将提出一项提案，通过使用 Apache Arrow（简称 OTel-Arrow）增强 OpenTelemetry 协议来解决这个问题。该计划旨在利用 Apache Arrow 在 OpenTelemetry 管道中进行批量数据压缩和传输。我们将讨论 OTel-Arrow 数据模型、已实现该模型的现有基础设施、将 OTel-Arrow 与原始实现进行比较的基准测试结果，以及我们使用 Apache Parquet 格式将 OTel-Arrow 集成到现代时间序列数据库中，以通过基于 Apache DataFusion 构建的实时查询引擎实现快速分析。
-讲师: 
-Lei Huang: 中国杭州 Greptime 数据库开发人员
-Lei 是一位来自中国的热情开源数据库开发者。在北京大学获得计算机科学硕士学位后，他加入支付宝，从事基础设施和中间件开发工作，并领导开发了用于交易处理的大规模消息队列。后来，他作为创始成员加入 Greptime，主要负责存储引擎的开发。他的主要兴趣是分布式系统和数据库存储子系统。</description>
     </item>
     
     <item>
@@ -893,6 +843,18 @@ Miley 是一位开发者倡导者，热衷于帮助开发者构建和贡献开�
     </item>
     
     <item>
+      <title>释放 Dubbo 生态系统潜能：使用 dubbo-go-pixiu 构建 AI 驱动应用</title>
+      <link>/zh/sessions/webserver-912573.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/webserver-912573.html</guid>
+      <description>了解如何利用 Dubbo-go-Pixiu 将外部协议与内部 Dubbo 服务无缝连接，为 AI 模型推理服务、数据处理服务等提供统一的入口。 了解 Dubbo-go-Pixiu 在处理 AI 应用中常见的多协议通信场景方面的优势。 探索如何利用 Dubbo-go-Pixiu 在流量治理、安全认证 和可观测性方面的能力，保障 AI 应用的稳定运行和安全访问。
+讲师: 
+Stocks Alex: Dubbogo 社区的发言人
+资深后端基础设施研发专家，拥有十余年实践经验，精通即时通讯、NoSQL 系统、服务治理，在 Redis、Pika、Dubbo、Sentinel、Seata 等知名项目中发挥了重要作用。</description>
+    </item>
+    
+    <item>
       <title>Apache HugeGraph 1.5.0：企业级部署最佳实践</title>
       <link>/zh/sessions/general-914611.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
@@ -917,16 +879,16 @@ Sammi Chen 是 Cloudera 的首席存储工程师，专注于 Apache Hadoop 和 A
     </item>
     
     <item>
-      <title>Seata 的历程：从阿里巴巴的创新到 Apache 的成功及未来</title>
-      <link>/zh/sessions/webserver-915271.html</link>
+      <title>使用 Apache Arrow 重塑 OpenTelemetry</title>
+      <link>/zh/sessions/webserver-915263.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
       
-      <guid>/zh/sessions/webserver-915271.html</guid>
-      <description>Seata 是一个开源的分布式事务解决方案，专注于在微服务架构下提供高性能、用户友好的分布式事务服务。Seata 最初是阿里巴巴内部开发的，在双十一等大型活动期间作为中间件确保跨应用程序的数据一致性，有效支撑了上层业务运营。经过多年的发展和完善，其商业化产品已在阿里云和金融云上线。2019 年 1 月，Seata 正式开源，旨在构建更完善的技术生态，让更多用户能够享受到技术进步带来的便利。Seata 的未来计划包括社区驱动的开发，帮助用户快速落地分布式事务解决方案。
-就此话题而言，Seata 在阿里巴巴的演变历程，标志着其在开源之前的初始发展历程及其在阿里巴巴的关键地位。Apache 孵化之旅标志着 Seata 通过 Apache 孵化器寻求全球合作和信誉的关键一步。 Seata 的架构演变展示了其技术框架如何不断发展和适应各种需求，从而增强了其功能性和可靠性。最后，Seata 的未来计划和愿景包括持续发展，并借助社区贡献来扩展其功能和应用。
+      <guid>/zh/sessions/webserver-915263.html</guid>
+      <description>OpenTelemetry 是一个广泛采用的开源标准，用于构建可观测性框架，提供用于生成、收集和导出遥测数据（例如指标、日志和轨迹）的工具、API 和 SDK。然而，其传输协议依赖于 Protocol Buffer 消息，这些消息无状态且易于解释，但其基于行的结构使压缩变得复杂。当跨网络边界传输大量数据时，这种限制会更加明显。
+在我的演讲中，我将提出一项提案，通过使用 Apache Arrow（简称 OTel-Arrow）增强 OpenTelemetry 协议来解决这个问题。该计划旨在利用 Apache Arrow 在 OpenTelemetry 管道中进行批量数据压缩和传输。我们将讨论 OTel-Arrow 数据模型、已实现该模型的现有基础设施、将 OTel-Arrow 与原始实现进行比较的基准测试结果，以及我们使用 Apache Parquet 格式将 OTel-Arrow 集成到现代时间序列数据库中，以通过基于 Apache DataFusion 构建的实时查询引擎实现快速分析。
 讲师: 
-Min Ji: Apache Seata PPMC/Higress 维护员
-Ji Min (Qing Ming) 是阿里云分布式事务产品负责人，同时也是 Higress 的维护者。他拥有超过 10 年的研发架构经验，在推动集团内部中间件的规模化落地以及微服务 PaaS 解决方案的商业化和开源过程中发挥了关键作用。目前，他致力于推动下一代微服务架构的发展。</description>
+Lei Huang: 中国杭州 Greptime 数据库开发人员
+Lei 是一位来自中国的热情开源数据库开发者。在北京大学获得计算机科学硕士学位后，他加入支付宝，从事基础设施和中间件开发工作，并领导开发了用于交易处理的大规模消息队列。后来，他作为创始成员加入 Greptime，主要负责存储引擎的开发。他的主要兴趣是分布式系统和数据库存储子系统。</description>
     </item>
     
     <item>
@@ -1019,6 +981,19 @@ Quanlong Huang 是 Cloudera 的一名软件工程师。他在过去的 6 年多�
     </item>
     
     <item>
+      <title>Seata 的历程：从阿里巴巴的创新到 Apache 的成功及未来</title>
+      <link>/zh/sessions/webserver-915271.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/webserver-915271.html</guid>
+      <description>Seata 是一个开源的分布式事务解决方案，专注于在微服务架构下提供高性能、用户友好的分布式事务服务。Seata 最初是阿里巴巴内部开发的，在双十一等大型活动期间作为中间件确保跨应用程序的数据一致性，有效支撑了上层业务运营。经过多年的发展和完善，其商业化产品已在阿里云和金融云上线。2019 年 1 月，Seata 正式开源，旨在构建更完善的技术生态，让更多用户能够享受到技术进步带来的便利。Seata 的未来计划包括社区驱动的开发，帮助用户快速落地分布式事务解决方案。
+就此话题而言，Seata 在阿里巴巴的演变历程，标志着其在开源之前的初始发展历程及其在阿里巴巴的关键地位。Apache 孵化之旅标志着 Seata 通过 Apache 孵化器寻求全球合作和信誉的关键一步。 Seata 的架构演变展示了其技术框架如何不断发展和适应各种需求，从而增强了其功能性和可靠性。最后，Seata 的未来计划和愿景包括持续发展，并借助社区贡献来扩展其功能和应用。
+讲师: 
+Min Ji: Apache Seata PPMC/Higress 维护员
+Ji Min (Qing Ming) 是阿里云分布式事务产品负责人，同时也是 Higress 的维护者。他拥有超过 10 年的研发架构经验，在推动集团内部中间件的规模化落地以及微服务 PaaS 解决方案的商业化和开源过程中发挥了关键作用。目前，他致力于推动下一代微服务架构的发展。</description>
+    </item>
+    
+    <item>
       <title>Shopee 的 Apache Ozone 最佳实践</title>
       <link>/zh/sessions/datastorage-910450.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
@@ -1089,19 +1064,6 @@ Xin Zhang 是亚马逊云科技（AWS）解决方案架构师，负责基于AWS�
 
 汪少军: 字节跳动，编程语言工程师
  Apache 孵化项目 teaclave 的 PPMC 自 2017 年起成为 Gopher 开发者 字节跳动编程语言工程师  </description>
-    </item>
-    
-    <item>
-      <title>经验教训：使用 Tomcat 和虚拟线程构建服务网关</title>
-      <link>/zh/sessions/webserver-889038.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/webserver-889038.html</guid>
-      <description>本次技术研讨会分享了使用 Tomcat 和 Java 21 虚拟线程构建和部署生产服务网关的实践经验和关键见解。我们将探讨 Tomcat 的原生虚拟线程支持如何提升网关性能、迁移过程中面临的挑战，以及在使用 Project Loom 的虚拟线程对基于 Tomcat 的传统服务网关进行现代化改造的过程中获得的最佳实践。
-讲师: 
-Yike Xiao: 智联招聘, 高级软件工程师
-资深分布式系统架构师，拥有超过五年的实践经验：
- 丰富的 RPC 框架架构和扩展经验 深厚的消息中间件优化和演进专业知识 擅长管理大型分布式系统  </description>
     </item>
     
     <item>
@@ -1198,20 +1160,6 @@ Willem Jiang（姜宁）是字节跳动开源办公室（OSPO）的首席开源�
     </item>
     
     <item>
-      <title>携手扩展：社区驱动的 Python 应用负载测试</title>
-      <link>/zh/sessions/webserver-883006.html</link>
-      <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/webserver-883006.html</guid>
-      <description>性能瓶颈可能成就或毁掉您的应用，但负载测试在开发过程中常常被搁置一旁。在开源世界中，为什么我们没有将性能测试视为一项共同的责任？本次演讲将展示开发人员、测试人员和基础架构工程师如何协作构建可扩展的 Python 应用。
-我们将使用 Django 案例研究和 Apache JMeter 来演示有效的压力测试技术以及需要避免的常见陷阱。我们还将探索 Locust 和 k6 等开源工具，并讨论社区如何通过共享测试计划、脚本和最佳实践来做出贡献。您可以将其视为对您的负载测试策略进行开源。
-除了技术层面之外，本次演讲还强调集体智慧。想象一下，一个共享测试套件和基准测试工作成为常态的世界——Python 应用将从社区驱动的测试中受益。
-讲师: 
-Steve Yonkeu: 软件工程师
-Steve Yonkeu 是一位后端软件工程师，致力于提供卓越的架构、性能和模块化。五年多来，他一直领导着世界各地的团队、项目和开源社区。Steve 也是 Django 喀麦隆社区和 Python 喀麦隆社区的创始人。他也是 PyCon Africa 的组织者。</description>
-    </item>
-    
-    <item>
       <title>构建云 MQTT 解决方案的经验教训</title>
       <link>/zh/sessions/messaging-908848.html</link>
       <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
@@ -1222,6 +1170,19 @@ Steve Yonkeu 是一位后端软件工程师，致力于提供卓越的架构、�
 讲师: 
 Senze Zhang: Apache RocketMQ Committer
 Senze Zhang 是一位资深的消息队列系统工程师，在高性能消息解决方案的设计、实现和优化方面拥有丰富的经验，参与部署过 RocketMQ、Kafka、MQTT 等多个业界领先的消息队列平台。</description>
+    </item>
+    
+    <item>
+      <title>经验教训：使用 Tomcat 和虚拟线程构建服务网关</title>
+      <link>/zh/sessions/webserver-889038.html</link>
+      <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/webserver-889038.html</guid>
+      <description>本次技术研讨会分享了使用 Tomcat 和 Java 21 虚拟线程构建和部署生产服务网关的实践经验和关键见解。我们将探讨 Tomcat 的原生虚拟线程支持如何提升网关性能、迁移过程中面临的挑战，以及在使用 Project Loom 的虚拟线程对基于 Tomcat 的传统服务网关进行现代化改造的过程中获得的最佳实践。
+讲师: 
+Yike Xiao: 智联招聘, 高级软件工程师
+资深分布式系统架构师，拥有超过五年的实践经验：
+ 丰富的 RPC 框架架构和扩展经验 深厚的消息中间件优化和演进专业知识 擅长管理大型分布式系统  </description>
     </item>
     
     <item>
