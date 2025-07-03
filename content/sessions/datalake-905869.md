@@ -27,6 +27,6 @@ Congxian Qiu has many years of experience in big data infrastructure research an
 
 <img src="https://sessionize.com/image/dd80-400o400o1-SKrNUnGVHC8xTrBeHtFLHN.jpg" width="200" /><br/>
 
-Zhuojun Jiang: Senior Big Data Engineer, China Telecom Cloud Technology Co., Ltd
+Zhuojun Jiang: Senior Big Data Engineer @ State Cloud
 
-Zhuojun Jiang is a Senior Big Data Engineer at China Telecom Cloud Technology Co., Ltd., specializing in real-time data lakehouse architecture. She focuses on big data development, system performance optimization, and real-time data synchronization based on technologies like Apache FlinkCDC, Iceberg, and Amoro. Jiang actively contributes to the open-source community and shares practical insights through industry forums and technical talks.
+Zhuojun Jiang is a Senior Big Data Engineer at State Cloud, specializing in real-time data lakehouse architecture. She focuses on big data development, system performance optimization, and real-time data synchronization based on technologies like Apache FlinkCDC, Iceberg, and Amoro. Jiang actively contributes to the open-source community and shares practical insights through industry forums and technical talks.
