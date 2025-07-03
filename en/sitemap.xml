@@ -1310,32 +1310,6 @@
                 href="/sessions/streaming-909040.html"
                 />
   </url><url>
-    <loc>/sessions/ai-915118.html</loc>
-    <lastmod>2025-07-25T17:15:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/ai-915118.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/ai-915118.html"
-                />
-  </url><url>
-    <loc>/sessions/olap-913140.html</loc>
-    <lastmod>2025-07-25T17:15:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/olap-913140.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/olap-913140.html"
-                />
-  </url><url>
     <loc>/sessions/datastorage-889852.html</loc>
     <lastmod>2025-07-25T16:45:00+00:00</lastmod>
     <xhtml:link
@@ -1375,19 +1349,6 @@
                 href="/sessions/streaming-913378.html"
                 />
   </url><url>
-    <loc>/sessions/ai-915004.html</loc>
-    <lastmod>2025-07-25T16:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/ai-915004.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/ai-915004.html"
-                />
-  </url><url>
     <loc>/sessions/olap-913223.html</loc>
     <lastmod>2025-07-25T16:45:00+00:00</lastmod>
     <xhtml:link
@@ -1399,6 +1360,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="/sessions/olap-913223.html"
+                />
+  </url><url>
+    <loc>/sessions/ai-915118.html</loc>
+    <lastmod>2025-07-25T16:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/ai-915118.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/ai-915118.html"
                 />
   </url><url>
     <loc>/sessions/cloudnative-913294.html</loc>
@@ -1492,17 +1466,17 @@
                 href="/sessions/olap-914602.html"
                 />
   </url><url>
-    <loc>/sessions/ai-910588.html</loc>
+    <loc>/sessions/ai-915004.html</loc>
     <lastmod>2025-07-25T16:15:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/ai-910588.html"
+                href="/zh/sessions/ai-915004.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/sessions/ai-910588.html"
+                href="/sessions/ai-915004.html"
                 />
   </url><url>
     <loc>/sessions/cloudnative-911323.html</loc>

@@ -13,11 +13,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/venue_travel/venue.html</guid>
-      <description>Venue 会议场地 本届大会将在北京市海淀区中关村国家自主创新示范区会议中心（北京市海淀区新建宫门路2号）举办。
-中关村国家自主创新示范区会议中心，坐落于北京市海淀区的心脏地带，紧邻历史悠久的三山五园文化景区与蓬勃发展的中关村科学城，是科技与文化的交汇点，也是创新与交流的璀璨舞台。会议中心总建筑面积宏大，内部空间布局科学合理，拥有多间多功能会议室，从容纳数十人的小型研讨会到上千人的大型峰会，均能满足不同规模与需求的会议活动。场地凭借其独特的建筑设计、先进的会议设施以及卓越的地理位置，成为了国内外各类高端会议、论坛、展览及商务活动的首选之地，引领着科技创新与文化交融的新风尚。
-     Getting There 打车：搜索「中关村国家自主创新示范区会议中心（北京市海淀区新建宫门路2号）」
+      <description>Venue 会议场地 本届大会将在北京市海淀区中关村国家自主创新示范区展示交易中心-会议中心（北京市海淀区新建宫门路2号中关村展示中心-5号门）举办。
+关村国家自主创新示范区展示交易中心-会议中心，坐落于北京市海淀区的心脏地带，紧邻历史悠久的三山五园文化景区与蓬勃发展的中关村科学城，是科技与文化的交汇点，也是创新与交流的璀璨舞台。会议中心总建筑面积宏大，内部空间布局科学合理，拥有多间多功能会议室，从容纳数十人的小型研讨会到上千人的大型峰会，均能满足不同规模与需求的会议活动。场地凭借其独特的建筑设计、先进的会议设施以及卓越的地理位置，成为了国内外各类高端会议、论坛、展览及商务活动的首选之地，引领着科技创新与文化交融的新风尚。
+     Getting There 打车：搜索「中关村国家自主创新示范区展示交易中心-会议中心（北京市海淀区新建宫门路2号中关村展示中心-5号门）」
 地铁：搭乘地铁 16 号线至「万泉河桥」站，出 A 口后步行 700 米、11 分钟到达园区。
-地点：中关村国家自主创新示范区-会议中心</description>
+地点：中关村国家自主创新示范区展示交易中心-会议中心</description>
     </item>
     
     <item>
@@ -1311,22 +1311,6 @@ Heart Zhou: Kwai
     </item>
     
     <item>
-      <title>Apache Doris 混合检索技术解析</title>
-      <link>/zh/sessions/ai-915118.html</link>
-      <pubDate>Fri, 25 Jul 2025 17:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/ai-915118.html</guid>
-      <description>Apache Doris 的混合检索能力将传统全文检索（基于关键词的词典搜索）与向量检索（基于语义的搜索）相结合，提供更精准的搜索结果。这种能力特别适合需要同时兼顾关键词匹配和语义理解的复杂搜索场景，如电商、内容推荐和知识库搜索。
-混合检索核心原理 混合检索充分发挥两种搜索方式的优势：
- 全文检索（BM25）：基于倒排索引和关键词匹配，擅长精确匹配用户输入的查询词。Doris 使用 BM25 算法（默认）计算文档与查询的相关性得分，适合结构化文本搜索。 向量检索（语义搜索）：通过将文本转换为向量（embedding），利用机器学习模型计算查询与文档的语义相似度，擅长理解查询意图和上下文。 融合机制：采用特定评分和排序技术（如 Reciprocal Rank Fusion/RRF 或 Convex Combination/CC）整合两种方法的搜索结果，平衡词典相关性和语义相关性。  技术实现架构 Doris 混合检索依赖以下技术组件和工作流：
-  字段类型支持
- 文本字段：通过分词器生成倒排索引，支持全文检索 向量字段：使用模型将文本转为向量类型存储    复合索引
- 支持同时存储文本和向量字段 启用混合查询功能    查询执行流程
- 词典查询：使用 match 查询检索关键词匹配的文档（基于 BM25 算法） 向量查询：使用 knn 查询或 ANN 索引检索语义相似的文档（基于余弦相似度等） 混合查询：并行执行两种查询，通过融合算法整合结果    结果融合策略
- RRF（逆序位融合）：根据文档在不同查询结果中的排名计算综合得分，强调在多搜索方法中均排名靠前的文档 CC（凸组合）：通过加权求和整合 BM25 和向量查询得分，需手动调整权重平衡 支持通过 script_score 或 Rerank 模型进一步优化结果排序    讲师:</description>
-    </item>
-    
-    <item>
       <title>Flex：统一的流式和批处理矢量化引擎</title>
       <link>/zh/sessions/streaming-909040.html</link>
       <pubDate>Fri, 25 Jul 2025 17:15:00 +0000</pubDate>
@@ -1353,18 +1337,6 @@ Yuqi Gu: Apache Bigtop 和 Ambari PMC 成员 (guyuqi@apache.org)
     </item>
     
     <item>
-      <title>深入 Apache Cloudberry 的目录表</title>
-      <link>/zh/sessions/olap-913140.html</link>
-      <pubDate>Fri, 25 Jul 2025 17:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/olap-913140.html</guid>
-      <description>AI应用和数据科学工作流程越来越依赖于非结构化数据。Apache Cloudberry 引入了目录表（Directory Table），这是一种新的表类型，旨在在数据库内部原生地管理非结构化数据。它支持统一的元数据管理、与数据库内分析的集成以及高级数据科学工作流程。 本次演讲将深入探讨目录表的设计理念、实现细节和使用示例，展示它如何在统一平台上桥接结构化和非结构化数据。
-讲师: 
-张文超: hashdata
-Apache Cloudberry 贡献者</description>
-    </item>
-    
-    <item>
       <title>适用于 Hadoop 集群的小型文件嗅探系统</title>
       <link>/zh/sessions/datastorage-914565.html</link>
       <pubDate>Fri, 25 Jul 2025 17:15:00 +0000</pubDate>
@@ -1374,6 +1346,22 @@ Apache Cloudberry 贡献者</description>
 讲师: 
 Miao Wang: 中国邮政储蓄银行，数据工程师
 Miao 拥有北京理工大学工程学士学位和康考迪亚大学电子与计算机工程硕士学位。目前，他在中国邮政储蓄银行担任数据工程师。他的兴趣横跨分布式系统、数据湖和大数据。此外，他还是 Apache Iceberg 等多个开源项目的贡献者。</description>
+    </item>
+    
+    <item>
+      <title>Apache Doris 混合检索技术解析</title>
+      <link>/zh/sessions/ai-915118.html</link>
+      <pubDate>Fri, 25 Jul 2025 16:45:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/ai-915118.html</guid>
+      <description>Apache Doris 的混合检索能力将传统全文检索（基于关键词的词典搜索）与向量检索（基于语义的搜索）相结合，提供更精准的搜索结果。这种能力特别适合需要同时兼顾关键词匹配和语义理解的复杂搜索场景，如电商、内容推荐和知识库搜索。
+混合检索核心原理 混合检索充分发挥两种搜索方式的优势：
+ 全文检索（BM25）：基于倒排索引和关键词匹配，擅长精确匹配用户输入的查询词。Doris 使用 BM25 算法（默认）计算文档与查询的相关性得分，适合结构化文本搜索。 向量检索（语义搜索）：通过将文本转换为向量（embedding），利用机器学习模型计算查询与文档的语义相似度，擅长理解查询意图和上下文。 融合机制：采用特定评分和排序技术（如 Reciprocal Rank Fusion/RRF 或 Convex Combination/CC）整合两种方法的搜索结果，平衡词典相关性和语义相关性。  技术实现架构 Doris 混合检索依赖以下技术组件和工作流：
+  字段类型支持
+ 文本字段：通过分词器生成倒排索引，支持全文检索 向量字段：使用模型将文本转为向量类型存储    复合索引
+ 支持同时存储文本和向量字段 启用混合查询功能    查询执行流程
+ 词典查询：使用 match 查询检索关键词匹配的文档（基于 BM25 算法） 向量查询：使用 knn 查询或 ANN 索引检索语义相似的文档（基于余弦相似度等） 混合查询：并行执行两种查询，通过融合算法整合结果    结果融合策略
+ RRF（逆序位融合）：根据文档在不同查询结果中的排名计算综合得分，强调在多搜索方法中均排名靠前的文档 CC（凸组合）：通过加权求和整合 BM25 和向量查询得分，需手动调整权重平衡 支持通过 script_score 或 Rerank 模型进一步优化结果排序    讲师:</description>
     </item>
     
     <item>
@@ -1452,19 +1440,6 @@ Apache Flink 项目管理委员会（PMC）成员，阿里云高级技术专家�
 Longfei Liu: 360 高级软件工程师（奇虎 360）
 360（奇虎 360）高级软件工程师​​
 十年大数据基础设施开发实践经验，在分布式存储系统和查询性能优化方面拥有深厚的专业知识。</description>
-    </item>
-    
-    <item>
-      <title>从数据到 AI：基于 Apache Cloudberry 构建统一分析平台</title>
-      <link>/zh/sessions/ai-915004.html</link>
-      <pubDate>Fri, 25 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/ai-915004.html</guid>
-      <description>当前企业由于数据系统碎片化、处理流程低效以及分析与机器学习之间的隔阂，难以充分发挥 AI 潜力。Apache Cloudberry 作为开源 MPP 数据仓库，通过深度集成数据处理与 AI 能力，重新定义这一范式，消除壁垒并加速创新。
-本次演讲将展示 Cloudberry 如何实现：
- 统一执行：直接在数据仓库上运行原生 AI/ML 模型（如 PyTorch、Scikit-learn） 多模态分析：在统一框架中处理结构化与非结构化数据（PDF、图像等文档） 智能数据应用：构建 RAG 增强的问答系统、对话式 BI 及多模态搜索  您将了解如何将数据与智能汇聚至统一平台，在简化架构的同时扩展 AI 工作负载。
-演讲嘉宾: Chuanxin Bian: Hashdata，数据和AI工程师
-Chuanxin Bian 博士是专注于深度学习、自然语言处理和时间序列建模的数据科学家与应用数学家，持有香港理工大学应用数学博士学位。现就职于 HashData，主导开发 HashML、ChatData 等 AI 工具及 AIGC 应用。曾任百度高级研发工程师，参与文心大模型开发，基于 PaddleTS 构建时间序列模型，并推进用户画像系统升级。精通 Python 及深度学习框架，善于连接理论与实际推动 AI 创新。</description>
     </item>
     
     <item>
@@ -1554,16 +1529,16 @@ Ted 还是几家企业公司的开源顾问，包括腾讯、华为和贝恩公�
     </item>
     
     <item>
-      <title>基于 LLM 增强 API 发现能力：eBay NuGraph 与 Apache TinkerPop 的实践</title>
-      <link>/zh/sessions/ai-910588.html</link>
+      <title>从数据到 AI：基于 Apache Cloudberry 构建统一分析平台</title>
+      <link>/zh/sessions/ai-915004.html</link>
       <pubDate>Fri, 25 Jul 2025 16:15:00 +0000</pubDate>
       
-      <guid>/zh/sessions/ai-910588.html</guid>
-      <description>Apache TinkerPop 提供了强大的图计算框架，对于管理复杂的数据交互至关重要。在 API 发现领域，传统方法（如向量数据库）往往难以满足精确和实时交互所需的精度和规模要求。精确高效的数据聚合对于提供准确及时的 API 发现响应至关重要。
-eBay 专有的图数据库解决方案 NuGraph 利用 Apache TinkerPop 高效管理复杂的数据结构。在此基础上，我们构建了一种结合大型语言模型（LLMs）的新方法来进行聚合查询。通过集成 NuGraph，我们旨在优化查询解析流程，通过更快速、更精确的 API 发现显著改善交互体验。
-演讲嘉宾: 
-Wei Chen: eBay，软件工程师
-Wei 专注于通过大数据和流处理技术赋能 eBay 通知平台。他同时也是一名技术博客作者，并积极参与开源社区贡献。</description>
+      <guid>/zh/sessions/ai-915004.html</guid>
+      <description>当前企业由于数据系统碎片化、处理流程低效以及分析与机器学习之间的隔阂，难以充分发挥 AI 潜力。Apache Cloudberry 作为开源 MPP 数据仓库，通过深度集成数据处理与 AI 能力，重新定义这一范式，消除壁垒并加速创新。
+本次演讲将展示 Cloudberry 如何实现：
+ 统一执行：直接在数据仓库上运行原生 AI/ML 模型（如 PyTorch、Scikit-learn） 多模态分析：在统一框架中处理结构化与非结构化数据（PDF、图像等文档） 智能数据应用：构建 RAG 增强的问答系统、对话式 BI 及多模态搜索  您将了解如何将数据与智能汇聚至统一平台，在简化架构的同时扩展 AI 工作负载。
+演讲嘉宾: Chuanxin Bian: Hashdata，数据和AI工程师
+Chuanxin Bian 博士是专注于深度学习、自然语言处理和时间序列建模的数据科学家与应用数学家，持有香港理工大学应用数学博士学位。现就职于 HashData，主导开发 HashML、ChatData 等 AI 工具及 AIGC 应用。曾任百度高级研发工程师，参与文心大模型开发，基于 PaddleTS 构建时间序列模型，并推进用户画像系统升级。精通 Python 及深度学习框架，善于连接理论与实际推动 AI 创新。</description>
     </item>
     
     <item>

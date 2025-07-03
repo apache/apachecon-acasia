@@ -942,24 +942,6 @@ Expert in Distributed Computing Engines at Ant Financial, Calcite Committer and 
     </item>
     
     <item>
-      <title>Hybrid Search in Apache Doris</title>
-      <link>/sessions/ai-915118.html</link>
-      <pubDate>Fri, 25 Jul 2025 17:15:00 +0000</pubDate>
-      
-      <guid>/sessions/ai-915118.html</guid>
-      <description>Doris&amp;rsquo;s hybrid search capability combines traditional full-text search (keyword-based lexical search) with vector search (semantics-based search) to deliver an advanced search function aimed at improving the accuracy and relevance of search results. This capability is particularly well-suited for complex search scenarios that require both keyword matching and semantic understanding, such as e-commerce, content recommendation, and knowledge base search. Core Concepts of Hybrid Search Hybrid search leverages the strengths of both search methods to provide more precise search results: Full-Text Search (BM25): Based on inverted indexes and keyword matching, it excels at accurately matching user-input query terms.</description>
-    </item>
-    
-    <item>
-      <title>Inside the Directory Table of Apache Cloudberry</title>
-      <link>/sessions/olap-913140.html</link>
-      <pubDate>Fri, 25 Jul 2025 17:15:00 +0000</pubDate>
-      
-      <guid>/sessions/olap-913140.html</guid>
-      <description>AI applications and data science workflows increasingly rely on unstructured data. Apache Cloudberry introduces Directory Table, a new table type designed to manage unstructured data natively within the database. It supports unified metadata management, integration with in-database analytics, and advanced data science workflows. This talk will walk through the design philosophy, implementation details, and usage examples of the Directory Table, illustrating how it bridges structured and unstructured data in a unified platform.</description>
-    </item>
-    
-    <item>
       <title>Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI</title>
       <link>/sessions/datastorage-889852.html</link>
       <pubDate>Fri, 25 Jul 2025 16:45:00 +0000</pubDate>
@@ -992,22 +974,21 @@ System-triggered agents must run continuously, act autonomously, and recover fro
     </item>
     
     <item>
-      <title>From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry</title>
-      <link>/sessions/ai-915004.html</link>
-      <pubDate>Fri, 25 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/sessions/ai-915004.html</guid>
-      <description>Enterprises today struggle to harness AI’s full potential due to fragmented data systems, inefficient pipelines, and silos between analytics and machine learning. Apache Cloudberry, an open-source MPP data warehouse, redefines this paradigm by deeply integrating data processing with AI - eliminating barriers and accelerating innovation. In this session, we’ll demonstrate how Cloudberry enables:
- Unified Execution – Run native AI/ML models (e.g., PyTorch, Scikit-learn) directly on warehouse data. Multi-Modal Analytics – Process structured and unstructured data (PDFs, images, and other documents) in a unified framework.</description>
-    </item>
-    
-    <item>
       <title>History based optimizations for SparkSQL</title>
       <link>/sessions/olap-913223.html</link>
       <pubDate>Fri, 25 Jul 2025 16:45:00 +0000</pubDate>
       
       <guid>/sessions/olap-913223.html</guid>
       <description>In this presentation, we will conduct an in-depth exploration of the application of History-Based Optimizations (HBO) within the context of SparkSQL, a critical component in modern big data processing ecosystems. Our discussion will not only cover the fundamental principles of HBO but also delve into the compelling reasons for its adoption, especially in scenarios where Adaptive Query Execution (AQE) is already in place. We will dissect how HBO addresses limitations inherent to AQE, thereby providing enhanced query performance and resource utilization.</description>
+    </item>
+    
+    <item>
+      <title>Hybrid Search in Apache Doris</title>
+      <link>/sessions/ai-915118.html</link>
+      <pubDate>Fri, 25 Jul 2025 16:45:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-915118.html</guid>
+      <description>Doris&amp;rsquo;s hybrid search capability combines traditional full-text search (keyword-based lexical search) with vector search (semantics-based search) to deliver an advanced search function aimed at improving the accuracy and relevance of search results. This capability is particularly well-suited for complex search scenarios that require both keyword matching and semantic understanding, such as e-commerce, content recommendation, and knowledge base search. Core Concepts of Hybrid Search Hybrid search leverages the strengths of both search methods to provide more precise search results: Full-Text Search (BM25): Based on inverted indexes and keyword matching, it excels at accurately matching user-input query terms.</description>
     </item>
     
     <item>
@@ -1079,12 +1060,13 @@ To overcome these constraints, we introduce a vectorized execution engine for Ap
     </item>
     
     <item>
-      <title>Enhancing API Discovery with LLM: Supported with eBay&#39;s NuGraph Powered by Apache TinkerPop</title>
-      <link>/sessions/ai-910588.html</link>
+      <title>From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry</title>
+      <link>/sessions/ai-915004.html</link>
       <pubDate>Fri, 25 Jul 2025 16:15:00 +0000</pubDate>
       
-      <guid>/sessions/ai-910588.html</guid>
-      <description>Apache TinkerPop offers a robust framework for graph computing, essential for managing complex data interactions. In the realm of API discovery, traditional methods (e.g. vector database) often struggle with the precision and scale required for precise and real-time interactions. Precise and efficient data aggregation is crucial for delivering accurate and timely responses in API discovery. NuGraph, eBay&amp;rsquo;s proprietary graph database solution, utilizes Apache TinkerPop to efficiently manage intricate data structures. On top of it, a novel approach was built with Large Language Models (LLMs) to perform aggregation queries.</description>
+      <guid>/sessions/ai-915004.html</guid>
+      <description>Enterprises today struggle to harness AI’s full potential due to fragmented data systems, inefficient pipelines, and silos between analytics and machine learning. Apache Cloudberry, an open-source MPP data warehouse, redefines this paradigm by deeply integrating data processing with AI - eliminating barriers and accelerating innovation. In this session, we’ll demonstrate how Cloudberry enables:
+ Unified Execution – Run native AI/ML models (e.g., PyTorch, Scikit-learn) directly on warehouse data. Multi-Modal Analytics – Process structured and unstructured data (PDFs, images, and other documents) in a unified framework.</description>
     </item>
     
     <item>
