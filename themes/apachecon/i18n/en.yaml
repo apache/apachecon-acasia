@@ -29,16 +29,22 @@ sponsorship_strategy:
   other: Strategic
 
 sponsorship_platinum:
-  other: Platinum
+  other: Platinum Sponsor
 
 sponsorship_gold:
-  other: Gold
+  other: Gold Sponsor
 
 sponsorship_silver:
-  other: Silver
+  other: Silver Sponsor
+
+sponsorship_personal:
+  other: Personal Diamond Sponsor
+
+sponsorship_personal_donate:
+  other: Personal Donation 
 
 sponsorship_bronze:
-  other: Bronze
+  other: Bronze Sponsor
 
 sponsorship_media:
   other: Strategic Media

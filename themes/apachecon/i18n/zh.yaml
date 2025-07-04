@@ -37,6 +37,12 @@ sponsorship_gold:
 sponsorship_silver:
   other: 银牌赞助
 
+sponsorship_personal:
+  other: 个人钻石赞助
+
+sponsorship_personal_donate:
+  other: 个人捐款 
+
 sponsorship_bronze:
   other: 铜牌赞助
 
