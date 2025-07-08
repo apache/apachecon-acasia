@@ -9,7 +9,7 @@ stype: "English Session"
 
 Most Apache Iceberg talks wax poetic about time travel and ACID compliance—yawn. But what about the features nobody’s shouting about? The ones that turn chaos into control, experiments into wins, and static tables into agentic powerhouses - let your data platform think for itself ? Welcome, here we will learn Iceberg’s hidden toolkit.
 
-Here’s the plan for our 30-minute dive: Start with a 5-minute intro on why Iceberg’s hidden gems outshine the basics. Spend 6 minutes on governance—snapshots for compliance, REST Catalog for dynamic control. Next, 6 minutes on branching—snapshots and Nessie for risk-free experimentation. Then, 5 minutes on metrics—reporting and scan stats to boost speed. Another 6 minutes on agentic Iceberg—REST Catalog plus Model Context Protocol (MCP), a futuristic vision where Iceberg collaborates with AI agents. 
+Here’s the plan for our 30-minute dive: Start with a 5-minute intro on why Iceberg’s hidden gems outshine the basics. Spend 6 minutes on governance, REST Catalog for dynamic control. Next, 6 minutes on branching—snapshots. Then, 5 minutes on metrics—reporting. Another 6 minutes on agentic Iceberg—REST Catalog plus Model Context Protocol (MCP), a futuristic vision where Iceberg collaborates with AI agents. 
 
 ### Speakers:
 
