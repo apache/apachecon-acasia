@@ -1,6 +1,6 @@
 ---
 title: "Kafka 4.0 核心亮点：新特性、移除项与升级指南"
-date: "2025-07-26T17:15:00"
+date: "2025-07-26T16:45:00"
 room: "圆明厅"
 track: "streaming"
 presenters: "Jiunn-Yang Huang, Chia-Ping Tsai, PoAn Yang, TengYao Chi, YiHuan LEE, Kuan Po Tseng"

@@ -1,6 +1,6 @@
 ---
 title: "Inside the Apache Software Foundation Board"
-date: "2025-07-25T16:45:00"
+date: "2025-07-25T15:00:00"
 room: "Mtn YuQuan Hall"
 track: "community"
 presenters: "Justin Mclean"

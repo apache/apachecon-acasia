@@ -1,6 +1,6 @@
 ---
 title: "揭秘 Apache 软件基金会董事会"
-date: "2025-07-25T16:45:00"
+date: "2025-07-25T15:00:00"
 room: "玉泉山会议室"
 track: "community"
 presenters: "Justin Mclean"
