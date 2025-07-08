@@ -628,26 +628,6 @@ Mingyang Liu 是一家芯片公司的编译器工程师，对编译器、AI 系�
     </item>
     
     <item>
-      <title>Kafka 4.0 核心亮点：新特性、移除项与升级指南</title>
-      <link>/zh/sessions/streaming-910562.html</link>
-      <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/streaming-910562.html</guid>
-      <description>虽然 Kafka 4.0 已经引起了广泛的讨论，但大多数讨论都集中在主要功能上，如 ZooKeeper 的移除或新 API 的引入。在本环节中，我们将重点介绍Kafka 4.0中一些鲜为人知但同样重要的变化。这些更新可能并不引人注目，但它们会对你在实际环境中如何配置、操作和调试Kafka产生重大影响。
-用户面临的主要问题之一是如何升级到 Kafka 4.0。KIP-896 删除了对 2.0 及以下版本协议的支持，而 KIP-1124 则为升级 Kafka 客户端、Connect 和 Streams 提供了官方指导。在服务器端，用户必须确保与 JDK 兼容，并考虑如何从基于 ZooKeeper 的设置过渡到新架构。本节将介绍升级过程中需要牢记的最关键注意事项。
-Kafka 测试框架也经历了重大演变。以前，测试是使用重继承设计编写的，子类从父类继承集群设置逻辑。这使得测试难以理解和调试，经常会引入隐藏的依赖关系和不必要的配置。新的测试框架通过使用 @ClusterTest 等 JUnit 注释简化了这一问题，使测试逻辑更清晰、更模块化、更易于维护。
-Kafka 4.1 还将在如何处理机架感知再平衡方面引入更智能的行为。在早先的版本中，存储机架信息是通过
-Speakers: 
-Jiunn-Yang Huang: 后端工程师
-我是一名为 Apache Kafka 做出贡献的后端工程师。我喜欢学习分布式系统和事件流，尤其是它们如何为大规模实时数据平台提供动力。去年，我提交了 100 多条建议，并致力于 Kafka 的内存优化。
-
-Chia-Ping Tsai: Apache 成员、Apache HBase PMC 成员、Apache Kafka PMC 成员、Apache YuniKorn PMC 成员
-撰写分布式系统论文，成为博士。为分布式系统贡献代码，成为 PMC 成员。享受分布式系统，成为有价值的人
-
-PoAn Yang: ASF, Apache YuniKorn committer</description>
-    </item>
-    
-    <item>
       <title>在腾讯云上基于 Iceberg &amp; Amoro &amp; Gravitino 构建云原生 Lakehouse 架构</title>
       <link>/zh/sessions/datalake-906852.html</link>
       <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
@@ -672,19 +652,23 @@ Tom Tan 是一位在人工智能、数据与基础设施领域经验丰富的工
     </item>
     
     <item>
-      <title>为什么我们需要开源 AI 网关</title>
-      <link>/zh/sessions/ai-913176.html</link>
+      <title>Kafka 4.0 核心亮点：新特性、移除项与升级指南</title>
+      <link>/zh/sessions/streaming-910562.html</link>
       <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
       
-      <guid>/zh/sessions/ai-913176.html</guid>
-      <description>在 AI 应用爆发的时代，API 流量激增，但成本控制、安全合规和多模型管理等挑战依然存在。全球最活跃的开源 API 网关 Apache APISIX 将于 2025 年正式推出 AI 网关能力，为开发者和企业提供一站式解决方案。
-为什么选择 APISIX AI 网关？
-统一 AI 服务管理：无缝代理 OpenAI、Deepseek、QWen 等主流大模型的请求，避免供应商锁定，并通过动态流量编排优化成本/性能。
-安全与合规：内置 AI 保护插件（如 ai-prompt-guard 过滤恶意输入，ai-rate-limiting 实现基于 token 的限流），确保数据隐私和合规性。
-开发者优先体验：热重载插件、多语言支持（Java/Python/Go）以及与微服务和 Kubernetes 生态系统的原生集成。
-无论您是开发者还是企业，APISIX AI 网关都能加速 AI 应用落地，释放创新潜力。
-演讲嘉宾: Yuansheng Wang: API7.ai, CTO
-Apache APISIX PMC 成员 Apache 基金会成员</description>
+      <guid>/zh/sessions/streaming-910562.html</guid>
+      <description>虽然 Kafka 4.0 已经引起了广泛的讨论，但大多数讨论都集中在主要功能上，如 ZooKeeper 的移除或新 API 的引入。在本环节中，我们将重点介绍Kafka 4.0中一些鲜为人知但同样重要的变化。这些更新可能并不引人注目，但它们会对你在实际环境中如何配置、操作和调试Kafka产生重大影响。
+用户面临的主要问题之一是如何升级到 Kafka 4.0。KIP-896 删除了对 2.0 及以下版本协议的支持，而 KIP-1124 则为升级 Kafka 客户端、Connect 和 Streams 提供了官方指导。在服务器端，用户必须确保与 JDK 兼容，并考虑如何从基于 ZooKeeper 的设置过渡到新架构。本节将介绍升级过程中需要牢记的最关键注意事项。
+Kafka 测试框架也经历了重大演变。以前，测试是使用重继承设计编写的，子类从父类继承集群设置逻辑。这使得测试难以理解和调试，经常会引入隐藏的依赖关系和不必要的配置。新的测试框架通过使用 @ClusterTest 等 JUnit 注释简化了这一问题，使测试逻辑更清晰、更模块化、更易于维护。
+Kafka 4.1 还将在如何处理机架感知再平衡方面引入更智能的行为。在早先的版本中，存储机架信息是通过
+Speakers: 
+Jiunn-Yang Huang: 后端工程师
+我是一名为 Apache Kafka 做出贡献的后端工程师。我喜欢学习分布式系统和事件流，尤其是它们如何为大规模实时数据平台提供动力。去年，我提交了 100 多条建议，并致力于 Kafka 的内存优化。
+
+Chia-Ping Tsai: Apache 成员、Apache HBase PMC 成员、Apache Kafka PMC 成员、Apache YuniKorn PMC 成员
+撰写分布式系统论文，成为博士。为分布式系统贡献代码，成为 PMC 成员。享受分布式系统，成为有价值的人
+
+PoAn Yang: ASF, Apache YuniKorn committer</description>
     </item>
     
     <item>
@@ -729,20 +713,6 @@ Fan Wang: 小米消息队列团队负责人，Apache RocketMQ Committer
     </item>
     
     <item>
-      <title>当 Flink 遇见 Fluss：流式数据仓库的未来</title>
-      <link>/zh/sessions/streaming-889266.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/streaming-889266.html</guid>
-      <description>Kafka 和 Flink 已广泛应用于流处理场景，成为构建流式数据仓库和实时分析的事实标准范例。然而，它仍然面临许多难以解决的挑战性问题。本讲座将探讨该范例在流式分析中面临的挑战和问题。
-我们将首先讨论 Kafka 与 Flink 结合使用的局限性和痛点。然后，我们将介绍 Fluss，一款专为流式分析设计的下一代流式存储。我们将介绍 Fluss 的架构和核心创新，重点介绍它如何与 Flink 无缝集成，从而赋能下一代流式数据仓库。您将发现 Flink 与 Fluss 的结合所带来的颠覆性功能，例如流式列修剪、增量连接、联合读取和合并引擎。
-最后，我们将探讨 Flink + Fluss 的实际用例，展示这一强大的组合如何带来真正的优势，例如降低基础设施成本、提升性能以及增强大规模流式和批处理工作负载的稳定性。
-讲师: 
-Jark Wu: 阿里巴巴
-Jark Wu 是 Apache Flink 的提交者和 PMC 成员。他领导着阿里云的 Fluss 和 Flink SQL 团队。凭借十年的 Flink 经验，他深度参与了 Flink SQL 从零到现在的开发和演进。在此期间，他还发起并孵化了 Flink CDC 和 Fluss 项目，进一步扩展了 Flink 生态系统。</description>
-    </item>
-    
-    <item>
       <title>Celeborn 的革新：多引擎支持、性能掌控与技术创新</title>
       <link>/zh/sessions/datastorage-896070.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
@@ -771,6 +741,22 @@ Apache Celeborn 的 PMC 成员，主要致力于优化 Apache Celeborn。</descr
  实现了存储与计算的解耦，进一步提升了系统的可扩展性和云原生适配能力。 引入了 POP 消费模式，将负载均衡逻辑从客户端迁移到了 Broker 端。 为适应这些新特性，社区推出了全新的基于 gRPC 协议的客户端。然而，现有通过 Remoting 协议客户端接入 RocketMQ 的用户，若不更新代码和替换客户端 SDK，将无法享受到 5.0 的这些创新能力。为增强对 Remoting 协议客户端的向后兼容性，我们在 RocketMQ 5.0 中提出了虚拟队列方案，并已在腾讯云的实际应用中得到了充分验证。  讲师: 
 Shengzhong Liu: 腾讯
 自2019年从东南大学毕业以来，我一直在腾讯云担任软件开发工程师，近年来专注于消息队列技术的相关工作。</description>
+    </item>
+    
+    <item>
+      <title>为什么我们需要开源 AI 网关</title>
+      <link>/zh/sessions/ai-913176.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/ai-913176.html</guid>
+      <description>在 AI 应用爆发的时代，API 流量激增，但成本控制、安全合规和多模型管理等挑战依然存在。全球最活跃的开源 API 网关 Apache APISIX 将于 2025 年正式推出 AI 网关能力，为开发者和企业提供一站式解决方案。
+为什么选择 APISIX AI 网关？
+统一 AI 服务管理：无缝代理 OpenAI、Deepseek、QWen 等主流大模型的请求，避免供应商锁定，并通过动态流量编排优化成本/性能。
+安全与合规：内置 AI 保护插件（如 ai-prompt-guard 过滤恶意输入，ai-rate-limiting 实现基于 token 的限流），确保数据隐私和合规性。
+开发者优先体验：热重载插件、多语言支持（Java/Python/Go）以及与微服务和 Kubernetes 生态系统的原生集成。
+无论您是开发者还是企业，APISIX AI 网关都能加速 AI 应用落地，释放创新潜力。
+演讲嘉宾: Yuansheng Wang: API7.ai, CTO
+Apache APISIX PMC 成员 Apache 基金会成员</description>
     </item>
     
     <item>
@@ -811,35 +797,17 @@ Wentao Liu: ictrek.com 业务开发经理
     </item>
     
     <item>
-      <title>腾讯实时计算的智能演进：全托管资源管理</title>
-      <link>/zh/sessions/streaming-910362.html</link>
+      <title>当 Flink 遇见 Fluss：流式数据仓库的未来</title>
+      <link>/zh/sessions/streaming-889266.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
       
-      <guid>/zh/sessions/streaming-910362.html</guid>
-      <description>背景与行业痛点
-a. Flink 作为一种长期运行的有状态计算，广泛应用于实时数据仓库、实时分析和在线训练等场景。 b. 实时资源配置与运维是普遍挑战：过度配置导致资源浪费，而配置不足则引发延迟和故障转移。此外，资源需求随时间变化显著。 自动扩展架构的演进——全托管智能资源管理
-a. 覆盖任务全生命周期的自动化资源解决方案，包括启动、运行时、升级及异常处理（延迟、故障转移）。 b. 借助AI模型实现精准预测（将预测误差从25%降至10%），实现从被动到主动的资源管理转变。
-c. 云原生环境中的极致弹性，通过整合水平和垂直扩展技术，将任务资源利用率提升至90%。 核心技术优化——生产就绪的水平与垂直扩展 a. 水平扩展：通过热更新和预加载优化，实现高度可扩展的二级扩展。
-b. 垂直扩展：通过原地 pod 资源更改的突破性技术，实现实时任务的零停机时间和个性化 pod 配置。 生产案例——从技术到业务价值
-a. 稳定性：应用于腾讯视频、金融和游戏业务，将故障率降低 70%。 b. 资源节约：应用于实时报告和数据同步场景，提升资源利用率30%。 未来规划 a. 基于大型模型驱动的全面资源管理服务，进一步提升智能化水平。 b. 水平扩展：在运维层面实现弹性扩展，避免完全停机。 c. 垂直扩展：结合Pod热迁移技术，突破单节点限制。  讲师: 
-Zihao Chen: 腾讯，软件开发工程师
-Zihao 多年来一直从事与Flink内核相关的研发工作。近年来，他主要专注于开发Flink的自动扩展功能，旨在提升Flink任务的稳定性和资源利用率。此外，他在SIGMOD会议上发表了一篇关于流处理场景下自动扩展的行业论文。
-
-Jiangang Liu: 腾讯，实时计算 Flink 负责人
-腾讯实时计算Flink负责人，专注于云原生演进、弹性扩展以及存储与计算的分离。此前曾担任快手Flink技术负责人，负责实时计算架构设计与大规模落地实施，成功推动了2020年快手与央视春晚的实时连接项目。在此之前，参与了百度Matrix在离线混合计算领域的开发工作。</description>
-    </item>
-    
-    <item>
-      <title>采用 MCP 还是不用 MCP？使用开放协议设计可组合的 AI 系统</title>
-      <link>/zh/sessions/ai-904935.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/ai-904935.html</guid>
-      <description>我们该如何为 AI 代理设计工具和服务？应该继续开发定制 API，还是有更好的方法？本次演讲将介绍模型上下文协议（MCP）——这是一种新的开放协议，使 AI 代理能够以安全、结构化的方式发现和调用外部工具。
-我们将介绍 MCP 的基础知识（主机/客户端/服务器角色、生命周期、标准 I/O 与 HTTP 的对比），将其与现有的代理工具 API（LangChain、OpenAI 工具格式）进行比较，并讨论为什么需要开放协议来避免 AI 生态系统的碎片化。通过实际案例，我们将讨论如何将现有的 CLI 工具或 API 转换为 MCP 服务，以及如何通过 Wasm 运行时或无服务器函数安全地公开它。
+      <guid>/zh/sessions/streaming-889266.html</guid>
+      <description>Kafka 和 Flink 已广泛应用于流处理场景，成为构建流式数据仓库和实时分析的事实标准范例。然而，它仍然面临许多难以解决的挑战性问题。本讲座将探讨该范例在流式分析中面临的挑战和问题。
+我们将首先讨论 Kafka 与 Flink 结合使用的局限性和痛点。然后，我们将介绍 Fluss，一款专为流式分析设计的下一代流式存储。我们将介绍 Fluss 的架构和核心创新，重点介绍它如何与 Flink 无缝集成，从而赋能下一代流式数据仓库。您将发现 Flink 与 Fluss 的结合所带来的颠覆性功能，例如流式列修剪、增量连接、联合读取和合并引擎。
+最后，我们将探讨 Flink + Fluss 的实际用例，展示这一强大的组合如何带来真正的优势，例如降低基础设施成本、提升性能以及增强大规模流式和批处理工作负载的稳定性。
 讲师: 
-Miley Fu: CNCF 大使、开源运行时 WasmEdge 创始成员
-Miley 是一位开发者倡导者，热衷于帮助开发者构建和贡献开源项目。她是 KubeCon+Open Source Summit 和 AI Dev China 2024 的联席主席和主题演讲嘉宾。作为 CNCF 沙箱中 WasmEdge 运行时的创始成员，她拥有超过 5 年的相关经验，并曾在 KubeCon、KCD 深圳、CloudDay 意大利、DevRelCon、Open Source Summit 日本、AWS 用户组、Global AI Note、KubeDay 新加坡等活动中发表演讲。Miley 撰写技术内容并组织开发者活动，包括 KCD 深圳、OpenSource Fairs 以及在台北、新加坡、中国等地举办的 WebAssembly &amp;amp; Rust Meetups。</description>
+Jark Wu: 阿里巴巴
+Jark Wu 是 Apache Flink 的提交者和 PMC 成员。他领导着阿里云的 Fluss 和 Flink SQL 团队。凭借十年的 Flink 经验，他深度参与了 Flink SQL 从零到现在的开发和演进。在此期间，他还发起并孵化了 Flink CDC 和 Fluss 项目，进一步扩展了 Flink 生态系统。</description>
     </item>
     
     <item>
@@ -905,17 +873,6 @@ Apache Cloudberry 贡献者，HashData 的数据库内核开发人员。</descri
     </item>
     
     <item>
-      <title>使用外部状态和动态表实现可扩展的连接和聚合</title>
-      <link>/zh/sessions/streaming-909075.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/streaming-909075.html</guid>
-      <description>背景与动机 • Flink SQL 在规模化方面的挑战：大状态、长连接、复杂的维护 • 业务用例：汽车数据仓库和报警系统 使用增量连接和合并引擎实现状态外部化 • 增量连接：包含最新快照的外部维度表 • 合并引擎：用于聚合结果的外部更新插入表 • 如何在确保正确性和延迟的同时最小化内部状态 动态表的作用 • 中间表爆炸：状态外部化的隐性成本 • 动态表如何自动化模式创建、生命周期和数据沿袭 • 赋能开发者：编写业务逻辑，告别管道 实现批流统一 • 轻量级 Flink 状态：仅跟踪偏移量 • 实时和回填工作流使用相同的 SQL 逻辑 • 在回填、审计和重新处理方面的实际优势 成果与经验教训 • 开发者体验和生产力收益 • 提升作业弹性和可观察性 • 下一步计划：与元数据和调度更紧密地集成  讲师: 
-Feng Jin: 小米，高级软件工程师，Apache Flink Committer
-Feng Jin 目前是小米计算平台团队成员，负责维护内部 Flink 框架并构建公司实时 Lakehouse 架构。他在大规模流处理、Flink SQL 优化和状态管理方面拥有丰富的经验。他也是 Apache Flink 的提交者，积极为开源社区做出贡献。</description>
-    </item>
-    
-    <item>
       <title>基于 Commitlog 和 RocksDB 的 RocketMQ 存储引擎</title>
       <link>/zh/sessions/messaging-909302.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
@@ -945,24 +902,35 @@ Shaoting Duan: 开发人员社区经理
     </item>
     
     <item>
-      <title>量子AI：超智能时代的黎明</title>
-      <link>/zh/sessions/ai-897112.html</link>
+      <title>腾讯实时计算的智能演进：全托管资源管理</title>
+      <link>/zh/sessions/streaming-910362.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
       
-      <guid>/zh/sessions/ai-897112.html</guid>
-      <description>量子计算与人工智能的融合即将打破经典计算的极限，开启超智能时代。当量子增强模型能够实现指数级学习、秒解复杂问题并重新定义决策过程时，我们是否正在进入一个AI将超越人类理解范畴的新纪元？
-本场演讲将探索人工智能的下一个前沿领域，重点关注：
-量子机器学习（QML）：AI如何利用量子力学实现前所未有的问题解决能力
-量子神经网络：AI能否实现超乎想象规模的学习？
-量子叠加与并行：AI是否会从序列推理进化到多维思考模式？
-理论启示：量子AI是否会成为人工超级智能（ASI）的基石？
-当我们迈向AI驱动的科学发现、后人类智能和潜在的知识奇点时，本演讲将挑战传统AI范式，并探讨当AI不再像人类一样思考——而是远超人类时的可能性。
-演讲嘉宾： 
-Prakul Hiremath: VISVESVARAYA TECHNOLOGICAL UNIVERSITY, UNDERGRADUATE B.TECH STUDENT AND BIOLOOP, CEO AND FOUNDER
-Prakul Hiremath是来自印度VTU Belagavi的研究员、技术专家和创新者，专注于人工智能、网络安全和系统优化的交叉领域。怀着对人工智能、计算系统和未来技术的深厚热情，他积极投身于AI驱动的网络安全、医学信号分析和工业4.0创新的研究。
-他的工作涵盖AI驱动的威胁检测、预测分析和高性能计算，重点突破智能系统和自主决策的边界。同时，他也在探索AI增强生命体、后人类智能和知识进化，致力于为未来技术贡献突破性见解。
-除AI和网络安全研究外，Prakul还积极参与Bioloop——一个融合生物技术与人工智能的创新研究项目，致力于开发可持续性、医疗保健和工业自动化领域的尖端解决方案。Bioloop旨在通过创建优化生物与技术流程的新一代智能生态系统，彻底革新生物AI系统。
-在Community Over Code Asia 2025大会上，Prakul将探讨AI势不可挡的崛起、它带来的挑战，以及对技术未来、社会发展和人类智能的深远影响。</description>
+      <guid>/zh/sessions/streaming-910362.html</guid>
+      <description>背景与行业痛点
+a. Flink 作为一种长期运行的有状态计算，广泛应用于实时数据仓库、实时分析和在线训练等场景。 b. 实时资源配置与运维是普遍挑战：过度配置导致资源浪费，而配置不足则引发延迟和故障转移。此外，资源需求随时间变化显著。 自动扩展架构的演进——全托管智能资源管理
+a. 覆盖任务全生命周期的自动化资源解决方案，包括启动、运行时、升级及异常处理（延迟、故障转移）。 b. 借助AI模型实现精准预测（将预测误差从25%降至10%），实现从被动到主动的资源管理转变。
+c. 云原生环境中的极致弹性，通过整合水平和垂直扩展技术，将任务资源利用率提升至90%。 核心技术优化——生产就绪的水平与垂直扩展 a. 水平扩展：通过热更新和预加载优化，实现高度可扩展的二级扩展。
+b. 垂直扩展：通过原地 pod 资源更改的突破性技术，实现实时任务的零停机时间和个性化 pod 配置。 生产案例——从技术到业务价值
+a. 稳定性：应用于腾讯视频、金融和游戏业务，将故障率降低 70%。 b. 资源节约：应用于实时报告和数据同步场景，提升资源利用率30%。 未来规划 a. 基于大型模型驱动的全面资源管理服务，进一步提升智能化水平。 b. 水平扩展：在运维层面实现弹性扩展，避免完全停机。 c. 垂直扩展：结合Pod热迁移技术，突破单节点限制。  讲师: 
+Zihao Chen: 腾讯，软件开发工程师
+Zihao 多年来一直从事与Flink内核相关的研发工作。近年来，他主要专注于开发Flink的自动扩展功能，旨在提升Flink任务的稳定性和资源利用率。此外，他在SIGMOD会议上发表了一篇关于流处理场景下自动扩展的行业论文。
+
+Jiangang Liu: 腾讯，实时计算 Flink 负责人
+腾讯实时计算Flink负责人，专注于云原生演进、弹性扩展以及存储与计算的分离。此前曾担任快手Flink技术负责人，负责实时计算架构设计与大规模落地实施，成功推动了2020年快手与央视春晚的实时连接项目。在此之前，参与了百度Matrix在离线混合计算领域的开发工作。</description>
+    </item>
+    
+    <item>
+      <title>采用 MCP 还是不用 MCP？使用开放协议设计可组合的 AI 系统</title>
+      <link>/zh/sessions/ai-904935.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/ai-904935.html</guid>
+      <description>我们该如何为 AI 代理设计工具和服务？应该继续开发定制 API，还是有更好的方法？本次演讲将介绍模型上下文协议（MCP）——这是一种新的开放协议，使 AI 代理能够以安全、结构化的方式发现和调用外部工具。
+我们将介绍 MCP 的基础知识（主机/客户端/服务器角色、生命周期、标准 I/O 与 HTTP 的对比），将其与现有的代理工具 API（LangChain、OpenAI 工具格式）进行比较，并讨论为什么需要开放协议来避免 AI 生态系统的碎片化。通过实际案例，我们将讨论如何将现有的 CLI 工具或 API 转换为 MCP 服务，以及如何通过 Wasm 运行时或无服务器函数安全地公开它。
+讲师: 
+Miley Fu: CNCF 大使、开源运行时 WasmEdge 创始成员
+Miley 是一位开发者倡导者，热衷于帮助开发者构建和贡献开源项目。她是 KubeCon+Open Source Summit 和 AI Dev China 2024 的联席主席和主题演讲嘉宾。作为 CNCF 沙箱中 WasmEdge 运行时的创始成员，她拥有超过 5 年的相关经验，并曾在 KubeCon、KCD 深圳、CloudDay 意大利、DevRelCon、Open Source Summit 日本、AWS 用户组、Global AI Note、KubeDay 新加坡等活动中发表演讲。Miley 撰写技术内容并组织开发者活动，包括 KCD 深圳、OpenSource Fairs 以及在台北、新加坡、中国等地举办的 WebAssembly &amp;amp; Rust Meetups。</description>
     </item>
     
     <item>
@@ -1019,6 +987,17 @@ Juntao Ji: 高级开发工程师（阿里巴巴云计算）
     </item>
     
     <item>
+      <title>使用外部状态和动态表实现可扩展的连接和聚合</title>
+      <link>/zh/sessions/streaming-909075.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/streaming-909075.html</guid>
+      <description>背景与动机 • Flink SQL 在规模化方面的挑战：大状态、长连接、复杂的维护 • 业务用例：汽车数据仓库和报警系统 使用增量连接和合并引擎实现状态外部化 • 增量连接：包含最新快照的外部维度表 • 合并引擎：用于聚合结果的外部更新插入表 • 如何在确保正确性和延迟的同时最小化内部状态 动态表的作用 • 中间表爆炸：状态外部化的隐性成本 • 动态表如何自动化模式创建、生命周期和数据沿袭 • 赋能开发者：编写业务逻辑，告别管道 实现批流统一 • 轻量级 Flink 状态：仅跟踪偏移量 • 实时和回填工作流使用相同的 SQL 逻辑 • 在回填、审计和重新处理方面的实际优势 成果与经验教训 • 开发者体验和生产力收益 • 提升作业弹性和可观察性 • 下一步计划：与元数据和调度更紧密地集成  讲师: 
+Feng Jin: 小米，高级软件工程师，Apache Flink Committer
+Feng Jin 目前是小米计算平台团队成员，负责维护内部 Flink 框架并构建公司实时 Lakehouse 架构。他在大规模流处理、Flink SQL 优化和状态管理方面拥有丰富的经验。他也是 Apache Flink 的提交者，积极为开源社区做出贡献。</description>
+    </item>
+    
+    <item>
       <title>在实践中构建实时数据湖</title>
       <link>/zh/sessions/datalake-905869.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
@@ -1033,37 +1012,6 @@ Congxian 拥有多年大数据基础设施研发经验。目前领导天翼云�
 
 Zhuojun Jiang: 天翼云 高级大数据工程师
 Zhuojun Jiang 致力于大数据湖仓架构研发。她正在专注于基于Apache FlinkCDC、Iceberg 和 Amoro 等组件搭建的数据湖仓，深入数据同步、性能优化等技术领域，并积极参与开源社区贡献。</description>
-    </item>
-    
-    <item>
-      <title>基于Apache SeaTunnel和Amazon Bedrock的文本向量数据现代化ETL方案</title>
-      <link>/zh/sessions/ai-905033.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/ai-905033.html</guid>
-      <description>在企业智能化升级浪潮中，信息检索正从&amp;quot;关键词匹配&amp;quot;向&amp;quot;语义理解&amp;quot;转变。传统基于倒排索引的搜索引擎依赖字符串层面的匹配，难以捕捉用户查询背后的真实意图，这限制了搜索体验效果、推荐准确率、客服响应质量以及知识问答系统的智能化水平。
-以电商平台为例，当用户搜索&amp;quot;适合夏天的白色连衣裙&amp;quot;时，仅匹配商品标题或类目关键词的系统很难完整理解&amp;quot;适合夏天&amp;quot;这一语义——它可能涉及面料、款式等多个维度。类似的挑战也存在于金融文档检索、智能客服、知识图谱关联等场景。
-为此，我们计划构建基于向量检索的语义搜索系统。其核心目标是将业务数据中的文本字段实时转化为语义向量，写入支持近似最近邻(ANN)向量搜索的数据库，实现语义级的信息检索。
-通过SeaTunnel的OpenSearch Sink插件，我们可以在Transform阶段调用embedding服务，将原始文本字段转换为高维稠密向量，同时保留关联ID、标签和元数据供下游存储。
-讲师: 
-Xin Zhang: Amaozn 网络服务，解决方案架构师
-Xin Zhang 是亚马逊云科技（AWS）解决方案架构师，负责基于AWS云平台的解决方案咨询与设计。他在系统架构、数据仓库及实时计算等领域的研发与架构实践方面拥有丰富经验。</description>
-    </item>
-    
-    <item>
-      <title>字节跳动 Flink 内存治理实践</title>
-      <link>/zh/sessions/streaming-903630.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/streaming-903630.html</guid>
-      <description>随着字节跳动内部流式任务需求的持续增长，Flink 已在各个业务领域大规模应用。在这些大规模任务的资源成本中，内存——尤其是堆内存——是显著的消耗。所有任务的总分配内存已达到数万 TB，但 JVM 堆内存利用率始终低于 50%，容器级内存使用率低于 70%。在全公司降本增效的背景下，我们围绕堆内存使用量预测、堆外内存使用量跟踪以及 Flink 内存模型的简化，开展了一系列内存优化。这些工作已在字节跳动成功推广，节省了超过数千 TB 的内存空间。 在本次演讲中，我们将介绍字节跳动 Flink 和 JVM 团队主导的关键联合优化工作，并分享我们取得的成果。
-议程：
- 背景   字节跳动 Flink 的当前内存使用情况 我们面临的关键挑战  堆内存使用情况预测 堆外内存使用情况跟踪 Flink 内存模型的简化：统一内存池 实现方式及优势 未来规划   探索进一步的优化方向  讲师: 
-唐以恒: 字节跳动基础设施工程师
-字节跳动 Flink Runtime 开发人员
-
-汪少军: 字节跳动，编程语言工程师
- Apache 孵化项目 teaclave 的 PPMC 自 2017 年起成为 Gopher 开发者 字节跳动编程语言工程师  </description>
     </item>
     
     <item>
@@ -1083,6 +1031,27 @@ Xin Zhang 是亚马逊云科技（AWS）解决方案架构师，负责基于AWS�
 讲师: 
 Peggy Dong: 蚂蚁金服集团，开源治理专家
 我相信开源代表着一股向善的力量。被开源、协作和分享的理念所吸引，我加入了蚂蚁开源办公室（OSPO）已有三年。在此之前，我主要从事战略规划工作，希望能为开源治理带来不同的视角。</description>
+    </item>
+    
+    <item>
+      <title>量子AI：超智能时代的黎明</title>
+      <link>/zh/sessions/ai-897112.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/ai-897112.html</guid>
+      <description>量子计算与人工智能的融合即将打破经典计算的极限，开启超智能时代。当量子增强模型能够实现指数级学习、秒解复杂问题并重新定义决策过程时，我们是否正在进入一个AI将超越人类理解范畴的新纪元？
+本场演讲将探索人工智能的下一个前沿领域，重点关注：
+量子机器学习（QML）：AI如何利用量子力学实现前所未有的问题解决能力
+量子神经网络：AI能否实现超乎想象规模的学习？
+量子叠加与并行：AI是否会从序列推理进化到多维思考模式？
+理论启示：量子AI是否会成为人工超级智能（ASI）的基石？
+当我们迈向AI驱动的科学发现、后人类智能和潜在的知识奇点时，本演讲将挑战传统AI范式，并探讨当AI不再像人类一样思考——而是远超人类时的可能性。
+演讲嘉宾： 
+Prakul Hiremath: VISVESVARAYA TECHNOLOGICAL UNIVERSITY, UNDERGRADUATE B.TECH STUDENT AND BIOLOOP, CEO AND FOUNDER
+Prakul Hiremath是来自印度VTU Belagavi的研究员、技术专家和创新者，专注于人工智能、网络安全和系统优化的交叉领域。怀着对人工智能、计算系统和未来技术的深厚热情，他积极投身于AI驱动的网络安全、医学信号分析和工业4.0创新的研究。
+他的工作涵盖AI驱动的威胁检测、预测分析和高性能计算，重点突破智能系统和自主决策的边界。同时，他也在探索AI增强生命体、后人类智能和知识进化，致力于为未来技术贡献突破性见解。
+除AI和网络安全研究外，Prakul还积极参与Bioloop——一个融合生物技术与人工智能的创新研究项目，致力于开发可持续性、医疗保健和工业自动化领域的尖端解决方案。Bioloop旨在通过创建优化生物与技术流程的新一代智能生态系统，彻底革新生物AI系统。
+在Community Over Code Asia 2025大会上，Prakul将探讨AI势不可挡的崛起、它带来的挑战，以及对技术未来、社会发展和人类智能的深远影响。</description>
     </item>
     
     <item>
@@ -1135,18 +1104,6 @@ Lance 格式已被许多领先的 AI 公司采用，如 MidJourney、WorldLabs�
     </item>
     
     <item>
-      <title>中国移动云中Apache Flink实时计算的实践</title>
-      <link>/zh/sessions/streaming-914285.html</link>
-      <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/streaming-914285.html</guid>
-      <description>计算场景的多样性持续推动着大数据技术的创新。而实时湖仓架构代表了当前的主流趋势。实时湖仓架构已广泛应用于中国移动云的各类业务中。面对复杂的使用场景和海量数据量，在构建实时湖仓架构的过程中遇到了诸多挑战。本次分享将介绍中国移动云在实时湖仓架构方面的思考与实践。
-讲师: 
-LEI XIE: 中国移动易云，Apache Committer
-Apache 开源项目爱好者，Apache Committer，目前主要负责中国移动云的流计算平台研发。</description>
-    </item>
-    
-    <item>
       <title>培育新贡献者：打造优质入门问题的艺术</title>
       <link>/zh/sessions/community-912217.html</link>
       <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
@@ -1157,6 +1114,22 @@ Apache 开源项目爱好者，Apache Committer，目前主要负责中国移动
 讲师: 
 姜宁: ByteDance OSPO 首席开源布道者
 Willem Jiang（姜宁）是字节跳动开源办公室（OSPO）的首席开源布道师，同时也是 Apache 软件基金会的董事会董事。他参与了多个 Apache 项目的贡献，包括 Camel、CXF、ServiceMix 和 ServiceComb。在加入字节跳动之前，Willem 曾在华为担任了六年的开源技术专家。在此之前，他是 RedHat 的首席工程师，负责 Fuse ESB 的工作。他还曾在 FuseSource、IONA 和 Travelsky.inc 等公司工作。</description>
+    </item>
+    
+    <item>
+      <title>字节跳动 Flink 内存治理实践</title>
+      <link>/zh/sessions/streaming-903630.html</link>
+      <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/streaming-903630.html</guid>
+      <description>随着字节跳动内部流式任务需求的持续增长，Flink 已在各个业务领域大规模应用。在这些大规模任务的资源成本中，内存——尤其是堆内存——是显著的消耗。所有任务的总分配内存已达到数万 TB，但 JVM 堆内存利用率始终低于 50%，容器级内存使用率低于 70%。在全公司降本增效的背景下，我们围绕堆内存使用量预测、堆外内存使用量跟踪以及 Flink 内存模型的简化，开展了一系列内存优化。这些工作已在字节跳动成功推广，节省了超过数千 TB 的内存空间。 在本次演讲中，我们将介绍字节跳动 Flink 和 JVM 团队主导的关键联合优化工作，并分享我们取得的成果。
+议程：
+ 背景   字节跳动 Flink 的当前内存使用情况 我们面临的关键挑战  堆内存使用情况预测 堆外内存使用情况跟踪 Flink 内存模型的简化：统一内存池 实现方式及优势 未来规划   探索进一步的优化方向  讲师: 
+唐以恒: 字节跳动基础设施工程师
+字节跳动 Flink Runtime 开发人员
+
+汪少军: 字节跳动，编程语言工程师
+ Apache 孵化项目 teaclave 的 PPMC 自 2017 年起成为 Gopher 开发者 字节跳动编程语言工程师  </description>
     </item>
     
     <item>
@@ -1458,18 +1431,6 @@ Longfei Liu: 360 高级软件工程师（奇虎 360）
 
 甘红楠: 字节跳动高级研发工程师
  复旦大学学士和硕士学位 字节跳动 SparkSQL 内核开发人员 对 SQL 优化感兴趣  </description>
-    </item>
-    
-    <item>
-      <title>揭秘 Apache 软件基金会董事会</title>
-      <link>/zh/sessions/community-905769.html</link>
-      <pubDate>Fri, 25 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/community-905769.html</guid>
-      <description>本次演讲将深入探讨 Apache 软件基金会董事会的内部运作，揭示其工作方式和董事会成员的职责。与会者将全面了解 ASF 董事会的治理结构、决策流程，以及它在监督全球最大的开源社区群体之一中所扮演的关键角色。演讲者将结合实际经验，分享个人见解、所面临的挑战，以及为 ASF 使命做出贡献所带来的回报。无论你是经验丰富的开源爱好者还是社区新成员，本次演讲都将为你提供关于 ASF 董事会成员资格的复杂细节及其对塑造开源开发未来的影响的宝贵视角。
-讲师: 
-Justin Mclean: 开源社区经理，ASF 董事会成员
-Justin Mclean 是一位拥有 30 余年丰富经验的资深专家，深耕于 Web 应用开发、教育及社区工作领域，同时也是开源软件的积极贡献者。作为国际知名技术大会的常邀演讲嘉宾，Justin 现任 Datastrato 公司社区经理。他在 Apache 软件基金会(ASF)担任多重重要职务：既是多个 Apache 项目的导师，又身兼 ASF 孵化器副总裁，同时还是 ASF 董事会成员。</description>
     </item>
     
     <item>
@@ -1776,6 +1737,18 @@ Jianqun liu，中国电信翼支付有限公司技术总监，中国电信高级
     </item>
     
     <item>
+      <title>揭秘 Apache 软件基金会董事会</title>
+      <link>/zh/sessions/community-905769.html</link>
+      <pubDate>Fri, 25 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/community-905769.html</guid>
+      <description>本次演讲将深入探讨 Apache 软件基金会董事会的内部运作，揭示其工作方式和董事会成员的职责。与会者将全面了解 ASF 董事会的治理结构、决策流程，以及它在监督全球最大的开源社区群体之一中所扮演的关键角色。演讲者将结合实际经验，分享个人见解、所面临的挑战，以及为 ASF 使命做出贡献所带来的回报。无论你是经验丰富的开源爱好者还是社区新成员，本次演讲都将为你提供关于 ASF 董事会成员资格的复杂细节及其对塑造开源开发未来的影响的宝贵视角。
+讲师: 
+Justin Mclean: 开源社区经理，ASF 董事会成员
+Justin Mclean 是一位拥有 30 余年丰富经验的资深专家，深耕于 Web 应用开发、教育及社区工作领域，同时也是开源软件的积极贡献者。作为国际知名技术大会的常邀演讲嘉宾，Justin 现任 Datastrato 公司社区经理。他在 Apache 软件基金会(ASF)担任多重重要职务：既是多个 Apache 项目的导师，又身兼 ASF 孵化器副总裁，同时还是 ASF 董事会成员。</description>
+    </item>
+    
+    <item>
       <title>货拉拉生产环境中的Apache Amoro与Iceberg实践</title>
       <link>/zh/sessions/datalake-904992.html</link>
       <pubDate>Fri, 25 Jul 2025 15:00:00 +0000</pubDate>
@@ -1789,18 +1762,6 @@ Jianqun liu，中国电信翼支付有限公司技术总监，中国电信高级
 讲师: 
 Zheng Yu Chen: Apache Amoro PPMC ，HuoLaLa 高级大数据开发人员
 Zheng Yu Chen（ConradJam），Apache Flink中文社区志愿者，Apache Amoro项目管理委员会成员（PPMC），长期从事大数据数据开发工作。目前，他负责从0到1设计并构建Flink公有云多云数据解决方案、数据同步和大数据运维流水线平台。</description>
-    </item>
-    
-    <item>
-      <title>跨越语言鸿沟：开源项目中全球协作的实用策略</title>
-      <link>/zh/sessions/community-904940.html</link>
-      <pubDate>Fri, 25 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/community-904940.html</guid>
-      <description>当来自不同背景和语言的人们为了共同的目标而团结在一起时，开源项目就会蓬勃发展。然而，语言障碍往往会阻碍有意义的参与，使得新人和社区成员难以保持参与度。在本次会议中，我们将探讨贡献者如何通过使用 AI 辅助的视频翻译和字幕、易于访问的文档以及实用的社区工作流程，系统地打破这些语言壁垒。我们将从帮助多个开源项目进行内容本地化的经验中汲取灵感，分享确保每个人——无论其母语是什么——都能平等参与的策略。
-讲师: 
-Miley Fu: CNCF 大使、开源运行时 WasmEdge 创始成员
-Miley 是一名开发者倡导者，热衷于赋能开发者构建和贡献开源项目。她是 KubeCon+Open Source Summit 和 AI Dev China 2024 的联席主席和主讲嘉宾。作为 CNCF 沙箱中 WasmEdge 运行时的创始成员，她拥有超过 5 年的工作经验，并在 KubeCon、KCD 深圳、CloudDay 意大利、DevRelCon、日本开源峰会、AWS 用户组、Global AI Note、KubeDay 新加坡等活动中发表演讲。Miley 撰写技术内容并组织开发者活动，包括 KCD 深圳、开源博览会、WebAssembly &amp;amp; Rust 台北、新加坡、中国等地的聚会。</description>
     </item>
     
     <item>
@@ -1865,21 +1826,6 @@ Lan Ding: 华为云中间件团队软件工程师
     </item>
     
     <item>
-      <title>APACHE 软件——墨西哥政府开源采纳之旅</title>
-      <link>/zh/sessions/community-915782.html</link>
-      <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/community-915782.html</guid>
-      <description>本次演讲将描述墨西哥联邦政府在采纳开源软件过程中所面临的挑战，以及实施 Apache 软件的项目如何在全国范围内成功惠及墨西哥民众。
-讲师: 
-Víctor Manuel Romero Rodríguez: CTO FINTECHEANDO - INFOTEC TECH LEAD
-Victor Romero 来自墨西哥城，在国立理工学院获得计算机科学学士学位后，在信息技术应用于金融服务领域拥有超过 20 年的经验。
-作为基于 Apache 软件生态系统创建数字解决方案的公司 Fintechando 的联合创始人，他成功克服了将开源技术与监管规则相结合的挑战，为联邦机构带来了顶尖的软件，在创新与合规之间找到了平衡。
-在这一过程中，Victor 实施了支持客户交互流程并改善用户体验的 API，同时安全地处理墨西哥民众的敏感数据。
-Victor 以 Apache 软件作为解决民众需求的支柱，擅长利用开源技术打造创新解决方案。</description>
-    </item>
-    
-    <item>
       <title>掌握大规模 Shuffle：Dream11 使用远程 Shuffle 服务的实战手册</title>
       <link>/zh/sessions/datastorage-873334.html</link>
       <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
@@ -1907,6 +1853,18 @@ Mohit Jain: 技术负责人
 讲师: 
 Xin Wang: ASF 成员和 IPMC 成员，蚂蚁小组实时数据和原生数据组组长。
 ASF 成员 &amp;amp; IPMC 成员，蚂蚁集团实时数据与数据原生团队负责人。</description>
+    </item>
+    
+    <item>
+      <title>跨越语言鸿沟：开源项目中全球协作的实用策略</title>
+      <link>/zh/sessions/community-904940.html</link>
+      <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/community-904940.html</guid>
+      <description>当来自不同背景和语言的人们为了共同的目标而团结在一起时，开源项目就会蓬勃发展。然而，语言障碍往往会阻碍有意义的参与，使得新人和社区成员难以保持参与度。在本次会议中，我们将探讨贡献者如何通过使用 AI 辅助的视频翻译和字幕、易于访问的文档以及实用的社区工作流程，系统地打破这些语言壁垒。我们将从帮助多个开源项目进行内容本地化的经验中汲取灵感，分享确保每个人——无论其母语是什么——都能平等参与的策略。
+讲师: 
+Miley Fu: CNCF 大使、开源运行时 WasmEdge 创始成员
+Miley 是一名开发者倡导者，热衷于赋能开发者构建和贡献开源项目。她是 KubeCon+Open Source Summit 和 AI Dev China 2024 的联席主席和主讲嘉宾。作为 CNCF 沙箱中 WasmEdge 运行时的创始成员，她拥有超过 5 年的工作经验，并在 KubeCon、KCD 深圳、CloudDay 意大利、DevRelCon、日本开源峰会、AWS 用户组、Global AI Note、KubeDay 新加坡等活动中发表演讲。Miley 撰写技术内容并组织开发者活动，包括 KCD 深圳、开源博览会、WebAssembly &amp;amp; Rust 台北、新加坡、中国等地的聚会。</description>
     </item>
     
     <item>

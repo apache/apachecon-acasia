@@ -472,16 +472,6 @@ This keynote will share Tencent Cloud&amp;rsquo;s extensive experience with lake
     </item>
     
     <item>
-      <title>Kafka 4.0 Highlights: Features, Removals, and Upgrades</title>
-      <link>/sessions/streaming-910562.html</link>
-      <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-910562.html</guid>
-      <description>While there’s already a lot of buzz around Kafka 4.0, most discussions focus on the headline features—like the removal of ZooKeeper or the introduction of new APIs. In this session, we want to highlight some of the lesser-known but equally important changes in Kafka 4.0. These updates might not grab the spotlight, but they can significantly impact how you configure, operate, and debug Kafka in real-world environments.
-One of the major questions users face is how to approach the upgrade to Kafka 4.</description>
-    </item>
-    
-    <item>
       <title>The Evolution of Apache Kvrocks: Search, Vector, and Beyond</title>
       <link>/sessions/datastorage-883342.html</link>
       <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
@@ -509,33 +499,22 @@ One of the major questions users face is how to approach the upgrade to Kafka 4.
     </item>
     
     <item>
+      <title>Kafka 4.0 Highlights: Features, Removals, and Upgrades</title>
+      <link>/sessions/streaming-910562.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-910562.html</guid>
+      <description>While there’s already a lot of buzz around Kafka 4.0, most discussions focus on the headline features—like the removal of ZooKeeper or the introduction of new APIs. In this session, we want to highlight some of the lesser-known but equally important changes in Kafka 4.0. These updates might not grab the spotlight, but they can significantly impact how you configure, operate, and debug Kafka in real-world environments.
+One of the major questions users face is how to approach the upgrade to Kafka 4.</description>
+    </item>
+    
+    <item>
       <title>Optimizing Parquet Storage: Metadata Management, Performance Tuning &amp; Seamless Migration</title>
       <link>/sessions/datalake-913345.html</link>
       <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
       
       <guid>/sessions/datalake-913345.html</guid>
       <description>This session delves into advanced techniques for optimizing Parquet storage ecosystems. We’ll explore a comprehensive approach to managing metadata—from efficient collection and storage to building a scalable metadata warehouse. Attendees will learn practical strategies for storage optimization, including ZSTD compression upgrades, local/global sorting, and column-level tuning for enhanced performance. Additionally, we’ll cover seamless migration of legacy formats through in-place backtracking and heterogeneous format interoperability. Whether you’re handling large-scale datasets or fine-tuning storage efficiency, this session offers actionable insights to elevate your Parquet workflows.</description>
-    </item>
-    
-    <item>
-      <title>When Flink Meets Fluss: The Future of Streaming Warehouse</title>
-      <link>/sessions/streaming-889266.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-889266.html</guid>
-      <description>Kafka and Flink have been widely used together in streaming processing scenarios, becoming a defacto standard paradigm for building streaming warehouses and real-time analytics. However, it still faces many challenging issues that are hard to resolve. This session will explore the challenges and problems this paradigm faces in streaming analytics.
-We will first discuss the limitations and pain points of Kafka when used with Flink. Then we will introduce Fluss, a next-generation streaming storage designed for streaming analytics.</description>
-    </item>
-    
-    <item>
-      <title>Why do we need an open source AI gateway</title>
-      <link>/sessions/ai-913176.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/sessions/ai-913176.html</guid>
-      <description>In the era of AI application explosion, API traffic is surging, yet challenges like cost control, security compliance, and multi-model management persist. Apache APISIX, the world’s most active open-source API gateway, will officially launch its AI Gateway capability in 2025, offering a one-stop solution for developers and enterprises.
-Why Choose APISIX AI Gateway?
-Unified AI Service Management: Seamlessly proxy requests to mainstream LLMs like OpenAI, Deepseek, and QWen, avoid vendor lock-in, and optimize costs/performance through dynamic traffic orchestration.</description>
     </item>
     
     <item>
@@ -581,31 +560,12 @@ In this session, we will explore how Apache Iceberg enhances lakehouse architect
     </item>
     
     <item>
-      <title>The Intelligent Evolution of Fully Managed Resource Management for Tencent&#39;s Real-Time Computing</title>
-      <link>/sessions/streaming-910362.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-910362.html</guid>
-      <description>Background and Industry Pain Points a. Flink, as a long-running stateful computation, is widely used in scenarios such as real-time data warehousing, real-time analytics, and online training. b. Real-time resource configuration and operations are a universal challenge: over-provisioning leads to waste, while under-provisioning causes lag and failover. Additionally, resource demands vary significantly over time. Evolution of Autoscaling Architecture — Fully Managed Intelligent Resource Management a. Automated resource solutions for the entire lifecycle of jobs, including startup, runtime, upgrades, and exceptions (lag, failover).</description>
-    </item>
-    
-    <item>
       <title>The Journey of an Open Source Contributor: Evolving from PR Submissions to Project Maintenance</title>
       <link>/sessions/community-871883.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
       
       <guid>/sessions/community-871883.html</guid>
       <description>Getting started with open source can be daunting, but every experienced contributor was once a beginner. In this talk, I will share my personal journey—from my first pull request to becoming an Apache Committer and the maintainer of multiple open-source projects. Drawing from my experience open-source initiatives, I will discuss how newcomers can effectively contribute to projects, build their reputation, and expand their influence within the community. Additionally, I will explore strategies for fostering community engagement, making meaningful contributions beyond code.</description>
-    </item>
-    
-    <item>
-      <title>To MCP or Not to MCP? Designing Composable AI Systems with Open Protocols</title>
-      <link>/sessions/ai-904935.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/ai-904935.html</guid>
-      <description>How should we design tools and services for AI agents? Should we keep baking custom APIs, or is there a better way? This session introduces the Model Context Protocol (MCP)—a new open protocol that enables AI agents to discover and call external tools in a secure, structured way.
-We’ll cover the basics of MCP (host/client/server roles, lifecycle, standard I/O vs. HTTP), compare it to existing agent tool APIs (LangChain, OpenAI tool format), and argue for why an open protocol is necessary to avoid fragmentation in the AI ecosystem.</description>
     </item>
     
     <item>
@@ -629,6 +589,27 @@ Stocks Alex: the speaker of dubbogo community</description>
       <guid>/sessions/messaging-908855.html</guid>
       <description>Apache RocketMQ is a distributed messaging and streaming platform known for its low latency, high performance, and high reliability. The newly released version 5.0 has two major advancements:
  Decouples storage from compute to achieve better scalability and cloud-native adaptability. Introduces POP consumption mode to shift the balancing logic from clients to the broker. To adapt to these features, the community has launched a new gRPC-based client. However, existing users who access RocketMQ with a remoting-based client cannot benefit from these 5.</description>
+    </item>
+    
+    <item>
+      <title>When Flink Meets Fluss: The Future of Streaming Warehouse</title>
+      <link>/sessions/streaming-889266.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-889266.html</guid>
+      <description>Kafka and Flink have been widely used together in streaming processing scenarios, becoming a defacto standard paradigm for building streaming warehouses and real-time analytics. However, it still faces many challenging issues that are hard to resolve. This session will explore the challenges and problems this paradigm faces in streaming analytics.
+We will first discuss the limitations and pain points of Kafka when used with Flink. Then we will introduce Fluss, a next-generation streaming storage designed for streaming analytics.</description>
+    </item>
+    
+    <item>
+      <title>Why do we need an open source AI gateway</title>
+      <link>/sessions/ai-913176.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-913176.html</guid>
+      <description>In the era of AI application explosion, API traffic is surging, yet challenges like cost control, security compliance, and multi-model management persist. Apache APISIX, the world’s most active open-source API gateway, will officially launch its AI Gateway capability in 2025, offering a one-stop solution for developers and enterprises.
+Why Choose APISIX AI Gateway?
+Unified AI Service Management: Seamlessly proxy requests to mainstream LLMs like OpenAI, Deepseek, and QWen, avoid vendor lock-in, and optimize costs/performance through dynamic traffic orchestration.</description>
     </item>
     
     <item>
@@ -661,17 +642,6 @@ As a next-generation open-source MPP database, Apache Cloudberry extends its tec
     </item>
     
     <item>
-      <title>Quantum AI: The Dawn of Hyper-Intelligence</title>
-      <link>/sessions/ai-897112.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/sessions/ai-897112.html</guid>
-      <description>The fusion of Quantum Computing and AI is set to shatter the limits of classical computation, unlocking an era of hyper-intelligence. With quantum-enhanced models capable of exponential learning, solving complex problems in seconds, and redefining decision-making, are we entering a phase where AI will operate beyond human comprehension?
-This session explores the next frontier of AI, focusing on:
-Quantum Machine Learning (QML): How AI leverages quantum mechanics for unprecedented problem-solving</description>
-    </item>
-    
-    <item>
       <title>Reshaping OpenTelemetry with Apache Arrow</title>
       <link>/sessions/webserver-915263.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
@@ -679,15 +649,6 @@ Quantum Machine Learning (QML): How AI leverages quantum mechanics for unprecede
       <guid>/sessions/webserver-915263.html</guid>
       <description>OpenTelemetry is a widely adopted open-source standard for building observability frameworks, offering tools, APIs, and SDKs to generate, collect, and export telemetry data like metrics, logs, and traces. However, its transport protocol relies on Protocol Buffer messages that are stateless and easy to interpret but have a row-based structure that complicates compression. This limitation becomes more significant when transferring large volumes of data across network boundaries.
 In my session, I will present a proposal to address this issue by enhancing the OpenTelemetry protocol with Apache Arrow, referred to as OTel-Arrow.</description>
-    </item>
-    
-    <item>
-      <title>Scalable Join &amp; Aggregation with External State and Dynamic Tables</title>
-      <link>/sessions/streaming-909075.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-909075.html</guid>
-      <description>Background &amp;amp; Motivation •	Flink SQL challenges at scale: large state, long joins, complex maintenance •	Business use case: automotive data warehouse and alerting systems 2.	State Externalization with Delta Join and Merge Engine •	Delta Join: external dimension tables with up-to-date snapshots •	Merge Engine: external upsert tables for aggregation results •	How we minimized internal state while ensuring correctness and latency 3.	The Role of Dynamic Tables •	Intermediate table explosion: a hidden cost of state externalization •	How Dynamic Tables automate schema creation, lifecycle, and data lineage •	Empowering developers: write business logic, forget the plumbing 4.</description>
     </item>
     
     <item>
@@ -701,6 +662,15 @@ In my session, I will present a proposal to address this issue by enhancing the 
     </item>
     
     <item>
+      <title>The Intelligent Evolution of Fully Managed Resource Management for Tencent&#39;s Real-Time Computing</title>
+      <link>/sessions/streaming-910362.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-910362.html</guid>
+      <description>Background and Industry Pain Points a. Flink, as a long-running stateful computation, is widely used in scenarios such as real-time data warehousing, real-time analytics, and online training. b. Real-time resource configuration and operations are a universal challenge: over-provisioning leads to waste, while under-provisioning causes lag and failover. Additionally, resource demands vary significantly over time. Evolution of Autoscaling Architecture — Fully Managed Intelligent Resource Management a. Automated resource solutions for the entire lifecycle of jobs, including startup, runtime, upgrades, and exceptions (lag, failover).</description>
+    </item>
+    
+    <item>
       <title>The Practice to Building a Developer Friendly Open Source Database Community</title>
       <link>/sessions/community-881123.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
@@ -708,6 +678,16 @@ In my session, I will present a proposal to address this issue by enhancing the 
       <guid>/sessions/community-881123.html</guid>
       <description>OceanBase Database is a distributed relational database developed by Ant Group. It has been supporting the Double 11 Shopping Festival for 11 years. It started as an e-commerce database used by Taobao Favorites and gradually became the database of all core systems of Ant Group. It then grew into the database of core systems of many enterprises, especially the financial industry.
 The database is responsible for data storage and management. It is the core guarantee of the application system.</description>
+    </item>
+    
+    <item>
+      <title>To MCP or Not to MCP? Designing Composable AI Systems with Open Protocols</title>
+      <link>/sessions/ai-904935.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-904935.html</guid>
+      <description>How should we design tools and services for AI agents? Should we keep baking custom APIs, or is there a better way? This session introduces the Model Context Protocol (MCP)—a new open protocol that enables AI agents to discover and call external tools in a secure, structured way.
+We’ll cover the basics of MCP (host/client/server roles, lifecycle, standard I/O vs. HTTP), compare it to existing agent tool APIs (LangChain, OpenAI tool format), and argue for why an open protocol is necessary to avoid fragmentation in the AI ecosystem.</description>
     </item>
     
     <item>
@@ -741,16 +721,6 @@ I have been working in the big data field for over ten years, with a strong inte
     </item>
     
     <item>
-      <title>Modern ETL for Text Vector Data Using Apache SeaTunnel and Amazon Bedrock</title>
-      <link>/sessions/ai-905033.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/sessions/ai-905033.html</guid>
-      <description>In the wave of enterprise intelligence upgrades, information retrieval is shifting from “keyword matching” to “semantic understanding.” Traditional search engines based on inverted indexes rely on string-level matching, which makes it difficult to capture the true intent behind user queries. This limits the effectiveness of search experiences, recommendation accuracy, customer service responses, and the intelligence of knowledge-based Q&amp;amp;A systems.
-For example, on an e-commerce platform, when a user searches for “white dress suitable for summer,” a system that only matches keywords in product titles or categories is unlikely to understand the full semantic meaning of “suitable for summer,” which may involve fabric, style, and other dimensions.</description>
-    </item>
-    
-    <item>
       <title>Practical Experiences in Ant Open Source Incubation</title>
       <link>/sessions/community-913430.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
@@ -761,12 +731,23 @@ The Ant Group Open Source Incubation, deeply rooted in the principles of the Apa
     </item>
     
     <item>
-      <title>Practice of Flink Memory Governance at ByteDance</title>
-      <link>/sessions/streaming-903630.html</link>
+      <title>Quantum AI: The Dawn of Hyper-Intelligence</title>
+      <link>/sessions/ai-897112.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
       
-      <guid>/sessions/streaming-903630.html</guid>
-      <description>As the demand for streaming tasks continues to grow within ByteDance, Flink has been widely adopted across various business domains at scale. Among the resource costs of these large-scale tasks, memory stands out as a significant contributor—especially heap memory. The total allocated memory for all tasks has reached tens of thousands of terabytes, yet the JVM heap utilization remains below 50%, and container-level memory usage is under 70%. Against the backdrop of company-wide cost reduction and efficiency improvement, we have carried out a series of memory optimizations focused on heap memory usage prediction, off-heap memory usage tracking, and simplifying Flink’s memory model.</description>
+      <guid>/sessions/ai-897112.html</guid>
+      <description>The fusion of Quantum Computing and AI is set to shatter the limits of classical computation, unlocking an era of hyper-intelligence. With quantum-enhanced models capable of exponential learning, solving complex problems in seconds, and redefining decision-making, are we entering a phase where AI will operate beyond human comprehension?
+This session explores the next frontier of AI, focusing on:
+Quantum Machine Learning (QML): How AI leverages quantum mechanics for unprecedented problem-solving</description>
+    </item>
+    
+    <item>
+      <title>Scalable Join &amp; Aggregation with External State and Dynamic Tables</title>
+      <link>/sessions/streaming-909075.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-909075.html</guid>
+      <description>Background &amp;amp; Motivation •	Flink SQL challenges at scale: large state, long joins, complex maintenance •	Business use case: automotive data warehouse and alerting systems 2.	State Externalization with Delta Join and Merge Engine •	Delta Join: external dimension tables with up-to-date snapshots •	Merge Engine: external upsert tables for aggregation results •	How we minimized internal state while ensuring correctness and latency 3.	The Role of Dynamic Tables •	Intermediate table explosion: a hidden cost of state externalization •	How Dynamic Tables automate schema creation, lifecycle, and data lineage •	Empowering developers: write business logic, forget the plumbing 4.</description>
     </item>
     
     <item>
@@ -853,12 +834,12 @@ The talk will cover strategies for identifying appropriate tasks, writing clear 
     </item>
     
     <item>
-      <title>Practice of Apache Flink Real-time Computing in China Mobile Cloud</title>
-      <link>/sessions/streaming-914285.html</link>
+      <title>Practice of Flink Memory Governance at ByteDance</title>
+      <link>/sessions/streaming-903630.html</link>
       <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
       
-      <guid>/sessions/streaming-914285.html</guid>
-      <description>The diversity of computing scenarios continuously drives the innovation of big data technologies. And the real-time lakehouse represents the current mainstream trend. The real-time lakehouse has been widely applied to various businesses of Mobile Cloud. Facing complex usage scenarios and extremely large data volumes, many challenges have been encountered during the construction of the real-time lakehouse. This sharing will introduce Mobile Cloud&amp;rsquo;s thoughts and construction in the aspect of the real-time lakehouse.</description>
+      <guid>/sessions/streaming-903630.html</guid>
+      <description>As the demand for streaming tasks continues to grow within ByteDance, Flink has been widely adopted across various business domains at scale. Among the resource costs of these large-scale tasks, memory stands out as a significant contributor—especially heap memory. The total allocated memory for all tasks has reached tens of thousands of terabytes, yet the JVM heap utilization remains below 50%, and container-level memory usage is under 70%. Against the backdrop of company-wide cost reduction and efficiency improvement, we have carried out a series of memory optimizations focused on heap memory usage prediction, off-heap memory usage tracking, and simplifying Flink’s memory model.</description>
     </item>
     
     <item>
@@ -1053,15 +1034,6 @@ System-triggered agents must run continuously, act autonomously, and recover fro
       <description>Since version 1.0.0, Apache IoTDB has provided a unified system monitoring framework, allowing database developers to define system monitoring indicators such as counters and register them for unified management, and supporting the Prometheus + Grafana monitoring indicator visualization solution. After a year of practice, 4 visual monitoring panels and a lot of tuning experience based on system monitoring have been formed.
 Speakers: 
 Hongyin Zhang: Apache Committer, Master&amp;rsquo;s student at Tsinghua University</description>
-    </item>
-    
-    <item>
-      <title>Inside the Apache Software Foundation Board</title>
-      <link>/sessions/community-905769.html</link>
-      <pubDate>Fri, 25 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/sessions/community-905769.html</guid>
-      <description>This talk delves into the inner workings of the Apache Software Foundation board, shedding light on its workings and the responsibilities of its board members. Attendees will gain a comprehensive understanding of the ASF board’s governance structure, decision-making processes, and its crucial role in overseeing one of the world’s largest groups of open-source communities. Drawing from real-life experiences, the speaker will share personal insights, challenges faced, and the rewarding aspects of contributing to ASF’s mission.</description>
     </item>
     
     <item>
@@ -1263,15 +1235,6 @@ Outline:
     </item>
     
     <item>
-      <title>Bridging the Language Divide: Practical Tactics for Global Collaboration in Open Source</title>
-      <link>/sessions/community-904940.html</link>
-      <pubDate>Fri, 25 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/sessions/community-904940.html</guid>
-      <description>Open source projects thrive when people from diverse backgrounds and languages unite under a shared goal. However, language barriers often hinder meaningful participation, making it difficult for newcomers and community members to stay engaged. In this session, we’ll explore how contributors can systematically break down these linguistic walls by using AI-assisted video translation and subtitles, accessible documentation, and practical community workflows. Drawing from experiences helping multiple open source initiatives localize content, we’ll share strategies for ensuring everyone—regardless of their native language—has an equal seat at the table.</description>
-    </item>
-    
-    <item>
       <title>Building Highly Reliable Subscription &amp; Push with Apache Pulsar: Challenges and Best Practices</title>
       <link>/sessions/messaging-890417.html</link>
       <pubDate>Fri, 25 Jul 2025 15:00:00 +0000</pubDate>
@@ -1302,6 +1265,15 @@ Jianqun Liu:, China Telecom Bestpay Co.,Ltd. Technical Director , ChinaTelecom S
       <guid>/sessions/cloudnative-911204.html</guid>
       <description>Abstract: In the construction of our big data platform, we transitioned from traditional deployments using the Apache Hadoop ecosystem to achieving storage-compute separation with JuiceFS, and finally migrated to a Kubernetes-centric scheduling system. This technological evolution spans three aspects: storage, computing, and cluster architecture, aiming to enhance data processing efficiency.
 Storage Optimization By replacing HDFS with JuiceFS, we implemented elastic computing with centralized storage, resolving capacity scaling and resource utilization challenges in cloud environments.</description>
+    </item>
+    
+    <item>
+      <title>Inside the Apache Software Foundation Board</title>
+      <link>/sessions/community-905769.html</link>
+      <pubDate>Fri, 25 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/sessions/community-905769.html</guid>
+      <description>This talk delves into the inner workings of the Apache Software Foundation board, shedding light on its workings and the responsibilities of its board members. Attendees will gain a comprehensive understanding of the ASF board’s governance structure, decision-making processes, and its crucial role in overseeing one of the world’s largest groups of open-source communities. Drawing from real-life experiences, the speaker will share personal insights, challenges faced, and the rewarding aspects of contributing to ASF’s mission.</description>
     </item>
     
     <item>
@@ -1365,24 +1337,21 @@ Lan Ding: Huawei Cloud message engine R&amp;amp;D expert</description>
     </item>
     
     <item>
-      <title>APACHE SOFTWARE - THE JOURNEY OF THE OPEN SOURCE ADOPTION FOR THE MEXICAN GOVERNMENT</title>
-      <link>/sessions/community-915782.html</link>
-      <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
-      
-      <guid>/sessions/community-915782.html</guid>
-      <description>The session will describe the challenges that have faced for the Open Source Adoption in the Mexican Federal Administration and how the projects which implements Apache Software have been succesful in benefit of the Mexican Population at National scale.
-Speakers: 
-Víctor Manuel Romero Rodríguez: CTO FINTECHEANDO - INFOTEC TECH LEAD
-Hailing from Mexico City, Victor Romero now has over 20 years of experience in the area of ​​Information Technology applied to Financial Services after completing his Bachelor of Computer Science at the National Polytechnic Institute,</description>
-    </item>
-    
-    <item>
       <title>Best Practices for High Availability of Apache Pulsar on Tencent Cloud</title>
       <link>/sessions/messaging-883387.html</link>
       <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
       
       <guid>/sessions/messaging-883387.html</guid>
       <description>Apache Pulsar is is an cloud-native, distributed messaging and streaming platform. Apache Pulsar adopts a storage and computing separation architecture.Support large clusters, multi-tenants, million-level topics, cross-regional data replication, persistent storage, tiered storage, high scalability and other enterprise-level and financial services. Apache Pulsar provides a unified consumption model that supports both message queue and streaming scenarios. It can not only provide enterprise-level read and write service quality and strong consistency guarantee for queue scenarios, but also provide high throughput and low latency for streaming scenarios.</description>
+    </item>
+    
+    <item>
+      <title>Bridging the Language Divide: Practical Tactics for Global Collaboration in Open Source</title>
+      <link>/sessions/community-904940.html</link>
+      <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
+      
+      <guid>/sessions/community-904940.html</guid>
+      <description>Open source projects thrive when people from diverse backgrounds and languages unite under a shared goal. However, language barriers often hinder meaningful participation, making it difficult for newcomers and community members to stay engaged. In this session, we’ll explore how contributors can systematically break down these linguistic walls by using AI-assisted video translation and subtitles, accessible documentation, and practical community workflows. Drawing from experiences helping multiple open source initiatives localize content, we’ll share strategies for ensuring everyone—regardless of their native language—has an equal seat at the table.</description>
     </item>
     
     <item>
