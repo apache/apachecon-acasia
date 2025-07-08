@@ -12,20 +12,11 @@ At Dream11, Apache Celeborn is used for petabyte-scale shuffle, leveraging rack 
 ### Speakers:
 
 
-<img src="https://sessionize.com/image/c023-400o400o1-XrDyFVcAPGBBg2RCKps4W4.jpg" width="200" /><br/>
+<img src="https://sessionize.com/image/f103-400o400o2-UWzQTr6XwxL4WAQB6aPxgn.png" width="200" /><br/>
 
-Ravi Rana: Technical Lead
+Amit Shinde: Technical Lead
 
-Technical Lead at Dream11. 10+ professional experience in software engineering 
-
-
-<img src="https://sessionize.com/image/ff4d-400o400o1-Wr3YbdVGhUXaDsQG43bhfe.png" width="200" /><br/>
-
-Mehul Batra: Technical Lead 
-
-Always on a quest for captivating data infrastructure projects and reads
-(Train your Mind & Body)
-
+Engineering Director at Dream11. 14+ professional experience in software engineering
 
 <img src="https://sessionize.com/image/cb28-400o400o1-Utccibvy6GXbntEwxXRRRY.jpg" width="200" /><br/>
 
