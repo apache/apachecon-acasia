@@ -1833,11 +1833,8 @@ Lan Ding: 华为云中间件团队软件工程师
       <guid>/zh/sessions/datastorage-873334.html</guid>
       <description>在 Dream11，我们使用 Apache Celeborn 进行 PB 级规模的 Shuffle 操作，利用机架感知（rack awareness）来最小化跨机架的数据传输，并通过在不同机架间复制 Shuffle 数据来确保高可用性。它将 Shuffle 存储与计算节点解耦，使得存储能够独立于计算需求进行弹性扩展。并行分区写入和自适应 Shuffle 读取优化了吞吐量并降低了延迟。弹性扩展允许动态分配资源，在不同工作负载下保持成本效益。这种设计增强了容错能力，并将作业完成时间缩短了 50% 以上。
 讲师: 
-Ravi Rana: 技术负责人
-Ravi Rana 是 Dream11 的技术负责人，拥有 10 年以上的软件工程专业经验。
-
-Mehul Batra: 技术负责人
-一直在寻找吸引人的数据基础设施项目和读物 (训练你的思维和身体)
+Amit Shinde: 技术负责人
+Amit Shinde 是 Dream11 工程总监，拥有 14 年以上的软件工程专业经验。
 
 Mohit Jain: 技术负责人
 我在大数据和 ML 的交叉点工作，在扩展实时、批处理和 ML 工作负载的同时，使 Spark 和 Flink 的速度更快。无论是优化分布式计算、简化数据管道，还是构建直观的工具，我的目标都是将复杂的数据挑战转化为无缝、高性能的解决方案。</description>
