@@ -3,6 +3,4 @@ title: 闪电演讲
 trackchairs: "林旅强"
 ---
 
-<script>window.location.href = '/zh/tracks/keynote.html';</script>
-
-<meta http-equiv="refresh" content="0;url=/zh/tracks/keynote.html">
+准备好迎接一场激动人心的闪电演讲环节吧！在这个快节奏和充满活力的环节中，数十位演讲者将登上舞台，每人用 5 分钟时间为大家带来各种有启发的观点和故事。这是一个体验多样化思想、视角和创新的绝佳机会。不要错过这个通过快速连续的影响力演讲来获得启发和参与的机会！
