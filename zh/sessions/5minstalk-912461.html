@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>采用 MCP 还是不用 MCP？使用开放协议设计可组合的 AI 系统 - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
+    <title>用AI重新构想软件测试：一种可复用且可扩展的设计 - Community Over Code Asia 2025 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='采用 MCP 还是不用 MCP？使用开放协议设计可组合的 AI 系统'/>
+    <meta property='og:title' content='用AI重新构想软件测试：一种可复用且可扩展的设计'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -94,7 +94,7 @@
             
                 
                     <li class="nav-item">
-                        <a href="/sessions/ai-904935.html" class="nav-link" >English</a>
+                        <a href="/sessions/5minstalk-912461.html" class="nav-link" >English</a>
                     </li>
                 
             
@@ -135,21 +135,22 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">采用 MCP 还是不用 MCP？使用开放协议设计可组合的 AI 系统</h3>
-                    <h4>Miley Fu</h4>
-                    英文演讲  2025-07-26 15:00 GMT&#43;8&nbsp;
+                    <h3 class="text-center">用AI重新构想软件测试：一种可复用且可扩展的设计</h3>
+                    <h4>Yunbo Ni</h4>
+                    中文演讲  2025-07-27 11:20 GMT&#43;8&nbsp;
                     
-                        (ROOM : 静明厅)
-                    
-                    <a class="label" href="/zh/tracks/ai.html">#ai</a></li>
+                    <a class="label" href="/zh/tracks/5minstalk.html">#5minstalk</a></li>
                 </header>
 
-                <p>我们该如何为 AI 代理设计工具和服务？应该继续开发定制 API，还是有更好的方法？本次演讲将介绍模型上下文协议（MCP）——这是一种新的开放协议，使 AI 代理能够以安全、结构化的方式发现和调用外部工具。</p>
-<p>我们将介绍 MCP 的基础知识（主机/客户端/服务器角色、生命周期、标准 I/O 与 HTTP 的对比），将其与现有的代理工具 API（LangChain、OpenAI 工具格式）进行比较，并讨论为什么需要开放协议来避免 AI 生态系统的碎片化。通过实际案例，我们将讨论如何将现有的 CLI 工具或 API 转换为 MCP 服务，以及如何通过 Wasm 运行时或无服务器函数安全地公开它。</p>
+                <p>随着人工智能驱动的软件测试（AI4Testing）需求日益增长，业界亟需通用且高效的框架来利用大语言模型（LLM）提升软件质量。然而，现有基于LLM的测试方法普遍存在两大局限：生成的测试程序过于简单化，而与LLM的密集交互又会带来高昂的计算成本。</p>
+<p>我们提出了一种创新框架，将测试过程解耦为两个独立阶段：离线阶段与在线阶段。离线阶段利用LLM生成大量小型但功能丰富的代码片段；在线阶段则通过策略性复用与组合这些片段，构建出复杂的测试程序。这种设计显著提升了AI辅助测试的效率和表现力。</p>
+<p>我们将该理念具象化为名为LegoFuzz的工具，应用于C编译器测试领域。实验结果令人瞩目：在GCC和LLVM中共发现66个缺陷，其中近半数是现有LLM工具未能检测到的严重误编译问题——这类缺陷不仅危害性大且极难捕捉。</p>
+<p>该框架展现了模块化、基于复用的设计理念在AI4Testing中的潜力，同时揭示了超越编译器测试的广阔应用前景。其灵活架构使其能轻松适配各类软件系统，并可无缝集成到工业级持续集成（CI）流程中。</p>
 <h3 id="讲师">讲师:</h3>
-<p><img src="https://sessionize.com/image/89e3-400o400o1-aEenhyjXuvVhxsBLwPP3Br.jpg" width="200" /><br/></p>
-<p>Miley Fu: CNCF 大使、开源运行时 WasmEdge 创始成员</p>
-<p>Miley 是一位开发者倡导者，热衷于帮助开发者构建和贡献开源项目。她是 KubeCon+Open Source Summit 和 AI Dev China 2024 的联席主席和主题演讲嘉宾。作为 CNCF 沙箱中 WasmEdge 运行时的创始成员，她拥有超过 5 年的相关经验，并曾在 KubeCon、KCD 深圳、CloudDay 意大利、DevRelCon、Open Source Summit 日本、AWS 用户组、Global AI Note、KubeDay 新加坡等活动中发表演讲。Miley 撰写技术内容并组织开发者活动，包括 KCD 深圳、OpenSource Fairs 以及在台北、新加坡、中国等地举办的 WebAssembly &amp; Rust Meetups。</p>
+<p><img src="https://sessionize.com/image/c1b6-400o400o1-EsKgf3LeQewueGGTSwr33p.png" width="200" /><br/></p>
+<p>Yunbo Ni: 即将入读香港中文大学博士项目，研究方向为软件测试。</p>
+<p>我目前是南京大学软件工程专业的本科生，师从SSCT实验室的杨峰教授，研究兴趣涵盖编程语言与软件工程领域。</p>
+<p>2025年秋季，我将加入香港中文大学（CUHK）攻读博士学位，由李少华教授指导。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

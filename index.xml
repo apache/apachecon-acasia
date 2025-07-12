@@ -462,6 +462,77 @@ Future Outlook and Ecosystem Expansion  Directions for technological evolution A
     </item>
     
     <item>
+      <title>An Algorithm Engineer’s Detour through Open Source</title>
+      <link>/sessions/5minstalk-972704.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:45:00 +0000</pubDate>
+      
+      <guid>/sessions/5minstalk-972704.html</guid>
+      <description>In this talk, I’ll trace how a performance-obsessed algorithm engineer accidentally became an open-source advocate, eventually became an DevRel. I will share my experiences, observations and lessons learnt in this journey.
+Speakers: 
+nuo ma: 01.AI DevRel
+Currently DevRel@01.AI, Ph.D. candidate at Virginia Tech, USA. Former Technical Consultant at the University of Science and Technology of China &amp;amp; CETC. 10 years of experience in artificial intelligence and human-computer interaction. Co-authored the open-source Chinese dataset COIG-CQIA.</description>
+    </item>
+    
+    <item>
+      <title>Why We Chose Openness: The Story Behind JuiceFS Switching to Apache 2.0</title>
+      <link>/sessions/5minstalk-972635.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:40:00 +0000</pubDate>
+      
+      <guid>/sessions/5minstalk-972635.html</guid>
+      <description>In 2022, to mark its first anniversary as an open source project, JuiceFS made a bold move: switching its license from AGPLv3 to Apache 2.0. At a time when many projects were going the opposite direction—adopting more restrictive licenses—we doubled down on openness. This lightning talk shares the thinking behind that decision, the risks we weighed, and the unexpected benefits it brought. I’ll also reflect on how this choice has shaped the growth and community of JuiceFS over the past few years, and what it means for sustainable open source in a commercial world.</description>
+    </item>
+    
+    <item>
+      <title>My Open Source Experience in OceanBase Community</title>
+      <link>/sessions/5minstalk-962199.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:35:00 +0000</pubDate>
+      
+      <guid>/sessions/5minstalk-962199.html</guid>
+      <description>After joining OceanBase Cloud Native SIG, I wrote the command line management tool for OceanBase in k8s, called okctl, which can support the management of resources such as clusters, tenants, and backup strategies. At the same time, it also provides component installation and updates, simple cluster construction, and cluster connection functions. We later combined the MCP protocol and used okctl as the backend to build the MCP server, which provides the integrated function of cluster interaction, management, and inspection using natural language.</description>
+    </item>
+    
+    <item>
+      <title>SecretFlow--Open Source Privacy-Preserving Technology Framework</title>
+      <link>/sessions/5minstalk-941247.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:30:00 +0000</pubDate>
+      
+      <guid>/sessions/5minstalk-941247.html</guid>
+      <description>Introduce the technical background of privacy-preserving computation, discuss the existing challenges in current industrial applications of privacy-preserving computation, and then explain why SecretFlow is needed. Subsequently, what work SecretFlow has done to solve these problems.
+Speakers: 
+Mingyang Jia: Kuscia maintainer, Ant Misuan Technical Expert
+Kuscia Maintainer, platform framework technology expert at Ant Group&amp;rsquo;s Misuan Tech, primarily responsible for the development and performance optimization of Kuscia&amp;rsquo;s resource scheduling, cross-domain collaboration, and data services.</description>
+    </item>
+    
+    <item>
+      <title>Apache Fineract – Powering Asia’s Fintech Future through Collaboration</title>
+      <link>/sessions/5minstalk-913473.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:25:00 +0000</pubDate>
+      
+      <guid>/sessions/5minstalk-913473.html</guid>
+      <description>Fineract showcases how open-source collaboration between for-profit and non-profit organizations can transform Asia’s fintech landscape, offering a scalable, inclusive alternative to costly core banking solutions.
+The Apache Fineract ecosystem, born from Mifos X’s backend, powers financial inclusion for over 6 million clients across 36 countries. This lightning talk showcases how a global community of for-profit and non-profit organizations collaborates on Fineract, an open-source banking platform rivaling Temenos and Oracle Flexcube. With over 59 partners across 17 regions—spanning Africa, Asia, the Americas, and beyond—the ecosystem blends commercial scalability with social impact.</description>
+    </item>
+    
+    <item>
+      <title>Reimagining Software Testing with AI: A Reusable and Scalable Design</title>
+      <link>/sessions/5minstalk-912461.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:20:00 +0000</pubDate>
+      
+      <guid>/sessions/5minstalk-912461.html</guid>
+      <description>With the growing demand for AI-driven software testing (AI4Testing), there is a pressing need for general and efficient frameworks that can leverage large language models (LLMs) to enhance software quality. However, existing LLM-based testing approaches often suffer from two key limitations: the generated test programs are overly simplistic, and exhaustive interaction with LLMs can be computationally expensive.
+We propose a general framework that decouples the testing process into two distinct phases: an offline phase and an online phase.</description>
+    </item>
+    
+    <item>
+      <title>Unified Scheduler for Stream &amp; Batch &amp; Graph Computing</title>
+      <link>/sessions/5minstalk-907157.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:15:00 +0000</pubDate>
+      
+      <guid>/sessions/5minstalk-907157.html</guid>
+      <description>As the demand for analyzing and computing complex relational graph data in the big data domain continues to grow, the need for real-time graph computing capabilities in scenarios such as financial risk control and group detection is also on the rise. This requires large-scale graph computation engines to simultaneously provide low latency and high throughput. Currently, stream-batch integrated computing engines are the future direction, but the iterative nature of graph computation differs fundamentally from traditional stream and batch processing.</description>
+    </item>
+    
+    <item>
       <title>Build a cloud native Lakehouse architecture based on Iceberg &amp; Amoro &amp; Gravitino in Tencent Cloud</title>
       <link>/sessions/datalake-906852.html</link>
       <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
@@ -602,17 +673,6 @@ We will first discuss the limitations and pain points of Kafka when used with Fl
     </item>
     
     <item>
-      <title>Why do we need an open source AI gateway</title>
-      <link>/sessions/ai-913176.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/ai-913176.html</guid>
-      <description>In the era of AI application explosion, API traffic is surging, yet challenges like cost control, security compliance, and multi-model management persist. Apache APISIX, the world’s most active open-source API gateway, will officially launch its AI Gateway capability in 2025, offering a one-stop solution for developers and enterprises.
-Why Choose APISIX AI Gateway?
-Unified AI Service Management: Seamlessly proxy requests to mainstream LLMs like OpenAI, Deepseek, and QWen, avoid vendor lock-in, and optimize costs/performance through dynamic traffic orchestration.</description>
-    </item>
-    
-    <item>
       <title>Apache HugeGraph 1.5.0: Best Practices for Enterprise-Grade Deployment</title>
       <link>/sessions/general-914611.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
@@ -681,13 +741,14 @@ The database is responsible for data storage and management. It is the core guar
     </item>
     
     <item>
-      <title>To MCP or Not to MCP? Designing Composable AI Systems with Open Protocols</title>
-      <link>/sessions/ai-904935.html</link>
+      <title>Why do we need an open source AI gateway</title>
+      <link>/sessions/ai-913176.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
       
-      <guid>/sessions/ai-904935.html</guid>
-      <description>How should we design tools and services for AI agents? Should we keep baking custom APIs, or is there a better way? This session introduces the Model Context Protocol (MCP)—a new open protocol that enables AI agents to discover and call external tools in a secure, structured way.
-We’ll cover the basics of MCP (host/client/server roles, lifecycle, standard I/O vs. HTTP), compare it to existing agent tool APIs (LangChain, OpenAI tool format), and argue for why an open protocol is necessary to avoid fragmentation in the AI ecosystem.</description>
+      <guid>/sessions/ai-913176.html</guid>
+      <description>In the era of AI application explosion, API traffic is surging, yet challenges like cost control, security compliance, and multi-model management persist. Apache APISIX, the world’s most active open-source API gateway, will officially launch its AI Gateway capability in 2025, offering a one-stop solution for developers and enterprises.
+Why Choose APISIX AI Gateway?
+Unified AI Service Management: Seamlessly proxy requests to mainstream LLMs like OpenAI, Deepseek, and QWen, avoid vendor lock-in, and optimize costs/performance through dynamic traffic orchestration.</description>
     </item>
     
     <item>
@@ -731,17 +792,6 @@ The Ant Group Open Source Incubation, deeply rooted in the principles of the Apa
     </item>
     
     <item>
-      <title>Quantum AI: The Dawn of Hyper-Intelligence</title>
-      <link>/sessions/ai-897112.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/sessions/ai-897112.html</guid>
-      <description>The fusion of Quantum Computing and AI is set to shatter the limits of classical computation, unlocking an era of hyper-intelligence. With quantum-enhanced models capable of exponential learning, solving complex problems in seconds, and redefining decision-making, are we entering a phase where AI will operate beyond human comprehension?
-This session explores the next frontier of AI, focusing on:
-Quantum Machine Learning (QML): How AI leverages quantum mechanics for unprecedented problem-solving</description>
-    </item>
-    
-    <item>
       <title>Scalable Join &amp; Aggregation with External State and Dynamic Tables</title>
       <link>/sessions/streaming-909075.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
@@ -757,6 +807,16 @@ Quantum Machine Learning (QML): How AI leverages quantum mechanics for unprecede
       
       <guid>/sessions/webserver-915271.html</guid>
       <description>Seata is an open-source distributed transaction solution with a focus on providing high-performance and user-friendly distributed transaction services in microservice architectures. Initially developed for internal use within Alibaba, Seata served as middleware ensuring data consistency across applications during major events like Double 11, effectively supporting upper-layer business operations. With years of development and improvement, its commercialized products have been offered on Alibaba Cloud and Financial Cloud. In January 2019, Seata was officially open-sourced to foster a better technical ecosystem and make technological advancements accessible to more users.</description>
+    </item>
+    
+    <item>
+      <title>To MCP or Not to MCP? Designing Composable AI Systems with Open Protocols</title>
+      <link>/sessions/ai-904935.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/sessions/ai-904935.html</guid>
+      <description>How should we design tools and services for AI agents? Should we keep baking custom APIs, or is there a better way? This session introduces the Model Context Protocol (MCP)—a new open protocol that enables AI agents to discover and call external tools in a secure, structured way.
+We’ll cover the basics of MCP (host/client/server roles, lifecycle, standard I/O vs. HTTP), compare it to existing agent tool APIs (LangChain, OpenAI tool format), and argue for why an open protocol is necessary to avoid fragmentation in the AI ecosystem.</description>
     </item>
     
     <item>
@@ -1486,6 +1546,15 @@ Participants requiring special accommodations should provide details in their re
     </item>
     
     <item>
+      <title>AI Agent: The Golden Key to Unlock Real-World AI Applications</title>
+      <link>/sessions/keynote-969043.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-969043.html</guid>
+      <description>AI Agents bridge the gap between theoretical AI models and practical implementation by combining perception, decision-making, and autonomous action. Leveraging machine learning, natural language processing, and real-time analytics, they adapt to dynamic environments and user needs, enabling seamless interaction and intelligent automation. These systems streamline workflows, reduce human intervention, and enhance scalability, making them a critical enabler for deploying AI in real-world scenarios. As the &amp;ldquo;golden key&amp;rdquo; to AI application, they simplify integration, accelerate innovation, and empower organizations to achieve tangible outcomes through adaptive, self-improving intelligent systems.</description>
+    </item>
+    
+    <item>
       <title>Business Travel</title>
       <link>/venue_travel/travel.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1564,6 +1633,16 @@ We will showcase how generative AI is revolutionizing developer workflows for co
     </item>
     
     <item>
+      <title>From Commits to Capital: Turning Open Source Passion into a Startup Journey</title>
+      <link>/sessions/keynote-972824.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-972824.html</guid>
+      <description>Open source is often seen as a world of code, collaboration, and community. But for founders, it can also be a tough place filled with business choices, doubts from investors, and the challenge of balancing ideals with survival.
+In this talk, I’ll share a real and honest story of how an Apache project—started with passion and supported by a global community—grew into a funded company that now serves enterprise customers. We’ll explore how community love was transformed into a sustainable business model, what VCs often get wrong about OSS startups, and how founders can navigate the chaos between contributors and customers.</description>
+    </item>
+    
+    <item>
       <title>General</title>
       <link>/tracks/general.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1628,7 +1707,7 @@ In order to better realize the core needs of the IoT industry such as device com
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/5minstalk.html</guid>
-      <description>window.location.href = &#39;/tracks/keynote.html&#39;; </description>
+      <description>Get ready for an exciting lightning talk session! In this fast-paced and dynamic segment, dozens of speakers will take the stage, each delivering inspiring ideas and stories in just 5 minutes. It&amp;rsquo;s a fantastic opportunity to experience diverse thoughts, perspectives, and innovations. Don’t miss this chance to get inspired and engaged through a rapid succession of impactful presentations!</description>
     </item>
     
     <item>
@@ -1735,6 +1814,15 @@ Photo &amp;amp; Video Release I hereby consent to the photographing of myself an
       <guid>/sessions/keynote-961585.html</guid>
       <description>This is my seventh year at The Apache Software Foundation. Starting as a contributor, I earned my first commit bit while working on the Apache Flink project. The more I contribute to ASF projects, the more credits I earn in their community.
 Now I&amp;rsquo;m a board member of the ASF and an active incubator mentor who has mentored more than seven podling projects. Welcome to join this session to learn how I grow in the broader ASF community, and what I&amp;rsquo;m looking for on collborators in the ASF for the following years.</description>
+    </item>
+    
+    <item>
+      <title>TRAE, The Real AI Engineer</title>
+      <link>/sessions/keynote-970364.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-970364.html</guid>
+      <description>In an era where software is eating the world, code serves as the cornerstone, laying the foundation for the prosperity of the internet age. Today, driven by AI, it is ushering in the next leap forward. We can now interact with large models using natural language to generate executable code, leverage IDEs to automatically sense and complete code logic, and employ intelligent agents to debug complex applications. AI is transforming programming from a skill reserved for the few into a tool for many to bring their ideas to life.</description>
     </item>
     
     <item>

@@ -621,6 +621,97 @@
                 href="/sessions/microservice-915252.html"
                 />
   </url><url>
+    <loc>/sessions/5minstalk-972704.html</loc>
+    <lastmod>2025-07-27T11:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/5minstalk-972704.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/5minstalk-972704.html"
+                />
+  </url><url>
+    <loc>/sessions/5minstalk-972635.html</loc>
+    <lastmod>2025-07-27T11:40:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/5minstalk-972635.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/5minstalk-972635.html"
+                />
+  </url><url>
+    <loc>/sessions/5minstalk-962199.html</loc>
+    <lastmod>2025-07-27T11:35:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/5minstalk-962199.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/5minstalk-962199.html"
+                />
+  </url><url>
+    <loc>/sessions/5minstalk-941247.html</loc>
+    <lastmod>2025-07-27T11:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/5minstalk-941247.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/5minstalk-941247.html"
+                />
+  </url><url>
+    <loc>/sessions/5minstalk-913473.html</loc>
+    <lastmod>2025-07-27T11:25:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/5minstalk-913473.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/5minstalk-913473.html"
+                />
+  </url><url>
+    <loc>/sessions/5minstalk-912461.html</loc>
+    <lastmod>2025-07-27T11:20:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/5minstalk-912461.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/5minstalk-912461.html"
+                />
+  </url><url>
+    <loc>/sessions/5minstalk-907157.html</loc>
+    <lastmod>2025-07-27T11:15:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/5minstalk-907157.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/5minstalk-907157.html"
+                />
+  </url><url>
     <loc>/sessions/datalake-906852.html</loc>
     <lastmod>2025-07-26T17:15:00+00:00</lastmod>
     <xhtml:link
@@ -803,19 +894,6 @@
                 href="/sessions/streaming-889266.html"
                 />
   </url><url>
-    <loc>/sessions/ai-913176.html</loc>
-    <lastmod>2025-07-26T16:15:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/ai-913176.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/ai-913176.html"
-                />
-  </url><url>
     <loc>/sessions/general-914611.html</loc>
     <lastmod>2025-07-26T15:45:00+00:00</lastmod>
     <xhtml:link
@@ -907,17 +985,17 @@
                 href="/sessions/community-881123.html"
                 />
   </url><url>
-    <loc>/sessions/ai-904935.html</loc>
+    <loc>/sessions/ai-913176.html</loc>
     <lastmod>2025-07-26T15:45:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/ai-904935.html"
+                href="/zh/sessions/ai-913176.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/sessions/ai-904935.html"
+                href="/sessions/ai-913176.html"
                 />
   </url><url>
     <loc>/sessions/datastorage-910450.html</loc>
@@ -972,19 +1050,6 @@
                 href="/sessions/community-913430.html"
                 />
   </url><url>
-    <loc>/sessions/ai-897112.html</loc>
-    <lastmod>2025-07-26T15:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/ai-897112.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/ai-897112.html"
-                />
-  </url><url>
     <loc>/sessions/streaming-909075.html</loc>
     <lastmod>2025-07-26T15:00:00+00:00</lastmod>
     <xhtml:link
@@ -1009,6 +1074,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="/sessions/webserver-915271.html"
+                />
+  </url><url>
+    <loc>/sessions/ai-904935.html</loc>
+    <lastmod>2025-07-26T15:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/ai-904935.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/ai-904935.html"
                 />
   </url><url>
     <loc>/sessions/olap-915180.html</loc>
@@ -1944,6 +2022,18 @@
                 href="/tracks/ai.html"
                 />
   </url><url>
+    <loc>/sessions/keynote-969043.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-969043.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/keynote-969043.html"
+                />
+  </url><url>
     <loc>/venue_travel/travel.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -2050,6 +2140,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="/sessions/keynote-961672.html"
+                />
+  </url><url>
+    <loc>/sessions/keynote-972824.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-972824.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/keynote-972824.html"
                 />
   </url><url>
     <loc>/tracks/general.html</loc>
@@ -2314,6 +2416,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tracks.html"
+                />
+  </url><url>
+    <loc>/sessions/keynote-970364.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-970364.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/keynote-970364.html"
                 />
   </url><url>
     <loc>/venue_travel.html</loc>

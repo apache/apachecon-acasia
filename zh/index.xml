@@ -616,6 +616,100 @@ Minghui Zhang: 阿里云, 杭州
     </item>
     
     <item>
+      <title>一名算法工程师的开源之旅</title>
+      <link>/zh/sessions/5minstalk-972704.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:45:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/5minstalk-972704.html</guid>
+      <description>在这次演讲中，我将讲述一位痴迷于性能优化的算法工程师如何意外成为开源倡导者，并最终转型为开发者关系（DevRel）专家的历程。我将分享这段旅程中的亲身经历、观察所得以及收获的重要启示。
+讲师: 
+nuo ma: 01.AI DevRel
+目前就职于 01.AI 开发者关系部门，美国弗吉尼亚理工大学博士候选人。曾担任中国科学技术大学与中国电子科技集团技术顾问。拥有十年人工智能与人机交互领域经验。共同创建开源中文数据集 COIG-CQIA。</description>
+    </item>
+    
+    <item>
+      <title>我们为何选择开放：JuiceFS 转向 Apache 2.0 背后的故事</title>
+      <link>/zh/sessions/5minstalk-972635.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:40:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/5minstalk-972635.html</guid>
+      <description>2022年，为庆祝开源一周年，JuiceFS 做出了一个大胆决定：将许可证从 AGPLv3 更改为 Apache 2.0。当众多项目选择收紧许可协议时，我们却选择进一步拥抱开放。本次闪电演讲将揭秘这一决策背后的思考、我们权衡的风险，以及由此带来的意外收获。同时我将分享这一选择如何塑造 JuiceFS 近年来的发展轨迹与社区生态，以及对商业化环境下可持续开源模式的启示。
+讲师: 
+Rui Su: 开源倡导者、云原生分布式文件系统JuiceFS联合创始人
+Rui Su 是 Juicedata 联合创始人，同时也是开源分布式文件系统 JuiceFS 的创造者。该系统基于对象存储构建，七年来在他的带领下完成了从闭源系统到全球广泛采用的 Apache 2.0 开源项目的蜕变。作为分布式存储领域的活跃贡献者，在创立 Juicedata 之前，苏锐曾创办初创公司并主导开发了当时中国唯一获得奥地利电子艺术大奖（Prix Ars Electronica）金尼卡奖的在线社区。</description>
+    </item>
+    
+    <item>
+      <title>我在 OceanBase 社区的开源经历</title>
+      <link>/zh/sessions/5minstalk-962199.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:35:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/5minstalk-962199.html</guid>
+      <description>加入 OceanBase 云原生 SIG 后，我开发了 OceanBase 在 k8s 环境下的命令行管理工具 okctl。该工具支持集群、租户、备份策略等资源的管理，同时提供组件安装更新、简易集群构建及集群连接功能。我们后续结合 MCP 协议，以 okctl 为后端搭建了 MCP 服务器，实现了通过自然语言进行集群交互、管理和巡检的一体化功能。
+讲师: 
+Ziyi Li: 武汉大学学生
+武汉大学二年级硕士研究生，OceanBase开源社区Committer，对向量数据库、云原生及AI相关技术感兴趣。</description>
+    </item>
+    
+    <item>
+      <title>SecretFlow — 开源隐私保护技术框架</title>
+      <link>/zh/sessions/5minstalk-941247.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:30:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/5minstalk-941247.html</guid>
+      <description>介绍隐私计算的技术背景，探讨当前隐私计算在工业应用中存在的挑战，进而说明为什么需要SecretFlow。随后阐述SecretFlow为解决这些问题做了哪些工作。
+讲师: 
+Mingyang Jia: Kuscia 项目维护者、蚂蚁集团密算科技平台架构技术专家
+作为 Kuscia 项目的核心维护者，现任蚂蚁集团密算科技平台架构技术专家，主导 Kusci 资源调度、跨域协作及数据服务等核心模块的研发与性能优化工作。拥有深厚的云原生领域开发经验，精通 Kubernetes、K3S、Envoy 等云原生技术栈。</description>
+    </item>
+    
+    <item>
+      <title>Apache Fineract — 携手合作，驱动亚洲金融科技未来</title>
+      <link>/zh/sessions/5minstalk-913473.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:25:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/5minstalk-913473.html</guid>
+      <description>Fineract展示了营利与非营利组织间的开源协作如何重塑亚洲金融科技格局，为昂贵的核心银行系统提供了可扩展、普惠的替代方案。
+源自 Mifos X 后端的 Apache Fineract 生态系统，已为 36 个国家超 600 万客户提供普惠金融服务。本次闪电演讲将揭示这一全球社区如何通过开源银行平台 Fineract 开展协作——其功能可与 Temenos 和 Oracle Flexcube 比肩。横跨非洲、亚洲、美洲等17 个地区的 59 家合作伙伴，使该生态系统兼具商业规模与社会价值。如 BaaSFlow 等营利企业为数字银行提供云托管方案，而 Mifos Initiative 等非营利组织则通过志愿者和谷歌编程之夏推动开源贡献。了解 Fineract 如何凭借 API 驱动架构与模块化设计实现快速创新，以高性价比、可扩展的金融服务覆盖20亿无银行账户人群。
+亚洲力量：38家合作伙伴包括 Conflux Technologies（印度）、Habile Technologies（印度）及东南亚创新者，为印度、中国、菲律宾等地的微型金融、储蓄信贷合作社及数字银行提供服务。
+营利创新：亚洲企业通过定制 Fineract 开发可扩展、低成本方案，与印度统一支付接口等数字公共基础设施对接，与专有系统竞争。
+非营利影响：IFTAS与Mifos Initiative 确保弱势群体可获得服务，亚洲志愿者通过GitHub推动开源贡献。
+区域适配：模块化设计契合亚洲移动优先、价格敏感的市场特性，满足20亿无银行账户人群需求。
+行动号召：加入 Fineract 社区，共同开发、部署或支持开源金融科技，助力亚洲数字未来。
+讲师: 
+Terence Monteiro: Apache Fineract PMC and Entrepreneur behind SanJose Solutions and Consultant
+Terence Monteiro 是一位拥有21年以上经验的资深科技创业者，以打造具有影响力的社区驱动型开源项目而闻名。作为普惠数字解决方案领域的先驱，他曾为 Mifos、微软开放技术（Microsoft Open Technologies）和 CPAN 等项目做出贡献，目前担任阿帕奇·芬纳克特项目管理委员会成员。他的工作将专业技术与社会价值相融合，尤其专注于为全球市场开发普惠金融科技工具和可扩展的移动银行解决方案。</description>
+    </item>
+    
+    <item>
+      <title>用AI重新构想软件测试：一种可复用且可扩展的设计</title>
+      <link>/zh/sessions/5minstalk-912461.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:20:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/5minstalk-912461.html</guid>
+      <description>随着人工智能驱动的软件测试（AI4Testing）需求日益增长，业界亟需通用且高效的框架来利用大语言模型（LLM）提升软件质量。然而，现有基于LLM的测试方法普遍存在两大局限：生成的测试程序过于简单化，而与LLM的密集交互又会带来高昂的计算成本。
+我们提出了一种创新框架，将测试过程解耦为两个独立阶段：离线阶段与在线阶段。离线阶段利用LLM生成大量小型但功能丰富的代码片段；在线阶段则通过策略性复用与组合这些片段，构建出复杂的测试程序。这种设计显著提升了AI辅助测试的效率和表现力。
+我们将该理念具象化为名为LegoFuzz的工具，应用于C编译器测试领域。实验结果令人瞩目：在GCC和LLVM中共发现66个缺陷，其中近半数是现有LLM工具未能检测到的严重误编译问题——这类缺陷不仅危害性大且极难捕捉。
+该框架展现了模块化、基于复用的设计理念在AI4Testing中的潜力，同时揭示了超越编译器测试的广阔应用前景。其灵活架构使其能轻松适配各类软件系统，并可无缝集成到工业级持续集成（CI）流程中。
+讲师: 
+Yunbo Ni: 即将入读香港中文大学博士项目，研究方向为软件测试。
+我目前是南京大学软件工程专业的本科生，师从SSCT实验室的杨峰教授，研究兴趣涵盖编程语言与软件工程领域。
+2025年秋季，我将加入香港中文大学（CUHK）攻读博士学位，由李少华教授指导。</description>
+    </item>
+    
+    <item>
+      <title>统一调度器：支持流计算、批处理与图计算</title>
+      <link>/zh/sessions/5minstalk-907157.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/5minstalk-907157.html</guid>
+      <description>随着大数据领域对复杂关系图数据的分析和计算需求不断增长，金融风控、团伙发现等场景对实时图计算能力的需求也日益迫切，这要求大规模图计算引擎需同时具备低延迟和高吞吐能力。当前流批一体计算引擎是未来方向，但图计算的迭代特性与传统流批处理存在本质差异，围绕图迭代构建流-批-图一体化计算引擎是一大技术挑战。由蚂蚁集团图计算团队自主研发的GeaFlow是业界首个大规模分布式流式图计算引擎，支持超大规模图上的实时图计算、离线图计算以及在线探索分析。本次分享将介绍GeaFlow如何将执行作业拆分为流、批、图任务进行统一编排，构建高效的流-批-图一体化调度执行框架。
+讲师: 
+Congbin Qiao: 蚂蚁集团技术专家
+Congbin Qiao 是蚂蚁集团的技术专家，专注于大数据、分布式计算和图计算领域。自2020年加入蚂蚁集团图计算团队以来，他深度参与了蚂蚁自研流式图计算引擎GeaFlow的核心研发工作，支撑业务场景中海量图数据的实时计算与分析。</description>
+    </item>
+    
+    <item>
       <title>Apache Kvrocks 的演进：搜索、向量及未来</title>
       <link>/zh/sessions/datastorage-883342.html</link>
       <pubDate>Sat, 26 Jul 2025 17:15:00 +0000</pubDate>
@@ -744,22 +838,6 @@ Shengzhong Liu: 腾讯
     </item>
     
     <item>
-      <title>为什么我们需要开源 AI 网关</title>
-      <link>/zh/sessions/ai-913176.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/ai-913176.html</guid>
-      <description>在 AI 应用爆发的时代，API 流量激增，但成本控制、安全合规和多模型管理等挑战依然存在。全球最活跃的开源 API 网关 Apache APISIX 将于 2025 年正式推出 AI 网关能力，为开发者和企业提供一站式解决方案。
-为什么选择 APISIX AI 网关？
-统一 AI 服务管理：无缝代理 OpenAI、Deepseek、QWen 等主流大模型的请求，避免供应商锁定，并通过动态流量编排优化成本/性能。
-安全与合规：内置 AI 保护插件（如 ai-prompt-guard 过滤恶意输入，ai-rate-limiting 实现基于 token 的限流），确保数据隐私和合规性。
-开发者优先体验：热重载插件、多语言支持（Java/Python/Go）以及与微服务和 Kubernetes 生态系统的原生集成。
-无论您是开发者还是企业，APISIX AI 网关都能加速 AI 应用落地，释放创新潜力。
-演讲嘉宾: Yuansheng Wang: API7.ai, CTO
-Apache APISIX PMC 成员 Apache 基金会成员</description>
-    </item>
-    
-    <item>
       <title>使用 Apache Iceberg 增强 Lakehouse 实施</title>
       <link>/zh/sessions/datalake-914503.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
@@ -847,6 +925,22 @@ Sammi Chen 是 Cloudera 的首席存储工程师，专注于 Apache Hadoop 和 A
     </item>
     
     <item>
+      <title>为什么我们需要开源 AI 网关</title>
+      <link>/zh/sessions/ai-913176.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/ai-913176.html</guid>
+      <description>在 AI 应用爆发的时代，API 流量激增，但成本控制、安全合规和多模型管理等挑战依然存在。全球最活跃的开源 API 网关 Apache APISIX 将于 2025 年正式推出 AI 网关能力，为开发者和企业提供一站式解决方案。
+为什么选择 APISIX AI 网关？
+统一 AI 服务管理：无缝代理 OpenAI、Deepseek、QWen 等主流大模型的请求，避免供应商锁定，并通过动态流量编排优化成本/性能。
+安全与合规：内置 AI 保护插件（如 ai-prompt-guard 过滤恶意输入，ai-rate-limiting 实现基于 token 的限流），确保数据隐私和合规性。
+开发者优先体验：热重载插件、多语言支持（Java/Python/Go）以及与微服务和 Kubernetes 生态系统的原生集成。
+无论您是开发者还是企业，APISIX AI 网关都能加速 AI 应用落地，释放创新潜力。
+演讲嘉宾: Yuansheng Wang: API7.ai, CTO
+Apache APISIX PMC 成员 Apache 基金会成员</description>
+    </item>
+    
+    <item>
       <title>使用 Apache Arrow 重塑 OpenTelemetry</title>
       <link>/zh/sessions/webserver-915263.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
@@ -918,19 +1012,6 @@ Zihao 多年来一直从事与Flink内核相关的研发工作。近年来，他
 
 Jiangang Liu: 腾讯，实时计算 Flink 负责人
 腾讯实时计算Flink负责人，专注于云原生演进、弹性扩展以及存储与计算的分离。此前曾担任快手Flink技术负责人，负责实时计算架构设计与大规模落地实施，成功推动了2020年快手与央视春晚的实时连接项目。在此之前，参与了百度Matrix在离线混合计算领域的开发工作。</description>
-    </item>
-    
-    <item>
-      <title>采用 MCP 还是不用 MCP？使用开放协议设计可组合的 AI 系统</title>
-      <link>/zh/sessions/ai-904935.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/ai-904935.html</guid>
-      <description>我们该如何为 AI 代理设计工具和服务？应该继续开发定制 API，还是有更好的方法？本次演讲将介绍模型上下文协议（MCP）——这是一种新的开放协议，使 AI 代理能够以安全、结构化的方式发现和调用外部工具。
-我们将介绍 MCP 的基础知识（主机/客户端/服务器角色、生命周期、标准 I/O 与 HTTP 的对比），将其与现有的代理工具 API（LangChain、OpenAI 工具格式）进行比较，并讨论为什么需要开放协议来避免 AI 生态系统的碎片化。通过实际案例，我们将讨论如何将现有的 CLI 工具或 API 转换为 MCP 服务，以及如何通过 Wasm 运行时或无服务器函数安全地公开它。
-讲师: 
-Miley Fu: CNCF 大使、开源运行时 WasmEdge 创始成员
-Miley 是一位开发者倡导者，热衷于帮助开发者构建和贡献开源项目。她是 KubeCon+Open Source Summit 和 AI Dev China 2024 的联席主席和主题演讲嘉宾。作为 CNCF 沙箱中 WasmEdge 运行时的创始成员，她拥有超过 5 年的相关经验，并曾在 KubeCon、KCD 深圳、CloudDay 意大利、DevRelCon、Open Source Summit 日本、AWS 用户组、Global AI Note、KubeDay 新加坡等活动中发表演讲。Miley 撰写技术内容并组织开发者活动，包括 KCD 深圳、OpenSource Fairs 以及在台北、新加坡、中国等地举办的 WebAssembly &amp;amp; Rust Meetups。</description>
     </item>
     
     <item>
@@ -1034,24 +1115,16 @@ Peggy Dong: 蚂蚁金服集团，开源治理专家
     </item>
     
     <item>
-      <title>量子AI：超智能时代的黎明</title>
-      <link>/zh/sessions/ai-897112.html</link>
+      <title>采用 MCP 还是不用 MCP？使用开放协议设计可组合的 AI 系统</title>
+      <link>/zh/sessions/ai-904935.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
       
-      <guid>/zh/sessions/ai-897112.html</guid>
-      <description>量子计算与人工智能的融合即将打破经典计算的极限，开启超智能时代。当量子增强模型能够实现指数级学习、秒解复杂问题并重新定义决策过程时，我们是否正在进入一个AI将超越人类理解范畴的新纪元？
-本场演讲将探索人工智能的下一个前沿领域，重点关注：
-量子机器学习（QML）：AI如何利用量子力学实现前所未有的问题解决能力
-量子神经网络：AI能否实现超乎想象规模的学习？
-量子叠加与并行：AI是否会从序列推理进化到多维思考模式？
-理论启示：量子AI是否会成为人工超级智能（ASI）的基石？
-当我们迈向AI驱动的科学发现、后人类智能和潜在的知识奇点时，本演讲将挑战传统AI范式，并探讨当AI不再像人类一样思考——而是远超人类时的可能性。
-演讲嘉宾： 
-Prakul Hiremath: VISVESVARAYA TECHNOLOGICAL UNIVERSITY, UNDERGRADUATE B.TECH STUDENT AND BIOLOOP, CEO AND FOUNDER
-Prakul Hiremath是来自印度VTU Belagavi的研究员、技术专家和创新者，专注于人工智能、网络安全和系统优化的交叉领域。怀着对人工智能、计算系统和未来技术的深厚热情，他积极投身于AI驱动的网络安全、医学信号分析和工业4.0创新的研究。
-他的工作涵盖AI驱动的威胁检测、预测分析和高性能计算，重点突破智能系统和自主决策的边界。同时，他也在探索AI增强生命体、后人类智能和知识进化，致力于为未来技术贡献突破性见解。
-除AI和网络安全研究外，Prakul还积极参与Bioloop——一个融合生物技术与人工智能的创新研究项目，致力于开发可持续性、医疗保健和工业自动化领域的尖端解决方案。Bioloop旨在通过创建优化生物与技术流程的新一代智能生态系统，彻底革新生物AI系统。
-在Community Over Code Asia 2025大会上，Prakul将探讨AI势不可挡的崛起、它带来的挑战，以及对技术未来、社会发展和人类智能的深远影响。</description>
+      <guid>/zh/sessions/ai-904935.html</guid>
+      <description>我们该如何为 AI 代理设计工具和服务？应该继续开发定制 API，还是有更好的方法？本次演讲将介绍模型上下文协议（MCP）——这是一种新的开放协议，使 AI 代理能够以安全、结构化的方式发现和调用外部工具。
+我们将介绍 MCP 的基础知识（主机/客户端/服务器角色、生命周期、标准 I/O 与 HTTP 的对比），将其与现有的代理工具 API（LangChain、OpenAI 工具格式）进行比较，并讨论为什么需要开放协议来避免 AI 生态系统的碎片化。通过实际案例，我们将讨论如何将现有的 CLI 工具或 API 转换为 MCP 服务，以及如何通过 Wasm 运行时或无服务器函数安全地公开它。
+讲师: 
+Miley Fu: CNCF 大使、开源运行时 WasmEdge 创始成员
+Miley 是一位开发者倡导者，热衷于帮助开发者构建和贡献开源项目。她是 KubeCon+Open Source Summit 和 AI Dev China 2024 的联席主席和主题演讲嘉宾。作为 CNCF 沙箱中 WasmEdge 运行时的创始成员，她拥有超过 5 年的相关经验，并曾在 KubeCon、KCD 深圳、CloudDay 意大利、DevRelCon、Open Source Summit 日本、AWS 用户组、Global AI Note、KubeDay 新加坡等活动中发表演讲。Miley 撰写技术内容并组织开发者活动，包括 KCD 深圳、OpenSource Fairs 以及在台北、新加坡、中国等地举办的 WebAssembly &amp;amp; Rust Meetups。</description>
     </item>
     
     <item>
@@ -1998,6 +2071,18 @@ Erik Fang，蚂蚁集团软件工程师，技术负责人</description>
     </item>
     
     <item>
+      <title>AI Agent：开启现实世界AI应用的金钥匙</title>
+      <link>/zh/sessions/keynote-969043.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-969043.html</guid>
+      <description>AI智能体通过融合感知、决策与自主行动，弥合了理论AI模型与实际应用之间的鸿沟。依托机器学习、自然语言处理和实时分析技术，它们能动态适应环境变化与用户需求，实现无缝交互与智能自动化。这类系统可优化工作流程、减少人工干预并提升可扩展性，成为AI现实落地的关键推手。作为AI应用的&amp;quot;金钥匙&amp;quot;，它们简化集成流程、加速创新步伐，助力企业通过自适应、持续进化的智能系统获得切实成果。
+讲师: 
+Jingyu Wang: 阿里云资深技术专家
+阿里云资深技术专家</description>
+    </item>
+    
+    <item>
       <title>DataOps</title>
       <link>/zh/tracks/dataops.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2043,6 +2128,18 @@ Erik Fang，蚂蚁集团软件工程师，技术负责人</description>
       <guid>/zh/tracks/rust.html</guid>
       <description>Rust 生态系统正在蓬勃发展。许多 ASF 项目都提供了 Rust SDK，不少新的 ASF 项目主要用 Rust 编写，例如 Apache OpenDAL 和 Apache HoraeDB (Incubating) 等等。
 Rust 专场旨在分享 ASF 内部及开源生态中 Rust 项目和集成的演变历程，展示 ASF 项目如何提供良好的 Rust 实践，并说明孵化器如何帮助 Rust 项目在 The Apache Way 的指导下健康地发展社区。</description>
+    </item>
+    
+    <item>
+      <title>TRAE，真正的AI工程师</title>
+      <link>/zh/sessions/keynote-970364.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-970364.html</guid>
+      <description>在软件吞噬世界的时代，代码作为基石，奠定了互联网时代的繁荣。在 AI 驱动的今天，它正在开启下一轮的跃迁。我们可以通过自然语言与大模型交互生成可执行的代码、通过IDE自动感知补全代码逻辑、通过智能体调试复杂的应用。AI 让编程这件事情不再是少数人的技能，而成为更多人实现想法的手段。这不仅是生产力的飞升，更是开发者边界的重塑。TRAE ，The Real AI Engineer，希望帮助全球开发者提升整体的研发效能、加速软件的创新。
+讲师: 
+王 涛: Product Manager of Trae, ByteDance
+Product Manager of Trae, ByteDance 字节跳动 Trae 产品经理</description>
     </item>
     
     <item>
@@ -2128,6 +2225,23 @@ Richard 在 4 个不同的国家（新加坡、加拿大、美国和中国）学
 讲师: 
 王伟: 华东师范大学教授
 王伟，现任华东师范大学数据科学与工程学院教授，X-lab 开放实验室创始人。他是中国计算机学会（CCF）杰出会员、CCF 开源发展委员会成员、中国电子技术标准化研究院开源治理系列标准负责人、木兰开源社区技术委员会委员、开源俱乐部主任。他的研究兴趣是开源开发生态。</description>
+    </item>
+    
+    <item>
+      <title>从代码提交到资本运作：将开源热情转化为创业征程</title>
+      <link>/zh/sessions/keynote-972824.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-972824.html</guid>
+      <description>从 Commits 到 Capital：用开源热情点燃创业之旅
+开源世界常被看作是代码、协作与社区的乐土。但对创业者来说，它同样充满了商业抉择、投资人的抉择，以及在理想与生存之间艰难平衡的挑战。
+在这次演讲中，我将分享一个真实且坦率的故事：一个由热爱驱动、在全球社区支持下成长起来的 Apache 项目，如何一步步走向商业化，最终成为服务企业客户的融资公司。我们将一起探讨：如何将社区的热情转化为可持续的商业模式、投资人常常误解开源创业的哪些关键问题，以及创始人如何在贡献者与客户之间的混乱中找到前行之路。
+如果你是一位在开源信念与商业现实之间艰难前行的技术创始人，这将是我希望当初有人告诉我的一份“生存指南”。
+讲师: 
+William Guo: WhaleOps CEO
+ Apache软件基金会成员  WhaleOps首席执行官  Apache DolphinScheduler项目管理委员会成员  Apache SeaTunnel项目管理委员会成员  2021/2022/2023/2024/2025 ApacheCon亚洲大会DataOps专题主席
+William 是 WhaleOps 公司的首席执行官，该公司由 Apache DolphinScheduler 和Apache SeaTunnel 的核心团队创立。其产品 WhaleStudio 是一款一体化数据集成与调度平台，能够简化数据集成及工作流管理，支持超过 290 种数据源。
+William 曾担任易观 CTO、联想集团高级大数据总监以及万达集团大数据总经理，并曾在中金公司、IBM 和 Teradata 担任大数据总监/经理等职。他拥有超过 20 年的大数据技术与数据管理领域从业经验。</description>
     </item>
     
     <item>
@@ -2328,7 +2442,7 @@ Craig 于 2005 年作为孵化中的 JDO 项目的提交者加入 Apache，并�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/zh/tracks/5minstalk.html</guid>
-      <description>window.location.href = &#39;/zh/tracks/keynote.html&#39;; </description>
+      <description>准备好迎接一场激动人心的闪电演讲环节吧！在这个快节奏和充满活力的环节中，数十位演讲者将登上舞台，每人用 5 分钟时间为大家带来各种有启发的观点和故事。这是一个体验多样化思想、视角和创新的绝佳机会。不要错过这个通过快速连续的影响力演讲来获得启发和参与的机会！</description>
     </item>
     
   </channel>
