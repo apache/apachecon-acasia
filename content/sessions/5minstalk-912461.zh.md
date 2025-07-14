@@ -17,7 +17,7 @@ stype: "中文演讲"
 ### 讲师:
 
 
-<img src="https://sessionize.com/image/6090-400o400o2-n3bWDuwcFBTwcL5S3YHkS7.jpg" width="200" /><br/>
+<img src="https://sessionize.com/image/de01-400o400o2-E7ebZmPfsiUEsffiUdgK9B.png" width="200" /><br/>
 
 Yunbo Ni: 即将入读香港中文大学博士项目，研究方向为软件测试。
 

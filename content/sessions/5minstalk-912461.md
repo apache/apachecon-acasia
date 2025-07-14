@@ -17,7 +17,7 @@ Our framework demonstrates the potential of modular, reuse-based design in AI4Te
 ### Speakers:
 
 
-<img src="https://sessionize.com/image/6090-400o400o2-n3bWDuwcFBTwcL5S3YHkS7.jpg" width="200" /><br/>
+<img src="https://sessionize.com/image/de01-400o400o2-E7ebZmPfsiUEsffiUdgK9B.png" width="200" /><br/>
 
 Yunbo Ni: Incoming PhD student at CUHK, focusing on research in testing.
 
