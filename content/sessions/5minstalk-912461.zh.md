@@ -17,11 +17,11 @@ stype: "中文演讲"
 ### 讲师:
 
 
-<img src="https://sessionize.com/image/c1b6-400o400o1-EsKgf3LeQewueGGTSwr33p.png" width="200" /><br/>
+<img src="https://sessionize.com/image/6090-400o400o2-n3bWDuwcFBTwcL5S3YHkS7.jpg" width="200" /><br/>
 
 Yunbo Ni: 即将入读香港中文大学博士项目，研究方向为软件测试。
 
-我目前是南京大学软件工程专业的本科生，师从SSCT实验室的杨峰教授，研究兴趣涵盖编程语言与软件工程领域。
+我目前是南京大学软件工程专业的本科生，师从SSCT实验室的冯洋教授，研究兴趣涵盖编程语言与软件工程领域。
 
 2025年秋季，我将加入香港中文大学（CUHK）攻读博士学位，由李少华教授指导。
 
