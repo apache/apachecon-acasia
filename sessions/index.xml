@@ -409,51 +409,9 @@ Future Outlook and Ecosystem Expansion  Directions for technological evolution A
     </item>
     
     <item>
-      <title>An Algorithm Engineer’s Detour through Open Source</title>
-      <link>/sessions/5minstalk-972704.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:45:00 +0000</pubDate>
-      
-      <guid>/sessions/5minstalk-972704.html</guid>
-      <description>In this talk, I’ll trace how a performance-obsessed algorithm engineer accidentally became an open-source advocate, eventually became an DevRel. I will share my experiences, observations and lessons learnt in this journey.
-Speakers: 
-nuo ma: 01.AI DevRel
-Currently DevRel@01.AI, Ph.D. candidate at Virginia Tech, USA. Former Technical Consultant at the University of Science and Technology of China &amp;amp; CETC. 10 years of experience in artificial intelligence and human-computer interaction. Co-authored the open-source Chinese dataset COIG-CQIA.</description>
-    </item>
-    
-    <item>
-      <title>Why We Chose Openness: The Story Behind JuiceFS Switching to Apache 2.0</title>
-      <link>/sessions/5minstalk-972635.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:40:00 +0000</pubDate>
-      
-      <guid>/sessions/5minstalk-972635.html</guid>
-      <description>In 2022, to mark its first anniversary as an open source project, JuiceFS made a bold move: switching its license from AGPLv3 to Apache 2.0. At a time when many projects were going the opposite direction—adopting more restrictive licenses—we doubled down on openness. This lightning talk shares the thinking behind that decision, the risks we weighed, and the unexpected benefits it brought. I’ll also reflect on how this choice has shaped the growth and community of JuiceFS over the past few years, and what it means for sustainable open source in a commercial world.</description>
-    </item>
-    
-    <item>
-      <title>My Open Source Experience in OceanBase Community</title>
-      <link>/sessions/5minstalk-962199.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:35:00 +0000</pubDate>
-      
-      <guid>/sessions/5minstalk-962199.html</guid>
-      <description>After joining OceanBase Cloud Native SIG, I wrote the command line management tool for OceanBase in k8s, called okctl, which can support the management of resources such as clusters, tenants, and backup strategies. At the same time, it also provides component installation and updates, simple cluster construction, and cluster connection functions. We later combined the MCP protocol and used okctl as the backend to build the MCP server, which provides the integrated function of cluster interaction, management, and inspection using natural language.</description>
-    </item>
-    
-    <item>
-      <title>SecretFlow--Open Source Privacy-Preserving Technology Framework</title>
-      <link>/sessions/5minstalk-941247.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:30:00 +0000</pubDate>
-      
-      <guid>/sessions/5minstalk-941247.html</guid>
-      <description>Introduce the technical background of privacy-preserving computation, discuss the existing challenges in current industrial applications of privacy-preserving computation, and then explain why SecretFlow is needed. Subsequently, what work SecretFlow has done to solve these problems.
-Speakers: 
-Mingyang Jia: Kuscia maintainer, Ant Misuan Technical Expert
-Kuscia Maintainer, platform framework technology expert at Ant Group&amp;rsquo;s Misuan Tech, primarily responsible for the development and performance optimization of Kuscia&amp;rsquo;s resource scheduling, cross-domain collaboration, and data services.</description>
-    </item>
-    
-    <item>
       <title>Apache Fineract – Powering Asia’s Fintech Future through Collaboration</title>
       <link>/sessions/5minstalk-913473.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:25:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jul 2025 11:30:00 +0000</pubDate>
       
       <guid>/sessions/5minstalk-913473.html</guid>
       <description>Fineract showcases how open-source collaboration between for-profit and non-profit organizations can transform Asia’s fintech landscape, offering a scalable, inclusive alternative to costly core banking solutions.
@@ -463,7 +421,7 @@ The Apache Fineract ecosystem, born from Mifos X’s backend, powers financial i
     <item>
       <title>Reimagining Software Testing with AI: A Reusable and Scalable Design</title>
       <link>/sessions/5minstalk-912461.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:20:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jul 2025 11:25:00 +0000</pubDate>
       
       <guid>/sessions/5minstalk-912461.html</guid>
       <description>With the growing demand for AI-driven software testing (AI4Testing), there is a pressing need for general and efficient frameworks that can leverage large language models (LLMs) to enhance software quality. However, existing LLM-based testing approaches often suffer from two key limitations: the generated test programs are overly simplistic, and exhaustive interaction with LLMs can be computationally expensive.
@@ -471,12 +429,83 @@ We propose a general framework that decouples the testing process into two disti
     </item>
     
     <item>
+      <title>My Open Source Experience in OceanBase Community</title>
+      <link>/sessions/5minstalk-962199.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:20:00 +0000</pubDate>
+      
+      <guid>/sessions/5minstalk-962199.html</guid>
+      <description>After joining OceanBase Cloud Native SIG, I wrote the command line management tool for OceanBase in k8s, called okctl, which can support the management of resources such as clusters, tenants, and backup strategies. At the same time, it also provides component installation and updates, simple cluster construction, and cluster connection functions. We later combined the MCP protocol and used okctl as the backend to build the MCP server, which provides the integrated function of cluster interaction, management, and inspection using natural language.</description>
+    </item>
+    
+    <item>
+      <title>SecretFlow--Open Source Privacy-Preserving Technology Framework</title>
+      <link>/sessions/5minstalk-941247.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:15:00 +0000</pubDate>
+      
+      <guid>/sessions/5minstalk-941247.html</guid>
+      <description>Introduce the technical background of privacy-preserving computation, discuss the existing challenges in current industrial applications of privacy-preserving computation, and then explain why SecretFlow is needed. Subsequently, what work SecretFlow has done to solve these problems.
+Speakers: 
+Mingyang Jia: Kuscia maintainer, Ant Misuan Technical Expert
+Kuscia Maintainer, platform framework technology expert at Ant Group&amp;rsquo;s Misuan Tech, primarily responsible for the development and performance optimization of Kuscia&amp;rsquo;s resource scheduling, cross-domain collaboration, and data services.</description>
+    </item>
+    
+    <item>
+      <title>Why We Chose Openness: The Story Behind JuiceFS Switching to Apache 2.0</title>
+      <link>/sessions/5minstalk-972635.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:10:00 +0000</pubDate>
+      
+      <guid>/sessions/5minstalk-972635.html</guid>
+      <description>In 2022, to mark its first anniversary as an open source project, JuiceFS made a bold move: switching its license from AGPLv3 to Apache 2.0. At a time when many projects were going the opposite direction—adopting more restrictive licenses—we doubled down on openness. This lightning talk shares the thinking behind that decision, the risks we weighed, and the unexpected benefits it brought. I’ll also reflect on how this choice has shaped the growth and community of JuiceFS over the past few years, and what it means for sustainable open source in a commercial world.</description>
+    </item>
+    
+    <item>
+      <title>An Algorithm Engineer’s Detour through Open Source</title>
+      <link>/sessions/5minstalk-972704.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:05:00 +0000</pubDate>
+      
+      <guid>/sessions/5minstalk-972704.html</guid>
+      <description>In this talk, I’ll trace how a performance-obsessed algorithm engineer accidentally became an open-source advocate, eventually became an DevRel. I will share my experiences, observations and lessons learnt in this journey.
+Speakers: 
+nuo ma: 01.AI DevRel
+Currently DevRel@01.AI, Ph.D. candidate at Virginia Tech, USA. Former Technical Consultant at the University of Science and Technology of China &amp;amp; CETC. 10 years of experience in artificial intelligence and human-computer interaction. Co-authored the open-source Chinese dataset COIG-CQIA.</description>
+    </item>
+    
+    <item>
       <title>Unified Scheduler for Stream &amp; Batch &amp; Graph Computing</title>
       <link>/sessions/5minstalk-907157.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:15:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jul 2025 11:00:00 +0000</pubDate>
       
       <guid>/sessions/5minstalk-907157.html</guid>
       <description>As the demand for analyzing and computing complex relational graph data in the big data domain continues to grow, the need for real-time graph computing capabilities in scenarios such as financial risk control and group detection is also on the rise. This requires large-scale graph computation engines to simultaneously provide low latency and high throughput. Currently, stream-batch integrated computing engines are the future direction, but the iterative nature of graph computation differs fundamentally from traditional stream and batch processing.</description>
+    </item>
+    
+    <item>
+      <title>Growth and Commercialization in Overseas Expansion of Tech Products</title>
+      <link>/sessions/keynote-977589.html</link>
+      <pubDate>Sun, 27 Jul 2025 10:15:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-977589.html</guid>
+      <description>With the surging global market demand for intelligent and digital products, for open-source, Infra, and numerous application developers, the phase of asking &amp;ldquo;Why&amp;rdquo; regarding overseas expansion has passed. Instead, they are now more focused on specific methodologies centered around &amp;ldquo;How&amp;rdquo;. This panel has invited practical experts with rich experience in overseas expansion of AI applications, founders of chuhaiqu.club, and community leader who has been in charge of the open source and developer ecosystems of multiple products.</description>
+    </item>
+    
+    <item>
+      <title>The Seven Year Itch: My Apache Story</title>
+      <link>/sessions/keynote-961585.html</link>
+      <pubDate>Sun, 27 Jul 2025 09:45:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-961585.html</guid>
+      <description>This is my seventh year at The Apache Software Foundation. Starting as a contributor, I earned my first commit bit while working on the Apache Flink project. The more I contribute to ASF projects, the more credits I earn in their community.
+Now I&amp;rsquo;m a board member of the ASF and an active incubator mentor who has mentored more than seven podling projects. Welcome to join this session to learn how I grow in the broader ASF community, and what I&amp;rsquo;m looking for on collborators in the ASF for the following years.</description>
+    </item>
+    
+    <item>
+      <title>The Convergence of Chinese Traditional Culture and Open Source</title>
+      <link>/sessions/keynote-969008.html</link>
+      <pubDate>Sun, 27 Jul 2025 09:30:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-969008.html</guid>
+      <description>Throughout China&amp;rsquo;s long history, the spirit of the Shi has existed as an intangible essence—independent individuals uplifting and safeguarding societal development through public-minded ethos. With the advent of the modern digital economy, the fluidity of digital production factors dissolves physical constraints, the networked nature of collaboration transcends traditional organizational boundaries, and exponential productivity growth transforms value creation dynamics. This threefold transformation is reshaping humanity&amp;rsquo;s cognitive paradigms and cultural DNA.
+China must construct a cultural-intellectual framework compatible with the digital economy.</description>
     </item>
     
     <item>
@@ -940,6 +969,47 @@ Attendees will gain practical insights into how to apply these patterns to creat
 to submit patches to a project/podling? to become a committer on a project/podling? to release code to the public? to maintain trademarks for a project/podling?
 This talk explains what common barriers are to accomplishing objectives of people and projects. It explains why The ASF has:
  licensing requirements for code contributions and releases, download, signing, and checksum protocols voting requirements for releases and project membership trademark requirements for web sites and documentation  With a better common understanding of the legal and technical reasons for apparently arbitrary requirements, people will have an appreciation for how things can be easier.</description>
+    </item>
+    
+    <item>
+      <title>The Golden Age of Independent Developers</title>
+      <link>/sessions/keynote-976164.html</link>
+      <pubDate>Sat, 26 Jul 2025 11:30:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-976164.html</guid>
+      <description>As the AI wave surges, what opportunities and challenges await independent developers? This panel brings together founders and core members of leading projects including SegmentFault, VibeCafé, Chuhaiqu.club, Apache Answer, and SiliconFlow to address pivotal AI-era themes:
+ Unlocking Opportunities: How does AI empower solo developers to pioneer new domains, amplify impact, and build commercial viability? Tackling Challenges: What strategies combat rapid tech evolution, toolchain complexity, and competitive pressure to ensure sustainability?</description>
+    </item>
+    
+    <item>
+      <title>From Commits to Capital: Turning Open Source Passion into a Startup Journey</title>
+      <link>/sessions/keynote-972824.html</link>
+      <pubDate>Sat, 26 Jul 2025 10:30:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-972824.html</guid>
+      <description>Open source is often seen as a world of code, collaboration, and community. But for founders, it can also be a tough place filled with business choices, doubts from investors, and the challenge of balancing ideals with survival.
+In this talk, I’ll share a real and honest story of how an Apache project—started with passion and supported by a global community—grew into a funded company that now serves enterprise customers. We’ll explore how community love was transformed into a sustainable business model, what VCs often get wrong about OSS startups, and how founders can navigate the chaos between contributors and customers.</description>
+    </item>
+    
+    <item>
+      <title>How to Keep Your Open Source Project Going After the Hype Dies Down</title>
+      <link>/sessions/keynote-915301.html</link>
+      <pubDate>Sat, 26 Jul 2025 10:00:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-915301.html</guid>
+      <description>This session will explain the Gartner Hype Cycle and how it applies to open source software projects. I&amp;rsquo;ll share insight into the role that both word-of-mouth and social media play in getting developers to contribute to your open source project. We&amp;rsquo;ll discuss how to get attention and how to adapt as that attention inevitably fades.
+freeCodeCamp&amp;rsquo;s open source project has over 400,000 stars on GitHub and more than 50,000 codebase contributions over the past 10 years.</description>
+    </item>
+    
+    <item>
+      <title>Insights into the Apache Community from China Open Source Annual Report</title>
+      <link>/sessions/keynote-914074.html</link>
+      <pubDate>Sat, 26 Jul 2025 09:30:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-914074.html</guid>
+      <description>With the rapid development of the global open-source ecosystem, the influence of China&amp;rsquo;s open-source community on the international stage has continued to grow. This report is based on data analysis from the China Open Source Annual Report, focusing on the participation, technical contributions, and development trends of the Apache open-source community in China. It aims to reveal the community&amp;rsquo;s role and challenges within the global open-source ecosystem.
+Speakers: 
+Wei Wang: Professor of East China Normal University</description>
     </item>
     
     <item>
@@ -1452,28 +1522,28 @@ Erik Fang, Software Engineer at Ant Group, Tech Leader</description>
     </item>
     
     <item>
-      <title>AI Agent: The Golden Key to Unlock Real-World AI Applications</title>
-      <link>/sessions/keynote-969043.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>AI Reinvents Development: From Tool Revolution to Developer Evolution</title>
+      <link>/sessions/keynote-976738.html</link>
+      <pubDate>Fri, 25 Jul 2025 11:30:00 +0000</pubDate>
       
-      <guid>/sessions/keynote-969043.html</guid>
-      <description>AI Agents bridge the gap between theoretical AI models and practical implementation by combining perception, decision-making, and autonomous action. Leveraging machine learning, natural language processing, and real-time analytics, they adapt to dynamic environments and user needs, enabling seamless interaction and intelligent automation. These systems streamline workflows, reduce human intervention, and enhance scalability, making them a critical enabler for deploying AI in real-world scenarios. As the &amp;ldquo;golden key&amp;rdquo; to AI application, they simplify integration, accelerate innovation, and empower organizations to achieve tangible outcomes through adaptive, self-improving intelligent systems.</description>
+      <guid>/sessions/keynote-976738.html</guid>
+      <description>AI is reshaping software development at an unprecedented pace. As AI becomes developers&#39; &amp;ldquo;super collaborator,&amp;rdquo; does the leap in development efficiency come with a restructuring of capability requirements? How will the intelligentization of toolchains break down technical barriers and spawn new career tracks? Facing the new balance of human-machine collaboration, how should developers break through and evolve?
+This panel brings together tech experts from AutoCoder, Linkerbot，SiliconFlow, and ByteDance. With deep expertise in AI-assisted development tools, intelligent programming frameworks, and engineering practices, they will multi-dimensionally analyze how AI is reconstructing the entire process from code generation and debugging optimization to system architecture, while exploring the opportunities and challenges for developers behind this transformation.</description>
     </item>
     
     <item>
-      <title>Code, Culture, and Policy: Shaping Asia’s Open Source Future in a Global Context</title>
-      <link>/sessions/keynote-889680.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>TRAE, The Real AI Engineer</title>
+      <link>/sessions/keynote-970364.html</link>
+      <pubDate>Fri, 25 Jul 2025 11:15:00 +0000</pubDate>
       
-      <guid>/sessions/keynote-889680.html</guid>
-      <description>As open source becomes vital for global innovation, the impact of policymaking on its growth is crucial. This keynote explores the unique challenges and opportunities for Asia&amp;rsquo;s open source ecosystem, contrasting it with Western legislative frameworks like the U.S. CHIPS Act and Europe’s Cyber Resilience Act (CRA). While these policies aim to enhance technological leadership, Asia’s approach—shaped by its cultural and geopolitical context—presents a distinct narrative.
-With initiatives like China’s 14th Five-Year Plan promoting indigenous technologies, Taiwan’s g0v community driving civic tech innovation, and India&amp;rsquo;s policy on adoption of OSS in e-Governance, Asia is forging its path.</description>
+      <guid>/sessions/keynote-970364.html</guid>
+      <description>In an era where software is eating the world, code serves as the cornerstone, laying the foundation for the prosperity of the internet age. Today, driven by AI, it is ushering in the next leap forward. We can now interact with large models using natural language to generate executable code, leverage IDEs to automatically sense and complete code logic, and employ intelligent agents to debug complex applications. AI is transforming programming from a skill reserved for the few into a tool for many to bring their ideas to life.</description>
     </item>
     
     <item>
       <title>Empowering the next wave of developer innovation with GenAI in the open source ecosystem</title>
       <link>/sessions/keynote-961672.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Jul 2025 11:00:00 +0000</pubDate>
       
       <guid>/sessions/keynote-961672.html</guid>
       <description>In the rapidly evolving landscape where open-source, cloud computing, and generative AI converge, Amazon Web Services (AWS) and the Apache Software Foundation have established a strategic partnership that is redefining developer experiences. This keynote will explore how AWS harnesses the transformative power of generative AI to empower Apache open-source project developers through intelligent cloud-native services and AI-enhanced development platforms.
@@ -1481,40 +1551,18 @@ We will showcase how generative AI is revolutionizing developer workflows for co
     </item>
     
     <item>
-      <title>From Commits to Capital: Turning Open Source Passion into a Startup Journey</title>
-      <link>/sessions/keynote-972824.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>AI Agent: The Golden Key to Unlock Real-World AI Applications</title>
+      <link>/sessions/keynote-969043.html</link>
+      <pubDate>Fri, 25 Jul 2025 10:45:00 +0000</pubDate>
       
-      <guid>/sessions/keynote-972824.html</guid>
-      <description>Open source is often seen as a world of code, collaboration, and community. But for founders, it can also be a tough place filled with business choices, doubts from investors, and the challenge of balancing ideals with survival.
-In this talk, I’ll share a real and honest story of how an Apache project—started with passion and supported by a global community—grew into a funded company that now serves enterprise customers. We’ll explore how community love was transformed into a sustainable business model, what VCs often get wrong about OSS startups, and how founders can navigate the chaos between contributors and customers.</description>
-    </item>
-    
-    <item>
-      <title>How to Keep Your Open Source Project Going After the Hype Dies Down</title>
-      <link>/sessions/keynote-915301.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sessions/keynote-915301.html</guid>
-      <description>This session will explain the Gartner Hype Cycle and how it applies to open source software projects. I&amp;rsquo;ll share insight into the role that both word-of-mouth and social media play in getting developers to contribute to your open source project. We&amp;rsquo;ll discuss how to get attention and how to adapt as that attention inevitably fades.
-freeCodeCamp&amp;rsquo;s open source project has over 400,000 stars on GitHub and more than 50,000 codebase contributions over the past 10 years.</description>
-    </item>
-    
-    <item>
-      <title>Insights into the Apache Community from China Open Source Annual Report</title>
-      <link>/sessions/keynote-914074.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sessions/keynote-914074.html</guid>
-      <description>With the rapid development of the global open-source ecosystem, the influence of China&amp;rsquo;s open-source community on the international stage has continued to grow. This report is based on data analysis from the China Open Source Annual Report, focusing on the participation, technical contributions, and development trends of the Apache open-source community in China. It aims to reveal the community&amp;rsquo;s role and challenges within the global open-source ecosystem.
-Speakers: 
-Wei Wang: Professor of East China Normal University</description>
+      <guid>/sessions/keynote-969043.html</guid>
+      <description>AI Agents bridge the gap between theoretical AI models and practical implementation by combining perception, decision-making, and autonomous action. Leveraging machine learning, natural language processing, and real-time analytics, they adapt to dynamic environments and user needs, enabling seamless interaction and intelligent automation. These systems streamline workflows, reduce human intervention, and enhance scalability, making them a critical enabler for deploying AI in real-world scenarios. As the &amp;ldquo;golden key&amp;rdquo; to AI application, they simplify integration, accelerate innovation, and empower organizations to achieve tangible outcomes through adaptive, self-improving intelligent systems.</description>
     </item>
     
     <item>
       <title>Product Development in the Age of AI: What Changes, What Remains</title>
       <link>/sessions/keynote-961040.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Jul 2025 10:15:00 +0000</pubDate>
       
       <guid>/sessions/keynote-961040.html</guid>
       <description>The rapid advancement of GenAI is fundamentally reshaping the rules of the product world. Beyond transforming product features from “AI-enhanced” to fully “AI-native,” the entire development process is being redefined. From user research and design prototyping to coding, deployment, and iteration, AI is increasingly involved at every stage of the product lifecycle—making it more feasible than ever for a single individual to take a product from idea to launch.
@@ -1524,29 +1572,10 @@ In the face of this paradigm shift, the role of the product manager is undergoin
     <item>
       <title>Rising to the Challenges in Security</title>
       <link>/sessions/keynote-914928.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Jul 2025 09:45:00 +0000</pubDate>
       
       <guid>/sessions/keynote-914928.html</guid>
       <description>This talk discusses the current state of security in open source software, and in particular, how the ASF is responding to the growing threat. The ASF started with the first project: a web server running on an open source operating system. Since then, the organization has built hundreds of communities based on principles of openness, collaboration, and public good. Open source is now considered to be the principal component of most commercial software projects, accounting for some 90% of all commercial code, with an estimated value of USD $8.</description>
-    </item>
-    
-    <item>
-      <title>The Seven Year Itch: My Apache Story</title>
-      <link>/sessions/keynote-961585.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sessions/keynote-961585.html</guid>
-      <description>This is my seventh year at The Apache Software Foundation. Starting as a contributor, I earned my first commit bit while working on the Apache Flink project. The more I contribute to ASF projects, the more credits I earn in their community.
-Now I&amp;rsquo;m a board member of the ASF and an active incubator mentor who has mentored more than seven podling projects. Welcome to join this session to learn how I grow in the broader ASF community, and what I&amp;rsquo;m looking for on collborators in the ASF for the following years.</description>
-    </item>
-    
-    <item>
-      <title>TRAE, The Real AI Engineer</title>
-      <link>/sessions/keynote-970364.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sessions/keynote-970364.html</guid>
-      <description>In an era where software is eating the world, code serves as the cornerstone, laying the foundation for the prosperity of the internet age. Today, driven by AI, it is ushering in the next leap forward. We can now interact with large models using natural language to generate executable code, leverage IDEs to automatically sense and complete code logic, and employ intelligent agents to debug complex applications. AI is transforming programming from a skill reserved for the few into a tool for many to bring their ideas to life.</description>
     </item>
     
   </channel>

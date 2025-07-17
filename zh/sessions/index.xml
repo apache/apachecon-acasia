@@ -547,57 +547,9 @@ Minghui Zhang: 阿里云, 杭州
     </item>
     
     <item>
-      <title>一名算法工程师的开源之旅</title>
-      <link>/zh/sessions/5minstalk-972704.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:45:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/5minstalk-972704.html</guid>
-      <description>在这次演讲中，我将讲述一位痴迷于性能优化的算法工程师如何意外成为开源倡导者，并最终转型为开发者关系（DevRel）专家的历程。我将分享这段旅程中的亲身经历、观察所得以及收获的重要启示。
-讲师: 
-nuo ma: 01.AI DevRel
-目前就职于 01.AI 开发者关系部门，美国弗吉尼亚理工大学博士候选人。曾担任中国科学技术大学与中国电子科技集团技术顾问。拥有十年人工智能与人机交互领域经验。共同创建开源中文数据集 COIG-CQIA。</description>
-    </item>
-    
-    <item>
-      <title>我们为何选择开放：JuiceFS 转向 Apache 2.0 背后的故事</title>
-      <link>/zh/sessions/5minstalk-972635.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:40:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/5minstalk-972635.html</guid>
-      <description>2022年，为庆祝开源一周年，JuiceFS 做出了一个大胆决定：将许可证从 AGPLv3 更改为 Apache 2.0。当众多项目选择收紧许可协议时，我们却选择进一步拥抱开放。本次闪电演讲将揭秘这一决策背后的思考、我们权衡的风险，以及由此带来的意外收获。同时我将分享这一选择如何塑造 JuiceFS 近年来的发展轨迹与社区生态，以及对商业化环境下可持续开源模式的启示。
-讲师: 
-Rui Su: 开源倡导者、云原生分布式文件系统JuiceFS联合创始人
-Rui Su 是 Juicedata 联合创始人，同时也是开源分布式文件系统 JuiceFS 的创造者。该系统基于对象存储构建，七年来在他的带领下完成了从闭源系统到全球广泛采用的 Apache 2.0 开源项目的蜕变。作为分布式存储领域的活跃贡献者，在创立 Juicedata 之前，苏锐曾创办初创公司并主导开发了当时中国唯一获得奥地利电子艺术大奖（Prix Ars Electronica）金尼卡奖的在线社区。</description>
-    </item>
-    
-    <item>
-      <title>我在 OceanBase 社区的开源经历</title>
-      <link>/zh/sessions/5minstalk-962199.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:35:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/5minstalk-962199.html</guid>
-      <description>加入 OceanBase 云原生 SIG 后，我开发了 OceanBase 在 k8s 环境下的命令行管理工具 okctl。该工具支持集群、租户、备份策略等资源的管理，同时提供组件安装更新、简易集群构建及集群连接功能。我们后续结合 MCP 协议，以 okctl 为后端搭建了 MCP 服务器，实现了通过自然语言进行集群交互、管理和巡检的一体化功能。
-讲师: 
-Ziyi Li: 武汉大学学生
-武汉大学二年级硕士研究生，OceanBase开源社区Committer，对向量数据库、云原生及AI相关技术感兴趣。</description>
-    </item>
-    
-    <item>
-      <title>SecretFlow — 开源隐私保护技术框架</title>
-      <link>/zh/sessions/5minstalk-941247.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:30:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/5minstalk-941247.html</guid>
-      <description>介绍隐私计算的技术背景，探讨当前隐私计算在工业应用中存在的挑战，进而说明为什么需要SecretFlow。随后阐述SecretFlow为解决这些问题做了哪些工作。
-讲师: 
-Mingyang Jia: Kuscia 项目维护者、蚂蚁集团密算科技平台架构技术专家
-作为 Kuscia 项目的核心维护者，现任蚂蚁集团密算科技平台架构技术专家，主导 Kusci 资源调度、跨域协作及数据服务等核心模块的研发与性能优化工作。拥有深厚的云原生领域开发经验，精通 Kubernetes、K3S、Envoy 等云原生技术栈。</description>
-    </item>
-    
-    <item>
       <title>Apache Fineract — 携手合作，驱动亚洲金融科技未来</title>
       <link>/zh/sessions/5minstalk-913473.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:25:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jul 2025 11:30:00 +0000</pubDate>
       
       <guid>/zh/sessions/5minstalk-913473.html</guid>
       <description>Fineract展示了营利与非营利组织间的开源协作如何重塑亚洲金融科技格局，为昂贵的核心银行系统提供了可扩展、普惠的替代方案。
@@ -615,7 +567,7 @@ Terence Monteiro 是一位拥有21年以上经验的资深科技创业者，以�
     <item>
       <title>用AI重新构想软件测试：一种可复用且可扩展的设计</title>
       <link>/zh/sessions/5minstalk-912461.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:20:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jul 2025 11:25:00 +0000</pubDate>
       
       <guid>/zh/sessions/5minstalk-912461.html</guid>
       <description>随着人工智能驱动的软件测试（AI4Testing）需求日益增长，业界亟需通用且高效的框架来利用大语言模型（LLM）提升软件质量。然而，现有基于LLM的测试方法普遍存在两大局限：生成的测试程序过于简单化，而与LLM的密集交互又会带来高昂的计算成本。
@@ -629,15 +581,108 @@ Yunbo Ni: 即将入读香港中文大学博士项目，研究方向为软件测�
     </item>
     
     <item>
+      <title>我在 OceanBase 社区的开源经历</title>
+      <link>/zh/sessions/5minstalk-962199.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:20:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/5minstalk-962199.html</guid>
+      <description>加入 OceanBase 云原生 SIG 后，我开发了 OceanBase 在 k8s 环境下的命令行管理工具 okctl。该工具支持集群、租户、备份策略等资源的管理，同时提供组件安装更新、简易集群构建及集群连接功能。我们后续结合 MCP 协议，以 okctl 为后端搭建了 MCP 服务器，实现了通过自然语言进行集群交互、管理和巡检的一体化功能。
+讲师: 
+Ziyi Li: 武汉大学学生
+武汉大学二年级硕士研究生，OceanBase开源社区Committer，对向量数据库、云原生及AI相关技术感兴趣。</description>
+    </item>
+    
+    <item>
+      <title>SecretFlow — 开源隐私保护技术框架</title>
+      <link>/zh/sessions/5minstalk-941247.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/5minstalk-941247.html</guid>
+      <description>介绍隐私计算的技术背景，探讨当前隐私计算在工业应用中存在的挑战，进而说明为什么需要SecretFlow。随后阐述SecretFlow为解决这些问题做了哪些工作。
+讲师: 
+Mingyang Jia: Kuscia 项目维护者、蚂蚁集团密算科技平台架构技术专家
+作为 Kuscia 项目的核心维护者，现任蚂蚁集团密算科技平台架构技术专家，主导 Kusci 资源调度、跨域协作及数据服务等核心模块的研发与性能优化工作。拥有深厚的云原生领域开发经验，精通 Kubernetes、K3S、Envoy 等云原生技术栈。</description>
+    </item>
+    
+    <item>
+      <title>我们为何选择开放：JuiceFS 转向 Apache 2.0 背后的故事</title>
+      <link>/zh/sessions/5minstalk-972635.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:10:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/5minstalk-972635.html</guid>
+      <description>2022年，为庆祝开源一周年，JuiceFS 做出了一个大胆决定：将许可证从 AGPLv3 更改为 Apache 2.0。当众多项目选择收紧许可协议时，我们却选择进一步拥抱开放。本次闪电演讲将揭秘这一决策背后的思考、我们权衡的风险，以及由此带来的意外收获。同时我将分享这一选择如何塑造 JuiceFS 近年来的发展轨迹与社区生态，以及对商业化环境下可持续开源模式的启示。
+讲师: 
+Rui Su: 开源倡导者、云原生分布式文件系统JuiceFS联合创始人
+Rui Su 是 Juicedata 联合创始人，同时也是开源分布式文件系统 JuiceFS 的创造者。该系统基于对象存储构建，七年来在他的带领下完成了从闭源系统到全球广泛采用的 Apache 2.0 开源项目的蜕变。作为分布式存储领域的活跃贡献者，在创立 Juicedata 之前，苏锐曾创办初创公司并主导开发了当时中国唯一获得奥地利电子艺术大奖（Prix Ars Electronica）金尼卡奖的在线社区。</description>
+    </item>
+    
+    <item>
+      <title>一名算法工程师的开源之旅</title>
+      <link>/zh/sessions/5minstalk-972704.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:05:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/5minstalk-972704.html</guid>
+      <description>在这次演讲中，我将讲述一位痴迷于性能优化的算法工程师如何意外成为开源倡导者，并最终转型为开发者关系（DevRel）专家的历程。我将分享这段旅程中的亲身经历、观察所得以及收获的重要启示。
+讲师: 
+nuo ma: 01.AI DevRel
+目前就职于 01.AI 开发者关系部门，美国弗吉尼亚理工大学博士候选人。曾担任中国科学技术大学与中国电子科技集团技术顾问。拥有十年人工智能与人机交互领域经验。共同创建开源中文数据集 COIG-CQIA。</description>
+    </item>
+    
+    <item>
       <title>统一调度器：支持流计算、批处理与图计算</title>
       <link>/zh/sessions/5minstalk-907157.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:15:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jul 2025 11:00:00 +0000</pubDate>
       
       <guid>/zh/sessions/5minstalk-907157.html</guid>
       <description>随着大数据领域对复杂关系图数据的分析和计算需求不断增长，金融风控、团伙发现等场景对实时图计算能力的需求也日益迫切，这要求大规模图计算引擎需同时具备低延迟和高吞吐能力。当前流批一体计算引擎是未来方向，但图计算的迭代特性与传统流批处理存在本质差异，围绕图迭代构建流-批-图一体化计算引擎是一大技术挑战。由蚂蚁集团图计算团队自主研发的GeaFlow是业界首个大规模分布式流式图计算引擎，支持超大规模图上的实时图计算、离线图计算以及在线探索分析。本次分享将介绍GeaFlow如何将执行作业拆分为流、批、图任务进行统一编排，构建高效的流-批-图一体化调度执行框架。
 讲师: 
 Congbin Qiao: 蚂蚁集团技术专家
 Congbin Qiao 是蚂蚁集团的技术专家，专注于大数据、分布式计算和图计算领域。自2020年加入蚂蚁集团图计算团队以来，他深度参与了蚂蚁自研流式图计算引擎GeaFlow的核心研发工作，支撑业务场景中海量图数据的实时计算与分析。</description>
+    </item>
+    
+    <item>
+      <title>技术产品出海征程中的用户增长与商业化</title>
+      <link>/zh/sessions/keynote-977589.html</link>
+      <pubDate>Sun, 27 Jul 2025 10:15:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-977589.html</guid>
+      <description>随着全球市场对智能化、数字化产品需求的激增，出海对于开源、Infra 和众多应用开发者而言，已经走过问“Why”的阶段，更关注围绕“How”展开的具体的方法论。本次 Panel 我们邀请到了有着丰富 AI 应用出海经验的实战专家、出海去孵化器的创始人和曾负责过多个产品开源与开发者生态的社区领袖，为大家深入解析海外市场的多元化增长路径，重点探讨实效获客手段，包括：如何借助红人营销撬动本地圈层影响力，通过社交媒体精准触达目标用户并激发传播势能，以产品为核心的 PLG 模式如何降低获客成本、提升转化效率。同时关注开源项目的出海机遇 —— 依托社区力量扩大全球影响力，构建协作生态助力用户增长。​ 此外，还将探讨生成式 AI 等新技术对增长策略的赋能。通过多元视角，为企业、开发者、创业者提供可落地的出海增长思路，助力实现商业突破。
+讲师: 
+江波: 蚂蚁集团开源发展与国际推广负责人、SegmentFault 思否联合创始人、Apache 软件基金会成员、Apache Answer 项目管理委员会成员、开源社理事长
+江波（Nadia Jiang）是创业者、开源布道师及开发者关系专家。她现任蚂蚁集团开源发展负责人，主导开源生态创新与协作战略。此前她曾担任中国最大开发者问答社区 SegmentFault 思否首席运营官，并联合创办了 Apache 顶级项目 Answer。
+在职业角色之外，江波长期活跃于全球开源社区，深度参与开源社、Apache 软件基金会、OpenInfra 基金会、Linux 基金会、FOSSAsia、OpenUK、传智开源基金会、中国计算机学会（CCF）、中国通信学会（CIC）等组织。其影响力跨越洲际，曾受邀在 CommunityOverCode 亚洲/欧洲/北美大会、开源峰会（Open Source Summit）、State of Open Con、FOSSAsia 峰会等国际顶级开源会议担任演讲嘉宾。
+她持续投入开源会议组织与志愿工作，担任 CommunityOverCode Asia（原 ApacheCon Asia）、中国开发者生态峰会（Dev.Together Summit China）、中国开源治理峰会（OSPO Summit China）等活动的核心组织者及联席主席，积极推动开发者社群的协作与知识共享。</description>
+    </item>
+    
+    <item>
+      <title>七年之痒：我的 Apache 故事</title>
+      <link>/zh/sessions/keynote-961585.html</link>
+      <pubDate>Sun, 27 Jul 2025 09:45:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-961585.html</guid>
+      <description>今年是我在阿帕奇软件基金会工作的第七个年头。作为一名贡献者，我在参与 Apache Flink 项目时获得了我的第一个提交位。我为 ASF 项目做出的贡献越多，我在他们的社区中获得的学分也就越多。
+现在，我是 ASF 的董事会成员，也是一名活跃的孵化器导师，指导过七个以上的 podling 项目。欢迎参加本次会议，了解我是如何在更广泛的 ASF 社区中成长的，以及在接下来的几年中，我对 ASF 中的协作者有哪些要求。
+讲师: 
+陈梓立: ScopeDB 联合创始人
+Zili Chen (@tison) 是 ScopeDB 的联合创始人之一，ScopeDB 是一个利用云服务为半结构化数据构建的数据库。他是一位经验丰富的开源倡导者和 ASF 成员，拥有丰富的经验。他维护过多个重要项目，包括 Apache Flink、Apache ZooKeeper 和 Apache Pulsar。</description>
+    </item>
+    
+    <item>
+      <title>中国传统文化与开源精神的交融</title>
+      <link>/zh/sessions/keynote-969008.html</link>
+      <pubDate>Sun, 27 Jul 2025 09:30:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-969008.html</guid>
+      <description>在中国绵延的历史长河中，士的精神始终作为一种无形质的存在——以弘道的公心立命，以独立的人格守护文明演进。当现代数字文明时代来临，生产要素的数字流动性消解了物理桎梏，协作关系的网络化存在突破了组织边界，生产力的指数级增长重构了价值规律。这三重变革正在重塑人类的认知范式与文明基因。
+中国需要构建与数字经济适配的文化智性体系。数字经济结构具有去中心化、网络化特征，要素的重组、碰撞、裂变与创新要求组织形态与制度体系保持弹性。作为动态共识的&amp;quot;孵化器&amp;quot;与&amp;quot;容器&amp;quot;，开源组织将在这一时代展现出独特而广泛的价值。
+新型数字文明构建起贡献量化的动态治理体系：个体通过数字身份主张价值主权，集体通过许可证达成协作共识。数字经济中企业边界趋于消融，开源共同体自治生态在&amp;quot;自组织活力&amp;quot;与&amp;quot;系统稳定性&amp;quot;间达成最优平衡，为超大规模协作提供双重文化技术保障：
+价值逻辑发生根本重构——从&amp;quot;资源独占性&amp;quot;转向&amp;quot;生态共享性&amp;quot;。文明基因驱动数字经济突破增长中心主义陷阱，走向以知识网络效应为核心的价值创造。
+创新范式实现维度跃升——开源协作在其文化土壤中培育出&amp;quot;涌现式创新&amp;quot;。个体智慧在开放生态中非线性蓄能，既持续突破技术临界点，又针对中华传统文化迭代优化中的系统性缺陷进行补完。
+这种协同进化最终形成闭环系统：数字文明塑造数字经济范式，数字经济反哺数字文明进阶。
+讲师: 
+朱其罡: 自由职业者
+上海开源信息技术协会副秘书长，国际商业与经济学大学执行委员会委员会副主任，中国计算机联合会开源委员会委员会委员
+顾问，开源社顾问，中国汽车工业协会开源顾问，北京智源人工智能研究院联合创始人，开放科技国家开源平台前核心成员，中国科学院软件研究所OpenHarmony团队前创始生态系统负责人及教育负责人，开放原子开源基金会业务发展部、教育培训部及产业研究部前负责人，中国开源硬件与开源教育领域的早期开拓者之一。</description>
     </item>
     
     <item>
@@ -1268,6 +1313,73 @@ Wang Long: 小米, 武汉, 引擎组高级开发工程师
 Shekhar Prasad Rajak: 热情的开源倡导者，苹果公司软件工程师。
 Shekhar 对开源软件充满热情，并积极参与多个项目，包括SymPy、Ruby gems（如他所著的 daru 和daru-view）、Bundler、NumPy 和 SciPy。
 他于 2016 年和 2017 年成功完成 Google Summer of Code 项目，并担任 SciRuby 的管理员，指导了多个组织。 谢卡尔曾在 RubyConf 2018、PyCon 2017、ApacheCon 2020 和 Community Over Code 2024 等知名大会上发表演讲，并参与了众多地区性技术聚会。目前，他任职于苹果公司，担任软件开发工程师。</description>
+    </item>
+    
+    <item>
+      <title>圆桌讨论：独立开发者的黄金时代</title>
+      <link>/zh/sessions/keynote-976164.html</link>
+      <pubDate>Sat, 26 Jul 2025 11:30:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-976164.html</guid>
+      <description>AI 浪潮奔涌，独立开发者的机遇与挑战何在？ 本次圆桌汇聚 SegmentFault、VibeCafé、Chuhaiqu.club、Apache Answer、SiliconFlow 等代表项目创始人及核心成员，直面 AI 时代核心议题：
+ 机遇解锁： AI 如何赋能个体开发者开拓新领域、放大价值，构建商业竞争力？ 挑战破局： 如何应对技术迭代、工具选择与竞争压力，增强可持续性？ 工具跃迁： 开发者生态正经历哪些关键变革？AI 原生工具如何重塑工作流？  聆听一线实践者的深度碰撞，获取前沿趋势洞察、实战策略与避坑指南，助你在AI浪潮中精准把握机遇，实现独立开发的跃升。
+讲师: 
+高阳: SegmentFault 思否 CEO
+SegmentFault（思否）首席执行官，Apache Answer联合创始人，坚信开源改变世界。
+
+杨攀: Co-founder, SiliconFlow
+杨潘是中国科技创业领域的知名人士，在中国科技创业生态圈中拥有深厚人脉。 作为融云联合创始人兼前首席技术官，他白手起家打造了全球规模最大的即时通讯云服务。 作为中国首批.NET开发者，以及高并发即时通讯与社交平台领域的资深专家，他曾从零参与构建并运营三大亿级平台：MSN中国、飞信和融云，在其中发挥了关键作用。 凭借十年服务出海开发者的经验，他对全球市场格局、用户习惯与商业生态有着切身洞察，目前担任多家企业的全球化战略顾问。
+
+罗百顺: 独立开发者，HeyForm创始人，出海去联合创始人
+独立开发者，HeyForm创始人，出海去联合创始人
+
+祁宁: SegmentFault CTO, PMC Chair of Apache Answer
+Joyqi（祁宁）是一位资深的软件工程师和创业者，他最为人熟知的身份是中国领先开发者问答社区SegmentFault的创始人兼首席技术官。拥有超过15年Web开发和开源创新经验的他，曾打造出广受开发者青睐的轻量级博客系统Typecho。目前他主导开源问答平台Answer.dev的研发工作，该项目已从Apache孵化器毕业，现作为Apache顶级项目蓬勃发展。Joyqi始终致力于为开发者构建赋能工具与社区，其作品以简洁性、高性能和开放协作精神为核心特质。
+
+阴明: VibeCafé Organizer
+VibeCafé活动组织者，独立开发者</description>
+    </item>
+    
+    <item>
+      <title>从 Commits 到 Capital：用开源热情点燃创业之旅</title>
+      <link>/zh/sessions/keynote-972824.html</link>
+      <pubDate>Sat, 26 Jul 2025 10:30:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-972824.html</guid>
+      <description>从 Commits 到 Capital：用开源热情点燃创业之旅
+开源世界常被看作是代码、协作与社区的乐土。但对创业者来说，它同样充满了商业抉择、投资人的抉择，以及在理想与生存之间艰难平衡的挑战。
+在这次演讲中，我将分享一个真实且坦率的故事：一个由热爱驱动、在全球社区支持下成长起来的 Apache 项目，如何一步步走向商业化，最终成为服务企业客户的融资公司。我们将一起探讨：如何将社区的热情转化为可持续的商业模式、投资人常常误解开源创业的哪些关键问题，以及创始人如何在贡献者与客户之间的混乱中找到前行之路。
+如果你是一位在开源信念与商业现实之间艰难前行的技术创始人，这将是我希望当初有人告诉我的一份“生存指南”。
+讲师: 
+郭 炜: WhaleOps CEO
+ Apache软件基金会成员  WhaleOps首席执行官  Apache DolphinScheduler项目管理委员会成员  Apache SeaTunnel项目管理委员会成员  2021/2022/2023/2024/2025 ApacheCon亚洲大会DataOps专题主席
+William 是 WhaleOps 公司的首席执行官，该公司由 Apache DolphinScheduler 和Apache SeaTunnel 的核心团队创立。其产品 WhaleStudio 是一款一体化数据集成与调度平台，能够简化数据集成及工作流管理，支持超过 290 种数据源。
+William 曾担任易观 CTO、联想集团高级大数据总监以及万达集团大数据总经理，并曾在中金公司、IBM 和 Teradata 担任大数据总监/经理等职。他拥有超过 20 年的大数据技术与数据管理领域从业经验。</description>
+    </item>
+    
+    <item>
+      <title>热潮退去后，如何维持开源项目继续运作</title>
+      <link>/zh/sessions/keynote-915301.html</link>
+      <pubDate>Sat, 26 Jul 2025 10:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-915301.html</guid>
+      <description>本次演讲将解释高德纳（Gartner）炒作周期（Hype Cycle）理论，并探讨它如何适用于开源软件项目。我将分享口碑和社交媒体在吸引开发者为你的开源项目做出贡献方面所扮演的角色。我们将讨论如何吸引关注，以及在关注度不可避免地消退时如何进行调整。
+freeCodeCamp 的开源项目在 GitHub 上拥有超过 400,000 个星标，过去 10 年中代码库贡献超过 50,000 次。我将分享我们的起伏经历，以及我们学到的关于如何持续推动项目的经验教训，以便你也能维持你的项目。
+讲师: 
+Quincy Larson: freeCodeCamp.org 创始人
+Quincy Larson 是一名教师，也是 freeCodeCamp.org 的创始人。freeCodeCamp.org 是一个开源项目，已经帮助数百万人学习编程。</description>
+    </item>
+    
+    <item>
+      <title>Apache 社区发展研究——基于中国开源年度报告的数据分析</title>
+      <link>/zh/sessions/keynote-914074.html</link>
+      <pubDate>Sat, 26 Jul 2025 09:30:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-914074.html</guid>
+      <description>随着全球开源生态系统的快速发展，中国开源社区在国际舞台上的影响力持续增强。本报告基于《中国开源年度报告》的数据分析，聚焦 Apache 开源社区在中国的参与度、技术贡献以及发展趋势，旨在揭示该社区在全球开源生态系统中的角色与挑战。
+讲师: 
+王 伟: 华东师范大学教授
+王伟，现任华东师范大学数据科学与工程学院教授，X-lab 开放实验室创始人。他是中国计算机学会（CCF）杰出会员、CCF 开源发展委员会成员、中国电子技术标准化研究院开源治理系列标准负责人、木兰开源社区技术委员会委员、开源俱乐部主任。他的研究兴趣是开源开发生态。</description>
     </item>
     
     <item>
@@ -1979,21 +2091,26 @@ Erik Fang，蚂蚁集团软件工程师，技术负责人</description>
     </item>
     
     <item>
-      <title>AI Agent：开启现实世界AI应用的金钥匙</title>
-      <link>/zh/sessions/keynote-969043.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>AI 重构开发：从工具革命到开发者进化论</title>
+      <link>/zh/sessions/keynote-976738.html</link>
+      <pubDate>Fri, 25 Jul 2025 11:30:00 +0000</pubDate>
       
-      <guid>/zh/sessions/keynote-969043.html</guid>
-      <description>AI智能体通过融合感知、决策与自主行动，弥合了理论AI模型与实际应用之间的鸿沟。依托机器学习、自然语言处理和实时分析技术，它们能动态适应环境变化与用户需求，实现无缝交互与智能自动化。这类系统可优化工作流程、减少人工干预并提升可扩展性，成为AI现实落地的关键推手。作为AI应用的&amp;quot;金钥匙&amp;quot;，它们简化集成流程、加速创新步伐，助力企业通过自适应、持续进化的智能系统获得切实成果。
+      <guid>/zh/sessions/keynote-976738.html</guid>
+      <description>AI 正在以前所未有的速度重塑软件开发，当 AI 成为开发者的“超级协作者”，开发效率的跃升是否伴随能力要求的重构？工具链的智能化如何打破技术壁垒，又将催生哪些新的职业赛道？面对人机协作的新平衡，开发者该如何突围与进化？
+本次圆桌我们邀请到了来自 AutoCoder 的祝威廉、灵心巧手的苏洋、硅基流动的杨攀与字节跳动的王涛，他们深耕 AI 辅助开发工具、智能编程框架及工程实践，将从技术落地、场景革新到生态构建，多维剖析 AI 如何重构代码生成、调试优化乃至系统架构的全流程，并探讨这背后为开发者带来的机遇和挑战。CSDN &amp;amp; 《新程序员》执行总编唐小引将担任这一 Panel 的主持人，以资深行业视角串联思辨，引导嘉宾聚焦核心命题。
+这场对话不止于技术探讨，更关乎每一位开发者的未来坐标。在这里，前沿实践与深度思考碰撞，或将为你勾勒出 AI 时代开发领域的清晰蓝图。
 讲师: 
-Jingyu Wang: 阿里云资深技术专家
-阿里云资深技术专家</description>
+唐小引: Executive Editor-in-Chief of CSDN &amp;amp; New Programmer
+唐小引，CSDN&amp;amp;《新程序员》执行总编、《万有引力》栏目负责人。统筹策划《新程序员》系列图书、《中国开发者年度调查报告》，联合主编《中国开源发展蓝皮书》《中国 AI 应用开发者报告》《中国开源应用开发者报告》系列报告，曾任多个开源及开发者大会主编，开源爱好者。
+
+祝威廉: Author of Auto-Coder/Byzer-SQL | Former Technical Partner at Kyligence | Currently at IDEA Research Institute
+目前专注于用 AI 赋能数据与编程领域，并主导基于 MoonBit 语言的代码智能体 Moonagent 开发。其项目 Byzer-SQL 获 2022 中国开源创新大赛二等奖及 2023 浦东新区 AI 创新大赛一等奖，Auto-Coder 入选 GitCode 2024 十大开源项目，个人获评 GitCode 2024 年度开源人物，曾入选 2022 中国开源先锋 33 人，并在 2023 全球人工智能开发者先锋大会上获&amp;quot;开发者先锋&amp;quot;称号。</description>
     </item>
     
     <item>
-      <title>TRAE，真正的AI工程师</title>
+      <title>TRAE：真正的 AI 工程师</title>
       <link>/zh/sessions/keynote-970364.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Jul 2025 11:15:00 +0000</pubDate>
       
       <guid>/zh/sessions/keynote-970364.html</guid>
       <description>在软件吞噬世界的时代，代码作为基石，奠定了互联网时代的繁荣。在 AI 驱动的今天，它正在开启下一轮的跃迁。我们可以通过自然语言与大模型交互生成可执行的代码、通过IDE自动感知补全代码逻辑、通过智能体调试复杂的应用。AI 让编程这件事情不再是少数人的技能，而成为更多人实现想法的手段。这不仅是生产力的飞升，更是开发者边界的重塑。TRAE ，The Real AI Engineer，希望帮助全球开发者提升整体的研发效能、加速软件的创新。
@@ -2003,22 +2120,35 @@ Product Manager of Trae, ByteDance 字节跳动 Trae 产品经理</description>
     </item>
     
     <item>
-      <title>七年之痒：我的 Apache 故事</title>
-      <link>/zh/sessions/keynote-961585.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>以 GenAI 赋能开源生态，激发开发者创新浪潮</title>
+      <link>/zh/sessions/keynote-961672.html</link>
+      <pubDate>Fri, 25 Jul 2025 11:00:00 +0000</pubDate>
       
-      <guid>/zh/sessions/keynote-961585.html</guid>
-      <description>今年是我在阿帕奇软件基金会工作的第七个年头。作为一名贡献者，我在参与 Apache Flink 项目时获得了我的第一个提交位。我为 ASF 项目做出的贡献越多，我在他们的社区中获得的学分也就越多。
-现在，我是 ASF 的董事会成员，也是一名活跃的孵化器导师，指导过七个以上的 podling 项目。欢迎参加本次会议，了解我是如何在更广泛的 ASF 社区中成长的，以及在接下来的几年中，我对 ASF 中的协作者有哪些要求。
+      <guid>/zh/sessions/keynote-961672.html</guid>
+      <description>亚马逊网络服务（AWS）和阿帕奇软件基金会（Apache Software Foundation）在开源、云计算和生成式人工智能融合的快速发展环境中建立了战略合作伙伴关系，重新定义了开发人员的体验。本主题演讲将探讨 AWS 如何利用生成式人工智能的变革力量，通过智能云原生服务和人工智能增强型开发平台为 Apache 开源项目开发人员赋能。
+我们将展示生成式人工智能如何在 AWS 上彻底改变 Spark、Kafka 和 Airflow 等核心 Apache 项目的开发人员工作流程。从针对 Apache 框架的亚马逊 Q 开发人员人工智能驱动代码生成专用工具到开放源代码的多代理云部署工具包，我们将展示开发人员如何实现前所未有的生产力提升。演讲将重点介绍 AWS 托管服务如何与人工智能生成功能相结合，将开发人员从常规任务中解放出来，使他们能够专注于创造性地解决问题和创新。
+此外，我们还将分享 AWS 在生成式人工智能领域对开源社区的贡献、我们联合开展的开发人员教育计划，并展望云原生开源技术和生成式人工智能继续共同发展、为开发人员创新开辟新领域的激动人心的未来。
 讲师: 
-Zili Chen: ScopeDB 联合创始人
-Zili Chen (@tison) 是 ScopeDB 的联合创始人之一，ScopeDB 是一个利用云服务为半结构化数据构建的数据库。他是一位经验丰富的开源倡导者和 ASF 成员，拥有丰富的经验。他维护过多个重要项目，包括 Apache Flink、Apache ZooKeeper 和 Apache Pulsar。</description>
+郑予彬: AWS，高级开发人员倡导者
+郑予彬, 在 ICT 行业和数字化转型领域拥有 20 多年的经验。现任 AWS 高级开发者布道师，专注于云原生、云安全和生成式人工智能。作为 AWS 中国的第一位女性技术布道师，与开发者社区保持联系。作为一名拥有 18 年经验的架构师，曾为金融、教育、制造和高科技行业提供咨询和技术实施解决方案，包括数据中心建设和软件定义的数据中心。利用行业专业知识，为开发者提供技术指导，寻求共同成功。</description>
     </item>
     
     <item>
-      <title>人工智能时代的产品开发：变与不变</title>
+      <title>AI Agent：开启现实世界 AI 应用的金钥匙</title>
+      <link>/zh/sessions/keynote-969043.html</link>
+      <pubDate>Fri, 25 Jul 2025 10:45:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-969043.html</guid>
+      <description>AI智能体通过融合感知、决策与自主行动，弥合了理论AI模型与实际应用之间的鸿沟。依托机器学习、自然语言处理和实时分析技术，它们能动态适应环境变化与用户需求，实现无缝交互与智能自动化。这类系统可优化工作流程、减少人工干预并提升可扩展性，成为AI现实落地的关键推手。作为AI应用的&amp;quot;金钥匙&amp;quot;，它们简化集成流程、加速创新步伐，助力企业通过自适应、持续进化的智能系统获得切实成果。
+讲师: 
+王晶昱: 阿里云资深技术专家
+阿里云资深技术专家</description>
+    </item>
+    
+    <item>
+      <title>AI 时代的产品开发：变革与坚守</title>
       <link>/zh/sessions/keynote-961040.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Jul 2025 10:15:00 +0000</pubDate>
       
       <guid>/zh/sessions/keynote-961040.html</guid>
       <description>GenAI 的快速发展正在深刻地改变产品世界的游戏规则。除了产品本身从“AI赋能”走向“AI Native”，产品的开发流程也正在被重新定义：从用户需求洞察，到设计原型生成，再到编码实现和上线迭代，AI 逐步介入产品生命周期的每一个环节，使得“一个人完成一个产品”的可能性正在变为现实。
@@ -2027,14 +2157,14 @@ Zili Chen (@tison) 是 ScopeDB 的联合创始人之一，ScopeDB 是一个利�
 本议题尝试用一种开放式的思维和新的交互尝试，为大家带来一些关于产品开发范式的核心思考。
 通过结构化分析与新颖的抬杠式辩论互动，共同探讨 AI 时代产品范式的“变”与“不变”，并尝试回答这样一个问题：当 AI 让世界变得更快，我们是否也能让产品变得更好？
 讲师: 
-Emily Chen: 开源社联合创始人
+陈 阳: 开源社联合创始人
 陈阳（Emily Chen），开源社联合创始人，现任开源社理事会成员。她是深耕开源社区多年的实践者、组织者与连接者，致力于推动开源文化在全球与中国的发展与融合。
 2008年，陈阳创立了 GNOME.Asia 社区，将 GNOME.Asia 峰会成功带到十多个亚洲国家和地区。2010年，她担任 GNOME 基金会董事会成员，并于2014年在瑞典 GUADEC 大会上荣获 GNOME 基金会最高荣誉——“GNOME Pants Award”。
 自2017年起，陈阳多次组织 GitHub CEO、COO 及全球开源领袖的访华之行，积极推动国际平台与中国开源生态的交流与合作。她曾任OSI 中国联盟代表、中国开源促进联盟副秘书长（2016），在国际标准组织沟通方面发挥了重要作用。
 她发起了多个在中国极具影响力的开源项目，包括开源社年度报告、中国开源年会（COSCon）以及“33位开源先行者”榜单。此外，她还是 Mozilla 的核心贡献者、Google Summer of Code（GSoC）导师，以及2024 开源议会（Open Source Congress）的组织者之一。现任开放原子开源基金会 TOC 导师。
 作为中国开源领域的见证者与推动者，陈阳持续以开放、协作、连接的姿态，探索 AI 时代下全球开源的新范式。
 
-Richard Bian: 蚂蚁金服集团开源主管；蚂蚁金服集团战略与发展（OSS）总监；蚂蚁金服集团新战略计划；
+边思康: 蚂蚁金服集团开源主管；蚂蚁金服集团战略与发展（OSS）总监；蚂蚁金服集团新战略计划；
 Richard Bian（中文名：边思康）从第一天起就领导蚂蚁金服集团的开源计划，并将该计划从一个人的努力发展成为一个跨职能的开源项目办公室（OSPO）团队，涵盖管理、战略、开发者体验、产品开发、增长和国际化工作。
 目前，该团队与 20 多个内部开源项目密切合作，帮助他们实现社区发展、数据科学需求、开发人员增长需求、外联和合作伙伴关系合作以及市场拓展。我们制定规则和流程，构建工具和实用程序，设计成熟的产品，为内部用户和外部社区合作伙伴提供帮助。
 Richard 曾在 Square 工作，是前微软工程师，也是一个幼儿的父亲，他喜欢领导战略计划从无到有，并打造开发人员和最终用户喜欢使用的产品。
@@ -2042,78 +2172,9 @@ Richard 在 4 个不同的国家（新加坡、加拿大、美国和中国）学
     </item>
     
     <item>
-      <title>从《中国开源年度报告》看 Apache 社区洞察</title>
-      <link>/zh/sessions/keynote-914074.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/keynote-914074.html</guid>
-      <description>随着全球开源生态系统的快速发展，中国开源社区在国际舞台上的影响力持续增强。本报告基于《中国开源年度报告》的数据分析，聚焦 Apache 开源社区在中国的参与度、技术贡献以及发展趋势，旨在揭示该社区在全球开源生态系统中的角色与挑战。
-讲师: 
-王伟: 华东师范大学教授
-王伟，现任华东师范大学数据科学与工程学院教授，X-lab 开放实验室创始人。他是中国计算机学会（CCF）杰出会员、CCF 开源发展委员会成员、中国电子技术标准化研究院开源治理系列标准负责人、木兰开源社区技术委员会委员、开源俱乐部主任。他的研究兴趣是开源开发生态。</description>
-    </item>
-    
-    <item>
-      <title>从代码提交到资本运作：将开源热情转化为创业征程</title>
-      <link>/zh/sessions/keynote-972824.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/keynote-972824.html</guid>
-      <description>从 Commits 到 Capital：用开源热情点燃创业之旅
-开源世界常被看作是代码、协作与社区的乐土。但对创业者来说，它同样充满了商业抉择、投资人的抉择，以及在理想与生存之间艰难平衡的挑战。
-在这次演讲中，我将分享一个真实且坦率的故事：一个由热爱驱动、在全球社区支持下成长起来的 Apache 项目，如何一步步走向商业化，最终成为服务企业客户的融资公司。我们将一起探讨：如何将社区的热情转化为可持续的商业模式、投资人常常误解开源创业的哪些关键问题，以及创始人如何在贡献者与客户之间的混乱中找到前行之路。
-如果你是一位在开源信念与商业现实之间艰难前行的技术创始人，这将是我希望当初有人告诉我的一份“生存指南”。
-讲师: 
-William Guo: WhaleOps CEO
- Apache软件基金会成员  WhaleOps首席执行官  Apache DolphinScheduler项目管理委员会成员  Apache SeaTunnel项目管理委员会成员  2021/2022/2023/2024/2025 ApacheCon亚洲大会DataOps专题主席
-William 是 WhaleOps 公司的首席执行官，该公司由 Apache DolphinScheduler 和Apache SeaTunnel 的核心团队创立。其产品 WhaleStudio 是一款一体化数据集成与调度平台，能够简化数据集成及工作流管理，支持超过 290 种数据源。
-William 曾担任易观 CTO、联想集团高级大数据总监以及万达集团大数据总经理，并曾在中金公司、IBM 和 Teradata 担任大数据总监/经理等职。他拥有超过 20 年的大数据技术与数据管理领域从业经验。</description>
-    </item>
-    
-    <item>
-      <title>代码、文化与政策：在全球背景下塑造亚洲开源的未来</title>
-      <link>/zh/sessions/keynote-889680.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/keynote-889680.html</guid>
-      <description>随着开源在全球创新中变得愈发重要，政策制定对其发展的影响也至关重要。本次主旨演讲将探讨亚洲开源生态系统面临的独特挑战与机遇，并将其与西方的立法框架（如美国的《芯片与科学法案》和欧洲的《网络弹性法案》）进行对比。尽管这些政策旨在增强技术领导力，但亚洲基于其文化和地缘政治背景所采取的方法却呈现出了截然不同的面貌。
-随着中国“十四五”规划推动本土技术创新、台湾的 g0v 社区推动公民技术创新，以及印度在电子政务中采用开源软件的政策，亚洲正在开辟自己的道路。然而，碎片化的生态系统和文化上的犹豫不决等挑战依然存在。本次主旨演讲旨在鼓励利益相关者重新思考开源战略，不仅要弥合政策差距，还要促进区域开源社区与更广泛生态系统之间的合作。
-讲师: 
-Divya Mohan: 开放源代码维护者和倡导者
-Divya 是 SUSE 的高级技术布道师，致力于推动 Rancher 的云原生开源项目。她担任 Kubernetes 和 LitmusChaos 项目的文档联合主席，并在汇丰银行和 IGate Global Solutions Pvt Ltd 任职期间，在系统工程领域积累了丰富的工作经验。作为 KCNA 考试的共同创建者和 CNCF 大使，她致力于让技术社区和技术更加易于访问和包容。</description>
-    </item>
-    
-    <item>
-      <title>在开源生态系统中利用 GenAI 推动下一波开发人员创新浪潮</title>
-      <link>/zh/sessions/keynote-961672.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/keynote-961672.html</guid>
-      <description>亚马逊网络服务（AWS）和阿帕奇软件基金会（Apache Software Foundation）在开源、云计算和生成式人工智能融合的快速发展环境中建立了战略合作伙伴关系，重新定义了开发人员的体验。本主题演讲将探讨 AWS 如何利用生成式人工智能的变革力量，通过智能云原生服务和人工智能增强型开发平台为 Apache 开源项目开发人员赋能。
-我们将展示生成式人工智能如何在 AWS 上彻底改变 Spark、Kafka 和 Airflow 等核心 Apache 项目的开发人员工作流程。从针对 Apache 框架的亚马逊 Q 开发人员人工智能驱动代码生成专用工具到开放源代码的多代理云部署工具包，我们将展示开发人员如何实现前所未有的生产力提升。演讲将重点介绍 AWS 托管服务如何与人工智能生成功能相结合，将开发人员从常规任务中解放出来，使他们能够专注于创造性地解决问题和创新。
-此外，我们还将分享 AWS 在生成式人工智能领域对开源社区的贡献、我们联合开展的开发人员教育计划，并展望云原生开源技术和生成式人工智能继续共同发展、为开发人员创新开辟新领域的激动人心的未来。
-讲师: 
-Zheng Yubin: AWS，高级开发人员倡导者
-Zheng Yubin, 在 ICT 行业和数字化转型领域拥有 20 多年的经验。现任 AWS 高级开发者布道师，专注于云原生、云安全和生成式人工智能。作为 AWS 中国的第一位女性技术布道师，与开发者社区保持联系。作为一名拥有 18 年经验的架构师，曾为金融、教育、制造和高科技行业提供咨询和技术实施解决方案，包括数据中心建设和软件定义的数据中心。利用行业专业知识，为开发者提供技术指导，寻求共同成功。</description>
-    </item>
-    
-    <item>
-      <title>如何在热度消退后持续推动你的开源项目</title>
-      <link>/zh/sessions/keynote-915301.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/sessions/keynote-915301.html</guid>
-      <description>本次演讲将解释高德纳（Gartner）炒作周期（Hype Cycle）理论，并探讨它如何适用于开源软件项目。我将分享口碑和社交媒体在吸引开发者为你的开源项目做出贡献方面所扮演的角色。我们将讨论如何吸引关注，以及在关注度不可避免地消退时如何进行调整。
-freeCodeCamp 的开源项目在 GitHub 上拥有超过 400,000 个星标，过去 10 年中代码库贡献超过 50,000 次。我将分享我们的起伏经历，以及我们学到的关于如何持续推动项目的经验教训，以便你也能维持你的项目。
-讲师: 
-Quincy Larson: freeCodeCamp.org 创始人
-Quincy Larson 是一名教师，也是 freeCodeCamp.org 的创始人。freeCodeCamp.org 是一个开源项目，已经帮助数百万人学习编程。</description>
-    </item>
-    
-    <item>
-      <title>应对安全挑战</title>
+      <title>直面安全领域的挑战</title>
       <link>/zh/sessions/keynote-914928.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Jul 2025 09:45:00 +0000</pubDate>
       
       <guid>/zh/sessions/keynote-914928.html</guid>
       <description>本次演讲将探讨开源软件安全的现状，特别是 Apache 软件基金会（ASF）如何应对日益增长的威胁。 ASF 从第一个项目——一个运行在开源操作系统上的 Web 服务器——起步。自那时起，该组织基于开放性、协作性和公共利益的原则，建立了数百个社区。 如今，开源被认为是大多数商业软件项目的主要组成部分，约占所有商业代码的 90%，估计价值达 88 亿美元。 随着开源软件的兴起，恶意行为者找到了利用漏洞谋取经济利益的方法。 本次演讲将讨论影响开源系统的实际场景，以及缓解攻击的策略。 开源软件在帮助防止攻击方面发挥着特定作用。开源管理者负责遵循既定流程来处理安全漏洞。大多数开源基金会都具备担任管理者的资格。 ASF 致力于与其他开源基金会和政府实体合作，继续为公共利益构建开源且安全的软件，以供广泛采用。
