@@ -1,10 +1,10 @@
 ---
-title: "人工智能时代的产品开发：变与不变"
-date: ""
+title: "AI 时代的产品开发：变革与坚守"
+date: "2025-07-25T10:15:00"
 track: "keynote"
-presenters: "Emily Chen, Richard Bian"
+presenters: "陈 阳, 边思康"
 stype: "中文演讲"
-room: ""
+room: "主会场 - 颐和厅"
 ---
 
 GenAI 的快速发展正在深刻地改变产品世界的游戏规则。除了产品本身从“AI赋能”走向“AI Native”，产品的开发流程也正在被重新定义：从用户需求洞察，到设计原型生成，再到编码实现和上线迭代，AI 逐步介入产品生命周期的每一个环节，使得“一个人完成一个产品”的可能性正在变为现实。
@@ -23,7 +23,7 @@ GenAI 的快速发展正在深刻地改变产品世界的游戏规则。除了�
 
 <img src="https://sessionize.com/image/03d2-400o400o1-PgTasoNFtf9qMXqvRiNybj.jpg" width="200" /><br/>
 
-Emily Chen: 开源社联合创始人
+陈 阳: 开源社联合创始人
 
 陈阳（Emily Chen），开源社联合创始人，现任开源社理事会成员。她是深耕开源社区多年的实践者、组织者与连接者，致力于推动开源文化在全球与中国的发展与融合。
 
@@ -37,7 +37,7 @@ Emily Chen: 开源社联合创始人
 
 <img src="https://sessionize.com/image/df9c-400o400o1-JxJKGtYBLsiVkKLveRtFTA.png" width="200" /><br/>
 
-Richard Bian: 蚂蚁金服集团开源主管；蚂蚁金服集团战略与发展（OSS）总监；蚂蚁金服集团新战略计划；
+边思康: 蚂蚁金服集团开源主管；蚂蚁金服集团战略与发展（OSS）总监；蚂蚁金服集团新战略计划；
 
 Richard Bian（中文名：边思康）从第一天起就领导蚂蚁金服集团的开源计划，并将该计划从一个人的努力发展成为一个跨职能的开源项目办公室（OSPO）团队，涵盖管理、战略、开发者体验、产品开发、增长和国际化工作。
 

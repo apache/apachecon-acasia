@@ -1,10 +1,10 @@
 ---
 title: "Rising to the Challenges in Security"
-date: ""
+date: "2025-07-25T09:45:00"
 track: "keynote"
 presenters: "Craig Russell"
 stype: "English Session"
-room: ""
+room: "MainRoom - YiHe Hall"
 ---
 
 This talk discusses the current state of security in open source software, and in particular, how the ASF is responding to the growing threat.

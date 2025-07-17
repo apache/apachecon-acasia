@@ -1,10 +1,10 @@
 ---
 title: "七年之痒：我的 Apache 故事"
-date: ""
+date: "2025-07-27T09:45:00"
 track: "keynote"
-presenters: "Zili Chen"
+presenters: "陈梓立"
 stype: "中文演讲"
-room: ""
+room: "主会场 - 颐和厅"
 ---
 
 今年是我在阿帕奇软件基金会工作的第七个年头。作为一名贡献者，我在参与 Apache Flink 项目时获得了我的第一个提交位。我为 ASF 项目做出的贡献越多，我在他们的社区中获得的学分也就越多。
@@ -16,6 +16,6 @@ room: ""
 
 <img src="https://sessionize.com/image/09df-400o400o1-NXMWPfZTqBRnxHMRJKnVpD.jpg" width="200" /><br/>
 
-Zili Chen: ScopeDB 联合创始人
+陈梓立: ScopeDB 联合创始人
 
 Zili Chen (@tison) 是 ScopeDB 的联合创始人之一，ScopeDB 是一个利用云服务为半结构化数据构建的数据库。他是一位经验丰富的开源倡导者和 ASF 成员，拥有丰富的经验。他维护过多个重要项目，包括 Apache Flink、Apache ZooKeeper 和 Apache Pulsar。

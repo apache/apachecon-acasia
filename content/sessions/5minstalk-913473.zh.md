@@ -1,9 +1,10 @@
 ---
 title: "Apache Fineract — 携手合作，驱动亚洲金融科技未来"
-date: "2025-07-27T11:25:00"
+date: "2025-07-27T11:30:00"
 track: "5minstalk"
 presenters: "Terence Monteiro"
 stype: "英文演讲"
+room: ""
 ---
 
 Fineract展示了营利与非营利组织间的开源协作如何重塑亚洲金融科技格局，为昂贵的核心银行系统提供了可扩展、普惠的替代方案。
@@ -28,4 +29,3 @@ Fineract展示了营利与非营利组织间的开源协作如何重塑亚洲金
 Terence Monteiro: Apache Fineract PMC and Entrepreneur behind SanJose Solutions and Consultant
 
 Terence Monteiro 是一位拥有21年以上经验的资深科技创业者，以打造具有影响力的社区驱动型开源项目而闻名。作为普惠数字解决方案领域的先驱，他曾为 Mifos、微软开放技术（Microsoft Open Technologies）和 CPAN 等项目做出贡献，目前担任阿帕奇·芬纳克特项目管理委员会成员。他的工作将专业技术与社会价值相融合，尤其专注于为全球市场开发普惠金融科技工具和可扩展的移动银行解决方案。
-

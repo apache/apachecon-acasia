@@ -1,10 +1,10 @@
 ---
 title: "Product Development in the Age of AI: What Changes, What Remains"
-date: ""
+date: "2025-07-25T10:15:00"
 track: "keynote"
 presenters: "Emily Chen, Richard Bian"
 stype: "Chinese Session"
-room: ""
+room: "MainRoom - YiHe Hall"
 ---
 
 The rapid advancement of GenAI is fundamentally reshaping the rules of the product world. Beyond transforming product features from “AI-enhanced” to fully “AI-native,” the entire development process is being redefined. From user research and design prototyping to coding, deployment, and iteration, AI is increasingly involved at every stage of the product lifecycle—making it more feasible than ever for a single individual to take a product from idea to launch.

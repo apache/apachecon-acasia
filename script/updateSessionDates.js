@@ -4,6 +4,7 @@ const path = require('path');
 const tracks_dictionary = require('./tracks_dictionary.json');
 
 const roomJson = {
+  'MainRoom - YiHe Hall': '主会场 - 颐和厅',
   'YiHe Hall': '颐和厅',
   'WanChun Hall': '万春厅',
   'JingYi Hall': '静宜厅',
@@ -57,6 +58,9 @@ async function updateSessionDates() {
     const sessionDates = new Map();
     rawSessions.forEach(session => {
       const trackValue = tracks_dictionary[session['Track'] || 'unknown'];
+      // if (trackValue === '5minstalk') {
+      //   return;
+      // }
       const sessionId = session['Session Id'];
       const fileName = `${trackValue}-${sessionId}`;
       const scheduledDate = formatExcelDate(session['Scheduled At']);

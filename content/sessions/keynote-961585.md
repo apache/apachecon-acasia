@@ -1,10 +1,10 @@
 ---
 title: "The Seven Year Itch: My Apache Story"
-date: ""
+date: "2025-07-27T09:45:00"
 track: "keynote"
 presenters: "Zili Chen"
 stype: "Chinese Session"
-room: ""
+room: "MainRoom - YiHe Hall"
 ---
 
 This is my seventh year at The Apache Software Foundation. Starting as a contributor, I earned my first commit bit while working on the Apache Flink project. The more I contribute to ASF projects, the more credits I earn in their community.

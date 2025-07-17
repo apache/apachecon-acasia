@@ -1,9 +1,10 @@
 ---
 title: "From Commits to Capital: Turning Open Source Passion into a Startup Journey"
-date: ""
+date: "2025-07-26T10:30:00"
 track: "keynote"
 presenters: "William Guo"
 stype: "Chinese Session"
+room: "MainRoom - YiHe Hall"
 ---
 
 Open source is often seen as a world of code, collaboration, and community. But for founders, it can also be a tough place filled with business choices, doubts from investors, and the challenge of balancing ideals with survival.
@@ -28,4 +29,3 @@ William Guo: WhaleOps CEO
 William is the CEO of WhaleOps, founded by the core team of Apache DolphinScheduler and Apache SeaTunnel. Their product, WhaleStudio, an all-in-one data integration and orchestration platform that makes data integration&workflow simple, with support for over 290 data sources.
 
 William used to be the CTO of Analysys and the Senior Big Data Director of Lenovo, general manager of bid data in Wanda. He worked as Big Data Director/manager at CICC, IBM, and Teradata. He has more than 20 years of experience in big data technology and data management.
-

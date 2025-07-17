@@ -1,10 +1,10 @@
 ---
 title: "Empowering the next wave of developer innovation with GenAI in the open source ecosystem"
-date: ""
+date: "2025-07-25T11:00:00"
 track: "keynote"
 presenters: "Zheng Yubin"
 stype: "Chinese Session"
-room: ""
+room: "MainRoom - YiHe Hall"
 ---
 
 In the rapidly evolving landscape where open-source, cloud computing, and generative AI converge, Amazon Web Services (AWS) and the Apache Software Foundation have established a strategic partnership that is redefining developer experiences. This keynote will explore how AWS harnesses the transformative power of generative AI to empower Apache open-source project developers through intelligent cloud-native services and AI-enhanced development platforms.

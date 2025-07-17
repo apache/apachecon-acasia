@@ -1,9 +1,10 @@
 ---
-title: "从代码提交到资本运作：将开源热情转化为创业征程"
-date: ""
+title: "从 Commits 到 Capital：用开源热情点燃创业之旅"
+date: "2025-07-26T10:30:00"
 track: "keynote"
-presenters: "William Guo"
+presenters: "郭 炜"
 stype: "中文演讲"
+room: "主会场 - 颐和厅"
 ---
 
 从 Commits 到 Capital：用开源热情点燃创业之旅
@@ -19,7 +20,7 @@ stype: "中文演讲"
 
 <img src="https://sessionize.com/image/1f05-400o400o1-HpQ4ih6TrCKXN4cpKtRrdn.jpg" width="200" /><br/>
 
-William Guo: WhaleOps CEO
+郭 炜: WhaleOps CEO
 
  Apache软件基金会成员
  WhaleOps首席执行官
@@ -32,6 +33,3 @@ William Guo: WhaleOps CEO
 William 是 WhaleOps 公司的首席执行官，该公司由 Apache DolphinScheduler 和Apache SeaTunnel 的核心团队创立。其产品 WhaleStudio 是一款一体化数据集成与调度平台，能够简化数据集成及工作流管理，支持超过 290 种数据源。
 
 William 曾担任易观 CTO、联想集团高级大数据总监以及万达集团大数据总经理，并曾在中金公司、IBM 和 Teradata 担任大数据总监/经理等职。他拥有超过 20 年的大数据技术与数据管理领域从业经验。
-
-
-

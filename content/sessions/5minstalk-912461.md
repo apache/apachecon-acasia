@@ -1,9 +1,10 @@
 ---
 title: "Reimagining Software Testing with AI: A Reusable and Scalable Design"
-date: "2025-07-27T11:20:00"
+date: "2025-07-27T11:25:00"
 track: "5minstalk"
 presenters: "Yunbo Ni"
 stype: "Chinese Session"
+room: "MainRoom - YiHe Hall"
 ---
 
 With the growing demand for AI-driven software testing (AI4Testing), there is a pressing need for general and efficient frameworks that can leverage large language models (LLMs) to enhance software quality. However, existing LLM-based testing approaches often suffer from two key limitations: the generated test programs are overly simplistic, and exhaustive interaction with LLMs can be computationally expensive.
@@ -24,4 +25,3 @@ Yunbo Ni: Incoming PhD student at CUHK, focusing on research in testing.
 I am an undergraduate student of Software Engineering in Nanjing University. I am supervised by Prof. Yang Feng at SSCT-Lab. My research interests lie in the Programming Language and Software Engineering. 
 
 I’ll be joining Chinese University of Hong Kong (CUHK) as a Ph.D. student in 2025 Fall, under the supervision of Prof. Shaohua Li.
-
