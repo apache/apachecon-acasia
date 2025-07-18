@@ -1,6 +1,6 @@
 ---
 title: "Apache Fineract – Powering Asia’s Fintech Future through Collaboration"
-date: "2025-07-27T11:30:00"
+date: "2025-07-27T11:35:00"
 track: "5minstalk"
 presenters: "Terence Monteiro"
 stype: "English Session"

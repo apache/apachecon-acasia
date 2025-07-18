@@ -1,6 +1,6 @@
 ---
 title: "Apache Fineract — 携手合作，驱动亚洲金融科技未来"
-date: "2025-07-27T11:30:00"
+date: "2025-07-27T11:35:00"
 track: "5minstalk"
 presenters: "Terence Monteiro"
 stype: "英文演讲"
