@@ -31,4 +31,8 @@ Backend has worked in Baidu, Weibo, Xiaomi, Shenze, mainly engaged in big data c
 
 Feilong He: Intel, Software Engineer
 
-Feilong is a software engineer at Intel with over seven years of experience in the field of data analytics. He actively contributes to the Apache incubating Gluten project and the Meta Velox project as a developer.
+Mr. Feilong He is a software engineer at Intel with over eight years of industry experience in large-scale data processing. He is the co-creator of the Apache-incubating Gluten project and plays critical roles in the project as both an Apache committer and a member of the Podling Project Management Committee (PPMC). As one of the top contributors to Gluten, Mr. He has made key technical contributions that have significantly enhanced the project's runtime stability and performance. His work has been instrumental in the project’s success, which has led to its adoption by major technology companies such as Microsoft, Google, Uber, ByteDance, and Baidu—delivering measurable performance improvements and cost savings.
+
+Mr. He is also an active contributor to Meta's Velox project. Previously, he served as the technical lead for Intel’s Smart Storage Management project, which focused on optimizations for the Hadoop Distributed File System (HDFS) and has been adopted by several domestic companies.
+
+Prior to his industry career, Mr. He earned a master’s degree in computer science from Sun Yat-sen University, where he focused on large-scale optimization. His academic research includes the publication of a high-impact peer-reviewed paper in *Information Sciences*, which has been cited by over 100 scholarly articles, including leading journals and conferences in the field.
