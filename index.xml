@@ -1456,12 +1456,12 @@ Here’s the plan for our 30-minute dive: Start with a 5-minute intro on why Ice
     </item>
     
     <item>
-      <title>Apache Kafka 4.0 in Huawei Cloud</title>
+      <title>Apache Kafka 4.0 on Huawei Cloud</title>
       <link>/sessions/cloudnative-913295.html</link>
       <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
       
       <guid>/sessions/cloudnative-913295.html</guid>
-      <description>In this session, I will introduce some key features of Apache Kafka 4.0, including the next-generation consumer rebalance protocol (KIP-848), queues for Kafka (KIP-932), and more, then discuss how to smoothly upgrade from older Kafka versions to 4.0 and analyze the implications for client compatibility. Finally, I will share Huawei Cloud’s explorations and practices in cloud-native based on Apache Kafka 4.0.
+      <description>In this session, I will introduce some key features of Apache Kafka 4.0, including the next-generation consumer rebalance protocol (KIP-848), queues for Kafka (KIP-932), and more. I will then discuss how to smoothly upgrade from older Kafka versions to 4.0 and analyze the implications for client compatibility. Finally, I will share Huawei Cloud’s explorations and practices in cloud-native based on Apache Kafka 4.0.
 Speakers: 
 Lan Ding: Huawei Cloud message engine R&amp;amp;D expert</description>
     </item>
