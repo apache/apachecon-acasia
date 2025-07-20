@@ -31,4 +31,4 @@ Xixu Wang: 顺丰科技，大数据平台研发高级工程师，apache doris co
 
 Feilong He: 英特尔，软件工程师
 
-Feilong 是英特尔的一名软件工程师，在数据分析领域拥有超过七年的经验。他作为开发者积极参与 Apache 孵化中的 Gluten 项目和 Meta Velox 项目。
+Feilong He是英特尔的一名软件工程师，在数据处理领域拥有超过七年的经验。他作为开发者积极参与Apache孵化中的Gluten项目以及Meta开源的Velox项目。他目前是Gluten项目的Committer和PPMC成员。Feilong是Gluten项目的重要贡献者，推动了该项目在多个科技公司的落地，包括Microsoft、Google、Uber、Pinterest、字节跳动和百度等。他曾是英特尔Smart Storage Management项目的主要维护者，负责对 Hadoop 分布式文件系统（HDFS）进行性能优化，该项目已在多个国内企业用户中部署应用。Feilong拥有中山大学计算机科学硕士学位，研究方向为大规模优化。其研究成果发表在权威学术期刊《Information Sciences》。
