@@ -40,7 +40,7 @@ We strongly recommend you to use the template, but if you don’t plan to use it
     </item>
     
     <item>
-      <title>Convince Your Boss</title>
+      <title>Code of conduct</title>
       <link>/guide/code_of_conduct.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -464,11 +464,23 @@ Future Outlook and Ecosystem Expansion  Directions for technological evolution A
     <item>
       <title>Apache Fineract – Powering Asia’s Fintech Future through Collaboration</title>
       <link>/sessions/5minstalk-913473.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:30:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jul 2025 11:35:00 +0000</pubDate>
       
       <guid>/sessions/5minstalk-913473.html</guid>
       <description>Fineract showcases how open-source collaboration between for-profit and non-profit organizations can transform Asia’s fintech landscape, offering a scalable, inclusive alternative to costly core banking solutions.
 The Apache Fineract ecosystem, born from Mifos X’s backend, powers financial inclusion for over 6 million clients across 36 countries. This lightning talk showcases how a global community of for-profit and non-profit organizations collaborates on Fineract, an open-source banking platform rivaling Temenos and Oracle Flexcube. With over 59 partners across 17 regions—spanning Africa, Asia, the Americas, and beyond—the ecosystem blends commercial scalability with social impact.</description>
+    </item>
+    
+    <item>
+      <title>Why is Saudi Arabia Chinese open-source&#39;s top choice to go global?</title>
+      <link>/sessions/5minstalk-932543.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:30:00 +0000</pubDate>
+      
+      <guid>/sessions/5minstalk-932543.html</guid>
+      <description>I will outline the product forms of Chinese open source projects entering global markets, the key factors for success, and why Saudi Arabia was chosen.
+Speakers: 
+Jerry Tan: TOC Chair of OpenAtom Foundation
+Open Source Expert， member of Apache Foundation， with 20+ years working experience including Sun, Baidu，Tencent</description>
     </item>
     
     <item>
@@ -1032,6 +1044,15 @@ This talk explains what common barriers are to accomplishing objectives of peopl
       <guid>/sessions/keynote-976164.html</guid>
       <description>As the AI wave surges, what opportunities and challenges await independent developers? This panel brings together founders and core members of leading projects including SegmentFault, VibeCafé, Chuhaiqu.club, Apache Answer, and SiliconFlow to address pivotal AI-era themes:
  Unlocking Opportunities: How does AI empower solo developers to pioneer new domains, amplify impact, and build commercial viability? Tackling Challenges: What strategies combat rapid tech evolution, toolchain complexity, and competitive pressure to ensure sustainability?</description>
+    </item>
+    
+    <item>
+      <title>The Three Things That Make or Break a Software Startup</title>
+      <link>/sessions/keynote-979108.html</link>
+      <pubDate>Sat, 26 Jul 2025 11:00:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-979108.html</guid>
+      <description>What really determines success or failure in a software startup? In this keynote, I’ll share the three pillars that matter most: a viable business model, clear product positioning, and sustainable user acquisition. These principles aren’t theoretical — they’re distilled from seven years of building JuiceFS, a distributed file system that went from closed-source to open-source, from SaaS-only to on-premises deployment, and from zero to adoption in some of the most demanding data infrastructures.</description>
     </item>
     
     <item>
@@ -1629,6 +1650,18 @@ In the face of this paradigm shift, the role of the product manager is undergoin
       
       <guid>/sessions/keynote-914928.html</guid>
       <description>This talk discusses the current state of security in open source software, and in particular, how the ASF is responding to the growing threat. The ASF started with the first project: a web server running on an open source operating system. Since then, the organization has built hundreds of communities based on principles of openness, collaboration, and public good. Open source is now considered to be the principal component of most commercial software projects, accounting for some 90% of all commercial code, with an estimated value of USD $8.</description>
+    </item>
+    
+    <item>
+      <title>The power of Community</title>
+      <link>/sessions/keynote-977619.html</link>
+      <pubDate>Fri, 25 Jul 2025 09:30:00 +0000</pubDate>
+      
+      <guid>/sessions/keynote-977619.html</guid>
+      <description>As the opening keynote for Community Over Code Asia, we will briefly review the development journey of the Apache Software Foundation in China and the growth of local Apache communities. Here, we witness the power of community—it is through this collective strength that we have successfully organized this conference!
+Speakers: 
+Willem Jiang: CoC Asia conference Chair， ASF Member， ByteDance Open Source Office Chief Evangelist
+Willem Jiang (Jiang Ning) is the principal Open Source Evangelist of ByteDance OSPO , and serves as a board director of the Apache Software Foundation.</description>
     </item>
     
     <item>

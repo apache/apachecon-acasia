@@ -618,7 +618,7 @@ Minghui Zhang: 阿里云, 杭州
     <item>
       <title>Apache Fineract — 携手合作，驱动亚洲金融科技未来</title>
       <link>/zh/sessions/5minstalk-913473.html</link>
-      <pubDate>Sun, 27 Jul 2025 11:30:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jul 2025 11:35:00 +0000</pubDate>
       
       <guid>/zh/sessions/5minstalk-913473.html</guid>
       <description>Fineract展示了营利与非营利组织间的开源协作如何重塑亚洲金融科技格局，为昂贵的核心银行系统提供了可扩展、普惠的替代方案。
@@ -631,6 +631,18 @@ Minghui Zhang: 阿里云, 杭州
 讲师: 
 Terence Monteiro: Apache Fineract PMC and Entrepreneur behind SanJose Solutions and Consultant
 Terence Monteiro 是一位拥有21年以上经验的资深科技创业者，以打造具有影响力的社区驱动型开源项目而闻名。作为普惠数字解决方案领域的先驱，他曾为 Mifos、微软开放技术（Microsoft Open Technologies）和 CPAN 等项目做出贡献，目前担任阿帕奇·芬纳克特项目管理委员会成员。他的工作将专业技术与社会价值相融合，尤其专注于为全球市场开发普惠金融科技工具和可扩展的移动银行解决方案。</description>
+    </item>
+    
+    <item>
+      <title>为什么沙特阿拉伯是中国开源企业出海的&#39;首选之地&#39;？</title>
+      <link>/zh/sessions/5minstalk-932543.html</link>
+      <pubDate>Sun, 27 Jul 2025 11:30:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/5minstalk-932543.html</guid>
+      <description>我将概述中国开源项目进入全球市场的产品形态、成功关键因素，以及选择沙特阿拉伯的原因。
+讲师: 
+Jerry Tan: OpenAtom 基金会 TOC 主席
+开源专家，Apache基金会成员，拥有20年以上工作经验，曾任职于Sun、百度、腾讯</description>
     </item>
     
     <item>
@@ -1407,6 +1419,18 @@ Joyqi（祁宁）是一位资深的软件工程师和创业者，他最为人熟
 
 阴明: VibeCafé Organizer
 VibeCafé活动组织者，独立开发者</description>
+    </item>
+    
+    <item>
+      <title>决定软件初创公司成败的三大关键因素</title>
+      <link>/zh/sessions/keynote-979108.html</link>
+      <pubDate>Sat, 26 Jul 2025 11:00:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-979108.html</guid>
+      <description>是什么真正决定了一家软件初创公司的成败？在本次主题演讲中，我将分享最为重要的三大支柱：可行的商业模式、清晰的产品定位以及可持续的用户获取方式。这些原则并非空谈理论 —— 它们是从七年打造 JuiceFS 的实践中提炼而来的。JuiceFS 作为一款分布式文件系统，经历了从闭源到开源、从仅提供 SaaS 服务到支持本地部署的转变，最终从零开始，被一些要求极为严苛的数据基础设施所采用。 ​我会分享一路走来积累的宝贵经验、战略性转型以及观察到的行业变迁。如果你正在打造、投资软件企业，或是为其贡献力量 —— 尤其是开源领域的相关从业者，这场演讲将为你提供切实可行的见解，助你把握真正关键的要素。
+讲师: 
+苏 锐: 开源倡导者，JuiceFS 联合创始人
+苏锐是 Juicedata 的联合创始人，也是 JuiceFS 的创建者。JuiceFS 是一款基于对象存储构建的开源分布式文件系统。在过去 7 年里，他带领该系统从一个专有系统发展成为全球广泛采用的 Apache 2.0 许可项目。苏锐在分布式存储社区中十分活跃。创立 Juicedata 之前，他曾创办过一家初创企业，并主导开发了一个在线社区，该社区还获得了中国唯一一个 Ars Electronica 金尼卡奖。</description>
     </item>
     
     <item>
@@ -2253,6 +2277,18 @@ Craig 于 2005 年作为孵化中的 JDO 项目的提交者加入 Apache，并�
 最初，Apache 的治理方式吸引了我，即由实际工作的人决定项目的方向。这与大多数公司的工作方式截然相反，在大多数公司中，“房间里最聪明的人（经理和高管）”会做出决策。
 一旦我自己的项目被 Apache 接受，我就会环顾四周，看看我还能为其他什么项目做出贡献，并加入了一些我可以提供帮助的项目。我还开始研究贡献的许可和最终产品的许可的知识产权模式。这促使我开始为秘书角色做出贡献，处理向基金会授予知识产权的“文书工作”。
 最近，我注意到人们认为基金会“规则太多”，这与人们所追求的自由表达相悖。深入探究这个问题后，我发现有一些共同的主题，如果更好地理解这些主题，可以使体验更加顺畅。</description>
+    </item>
+    
+    <item>
+      <title>社区的力量</title>
+      <link>/zh/sessions/keynote-977619.html</link>
+      <pubDate>Fri, 25 Jul 2025 09:30:00 +0000</pubDate>
+      
+      <guid>/zh/sessions/keynote-977619.html</guid>
+      <description>作为 Community Over Code Asia 的开场演讲内容，我们将简要回顾 Apache 软件基金会在中国的发展历程以及 Apache 本地社区的发展情况。在此，我们能够见证社区力量的强大，借助社区之力，我们得以成功举办本次大会！
+讲师: 
+姜 宁: CoC Asia大会主席、Apache软件基金会（ASF）成员、字节跳动开源办公室首席布道师
+姜宁（Willem Jiang）现任字节跳动开源办公室首席布道师，同时担任 Apache 软件基金会董事。他深度参与过 Apache Camel、CXF、ServiceMix、ServiceComb 等多个开源项目的贡献。在加入字节跳动前，姜宁曾担任华为开源技术专家六年，更早之前作为首席工程师在RedHat 主导 Fuse ESB 项目研发，并曾服务于 FuseSource、IONA 及中国航信等企业。</description>
     </item>
     
     <item>
