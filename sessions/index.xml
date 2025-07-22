@@ -6,7 +6,18 @@
     <description>Recent content in Sessions on Community Over Code Asia 2025</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Jul 2025 17:15:00 +0000</lastBuildDate><atom:link href="/sessions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jul 2025 17:45:00 +0000</lastBuildDate><atom:link href="/sessions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses</title>
+      <link>/sessions/datalake-896996.html</link>
+      <pubDate>Sun, 27 Jul 2025 17:45:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-896996.html</guid>
+      <description>In this talk, we&amp;rsquo;ll dive deep into Apache Iceberg and discover practical techniques for maintaining large-scale data tables efficiently. We’ll guide you through the core challenges of table maintenance in modern data lakes and share strategies to optimize performance and ensure data integrity. You’ll learn how to apply best practices to manage metadata, handle table compaction, and automate maintenance tasks to minimize downtime and improve query performance.
+Session Outline
+Introduction</description>
+    </item>
+    
     <item>
       <title>RobustMQ - Explore how to rewrite a message queue in Rust</title>
       <link>/sessions/rust-898182.html</link>
@@ -628,19 +639,6 @@ In this session, we will explore how Apache Iceberg enhances lakehouse architect
     </item>
     
     <item>
-      <title>Unlocking the Potential of the Dubbo Ecosystem: Building AI-Driven Applications with dubbo-go-pixiu</title>
-      <link>/sessions/webserver-912573.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/webserver-912573.html</guid>
-      <description>Learn how to leverage Dubbo-go-Pixiu to seamlessly connect external protocols with internal Dubbo services, providing a unified entry point for AI model inference services, data processing services, and more.
-Understand the advantages of Dubbo-go-Pixiu in handling multi-protocol communication scenarios commonly encountered in AI applications.
-Explore how to utilize Dubbo-go-Pixiu&amp;rsquo;s capabilities in traffic governance, security authentication, and observability to ensure stable operation and secure access for AI applications.
-Speakers: 
-Stocks Alex: the speaker of dubbogo community</description>
-    </item>
-    
-    <item>
       <title>Virtual Queue in RocketMQ 5.0: Enhancing Backward Compatibility With Legacy Remoting-Based Clients</title>
       <link>/sessions/messaging-908855.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
@@ -690,16 +688,6 @@ As a next-generation open-source MPP database, Apache Cloudberry extends its tec
     </item>
     
     <item>
-      <title>Reshaping OpenTelemetry with Apache Arrow</title>
-      <link>/sessions/webserver-915263.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/sessions/webserver-915263.html</guid>
-      <description>OpenTelemetry is a widely adopted open-source standard for building observability frameworks, offering tools, APIs, and SDKs to generate, collect, and export telemetry data like metrics, logs, and traces. However, its transport protocol relies on Protocol Buffer messages that are stateless and easy to interpret but have a row-based structure that complicates compression. This limitation becomes more significant when transferring large volumes of data across network boundaries.
-In my session, I will present a proposal to address this issue by enhancing the OpenTelemetry protocol with Apache Arrow, referred to as OTel-Arrow.</description>
-    </item>
-    
-    <item>
       <title>Storage Engine for RocketMQ Based on Commitlog and RocksDB</title>
       <link>/sessions/messaging-909302.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
@@ -726,6 +714,19 @@ In my session, I will present a proposal to address this issue by enhancing the 
       <guid>/sessions/community-881123.html</guid>
       <description>OceanBase Database is a distributed relational database developed by Ant Group. It has been supporting the Double 11 Shopping Festival for 11 years. It started as an e-commerce database used by Taobao Favorites and gradually became the database of all core systems of Ant Group. It then grew into the database of core systems of many enterprises, especially the financial industry.
 The database is responsible for data storage and management. It is the core guarantee of the application system.</description>
+    </item>
+    
+    <item>
+      <title>Unlocking the Potential of the Dubbo Ecosystem: Building AI-Driven Applications with dubbo-go-pixiu</title>
+      <link>/sessions/webserver-912573.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-912573.html</guid>
+      <description>Learn how to leverage Dubbo-go-Pixiu to seamlessly connect external protocols with internal Dubbo services, providing a unified entry point for AI model inference services, data processing services, and more.
+Understand the advantages of Dubbo-go-Pixiu in handling multi-protocol communication scenarios commonly encountered in AI applications.
+Explore how to utilize Dubbo-go-Pixiu&amp;rsquo;s capabilities in traffic governance, security authentication, and observability to ensure stable operation and secure access for AI applications.
+Speakers: 
+Stocks Alex: the speaker of dubbogo community</description>
     </item>
     
     <item>
@@ -780,21 +781,22 @@ The Ant Group Open Source Incubation, deeply rooted in the principles of the Apa
     </item>
     
     <item>
+      <title>Reshaping OpenTelemetry with Apache Arrow</title>
+      <link>/sessions/webserver-915263.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-915263.html</guid>
+      <description>OpenTelemetry is a widely adopted open-source standard for building observability frameworks, offering tools, APIs, and SDKs to generate, collect, and export telemetry data like metrics, logs, and traces. However, its transport protocol relies on Protocol Buffer messages that are stateless and easy to interpret but have a row-based structure that complicates compression. This limitation becomes more significant when transferring large volumes of data across network boundaries.
+In my session, I will present a proposal to address this issue by enhancing the OpenTelemetry protocol with Apache Arrow, referred to as OTel-Arrow.</description>
+    </item>
+    
+    <item>
       <title>Scalable Join &amp; Aggregation with External State and Dynamic Tables</title>
       <link>/sessions/streaming-909075.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
       
       <guid>/sessions/streaming-909075.html</guid>
       <description>Background &amp;amp; Motivation •	Flink SQL challenges at scale: large state, long joins, complex maintenance •	Business use case: automotive data warehouse and alerting systems 2.	State Externalization with Delta Join and Merge Engine •	Delta Join: external dimension tables with up-to-date snapshots •	Merge Engine: external upsert tables for aggregation results •	How we minimized internal state while ensuring correctness and latency 3.	The Role of Dynamic Tables •	Intermediate table explosion: a hidden cost of state externalization •	How Dynamic Tables automate schema creation, lifecycle, and data lineage •	Empowering developers: write business logic, forget the plumbing 4.</description>
-    </item>
-    
-    <item>
-      <title>Seata&#39;s Journey: From an Alibaba Innovation to Apache Success and Beyond</title>
-      <link>/sessions/webserver-915271.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/sessions/webserver-915271.html</guid>
-      <description>Seata is an open-source distributed transaction solution with a focus on providing high-performance and user-friendly distributed transaction services in microservice architectures. Initially developed for internal use within Alibaba, Seata served as middleware ensuring data consistency across applications during major events like Double 11, effectively supporting upper-layer business operations. With years of development and improvement, its commercialized products have been offered on Alibaba Cloud and Financial Cloud. In January 2019, Seata was officially open-sourced to foster a better technical ecosystem and make technological advancements accessible to more users.</description>
     </item>
     
     <item>
@@ -860,18 +862,6 @@ At Tencent Cloud, we have developed a robust, cloud-based MQTT solution built on
     </item>
     
     <item>
-      <title>Lessons Learned: Building Service Gateway with Tomcat And Virtual Threads</title>
-      <link>/sessions/webserver-889038.html</link>
-      <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
-      
-      <guid>/sessions/webserver-889038.html</guid>
-      <description>This technical session shares practical experiences and key insights gained from building and deploying a production service gateway using Tomcat and Java 21 virtual threads. We&amp;rsquo;ll explore how Tomcat&amp;rsquo;s native virtual thread support transforms gateway performance, the challenges faced during migration, and best practices that emerged during our journey of modernizing a traditional Tomcat-based service gateway with Project Loom&amp;rsquo;s virtual threads.
-Speakers: 
-Yike Xiao: 智联招聘, Senior Software Engineer
-A veteran distributed systems architect with over a five years of hands-on experience in:</description>
-    </item>
-    
-    <item>
       <title>Nurturing New Contributors: The Art of Crafting Good First Issues</title>
       <link>/sessions/community-912217.html</link>
       <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
@@ -888,6 +878,15 @@ The talk will cover strategies for identifying appropriate tasks, writing clear 
       
       <guid>/sessions/streaming-903630.html</guid>
       <description>As the demand for streaming tasks continues to grow within ByteDance, Flink has been widely adopted across various business domains at scale. Among the resource costs of these large-scale tasks, memory stands out as a significant contributor—especially heap memory. The total allocated memory for all tasks has reached tens of thousands of terabytes, yet the JVM heap utilization remains below 50%, and container-level memory usage is under 70%. Against the backdrop of company-wide cost reduction and efficiency improvement, we have carried out a series of memory optimizations focused on heap memory usage prediction, off-heap memory usage tracking, and simplifying Flink’s memory model.</description>
+    </item>
+    
+    <item>
+      <title>Seata&#39;s Journey: From an Alibaba Innovation to Apache Success and Beyond</title>
+      <link>/sessions/webserver-915271.html</link>
+      <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-915271.html</guid>
+      <description>Seata is an open-source distributed transaction solution with a focus on providing high-performance and user-friendly distributed transaction services in microservice architectures. Initially developed for internal use within Alibaba, Seata served as middleware ensuring data consistency across applications during major events like Double 11, effectively supporting upper-layer business operations. With years of development and improvement, its commercialized products have been offered on Alibaba Cloud and Financial Cloud. In January 2019, Seata was officially open-sourced to foster a better technical ecosystem and make technological advancements accessible to more users.</description>
     </item>
     
     <item>
@@ -942,6 +941,18 @@ I graduated from Tianjin University majoring in software engineering. At present
     </item>
     
     <item>
+      <title>Lessons Learned: Building Service Gateway with Tomcat And Virtual Threads</title>
+      <link>/sessions/webserver-889038.html</link>
+      <pubDate>Sat, 26 Jul 2025 14:00:00 +0000</pubDate>
+      
+      <guid>/sessions/webserver-889038.html</guid>
+      <description>This technical session shares practical experiences and key insights gained from building and deploying a production service gateway using Tomcat and Java 21 virtual threads. We&amp;rsquo;ll explore how Tomcat&amp;rsquo;s native virtual thread support transforms gateway performance, the challenges faced during migration, and best practices that emerged during our journey of modernizing a traditional Tomcat-based service gateway with Project Loom&amp;rsquo;s virtual threads.
+Speakers: 
+Yike Xiao: 智联招聘, Senior Software Engineer
+A veteran distributed systems architect with over a five years of hands-on experience in:</description>
+    </item>
+    
+    <item>
       <title>Optimization and practice of Doris on Paimon in Xiaomi</title>
       <link>/sessions/olap-911203.html</link>
       <pubDate>Sat, 26 Jul 2025 14:00:00 +0000</pubDate>
@@ -958,17 +969,6 @@ I graduated from Tianjin University majoring in software engineering. At present
       <guid>/sessions/streaming-868206.html</guid>
       <description>Message queues are essential for real-time use cases like payment processing, fraud detection, and AI-powered support systems—but traditional queues often lack scalability, durability, and replayability. In this talk, we explore how Kafka 4.0 brings native queue semantics to the world of distributed streaming, enabling fair, concurrent, and isolated message processing at scale.
 We’ll show how Apache Flink’s native LLM integration leverages this queue model to perform real-time Large Language Model (LLM) inference—like sentiment analysis or summarization—and how enriched results can be written directly to Apache Iceberg, a powerful data lakehouse for long-term analytics, data versioning &amp;amp; time travel and ML feedback loops.</description>
-    </item>
-    
-    <item>
-      <title>Solving Complex Problems with AI Agents Design Patterns Using Spring AI</title>
-      <link>/sessions/webserver-895485.html</link>
-      <pubDate>Sat, 26 Jul 2025 14:00:00 +0000</pubDate>
-      
-      <guid>/sessions/webserver-895485.html</guid>
-      <description>This session demonstrates how to use Spring AI and design patterns to build AI agents to tackle complex problems. We&amp;rsquo;ll explore patterns for breaking down problems into sub-tasks, integrating external tools and APIs, and managing agent state.
-The session will cover key design principles, real-world examples, and best practices, empowering software engineers to create sophisticated AI agents easily.
-Attendees will gain practical insights into how to apply these patterns to create agents capable of performing tasks such as data analysis, decision-making, and process automation.</description>
     </item>
     
     <item>
@@ -1052,16 +1052,6 @@ Wei Wang: Professor of East China Normal University</description>
     </item>
     
     <item>
-      <title>Accelerate Spark Queries with Gluten and Velox Engine on Arm64</title>
-      <link>/sessions/datalake-884074.html</link>
-      <pubDate>Fri, 25 Jul 2025 17:15:00 +0000</pubDate>
-      
-      <guid>/sessions/datalake-884074.html</guid>
-      <description>Apache Spark SQL provides a robust solution, enabling users to process massive datasets efficiently. Recently, Project Gluten was introduced as an Apache Arrow-based native SQL engine designed to enhance Spark SQL&amp;rsquo;s capabilities. Concurrently, several vectorized SQL engines with vibrant open-source communities have gained traction. Among them, the Meta-led Velox project stands out as a promising vectorized database acceleration library.
-The Gluten-Velox integration represents a significant leap forward, delivering an optimized Spark SQL accelerator tailored for the Arm platform.</description>
-    </item>
-    
-    <item>
       <title>Flex: Unified Stream and Batch Vectorized Engine</title>
       <link>/sessions/streaming-909040.html</link>
       <pubDate>Fri, 25 Jul 2025 17:15:00 +0000</pubDate>
@@ -1071,6 +1061,16 @@ The Gluten-Velox integration represents a significant leap forward, delivering a
 Speakers: 
 Jacky Lau: Expert in Distributed Computing Engines at Ant Financial, Calcite Committer and Flink Contributor
 Expert in Distributed Computing Engines at Ant Financial, Calcite Committer and Flink Contributor with 10 years of Big Data development experience, focus on Flink/Spark/HBase</description>
+    </item>
+    
+    <item>
+      <title>Accelerate Spark Queries with Gluten and Velox Engine on Arm64</title>
+      <link>/sessions/datalake-884074.html</link>
+      <pubDate>Fri, 25 Jul 2025 16:45:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-884074.html</guid>
+      <description>Apache Spark SQL provides a robust solution, enabling users to process massive datasets efficiently. Recently, Project Gluten was introduced as an Apache Arrow-based native SQL engine designed to enhance Spark SQL&amp;rsquo;s capabilities. Concurrently, several vectorized SQL engines with vibrant open-source communities have gained traction. Among them, the Meta-led Velox project stands out as a promising vectorized database acceleration library.
+The Gluten-Velox integration represents a significant leap forward, delivering an optimized Spark SQL accelerator tailored for the Arm platform.</description>
     </item>
     
     <item>
@@ -1132,26 +1132,6 @@ System-triggered agents must run continuously, act autonomously, and recover fro
       <description>Since version 1.0.0, Apache IoTDB has provided a unified system monitoring framework, allowing database developers to define system monitoring indicators such as counters and register them for unified management, and supporting the Prometheus + Grafana monitoring indicator visualization solution. After a year of practice, 4 visual monitoring panels and a lot of tuning experience based on system monitoring have been formed.
 Speakers: 
 Hongyin Zhang: Apache Committer, Master&amp;rsquo;s student at Tsinghua University</description>
-    </item>
-    
-    <item>
-      <title>​​Building Inverted Indexes on Iceberg with Tantivy: A Hands-on Approach​​</title>
-      <link>/sessions/datalake-915144.html</link>
-      <pubDate>Fri, 25 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/sessions/datalake-915144.html</guid>
-      <description>In big data scenarios, efficient data retrieval is a core requirement for many business applications.​​ As the cornerstone of full-text search and complex queries, inverted indexes can significantly improve query performance, particularly excelling in log analysis scenarios requiring fuzzy matching. Compared to traditional solutions, leveraging the storage scalability and compute-storage separation advantages of lakehouse table formats can effectively reduce index storage costs. However, implementing scalable, low-maintenance inverted indexes in data lake architectures using modern table formats (like Apache Iceberg) still presents multiple challenges, including real-time synchronization between indexes and data, consistency guarantees in distributed environments, and query optimization issues.</description>
-    </item>
-    
-    <item>
-      <title>Apache Hudi in Action: Accelerating Kuaishou&#39;s Data Warehouse Architecture Upgrade</title>
-      <link>/sessions/datalake-915337.html</link>
-      <pubDate>Fri, 25 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/datalake-915337.html</guid>
-      <description>Topic Introduction: Apache Hudi is a powerful table format that provides extensive capabilities for both offline and real-time scenarios. During the process of advancing its data warehouse architecture upgrade, Kuaishou has leveraged Hudi&amp;rsquo;s data lake capabilities to enhance timeliness, reduce costs, and improve development efficiency in scenarios such as real-time data ingestion into the lake, partial updates, and large wide table.
-This topic is divided into three parts:
- Apache Hudi Use Cases and Challenges at Kuaishou:  Share Kuaishou&amp;rsquo;s Hudi-based business scenarios and the challenges encountered during large-scale implementation.</description>
     </item>
     
     <item>
@@ -1220,6 +1200,15 @@ SelectDB, VP QianXin and 360, Director Baidu, Senior Engineer</description>
       
       <guid>/sessions/datastorage-913138.html</guid>
       <description>1.Background: Flink, as a stateful stream processing system, has a state storage engine that plays a crucial role. In Flink, state is used to store intermediate results during the data stream computation process. Flink provides state read and write services for operators through the State Backend component. However, under the current architecture where computation and storage are integrated, the following issues arise: a. Local disk limitations: The state data in RocksDB is heavily dependent on local disks, and when the local disk space is full, jobs cannot run properly.</description>
+    </item>
+    
+    <item>
+      <title>​​Building Inverted Indexes on Iceberg with Tantivy: A Hands-on Approach​​</title>
+      <link>/sessions/datalake-915144.html</link>
+      <pubDate>Fri, 25 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-915144.html</guid>
+      <description>In big data scenarios, efficient data retrieval is a core requirement for many business applications.​​ As the cornerstone of full-text search and complex queries, inverted indexes can significantly improve query performance, particularly excelling in log analysis scenarios requiring fuzzy matching. Compared to traditional solutions, leveraging the storage scalability and compute-storage separation advantages of lakehouse table formats can effectively reduce index storage costs. However, implementing scalable, low-maintenance inverted indexes in data lake architectures using modern table formats (like Apache Iceberg) still presents multiple challenges, including real-time synchronization between indexes and data, consistency guarantees in distributed environments, and query optimization issues.</description>
     </item>
     
     <item>
@@ -1302,17 +1291,6 @@ Principle Engineer in Bigo. Leader of Bigo bigdata computer engine team.</descri
     </item>
     
     <item>
-      <title>Apache Amoro &amp; iceberg in Huolala Prdouction</title>
-      <link>/sessions/datalake-904992.html</link>
-      <pubDate>Fri, 25 Jul 2025 15:00:00 +0000</pubDate>
-      
-      <guid>/sessions/datalake-904992.html</guid>
-      <description>At Huolala, we leveraged Apache Amoro to build a next-generation lakehouse platform with Apache Iceberg as its core. While managing petabyte-scale daily data processing, we tackled critical stability challenges, including:
-Production Stability Challenges:
- Small file compaction and snapshot expiration in production Large-scale data migration with object storage (e.g., S3, OSS) Real-time monitoring &amp;amp; alerting for merge tasks and metadata operations Optimized table design to minimize small files and compaction overhead  Architectural Innovations:</description>
-    </item>
-    
-    <item>
       <title>Apache Flink 2.1: Continuing Evolution Toward Data &#43; AI All-in-One</title>
       <link>/sessions/streaming-894592.html</link>
       <pubDate>Fri, 25 Jul 2025 15:00:00 +0000</pubDate>
@@ -1330,6 +1308,17 @@ Production Stability Challenges:
       <description>Metadata management has become a cornerstone in the AI era. This talk will explore how Apache Gravitino enables the management of unstructured data and models at scale, along with Xiaomi’s real-world implementations of leveraging Gravitino for large language model (LLM) data processing and model lifecycle management.
 Outline:
  The challenges of dataset and model management in AI workflows and how Gravitino addresses these through its Fileset Catalog for structured AI dataset governance and Model Catalog for unified model lifecycle management.</description>
+    </item>
+    
+    <item>
+      <title>Apache Hudi in Action: Accelerating Kuaishou&#39;s Data Warehouse Architecture Upgrade</title>
+      <link>/sessions/datalake-915337.html</link>
+      <pubDate>Fri, 25 Jul 2025 15:00:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-915337.html</guid>
+      <description>Topic Introduction: Apache Hudi is a powerful table format that provides extensive capabilities for both offline and real-time scenarios. During the process of advancing its data warehouse architecture upgrade, Kuaishou has leveraged Hudi&amp;rsquo;s data lake capabilities to enhance timeliness, reduce costs, and improve development efficiency in scenarios such as real-time data ingestion into the lake, partial updates, and large wide table.
+This topic is divided into three parts:
+ Apache Hudi Use Cases and Challenges at Kuaishou:  Share Kuaishou&amp;rsquo;s Hudi-based business scenarios and the challenges encountered during large-scale implementation.</description>
     </item>
     
     <item>
@@ -1394,6 +1383,17 @@ Storage Optimization By replacing HDFS with JuiceFS, we implemented elastic comp
     </item>
     
     <item>
+      <title>Apache Amoro &amp; iceberg in Huolala Prdouction</title>
+      <link>/sessions/datalake-904992.html</link>
+      <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
+      
+      <guid>/sessions/datalake-904992.html</guid>
+      <description>At Huolala, we leveraged Apache Amoro to build a next-generation lakehouse platform with Apache Iceberg as its core. While managing petabyte-scale daily data processing, we tackled critical stability challenges, including:
+Production Stability Challenges:
+ Small file compaction and snapshot expiration in production Large-scale data migration with object storage (e.g., S3, OSS) Real-time monitoring &amp;amp; alerting for merge tasks and metadata operations Optimized table design to minimize small files and compaction overhead  Architectural Innovations:</description>
+    </item>
+    
+    <item>
       <title>Apache Doris AI exploration and practice</title>
       <link>/sessions/ai-912444.html</link>
       <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
@@ -1411,16 +1411,6 @@ YiJia Su: Apache Doris Committer、SelectDB Solutions Architect、PowerData Spon
       
       <guid>/sessions/olap-912431.html</guid>
       <description>Apache Doris has undergone nearly 2 years of development at Cainiao, from early validation exploration to gradual implementation of core business scenarios, and has gone through the test of the Double 11 promotion peak, Currently, Doris is the best choice for OLAP at Cainiao. In this sharing, we will introduce Doris&#39; entire development process from 0 to 1 at Cainiao, the challenges she encountered, and more How can we achieve large-scale deployment based on the business scenario of Cainiao, helping businesses achieve significant cost reduction and stability improvement.</description>
-    </item>
-    
-    <item>
-      <title>Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures</title>
-      <link>/sessions/datalake-868208.html</link>
-      <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
-      
-      <guid>/sessions/datalake-868208.html</guid>
-      <description>Most Apache Iceberg talks wax poetic about time travel and ACID compliance—yawn. But what about the features nobody’s shouting about? The ones that turn chaos into control, experiments into wins, and static tables into agentic powerhouses - let your data platform think for itself ? Welcome, here we will learn Iceberg’s hidden toolkit.
-Here’s the plan for our 30-minute dive: Start with a 5-minute intro on why Iceberg’s hidden gems outshine the basics.</description>
     </item>
     
     <item>
@@ -1510,14 +1500,13 @@ I am currently employed by China Unicom Data Intelligence Co., Ltd. I contribute
     </item>
     
     <item>
-      <title>Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses</title>
-      <link>/sessions/datalake-896996.html</link>
+      <title>Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures</title>
+      <link>/sessions/datalake-868208.html</link>
       <pubDate>Fri, 25 Jul 2025 14:00:00 +0000</pubDate>
       
-      <guid>/sessions/datalake-896996.html</guid>
-      <description>In this talk, we&amp;rsquo;ll dive deep into Apache Iceberg and discover practical techniques for maintaining large-scale data tables efficiently. We’ll guide you through the core challenges of table maintenance in modern data lakes and share strategies to optimize performance and ensure data integrity. You’ll learn how to apply best practices to manage metadata, handle table compaction, and automate maintenance tasks to minimize downtime and improve query performance.
-Session Outline
-Introduction</description>
+      <guid>/sessions/datalake-868208.html</guid>
+      <description>Most Apache Iceberg talks wax poetic about time travel and ACID compliance—yawn. But what about the features nobody’s shouting about? The ones that turn chaos into control, experiments into wins, and static tables into agentic powerhouses - let your data platform think for itself ? Welcome, here we will learn Iceberg’s hidden toolkit.
+Here’s the plan for our 30-minute dive: Start with a 5-minute intro on why Iceberg’s hidden gems outshine the basics.</description>
     </item>
     
     <item>
