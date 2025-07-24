@@ -1374,12 +1374,12 @@ Storage Optimization By replacing HDFS with JuiceFS, we implemented elastic comp
     </item>
     
     <item>
-      <title>Ant Group&#39;s Next Generation High SLA Streaming Computing System Built on Apache Technology Stack</title>
+      <title>Ant Group&#39;s Next Generation High SLA Stream Computing System Built on Apache Technology Stack</title>
       <link>/sessions/streaming-880299.html</link>
       <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
       
       <guid>/sessions/streaming-880299.html</guid>
-      <description>● Background: Introduce Ant Group&amp;rsquo;s real-time business and technical background ● Solution: Introduce the new generation of stream computing systems built on Apache technology stacks such as Flink and Calcite ● Key design: Introduce core technologies such as full-link SLA observability, scenario-based disaster recovery, and state-compatible computing enhancement ● Application cases: Introduce application cases in Ant Group&amp;rsquo;s key business scenarios ● Main progress: Introduce the current construction progress and future prospects of the system</description>
+      <description>Background: Introduce Ant Group&amp;rsquo;s real-time business and technical background Solution: Introduce the new generation of stream computing systems built on Apache technology stacks such as Flink and Calcite Key design: Introduce core technologies such as full-link SLA observability, scenario-based disaster recovery, and state-compatible computing enhancement Application cases: Introduce application cases in Ant Group&amp;rsquo;s key business scenarios Main progress: Introduce the current construction progress and future prospects of the system  Speakers:</description>
     </item>
     
     <item>
