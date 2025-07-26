@@ -1,6 +1,6 @@
 ---
 title: "Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake"
-date: "2025-07-26T14:00:00"
+date: "2025-07-26T16:45:00"
 room: "YuanMing Hall"
 track: "streaming"
 presenters: "Shekhar Prasad Rajak"
