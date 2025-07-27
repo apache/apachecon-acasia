@@ -816,19 +816,6 @@
                 href="/zh/sessions/general-875124.html"
                 />
   </url><url>
-    <loc>/zh/sessions/streaming-910562.html</loc>
-    <lastmod>2025-07-26T16:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/streaming-910562.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-910562.html"
-                />
-  </url><url>
     <loc>/zh/sessions/datalake-913345.html</loc>
     <lastmod>2025-07-26T16:45:00+00:00</lastmod>
     <xhtml:link
@@ -868,6 +855,19 @@
                 href="/zh/sessions/messaging-905772.html"
                 />
   </url><url>
+    <loc>/zh/sessions/streaming-868206.html</loc>
+    <lastmod>2025-07-26T16:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/streaming-868206.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-868206.html"
+                />
+  </url><url>
     <loc>/zh/sessions/datastorage-896070.html</loc>
     <lastmod>2025-07-26T16:15:00+00:00</lastmod>
     <xhtml:link
@@ -879,6 +879,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/datastorage-896070.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/streaming-910562.html</loc>
+    <lastmod>2025-07-26T16:15:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/streaming-910562.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-910562.html"
                 />
   </url><url>
     <loc>/zh/sessions/messaging-908855.html</loc>
@@ -931,19 +944,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/general-914547.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-889266.html</loc>
-    <lastmod>2025-07-26T16:15:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/streaming-889266.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-889266.html"
                 />
   </url><url>
     <loc>/zh/sessions/general-914611.html</loc>
@@ -1011,6 +1011,19 @@
                 href="/zh/sessions/messaging-909302.html"
                 />
   </url><url>
+    <loc>/zh/sessions/streaming-889266.html</loc>
+    <lastmod>2025-07-26T15:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/streaming-889266.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-889266.html"
+                />
+  </url><url>
     <loc>/zh/sessions/community-881123.html</loc>
     <lastmod>2025-07-26T15:45:00+00:00</lastmod>
     <xhtml:link
@@ -1022,19 +1035,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/community-881123.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-910362.html</loc>
-    <lastmod>2025-07-26T15:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/streaming-910362.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-910362.html"
                 />
   </url><url>
     <loc>/zh/sessions/webserver-912573.html</loc>
@@ -1102,19 +1102,6 @@
                 href="/zh/sessions/messaging-906870.html"
                 />
   </url><url>
-    <loc>/zh/sessions/streaming-909075.html</loc>
-    <lastmod>2025-07-26T15:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/streaming-909075.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-909075.html"
-                />
-  </url><url>
     <loc>/zh/sessions/datalake-905869.html</loc>
     <lastmod>2025-07-26T15:00:00+00:00</lastmod>
     <xhtml:link
@@ -1126,6 +1113,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/datalake-905869.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/streaming-910362.html</loc>
+    <lastmod>2025-07-26T15:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/streaming-910362.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-910362.html"
                 />
   </url><url>
     <loc>/zh/sessions/community-913430.html</loc>
@@ -1219,6 +1219,19 @@
                 href="/zh/sessions/webserver-915271.html"
                 />
   </url><url>
+    <loc>/zh/sessions/streaming-909075.html</loc>
+    <lastmod>2025-07-26T14:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/streaming-909075.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-909075.html"
+                />
+  </url><url>
     <loc>/zh/sessions/community-912217.html</loc>
     <lastmod>2025-07-26T14:30:00+00:00</lastmod>
     <xhtml:link
@@ -1230,19 +1243,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/community-912217.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-903630.html</loc>
-    <lastmod>2025-07-26T14:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/streaming-903630.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-903630.html"
                 />
   </url><url>
     <loc>/zh/sessions/messaging-908848.html</loc>
@@ -1297,6 +1297,19 @@
                 href="/zh/sessions/community-914929.html"
                 />
   </url><url>
+    <loc>/zh/sessions/streaming-903630.html</loc>
+    <lastmod>2025-07-26T14:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/streaming-903630.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-903630.html"
+                />
+  </url><url>
     <loc>/zh/sessions/ai-912416.html</loc>
     <lastmod>2025-07-26T14:00:00+00:00</lastmod>
     <xhtml:link
@@ -1347,19 +1360,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/messaging-882395.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-868206.html</loc>
-    <lastmod>2025-07-26T14:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/streaming-868206.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-868206.html"
                 />
   </url><url>
     <loc>/zh/sessions/keynote-976164.html</loc>

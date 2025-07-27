@@ -569,22 +569,22 @@ This keynote will share Tencent Cloud&amp;rsquo;s extensive experience with lake
     </item>
     
     <item>
-      <title>Kafka 4.0 Highlights: Features, Removals, and Upgrades</title>
-      <link>/sessions/streaming-910562.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-910562.html</guid>
-      <description>While there’s already a lot of buzz around Kafka 4.0, most discussions focus on the headline features—like the removal of ZooKeeper or the introduction of new APIs. In this session, we want to highlight some of the lesser-known but equally important changes in Kafka 4.0. These updates might not grab the spotlight, but they can significantly impact how you configure, operate, and debug Kafka in real-world environments.
-One of the major questions users face is how to approach the upgrade to Kafka 4.</description>
-    </item>
-    
-    <item>
       <title>Optimizing Parquet Storage: Metadata Management, Performance Tuning &amp; Seamless Migration</title>
       <link>/sessions/datalake-913345.html</link>
       <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
       
       <guid>/sessions/datalake-913345.html</guid>
       <description>This session delves into advanced techniques for optimizing Parquet storage ecosystems. We’ll explore a comprehensive approach to managing metadata—from efficient collection and storage to building a scalable metadata warehouse. Attendees will learn practical strategies for storage optimization, including ZSTD compression upgrades, local/global sorting, and column-level tuning for enhanced performance. Additionally, we’ll cover seamless migration of legacy formats through in-place backtracking and heterogeneous format interoperability. Whether you’re handling large-scale datasets or fine-tuning storage efficiency, this session offers actionable insights to elevate your Parquet workflows.</description>
+    </item>
+    
+    <item>
+      <title>Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake</title>
+      <link>/sessions/streaming-868206.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:45:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-868206.html</guid>
+      <description>Message queues are essential for real-time use cases like payment processing, fraud detection, and AI-powered support systems—but traditional queues often lack scalability, durability, and replayability. In this talk, we explore how Kafka 4.0 brings native queue semantics to the world of distributed streaming, enabling fair, concurrent, and isolated message processing at scale.
+We’ll show how Apache Flink’s native LLM integration leverages this queue model to perform real-time Large Language Model (LLM) inference—like sentiment analysis or summarization—and how enriched results can be written directly to Apache Iceberg, a powerful data lakehouse for long-term analytics, data versioning &amp;amp; time travel and ML feedback loops.</description>
     </item>
     
     <item>
@@ -620,6 +620,16 @@ Performance improvements address: Spark skew optimization to eliminate extra sor
     </item>
     
     <item>
+      <title>Kafka 4.0 Highlights: Features, Removals, and Upgrades</title>
+      <link>/sessions/streaming-910562.html</link>
+      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-910562.html</guid>
+      <description>While there’s already a lot of buzz around Kafka 4.0, most discussions focus on the headline features—like the removal of ZooKeeper or the introduction of new APIs. In this session, we want to highlight some of the lesser-known but equally important changes in Kafka 4.0. These updates might not grab the spotlight, but they can significantly impact how you configure, operate, and debug Kafka in real-world environments.
+One of the major questions users face is how to approach the upgrade to Kafka 4.</description>
+    </item>
+    
+    <item>
       <title>Supercharge Lakehouse Implementation with Apache Iceberg</title>
       <link>/sessions/datalake-914503.html</link>
       <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
@@ -646,16 +656,6 @@ In this session, we will explore how Apache Iceberg enhances lakehouse architect
       <guid>/sessions/messaging-908855.html</guid>
       <description>Apache RocketMQ is a distributed messaging and streaming platform known for its low latency, high performance, and high reliability. The newly released version 5.0 has two major advancements:
  Decouples storage from compute to achieve better scalability and cloud-native adaptability. Introduces POP consumption mode to shift the balancing logic from clients to the broker. To adapt to these features, the community has launched a new gRPC-based client. However, existing users who access RocketMQ with a remoting-based client cannot benefit from these 5.</description>
-    </item>
-    
-    <item>
-      <title>When Flink Meets Fluss: The Future of Streaming Warehouse</title>
-      <link>/sessions/streaming-889266.html</link>
-      <pubDate>Sat, 26 Jul 2025 16:15:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-889266.html</guid>
-      <description>Kafka and Flink have been widely used together in streaming processing scenarios, becoming a defacto standard paradigm for building streaming warehouses and real-time analytics. However, it still faces many challenging issues that are hard to resolve. This session will explore the challenges and problems this paradigm faces in streaming analytics.
-We will first discuss the limitations and pain points of Kafka when used with Flink. Then we will introduce Fluss, a next-generation streaming storage designed for streaming analytics.</description>
     </item>
     
     <item>
@@ -698,15 +698,6 @@ As a next-generation open-source MPP database, Apache Cloudberry extends its tec
     </item>
     
     <item>
-      <title>The Intelligent Evolution of Fully Managed Resource Management for Tencent&#39;s Real-Time Computing</title>
-      <link>/sessions/streaming-910362.html</link>
-      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
-      
-      <guid>/sessions/streaming-910362.html</guid>
-      <description>Background and Industry Pain Points a. Flink, as a long-running stateful computation, is widely used in scenarios such as real-time data warehousing, real-time analytics, and online training. b. Real-time resource configuration and operations are a universal challenge: over-provisioning leads to waste, while under-provisioning causes lag and failover. Additionally, resource demands vary significantly over time. Evolution of Autoscaling Architecture — Fully Managed Intelligent Resource Management a. Automated resource solutions for the entire lifecycle of jobs, including startup, runtime, upgrades, and exceptions (lag, failover).</description>
-    </item>
-    
-    <item>
       <title>The Practice to Building a Developer Friendly Open Source Database Community</title>
       <link>/sessions/community-881123.html</link>
       <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
@@ -727,6 +718,16 @@ Understand the advantages of Dubbo-go-Pixiu in handling multi-protocol communica
 Explore how to utilize Dubbo-go-Pixiu&amp;rsquo;s capabilities in traffic governance, security authentication, and observability to ensure stable operation and secure access for AI applications.
 Speakers: 
 Stocks Alex: the speaker of dubbogo community</description>
+    </item>
+    
+    <item>
+      <title>When Flink Meets Fluss: The Future of Streaming Warehouse</title>
+      <link>/sessions/streaming-889266.html</link>
+      <pubDate>Sat, 26 Jul 2025 15:45:00 +0000</pubDate>
+      
+      <guid>/sessions/streaming-889266.html</guid>
+      <description>Kafka and Flink have been widely used together in streaming processing scenarios, becoming a defacto standard paradigm for building streaming warehouses and real-time analytics. However, it still faces many challenging issues that are hard to resolve. This session will explore the challenges and problems this paradigm faces in streaming analytics.
+We will first discuss the limitations and pain points of Kafka when used with Flink. Then we will introduce Fluss, a next-generation streaming storage designed for streaming analytics.</description>
     </item>
     
     <item>
@@ -791,12 +792,12 @@ In my session, I will present a proposal to address this issue by enhancing the 
     </item>
     
     <item>
-      <title>Scalable Join &amp; Aggregation with External State and Dynamic Tables</title>
-      <link>/sessions/streaming-909075.html</link>
+      <title>The Intelligent Evolution of Fully Managed Resource Management for Tencent&#39;s Real-Time Computing</title>
+      <link>/sessions/streaming-910362.html</link>
       <pubDate>Sat, 26 Jul 2025 15:00:00 +0000</pubDate>
       
-      <guid>/sessions/streaming-909075.html</guid>
-      <description>Background &amp;amp; Motivation •	Flink SQL challenges at scale: large state, long joins, complex maintenance •	Business use case: automotive data warehouse and alerting systems 2.	State Externalization with Delta Join and Merge Engine •	Delta Join: external dimension tables with up-to-date snapshots •	Merge Engine: external upsert tables for aggregation results •	How we minimized internal state while ensuring correctness and latency 3.	The Role of Dynamic Tables •	Intermediate table explosion: a hidden cost of state externalization •	How Dynamic Tables automate schema creation, lifecycle, and data lineage •	Empowering developers: write business logic, forget the plumbing 4.</description>
+      <guid>/sessions/streaming-910362.html</guid>
+      <description>Background and Industry Pain Points a. Flink, as a long-running stateful computation, is widely used in scenarios such as real-time data warehousing, real-time analytics, and online training. b. Real-time resource configuration and operations are a universal challenge: over-provisioning leads to waste, while under-provisioning causes lag and failover. Additionally, resource demands vary significantly over time. Evolution of Autoscaling Architecture — Fully Managed Intelligent Resource Management a. Automated resource solutions for the entire lifecycle of jobs, including startup, runtime, upgrades, and exceptions (lag, failover).</description>
     </item>
     
     <item>
@@ -872,12 +873,12 @@ The talk will cover strategies for identifying appropriate tasks, writing clear 
     </item>
     
     <item>
-      <title>Practice of Flink Memory Governance at ByteDance</title>
-      <link>/sessions/streaming-903630.html</link>
+      <title>Scalable Join &amp; Aggregation with External State and Dynamic Tables</title>
+      <link>/sessions/streaming-909075.html</link>
       <pubDate>Sat, 26 Jul 2025 14:30:00 +0000</pubDate>
       
-      <guid>/sessions/streaming-903630.html</guid>
-      <description>As the demand for streaming tasks continues to grow within ByteDance, Flink has been widely adopted across various business domains at scale. Among the resource costs of these large-scale tasks, memory stands out as a significant contributor—especially heap memory. The total allocated memory for all tasks has reached tens of thousands of terabytes, yet the JVM heap utilization remains below 50%, and container-level memory usage is under 70%. Against the backdrop of company-wide cost reduction and efficiency improvement, we have carried out a series of memory optimizations focused on heap memory usage prediction, off-heap memory usage tracking, and simplifying Flink’s memory model.</description>
+      <guid>/sessions/streaming-909075.html</guid>
+      <description>Background &amp;amp; Motivation •	Flink SQL challenges at scale: large state, long joins, complex maintenance •	Business use case: automotive data warehouse and alerting systems 2.	State Externalization with Delta Join and Merge Engine •	Delta Join: external dimension tables with up-to-date snapshots •	Merge Engine: external upsert tables for aggregation results •	How we minimized internal state while ensuring correctness and latency 3.	The Role of Dynamic Tables •	Intermediate table explosion: a hidden cost of state externalization •	How Dynamic Tables automate schema creation, lifecycle, and data lineage •	Empowering developers: write business logic, forget the plumbing 4.</description>
     </item>
     
     <item>
@@ -962,13 +963,12 @@ A veteran distributed systems architect with over a five years of hands-on exper
     </item>
     
     <item>
-      <title>Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake</title>
-      <link>/sessions/streaming-868206.html</link>
+      <title>Practice of Flink Memory Governance at ByteDance</title>
+      <link>/sessions/streaming-903630.html</link>
       <pubDate>Sat, 26 Jul 2025 14:00:00 +0000</pubDate>
       
-      <guid>/sessions/streaming-868206.html</guid>
-      <description>Message queues are essential for real-time use cases like payment processing, fraud detection, and AI-powered support systems—but traditional queues often lack scalability, durability, and replayability. In this talk, we explore how Kafka 4.0 brings native queue semantics to the world of distributed streaming, enabling fair, concurrent, and isolated message processing at scale.
-We’ll show how Apache Flink’s native LLM integration leverages this queue model to perform real-time Large Language Model (LLM) inference—like sentiment analysis or summarization—and how enriched results can be written directly to Apache Iceberg, a powerful data lakehouse for long-term analytics, data versioning &amp;amp; time travel and ML feedback loops.</description>
+      <guid>/sessions/streaming-903630.html</guid>
+      <description>As the demand for streaming tasks continues to grow within ByteDance, Flink has been widely adopted across various business domains at scale. Among the resource costs of these large-scale tasks, memory stands out as a significant contributor—especially heap memory. The total allocated memory for all tasks has reached tens of thousands of terabytes, yet the JVM heap utilization remains below 50%, and container-level memory usage is under 70%. Against the backdrop of company-wide cost reduction and efficiency improvement, we have carried out a series of memory optimizations focused on heap memory usage prediction, off-heap memory usage tracking, and simplifying Flink’s memory model.</description>
     </item>
     
     <item>
