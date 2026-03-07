@@ -1,6 +1,7 @@
 ---
-title: Cloud Native
-trackchairs: "Sheng Wu, Jia Feng"
+title: Data + AI
+trackchairs: "Juan Pan Sheng Wu"
 ---
 
-Apache Software Projects practice in the cloud native environment, such as K8s, service mesh, serverless(lambda). More projects are required to deploy and run on the modern infra, and leverage them. In the Cloud Native track, we are going to share the experiences how Apache’s projects resolves this complex issue. Also, what tools and methods the ASF provided today to help the users to observe and understand the distributed system.
+Data + AI focuses on how Apache data projects and AI strengthen each other. We’ll cover (1) data infrastructure that powers AI agents — pipelines, governance, and retrieval (vector search/RAG) — and (2) data projects that evolve with AI, adding AI-native features or using agents to improve operations and development.
+This track is for engineers, architects, and contributors who want concrete designs, implementation tips, and real production stories — including how to evaluate agents, reduce risk, and operate systems reliably.
