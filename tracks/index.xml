@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tracks on Community Over Code Asia 2025</title>
+    <title>Tracks on Community Over Code Asia 2026</title>
     <link>/tracks.html</link>
-    <description>Recent content in Tracks on Community Over Code Asia 2025</description>
+    <description>Recent content in Tracks on Community Over Code Asia 2026</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/tracks/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI</title>
-      <link>/tracks/ai.html</link>
+      <title>AI Infra</title>
+      <link>/tracks/aiinfra.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tracks/ai.html</guid>
+      <guid>/tracks/aiinfra.html</guid>
       <description>The AI Sub-forum is a professional exchange platform focusing on the integration of artificial intelligence (AI) technology and Apache open-source projects. This sub-forum aims to bring together developers, researchers, and industry users from around the world to explore the application and development of AI technology in the open-source ecosystem, showcase cutting-edge technologies, share practical experience, and promote the implementation of open-source AI solutions across various industries. Topics suitable for this sub-forum include:</description>
     </item>
     
     <item>
       <title>Cloud Native</title>
-      <link>/tracks/cloudnative.html</link>
+      <link>/tracks/dataai.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tracks/cloudnative.html</guid>
+      <guid>/tracks/dataai.html</guid>
       <description>Apache Software Projects practice in the cloud native environment, such as K8s, service mesh, serverless(lambda). More projects are required to deploy and run on the modern infra, and leverage them. In the Cloud Native track, we are going to share the experiences how Apache’s projects resolves this complex issue. Also, what tools and methods the ASF provided today to help the users to observe and understand the distributed system.</description>
     </item>
     
