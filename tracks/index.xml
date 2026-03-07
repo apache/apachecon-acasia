@@ -174,7 +174,7 @@ The Rust Track aims to share the evolution of Rust projects and integrations wit
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/streaming.html</guid>
-      <description>Streaming data processing is a big deal in big data these days, businesses crave ever-more timely insights into their data, and what was once a ‘batch’ mindset is quickly being replaced with stream processing. More and more companies, small and large, are rethinking their architecture with real-time context at the forefront, and starting to build their streaming platforms with powerful open source engines such as Apache Flink, Apache Spark, Apache Kafka, Apache Pulsar, Apache Storm, Apache StreamPark (incubating), Apache Paimon (incubating) etc.</description>
+      <description>Streaming data processing is a big deal in big data these days, businesses crave ever-more timely insights into their data, and what was once a ‘batch’ mindset is quickly being replaced with stream processing. More and more companies, small and large, are rethinking their architecture with real-time context at the forefront, and starting to build their streaming platforms with powerful open source engines such as Apache Flink, Apache Spark, Apache Kafka, Apache Pulsar, Apache Storm, Apache StreamPark, Apache Paimon etc.</description>
     </item>
     
     <item>
