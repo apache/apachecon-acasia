@@ -79,6 +79,15 @@ Participants requiring special accommodations should provide details in their re
     </item>
     
     <item>
+      <title>Agentic coding</title>
+      <link>/tracks/agenticcoding.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tracks/agenticcoding.html</guid>
+      <description>Agentic coding is moving from demos into production. Across Apache projects, maintainers are asking: How can we integrate LLM-powered agents into our development workflows without compromising code quality, reviewability, or the ASF’s community-driven principles? From code generation and test writing to refactoring, debugging, code review assistance, and release automation, projects across the foundation are experimenting with agents across the entire software lifecycle. These early efforts reveal not only new possibilities but also real friction points.</description>
+    </item>
+    
+    <item>
       <title>AI Infra</title>
       <link>/tracks/aiinfra.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -98,15 +107,6 @@ Participants requiring special accommodations should provide details in their re
     </item>
     
     <item>
-      <title>Cloud Native</title>
-      <link>/tracks/dataai.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tracks/dataai.html</guid>
-      <description>Apache Software Projects practice in the cloud native environment, such as K8s, service mesh, serverless(lambda). More projects are required to deploy and run on the modern infra, and leverage them. In the Cloud Native track, we are going to share the experiences how Apache’s projects resolves this complex issue. Also, what tools and methods the ASF provided today to help the users to observe and understand the distributed system.</description>
-    </item>
-    
-    <item>
       <title>Community</title>
       <link>/tracks/community.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -115,6 +115,15 @@ Participants requiring special accommodations should provide details in their re
       <description>Why ASF believes &amp;ldquo;Community over Code&amp;rdquo;? There is more to open source than just code contribution.
 The Community track covers topics such as community governance model, growing open source project communities, diversity &amp;amp; inclusion, measuring community health, community management tools and data, project roadmaps, case studies, and any other topic around sustaining open source and open source communities.
 We welcome you to share your community story with a broader audience.</description>
+    </item>
+    
+    <item>
+      <title>Data &#43; AI</title>
+      <link>/tracks/dataai.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tracks/dataai.html</guid>
+      <description>Data + AI focuses on how Apache data projects and AI strengthen each other. We’ll cover (1) data infrastructure that powers AI agents — pipelines, governance, and retrieval (vector search/RAG) — and (2) data projects that evolve with AI, adding AI-native features or using agents to improve operations and development. This track is for engineers, architects, and contributors who want concrete designs, implementation tips, and real production stories — including how to evaluate agents, reduce risk, and operate systems reliably.</description>
     </item>
     
     <item>

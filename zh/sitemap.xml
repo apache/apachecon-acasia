@@ -74,6 +74,18 @@
                 href="/zh/search/search.html"
                 />
   </url><url>
+    <loc>/zh/tracks/agenticcoding.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tracks/agenticcoding.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tracks/agenticcoding.html"
+                />
+  </url><url>
     <loc>/zh/</loc>
     <xhtml:link
                 rel="alternate"

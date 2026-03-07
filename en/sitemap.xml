@@ -86,6 +86,18 @@
                 href="/guide/accessibility.html"
                 />
   </url><url>
+    <loc>/tracks/agenticcoding.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tracks/agenticcoding.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tracks/agenticcoding.html"
+                />
+  </url><url>
     <loc>/tracks/aiinfra.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -122,18 +134,6 @@
                 href="/categories.html"
                 />
   </url><url>
-    <loc>/tracks/dataai.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tracks/dataai.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tracks/dataai.html"
-                />
-  </url><url>
     <loc>/tracks/community.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -156,6 +156,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="/"
+                />
+  </url><url>
+    <loc>/tracks/dataai.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tracks/dataai.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tracks/dataai.html"
                 />
   </url><url>
     <loc>/tracks/datalake.html</loc>
