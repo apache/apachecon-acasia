@@ -1,6 +1,6 @@
 # set the baseURL for CI verification
 baseURL = "/"
-title = "Community Over Code Asia 2025"
+title = "Community Over Code Asia 2026"
 theme = "apachecon"
 # When enabled, creates URL of the form /filename.html instead of /filename/.
 uglyURLs = true
@@ -14,9 +14,9 @@ DefaultContentLanguage = "en"
 
 [params]
   author = "ALC-Beijing"
-  description = "Welcome to Community Over Code (ApacheCon Asia) 2025"
-  keywords = ["Community Over Code","Community Over Code Asia","ApacheCon Asia 2025", "Apache 软件基金会亚洲大会 2025"]
-  schedule = ["2025-07-25", "2025-07-26", "2025-07-27"]
+  description = "Welcome to Community Over Code (ApacheCon Asia) 2026"
+  keywords = ["Community Over Code","Community Over Code Asia","ApacheCon Asia 2025", "Apache 软件基金会亚洲大会 2026"]
+  schedule = ["2026-08-07", "2026-08-08", "2026-08-09"]
 
 [languages.en]
 languageName = "English"
@@ -37,17 +37,6 @@ name = "Schedule"
 url = "/tracks.html"
 weight = -100
 
-[[languages.en.menu.main]]
-name = "Guide"
-url = "/guide/visa_letter_request.html"
-weight = 4
-
-[[languages.en.menu.main]]
-name = "Venue + Travel"
-url = "/venue_travel/venue.html"
-weight = 5
-
-
 # menu for ZH language (final list includes translated pages from /content)
 [[languages.zh.menu.main]]
 [[languages.zh.menu.main]]
@@ -55,13 +44,3 @@ name = "会议日程"
 url = "/zh/tracks.html"
 weight = -100
 
-
-[[languages.zh.menu.main]]
-name = "参会指南"
-url = "/zh/guide/visa_letter_request.html"
-weight = 4
-
-[[languages.zh.menu.main]]
-name = "会场 + 旅行"
-url = "/zh/venue_travel/venue.html"
-weight = 5

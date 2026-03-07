@@ -1,7 +1,7 @@
 ---
 kind: home
-title: Community Over Code Asia 2025 will be held in Beijing from July 25 to 27，2025
-keywords: Community Over Code Asia, Community Over Code, ApacheCon,  Community Over Code Asia 2025
+title: Community Over Code Asia 2026 will be held in Beijing from Augest 7 to 9，2026
+keywords: Community Over Code Asia, Community Over Code, ApacheCon,  Community Over Code Asia 2026
 ---
 
 Community Over Code (formly known as ApacheCon) is the official global conference series of The Apache Software Foundation (ASF). Since 1998 – before the ASF’s incorporation – ApacheCon has been drawing participants at all levels to explore ”Tomorrow’s Technology Today” across 350+ Apache projects and their diverse communities. Community Over Code showcases the latest developments in Apache projects and emerging innovations through hands-on sessions, keynotes, real-world case studies, trainings, hackathons, and more.

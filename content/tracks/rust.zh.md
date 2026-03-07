@@ -1,6 +1,6 @@
 ---
 title: Rust
-trackchairs: "陈梓立, 许银"
+trackchairs: "陈梓立, 张汉东"
 ---
 
 Rust 生态系统正在蓬勃发展。许多 ASF 项目都提供了 Rust SDK，不少新的 ASF 项目主要用 Rust 编写，例如 Apache OpenDAL 和 Apache HoraeDB (Incubating) 等等。

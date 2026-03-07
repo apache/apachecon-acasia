@@ -1,6 +1,6 @@
 ---
 title: IoT and IIoT
-trackchairs: "Jialin Qiao, Chuqing Qin"
+trackchairs: "Jialin Qiao"
 ---
 
 The loT Track will be a gathering of innovativeminds and industry experts in the loT field. This track focuses on theatest trends,technologies, and applications in the lnternet ofThings. During the event, attendees will have the opportunity toexplore a wide range of topics, including loT device data collectingdata storage, data analytics, security, and the loT solutions.

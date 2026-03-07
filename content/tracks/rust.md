@@ -1,6 +1,6 @@
 ---
 title: Rust
-trackchairs: "tison, Yin Xu"
+trackchairs: "tison, Handong Zhang"
 ---
 
 The Rust ecosystem is flourishing. Many ASF projects now offer Rust SDKs, and several new ASF projects are primarily written in Rust, such as Apache OpenDAL and Apache HoraeDB (Incubating), among others.
