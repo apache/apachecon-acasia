@@ -7,8 +7,8 @@ In the era of Generative AI and Autonomous Agents, data is no longer just a stat
 
 We focus on two critical evolutionary paths:
 
-Infrastructure for AI: How Apache projects are evolving to support the massive scale required by LLMs—covering vector retrieval, real-time RAG pipelines, and unstructured data governance.
+- Infrastructure for AI: How Apache projects are evolving to support the massive scale required by LLMs—covering vector retrieval, real-time RAG pipelines, and unstructured data governance.
 
-AI-Evolved Data Systems: How AI agents and models are redefining data engineering itself—from autonomous query optimization and self-healing pipelines to AI-native features within established projects.
+- AI-Evolved Data Systems: How AI agents and models are redefining data engineering itself—from autonomous query optimization and self-healing pipelines to AI-native features within established projects.
 
 This track is designed for engineers and architects who move beyond the hype. Join us to dissect concrete architectures, production-grade agentic workflows, and the future of open standards in building reliable, governed, and scalable intelligent systems.
