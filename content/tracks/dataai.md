@@ -1,7 +1,12 @@
 ---
 title: Data + AI
-trackchairs: "Juan Pan Sheng Wu"
+trackchairs: "Juan Pan Sheng Wu Jeff Feng"
 ---
 
-Data + AI focuses on how Apache data projects and AI strengthen each other. We’ll cover (1) data infrastructure that powers AI agents — pipelines, governance, and retrieval (vector search/RAG) — and (2) data projects that evolve with AI, adding AI-native features or using agents to improve operations and development.
-This track is for engineers, architects, and contributors who want concrete designs, implementation tips, and real production stories — including how to evaluate agents, reduce risk, and operate systems reliably.
+In the era of Generative AI and Autonomous Agents, data is no longer just a static asset—it is the dynamic fuel for intelligence. The Data + AI track explores the profound convergence where Apache’s battle-tested data infrastructure meets cutting-edge AI capabilities.
+
+We focus on two critical evolutionary paths:
+
+#### Infrastructure for AI: How Apache projects are evolving to support the massive scale required by LLMs—covering vector retrieval, real-time RAG pipelines, and unstructured data governance.
+#### AI-Evolved Data Systems: How AI agents and models are redefining data engineering itself—from autonomous query optimization and self-healing pipelines to AI-native features within established projects.
+This track is designed for engineers and architects who move beyond the hype. Join us to dissect concrete architectures, production-grade agentic workflows, and the future of open standards in building reliable, governed, and scalable intelligent systems.
