@@ -1,6 +1,6 @@
 ---
-title: 云原生
-trackchairs: "潘娟, 吴晟，冯嘉"
+title: Data + AI
+trackchairs: "潘娟, 吴晟, 冯嘉"
 ---
 
 在生成式 AI 与自主 Agent 爆发的时代，数据不再仅仅是静态资产，而是驱动智能的动态燃料。Data + AI 版块致力于探索 Apache 经过实战检验的数据基础设施与前沿 AI 能力的深度融合。
