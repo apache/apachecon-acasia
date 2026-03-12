@@ -98,6 +98,18 @@
                 href="/zh/"
                 />
   </url><url>
+    <loc>/zh/tracks/dataai.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tracks/dataai.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tracks/dataai.html"
+                />
+  </url><url>
     <loc>/zh/tracks/dataops.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -216,18 +228,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tracks/webserver.html"
-                />
-  </url><url>
-    <loc>/zh/tracks/dataai.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tracks/dataai.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tracks/dataai.html"
                 />
   </url><url>
     <loc>/zh/tracks/aiinfra.html</loc>
