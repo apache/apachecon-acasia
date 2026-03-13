@@ -1,11 +1,13 @@
 ---
 title: IoT and IIoT
-trackchairs: "Jialin Qiao"
+trackchairs: "Jialin Qiao, Pengcheng Zheng"
 ---
 
-The loT Track will be a gathering of innovativeminds and industry experts in the loT field. This track focuses on theatest trends,technologies, and applications in the lnternet ofThings. During the event, attendees will have the opportunity toexplore a wide range of topics, including loT device data collectingdata storage, data analytics, security, and the loT solutions.
+IoT and IIoT focuses on how Apache projects empower connected devices, industrial systems, and AI-driven intelligence at the edge. The focus is on real architectures, cross-project integrations, and production experiences across the IoT stack.
 
-In order to better realize the core needs of the IoT industry such as device communication, data management, and edge-cloud collaboration.The Apache Software Foundation includes a number of IoT-related projects, like [Apache IoTDB](https://iotdb.apache.org), [Apache Mynewt](https://mynewt.apache.org), [Apache PLC4X](https://plc4x.apache.org) and [Apache Streampipes](https://streampipes.apache.org)  etc. The technology and applications of each project are constantly improving.
+Topics include: 
+(1) Embedded platforms and edge AI: real-time OS, device management, and edge-to-cloud synchronization with ML inference for IoT devices. 
+(2) Data infrastructure and time-series intelligence: time-series databases, stream processing, data pipelines, industrial analytics, and emerging time-series foundation models for forecasting, anomaly detection, and predictive maintenance. 
 
-Participants can share ideas, learn from each other, and buildpartnerships to drive the development of the loT industry. Let'sexplore the future of the lnternet of Things together!
+We welcome talks from engineers and architects sharing concrete designs, implementation tips, and real-world deployment stories, including large-scale device fleet management, reliable data pipelines for ML, cross-project integration patterns, and building end-to-end intelligent IoT systems using Apache technologies.
 
