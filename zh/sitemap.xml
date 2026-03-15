@@ -254,6 +254,18 @@
                 href="/zh/tracks/observability.html"
                 />
   </url><url>
+    <loc>/zh/tracks/iot.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tracks/iot.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tracks/iot.html"
+                />
+  </url><url>
     <loc>/zh/venue_travel/travel.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -360,18 +372,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tracks/messaging.html"
-                />
-  </url><url>
-    <loc>/zh/tracks/iot.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tracks/iot.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tracks/iot.html"
                 />
   </url><url>
     <loc>/zh/tracks/general.html</loc>

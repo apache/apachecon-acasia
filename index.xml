@@ -181,8 +181,8 @@ Participants will learn about the process of entering the incubator and progress
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tracks/iot.html</guid>
-      <description>The loT Track will be a gathering of innovativeminds and industry experts in the loT field. This track focuses on theatest trends,technologies, and applications in the lnternet ofThings. During the event, attendees will have the opportunity toexplore a wide range of topics, including loT device data collectingdata storage, data analytics, security, and the loT solutions.
-In order to better realize the core needs of the IoT industry such as device communication, data management, and edge-cloud collaboration.</description>
+      <description>IoT and IIoT focuses on how Apache projects empower connected devices, industrial systems, and AI-driven intelligence at the edge. The focus is on real architectures, cross-project integrations, and production experiences across the IoT stack.
+Topics include: (1) Embedded platforms and edge AI: real-time OS, device management, and edge-to-cloud synchronization with ML inference for IoT devices. (2) Data infrastructure and time-series intelligence: time-series databases, stream processing, data pipelines, industrial analytics, and emerging time-series foundation models for forecasting, anomaly detection, and predictive maintenance.</description>
     </item>
     
     <item>
