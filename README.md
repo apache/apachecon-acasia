@@ -2,7 +2,7 @@
 
 This repository contains a Hugo based site for ApacheCon.
 
-NOTE: Please use hugo v0.92.2 to avoid the website build error.
+NOTE: Please use **hugo v0.92.2** to avoid the website build error.
 
 To install Hugo :
 
