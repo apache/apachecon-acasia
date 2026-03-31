@@ -33,14 +33,12 @@ unsafe = true
 
 # menu for en (final list includes translated pages from /content)
 [[languages.en.menu.main]]
-name = "Schedule"
-url = "/tracks.html"
+name = "Tracks"
+url = "/tracks"
 weight = -100
 
 # menu for ZH language (final list includes translated pages from /content)
 [[languages.zh.menu.main]]
-[[languages.zh.menu.main]]
-name = "会议日程"
-url = "/zh/tracks.html"
+name = "专题"
+url = "/zh/tracks"
 weight = -100
-
