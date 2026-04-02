@@ -1,5 +1,5 @@
 ---
-kind: home
+layout: home
 title: Community Over Code Asia 2026 will be held in Beijing from August 7 to 9, 2026
 keywords: Community Over Code Asia, Community Over Code, ApacheCon,  Community Over Code Asia 2026
 ---
