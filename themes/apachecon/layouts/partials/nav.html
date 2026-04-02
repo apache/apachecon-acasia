@@ -1,12 +1,11 @@
-
 <nav id="nav" class="navbar navbar-expand-lg bg-transparent">
   <div class="container py-1">
     <div class="btn-wrap d-flex align-items-center justify-content-between">
         {{ if .IsHome }}
             <div class="navbar-brand">&nbsp;</div>
         {{ else}}
-            <a href="index.html" class="navbar-brand">
-                <img class="logo-img" src="images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            <a href="{{ relLangURL "/" }}" class="navbar-brand">
+                <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
             </a>
         {{end}}
          <button
@@ -23,7 +22,7 @@
                 <div class="d-none">&nbsp;</div>
             {{ else}}
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ if eq .Site.Language.Lang "zh" }}/zh/{{end}}index.html">
+                    <a class="nav-link" href="{{ relLangURL "/" }}">
                         {{ i18n "home"}}
                     </a>
                 </li>
@@ -32,20 +31,20 @@
             {{ range .Site.Menus.main }}
                 <li class="nav-item">
                     {{ .Pre }}
-                    <a href="{{.URL}}" class="nav-link">{{ .Name }}</a>
+                    <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
                 </li>
             {{end}}
             {{ if .IsTranslated }}
                 {{ range .Translations }}
                     <li class="nav-item">
-                        <a href="{{ .URL }}" class="nav-link" >{{ i18n "translation" }}</a>
+                        <a href="{{ .RelPermalink }}" class="nav-link">{{ i18n "translate" }}</a>
                     </li>
                 {{ end}}
             {{ end }}
             <!-- Register Button -->
             <!-- Disable Register Button 
             <div class="ms-0 ms-lg-4">
-                <a href="{{ if eq .Site.Language.Lang "zh" }}/zh/{{end}}{{ if .IsHome }}#register{{else}}index.html#register{{end}}" role="button" class="btn btn-warning">
+                <a href="{{ relLangURL "/#register" }}" role="button" class="btn btn-warning">
                     {{ i18n "register" }}
                 </a>
             </div>
@@ -69,5 +68,4 @@
             nav.classList.remove('bg-transparent');
         }
     }
-
 </script>

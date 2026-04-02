@@ -8,7 +8,7 @@ uglyURLs = true
 enableRobotsTXT = true
 
 languageCode = "en-us"
-DefaultContentLanguage = "en"
+defaultContentLanguage = "en"
 
 
 

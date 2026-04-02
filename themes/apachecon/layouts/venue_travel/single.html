@@ -48,7 +48,7 @@
                                 {{end}}
                             </li>
                             {{ end }}
-                            {{ $currentUrl := .URL }}
+                            {{ $currentUrl := .RelPermalink }}
                             <li class="nav-item">
                               <a href="{{ if eq $.Site.Language.Lang "zh" }}/zh/venue_travel/travel.html{{else}}/venue_travel/travel.html{{end}}" class="nav-link">{{ i18n "business_travel" }}</a>
                             </li>

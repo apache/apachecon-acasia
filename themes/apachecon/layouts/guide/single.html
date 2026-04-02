@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-3">
                         <ul class="side-left-nav nav nav-pills flex-column">
-                            {{ $currentUrl := .URL }}
+                            {{ $currentUrl := .RelPermalink }}
                             {{ range $index, $guide := .Site.Data.guides }}
                             {{ $url := "" }}
                             {{ if eq $.Site.Language.Lang "en" }}
