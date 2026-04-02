@@ -2,29 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Venue_travels on Community Over Code Asia 2026</title>
-    <link>/venue_travel.html</link>
+    <link>/venue_travel/index.html</link>
     <description>Recent content in Venue_travels on Community Over Code Asia 2026</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/venue_travel/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/venue_travel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Venue &#43; Travel</title>
       <link>/venue_travel/venue.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/venue_travel/venue.html</guid>
-      <description>Venue This year&amp;rsquo;s conference will be held at the Convention Center of Zhongguancun National Independent Innovation Demonstration Zone (located at No. 2 Xinjian Gongmen Road, Haidian District, Beijing).
-Nestled in the heart of Haidian District, Beijing, the Convention Center of Zhongguancun National Independent Innovation Demonstration Zone stands adjacent to the time-honored cultural scenic area of &amp;ldquo;Three Hills and Five Gardens&amp;rdquo; and the thriving Zhongguancun Science City. It serves as a confluence point of technology and culture, as well as a brilliant stage for innovation and exchange.</description>
+      <description>&lt;h3 id=&#34;venue&#34;&gt;Venue&lt;/h3&gt;&#xA;&lt;p&gt;This year&amp;rsquo;s conference will be held at the Convention Center of Zhongguancun National Independent Innovation Demonstration Zone (located at No. 2 Xinjian Gongmen Road, Haidian District, Beijing).&lt;/p&gt;&#xA;&lt;p&gt;Nestled in the heart of Haidian District, Beijing, the Convention Center of Zhongguancun National Independent Innovation Demonstration Zone stands adjacent to the time-honored cultural scenic area of &amp;ldquo;Three Hills and Five Gardens&amp;rdquo; and the thriving Zhongguancun Science City. It serves as a confluence point of technology and culture, as well as a brilliant stage for innovation and exchange. Boasting a vast total construction area and a scientifically designed interior layout, the convention center features multiple functional meeting rooms that can accommodate meeting events of various scales and needs, ranging from small seminars for several dozen participants to large-scale summits for over a thousand attendees. Thanks to its unique architectural design, state-of-the-art conference facilities, and exceptional geographical location, the venue has become the premier choice for hosting a wide array of high-end conferences, forums, exhibitions, and business events both domestically and internationally, setting a new trend for the integration of technological innovation and cultural exchange.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Business Travel</title>
       <link>/venue_travel/travel.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/venue_travel/travel.html</guid>
-      <description>Conference Hotel Park Plaza Beijing Science Park Hotel is 4.6km from the venue, approximately 20 minutes by taxi. Special conference rates (including breakfast):
-   Room Type King Bed Twin Bed     Superior Room 618 698   Deluxe Room 658 738   Business Room 758 838   Executive Room 838 938    Booking Instructions: Call Park Plaza Beijing Science Park Hotel and mention “COC Asia” for special rates Reservation Department: 010-82356699 ext.</description>
+      <description>&lt;h3 id=&#34;conference-hotel&#34;&gt;Conference Hotel&lt;/h3&gt;&#xA;&lt;p&gt;Park Plaza Beijing Science Park Hotel is 4.6km from the venue, approximately 20 minutes by taxi. Special conference rates (including breakfast):&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Room Type&lt;/th&gt;&#xA;          &lt;th&gt;King Bed&lt;/th&gt;&#xA;          &lt;th&gt;Twin Bed&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Superior Room&lt;/td&gt;&#xA;          &lt;td&gt;618&lt;/td&gt;&#xA;          &lt;td&gt;698&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Deluxe Room&lt;/td&gt;&#xA;          &lt;td&gt;658&lt;/td&gt;&#xA;          &lt;td&gt;738&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Business Room&lt;/td&gt;&#xA;          &lt;td&gt;758&lt;/td&gt;&#xA;          &lt;td&gt;838&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Executive Room&lt;/td&gt;&#xA;          &lt;td&gt;838&lt;/td&gt;&#xA;          &lt;td&gt;938&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;br /&gt;&#xA;&lt;p&gt;Booking Instructions: Call Park Plaza Beijing Science Park Hotel and mention “COC Asia” for special rates&#xA;Reservation Department: 010-82356699 ext. 470/472/460&#xA;Email: &lt;a href=&#34;mailto:rsvn@parkplaza-bj.com&#34;&gt;rsvn@parkplaza-bj.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;nearby-hotels-within-3km&#34;&gt;Nearby Hotels (within 3km)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Beijing Post and Telecommunications Conference Center&lt;/li&gt;&#xA;&lt;li&gt;Langlizi Hotel (Suzhou Street, Zhongguancun, Beijing)&lt;/li&gt;&#xA;&lt;li&gt;Ji Hotel (Suzhou Street, Zhongguancun, Beijing)&lt;/li&gt;&#xA;&lt;li&gt;Crowne Plaza Beijing Zhongguancun&lt;/li&gt;&#xA;&lt;li&gt;Century Huatian Hotel&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

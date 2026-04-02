@@ -10,7 +10,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/venue_travel/venue.html"
                 />
   </url><url>
@@ -22,7 +22,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/guide/visa_letter_request.html"
                 />
   </url><url>
@@ -34,7 +34,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/guide/presentation_slides_template.html"
                 />
   </url><url>
@@ -46,7 +46,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/guide/code_of_conduct.html"
                 />
   </url><url>
@@ -58,7 +58,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/guide/convince_your_boss.html"
                 />
   </url><url>
@@ -70,7 +70,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/search/search.html"
                 />
   </url><url>
@@ -82,7 +82,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/guide/accessibility.html"
                 />
   </url><url>
@@ -94,7 +94,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/agenticcoding.html"
                 />
   </url><url>
@@ -106,7 +106,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/aiinfra.html"
                 />
   </url><url>
@@ -118,21 +118,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/venue_travel/travel.html"
                 />
   </url><url>
-    <loc>/categories.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href=""
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories.html"
-                />
+    <loc>/categories/index.html</loc>
   </url><url>
     <loc>/tracks/community.html</loc>
     <xhtml:link
@@ -142,20 +132,20 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/community.html"
                 />
   </url><url>
-    <loc>/</loc>
+    <loc>/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/"
+                href="/zh/index.html"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/"
+                hreflang="en-us"
+                href="/index.html"
                 />
   </url><url>
     <loc>/tracks/dataai.html</loc>
@@ -166,7 +156,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/dataai.html"
                 />
   </url><url>
@@ -178,7 +168,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/datalake.html"
                 />
   </url><url>
@@ -190,7 +180,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/datastorage.html"
                 />
   </url><url>
@@ -202,7 +192,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/dataops.html"
                 />
   </url><url>
@@ -214,20 +204,20 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/general.html"
                 />
   </url><url>
-    <loc>/guide.html</loc>
+    <loc>/guide/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/guide.html"
+                href="/zh/guide/index.html"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/guide.html"
+                hreflang="en-us"
+                href="/guide/index.html"
                 />
   </url><url>
     <loc>/tracks/incubator.html</loc>
@@ -238,7 +228,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/incubator.html"
                 />
   </url><url>
@@ -250,7 +240,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/iot.html"
                 />
   </url><url>
@@ -262,7 +252,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/keynote.html"
                 />
   </url><url>
@@ -274,7 +264,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/5minstalk.html"
                 />
   </url><url>
@@ -286,7 +276,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/messaging.html"
                 />
   </url><url>
@@ -298,7 +288,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/microservice.html"
                 />
   </url><url>
@@ -310,7 +300,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/observability.html"
                 />
   </url><url>
@@ -322,7 +312,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/olap.html"
                 />
   </url><url>
@@ -334,20 +324,20 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/rust.html"
                 />
   </url><url>
-    <loc>/search.html</loc>
+    <loc>/search/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/search.html"
+                href="/zh/search/index.html"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/search.html"
+                hreflang="en-us"
+                href="/search/index.html"
                 />
   </url><url>
     <loc>/tracks/streaming.html</loc>
@@ -358,21 +348,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/streaming.html"
                 />
   </url><url>
-    <loc>/tags.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href=""
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags.html"
-                />
+    <loc>/tags/index.html</loc>
   </url><url>
     <loc>/guide/terms.html</loc>
     <xhtml:link
@@ -382,32 +362,32 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/guide/terms.html"
                 />
   </url><url>
-    <loc>/tracks.html</loc>
+    <loc>/tracks/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tracks.html"
+                href="/zh/tracks/index.html"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/tracks.html"
+                hreflang="en-us"
+                href="/tracks/index.html"
                 />
   </url><url>
-    <loc>/venue_travel.html</loc>
+    <loc>/venue_travel/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/venue_travel.html"
+                href="/zh/venue_travel/index.html"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/venue_travel.html"
+                hreflang="en-us"
+                href="/venue_travel/index.html"
                 />
   </url><url>
     <loc>/tracks/webserver.html</loc>
@@ -418,7 +398,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="/tracks/webserver.html"
                 />
   </url>

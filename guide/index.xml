@@ -2,72 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guides on Community Over Code Asia 2026</title>
-    <link>/guide.html</link>
+    <link>/guide/index.html</link>
     <description>Recent content in Guides on Community Over Code Asia 2026</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/guide/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visa Letter Request</title>
       <link>/guide/visa_letter_request.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/guide/visa_letter_request.html</guid>
-      <description>For those needing a visa invitation letter, please refer to the instructions on this page.
-INSTRUCTIONS Before asking for a visa invitation letter, please check out the website of Chinese Visa Application Service Center for the visa application in your city.
-Please pay attention to the latest visa policy of China:   240-Hour Visa-Free Transit Policy which allows people from certain countries to enjoy ten days of travel to select areas of the country without applying for a visa beforehand.</description>
+      <description>&lt;p&gt;For those needing a visa invitation letter, please refer to the instructions on this page.&lt;/p&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;INSTRUCTIONS&lt;/h3&gt;&#xA;&lt;p&gt;Before asking for a visa invitation letter, please check out &lt;a href=&#34;https://www.visaforchina.cn/globle/&#34;&gt;the website of Chinese Visa Application Service Center&lt;/a&gt; for the visa application in your city.&lt;/p&gt;&#xA;&lt;h3 id=&#34;please-pay-attention-to-the-latest-visa-policy-of-china&#34;&gt;Please pay attention to the latest visa policy of China:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;240-Hour Visa-Free Transit Policy which allows people from certain countries to enjoy ten days of travel to select areas of the country without applying for a visa beforehand.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Make a presentation slide</title>
       <link>/guide/presentation_slides_template.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/guide/presentation_slides_template.html</guid>
-      <description>We have a slides template.
-We strongly recommend you to use the template, but if you don’t plan to use it for your entire presentation, please use the title slide at least.
- If you use your own template, please set your slide size ratio as 16:9. Do not include any offensive or sexualized references. This would be a violation of the Code of Conduct.  Talks are 30 minutes long.</description>
+      <description>&lt;p&gt;We have a &lt;a href=&#34;https://docs.google.com/presentation/d/1KzXobcBuPZCaBF4klaD_sV9gYz4H_el-_lURw2ivPSw/edit?slide=id.g358a879f230_2_31#slide=id.g358a879f230_2_31&#34;&gt;slides template&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;We strongly recommend you to use the template, but if you don’t plan to use it for your entire presentation, please use the title slide at least.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If you use your own template, please set your slide size ratio as 16:9.&lt;/li&gt;&#xA;&lt;li&gt;Do not include any offensive or sexualized references. This would be a violation of the Code of Conduct.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Talks are 30 minutes long. This time is inclusive of Q&amp;amp;A.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Code of conduct</title>
       <link>/guide/code_of_conduct.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/guide/code_of_conduct.html</guid>
-      <description>At the Apache Software Foundation, all online interactions are governed by the ASF Code of Conduct, while in-person events are subject to the Anti-Harassment Policy.
-Community Over Code (formerly ApacheCon) is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Participants violating these rules may be sanctioned or expelled without a refund, at the discretion of the event organizers.
-Harassment includes offensive verbal comments, deliberate intimidation, stalking, following, unwanted photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</description>
+      <description>&lt;p&gt;At the Apache Software Foundation, all online interactions are governed by the ASF &lt;a href=&#34;https://apache.org/foundation/policies/conduct.html&#34;&gt;Code of Conduct&lt;/a&gt;, while in-person events are subject to the &lt;a href=&#34;https://apache.org/foundation/policies/anti-harassment.html&#34;&gt;Anti-Harassment Policy&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Community Over Code (formerly ApacheCon) is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Participants violating these rules may be sanctioned or expelled without a refund, at the discretion of the event organizers.&lt;/p&gt;&#xA;&lt;p&gt;Harassment includes offensive verbal comments, deliberate intimidation, stalking, following, unwanted photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Participants asked to stop any harassing behaviour are expected to comply immediately.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Convince Your Boss</title>
       <link>/guide/convince_your_boss.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/guide/convince_your_boss.html</guid>
-      <description>Want to attend but not sure how to bring it up with your boss? We’ve created this sample email to help you explain why it’s important to attend Community Over Code Asia 2025. Feel free to use the full letter or pieces that work for you. See you in Beijing!
-Download Template </description>
+      <description>&lt;p&gt;Want to attend but not sure how to bring it up with your boss? We’ve created this sample email to help you explain why it’s important to attend Community Over Code Asia 2025. Feel free to use the full letter or pieces that work for you. See you in Beijing!&lt;/p&gt;&#xA;&lt;a class=&#34;btn btn-warning&#34; style=&#34;padding-left: 2rem; padding-right: 2rem;&#34; href=&#34;pdf/Convince_Your_Boss_CoC_Asia_EN.docx&#34;&gt;&#xA;Download Template&#xA;&lt;/a&gt;</description>
     </item>
-    
     <item>
       <title>Accessiblity</title>
       <link>/guide/accessibility.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/guide/accessibility.html</guid>
-      <description>Community Over Code Asia strives to be a welcoming, inclusive, and accessible environment for all, regardless of ability.
-Participants requiring special accommodations should provide details in their registration and/or by emailing us at ningjiang@apache.org. This information will be kept private and only be shared with individuals who need to know to secure these accommodations.</description>
+      <description>&lt;p&gt;Community Over Code Asia strives to be a welcoming, inclusive, and accessible environment for all, regardless of ability.&lt;/p&gt;&#xA;&lt;p&gt;Participants requiring special accommodations should provide details in their registration and/or by emailing us at &lt;a href=&#34;mailto:ningjiang@apache.org&#34;&gt;ningjiang@apache.org&lt;/a&gt;. This information will be kept private and only be shared with individuals who need to know to secure these accommodations.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Terms &amp; Conditions</title>
       <link>/guide/terms.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/guide/terms.html</guid>
-      <description>Refund Policy If you must cancel for any reason please notify us via email at vivian@segmentfault.com. Refunds will only be issued for cancellations received 14 days prior to the first day of the event and may take up to 14 days to process. Please note that all refunds are subject to a 3% processing fee. You can cancel or modify your registration from your confirmation email.
-Photo &amp;amp; Video Release I hereby consent to the photographing of myself and the recording of my voice and the use of these photographs and/or recordings singularly or in conjunction with other photographs and/or recordings for advertising, publicity, commercial or other business purposes for The Apache Software Foundation.</description>
+      <description>&lt;h2 id=&#34;refund-policy&#34;&gt;Refund Policy&lt;/h2&gt;&#xA;&lt;p&gt;If you must cancel for any reason please notify us via email at &lt;a href=&#34;mailto:vivian@segmentfault.com&#34;&gt;vivian@segmentfault.com&lt;/a&gt;. Refunds will only be issued for cancellations received 14 days prior to the first day of the event and may take up to 14 days to process. Please note that all refunds are subject to a 3% processing fee. You can cancel or modify your registration from your confirmation email.&lt;/p&gt;&#xA;&lt;h2 id=&#34;photo--video-release&#34;&gt;Photo &amp;amp; Video Release&lt;/h2&gt;&#xA;&lt;p&gt;I hereby consent to the photographing of myself and the recording of my voice and the use of these photographs and/or recordings singularly or in conjunction with other photographs and/or recordings for advertising, publicity, commercial or other business purposes for The Apache Software Foundation. I understand that the term “photograph” as used herein encompasses both still photographs and motion picture footage.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

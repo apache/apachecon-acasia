@@ -2,205 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tracks on Community Over Code Asia 2026</title>
-    <link>/zh/tracks.html</link>
+    <link>/zh/tracks/index.html</link>
     <description>Recent content in Tracks on Community Over Code Asia 2026</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/zh/tracks/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <atom:link href="/zh/tracks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agentic coding</title>
       <link>/zh/tracks/agenticcoding.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tracks/agenticcoding.html</guid>
-      <description>自主编码（Agentic coding）正在从演示走向生产。在Apache项目中，维护者们在问：我们如何在不妥协代码质量、可审查性或ASF社区驱动原则的情况下，将LLM驱动的代理集成到我们的开发工作流程中？从代码生成和测试编写到重构、调试、代码审查辅助和发布自动化，基金会中的项目正在整个软件生命周期中尝试使用代理。这些早期的努力不仅揭示了新的可能性，还暴露了真实的摩擦点。
-这个专题关注的是ASF贡献者们的实践经验，他们正在构建、集成或评估代码代理。我们希望听到代理在参与讨论、提出补丁或帮助进行大规模维护时实际有效的经验。什么会出错，什么变得更容易，以及正在出现哪些可重复的模式？我们正在寻找分享实用经验的演讲，帮助社区将代理从炫目的助手转变为可靠的合作伙伴。</description>
+      <description>&lt;p&gt;自主编码（Agentic coding）正在从演示走向生产。在Apache项目中，维护者们在问：我们如何在不妥协代码质量、可审查性或ASF社区驱动原则的情况下，将LLM驱动的代理集成到我们的开发工作流程中？从代码生成和测试编写到重构、调试、代码审查辅助和发布自动化，基金会中的项目正在整个软件生命周期中尝试使用代理。这些早期的努力不仅揭示了新的可能性，还暴露了真实的摩擦点。&lt;/p&gt;&#xA;&lt;p&gt;这个专题关注的是ASF贡献者们的实践经验，他们正在构建、集成或评估代码代理。我们希望听到代理在参与讨论、提出补丁或帮助进行大规模维护时实际有效的经验。什么会出错，什么变得更容易，以及正在出现哪些可重复的模式？我们正在寻找分享实用经验的演讲，帮助社区将代理从炫目的助手转变为可靠的合作伙伴。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Data &#43; AI</title>
       <link>/zh/tracks/dataai.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tracks/dataai.html</guid>
-      <description>在生成式 AI 与自主 Agent 爆发的时代，数据不再仅仅是静态资产，而是驱动智能的动态燃料。Data + AI 版块致力于探索 Apache 经过实战检验的数据基础设施与前沿 AI 能力的深度融合。
-我们将聚焦两大核心演进路径：
-  面向 AI 的新基建 (Infrastructure for AI)： 探讨 Apache 数据生态如何演进以支撑 LLM 所需的海量规模——涵盖向量检索、实时 RAG 管道以及非结构化数据治理。
-  AI 驱动的数据系统 (AI-Evolved Data Systems)： 展示 AI Agent 与大模型如何重塑数据工程本身——从自动化的查询优化、自愈合的数据管道，到现有项目中的 AI 原生特性落地。
-  本版块专为追求技术深度的工程师与架构师打造。我们将跨越炒作，深入剖析具体的架构设计、生产级 Agent 工作流，以及在构建可靠、合规、可扩展的智能系统时，开源标准所扮演的关键角色。</description>
+      <description>&lt;p&gt;在生成式 AI 与自主 Agent 爆发的时代，数据不再仅仅是静态资产，而是驱动智能的动态燃料。Data + AI 版块致力于探索 Apache 经过实战检验的数据基础设施与前沿 AI 能力的深度融合。&lt;/p&gt;&#xA;&lt;p&gt;我们将聚焦两大核心演进路径：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;面向 AI 的新基建 (Infrastructure for AI)： 探讨 Apache 数据生态如何演进以支撑 LLM 所需的海量规模——涵盖向量检索、实时 RAG 管道以及非结构化数据治理。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;AI 驱动的数据系统 (AI-Evolved Data Systems)： 展示 AI Agent 与大模型如何重塑数据工程本身——从自动化的查询优化、自愈合的数据管道，到现有项目中的 AI 原生特性落地。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;本版块专为追求技术深度的工程师与架构师打造。我们将跨越炒作，深入剖析具体的架构设计、生产级 Agent 工作流，以及在构建可靠、合规、可扩展的智能系统时，开源标准所扮演的关键角色。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DataOps</title>
       <link>/zh/tracks/dataops.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tracks/dataops.html</guid>
-      <description>本专题聚焦 Apache 生态系统中最具创新性和最前沿的项目。该专题汇聚了来自Apache DolphinScheduler、Apache Airflow、Apache SeaTunnel、Apache Flume、Apache Sqoop、Apache Griffin、Apache Atlas以及其他与DataOps相关的项目的领先专家和贡献者，探索数据操作、自动化和编排的最新进展。无论您是经验丰富的数据专业人员还是刚刚入门的新手，这个专题都为每个人提供了有价值的内容，包括数据管道、ETL、编排、数据质量、元数据等多个主题的会话。在ApacheCon上，加入我们一起深入探索DataOps领域的精彩世界。</description>
+      <description>&lt;p&gt;本专题聚焦 Apache 生态系统中最具创新性和最前沿的项目。该专题汇聚了来自Apache DolphinScheduler、Apache Airflow、Apache SeaTunnel、Apache Flume、Apache Sqoop、Apache Griffin、Apache Atlas以及其他与DataOps相关的项目的领先专家和贡献者，探索数据操作、自动化和编排的最新进展。无论您是经验丰富的数据专业人员还是刚刚入门的新手，这个专题都为每个人提供了有价值的内容，包括数据管道、ETL、编排、数据质量、元数据等多个主题的会话。在ApacheCon上，加入我们一起深入探索DataOps领域的精彩世界。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Incubator</title>
       <link>/zh/tracks/incubator.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tracks/incubator.html</guid>
-      <description>Apache 孵化器为所有希望成为 Apache 软件基金会（ASF）项目提供帮助和服务。本会场，我们将分享与孵化器相关的经验和指导，包括 Apache 软件基金会的治理和运作风格，以及项目如何进入 ASF 孵化器并晋升为顶级项目等。此外，您还将学习到如何建立成熟、活跃和多样化的开源社区，以及如何确保项目的发展符合 Apache 软件基金会的法律法规和 Apache way 的原则等内容。</description>
+      <description>&lt;p&gt;Apache 孵化器为所有希望成为 Apache 软件基金会（ASF）项目提供帮助和服务。本会场，我们将分享与孵化器相关的经验和指导，包括 Apache 软件基金会的治理和运作风格，以及项目如何进入 ASF 孵化器并晋升为顶级项目等。此外，您还将学习到如何建立成熟、活跃和多样化的开源社区，以及如何确保项目的发展符合 Apache 软件基金会的法律法规和 Apache way 的原则等内容。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Keynote</title>
       <link>/zh/tracks/keynote.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tracks/keynote.html</guid>
-      <description>Keynote是主会场，我们邀请了各位开源大咖，来分享他们在开源社区的心得和感悟。</description>
+      <description>&lt;p&gt;Keynote是主会场，我们邀请了各位开源大咖，来分享他们在开源社区的心得和感悟。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>OLAP和数据分析</title>
       <link>/zh/tracks/olap.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tracks/olap.html</guid>
-      <description>随着大数据时代的到来，数据分析和OLAP技术在企业中的应用也越来越广泛。为了促进业界在这一领域的交流和分享，我们设立了OLAP和数据分析专场。我们希望邀请业内的专家和学者分享他们在数据分析和OLAP技术方面的研究成果、实践经验和最新发展。
-在ASF，有各种关于OLAP和数据分析的项目，例如： Apache Doris, Apache Druid, Apache Kylin, Apache Pinot, Apache Impala, Apache Calcite, Apache Cloudberry (Incubating) 等。
-该主题可以涵盖数据分析和OLAP技术的研究进展、应用案例、最佳实践、性能优化等方面。我们相信，这将给与会者带来极大的好处。</description>
+      <description>&lt;p&gt;随着大数据时代的到来，数据分析和OLAP技术在企业中的应用也越来越广泛。为了促进业界在这一领域的交流和分享，我们设立了OLAP和数据分析专场。我们希望邀请业内的专家和学者分享他们在数据分析和OLAP技术方面的研究成果、实践经验和最新发展。&lt;/p&gt;&#xA;&lt;p&gt;在ASF，有各种关于OLAP和数据分析的项目，例如： Apache Doris, Apache Druid, Apache Kylin, Apache Pinot, Apache Impala, Apache Calcite, Apache Cloudberry (Incubating) 等。&lt;/p&gt;&#xA;&lt;p&gt;该主题可以涵盖数据分析和OLAP技术的研究进展、应用案例、最佳实践、性能优化等方面。我们相信，这将给与会者带来极大的好处。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rust</title>
       <link>/zh/tracks/rust.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tracks/rust.html</guid>
-      <description>Rust 生态系统正在蓬勃发展。许多 ASF 项目都提供了 Rust SDK，不少新的 ASF 项目主要用 Rust 编写，例如 Apache OpenDAL 和 Apache HoraeDB (Incubating) 等等。
-Rust 专场旨在分享 ASF 内部及开源生态中 Rust 项目和集成的演变历程，展示 ASF 项目如何提供良好的 Rust 实践，并说明孵化器如何帮助 Rust 项目在 The Apache Way 的指导下健康地发展社区。</description>
+      <description>&lt;p&gt;Rust 生态系统正在蓬勃发展。许多 ASF 项目都提供了 Rust SDK，不少新的 ASF 项目主要用 Rust 编写，例如 Apache OpenDAL 和 Apache HoraeDB (Incubating) 等等。&lt;/p&gt;&#xA;&lt;p&gt;Rust 专场旨在分享 ASF 内部及开源生态中 Rust 项目和集成的演变历程，展示 ASF 项目如何提供良好的 Rust 实践，并说明孵化器如何帮助 Rust 项目在 The Apache Way 的指导下健康地发展社区。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Web 应用与框架</title>
       <link>/zh/tracks/webserver.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tracks/webserver.html</guid>
-      <description>随着现代 Web 应用需求的不断增长，构建高效、可扩展且安全的 Web 系统已成为技术发展的核心目标。
-在 Apache 生态系统中，涌现了众多优秀项目，从经典的 Web 服务器（如 Tomcat、HTTP Server）到基础开发工具（如 Apache Commons、FreeMarker、Echarts），再到专注于企业级集成和安全的框架（如 Camel、Shiro）。这些项目在现代 Web 架构中扮演着至关重要的角色。
-在这里，您将深入了解这些项目的最新进展，学习生产环境中的最佳实践，并探讨它们未来的发展方向。</description>
+      <description>&lt;p&gt;随着现代 Web 应用需求的不断增长，构建高效、可扩展且安全的 Web 系统已成为技术发展的核心目标。&lt;/p&gt;&#xA;&lt;p&gt;在 Apache 生态系统中，涌现了众多优秀项目，从经典的 Web 服务器（如 Tomcat、HTTP Server）到基础开发工具（如 Apache Commons、FreeMarker、Echarts），再到专注于企业级集成和安全的框架（如 Camel、Shiro）。这些项目在现代 Web 架构中扮演着至关重要的角色。&lt;/p&gt;&#xA;&lt;p&gt;在这里，您将深入了解这些项目的最新进展，学习生产环境中的最佳实践，并探讨它们未来的发展方向。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>人工智能基础设施</title>
-      <link>/zh/tracks/aiinfra.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/tracks/aiinfra.html</guid>
-      <description>AI分论坛是一个专注于人工智能（AI）技术与Apache开源项目结合的专业交流平台。该分论坛旨在汇聚全球开发者、研究人员和行业用户，共同探讨AI技术在开源生态中的应用与发展，展示前沿技术、分享实践经验，并推动开源AI解决方案在各行业的落地。
-适合本论坛的议题为：
-  Apache基金会下的AI相关项目（例如聚焦于开源AI框架和基础库项目Apache TVM、Mahout、Singa、SystemML等）
-  Apache单个项目在AI场景下的优化（例如Spark MLib，Flink ML等项目）
-  基于Apache多个项目组合后在工业场景的AI解决方案例如某某企业的AI业务构建方法
-  </description>
-    </item>
-    
-    <item>
-      <title>可观测性</title>
-      <link>/zh/tracks/observability.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/tracks/observability.html</guid>
-      <description>作为云原生时代必备的技术能力，软件中的可观测性（指分析和解释系统运行状态的能力）越来越受到重视，特别是在分布式环境广泛运用的今天，可观测性平台能力可谓保障软件系统稳定的基石。</description>
-    </item>
-    
     <item>
       <title>工业物联网</title>
       <link>/zh/tracks/iot.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tracks/iot.html</guid>
-      <description>物联网与工业物联网专题聚焦于Apache项目如何为互联设备、工业系统及边缘AI智能提供赋能。重点关注系统架构、跨域集成以及物联网全栈的实践经验。 主题包括： （1）嵌入式平台与边缘AI：实时操作系统、设备管理，以及面向物联网设备的边云协同机器学习推理。 （2）数据基础设施与时序智能：时序数据库、流处理、数据集成、AI分析，以及面向预测、异常检测和预测性维护的新兴时序大模型。 欢迎工程师和架构师分享具体设计方案、实现技巧及真实部署案例，包括大规模设备集群管理、面向机器学习的可靠数据集成模式，以及基于Apache技术构建端到端智能物联网系统等议题。</description>
+      <description>&lt;p&gt;物联网与工业物联网专题聚焦于Apache项目如何为互联设备、工业系统及边缘AI智能提供赋能。重点关注系统架构、跨域集成以及物联网全栈的实践经验。&#xA;主题包括：&#xA;（1）嵌入式平台与边缘AI：实时操作系统、设备管理，以及面向物联网设备的边云协同机器学习推理。&#xA;（2）数据基础设施与时序智能：时序数据库、流处理、数据集成、AI分析，以及面向预测、异常检测和预测性维护的新兴时序大模型。&#xA;欢迎工程师和架构师分享具体设计方案、实现技巧及真实部署案例，包括大规模设备集群管理、面向机器学习的可靠数据集成模式，以及基于Apache技术构建端到端智能物联网系统等议题。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>开源社区</title>
       <link>/zh/tracks/community.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tracks/community.html</guid>
-      <description>为什么 ASF 相信 &amp;ldquo;社区重于代码&amp;rdquo;？开源不仅仅是代码贡献。
-社区专场涵盖的主题包括：社区治理模式、发展开源项目社区、多样性和包容性、衡量社区健康、社区管理工具与数据、项目路线图、案例研究，以及其他任何关于开源和开源社区可持续性的主题。
-我们欢迎你与更多的人分享你的社区故事。</description>
+      <description>&lt;p&gt;为什么 ASF 相信 &amp;ldquo;社区重于代码&amp;rdquo;？开源不仅仅是代码贡献。&lt;/p&gt;&#xA;&lt;p&gt;社区专场涵盖的主题包括：社区治理模式、发展开源项目社区、多样性和包容性、衡量社区健康、社区管理工具与数据、项目路线图、案例研究，以及其他任何关于开源和开源社区可持续性的主题。&lt;/p&gt;&#xA;&lt;p&gt;我们欢迎你与更多的人分享你的社区故事。&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>微服务</title>
-      <link>/zh/tracks/microservice.html</link>
+      <title>可观测性</title>
+      <link>/zh/tracks/observability.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/tracks/microservice.html</guid>
-      <description>不论是在云原生时代，还是在 AI 引领变革今天，微服务依然是底层系统的基石，它帮助我们构建弹性、可扩展的分布式系统。加入我们，一同了解：
-  高性能 RPC 框架 – 探讨像 Apache Dubbo、Apache Thrift 和 Apache bRPC 这样的项目如何通过速度、效率和互操作性重新定义服务间通信。
-  下一代服务网格 – 超越传统的 Sidecar，我们将探讨 Proxyless Mesh 的崛起，以及它如何在云原生环境中改变可观察性、安全性和流量管理。
-  云原生微服务 – 从 Kubernetes 到 Serverless 架构，我们讨论云原生原则如何优化微服务架构的可扩展性、韧性和自动化。
-  AI 驱动的微服务 – 了解人工智能和机器学习如何在微服务生态系统中变革服务编排、异常检测和自主扩展。
-  </description>
+      <guid>/zh/tracks/observability.html</guid>
+      <description>&lt;p&gt;作为云原生时代必备的技术能力，软件中的可观测性（指分析和解释系统运行状态的能力）越来越受到重视，特别是在分布式环境广泛运用的今天，可观测性平台能力可谓保障软件系统稳定的基石。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>数据存储与计算</title>
-      <link>/zh/tracks/datastorage.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/tracks/datastorage.html</guid>
-      <description>大数据是计算机科学的一个重要分支,大数据存储和计算领域的研究和创新从未停止。大数据正在深刻的引领和改变着各个行业，已经与我们的生活密不可分。
-大数据也是 ASF 非常重要的组成部分，ASF 有非常多的大数据存储和计算领域的项目，比如大家熟知的 Apache Hadoop, Apache Spark, Apache HBase, Apache Ozone, Apache CarbonData, Apache Cassandra, Apache ZooKeeper, Apache Celeborn 等等，在这个主题中，大家会学习到这些技术的前沿趋势和来自一线用户的实践经验、原理、架构分析等精彩内容</description>
-    </item>
-    
-    <item>
-      <title>数据湖/数据仓库</title>
-      <link>/zh/tracks/datalake.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/tracks/datalake.html</guid>
-      <description>数据湖和数据仓库是存储和管理数据的重要解决方案，它们在数据管理、数据分析和决策中发挥着关键作用。 在ASF，有不少是与数据湖和数据仓库有关的项目，例如： Apache Hive, Apache Hudi, Apache Iceberg, Apache Paimon, Apache Cassandra, Apache HBase, Apache Cloudberry (Incubating)等。 在这个主题中，你将得到数据湖和仓库的最新情况，公司在生产中使用它们的最佳做法，以及这些项目的路线图。</description>
-    </item>
-    
     <item>
       <title>流处理</title>
       <link>/zh/tracks/streaming.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tracks/streaming.html</guid>
-      <description>流式数据处理是当今大数据领域的趋势，很多企业渴望更及时地洞察自己的数据，而曾经的“批处理”思维正迅速被流式处理所取代。越来越多的公司，无论大小，都在重新思考技术架构时把实时性作为第一考量，并开始用强大的开源引擎如Apache Flink, Apache Spark, Apache Kafka, Apache Pulsar, Apache Storm, Apache StreamPark, Apache Paimon 等构建自己的实时计算平台。
-在该主题中，您将了解到一线大厂把这些Apache项目应用到其生产环境中的实际经验，以及这些Apache项目生态的最新发展和流计算技术未来的发展方向。</description>
+      <description>&lt;p&gt;流式数据处理是当今大数据领域的趋势，很多企业渴望更及时地洞察自己的数据，而曾经的“批处理”思维正迅速被流式处理所取代。越来越多的公司，无论大小，都在重新思考技术架构时把实时性作为第一考量，并开始用强大的开源引擎如&lt;a href=&#34;https://flink.apache.org/&#34;&gt;Apache Flink&lt;/a&gt;, &lt;a href=&#34;https://spark.apache.org/&#34;&gt;Apache Spark&lt;/a&gt;, &lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka&lt;/a&gt;, &lt;a href=&#34;https://pulsar.apache.org/&#34;&gt;Apache Pulsar&lt;/a&gt;, &lt;a href=&#34;https://storm.apache.org/&#34;&gt;Apache Storm&lt;/a&gt;, &lt;a href=&#34;https://streampark.apache.org/&#34;&gt;Apache StreamPark&lt;/a&gt;, &lt;a href=&#34;https://paimon.apache.org&#34;&gt;Apache Paimon&lt;/a&gt; 等构建自己的实时计算平台。&lt;/p&gt;&#xA;&lt;p&gt;在该主题中，您将了解到一线大厂把这些Apache项目应用到其生产环境中的实际经验，以及这些Apache项目生态的最新发展和流计算技术未来的发展方向。&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>消息系统</title>
-      <link>/zh/tracks/messaging.html</link>
+      <title>人工智能基础设施</title>
+      <link>/zh/tracks/aiinfra.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/tracks/messaging.html</guid>
-      <description>伴随着云原生Serverless、物联网、实时数据技术的规模化落地，事件驱动架构、事件流技术得以更广泛的应用，使得消息队列成为越来越重要的基础设施。今天在Apache生态中已经涌现了多个优秀的消息项目，包括：Apache Pulsar, Apache Kafka , Apache RocketMQ, Apache ActiveMQ, Apache Inlong 等等。
-在这个主题中，你将了解到不同的消息系统如何基于自身的架构特点做出最优的技术演进方向，包括存算分离、Serverless、消息流一体等；也能学习各大厂商如何结合自身的行业特点、业务场景选择合适的消息技术，获得消息技术的最佳实践。</description>
+      <guid>/zh/tracks/aiinfra.html</guid>
+      <description>&lt;p&gt;AI分论坛是一个专注于人工智能（AI）技术与Apache开源项目结合的专业交流平台。该分论坛旨在汇聚全球开发者、研究人员和行业用户，共同探讨AI技术在开源生态中的应用与发展，展示前沿技术、分享实践经验，并推动开源AI解决方案在各行业的落地。&lt;/p&gt;&#xA;&lt;p&gt;适合本论坛的议题为：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Apache基金会下的AI相关项目（例如聚焦于开源AI框架和基础库项目Apache TVM、Mahout、Singa、SystemML等）&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Apache单个项目在AI场景下的优化（例如Spark MLib，Flink ML等项目）&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;基于Apache多个项目组合后在工业场景的AI解决方案例如某某企业的AI业务构建方法&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
-    <item>
-      <title>通用</title>
-      <link>/zh/tracks/general.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/tracks/general.html</guid>
-      <description>Apache 顶级项目的实际应用案例。</description>
-    </item>
-    
     <item>
       <title>闪电演讲</title>
       <link>/zh/tracks/5minstalk.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/zh/tracks/5minstalk.html</guid>
-      <description>准备好迎接一场激动人心的闪电演讲环节吧！在这个快节奏和充满活力的环节中，数十位演讲者将登上舞台，每人用 5 分钟时间为大家带来各种有启发的观点和故事。这是一个体验多样化思想、视角和创新的绝佳机会。不要错过这个通过快速连续的影响力演讲来获得启发和参与的机会！</description>
+      <description>&lt;p&gt;准备好迎接一场激动人心的闪电演讲环节吧！在这个快节奏和充满活力的环节中，数十位演讲者将登上舞台，每人用 5 分钟时间为大家带来各种有启发的观点和故事。这是一个体验多样化思想、视角和创新的绝佳机会。不要错过这个通过快速连续的影响力演讲来获得启发和参与的机会！&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>数据存储与计算</title>
+      <link>/zh/tracks/datastorage.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/zh/tracks/datastorage.html</guid>
+      <description>&lt;p&gt;大数据是计算机科学的一个重要分支,大数据存储和计算领域的研究和创新从未停止。大数据正在深刻的引领和改变着各个行业，已经与我们的生活密不可分。&lt;/p&gt;&#xA;&lt;p&gt;大数据也是 ASF 非常重要的组成部分，ASF 有非常多的大数据存储和计算领域的项目，比如大家熟知的 &lt;a href=&#34;https://hadoop.apache.org&#34;&gt;Apache Hadoop&lt;/a&gt;, &lt;a href=&#34;https://spark.apache.org&#34;&gt;Apache Spark&lt;/a&gt;, &lt;a href=&#34;https://hbase.apache.org&#34;&gt;Apache HBase&lt;/a&gt;, &lt;a href=&#34;https://ozone.apache.org&#34;&gt;Apache Ozone&lt;/a&gt;, &lt;a href=&#34;https://carbondata.apache.org&#34;&gt;Apache CarbonData&lt;/a&gt;, &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;, &lt;a href=&#34;https://zookeeper.apache.org&#34;&gt;Apache ZooKeeper&lt;/a&gt;, &lt;a href=&#34;https://celeborn.apache.org/&#34;&gt;Apache Celeborn&lt;/a&gt; 等等，在这个主题中，大家会学习到这些技术的前沿趋势和来自一线用户的实践经验、原理、架构分析等精彩内容&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>数据湖/数据仓库</title>
+      <link>/zh/tracks/datalake.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/zh/tracks/datalake.html</guid>
+      <description>&lt;p&gt;数据湖和数据仓库是存储和管理数据的重要解决方案，它们在数据管理、数据分析和决策中发挥着关键作用。&#xA;在ASF，有不少是与数据湖和数据仓库有关的项目，例如：&#xA;Apache Hive, Apache Hudi, Apache Iceberg, Apache Paimon, Apache Cassandra, Apache HBase, Apache Cloudberry (Incubating)等。&#xA;在这个主题中，你将得到数据湖和仓库的最新情况，公司在生产中使用它们的最佳做法，以及这些项目的路线图。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>通用</title>
+      <link>/zh/tracks/general.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/zh/tracks/general.html</guid>
+      <description>&lt;p&gt;Apache 顶级项目的实际应用案例。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>微服务</title>
+      <link>/zh/tracks/microservice.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/zh/tracks/microservice.html</guid>
+      <description>&lt;p&gt;不论是在云原生时代，还是在 AI 引领变革今天，微服务依然是底层系统的基石，它帮助我们构建弹性、可扩展的分布式系统。加入我们，一同了解：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;高性能 RPC 框架 – 探讨像 Apache Dubbo、Apache Thrift 和 Apache bRPC 这样的项目如何通过速度、效率和互操作性重新定义服务间通信。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;下一代服务网格 – 超越传统的 Sidecar，我们将探讨 Proxyless Mesh 的崛起，以及它如何在云原生环境中改变可观察性、安全性和流量管理。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;云原生微服务 – 从 Kubernetes 到 Serverless 架构，我们讨论云原生原则如何优化微服务架构的可扩展性、韧性和自动化。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;AI 驱动的微服务 – 了解人工智能和机器学习如何在微服务生态系统中变革服务编排、异常检测和自主扩展。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>消息系统</title>
+      <link>/zh/tracks/messaging.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/zh/tracks/messaging.html</guid>
+      <description>&lt;p&gt;伴随着云原生Serverless、物联网、实时数据技术的规模化落地，事件驱动架构、事件流技术得以更广泛的应用，使得消息队列成为越来越重要的基础设施。今天在Apache生态中已经涌现了多个优秀的消息项目，包括：&lt;a href=&#34;https://pulsar.apache.org/&#34;&gt;Apache Pulsar&lt;/a&gt;, &lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka&lt;/a&gt;&#xA;, &lt;a href=&#34;https://rocketmq.apache.org/&#34;&gt;Apache RocketMQ&lt;/a&gt;, &lt;a href=&#34;https://activemq.apache.org/&#34;&gt;Apache ActiveMQ&lt;/a&gt;, &lt;a href=&#34;https://inlong.apache.org/&#34;&gt;Apache Inlong&lt;/a&gt; 等等。&lt;/p&gt;&#xA;&lt;p&gt;在这个主题中，你将了解到不同的消息系统如何基于自身的架构特点做出最优的技术演进方向，包括存算分离、Serverless、消息流一体等；也能学习各大厂商如何结合自身的行业特点、业务场景选择合适的消息技术，获得消息技术的最佳实践。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

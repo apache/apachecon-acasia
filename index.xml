@@ -2,284 +2,206 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Community Over Code Asia 2026 will be held in Beijing from August 7 to 9, 2026 on Community Over Code Asia 2026</title>
-    <link>/</link>
+    <link>/index.html</link>
     <description>Recent content in Community Over Code Asia 2026 will be held in Beijing from August 7 to 9, 2026 on Community Over Code Asia 2026</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Venue &#43; Travel</title>
       <link>/venue_travel/venue.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/venue_travel/venue.html</guid>
-      <description>Venue This year&amp;rsquo;s conference will be held at the Convention Center of Zhongguancun National Independent Innovation Demonstration Zone (located at No. 2 Xinjian Gongmen Road, Haidian District, Beijing).
-Nestled in the heart of Haidian District, Beijing, the Convention Center of Zhongguancun National Independent Innovation Demonstration Zone stands adjacent to the time-honored cultural scenic area of &amp;ldquo;Three Hills and Five Gardens&amp;rdquo; and the thriving Zhongguancun Science City. It serves as a confluence point of technology and culture, as well as a brilliant stage for innovation and exchange.</description>
+      <description>&lt;h3 id=&#34;venue&#34;&gt;Venue&lt;/h3&gt;&#xA;&lt;p&gt;This year&amp;rsquo;s conference will be held at the Convention Center of Zhongguancun National Independent Innovation Demonstration Zone (located at No. 2 Xinjian Gongmen Road, Haidian District, Beijing).&lt;/p&gt;&#xA;&lt;p&gt;Nestled in the heart of Haidian District, Beijing, the Convention Center of Zhongguancun National Independent Innovation Demonstration Zone stands adjacent to the time-honored cultural scenic area of &amp;ldquo;Three Hills and Five Gardens&amp;rdquo; and the thriving Zhongguancun Science City. It serves as a confluence point of technology and culture, as well as a brilliant stage for innovation and exchange. Boasting a vast total construction area and a scientifically designed interior layout, the convention center features multiple functional meeting rooms that can accommodate meeting events of various scales and needs, ranging from small seminars for several dozen participants to large-scale summits for over a thousand attendees. Thanks to its unique architectural design, state-of-the-art conference facilities, and exceptional geographical location, the venue has become the premier choice for hosting a wide array of high-end conferences, forums, exhibitions, and business events both domestically and internationally, setting a new trend for the integration of technological innovation and cultural exchange.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Visa Letter Request</title>
       <link>/guide/visa_letter_request.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/guide/visa_letter_request.html</guid>
-      <description>For those needing a visa invitation letter, please refer to the instructions on this page.
-INSTRUCTIONS Before asking for a visa invitation letter, please check out the website of Chinese Visa Application Service Center for the visa application in your city.
-Please pay attention to the latest visa policy of China:   240-Hour Visa-Free Transit Policy which allows people from certain countries to enjoy ten days of travel to select areas of the country without applying for a visa beforehand.</description>
+      <description>&lt;p&gt;For those needing a visa invitation letter, please refer to the instructions on this page.&lt;/p&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;INSTRUCTIONS&lt;/h3&gt;&#xA;&lt;p&gt;Before asking for a visa invitation letter, please check out &lt;a href=&#34;https://www.visaforchina.cn/globle/&#34;&gt;the website of Chinese Visa Application Service Center&lt;/a&gt; for the visa application in your city.&lt;/p&gt;&#xA;&lt;h3 id=&#34;please-pay-attention-to-the-latest-visa-policy-of-china&#34;&gt;Please pay attention to the latest visa policy of China:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;240-Hour Visa-Free Transit Policy which allows people from certain countries to enjoy ten days of travel to select areas of the country without applying for a visa beforehand.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Make a presentation slide</title>
       <link>/guide/presentation_slides_template.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/guide/presentation_slides_template.html</guid>
-      <description>We have a slides template.
-We strongly recommend you to use the template, but if you don’t plan to use it for your entire presentation, please use the title slide at least.
- If you use your own template, please set your slide size ratio as 16:9. Do not include any offensive or sexualized references. This would be a violation of the Code of Conduct.  Talks are 30 minutes long.</description>
+      <description>&lt;p&gt;We have a &lt;a href=&#34;https://docs.google.com/presentation/d/1KzXobcBuPZCaBF4klaD_sV9gYz4H_el-_lURw2ivPSw/edit?slide=id.g358a879f230_2_31#slide=id.g358a879f230_2_31&#34;&gt;slides template&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;We strongly recommend you to use the template, but if you don’t plan to use it for your entire presentation, please use the title slide at least.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If you use your own template, please set your slide size ratio as 16:9.&lt;/li&gt;&#xA;&lt;li&gt;Do not include any offensive or sexualized references. This would be a violation of the Code of Conduct.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Talks are 30 minutes long. This time is inclusive of Q&amp;amp;A.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Code of conduct</title>
       <link>/guide/code_of_conduct.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/guide/code_of_conduct.html</guid>
-      <description>At the Apache Software Foundation, all online interactions are governed by the ASF Code of Conduct, while in-person events are subject to the Anti-Harassment Policy.
-Community Over Code (formerly ApacheCon) is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Participants violating these rules may be sanctioned or expelled without a refund, at the discretion of the event organizers.
-Harassment includes offensive verbal comments, deliberate intimidation, stalking, following, unwanted photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</description>
+      <description>&lt;p&gt;At the Apache Software Foundation, all online interactions are governed by the ASF &lt;a href=&#34;https://apache.org/foundation/policies/conduct.html&#34;&gt;Code of Conduct&lt;/a&gt;, while in-person events are subject to the &lt;a href=&#34;https://apache.org/foundation/policies/anti-harassment.html&#34;&gt;Anti-Harassment Policy&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Community Over Code (formerly ApacheCon) is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Participants violating these rules may be sanctioned or expelled without a refund, at the discretion of the event organizers.&lt;/p&gt;&#xA;&lt;p&gt;Harassment includes offensive verbal comments, deliberate intimidation, stalking, following, unwanted photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Participants asked to stop any harassing behaviour are expected to comply immediately.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Convince Your Boss</title>
       <link>/guide/convince_your_boss.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/guide/convince_your_boss.html</guid>
-      <description>Want to attend but not sure how to bring it up with your boss? We’ve created this sample email to help you explain why it’s important to attend Community Over Code Asia 2025. Feel free to use the full letter or pieces that work for you. See you in Beijing!
-Download Template </description>
+      <description>&lt;p&gt;Want to attend but not sure how to bring it up with your boss? We’ve created this sample email to help you explain why it’s important to attend Community Over Code Asia 2025. Feel free to use the full letter or pieces that work for you. See you in Beijing!&lt;/p&gt;&#xA;&lt;a class=&#34;btn btn-warning&#34; style=&#34;padding-left: 2rem; padding-right: 2rem;&#34; href=&#34;pdf/Convince_Your_Boss_CoC_Asia_EN.docx&#34;&gt;&#xA;Download Template&#xA;&lt;/a&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>/search/search.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/search/search.html</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Accessiblity</title>
       <link>/guide/accessibility.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/guide/accessibility.html</guid>
-      <description>Community Over Code Asia strives to be a welcoming, inclusive, and accessible environment for all, regardless of ability.
-Participants requiring special accommodations should provide details in their registration and/or by emailing us at ningjiang@apache.org. This information will be kept private and only be shared with individuals who need to know to secure these accommodations.</description>
+      <description>&lt;p&gt;Community Over Code Asia strives to be a welcoming, inclusive, and accessible environment for all, regardless of ability.&lt;/p&gt;&#xA;&lt;p&gt;Participants requiring special accommodations should provide details in their registration and/or by emailing us at &lt;a href=&#34;mailto:ningjiang@apache.org&#34;&gt;ningjiang@apache.org&lt;/a&gt;. This information will be kept private and only be shared with individuals who need to know to secure these accommodations.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Agentic coding</title>
       <link>/tracks/agenticcoding.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/agenticcoding.html</guid>
-      <description>Agentic coding is moving from demos into production. Across Apache projects, maintainers are asking: How can we integrate LLM-powered agents into our development workflows without compromising code quality, reviewability, or the ASF’s community-driven principles? From code generation and test writing to refactoring, debugging, code review assistance, and release automation, projects across the foundation are experimenting with agents across the entire software lifecycle. These early efforts reveal not only new possibilities but also real friction points.</description>
+      <description>&lt;p&gt;Agentic coding is moving from demos into production. Across Apache projects, maintainers are asking: How can we integrate LLM-powered agents into our development workflows without compromising code quality, reviewability, or the ASF’s community-driven principles? From code generation and test writing to refactoring, debugging, code review assistance, and release automation, projects across the foundation are experimenting with agents across the entire software lifecycle. These early efforts reveal not only new possibilities but also real friction points.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AI Infra</title>
       <link>/tracks/aiinfra.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/aiinfra.html</guid>
-      <description>The AI Sub-forum is a professional exchange platform focusing on the integration of artificial intelligence (AI) technology and Apache open-source projects. This sub-forum aims to bring together developers, researchers, and industry users from around the world to explore the application and development of AI technology in the open-source ecosystem, showcase cutting-edge technologies, share practical experience, and promote the implementation of open-source AI solutions across various industries. Topics suitable for this sub-forum include:</description>
+      <description>&lt;p&gt;The AI Sub-forum is a professional exchange platform focusing on the integration of artificial intelligence (AI) technology and Apache open-source projects. This sub-forum aims to bring together developers, researchers, and industry users from around the world to explore the application and development of AI technology in the open-source ecosystem, showcase cutting-edge technologies, share practical experience, and promote the implementation of open-source AI solutions across various industries. Topics suitable for this sub-forum include:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Business Travel</title>
       <link>/venue_travel/travel.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/venue_travel/travel.html</guid>
-      <description>Conference Hotel Park Plaza Beijing Science Park Hotel is 4.6km from the venue, approximately 20 minutes by taxi. Special conference rates (including breakfast):
-   Room Type King Bed Twin Bed     Superior Room 618 698   Deluxe Room 658 738   Business Room 758 838   Executive Room 838 938    Booking Instructions: Call Park Plaza Beijing Science Park Hotel and mention “COC Asia” for special rates Reservation Department: 010-82356699 ext.</description>
+      <description>&lt;h3 id=&#34;conference-hotel&#34;&gt;Conference Hotel&lt;/h3&gt;&#xA;&lt;p&gt;Park Plaza Beijing Science Park Hotel is 4.6km from the venue, approximately 20 minutes by taxi. Special conference rates (including breakfast):&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Room Type&lt;/th&gt;&#xA;          &lt;th&gt;King Bed&lt;/th&gt;&#xA;          &lt;th&gt;Twin Bed&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Superior Room&lt;/td&gt;&#xA;          &lt;td&gt;618&lt;/td&gt;&#xA;          &lt;td&gt;698&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Deluxe Room&lt;/td&gt;&#xA;          &lt;td&gt;658&lt;/td&gt;&#xA;          &lt;td&gt;738&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Business Room&lt;/td&gt;&#xA;          &lt;td&gt;758&lt;/td&gt;&#xA;          &lt;td&gt;838&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Executive Room&lt;/td&gt;&#xA;          &lt;td&gt;838&lt;/td&gt;&#xA;          &lt;td&gt;938&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;br /&gt;&#xA;&lt;p&gt;Booking Instructions: Call Park Plaza Beijing Science Park Hotel and mention “COC Asia” for special rates&#xA;Reservation Department: 010-82356699 ext. 470/472/460&#xA;Email: &lt;a href=&#34;mailto:rsvn@parkplaza-bj.com&#34;&gt;rsvn@parkplaza-bj.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;nearby-hotels-within-3km&#34;&gt;Nearby Hotels (within 3km)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Beijing Post and Telecommunications Conference Center&lt;/li&gt;&#xA;&lt;li&gt;Langlizi Hotel (Suzhou Street, Zhongguancun, Beijing)&lt;/li&gt;&#xA;&lt;li&gt;Ji Hotel (Suzhou Street, Zhongguancun, Beijing)&lt;/li&gt;&#xA;&lt;li&gt;Crowne Plaza Beijing Zhongguancun&lt;/li&gt;&#xA;&lt;li&gt;Century Huatian Hotel&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Community</title>
       <link>/tracks/community.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/community.html</guid>
-      <description>Why ASF believes &amp;ldquo;Community over Code&amp;rdquo;? There is more to open source than just code contribution.
-The Community track covers topics such as community governance model, growing open source project communities, diversity &amp;amp; inclusion, measuring community health, community management tools and data, project roadmaps, case studies, and any other topic around sustaining open source and open source communities.
-We welcome you to share your community story with a broader audience.</description>
+      <description>&lt;p&gt;Why ASF believes &amp;ldquo;Community over Code&amp;rdquo;? There is more to open source than just code contribution.&lt;/p&gt;&#xA;&lt;p&gt;The Community track covers topics such as community governance model, growing open source project communities, diversity &amp;amp; inclusion, measuring community health, community management tools and data, project roadmaps, case studies, and any other topic around sustaining open source and open source communities.&lt;/p&gt;&#xA;&lt;p&gt;We welcome you to share your community story with a broader audience.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Data &#43; AI</title>
       <link>/tracks/dataai.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/dataai.html</guid>
-      <description>In the era of Generative AI and Autonomous Agents, data is no longer just a static asset—it is the dynamic fuel for intelligence. The Data + AI track explores the profound convergence where Apache’s battle-tested data infrastructure meets cutting-edge AI capabilities.
-We focus on two critical evolutionary paths:
-  Infrastructure for AI: How Apache projects are evolving to support the massive scale required by LLMs—covering vector retrieval, real-time RAG pipelines, and unstructured data governance.</description>
+      <description>&lt;p&gt;In the era of Generative AI and Autonomous Agents, data is no longer just a static asset—it is the dynamic fuel for intelligence. The Data + AI track explores the profound convergence where Apache’s battle-tested data infrastructure meets cutting-edge AI capabilities.&lt;/p&gt;&#xA;&lt;p&gt;We focus on two critical evolutionary paths:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Infrastructure for AI: How Apache projects are evolving to support the massive scale required by LLMs—covering vector retrieval, real-time RAG pipelines, and unstructured data governance.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Data Lake &amp; Data Warehouse</title>
       <link>/tracks/datalake.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/datalake.html</guid>
-      <description>Data Lake and Data Warehouse are important solutions for storing and managing data, and they play a crucial role in data management, data analysis, and decision-making. In ASF, there are various projects about Data Lake and Data Warehouse, for example: Apache Hive, Apache Hudi, Apache Iceberg, Apache Paimon, Apache Cassandra, Apache HBase, Apache Cloudberry (Incubating) etc. In this topic, you will get the latest status of data lake and warehouse, best practices the companies use them in the production, and the roadmap of these projects.</description>
+      <description>&lt;p&gt;Data Lake and Data Warehouse are important solutions for storing and managing data, and they play a crucial role in data management, data analysis, and decision-making.&#xA;In ASF, there are various projects about Data Lake and Data Warehouse, for example:&#xA;Apache Hive, Apache Hudi, Apache Iceberg, Apache Paimon, Apache Cassandra, Apache HBase, Apache Cloudberry (Incubating) etc.&#xA;In this topic, you will get the latest status of data lake and warehouse, best practices the companies use them in the production, and the roadmap of these projects.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Data Storage &amp; Computing</title>
       <link>/tracks/datastorage.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/datastorage.html</guid>
-      <description>Big data is an important branch of computer science,Researches and innovations in the big data storage and computing have never stopped. Big Data is leading and changing various industries and is inseparable from our lives.
-Big Data is also a very important part of ASF. ASF has so many big data storage and computing projects, such as Apache Hadoop, Apache Spark, Apache HBase, Apache Ozone, Apache CarbonData, Apache Cassandra, Apache ZooKeeper, Apache Celeborn etc.</description>
+      <description>&lt;p&gt;Big data is an important branch of computer science,Researches and innovations in the big data storage and computing have never stopped.&#xA;Big Data is leading and changing various industries and is inseparable from our lives.&lt;/p&gt;&#xA;&lt;p&gt;Big Data is also a very important part of ASF. ASF has so many big data storage and computing projects, such as &lt;a href=&#34;https://hadoop.apache.org&#34;&gt;Apache Hadoop&lt;/a&gt;, &lt;a href=&#34;https://spark.apache.org&#34;&gt;Apache Spark&lt;/a&gt;, &lt;a href=&#34;https://hbase.apache.org&#34;&gt;Apache HBase&lt;/a&gt;, &lt;a href=&#34;https://ozone.apache.org&#34;&gt;Apache Ozone&lt;/a&gt;, &lt;a href=&#34;https://carbondata.apache.org&#34;&gt;Apache CarbonData&lt;/a&gt;, &lt;a href=&#34;https://cassandra.apache.org&#34;&gt;Apache Cassandra&lt;/a&gt;, &lt;a href=&#34;https://zookeeper.apache.org&#34;&gt;Apache ZooKeeper&lt;/a&gt;, &lt;a href=&#34;https://celeborn.apache.org/&#34;&gt;Apache Celeborn&lt;/a&gt; etc.&lt;/p&gt;&#xA;&lt;p&gt;In this topic, you will learn the cutting-edge trends of these technologies and the practical experience, principles, architecture analysis and other exciting content from first-line users.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DataOps</title>
       <link>/tracks/dataops.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/dataops.html</guid>
-      <description>Featuring some of the most innovative and cutting-edge projects in the Apache ecosystem. This track brings together leading experts and contributors from Apache DolphinScheduler, Apache Airflow, Apache SeaTunnel, Apache Flume, Apache Sqoop, Apache Griffin, Apache Atlas and other DataOps-related projects to explore the latest advances in data operations, automation, and orchestration. Whether you’re a seasoned data professional or just getting started in the field, this track offers something for everyone, with sessions covering topics such as data pipelines, ETL, orchestration, data qulity, metadata, and more.</description>
+      <description>&lt;p&gt;Featuring some of the most innovative and cutting-edge projects in the Apache ecosystem. This track brings together leading experts and contributors from Apache DolphinScheduler, Apache Airflow, Apache SeaTunnel, Apache Flume, Apache Sqoop, Apache Griffin, Apache Atlas and other DataOps-related projects to explore the latest advances in data operations, automation, and orchestration. Whether you’re a seasoned data professional or just getting started in the field, this track offers something for everyone, with sessions covering topics such as data pipelines, ETL, orchestration, data qulity, metadata, and more. Join us at ApacheCon for an exciting and informative deep dive into the world of DataOps.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>General</title>
       <link>/tracks/general.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/general.html</guid>
-      <description>The General track of Community Over Code.</description>
+      <description>&lt;p&gt;The General track of Community Over Code.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Incubator</title>
       <link>/tracks/incubator.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/incubator.html</guid>
-      <description>The Apache Incubator offers valuable services to projects, referred to as &amp;ldquo;podlings,&amp;rdquo; seeking entry into the Apache Software Foundation (ASF). This conference track aims to provide insights and guidance on the incubator journey, enabling attendees to gain a deeper understanding of Apache&amp;rsquo;s governance and operational practices.
-Participants will learn about the process of entering the incubator and progressing towards becoming a Top-Level Project (TLP). Additionally, this track will explore strategies for building an active and diverse open-source community, while ensuring compliance with Apache&amp;rsquo;s regulations.</description>
+      <description>&lt;p&gt;The Apache Incubator offers valuable services to projects, referred to as &amp;ldquo;podlings,&amp;rdquo; seeking entry into the Apache Software Foundation (ASF). This conference track aims to provide insights and guidance on the incubator journey, enabling attendees to gain a deeper understanding of Apache&amp;rsquo;s governance and operational practices.&lt;/p&gt;&#xA;&lt;p&gt;Participants will learn about the process of entering the incubator and progressing towards becoming a Top-Level Project (TLP). Additionally, this track will explore strategies for building an active and diverse open-source community, while ensuring compliance with Apache&amp;rsquo;s regulations.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>IoT and IIoT</title>
       <link>/tracks/iot.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/iot.html</guid>
-      <description>IoT and IIoT focuses on how Apache projects empower connected devices, industrial systems, and AI-driven intelligence at the edge. The focus is on real architectures, cross-project integrations, and production experiences across the IoT stack.
-Topics include: (1) Embedded platforms and edge AI: real-time OS, device management, and edge-to-cloud synchronization with ML inference for IoT devices. (2) Data infrastructure and time-series intelligence: time-series databases, stream processing, data pipelines, industrial analytics, and emerging time-series foundation models for forecasting, anomaly detection, and predictive maintenance.</description>
+      <description>&lt;p&gt;IoT and IIoT focuses on how Apache projects empower connected devices, industrial systems, and AI-driven intelligence at the edge. The focus is on real architectures, cross-project integrations, and production experiences across the IoT stack.&lt;/p&gt;&#xA;&lt;p&gt;Topics include:&#xA;(1) Embedded platforms and edge AI: real-time OS, device management, and edge-to-cloud synchronization with ML inference for IoT devices.&#xA;(2) Data infrastructure and time-series intelligence: time-series databases, stream processing, data pipelines, industrial analytics, and emerging time-series foundation models for forecasting, anomaly detection, and predictive maintenance.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Keynote</title>
       <link>/tracks/keynote.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/keynote.html</guid>
-      <description>Keynote track is the main track. we invite many famous people in open source community, they will share their visions and insights about open source.</description>
+      <description>&lt;p&gt;Keynote track is the main track.&#xA;we invite many famous people in open source community,&#xA;they will share their visions and insights about open source.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Lightning Talk</title>
       <link>/tracks/5minstalk.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/5minstalk.html</guid>
-      <description>Get ready for an exciting lightning talk session! In this fast-paced and dynamic segment, dozens of speakers will take the stage, each delivering inspiring ideas and stories in just 5 minutes. It&amp;rsquo;s a fantastic opportunity to experience diverse thoughts, perspectives, and innovations. Don’t miss this chance to get inspired and engaged through a rapid succession of impactful presentations!</description>
+      <description>&lt;p&gt;Get ready for an exciting lightning talk session! In this fast-paced and dynamic segment, dozens of speakers will take the stage, each delivering inspiring ideas and stories in just 5 minutes. It&amp;rsquo;s a fantastic opportunity to experience diverse thoughts, perspectives, and innovations. Don’t miss this chance to get inspired and engaged through a rapid succession of impactful presentations!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Messaging</title>
       <link>/tracks/messaging.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/messaging.html</guid>
-      <description>With the large-scale landing of serverless, IoT and real-time data technology, event-driven architecture and event streaming technology have been more widely applied, making message queue become more and more important infrastructure. Today, a number of excellent messaging projects have emerged in the Apache ecosystem, including Apache Pulsar, Apache Kafka, Apache RocketMQ, Apache ActiveMQ, Apache Inlong, etc, facing new technological trends, each messaging project is also continuing to evolve.
-In this topic, you will learn how different messaging systems make the best technical evolution direction based on their own architectural characteristics, including storage and computing separation, serverless, messaging-streaming integration,and so on.</description>
+      <description>&lt;p&gt;With the large-scale landing of serverless, IoT and real-time data technology, event-driven architecture and event streaming technology have been more widely applied, making message queue become more and more important infrastructure. Today, a number of excellent  messaging projects have emerged in the Apache ecosystem, including&#xA;&lt;a href=&#34;https://pulsar.apache.org/&#34;&gt;Apache Pulsar&lt;/a&gt;, &lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka&lt;/a&gt;, &lt;a href=&#34;https://rocketmq.apache.org/&#34;&gt;Apache RocketMQ&lt;/a&gt;, &lt;a href=&#34;https://activemq.apache.org/&#34;&gt;Apache ActiveMQ&lt;/a&gt;, &lt;a href=&#34;https://inlong.apache.org/&#34;&gt;Apache Inlong&lt;/a&gt;, etc, facing new technological trends, each messaging project is also continuing to evolve.&lt;/p&gt;&#xA;&lt;p&gt;In this topic, you will learn how different messaging systems make the best technical evolution direction based on their own architectural characteristics, including storage and computing separation,  serverless, messaging-streaming integration,and so on.  You can also learn how major manufacturers choose the right messaging technology based on their own industry characteristics and business scenarios, and obtain the best practices of messaging technology.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Microservice</title>
       <link>/tracks/microservice.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/microservice.html</guid>
-      <description>Whether in the era of Cloud Native or AI-led transformation today, microservices remain the cornerstone of underlying systems, helping us build resilient and scalable distributed systems. Join us as we uncover:
-  High-Performance RPC Frameworks – Learn how projects like Apache Dubbo, Apache Thrift, and Apache bRPC are redefining service-to-service communication with speed, efficiency, and interoperability.
-  AI-Driven Microservices – Discover how AI and ML are revolutionizing service orchestration, anomaly detection, and autonomous scaling in microservice ecosystems.</description>
+      <description>&lt;p&gt;Whether in the era of Cloud Native or AI-led transformation today, microservices remain the cornerstone of underlying systems, helping us build resilient and scalable distributed systems. Join us as we uncover:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;High-Performance RPC Frameworks – Learn how projects like Apache Dubbo, Apache Thrift, and Apache bRPC are redefining service-to-service communication with speed, efficiency, and interoperability.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;AI-Driven Microservices – Discover how AI and ML are revolutionizing service orchestration, anomaly detection, and autonomous scaling in microservice ecosystems.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Observability</title>
       <link>/tracks/observability.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/observability.html</guid>
-      <description>As an essential technical capability in the cloud-native era, observability—the ability to analyze and interpret a system&amp;rsquo;s operational state—has gained increasing importance. Especially in today&amp;rsquo;s widespread adoption of distributed environments, observability platforms serve as the cornerstone for ensuring software system stability.</description>
+      <description>&lt;p&gt;As an essential technical capability in the cloud-native era, observability—the ability to analyze and interpret a system&amp;rsquo;s operational state—has gained increasing importance. Especially in today&amp;rsquo;s widespread adoption of distributed environments, observability platforms serve as the cornerstone for ensuring software system stability.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>OLAP &amp; Data Analysis</title>
       <link>/tracks/olap.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/olap.html</guid>
-      <description>With the advent of the big data era, the application of data analysis and OLAP technology in enterprises is becoming more and more widespread. In order to promote communication and sharing in this field in the industry, we have set up the OLAP and Data Analysis Track. We hope to invite experts and scholars in the industry to share their research results, practical experience, and latest developments in data analysis and OLAP technology.</description>
+      <description>&lt;p&gt;With the advent of the big data era, the application of data analysis and OLAP technology in enterprises is becoming more and more widespread. In order to promote communication and sharing in this field in the industry, we have set up the OLAP and Data Analysis Track. We hope to invite experts and scholars in the industry to share their research results, practical experience, and latest developments in data analysis and OLAP technology.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rust</title>
       <link>/tracks/rust.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/rust.html</guid>
-      <description>The Rust ecosystem is flourishing. Many ASF projects now offer Rust SDKs, and several new ASF projects are primarily written in Rust, such as Apache OpenDAL and Apache HoraeDB (Incubating), among others.
-The Rust Track aims to share the evolution of Rust projects and integrations within the ASF and broader open-source ecosystem. It will demonstrate how ASF projects provide excellent Rust implementations and illustrate how the incubator helps Rust projects develop healthy communities under the guidance of The Apache Way.</description>
+      <description>&lt;p&gt;The Rust ecosystem is flourishing. Many ASF projects now offer Rust SDKs, and several new ASF projects are primarily written in Rust, such as Apache OpenDAL and Apache HoraeDB (Incubating), among others.&lt;/p&gt;&#xA;&lt;p&gt;The Rust Track aims to share the evolution of Rust projects and integrations within the ASF and broader open-source ecosystem. It will demonstrate how ASF projects provide excellent Rust implementations and illustrate how the incubator helps Rust projects develop healthy communities under the guidance of The Apache Way.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Streaming</title>
       <link>/tracks/streaming.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/streaming.html</guid>
-      <description>Streaming data processing is a big deal in big data these days, businesses crave ever-more timely insights into their data, and what was once a ‘batch’ mindset is quickly being replaced with stream processing. More and more companies, small and large, are rethinking their architecture with real-time context at the forefront, and starting to build their streaming platforms with powerful open source engines such as Apache Flink, Apache Spark, Apache Kafka, Apache Pulsar, Apache Storm, Apache StreamPark, Apache Paimon etc.</description>
+      <description>&lt;p&gt;Streaming data processing is a big deal in big data these days, businesses crave ever-more timely insights into their data, and what was once a ‘batch’ mindset is quickly being replaced with stream processing. More and more companies, small and large, are rethinking their architecture with real-time context at the forefront, and starting to build their streaming platforms with powerful open source engines such as &lt;a href=&#34;https://flink.apache.org/&#34;&gt;Apache Flink&lt;/a&gt;, &lt;a href=&#34;https://spark.apache.org/&#34;&gt;Apache Spark&lt;/a&gt;, &lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka&lt;/a&gt;, &lt;a href=&#34;https://pulsar.apache.org/&#34;&gt;Apache Pulsar&lt;/a&gt;, &lt;a href=&#34;https://storm.apache.org/&#34;&gt;Apache Storm&lt;/a&gt;, &lt;a href=&#34;https://streampark.apache.org/&#34;&gt;Apache StreamPark&lt;/a&gt;, &lt;a href=&#34;https://paimon.apache.org&#34;&gt;Apache Paimon&lt;/a&gt; etc.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Terms &amp; Conditions</title>
       <link>/guide/terms.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/guide/terms.html</guid>
-      <description>Refund Policy If you must cancel for any reason please notify us via email at vivian@segmentfault.com. Refunds will only be issued for cancellations received 14 days prior to the first day of the event and may take up to 14 days to process. Please note that all refunds are subject to a 3% processing fee. You can cancel or modify your registration from your confirmation email.
-Photo &amp;amp; Video Release I hereby consent to the photographing of myself and the recording of my voice and the use of these photographs and/or recordings singularly or in conjunction with other photographs and/or recordings for advertising, publicity, commercial or other business purposes for The Apache Software Foundation.</description>
+      <description>&lt;h2 id=&#34;refund-policy&#34;&gt;Refund Policy&lt;/h2&gt;&#xA;&lt;p&gt;If you must cancel for any reason please notify us via email at &lt;a href=&#34;mailto:vivian@segmentfault.com&#34;&gt;vivian@segmentfault.com&lt;/a&gt;. Refunds will only be issued for cancellations received 14 days prior to the first day of the event and may take up to 14 days to process. Please note that all refunds are subject to a 3% processing fee. You can cancel or modify your registration from your confirmation email.&lt;/p&gt;&#xA;&lt;h2 id=&#34;photo--video-release&#34;&gt;Photo &amp;amp; Video Release&lt;/h2&gt;&#xA;&lt;p&gt;I hereby consent to the photographing of myself and the recording of my voice and the use of these photographs and/or recordings singularly or in conjunction with other photographs and/or recordings for advertising, publicity, commercial or other business purposes for The Apache Software Foundation. I understand that the term “photograph” as used herein encompasses both still photographs and motion picture footage.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Web Application &amp; Framework</title>
       <link>/tracks/webserver.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/tracks/webserver.html</guid>
-      <description>With the growing demands of modern web applications, building efficient, scalable, and secure web systems has become a core objective of technological development.
-Within the Apache ecosystem, numerous outstanding projects have emerged, ranging from classic web servers (such as Tomcat, HTTP Server) to essential development tools (like Apache Commons, FreeMarker, Echarts), as well as frameworks specializing in enterprise-level integration and security (e.g., Camel, Shiro). These projects play critical roles in modern web architectures.</description>
+      <description>&lt;p&gt;With the growing demands of modern web applications, building efficient, scalable, and secure web systems has become a core objective of technological development.&lt;/p&gt;&#xA;&lt;p&gt;Within the Apache ecosystem, numerous outstanding projects have emerged, ranging from classic web servers (such as Tomcat, HTTP Server) to essential development tools (like Apache Commons, FreeMarker, Echarts), as well as frameworks specializing in enterprise-level integration and security (e.g., Camel, Shiro). These projects play critical roles in modern web architectures.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
