@@ -1,135 +1,563 @@
 <!DOCTYPE HTML>
-
 <html>
 {{ partial "header.html" . }}
 <body>
 
 <!-- Header Wrapper -->
 <div class="wrapper style1">
-
-    <!-- Header -->
     <div id="header" class="sub-banner position-relative d-flex flex-column">
         {{ partial "nav.html" . }}
     </div>
 
     <div id="main" class="wrapper style4 page-session">
-
-        <!-- Content -->
         <div id="content" class="container">
             <section>
                 <header class="major">
                     <h2 class="text-center">{{.Title}}</h2>
                 </header>
 
-                {{ $day := "" }}
-                {{ $time := "" }}
-                {{ $day1 := "0001-01-01" }}
-                {{ $day2 := "2021-08-06" }}
-                <!-- Tabbox  -->
-                <div class="tab_box">
-                    {{ range $index, $value := .Site.Params.schedule }}
-                        <button class="tab_{{$value}}" onclick="tabChange({{ $value }})">{{ $value }}</button>
-                    {{ end }}   
-                </div>
+                <!-- 数据岛：将 Hugo 数据安全地传递给 JavaScript -->
+                <script id="session-data" type="application/json">
+                    {{- $pages := slice -}}
+                    {{- range .Pages -}}
+                        {{- $pages = $pages | append (dict 
+                            "title" .Title
+                            "date" (.Date.Format "2006-01-02T15:04:05Z07:00")
+                            "track" .Params.track
+                            "presenters" .Params.presenters
+                            "stype" .Params.stype
+                            "room" .Params.room
+                            "abstract" .Summary
+                            "permalink" .Permalink
+                            "tags" (split .Params.tags ",")
+                        ) -}}
+                    {{- end -}}
+                    {{- if $pages -}}
+                        {{- $pages | jsonify | safeJS -}}
+                    {{- else -}}
+                        []
+                    {{- end -}}
+                </script>
 
-                {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
-                {{ $pageDay := dateFormat "2006-01-02" .Date }}
-                {{ $pageTime := dateFormat "15:04 GMT+8" .Date }}
-
-                {{ if eq $pageDay $day }}
-                    <div class="tab_content tab_content_{{$pageDay}}">
-                        {{if eq $pageTime $time}}
-                        {{else}}
-                            <h3>{{$pageTime}}</h3>
-                        {{end}}
-                        {{ if .Title}}
-                            <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
-                                {{if eq .Params.track "bigdata"}}
-                                    (ROOM : {{.Params.room}})
-                                {{end}}
-                            <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
-                        {{end}}
-                    </div>
-
-                {{else}}
-                    {{ if eq $pageDay $day1 }}
-                    {{else}}
-                        {{ if eq $pageDay $day2 }}
-                        {{else}}
-                            <!-- </br> -->
-                        {{end}}
-                        <div class="tab_content tab_content_{{$pageDay}}">
-                            <h2>{{ $pageDay }}</h2>
-                            <h3>{{$pageTime}}</h3>
-                            <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
-                            <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
+                <!-- 主应用区域 -->
+                <div id="app">
+                    <!-- 加载中提示 -->
+                    <div id="loading" class="text-center">加载日程数据中...</div>
+                    
+                    <!-- 应用主体（初始隐藏） -->
+                    <div id="app-main" style="display: none;">
+                        <!-- 控制栏：过滤与搜索 -->
+                        <div class="control-panel">
+                            <div class="filter-group">
+                                <label for="track-filter">分会场:</label>
+                                <select id="track-filter" class="filter-select">
+                                    <option value="all">全部</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="type-filter">类型:</label>
+                                <select id="type-filter" class="filter-select">
+                                    <option value="all">全部</option>
+                                </select>
+                            </div>
+                            <div class="filter-group search-group">
+                                <input type="text" id="search-input" placeholder="搜索标题、讲师、摘要..." />
+                            </div>
                         </div>
-                    {{end}}
-                {{end}}
-                {{ $day = $pageDay }}
-                {{ $time = $pageTime }}
-                {{end}}
 
+                        <!-- 两栏布局：日程列表 + 我的日程 -->
+                        <div class="schedule-dashboard">
+                            <!-- 左侧：所有日程 -->
+                            <div class="all-sessions-panel">
+                                <h3>📋 全部议程</h3>
+                                <div id="date-tabs" class="date-tabs"></div>
+                                <div id="sessions-container" class="sessions-list"></div>
+                            </div>
+
+                            <!-- 右侧：我的日程构建器 -->
+                            <div class="my-schedule-panel">
+                                <div class="my-schedule-header">
+                                    <h3>📌 我的日程</h3>
+                                    <button id="export-calendar" class="btn-export" disabled>📅 导出日历</button>
+                                </div>
+                                <div id="my-schedule-list" class="my-schedule-list">
+                                    <p class="empty-message">还没有添加议题，点击左侧“➕”添加</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     </div>
-
     {{ partial "footer.html" . }}
+</div>
 
-    <style>
-        .tab_box{
-            border-bottom: 1px solid #0f072d;
-            padding: 0;
-            margin-bottom: 30px;
-        }
-        .tab_box button{
-            position: relative;
-            bottom: -1px;
-            margin: 0;
-            border-style: none;
-            background-color: transparent;
-            border: 1px solid #0f072d;
-            padding: 5px 10px;
-            font-size: 19px;
-            cursor: pointer;
-        }
-        .tab_box .tab_selected{
-            background-color: #0f072d;
-            color:white;
-        }
-        .tab_content h2{
-            margin: 18px 0;
-        }
-        .tab_content p{
-            text-indent: 2em;
-        }
+<!-- 引入所需库：Sortable 用于拖拽，可选 moment 或 dayjs 处理时间（这里使用原生方法） -->
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+<!-- 引入文件保存库 FileSaver.js 便于导出 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 
+<style>
+    /* 基础样式重置 */
+    .page-session .container { max-width: 1400px; }
+    .control-panel {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 30px;
+        background: #f8f9fa;
+        padding: 15px 20px;
+        border-radius: 12px;
+        align-items: center;
+    }
+    .filter-group {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .filter-select, #search-input {
+        padding: 8px 12px;
+        border: 1px solid #ced4da;
+        border-radius: 8px;
+        font-size: 14px;
+        background: white;
+        min-width: 150px;
+    }
+    #search-input { min-width: 280px; }
+    .search-group { flex: 1; }
 
-    </style>
+    .schedule-dashboard {
+        display: grid;
+        grid-template-columns: 1fr 380px;
+        gap: 30px;
+    }
+    @media (max-width: 900px) {
+        .schedule-dashboard { grid-template-columns: 1fr; }
+    }
+
+    /* 日期标签页 */
+    .date-tabs {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        border-bottom: 2px solid #e9ecef;
+        padding-bottom: 10px;
+    }
+    .date-tab {
+        padding: 8px 18px;
+        background: transparent;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-weight: 500;
+        color: #495057;
+        transition: all 0.2s;
+    }
+    .date-tab.active {
+        background: #0f072d;
+        color: white;
+    }
+
+    /* 议题卡片 */
+    .session-card {
+        background: white;
+        border-radius: 16px;
+        padding: 18px 20px;
+        margin-bottom: 16px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        border-left: 5px solid #0f072d;
+        transition: transform 0.1s, box-shadow 0.2s;
+        position: relative;
+    }
+    .session-card.keynote { border-left-color: #e6b800; background: #fffdf5; }
+    .session-card .time { font-size: 14px; color: #6c757d; margin-bottom: 6px; font-weight: 500; }
+    .session-card h4 { margin: 0 0 8px 0; font-size: 1.2rem; }
+    .session-card h4 a { color: #0f072d; text-decoration: none; }
+    .session-card .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 20px;
+        margin: 12px 0 8px;
+        font-size: 14px;
+    }
+    .badge {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: 600;
+        background: #e9ecef;
+        color: #495057;
+    }
+    .badge.track { background: #0f072d; color: white; }
+    .badge.type { background: #d4edda; color: #155724; }
+    .badge.room { background: #cfe2ff; color: #084298; }
+    .abstract {
+        font-size: 14px;
+        color: #555;
+        margin: 12px 0 0;
+        line-height: 1.5;
+        border-top: 1px dashed #dee2e6;
+        padding-top: 12px;
+    }
+    .add-btn {
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        background: #0f072d;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+        line-height: 1;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.2s;
+    }
+    .add-btn:hover { background: #2a1a5e; }
+    .add-btn.disabled {
+        background: #adb5bd;
+        cursor: not-allowed;
+        opacity: 0.6;
+    }
+
+    /* 我的日程面板 */
+    .my-schedule-panel {
+        background: #f8f9fa;
+        border-radius: 20px;
+        padding: 20px;
+        height: fit-content;
+        position: sticky;
+        top: 20px;
+    }
+    .my-schedule-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .my-schedule-header h3 { margin: 0; }
+    .btn-export {
+        background: #198754;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-weight: 500;
+        transition: background 0.2s;
+    }
+    .btn-export:hover { background: #157347; }
+    .btn-export:disabled { background: #6c757d; cursor: not-allowed; }
+
+    .my-schedule-list { min-height: 200px; }
+    .my-session-item {
+        background: white;
+        border-radius: 12px;
+        padding: 14px 16px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+        border: 1px solid #e9ecef;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: grab;
+        transition: box-shadow 0.1s;
+    }
+    .my-session-item:active { cursor: grabbing; }
+    .my-session-item .drag-handle { color: #adb5bd; font-size: 20px; margin-right: 5px; }
+    .my-session-info { flex: 1; }
+    .my-session-info .title { font-weight: 600; color: #0f072d; }
+    .my-session-info .time { font-size: 12px; color: #6c757d; }
+    .remove-btn {
+        background: none;
+        border: none;
+        color: #dc3545;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 0 5px;
+    }
+    .empty-message { color: #6c757d; text-align: center; padding: 40px 0; }
+
+    /* 无结果提示 */
+    .no-results {
+        text-align: center;
+        padding: 40px;
+        color: #6c757d;
+    }
+</style>
 
 <script>
-    const tab_list = {{ .Site.Params.schedule }}
-
-    window.onload = function() {
-        tabChange(tab_list[0])
-    }
-
-    function tabChange(index){
-        
-        tab_list.forEach(el => {
-            const tab_name = `.tab_content_${el}`
-            const button_name = `.tab_${el}`
-            if( index == el){
-                $(button_name).addClass('tab_selected')
-                $(tab_name).show()
-
-            }else{
-                $(button_name).removeClass('tab_selected')
-                $(tab_name).hide()
-
+    (function() {
+        // ---------- 初始化数据 ----------
+        const dataElement = document.getElementById('session-data');
+        let sessionsRaw = [];
+        try {
+            const rawText = dataElement.textContent.trim();
+            if (rawText) {
+                sessionsRaw = JSON.parse(rawText);
             }
+        } catch (e) {
+            console.error('解析日程数据失败', e);
+        }
+        // 确保是数组
+        if (!Array.isArray(sessionsRaw)) {
+            sessionsRaw = [];
+        }
+        // 解析并增强数据：添加技术深度、项目标签等（这里可根据实际字段调整，示例简单处理）
+        const sessions = sessionsRaw.map(s => {
+            // 根据摘要或track简单模拟技术深度 (演示用，实际可从自定义字段读取)
+            let depth = 'general';
+            const abstract = (s.abstract || '').toLowerCase();
+            if (abstract.includes('深入') || abstract.includes('原理') || abstract.includes('实现')) depth = 'advanced';
+            else if (abstract.includes('入门') || abstract.includes('介绍')) depth = 'beginner';
+            
+            // 提取可能出现的项目名 (示例)
+            const projectKeywords = ['skywalking', 'camel', 'kafka', 'flink', 'spark', 'dubbo', 'rocketmq'];
+            const projects = projectKeywords.filter(kw => 
+                s.title.toLowerCase().includes(kw) || abstract.includes(kw)
+            );
+            
+            return {
+                ...s,
+                depth,
+                projects,
+                dateObj: new Date(s.date),
+                timeStr: new Date(s.date).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', timeZoneName: 'short' })
+            };
         });
-    }
+
+        // 获取所有日期用于标签页
+        const dates = [...new Set(sessions.map(s => s.dateObj.toDateString()))].sort((a,b) => new Date(a) - new Date(b));
+        const tracks = [...new Set(sessions.map(s => s.track))].filter(Boolean);
+        const types = [...new Set(sessions.map(s => s.stype))].filter(Boolean);
+
+        // 我的日程数据 (存储session对象)
+        let mySchedule = [];
+        
+        // 当前选中的日期
+        let currentDate = dates[0] || '';
+
+        // DOM 元素
+        const appMain = document.getElementById('app-main');
+        const loading = document.getElementById('loading');
+        const trackFilter = document.getElementById('track-filter');
+        const typeFilter = document.getElementById('type-filter');
+        const searchInput = document.getElementById('search-input');
+        const dateTabsDiv = document.getElementById('date-tabs');
+        const sessionsContainer = document.getElementById('sessions-container');
+        const myScheduleList = document.getElementById('my-schedule-list');
+        const exportBtn = document.getElementById('export-calendar');
+
+        // 初始化过滤器选项
+        function initFilters() {
+            tracks.forEach(t => { trackFilter.add(new Option(t, t)); });
+            types.forEach(t => { if(t) typeFilter.add(new Option(t, t)); });
+        }
+
+        // 渲染日期标签
+        function renderDateTabs() {
+            dateTabsDiv.innerHTML = dates.map(d => {
+                const date = new Date(d);
+                const formatted = `${date.getMonth()+1}/${date.getDate()}`;
+                const activeClass = d === currentDate ? 'active' : '';
+                return `<button class="date-tab ${activeClass}" data-date="${d}">${formatted}</button>`;
+            }).join('');
+        }
+
+        // 过滤逻辑
+        function filterSessions() {
+            const trackVal = trackFilter.value;
+            const typeVal = typeFilter.value;
+            const searchVal = searchInput.value.toLowerCase();
+            
+            let filtered = sessions.filter(s => s.dateObj.toDateString() === currentDate);
+            
+            if (trackVal !== 'all') filtered = filtered.filter(s => s.track === trackVal);
+            if (typeVal !== 'all') filtered = filtered.filter(s => s.stype === typeVal);
+            if (searchVal) {
+                filtered = filtered.filter(s => 
+                    s.title.toLowerCase().includes(searchVal) ||
+                    s.presenters.toLowerCase().includes(searchVal) ||
+                    (s.abstract || '').toLowerCase().includes(searchVal)
+                );
+            }
+            return filtered;
+        }
+
+        // 渲染所有议题卡片
+        function renderSessions() {
+            const filtered = filterSessions();
+            if (filtered.length === 0) {
+                sessionsContainer.innerHTML = '<div class="no-results">😕 没有找到匹配的议题，试试调整过滤条件</div>';
+                return;
+            }
+
+            // 按时间排序
+            filtered.sort((a,b) => a.dateObj - b.dateObj);
+
+            let html = '';
+            filtered.forEach(session => {
+                const isKeynote = session.track === 'keynote';
+                const isAdded = mySchedule.some(item => item.permalink === session.permalink);
+                
+                html += `
+                    <div class="session-card ${isKeynote ? 'keynote' : ''}" data-permalink="${session.permalink}">
+                        <div class="time">🕒 ${session.timeStr}</div>
+                        <h4><a href="${session.permalink}" target="_blank">${session.title}</a></h4>
+                        <div class="meta">
+                            <span class="badge track">🏷️ ${session.track || 'general'}</span>
+                            ${session.stype ? `<span class="badge type">📢 ${session.stype}</span>` : ''}
+                            ${session.room ? `<span class="badge room">📍 ${session.room}</span>` : ''}
+                            ${session.depth !== 'general' ? `<span class="badge">📊 ${session.depth}</span>` : ''}
+                        </div>
+                        <div class="presenters">👤 ${session.presenters}</div>
+                        ${session.abstract ? `<div class="abstract">${session.abstract.substring(0,150)}${session.abstract.length>150?'...':''}</div>` : ''}
+                        <button class="add-btn ${isAdded ? 'disabled' : ''}" data-action="add" ${isAdded ? 'disabled' : ''}>➕</button>
+                    </div>
+                `;
+            });
+            sessionsContainer.innerHTML = html;
+        }
+
+        // 渲染我的日程
+        function renderMySchedule() {
+            if (mySchedule.length === 0) {
+                myScheduleList.innerHTML = '<p class="empty-message">还没有添加议题，点击左侧“➕”添加</p>';
+                exportBtn.disabled = true;
+                return;
+            }
+            exportBtn.disabled = false;
+            
+            let html = '';
+            mySchedule.forEach((session, index) => {
+                html += `
+                    <div class="my-session-item" data-index="${index}">
+                        <span class="drag-handle">☰</span>
+                        <div class="my-session-info">
+                            <div class="title">${session.title}</div>
+                            <div class="time">${session.timeStr} · ${session.room || session.track}</div>
+                        </div>
+                        <button class="remove-btn" data-action="remove" data-permalink="${session.permalink}">✕</button>
+                    </div>
+                `;
+            });
+            myScheduleList.innerHTML = html;
+            
+            // 初始化拖拽
+            new Sortable(myScheduleList, {
+                handle: '.drag-handle',
+                animation: 150,
+                onEnd: function(evt) {
+                    const movedItem = mySchedule.splice(evt.oldIndex, 1)[0];
+                    mySchedule.splice(evt.newIndex, 0, movedItem);
+                    renderMySchedule(); // 重新渲染保持索引一致
+                }
+            });
+        }
+
+        // 更新所有UI
+        function refreshUI() {
+            renderSessions();
+            renderMySchedule();
+        }
+
+        // 事件处理
+        function handleAdd(permalink) {
+            const session = sessions.find(s => s.permalink === permalink);
+            if (!session) return;
+            if (!mySchedule.some(s => s.permalink === permalink)) {
+                mySchedule.push(session);
+                refreshUI();
+            }
+        }
+
+        function handleRemove(permalink) {
+            mySchedule = mySchedule.filter(s => s.permalink !== permalink);
+            refreshUI();
+        }
+
+        // 导出 ICS
+        function generateICS() {
+            let icsContent = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//ACOC//Schedule//EN\n";
+            mySchedule.forEach(session => {
+                const startDate = new Date(session.date);
+                const endDate = new Date(startDate.getTime() + 45*60000); // 假设45分钟
+                const formatDate = (d) => d.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+                
+                icsContent += "BEGIN:VEVENT\n";
+                icsContent += `UID:${session.permalink}@acoc2026\n`;
+                icsContent += `DTSTAMP:${formatDate(new Date())}\n`;
+                icsContent += `DTSTART:${formatDate(startDate)}\n`;
+                icsContent += `DTEND:${formatDate(endDate)}\n`;
+                icsContent += `SUMMARY:${session.title} (${session.track})\n`;
+                icsContent += `LOCATION:${session.room || 'TBD'}\n`;
+                icsContent += `DESCRIPTION:Speaker: ${session.presenters}\\n${session.abstract || ''}\n`;
+                icsContent += "END:VEVENT\n";
+            });
+            icsContent += "END:VCALENDAR";
+            const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+            saveAs(blob, 'my_acoc_schedule.ics');
+        }
+
+        // 绑定事件 (使用事件委托)
+        function bindEvents() {
+            // 日期标签切换
+            dateTabsDiv.addEventListener('click', (e) => {
+                const tab = e.target.closest('.date-tab');
+                if (!tab) return;
+                currentDate = tab.dataset.date;
+                renderDateTabs();
+                refreshUI();
+            });
+
+            // 过滤器变化
+            trackFilter.addEventListener('change', refreshUI);
+            typeFilter.addEventListener('change', refreshUI);
+            searchInput.addEventListener('input', refreshUI);
+
+            // 添加/移除按钮
+            sessionsContainer.addEventListener('click', (e) => {
+                const btn = e.target.closest('[data-action="add"]');
+                if (!btn) return;
+                const card = btn.closest('.session-card');
+                if (card) handleAdd(card.dataset.permalink);
+            });
+
+            myScheduleList.addEventListener('click', (e) => {
+                const btn = e.target.closest('[data-action="remove"]');
+                if (!btn) return;
+                handleRemove(btn.dataset.permalink);
+            });
+
+            // 导出
+            exportBtn.addEventListener('click', generateICS);
+        }
+
+        // 初始化应用
+        function init() {
+            if (sessions.length === 0) {
+                loading.innerHTML = '暂无日程数据';
+                return;
+            }
+            initFilters();
+            renderDateTabs();
+            refreshUI();
+            bindEvents();
+            
+            loading.style.display = 'none';
+            appMain.style.display = 'block';
+        }
+
+        init();
+    })();
 </script>
+
 </body>
 </html>
