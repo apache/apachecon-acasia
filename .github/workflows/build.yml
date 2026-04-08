@@ -19,7 +19,7 @@ name: Build docs
 
 on:
   push:
-    branches: ['exp']
+    branches: ['exp', 'master']
   pull_request:
 
 jobs:
