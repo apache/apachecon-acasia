@@ -1,12 +1,29 @@
 ---
-title: "Supercharge Lakehouse Implementation with Apache Iceberg"
-date: "2026-08-08T16:15:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Bill Zhang"
-stype: "English Session"
+title: Supercharge Lakehouse Implementation with Apache Iceberg
+date: '2026-08-08T16:15:00'
+room: WanChun Hall
+track: datalake
+presenters: Bill Zhang
+stype: English Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache iceberg
+- spark
+- flink
+- doris
+- starrocks
+- impala
+- hive
+- nifi
+- kafka
+- trino
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 The modern data lakehouse architecture combines the best of data lakes and data warehouses, enabling scalable analytics with ACID transactions, schema evolution, and performance optimizations. Apache Iceberg has emerged as a leading open-table format that supercharges lakehouse implementations by providing reliability, scalability, and seamless integration with popular open source compute engines like Spark, Flink, Doris, StarRocks, Impala, Hive, Nifi, Kafka and Trino.
 
 In this session, we will explore how Apache Iceberg enhances lakehouse architectures by ensuring data reliability, optimizing performance, enabling multi-engine compatibility and simplifying maintenance,  In addition, we’ll also discuss real-world use cases, best practices for migrating Hive tables to Iceberg tables, and how to leverage its features to build a high-performance, future-proof lakehouse.

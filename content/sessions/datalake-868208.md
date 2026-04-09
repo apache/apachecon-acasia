@@ -1,12 +1,20 @@
 ---
-title: "Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures"
-date: "2026-08-07T14:00:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Shekhar Prasad Rajak"
-stype: "English Session"
+title: 'Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic
+  Futures'
+date: '2026-08-07T14:00:00'
+room: WanChun Hall
+track: datalake
+presenters: Shekhar Prasad Rajak
+stype: English Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache iceberg
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Most Apache Iceberg talks wax poetic about time travel and ACID compliance—yawn. But what about the features nobody’s shouting about? The ones that turn chaos into control, experiments into wins, and static tables into agentic powerhouses - let your data platform think for itself ? Welcome, here we will learn Iceberg’s hidden toolkit.
 
 Here’s the plan for our 30-minute dive: Start with a 5-minute intro on why Iceberg’s hidden gems outshine the basics. Spend 6 minutes on governance, REST Catalog for dynamic control. Next, 6 minutes on branching—snapshots. Then, 5 minutes on metrics—reporting. Another 6 minutes on agentic Iceberg—REST Catalog plus Model Context Protocol (MCP), a futuristic vision where Iceberg collaborates with AI agents. 

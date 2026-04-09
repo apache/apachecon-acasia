@@ -1,12 +1,22 @@
 ---
-title: "在腾讯云上基于 Iceberg & Amoro & Gravitino 构建云原生 Lakehouse 架构"
-date: "2026-08-08T17:15:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Jinsong Zhou"
-stype: "中文演讲"
+title: 在腾讯云上基于 Iceberg & Amoro & Gravitino 构建云原生 Lakehouse 架构
+date: '2026-08-08T17:15:00'
+room: 万春厅
+track: datalake
+presenters: Jinsong Zhou
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- apache iceberg
+- apache amoro
+- apache gravitino
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 自2020年以来，腾讯一直利用Apache Iceberg构建其Lakehouse数据基础设施。2022年，腾讯云开始在云上向用户提供基于Iceberg的Lakehouse服务。2024年，我们引入了包括Apache Amoro和Apache Gravitino在内的优秀项目，为用户提供更强大、更智能、更全场景的Lakehouse服务。
 
 本次主题演讲将分享腾讯云多年来在Lakehouse架构方面的丰富经验，并重点介绍丰富的用户实践。我们将重点演示如何利用这些Apache项目构建云原生的Lakehouse架构，尤其侧重于流计算和BI场景。

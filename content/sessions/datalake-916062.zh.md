@@ -1,12 +1,24 @@
 ---
-title: "Apache Polaris（孵化中）和 Apache XTable：统一 Iceberg、Hudi 和其他表格式"
-date: "2026-08-08T14:00:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Eric Maynard"
-stype: "英文演讲"
+title: Apache Polaris（孵化中）和 Apache XTable：统一 Iceberg、Hudi 和其他表格式
+date: '2026-08-08T14:00:00'
+room: 万春厅
+track: datalake
+presenters: Eric Maynard
+stype: 英文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache polaris
+- apache iceberg
+- apache hudi
+- apache xtable
+- apache kafka
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Apache Polaris（孵化中）实现了 Apache Iceberg REST 目录规范，并允许用户管理 Iceberg 表、视图和其他相关元数据。基于角色的访问控制控制哪些用户可以访问哪些数据，Polaris 支持将策略附加到表，以便对数据进行分类并配置表维护。
 
 与 Apache XTable 的新集成有望将相同的功能扩展到非 Iceberg 表。Polaris 最近推出了“通用表”——允许用户在 Polaris 中管理他们的 Apache Hudi 表以及由 Apache Kafka 或其他系统支持的表。借助 XTable，客户现在可以连接到 Polaris 并读取最初用 Iceberg 编写的数据，就像它是用 Hudi 编写的一样，而无需考虑表格式。

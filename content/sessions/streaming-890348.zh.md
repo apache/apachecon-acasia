@@ -1,12 +1,24 @@
 ---
-title: "Apache Flink 在中国电信日志场景中的应用"
-date: "2026-08-07T15:45:00"
-room: "圆明厅"
-track: "streaming"
-presenters: "左岩"
-stype: "中文演讲"
+title: Apache Flink 在中国电信日志场景中的应用
+date: '2026-08-07T15:45:00'
+room: 圆明厅
+track: streaming
+presenters: 左岩
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache flink
+- apache doris
+- flink cdc
+- starrocks
+- fluss
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 电信日志场景已从后端服务替换为 Flink 任务，包括日志接入、日志解析和日志告警。凭借 50+ 个集群和 2000+ 个 Flink 任务，时效性提升了 200%
 
 ### 讲师:

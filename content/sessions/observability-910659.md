@@ -1,12 +1,18 @@
 ---
-title: "Optimizing Observability: Unveiling BanyanDB's Hot-Warm-Cold Architecture"
-date: "2026-08-09T16:15:00"
-room: "Mtn Yang Hall"
-track: "observability"
-presenters: "Hongtao Gao"
-stype: "Chinese Session"
+title: 'Optimizing Observability: Unveiling BanyanDB''s Hot-Warm-Cold Architecture'
+date: '2026-08-09T16:15:00'
+room: Mtn Yang Hall
+track: observability
+presenters: Hongtao Gao
+stype: Chinese Session
+depth: intermediate
+practice_level: 3
+projects: []
+audience:
+- 架构师
+- SRE/运维
+related_sessions: []
 ---
-
 In this talk, I'll focus on BanyanDB's innovative hot-warm-cold architecture, a design that marks a major leap forward in the field of modern system observability. We will explain why a tiered architecture is the right choice for managing massive amounts of metrics, tracking, and logging data, and how BanyanDB skillfully puts this concept into practice while balancing superior performance, cost-effectiveness, and data storage efficiency.
 
 This session will reveal the core benefits of the BanyanDB architecture: it not only provides instant insights to accelerate decision-making, but also significantly reduces operational costs while ensuring scalability of data storage. Together, these attributes make BanyanDB a cornerstone in the field of efficient observability.

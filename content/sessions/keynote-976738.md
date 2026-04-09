@@ -1,12 +1,18 @@
 ---
-title: "AI Reinvents Development: From Tool Revolution to Developer Evolution"
-date: "2026-08-07T11:30:00"
-track: "keynote"
-presenters: "Echo Tang, William Zhu, 王 涛, Pan Yang, Yang Su"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: 'AI Reinvents Development: From Tool Revolution to Developer Evolution'
+date: '2026-08-07T11:30:00'
+track: keynote
+presenters: Echo Tang, William Zhu, 王 涛, Pan Yang, Yang Su
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 3
+projects: []
+audience:
+- 开发者
+- 架构师
+related_sessions: []
 ---
-
 AI is reshaping software development at an unprecedented pace. As AI becomes developers' "super collaborator," does the leap in development efficiency come with a restructuring of capability requirements? How will the intelligentization of toolchains break down technical barriers and spawn new career tracks? Facing the new balance of human-machine collaboration, how should developers break through and evolve?
 
 This panel brings together tech experts from AutoCoder, Linkerbot，SiliconFlow, and ByteDance. With deep expertise in AI-assisted development tools, intelligent programming frameworks, and engineering practices, they will multi-dimensionally analyze how AI is reconstructing the entire process from code generation and debugging optimization to system architecture, while exploring the opportunities and challenges for developers behind this transformation. Tang Xiaoyin, Executive Editor-in-Chief of CSDN & *New Programmer*, will host this panel, connecting insights with her seasoned industry perspective and guiding guests to focus on core issues.

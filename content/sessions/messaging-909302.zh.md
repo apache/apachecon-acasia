@@ -1,12 +1,20 @@
 ---
-title: "基于 Commitlog 和 RocksDB 的 RocketMQ 存储引擎"
-date: "2026-08-08T15:45:00"
-room: "静宜厅"
-track: "messaging"
-presenters: "Zhou Li"
-stype: "中文演讲"
+title: 基于 Commitlog 和 RocksDB 的 RocketMQ 存储引擎
+date: '2026-08-08T15:45:00'
+room: 静宜厅
+track: messaging
+presenters: Zhou Li
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- rocketmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 基于 Commitlog 和 RocksDB 的 RocketMQ 存储引擎
 延迟消息、事务消息、POP 和索引是 RocketMQ 的核心功能。这些功能涉及内存中的多种状态转换，并且基于文件系统实现。现有实现面临以下问题：
 

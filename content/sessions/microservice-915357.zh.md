@@ -1,12 +1,19 @@
 ---
-title: "AI时代分布式事务：Seata Saga模式的实践与展望"
-date: "2026-08-09T16:45:00"
-room: "静明厅"
-track: "microservice"
-presenters: "Feng Zhang"
-stype: "中文演讲"
+title: AI时代分布式事务：Seata Saga模式的实践与展望
+date: '2026-08-09T16:45:00'
+room: 静明厅
+track: microservice
+presenters: Feng Zhang
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache seata
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 本讲座将首先介绍Seata和分布式事务，然后详细讨论Saga模式的实现和使用。最后，将探讨如何将Saga模式与AI集成，例如如何与AI代理和工作流连接。
 
 ### 讲师:

@@ -1,12 +1,22 @@
 ---
-title: "Empowering the next wave of developer innovation with GenAI in the open source ecosystem"
-date: "2026-08-07T11:00:00"
-track: "keynote"
-presenters: "Zheng Yubin"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: Empowering the next wave of developer innovation with GenAI in the open source
+  ecosystem
+date: '2026-08-07T11:00:00'
+track: keynote
+presenters: Zheng Yubin
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 4
+projects:
+- spark
+- kafka
+- airflow
+audience:
+- 开发者
+- 架构师
+related_sessions: []
 ---
-
 In the rapidly evolving landscape where open-source, cloud computing, and generative AI converge, Amazon Web Services (AWS) and the Apache Software Foundation have established a strategic partnership that is redefining developer experiences. This keynote will explore how AWS harnesses the transformative power of generative AI to empower Apache open-source project developers through intelligent cloud-native services and AI-enhanced development platforms.
 
 We will showcase how generative AI is revolutionizing developer workflows for core Apache projects such as Spark, Kafka, and Airflow on the AWS. From Amazon Q developer's AI-driven code generation specialized for Apache frameworks to Multi-Agent Cloud Deployment Kits opened source, we'll demonstrate how developers can achieve unprecedented productivity gains. The presentation will highlight how AWS managed services combined with generative AI capabilities free developers from routine tasks, enabling them to focus on creative problem-solving and innovation.

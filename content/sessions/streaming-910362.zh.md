@@ -1,12 +1,20 @@
 ---
-title: "腾讯实时计算的智能演进：全托管资源管理"
-date: "2026-08-08T15:00:00"
-room: "圆明厅"
-track: "streaming"
-presenters: "Zihao Chen, Jiangang Liu"
-stype: "中文演讲"
+title: 腾讯实时计算的智能演进：全托管资源管理
+date: '2026-08-08T15:00:00'
+room: 圆明厅
+track: streaming
+presenters: Zihao Chen, Jiangang Liu
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- flink
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 1. 背景与行业痛点  
   a. Flink 作为一种长期运行的有状态计算，广泛应用于实时数据仓库、实时分析和在线训练等场景。
   b. 实时资源配置与运维是普遍挑战：过度配置导致资源浪费，而配置不足则引发延迟和故障转移。此外，资源需求随时间变化显著。

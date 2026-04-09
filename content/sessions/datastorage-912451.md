@@ -1,12 +1,20 @@
 ---
-title: "Cross-Version Upgrade to HBase 2.3 and Stability Governance at Xiaomi"
-date: "2026-08-08T16:45:00"
-room: "Mtn WanShou Hall"
-track: "datastorage"
-presenters: "Zhiwen Deng"
-stype: "Chinese Session"
+title: Cross-Version Upgrade to HBase 2.3 and Stability Governance at Xiaomi
+date: '2026-08-08T16:45:00'
+room: Mtn WanShou Hall
+track: datastorage
+presenters: Zhiwen Deng
+stype: Chinese Session
+depth: advanced
+practice_level: 5
+projects:
+- hbase
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Abstract:
 At Xiaomi, HBase serves as a distributed wide-table service for both offline and online scenarios. However, 40% of nodes still operate on version 0.98 internally, resulting in high maintenance costs due to dual-version support. Unifying the version to 2.3 is critical to improving development efficiency. Additionally, version 2.3 itself faces stability challenges, such as GC issues and cluster-wide downtime recovery failures. This presentation shares Xiaomi’s practical experience in addressing these challenges.
 

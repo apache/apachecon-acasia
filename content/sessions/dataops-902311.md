@@ -1,12 +1,19 @@
 ---
-title: "Apache Hop: Integrating LLMs, Graph Databases & Spreadsheets"
-date: "2026-08-09T14:30:00"
-room: "Mtn WanShou Hall"
-track: "dataops"
-presenters: "Koji Annoura"
-stype: "English Session"
+title: 'Apache Hop: Integrating LLMs, Graph Databases & Spreadsheets'
+date: '2026-08-09T14:30:00'
+room: Mtn WanShou Hall
+track: dataops
+presenters: Koji Annoura
+stype: English Session
+depth: beginner
+practice_level: 4
+projects:
+- apache hop
+audience:
+- 开发者
+- 通用
+related_sessions: []
 ---
-
 In this session, I will explore how to seamlessly integrate large language models (LLMs), graph databases, and spreadsheets using Apache Hop.
 
 Designed with beginners in mind—especially those who currently create or update their data manually—I will cover the essentials of building automated workflows that drastically reduce repetitive tasks.

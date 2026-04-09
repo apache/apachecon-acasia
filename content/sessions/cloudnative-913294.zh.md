@@ -1,12 +1,21 @@
 ---
-title: "Apache IoTDB 系统监控框架的实施与调优实践"
-date: "2026-08-07T16:45:00"
-room: "阳山会议室"
-track: "cloudnative"
-presenters: "张洪胤"
-stype: "中文演讲"
+title: Apache IoTDB 系统监控框架的实施与调优实践
+date: '2026-08-07T16:45:00'
+room: 阳山会议室
+track: cloudnative
+presenters: 张洪胤
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache iotdb
+- prometheus
+- grafana
+audience:
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 自 1.0.0 版本起，Apache IoTDB 提供了统一的系统监控框架，允许数据库开发人员定义系统监控指标（如计数器）并将其注册以实现统一管理，同时支持 Prometheus + Grafana 监控指标可视化解决方案。经过一年的实践，已形成 4 个可视化监控面板及大量基于系统监控的调优经验。
 
 ### 讲师:

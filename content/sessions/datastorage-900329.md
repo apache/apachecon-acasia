@@ -1,12 +1,20 @@
 ---
-title: "Apache Ozone: Balance Data Through Disk Balancer"
-date: "2026-08-08T15:45:00"
-room: "Mtn WanShou Hall"
-track: "datastorage"
-presenters: "Sammi Chen"
-stype: "Chinese Session"
+title: 'Apache Ozone: Balance Data Through Disk Balancer'
+date: '2026-08-08T15:45:00'
+room: Mtn WanShou Hall
+track: datastorage
+presenters: Sammi Chen
+stype: Chinese Session
+depth: intermediate
+practice_level: 3
+projects:
+- apache ozone
+- apache hadoop
+audience:
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Apache Ozone is a distributed storage system in the Hadoop ecosystem. As a distributed storage system, it’s important to make sure that data is evenly distributed across Datanodes and disks, so that storage spaces and resources can be efficiently and fully utilized. To achieve this goal, Ozone supports Container Balancer and Disk Balancer, one to address the requirement of data evenly distributed across Datanodes, the other to address the requirement of data evenly distributed across all disks in each Datanode. In this session, we will share how the Disk Balancer feature is designed, and how to use the Disk Balancer feature to ensure an even disk utilization for Datanode.
 
 ### Speakers:

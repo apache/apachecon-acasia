@@ -1,12 +1,22 @@
 ---
-title: "基于Arm64架构，使用Gluten和Velox引擎加速Spark查询"
-date: "2026-08-07T16:45:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Yuqi Gu"
-stype: "中文演讲"
+title: 基于Arm64架构，使用Gluten和Velox引擎加速Spark查询
+date: '2026-08-07T16:45:00'
+room: 万春厅
+track: datalake
+presenters: Yuqi Gu
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- apache spark
+- apache arrow
+- apache bigtop
+- apache ambari
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Apache Spark SQL 提供了一个强大的解决方案，使用户能够高效地处理海量数据集。最近，Project Gluten 作为基于 Apache Arrow 的原生 SQL 引擎被引入，旨在增强 Spark SQL 的功能。与此同时，几个拥有活跃开源社区的向量化 SQL 引擎也受到了广泛关注。其中，由 Meta 领导的 Velox 项目脱颖而出，成为了一个有前途的向量化数据库加速库。
 
 Gluten-Velox 的集成代表了向前迈出的重要一步，为 Arm 平台量身定制了一个优化的 Spark SQL 加速器。通过利用 Gluten-Velox，Spark SQL 克服了其传统基于行的数据处理和在 Arm64 架构上的 JVM 限制。这是通过 Arm64 SIMD 能力的垂直组合性和先进的向量化执行技术实现的。

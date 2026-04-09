@@ -1,12 +1,21 @@
 ---
-title: "SeaTunnel 架构分析与 Cloudberry 集成实践"
-date: "2026-08-09T14:00:00"
-room: "万寿山会议室"
-track: "dataops"
-presenters: "陈虹宇"
-stype: "中文演讲"
+title: SeaTunnel 架构分析与 Cloudberry 集成实践
+date: '2026-08-09T14:00:00'
+room: 万寿山会议室
+track: dataops
+presenters: 陈虹宇
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- seatunnel
+- spark
+- flink
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 在本场会议中，我们将深入探讨 Apache SeaTunnel，这一专为实现跨异构数据源大规模数据集无缝同步而设计的高性能分布式数据集成平台。与会者将深入了解 SeaTunnel 的核心架构，包括其模块化插件系统、基于 Spark 和 Flink 的统一抽象层，以及从 V1 到 V2 的演进历程，其中包含增强的可扩展性和引擎无关设计。我们将深入探讨高级功能，如动态分片策略、数据采样技术，以及针对基于字符串的分区进行优化处理，以实现高效的数据分布。
 
 本次会议还将展示与 Cloudberry 的实际集成案例，演示 SeaTunnel 的 JDBC 基于连接器如何简化双向数据工作流，同时强调性能考量。最后，我们将讨论未来优化计划，包括通过gpfdist协议利用Cloudberry的并行处理能力进行大规模数据迁移的方案。本次演讲适合希望优化数据集成工作流、打破数据孤岛并充分释放现代数据生态系统潜力的数据工程师和架构师。

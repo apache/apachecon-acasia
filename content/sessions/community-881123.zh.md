@@ -1,12 +1,19 @@
 ---
-title: "构建开发者友好的开源数据库社区实践"
-date: "2026-08-08T15:45:00"
-room: "玉泉山会议室"
-track: "community"
-presenters: "Shaoting Duan"
-stype: "中文演讲"
+title: 构建开发者友好的开源数据库社区实践
+date: '2026-08-08T15:45:00'
+room: 玉泉山会议室
+track: community
+presenters: Shaoting Duan
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects: []
+audience:
+- 开发者
+- 架构师
+- 产品/经理
+related_sessions: []
 ---
-
 OceanBase 数据库是由蚂蚁集团自主研发的分布式关系型数据库。它已经连续11年支撑了双11购物节。最初，它是作为淘宝收藏夹使用的电商数据库，后来逐渐发展成为蚂蚁集团所有核心系统的数据库。随后，它又成长为众多企业，尤其是金融行业核心系统的数据库。
 
 数据库负责数据的存储和管理，是应用系统的核心保障。每年，阿里巴巴和蚂蚁集团在双11期间都会带来巨大的流量，这使得所有系统都变得复杂。数据库也承载着稳定性和数据准确性的要求，这使得分布式数据库的稳定性和数据准确性成为了一个世界级难题。

@@ -1,12 +1,18 @@
 ---
-title: "Growth and Commercialization in Overseas Expansion of Tech Products"
-date: "2026-08-09T10:15:00"
-track: "keynote"
-presenters: "Nadia Jiang"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: Growth and Commercialization in Overseas Expansion of Tech Products
+date: '2026-08-09T10:15:00'
+track: keynote
+presenters: Nadia Jiang
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 4
+projects: []
+audience:
+- 产品/经理
+- 开发者
+related_sessions: []
 ---
-
 With the surging global market demand for intelligent and digital products, for open-source, Infra, and numerous application developers, the phase of asking "Why" regarding overseas expansion has passed. Instead, they are now more focused on specific methodologies centered around "How".
 This panel has invited practical experts with rich experience in overseas expansion of AI applications, founders of chuhaiqu.club, and community leader who has been in charge of the open source and developer ecosystems of multiple products. They will conduct an in-depth analysis of diversified growth paths in overseas markets, with a focus on effective customer acquisition methods, including: how to leverage influencer marketing to drive local community influence, accurately reach target users through social media and stimulate communication momentum, and how the product-led growth (PLG) model can reduce customer acquisition costs and improve conversion efficiency.Attention will also be paid to the opportunities for overseas expansion of open-source projects – expanding global influence through community strength and building collaborative ecosystems to facilitate user growth. 
 Additionally, the empowerment of new technologies such as generative AI on growth strategies will be discussed. Through diverse perspectives, this panel aims to provide actionable overseas growth ideas for enterprises, developers, and entrepreneurs, helping them achieve commercial breakthroughs.

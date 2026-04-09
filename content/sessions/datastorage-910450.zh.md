@@ -1,12 +1,20 @@
 ---
-title: "Shopee 的 Apache Ozone 最佳实践"
-date: "2026-08-08T15:00:00"
-room: "万寿山会议室"
-track: "datastorage"
-presenters: "Hui Fei"
-stype: "中文演讲"
+title: Shopee 的 Apache Ozone 最佳实践
+date: '2026-08-08T15:00:00'
+room: 万寿山会议室
+track: datastorage
+presenters: Hui Fei
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache ozone
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 在 Shopee，我们已经使用 Ozone 超过四年时间，存储的对象数量已达到数十亿级别。在本次会议中，我将介绍我们开发的两个功能：对象生命周期管理和存储类别。
 
 ### 讲师:

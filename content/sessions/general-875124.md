@@ -1,12 +1,18 @@
 ---
-title: "Future Proof Data Platform in the AI and Cloud native era"
-date: "2026-08-08T16:45:00"
-room: "Mtn BaiWang Hall"
-track: "general"
-presenters: "Tom Tan"
-stype: "Chinese Session"
+title: Future Proof Data Platform in the AI and Cloud native era
+date: '2026-08-08T16:45:00'
+room: Mtn BaiWang Hall
+track: general
+presenters: Tom Tan
+stype: Chinese Session
+depth: advanced
+practice_level: 3
+projects: []
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Organizations with a lot of data, such as internet/AI/Robotics companies, have built/run/used data platform over time to meet progressive needs.  With cloud native evolution and AI explosion, a paradigm shift is underway.  For example, New disaggregated architecture start taking share from distributed share nothing architect that had worked well in the internet era.  And AI with its unstructured data needs, introduced new requirements, such GPU in computing vector indexes.  In this talk, Tom will highlight the major new tech trends that will impact data infrastructure and how organizations shall prepare themselves for the coming wave.
 
 ### Speakers:

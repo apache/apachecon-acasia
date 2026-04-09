@@ -1,12 +1,25 @@
 ---
-title: "From Hadoop to Kubernetes: The Cloud-Native Evolution of Li Auto's Big Data Platform"
-date: "2026-08-07T15:00:00"
-room: "Mtn Yang Hall"
-track: "cloudnative"
-presenters: "Han Qian"
-stype: "Chinese Session"
+title: 'From Hadoop to Kubernetes: The Cloud-Native Evolution of Li Auto''s Big Data
+  Platform'
+date: '2026-08-07T15:00:00'
+room: Mtn Yang Hall
+track: cloudnative
+presenters: Han Qian
+stype: Chinese Session
+depth: advanced
+practice_level: 5
+projects:
+- hadoop
+- juicefs
+- kubernetes
+- spark
+- flink
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Abstract:
 In the construction of our big data platform, we transitioned from traditional deployments using the Apache Hadoop ecosystem to achieving storage-compute separation with JuiceFS, and finally migrated to a Kubernetes-centric scheduling system. This technological evolution spans three aspects: storage, computing, and cluster architecture, aiming to enhance data processing efficiency.
 

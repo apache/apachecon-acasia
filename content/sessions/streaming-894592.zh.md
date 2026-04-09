@@ -1,12 +1,19 @@
 ---
-title: "Apache Flink 2.1：持续演进，迈向数据 + AI 一体化"
-date: "2026-08-07T15:00:00"
-room: "圆明厅"
-track: "streaming"
-presenters: "Ron Liu"
-stype: "中文演讲"
+title: Apache Flink 2.1：持续演进，迈向数据 + AI 一体化
+date: '2026-08-07T15:00:00'
+room: 圆明厅
+track: streaming
+presenters: Ron Liu
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- apache flink
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 摘要：
 经过十年的演进，Apache Flink 已巩固其作为流处理领域事实上的标准地位，为实时数据处理提供亚秒级延迟。然而，云原生架构、数据湖和人工智能等新兴趋势带来了新的挑战和要求。为此，Flink 持续创新和架构升级，以提供更易于使用、更经济高效、更可扩展的实时解决方案，进一步增强数据与 AI 的融合。本场讲座将详细介绍 Flink 在 AI 时代的核心功能和架构演进，包括全新的状态存储与计算分离架构、持续提升的流批统一处理能力、深入分析流批统一物化表、与 Lakehouse 深度集成构建实时数据湖，以及在 AI 领域针对实时 AI 应用的探索和实践。
 

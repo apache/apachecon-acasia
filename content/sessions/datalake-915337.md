@@ -1,12 +1,21 @@
 ---
-title: "Apache Hudi in Action: Accelerating Kuaishou's Data Warehouse Architecture Upgrade"
-date: "2026-08-07T15:00:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Chaoyang Liu"
-stype: "Chinese Session"
+title: 'Apache Hudi in Action: Accelerating Kuaishou''s Data Warehouse Architecture
+  Upgrade'
+date: '2026-08-07T15:00:00'
+room: WanChun Hall
+track: datalake
+presenters: Chaoyang Liu
+stype: Chinese Session
+depth: advanced
+practice_level: 5
+projects:
+- apache hudi
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Topic Introduction:
 Apache Hudi is a powerful table format that provides extensive capabilities for both offline and real-time scenarios. During the process of advancing its data warehouse architecture upgrade, Kuaishou has leveraged Hudi's data lake capabilities to enhance timeliness, reduce costs, and improve development efficiency in scenarios such as real-time data ingestion into the lake, partial updates, and large wide table.
 

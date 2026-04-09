@@ -1,12 +1,23 @@
 ---
-title: "Exploration and practice of Apache Pulsar in online scenarios of Xiaohongshu Company"
-date: "2026-08-07T16:45:00"
-room: "JingYi Hall"
-track: "messaging"
-presenters: "Steven Lu, Linlin Duan, Xiangying Meng"
-stype: "Chinese Session"
+title: Exploration and practice of Apache Pulsar in online scenarios of Xiaohongshu
+  Company
+date: '2026-08-07T16:45:00'
+room: JingYi Hall
+track: messaging
+presenters: Steven Lu, Linlin Duan, Xiangying Meng
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache pulsar
+- apache bookkeeper
+- rocketmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 This sharing will compare the features of Pulsar and Rocketmq, as well as how Pulsar is implemented in the online scenario of Xiaohongshu (including feature delay, multi-active, compression, etc.), and what actual benefits the enterprise gets.
 
 ### Speakers:

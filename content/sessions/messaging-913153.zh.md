@@ -1,12 +1,22 @@
 ---
-title: "Apache Pulsar 在小红书公司线上场景的探索与实践"
-date: "2026-08-07T16:45:00"
-room: "静宜厅"
-track: "messaging"
-presenters: "Steven Lu, Linlin Duan, Xiangying Meng"
-stype: "中文演讲"
+title: Apache Pulsar 在小红书公司线上场景的探索与实践
+date: '2026-08-07T16:45:00'
+room: 静宜厅
+track: messaging
+presenters: Steven Lu, Linlin Duan, Xiangying Meng
+stype: 中文演讲
+depth: intermediate
+practice_level: 5
+projects:
+- apache pulsar
+- apache bookkeeper
+- rocketmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 本次分享将比较 Pulsar 与 RocketMQ 的特性，以及 Pulsar 在小红书线上场景中的实现方式（包括特性延迟、多活、压缩等），以及企业获得的实际收益。
 
 ### 讲师:

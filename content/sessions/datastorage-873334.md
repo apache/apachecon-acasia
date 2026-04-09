@@ -1,12 +1,20 @@
 ---
-title: "Mastering Large-Scale Shuffle: The Dream11 Playbook with Remote Shuffle Service"
-date: "2026-08-07T14:30:00"
-room: "Mtn WanShou Hall"
-track: "datastorage"
-presenters: "Amit Shinde, Mohit Jain"
-stype: "English Session"
+title: 'Mastering Large-Scale Shuffle: The Dream11 Playbook with Remote Shuffle Service'
+date: '2026-08-07T14:30:00'
+room: Mtn WanShou Hall
+track: datastorage
+presenters: Amit Shinde, Mohit Jain
+stype: English Session
+depth: advanced
+practice_level: 5
+projects:
+- apache celeborn
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 At Dream11, Apache Celeborn is used for petabyte-scale shuffle, leveraging rack awareness to minimize cross-rack data transfer and ensure high availability by replicating shuffle data across different racks. It decouples shuffle storage from compute nodes, enabling elastic scaling of storage independent of compute demands. Parallel partition writes and adaptive shuffle reads optimize throughput and reduce latency. Elastic scaling allows dynamic resource allocation, maintaining cost efficiency under varying workloads. This design enhances fault tolerance and reduces job completion time by over 50%.
 
 ### Speakers:

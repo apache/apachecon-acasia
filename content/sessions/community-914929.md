@@ -1,12 +1,18 @@
 ---
-title: "Why is it So Hard?"
-date: "2026-08-08T14:00:00"
-room: "Mtn YuQuan Hall"
-track: "community"
-presenters: "Craig Russell"
-stype: "English Session"
+title: Why is it So Hard?
+date: '2026-08-08T14:00:00'
+room: Mtn YuQuan Hall
+track: community
+presenters: Craig Russell
+stype: English Session
+depth: beginner
+practice_level: 2
+projects: []
+audience:
+- 开发者
+- 通用
+related_sessions: []
 ---
-
 Why is it So Hard...
 
 to submit patches to a project/podling?

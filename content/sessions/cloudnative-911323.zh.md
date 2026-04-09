@@ -1,12 +1,21 @@
 ---
-title: "高性能、低成本、开源可观测性，由Apache Doris驱动"
-date: "2026-08-07T16:15:00"
-room: "阳山会议室"
-track: "cloudnative"
-presenters: "Kang Xiao"
-stype: "中文演讲"
+title: 高性能、低成本、开源可观测性，由Apache Doris驱动
+date: '2026-08-07T16:15:00'
+room: 阳山会议室
+track: cloudnative
+presenters: Kang Xiao
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache doris
+- opentelemetry
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 用户可以构建高性能、低成本、开源可观测性，由Apache Doris驱动。与Elasticsearch相比，其成本效率提升5倍，并兼容OpenTelemetry等开源标准。
 
 1. 可观测性挑战

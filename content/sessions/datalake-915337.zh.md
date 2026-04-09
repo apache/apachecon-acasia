@@ -1,12 +1,20 @@
 ---
-title: "Apache Hudi 实战：加速快手数据仓库架构升级"
-date: "2026-08-07T15:00:00"
-room: "万春厅"
-track: "datalake"
-presenters: "刘朝阳"
-stype: "中文演讲"
+title: Apache Hudi 实战：加速快手数据仓库架构升级
+date: '2026-08-07T15:00:00'
+room: 万春厅
+track: datalake
+presenters: 刘朝阳
+stype: 中文演讲
+depth: advanced
+practice_level: 5
+projects:
+- apache hudi
+- apache rocketmq
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 主题介绍：
 Apache Hudi 是一种强大的表格式，提供丰富的能力，涵盖离线和实时场景。在快手推进数据仓库架构升级的过程中，Hudi 的数据湖能力在实时数据入湖、部分更新、大宽表等场景下，提升了时效性、降低了成本、提升了开发效率。
 

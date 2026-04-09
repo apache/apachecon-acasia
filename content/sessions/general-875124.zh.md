@@ -1,12 +1,20 @@
 ---
-title: "AI 与云原生时代下的未来就绪数据平台"
-date: "2026-08-08T16:45:00"
-room: "百望山会议室"
-track: "general"
-presenters: "Tom Tan"
-stype: "中文演讲"
+title: AI 与云原生时代下的未来就绪数据平台
+date: '2026-08-08T16:45:00'
+room: 百望山会议室
+track: general
+presenters: Tom Tan
+stype: 中文演讲
+depth: advanced
+practice_level: 3
+projects:
+- apache gravitino
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 在 AI 与云原生时代，互联网、人工智能及机器人等数据密集型企业长期构建并运行数据平台以满足日益增长的需求。随着云原生技术的演进和 AI 技术的爆发性发展，数据平台架构正经历范式转变。例如，新型解耦架构正逐步取代互联网时代盛行的无共享分布式架构；而 AI 技术对非结构化数据的处理需求，也催生了诸如 GPU 加速向量索引等新型计算要求。本次演讲中，Tom 将重点解析影响数据基础设施的关键技术趋势，并探讨企业应如何未雨绸缪，迎接这场技术变革浪潮。
 
 ### 讲师:

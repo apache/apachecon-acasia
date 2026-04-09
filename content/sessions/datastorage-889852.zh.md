@@ -1,12 +1,21 @@
 ---
-title: "Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI"
-date: "2026-08-07T16:45:00"
-room: "万寿山会议室"
-track: "datastorage"
-presenters: "Hubert Zhang, Lintao Zhang"
-stype: "英文演讲"
+title: 'Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI'
+date: '2026-08-07T16:45:00'
+room: 万寿山会议室
+track: datastorage
+presenters: Hubert Zhang, Lintao Zhang
+stype: 英文演讲
+depth: advanced
+practice_level: 3
+projects:
+- apache cassandra
+- langchain
+- llamaindex
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 我们正迅速进入 **智能体应用时代**，在这个时代，AI 驱动的智能体不仅能够辅助人类，还能自主做出决策并管理任务。然而，支撑这些应用的数据基础设施在可扩展性、一致性和性能方面面临着重大挑战。
 
 随着 Apache Cassandra 5.0 引入 **向量搜索** 功能，它已成为关键的 AI 数据库。然而，**智能体应用需要的不仅仅是向量能力**。在本次会议中，我们将首先探讨 Cassandra 5.0 的向量搜索特性，分析现有解决方案的关键局限性，并介绍 **基于 Apache Cassandra 的 Eloq ConvergedDB**，这是一种旨在克服这些挑战的创新方法。

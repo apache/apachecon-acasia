@@ -1,12 +1,19 @@
 ---
-title: "Building a Unified Lakehouse Solution with Apache Cloudberry"
-date: "2026-08-08T15:45:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Rose Duan"
-stype: "Chinese Session"
+title: Building a Unified Lakehouse Solution with Apache Cloudberry
+date: '2026-08-08T15:45:00'
+room: WanChun Hall
+track: datalake
+presenters: Rose Duan
+stype: Chinese Session
+depth: intermediate
+practice_level: 3
+projects:
+- apache cloudberry
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Data warehouses excel at fast analytics, while data lakes focus on scalable storage and flexible data management.
 The lakehouse architecture aims to combine the best of both—seamlessly integrating data across lakes and warehouses for efficient analysis and unified governance.
 

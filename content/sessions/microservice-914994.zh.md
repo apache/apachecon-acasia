@@ -1,12 +1,19 @@
 ---
-title: "微服务与 OpenAPI 的结合会带来哪些改变？"
-date: "2026-08-09T17:15:00"
-room: "静明厅"
-track: "microservice"
-presenters: "He Liang"
-stype: "中文演讲"
+title: 微服务与 OpenAPI 的结合会带来哪些改变？
+date: '2026-08-09T17:15:00'
+room: 静明厅
+track: microservice
+presenters: He Liang
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- dubbo
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 随着微服务架构的演进，对标准化、可观察和可集成的服务接口的需求正在快速增长。RESTful API 长期以来受益于 OpenAPI 规范，而像 Apache Dubbo 这样的 RPC 框架却一直缺乏原生的标准化模式表示——直到现在。
 
 在本次会议中，我们将深入探讨全新的 Dubbo OpenAPI 功能集。您将了解 Dubbo 如何支持 OpenAPI 3.0，从而实现自动化 API 文档编写、增强的开发者体验，并与网关、测试平台和低代码系统无缝集成。我们将深入探讨 Dubbo 的架构、实际用例，以及此功能如何弥合 Dubbo 与云原生生态系统之间的差距。

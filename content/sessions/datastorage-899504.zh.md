@@ -1,12 +1,20 @@
 ---
-title: "Apache Cassandra: 过去、现在与未来"
-date: "2026-08-08T14:30:00"
-room: "万寿山会议室"
-track: "datastorage"
-presenters: "Guo Chao"
-stype: "英文演讲"
+title: 'Apache Cassandra: 过去、现在与未来'
+date: '2026-08-08T14:30:00'
+room: 万寿山会议室
+track: datastorage
+presenters: Guo Chao
+stype: 英文演讲
+depth: beginner
+practice_level: 2
+projects:
+- apache cassandra
+audience:
+- 开发者
+- SRE/运维
+- 架构师
+related_sessions: []
 ---
-
 本次演讲将介绍 Cassandra 的过去和当前功能，并分享 Cassandra 社区计划在下一个版本中实现的内容，以及社区目前正在进行的工作。
 
 ### 讲师:

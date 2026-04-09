@@ -1,12 +1,22 @@
 ---
-title: "货拉拉生产环境中的Apache Amoro与Iceberg实践"
-date: "2026-08-07T14:30:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Zheng Yu Chen"
-stype: "中文演讲"
+title: 货拉拉生产环境中的Apache Amoro与Iceberg实践
+date: '2026-08-07T14:30:00'
+room: 万春厅
+track: datalake
+presenters: Zheng Yu Chen
+stype: 中文演讲
+depth: advanced
+practice_level: 5
+projects:
+- apache amoro
+- apache iceberg
+- apache flink
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 在货拉拉，我们利用Apache Amoro构建了以Apache Iceberg为核心的新一代湖仓平台。在管理PB级日处理数据量的过程中，我们解决了关键的稳定性挑战，包括：
 
 生产环境稳定性挑战：

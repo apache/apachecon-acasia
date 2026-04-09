@@ -1,12 +1,19 @@
 ---
-title: "衡量开源社区项目健康的挑战与实践"
-date: "2026-08-07T15:45:00"
-room: "玉泉山会议室"
-track: "community"
-presenters: "Xiaoya Xia, Divya Mohan"
-stype: "英文演讲"
+title: 衡量开源社区项目健康的挑战与实践
+date: '2026-08-07T15:45:00'
+room: 玉泉山会议室
+track: community
+presenters: Xiaoya Xia, Divya Mohan
+stype: 英文演讲
+depth: intermediate
+practice_level: 4
+projects: []
+audience:
+- 开发者
+- 产品/经理
+- 通用
+related_sessions: []
 ---
-
 开源世界是一个项目和社区相互关联的生态系统。通过衡量来了解项目的健康状况，并寻求合适的方法来实现繁荣和可持续的开源软件社区，这是维护者和社区开发者都非常关心的话题。开源项目的健康状况不仅限于软件工程质量和迭代管理的传统指标，还包括社区状态和开放协作中的价值观等因素。
 
 开发者生态系统和社区氛围在这些评估中起着重要作用，这给有效衡量社区健康带来了实质性挑战——无论是通过数据收集、身份验证还是评估指标的构建。

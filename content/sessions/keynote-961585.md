@@ -1,12 +1,21 @@
 ---
-title: "The Seven Year Itch: My Apache Story"
-date: "2026-08-09T09:45:00"
-track: "keynote"
-presenters: "Zili Chen"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: 'The Seven Year Itch: My Apache Story'
+date: '2026-08-09T09:45:00'
+track: keynote
+presenters: Zili Chen
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 2
+projects:
+- apache flink
+- apache zookeeper
+- apache pulsar
+audience:
+- 开发者
+- 架构师
+related_sessions: []
 ---
-
 This is my seventh year at The Apache Software Foundation. Starting as a contributor, I earned my first commit bit while working on the Apache Flink project. The more I contribute to ASF projects, the more credits I earn in their community.
 
 Now I'm a board member of the ASF and an active incubator mentor who has mentored more than seven podling projects. Welcome to join this session to learn how I grow in the broader ASF community, and what I'm looking for on collborators in the ASF for the following years.

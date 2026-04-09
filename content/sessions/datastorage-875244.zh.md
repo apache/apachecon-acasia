@@ -1,12 +1,22 @@
 ---
-title: "Gluten: 使用本地引擎加速 spark 和 flink"
-date: "2026-08-07T15:45:00"
-track: "datastorage"
-presenters: "Shuai Xu"
-stype: "中文演讲"
-room: "万寿山会议室"
+title: 'Gluten: 使用本地引擎加速 spark 和 flink'
+date: '2026-08-07T15:45:00'
+track: datastorage
+presenters: Shuai Xu
+stype: 中文演讲
+room: 万寿山会议室
+depth: intermediate
+practice_level: 4
+projects:
+- apache gluten
+- apache spark
+- apache flink
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 介绍 Apache Gluten 项目，它可以使用本地引擎加速 spark 和 flink 作业，以及我们如何使用它来节省 BIGO 中的资源。
 
 ### 讲师:

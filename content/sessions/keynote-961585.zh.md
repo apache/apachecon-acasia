@@ -1,12 +1,21 @@
 ---
-title: "七年之痒：我的 Apache 故事"
-date: "2026-08-09T09:45:00"
-track: "keynote"
-presenters: "陈梓立"
-stype: "中文演讲"
-room: "主会场 - 颐和厅"
+title: 七年之痒：我的 Apache 故事
+date: '2026-08-09T09:45:00'
+track: keynote
+presenters: 陈梓立
+stype: 中文演讲
+room: 主会场 - 颐和厅
+depth: intermediate
+practice_level: 2
+projects:
+- apache flink
+- apache zookeeper
+- apache pulsar
+audience:
+- 开发者
+- 架构师
+related_sessions: []
 ---
-
 今年是我在阿帕奇软件基金会工作的第七个年头。作为一名贡献者，我在参与 Apache Flink 项目时获得了我的第一个提交位。我为 ASF 项目做出的贡献越多，我在他们的社区中获得的学分也就越多。
 
 现在，我是 ASF 的董事会成员，也是一名活跃的孵化器导师，指导过七个以上的 podling 项目。欢迎参加本次会议，了解我是如何在更广泛的 ASF 社区中成长的，以及在接下来的几年中，我对 ASF 中的协作者有哪些要求。

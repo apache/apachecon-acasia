@@ -1,12 +1,19 @@
 ---
-title: "The Convergence of Chinese Traditional Culture and Open Source"
-date: "2026-08-09T09:30:00"
-track: "keynote"
-presenters: "Qigang Zhu"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: The Convergence of Chinese Traditional Culture and Open Source
+date: '2026-08-09T09:30:00'
+track: keynote
+presenters: Qigang Zhu
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 2
+projects: []
+audience:
+- 架构师
+- 产品/经理
+- 通用
+related_sessions: []
 ---
-
 Throughout China's long history, the spirit of the Shi  has existed as an intangible essence—independent individuals uplifting and safeguarding societal development through public-minded ethos. With the advent of the modern digital economy, the fluidity of digital production factors dissolves physical constraints, the networked nature of collaboration transcends traditional organizational boundaries, and exponential productivity growth transforms value creation dynamics. This threefold transformation is reshaping humanity's cognitive paradigms and cultural DNA.
 
 China must construct a cultural-intellectual framework compatible with the digital economy. Digital economic structures exhibit decentralized, networked characteristics, where the recombination, collision, fission, and innovation of elements demand organizational and institutional adaptability. As 'incubators' and 'containers' of such dynamic consensus, open-source organizations will demonstrate unique and extensive value in this era.

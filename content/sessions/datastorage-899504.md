@@ -1,12 +1,20 @@
 ---
-title: "Apache Cassandra: Past, Present, and Future"
-date: "2026-08-08T14:30:00"
-room: "Mtn WanShou Hall"
-track: "datastorage"
-presenters: "Guo Chao"
-stype: "English Session"
+title: 'Apache Cassandra: Past, Present, and Future'
+date: '2026-08-08T14:30:00'
+room: Mtn WanShou Hall
+track: datastorage
+presenters: Guo Chao
+stype: English Session
+depth: beginner
+practice_level: 2
+projects:
+- apache cassandra
+audience:
+- 开发者
+- SRE/运维
+- 通用
+related_sessions: []
 ---
-
 An introduction to Cassandra's past and present features , as well as sharing what the Cassandra community plans to do in the next release version and what dose the community is doing now.
 
 ### Speakers:

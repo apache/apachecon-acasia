@@ -1,12 +1,25 @@
 ---
-title: "从 Hadoop 到 Kubernetes：理想汽车大数据平台的云原生演进"
-date: "2026-08-07T15:00:00"
-room: "阳山会议室"
-track: "cloudnative"
-presenters: "Han Qian"
-stype: "中文演讲"
+title: 从 Hadoop 到 Kubernetes：理想汽车大数据平台的云原生演进
+date: '2026-08-07T15:00:00'
+room: 阳山会议室
+track: cloudnative
+presenters: Han Qian
+stype: 中文演讲
+depth: advanced
+practice_level: 5
+projects:
+- hadoop
+- spark
+- flink
+- yarn
+- juicefs
+- kubernetes
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 摘要：  
 在构建大数据平台的过程中，我们从基于Apache Hadoop生态系统的传统部署模式，过渡到通过JuiceFS实现存储与计算分离，最终迁移至以Kubernetes为核心的调度系统。这一技术演进涵盖存储、计算和集群架构三个方面，旨在提升数据处理效率。  
 

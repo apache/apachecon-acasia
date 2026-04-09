@@ -1,12 +1,19 @@
 ---
-title: "Navigating the Incubator process"
-date: "2026-08-09T14:00:00"
-room: "Mtn YuQuan Hall"
-track: "incubator"
-presenters: "Justin Mclean"
-stype: "English Session"
+title: Navigating the Incubator process
+date: '2026-08-09T14:00:00'
+room: Mtn YuQuan Hall
+track: incubator
+presenters: Justin Mclean
+stype: English Session
+depth: beginner
+practice_level: 2
+projects: []
+audience:
+- 开发者
+- 产品/经理
+- 通用
+related_sessions: []
 ---
-
 This talk provides an overview of the Apache Software Foundation (ASF) and its incubation process. It guides projects on learning the Apache Way, ensuring compliance with licensing and intellectual property rights, and fostering community growth. The process involves creating a proposal, entering the incubator, focusing on community building and making releases, and eventually graduating as a top-level ASF project. Key aspects covered in this talk include, complying with licensing, engaging in open and transparent practices, and adopting a vendor-neutral approach. This presentation offers valuable insights for those interested in joining the ASF or seeking an understanding of the incubation process.
 
 ### Speakers:

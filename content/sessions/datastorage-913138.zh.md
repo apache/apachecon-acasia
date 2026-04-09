@@ -1,12 +1,20 @@
 ---
-title: "腾讯大数据 Flink 状态存储的探索与实践：计算存储分离架构"
-date: "2026-08-07T16:15:00"
-room: "万寿山会议室"
-track: "datastorage"
-presenters: "YanPeng Shi"
-stype: "中文演讲"
+title: 腾讯大数据 Flink 状态存储的探索与实践：计算存储分离架构
+date: '2026-08-07T16:15:00'
+room: 万寿山会议室
+track: datastorage
+presenters: YanPeng Shi
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- flink
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 1. 背景：
 Flink 作为一个有状态的流处理系统，其状态存储引擎扮演着至关重要的角色。在 Flink 中，状态用于在数据流计算过程中存储中间结果。Flink 通过 State Backend 组件为算子提供状态的读写服务。然而，在当前的计算存储一体化架构下，存在以下问题：
   a. 本地磁盘限制：RocksDB 中的状态数据高度依赖本地磁盘，当本地磁盘空间不足时，作业无法正常运行。

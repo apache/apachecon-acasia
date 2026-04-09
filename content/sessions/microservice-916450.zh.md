@@ -1,12 +1,20 @@
 ---
-title: "使用 Higress 快速构建智能微服务"
-date: "2026-08-09T15:45:00"
-room: "静明厅"
-track: "microservice"
-presenters: "Min Ji"
-stype: "中文演讲"
+title: 使用 Higress 快速构建智能微服务
+date: '2026-08-09T15:45:00'
+room: 静明厅
+track: microservice
+presenters: Min Ji
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- higress
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 本次演讲将探讨如何利用高性能云原生 API 网关 Higress 快速构建智能微服务。Higress 能够快速高效地构建智能微服务，提升开发敏捷性和运维智能。凭借其强大的人工智能能力和卓越的流量管理能力，Higress 正在彻底改变企业在不同云环境中部署和管理基于微服务的智能代理的方式。
 
 ### 讲师:

@@ -1,12 +1,22 @@
 ---
-title: "小米利用 Apache Paimon 实现高效数据和 AI 优化"
-date: "2026-08-09T17:15:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Houliang Qi"
-stype: "中文演讲"
+title: 小米利用 Apache Paimon 实现高效数据和 AI 优化
+date: '2026-08-09T17:15:00'
+room: 万春厅
+track: datalake
+presenters: Houliang Qi
+stype: 中文演讲
+depth: advanced
+practice_level: 5
+projects:
+- apache paimon
+- juicefs
+- apache gravitino
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 本次分享将重点介绍小米如何利用 Apache Paimon 提升信息化数仓、AI 数仓和 LLM 数据处理的效率并降低成本。同时，我们也将讨论如何利用 JuiceFS 支持 Paimon 的多云存储能力。最后，我们将介绍 Apache Gravitino 在管理 Paimon 元数据方面的应用。
 提纲如下：
 1. Apache Paimon 在信息化数仓中的应用实践

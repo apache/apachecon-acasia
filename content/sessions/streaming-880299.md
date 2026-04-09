@@ -1,12 +1,22 @@
 ---
-title: "Ant Group's Next Generation High SLA Stream Computing System Built on Apache Technology Stack"
-date: "2026-08-07T14:30:00"
-room: "YuanMing Hall"
-track: "streaming"
-presenters: "Xin Wang"
-stype: "Chinese Session"
+title: Ant Group's Next Generation High SLA Stream Computing System Built on Apache
+  Technology Stack
+date: '2026-08-07T14:30:00'
+room: YuanMing Hall
+track: streaming
+presenters: Xin Wang
+stype: Chinese Session
+depth: advanced
+practice_level: 4
+projects:
+- flink
+- calcite
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 * Background: Introduce Ant Group's real-time business and technical background
 * Solution: Introduce the new generation of stream computing systems built on Apache technology stacks such as Flink and Calcite
 * Key design: Introduce core technologies such as full-link SLA observability, scenario-based disaster recovery, and state-compatible computing enhancement

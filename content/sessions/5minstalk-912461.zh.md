@@ -1,12 +1,18 @@
 ---
-title: "用AI重新构想软件测试：一种可复用且可扩展的设计"
-date: "2026-08-09T11:25:00"
-track: "5minstalk"
-presenters: "Yunbo Ni"
-stype: "中文演讲"
-room: "主会场 - 颐和厅"
+title: 用AI重新构想软件测试：一种可复用且可扩展的设计
+date: '2026-08-09T11:25:00'
+track: 5minstalk
+presenters: Yunbo Ni
+stype: 中文演讲
+room: 主会场 - 颐和厅
+depth: advanced
+practice_level: 4
+projects: []
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 随着人工智能驱动的软件测试（AI4Testing）需求日益增长，业界亟需通用且高效的框架来利用大语言模型（LLM）提升软件质量。然而，现有基于LLM的测试方法普遍存在两大局限：生成的测试程序过于简单化，而与LLM的密集交互又会带来高昂的计算成本。
 
 我们提出了一种创新框架，将测试过程解耦为两个独立阶段：离线阶段与在线阶段。离线阶段利用LLM生成大量小型但功能丰富的代码片段；在线阶段则通过策略性复用与组合这些片段，构建出复杂的测试程序。这种设计显著提升了AI辅助测试的效率和表现力。

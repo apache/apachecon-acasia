@@ -1,12 +1,23 @@
 ---
-title: "使用 Apache Pulsar 构建高可靠订阅和推送服务：挑战与最佳实践"
-date: "2026-08-07T15:00:00"
-room: "静宜厅"
-track: "messaging"
-presenters: "Zhangjian He"
-stype: "中文演讲"
+title: 使用 Apache Pulsar 构建高可靠订阅和推送服务：挑战与最佳实践
+date: '2026-08-07T15:00:00'
+room: 静宜厅
+track: messaging
+presenters: Zhangjian He
+stype: 中文演讲
+depth: advanced
+practice_level: 5
+projects:
+- apache pulsar
+- apache bookkeeper
+- servicecomb
+- opengemini
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 分析华为云物联网基于 Apache Pulsar 构建订阅和推送服务的最佳实践。订阅和推送服务看似简单，实则涉及诸多架构决策。本演讲将深入探讨我们如何设计统一的推送服务架构，以确保海量数据分发的高可靠性和稳定性，从而帮助客户高效集成数据流，加速数字化转型。
 
 ### 讲师:

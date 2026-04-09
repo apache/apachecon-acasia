@@ -1,12 +1,19 @@
 ---
-title: "Apache Hop：大型语言模型、图数据库与电子表格的无缝集成"
-date: "2026-08-09T14:30:00"
-room: "万寿山会议室"
-track: "dataops"
-presenters: "Koji Annoura"
-stype: "英文演讲"
+title: Apache Hop：大型语言模型、图数据库与电子表格的无缝集成
+date: '2026-08-09T14:30:00'
+room: 万寿山会议室
+track: dataops
+presenters: Koji Annoura
+stype: 英文演讲
+depth: beginner
+practice_level: 4
+projects:
+- apache hop
+audience:
+- 开发者
+- 通用
+related_sessions: []
 ---
-
 在本场会议中，我将探讨如何利用Apache Hop实现大型语言模型（LLMs）、图数据库与电子表格的无缝集成。
 
 本课程专为初学者设计——尤其是目前仍需手动创建或更新数据的用户——我将重点讲解构建自动化工作流的核心要点，这些工作流可大幅减少重复性任务。

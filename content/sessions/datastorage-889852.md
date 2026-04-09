@@ -1,12 +1,19 @@
 ---
-title: "Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI"
-date: "2026-08-07T16:45:00"
-room: "Mtn WanShou Hall"
-track: "datastorage"
-presenters: "Hubert Zhang, Lintao Zhang"
-stype: "English Session"
+title: 'Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI'
+date: '2026-08-07T16:45:00'
+room: Mtn WanShou Hall
+track: datastorage
+presenters: Hubert Zhang, Lintao Zhang
+stype: English Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache cassandra
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 We are rapidly entering the **Agentic Application Age**, where AI-driven agents not only assist but autonomously make decisions and manage tasks. However, the data infrastructure underpinning these applications faces significant challenges in scalability, consistency, and performance.
 
 With Apache Cassandra 5.0 introducing **Vector Search**, it has emerged as a key AI database. Yet, **Agentic Applications demand more than just vector capabilities**. In this session, we will first explore Cassandra 5.0’s Vector Search feature, examine the critical limitations of existing solutions, and introduce **Eloq ConvergedDB on Apache Cassandra**, an innovative approach designed to overcome these challenges.

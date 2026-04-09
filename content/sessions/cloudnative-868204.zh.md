@@ -1,12 +1,20 @@
 ---
-title: "提升数据处理能力：云架构中无缝批处理管理的策略"
-date: "2026-08-07T15:45:00"
-room: "阳山会议室"
-track: "cloudnative"
-presenters: "Shekhar Prasad Rajak"
-stype: "英文演讲"
+title: 提升数据处理能力：云架构中无缝批处理管理的策略
+date: '2026-08-07T15:45:00'
+room: 阳山会议室
+track: cloudnative
+presenters: Shekhar Prasad Rajak
+stype: 英文演讲
+depth: intermediate
+practice_level: 3
+projects:
+- spark
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 当今企业面临海量数据处理的挑战，需要高效的批处理方案。管理这些任务可能导致复杂性增加、资源浪费及运营成本上升，从而阻碍业务效率。
 
 基于云原生的技术，包括批处理网关（Batch Processing Gateway）、Kubernetes上的Spark以及Yunicorn调度器，为这些挑战提供了强大的解决方案。这些工具可实现任务管理自动化、优化资源分配并提升调度效率。本次演讲将深入探讨这些技术如何协同工作以优化处理负载并改善运营流程。

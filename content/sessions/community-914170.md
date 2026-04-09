@@ -1,12 +1,19 @@
 ---
-title: "Challenges and Practices of Measuring Open Source Community Project Health"
-date: "2026-08-07T15:45:00"
-room: "Mtn YuQuan Hall"
-track: "community"
-presenters: "Xiaoya Xia, Divya Mohan"
-stype: "English Session"
+title: Challenges and Practices of Measuring Open Source Community Project Health
+date: '2026-08-07T15:45:00'
+room: Mtn YuQuan Hall
+track: community
+presenters: Xiaoya Xia, Divya Mohan
+stype: English Session
+depth: intermediate
+practice_level: 4
+projects: []
+audience:
+- 开发者
+- 产品/经理
+- 通用
+related_sessions: []
 ---
-
 The open-source world is an ecosystem in which projects and communities are interconnected. Understanding a project's health through measurements and seeking suitable means to achieve a prosperous and sustainable open-source software community is a topic of great concern for both maintainers and community developers. The health of an open-source project is not limited to traditional metrics of software engineering quality and iteration management; it also encompasses factors such as community status and values within open collaboration.
 
 The developer ecosystem and community atmosphere play a significant role in these evaluations, which presents substantial challenges in effectively measuring community health—whether it be through data collection, identity authentication, or the construction of evaluation metrics.

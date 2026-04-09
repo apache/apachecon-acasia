@@ -1,12 +1,20 @@
 ---
-title: "Apache Hive 中带有分支和标记的 ETL 的未来"
-date: "2026-08-09T15:45:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Attila Turóczy"
-stype: "英文演讲"
+title: Apache Hive 中带有分支和标记的 ETL 的未来
+date: '2026-08-09T15:45:00'
+room: 万春厅
+track: datalake
+presenters: Attila Turóczy
+stype: 英文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache hive
+- apache iceberg
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 随着数据管道日益复杂，传统的“推送即忘” ETL 方法已不再适用。数据世界正在不断发展，它借鉴了现代软件工程的经验。向分支和标记问好——这些概念已经改变了代码管理，现在正在彻底改变我们处理数据的方式。
 
 在本次会议中，我们将探讨由 Apache Iceberg 提供支持的 Apache Hive 如何将这些颠覆性的功能引入数据领域。您将学习如何简化工作流程、轻松管理数据版本以及构建更清洁、更高效的管道。

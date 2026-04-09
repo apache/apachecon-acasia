@@ -1,12 +1,20 @@
 ---
-title: "Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses"
-date: "2026-08-09T17:45:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Akshat Mathur"
-stype: "English Session"
+title: 'Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses'
+date: '2026-08-09T17:45:00'
+room: WanChun Hall
+track: datalake
+presenters: Akshat Mathur
+stype: English Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache iceberg
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 In this talk, we'll dive deep into Apache Iceberg and discover practical techniques for maintaining large-scale data tables efficiently. We’ll guide you through the core challenges of table maintenance in modern data lakes and share strategies to optimize performance and ensure data integrity. You’ll learn how to apply best practices to manage metadata, handle table compaction, and automate maintenance tasks to minimize downtime and improve query performance. 
 
 Session Outline

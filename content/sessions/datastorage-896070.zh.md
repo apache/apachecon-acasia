@@ -1,12 +1,23 @@
 ---
-title: "Celeborn 的革新：多引擎支持、性能掌控与技术创新"
-date: "2026-08-08T16:15:00"
-room: "万寿山会议室"
-track: "datastorage"
-presenters: "Jiashu Xiong, Ethan Feng"
-stype: "中文演讲"
+title: Celeborn 的革新：多引擎支持、性能掌控与技术创新
+date: '2026-08-08T16:15:00'
+room: 万寿山会议室
+track: datastorage
+presenters: Jiashu Xiong, Ethan Feng
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- celeborn
+- spark
+- flink
+- hadoop
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Apache Celeborn 在过去一年中取得了显著进展，引入了新功能、性能优化以及扩展的引擎支持。
 
 功能增强包括：

@@ -1,12 +1,22 @@
 ---
-title: "Apache Iceberg：高性能数据湖仓的表维护策略"
-date: "2026-08-09T17:45:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Akshat Mathur"
-stype: "英文演讲"
+title: Apache Iceberg：高性能数据湖仓的表维护策略
+date: '2026-08-09T17:45:00'
+room: 万春厅
+track: datalake
+presenters: Akshat Mathur
+stype: 英文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache iceberg
+- apache hive
+- apache tez
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 在本次演讲中，我们将深入探讨 Apache Iceberg，并发现高效维护大规模数据表的实用技术。我们将引导您了解现代数据湖中表维护的核心挑战，并分享优化性能和确保数据完整性的策略。您将学习如何应用最佳实践来管理元数据、处理表压缩以及自动化维护任务，以最大限度地减少停机时间并提高查询性能。
 
 ### 演讲大纲

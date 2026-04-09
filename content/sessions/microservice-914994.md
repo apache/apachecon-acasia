@@ -1,12 +1,19 @@
 ---
-title: "What changes can be brought by combining microservices with OpenAPI?"
-date: "2026-08-09T17:15:00"
-room: "JingMing Hall"
-track: "microservice"
-presenters: "He Liang"
-stype: "Chinese Session"
+title: What changes can be brought by combining microservices with OpenAPI?
+date: '2026-08-09T17:15:00'
+room: JingMing Hall
+track: microservice
+presenters: He Liang
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- dubbo
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 As microservices architectures evolve, the demand for standardized, observable, and integrable service interfaces is growing rapidly. While RESTful APIs have long benefited from the OpenAPI specification, RPC frameworks like Apache Dubbo have lacked a native, standardized schema representation — until now.
 
 In this session, we’ll dive into the brand-new Dubbo OpenAPI feature set. You’ll learn how Dubbo now supports OpenAPI 3.0, enabling automated API documentation, enhanced developer experience, seamless integration with gateways, test platforms, and low-code systems. We’ll walk through the architecture, real-world use cases, and how this feature bridges the gap between Dubbo and cloud-native ecosystems.

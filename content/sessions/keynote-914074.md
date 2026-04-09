@@ -1,12 +1,19 @@
 ---
-title: "Insights into the Apache Community from China Open Source Annual Report"
-date: "2026-08-08T09:30:00"
-track: "keynote"
-presenters: "Wei Wang"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: Insights into the Apache Community from China Open Source Annual Report
+date: '2026-08-08T09:30:00'
+track: keynote
+presenters: Wei Wang
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 2
+projects: []
+audience:
+- 架构师
+- 产品/经理
+- 通用
+related_sessions: []
 ---
-
 With the rapid development of the global open-source ecosystem, the influence of China's open-source community on the international stage has continued to grow. This report is based on data analysis from the China Open Source Annual Report, focusing on the participation, technical contributions, and development trends of the Apache open-source community in China. It aims to reveal the community's role and challenges within the global open-source ecosystem.
 
 ### Speakers:

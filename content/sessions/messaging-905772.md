@@ -1,12 +1,21 @@
 ---
-title: "Xiaomi's RocketMQ-MQTT best practice: The Journey of Enhancing Quality and Cost Efficiency"
-date: "2026-08-08T16:45:00"
-room: "JingYi Hall"
-track: "messaging"
-presenters: "Fan Wang"
-stype: "Chinese Session"
+title: 'Xiaomi''s RocketMQ-MQTT best practice: The Journey of Enhancing Quality and
+  Cost Efficiency'
+date: '2026-08-08T16:45:00'
+room: JingYi Hall
+track: messaging
+presenters: Fan Wang
+stype: Chinese Session
+depth: advanced
+practice_level: 5
+projects:
+- rocketmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 This presentation will introduce the evolution of Xiaomi's MQTT system architecture, highlighting advancements in stability, performance, and cost optimization. Key initiatives include managing massive topics, ensuring message ordering, disaster recovery mechanisms, tiered storage solutions, dictionary compression techniques, data integration, containerization, and more.
 
 ### Speakers:

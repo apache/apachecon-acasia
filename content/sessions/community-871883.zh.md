@@ -1,12 +1,18 @@
 ---
-title: "开源贡献者之旅：从提交 PR 到项目维护的演变"
-date: "2026-08-08T16:15:00"
-room: "玉泉山会议室"
-track: "community"
-presenters: "Shuxin Pan"
-stype: "中文会议"
+title: 开源贡献者之旅：从提交 PR 到项目维护的演变
+date: '2026-08-08T16:15:00'
+room: 玉泉山会议室
+track: community
+presenters: Shuxin Pan
+stype: 中文会议
+depth: beginner
+practice_level: 3
+projects: []
+audience:
+- 开发者
+- 通用
+related_sessions: []
 ---
-
 开始接触开源可能会让人感到望而却步，但每一位经验丰富的贡献者都曾是初学者。在本次演讲中，我将分享我的个人历程——从我的第一次拉取请求（pull request）到成为 Apache 提交者（Committer）以及多个开源项目的维护者。结合我在开源项目中的经验，我将讨论新手如何有效地为项目做出贡献、建立自己的声誉并在社区中扩大影响力。此外，我还将探讨促进社区参与的策略，以及如何在代码之外做出有意义的贡献。无论你是开源新手还是希望加深参与度，本次会议都将为你提供在开源生态系统中成长的实用见解和指导。
 
 ### 演讲者：

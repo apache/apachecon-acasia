@@ -1,12 +1,19 @@
 ---
-title: "A decade of lessons in Open Source licensing"
-date: "2026-08-07T14:00:00"
-room: "Mtn YuQuan Hall"
-track: "community"
-presenters: "Justin Mclean"
-stype: "English Session"
+title: A decade of lessons in Open Source licensing
+date: '2026-08-07T14:00:00'
+room: Mtn YuQuan Hall
+track: community
+presenters: Justin Mclean
+stype: English Session
+depth: intermediate
+practice_level: 4
+projects: []
+audience:
+- 开发者
+- 架构师
+- 产品/经理
+related_sessions: []
 ---
-
 In this talk, I will provide insights into how developers and community members in the open-source community navigate legal and licensing policies. Over the past decade, I have reviewed over 1000 open-source releases for compliance with various licensing and distribution policies. I will discuss common misconceptions that open-source community members have about licensing, highlight frequent issues encountered during releases, and share how our policies and processes have evolved over time to help catch these issues. I will also outline areas that need improvement to align with emerging legislation and industry standards. This talk aims to equip developers and organisations with practical knowledge to navigate the legal landscape of open-source software more effectively, ensuring smoother project releases and fostering a more collaborative and legally compliant community.
 
 ### Speakers:

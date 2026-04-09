@@ -1,12 +1,22 @@
 ---
-title: "释放 Dubbo 生态系统潜能：使用 dubbo-go-pixiu 构建 AI 驱动应用"
-date: "2026-08-08T15:45:00"
-room: "阳山会议室"
-track: "webserver"
-presenters: "Stocks Alex"
-stype: "中文演讲"
+title: 释放 Dubbo 生态系统潜能：使用 dubbo-go-pixiu 构建 AI 驱动应用
+date: '2026-08-08T15:45:00'
+room: 阳山会议室
+track: webserver
+presenters: Stocks Alex
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- dubbo
+- sentinel
+- seata
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 了解如何利用 Dubbo-go-Pixiu 将外部协议与内部 Dubbo 服务无缝连接，为 AI 模型推理服务、数据处理服务等提供统一的入口。
 了解 Dubbo-go-Pixiu 在处理 AI 应用中常见的多协议通信场景方面的优势。
 探索如何利用 Dubbo-go-Pixiu 在流量治理、安全认证 和可观测性方面的能力，保障 AI 应用的稳定运行和安全访问。

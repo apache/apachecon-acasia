@@ -1,12 +1,21 @@
 ---
-title: "Kafka 4.0 核心亮点：新特性、移除项与升级指南"
-date: "2026-08-08T16:15:00"
-room: "圆明厅"
-track: "streaming"
-presenters: "Jiunn-Yang Huang, Chia-Ping Tsai, PoAn Yang, TengYao Chi, YiHuan LEE, Kuan Po Tseng"
-stype: "中文演讲"
+title: Kafka 4.0 核心亮点：新特性、移除项与升级指南
+date: '2026-08-08T16:15:00'
+room: 圆明厅
+track: streaming
+presenters: Jiunn-Yang Huang, Chia-Ping Tsai, PoAn Yang, TengYao Chi, YiHuan LEE,
+  Kuan Po Tseng
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- kafka
+audience:
+- 开发者
+- SRE/运维
+- 架构师
+related_sessions: []
 ---
-
 虽然 Kafka 4.0 已经引起了广泛的讨论，但大多数讨论都集中在主要功能上，如 ZooKeeper 的移除或新 API 的引入。在本环节中，我们将重点介绍Kafka 4.0中一些鲜为人知但同样重要的变化。这些更新可能并不引人注目，但它们会对你在实际环境中如何配置、操作和调试Kafka产生重大影响。
 
 用户面临的主要问题之一是如何升级到 Kafka 4.0。KIP-896 删除了对 2.0 及以下版本协议的支持，而 KIP-1124 则为升级 Kafka 客户端、Connect 和 Streams 提供了官方指导。在服务器端，用户必须确保与 JDK 兼容，并考虑如何从基于 ZooKeeper 的设置过渡到新架构。本节将介绍升级过程中需要牢记的最关键注意事项。

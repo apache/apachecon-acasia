@@ -1,12 +1,19 @@
 ---
-title: "Scalable Join & Aggregation with External State and Dynamic Tables"
-date: "2026-08-08T14:30:00"
-room: "YuanMing Hall"
-track: "streaming"
-presenters: "Feng Jin"
-stype: "Chinese Session"
+title: Scalable Join & Aggregation with External State and Dynamic Tables
+date: '2026-08-08T14:30:00'
+room: YuanMing Hall
+track: streaming
+presenters: Feng Jin
+stype: Chinese Session
+depth: advanced
+practice_level: 4
+projects:
+- flink
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 1.	Background & Motivation
 	•	Flink SQL challenges at scale: large state, long joins, complex maintenance
 	•	Business use case: automotive data warehouse and alerting systems

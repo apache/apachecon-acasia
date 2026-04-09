@@ -1,12 +1,19 @@
 ---
-title: "热潮退去后，如何维持开源项目继续运作"
-date: "2026-08-08T10:00:00"
-track: "keynote"
-presenters: "Quincy Larson"
-stype: "英文演讲"
-room: "主会场 - 颐和厅"
+title: 热潮退去后，如何维持开源项目继续运作
+date: '2026-08-08T10:00:00'
+track: keynote
+presenters: Quincy Larson
+stype: 英文演讲
+room: 主会场 - 颐和厅
+depth: beginner
+practice_level: 4
+projects: []
+audience:
+- 开发者
+- 产品/经理
+- 通用
+related_sessions: []
 ---
-
 本次演讲将解释高德纳（Gartner）炒作周期（Hype Cycle）理论，并探讨它如何适用于开源软件项目。我将分享口碑和社交媒体在吸引开发者为你的开源项目做出贡献方面所扮演的角色。我们将讨论如何吸引关注，以及在关注度不可避免地消退时如何进行调整。
 
 freeCodeCamp 的开源项目在 GitHub 上拥有超过 400,000 个星标，过去 10 年中代码库贡献超过 50,000 次。我将分享我们的起伏经历，以及我们学到的关于如何持续推动项目的经验教训，以便你也能维持你的项目。

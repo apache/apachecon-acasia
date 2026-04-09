@@ -1,12 +1,21 @@
 ---
-title: "Apache Gravitino: The universal catalog for data and AI"
-date: "2026-08-07T15:45:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Justin Mclean"
-stype: "English Session"
+title: 'Apache Gravitino: The universal catalog for data and AI'
+date: '2026-08-07T15:45:00'
+room: WanChun Hall
+track: datalake
+presenters: Justin Mclean
+stype: English Session
+depth: beginner
+practice_level: 2
+projects:
+- apache gravitino
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+- 产品/经理
+related_sessions: []
 ---
-
 Welcome to a presentation on Gravitino! Managing metadata can be complex and time-consuming, but Gravitino offers the ultimate solution. It provides a single source of truth for multi-regional data with geo-distributed architecture support. This allows you to store and manage your data in one place, accessible from anywhere globally. With unified data and AI asset management, you get centralized security and data access management, making data protection easier. Gravitino helps you focus more on your data by simplifying tasks and offering these benefits:
 - Secure and centralized metadata storage and management
 - Anytime, anywhere data access

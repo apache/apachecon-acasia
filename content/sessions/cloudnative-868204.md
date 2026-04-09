@@ -1,12 +1,21 @@
 ---
-title: "Elevating Data Processing: Strategies for Seamless Batch Management in Cloud Architectures"
-date: "2026-08-07T15:45:00"
-room: "Mtn Yang Hall"
-track: "cloudnative"
-presenters: "Shekhar Prasad Rajak"
-stype: "English Session"
+title: 'Elevating Data Processing: Strategies for Seamless Batch Management in Cloud
+  Architectures'
+date: '2026-08-07T15:45:00'
+room: Mtn Yang Hall
+track: cloudnative
+presenters: Shekhar Prasad Rajak
+stype: English Session
+depth: intermediate
+practice_level: 3
+projects:
+- spark
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Organizations today are overwhelmed with vast data requiring effective batch processing. Managing these jobs can lead to complexity, resource wastage, and increased operational costs, hindering business productivity.
 
 Cloud-native technologies, including the Batch Processing Gateway, Spark on Kubernetes, and the Yunicorn Scheduler, offer robust solutions to these challenges. These tools automate job management, streamline resource allocation, and enhance scheduling efficiency. Our talk will delve into how these technologies work together to optimize processing workloads and improve operational workflows.

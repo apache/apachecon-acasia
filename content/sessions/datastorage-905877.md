@@ -1,12 +1,22 @@
 ---
-title: "Production Practice of Apache Gluten and Apache Celeborn at Xiaomi"
-date: "2026-08-07T15:00:00"
-room: "Mtn WanShou Hall"
-track: "datastorage"
-presenters: "Yongyuan Liang"
-stype: "Chinese Session"
+title: Production Practice of Apache Gluten and Apache Celeborn at Xiaomi
+date: '2026-08-07T15:00:00'
+room: Mtn WanShou Hall
+track: datastorage
+presenters: Yongyuan Liang
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache gluten
+- apache celeborn
+- spark
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 This talk will dive into the real-world adoption of Apache Gluten and Apache Celeborn at Xiaomi, covering technical background, deployment journey, challenges, and future roadmap.
 1. Technology Landscape
 Xiaomi has built a large-scale offline computing platform centered around Spark, supporting over 100,000+ offline jobs running daily. This section will introduce the core technical architecture and key components Xiaomi relies on in offline computing, as well as the positioning of Gluten and Celeborn.

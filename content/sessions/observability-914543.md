@@ -1,12 +1,21 @@
 ---
-title: "Bridging the Divide: Harmonizing Apache SkyWalking and OpenTelemetry in Production Environments"
-date: "2026-08-09T14:30:00"
-room: "Mtn Yang Hall"
-track: "observability"
-presenters: "Cheng Chen"
-stype: "Chinese Session"
+title: 'Bridging the Divide: Harmonizing Apache SkyWalking and OpenTelemetry in Production
+  Environments'
+date: '2026-08-09T14:30:00'
+room: Mtn Yang Hall
+track: observability
+presenters: Cheng Chen
+stype: Chinese Session
+depth: advanced
+practice_level: 4
+projects:
+- skywalking
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 In today's dynamic cloud ecosystems, many enterprises find themselves navigating the complexities of using multiple observability stacks due to architectural migrations, team preferences, or language support limitations. Specifically, Apache SkyWalking and OpenTelemetry, both powerful in their own right, often coexist within the same production environment. However, this coexistence frequently leads to compatibility challenges that can manifest as broken traces, failed plugin enhancements, and, in severe cases, business call errors and application startup failures.
 In this session at CommunityOverCode Asia 2025, I will share our journey and methodologies that enabled seamless integration of Apache SkyWalking and OpenTelemetry. Key discussion points will include:
 ● Multi-JavaAgent Compatibility: Explore strategies to resolve class enhancement conflicts and application startup failures in Java applications utilizing multiple Java Agent.

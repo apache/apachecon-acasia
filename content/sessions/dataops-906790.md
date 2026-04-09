@@ -1,12 +1,19 @@
 ---
-title: "Modern ETL for Text Vector Data Using Apache SeaTunnel and Amazon Bedrock"
-date: "2026-08-09T15:00:00"
-room: "Mtn WanShou Hall"
-track: "dataops"
-presenters: "Xin Zhang"
-stype: "Chinese Session"
+title: Modern ETL for Text Vector Data Using Apache SeaTunnel and Amazon Bedrock
+date: '2026-08-09T15:00:00'
+room: Mtn WanShou Hall
+track: dataops
+presenters: Xin Zhang
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache seatunnel
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 In the wave of enterprise intelligence upgrades, information retrieval is shifting from “keyword matching” to “semantic understanding.” Traditional search engines based on inverted indexes rely on string-level matching, which makes it difficult to capture the true intent behind user queries. This limits the effectiveness of search experiences, recommendation accuracy, customer service responses, and the intelligence of knowledge-based Q&A systems.
 
 For example, on an e-commerce platform, when a user searches for “white dress suitable for summer,” a system that only matches keywords in product titles or categories is unlikely to understand the full semantic meaning of “suitable for summer,” which may involve fabric, style, and other dimensions. Similar challenges exist in financial document search, intelligent customer service, knowledge graph associations, and more.

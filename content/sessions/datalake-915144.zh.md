@@ -1,12 +1,20 @@
 ---
-title: "​​使用 Tantivy 在 Iceberg 上构建倒排索引：实践方法​​"
-date: "2026-08-07T16:15:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Longfei Liu"
-stype: "中文演讲"
+title: ​​使用 Tantivy 在 Iceberg 上构建倒排索引：实践方法​​
+date: '2026-08-07T16:15:00'
+room: 万春厅
+track: datalake
+presenters: Longfei Liu
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- iceberg
+- trino
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 在大数据场景中，高效的数据检索是许多业务应用的核心需求。​​作为全文搜索和复杂查询的基石，倒排索引可以显著提升查询性能，尤其在需要模糊匹配的日志分析场景中表现优异。与传统解决方案相比，利用 Lakehouse 表格式的存储可扩展性和计算存储分离优势，可以有效降低索引存储成本。然而，在数据湖架构中使用现代表格式（如 Apache Iceberg）实现可扩展、低维护的倒排索引仍然存在诸多挑战，包括索引与数据的实时同步、分布式环境下的一致性保证以及查询优化问题。
 
 ​​本次演讲将分享基于 Apache Iceberg 和 Tantivy 构建可靠倒排索引系统的实践经验，涵盖以下关键实现：

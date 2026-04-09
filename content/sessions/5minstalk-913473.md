@@ -1,12 +1,20 @@
 ---
-title: "Apache Fineract – Powering Asia’s Fintech Future through Collaboration"
-date: "2026-08-09T11:35:00"
-track: "5minstalk"
-presenters: "Terence Monteiro"
-stype: "English Session"
-room: ""
+title: Apache Fineract – Powering Asia’s Fintech Future through Collaboration
+date: '2026-08-09T11:35:00'
+track: 5minstalk
+presenters: Terence Monteiro
+stype: English Session
+room: ''
+depth: intermediate
+practice_level: 3
+projects:
+- apache fineract
+audience:
+- 架构师
+- 开发者
+- 产品/经理
+related_sessions: []
 ---
-
 Fineract showcases how open-source collaboration between for-profit and non-profit organizations can transform Asia’s fintech landscape, offering a scalable, inclusive alternative to costly core banking solutions.
 
 The Apache Fineract ecosystem, born from Mifos X’s backend, powers financial inclusion for over 6 million clients across 36 countries. This lightning talk showcases how a global community of for-profit and non-profit organizations collaborates on Fineract, an open-source banking platform rivaling Temenos and Oracle Flexcube. With over 59 partners across 17 regions—spanning Africa, Asia, the Americas, and beyond—the ecosystem blends commercial scalability with social impact. For-profits like BaaSFlow deliver cloud-hosted solutions for neobanks, while non-profits like the Mifos Initiative drive open-source contributions via volunteers and Google Summer of Code. Learn how Fineract’s API-driven architecture and modular design enable rapid innovation, serving 2 billion unbanked with cost-effective, extensible financial services.

@@ -1,12 +1,19 @@
 ---
-title: "Practices of Metrics Collection for Apache Pulsar in Large-Scale Partition"
-date: "2026-08-07T16:15:00"
-room: "JingYi Hall"
-track: "messaging"
-presenters: "lin lin"
-stype: "Chinese Session"
+title: Practices of Metrics Collection for Apache Pulsar in Large-Scale Partition
+date: '2026-08-07T16:15:00'
+room: JingYi Hall
+track: messaging
+presenters: lin lin
+stype: Chinese Session
+depth: advanced
+practice_level: 4
+projects:
+- pulsar
+audience:
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Apache Pulsar is a high-performance messaging queue that supports a massive number of Topics, allowing users to create hundreds of thousands or even millions of partitions within a single cluster. Metrics are a crucial tool for us to identify and diagnose issues in production environments. The effectiveness of observability directly impacts the speed of troubleshooting.
 In scenarios with a large number of partitions, enabling Topic-level Metrics can generate a significant number of Metrics strings in a short period, causing severe memory fluctuations and potentially destabilizing the cluster.
 This presentation will share our practical experience in collecting Metrics under such high-partition scenarios and explore how to maximize the collection of Metrics data without affecting the stability of online memory, thereby achieving efficient problem identification and system monitoring.

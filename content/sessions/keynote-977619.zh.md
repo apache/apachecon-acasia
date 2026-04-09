@@ -1,13 +1,22 @@
 ---
-title: "社区的力量"
-date: "2026-08-07T09:30:00"
-track: "keynote"
-presenters: "姜 宁"
-stype: "中文演讲"
-room: "主会场 - 颐和厅"
-aianalysis: "used1"
+title: 社区的力量
+date: '2026-08-07T09:30:00'
+track: keynote
+presenters: 姜 宁
+stype: 中文演讲
+room: 主会场 - 颐和厅
+aianalysis: used1
+depth: beginner
+practice_level: 1
+projects:
+- apache camel
+- apache cxf
+- apache servicemix
+- apache servicecomb
+audience:
+- 通用
+related_sessions: []
 ---
-
 作为 Community Over Code Asia 的开场演讲内容，我们将简要回顾 Apache 软件基金会在中国的发展历程以及 Apache 本地社区的发展情况。在此，我们能够见证社区力量的强大，借助社区之力，我们得以成功举办本次大会！
 
 ### 讲师:

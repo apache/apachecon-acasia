@@ -1,12 +1,20 @@
 ---
-title: "Technical Progression of Flink + Paimon Real-time Lakehouse Solutions"
-date: "2026-08-09T16:15:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Xuannan Su"
-stype: "Chinese Session"
+title: Technical Progression of Flink + Paimon Real-time Lakehouse Solutions
+date: '2026-08-09T16:15:00'
+room: WanChun Hall
+track: datalake
+presenters: Xuannan Su
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- flink
+- paimon
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 The lakehouse architecture has emerged as a transformative trend in recent years. By leveraging Flink as a stream-batch unified processing engine and Paimon as a stream-batch unified lake format, the Streaming Lakehouse architecture has enabled real-time data freshness for the lakehouse. While structured data remains widely used in Paimon, semi-structured and unstructured data are becoming increasingly critical in artificial intelligence applications. The Flink and Paimon communities have collaborated closely, combining their strengths and integrating cutting-edge features to deliver significant enhancements and optimizations for users. 
 In this talk, we will introduce some of the important work, including:
 * How Flink and Paimon utilize the Variant data type and variant shredding to enhance performance when handling semi-structured data

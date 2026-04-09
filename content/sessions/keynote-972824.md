@@ -1,12 +1,19 @@
 ---
-title: "From Commits to Capital: Turning Open Source Passion into a Startup Journey"
-date: "2026-08-08T10:30:00"
-track: "keynote"
-presenters: "William Guo"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: 'From Commits to Capital: Turning Open Source Passion into a Startup Journey'
+date: '2026-08-08T10:30:00'
+track: keynote
+presenters: William Guo
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 4
+projects:
+- apache dolphinscheduler
+audience:
+- 开发者
+- 产品/经理
+related_sessions: []
 ---
-
 Open source is often seen as a world of code, collaboration, and community. But for founders, it can also be a tough place filled with business choices, doubts from investors, and the challenge of balancing ideals with survival.
 
 In this talk, I’ll share a real and honest story of how an Apache project—started with passion and supported by a global community—grew into a funded company that now serves enterprise customers.  We’ll explore how community love was transformed into a sustainable business model, what VCs often get wrong about OSS startups, and how founders can navigate the chaos between contributors and customers.

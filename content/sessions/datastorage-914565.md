@@ -1,12 +1,21 @@
 ---
-title: "A Small-file Sniffer System for Hadoop Clusters"
-date: "2026-08-07T17:15:00"
-track: "datastorage"
-presenters: "Miao Wang"
-stype: "English Session"
-room: "Mtn WanShou Hall"
+title: A Small-file Sniffer System for Hadoop Clusters
+date: '2026-08-07T17:15:00'
+track: datastorage
+presenters: Miao Wang
+stype: English Session
+room: Mtn WanShou Hall
+depth: intermediate
+practice_level: 4
+projects:
+- hadoop
+- hdfs
+- hive
+audience:
+- 架构师
+- SRE/运维
+related_sessions: []
 ---
-
 The HDFS (Hadoop Distributed File System) often encounters significant performance degradation when managing a large number of small files. Scanning all files to locate the small ones through the Namenode’s service becomes time-consuming and adds extra burdens to the Namenodes. There is a lack of research on how to identify the hotspots of small files in HDFS without querying the Namenode in a time-efficient manner. In this session, the speaker aims to introduce a big data system to identify small files in HDFS by parsing the File System Image (FSImage), which is generated periodically on the Namenode. This system allows Hadoop cluster administrators to monitor and identify small files in real time without impacting the normal operation of the Hadoop cluster. Additionally, it can serve as a tool to locate small-file hotspot tables in a Hive data warehouse.
 
 ### Speakers:

@@ -1,12 +1,21 @@
 ---
-title: "以 GenAI 赋能开源生态，激发开发者创新浪潮"
-date: "2026-08-07T11:00:00"
-track: "keynote"
-presenters: "郑予彬"
-stype: "中文演讲"
-room: "主会场 - 颐和厅"
+title: 以 GenAI 赋能开源生态，激发开发者创新浪潮
+date: '2026-08-07T11:00:00'
+track: keynote
+presenters: 郑予彬
+stype: 中文演讲
+room: 主会场 - 颐和厅
+depth: intermediate
+practice_level: 4
+projects:
+- spark
+- kafka
+- airflow
+audience:
+- 开发者
+- 架构师
+related_sessions: []
 ---
-
 亚马逊网络服务（AWS）和阿帕奇软件基金会（Apache Software Foundation）在开源、云计算和生成式人工智能融合的快速发展环境中建立了战略合作伙伴关系，重新定义了开发人员的体验。本主题演讲将探讨 AWS 如何利用生成式人工智能的变革力量，通过智能云原生服务和人工智能增强型开发平台为 Apache 开源项目开发人员赋能。
 
 我们将展示生成式人工智能如何在 AWS 上彻底改变 Spark、Kafka 和 Airflow 等核心 Apache 项目的开发人员工作流程。从针对 Apache 框架的亚马逊 Q 开发人员人工智能驱动代码生成专用工具到开放源代码的多代理云部署工具包，我们将展示开发人员如何实现前所未有的生产力提升。演讲将重点介绍 AWS 托管服务如何与人工智能生成功能相结合，将开发人员从常规任务中解放出来，使他们能够专注于创造性地解决问题和创新。

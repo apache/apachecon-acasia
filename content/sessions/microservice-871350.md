@@ -1,12 +1,20 @@
 ---
-title: "Secure your Dubbo application using Triple and xDS"
-date: "2026-08-09T16:15:00"
-room: "JingMing Hall"
-track: "microservice"
-presenters: "Heqing Jiang"
-stype: "Chinese Session"
+title: Secure your Dubbo application using Triple and xDS
+date: '2026-08-09T16:15:00'
+room: JingMing Hall
+track: microservice
+presenters: Heqing Jiang
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- dubbo
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Currently Cloud Native Security is becoming more and more important. Dubbo as a significant framework with network should do more to protect users from attack. In this section, you will learn how to build a zero-trust network with Dubbo Triple protocol and xDS protocol using Service Mesh.
 
 ### Speakers:

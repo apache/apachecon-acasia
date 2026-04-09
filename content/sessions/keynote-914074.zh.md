@@ -1,12 +1,17 @@
 ---
-title: "Apache 社区发展研究——基于中国开源年度报告的数据分析"
-date: "2026-08-08T09:30:00"
-track: "keynote"
-presenters: "王 伟"
-stype: "中文演讲"
-room: "主会场 - 颐和厅"
+title: Apache 社区发展研究——基于中国开源年度报告的数据分析
+date: '2026-08-08T09:30:00'
+track: keynote
+presenters: 王 伟
+stype: 中文演讲
+room: 主会场 - 颐和厅
+depth: intermediate
+practice_level: 2
+projects: []
+audience:
+- 通用
+related_sessions: []
 ---
-
 随着全球开源生态系统的快速发展，中国开源社区在国际舞台上的影响力持续增强。本报告基于《中国开源年度报告》的数据分析，聚焦 Apache 开源社区在中国的参与度、技术贡献以及发展趋势，旨在揭示该社区在全球开源生态系统中的角色与挑战。
 
 ### 讲师:

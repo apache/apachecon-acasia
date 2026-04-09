@@ -1,12 +1,20 @@
 ---
-title: "Rapid Construction of Intelligent Microservices with Higress"
-date: "2026-08-09T15:45:00"
-room: "JingMing Hall"
-track: "microservice"
-presenters: "Min Ji"
-stype: "Chinese Session"
+title: Rapid Construction of Intelligent Microservices with Higress
+date: '2026-08-09T15:45:00'
+room: JingMing Hall
+track: microservice
+presenters: Min Ji
+stype: Chinese Session
+depth: intermediate
+practice_level: 3
+projects:
+- higress
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 In this talk, we will explore how Higress, a high-performance cloud-native API gateway, can be utilized to swiftly build intelligent microservices. Higress facilitates quick and efficient building of intelligent microservices, enhancing both development agility and operational intelligence.  Through its powerful artificial intelligence capabilities and exceptional traffic management, Higress is transforming how organizations deploy and manage microservice-based intelligent agents across diverse cloud environments.
 
 ### Speakers:

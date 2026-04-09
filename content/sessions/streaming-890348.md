@@ -1,12 +1,23 @@
 ---
-title: "Application of Apache Flink in China Telecom's Logging Scenario"
-date: "2026-08-07T15:45:00"
-room: "YuanMing Hall"
-track: "streaming"
-presenters: "Yan Zuo"
-stype: "Chinese Session"
+title: Application of Apache Flink in China Telecom's Logging Scenario
+date: '2026-08-07T15:45:00'
+room: YuanMing Hall
+track: streaming
+presenters: Yan Zuo
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache flink
+- apache doris
+- flink cdc
+- starrocks
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 The telecommunications log scenario has been replaced from backend services to Flink tasks, including log access, log parsing, and log alerts. With 50+clusters and 2000+Flink tasks, the timeliness has been improved by 200%
 
 ### Speakers:

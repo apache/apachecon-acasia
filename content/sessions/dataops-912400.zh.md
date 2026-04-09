@@ -1,12 +1,22 @@
 ---
-title: "Apache Gravitino 多集群管理最佳实践"
-date: "2026-08-09T15:45:00"
-room: "万寿山会议室"
-track: "dataops"
-presenters: "Xun Liu"
-stype: "中文演讲"
+title: Apache Gravitino 多集群管理最佳实践
+date: '2026-08-09T15:45:00'
+room: 万寿山会议室
+track: dataops
+presenters: Xun Liu
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache gravitino
+- apache hadoop
+- apache zeppelin
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Apache Gravitino 统一管理了 Data 和 AI 的元数据，特别是在管理云上和云下多集群的场景中，可以非常好的发挥 Gravitino 统一元数据后，带来的数据在云上和云下无感知迁移和使用、大数据集群丝滑滚动升级、统一公有云和私有化部署的大数据集群的权限系统。
 在本次的分享中，除了介绍 Apache Gravitino 在多集群管理中的诸多特性之外，还讲分享海内外用户的 Apache Gravitino  最佳实践。
 

@@ -1,12 +1,20 @@
 ---
-title: "Apache Fineract — 携手合作，驱动亚洲金融科技未来"
-date: "2026-08-09T11:35:00"
-track: "5minstalk"
-presenters: "Terence Monteiro"
-stype: "英文演讲"
-room: ""
+title: Apache Fineract — 携手合作，驱动亚洲金融科技未来
+date: '2026-08-09T11:35:00'
+track: 5minstalk
+presenters: Terence Monteiro
+stype: 英文演讲
+room: ''
+depth: intermediate
+practice_level: 3
+projects:
+- apache fineract
+audience:
+- 架构师
+- 开发者
+- 产品/经理
+related_sessions: []
 ---
-
 Fineract展示了营利与非营利组织间的开源协作如何重塑亚洲金融科技格局，为昂贵的核心银行系统提供了可扩展、普惠的替代方案。
 
 源自 Mifos X 后端的 Apache Fineract 生态系统，已为 36 个国家超 600 万客户提供普惠金融服务。本次闪电演讲将揭示这一全球社区如何通过开源银行平台 Fineract 开展协作——其功能可与 Temenos 和 Oracle Flexcube 比肩。横跨非洲、亚洲、美洲等17 个地区的 59 家合作伙伴，使该生态系统兼具商业规模与社会价值。如 BaaSFlow 等营利企业为数字银行提供云托管方案，而 Mifos Initiative 等非营利组织则通过志愿者和谷歌编程之夏推动开源贡献。了解 Fineract 如何凭借 API 驱动架构与模块化设计实现快速创新，以高性价比、可扩展的金融服务覆盖20亿无银行账户人群。

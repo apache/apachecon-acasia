@@ -1,12 +1,18 @@
 ---
-title: "揭秘 Apache 软件基金会董事会"
-date: "2026-08-07T15:00:00"
-room: "玉泉山会议室"
-track: "community"
-presenters: "Justin Mclean"
-stype: "英文演讲"
+title: 揭秘 Apache 软件基金会董事会
+date: '2026-08-07T15:00:00'
+room: 玉泉山会议室
+track: community
+presenters: Justin Mclean
+stype: 英文演讲
+depth: intermediate
+practice_level: 3
+projects: []
+audience:
+- 开发者
+- 通用
+related_sessions: []
 ---
-
 本次演讲将深入探讨 Apache 软件基金会董事会的内部运作，揭示其工作方式和董事会成员的职责。与会者将全面了解 ASF 董事会的治理结构、决策流程，以及它在监督全球最大的开源社区群体之一中所扮演的关键角色。演讲者将结合实际经验，分享个人见解、所面临的挑战，以及为 ASF 使命做出贡献所带来的回报。无论你是经验丰富的开源爱好者还是社区新成员，本次演讲都将为你提供关于 ASF 董事会成员资格的复杂细节及其对塑造开源开发未来的影响的宝贵视角。
 
 ### 讲师:

@@ -1,12 +1,19 @@
 ---
-title: "The Practice to Building a Developer Friendly Open Source Database Community"
-date: "2026-08-08T15:45:00"
-room: "Mtn YuQuan Hall"
-track: "community"
-presenters: "Shaoting Duan"
-stype: "Chinese Session"
+title: The Practice to Building a Developer Friendly Open Source Database Community
+date: '2026-08-08T15:45:00'
+room: Mtn YuQuan Hall
+track: community
+presenters: Shaoting Duan
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects: []
+audience:
+- 开发者
+- 架构师
+- SRE/运维
+related_sessions: []
 ---
-
 OceanBase Database is a distributed relational database developed by Ant Group. It has been supporting the Double 11 Shopping Festival for 11 years. It started as an e-commerce database used by Taobao Favorites and gradually became the database of all core systems of Ant Group. It then grew into the database of core systems of many enterprises, especially the financial industry. 
 
 The database is responsible for data storage and management. It is the core guarantee of the application system. Every year, Alibaba and Ant Group will bring a huge amount of traffic during Double 11. This traffic makes all systems complicated. The database also bears the requirements of stability and data accuracy, making the stability and data accuracy of a distributed database a world-class problem. 

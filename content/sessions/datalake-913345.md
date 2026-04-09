@@ -1,12 +1,21 @@
 ---
-title: "Optimizing Parquet Storage: Metadata Management, Performance Tuning & Seamless Migration"
-date: "2026-08-08T16:45:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Hongnan Gan, Zhengjie He"
-stype: "Chinese Session"
+title: 'Optimizing Parquet Storage: Metadata Management, Performance Tuning & Seamless
+  Migration'
+date: '2026-08-08T16:45:00'
+room: WanChun Hall
+track: datalake
+presenters: Hongnan Gan, Zhengjie He
+stype: Chinese Session
+depth: advanced
+practice_level: 4
+projects:
+- parquet
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 This session delves into advanced techniques for optimizing Parquet storage ecosystems. We’ll explore a comprehensive approach to managing metadata—from efficient collection and storage to building a scalable metadata warehouse. Attendees will learn practical strategies for storage optimization, including ZSTD compression upgrades, local/global sorting, and column-level tuning for enhanced performance. Additionally, we’ll cover seamless migration of legacy formats through in-place backtracking and heterogeneous format interoperability. Whether you’re handling large-scale datasets or fine-tuning storage efficiency, this session offers actionable insights to elevate your Parquet workflows.
 
 Key takeaways:

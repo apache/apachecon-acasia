@@ -1,12 +1,20 @@
 ---
-title: "字节跳动 Flink 内存治理实践"
-date: "2026-08-08T14:00:00"
-room: "圆明厅"
-track: "streaming"
-presenters: "唐以恒, 汪少军"
-stype: "中文演讲"
+title: 字节跳动 Flink 内存治理实践
+date: '2026-08-08T14:00:00'
+room: 圆明厅
+track: streaming
+presenters: 唐以恒, 汪少军
+stype: 中文演讲
+depth: advanced
+practice_level: 5
+projects:
+- flink
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 随着字节跳动内部流式任务需求的持续增长，Flink 已在各个业务领域大规模应用。在这些大规模任务的资源成本中，内存——尤其是堆内存——是显著的消耗。所有任务的总分配内存已达到数万 TB，但 JVM 堆内存利用率始终低于 50%，容器级内存使用率低于 70%。在全公司降本增效的背景下，我们围绕堆内存使用量预测、堆外内存使用量跟踪以及 Flink 内存模型的简化，开展了一系列内存优化。这些工作已在字节跳动成功推广，节省了超过数千 TB 的内存空间。
 在本次演讲中，我们将介绍字节跳动 Flink 和 JVM 团队主导的关键联合优化工作，并分享我们取得的成果。
 

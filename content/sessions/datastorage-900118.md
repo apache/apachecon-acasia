@@ -1,12 +1,19 @@
 ---
-title: "Apache Cassandra Drivers Best Practices: Maximize Performance and Robustness"
-date: "2026-08-08T14:00:00"
-room: "Mtn WanShou Hall"
-track: "datastorage"
-presenters: "Siyao He"
-stype: "Chinese Session"
+title: 'Apache Cassandra Drivers Best Practices: Maximize Performance and Robustness'
+date: '2026-08-08T14:00:00'
+room: Mtn WanShou Hall
+track: datastorage
+presenters: Siyao He
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache cassandra
+audience:
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Want to get the most out of your Apache Cassandra applications? This session dives into best practices for using Cassandra drivers effectively to build faster, more resilient systems. We’ll cover common pitfalls to avoid, practical tips for performance tuning, and advanced configurations. You’ll learn how to leverage features like speculative execution policies and auto-paging, as well as how to set up logging and metrics for improved observability. While the concepts apply to all official Cassandra drivers, this talk will use the Java Driver for concrete examples. Whether you're new to Apache Cassandra drivers or looking to optimize an existing deployment, this talk will help you unlock the full potential of the drivers.
 
 ### Speakers:

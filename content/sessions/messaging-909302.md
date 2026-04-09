@@ -1,12 +1,20 @@
 ---
-title: "Storage Engine for RocketMQ Based on Commitlog and RocksDB"
-date: "2026-08-08T15:45:00"
-room: "JingYi Hall"
-track: "messaging"
-presenters: "Zhou Li"
-stype: "Chinese Session"
+title: Storage Engine for RocketMQ Based on Commitlog and RocksDB
+date: '2026-08-08T15:45:00'
+room: JingYi Hall
+track: messaging
+presenters: Zhou Li
+stype: Chinese Session
+depth: advanced
+practice_level: 3
+projects:
+- rocketmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Storage Engine for RocketMQ Based on Commitlog and RocksDB
     Delay message, transaction message, POP and index are core features of RocketMQ. These features involve multiple state transitions in memory and are implemented based on the file system. The existing implementation faces the following issues:
 1. Queue-Based Implementation cause more merge operations (e.g., POP consumption result merging, transaction message OP message merging) that result in complex workflows, low efficiency, and poor scalability.

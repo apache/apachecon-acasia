@@ -1,12 +1,22 @@
 ---
-title: "Exploration and Practice of SkyWalking in Ruby Agent and MCP"
-date: "2026-08-09T15:45:00"
-room: "Mtn Yang Hall"
-track: "observability"
-presenters: "Zixin Zhou"
-stype: "Chinese Session"
+title: Exploration and Practice of SkyWalking in Ruby Agent and MCP
+date: '2026-08-09T15:45:00'
+room: Mtn Yang Hall
+track: observability
+presenters: Zixin Zhou
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- skywalking
+- opentelemetry
+- zipkin
+- pinpoint
+audience:
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Abstract:
 Distributed tracing is crucial for observability, driving improvements in cross-language tracing agent availability. This presentation will introduce how to use Apache SkyWalking to monitor Ruby applications, and provide an in-depth exploration of the implementation principles of the Ruby Agent. Additionally, it will discuss the integration of the Model Context Protocol (MCP) with SkyWalking.
 

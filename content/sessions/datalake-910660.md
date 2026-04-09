@@ -1,12 +1,23 @@
 ---
-title: "Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support for Hudi / Icebe"
-date: "2026-08-09T14:30:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Lidong Dai"
-stype: "Chinese Session"
+title: 'Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural
+  Support for Hudi / Icebe'
+date: '2026-08-09T14:30:00'
+room: WanChun Hall
+track: datalake
+presenters: Lidong Dai
+stype: Chinese Session
+depth: advanced
+practice_level: 4
+projects:
+- seatunnel
+- hudi
+- iceberg
+- paimon
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Abstract:
 With the ongoing evolution of lakehouse architectures and real-time data lakes, enterprises increasingly require a unified, high-performance, and scalable data integration framework to support both writing to and reading from multiple data lake formats such as Apache Hudi, Iceberg, and Paimon.
 As a next-generation data integration engine, Apache SeaTunnel leverages its Connector V2 architecture and stream-batch unified design to build deep integration support for these three mainstream data lake formats. It provides key capabilities such as batch ingestion, real-time streaming writes, and consistency guarantees.

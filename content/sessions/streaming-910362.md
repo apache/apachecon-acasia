@@ -1,12 +1,21 @@
 ---
-title: "The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time Computing"
-date: "2026-08-08T15:00:00"
-room: "YuanMing Hall"
-track: "streaming"
-presenters: "Zihao Chen, Jiangang Liu"
-stype: "Chinese Session"
+title: The Intelligent Evolution of Fully Managed Resource Management for Tencent's
+  Real-Time Computing
+date: '2026-08-08T15:00:00'
+room: YuanMing Hall
+track: streaming
+presenters: Zihao Chen, Jiangang Liu
+stype: Chinese Session
+depth: advanced
+practice_level: 4
+projects:
+- flink
+audience:
+- 架构师
+- SRE/运维
+- 开发者
+related_sessions: []
 ---
-
 1. Background and Industry Pain Points
   a. Flink, as a long-running stateful computation, is widely used in scenarios such as real-time data warehousing, real-time analytics, and online training.
   b. Real-time resource configuration and operations are a universal challenge: over-provisioning leads to waste, while under-provisioning causes lag and failover. Additionally, resource demands vary significantly over time.

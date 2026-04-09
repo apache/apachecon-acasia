@@ -1,12 +1,22 @@
 ---
-title: "Apache Gluten 和 Apache Celeborn 在小米的生产实践"
-date: "2026-08-07T15:00:00"
-room: "万寿山会议室"
-track: "datastorage"
-presenters: "Yongyuan Liang"
-stype: "中文演讲"
+title: Apache Gluten 和 Apache Celeborn 在小米的生产实践
+date: '2026-08-07T15:00:00'
+room: 万寿山会议室
+track: datastorage
+presenters: Yongyuan Liang
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache gluten
+- apache celeborn
+- apache spark
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 本次演讲将深入探讨 Apache Gluten 和 Apache Celeborn 在小米的实际应用情况，涵盖技术背景、部署历程、挑战以及未来规划。
 
 1. 技术背景

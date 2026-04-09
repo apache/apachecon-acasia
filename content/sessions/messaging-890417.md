@@ -1,12 +1,23 @@
 ---
-title: "Building Highly Reliable Subscription & Push with Apache Pulsar: Challenges and Best Practices"
-date: "2026-08-07T15:00:00"
-room: "JingYi Hall"
-track: "messaging"
-presenters: "Zhangjian He"
-stype: "Chinese Session"
+title: 'Building Highly Reliable Subscription & Push with Apache Pulsar: Challenges
+  and Best Practices'
+date: '2026-08-07T15:00:00'
+room: JingYi Hall
+track: messaging
+presenters: Zhangjian He
+stype: Chinese Session
+depth: advanced
+practice_level: 5
+projects:
+- apache pulsar
+- apache bookkeeper
+- servicecomb
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Analyzing Huawei Cloud IoT's best practices in building a subscription and push service based on Apache Pulsar. While subscription and push services may seem straightforward, they involve numerous architectural decisions. This talk delves into how we designed a unified push service architecture to ensure high reliability and stability for massive data distribution, enabling customers to efficiently integrate with data streams and accelerate digital transformation.
 
 ### Speakers:

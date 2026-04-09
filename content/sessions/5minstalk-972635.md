@@ -1,12 +1,20 @@
 ---
-title: "Why We Chose Openness: The Story Behind JuiceFS Switching to Apache 2.0"
-date: "2026-08-09T11:10:00"
-track: "5minstalk"
-presenters: "Rui Su"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: 'Why We Chose Openness: The Story Behind JuiceFS Switching to Apache 2.0'
+date: '2026-08-09T11:10:00'
+track: 5minstalk
+presenters: Rui Su
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 2
+projects:
+- juicefs
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 In 2022, to mark its first anniversary as an open source project, JuiceFS made a bold move: switching its license from AGPLv3 to Apache 2.0. At a time when many projects were going the opposite direction—adopting more restrictive licenses—we doubled down on openness. This lightning talk shares the thinking behind that decision, the risks we weighed, and the unexpected benefits it brought. I’ll also reflect on how this choice has shaped the growth and community of JuiceFS over the past few years, and what it means for sustainable open source in a commercial world.
 
 ### Speakers:

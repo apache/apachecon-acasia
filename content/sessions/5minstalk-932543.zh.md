@@ -1,12 +1,19 @@
 ---
-title: "为什么沙特阿拉伯是中国开源企业出海的'首选之地'？"
-date: "2026-08-09T11:30:00"
-track: "5minstalk"
-presenters: "Jerry Tan"
-stype: "中文演讲"
-room: "主会场 - 颐和厅"
+title: 为什么沙特阿拉伯是中国开源企业出海的'首选之地'？
+date: '2026-08-09T11:30:00'
+track: 5minstalk
+presenters: Jerry Tan
+stype: 中文演讲
+room: 主会场 - 颐和厅
+depth: intermediate
+practice_level: 3
+projects: []
+audience:
+- 产品/经理
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 我将概述中国开源项目进入全球市场的产品形态、成功关键因素，以及选择沙特阿拉伯的原因。
 
 

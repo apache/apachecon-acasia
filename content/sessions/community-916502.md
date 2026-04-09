@@ -1,12 +1,17 @@
 ---
-title: "China Open Source & AI at  a Glance"
-date: "2026-08-07T16:15:00"
-room: "Mtn YuQuan Hall"
-track: "community"
-presenters: "Ted Liu"
-stype: "Chinese Session"
+title: China Open Source & AI at  a Glance
+date: '2026-08-07T16:15:00'
+room: Mtn YuQuan Hall
+track: community
+presenters: Ted Liu
+stype: Chinese Session
+depth: beginner
+practice_level: 2
+projects: []
+audience:
+- 通用
+related_sessions: []
 ---
-
 Based on the *2024 China Open Source Annual Report", China's open-source ecosystem is thriving, with rapid growth in contributors, projects, and adoption. AI remains a key driver, as Chinese open-source models like DeepSeek and Qwen gain global traction. Collaboration between academia, enterprises, and communities is accelerating innovation, while government policies further support open-source development. Despite challenges in sustainability and governance, China's open-source community continues to expand its global influence. Let’s explore how these trends shape the future of open source and AI in China and the world! 
 
 ### Speakers:

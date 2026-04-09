@@ -1,12 +1,22 @@
 ---
-title: "Xiaomi's Efficient Data & AI Optimization with Apache Paimon"
-date: "2026-08-09T17:15:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Houliang Qi"
-stype: "Chinese Session"
+title: Xiaomi's Efficient Data & AI Optimization with Apache Paimon
+date: '2026-08-09T17:15:00'
+room: WanChun Hall
+track: datalake
+presenters: Houliang Qi
+stype: Chinese Session
+depth: advanced
+practice_level: 5
+projects:
+- apache paimon
+- apache gravitino
+- juicefs
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 This session will primarily focus on how Xiaomi leverages Apache Paimon to enhance efficiency and reduce costs in its information-based data warehouse, AI data warehouse, and LLM data processing. Additionally, we will discuss how we utilize JuiceFS to support Paimon's multi-cloud storage capabilities. Finally, we'll introduce the application of Apache Gravitino in managing Paimon's metadata.
 Outline:
 1. Application Practice of Apache Paimon in the Information-based Data Warehouse

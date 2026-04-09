@@ -1,12 +1,21 @@
 ---
-title: "腾讯云上的 Kafka：无缝迁移与灾难恢复"
-date: "2026-08-08T14:00:00"
-room: "静宜厅"
-track: "messaging"
-presenters: "鲁仕林"
-stype: "Chinese Session"
+title: 腾讯云上的 Kafka：无缝迁移与灾难恢复
+date: '2026-08-08T14:00:00'
+room: 静宜厅
+track: messaging
+presenters: 鲁仕林
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- kafka
+- rocketmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 本次演讲将介绍如何将自建 Kafka 集群无缝迁移至腾讯云 CKafka 解决方案，无需关注迁移过程中生产消费应用的切换顺序。同时还将详细介绍腾讯云 CKafka 的故障容灾方案。
 
 ### 演讲嘉宾:

@@ -1,12 +1,20 @@
 ---
-title: "High Performance, Low Cost, Open Observability powered by Apache Doris"
-date: "2026-08-07T16:15:00"
-room: "Mtn Yang Hall"
-track: "cloudnative"
-presenters: "Kang Xiao"
-stype: "Chinese Session"
+title: High Performance, Low Cost, Open Observability powered by Apache Doris
+date: '2026-08-07T16:15:00'
+room: Mtn Yang Hall
+track: cloudnative
+presenters: Kang Xiao
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache doris
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Users can build High Performance, Low Cost, Open Observability powered by Apache Doris. It's 5x times more cost efficient then Elastcicsearch and compatible to open standard such as OpenTelemetry.
 
 1. Observability challenges

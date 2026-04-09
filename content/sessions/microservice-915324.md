@@ -1,12 +1,19 @@
 ---
-title: "Application of Dubbo-go in microservice architecture"
-date: "2026-08-09T14:30:00"
-room: "JingMing Hall"
-track: "microservice"
-presenters: "Wu Xinfan"
-stype: "Chinese Session"
+title: Application of Dubbo-go in microservice architecture
+date: '2026-08-09T14:30:00'
+room: JingMing Hall
+track: microservice
+presenters: Wu Xinfan
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- dubbo
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 This submission explores the practical application of Dubbo-go, the Go implementation of Apache Dubbo, within a modern microservice architecture. It highlights how Dubbo-go enables high-performance RPC communication, service discovery, and seamless integration with cloud-native infrastructure. The talk will cover real-world usage scenarios, including service governance, interface definition, and inter-language communication with Java-based Dubbo services. By sharing hands-on experience and best practices, the session aims to demonstrate how Dubbo-go can serve as a robust and scalable solution for building production-ready microservices in Go.
 
 ### Speakers:

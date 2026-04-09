@@ -1,12 +1,21 @@
 ---
-title: "Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake"
-date: "2026-08-08T16:45:00"
-room: "YuanMing Hall"
-track: "streaming"
-presenters: "Shekhar Prasad Rajak"
-stype: "English Session"
+title: 'Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake'
+date: '2026-08-08T16:45:00'
+room: YuanMing Hall
+track: streaming
+presenters: Shekhar Prasad Rajak
+stype: English Session
+depth: intermediate
+practice_level: 4
+projects:
+- kafka
+- flink
+- iceberg
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Message queues are essential for real-time use cases like payment processing, fraud detection, and AI-powered support systems—but traditional queues often lack scalability, durability, and replayability. In this talk, we explore how Kafka 4.0 brings native queue semantics to the world of distributed streaming, enabling fair, concurrent, and isolated message processing at scale.
 
 We’ll show how  Apache Flink’s native LLM integration leverages this queue model to perform real-time Large Language Model (LLM) inference—like sentiment analysis or summarization—and how enriched results can be written directly to Apache Iceberg, a powerful data lakehouse for long-term analytics, data versioning & time travel and ML feedback loops.

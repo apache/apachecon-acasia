@@ -1,12 +1,20 @@
 ---
-title: "The Three Things That Make or Break a Software Startup"
-date: "2026-08-08T11:00:00"
-track: "keynote"
-presenters: "Rui Su"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: The Three Things That Make or Break a Software Startup
+date: '2026-08-08T11:00:00'
+track: keynote
+presenters: Rui Su
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 4
+projects:
+- juicefs
+audience:
+- 架构师
+- 开发者
+- 产品/经理
+related_sessions: []
 ---
-
 What really determines success or failure in a software startup? In this keynote, I’ll share the three pillars that matter most: a viable business model, clear product positioning, and sustainable user acquisition. These principles aren’t theoretical — they’re distilled from seven years of building JuiceFS, a distributed file system that went from closed-source to open-source, from SaaS-only to on-premises deployment, and from zero to adoption in some of the most demanding data infrastructures.
 
 I’ll share hard-won lessons, strategic pivots, and industry shifts I’ve seen along the way. If you're building, investing in, or contributing to software ventures — especially open source — this talk will offer practical insights to navigate what truly matters.

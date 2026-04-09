@@ -1,12 +1,22 @@
 ---
-title: "Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ & OpenTelemetry"
-date: "2026-08-09T14:00:00"
-room: "Mtn Yang Hall"
-track: "observability"
-presenters: "Minghui Zhang"
-stype: "Chinese Session"
+title: 'Best Practices for Messaging Systems Observability: A Case Study of Apache
+  RocketMQ & OpenTelemetry'
+date: '2026-08-09T14:00:00'
+room: Mtn Yang Hall
+track: observability
+presenters: Minghui Zhang
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- rocketmq
+- opentelemetry
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 In distributed systems, Apache RocketMQ serves as a core messaging middleware, and its performance optimization and fault diagnosis often directly impact the stability and efficiency of the entire system. However, as business complexity grows, the observability of messaging systems is increasingly becoming a key factor in addressing production issues.
 This session will focus on practical approaches to enhancing Apache RocketMQ's observability, with an emphasis on how OpenTelemetry can improve client transparency and address challenges in complex scenarios such as multi-messaging system integration. For the client-side, we will demonstrate the use of zero-code instrumentation tools to automatically monitor the operational status of producers and consumers. Key metrics like RED (Rate, Errors, Duration), consumer lag, and others will be observed, alongside an exploration of how distributed tracing technology can enable end-to-end correlation across upstream and downstream systems. This includes common send/receive operations, batch processing, and poll-mode scenarios. Additionally, we will introduce continuous profiling techniques to help capture performance bottlenecks in real-time and quickly pinpoint issues.
 For specialized scenarios, we will take the Internet of Things (IoT) as an example to analyze the observability challenges when integrating MQTT with Apache RocketMQ. We will discuss strategies for building lightweight, unified TraceContext to achieve cross-protocol full-chain tracing.

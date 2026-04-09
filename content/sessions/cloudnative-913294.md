@@ -1,12 +1,21 @@
 ---
-title: "Implementation and Tuning Practice of Apache IoTDB System Monitoring Framework"
-date: "2026-08-07T16:45:00"
-room: "Mtn Yang Hall"
-track: "cloudnative"
-presenters: "Hongyin Zhang"
-stype: "Chinese Session"
+title: Implementation and Tuning Practice of Apache IoTDB System Monitoring Framework
+date: '2026-08-07T16:45:00'
+room: Mtn Yang Hall
+track: cloudnative
+presenters: Hongyin Zhang
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache iotdb
+- prometheus
+- grafana
+audience:
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Since version 1.0.0, Apache IoTDB has provided a unified system monitoring framework, allowing database developers to define system monitoring indicators such as counters and register them for unified management, and supporting the Prometheus + Grafana monitoring indicator visualization solution. After a year of practice, 4 visual monitoring panels and a lot of tuning experience based on system monitoring have been formed.
 
 ### Speakers:

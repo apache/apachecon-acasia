@@ -1,12 +1,19 @@
 ---
-title: "Flink Agents: The Agentic AI Framework based on Apache Flink"
-date: "2026-08-07T16:45:00"
-room: "YuanMing Hall"
-track: "streaming"
-presenters: "Xintong Song"
-stype: "Chinese Session"
+title: 'Flink Agents: The Agentic AI Framework based on Apache Flink'
+date: '2026-08-07T16:45:00'
+room: YuanMing Hall
+track: streaming
+presenters: Xintong Song
+stype: Chinese Session
+depth: advanced
+practice_level: 3
+projects:
+- flink
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Agentic AI applications can be categorized into two types based on their triggering mechanism: user-triggered agents and system-triggered agents. With the rapid evolving of techniques, we believe the future of agentic AI application is industrialized, and the majority of agentic workload would be triggered by real-time system events and data updates.
 
 System-triggered agents must run continuously, act autonomously, and recover from failure without manual intervention. Flink's capabilities in real-time distributed event processing, state management and exact-once consistent fault tolerance make it well-suited as a framework for building such agents. Furthermore, system-triggered agents are often tightly coupled with data processing. Flink's outstanding data processing capabilities brings seamless integration between data and agentic processing, differentiate it from other agent frameworks.

@@ -1,12 +1,19 @@
 ---
-title: "圆桌讨论：独立开发者的黄金时代"
-date: "2026-08-08T11:30:00"
-track: "keynote"
-presenters: "高 阳, 杨 攀, 罗百顺, 祁 宁, 阴 明"
-stype: "中文演讲"
-room: "主会场 - 颐和厅"
+title: 圆桌讨论：独立开发者的黄金时代
+date: '2026-08-08T11:30:00'
+track: keynote
+presenters: 高 阳, 杨 攀, 罗百顺, 祁 宁, 阴 明
+stype: 中文演讲
+room: 主会场 - 颐和厅
+depth: intermediate
+practice_level: 4
+projects:
+- apache answer
+audience:
+- 开发者
+- 产品/经理
+related_sessions: []
 ---
-
 AI 浪潮奔涌，独立开发者的机遇与挑战何在？ 本次圆桌汇聚  SegmentFault、VibeCafé、Chuhaiqu.club、Apache Answer、SiliconFlow 等代表项目创始人及核心成员，直面 AI 时代核心议题：
 
 - 机遇解锁： AI 如何赋能个体开发者开拓新领域、放大价值，构建商业竞争力？

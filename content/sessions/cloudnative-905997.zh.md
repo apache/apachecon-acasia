@@ -1,12 +1,21 @@
 ---
-title: "Apache HertzBeat，新一代开源实时监控与告警平台"
-date: "2026-08-07T14:00:00"
-room: "阳山会议室"
-track: "cloudnative"
-presenters: "Hongyu Liu"
-stype: "中文演讲"
+title: Apache HertzBeat，新一代开源实时监控与告警平台
+date: '2026-08-07T14:00:00'
+room: 阳山会议室
+track: cloudnative
+presenters: Hongyu Liu
+stype: 中文演讲
+depth: beginner
+practice_level: 3
+projects:
+- apache hertzbeat
+- apache shenyu
+audience:
+- 开发者
+- SRE/运维
+- 架构师
+related_sessions: []
 ---
-
 Apache HertzBeat 是一款新一代开源实时监控与告警平台。它强调监控的重要性并指出传统解决方案的痛点，将 HertzBeat 定位为统一监控的“一站式”解决方案，并提供增强的用户体验。
 
 ### 讲师:

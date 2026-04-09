@@ -1,12 +1,22 @@
 ---
-title: "Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark Cluster"
-date: "2026-08-09T15:00:00"
-room: "Mtn Yang Hall"
-track: "observability"
-presenters: "Runqi Lin, Hongyi Zhou"
-stype: "Chinese Session"
+title: 'Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark
+  Cluster'
+date: '2026-08-09T15:00:00'
+room: Mtn Yang Hall
+track: observability
+presenters: Runqi Lin, Hongyi Zhou
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- flink
+- spark
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 In today's era of artificial intelligence + big data, enterprises are facing the challenges of rapid growth and diversified needs of massive data. Combining Apache Flink/Spark, two popular distributed computing engines, enterprises can build flexible real-time and batch data processing pipelines. However, in a large-scale stream processing service cluster environment, observability faces many challenges, mainly including dynamic perception of elastic tasks, large amounts of observable data, and strict requirements for real-time performance. As a full-stack observable data collector, LoongCollector can help users efficiently collect and process logs, metrics, and tracking data. In this talk, we will focus on how to achieve the best practices of enterprise-level observability for Flink/Spark through LoongCollector.
 Outline:
 ● Chanllenges in large-scale cluster observability of Apache Flink/Spark

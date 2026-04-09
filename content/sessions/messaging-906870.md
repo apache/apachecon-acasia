@@ -1,12 +1,21 @@
 ---
-title: "Empowering Serverless Messaging Architectures with Apache RocketMQ"
-date: "2026-08-08T15:00:00"
-room: "JingYi Hall"
-track: "messaging"
-presenters: "Juntao Ji"
-stype: "Chinese Session"
+title: Empowering Serverless Messaging Architectures with Apache RocketMQ
+date: '2026-08-08T15:00:00'
+room: JingYi Hall
+track: messaging
+presenters: Juntao Ji
+stype: Chinese Session
+depth: advanced
+practice_level: 4
+projects:
+- apache rocketmq
+- rabbitmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 In our latest work, which was accepted to the the ACM FSE 2025 Industry Track, Apache RocketMQ serves as a powerful foundation for serverless messaging systems, addressing the scalability, cost, and metadata challenges of traditional middleware. By decoupling storage and compute, Apache RocketMQ enables independent resource scaling, critical for unpredictable cloud workloads. Its elastic write partitions eliminate single-queue throughput limits, while light message queue support millions of queues with minimal cold-start latency. 
 
 We demonstrate this with our RocketMQ-based RabbitMQ implementation, which retains full protocol compatibility while overcoming RabbitMQ’s scaling limitations. Leveraging RocketMQ’s architecture, we achieved unlimited horizontal scalability and improved metadata management efficiency by over 1000%. This serverless solution operates commercially on Alibaba Cloud. Our experiences illustrate RocketMQ’s ability to transform legacy messaging systems into cloud-native services, providing a blueprint for future-proof serverless architectures.

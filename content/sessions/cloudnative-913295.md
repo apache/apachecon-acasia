@@ -1,12 +1,21 @@
 ---
-title: "Apache Kafka 4.0 on Huawei Cloud"
-date: "2026-08-07T14:30:00"
-room: "Mtn Yang Hall"
-track: "cloudnative"
-presenters: "Lan Ding"
-stype: "Chinese Session"
+title: Apache Kafka 4.0 on Huawei Cloud
+date: '2026-08-07T14:30:00'
+room: Mtn Yang Hall
+track: cloudnative
+presenters: Lan Ding
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- kafka
+- rocketmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 In this session, I will introduce some key features of Apache Kafka 4.0, including the next-generation consumer rebalance protocol (KIP-848), queues for Kafka (KIP-932), and more. I will then discuss how to smoothly upgrade from older Kafka versions to 4.0 and analyze the implications for client compatibility. Finally, I will share Huawei Cloud’s explorations and practices in cloud-native based on Apache Kafka 4.0.
 
 ### Speakers:

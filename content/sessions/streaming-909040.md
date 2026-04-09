@@ -1,12 +1,20 @@
 ---
-title: "Flex: Unified Stream and Batch Vectorized Engine"
-date: "2026-08-07T17:15:00"
-room: "YuanMing Hall"
-track: "streaming"
-presenters: "Jacky Lau"
-stype: "Chinese Session"
+title: 'Flex: Unified Stream and Batch Vectorized Engine'
+date: '2026-08-07T17:15:00'
+room: YuanMing Hall
+track: streaming
+presenters: Jacky Lau
+stype: Chinese Session
+depth: advanced
+practice_level: 3
+projects:
+- flink
+- spark
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Flex is designed to be a unified engine that supports both stream and batch processing, leveraging vectorization to maximize performance. Its goal is to seamlessly handle diverse data workloads, whether they are real-time streams or batch jobs, with high efficiency and scalability.
 
 ### Speakers:

@@ -1,12 +1,20 @@
 ---
-title: "当 Flink 遇见 Fluss：流式数据仓库的未来"
-date: "2026-08-08T15:45:00"
-room: "圆明厅"
-track: "streaming"
-presenters: "Jark Wu"
-stype: "中文演讲"
+title: 当 Flink 遇见 Fluss：流式数据仓库的未来
+date: '2026-08-08T15:45:00'
+room: 圆明厅
+track: streaming
+presenters: Jark Wu
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- flink
+- kafka
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Kafka 和 Flink 已广泛应用于流处理场景，成为构建流式数据仓库和实时分析的事实标准范例。然而，它仍然面临许多难以解决的挑战性问题。本讲座将探讨该范例在流式分析中面临的挑战和问题。
 
 我们将首先讨论 Kafka 与 Flink 结合使用的局限性和痛点。然后，我们将介绍 Fluss，一款专为流式分析设计的下一代流式存储。我们将介绍 Fluss 的架构和核心创新，重点介绍它如何与 Flink 无缝集成，从而赋能下一代流式数据仓库。您将发现 Flink 与 Fluss 的结合所带来的颠覆性功能，例如流式列修剪、增量连接、联合读取和合并引擎。

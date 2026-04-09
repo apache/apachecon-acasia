@@ -1,12 +1,21 @@
 ---
-title: "Apache Amoro & iceberg in Huolala Prdouction"
-date: "2026-08-07T14:30:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Zheng Yu Chen"
-stype: "Chinese Session"
+title: Apache Amoro & iceberg in Huolala Prdouction
+date: '2026-08-07T14:30:00'
+room: WanChun Hall
+track: datalake
+presenters: Zheng Yu Chen
+stype: Chinese Session
+depth: advanced
+practice_level: 5
+projects:
+- apache amoro
+- apache iceberg
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 At Huolala, we leveraged Apache Amoro to build a next-generation lakehouse platform with Apache Iceberg as its core. While managing petabyte-scale daily data processing, we tackled critical stability challenges, including:
 
 Production Stability Challenges:

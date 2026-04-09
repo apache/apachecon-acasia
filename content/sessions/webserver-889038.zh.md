@@ -1,12 +1,20 @@
 ---
-title: "经验教训：使用 Tomcat 和虚拟线程构建服务网关"
-date: "2026-08-08T14:00:00"
-room: "阳山会议室"
-track: "webserver"
-presenters: "Yike Xiao"
-stype: "中文演讲"
+title: 经验教训：使用 Tomcat 和虚拟线程构建服务网关
+date: '2026-08-08T14:00:00'
+room: 阳山会议室
+track: webserver
+presenters: Yike Xiao
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- tomcat
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 本次技术研讨会分享了使用 Tomcat 和 Java 21 虚拟线程构建和部署生产服务网关的实践经验和关键见解。我们将探讨 Tomcat 的原生虚拟线程支持如何提升网关性能、迁移过程中面临的挑战，以及在使用 Project Loom 的虚拟线程对基于 Tomcat 的传统服务网关进行现代化改造的过程中获得的最佳实践。
 
 ### 讲师:

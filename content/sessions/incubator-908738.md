@@ -1,12 +1,20 @@
 ---
-title: "BifroMQ: A High-Performance MQTT Broker for Multi-Tenant"
-date: "2026-08-09T16:15:00"
-room: "Mtn YuQuan Hall"
-track: "incubator"
-presenters: "Hao Yonny(Yu)"
-stype: "Chinese Session"
+title: 'BifroMQ: A High-Performance MQTT Broker for Multi-Tenant'
+date: '2026-08-09T16:15:00'
+room: Mtn YuQuan Hall
+track: incubator
+presenters: Hao Yonny(Yu)
+stype: Chinese Session
+depth: advanced
+practice_level: 3
+projects:
+- bifromq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 BifroMQ is a Java-based, high-performance MQTT broker currently incubating at the Apache Software Foundation. It is designed from the ground up to support native multi-tenancy, linear scalability, and massive concurrent connections—all while ensuring consistently low-latency messaging.
 In this session, we will explore the architectural principles that shape BifroMQ’s design, driven by the unique challenges of building a multi-tenant distributed MQTT broker.
 

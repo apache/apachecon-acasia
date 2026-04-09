@@ -1,12 +1,21 @@
 ---
-title: "Apache Kafka 4.0 在华为云上的应用"
-date: "2026-08-07T14:30:00"
-room: "阳山会议室"
-track: "cloudnative"
-presenters: "Lan Ding"
-stype: "中文演讲"
+title: Apache Kafka 4.0 在华为云上的应用
+date: '2026-08-07T14:30:00'
+room: 阳山会议室
+track: cloudnative
+presenters: Lan Ding
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- kafka
+- rocketmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 在本场会议中，我将介绍 Apache Kafka 4.0 的部分核心功能，包括下一代消费者重新平衡协议（KIP-848）、Kafka 队列（KIP-932）等，随后探讨如何从旧版本 Kafka 顺利升级至 4.0，并分析对客户端兼容性的影响。最后，我将分享华为云基于 Apache Kafka 4.0 的云原生探索与实践。
 
 ### 讲师:

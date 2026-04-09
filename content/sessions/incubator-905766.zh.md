@@ -1,12 +1,19 @@
 ---
-title: "探索孵化流程"
-date: "2026-08-09T14:00:00"
-room: "玉泉山会议室"
-track: "incubator"
-presenters: "Justin Mclean"
-stype: "英文演讲"
+title: 探索孵化流程
+date: '2026-08-09T14:00:00'
+room: 玉泉山会议室
+track: incubator
+presenters: Justin Mclean
+stype: 英文演讲
+depth: beginner
+practice_level: 2
+projects: []
+audience:
+- 通用
+- 开发者
+- 产品/经理
+related_sessions: []
 ---
-
 本次演讲将概述 Apache 软件基金会 (ASF)及其孵化流程。内容将指导项目如何学习 Apache 之道，确保符合许可证和知识产权要求，并促进社区发展。该流程包括创建提案、进入孵化器、专注于社区建设和版本发布，最终毕业成为 ASF 顶级项目。演讲涵盖的关键方面包括：遵守许可证要求、践行开放透明原则以及采用供应商中立策略。本演讲将为有意加入 ASF 或希望了解孵化流程的人士提供宝贵见解。
 
 ### 讲师:

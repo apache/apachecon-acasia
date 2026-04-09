@@ -1,12 +1,19 @@
 ---
-title: "Accelerate Spark Queries with Gluten and Velox Engine on Arm64"
-date: "2026-08-07T16:45:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Yuqi Gu"
-stype: "Chinese Session"
+title: Accelerate Spark Queries with Gluten and Velox Engine on Arm64
+date: '2026-08-07T16:45:00'
+room: WanChun Hall
+track: datalake
+presenters: Yuqi Gu
+stype: Chinese Session
+depth: advanced
+practice_level: 3
+projects:
+- spark
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Apache Spark SQL provides a robust solution, enabling users to process massive datasets efficiently. Recently, Project Gluten was introduced as an Apache Arrow-based native SQL engine designed to enhance Spark SQL's capabilities. Concurrently, several vectorized SQL engines with vibrant open-source communities have gained traction. Among them, the Meta-led Velox project stands out as a promising vectorized database acceleration library.
 
 The Gluten-Velox integration represents a significant leap forward, delivering an optimized Spark SQL accelerator tailored for the Arm platform. By leveraging Gluten-Velox, Spark SQL overcomes the limitations of its traditional row-based data processing and JVM constraints on Arm64 architectures. This is made possible through the vertical composability of Arm64 SIMD capabilities and advanced vectorized execution techniques.

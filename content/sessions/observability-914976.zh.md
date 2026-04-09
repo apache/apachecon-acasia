@@ -1,12 +1,20 @@
 ---
-title: "消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究"
-date: "2026-08-09T14:00:00"
-room: "阳山会议室"
-track: "observability"
-presenters: "Minghui Zhang"
-stype: "中文演讲"
+title: 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
+date: '2026-08-09T14:00:00'
+room: 阳山会议室
+track: observability
+presenters: Minghui Zhang
+stype: 中文演讲
+depth: intermediate
+practice_level: 5
+projects:
+- rocketmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 在分布式系统中，Apache RocketMQ 作为核心消息中间件，其性能优化和故障诊断往往直接影响整个系统的稳定性和效率。然而，随着业务复杂性的不断增长，消息系统的可观察性正日益成为解决生产环境问题的关键因素。
 本次会议将重点探讨增强 Apache RocketMQ 可观察性的实用方法，重点介绍 OpenTelemetry 如何提升客户端透明度，并应对多消息系统集成等复杂场景中的挑战。在客户端，我们将演示如何使用零代码检测工具自动监控生产者和消费者的运行状态。我们将观察 RED（速率、错误数、时长）、消费者延迟等关键指标，并探讨分布式追踪技术如何实现跨上下游系统的端到端关联。这涵盖了常见的发送/接收操作、批处理和轮询模式场景。此外，我们将介绍持续性能分析技术，帮助实时捕获性能瓶颈并快速定位问题。
 针对特定场景，我们将以物联网 (IoT) 为例，分析 MQTT 与 Apache RocketMQ 集成时面临的可观察性挑战。我们将讨论构建轻量级、统一的 TraceContext 以实现跨协议全链路追踪的策略。

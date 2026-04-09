@@ -1,12 +1,21 @@
 ---
-title: "全景可观测性：LoongCollector 助力大规模 Apache Flink 和 Spark 集群"
-date: "2026-08-09T15:00:00"
-room: "阳山会议室"
-track: "observability"
-presenters: "Runqi Lin, Hongyi Zhou"
-stype: "中文演讲"
+title: 全景可观测性：LoongCollector 助力大规模 Apache Flink 和 Spark 集群
+date: '2026-08-09T15:00:00'
+room: 阳山会议室
+track: observability
+presenters: Runqi Lin, Hongyi Zhou
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- flink
+- spark
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 在当今人工智能+大数据时代，企业面临着海量数据快速增长和需求多样化的挑战。结合 Apache Flink/Spark 两大主流分布式计算引擎，企业可以构建灵活的实时和批量数据处理流水线。然而，在大规模流处理服务集群环境下，可观测性面临诸多挑战，主要包括弹性任务的动态感知、海量可观测数据以及对实时性的严格要求。LoongCollector 作为一款全栈可观测数据收集器，可以帮助用户高效地收集和处理日志、指标和追踪数据。本次演讲将重点探讨如何通过 LoongCollector 实现 Flink/Spark 企业级可观测性的最佳实践。
 提纲：
 ● Apache Flink/Spark 大规模集群可观测性挑战

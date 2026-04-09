@@ -1,12 +1,21 @@
 ---
-title: "Kafka on Tencent Cloud: Seamless Migration & Disaster Recovery"
-date: "2026-08-08T14:00:00"
-room: "JingYi Hall"
-track: "messaging"
-presenters: "Shilin Lu"
-stype: "Chinese Session"
+title: 'Kafka on Tencent Cloud: Seamless Migration & Disaster Recovery'
+date: '2026-08-08T14:00:00'
+room: JingYi Hall
+track: messaging
+presenters: Shilin Lu
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- kafka
+- rocketmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 This session introduces the seamless migration of self-built Kafka cluster to Tencent Cloud CKafka solution, without paying attention to the produce and consume application switching order during migration. In addition, this section describes the fault disaster recovery on Tencent Cloud CKafka.
 
 ### Speakers:

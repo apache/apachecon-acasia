@@ -1,12 +1,24 @@
 ---
-title: "Celeborn’s Revolution in Multi-Engine Support, Performance Mastery, and Enterprising Innovation"
-date: "2026-08-08T16:15:00"
-room: "Mtn WanShou Hall"
-track: "datastorage"
-presenters: "Jiashu Xiong, Ethan Feng"
-stype: "Chinese Session"
+title: Celeborn’s Revolution in Multi-Engine Support, Performance Mastery, and Enterprising
+  Innovation
+date: '2026-08-08T16:15:00'
+room: Mtn WanShou Hall
+track: datastorage
+presenters: Jiashu Xiong, Ethan Feng
+stype: Chinese Session
+depth: advanced
+practice_level: 3
+projects:
+- celeborn
+- spark
+- flink
+- hadoop
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Apache Celeborn has made significant progress over the past year, introducing new capabilities, performance optimizations, and expanded engine support.
 
 Functional enhancements include:

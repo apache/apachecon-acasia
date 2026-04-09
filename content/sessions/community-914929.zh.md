@@ -1,12 +1,18 @@
 ---
-title: "为何如此艰难？"
-date: "2026-08-08T14:00:00"
-room: "玉泉山会议室"
-track: "community"
-presenters: "Craig Russell"
-stype: "英文演讲"
+title: 为何如此艰难？
+date: '2026-08-08T14:00:00'
+room: 玉泉山会议室
+track: community
+presenters: Craig Russell
+stype: 英文演讲
+depth: beginner
+practice_level: 2
+projects: []
+audience:
+- 开发者
+- 通用
+related_sessions: []
 ---
-
 为何如此艰难……
 
 - 向项目/孵化项目提交补丁？

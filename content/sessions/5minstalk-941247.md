@@ -1,12 +1,22 @@
 ---
-title: "SecretFlow--Open Source Privacy-Preserving Technology Framework"
-date: "2026-08-09T11:15:00"
-track: "5minstalk"
-presenters: "Mingyang Jia"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: SecretFlow--Open Source Privacy-Preserving Technology Framework
+date: '2026-08-09T11:15:00'
+track: 5minstalk
+presenters: Mingyang Jia
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 3
+projects:
+- kubernetes
+- k3s
+- envoy
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Introduce the technical background of privacy-preserving computation, discuss the existing challenges in current industrial applications of privacy-preserving computation, and then explain why SecretFlow is needed. Subsequently, what work SecretFlow has done to solve these problems.
 
 ### Speakers:

@@ -1,12 +1,22 @@
 ---
-title: "在实践中构建实时数据湖"
-date: "2026-08-08T15:00:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Congxian Qiu, Zhuojun Jiang"
-stype: "中文演讲"
+title: 在实践中构建实时数据湖
+date: '2026-08-08T15:00:00'
+room: 万春厅
+track: datalake
+presenters: Congxian Qiu, Zhuojun Jiang
+stype: 中文演讲
+depth: advanced
+practice_level: 5
+projects:
+- flink cdc
+- apache iceberg
+- apache amoro
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 在实时驱动业务决策的时代，高吞吐量数据湖仓库的架构设计已成为企业数字化转型的决战战场。面对传统批处理架构难以逾越的时效性瓶颈，我们基于 Flink CDC 3.0 + Apache Iceberg + Apache Amoro 构建了流式数据湖仓库系统，成功实现了单客户日均数百亿数据流的分钟级就绪和查询性能跨越。
 
 本次分享将介绍三方面的实践经验：

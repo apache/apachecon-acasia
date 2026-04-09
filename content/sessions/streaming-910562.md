@@ -1,12 +1,20 @@
 ---
-title: "Kafka 4.0 Highlights: Features, Removals, and Upgrades"
-date: "2026-08-08T16:15:00"
-room: "YuanMing Hall"
-track: "streaming"
-presenters: "Jiunn-Yang Huang, Chia-Ping Tsai, PoAn Yang, TengYao Chi, YiHuan LEE, Kuan Po Tseng"
-stype: "Chinese Session"
+title: 'Kafka 4.0 Highlights: Features, Removals, and Upgrades'
+date: '2026-08-08T16:15:00'
+room: YuanMing Hall
+track: streaming
+presenters: Jiunn-Yang Huang, Chia-Ping Tsai, PoAn Yang, TengYao Chi, YiHuan LEE,
+  Kuan Po Tseng
+stype: Chinese Session
+depth: intermediate
+practice_level: 3
+projects:
+- kafka
+audience:
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 While there’s already a lot of buzz around Kafka 4.0, most discussions focus on the headline features—like the removal of ZooKeeper or the introduction of new APIs. In this session, we want to highlight some of the lesser-known but equally important changes in Kafka 4.0. These updates might not grab the spotlight, but they can significantly impact how you configure, operate, and debug Kafka in real-world environments.
 
 One of the major questions users face is how to approach the upgrade to Kafka 4.0. KIP-896 removes support for protocol versions 2.0 and below, and KIP-1124 offers official guidance for upgrading Kafka clients, Connect, and Streams. On the server side, users must ensure JDK compatibility and consider how to transition from ZooKeeper-based setups to the new architecture. This section will cover the most critical considerations to keep in mind during the upgrade process.

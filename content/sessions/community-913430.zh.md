@@ -1,12 +1,22 @@
 ---
-title: "蚂蚁开源孵化实践探索"
-date: "2026-08-08T15:00:00"
-room: "玉泉山会议室"
-track: "community"
-presenters: "Peggy Dong"
-stype: "英文演讲"
+title: 蚂蚁开源孵化实践探索
+date: '2026-08-08T15:00:00'
+room: 玉泉山会议室
+track: community
+presenters: Peggy Dong
+stype: 英文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache fury
+- apache seata
+- apache horaedb
+audience:
+- 架构师
+- 开发者
+- 产品/经理
+related_sessions: []
 ---
-
 蚂蚁集团（一家拥有2.5万名员工的金融科技公司）一直是开源社区的积极参与者，拥有多个项目，如 Apache Fury、Apache Seata、Apache HoraeDB 等。
 
 蚂蚁集团开源孵化项目深深植根于 Apache 之道的原则，是一个致力于在开源生态系统中促进创新和协作的专门平台。它秉承社区驱动开发、精英管理、透明度和开放沟通等核心原则，确保在其羽翼下培育的项目符合高质量、包容性和可持续性的最高标准。

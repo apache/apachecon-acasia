@@ -1,12 +1,22 @@
 ---
-title: "Practical Experiences in Ant Open Source Incubation"
-date: "2026-08-08T15:00:00"
-room: "Mtn YuQuan Hall"
-track: "community"
-presenters: "Peggy Dong"
-stype: "English Session"
+title: Practical Experiences in Ant Open Source Incubation
+date: '2026-08-08T15:00:00'
+room: Mtn YuQuan Hall
+track: community
+presenters: Peggy Dong
+stype: English Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache fury
+- apache seata
+- apache horaedb
+audience:
+- 架构师
+- 开发者
+- 产品/经理
+related_sessions: []
 ---
-
 Ant Group (fintech company with 25K employees) has been an active participant in Open Source community with many projects, such as Apache Fury, Apache Seata, Apache Seata, Apache HoraeDB.
 
 The Ant Group Open Source Incubation, deeply rooted in the principles of the Apache Way, is a dedicated platform fostering innovation and collaboration within the open-source ecosystem. It embraces the core tenets of community-driven development, meritocracy, transparency, and open communication, ensuring that projects nurtured under its umbrella adhere to the highest standards of quality, inclusivity, and sustainability.

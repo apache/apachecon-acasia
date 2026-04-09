@@ -1,12 +1,19 @@
 ---
-title: "How to Keep Your Open Source Project Going After the Hype Dies Down"
-date: "2026-08-08T10:00:00"
-track: "keynote"
-presenters: "Quincy Larson"
-stype: "English Session"
-room: "MainRoom - YiHe Hall"
+title: How to Keep Your Open Source Project Going After the Hype Dies Down
+date: '2026-08-08T10:00:00'
+track: keynote
+presenters: Quincy Larson
+stype: English Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 4
+projects: []
+audience:
+- 开发者
+- 产品/经理
+- 通用
+related_sessions: []
 ---
-
 This session will explain the Gartner Hype Cycle and how it applies to open source software projects. I'll share insight into the role that both word-of-mouth and social media play in getting developers to contribute to your open source project. We'll discuss how to get attention and how to adapt as that attention inevitably fades.
 
 freeCodeCamp's open source project has over 400,000 stars on GitHub and more than 50,000 codebase contributions over the past 10 years. I'll share our ups and downs, and lessons we've learned about how to keep your project going, so that you can sustain your projects, too.

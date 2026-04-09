@@ -1,11 +1,18 @@
 ---
-title: "Apache RocketMQ Eventbridge: Why Your GenAI Needs EDA？"
-date: "2026-08-07T14:00:00"
-track: "messaging"
-presenters: "Lin Shen"
-stype: "Chinese Session"
---- 
-
+title: 'Apache RocketMQ Eventbridge: Why Your GenAI Needs EDA？'
+date: '2026-08-07T14:00:00'
+track: messaging
+presenters: Lin Shen
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- rocketmq
+audience:
+- 架构师
+- 开发者
+related_sessions: []
+---
 If you are involved in the field of AI, you should pay attention to the significant assistance that EDA provides to LLMs and AI Agents. This presentation will primarily discuss the changes that EDA is bringing to GenAI:
 
 1. Through Real-Time RAG, EDA makes your LLMs smarter.
@@ -23,4 +30,3 @@ Additionally, it will present the practices and explorations done by Apache Rock
 Lin Shen: Apache RocketMQ PMC
 
 Apache RocketMQ PMC,  Lead of Alibaba Cloud EventBridge, focusing on EDA research.
-

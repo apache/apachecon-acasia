@@ -1,12 +1,22 @@
 ---
-title: "Apache HertzBeat, a new generation open-source real-time monitoring and alerting platform"
-date: "2026-08-07T14:00:00"
-room: "Mtn Yang Hall"
-track: "cloudnative"
-presenters: "Hongyu Liu"
-stype: "Chinese Session"
+title: Apache HertzBeat, a new generation open-source real-time monitoring and alerting
+  platform
+date: '2026-08-07T14:00:00'
+room: Mtn Yang Hall
+track: cloudnative
+presenters: Hongyu Liu
+stype: Chinese Session
+depth: beginner
+practice_level: 3
+projects:
+- apache hertzbeat
+- apache shenyu
+audience:
+- 开发者
+- SRE/运维
+- 架构师
+related_sessions: []
 ---
-
 Apache HertzBeat is a next-generation open-source real-time monitoring and alerting platform. It highlights the importance of monitoring and the pain points of traditional solutions, positioning HertzBeat as an "All in One" solution for unified monitoring and an enhanced user experience.
 
 ### Speakers:

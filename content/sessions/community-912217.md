@@ -1,12 +1,18 @@
 ---
-title: "Nurturing New Contributors: The Art of Crafting Good First Issues"
-date: "2026-08-08T14:30:00"
-room: "Mtn YuQuan Hall"
-track: "community"
-presenters: "Willem Jiang"
-stype: "Chinese Session"
+title: 'Nurturing New Contributors: The Art of Crafting Good First Issues'
+date: '2026-08-08T14:30:00'
+room: Mtn YuQuan Hall
+track: community
+presenters: Willem Jiang
+stype: Chinese Session
+depth: beginner
+practice_level: 4
+projects: []
+audience:
+- 开发者
+- 通用
+related_sessions: []
 ---
-
 In the world of open source development, the journey of a new contributor often begins with their first issue. This presentation explores the crucial role of 'good first issues' in GitHub repositories and how they serve as a gateway for newcomers to the open source community. We'll delve into the best practices for creating these issues, focusing on clarity, approachability, and educational value.
 
 The talk will cover strategies for identifying appropriate tasks, writing clear descriptions, and providing necessary context and resources. We'll also discuss how well-crafted first issues can serve as a form of documentation and learning material for your project. Drawing from real-world examples and success stories, we'll demonstrate how thoughtful issue creation can lead to increased community engagement, diversity in contributions, and overall project health.

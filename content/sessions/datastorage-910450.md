@@ -1,12 +1,20 @@
 ---
-title: "Apache Ozone Best Practices at Shopee"
-date: "2026-08-08T15:00:00"
-room: "Mtn WanShou Hall"
-track: "datastorage"
-presenters: "Hui Fei"
-stype: "Chinese Session"
+title: Apache Ozone Best Practices at Shopee
+date: '2026-08-08T15:00:00'
+room: Mtn WanShou Hall
+track: datastorage
+presenters: Hui Fei
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache ozone
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 At Shopee, we have been using Ozone for over four years, with the number of stored objects reaching the billions. In this session, I will introduce two features we developed: Object Lifecycle Management and Storage Class.
 
 ### Speakers:

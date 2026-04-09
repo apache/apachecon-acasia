@@ -1,12 +1,23 @@
 ---
-title: "SecretFlow — 开源隐私保护技术框架"
-date: "2026-08-09T11:15:00"
-track: "5minstalk"
-presenters: "Mingyang Jia"
-stype: "中文演讲"
-room: "主会场 - 颐和厅"
+title: SecretFlow — 开源隐私保护技术框架
+date: '2026-08-09T11:15:00'
+track: 5minstalk
+presenters: Mingyang Jia
+stype: 中文演讲
+room: 主会场 - 颐和厅
+depth: intermediate
+practice_level: 3
+projects:
+- kuscia
+- kubernetes
+- k3s
+- envoy
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 介绍隐私计算的技术背景，探讨当前隐私计算在工业应用中存在的挑战，进而说明为什么需要SecretFlow。随后阐述SecretFlow为解决这些问题做了哪些工作。
 
 ### 讲师:

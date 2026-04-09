@@ -1,12 +1,19 @@
 ---
-title: "使用外部状态和动态表实现可扩展的连接和聚合"
-date: "2026-08-08T14:30:00"
-room: "圆明厅"
-track: "streaming"
-presenters: "Feng Jin"
-stype: "中文演讲"
+title: 使用外部状态和动态表实现可扩展的连接和聚合
+date: '2026-08-08T14:30:00'
+room: 圆明厅
+track: streaming
+presenters: Feng Jin
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- flink
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 1. 背景与动机
   • Flink SQL 在规模化方面的挑战：大状态、长连接、复杂的维护
   • 业务用例：汽车数据仓库和报警系统

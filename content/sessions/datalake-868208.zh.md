@@ -1,12 +1,19 @@
 ---
-title: "Apache Iceberg 的隐藏超能力：治理、实验与自主未来"
-date: "2026-08-07T14:00:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Shekhar Prasad Rajak"
-stype: "英文演讲"
+title: Apache Iceberg 的隐藏超能力：治理、实验与自主未来
+date: '2026-08-07T14:00:00'
+room: 万春厅
+track: datalake
+presenters: Shekhar Prasad Rajak
+stype: 英文演讲
+depth: advanced
+practice_level: 4
+projects:
+- apache iceberg
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 大多数关于 Apache Iceberg 的演讲都热衷于谈论时间旅行和 ACID 合规性——这已经不足为奇了。但那些鲜为人知的功能呢？那些能够将混乱转化为秩序、将实验转化为胜利、将静态表格转化为自主驱动力的功能——让你的数据平台能够自我思考？欢迎来到这里，我们将一起探索 Iceberg 的隐藏工具包。
 
 以下是 30 分钟深入探讨的计划：首先用 5 分钟介绍为什么 Iceberg 的隐藏功能比基础知识更耀眼。接着用 6 分钟探讨治理，利用 REST Catalog 实现动态控制。然后，用 6 分钟介绍分支。之后，用 5 分钟介绍指标——通过报告。再用 6 分钟介绍自主 Iceberg——结合 REST Catalog 和模型上下文协议（MCP），这是一个未来愿景，即 Iceberg 与 AI 代理协同工作。

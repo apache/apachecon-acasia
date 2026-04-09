@@ -1,12 +1,21 @@
 ---
-title: "蚂蚁集团基于 Apache Celeborn 的大规模 Shuffle 实践"
-date: "2026-08-07T14:00:00"
-room: "万寿山会议室"
-track: "datastorage"
-presenters: "Erik Fang"
-stype: "中文演讲"
+title: 蚂蚁集团基于 Apache Celeborn 的大规模 Shuffle 实践
+date: '2026-08-07T14:00:00'
+room: 万寿山会议室
+track: datastorage
+presenters: Erik Fang
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- apache celeborn
+- spark
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 每天处理 PB 级别的 shuffle 数据对批处理作业，尤其是 shuffle 性能，提出了重大挑战。
 在本次演讲中，Erik 将介绍蚂蚁集团如何将 Apache Celeborn 与 Spark 结合使用，深入探讨正确性验证、瓶颈诊断、性能优化以及与 DFS 集成等几个主题。
 

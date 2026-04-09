@@ -1,12 +1,20 @@
 ---
-title: "Practice of Flink Memory Governance at ByteDance"
-date: "2026-08-08T14:00:00"
-room: "YuanMing Hall"
-track: "streaming"
-presenters: "Yiheng Tang, Shaojun Wang"
-stype: "Chinese Session"
+title: Practice of Flink Memory Governance at ByteDance
+date: '2026-08-08T14:00:00'
+room: YuanMing Hall
+track: streaming
+presenters: Yiheng Tang, Shaojun Wang
+stype: Chinese Session
+depth: advanced
+practice_level: 5
+projects:
+- flink
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 As the demand for streaming tasks continues to grow within ByteDance, Flink has been widely adopted across various business domains at scale. Among the resource costs of these large-scale tasks, memory stands out as a significant contributor—especially heap memory. The total allocated memory for all tasks has reached tens of thousands of terabytes, yet the JVM heap utilization remains below 50%, and container-level memory usage is under 70%. Against the backdrop of company-wide cost reduction and efficiency improvement, we have carried out a series of memory optimizations focused on heap memory usage prediction, off-heap memory usage tracking, and simplifying Flink’s memory model. These efforts have been successfully rolled out across ByteDance, resulting in memory savings of over a thousand terabytes.
 In this talk, we will present the key joint optimizations led by the Flink and JVM teams at ByteDance, and share the results we’ve achieved.
 

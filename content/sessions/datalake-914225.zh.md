@@ -1,12 +1,20 @@
 ---
-title: "Impala 在 Iceberg 上与 Puffins"
-date: "2026-08-08T14:30:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Daniel Becker"
-stype: "英文演讲"
+title: Impala 在 Iceberg 上与 Puffins
+date: '2026-08-08T14:30:00'
+room: 万春厅
+track: datalake
+presenters: Daniel Becker
+stype: 英文演讲
+depth: advanced
+practice_level: 4
+projects:
+- apache iceberg
+- apache impala
+audience:
+- 开发者
+- 架构师
+related_sessions: []
 ---
-
 Apache Iceberg 表格式已成为大数据领域的事实标准。与基于传统文件系统的表格式相比，它拥有诸多优势，例如行级修改、事务、分区转换和时间旅行，使其成为许多项目自然而然的首选。数据统计
 
 信息可以极大地帮助数据库引擎创建高效的查询计划。作为领先的表格式，Iceberg 旨在提供一种标准化的方式来存储这些统计信息：除了核心规范中已有的文件级属性（例如最小值和最大值）之外，它还引入了 Puffin 文件格式来存储整个表的统计信息。通过使用 Puffin 格式，各种数据库引擎可以共享统计信息，而无需每个引擎都计算和存储自己的版本，从而使多引擎工作流程更简单、更高效。

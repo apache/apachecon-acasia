@@ -1,12 +1,25 @@
 ---
-title: "统一数据湖接入与实时集成：解构 SeaTunnel 对 Hudi / Iceberg / Paimon 的架构级支持"
-date: "2026-08-09T14:30:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Lidong Dai"
-stype: "中文演讲"
+title: 统一数据湖接入与实时集成：解构 SeaTunnel 对 Hudi / Iceberg / Paimon 的架构级支持
+date: '2026-08-09T14:30:00'
+room: 万春厅
+track: datalake
+presenters: Lidong Dai
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- seatunnel
+- hudi
+- iceberg
+- paimon
+- deltalake
+- mysql
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 在当前湖仓一体、实时数据湖演进的趋势下，企业愈发需要一个统一、高性能、可扩展的数据集成框架来支撑对多种数据湖格式（如 Apache Hudi、Iceberg、Paimon）的数据写入与读取工具。Apache SeaTunnel 作为新一代数据集成引擎，通过其 Connector V2 架构和流批统一设计，构建了对三大主流数据湖格式的深度支持体系，涵盖批量加载、实时流式写入和一致性保障等关键能力。
 
 演讲提纲：

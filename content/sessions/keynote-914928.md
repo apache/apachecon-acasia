@@ -1,12 +1,19 @@
 ---
-title: "Rising to the Challenges in Security"
-date: "2026-08-07T09:45:00"
-track: "keynote"
-presenters: "Craig Russell"
-stype: "English Session"
-room: "MainRoom - YiHe Hall"
+title: Rising to the Challenges in Security
+date: '2026-08-07T09:45:00'
+track: keynote
+presenters: Craig Russell
+stype: English Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 4
+projects: []
+audience:
+- 开发者
+- SRE/运维
+- 架构师
+related_sessions: []
 ---
-
 This talk discusses the current state of security in open source software, and in particular, how the ASF is responding to the growing threat.
 The ASF started with the first project: a web server running on an open source operating system. Since then, the organization has built hundreds of communities based on principles of openness, collaboration, and public good. 
 Open source is now considered to be the principal component of most commercial software projects, accounting for some 90% of all commercial code, with an estimated value of USD $8.8 billion.

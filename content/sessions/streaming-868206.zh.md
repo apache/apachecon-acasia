@@ -1,12 +1,21 @@
 ---
-title: "队列、处理、预测：Kafka 与 Flink LLM 和 Datalake 开启新时代"
-date: "2026-08-08T16:45:00"
-room: "圆明厅"
-track: "streaming"
-presenters: "Shekhar Prasad Rajak"
-stype: "英文演讲"
+title: 队列、处理、预测：Kafka 与 Flink LLM 和 Datalake 开启新时代
+date: '2026-08-08T16:45:00'
+room: 圆明厅
+track: streaming
+presenters: Shekhar Prasad Rajak
+stype: 英文演讲
+depth: advanced
+practice_level: 5
+projects:
+- kafka
+- flink
+- iceberg
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 消息队列对于支付处理、欺诈检测和 AI 支持系统等实时用例至关重要，但传统队列通常缺乏可扩展性、持久性和可重放性。在本演讲中，我们将探讨 Kafka 4.0 如何将原生队列语义引入分布式流处理领域，从而实现公平、并发和隔离的大规模消息处理。
 
 我们将展示 Apache Flink 的原生 LLM 集成如何利用此队列模型执行实时大型语言模型 (LLM) 推理（例如情绪分析或摘要），以及如何将丰富的结果直接写入 Apache Iceberg。Iceberg 是一个强大的数据湖，可用于长期分析、数据版本控制和时间旅行以及机器学习反馈循环。

@@ -1,12 +1,19 @@
 ---
-title: "Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One"
-date: "2026-08-07T15:00:00"
-room: "YuanMing Hall"
-track: "streaming"
-presenters: "Ron Liu"
-stype: "Chinese Session"
+title: 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
+date: '2026-08-07T15:00:00'
+room: YuanMing Hall
+track: streaming
+presenters: Ron Liu
+stype: Chinese Session
+depth: advanced
+practice_level: 3
+projects:
+- apache flink
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Abstract:
 After a decade of evolution, Apache Flink has solidified its position as the de facto standard in stream processing, delivering sub-second latency for real-time data processing. However, emerging trends in cloud-native architectures, data lakes, and artificial intelligence have introduced new challenges and requirements. In response, Flink has undergone continuous innovation and architectural upgrades to provide more user-friendly, cost-effective, and scalable real-time solutions, further enhancing the integration of Data and AI. This session will detail Flink's core functional and architectural evolution for the AI era, including its new state storage and computing separation architecture, continuous advancement of unified stream and batch processing capabilities, in-depth analysis of unified stream and batch Materialized Table, deep integration with Lakehouse for real-time data lakes, and explorations and practices in AI for real-time AI applications.
 

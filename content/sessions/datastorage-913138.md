@@ -1,12 +1,21 @@
 ---
-title: "The Exploration and Practice of State Storage in Tencent Big Data Flink with Separation of Computati"
-date: "2026-08-07T16:15:00"
-room: "Mtn WanShou Hall"
-track: "datastorage"
-presenters: "YanPeng shi"
-stype: "Chinese Session"
+title: The Exploration and Practice of State Storage in Tencent Big Data Flink with
+  Separation of Computati
+date: '2026-08-07T16:15:00'
+room: Mtn WanShou Hall
+track: datastorage
+presenters: YanPeng shi
+stype: Chinese Session
+depth: advanced
+practice_level: 4
+projects:
+- flink
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 1.Background:
 Flink, as a stateful stream processing system, has a state storage engine that plays a crucial role. In Flink, state is used to store intermediate results during the data stream computation process. Flink provides state read and write services for operators through the State Backend component. However, under the current architecture where computation and storage are integrated, the following issues arise:
 a. Local disk limitations: The state data in RocksDB is heavily dependent on local disks, and when the local disk space is full, jobs cannot run properly.

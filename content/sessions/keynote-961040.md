@@ -1,12 +1,17 @@
 ---
-title: "Product Development in the Age of AI: What Changes, What Remains"
-date: "2026-08-07T10:15:00"
-track: "keynote"
-presenters: "Emily Chen, Richard Bian"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: 'Product Development in the Age of AI: What Changes, What Remains'
+date: '2026-08-07T10:15:00'
+track: keynote
+presenters: Emily Chen, Richard Bian
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 3
+projects: []
+audience:
+- 产品/经理
+related_sessions: []
 ---
-
 The rapid advancement of GenAI is fundamentally reshaping the rules of the product world. Beyond transforming product features from “AI-enhanced” to fully “AI-native,” the entire development process is being redefined. From user research and design prototyping to coding, deployment, and iteration, AI is increasingly involved at every stage of the product lifecycle—making it more feasible than ever for a single individual to take a product from idea to launch.
 
 In the face of this paradigm shift, the role of the product manager is undergoing deep transformation. How should we evolve our capabilities? In an era of constant change, which core skills and mindsets remain essential? User pain points are still there; the mission of product work—to solve real problems—has not changed. It is in navigating between change and continuity that product leaders must exercise judgment, creativity, and vision.

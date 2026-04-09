@@ -1,12 +1,20 @@
 ---
-title: "直面安全领域的挑战"
-date: "2026-08-07T09:45:00"
-track: "keynote"
-presenters: "Craig Russell"
-stype: "英文演讲"
-room: "主会场 - 颐和厅"
+title: 直面安全领域的挑战
+date: '2026-08-07T09:45:00'
+track: keynote
+presenters: Craig Russell
+stype: 英文演讲
+room: 主会场 - 颐和厅
+depth: intermediate
+practice_level: 3
+projects: []
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+- 通用
+related_sessions: []
 ---
-
 本次演讲将探讨开源软件安全的现状，特别是 Apache 软件基金会（ASF）如何应对日益增长的威胁。
 ASF 从第一个项目——一个运行在开源操作系统上的 Web 服务器——起步。自那时起，该组织基于开放性、协作性和公共利益的原则，建立了数百个社区。
 如今，开源被认为是大多数商业软件项目的主要组成部分，约占所有商业代码的 90%，估计价值达 88 亿美元。

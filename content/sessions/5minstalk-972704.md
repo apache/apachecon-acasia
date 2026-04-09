@@ -1,12 +1,18 @@
 ---
-title: "An Algorithm Engineer’s Detour through Open Source"
-date: "2026-08-09T11:05:00"
-track: "5minstalk"
-presenters: "nuo ma"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: An Algorithm Engineer’s Detour through Open Source
+date: '2026-08-09T11:05:00'
+track: 5minstalk
+presenters: nuo ma
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 3
+projects: []
+audience:
+- 开发者
+- 通用
+related_sessions: []
 ---
-
 In this talk, I’ll trace how a performance-obsessed algorithm engineer accidentally became an open-source advocate, eventually became an DevRel. I will share my experiences, observations and lessons learnt in this journey.
 
 ### Speakers:

@@ -1,12 +1,19 @@
 ---
-title: "The Evolution of Apache Kvrocks: Search, Vector, and Beyond"
-date: "2026-08-08T17:15:00"
-room: "Mtn WanShou Hall"
-track: "datastorage"
-presenters: "Mingyang Liu"
-stype: "Chinese Session"
+title: 'The Evolution of Apache Kvrocks: Search, Vector, and Beyond'
+date: '2026-08-08T17:15:00'
+room: Mtn WanShou Hall
+track: datastorage
+presenters: Mingyang Liu
+stype: Chinese Session
+depth: intermediate
+practice_level: 3
+projects:
+- apache kvrocks
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Since graduating from the ASF Incubator, Apache Kvrocks has made significant progress. The project has attracted an increasing number of contributors and continues to evolve with new features. Notably, we have introduced a Search module that supports complex queries and secondary indexing, with compatibility for both RediSearch query and SQL syntax. Building on this foundation, Kvrocks has expanded into new frontiers by integrating cutting-edge features such as vector search, making it a more versatile and powerful data store for modern applications.
 
 ### Speakers:

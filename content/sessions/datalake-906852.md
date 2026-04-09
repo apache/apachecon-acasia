@@ -1,12 +1,22 @@
 ---
-title: "Build a cloud native Lakehouse architecture based on Iceberg & Amoro & Gravitino in Tencent Cloud"
-date: "2026-08-08T17:15:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Jinsong Zhou"
-stype: "Chinese Session"
+title: Build a cloud native Lakehouse architecture based on Iceberg & Amoro & Gravitino
+  in Tencent Cloud
+date: '2026-08-08T17:15:00'
+room: WanChun Hall
+track: datalake
+presenters: Jinsong Zhou
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache iceberg
+- apache amoro
+- apache gravitino
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 Since 2020, Tencent has been leveraging Apache Iceberg to build its lakehouse data infrastructure. In 2022, Tencent Cloud began offering Iceberg-based lakehouse services to users in the cloud. In 2024, we introduced great projects including Apache Amoro and Apache Gravitino to deliver more powerful, intelligent, and full-scenario-capable lakehouse service for users.
 
 This keynote will share Tencent Cloud's extensive experience with lakehouse architecture over the years, highlighting rich user practices. We will focus on demonstrating how to leverage these Apache projects to build cloud-native Lakehouse architectures, with particular emphasis on streaming computing and BI scenarios.

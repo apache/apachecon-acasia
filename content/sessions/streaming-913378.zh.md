@@ -1,12 +1,19 @@
 ---
-title: "Flink Agents：基于 Apache Flink 的智能体构建框架"
-date: "2026-08-07T16:45:00"
-room: "圆明厅"
-track: "streaming"
-presenters: "Xintong Song"
-stype: "中文演讲"
+title: Flink Agents：基于 Apache Flink 的智能体构建框架
+date: '2026-08-07T16:45:00'
+room: 圆明厅
+track: streaming
+presenters: Xintong Song
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- flink
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 AI智能体应用按照其触发机制可以分为两类：用户触发和系统触发。随着技术的快速发展，我们认为AI智能体应用的未来将会是工业化的，绝大部分的应用负载将由实时的系统事件与数据更新触发。
 
 系统触发的智能体应用需要具备长时间持续运行、自主行动、自动容错恢复等能力。Flink强大的实时分布式事件处理、状态管理和精确一次的一致性容错能力，使其成为构建此类智能体的理想框架。此外，系统触发的智能体应用往往与传统数据处理紧密结合。Flink卓越的数据处理能力，能够支持数据处理与智能体应用的无缝集成，是其相比其他智能体构建框架的重要优势。

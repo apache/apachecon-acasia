@@ -1,12 +1,20 @@
 ---
-title: "Lessons Learned: Building Service Gateway with Tomcat And Virtual Threads"
-date: "2026-08-08T14:00:00"
-room: "Mtn Yang Hall"
-track: "webserver"
-presenters: "Yike Xiao"
-stype: "Chinese Session"
+title: 'Lessons Learned: Building Service Gateway with Tomcat And Virtual Threads'
+date: '2026-08-08T14:00:00'
+room: Mtn Yang Hall
+track: webserver
+presenters: Yike Xiao
+stype: Chinese Session
+depth: advanced
+practice_level: 5
+projects:
+- tomcat
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 This technical session shares practical experiences and key insights gained from building and deploying a production service gateway using Tomcat and Java 21 virtual threads. We'll explore how Tomcat's native virtual thread support transforms gateway performance, the challenges faced during migration, and best practices that emerged during our journey of modernizing a traditional Tomcat-based service gateway with Project Loom's virtual threads.
 
 ### Speakers:

@@ -1,12 +1,20 @@
 ---
-title: "Impala on Iceberg with Puffins"
-date: "2026-08-08T14:30:00"
-room: "WanChun Hall"
-track: "datalake"
-presenters: "Daniel Becker"
-stype: "English Session"
+title: Impala on Iceberg with Puffins
+date: '2026-08-08T14:30:00'
+room: WanChun Hall
+track: datalake
+presenters: Daniel Becker
+stype: English Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache iceberg
+- apache impala
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 The Apache Iceberg table format has become a de-facto standard in the Big Data world. Its numerous advantages over traditional file system based table formats - like row level modifications, transactions, partition transforms and time travelling - have made it a natural first choice for many projects.
 
 Statistics about the data can be of immense help to database engines in creating efficient query plans. As a leading table format, Iceberg aims to provide a standardised way of storing these statistics: in addition to file level attributes already present in the core specification (like min and max values), it has introduced the Puffin file format for storing statistics over the whole table. By using the Puffin format, various database engines can share statistics instead of each having to compute and store its own version, making multi-engine workflows simpler and more efficient.

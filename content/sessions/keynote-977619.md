@@ -1,13 +1,22 @@
 ---
-title: "The power of Community"
-date: "2026-08-07T09:30:00"
-track: "keynote"
-presenters: "Willem Jiang"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
-aianalysis: "used1"
+title: The power of Community
+date: '2026-08-07T09:30:00'
+track: keynote
+presenters: Willem Jiang
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+aianalysis: used1
+depth: beginner
+practice_level: 1
+projects:
+- camel
+- cxf
+- servicemix
+- servicecomb
+audience:
+- 通用
+related_sessions: []
 ---
-
 As the opening keynote for Community Over Code Asia, we will briefly review the development journey of the Apache Software Foundation in China and the growth of local Apache communities. Here, we witness the power of community—it is through this collective strength that we have successfully organized this conference!
 
 ### Speakers:

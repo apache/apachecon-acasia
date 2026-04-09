@@ -1,12 +1,19 @@
 ---
-title: "SkyWalking 在 Ruby Agent 和 MCP 中的探索和实践"
-date: "2026-08-09T15:45:00"
-room: "阳山会议室"
-track: "observability"
-presenters: "Zixin Zhou"
-stype: "中文演讲"
+title: SkyWalking 在 Ruby Agent 和 MCP 中的探索和实践
+date: '2026-08-09T15:45:00'
+room: 阳山会议室
+track: observability
+presenters: Zixin Zhou
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- skywalking
+audience:
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 摘要：
 分布式追踪对于可观察性至关重要，它推动了跨语言追踪代理可用性的提升。本次演讲将介绍如何使用 Apache SkyWalking 监控 Ruby 应用程序，并深入探讨 Ruby Agent 的实现原理，与此同时，还将讨论模型上下文协议（MCP）与 SkyWalking 的集成。
 

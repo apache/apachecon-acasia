@@ -1,12 +1,21 @@
 ---
-title: "Apache Gravitino：数据与AI的通用目录"
-date: "2026-08-07T15:45:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Justin Mclean"
-stype: "英文演讲"
+title: Apache Gravitino：数据与AI的通用目录
+date: '2026-08-07T15:45:00'
+room: 万春厅
+track: datalake
+presenters: Justin Mclean
+stype: 英文演讲
+depth: beginner
+practice_level: 2
+projects:
+- apache gravitino
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+- 产品/经理
+related_sessions: []
 ---
-
 欢迎参加关于 Gravitino 的演讲！管理元数据可能既复杂又耗时，但 Gravitino 提供了终极解决方案。它通过支持地理分布式架构，为多区域数据提供了单一事实来源。这使得您可以将数据存储和管理在一个地方，并从全球任何地方访问。借助统一的数据和 AI 资产管理，您可以获得集中的安全性和数据访问管理，从而简化数据保护工作。Gravitino 通过简化任务并提供以下优势，帮助您更加专注于数据：
  - 安全且集中的元数据存储和管理
  - 随时随地访问数据

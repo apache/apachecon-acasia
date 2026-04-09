@@ -1,12 +1,19 @@
 ---
-title: "Apache RocketMQ Eventbridge：您的 GenAI 为何需要 EDA？"
-date: "2026-08-07T14:00:00"
-room: "静宜厅"
-track: "messaging"
-presenters: "沈林"
-stype: "中文演讲"
+title: Apache RocketMQ Eventbridge：您的 GenAI 为何需要 EDA？
+date: '2026-08-07T14:00:00'
+room: 静宜厅
+track: messaging
+presenters: 沈林
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache rocketmq
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 如果您身处 AI 领域，EDA 为 LLM 和 AI Agent 提供的重要帮助不容忽视。本演讲将重点探讨 EDA 为 GenAI 带来的改变：
 
 1. 通过实时 RAG，EDA 让您的 LLM 更加智能。

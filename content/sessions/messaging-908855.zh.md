@@ -1,12 +1,20 @@
 ---
-title: "RocketMQ 5.0 中的虚拟队列：增强对 Remoting 协议客户端的向后兼容性"
-date: "2026-08-08T16:15:00"
-room: "静宜厅"
-track: "messaging"
-presenters: "Shengzhong Liu"
-stype: "中文演讲"
+title: RocketMQ 5.0 中的虚拟队列：增强对 Remoting 协议客户端的向后兼容性
+date: '2026-08-08T16:15:00'
+room: 静宜厅
+track: messaging
+presenters: Shengzhong Liu
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- rocketmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Apache RocketMQ 是一个以低延迟、高性能和高可靠性著称的分布式消息与流处理平台。最新发布的 5.0 版本带来了两项重大进步：
 1. 实现了存储与计算的解耦，进一步提升了系统的可扩展性和云原生适配能力。
 2. 引入了 POP 消费模式，将负载均衡逻辑从客户端迁移到了 Broker 端。

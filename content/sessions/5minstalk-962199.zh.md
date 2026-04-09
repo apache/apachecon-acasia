@@ -1,12 +1,19 @@
 ---
-title: "我在 OceanBase 社区的开源经历"
-date: "2026-08-09T11:20:00"
-track: "5minstalk"
-presenters: "Ziyi Li"
-stype: "英文演讲"
-room: "主会场 - 颐和厅"
+title: 我在 OceanBase 社区的开源经历
+date: '2026-08-09T11:20:00'
+track: 5minstalk
+presenters: Ziyi Li
+stype: 英文演讲
+room: 主会场 - 颐和厅
+depth: intermediate
+practice_level: 4
+projects:
+- oceanbase
+audience:
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 加入 OceanBase 云原生 SIG 后，我开发了 OceanBase 在 k8s 环境下的命令行管理工具 okctl。该工具支持集群、租户、备份策略等资源的管理，同时提供组件安装更新、简易集群构建及集群连接功能。我们后续结合 MCP 协议，以 okctl 为后端搭建了 MCP 服务器，实现了通过自然语言进行集群交互、管理和巡检的一体化功能。
 
 

@@ -1,12 +1,19 @@
 ---
-title: "使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案"
-date: "2026-08-08T15:45:00"
-room: "万春厅"
-track: "datalake"
-presenters: "Rose Duan"
-stype: "中文演讲"
+title: 使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案
+date: '2026-08-08T15:45:00'
+room: 万春厅
+track: datalake
+presenters: Rose Duan
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache cloudberry
+audience:
+- 架构师
+- 开发者
+related_sessions: []
 ---
-
 数据仓库擅长快速分析，而数据湖则注重可扩展存储和灵活的数据管理。Lakehouse
 架构旨在将两者的优势结合起来——无缝集成跨数据湖和数据仓库的数据，以实现高效分析和统一治理。
 

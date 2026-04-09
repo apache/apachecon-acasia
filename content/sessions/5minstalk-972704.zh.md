@@ -1,12 +1,18 @@
 ---
-title: "一名算法工程师的开源之旅"
-date: "2026-08-09T11:05:00"
-track: "5minstalk"
-presenters: "nuo ma"
-stype: "中文演讲"
-room: "主会场 - 颐和厅"
+title: 一名算法工程师的开源之旅
+date: '2026-08-09T11:05:00'
+track: 5minstalk
+presenters: nuo ma
+stype: 中文演讲
+room: 主会场 - 颐和厅
+depth: intermediate
+practice_level: 3
+projects: []
+audience:
+- 开发者
+- 通用
+related_sessions: []
 ---
-
 在这次演讲中，我将讲述一位痴迷于性能优化的算法工程师如何意外成为开源倡导者，并最终转型为开发者关系（DevRel）专家的历程。我将分享这段旅程中的亲身经历、观察所得以及收获的重要启示。
 
 ### 讲师:

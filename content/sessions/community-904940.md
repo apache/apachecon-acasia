@@ -1,12 +1,21 @@
 ---
-title: "Bridging the Language Divide: Practical Tactics for Global Collaboration in Open Source"
-date: "2026-08-07T14:30:00"
-room: "Mtn YuQuan Hall"
-track: "community"
-presenters: "Miley Fu"
-stype: "Chinese Session"
+title: 'Bridging the Language Divide: Practical Tactics for Global Collaboration in
+  Open Source'
+date: '2026-08-07T14:30:00'
+room: Mtn YuQuan Hall
+track: community
+presenters: Miley Fu
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- wasmedge
+audience:
+- 开发者
+- 产品/经理
+- 通用
+related_sessions: []
 ---
-
 Open source projects thrive when people from diverse backgrounds and languages unite under a shared goal. However, language barriers often hinder meaningful participation, making it difficult for newcomers and community members to stay engaged. In this session, we’ll explore how contributors can systematically break down these linguistic walls by using AI-assisted video translation and subtitles, accessible documentation, and practical community workflows. Drawing from experiences helping multiple open source initiatives localize content, we’ll share strategies for ensuring everyone—regardless of their native language—has an equal seat at the table.
 
 ### Speakers:

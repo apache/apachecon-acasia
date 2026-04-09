@@ -1,12 +1,17 @@
 ---
-title: "Inside the Apache Software Foundation Board"
-date: "2026-08-07T15:00:00"
-room: "Mtn YuQuan Hall"
-track: "community"
-presenters: "Justin Mclean"
-stype: "English Session"
+title: Inside the Apache Software Foundation Board
+date: '2026-08-07T15:00:00'
+room: Mtn YuQuan Hall
+track: community
+presenters: Justin Mclean
+stype: English Session
+depth: beginner
+practice_level: 2
+projects: []
+audience:
+- 通用
+related_sessions: []
 ---
-
 This talk delves into the inner workings of the Apache Software Foundation board, shedding light on its workings and the responsibilities of its board members. Attendees will gain a comprehensive understanding of the ASF board’s governance structure, decision-making processes, and its crucial role in overseeing one of the world’s largest groups of open-source communities. Drawing from real-life experiences, the speaker will share personal insights, challenges faced, and the rewarding aspects of contributing to ASF’s mission. Whether you’re a seasoned open-source enthusiast or a newcomer to the community, this talk offers valuable perspectives on the intricacies of ASF board membership and its impact on shaping the future of open-source development.
 
 ### Speakers:

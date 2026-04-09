@@ -1,12 +1,20 @@
 ---
-title: "从 Commits 到 Capital：用开源热情点燃创业之旅"
-date: "2026-08-08T10:30:00"
-track: "keynote"
-presenters: "郭 炜"
-stype: "中文演讲"
-room: "主会场 - 颐和厅"
+title: 从 Commits 到 Capital：用开源热情点燃创业之旅
+date: '2026-08-08T10:30:00'
+track: keynote
+presenters: 郭 炜
+stype: 中文演讲
+room: 主会场 - 颐和厅
+depth: intermediate
+practice_level: 4
+projects:
+- apache dolphinscheduler
+- apache seatunnel
+audience:
+- 开发者
+- 产品/经理
+related_sessions: []
 ---
-
 从 Commits 到 Capital：用开源热情点燃创业之旅
 
 开源世界常被看作是代码、协作与社区的乐土。但对创业者来说，它同样充满了商业抉择、投资人的抉择，以及在理想与生存之间艰难平衡的挑战。

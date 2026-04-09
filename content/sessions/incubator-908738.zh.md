@@ -1,12 +1,20 @@
 ---
-title: "BifroMQ：面向多租户的高性能 MQTT 代理"
-date: "2026-08-09T16:15:00"
-room: "玉泉山会议室"
-track: "incubator"
-presenters: "Hao Yonny(Yu)"
-stype: "中文演讲"
+title: BifroMQ：面向多租户的高性能 MQTT 代理
+date: '2026-08-09T16:15:00'
+room: 玉泉山会议室
+track: incubator
+presenters: Hao Yonny(Yu)
+stype: 中文演讲
+depth: advanced
+practice_level: 3
+projects:
+- bifromq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 BifroMQ 是一款基于 Java 的高性能 MQTT 代理，目前在 Apache 软件基金会孵化。它从头开始设计，旨在支持原生多租户、线性可扩展性和海量并发连接，同时确保始终如一的低延迟消息传递。
 在本讲座中，我们将探讨 BifroMQ 设计的架构原则，这些原则源于构建多租户分布式 MQTT 代理所面临的独特挑战。
 

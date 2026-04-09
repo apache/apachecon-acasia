@@ -1,12 +1,18 @@
 ---
-title: "Reimagining Software Testing with AI: A Reusable and Scalable Design"
-date: "2026-08-09T11:25:00"
-track: "5minstalk"
-presenters: "Yunbo Ni"
-stype: "Chinese Session"
-room: "MainRoom - YiHe Hall"
+title: 'Reimagining Software Testing with AI: A Reusable and Scalable Design'
+date: '2026-08-09T11:25:00'
+track: 5minstalk
+presenters: Yunbo Ni
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: advanced
+practice_level: 4
+projects: []
+audience:
+- 开发者
+- 架构师
+related_sessions: []
 ---
-
 With the growing demand for AI-driven software testing (AI4Testing), there is a pressing need for general and efficient frameworks that can leverage large language models (LLMs) to enhance software quality. However, existing LLM-based testing approaches often suffer from two key limitations: the generated test programs are overly simplistic, and exhaustive interaction with LLMs can be computationally expensive.
 
 We propose a general framework that decouples the testing process into two distinct phases: an offline phase and an online phase. In the offline phase, we leverage LLMs to generate a diverse collection of small, feature-rich code pieces. In the online phase, these code pieces are strategically reused and composed to form complex test programs. This design significantly improves both the efficiency and expressiveness of AI-assisted testing.

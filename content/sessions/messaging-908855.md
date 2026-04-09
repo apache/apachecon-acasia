@@ -1,12 +1,21 @@
 ---
-title: "Virtual Queue in RocketMQ 5.0: Enhancing Backward Compatibility With Legacy Remoting-Based Clients"
-date: "2026-08-08T16:15:00"
-room: "JingYi Hall"
-track: "messaging"
-presenters: "Shengzhong Liu"
-stype: "Chinese Session"
+title: 'Virtual Queue in RocketMQ 5.0: Enhancing Backward Compatibility With Legacy
+  Remoting-Based Clients'
+date: '2026-08-08T16:15:00'
+room: JingYi Hall
+track: messaging
+presenters: Shengzhong Liu
+stype: Chinese Session
+depth: advanced
+practice_level: 4
+projects:
+- rocketmq
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Apache RocketMQ is a distributed messaging and streaming platform known for its low latency, high performance, and high reliability. The newly released version 5.0 has two major advancements:
 1. Decouples storage from compute to achieve better scalability and cloud-native adaptability.
 2. Introduces POP consumption mode to shift the balancing logic from clients to the broker.

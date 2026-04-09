@@ -1,12 +1,20 @@
 ---
-title: "Apache Gravitino Best Practices for Multi-Cluster Management"
-date: "2026-08-09T15:45:00"
-room: "Mtn WanShou Hall"
-track: "dataops"
-presenters: "Xun Liu"
-stype: "Chinese Session"
+title: Apache Gravitino Best Practices for Multi-Cluster Management
+date: '2026-08-09T15:45:00'
+room: Mtn WanShou Hall
+track: dataops
+presenters: Xun Liu
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache gravitino
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions: []
 ---
-
 Apache Gravitino unifies the management of Data and AI metadata. Especially in the scenario of managing multiple clusters on and off the cloud, Gravitino's unification of metadata can be very well utilized to bring out the benefits of sense-less migration and usage of data on and off the cloud, silky-smooth rolling upgrades of big data clusters, and unification of the permissions system for big data clusters in the public cloud and in privatized deployments.
 In this session, in addition to introducing the many features of Apache Gravitino in multi-cluster management, we will also share the best practices of Apache Gravitino from users at home and abroad.
 
