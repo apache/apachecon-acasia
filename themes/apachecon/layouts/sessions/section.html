@@ -15,7 +15,7 @@
                     <h2 class="text-center">{{.Title}}</h2>
                 </header>
 
-                <!-- 数据岛：新增自定义字段输出 -->
+                <!-- 数据岛：输出所有字段（含手动指定值） -->
                 <script id="session-data" type="application/json">
                     {{- $pages := slice -}}
                     {{- range .Pages -}}
@@ -47,7 +47,7 @@
                     <div id="loading" class="text-center">加载日程数据中...</div>
                     
                     <div id="app-main" style="display: none;">
-                        <!-- 控制栏：多选过滤器 + 导出JSON -->
+                        <!-- 控制栏 -->
                         <div class="control-panel">
                             <div class="filter-row">
                                 <div class="filter-group">
@@ -106,6 +106,45 @@
         </div>
     </div>
     {{ partial "footer.html" . }}
+</div>
+
+<!-- 导出 JSON 字段说明模态框 -->
+<div id="export-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>📋 导出的 JSON 数据格式说明</h3>
+            <button class="modal-close" id="close-modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p>点击“确认导出”将下载包含以下字段的完整 JSON 文件：</p>
+            <table class="field-table">
+                <thead>
+                    <tr><th>字段名</th><th>中文含义</th><th>示例</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><code>title</code></td><td>标题</td><td>"社区的力量"</td></tr>
+                    <tr><td><code>date</code></td><td>时间</td><td>"2026-08-07T09:30:00+08:00"</td></tr>
+                    <tr><td><code>track</code></td><td>专题/分会场</td><td>"keynote"</td></tr>
+                    <tr><td><code>presenters</code></td><td>演讲者</td><td>"姜 宁"</td></tr>
+                    <tr><td><code>type</code></td><td>演讲语言/类型</td><td>"中文演讲"</td></tr>
+                    <tr><td><code>room</code></td><td>会议室</td><td>"颐和厅"</td></tr>
+                    <tr><td><code>abstract</code></td><td>摘要</td><td>"分布式追踪对于可观察性至关重要..."</td></tr>
+                    <tr><td><code>permalink</code></td><td>详细信息链接</td><td>"/sessions/community-power/"</td></tr>
+                    <tr><td><code>detectedProjects</code></td><td>相关项目列表</td><td>["skywalking", "kafka"]</td></tr>
+                    <tr><td><code>depth</code></td><td>演讲深度</td><td>"advanced" (初级/进阶/深度)</td></tr>
+                    <tr><td><code>stars</code></td><td>实战性评分</td><td>4 (1-5星)</td></tr>
+                    <tr><td><code>audiences</code></td><td>适合人群</td><td>["开发者", "架构师"]</td></tr>
+                </tbody>
+            </table>
+            <p style="margin-top: 16px; font-size: 13px; color: #6c757d;">
+                💡 提示：导出的 JSON 可用于自行分析或导入其他工具。
+            </p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn-secondary" id="cancel-export">取消</button>
+            <button class="btn-primary" id="confirm-export">确认导出</button>
+        </div>
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
@@ -389,6 +428,96 @@
         cursor: pointer;
     }
     .empty-message, .no-results { color: #6c757d; text-align: center; padding: 40px 0; }
+
+    /* 模态框 */
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+    .modal-content {
+        background: white;
+        border-radius: 20px;
+        max-width: 700px;
+        width: 90%;
+        max-height: 80vh;
+        overflow-y: auto;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        animation: fadeIn 0.2s;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: scale(0.95); }
+        to { opacity: 1; transform: scale(1); }
+    }
+    .modal-header {
+        padding: 20px 24px;
+        border-bottom: 1px solid #e9ecef;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .modal-header h3 { margin: 0; color: #0f072d; }
+    .modal-close {
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: #6c757d;
+    }
+    .modal-body { padding: 24px; }
+    .field-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+    }
+    .field-table th, .field-table td {
+        padding: 10px 12px;
+        text-align: left;
+        border-bottom: 1px solid #e9ecef;
+    }
+    .field-table th {
+        background: #f8f9fa;
+        font-weight: 600;
+        color: #495057;
+    }
+    .field-table code {
+        background: #e9ecef;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-family: monospace;
+    }
+    .modal-footer {
+        padding: 16px 24px;
+        border-top: 1px solid #e9ecef;
+        display: flex;
+        justify-content: flex-end;
+        gap: 12px;
+    }
+    .btn-primary, .btn-secondary {
+        padding: 8px 20px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+    }
+    .btn-primary {
+        background: #0f072d;
+        color: white;
+    }
+    .btn-primary:hover { background: #2a1a5e; }
+    .btn-secondary {
+        background: #e9ecef;
+        color: #495057;
+    }
+    .btn-secondary:hover { background: #dee2e6; }
 </style>
 
 <script>
@@ -407,7 +536,7 @@
             return;
         }
 
-        // ---------- 自动分析关键词（用于兜底） ----------
+        // ---------- 自动分析关键词（兜底） ----------
         const APACHE_PROJECTS = ['skywalking','kafka','camel','flink','spark','dubbo','rocketmq','pulsar','shardingsphere','hadoop','hive','tomcat','httpd','iotdb','doris','seatunnel','streampark','apisix','brpc','calcite'];
         const DEPTH_KEYWORDS = {
             beginner: ['入门','介绍','概述','quick start','初识','上手','基础'],
@@ -428,7 +557,7 @@
             const abstract = (s.abstract || '').toLowerCase();
             const fullText = (title + ' ' + abstract).toLowerCase();
             
-            // 1. 项目标签：优先使用手动 projects，否则自动提取
+            // 1. 项目标签
             let detectedProjects = [];
             if (s.projects && Array.isArray(s.projects) && s.projects.length > 0) {
                 detectedProjects = s.projects.map(p => p.toLowerCase());
@@ -436,7 +565,7 @@
                 detectedProjects = APACHE_PROJECTS.filter(p => fullText.includes(p));
             }
             
-            // 2. 技术深度：优先手动 depth，否则自动分析
+            // 2. 技术深度
             let depth = s.depth;
             if (!depth) {
                 let bestLevel = 'general';
@@ -448,7 +577,7 @@
                 depth = bestLevel;
             }
             
-            // 3. 实战性评分：优先手动 practice_level（1-5），否则自动计算
+            // 3. 实战性评分
             let stars = s.practice_level;
             if (stars === undefined || stars === null) {
                 const practiceMatches = PRACTICE_KEYWORDS.filter(kw => fullText.includes(kw.toLowerCase())).length;
@@ -458,7 +587,7 @@
                 stars = Math.min(5, Math.max(1, parseInt(stars, 10) || 1));
             }
             
-            // 4. 受众角色：优先手动 audience，否则自动分析
+            // 4. 受众角色
             let audiences = [];
             if (s.audience && Array.isArray(s.audience) && s.audience.length > 0) {
                 audiences = s.audience;
@@ -469,7 +598,7 @@
                 if (audiences.length === 0) audiences.push('通用');
             }
             
-            // 5. 相关议题：优先手动 related_sessions，若无则留空（前端会自动计算推荐）
+            // 5. 相关议题（手动指定）
             const relatedSessionsManual = s.related_sessions || [];
             
             return {
@@ -581,39 +710,30 @@
             }).join('');
         }
 
-        // 相关推荐：优先使用手动指定的，若无则自动计算
-        // 修改后的 getRelatedSessions 函数（兼容 permalink 或标题）
-        function getRelatedSessions(currentSession, topN = 2) {
-            // 1. 优先使用手动指定的 related_sessions（可能包含 permalink 或标题）
+        // 相关议题推荐（兼容标题或链接）
+        function getRelatedSessions(currentSession, topN=2) {
             if (currentSession.relatedSessionsManual && currentSession.relatedSessionsManual.length > 0) {
-                const matchedSessions = currentSession.relatedSessionsManual
+                const matched = currentSession.relatedSessionsManual
                     .map(item => {
-                        // 尝试作为 permalink 精确匹配
                         let match = sessions.find(s => s.permalink === item);
                         if (match) return match;
-                        // 尝试作为标题模糊匹配（忽略大小写和首尾空格）
-                        const normalizedTitle = item.trim().toLowerCase();
-                        match = sessions.find(s => s.title.trim().toLowerCase() === normalizedTitle);
-                        if (match) return match;
-                        // 若仍无匹配，返回 null
-                        return null;
+                        const normalized = item.trim().toLowerCase();
+                        match = sessions.find(s => s.title.trim().toLowerCase() === normalized);
+                        return match || null;
                     })
                     .filter(s => s !== null);
-                
-                if (matchedSessions.length > 0) {
-                    return matchedSessions.slice(0, topN);
-                }
+                if (matched.length > 0) return matched.slice(0, topN);
             }
             
-            // 2. 自动推荐算法（兜底）
-            const curWords = new Set((currentSession.title + ' ' + currentSession.abstract).toLowerCase().split(/\W+/).filter(w => w.length > 2));
+            // 自动推荐
+            const curWords = new Set((currentSession.title+' '+currentSession.abstract).toLowerCase().split(/\W+/).filter(w=>w.length>2));
             const candidates = sessions.filter(s => s.permalink !== currentSession.permalink && s.dateObj.toDateString() === currentDate);
             return candidates.map(s => {
-                const otherWords = new Set((s.title + ' ' + s.abstract).toLowerCase().split(/\W+/).filter(w => w.length > 2));
+                const otherWords = new Set((s.title+' '+s.abstract).toLowerCase().split(/\W+/).filter(w=>w.length>2));
                 const intersection = [...curWords].filter(w => otherWords.has(w)).length;
                 const union = curWords.size + otherWords.size - intersection;
-                return { session: s, score: union ? intersection / union : 0 };
-            }).sort((a, b) => b.score - a.score).slice(0, topN).map(i => i.session);
+                return { session: s, score: union ? intersection/union : 0 };
+            }).sort((a,b)=>b.score-a.score).slice(0,topN).map(i=>i.session);
         }
 
         function renderSessions() {
@@ -713,7 +833,16 @@
             saveAs(new Blob([ics],{type:'text/calendar;charset=utf-8'}), 'my_schedule.ics');
         }
 
-        function exportFullJSON() {
+        // 导出 JSON 相关
+        function showExportModal() {
+            document.getElementById('export-modal').style.display = 'flex';
+        }
+
+        function hideExportModal() {
+            document.getElementById('export-modal').style.display = 'none';
+        }
+
+        function doExportJSON() {
             const exportData = sessions.map(s => ({
                 title: s.title,
                 date: s.date,
@@ -730,6 +859,10 @@
             }));
             const blob = new Blob([JSON.stringify(exportData, null, 2)], {type: 'application/json'});
             saveAs(blob, 'acoc_sessions_full.json');
+        }
+
+        function exportFullJSON() {
+            showExportModal();
         }
 
         // 事件绑定
@@ -753,6 +886,22 @@
             exportBtn.addEventListener('click', exportICS);
             document.getElementById('export-json').addEventListener('click', exportFullJSON);
             document.getElementById('clear-filters').addEventListener('click', clearFilters);
+            
+            // 模态框事件
+            const confirmBtn = document.getElementById('confirm-export');
+            const cancelBtn = document.getElementById('cancel-export');
+            const closeBtn = document.getElementById('close-modal');
+            const modalOverlay = document.getElementById('export-modal');
+            
+            confirmBtn.addEventListener('click', () => {
+                doExportJSON();
+                hideExportModal();
+            });
+            cancelBtn.addEventListener('click', hideExportModal);
+            closeBtn.addEventListener('click', hideExportModal);
+            modalOverlay.addEventListener('click', (e) => {
+                if (e.target === modalOverlay) hideExportModal();
+            });
         }
 
         function init() {
