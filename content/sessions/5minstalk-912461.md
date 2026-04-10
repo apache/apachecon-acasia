@@ -11,7 +11,13 @@ projects: []
 audience:
 - 开发者
 - 架构师
-related_sessions: []
+related_sessions:
+- 'Integrating LLMs into CI/CD Pipelines: A Case Study on Improving Apache Project
+  Code Quality'
+- AIScript - how to write an interpreter language in Rust
+- 'AI Reinvents Development: From Tool Revolution to Developer Evolution'
+- The Golden Age of Independent Developers
+- Xiaomi's Efficient Data & AI Optimization with Apache Paimon
 ---
 With the growing demand for AI-driven software testing (AI4Testing), there is a pressing need for general and efficient frameworks that can leverage large language models (LLMs) to enhance software quality. However, existing LLM-based testing approaches often suffer from two key limitations: the generated test programs are overly simplistic, and exhaustive interaction with LLMs can be computationally expensive.
 

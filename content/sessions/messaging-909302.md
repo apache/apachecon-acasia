@@ -13,7 +13,15 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Empowering Serverless Messaging Architectures with Apache RocketMQ
+- 'Virtual Queue in RocketMQ 5.0: Enhancing Backward Compatibility With Legacy Remoting-Based
+  Clients'
+- RobustMQ - Explore how to rewrite a message queue in Rust
+- 'Xiaomi''s RocketMQ-MQTT best practice: The Journey of Enhancing Quality and Cost
+  Efficiency'
+- The Exploration and Practice of State Storage in Tencent Big Data Flink with Separation
+  of Computati
 ---
 Storage Engine for RocketMQ Based on Commitlog and RocksDB
     Delay message, transaction message, POP and index are core features of RocketMQ. These features involve multiple state transitions in memory and are implemented based on the file system. The existing implementation faces the following issues:

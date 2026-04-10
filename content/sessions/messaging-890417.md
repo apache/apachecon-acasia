@@ -16,7 +16,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Best Practices for High Availability of Apache Pulsar on Tencent Cloud
+- Lessons Learned in Building a Cloud MQTT Solution
+- Exploration and practice of Apache Pulsar in online scenarios of Xiaohongshu Company
+- 'From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry'
+- 'From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry'
 ---
 Analyzing Huawei Cloud IoT's best practices in building a subscription and push service based on Apache Pulsar. While subscription and push services may seem straightforward, they involve numerous architectural decisions. This talk delves into how we designed a unified push service architecture to ensure high reliability and stability for massive data distribution, enabling customers to efficiently integrate with data streams and accelerate digital transformation.
 

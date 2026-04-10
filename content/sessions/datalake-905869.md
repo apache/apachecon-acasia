@@ -15,7 +15,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Amoro & iceberg in Huolala Prdouction
+- Building a Unified Lakehouse Solution with Apache Cloudberry
+- Build a cloud native Lakehouse architecture based on Iceberg & Amoro & Gravitino
+  in Tencent Cloud
+- Technical Progression of Flink + Paimon Real-time Lakehouse Solutions
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
 ---
 In the era of real-time driven business decision-making, the architecture design of high-throughput data lake warehouse has become the decisive battlefield for enterprise digital transformation. Faced with the insurmountable timeliness bottleneck of traditional batch processing architecture, we built a streaming lake warehouse system based on Flink CDC 3.0 + Apache Iceberg + Apache Amoro, and successfully achieved the minute-level readiness and query performance transition of a single customer's daily average of tens of billions of data streams.
 

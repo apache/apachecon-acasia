@@ -14,7 +14,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Apache Iceberg：高性能数据湖仓的表维护策略
+- 使用 Apache Iceberg 增强 Lakehouse 实施
+- 队列、处理、预测：Kafka 与 Flink LLM 和 Datalake 开启新时代
+- Apache Hop：大型语言模型、图数据库与电子表格的无缝集成
+- 使用 Apache Arrow 重塑 OpenTelemetry
 ---
 我们正迅速进入 **智能体应用时代**，在这个时代，AI 驱动的智能体不仅能够辅助人类，还能自主做出决策并管理任务。然而，支撑这些应用的数据基础设施在可扩展性、一致性和性能方面面临着重大挑战。
 

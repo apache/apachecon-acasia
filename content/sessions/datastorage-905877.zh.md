@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 在字节跳动规模下，利用A pache Gluten 加速 Spark 作业
+- 顺丰速运与 Apache Spark 和 Gluten 的合作之旅
+- 蚂蚁集团基于 Apache Celeborn 的大规模 Shuffle 实践
+- 小米利用 Apache Paimon 实现高效数据和 AI 优化
+- Celeborn 的革新：多引擎支持、性能掌控与技术创新
 ---
 本次演讲将深入探讨 Apache Gluten 和 Apache Celeborn 在小米的实际应用情况，涵盖技术背景、部署历程、挑战以及未来规划。
 

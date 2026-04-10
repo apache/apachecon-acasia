@@ -13,7 +13,13 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
+- Technical Progression of Flink + Paimon Real-time Lakehouse Solutions
+- Kwai Flink Cloud Native Architecture Evolution
+- The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time
+  Computing
+- Accelerating Multi-stream Join by Stream Graph Computing
 ---
 Kafka and Flink have been widely used together in streaming processing scenarios, becoming a defacto standard paradigm for building streaming warehouses and real-time analytics. However, it still faces many challenging issues that are hard to resolve. This session will explore the challenges and problems this paradigm faces in streaming analytics. 
 

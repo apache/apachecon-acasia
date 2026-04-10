@@ -15,7 +15,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Building a real-time data lakehouse in practice
+- Apache Amoro & iceberg in Huolala Prdouction
+- Building a Unified Lakehouse Solution with Apache Cloudberry
+- '​​Building Inverted Indexes on Iceberg with Tantivy: A Hands-on Approach​​'
+- Best Practices for High Availability of Apache Pulsar on Tencent Cloud
 ---
 Since 2020, Tencent has been leveraging Apache Iceberg to build its lakehouse data infrastructure. In 2022, Tencent Cloud began offering Iceberg-based lakehouse services to users in the cloud. In 2024, we introduced great projects including Apache Amoro and Apache Gravitino to deliver more powerful, intelligent, and full-scenario-capable lakehouse service for users.
 

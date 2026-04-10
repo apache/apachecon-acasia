@@ -12,7 +12,12 @@ audience:
 - 开发者
 - 产品/经理
 - 通用
-related_sessions: []
+related_sessions:
+- Inside the Apache Software Foundation Board
+- A decade of lessons in Open Source licensing
+- Practical Experiences in Ant Open Source Incubation
+- Rising to the Challenges in Security
+- Why is it So Hard?
 ---
 This talk provides an overview of the Apache Software Foundation (ASF) and its incubation process. It guides projects on learning the Apache Way, ensuring compliance with licensing and intellectual property rights, and fostering community growth. The process involves creating a proposal, entering the incubator, focusing on community building and making releases, and eventually graduating as a top-level ASF project. Key aspects covered in this talk include, complying with licensing, engaging in open and transparent practices, and adopting a vendor-neutral approach. This presentation offers valuable insights for those interested in joining the ASF or seeking an understanding of the incubation process.
 

@@ -11,7 +11,13 @@ projects: []
 audience:
 - 开发者
 - 通用
-related_sessions: []
+related_sessions:
+- 'The Journey of an Open Source Contributor: Evolving from PR Submissions to Project
+  Maintenance'
+- 'Xiaomi Vela: Leading the Open-Source IoT Operating System Ecosystem'
+- 'From Commits to Capital: Turning Open Source Passion into a Startup Journey'
+- China Open Source & AI at  a Glance
+- 'AI Reinvents Development: From Tool Revolution to Developer Evolution'
 ---
 In this talk, I’ll trace how a performance-obsessed algorithm engineer accidentally became an open-source advocate, eventually became an DevRel. I will share my experiences, observations and lessons learnt in this journey.
 

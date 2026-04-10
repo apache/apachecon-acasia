@@ -14,7 +14,12 @@ projects:
 audience:
 - 开发者
 - 架构师
-related_sessions: []
+related_sessions:
+- 强化虚拟协作：将生成式 AI 集成至 Apache OpenMeetings
+- AI 与云原生时代下的未来就绪数据平台
+- AI 重构开发：从工具革命到开发者进化论
+- 圆桌讨论：独立开发者的黄金时代
+- 从数据到 AI：基于 Apache Cloudberry 构建统一分析平台
 ---
 亚马逊网络服务（AWS）和阿帕奇软件基金会（Apache Software Foundation）在开源、云计算和生成式人工智能融合的快速发展环境中建立了战略合作伙伴关系，重新定义了开发人员的体验。本主题演讲将探讨 AWS 如何利用生成式人工智能的变革力量，通过智能云原生服务和人工智能增强型开发平台为 Apache 开源项目开发人员赋能。
 

@@ -14,7 +14,12 @@ audience:
 - 开发者
 - SRE/运维
 - 架构师
-related_sessions: []
+related_sessions:
+- Apache Kafka 4.0 在华为云上的应用
+- 解密Apache Kafka的架构创新与多场景最佳实践
+- Apache Impala 4.5 新特性：Iceberg 支持、性能提升等
+- Apache Kvrocks 的演进：搜索、向量及未来
+- 从混乱到有序：Apache OzHera（孵化版）首次发布流程之旅
 ---
 虽然 Kafka 4.0 已经引起了广泛的讨论，但大多数讨论都集中在主要功能上，如 ZooKeeper 的移除或新 API 的引入。在本环节中，我们将重点介绍Kafka 4.0中一些鲜为人知但同样重要的变化。这些更新可能并不引人注目，但它们会对你在实际环境中如何配置、操作和调试Kafka产生重大影响。
 

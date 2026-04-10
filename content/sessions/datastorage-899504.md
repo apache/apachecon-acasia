@@ -13,7 +13,12 @@ audience:
 - 开发者
 - SRE/运维
 - 通用
-related_sessions: []
+related_sessions:
+- 'Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI'
+- 'Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures'
+- The Future of ETL with Branching & Tagging in Apache Hive
+- Inside the Apache Software Foundation Board
+- Navigating the Incubator process
 ---
 An introduction to Cassandra's past and present features , as well as sharing what the Cassandra community plans to do in the next release version and what dose the community is doing now.
 

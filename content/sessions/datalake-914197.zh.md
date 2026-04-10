@@ -13,7 +13,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 使用 Apache Iceberg 增强 Lakehouse 实施
+- Apache Iceberg：高性能数据湖仓的表维护策略
+- 队列、处理、预测：Kafka 与 Flink LLM 和 Datalake 开启新时代
+- Apache Hop：大型语言模型、图数据库与电子表格的无缝集成
+- Apache Polaris（孵化中）和 Apache XTable：统一 Iceberg、Hudi 和其他表格式
 ---
 随着数据管道日益复杂，传统的“推送即忘” ETL 方法已不再适用。数据世界正在不断发展，它借鉴了现代软件工程的经验。向分支和标记问好——这些概念已经改变了代码管理，现在正在彻底改变我们处理数据的方式。
 

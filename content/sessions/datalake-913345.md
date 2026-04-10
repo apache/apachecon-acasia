@@ -14,7 +14,14 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Practice of Flink Memory Governance at ByteDance
+- SeaTunnel Architecture Analysis and Cloudberry Integration Practice
+- Xiaomi's Efficient Data & AI Optimization with Apache Paimon
+- The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time
+  Computing
+- 'Xiaomi''s RocketMQ-MQTT best practice: The Journey of Enhancing Quality and Cost
+  Efficiency'
 ---
 This session delves into advanced techniques for optimizing Parquet storage ecosystems. We’ll explore a comprehensive approach to managing metadata—from efficient collection and storage to building a scalable metadata warehouse. Attendees will learn practical strategies for storage optimization, including ZSTD compression upgrades, local/global sorting, and column-level tuning for enhanced performance. Additionally, we’ll cover seamless migration of legacy formats through in-place backtracking and heterogeneous format interoperability. Whether you’re handling large-scale datasets or fine-tuning storage efficiency, this session offers actionable insights to elevate your Parquet workflows.
 

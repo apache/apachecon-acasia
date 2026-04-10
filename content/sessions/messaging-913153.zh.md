@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Pulsar 在腾讯云上的高可用性最佳实践
+- Apache Pulsar 在大规模分区环境下的指标收集实践
+- 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
+- 使用 Apache RocketMQ 赋能无服务器消息架构
+- RocketMQ 5.0 中的虚拟队列：增强对 Remoting 协议客户端的向后兼容性
 ---
 本次分享将比较 Pulsar 与 RocketMQ 的特性，以及 Pulsar 在小红书线上场景中的实现方式（包括特性延迟、多活、压缩等），以及企业获得的实际收益。
 

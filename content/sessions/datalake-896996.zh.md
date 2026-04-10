@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 使用 Apache Iceberg 增强 Lakehouse 实施
+- Apache Iceberg 的隐藏超能力：治理、实验与自主未来
+- Apache Hive 中带有分支和标记的 ETL 的未来
+- Apache Polaris（孵化中）和 Apache XTable：统一 Iceberg、Hudi 和其他表格式
+- Impala 在 Iceberg 上与 Puffins
 ---
 在本次演讲中，我们将深入探讨 Apache Iceberg，并发现高效维护大规模数据表的实用技术。我们将引导您了解现代数据湖中表维护的核心挑战，并分享优化性能和确保数据完整性的策略。您将学习如何应用最佳实践来管理元数据、处理表压缩以及自动化维护任务，以最大限度地减少停机时间并提高查询性能。
 

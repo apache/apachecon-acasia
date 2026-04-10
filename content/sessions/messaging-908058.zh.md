@@ -12,7 +12,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 强化虚拟协作：将生成式 AI 集成至 Apache OpenMeetings
+- 用 Rust 和开源构建人工智能自动化的未来
+- AI Agent：开启现实世界 AI 应用的金钥匙
+- AI时代的微服务创新：从架构重塑到代理驱动开发
+- 将大语言模型集成至 CI/CD 流水线：提升 Apache 项目代码质量的实践案例
 ---
 如果您身处 AI 领域，EDA 为 LLM 和 AI Agent 提供的重要帮助不容忽视。本演讲将重点探讨 EDA 为 GenAI 带来的改变：
 

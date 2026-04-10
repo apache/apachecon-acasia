@@ -18,7 +18,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 从数据到 AI：基于 Apache Cloudberry 构建统一分析平台
+- Kwai Flink 云原生架构演进
+- AI 与云原生时代下的未来就绪数据平台
+- 在实践中构建实时数据湖
+- SeaTunnel 架构分析与 Cloudberry 集成实践
 ---
 摘要：  
 在构建大数据平台的过程中，我们从基于Apache Hadoop生态系统的传统部署模式，过渡到通过JuiceFS实现存储与计算分离，最终迁移至以Kubernetes为核心的调度系统。这一技术演进涵盖存储、计算和集群架构三个方面，旨在提升数据处理效率。  

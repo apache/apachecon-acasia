@@ -13,7 +13,14 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Empowering Serverless Messaging Architectures with Apache RocketMQ
+- RobustMQ - Explore how to rewrite a message queue in Rust
+- Lessons Learned in Building a Cloud MQTT Solution
+- 'Xiaomi''s RocketMQ-MQTT best practice: The Journey of Enhancing Quality and Cost
+  Efficiency'
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
 ---
 BifroMQ is a Java-based, high-performance MQTT broker currently incubating at the Apache Software Foundation. It is designed from the ground up to support native multi-tenancy, linear scalability, and massive concurrent connections—all while ensuring consistently low-latency messaging.
 In this session, we will explore the architectural principles that shape BifroMQ’s design, driven by the unique challenges of building a multi-tenant distributed MQTT broker.

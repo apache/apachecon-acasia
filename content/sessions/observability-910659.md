@@ -11,7 +11,14 @@ projects: []
 audience:
 - 架构师
 - SRE/运维
-related_sessions: []
+related_sessions:
+- High Performance, Low Cost, Open Observability powered by Apache Doris
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- 'IoTDB Time-Series Data Subscription: Design and Efficient Practices'
+- SeaTunnel Architecture Analysis and Cloudberry Integration Practice
+- 'Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark
+  Cluster'
 ---
 In this talk, I'll focus on BanyanDB's innovative hot-warm-cold architecture, a design that marks a major leap forward in the field of modern system observability. We will explain why a tiered architecture is the right choice for managing massive amounts of metrics, tracking, and logging data, and how BanyanDB skillfully puts this concept into practice while balancing superior performance, cost-effectiveness, and data storage efficiency.
 

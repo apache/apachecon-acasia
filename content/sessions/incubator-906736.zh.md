@@ -14,7 +14,12 @@ audience:
 - 架构师
 - 开发者
 - 产品/经理
-related_sessions: []
+related_sessions:
+- Apache Cloudberry 简介：演变、主要特性和路线图
+- 从数据到 AI：基于 Apache Cloudberry 构建统一分析平台
+- 使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案
+- 深入 Apache Cloudberry 的向量化执行：设计、挑战与性能提升
+- 从混乱到有序：Apache OzHera（孵化版）首次发布流程之旅
 ---
 Apache Cloudberry 是一款基于 Greenplum 的大规模并行处理 (MPP) 数据库，它已进入 Apache 孵化器，旨在为开源社区带来强大的分析能力。作为该项目的发起人和持续贡献者之一，我有幸亲身经历了孵化过程的每个阶段——从起草提案、组建 PPMC，到项目发布和市场推广，再到清理源代码以及构建社区动力。
 

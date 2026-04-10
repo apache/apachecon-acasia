@@ -11,7 +11,13 @@ projects: []
 audience:
 - 产品/经理
 - 开发者
-related_sessions: []
+related_sessions:
+- The Golden Age of Independent Developers
+- 'Product Development in the Age of AI: What Changes, What Remains'
+- 'AI Reinvents Development: From Tool Revolution to Developer Evolution'
+- China Open Source & AI at  a Glance
+- ' Unlocking maximize heterogeneous GPU utilization in Cloud Native way: Leveraging
+  the Power of HAMi'
 ---
 With the surging global market demand for intelligent and digital products, for open-source, Infra, and numerous application developers, the phase of asking "Why" regarding overseas expansion has passed. Instead, they are now more focused on specific methodologies centered around "How".
 This panel has invited practical experts with rich experience in overseas expansion of AI applications, founders of chuhaiqu.club, and community leader who has been in charge of the open source and developer ecosystems of multiple products. They will conduct an in-depth analysis of diversified growth paths in overseas markets, with a focus on effective customer acquisition methods, including: how to leverage influencer marketing to drive local community influence, accurately reach target users through social media and stimulate communication momentum, and how the product-led growth (PLG) model can reduce customer acquisition costs and improve conversion efficiency.Attention will also be paid to the opportunities for overseas expansion of open-source projects – expanding global influence through community strength and building collaborative ecosystems to facilitate user growth. 

@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 队列、处理、预测：Kafka 与 Flink LLM 和 Datalake 开启新时代
+- Apache Iceberg 的隐藏超能力：治理、实验与自主未来
+- Apache Iceberg：高性能数据湖仓的表维护策略
+- 使用 Apache Iceberg 增强 Lakehouse 实施
+- 掌握大规模 Shuffle：Dream11 使用远程 Shuffle 服务的实战手册
 ---
 当今企业面临海量数据处理的挑战，需要高效的批处理方案。管理这些任务可能导致复杂性增加、资源浪费及运营成本上升，从而阻碍业务效率。
 

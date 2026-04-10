@@ -14,7 +14,13 @@ audience:
 - 架构师
 - 开发者
 - 产品/经理
-related_sessions: []
+related_sessions:
+- 'Introduction to Apache Cloudberry: Evolution, Key Features, and Roadmap'
+- 'From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry'
+- Building a Unified Lakehouse Solution with Apache Cloudberry
+- 'From Chaos to Order: The Journey of Apache OzHera (Incubating)''s First Release
+  Process'
+- 'The Seven Year Itch: My Apache Story'
 ---
 Apache Cloudberry, a massively parallel processing (MPP) database based on Greenplum, entered the Apache Incubator with the vision of bringing analytical power to the open-source community. As one of the initiators and ongoing contributors to the project, I’ve had the opportunity to closely experience every stage of the incubation journey — from drafting the proposal and forming the PPMC to announcing and marketing promotion, to cleaning up the source code, and building community momentum.
 

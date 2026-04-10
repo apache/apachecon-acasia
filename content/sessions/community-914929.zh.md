@@ -11,7 +11,12 @@ projects: []
 audience:
 - 开发者
 - 通用
-related_sessions: []
+related_sessions:
+- 直面安全领域的挑战
+- 探索孵化流程
+- 揭秘 Apache 软件基金会董事会
+- 开源许可的十年经验教训
+- 蚂蚁开源孵化实践探索
 ---
 为何如此艰难……
 

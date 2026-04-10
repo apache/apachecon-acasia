@@ -13,7 +13,12 @@ projects:
 audience:
 - 开发者
 - 产品/经理
-related_sessions: []
+related_sessions:
+- 从提案到进展：从孵化 Apache Cloudberry 中汲取的经验教训
+- 圆桌讨论：独立开发者的黄金时代
+- 以 GenAI 赋能开源生态，激发开发者创新浪潮
+- 社区的力量
+- Apache 社区发展研究——基于中国开源年度报告的数据分析
 ---
 从 Commits 到 Capital：用开源热情点燃创业之旅
 

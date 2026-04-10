@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Ozone：通过磁盘平衡器实现数据均衡
+- 构建开发者友好的开源数据库社区实践
+- IoTDB 时序数据订阅：设计与高效实践
+- Apache HugeGraph 1.5.0：企业级部署最佳实践
+- 七年之痒：我的 Apache 故事
 ---
 在 Shopee，我们已经使用 Ozone 超过四年时间，存储的对象数量已达到数十亿级别。在本次会议中，我将介绍我们开发的两个功能：对象生命周期管理和存储类别。
 

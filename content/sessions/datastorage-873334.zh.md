@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 基于HTTP的下一代微服务通信协议。
+- 提升数据处理能力：云架构中无缝批处理管理的策略
+- 使用 Apache Iceberg 增强 Lakehouse 实施
+- 使用 Apache Arrow 重塑 OpenTelemetry
+- 队列、处理、预测：Kafka 与 Flink LLM 和 Datalake 开启新时代
 ---
 在 Dream11，我们使用 Apache Celeborn 进行 PB 级规模的 Shuffle 操作，利用机架感知（rack awareness）来最小化跨机架的数据传输，并通过在不同机架间复制 Shuffle 数据来确保高可用性。它将 Shuffle 存储与计算节点解耦，使得存储能够独立于计算需求进行弹性扩展。并行分区写入和自适应 Shuffle 读取优化了吞吐量并降低了延迟。弹性扩展允许动态分配资源，在不同工作负载下保持成本效益。这种设计增强了容错能力，并将作业完成时间缩短了 50% 以上。
  

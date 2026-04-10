@@ -14,7 +14,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time
+  Computing
+- Scalable Join & Aggregation with External State and Dynamic Tables
+- Disaggregated State Management In Apache Flink 2.0
+- Practice of Flink Memory Governance at ByteDance
+- 'When Flink Meets Fluss: The Future of Streaming Warehouse'
 ---
 1.Background:
 Flink, as a stateful stream processing system, has a state storage engine that plays a crucial role. In Flink, state is used to store intermediate results during the data stream computation process. Flink provides state read and write services for operators through the State Backend component. However, under the current architecture where computation and storage are integrated, the following issues arise:

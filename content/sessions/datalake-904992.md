@@ -14,7 +14,14 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Building a real-time data lakehouse in practice
+- Build a cloud native Lakehouse architecture based on Iceberg & Amoro & Gravitino
+  in Tencent Cloud
+- 'What’s New in Apache Impala 4.5: Iceberg, Performance & More'
+- 'Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark
+  Cluster'
+- Xiaomi's Efficient Data & AI Optimization with Apache Paimon
 ---
 At Huolala, we leveraged Apache Amoro to build a next-generation lakehouse platform with Apache Iceberg as its core. While managing petabyte-scale daily data processing, we tackled critical stability challenges, including:
 

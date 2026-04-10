@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - 产品/经理
-related_sessions: []
+related_sessions:
+- Practical Experiences in Ant Open Source Incubation
+- Inside the Apache Software Foundation Board
+- Navigating the Incubator process
+- Supercharge Lakehouse Implementation with Apache Iceberg
+- 'Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI'
 ---
 Fineract showcases how open-source collaboration between for-profit and non-profit organizations can transform Asia’s fintech landscape, offering a scalable, inclusive alternative to costly core banking solutions.
 

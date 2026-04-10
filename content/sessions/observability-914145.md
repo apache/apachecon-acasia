@@ -15,7 +15,15 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Bridging the Divide: Harmonizing Apache SkyWalking and OpenTelemetry in Production
+  Environments'
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time
+  Computing
+- Application of Apache Flink in China Telecom's Logging Scenario
 ---
 In today's era of artificial intelligence + big data, enterprises are facing the challenges of rapid growth and diversified needs of massive data. Combining Apache Flink/Spark, two popular distributed computing engines, enterprises can build flexible real-time and batch data processing pipelines. However, in a large-scale stream processing service cluster environment, observability faces many challenges, mainly including dynamic perception of elastic tasks, large amounts of observable data, and strict requirements for real-time performance. As a full-stack observable data collector, LoongCollector can help users efficiently collect and process logs, metrics, and tracking data. In this talk, we will focus on how to achieve the best practices of enterprise-level observability for Flink/Spark through LoongCollector.
 Outline:

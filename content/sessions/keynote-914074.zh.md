@@ -10,7 +10,12 @@ practice_level: 2
 projects: []
 audience:
 - 通用
-related_sessions: []
+related_sessions:
+- 中国开源与人工智能概览
+- 社区的力量
+- 从 Commits 到 Capital：用开源热情点燃创业之旅
+- 从提案到进展：从孵化 Apache Cloudberry 中汲取的经验教训
+- 蚂蚁集团基于 Apache 技术栈构建的新一代高 SLA 流式计算系统
 ---
 随着全球开源生态系统的快速发展，中国开源社区在国际舞台上的影响力持续增强。本报告基于《中国开源年度报告》的数据分析，聚焦 Apache 开源社区在中国的参与度、技术贡献以及发展趋势，旨在揭示该社区在全球开源生态系统中的角色与挑战。
 

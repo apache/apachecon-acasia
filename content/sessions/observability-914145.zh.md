@@ -14,7 +14,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 弥合鸿沟：在生产环境中协调 Apache SkyWalking 和 OpenTelemetry
+- Apache Flink 2.1：持续演进，迈向数据 + AI 一体化
+- 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
+- eBPF + MCP：DeepFlow 全栈可观测性与智能体实践案例
+- Apache Pulsar 在大规模分区环境下的指标收集实践
 ---
 在当今人工智能+大数据时代，企业面临着海量数据快速增长和需求多样化的挑战。结合 Apache Flink/Spark 两大主流分布式计算引擎，企业可以构建灵活的实时和批量数据处理流水线。然而，在大规模流处理服务集群环境下，可观测性面临诸多挑战，主要包括弹性任务的动态感知、海量可观测数据以及对实时性的严格要求。LoongCollector 作为一款全栈可观测数据收集器，可以帮助用户高效地收集和处理日志、指标和追踪数据。本次演讲将重点探讨如何通过 LoongCollector 实现 Flink/Spark 企业级可观测性的最佳实践。
 提纲：

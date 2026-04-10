@@ -13,7 +13,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Supercharge Lakehouse Implementation with Apache Iceberg
+- Impala on Iceberg with Puffins
+- 'Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures'
+- The Future of ETL with Branching & Tagging in Apache Hive
+- 'Apache Polaris (Incubating) & Apache XTable: Unifying Iceberg, Hudi, and other
+  Table Formats'
 ---
 In this talk, we'll dive deep into Apache Iceberg and discover practical techniques for maintaining large-scale data tables efficiently. We’ll guide you through the core challenges of table maintenance in modern data lakes and share strategies to optimize performance and ensure data integrity. You’ll learn how to apply best practices to manage metadata, handle table compaction, and automate maintenance tasks to minimize downtime and improve query performance. 
 

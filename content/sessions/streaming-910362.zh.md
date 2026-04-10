@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 腾讯大数据 Flink 状态存储的探索与实践：计算存储分离架构
+- Apache Flink 2.1：持续演进，迈向数据 + AI 一体化
+- Kwai Flink 云原生架构演进
+- 当 Flink 遇见 Fluss：流式数据仓库的未来
+- 字节跳动 Flink 内存治理实践
 ---
 1. 背景与行业痛点  
   a. Flink 作为一种长期运行的有状态计算，广泛应用于实时数据仓库、实时分析和在线训练等场景。

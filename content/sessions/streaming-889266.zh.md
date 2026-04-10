@@ -13,7 +13,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Apache Flink 2.1：持续演进，迈向数据 + AI 一体化
+- 腾讯大数据 Flink 状态存储的探索与实践：计算存储分离架构
+- Flink + Paimon 实时 Lakehouse 解决方案的技术演进
+- Kwai Flink 云原生架构演进
+- 腾讯实时计算的智能演进：全托管资源管理
 ---
 Kafka 和 Flink 已广泛应用于流处理场景，成为构建流式数据仓库和实时分析的事实标准范例。然而，它仍然面临许多难以解决的挑战性问题。本讲座将探讨该范例在流式分析中面临的挑战和问题。
 

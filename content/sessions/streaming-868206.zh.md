@@ -14,7 +14,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Apache Iceberg：高性能数据湖仓的表维护策略
+- Apache Hive 中带有分支和标记的 ETL 的未来
+- 提升数据处理能力：云架构中无缝批处理管理的策略
+- Apache Iceberg 的隐藏超能力：治理、实验与自主未来
+- 使用 Apache Iceberg 增强 Lakehouse 实施
 ---
 消息队列对于支付处理、欺诈检测和 AI 支持系统等实时用例至关重要，但传统队列通常缺乏可扩展性、持久性和可重放性。在本演讲中，我们将探讨 Kafka 4.0 如何将原生队列语义引入分布式流处理领域，从而实现公平、并发和隔离的大规模消息处理。
 

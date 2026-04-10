@@ -14,7 +14,12 @@ audience:
 - 开发者
 - SRE/运维
 - 架构师
-related_sessions: []
+related_sessions:
+- 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
+- Apache IoTDB 系统监控框架的实施与调优实践
+- 为什么我们需要开源 AI 网关
+- Apache APISIX x IoT：让数据流更安全、更智能
+- Seata 的历程：从阿里巴巴的创新到 Apache 的成功及未来
 ---
 Apache HertzBeat 是一款新一代开源实时监控与告警平台。它强调监控的重要性并指出传统解决方案的痛点，将 HertzBeat 定位为统一监控的“一站式”解决方案，并提供增强的用户体验。
 

@@ -17,7 +17,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 使用 Apache Iceberg 增强 Lakehouse 实施
+- Apache Iceberg：高性能数据湖仓的表维护策略
+- Impala 在 Iceberg 上与 Puffins
+- Apache Hive 中带有分支和标记的 ETL 的未来
+- Apache Iceberg 的隐藏超能力：治理、实验与自主未来
 ---
 Apache Polaris（孵化中）实现了 Apache Iceberg REST 目录规范，并允许用户管理 Iceberg 表、视图和其他相关元数据。基于角色的访问控制控制哪些用户可以访问哪些数据，Polaris 支持将策略附加到表，以便对数据进行分类并配置表维护。
 

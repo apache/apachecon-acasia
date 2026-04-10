@@ -11,7 +11,12 @@ projects: []
 audience:
 - 开发者
 - 通用
-related_sessions: []
+related_sessions:
+- Rising to the Challenges in Security
+- Navigating the Incubator process
+- Inside the Apache Software Foundation Board
+- A decade of lessons in Open Source licensing
+- The Future of ETL with Branching & Tagging in Apache Hive
 ---
 Why is it So Hard...
 

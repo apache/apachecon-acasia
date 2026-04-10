@@ -14,7 +14,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Kafka on Tencent Cloud: Seamless Migration & Disaster Recovery'
+- 腾讯云上的 Kafka：无缝迁移与灾难恢复
+- Apache Kafka 4.0 on Huawei Cloud
+- 'When Flink Meets Fluss: The Future of Streaming Warehouse'
+- 'Kafka 4.0 Highlights: Features, Removals, and Upgrades'
 ---
 Alibaba Cloud Kafka has been fully upgraded based on open source Kafka, combining cloud native infrastructure such as elastic computing, high-performance distributed file storage and container services to achieve a high-performance storage and computing separation architecture. The fast recovery mechanism of cloud native kafka greatly reduces RTO, while its read-write isolation mechanism fully guarantees the quality of service. Its low latency, high throughput, extreme elasticity and easy operation and maintenance make the cloud native kafka architecture sufficient to cope with many business scenarios. While this speech explains in detail the high-performance implementation principles of cloud native kafka, it will also present the multi-scenario best practices of cloud native kafka from the fields of Internet of Vehicles and AI.
 

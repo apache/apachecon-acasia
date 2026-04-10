@@ -16,7 +16,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 蚂蚁集团基于 Apache 技术栈构建的新一代高 SLA 流式计算系统
+- 统一调度器：支持流计算、批处理与图计算
+- 利用流式图计算加速多流连接
+- 当 Flink 遇见 Fluss：流式数据仓库的未来
+- 构建云 MQTT 解决方案的经验教训
 ---
 介绍隐私计算的技术背景，探讨当前隐私计算在工业应用中存在的挑战，进而说明为什么需要SecretFlow。随后阐述SecretFlow为解决这些问题做了哪些工作。
 

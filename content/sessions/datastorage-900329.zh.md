@@ -13,7 +13,12 @@ projects:
 audience:
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Shopee 的 Apache Ozone 最佳实践
+- 从 Hadoop 到 Kubernetes：理想汽车大数据平台的云原生演进
+- SeaTunnel 架构分析与 Cloudberry 集成实践
+- 货拉拉生产环境中的Apache Amoro与Iceberg实践
+- 使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案
 ---
 Apache Ozone 是 Hadoop 生态系统中的一个分布式存储系统。作为一个分布式存储系统，确保数据在 DataNodes 和磁盘之间均匀分布非常重要，这样才能高效且充分地利用存储空间和资源。为了实现这一目标，Ozone 支持 Container Balancer 和 Disk Balancer，前者用于解决数据在 DataNodes 之间均匀分布的需求，后者则用于解决数据在每个 DataNode 的所有磁盘之间均匀分布的需求。在本次会议中，我们将分享磁盘平衡器（Disk Balancer）功能的设计原理，以及如何使用磁盘平衡器功能来确保 DataNode 的磁盘利用率均衡。
 

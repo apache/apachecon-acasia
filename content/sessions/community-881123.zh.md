@@ -12,7 +12,12 @@ audience:
 - 开发者
 - 架构师
 - 产品/经理
-related_sessions: []
+related_sessions:
+- Shopee 的 Apache Ozone 最佳实践
+- 使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案
+- 蚂蚁集团基于 Apache 技术栈构建的新一代高 SLA 流式计算系统
+- SeaTunnel 架构分析与 Cloudberry 集成实践
+- 优化可观测性：揭秘BanyanDB的热-温-冷架构
 ---
 OceanBase 数据库是由蚂蚁集团自主研发的分布式关系型数据库。它已经连续11年支撑了双11购物节。最初，它是作为淘宝收藏夹使用的电商数据库，后来逐渐发展成为蚂蚁集团所有核心系统的数据库。随后，它又成长为众多企业，尤其是金融行业核心系统的数据库。
 

@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Hop：大型语言模型、图数据库与电子表格的无缝集成
+- 'Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI'
+- Apache Hive 中带有分支和标记的 ETL 的未来
+- 使用 Apache Iceberg 增强 Lakehouse 实施
+- 掌握大规模 Shuffle：Dream11 使用远程 Shuffle 服务的实战手册
 ---
 OpenTelemetry 是一个广泛采用的开源标准，用于构建可观测性框架，提供用于生成、收集和导出遥测数据（例如指标、日志和轨迹）的工具、API 和 SDK。然而，其传输协议依赖于 Protocol Buffer 消息，这些消息无状态且易于解释，但其基于行的结构使压缩变得复杂。当跨网络边界传输大量数据时，这种限制会更加明显。
 

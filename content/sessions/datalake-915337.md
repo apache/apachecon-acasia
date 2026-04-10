@@ -14,7 +14,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Xiaomi's Efficient Data & AI Optimization with Apache Paimon
+- Building a Unified Lakehouse Solution with Apache Cloudberry
+- 'Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support
+  for Hudi / Icebe'
+- Building a real-time data lakehouse in practice
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
 ---
 Topic Introduction:
 Apache Hudi is a powerful table format that provides extensive capabilities for both offline and real-time scenarios. During the process of advancing its data warehouse architecture upgrade, Kuaishou has leveraged Hudi's data lake capabilities to enhance timeliness, reduce costs, and improve development efficiency in scenarios such as real-time data ingestion into the lake, partial updates, and large wide table.

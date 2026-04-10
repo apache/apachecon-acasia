@@ -12,7 +12,13 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'Seata''s Journey: From an Alibaba Innovation to Apache Success and Beyond'
+- 'AI Agent: The Golden Key to Unlock Real-World AI Applications'
+- 'Catalogs as Context: Using metadata to power and govern the next wave of AI development'
+- 'Unlocking the Potential of the Dubbo Ecosystem: Building AI-Driven Applications
+  with dubbo-go-pixiu'
+- 'Enhancing Virtual Collaboration: Integrating GenAI into Apache OpenMeetings'
 ---
 This session will begin with an introduction to Seata and distributed transactions, followed by a detailed discussion on the implementation and usage of the Saga pattern. Finally, it will explore how the Saga pattern can be integrated with AI, such as connecting with AI Agents and Workflows.
 

@@ -17,7 +17,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Gravitino, the answer of metadata management in AI era
+- Xiaomi's Efficient Data & AI Optimization with Apache Paimon
+- Apache Gravitino Best Practices for Multi-Cluster Management
+- 'From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry'
+- 'Catalogs as Context: Using metadata to power and govern the next wave of AI development'
 ---
 Apache Gravitino is a unified metadata management platform adopted by Bilibili to address data silos, enabling metadata view integration across heterogeneous data sources such as Hive, Iceberg, Kafka and so on. Leveraging ​end-to-end lineage tracking, it traces data workflows from ingestion, processing, to service delivery, optimizing resource utilization and impact analysis of schema changes. By integrating Iceberg's partitioning strategies (e.g., Truncate/Bucket) and Branch features, Gravitino supports flexible data versioning, multi-stream data stitching, and isolated testing environments. For AI-driven scenarios, the platform provides systematic ​training dataset partitioning and model version management, ensuring reproducibility and streamlined AI asset governance. This solution reduces cross-source maintenance overhead, enhances data consistency, and establishes a scalable technical foundation for Bilibili's AI applications and enterprise-wide data governance
 

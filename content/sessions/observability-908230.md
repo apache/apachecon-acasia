@@ -15,7 +15,15 @@ projects:
 audience:
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Bridging the Divide: Harmonizing Apache SkyWalking and OpenTelemetry in Production
+  Environments'
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- 'eBPF + MCP: DeepFlow''s Full-Stack Observability and AI Agent Practice Cases'
+- 'Microservice Innovation in the AI Era: From Architecture Reshaping to Agent Driven
+  Development'
+- Building the Future of AI Automation with Rust and Open Source
 ---
 Abstract:
 Distributed tracing is crucial for observability, driving improvements in cross-language tracing agent availability. This presentation will introduce how to use Apache SkyWalking to monitor Ruby applications, and provide an in-depth exploration of the implementation principles of the Ruby Agent. Additionally, it will discuss the integration of the Model Context Protocol (MCP) with SkyWalking.

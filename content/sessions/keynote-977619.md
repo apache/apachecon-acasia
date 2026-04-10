@@ -15,7 +15,13 @@ projects:
 - servicecomb
 audience:
 - 通用
-related_sessions: []
+related_sessions:
+- Insights into the Apache Community from China Open Source Annual Report
+- 'Nurturing New Contributors: The Art of Crafting Good First Issues'
+- 'From Commits to Capital: Turning Open Source Passion into a Startup Journey'
+- Growth and Commercialization in Overseas Expansion of Tech Products
+- 'Bridging the Language Divide: Practical Tactics for Global Collaboration in Open
+  Source'
 ---
 As the opening keynote for Community Over Code Asia, we will briefly review the development journey of the Apache Software Foundation in China and the growth of local Apache communities. Here, we witness the power of community—it is through this collective strength that we have successfully organized this conference!
 

@@ -17,7 +17,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Large-scale Shuffle with Apache Celeborn at Ant Group
+- Production Practice of Apache Gluten and Apache Celeborn at Xiaomi
+- SeaTunnel Architecture Analysis and Cloudberry Integration Practice
+- Xiaomi's Efficient Data & AI Optimization with Apache Paimon
+- 'What’s New in Apache Impala 4.5: Iceberg, Performance & More'
 ---
 Apache Celeborn has made significant progress over the past year, introducing new capabilities, performance optimizations, and expanded engine support.
 

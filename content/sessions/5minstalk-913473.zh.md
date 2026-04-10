@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - 产品/经理
-related_sessions: []
+related_sessions:
+- 直面安全领域的挑战
+- 蚂蚁开源孵化实践探索
+- 探索孵化流程
+- 揭秘 Apache 软件基金会董事会
+- 'Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI'
 ---
 Fineract展示了营利与非营利组织间的开源协作如何重塑亚洲金融科技格局，为昂贵的核心银行系统提供了可扩展、普惠的替代方案。
 

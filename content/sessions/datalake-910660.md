@@ -16,7 +16,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- SeaTunnel Architecture Analysis and Cloudberry Integration Practice
+- Building a real-time data lakehouse in practice
+- Building a Unified Lakehouse Solution with Apache Cloudberry
+- Technical Progression of Flink + Paimon Real-time Lakehouse Solutions
+- 'Apache Hudi in Action: Accelerating Kuaishou''s Data Warehouse Architecture Upgrade'
 ---
 Abstract:
 With the ongoing evolution of lakehouse architectures and real-time data lakes, enterprises increasingly require a unified, high-performance, and scalable data integration framework to support both writing to and reading from multiple data lake formats such as Apache Hudi, Iceberg, and Paimon.

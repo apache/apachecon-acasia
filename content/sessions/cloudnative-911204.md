@@ -18,7 +18,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry'
+- ' Unlocking maximize heterogeneous GPU utilization in Cloud Native way: Leveraging
+  the Power of HAMi'
+- Kwai Flink Cloud Native Architecture Evolution
+- Building a real-time data lakehouse in practice
+- SeaTunnel Architecture Analysis and Cloudberry Integration Practice
 ---
 Abstract:
 In the construction of our big data platform, we transitioned from traditional deployments using the Apache Hadoop ecosystem to achieving storage-compute separation with JuiceFS, and finally migrated to a Kubernetes-centric scheduling system. This technological evolution spans three aspects: storage, computing, and cluster architecture, aiming to enhance data processing efficiency.

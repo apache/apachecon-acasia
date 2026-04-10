@@ -14,7 +14,14 @@ projects:
 audience:
 - 开发者
 - 架构师
-related_sessions: []
+related_sessions:
+- 'From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry'
+- 'The Journey of an Open Source Contributor: Evolving from PR Submissions to Project
+  Maintenance'
+- Ant Group's Next Generation High SLA Stream Computing System Built on Apache Technology
+  Stack
+- Insights into the Apache Community from China Open Source Annual Report
+- The power of Community
 ---
 This is my seventh year at The Apache Software Foundation. Starting as a contributor, I earned my first commit bit while working on the Apache Flink project. The more I contribute to ASF projects, the more credits I earn in their community.
 

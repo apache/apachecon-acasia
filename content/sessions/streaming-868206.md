@@ -14,7 +14,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'Elevating Data Processing: Strategies for Seamless Batch Management in Cloud Architectures'
+- The Future of ETL with Branching & Tagging in Apache Hive
+- 'Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures'
+- Supercharge Lakehouse Implementation with Apache Iceberg
+- 'Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI'
 ---
 Message queues are essential for real-time use cases like payment processing, fraud detection, and AI-powered support systems—but traditional queues often lack scalability, durability, and replayability. In this talk, we explore how Kafka 4.0 brings native queue semantics to the world of distributed streaming, enabling fair, concurrent, and isolated message processing at scale.
 

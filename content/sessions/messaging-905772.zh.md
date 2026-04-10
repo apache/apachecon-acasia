@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 构建云 MQTT 解决方案的经验教训
+- 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
+- 使用 Apache RocketMQ 赋能无服务器消息架构
+- RobustMQ：探索如何用 Rust 重写消息队列
+- RocketMQ 5.0 中的虚拟队列：增强对 Remoting 协议客户端的向后兼容性
 ---
 本次演讲将介绍小米 MQTT 系统架构的演变，重点介绍其在稳定性、性能和成本优化方面的进步。关键举措包括管理海量主题、确保消息顺序、灾难恢复机制、分层存储解决方案、字典压缩技术、数据集成、容器化等等。
 

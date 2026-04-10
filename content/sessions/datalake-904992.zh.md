@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 在实践中构建实时数据湖
+- 在腾讯云上基于 Iceberg & Amoro & Gravitino 构建云原生 Lakehouse 架构
+- 使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案
+- Apache Impala 4.5 新特性：Iceberg 支持、性能提升等
+- 统一数据湖接入与实时集成：解构 SeaTunnel 对 Hudi / Iceberg / Paimon 的架构级支持
 ---
 在货拉拉，我们利用Apache Amoro构建了以Apache Iceberg为核心的新一代湖仓平台。在管理PB级日处理数据量的过程中，我们解决了关键的稳定性挑战，包括：
 

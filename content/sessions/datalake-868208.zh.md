@@ -12,7 +12,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Apache Iceberg：高性能数据湖仓的表维护策略
+- 使用 Apache Iceberg 增强 Lakehouse 实施
+- 队列、处理、预测：Kafka 与 Flink LLM 和 Datalake 开启新时代
+- 提升数据处理能力：云架构中无缝批处理管理的策略
+- 直面安全领域的挑战
 ---
 大多数关于 Apache Iceberg 的演讲都热衷于谈论时间旅行和 ACID 合规性——这已经不足为奇了。但那些鲜为人知的功能呢？那些能够将混乱转化为秩序、将实验转化为胜利、将静态表格转化为自主驱动力的功能——让你的数据平台能够自我思考？欢迎来到这里，我们将一起探索 Iceberg 的隐藏工具包。
 

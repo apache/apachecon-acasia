@@ -13,7 +13,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
+- Building a real-time data lakehouse in practice
+- 'When Flink Meets Fluss: The Future of Streaming Warehouse'
+- Building a Unified Lakehouse Solution with Apache Cloudberry
+- Xiaomi's Efficient Data & AI Optimization with Apache Paimon
 ---
 The lakehouse architecture has emerged as a transformative trend in recent years. By leveraging Flink as a stream-batch unified processing engine and Paimon as a stream-batch unified lake format, the Streaming Lakehouse architecture has enabled real-time data freshness for the lakehouse. While structured data remains widely used in Paimon, semi-structured and unstructured data are becoming increasingly critical in artificial intelligence applications. The Flink and Paimon communities have collaborated closely, combining their strengths and integrating cutting-edge features to deliver significant enhancements and optimizations for users. 
 In this talk, we will introduce some of the important work, including:

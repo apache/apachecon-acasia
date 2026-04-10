@@ -13,7 +13,15 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Doris AI exploration and practice
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- The practice of Apache Doris in the trusted data space of China Unicom Data Intelligence
+  Co., Ltd
+- 'Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark
+  Cluster'
+- 'Optimizing Observability: Unveiling BanyanDB''s Hot-Warm-Cold Architecture'
 ---
 Users can build High Performance, Low Cost, Open Observability powered by Apache Doris. It's 5x times more cost efficient then Elastcicsearch and compatible to open standard such as OpenTelemetry.
 

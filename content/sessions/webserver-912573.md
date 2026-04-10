@@ -14,7 +14,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Application of Dubbo-go in microservice architecture
+- What changes can be brought by combining microservices with OpenAPI?
+- Secure your Dubbo application using Triple and xDS
+- 'Microservice Innovation in the AI Era: From Architecture Reshaping to Agent Driven
+  Development'
+- 'AI Agent: The Golden Key to Unlock Real-World AI Applications'
 ---
 Learn how to leverage **Dubbo-go-Pixiu** to seamlessly connect external protocols with internal Dubbo services, providing a unified entry point for AI model inference services, data processing services, and more.  
 Understand the advantages of **Dubbo-go-Pixiu** in handling multi-protocol communication scenarios commonly encountered in AI applications.  

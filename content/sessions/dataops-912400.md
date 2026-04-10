@@ -13,7 +13,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Gravitino, the answer of metadata management in AI era
+- 'Resolving Data Silos: Apache Gravitino''s Production Implementation Practices at
+  Bilibili'
+- Xiaomi's Efficient Data & AI Optimization with Apache Paimon
+- 'Catalogs as Context: Using metadata to power and govern the next wave of AI development'
+- 目录即情境： 利用元数据推动和管理下一波人工智能开发浪潮
 ---
 Apache Gravitino unifies the management of Data and AI metadata. Especially in the scenario of managing multiple clusters on and off the cloud, Gravitino's unification of metadata can be very well utilized to bring out the benefits of sense-less migration and usage of data on and off the cloud, silky-smooth rolling upgrades of big data clusters, and unification of the permissions system for big data clusters in the public cloud and in privatized deployments.
 In this session, in addition to introducing the many features of Apache Gravitino in multi-cluster management, we will also share the best practices of Apache Gravitino from users at home and abroad.

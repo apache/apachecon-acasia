@@ -14,7 +14,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
+- RocketMQ 5.0 中的虚拟队列：增强对 Remoting 协议客户端的向后兼容性
+- RobustMQ：探索如何用 Rust 重写消息队列
+- 构建云 MQTT 解决方案的经验教训
+- 基于 Commitlog 和 RocksDB 的 RocketMQ 存储引擎
 ---
 我们最新的研究成果已被 ACM FSE 2025 行业专题收录，Apache RocketMQ 为无服务器消息系统奠定了坚实的基础，解决了传统中间件在可扩展性、成本和元数据方面的挑战。通过解耦存储和计算，Apache RocketMQ 实现了独立的资源扩展，这对于不可预测的云工作负载至关重要。其弹性写入分区消除了单队列吞吐量限制，而轻量级消息队列则以最小的冷启动延迟支持数百万个队列。
 

@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
+- 全景可观测性：LoongCollector 助力大规模 Apache Flink 和 Spark 集群
+- eBPF + MCP：DeepFlow 全栈可观测性与智能体实践案例
+- SkyWalking 在 Ruby Agent 和 MCP 中的探索和实践
+- 货拉拉生产环境中的Apache Amoro与Iceberg实践
 ---
 在当今动态的云生态系统中，许多企业由于架构迁移、团队偏好或语言支持限制等原因，在使用多个可观测性堆栈时面临着诸多复杂性。具体而言，Apache SkyWalking 和 OpenTelemetry 本身就功能强大，它们经常在同一个生产环境中共存。然而，这种共存经常会导致兼容性问题，例如跟踪中断、插件增强功能失败，严重的情况下还会导致业务调用错误和应用程序启动失败。
 在 CommunityOverCode Asia 2025 的本次会议上，我将分享我们实现 Apache SkyWalking 和 OpenTelemetry 无缝集成的历程和方法。主要讨论要点包括：

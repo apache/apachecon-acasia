@@ -15,7 +15,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- SF Express's Journey with Apache Spark and Gluten
+- Accelerating Spark jobs with Apache Gluten at ByteDance Scale
+- Xiaomi's Efficient Data & AI Optimization with Apache Paimon
+- Celeborn’s Revolution in Multi-Engine Support, Performance Mastery, and Enterprising
+  Innovation
+- 'Gluten: use native engine to accelerate spark and flink'
 ---
 This talk will dive into the real-world adoption of Apache Gluten and Apache Celeborn at Xiaomi, covering technical background, deployment journey, challenges, and future roadmap.
 1. Technology Landscape

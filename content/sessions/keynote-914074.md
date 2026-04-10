@@ -12,7 +12,12 @@ audience:
 - 架构师
 - 产品/经理
 - 通用
-related_sessions: []
+related_sessions:
+- China Open Source & AI at  a Glance
+- The power of Community
+- The Convergence of Chinese Traditional Culture and Open Source
+- 'From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry'
+- 'The Seven Year Itch: My Apache Story'
 ---
 With the rapid development of the global open-source ecosystem, the influence of China's open-source community on the international stage has continued to grow. This report is based on data analysis from the China Open Source Annual Report, focusing on the participation, technical contributions, and development trends of the Apache open-source community in China. It aims to reveal the community's role and challenges within the global open-source ecosystem.
 

@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- The Three Things That Make or Break a Software Startup
+- Apache NIFI 2.0
+- 'From Commits to Capital: Turning Open Source Passion into a Startup Journey'
+- 'The Seven Year Itch: My Apache Story'
+- 'From Hadoop to Kubernetes: The Cloud-Native Evolution of Li Auto''s Big Data Platform'
 ---
 In 2022, to mark its first anniversary as an open source project, JuiceFS made a bold move: switching its license from AGPLv3 to Apache 2.0. At a time when many projects were going the opposite direction—adopting more restrictive licenses—we doubled down on openness. This lightning talk shares the thinking behind that decision, the risks we weighed, and the unexpected benefits it brought. I’ll also reflect on how this choice has shaped the growth and community of JuiceFS over the past few years, and what it means for sustainable open source in a commercial world.
 

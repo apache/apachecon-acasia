@@ -14,7 +14,12 @@ audience:
 - 开发者
 - SRE/运维
 - 产品/经理
-related_sessions: []
+related_sessions:
+- 揭秘 Apache 软件基金会董事会
+- 探索孵化流程
+- Apache Iceberg：高性能数据湖仓的表维护策略
+- Apache Polaris（孵化中）和 Apache XTable：统一 Iceberg、Hudi 和其他表格式
+- 'Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI'
 ---
 欢迎参加关于 Gravitino 的演讲！管理元数据可能既复杂又耗时，但 Gravitino 提供了终极解决方案。它通过支持地理分布式架构，为多区域数据提供了单一事实来源。这使得您可以将数据存储和管理在一个地方，并从全球任何地方访问。借助统一的数据和 AI 资产管理，您可以获得集中的安全性和数据访问管理，从而简化数据保护工作。Gravitino 通过简化任务并提供以下优势，帮助您更加专注于数据：
  - 安全且集中的元数据存储和管理

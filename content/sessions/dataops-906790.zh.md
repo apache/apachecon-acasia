@@ -12,7 +12,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- SeaTunnel 架构分析与 Cloudberry 集成实践
+- ​​使用 Tantivy 在 Iceberg 上构建倒排索引：实践方法​​
+- 统一数据湖接入与实时集成：解构 SeaTunnel 对 Hudi / Iceberg / Paimon 的架构级支持
+- Apache Doris 混合检索技术解析
+- Apache Kvrocks 的演进：搜索、向量及未来
 ---
 在企业智能升级的浪潮中，信息检索正从“关键词匹配”向“语义理解”转变。基于倒排索引的传统搜索引擎依赖于字符串级别的匹配，这使得难以捕捉用户查询背后的真实意图。这限制了搜索体验的有效性、推荐准确性、客户服务响应以及基于知识的问答系统的智能性。
 

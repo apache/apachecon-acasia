@@ -12,7 +12,15 @@ projects:
 audience:
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Best Practices for High Availability of Apache Pulsar on Tencent Cloud
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- 'Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark
+  Cluster'
+- Exploration and practice of Apache Pulsar in online scenarios of Xiaohongshu Company
+- 'Building Highly Reliable Subscription & Push with Apache Pulsar: Challenges and
+  Best Practices'
 ---
 Apache Pulsar is a high-performance messaging queue that supports a massive number of Topics, allowing users to create hundreds of thousands or even millions of partitions within a single cluster. Metrics are a crucial tool for us to identify and diagnose issues in production environments. The effectiveness of observability directly impacts the speed of troubleshooting.
 In scenarios with a large number of partitions, enabling Topic-level Metrics can generate a significant number of Metrics strings in a short period, causing severe memory fluctuations and potentially destabilizing the cluster.

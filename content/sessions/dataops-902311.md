@@ -12,7 +12,12 @@ projects:
 audience:
 - 开发者
 - 通用
-related_sessions: []
+related_sessions:
+- Supercharge Lakehouse Implementation with Apache Iceberg
+- The Future of ETL with Branching & Tagging in Apache Hive
+- 'Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses'
+- Reshaping OpenTelemetry with Apache Arrow
+- 'Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake'
 ---
 In this session, I will explore how to seamlessly integrate large language models (LLMs), graph databases, and spreadsheets using Apache Hop.
 

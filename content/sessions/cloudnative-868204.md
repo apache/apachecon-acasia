@@ -14,7 +14,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake'
+- 'Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures'
+- 'Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses'
+- 'Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI'
+- Supercharge Lakehouse Implementation with Apache Iceberg
 ---
 Organizations today are overwhelmed with vast data requiring effective batch processing. Managing these jobs can lead to complexity, resource wastage, and increased operational costs, hindering business productivity.
 

@@ -16,7 +16,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 蚂蚁集团基于 Apache Celeborn 的大规模 Shuffle 实践
+- Apache Gluten 和 Apache Celeborn 在小米的生产实践
+- 顺丰速运与 Apache Spark 和 Gluten 的合作之旅
+- Apache Impala 4.5 新特性：Iceberg 支持、性能提升等
+- 深入 Apache Cloudberry 的向量化执行：设计、挑战与性能提升
 ---
 Apache Celeborn 在过去一年中取得了显著进展，引入了新功能、性能优化以及扩展的引擎支持。
 

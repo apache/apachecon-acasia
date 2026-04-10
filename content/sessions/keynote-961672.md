@@ -15,7 +15,12 @@ projects:
 audience:
 - 开发者
 - 架构师
-related_sessions: []
+related_sessions:
+- 'Enhancing Virtual Collaboration: Integrating GenAI into Apache OpenMeetings'
+- The Golden Age of Independent Developers
+- 'AI Reinvents Development: From Tool Revolution to Developer Evolution'
+- 'Product Development in the Age of AI: What Changes, What Remains'
+- 'From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry'
 ---
 In the rapidly evolving landscape where open-source, cloud computing, and generative AI converge, Amazon Web Services (AWS) and the Apache Software Foundation have established a strategic partnership that is redefining developer experiences. This keynote will explore how AWS harnesses the transformative power of generative AI to empower Apache open-source project developers through intelligent cloud-native services and AI-enhanced development platforms.
 

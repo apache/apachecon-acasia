@@ -14,7 +14,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Doris 在联通数智可信数据空间建设中的实践
+- Apache Doris 在 AI 领域的探索与实践
+- 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
+- 全景可观测性：LoongCollector 助力大规模 Apache Flink 和 Spark 集群
+- 优化可观测性：揭秘BanyanDB的热-温-冷架构
 ---
 用户可以构建高性能、低成本、开源可观测性，由Apache Doris驱动。与Elasticsearch相比，其成本效率提升5倍，并兼容OpenTelemetry等开源标准。
 

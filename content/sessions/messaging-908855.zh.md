@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 使用 Apache RocketMQ 赋能无服务器消息架构
+- 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
+- 构建云 MQTT 解决方案的经验教训
+- RobustMQ：探索如何用 Rust 重写消息队列
+- 基于 Commitlog 和 RocksDB 的 RocketMQ 存储引擎
 ---
 Apache RocketMQ 是一个以低延迟、高性能和高可靠性著称的分布式消息与流处理平台。最新发布的 5.0 版本带来了两项重大进步：
 1. 实现了存储与计算的解耦，进一步提升了系统的可扩展性和云原生适配能力。

@@ -12,7 +12,13 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'AI-Era Distributed Transactions: Practice and Outlook of the Seata Saga Pattern'
+- Rapid Construction of Intelligent Microservices with Higress
+- 'From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry'
+- What changes can be brought by combining microservices with OpenAPI?
+- 'Bridging the Divide: Harmonizing Apache SkyWalking and OpenTelemetry in Production
+  Environments'
 ---
 Seata is an open-source distributed transaction solution with a focus on providing high-performance and user-friendly distributed transaction services in microservice architectures. Initially developed for internal use within Alibaba, Seata served as middleware ensuring data consistency across applications during major events like Double 11, effectively supporting upper-layer business operations. With years of development and improvement, its commercialized products have been offered on Alibaba Cloud and Financial Cloud. In January 2019, Seata was officially open-sourced to foster a better technical ecosystem and make technological advancements accessible to more users. Future plans for Seata involve community-driven development to aid users in quickly implementing distributed transaction solutions 
 

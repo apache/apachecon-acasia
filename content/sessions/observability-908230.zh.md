@@ -12,7 +12,12 @@ projects:
 audience:
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
+- 弥合鸿沟：在生产环境中协调 Apache SkyWalking 和 OpenTelemetry
+- RocketMQ 5.0 中的虚拟队列：增强对 Remoting 协议客户端的向后兼容性
+- eBPF + MCP：DeepFlow 全栈可观测性与智能体实践案例
+- Apache Pulsar 在腾讯云上的高可用性最佳实践
 ---
 摘要：
 分布式追踪对于可观察性至关重要，它推动了跨语言追踪代理可用性的提升。本次演讲将介绍如何使用 Apache SkyWalking 监控 Ruby 应用程序，并深入探讨 Ruby Agent 的实现原理，与此同时，还将讨论模型上下文协议（MCP）与 SkyWalking 的集成。

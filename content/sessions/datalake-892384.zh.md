@@ -17,7 +17,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Gravitino 多集群管理最佳实践
+- Apache Gravitino：AI 时代的元数据管理解决方案
+- 从数据到 AI：基于 Apache Cloudberry 构建统一分析平台
+- 小米利用 Apache Paimon 实现高效数据和 AI 优化
+- 使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案
 ---
 Apache Gravitino 是哔哩哔哩采用的一个统一元数据管理平台，旨在解决数据孤岛问题，实现跨异构数据源（如 Hive、Iceberg、Kafka 等）的元数据视图集成。通过端到端的血缘追踪，Gravitino 能够追溯数据从摄入、处理到服务交付的整个工作流程，从而优化资源利用，并分析模式变更带来的影响。通过整合 Iceberg 的分区策略（如截断/分桶）和分支特性，Gravitino 支持灵活的数据版本控制、多流数据拼接以及隔离的测试环境。对于人工智能驱动的场景，该平台提供了系统化的训练数据集分区和模型版本管理，确保了可重复性和简化的 AI 资产管理。这一解决方案降低了跨数据源的维护开销，增强了数据一致性，并为哔哩哔哩的 AI 应用和全企业级数据治理建立了可扩展的技术基础。
 

@@ -12,7 +12,15 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Xiaomi''s RocketMQ-MQTT best practice: The Journey of Enhancing Quality and Cost
+  Efficiency'
+- Best Practices for High Availability of Apache Pulsar on Tencent Cloud
+- Empowering Serverless Messaging Architectures with Apache RocketMQ
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- 'Virtual Queue in RocketMQ 5.0: Enhancing Backward Compatibility With Legacy Remoting-Based
+  Clients'
 ---
 MQTT has emerged as the de facto standard for the Internet of Things (IoT), powering a wide range of applications across industries such as automotive, manufacturing, telecommunications, oil and gas, and more.
 

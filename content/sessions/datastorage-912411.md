@@ -14,7 +14,15 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Celeborn’s Revolution in Multi-Engine Support, Performance Mastery, and Enterprising
+  Innovation
+- Ant Group's Next Generation High SLA Stream Computing System Built on Apache Technology
+  Stack
+- Accelerating Spark jobs with Apache Gluten at ByteDance Scale
+- SF Express's Journey with Apache Spark and Gluten
+- 'Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark
+  Cluster'
 ---
 Processing petabyte-scale shuffle data everyday poses significant challenges for batch jobs, especially shuffle performance.
 In this talk, Erik will present how Apache Celeborn is used with Spark at Ant Group, dive into several topics including correctness validation, bottleneck diagnose, performance optimization and DFS integration.

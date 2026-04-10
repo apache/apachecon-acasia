@@ -15,7 +15,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'eBPF + MCP: DeepFlow''s Full-Stack Observability and AI Agent Practice Cases'
+- China Open Source & AI at  a Glance
+- Ant Group's Next Generation High SLA Stream Computing System Built on Apache Technology
+  Stack
+- Accelerating Multi-stream Join by Stream Graph Computing
+- Unified Scheduler for Stream & Batch & Graph Computing
 ---
 Introduce the technical background of privacy-preserving computation, discuss the existing challenges in current industrial applications of privacy-preserving computation, and then explain why SecretFlow is needed. Subsequently, what work SecretFlow has done to solve these problems.
 

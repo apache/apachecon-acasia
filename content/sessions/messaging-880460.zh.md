@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Pulsar 在腾讯云上的高可用性最佳实践
+- 全景可观测性：LoongCollector 助力大规模 Apache Flink 和 Spark 集群
+- Apache Pulsar 在小红书公司线上场景的探索与实践
+- 使用 Apache Pulsar 构建高可靠订阅和推送服务：挑战与最佳实践
+- 弥合鸿沟：在生产环境中协调 Apache SkyWalking 和 OpenTelemetry
 ---
 Apache Pulsar 是一个高性能消息队列，支持海量 Topic，允许用户在单个集群内创建数十万甚至数百万个分区。指标是我们在生产环境中识别和诊断问题的关键工具。可观察性的有效性直接影响故障排除的速度。
 在分区数量众多的场景下，启用 Topic 级指标可能会在短时间内生成大量指标字符串，从而导致严重的内存波动，并可能导致集群不稳定。

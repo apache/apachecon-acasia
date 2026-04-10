@@ -13,7 +13,13 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Supercharge Lakehouse Implementation with Apache Iceberg
+- 'Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses'
+- 'Apache Polaris (Incubating) & Apache XTable: Unifying Iceberg, Hudi, and other
+  Table Formats'
+- The Future of ETL with Branching & Tagging in Apache Hive
+- 'Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake'
 ---
 The Apache Iceberg table format has become a de-facto standard in the Big Data world. Its numerous advantages over traditional file system based table formats - like row level modifications, transactions, partition transforms and time travelling - have made it a natural first choice for many projects.
 

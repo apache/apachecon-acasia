@@ -14,7 +14,15 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 腾讯云上的 Kafka：无缝迁移与灾难恢复
+- Decrypting the architectural innovation and multi-scenario best practices of the
+  apache  kafka
+- The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time
+  Computing
+- 'Kafka 4.0 Highlights: Features, Removals, and Upgrades'
+- The Exploration and Practice of State Storage in Tencent Big Data Flink with Separation
+  of Computati
 ---
 This session introduces the seamless migration of self-built Kafka cluster to Tencent Cloud CKafka solution, without paying attention to the produce and consume application switching order during migration. In addition, this section describes the fault disaster recovery on Tencent Cloud CKafka.
 

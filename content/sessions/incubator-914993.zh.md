@@ -12,7 +12,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Apache HugeGraph 1.5.0：企业级部署最佳实践
+- 统一调度器：支持流计算、批处理与图计算
+- AI 重构开发：从工具革命到开发者进化论
+- 从数据到 AI：基于 Apache Cloudberry 构建统一分析平台
+- AI时代的微服务创新：从架构重塑到代理驱动开发
 ---
 本次 PRE 将探索 GraphAI 和图技术的最新进展。继过去一年 GraphRAG 和 Graph Agents 的兴起之后，我们将重点关注 HugeGraph 的图 AI 实践应用。我们将深入探讨复杂查询的解决方案以及函数图 (Function Graph) 在智能运营中的设计和应用，并分享在垂直领域图（法律、个人、企业）中如何平衡提升召回率与优化效率和成本的实践经验。此外，我们还将介绍 HugeGraph 全新的 Graph-GNN 模块及其与 LLM 的集成，并展望 HugeGraph 在即将完成孵化阶段之际的规划和思考。
 

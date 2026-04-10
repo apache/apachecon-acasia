@@ -11,7 +11,13 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'Enhancing Virtual Collaboration: Integrating GenAI into Apache OpenMeetings'
+- 'AI Agent: The Golden Key to Unlock Real-World AI Applications'
+- Empowering the next wave of developer innovation with GenAI in the open source ecosystem
+- 'Product Development in the Age of AI: What Changes, What Remains'
+- 'Integrating LLMs into CI/CD Pipelines: A Case Study on Improving Apache Project
+  Code Quality'
 ---
 If you are involved in the field of AI, you should pay attention to the significant assistance that EDA provides to LLMs and AI Agents. This presentation will primarily discuss the changes that EDA is bringing to GenAI:
 

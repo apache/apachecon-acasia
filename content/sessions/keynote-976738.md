@@ -11,7 +11,12 @@ projects: []
 audience:
 - 开发者
 - 架构师
-related_sessions: []
+related_sessions:
+- The Golden Age of Independent Developers
+- 'Product Development in the Age of AI: What Changes, What Remains'
+- Empowering the next wave of developer innovation with GenAI in the open source ecosystem
+- Growth and Commercialization in Overseas Expansion of Tech Products
+- TRAE, The Real AI Engineer
 ---
 AI is reshaping software development at an unprecedented pace. As AI becomes developers' "super collaborator," does the leap in development efficiency come with a restructuring of capability requirements? How will the intelligentization of toolchains break down technical barriers and spawn new career tracks? Facing the new balance of human-machine collaboration, how should developers break through and evolve?
 

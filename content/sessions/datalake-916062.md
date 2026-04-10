@@ -18,7 +18,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Supercharge Lakehouse Implementation with Apache Iceberg
+- 'Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses'
+- Impala on Iceberg with Puffins
+- 'Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures'
+- The Future of ETL with Branching & Tagging in Apache Hive
 ---
 Apache Polaris (Incubating) implements the Apache Iceberg REST catalog specification and allows users to manage Iceberg tables, views, and other related metadata. Role-based access control governs which users have access to what data, and Polaris supports attaching policies to tables in order to categorize data and to configure table maintenance.
 

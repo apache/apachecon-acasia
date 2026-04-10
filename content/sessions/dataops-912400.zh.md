@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 打破数据孤岛：Apache Gravitino在哔哩哔哩的生产实践
+- Apache Gravitino：AI 时代的元数据管理解决方案
+- 小米利用 Apache Paimon 实现高效数据和 AI 优化
+- 从数据到 AI：基于 Apache Cloudberry 构建统一分析平台
+- 释放 Dubbo 生态系统潜能：使用 dubbo-go-pixiu 构建 AI 驱动应用
 ---
 Apache Gravitino 统一管理了 Data 和 AI 的元数据，特别是在管理云上和云下多集群的场景中，可以非常好的发挥 Gravitino 统一元数据后，带来的数据在云上和云下无感知迁移和使用、大数据集群丝滑滚动升级、统一公有云和私有化部署的大数据集群的权限系统。
 在本次的分享中，除了介绍 Apache Gravitino 在多集群管理中的诸多特性之外，还讲分享海内外用户的 Apache Gravitino  最佳实践。

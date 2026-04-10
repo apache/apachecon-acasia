@@ -12,7 +12,12 @@ projects:
 audience:
 - 开发者
 - 产品/经理
-related_sessions: []
+related_sessions:
+- AI 重构开发：从工具革命到开发者进化论
+- AI 时代的产品开发：变革与坚守
+- 以 GenAI 赋能开源生态，激发开发者创新浪潮
+- 技术产品出海征程中的用户增长与商业化
+- 强化虚拟协作：将生成式 AI 集成至 Apache OpenMeetings
 ---
 AI 浪潮奔涌，独立开发者的机遇与挑战何在？ 本次圆桌汇聚  SegmentFault、VibeCafé、Chuhaiqu.club、Apache Answer、SiliconFlow 等代表项目创始人及核心成员，直面 AI 时代核心议题：
 

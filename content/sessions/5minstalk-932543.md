@@ -12,7 +12,12 @@ audience:
 - 产品/经理
 - 开发者
 - 架构师
-related_sessions: []
+related_sessions:
+- China Open Source & AI at  a Glance
+- Insights into the Apache Community from China Open Source Annual Report
+- Growth and Commercialization in Overseas Expansion of Tech Products
+- The Convergence of Chinese Traditional Culture and Open Source
+- 'Why We Chose Openness: The Story Behind JuiceFS Switching to Apache 2.0'
 ---
 I will outline the product forms of Chinese open source projects entering global markets, the key factors for success, and why Saudi Arabia was chosen.
 

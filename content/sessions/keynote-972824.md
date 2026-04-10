@@ -12,7 +12,14 @@ projects:
 audience:
 - 开发者
 - 产品/经理
-related_sessions: []
+related_sessions:
+- 'The Journey of an Open Source Contributor: Evolving from PR Submissions to Project
+  Maintenance'
+- 'From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry'
+- 'From Chaos to Order: The Journey of Apache OzHera (Incubating)''s First Release
+  Process'
+- The power of Community
+- Why do we need an open source AI gateway
 ---
 Open source is often seen as a world of code, collaboration, and community. But for founders, it can also be a tough place filled with business choices, doubts from investors, and the challenge of balancing ideals with survival.
 

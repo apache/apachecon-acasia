@@ -12,7 +12,12 @@ projects:
 audience:
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 采用 MCP 还是不用 MCP？使用开放协议设计可组合的 AI 系统
+- Apache Polaris（孵化中）和 Apache XTable：统一 Iceberg、Hudi 和其他表格式
+- 提升数据处理能力：云架构中无缝批处理管理的策略
+- 蚂蚁开源孵化实践探索
+- Apache Hop：大型语言模型、图数据库与电子表格的无缝集成
 ---
 加入 OceanBase 云原生 SIG 后，我开发了 OceanBase 在 k8s 环境下的命令行管理工具 okctl。该工具支持集群、租户、备份策略等资源的管理，同时提供组件安装更新、简易集群构建及集群连接功能。我们后续结合 MCP 协议，以 okctl 为后端搭建了 MCP 服务器，实现了通过自然语言进行集群交互、管理和巡检的一体化功能。
 

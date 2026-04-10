@@ -15,7 +15,12 @@ projects:
 - apache servicecomb
 audience:
 - 通用
-related_sessions: []
+related_sessions:
+- Apache 社区发展研究——基于中国开源年度报告的数据分析
+- 培育新贡献者：打造优质入门问题的艺术
+- 从 Commits 到 Capital：用开源热情点燃创业之旅
+- 七年之痒：我的 Apache 故事
+- 跨越语言鸿沟：开源项目中全球协作的实用策略
 ---
 作为 Community Over Code Asia 的开场演讲内容，我们将简要回顾 Apache 软件基金会在中国的发展历程以及 Apache 本地社区的发展情况。在此，我们能够见证社区力量的强大，借助社区之力，我们得以成功举办本次大会！
 

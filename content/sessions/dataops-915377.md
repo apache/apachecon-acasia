@@ -15,7 +15,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support
+  for Hudi / Icebe'
+- 'From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry'
+- Building a Unified Lakehouse Solution with Apache Cloudberry
+- 'Introduction to Apache Cloudberry: Evolution, Key Features, and Roadmap'
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
 ---
 In this session, we will explore Apache SeaTunnel, a high-performance distributed data integration platform designed for seamless synchronization of massive datasets across heterogeneous sources. Attendees will gain insights into SeaTunnel’s core architecture, including its modular plugin system, unified abstractions leveraging Spark and Flink, and its evolution from V1 to V2 with enhanced scalability and engine-agnostic design. We will delve into advanced features such as dynamic sharding strategies, data sampling techniques, and optimized handling of string-based partitioning for efficient data distribution.
 

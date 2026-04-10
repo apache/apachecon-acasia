@@ -15,7 +15,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Unified Scheduler for Stream & Batch & Graph Computing
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
+- 'Flink Agents: The Agentic AI Framework based on Apache Flink'
+- Application of Apache Flink in China Telecom's Logging Scenario
+- The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time
+  Computing
 ---
 * Background: Introduce Ant Group's real-time business and technical background
 * Solution: Introduce the new generation of stream computing systems built on Apache technology stacks such as Flink and Calcite

@@ -12,7 +12,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Seata 的历程：从阿里巴巴的创新到 Apache 的成功及未来
+- AI时代的微服务创新：从架构重塑到代理驱动开发
+- 强化虚拟协作：将生成式 AI 集成至 Apache OpenMeetings
+- Dubbo-go 在微服务架构中的应用
+- 蚂蚁集团基于 Apache 技术栈构建的新一代高 SLA 流式计算系统
 ---
 本讲座将首先介绍Seata和分布式事务，然后详细讨论Saga模式的实现和使用。最后，将探讨如何将Saga模式与AI集成，例如如何与AI代理和工作流连接。
 

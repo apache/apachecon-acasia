@@ -11,7 +11,14 @@ projects: []
 audience:
 - 开发者
 - 通用
-related_sessions: []
+related_sessions:
+- The power of Community
+- 'The Journey of an Open Source Contributor: Evolving from PR Submissions to Project
+  Maintenance'
+- 'Bridging the Language Divide: Practical Tactics for Global Collaboration in Open
+  Source'
+- The Golden Age of Independent Developers
+- Growth and Commercialization in Overseas Expansion of Tech Products
 ---
 In the world of open source development, the journey of a new contributor often begins with their first issue. This presentation explores the crucial role of 'good first issues' in GitHub repositories and how they serve as a gateway for newcomers to the open source community. We'll delve into the best practices for creating these issues, focusing on clarity, approachability, and educational value.
 

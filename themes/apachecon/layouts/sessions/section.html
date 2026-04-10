@@ -582,24 +582,38 @@
         }
 
         // 相关推荐：优先使用手动指定的，若无则自动计算
-        function getRelatedSessions(currentSession, topN=2) {
+        // 修改后的 getRelatedSessions 函数（兼容 permalink 或标题）
+        function getRelatedSessions(currentSession, topN = 2) {
+            // 1. 优先使用手动指定的 related_sessions（可能包含 permalink 或标题）
             if (currentSession.relatedSessionsManual && currentSession.relatedSessionsManual.length > 0) {
-                // 根据 permalink 查找对应的 session 对象
-                return currentSession.relatedSessionsManual
-                    .map(link => sessions.find(s => s.permalink === link))
-                    .filter(s => s !== undefined)
-                    .slice(0, topN);
+                const matchedSessions = currentSession.relatedSessionsManual
+                    .map(item => {
+                        // 尝试作为 permalink 精确匹配
+                        let match = sessions.find(s => s.permalink === item);
+                        if (match) return match;
+                        // 尝试作为标题模糊匹配（忽略大小写和首尾空格）
+                        const normalizedTitle = item.trim().toLowerCase();
+                        match = sessions.find(s => s.title.trim().toLowerCase() === normalizedTitle);
+                        if (match) return match;
+                        // 若仍无匹配，返回 null
+                        return null;
+                    })
+                    .filter(s => s !== null);
+                
+                if (matchedSessions.length > 0) {
+                    return matchedSessions.slice(0, topN);
+                }
             }
             
-            // 自动推荐
-            const curWords = new Set((currentSession.title+' '+currentSession.abstract).toLowerCase().split(/\W+/).filter(w=>w.length>2));
+            // 2. 自动推荐算法（兜底）
+            const curWords = new Set((currentSession.title + ' ' + currentSession.abstract).toLowerCase().split(/\W+/).filter(w => w.length > 2));
             const candidates = sessions.filter(s => s.permalink !== currentSession.permalink && s.dateObj.toDateString() === currentDate);
             return candidates.map(s => {
-                const otherWords = new Set((s.title+' '+s.abstract).toLowerCase().split(/\W+/).filter(w=>w.length>2));
+                const otherWords = new Set((s.title + ' ' + s.abstract).toLowerCase().split(/\W+/).filter(w => w.length > 2));
                 const intersection = [...curWords].filter(w => otherWords.has(w)).length;
                 const union = curWords.size + otherWords.size - intersection;
-                return { session: s, score: union ? intersection/union : 0 };
-            }).sort((a,b)=>b.score-a.score).slice(0,topN).map(i=>i.session);
+                return { session: s, score: union ? intersection / union : 0 };
+            }).sort((a, b) => b.score - a.score).slice(0, topN).map(i => i.session);
         }
 
         function renderSessions() {

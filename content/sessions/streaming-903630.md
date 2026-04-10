@@ -13,7 +13,15 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time
+  Computing
+- The Exploration and Practice of State Storage in Tencent Big Data Flink with Separation
+  of Computati
+- Technical Progression of Flink + Paimon Real-time Lakehouse Solutions
+- 'Optimizing Parquet Storage: Metadata Management, Performance Tuning & Seamless
+  Migration'
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
 ---
 As the demand for streaming tasks continues to grow within ByteDance, Flink has been widely adopted across various business domains at scale. Among the resource costs of these large-scale tasks, memory stands out as a significant contributor—especially heap memory. The total allocated memory for all tasks has reached tens of thousands of terabytes, yet the JVM heap utilization remains below 50%, and container-level memory usage is under 70%. Against the backdrop of company-wide cost reduction and efficiency improvement, we have carried out a series of memory optimizations focused on heap memory usage prediction, off-heap memory usage tracking, and simplifying Flink’s memory model. These efforts have been successfully rolled out across ByteDance, resulting in memory savings of over a thousand terabytes.
 In this talk, we will present the key joint optimizations led by the Flink and JVM teams at ByteDance, and share the results we’ve achieved.

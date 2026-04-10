@@ -13,7 +13,13 @@ projects:
 audience:
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'The Journey of an Open Source Contributor: Evolving from PR Submissions to Project
+  Maintenance'
+- 'From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry'
+- 'From Commits to Capital: Turning Open Source Passion into a Startup Journey'
+- 'The Seven Year Itch: My Apache Story'
+- 'Seata''s Journey: From an Alibaba Innovation to Apache Success and Beyond'
 ---
 Releasing the first version of an Apache incubating project is never a smooth ride—and Apache OzHera (Incubating) was no exception. In this talk, I will share the real-world journey of bringing OzHera’s first official release to life: navigating ASF release policies and handling technical debt to coordinating time zones and engaging with the wider community. You’ll hear the lessons we learned through trial and error, the mistakes we made (and fixed), and the practices we established to bring order to the chaos. This session will be valuable for contributors and PPMC members who working on incubating projects, as well as anyone curious about what it takes to ship that crucial first Apache release.
 

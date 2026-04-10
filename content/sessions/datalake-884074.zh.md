@@ -15,7 +15,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 在字节跳动规模下，利用A pache Gluten 加速 Spark 作业
+- 顺丰速运与 Apache Spark 和 Gluten 的合作之旅
+- 'Gluten: 使用本地引擎加速 spark 和 flink'
+- Apache Gluten 和 Apache Celeborn 在小米的生产实践
+- 使用外部状态和动态表实现可扩展的连接和聚合
 ---
 Apache Spark SQL 提供了一个强大的解决方案，使用户能够高效地处理海量数据集。最近，Project Gluten 作为基于 Apache Arrow 的原生 SQL 引擎被引入，旨在增强 Spark SQL 的功能。与此同时，几个拥有活跃开源社区的向量化 SQL 引擎也受到了广泛关注。其中，由 Meta 领导的 Velox 项目脱颖而出，成为了一个有前途的向量化数据库加速库。
 

@@ -14,7 +14,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Empowering Serverless Messaging Architectures with Apache RocketMQ
+- Lessons Learned in Building a Cloud MQTT Solution
+- Storage Engine for RocketMQ Based on Commitlog and RocksDB
+- RobustMQ - Explore how to rewrite a message queue in Rust
+- Exploration and practice of Apache Pulsar in online scenarios of Xiaohongshu Company
 ---
 Apache RocketMQ is a distributed messaging and streaming platform known for its low latency, high performance, and high reliability. The newly released version 5.0 has two major advancements:
 1. Decouples storage from compute to achieve better scalability and cloud-native adaptability.

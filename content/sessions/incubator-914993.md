@@ -12,7 +12,13 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'Apache HugeGraph 1.5.0: Best Practices for Enterprise-Grade Deployment'
+- Unified Scheduler for Stream & Batch & Graph Computing
+- Accelerating Multi-stream Join by Stream Graph Computing
+- Apache Gravitino, the answer of metadata management in AI era
+- The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time
+  Computing
 ---
 This PRE will explore the latest advancements in GraphAI and graph technologies. Following the rise of GraphRAG and Graph Agents in the past year, we will focus on HugeGraph's real-world Graph AI implementations. We will delve into solutions for complex queries and the design and application of Function Graphs in intelligent operations, and share practical experiences in vertical domain graphs (legal, person, enterprise) on balancing improved recall accuracy with optimized efficiency and cost. Furthermore, we will introduce HugeGraph's new Graph-GNN module and its integration with LLMs, looking ahead to HugeGraph's plans and reflections as it approaches incubation graduation.
 

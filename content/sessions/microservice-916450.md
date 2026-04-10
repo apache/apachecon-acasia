@@ -13,7 +13,15 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Seata''s Journey: From an Alibaba Innovation to Apache Success and Beyond'
+- ' Unlocking maximize heterogeneous GPU utilization in Cloud Native way: Leveraging
+  the Power of HAMi'
+- 'Microservice Innovation in the AI Era: From Architecture Reshaping to Agent Driven
+  Development'
+- 'Building Highly Reliable Subscription & Push with Apache Pulsar: Challenges and
+  Best Practices'
+- What changes can be brought by combining microservices with OpenAPI?
 ---
 In this talk, we will explore how Higress, a high-performance cloud-native API gateway, can be utilized to swiftly build intelligent microservices. Higress facilitates quick and efficient building of intelligent microservices, enhancing both development agility and operational intelligence.  Through its powerful artificial intelligence capabilities and exceptional traffic management, Higress is transforming how organizations deploy and manage microservice-based intelligent agents across diverse cloud environments.
 

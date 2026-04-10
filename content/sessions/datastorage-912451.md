@@ -13,7 +13,14 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Production Practice of Apache Gluten and Apache Celeborn at Xiaomi
+- ' Unlocking maximize heterogeneous GPU utilization in Cloud Native way: Leveraging
+  the Power of HAMi'
+- Xiaomi's Efficient Data & AI Optimization with Apache Paimon
+- Apache Gravitino, the answer of metadata management in AI era
+- 'Xiaomi''s RocketMQ-MQTT best practice: The Journey of Enhancing Quality and Cost
+  Efficiency'
 ---
 Abstract:
 At Xiaomi, HBase serves as a distributed wide-table service for both offline and online scenarios. However, 40% of nodes still operate on version 0.98 internally, resulting in high maintenance costs due to dual-version support. Unifying the version to 2.3 is critical to improving development efficiency. Additionally, version 2.3 itself faces stability challenges, such as GC issues and cluster-wide downtime recovery failures. This presentation shares Xiaomi’s practical experience in addressing these challenges.

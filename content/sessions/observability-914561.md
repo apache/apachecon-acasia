@@ -16,7 +16,14 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- 'Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark
+  Cluster'
+- 'From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry'
+- Best Practices for High Availability of Apache Pulsar on Tencent Cloud
+- Exploration and practice of Apache Pulsar in online scenarios of Xiaohongshu Company
 ---
 Apache APISIX, Kafka, RocketMQ, and Pulsar are excellent middleware software with widespread usage. However, observability for these middleware is typically limited to coarse-grained metrics exposure, without correlation to distributed tracing. Therefore, when facing long-tail performance issues, middleware operators often resort to basic tools like tcpdump or log analysis to troubleshoot and identify root causes, which is highly inefficient. eBPF's zero-intrusion characteristics effectively address these pain points. DeepFlow (an open-source project) leverages eBPF to implement full-stack observability covering "code functions, system calls, file I/O, and network forwarding" for various Apache middleware services without requiring any configuration changes or process restarts. Additionally, based on the full-stack observability data exposed through the MCP protocol, DeepFlow AI Agent can quickly and independently identify performance bottlenecks and provide optimization suggestions. This presentation will introduce DeepFlow's middleware full-stack observability implementation practices and typical troubleshooting cases using LLM-powered AI agent.
 

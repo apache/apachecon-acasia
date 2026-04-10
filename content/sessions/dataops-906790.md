@@ -12,7 +12,14 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- SeaTunnel Architecture Analysis and Cloudberry Integration Practice
+- 'Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support
+  for Hudi / Icebe'
+- '​​Building Inverted Indexes on Iceberg with Tantivy: A Hands-on Approach​​'
+- 'The Evolution of Apache Kvrocks: Search, Vector, and Beyond'
+- 'Dive into Vectorized Execution for Apache Cloudberry: Design, Challenges, and Performance
+  Gains'
 ---
 In the wave of enterprise intelligence upgrades, information retrieval is shifting from “keyword matching” to “semantic understanding.” Traditional search engines based on inverted indexes rely on string-level matching, which makes it difficult to capture the true intent behind user queries. This limits the effectiveness of search experiences, recommendation accuracy, customer service responses, and the intelligence of knowledge-based Q&A systems.
 

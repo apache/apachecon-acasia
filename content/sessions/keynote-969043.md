@@ -12,7 +12,13 @@ audience:
 - 架构师
 - 开发者
 - 产品/经理
-related_sessions: []
+related_sessions:
+- 'Microservice Innovation in the AI Era: From Architecture Reshaping to Agent Driven
+  Development'
+- Building the Future of AI Automation with Rust and Open Source
+- 'Flink Agents: The Agentic AI Framework based on Apache Flink'
+- 'AI Reinvents Development: From Tool Revolution to Developer Evolution'
+- The Golden Age of Independent Developers
 ---
 AI Agents bridge the gap between theoretical AI models and practical implementation by combining perception, decision-making, and autonomous action. Leveraging machine learning, natural language processing, and real-time analytics, they adapt to dynamic environments and user needs, enabling seamless interaction and intelligent automation. These systems streamline workflows, reduce human intervention, and enhance scalability, making them a critical enabler for deploying AI in real-world scenarios. As the "golden key" to AI application, they simplify integration, accelerate innovation, and empower organizations to achieve tangible outcomes through adaptive, self-improving intelligent systems.
 

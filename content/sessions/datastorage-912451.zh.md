@@ -13,7 +13,12 @@ audience:
 - 开发者
 - SRE/运维
 - 架构师
-related_sessions: []
+related_sessions:
+- Apache HugeGraph 1.5.0：企业级部署最佳实践
+- Apache Gluten 和 Apache Celeborn 在小米的生产实践
+- 小米利用 Apache Paimon 实现高效数据和 AI 优化
+- 小米 RocketMQ-MQTT 最佳实践：提升质量和成本效率之旅
+- Apache Gravitino：AI 时代的元数据管理解决方案
 ---
 摘要：
 在小米，HBase 作为分布式宽表服务，同时支持离线和在线场景。然而，内部仍有 40% 的节点运行在 0.98 版本上，由于需要支持双版本，导致维护成本高昂。将版本统一到 2.3 对于提高开发效率至关重要。此外，2.3 版本本身也面临稳定性挑战，如 GC 问题和集群级停机恢复失败。本次演讲将分享小米在应对这些挑战方面的实践经验。

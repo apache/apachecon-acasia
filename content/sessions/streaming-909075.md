@@ -12,7 +12,15 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- The Exploration and Practice of State Storage in Tencent Big Data Flink with Separation
+  of Computati
+- Disaggregated State Management In Apache Flink 2.0
+- The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time
+  Computing
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
+- 'Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark
+  Cluster'
 ---
 1.	Background & Motivation
 	•	Flink SQL challenges at scale: large state, long joins, complex maintenance

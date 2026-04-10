@@ -15,7 +15,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Gravitino, the answer of metadata management in AI era
+- 'Resolving Data Silos: Apache Gravitino''s Production Implementation Practices at
+  Bilibili'
+- Technical Progression of Flink + Paimon Real-time Lakehouse Solutions
+- Production Practice of Apache Gluten and Apache Celeborn at Xiaomi
+- Apache Gravitino Best Practices for Multi-Cluster Management
 ---
 This session will primarily focus on how Xiaomi leverages Apache Paimon to enhance efficiency and reduce costs in its information-based data warehouse, AI data warehouse, and LLM data processing. Additionally, we will discuss how we utilize JuiceFS to support Paimon's multi-cloud storage capabilities. Finally, we'll introduce the application of Apache Gravitino in managing Paimon's metadata.
 Outline:

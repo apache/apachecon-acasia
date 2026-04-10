@@ -13,7 +13,14 @@ audience:
 - 开发者
 - 产品/经理
 - 架构师
-related_sessions: []
+related_sessions:
+- Empowering the next wave of developer innovation with GenAI in the open source ecosystem
+- 'Integrating LLMs into CI/CD Pipelines: A Case Study on Improving Apache Project
+  Code Quality'
+- 'Product Development in the Age of AI: What Changes, What Remains'
+- 'Apache RocketMQ Eventbridge: Why Your GenAI Needs EDA？'
+- 'Bridging the Language Divide: Practical Tactics for Global Collaboration in Open
+  Source'
 ---
 This session explores the transformative potential of integrating Generative AI (GenAI) into Apache OpenMeetings, an open-source web conferencing tool. We’ll demonstrate how GenAI can elevate virtual collaboration through features like real-time multilingual transcription, AI-generated meeting summaries, and intelligent meeting assistants that automate action items. Attendees will learn how to extend OpenMeetings using LLMs (e.g., GPT-4) and open-source frameworks to create dynamic virtual avatars, context-aware chatbots, and personalized content recommendations. We’ll showcase use cases such as AI-driven customer support portals, interactive training sessions, and automated post-meeting workflows. Technical integration strategies, including API design and ethical considerations (data privacy, bias mitigation), will be discussed. We’ll highlight existing community plugins and pathways for contributors to engage. Whether you’re a developer, product owner, or AI enthusiast, this session will equip you with actionable insights to reimagine virtual collaboration in education, enterprise, and beyond. Join us to shape the future of open-source communication tools!
 

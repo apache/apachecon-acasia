@@ -12,7 +12,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Dubbo-go 在微服务架构中的应用
+- 释放 Dubbo 生态系统潜能：使用 dubbo-go-pixiu 构建 AI 驱动应用
+- AI时代的微服务创新：从架构重塑到代理驱动开发
+- 强化虚拟协作：将生成式 AI 集成至 Apache OpenMeetings
+- Celeborn 的革新：多引擎支持、性能掌控与技术创新
 ---
 随着微服务架构的演进，对标准化、可观察和可集成的服务接口的需求正在快速增长。RESTful API 长期以来受益于 OpenAPI 规范，而像 Apache Dubbo 这样的 RPC 框架却一直缺乏原生的标准化模式表示——直到现在。
 

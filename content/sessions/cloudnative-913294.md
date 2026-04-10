@@ -14,7 +14,16 @@ projects:
 audience:
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'IoTDB Time-Series Data Subscription: Design and Efficient Practices'
+- Apache HertzBeat, a new generation open-source real-time monitoring and alerting
+  platform
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- 'Resolving Data Silos: Apache Gravitino''s Production Implementation Practices at
+  Bilibili'
+- 'Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark
+  Cluster'
 ---
 Since version 1.0.0, Apache IoTDB has provided a unified system monitoring framework, allowing database developers to define system monitoring indicators such as counters and register them for unified management, and supporting the Prometheus + Grafana monitoring indicator visualization solution. After a year of practice, 4 visual monitoring panels and a lot of tuning experience based on system monitoring have been formed.
 

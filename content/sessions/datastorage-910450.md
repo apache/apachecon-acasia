@@ -13,7 +13,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Apache Ozone: Balance Data Through Disk Balancer'
+- 'Apache Hudi in Action: Accelerating Kuaishou''s Data Warehouse Architecture Upgrade'
+- Building a real-time data lakehouse in practice
+- 目录即情境： 利用元数据推动和管理下一波人工智能开发浪潮
+- Data Warehouse Virtualization Technology Based on Apache Calcite（基于 Apache Calcite
+  的“数仓虚拟化”技术）
 ---
 At Shopee, we have been using Ozone for over four years, with the number of stored objects reaching the billions. In this session, I will introduce two features we developed: Object Lifecycle Management and Storage Class.
 

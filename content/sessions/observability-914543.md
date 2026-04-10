@@ -14,7 +14,14 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- 'Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark
+  Cluster'
+- Exploration and Practice of SkyWalking in Ruby Agent and MCP
+- SeaTunnel Architecture Analysis and Cloudberry Integration Practice
+- 'From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry'
 ---
 In today's dynamic cloud ecosystems, many enterprises find themselves navigating the complexities of using multiple observability stacks due to architectural migrations, team preferences, or language support limitations. Specifically, Apache SkyWalking and OpenTelemetry, both powerful in their own right, often coexist within the same production environment. However, this coexistence frequently leads to compatibility challenges that can manifest as broken traces, failed plugin enhancements, and, in severe cases, business call errors and application startup failures.
 In this session at CommunityOverCode Asia 2025, I will share our journey and methodologies that enabled seamless integration of Apache SkyWalking and OpenTelemetry. Key discussion points will include:

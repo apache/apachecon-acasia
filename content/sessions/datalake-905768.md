@@ -14,7 +14,12 @@ audience:
 - 开发者
 - SRE/运维
 - 产品/经理
-related_sessions: []
+related_sessions:
+- Inside the Apache Software Foundation Board
+- A decade of lessons in Open Source licensing
+- Navigating the Incubator process
+- 'Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses'
+- 'Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI'
 ---
 Welcome to a presentation on Gravitino! Managing metadata can be complex and time-consuming, but Gravitino offers the ultimate solution. It provides a single source of truth for multi-regional data with geo-distributed architecture support. This allows you to store and manage your data in one place, accessible from anywhere globally. With unified data and AI asset management, you get centralized security and data access management, making data protection easier. Gravitino helps you focus more on your data by simplifying tasks and offering these benefits:
 - Secure and centralized metadata storage and management

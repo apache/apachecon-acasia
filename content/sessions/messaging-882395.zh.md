@@ -14,7 +14,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Kafka on Tencent Cloud: Seamless Migration & Disaster Recovery'
+- Decrypting the architectural innovation and multi-scenario best practices of the
+  apache  kafka
+- Apache Kafka 4.0 on Huawei Cloud
+- 'Kafka 4.0 Highlights: Features, Removals, and Upgrades'
+- 'When Flink Meets Fluss: The Future of Streaming Warehouse'
 ---
 本次演讲将介绍如何将自建 Kafka 集群无缝迁移至腾讯云 CKafka 解决方案，无需关注迁移过程中生产消费应用的切换顺序。同时还将详细介绍腾讯云 CKafka 的故障容灾方案。
 

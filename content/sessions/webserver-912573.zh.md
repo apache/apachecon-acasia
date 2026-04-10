@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Dubbo-go 在微服务架构中的应用
+- 微服务与 OpenAPI 的结合会带来哪些改变？
+- 使用 Triple 和 xDS 保护您的 Dubbo 应用
+- 为什么我们需要开源 AI 网关
+- Apache Gravitino 多集群管理最佳实践
 ---
 了解如何利用 Dubbo-go-Pixiu 将外部协议与内部 Dubbo 服务无缝连接，为 AI 模型推理服务、数据处理服务等提供统一的入口。
 了解 Dubbo-go-Pixiu 在处理 AI 应用中常见的多协议通信场景方面的优势。

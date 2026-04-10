@@ -12,7 +12,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 腾讯大数据 Flink 状态存储的探索与实践：计算存储分离架构
+- Apache Flink 2.1：持续演进，迈向数据 + AI 一体化
+- 腾讯实时计算的智能演进：全托管资源管理
+- Apache Flink 2.0 存算分离架构演进
+- 全景可观测性：LoongCollector 助力大规模 Apache Flink 和 Spark 集群
 ---
 1. 背景与动机
   • Flink SQL 在规模化方面的挑战：大状态、长连接、复杂的维护

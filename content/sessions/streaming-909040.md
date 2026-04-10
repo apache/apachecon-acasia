@@ -13,7 +13,14 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Unified Scheduler for Stream & Batch & Graph Computing
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
+- Ant Group's Next Generation High SLA Stream Computing System Built on Apache Technology
+  Stack
+- Accelerating Multi-stream Join by Stream Graph Computing
+- 'Dive into Vectorized Execution for Apache Cloudberry: Design, Challenges, and Performance
+  Gains'
 ---
 Flex is designed to be a unified engine that supports both stream and batch processing, leveraging vectorization to maximize performance. Its goal is to seamlessly handle diverse data workloads, whether they are real-time streams or batch jobs, with high efficiency and scalability.
 

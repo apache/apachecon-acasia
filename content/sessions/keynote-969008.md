@@ -12,7 +12,12 @@ audience:
 - 架构师
 - 产品/经理
 - 通用
-related_sessions: []
+related_sessions:
+- China Open Source & AI at  a Glance
+- 'Product Development in the Age of AI: What Changes, What Remains'
+- Insights into the Apache Community from China Open Source Annual Report
+- 'AI Reinvents Development: From Tool Revolution to Developer Evolution'
+- The Golden Age of Independent Developers
 ---
 Throughout China's long history, the spirit of the Shi  has existed as an intangible essence—independent individuals uplifting and safeguarding societal development through public-minded ethos. With the advent of the modern digital economy, the fluidity of digital production factors dissolves physical constraints, the networked nature of collaboration transcends traditional organizational boundaries, and exponential productivity growth transforms value creation dynamics. This threefold transformation is reshaping humanity's cognitive paradigms and cultural DNA.
 

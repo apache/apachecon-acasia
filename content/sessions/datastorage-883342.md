@@ -12,7 +12,13 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry'
+- Apache Doris AI exploration and practice
+- China Open Source & AI at  a Glance
+- 'eBPF + MCP: DeepFlow''s Full-Stack Observability and AI Agent Practice Cases'
+- Celeborn’s Revolution in Multi-Engine Support, Performance Mastery, and Enterprising
+  Innovation
 ---
 Since graduating from the ASF Incubator, Apache Kvrocks has made significant progress. The project has attracted an increasing number of contributors and continues to evolve with new features. Notably, we have introduced a Search module that supports complex queries and secondary indexing, with compatibility for both RediSearch query and SQL syntax. Building on this foundation, Kvrocks has expanded into new frontiers by integrating cutting-edge features such as vector search, making it a more versatile and powerful data store for modern applications.
 

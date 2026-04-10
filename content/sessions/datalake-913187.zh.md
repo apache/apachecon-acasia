@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Gravitino：AI 时代的元数据管理解决方案
+- 小米基于 Paimon 的 Doris 优化与实践
+- Apache Gluten 和 Apache Celeborn 在小米的生产实践
+- Apache Gravitino 多集群管理最佳实践
+- 打破数据孤岛：Apache Gravitino在哔哩哔哩的生产实践
 ---
 本次分享将重点介绍小米如何利用 Apache Paimon 提升信息化数仓、AI 数仓和 LLM 数据处理的效率并降低成本。同时，我们也将讨论如何利用 JuiceFS 支持 Paimon 的多云存储能力。最后，我们将介绍 Apache Gravitino 在管理 Paimon 元数据方面的应用。
 提纲如下：

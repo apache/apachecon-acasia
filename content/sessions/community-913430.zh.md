@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - 产品/经理
-related_sessions: []
+related_sessions:
+- 衡量开源社区项目健康的挑战与实践
+- 探索孵化流程
+- 直面安全领域的挑战
+- 揭秘 Apache 软件基金会董事会
+- 为何如此艰难？
 ---
 蚂蚁集团（一家拥有2.5万名员工的金融科技公司）一直是开源社区的积极参与者，拥有多个项目，如 Apache Fury、Apache Seata、Apache HoraeDB 等。
 

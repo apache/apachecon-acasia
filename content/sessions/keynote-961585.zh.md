@@ -14,7 +14,12 @@ projects:
 audience:
 - 开发者
 - 架构师
-related_sessions: []
+related_sessions:
+- 从提案到进展：从孵化 Apache Cloudberry 中汲取的经验教训
+- 蚂蚁集团基于 Apache 技术栈构建的新一代高 SLA 流式计算系统
+- 蚂蚁集团基于 Apache Celeborn 的大规模 Shuffle 实践
+- 全景可观测性：LoongCollector 助力大规模 Apache Flink 和 Spark 集群
+- 社区的力量
 ---
 今年是我在阿帕奇软件基金会工作的第七个年头。作为一名贡献者，我在参与 Apache Flink 项目时获得了我的第一个提交位。我为 ASF 项目做出的贡献越多，我在他们的社区中获得的学分也就越多。
 

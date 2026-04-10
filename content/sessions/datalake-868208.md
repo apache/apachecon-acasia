@@ -13,7 +13,13 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses'
+- 'Elevating Data Processing: Strategies for Seamless Batch Management in Cloud Architectures'
+- 'Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake'
+- Supercharge Lakehouse Implementation with Apache Iceberg
+- 'Apache Polaris (Incubating) & Apache XTable: Unifying Iceberg, Hudi, and other
+  Table Formats'
 ---
 Most Apache Iceberg talks wax poetic about time travel and ACID compliance—yawn. But what about the features nobody’s shouting about? The ones that turn chaos into control, experiments into wins, and static tables into agentic powerhouses - let your data platform think for itself ? Welcome, here we will learn Iceberg’s hidden toolkit.
 

@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Accelerating Spark jobs with Apache Gluten at ByteDance Scale
+- Accelerate Spark Queries with Gluten and Velox Engine on Arm64
+- Production Practice of Apache Gluten and Apache Celeborn at Xiaomi
+- SF Express's Journey with Apache Spark and Gluten
+- Apache Gravitino Best Practices for Multi-Cluster Management
 ---
 Introduce Apache Gluten project, which can use native engine to accelerate spark and flink job, and how we use it to save resource in BIGO. 
 

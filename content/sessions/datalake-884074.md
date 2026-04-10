@@ -12,7 +12,13 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- SF Express's Journey with Apache Spark and Gluten
+- Accelerating Spark jobs with Apache Gluten at ByteDance Scale
+- 'Gluten: use native engine to accelerate spark and flink'
+- Production Practice of Apache Gluten and Apache Celeborn at Xiaomi
+- 'Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark
+  Cluster'
 ---
 Apache Spark SQL provides a robust solution, enabling users to process massive datasets efficiently. Recently, Project Gluten was introduced as an Apache Arrow-based native SQL engine designed to enhance Spark SQL's capabilities. Concurrently, several vectorized SQL engines with vibrant open-source communities have gained traction. Among them, the Meta-led Velox project stands out as a promising vectorized database acceleration library.
 

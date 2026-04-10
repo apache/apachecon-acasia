@@ -11,7 +11,13 @@ projects: []
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Accelerating Multi-stream Join by Stream Graph Computing
+- Ant Group's Next Generation High SLA Stream Computing System Built on Apache Technology
+  Stack
+- 'Flex: Unified Stream and Batch Vectorized Engine'
+- 'From Graph to Intelligence: HugeGraph Powers Business AI Upgrades'
+- SeaTunnel Architecture Analysis and Cloudberry Integration Practice
 ---
 As the demand for analyzing and computing complex relational graph data in the big data domain continues to grow, the need for real-time graph computing capabilities in scenarios such as financial risk control and group detection is also on the rise. This requires large-scale graph computation engines to simultaneously provide low latency and high throughput. Currently, stream-batch integrated computing engines are the future direction, but the iterative nature of graph computation differs fundamentally from traditional stream and batch processing. Building a stream-batch-graph integrated computing engine around graph iteration poses a significant challenge. GeaFlow, independently developed by the Ant Group's graph computing team, is the industry's first large-scale distributed streaming graph computing engine, supporting real-time graph computing, offline graph computing, and online exploratory analysis on large-scale graphs. In this presentation, we will introduce how GeaFlow splits execution jobs into stream, batch, and graph tasks, orchestrates them in a unified manner, and constructs an efficient stream-batch-graph integrated scheduling and execution framework.
 

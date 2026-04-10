@@ -12,7 +12,13 @@ projects: []
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- What changes can be brought by combining microservices with OpenAPI?
+- Application of Dubbo-go in microservice architecture
+- 'AI Agent: The Golden Key to Unlock Real-World AI Applications'
+- Rapid Construction of Intelligent Microservices with Higress
+- 'Unlocking the Potential of the Dubbo Ecosystem: Building AI-Driven Applications
+  with dubbo-go-pixiu'
 ---
 In the constantly evolving wave of AI technology, microservice architecture has also ushered in unprecedented opportunities for upgrading. This speech will delve into how to integrate agents with microservice architecture to build "AI native" systems with autonomous decision-making capabilities. By introducing MCP (Model Context Protocol), a model context protocol, we can achieve efficient communication and context sharing between models and business services, and solve the problems of state maintenance, intention understanding and multiple rounds of collaboration in the invocation of large models. At the same time, we will share the practical path of embedding intelligent agents in microservice architecture, such as how to implement service governance, dynamic orchestration, anomaly awareness and repair based on lightweight intelligent agents.
 

@@ -22,7 +22,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses'
+- The Future of ETL with Branching & Tagging in Apache Hive
+- Impala on Iceberg with Puffins
+- 'Apache Polaris (Incubating) & Apache XTable: Unifying Iceberg, Hudi, and other
+  Table Formats'
+- 'Apache Hop: Integrating LLMs, Graph Databases & Spreadsheets'
 ---
 The modern data lakehouse architecture combines the best of data lakes and data warehouses, enabling scalable analytics with ACID transactions, schema evolution, and performance optimizations. Apache Iceberg has emerged as a leading open-table format that supercharges lakehouse implementations by providing reliability, scalability, and seamless integration with popular open source compute engines like Spark, Flink, Doris, StarRocks, Impala, Hive, Nifi, Kafka and Trino.
 

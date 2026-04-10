@@ -12,7 +12,13 @@ projects:
 audience:
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- To MCP or Not to MCP? Designing Composable AI Systems with Open Protocols
+- 'Elevating Data Processing: Strategies for Seamless Batch Management in Cloud Architectures'
+- 'Apache Hop: Integrating LLMs, Graph Databases & Spreadsheets'
+- 'Apache Polaris (Incubating) & Apache XTable: Unifying Iceberg, Hudi, and other
+  Table Formats'
+- A decade of lessons in Open Source licensing
 ---
 After joining OceanBase Cloud Native SIG, I wrote the command line management tool for OceanBase in k8s, called okctl, which can support the management of resources such as clusters, tenants, and backup strategies. At the same time, it also provides component installation and updates, simple cluster construction, and cluster connection functions.  We later combined the MCP protocol and used okctl as the backend to build the MCP server, which provides the integrated function of cluster interaction, management, and inspection using natural language.
 

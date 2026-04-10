@@ -13,7 +13,13 @@ projects:
 audience:
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Kafka 4.0 on Huawei Cloud
+- 'Kafka on Tencent Cloud: Seamless Migration & Disaster Recovery'
+- 'What’s New in Apache Impala 4.5: Iceberg, Performance & More'
+- Application of Apache Flink in China Telecom's Logging Scenario
+- Decrypting the architectural innovation and multi-scenario best practices of the
+  apache  kafka
 ---
 While there’s already a lot of buzz around Kafka 4.0, most discussions focus on the headline features—like the removal of ZooKeeper or the introduction of new APIs. In this session, we want to highlight some of the lesser-known but equally important changes in Kafka 4.0. These updates might not grab the spotlight, but they can significantly impact how you configure, operate, and debug Kafka in real-world environments.
 

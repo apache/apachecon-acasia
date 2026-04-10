@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 使用 Apache RocketMQ 赋能无服务器消息架构
+- RobustMQ：探索如何用 Rust 重写消息队列
+- RocketMQ 5.0 中的虚拟队列：增强对 Remoting 协议客户端的向后兼容性
+- 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
+- 小米 RocketMQ-MQTT 最佳实践：提升质量和成本效率之旅
 ---
 基于 Commitlog 和 RocksDB 的 RocketMQ 存储引擎
 延迟消息、事务消息、POP 和索引是 RocketMQ 的核心功能。这些功能涉及内存中的多种状态转换，并且基于文件系统实现。现有实现面临以下问题：

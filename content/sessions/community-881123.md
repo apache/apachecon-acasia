@@ -12,7 +12,12 @@ audience:
 - 开发者
 - 架构师
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Building a Unified Lakehouse Solution with Apache Cloudberry
+- Building a real-time data lakehouse in practice
+- Apache Doris Implementation Practice in Cainiao's Large Scale Business Scenarios
+- 'From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry'
+- 'From Commits to Capital: Turning Open Source Passion into a Startup Journey'
 ---
 OceanBase Database is a distributed relational database developed by Ant Group. It has been supporting the Double 11 Shopping Festival for 11 years. It started as an e-commerce database used by Taobao Favorites and gradually became the database of all core systems of Ant Group. It then grew into the database of core systems of many enterprises, especially the financial industry. 
 

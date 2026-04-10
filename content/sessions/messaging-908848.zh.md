@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 小米 RocketMQ-MQTT 最佳实践：提升质量和成本效率之旅
+- Apache Pulsar 在腾讯云上的高可用性最佳实践
+- RocketMQ 5.0 中的虚拟队列：增强对 Remoting 协议客户端的向后兼容性
+- 使用 Apache RocketMQ 赋能无服务器消息架构
+- 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
 ---
 MQTT 已成为物联网 (IoT) 的事实标准，为汽车、制造、电信、石油天然气等行业的众多应用提供支持。
 

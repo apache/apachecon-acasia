@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 构建云 MQTT 解决方案的经验教训
+- 使用 Apache RocketMQ 赋能无服务器消息架构
+- 小米 RocketMQ-MQTT 最佳实践：提升质量和成本效率之旅
+- RobustMQ：探索如何用 Rust 重写消息队列
+- eBPF + MCP：DeepFlow 全栈可观测性与智能体实践案例
 ---
 BifroMQ 是一款基于 Java 的高性能 MQTT 代理，目前在 Apache 软件基金会孵化。它从头开始设计，旨在支持原生多租户、线性可扩展性和海量并发连接，同时确保始终如一的低延迟消息传递。
 在本讲座中，我们将探讨 BifroMQ 设计的架构原则，这些原则源于构建多租户分布式 MQTT 代理所面临的独特挑战。

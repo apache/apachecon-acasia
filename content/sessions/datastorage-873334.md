@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Supercharge Lakehouse Implementation with Apache Iceberg
+- 'Elevating Data Processing: Strategies for Seamless Batch Management in Cloud Architectures'
+- 'Apache Hop: Integrating LLMs, Graph Databases & Spreadsheets'
+- 'Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake'
+- The Future of ETL with Branching & Tagging in Apache Hive
 ---
 At Dream11, Apache Celeborn is used for petabyte-scale shuffle, leveraging rack awareness to minimize cross-rack data transfer and ensure high availability by replicating shuffle data across different racks. It decouples shuffle storage from compute nodes, enabling elastic scaling of storage independent of compute demands. Parallel partition writes and adaptive shuffle reads optimize throughput and reduce latency. Elastic scaling allows dynamic resource allocation, maintaining cost efficiency under varying workloads. This design enhances fault tolerance and reduces job completion time by over 50%.
 

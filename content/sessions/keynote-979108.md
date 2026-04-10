@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - 产品/经理
-related_sessions: []
+related_sessions:
+- 'Why We Chose Openness: The Story Behind JuiceFS Switching to Apache 2.0'
+- 'From Hadoop to Kubernetes: The Cloud-Native Evolution of Li Auto''s Big Data Platform'
+- The Golden Age of Independent Developers
+- China Open Source & AI at  a Glance
+- 目录即情境： 利用元数据推动和管理下一波人工智能开发浪潮
 ---
 What really determines success or failure in a software startup? In this keynote, I’ll share the three pillars that matter most: a viable business model, clear product positioning, and sustainable user acquisition. These principles aren’t theoretical — they’re distilled from seven years of building JuiceFS, a distributed file system that went from closed-source to open-source, from SaaS-only to on-premises deployment, and from zero to adoption in some of the most demanding data infrastructures.
 

@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - 产品/经理
-related_sessions: []
+related_sessions:
+- Navigating the Incubator process
+- Rising to the Challenges in Security
+- Inside the Apache Software Foundation Board
+- Challenges and Practices of Measuring Open Source Community Project Health
+- Apache Fineract – Powering Asia’s Fintech Future through Collaboration
 ---
 Ant Group (fintech company with 25K employees) has been an active participant in Open Source community with many projects, such as Apache Fury, Apache Seata, Apache Seata, Apache HoraeDB.
 

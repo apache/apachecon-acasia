@@ -12,7 +12,12 @@ audience:
 - 开发者
 - SRE/运维
 - 架构师
-related_sessions: []
+related_sessions:
+- Why is it So Hard?
+- Inside the Apache Software Foundation Board
+- Navigating the Incubator process
+- Practical Experiences in Ant Open Source Incubation
+- A decade of lessons in Open Source licensing
 ---
 This talk discusses the current state of security in open source software, and in particular, how the ASF is responding to the growing threat.
 The ASF started with the first project: a web server running on an open source operating system. Since then, the organization has built hundreds of communities based on principles of openness, collaboration, and public good. 

@@ -13,7 +13,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Supercharge Lakehouse Implementation with Apache Iceberg
+- 'Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses'
+- 'Apache Hop: Integrating LLMs, Graph Databases & Spreadsheets'
+- 'Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake'
+- Impala on Iceberg with Puffins
 ---
 As data pipelines grow more complex, traditional "push-and-forget" ETL approaches no longer enough. The data world is evolving—and it's taking a page from modern software engineering. Say hello to Branching and Tagging—concepts that have transformed code management and are now revolutionizing how we work with data.
 

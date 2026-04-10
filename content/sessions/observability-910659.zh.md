@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 全景可观测性：LoongCollector 助力大规模 Apache Flink 和 Spark 集群
+- Apache IoTDB 系统监控框架的实施与调优实践
+- 消息系统可观察性最佳实践：Apache RocketMQ 和 OpenTelemetry 案例研究
+- 高性能、低成本、开源可观测性，由Apache Doris驱动
+- 优化 Parquet 存储：元数据管理、性能调优和无缝迁移
 ---
 在这次的分享中，我将聚焦于BanyanDB的创新热-温-冷架构，这一设计标志着现代系统可观测性领域的一次重大飞跃。我们将剖析为何分层架构是管理海量指标、追踪与日志数据的不二之选，以及BanyanDB如何巧妙地将这一理念付诸实践，同时兼顾卓越性能、成本效益与数据存储效率。
 

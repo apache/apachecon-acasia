@@ -11,7 +11,12 @@ projects: []
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'AI Reinvents Development: From Tool Revolution to Developer Evolution'
+- The Golden Age of Independent Developers
+- 'Catalogs as Context: Using metadata to power and govern the next wave of AI development'
+- TRAE, The Real AI Engineer
+- 'From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry'
 ---
 Organizations with a lot of data, such as internet/AI/Robotics companies, have built/run/used data platform over time to meet progressive needs.  With cloud native evolution and AI explosion, a paradigm shift is underway.  For example, New disaggregated architecture start taking share from distributed share nothing architect that had worked well in the internet era.  And AI with its unstructured data needs, introduced new requirements, such GPU in computing vector indexes.  In this talk, Tom will highlight the major new tech trends that will impact data infrastructure and how organizations shall prepare themselves for the coming wave.
 

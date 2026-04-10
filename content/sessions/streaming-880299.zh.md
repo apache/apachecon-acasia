@@ -14,7 +14,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Apache Flink 2.1：持续演进，迈向数据 + AI 一体化
+- 蚂蚁集团基于 Apache Celeborn 的大规模 Shuffle 实践
+- 当 Flink 遇见 Fluss：流式数据仓库的未来
+- 全景可观测性：LoongCollector 助力大规模 Apache Flink 和 Spark 集群
+- Flink + Paimon 实时 Lakehouse 解决方案的技术演进
 ---
 * 背景：介绍蚂蚁集团的实时业务和技术背景
 * 解决方案：介绍基于 Flink、Calcite 等 Apache 技术栈构建的新一代流式计算系统

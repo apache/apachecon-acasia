@@ -10,7 +10,12 @@ practice_level: 2
 projects: []
 audience:
 - 通用
-related_sessions: []
+related_sessions:
+- Insights into the Apache Community from China Open Source Annual Report
+- The Convergence of Chinese Traditional Culture and Open Source
+- 'Product Development in the Age of AI: What Changes, What Remains'
+- Why do we need an open source AI gateway
+- The Golden Age of Independent Developers
 ---
 Based on the *2024 China Open Source Annual Report", China's open-source ecosystem is thriving, with rapid growth in contributors, projects, and adoption. AI remains a key driver, as Chinese open-source models like DeepSeek and Qwen gain global traction. Collaboration between academia, enterprises, and communities is accelerating innovation, while government policies further support open-source development. Despite challenges in sustainability and governance, China's open-source community continues to expand its global influence. Let’s explore how these trends shape the future of open source and AI in China and the world! 
 

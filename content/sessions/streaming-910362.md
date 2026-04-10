@@ -14,7 +14,13 @@ audience:
 - 架构师
 - SRE/运维
 - 开发者
-related_sessions: []
+related_sessions:
+- The Exploration and Practice of State Storage in Tencent Big Data Flink with Separation
+  of Computati
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
+- Kwai Flink Cloud Native Architecture Evolution
+- Practice of Flink Memory Governance at ByteDance
+- Application of Apache Flink in China Telecom's Logging Scenario
 ---
 1. Background and Industry Pain Points
   a. Flink, as a long-running stateful computation, is widely used in scenarios such as real-time data warehousing, real-time analytics, and online training.

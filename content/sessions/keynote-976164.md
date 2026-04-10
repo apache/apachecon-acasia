@@ -12,7 +12,13 @@ projects:
 audience:
 - 开发者
 - 产品/经理
-related_sessions: []
+related_sessions:
+- 'AI Reinvents Development: From Tool Revolution to Developer Evolution'
+- Empowering the next wave of developer innovation with GenAI in the open source ecosystem
+- 'Product Development in the Age of AI: What Changes, What Remains'
+- Growth and Commercialization in Overseas Expansion of Tech Products
+- ' Unlocking maximize heterogeneous GPU utilization in Cloud Native way: Leveraging
+  the Power of HAMi'
 ---
 As the AI wave surges, what opportunities and challenges await independent developers? This panel brings together founders and core members of leading projects including SegmentFault, VibeCafé, Chuhaiqu.club, Apache Answer, and SiliconFlow to address pivotal AI-era themes:
 

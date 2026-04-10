@@ -12,7 +12,12 @@ audience:
 - 开发者
 - 产品/经理
 - 通用
-related_sessions: []
+related_sessions:
+- A decade of lessons in Open Source licensing
+- Practical Experiences in Ant Open Source Incubation
+- Rising to the Challenges in Security
+- Inside the Apache Software Foundation Board
+- Navigating the Incubator process
 ---
 The open-source world is an ecosystem in which projects and communities are interconnected. Understanding a project's health through measurements and seeking suitable means to achieve a prosperous and sustainable open-source software community is a topic of great concern for both maintainers and community developers. The health of an open-source project is not limited to traditional metrics of software engineering quality and iteration management; it also encompasses factors such as community status and values within open collaboration.
 

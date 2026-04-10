@@ -13,7 +13,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 统一数据湖接入与实时集成：解构 SeaTunnel 对 Hudi / Iceberg / Paimon 的架构级支持
+- 在实践中构建实时数据湖
+- 使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案
+- Apache Flink 2.1：持续演进，迈向数据 + AI 一体化
+- 货拉拉生产环境中的Apache Amoro与Iceberg实践
 ---
 主题介绍：
 Apache Hudi 是一种强大的表格式，提供丰富的能力，涵盖离线和实时场景。在快手推进数据仓库架构升级的过程中，Hudi 的数据湖能力在实时数据入湖、部分更新、大宽表等场景下，提升了时效性、降低了成本、提升了开发效率。

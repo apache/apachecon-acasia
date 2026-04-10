@@ -12,7 +12,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake'
+- 'Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses'
+- Supercharge Lakehouse Implementation with Apache Iceberg
+- 'Apache Hop: Integrating LLMs, Graph Databases & Spreadsheets'
+- 'Elevating Data Processing: Strategies for Seamless Batch Management in Cloud Architectures'
 ---
 We are rapidly entering the **Agentic Application Age**, where AI-driven agents not only assist but autonomously make decisions and manage tasks. However, the data infrastructure underpinning these applications faces significant challenges in scalability, consistency, and performance.
 

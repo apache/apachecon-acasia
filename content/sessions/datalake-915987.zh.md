@@ -12,7 +12,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 从数据到 AI：基于 Apache Cloudberry 构建统一分析平台
+- Apache Cloudberry 简介：演变、主要特性和路线图
+- 在实践中构建实时数据湖
+- 在腾讯云上基于 Iceberg & Amoro & Gravitino 构建云原生 Lakehouse 架构
+- Flink + Paimon 实时 Lakehouse 解决方案的技术演进
 ---
 数据仓库擅长快速分析，而数据湖则注重可扩展存储和灵活的数据管理。Lakehouse
 架构旨在将两者的优势结合起来——无缝集成跨数据湖和数据仓库的数据，以实现高效分析和统一治理。

@@ -15,7 +15,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 货拉拉生产环境中的Apache Amoro与Iceberg实践
+- Apache Flink 2.1：持续演进，迈向数据 + AI 一体化
+- 使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案
+- 统一数据湖接入与实时集成：解构 SeaTunnel 对 Hudi / Iceberg / Paimon 的架构级支持
+- 在腾讯云上基于 Iceberg & Amoro & Gravitino 构建云原生 Lakehouse 架构
 ---
 在实时驱动业务决策的时代，高吞吐量数据湖仓库的架构设计已成为企业数字化转型的决战战场。面对传统批处理架构难以逾越的时效性瓶颈，我们基于 Flink CDC 3.0 + Apache Iceberg + Apache Amoro 构建了流式数据湖仓库系统，成功实现了单客户日均数百亿数据流的分钟级就绪和查询性能跨越。
 

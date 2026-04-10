@@ -17,7 +17,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 在字节跳动规模下，利用A pache Gluten 加速 Spark 作业
+- 基于Arm64架构，使用Gluten和Velox引擎加速Spark查询
+- Apache Gluten 和 Apache Celeborn 在小米的生产实践
+- 'Gluten: 使用本地引擎加速 spark 和 flink'
+- Celeborn 的革新：多引擎支持、性能掌控与技术创新
 ---
 顺丰速递的研讨会深入探讨了他们在生产环境中对 Apache Spark 和 Apache Gluten 的使用情况。研讨会探讨了当前瓶颈的识别、选择 Gluten 作为 Spark 插件的原理、对矢量化引擎的需求、该领域的持续研究，以及他们在实际运营中取得的切实成本节约和性能提升。研讨会深入分析了顺丰速递面临的挑战、决策过程以及在其大规模数据处理流程中采用矢量化引擎所带来的变革性影响。研讨会还将介绍顺丰速递如何选择 Gluten 和 Velox 作为其原生引擎解决方案、如何将 Gluten 与现有 Spark 设置集成、在生产环境中采用 Gluten 后实现的成本节约和性能提升，以及他们对 Spark 和 Gluten 的未来规划。
 

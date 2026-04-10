@@ -15,7 +15,14 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time
+  Computing
+- ' Unlocking maximize heterogeneous GPU utilization in Cloud Native way: Leveraging
+  the Power of HAMi'
+- 'When Flink Meets Fluss: The Future of Streaming Warehouse'
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
+- 'From Hadoop to Kubernetes: The Cloud-Native Evolution of Li Auto''s Big Data Platform'
 ---
 After years of development, Kwai Flink has reached a resource scale of millions of cores, covering all business scenarios across the group, over tens of thousands of jobs running in the cluster. However, the Flink cluster exhibits significant load fluctuation effects, and cost issues are becoming increasingly prominent, alongside challenges in cluster scaling and operation and maintenance.
 Kubernetes (K8S) has matured and is widely adopted, making cloud migration of engines an industry trend. K8S can unify dispersed resource pools for online services, real-time computing, and offline computing, maximizing resource utilization in the cluster through mutual load balancing. Therefore, the cloud-native transformation of Flink is urgent. Additionally, unifying under the K8S technology stack can also reduce operation and maintenance as well as development costs.

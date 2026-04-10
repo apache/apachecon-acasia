@@ -14,7 +14,12 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 统一数据湖接入与实时集成：解构 SeaTunnel 对 Hudi / Iceberg / Paimon 的架构级支持
+- 从数据到 AI：基于 Apache Cloudberry 构建统一分析平台
+- 使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案
+- 基于 Apache SeaTunnel 和 Amazon Bedrock 的现代文本向量数据ETL解决方案
+- Apache Cloudberry 简介：演变、主要特性和路线图
 ---
 在本场会议中，我们将深入探讨 Apache SeaTunnel，这一专为实现跨异构数据源大规模数据集无缝同步而设计的高性能分布式数据集成平台。与会者将深入了解 SeaTunnel 的核心架构，包括其模块化插件系统、基于 Spark 和 Flink 的统一抽象层，以及从 V1 到 V2 的演进历程，其中包含增强的可扩展性和引擎无关设计。我们将深入探讨高级功能，如动态分片策略、数据采样技术，以及针对基于字符串的分区进行优化处理，以实现高效的数据分布。
 

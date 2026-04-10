@@ -14,7 +14,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Apache Hop: Integrating LLMs, Graph Databases & Spreadsheets'
+- The Future of ETL with Branching & Tagging in Apache Hive
+- Supercharge Lakehouse Implementation with Apache Iceberg
+- To MCP or Not to MCP? Designing Composable AI Systems with Open Protocols
+- The Next Generation Microservice Communication Protocol Based on HTTP.
 ---
 OpenTelemetry is a widely adopted open-source standard for building observability frameworks, offering tools, APIs, and SDKs to generate, collect, and export telemetry data like metrics, logs, and traces. However, its transport protocol relies on Protocol Buffer messages that are stateless and easy to interpret but have a row-based structure that complicates compression. This limitation becomes more significant when transferring large volumes of data across network boundaries.
 

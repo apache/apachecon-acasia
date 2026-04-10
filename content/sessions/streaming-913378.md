@@ -12,7 +12,14 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
+- Ant Group's Next Generation High SLA Stream Computing System Built on Apache Technology
+  Stack
+- Application of Apache Flink in China Telecom's Logging Scenario
+- The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time
+  Computing
+- Building the Future of AI Automation with Rust and Open Source
 ---
 Agentic AI applications can be categorized into two types based on their triggering mechanism: user-triggered agents and system-triggered agents. With the rapid evolving of techniques, we believe the future of agentic AI application is industrialized, and the majority of agentic workload would be triggered by real-time system events and data updates.
 

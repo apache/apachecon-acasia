@@ -16,7 +16,15 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
+- The Intelligent Evolution of Fully Managed Resource Management for Tencent's Real-Time
+  Computing
+- 'Panoramic Observability: LoongCollector for Large-Scale Apache Flink and Spark
+  Cluster'
+- 'Flink Agents: The Agentic AI Framework based on Apache Flink'
+- Ant Group's Next Generation High SLA Stream Computing System Built on Apache Technology
+  Stack
 ---
 The telecommunications log scenario has been replaced from backend services to Flink tasks, including log access, log parsing, and log alerts. With 50+clusters and 2000+Flink tasks, the timeliness has been improved by 200%
 

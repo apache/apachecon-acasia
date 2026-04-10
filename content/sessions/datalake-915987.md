@@ -12,7 +12,13 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- 'From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry'
+- 'Introduction to Apache Cloudberry: Evolution, Key Features, and Roadmap'
+- Building a real-time data lakehouse in practice
+- Technical Progression of Flink + Paimon Real-time Lakehouse Solutions
+- 'Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support
+  for Hudi / Icebe'
 ---
 Data warehouses excel at fast analytics, while data lakes focus on scalable storage and flexible data management.
 The lakehouse architecture aims to combine the best of both—seamlessly integrating data across lakes and warehouses for efficient analysis and unified governance.

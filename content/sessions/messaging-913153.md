@@ -16,7 +16,15 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Best Practices for High Availability of Apache Pulsar on Tencent Cloud
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- 'Building Highly Reliable Subscription & Push with Apache Pulsar: Challenges and
+  Best Practices'
+- Lessons Learned in Building a Cloud MQTT Solution
+- 'Virtual Queue in RocketMQ 5.0: Enhancing Backward Compatibility With Legacy Remoting-Based
+  Clients'
 ---
 This sharing will compare the features of Pulsar and Rocketmq, as well as how Pulsar is implemented in the online scenario of Xiaohongshu (including feature delay, multi-active, compression, etc.), and what actual benefits the enterprise gets.
 

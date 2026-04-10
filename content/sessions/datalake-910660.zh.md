@@ -18,7 +18,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- SeaTunnel 架构分析与 Cloudberry 集成实践
+- 在实践中构建实时数据湖
+- Flink + Paimon 实时 Lakehouse 解决方案的技术演进
+- Apache Hudi 实战：加速快手数据仓库架构升级
+- 使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案
 ---
 在当前湖仓一体、实时数据湖演进的趋势下，企业愈发需要一个统一、高性能、可扩展的数据集成框架来支撑对多种数据湖格式（如 Apache Hudi、Iceberg、Paimon）的数据写入与读取工具。Apache SeaTunnel 作为新一代数据集成引擎，通过其 Connector V2 架构和流批统一设计，构建了对三大主流数据湖格式的深度支持体系，涵盖批量加载、实时流式写入和一致性保障等关键能力。
 

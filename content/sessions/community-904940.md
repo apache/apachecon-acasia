@@ -14,7 +14,12 @@ audience:
 - 开发者
 - 产品/经理
 - 通用
-related_sessions: []
+related_sessions:
+- 'Enhancing Virtual Collaboration: Integrating GenAI into Apache OpenMeetings'
+- China Open Source & AI at  a Glance
+- Growth and Commercialization in Overseas Expansion of Tech Products
+- The power of Community
+- The Golden Age of Independent Developers
 ---
 Open source projects thrive when people from diverse backgrounds and languages unite under a shared goal. However, language barriers often hinder meaningful participation, making it difficult for newcomers and community members to stay engaged. In this session, we’ll explore how contributors can systematically break down these linguistic walls by using AI-assisted video translation and subtitles, accessible documentation, and practical community workflows. Drawing from experiences helping multiple open source initiatives localize content, we’ll share strategies for ensuring everyone—regardless of their native language—has an equal seat at the table.
 

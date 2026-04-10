@@ -13,7 +13,12 @@ projects:
 audience:
 - 开发者
 - 架构师
-related_sessions: []
+related_sessions:
+- 使用 Apache Iceberg 增强 Lakehouse 实施
+- Apache Iceberg：高性能数据湖仓的表维护策略
+- Apache Polaris（孵化中）和 Apache XTable：统一 Iceberg、Hudi 和其他表格式
+- 队列、处理、预测：Kafka 与 Flink LLM 和 Datalake 开启新时代
+- Apache Iceberg 的隐藏超能力：治理、实验与自主未来
 ---
 Apache Iceberg 表格式已成为大数据领域的事实标准。与基于传统文件系统的表格式相比，它拥有诸多优势，例如行级修改、事务、分区转换和时间旅行，使其成为许多项目自然而然的首选。数据统计
 

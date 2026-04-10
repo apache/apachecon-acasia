@@ -15,7 +15,14 @@ audience:
 - 开发者
 - SRE/运维
 - 架构师
-related_sessions: []
+related_sessions:
+- Why do we need an open source AI gateway
+- Implementation and Tuning Practice of Apache IoTDB System Monitoring Framework
+- 'Building Highly Reliable Subscription & Push with Apache Pulsar: Challenges and
+  Best Practices'
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- 'Apache Hudi in Action: Accelerating Kuaishou''s Data Warehouse Architecture Upgrade'
 ---
 Apache HertzBeat is a next-generation open-source real-time monitoring and alerting platform. It highlights the importance of monitoring and the pain points of traditional solutions, positioning HertzBeat as an "All in One" solution for unified monitoring and an enhanced user experience.
 

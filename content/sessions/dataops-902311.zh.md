@@ -12,7 +12,12 @@ projects:
 audience:
 - 开发者
 - 通用
-related_sessions: []
+related_sessions:
+- 使用 Apache Iceberg 增强 Lakehouse 实施
+- 队列、处理、预测：Kafka 与 Flink LLM 和 Datalake 开启新时代
+- Apache Hive 中带有分支和标记的 ETL 的未来
+- Apache Iceberg：高性能数据湖仓的表维护策略
+- 使用 Apache Arrow 重塑 OpenTelemetry
 ---
 在本场会议中，我将探讨如何利用Apache Hop实现大型语言模型（LLMs）、图数据库与电子表格的无缝集成。
 

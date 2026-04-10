@@ -15,7 +15,13 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- Accelerating Spark jobs with Apache Gluten at ByteDance Scale
+- Accelerate Spark Queries with Gluten and Velox Engine on Arm64
+- Production Practice of Apache Gluten and Apache Celeborn at Xiaomi
+- 'Gluten: use native engine to accelerate spark and flink'
+- Celeborn’s Revolution in Multi-Engine Support, Performance Mastery, and Enterprising
+  Innovation
 ---
 The session by SF Express delves into their use of Apache Spark and Apache Gluten within their production environment. It addresses the identification of current bottlenecks, the rationale for selecting Gluten as a Spark plugin, the need for a vectorized engine, ongoing research in this area, and the tangible cost savings and performance improvements achieved in their real-world operations. The presentation provides detailed insights into SF Express's challenges, decision-making process, and the transformative impact of adopting a vectorized engine in their large-scale data processing pipeline. The session will cover how SF Express chose Gluten and Velox as their native engine solution, how they integrated Gluten with their existing Spark setup, the cost savings and performance gains realized after adopting Gluten in their production environment, and their future plans for Spark and Gluten.
 

@@ -14,7 +14,14 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- RobustMQ - Explore how to rewrite a message queue in Rust
+- 'Virtual Queue in RocketMQ 5.0: Enhancing Backward Compatibility With Legacy Remoting-Based
+  Clients'
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- Lessons Learned in Building a Cloud MQTT Solution
+- Storage Engine for RocketMQ Based on Commitlog and RocksDB
 ---
 In our latest work, which was accepted to the the ACM FSE 2025 Industry Track, Apache RocketMQ serves as a powerful foundation for serverless messaging systems, addressing the scalability, cost, and metadata challenges of traditional middleware. By decoupling storage and compute, Apache RocketMQ enables independent resource scaling, critical for unpredictable cloud workloads. Its elastic write partitions eliminate single-queue throughput limits, while light message queue support millions of queues with minimal cold-start latency. 
 

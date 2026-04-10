@@ -12,7 +12,15 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Building a real-time data lakehouse in practice
+- 'Resolving Data Silos: Apache Gravitino''s Production Implementation Practices at
+  Bilibili'
+- 'Apache Hudi in Action: Accelerating Kuaishou''s Data Warehouse Architecture Upgrade'
+- 'Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support
+  for Hudi / Icebe'
+- Build a cloud native Lakehouse architecture based on Iceberg & Amoro & Gravitino
+  in Tencent Cloud
 ---
 In big data scenarios, efficient data retrieval is a core requirement for many business applications.​​ As the cornerstone of full-text search and complex queries, inverted indexes can significantly improve query performance, particularly excelling in log analysis scenarios requiring fuzzy matching. Compared to traditional solutions, leveraging the storage scalability and compute-storage separation advantages of lakehouse table formats can effectively reduce index storage costs. However, implementing scalable, low-maintenance inverted indexes in data lake architectures using modern table formats (like Apache Iceberg) still presents multiple challenges, including real-time synchronization between indexes and data, consistency guarantees in distributed environments, and query optimization issues.
 

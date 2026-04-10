@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 腾讯实时计算的智能演进：全托管资源管理
+- Apache Flink 2.0 存算分离架构演进
+- Apache Flink 2.1：持续演进，迈向数据 + AI 一体化
+- 当 Flink 遇见 Fluss：流式数据仓库的未来
+- 使用外部状态和动态表实现可扩展的连接和聚合
 ---
 1. 背景：
 Flink 作为一个有状态的流处理系统，其状态存储引擎扮演着至关重要的角色。在 Flink 中，状态用于在数据流计算过程中存储中间结果。Flink 通过 State Backend 组件为算子提供状态的读写服务。然而，在当前的计算存储一体化架构下，存在以下问题：

@@ -12,7 +12,14 @@ projects:
 audience:
 - 架构师
 - 开发者
-related_sessions: []
+related_sessions:
+- Application of Dubbo-go in microservice architecture
+- 'Microservice Innovation in the AI Era: From Architecture Reshaping to Agent Driven
+  Development'
+- 'Unlocking the Potential of the Dubbo Ecosystem: Building AI-Driven Applications
+  with dubbo-go-pixiu'
+- Building a Unified Lakehouse Solution with Apache Cloudberry
+- 'From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry'
 ---
 As microservices architectures evolve, the demand for standardized, observable, and integrable service interfaces is growing rapidly. While RESTful APIs have long benefited from the OpenAPI specification, RPC frameworks like Apache Dubbo have lacked a native, standardized schema representation — until now.
 

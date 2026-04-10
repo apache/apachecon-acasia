@@ -12,7 +12,12 @@ audience:
 - 开发者
 - 产品/经理
 - 通用
-related_sessions: []
+related_sessions:
+- A decade of lessons in Open Source licensing
+- Rising to the Challenges in Security
+- Challenges and Practices of Measuring Open Source Community Project Health
+- Navigating the Incubator process
+- Practical Experiences in Ant Open Source Incubation
 ---
 This session will explain the Gartner Hype Cycle and how it applies to open source software projects. I'll share insight into the role that both word-of-mouth and social media play in getting developers to contribute to your open source project. We'll discuss how to get attention and how to adapt as that attention inevitably fades.
 

@@ -13,7 +13,12 @@ audience:
 - 架构师
 - 开发者
 - SRE/运维
-related_sessions: []
+related_sessions:
+- 从提案到进展：从孵化 Apache Cloudberry 中汲取的经验教训
+- 从数据到 AI：基于 Apache Cloudberry 构建统一分析平台
+- 使用 Apache Cloudberry 构建统一的 Lakehouse 解决方案
+- 深入 Apache Cloudberry 的向量化执行：设计、挑战与性能提升
+- Apache Impala 4.5 新特性：Iceberg 支持、性能提升等
 ---
 Apache Cloudberry 是一款先进且成熟的开源 MPP 数据库，它源自 Pivotal Greenplum Database® 的开源版本，但基于更现代的 PostgreSQL 内核构建，并具备更先进的企业级功能。Cloudberry 既可以用作数据仓库，也可以用于大规模分析和 AI/ML 工作负载。
 在本次会议中，我们将探讨该项目的起源、进入 Apache 孵化器的历程，以及它与其他分析型数据库的区别。我们将介绍 Cloudberry 的核心功能、架构亮点，并分享其未来发展路线图。本次会议还将与其他数据仓库系统进行简要比较，帮助听众了解 Apache Cloudberry 在生态系统中的地位以及未来的发展方向。
