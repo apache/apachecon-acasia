@@ -1,135 +1,921 @@
 <!DOCTYPE HTML>
-
 <html>
 {{ partial "header.html" . }}
 <body>
 
-<!-- Header Wrapper -->
 <div class="wrapper style1">
-
-    <!-- Header -->
     <div id="header" class="sub-banner position-relative d-flex flex-column">
         {{ partial "nav.html" . }}
     </div>
 
     <div id="main" class="wrapper style4 page-session">
-
-        <!-- Content -->
         <div id="content" class="container">
             <section>
                 <header class="major">
                     <h2 class="text-center">{{.Title}}</h2>
                 </header>
 
-                {{ $day := "" }}
-                {{ $time := "" }}
-                {{ $day1 := "0001-01-01" }}
-                {{ $day2 := "2021-08-06" }}
-                <!-- Tabbox  -->
-                <div class="tab_box">
-                    {{ range $index, $value := .Site.Params.schedule }}
-                        <button class="tab_{{$value}}" onclick="tabChange({{ $value }})">{{ $value }}</button>
-                    {{ end }}   
-                </div>
+                <!-- 数据岛：输出所有字段（含手动指定值） -->
+                <script id="session-data" type="application/json">
+                    {{- $pages := slice -}}
+                    {{- range .Pages -}}
+                        {{- $pages = $pages | append (dict 
+                            "title" .Title
+                            "date" (.Date.Format "2006-01-02T15:04:05Z07:00")
+                            "track" .Params.track
+                            "presenters" .Params.presenters
+                            "stype" .Params.stype
+                            "room" .Params.room
+                            "abstract" .Summary
+                            "permalink" .Permalink
+                            "depth" .Params.depth
+                            "practice_level" .Params.practice_level
+                            "projects" .Params.projects
+                            "audience" .Params.audience
+                            "related_sessions" .Params.related_sessions
+                            "tags" (split .Params.tags ",")
+                        ) -}}
+                    {{- end -}}
+                    {{- if $pages -}}
+                        {{- $pages | jsonify | safeJS -}}
+                    {{- else -}}
+                        []
+                    {{- end -}}
+                </script>
 
-                {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
-                {{ $pageDay := dateFormat "2006-01-02" .Date }}
-                {{ $pageTime := dateFormat "15:04 GMT+8" .Date }}
-
-                {{ if eq $pageDay $day }}
-                    <div class="tab_content tab_content_{{$pageDay}}">
-                        {{if eq $pageTime $time}}
-                        {{else}}
-                            <h3>{{$pageTime}}</h3>
-                        {{end}}
-                        {{ if .Title}}
-                            <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
-                                {{if eq .Params.track "bigdata"}}
-                                    (ROOM : {{.Params.room}})
-                                {{end}}
-                            <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
-                        {{end}}
-                    </div>
-
-                {{else}}
-                    {{ if eq $pageDay $day1 }}
-                    {{else}}
-                        {{ if eq $pageDay $day2 }}
-                        {{else}}
-                            <!-- </br> -->
-                        {{end}}
-                        <div class="tab_content tab_content_{{$pageDay}}">
-                            <h2>{{ $pageDay }}</h2>
-                            <h3>{{$pageTime}}</h3>
-                            <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
-                            <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
+                <div id="app">
+                    <div id="loading" class="text-center">加载日程数据中...</div>
+                    
+                    <div id="app-main" style="display: none;">
+                        <!-- 控制栏 -->
+                        <div class="control-panel">
+                            <div class="filter-row">
+                                <div class="filter-group">
+                                    <label>分会场:</label>
+                                    <div class="multi-select" id="track-filter"></div>
+                                </div>
+                                <div class="filter-group">
+                                    <label>类型:</label>
+                                    <div class="multi-select" id="type-filter"></div>
+                                </div>
+                                <div class="filter-group">
+                                    <label>深度:</label>
+                                    <div class="multi-select" id="depth-filter"></div>
+                                </div>
+                            </div>
+                            <div class="filter-row">
+                                <div class="filter-group">
+                                    <label>实战性:</label>
+                                    <div class="multi-select" id="stars-filter"></div>
+                                </div>
+                                <div class="filter-group">
+                                    <label>项目:</label>
+                                    <div class="multi-select" id="project-filter"></div>
+                                </div>
+                                <div class="filter-group search-group">
+                                    <input type="text" id="search-input" placeholder="搜索标题、讲师、摘要、听众..." />
+                                </div>
+                            </div>
+                            <div class="action-buttons">
+                                <button id="export-json" class="btn-export-json">📦 导出全部JSON</button>
+                                <button id="clear-filters" class="btn-clear">🔄 清空过滤</button>
+                            </div>
                         </div>
-                    {{end}}
-                {{end}}
-                {{ $day = $pageDay }}
-                {{ $time = $pageTime }}
-                {{end}}
 
+                        <!-- 两栏布局 -->
+                        <div class="schedule-dashboard">
+                            <div class="all-sessions-panel">
+                                <h3>📋 全部议程</h3>
+                                <div id="date-tabs" class="date-tabs"></div>
+                                <div id="sessions-container" class="sessions-list"></div>
+                            </div>
+
+                            <div class="my-schedule-panel">
+                                <div class="my-schedule-header">
+                                    <h3>📌 我的日程</h3>
+                                    <button id="export-calendar" class="btn-export" disabled>📅 导出日历</button>
+                                </div>
+                                <div id="my-schedule-list" class="my-schedule-list">
+                                    <p class="empty-message">还没有添加议题，点击左侧“➕”添加</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     </div>
-
     {{ partial "footer.html" . }}
+</div>
 
-    <style>
-        .tab_box{
-            border-bottom: 1px solid #0f072d;
-            padding: 0;
-            margin-bottom: 30px;
-        }
-        .tab_box button{
-            position: relative;
-            bottom: -1px;
-            margin: 0;
-            border-style: none;
-            background-color: transparent;
-            border: 1px solid #0f072d;
-            padding: 5px 10px;
-            font-size: 19px;
-            cursor: pointer;
-        }
-        .tab_box .tab_selected{
-            background-color: #0f072d;
-            color:white;
-        }
-        .tab_content h2{
-            margin: 18px 0;
-        }
-        .tab_content p{
-            text-indent: 2em;
-        }
+<!-- 导出 JSON 字段说明模态框 -->
+<div id="export-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>📋 导出的 JSON 数据格式说明</h3>
+            <button class="modal-close" id="close-modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p>点击“确认导出”将下载包含以下字段的完整 JSON 文件：</p>
+            <table class="field-table">
+                <thead>
+                    <tr><th>字段名</th><th>中文含义</th><th>示例</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><code>title</code></td><td>标题</td><td>"社区的力量"</td></tr>
+                    <tr><td><code>date</code></td><td>时间</td><td>"2026-08-07T09:30:00+08:00"</td></tr>
+                    <tr><td><code>track</code></td><td>专题/分会场</td><td>"keynote"</td></tr>
+                    <tr><td><code>presenters</code></td><td>演讲者</td><td>"姜 宁"</td></tr>
+                    <tr><td><code>type</code></td><td>演讲语言/类型</td><td>"中文演讲"</td></tr>
+                    <tr><td><code>room</code></td><td>会议室</td><td>"颐和厅"</td></tr>
+                    <tr><td><code>abstract</code></td><td>摘要</td><td>"分布式追踪对于可观察性至关重要..."</td></tr>
+                    <tr><td><code>permalink</code></td><td>详细信息链接</td><td>"/sessions/community-power/"</td></tr>
+                    <tr><td><code>detectedProjects</code></td><td>相关项目列表</td><td>["skywalking", "kafka"]</td></tr>
+                    <tr><td><code>depth</code></td><td>演讲深度</td><td>"advanced" (初级/进阶/深度)</td></tr>
+                    <tr><td><code>stars</code></td><td>实战性评分</td><td>4 (1-5星)</td></tr>
+                    <tr><td><code>audiences</code></td><td>适合人群</td><td>["开发者", "架构师"]</td></tr>
+                </tbody>
+            </table>
+            <p style="margin-top: 16px; font-size: 13px; color: #6c757d;">
+                💡 提示：导出的 JSON 可用于自行分析或导入其他工具。
+            </p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn-secondary" id="cancel-export">取消</button>
+            <button class="btn-primary" id="confirm-export">确认导出</button>
+        </div>
+    </div>
+</div>
 
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 
-    </style>
+<style>
+    /* ========== 基础布局 ========== */
+    .page-session .container { max-width: 1400px; }
+    .control-panel {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 16px;
+        margin-bottom: 30px;
+    }
+    .filter-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 30px;
+        margin-bottom: 15px;
+    }
+    .filter-group {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .filter-group label {
+        min-width: 60px;
+        font-weight: 600;
+        color: #495057;
+        padding-top: 6px;
+    }
+    .multi-select {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+    .filter-chip {
+        background: white;
+        border: 1px solid #ced4da;
+        color: #495057;
+        padding: 6px 14px;
+        border-radius: 30px;
+        font-size: 13px;
+        cursor: pointer;
+        user-select: none;
+        transition: all 0.15s;
+    }
+    .filter-chip.active {
+        background: #0f072d;
+        border-color: #0f072d;
+        color: white;
+    }
+    .filter-chip:hover {
+        border-color: #0f072d;
+    }
+    .search-group {
+        flex: 1;
+        min-width: 250px;
+    }
+    #search-input {
+        width: 100%;
+        padding: 8px 15px;
+        border: 1px solid #ced4da;
+        border-radius: 30px;
+        font-size: 14px;
+        background: white;
+    }
+    .action-buttons {
+        display: flex;
+        gap: 15px;
+        justify-content: flex-end;
+    }
+    .btn-export-json, .btn-clear {
+        background: white;
+        border: 1px solid #0f072d;
+        color: #0f072d;
+        padding: 8px 18px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+    .btn-export-json:hover, .btn-clear:hover {
+        background: #0f072d;
+        color: white;
+    }
+
+    .schedule-dashboard {
+        display: grid;
+        grid-template-columns: 1fr 380px;
+        gap: 30px;
+    }
+    @media (max-width: 900px) {
+        .schedule-dashboard { grid-template-columns: 1fr; }
+    }
+
+    /* 日期标签 */
+    .date-tabs {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        border-bottom: 2px solid #e9ecef;
+        padding-bottom: 10px;
+    }
+    .date-tab {
+        padding: 8px 18px;
+        background: transparent;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-weight: 500;
+        color: #495057;
+        transition: all 0.2s;
+    }
+    .date-tab.active {
+        background: #0f072d;
+        color: white;
+    }
+
+    /* 议题卡片 */
+    .session-card {
+        background: white;
+        border-radius: 16px;
+        padding: 18px 20px;
+        margin-bottom: 16px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        border-left: 5px solid #0f072d;
+        position: relative;
+    }
+    .session-card.keynote { border-left-color: #e6b800; background: #fffdf5; }
+    .session-card .time { font-size: 14px; color: #6c757d; margin-bottom: 6px; }
+    .session-card h4 { margin: 0 0 8px 0; font-size: 1.2rem; }
+    .session-card h4 a { color: #0f072d; text-decoration: none; }
+    .session-card .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 12px;
+        margin: 10px 0 8px;
+        font-size: 13px;
+    }
+    .badge {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: 600;
+        background: #e9ecef;
+        color: #495057;
+    }
+    .badge.track { background: #0f072d; color: white; }
+    .badge.type { background: #d4edda; color: #155724; }
+    .badge.room { background: #cfe2ff; color: #084298; }
+    .badge.project { background: #fde1c4; color: #7b4e1d; }
+    .badge.depth-beginner { background: #d1e7dd; color: #0a3622; }
+    .badge.depth-intermediate { background: #fff3cd; color: #664d03; }
+    .badge.depth-advanced { background: #f8d7da; color: #842029; }
+
+    .stars-container {
+        display: inline-flex;
+        align-items: center;
+        gap: 3px;
+        margin-left: 8px;
+    }
+    .star-filled { color: #ffc107; }
+    .star-empty { color: #dee2e6; }
+
+    .audience-tag {
+        background: #e2d5ff;
+        color: #3b1e7a;
+        padding: 2px 8px;
+        border-radius: 20px;
+        font-size: 11px;
+        margin-right: 5px;
+    }
+
+    .abstract {
+        font-size: 14px;
+        color: #555;
+        margin: 12px 0 8px;
+        line-height: 1.5;
+        border-top: 1px dashed #dee2e6;
+        padding-top: 12px;
+    }
+
+    .related-sessions {
+        margin-top: 12px;
+        font-size: 12px;
+        color: #6c757d;
+        border-top: 1px solid #e9ecef;
+        padding-top: 10px;
+    }
+    .related-link {
+        display: inline-block;
+        margin-right: 12px;
+        color: #0f072d;
+        text-decoration: none;
+        border-bottom: 1px dotted;
+    }
+
+    .add-btn {
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        background: #0f072d;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+        line-height: 1;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.2s;
+        z-index: 2;
+    }
+    .add-btn:hover { background: #2a1a5e; }
+    .add-btn.disabled {
+        background: #adb5bd;
+        cursor: not-allowed;
+        opacity: 0.6;
+    }
+
+    /* 我的日程 */
+    .my-schedule-panel {
+        background: #f8f9fa;
+        border-radius: 20px;
+        padding: 20px;
+        height: fit-content;
+        position: sticky;
+        top: 20px;
+    }
+    .my-schedule-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .my-schedule-header h3 { margin: 0; }
+    .btn-export {
+        background: #198754;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-weight: 500;
+    }
+    .btn-export:disabled { background: #6c757d; cursor: not-allowed; }
+
+    .my-session-item {
+        background: white;
+        border-radius: 12px;
+        padding: 14px 16px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+        border: 1px solid #e9ecef;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: grab;
+    }
+    .my-session-item.conflict-warning {
+        border-left: 4px solid #dc3545;
+        background: #fff8f8;
+    }
+    .drag-handle { color: #adb5bd; font-size: 20px; margin-right: 5px; }
+    .my-session-info { flex: 1; }
+    .my-session-info .title { font-weight: 600; color: #0f072d; }
+    .my-session-info .time { font-size: 12px; color: #6c757d; }
+    .remove-btn {
+        background: none;
+        border: none;
+        color: #dc3545;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .empty-message, .no-results { color: #6c757d; text-align: center; padding: 40px 0; }
+
+    /* 模态框 */
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+    .modal-content {
+        background: white;
+        border-radius: 20px;
+        max-width: 700px;
+        width: 90%;
+        max-height: 80vh;
+        overflow-y: auto;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        animation: fadeIn 0.2s;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: scale(0.95); }
+        to { opacity: 1; transform: scale(1); }
+    }
+    .modal-header {
+        padding: 20px 24px;
+        border-bottom: 1px solid #e9ecef;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .modal-header h3 { margin: 0; color: #0f072d; }
+    .modal-close {
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: #6c757d;
+    }
+    .modal-body { padding: 24px; }
+    .field-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+    }
+    .field-table th, .field-table td {
+        padding: 10px 12px;
+        text-align: left;
+        border-bottom: 1px solid #e9ecef;
+    }
+    .field-table th {
+        background: #f8f9fa;
+        font-weight: 600;
+        color: #495057;
+    }
+    .field-table code {
+        background: #e9ecef;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-family: monospace;
+    }
+    .modal-footer {
+        padding: 16px 24px;
+        border-top: 1px solid #e9ecef;
+        display: flex;
+        justify-content: flex-end;
+        gap: 12px;
+    }
+    .btn-primary, .btn-secondary {
+        padding: 8px 20px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+    }
+    .btn-primary {
+        background: #0f072d;
+        color: white;
+    }
+    .btn-primary:hover { background: #2a1a5e; }
+    .btn-secondary {
+        background: #e9ecef;
+        color: #495057;
+    }
+    .btn-secondary:hover { background: #dee2e6; }
+</style>
 
 <script>
-    const tab_list = {{ .Site.Params.schedule }}
+    (function() {
+        // ---------- 获取数据 ----------
+        const dataElement = document.getElementById('session-data');
+        let sessionsRaw = [];
+        try {
+            const raw = dataElement.textContent.trim();
+            if (raw) sessionsRaw = JSON.parse(raw);
+            if (!Array.isArray(sessionsRaw)) sessionsRaw = [];
+        } catch (e) { console.error('解析失败', e); }
 
-    window.onload = function() {
-        tabChange(tab_list[0])
-    }
+        if (sessionsRaw.length === 0) {
+            document.getElementById('loading').innerHTML = '暂无日程数据';
+            return;
+        }
 
-    function tabChange(index){
-        
-        tab_list.forEach(el => {
-            const tab_name = `.tab_content_${el}`
-            const button_name = `.tab_${el}`
-            if( index == el){
-                $(button_name).addClass('tab_selected')
-                $(tab_name).show()
+        // ---------- 自动分析关键词（兜底） ----------
+        const APACHE_PROJECTS = ['skywalking','kafka','camel','flink','spark','dubbo','rocketmq','pulsar','shardingsphere','hadoop','hive','tomcat','httpd','iotdb','doris','seatunnel','streampark','apisix','brpc','calcite'];
+        const DEPTH_KEYWORDS = {
+            beginner: ['入门','介绍','概述','quick start','初识','上手','基础'],
+            intermediate: ['实践','案例','应用','生产','踩坑','经验','调试'],
+            advanced: ['深入','原理','源码','架构','设计','优化','内核','剖析']
+        };
+        const PRACTICE_KEYWORDS = ['实践','案例','demo','演示','step by step','真实场景','动手','实操'];
+        const AUDIENCE_KEYWORDS = {
+            '架构师': ['架构','设计','选型','演进','高可用','扩展'],
+            '开发者': ['代码','实现','开发','api','sdk','编程','源码'],
+            'SRE/运维': ['运维','部署','监控','调优','故障','稳定性','可观测'],
+            '产品/经理': ['案例','业务','落地','价值','场景']
+        };
 
-            }else{
-                $(button_name).removeClass('tab_selected')
-                $(tab_name).hide()
-
+        // ---------- 增强每个议题（优先使用手动值） ----------
+        const sessions = sessionsRaw.map(s => {
+            const title = s.title || '';
+            const abstract = (s.abstract || '').toLowerCase();
+            const fullText = (title + ' ' + abstract).toLowerCase();
+            
+            // 1. 项目标签
+            let detectedProjects = [];
+            if (s.projects && Array.isArray(s.projects) && s.projects.length > 0) {
+                detectedProjects = s.projects.map(p => p.toLowerCase());
+            } else {
+                detectedProjects = APACHE_PROJECTS.filter(p => fullText.includes(p));
             }
+            
+            // 2. 技术深度
+            let depth = s.depth;
+            if (!depth) {
+                let bestLevel = 'general';
+                let maxScore = 0;
+                for (const [level, keywords] of Object.entries(DEPTH_KEYWORDS)) {
+                    const score = keywords.filter(kw => fullText.includes(kw.toLowerCase())).length;
+                    if (score > maxScore) { maxScore = score; bestLevel = level; }
+                }
+                depth = bestLevel;
+            }
+            
+            // 3. 实战性评分
+            let stars = s.practice_level;
+            if (stars === undefined || stars === null) {
+                const practiceMatches = PRACTICE_KEYWORDS.filter(kw => fullText.includes(kw.toLowerCase())).length;
+                stars = Math.min(5, Math.floor(practiceMatches * 1.5) + (abstract.length > 300 ? 1 : 0));
+                stars = Math.max(1, stars);
+            } else {
+                stars = Math.min(5, Math.max(1, parseInt(stars, 10) || 1));
+            }
+            
+            // 4. 受众角色
+            let audiences = [];
+            if (s.audience && Array.isArray(s.audience) && s.audience.length > 0) {
+                audiences = s.audience;
+            } else {
+                for (const [role, kws] of Object.entries(AUDIENCE_KEYWORDS)) {
+                    if (kws.some(kw => fullText.includes(kw.toLowerCase()))) audiences.push(role);
+                }
+                if (audiences.length === 0) audiences.push('通用');
+            }
+            
+            // 5. 相关议题（手动指定）
+            const relatedSessionsManual = s.related_sessions || [];
+            
+            return {
+                ...s,
+                detectedProjects,
+                depth,
+                stars,
+                audiences,
+                relatedSessionsManual,
+                dateObj: new Date(s.date),
+                timeStr: new Date(s.date).toLocaleTimeString('zh-CN', { hour:'2-digit', minute:'2-digit', timeZoneName:'short' })
+            };
         });
-    }
+
+        // ---------- 准备过滤器选项 ----------
+        const allTracks = [...new Set(sessions.map(s => s.track).filter(Boolean))];
+        const allTypes = [...new Set(sessions.map(s => s.stype).filter(Boolean))];
+        const depthOptions = ['beginner','intermediate','advanced'];
+        const depthLabels = { beginner:'初级', intermediate:'进阶', advanced:'深度' };
+        const starOptions = [1,2,3,4,5];
+        const allProjects = [...new Set(sessions.flatMap(s => s.detectedProjects))].sort();
+
+        const selectedFilters = {
+            tracks: new Set(),
+            types: new Set(),
+            depths: new Set(),
+            stars: new Set(),
+            projects: new Set()
+        };
+
+        let currentDate = [...new Set(sessions.map(s => s.dateObj.toDateString()))].sort((a,b) => new Date(a)-new Date(b))[0] || '';
+        let mySchedule = [];
+
+        // DOM 元素
+        const appMain = document.getElementById('app-main');
+        const loading = document.getElementById('loading');
+        const dateTabsDiv = document.getElementById('date-tabs');
+        const sessionsContainer = document.getElementById('sessions-container');
+        const myScheduleList = document.getElementById('my-schedule-list');
+        const exportBtn = document.getElementById('export-calendar');
+        const searchInput = document.getElementById('search-input');
+
+        // 渲染多选芯片
+        function renderMultiSelect(containerId, options, selectedSet, displayFn = (v) => v) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = '';
+            options.forEach(opt => {
+                const chip = document.createElement('span');
+                chip.className = `filter-chip${selectedSet.has(opt) ? ' active' : ''}`;
+                chip.textContent = displayFn(opt);
+                chip.dataset.value = opt;
+                chip.addEventListener('click', () => {
+                    if (selectedSet.has(opt)) selectedSet.delete(opt);
+                    else selectedSet.add(opt);
+                    renderAllFilters();
+                    refreshUI();
+                });
+                container.appendChild(chip);
+            });
+        }
+
+        function renderAllFilters() {
+            renderMultiSelect('track-filter', allTracks, selectedFilters.tracks);
+            renderMultiSelect('type-filter', allTypes, selectedFilters.types);
+            renderMultiSelect('depth-filter', depthOptions, selectedFilters.depths, v => depthLabels[v] || v);
+            renderMultiSelect('stars-filter', starOptions, selectedFilters.stars, v => '★'.repeat(v));
+            renderMultiSelect('project-filter', allProjects, selectedFilters.projects);
+        }
+
+        function clearFilters() {
+            for (let key in selectedFilters) selectedFilters[key].clear();
+            renderAllFilters();
+            refreshUI();
+        }
+
+        // 过滤逻辑
+        function filterSessions() {
+            let filtered = sessions.filter(s => s.dateObj.toDateString() === currentDate);
+            
+            if (selectedFilters.tracks.size > 0) filtered = filtered.filter(s => selectedFilters.tracks.has(s.track));
+            if (selectedFilters.types.size > 0) filtered = filtered.filter(s => selectedFilters.types.has(s.stype));
+            if (selectedFilters.depths.size > 0) filtered = filtered.filter(s => selectedFilters.depths.has(s.depth));
+            if (selectedFilters.stars.size > 0) {
+                const minStar = Math.min(...selectedFilters.stars);
+                filtered = filtered.filter(s => s.stars >= minStar);
+            }
+            if (selectedFilters.projects.size > 0) {
+                filtered = filtered.filter(s => s.detectedProjects.some(p => selectedFilters.projects.has(p)));
+            }
+            
+            const searchVal = searchInput.value.toLowerCase();
+            if (searchVal) {
+                filtered = filtered.filter(s => 
+                    s.title.toLowerCase().includes(searchVal) ||
+                    s.presenters.toLowerCase().includes(searchVal) ||
+                    (s.abstract || '').toLowerCase().includes(searchVal) ||
+                    s.audiences.some(a => a.toLowerCase().includes(searchVal))
+                );
+            }
+            return filtered;
+        }
+
+        // 日期标签
+        function renderDateTabs() {
+            const dates = [...new Set(sessions.map(s => s.dateObj.toDateString()))].sort((a,b) => new Date(a)-new Date(b));
+            dateTabsDiv.innerHTML = dates.map(d => {
+                const date = new Date(d);
+                return `<button class="date-tab ${d === currentDate ? 'active' : ''}" data-date="${d}">${date.getMonth()+1}/${date.getDate()}</button>`;
+            }).join('');
+        }
+
+        // 相关议题推荐（兼容标题或链接）
+        function getRelatedSessions(currentSession, topN=2) {
+            if (currentSession.relatedSessionsManual && currentSession.relatedSessionsManual.length > 0) {
+                const matched = currentSession.relatedSessionsManual
+                    .map(item => {
+                        let match = sessions.find(s => s.permalink === item);
+                        if (match) return match;
+                        const normalized = item.trim().toLowerCase();
+                        match = sessions.find(s => s.title.trim().toLowerCase() === normalized);
+                        return match || null;
+                    })
+                    .filter(s => s !== null);
+                if (matched.length > 0) return matched.slice(0, topN);
+            }
+            
+            // 自动推荐
+            const curWords = new Set((currentSession.title+' '+currentSession.abstract).toLowerCase().split(/\W+/).filter(w=>w.length>2));
+            const candidates = sessions.filter(s => s.permalink !== currentSession.permalink && s.dateObj.toDateString() === currentDate);
+            return candidates.map(s => {
+                const otherWords = new Set((s.title+' '+s.abstract).toLowerCase().split(/\W+/).filter(w=>w.length>2));
+                const intersection = [...curWords].filter(w => otherWords.has(w)).length;
+                const union = curWords.size + otherWords.size - intersection;
+                return { session: s, score: union ? intersection/union : 0 };
+            }).sort((a,b)=>b.score-a.score).slice(0,topN).map(i=>i.session);
+        }
+
+        function renderSessions() {
+            const filtered = filterSessions();
+            if (filtered.length === 0) {
+                sessionsContainer.innerHTML = '<div class="no-results">😕 没有匹配的议题</div>';
+                return;
+            }
+            filtered.sort((a,b)=>a.dateObj - b.dateObj);
+            let html = '';
+            filtered.forEach(session => {
+                const isAdded = mySchedule.some(item => item.permalink === session.permalink);
+                const starsHtml = Array.from({length:5}, (_,i)=>`<span class="${i<session.stars?'star-filled':'star-empty'}">★</span>`).join('');
+                const depthClass = {beginner:'depth-beginner',intermediate:'depth-intermediate',advanced:'depth-advanced'}[session.depth]||'';
+                const projectTags = session.detectedProjects.slice(0,3).map(p=>`<span class="badge project">#${p}</span>`).join('');
+                const audienceTags = session.audiences.slice(0,2).map(a=>`<span class="audience-tag">👥 ${a}</span>`).join('');
+                const related = getRelatedSessions(session,2);
+                const relatedHtml = related.length ? `<div class="related-sessions">🔗 相关: ${related.map(r=>`<a href="${r.permalink}" class="related-link" target="_blank">${r.title.substring(0,20)}…</a>`).join('')}</div>` : '';
+                
+                html += `<div class="session-card ${session.track==='keynote'?'keynote':''}" data-permalink="${session.permalink}">
+                    <div class="time">🕒 ${session.timeStr}</div>
+                    <h4><a href="${session.permalink}" target="_blank">${session.title}</a></h4>
+                    <div class="meta">
+                        <span class="badge track">🏷️ ${session.track||'general'}</span>
+                        ${session.stype?`<span class="badge type">📢 ${session.stype}</span>`:''}
+                        ${session.room?`<span class="badge room">📍 ${session.room}</span>`:''}
+                        ${depthClass?`<span class="badge ${depthClass}">📊 ${depthLabels[session.depth]||session.depth}</span>`:''}
+                        ${projectTags}
+                    </div>
+                    <div class="meta">
+                        <span>⭐ 实战性: <span class="stars-container">${starsHtml}</span></span>
+                        ${audienceTags}
+                    </div>
+                    <div class="presenters">👤 ${session.presenters}</div>
+                    ${session.abstract?`<div class="abstract">${session.abstract.substring(0,150)}${session.abstract.length>150?'...':''}</div>`:''}
+                    ${relatedHtml}
+                    <button class="add-btn ${isAdded?'disabled':''}" data-action="add" ${isAdded?'disabled':''}>➕</button>
+                </div>`;
+            });
+            sessionsContainer.innerHTML = html;
+        }
+
+        function renderMySchedule() {
+            if (mySchedule.length === 0) {
+                myScheduleList.innerHTML = '<p class="empty-message">还没有添加议题</p>';
+                exportBtn.disabled = true;
+                return;
+            }
+            exportBtn.disabled = false;
+            const timeMap = new Map();
+            mySchedule.forEach(s => { const k = s.dateObj.getTime(); if(!timeMap.has(k)) timeMap.set(k,[]); timeMap.get(k).push(s); });
+            let html = '';
+            mySchedule.forEach((s,idx) => {
+                const conflict = timeMap.get(s.dateObj.getTime()).length > 1;
+                html += `<div class="my-session-item ${conflict?'conflict-warning':''}" data-index="${idx}">
+                    <span class="drag-handle">☰</span>
+                    <div class="my-session-info">
+                        <div class="title">${s.title}</div>
+                        <div class="time">${s.timeStr} · ${s.room||s.track}</div>
+                        ${conflict?'<span style="color:#dc3545;font-size:12px;">⚠️ 时间冲突</span>':''}
+                    </div>
+                    <button class="remove-btn" data-action="remove" data-permalink="${s.permalink}">✕</button>
+                </div>`;
+            });
+            myScheduleList.innerHTML = html;
+            new Sortable(myScheduleList, { handle: '.drag-handle', animation: 150, onEnd: (evt) => {
+                const moved = mySchedule.splice(evt.oldIndex,1)[0];
+                mySchedule.splice(evt.newIndex,0,moved);
+                renderMySchedule();
+            }});
+        }
+
+        function refreshUI() { renderSessions(); renderMySchedule(); }
+
+        function handleAdd(permalink) {
+            const session = sessions.find(s=>s.permalink===permalink);
+            if(!session || mySchedule.some(s=>s.permalink===permalink)) return;
+            if(mySchedule.some(s=>Math.abs(s.dateObj-session.dateObj)<1000) && !confirm('⚠️ 该时段已有议题，确定添加？')) return;
+            mySchedule.push(session);
+            refreshUI();
+        }
+
+        function handleRemove(permalink) {
+            mySchedule = mySchedule.filter(s=>s.permalink!==permalink);
+            refreshUI();
+        }
+
+        function exportICS() {
+            let ics = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//ACOC//Schedule//EN\n";
+            mySchedule.forEach(s => {
+                const start = new Date(s.date);
+                const end = new Date(start.getTime()+45*60000);
+                const fmt = (d) => d.toISOString().replace(/[-:]/g,'').split('.')[0]+'Z';
+                ics += `BEGIN:VEVENT\nUID:${s.permalink}@acoc\nDTSTAMP:${fmt(new Date())}\nDTSTART:${fmt(start)}\nDTEND:${fmt(end)}\nSUMMARY:${s.title} (${s.track})\nLOCATION:${s.room||'TBD'}\nDESCRIPTION:Speaker: ${s.presenters}\\n${s.abstract||''}\nEND:VEVENT\n`;
+            });
+            ics += "END:VCALENDAR";
+            saveAs(new Blob([ics],{type:'text/calendar;charset=utf-8'}), 'my_schedule.ics');
+        }
+
+        // 导出 JSON 相关
+        function showExportModal() {
+            document.getElementById('export-modal').style.display = 'flex';
+        }
+
+        function hideExportModal() {
+            document.getElementById('export-modal').style.display = 'none';
+        }
+
+        function doExportJSON() {
+            const exportData = sessions.map(s => ({
+                title: s.title,
+                date: s.date,
+                track: s.track,
+                presenters: s.presenters,
+                type: s.stype,
+                room: s.room,
+                abstract: s.abstract,
+                permalink: s.permalink,
+                detectedProjects: s.detectedProjects,
+                depth: s.depth,
+                stars: s.stars,
+                audiences: s.audiences
+            }));
+            const blob = new Blob([JSON.stringify(exportData, null, 2)], {type: 'application/json'});
+            saveAs(blob, 'acoc_sessions_full.json');
+        }
+
+        function exportFullJSON() {
+            showExportModal();
+        }
+
+        // 事件绑定
+        function bindEvents() {
+            dateTabsDiv.addEventListener('click', e => {
+                const tab = e.target.closest('.date-tab');
+                if(!tab) return;
+                currentDate = tab.dataset.date;
+                renderDateTabs();
+                refreshUI();
+            });
+            searchInput.addEventListener('input', refreshUI);
+            sessionsContainer.addEventListener('click', e => {
+                const btn = e.target.closest('[data-action="add"]');
+                if(btn) handleAdd(btn.closest('.session-card').dataset.permalink);
+            });
+            myScheduleList.addEventListener('click', e => {
+                const btn = e.target.closest('[data-action="remove"]');
+                if(btn) handleRemove(btn.dataset.permalink);
+            });
+            exportBtn.addEventListener('click', exportICS);
+            document.getElementById('export-json').addEventListener('click', exportFullJSON);
+            document.getElementById('clear-filters').addEventListener('click', clearFilters);
+            
+            // 模态框事件
+            const confirmBtn = document.getElementById('confirm-export');
+            const cancelBtn = document.getElementById('cancel-export');
+            const closeBtn = document.getElementById('close-modal');
+            const modalOverlay = document.getElementById('export-modal');
+            
+            confirmBtn.addEventListener('click', () => {
+                doExportJSON();
+                hideExportModal();
+            });
+            cancelBtn.addEventListener('click', hideExportModal);
+            closeBtn.addEventListener('click', hideExportModal);
+            modalOverlay.addEventListener('click', (e) => {
+                if (e.target === modalOverlay) hideExportModal();
+            });
+        }
+
+        function init() {
+            renderAllFilters();
+            renderDateTabs();
+            refreshUI();
+            bindEvents();
+            loading.style.display = 'none';
+            appMain.style.display = 'block';
+        }
+
+        init();
+    })();
 </script>
+
 </body>
 </html>

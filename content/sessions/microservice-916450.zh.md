@@ -1,0 +1,31 @@
+---
+title: 使用 Higress 快速构建智能微服务
+date: '2026-08-09T15:45:00'
+room: 静明厅
+track: microservice
+presenters: Min Ji
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- higress
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions:
+- AI时代的微服务创新：从架构重塑到代理驱动开发
+- Seata 的历程：从阿里巴巴的创新到 Apache 的成功及未来
+- 以云原生方式最大化异构 GPU 利用率：释放 HAMi 的强大能力
+- 微服务与 OpenAPI 的结合会带来哪些改变？
+- Dubbo-go 在微服务架构中的应用
+---
+本次演讲将探讨如何利用高性能云原生 API 网关 Higress 快速构建智能微服务。Higress 能够快速高效地构建智能微服务，提升开发敏捷性和运维智能。凭借其强大的人工智能能力和卓越的流量管理能力，Higress 正在彻底改变企业在不同云环境中部署和管理基于微服务的智能代理的方式。
+
+### 讲师:
+
+<img src="https://sessionize.com/image/ed51-400o400o1-BTDBgQinUQrS5cv8CRWb4e.jpg" width="200" /><br/>
+
+Min Ji: Apache Seata PPMC/Higress 维护员
+
+Ji Min (Qing Ming) 是阿里云分布式事务产品负责人，同时也是 Higress 的维护者。他拥有超过 10 年的研发架构经验，在推动集团内部中间件的规模化落地以及微服务 PaaS 解决方案的商业化和开源过程中发挥了关键作用。目前，他致力于推动下一代微服务架构的发展。

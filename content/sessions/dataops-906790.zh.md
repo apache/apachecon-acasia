@@ -1,0 +1,36 @@
+---
+title: 基于 Apache SeaTunnel 和 Amazon Bedrock 的现代文本向量数据ETL解决方案
+date: '2026-08-09T15:00:00'
+room: 万寿山会议室
+track: dataops
+presenters: Xin Zhang
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache seatunnel
+audience:
+- 架构师
+- 开发者
+related_sessions:
+- SeaTunnel 架构分析与 Cloudberry 集成实践
+- ​​使用 Tantivy 在 Iceberg 上构建倒排索引：实践方法​​
+- 统一数据湖接入与实时集成：解构 SeaTunnel 对 Hudi / Iceberg / Paimon 的架构级支持
+- Apache Doris 混合检索技术解析
+- Apache Kvrocks 的演进：搜索、向量及未来
+---
+在企业智能升级的浪潮中，信息检索正从“关键词匹配”向“语义理解”转变。基于倒排索引的传统搜索引擎依赖于字符串级别的匹配，这使得难以捕捉用户查询背后的真实意图。这限制了搜索体验的有效性、推荐准确性、客户服务响应以及基于知识的问答系统的智能性。
+
+例如，在电子商务平台上，当用户搜索“适合夏季的白色连衣裙”时，仅匹配产品标题或类别中关键词的系统很难理解“适合夏季”的完整语义含义，这可能涉及面料、风格等多个维度。类似的挑战也存在于财务文档搜索、智能客服、知识图谱关联等场景中。
+
+为解决此问题，我们计划构建基于向量检索的语义搜索系统。核心目标是实时将业务数据中的文本字段转换为语义向量，将其写入支持近似最近邻（ANN）向量搜索的数据库，并实现语义级信息检索。
+
+通过使用SeaTunnel的OpenSearch Sink插件，我们可以在SeaTunnel的转换阶段调用嵌入服务，将原始文本字段转换为高维密集向量，同时保留关联的ID、标签和元数据以供下游存储。
+
+### 讲师:
+
+<img src="https://sessionize.com/image/2a81-400o400o1-Jsau5kyb24ZgXpGbt5aVrk.png" width="200" /><br/>
+
+Xin Zhang: Amaozn 网络服务，解决方案架构师
+
+Xin Zhang 是亚马逊云科技（AWS）解决方案架构师，负责基于AWS云平台的解决方案咨询与设计。他在系统架构、数据仓库及实时计算等领域的研发与架构实践方面拥有丰富经验。

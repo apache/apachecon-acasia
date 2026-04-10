@@ -1,0 +1,37 @@
+---
+title: 'The Seven Year Itch: My Apache Story'
+date: '2026-08-09T09:45:00'
+track: keynote
+presenters: Zili Chen
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+depth: intermediate
+practice_level: 2
+projects:
+- apache flink
+- apache zookeeper
+- apache pulsar
+audience:
+- 开发者
+- 架构师
+related_sessions:
+- 'From Proposal to Progress: Lessons Learned from Incubating Apache Cloudberry'
+- 'The Journey of an Open Source Contributor: Evolving from PR Submissions to Project
+  Maintenance'
+- Ant Group's Next Generation High SLA Stream Computing System Built on Apache Technology
+  Stack
+- Insights into the Apache Community from China Open Source Annual Report
+- The power of Community
+---
+This is my seventh year at The Apache Software Foundation. Starting as a contributor, I earned my first commit bit while working on the Apache Flink project. The more I contribute to ASF projects, the more credits I earn in their community.
+
+Now I'm a board member of the ASF and an active incubator mentor who has mentored more than seven podling projects. Welcome to join this session to learn how I grow in the broader ASF community, and what I'm looking for on collborators in the ASF for the following years.
+
+### Speakers:
+
+
+<img src="https://sessionize.com/image/09df-400o400o1-NXMWPfZTqBRnxHMRJKnVpD.jpg" width="200" /><br/>
+
+Zili Chen: Co-Founder, ScopeDB
+
+Zili Chen (@tison) co-founded ScopeDB, a database built for semi-structured data with cloud services. He is a seasoned open-source advocate and ASF member with a wealth of experience. He has maintained several significant projects, including Apache Flink, Apache ZooKeeper, and Apache Pulsar.

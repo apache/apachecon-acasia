@@ -1,0 +1,1959 @@
+<!DOCTYPE HTML>
+
+<html>
+<head><script src="/acasia2023/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=acasia2023/livereload" data-no-instant defer></script>
+    <title>数据存储与计算 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='数据存储与计算'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="http://localhost:1313/acasia2023/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="http://localhost:1313/acasia2023/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="http://localhost:1313/acasia2023/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        <nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="/zh/" class="navbar-brand">
+                <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/acasia2023/zh/tracks" class="nav-link">专题</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/acasia2023/zh/sessions" class="nav-link">日程</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/acasia2023/tracks/datastorage.html" class="nav-link">English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+</script>
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section class="session">
+                <header class="major">
+                    <h2 class="text-center mb-5">数据存储与计算</h2>
+                    <hr></hr>
+                    <h3>出品人 : 李岗，蒋晓峰</h3>
+                </header>
+
+                <article><p>大数据是计算机科学的一个重要分支,大数据存储和计算领域的研究和创新从未停止。大数据正在深刻的引领和改变着各个行业，已经与我们的生活密不可分。</p>
+<p>大数据也是 ASF 非常重要的组成部分，ASF 有非常多的大数据存储和计算领域的项目，比如大家熟知的 <a href="https://hadoop.apache.org">Apache Hadoop</a>, <a href="https://spark.apache.org">Apache Spark</a>, <a href="https://hbase.apache.org">Apache HBase</a>, <a href="https://ozone.apache.org">Apache Ozone</a>, <a href="https://carbondata.apache.org">Apache CarbonData</a>, <a href="https://cassandra.apache.org">Apache Cassandra</a>, <a href="https://zookeeper.apache.org">Apache ZooKeeper</a>, <a href="https://celeborn.apache.org/">Apache Celeborn</a> 等等，在这个主题中，大家会学习到这些技术的前沿趋势和来自一线用户的实践经验、原理、架构分析等精彩内容</p>
+</article>
+                
+                 
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                    <dl>
+                    
+                      <dt class="session-date" style="float: left;"><h5 class="lh-2em fw-normal">2026-08-07</h5></dt>
+                    
+                      <dd class="session-list">
+                        
+                        <p>
+                            
+                            
+                            <span>14:00 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-912411.html" title="蚂蚁集团基于 Apache Celeborn 的大规模 Shuffle 实践">蚂蚁集团基于 Apache Celeborn 的大规模 Shuffle 实践</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Erik Fang </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>14:30 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-873334.html" title="掌握大规模 Shuffle：Dream11 使用远程 Shuffle 服务的实战手册">掌握大规模 Shuffle：Dream11 使用远程 Shuffle 服务的实战手册</a>
+                            <sub>英文演讲</sub>
+                            
+                            <span> Amit Shinde, Mohit Jain </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>15:00 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-905877.html" title="Apache Gluten 和 Apache Celeborn 在小米的生产实践">Apache Gluten 和 Apache Celeborn 在小米的生产实践</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Yongyuan Liang </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>15:45 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-875244.html" title="Gluten: 使用本地引擎加速 spark 和 flink">Gluten: 使用本地引擎加速 spark 和 flink</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Shuai Xu </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>16:15 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-913138.html" title="腾讯大数据 Flink 状态存储的探索与实践：计算存储分离架构">腾讯大数据 Flink 状态存储的探索与实践：计算存储分离架构</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> YanPeng Shi </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>16:45 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-889852.html" title="Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI">Eloq ConvergedDB on Apache Cassandra: Built for Agentic AI</a>
+                            <sub>英文演讲</sub>
+                            
+                            <span> Hubert Zhang, Lintao Zhang </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>17:15 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-914565.html" title="适用于 Hadoop 集群的小型文件嗅探系统">适用于 Hadoop 集群的小型文件嗅探系统</a>
+                            <sub>英文演讲</sub>
+                            
+                            <span> Miao Wang </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           </dl>
+                           
+                    <dl>
+                    
+                      <dt class="session-date" style="float: left;"><h5 class="lh-2em fw-normal">2026-08-08</h5></dt>
+                    
+                      <dd class="session-list">
+                        
+                        <p>
+                            
+                            
+                            <span>14:00 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-900118.html" title="Apache Cassandra 驱动最佳实践：最大化性能与健壮性">Apache Cassandra 驱动最佳实践：最大化性能与健壮性</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Siyao He </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>14:30 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-899504.html" title="Apache Cassandra: 过去、现在与未来">Apache Cassandra: 过去、现在与未来</a>
+                            <sub>英文演讲</sub>
+                            
+                            <span> Guo Chao </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>15:00 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-910450.html" title="Shopee 的 Apache Ozone 最佳实践">Shopee 的 Apache Ozone 最佳实践</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Hui Fei </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>15:45 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-900329.html" title="Apache Ozone：通过磁盘平衡器实现数据均衡">Apache Ozone：通过磁盘平衡器实现数据均衡</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Sammi Chen </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>16:15 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-896070.html" title="Celeborn 的革新：多引擎支持、性能掌控与技术创新">Celeborn 的革新：多引擎支持、性能掌控与技术创新</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Jiashu Xiong, Ethan Feng </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>16:45 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-912451.html" title="小米 HBase 2.3 跨版本升级及稳定性治理实践">小米 HBase 2.3 跨版本升级及稳定性治理实践</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Zhiwen Deng </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>17:15 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/zh/sessions/datastorage-883342.html" title="Apache Kvrocks 的演进：搜索、向量及未来">Apache Kvrocks 的演进：搜索、向量及未来</a>
+                            <sub>中文演讲</sub>
+                            
+                            <span> Mingyang Liu </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                    </dd>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    </dd>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    </dd>
+
+
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2026, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+
+</body>
+</html>

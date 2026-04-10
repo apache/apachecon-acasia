@@ -1,0 +1,31 @@
+---
+title: AI Agent：开启现实世界 AI 应用的金钥匙
+date: '2026-08-07T10:45:00'
+track: keynote
+presenters: 王晶昱
+stype: 中文演讲
+room: 主会场 - 颐和厅
+depth: intermediate
+practice_level: 3
+projects: []
+audience:
+- 架构师
+- 开发者
+- 产品/经理
+related_sessions:
+- Flink Agents：基于 Apache Flink 的智能体构建框架
+- 用 Rust 和开源构建人工智能自动化的未来
+- AI 重构开发：从工具革命到开发者进化论
+- AI 与云原生时代下的未来就绪数据平台
+- 圆桌讨论：独立开发者的黄金时代
+---
+AI智能体通过融合感知、决策与自主行动，弥合了理论AI模型与实际应用之间的鸿沟。依托机器学习、自然语言处理和实时分析技术，它们能动态适应环境变化与用户需求，实现无缝交互与智能自动化。这类系统可优化工作流程、减少人工干预并提升可扩展性，成为AI现实落地的关键推手。作为AI应用的"金钥匙"，它们简化集成流程、加速创新步伐，助力企业通过自适应、持续进化的智能系统获得切实成果。
+
+### 讲师:
+
+
+<img src="https://sessionize.com/image/3561-400o400o1-fwLc6u433NK9hCNeTMQsxv.png" width="200" /><br/>
+
+王晶昱: 阿里云资深技术专家
+
+阿里云资深技术专家
