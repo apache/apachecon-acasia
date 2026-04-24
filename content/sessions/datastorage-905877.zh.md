@@ -1,0 +1,45 @@
+---
+title: Apache Gluten 和 Apache Celeborn 在小米的生产实践
+date: '2026-08-07T15:00:00'
+room: 万寿山会议室
+track: datastorage
+presenters: Yongyuan Liang
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache gluten
+- apache celeborn
+- apache spark
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions:
+- 在字节跳动规模下，利用A pache Gluten 加速 Spark 作业
+- 顺丰速运与 Apache Spark 和 Gluten 的合作之旅
+- 蚂蚁集团基于 Apache Celeborn 的大规模 Shuffle 实践
+- 小米利用 Apache Paimon 实现高效数据和 AI 优化
+- Celeborn 的革新：多引擎支持、性能掌控与技术创新
+---
+本次演讲将深入探讨 Apache Gluten 和 Apache Celeborn 在小米的实际应用情况，涵盖技术背景、部署历程、挑战以及未来规划。
+
+1. 技术背景
+小米构建了一个以 Spark 为核心的大规模离线计算平台，支持每天运行超过 100,000 个离线作业。本节将介绍小米在离线计算中依赖的核心技术架构和关键组件，以及 Gluten 和 Celeborn 的定位。
+
+2. Gluten 在生产环境中的应用
+通过采用 Gluten，小米实现了作业运行时间和资源成本的平均降低超过 30%。我们将分享部署步骤、优化策略以及在集成过程中遇到的关键挑战。
+
+3. Celeborn 在生产环境中的应用
+Celeborn 在解决 Spark External Shuffle Service 的不稳定性方面发挥了关键作用，显著提高了资源利用率并降低了总体成本。我们将展示其在真实场景中的应用以及我们采用的性能调优技术。
+
+4. 未来规划
+我们将简要分享小米对 Spark 的未来计划，重点关注性能优化、稳定性提升以及新功能的引入方向。
+
+### 讲师:
+
+<img src="https://sessionize.com/image/791b-400o400o1-MfKwkHsY6VSRSHfZmGQa7o.jpg" width="200" /><br/>
+
+Yongyuan Liang: 小米，北京
+
+Yongyuan Liang，计算引擎研发工程师，负责计算引擎的开发工作。

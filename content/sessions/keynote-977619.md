@@ -1,0 +1,35 @@
+---
+title: The power of Community
+date: '2026-08-07T09:30:00'
+track: keynote
+presenters: Willem Jiang
+stype: Chinese Session
+room: MainRoom - YiHe Hall
+aianalysis: used1
+depth: beginner
+practice_level: 1
+projects:
+- camel
+- cxf
+- servicemix
+- servicecomb
+audience:
+- 通用
+related_sessions:
+- Insights into the Apache Community from China Open Source Annual Report
+- 'Nurturing New Contributors: The Art of Crafting Good First Issues'
+- 'From Commits to Capital: Turning Open Source Passion into a Startup Journey'
+- Growth and Commercialization in Overseas Expansion of Tech Products
+- 'Bridging the Language Divide: Practical Tactics for Global Collaboration in Open
+  Source'
+---
+As the opening keynote for Community Over Code Asia, we will briefly review the development journey of the Apache Software Foundation in China and the growth of local Apache communities. Here, we witness the power of community—it is through this collective strength that we have successfully organized this conference!
+
+### Speakers:
+
+
+<img src="https://sessionize.com/image/7248-400o400o1-BjZnK4uk17L2eC9ZJkMqHU.png" width="200" /><br/>
+
+Willem Jiang: CoC Asia conference Chair， ASF Member， ByteDance Open Source Office Chief Evangelist
+
+Willem Jiang (Jiang Ning) is the Open Source Evangelist of ByteDance OSPO , and a memeber of the Apache Software Foundation. He has contributed to various Apache projects, including Camel, CXF, ServiceMix, and ServiceComb. Prior to joining ByteDance, Willem was the open source technical expert of Huawei for six years. Before that, he was  the principal engineer of RedHat working on Fuse ESB. He also worked for FuseSource, IONA and Travelsky.inc.

@@ -1,0 +1,33 @@
+---
+title: Disaggregated State Management In Apache Flink 2.0
+date: '2026-08-07T16:15:00'
+room: YuanMing Hall
+track: streaming
+presenters: Zhaoqian (Zakelly) Lan
+stype: Chinese Session
+depth: advanced
+practice_level: 3
+projects:
+- flink
+audience:
+- 架构师
+- 开发者
+related_sessions:
+- 'Apache Flink 2.1: Continuing Evolution Toward Data + AI All-in-One'
+- Scalable Join & Aggregation with External State and Dynamic Tables
+- The Exploration and Practice of State Storage in Tencent Big Data Flink with Separation
+  of Computati
+- Application of Apache Flink in China Telecom's Logging Scenario
+- Building a real-time data lakehouse in practice
+---
+The past decade has seen a transformative evolution in Flink’s deployment paradigms, workload patterns, and hardware advancements. From the tightly coupled compute-storage nodes of the map-reduce era, we have transitioned to a cloud-native world where containerized deployments on Kubernetes are now the norm. To fully embrace this shift, Flink 2.0 introduces Disaggregated State Management, leveraging Distributed File Systems (DFS) as the primary storage medium. This architectural innovation addresses critical challenges posed by the cloud-native environment while enabling new levels of scalability, performance, and flexibility.
+In this session, we will introduce the design of storage and Disaggregated State Management in Flink 2.0 and the thinking behind this, including the integration of remote state, the asynchronous state access framework, and the new state backend designed for DFS storage medium.
+
+### Speakers:
+
+
+<img src="https://sessionize.com/image/9fb0-400o400o1-3GuCetdzM1ZnG45ZrGcUgh.jpg" width="200" /><br/>
+
+Zhaoqian (Zakelly) Lan: Apache Flink PMC Member & Committer, Technical Expert at Alibaba Cloud
+
+Zhaoqian (Zakelly) Lan has been contributing to open source projects for many years and is an active PMC member & committer in Apache Flink project. He specializes in streaming and key-value storage. Currently, Zhaoqian works at Alibaba Cloud, where he focuses on advancing the state management and checkpointing capabilities of Flink, driving innovation and efficiency improvements.

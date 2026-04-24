@@ -1,0 +1,36 @@
+---
+title: Best Practices for High Availability of Apache Pulsar on Tencent Cloud
+date: '2026-08-07T14:30:00'
+room: JingYi Hall
+track: messaging
+presenters: Mingze Han
+stype: Chinese Session
+depth: intermediate
+practice_level: 4
+projects:
+- pulsar
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions:
+- 'Building Highly Reliable Subscription & Push with Apache Pulsar: Challenges and
+  Best Practices'
+- Exploration and practice of Apache Pulsar in online scenarios of Xiaohongshu Company
+- Lessons Learned in Building a Cloud MQTT Solution
+- Practices of Metrics Collection for Apache Pulsar in Large-Scale Partition
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+---
+Apache Pulsar is is an cloud-native, distributed messaging and streaming platform. Apache Pulsar adopts a storage and computing separation architecture.Support large clusters, multi-tenants, million-level topics, cross-regional data replication, persistent storage, tiered storage, high scalability and other enterprise-level and financial services. Apache Pulsar provides a unified consumption model that supports both message queue and streaming scenarios. It can not only provide enterprise-level read and write service quality and strong consistency guarantee for queue scenarios, but also provide high throughput and low latency for streaming scenarios.
+Apache Pulsar has been implemented in key enterprise businesses, and has rich application scenarios. At present, Tencent Cloud has also applied Apache Pulsar on a large scale in production practice for nearly 5 years. In production practice, Tencent Cloud has made a series of performance optimizations and stability enhancements for Apache Pulsar to ensure stable and efficient system operation for users in different scenarios. 
+In this speech, we will focus on Apache Pulsar on Tencent Cloud's best practices for high availability, Including high availability of broker and bookkeeper clusters, high availability of zookeeper clusters, and high availability practices across clusters. Hope this speech can  provide some references for developers.
+
+### Speakers:
+
+
+<img src="https://sessionize.com/image/9c17-400o400o1-JPuaxw3mCtQ2zt9Ew94C2n.jpg" width="200" /><br/>
+
+Mingze Han: tencent
+
+Graduated from Wuhan University majoring in computer science. Tencent Cloud senior R&D engineer. Open source community enthusiast. I have more than 8 years of experience in message queue-related R&D and operations in Meituan and Tencent. Currently, I am mainly responsible for the core part of Tencent Cloud TDMQ for Pulsar product. At the same time, I am an Apache Pulsar Contributor and RoP Maintainer.=

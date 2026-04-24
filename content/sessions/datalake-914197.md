@@ -1,0 +1,36 @@
+---
+title: The Future of ETL with Branching & Tagging in Apache Hive
+date: '2026-08-09T15:45:00'
+room: WanChun Hall
+track: datalake
+presenters: Attila Turóczy
+stype: English Session
+depth: intermediate
+practice_level: 4
+projects:
+- apache hive
+- apache iceberg
+audience:
+- 架构师
+- 开发者
+related_sessions:
+- Supercharge Lakehouse Implementation with Apache Iceberg
+- 'Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses'
+- 'Apache Hop: Integrating LLMs, Graph Databases & Spreadsheets'
+- 'Queue, Process, Predict: Kafka’s New Era with Flink LLMs and Datalake'
+- Impala on Iceberg with Puffins
+---
+As data pipelines grow more complex, traditional "push-and-forget" ETL approaches no longer enough. The data world is evolving—and it's taking a page from modern software engineering. Say hello to Branching and Tagging—concepts that have transformed code management and are now revolutionizing how we work with data.
+
+In this session, we'll explore how Apache Hive, powered by Apache Iceberg, introduces these game-changing features into the data space. You'll learn how to streamline your workflows, manage data versions with ease, and build cleaner, more efficient pipelines.
+
+We'll also dive into what's next for Apache Hive—giving you a front-row seat to the future of ETL. Whether you're a data engineer, architect, or simply passionate about data, this is your chance to stay ahead of the curve and level up your data operations.
+
+### Speakers:
+
+
+<img src="https://sessionize.com/image/eaac-400o400o1-4tyV3Kp9qDQ4mSJ4t3tDoV.jpg" width="200" /><br/>
+
+Attila Turóczy: Senior Director of Engineering at Cloudera
+
+Apache Hive, Impala and Big Data enthusiasm at Cloudera

@@ -1,0 +1,41 @@
+---
+title: Building a Unified Lakehouse Solution with Apache Cloudberry
+date: '2026-08-08T15:45:00'
+room: WanChun Hall
+track: datalake
+presenters: Rose Duan
+stype: Chinese Session
+depth: intermediate
+practice_level: 3
+projects:
+- apache cloudberry
+audience:
+- 架构师
+- 开发者
+related_sessions:
+- 'From Data to AI: Building a Unified Analytics Platform with Apache Cloudberry'
+- 'Introduction to Apache Cloudberry: Evolution, Key Features, and Roadmap'
+- Building a real-time data lakehouse in practice
+- Technical Progression of Flink + Paimon Real-time Lakehouse Solutions
+- 'Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support
+  for Hudi / Icebe'
+---
+Data warehouses excel at fast analytics, while data lakes focus on scalable storage and flexible data management.
+The lakehouse architecture aims to combine the best of both—seamlessly integrating data across lakes and warehouses for efficient analysis and unified governance.
+
+As a next-generation open-source MPP database, Apache Cloudberry extends its technical boundaries to build an open lakehouse solution.
+This talk introduces Cloudberry’s key capabilities in enabling a unified lakehouse architecture:
+
+1. Accelerated lake queries on Parquet/ORC without data movement
+2. Unified data gateway for querying and writing across heterogeneous sources
+3. Integrated data processing and sync pipeline, enabling end-to-end flow from ingestion to analytics
+4. Open metadata and storage formats for easier ecosystem integration and reduced migration cost
+
+### Speakers:
+
+
+<img src="https://sessionize.com/image/5feb-400o400o1-ns3S5cNdoMFDN2jL1rrsNH.jpg" width="200" /><br/>
+
+Rose Duan: Apache Cloudberry Database Developer
+
+Apache Cloudberry contributor, database kernel developer at HashData.

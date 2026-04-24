@@ -1,0 +1,2096 @@
+<!DOCTYPE HTML>
+
+<html>
+<head><script src="/acasia2023/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=acasia2023/livereload" data-no-instant defer></script>
+    <title>Data Lake &amp; Data Warehouse - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Data Lake &amp; Data Warehouse'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="http://localhost:1313/acasia2023/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="http://localhost:1313/acasia2023/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="http://localhost:1313/acasia2023/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        <nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="/" class="navbar-brand">
+                <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        Home
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/acasia2023/sessions" class="nav-link">Sessions</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/acasia2023/tracks" class="nav-link">Tracks</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/acasia2023/zh/tracks/datalake.html" class="nav-link">中文</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+</script>
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section class="session">
+                <header class="major">
+                    <h2 class="text-center mb-5">Data Lake &amp; Data Warehouse</h2>
+                    <hr></hr>
+                    <h3>Track Chairs : Lidong Dai, Shaofeng Shi, Zongtang Hu, Jean-Baptiste Onofré, Huaxin Gao</h3>
+                </header>
+
+                <article><p>Data Lake and Data Warehouse are important solutions for storing and managing data, and they play a crucial role in data management, data analysis, and decision-making.
+In ASF, there are various projects about Data Lake and Data Warehouse, for example:
+Apache Hive, Apache Hudi, Apache Iceberg, Apache Paimon, Apache Cassandra, Apache HBase, Apache Cloudberry (Incubating) etc.
+In this topic, you will get the latest status of data lake and warehouse, best practices the companies use them in the production, and the roadmap of these projects.</p>
+</article>
+                
+                 
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                    <dl>
+                    
+                      <dt class="session-date" style="float: left;"><h5 class="lh-2em fw-normal">2026-08-07</h5></dt>
+                    
+                      <dd class="session-list">
+                        
+                        <p>
+                            
+                            
+                            <span>14:00 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-868208.html" title="Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures">Apache Iceberg’s Hidden Superpowers: Governance, Experimentation, and Agentic Futures</a>
+                            <sub>English Session</sub>
+                            
+                            <span> Shekhar Prasad Rajak </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>14:30 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-904992.html" title="Apache Amoro &amp; iceberg in Huolala Prdouction">Apache Amoro &amp; iceberg in Huolala Prdouction</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Zheng Yu Chen </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>15:00 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-915337.html" title="Apache Hudi in Action: Accelerating Kuaishou&#39;s Data Warehouse Architecture Upgrade">Apache Hudi in Action: Accelerating Kuaishou&#39;s Data Warehouse Architecture Upgrade</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Chaoyang Liu </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>15:45 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-905768.html" title="Apache Gravitino: The universal catalog for data and AI">Apache Gravitino: The universal catalog for data and AI</a>
+                            <sub>English Session</sub>
+                            
+                            <span> Justin Mclean </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>16:15 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-915144.html" title="​​Building Inverted Indexes on Iceberg with Tantivy: A Hands-on Approach​​">​​Building Inverted Indexes on Iceberg with Tantivy: A Hands-on Approach​​</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Longfei Liu </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>16:45 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-884074.html" title="Accelerate Spark Queries with Gluten and Velox Engine on Arm64">Accelerate Spark Queries with Gluten and Velox Engine on Arm64</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Yuqi Gu </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           </dl>
+                           
+                    <dl>
+                    
+                      <dt class="session-date" style="float: left;"><h5 class="lh-2em fw-normal">2026-08-08</h5></dt>
+                    
+                      <dd class="session-list">
+                        
+                        <p>
+                            
+                            
+                            <span>14:00 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-916062.html" title="Apache Polaris (Incubating) &amp; Apache XTable: Unifying Iceberg, Hudi, and other Table Formats">Apache Polaris (Incubating) &amp; Apache XTable: Unifying Iceberg, Hudi, and other Table Formats</a>
+                            <sub>English Session</sub>
+                            
+                            <span> Eric Maynard </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>14:30 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-914225.html" title="Impala on Iceberg with Puffins">Impala on Iceberg with Puffins</a>
+                            <sub>English Session</sub>
+                            
+                            <span> Daniel Becker </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>15:00 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-905869.html" title="Building a real-time data lakehouse in practice">Building a real-time data lakehouse in practice</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Congxian Qiu, Zhuojun Jiang </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>15:45 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-915987.html" title="Building a Unified Lakehouse Solution with Apache Cloudberry">Building a Unified Lakehouse Solution with Apache Cloudberry</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Rose Duan </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>16:15 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-914503.html" title="Supercharge Lakehouse Implementation with Apache Iceberg">Supercharge Lakehouse Implementation with Apache Iceberg</a>
+                            <sub>English Session</sub>
+                            
+                            <span> Bill Zhang </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>16:45 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-913345.html" title="Optimizing Parquet Storage: Metadata Management, Performance Tuning &amp; Seamless Migration">Optimizing Parquet Storage: Metadata Management, Performance Tuning &amp; Seamless Migration</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Hongnan Gan, Zhengjie He </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>17:15 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-906852.html" title="Build a cloud native Lakehouse architecture based on Iceberg &amp; Amoro &amp; Gravitino in Tencent Cloud">Build a cloud native Lakehouse architecture based on Iceberg &amp; Amoro &amp; Gravitino in Tencent Cloud</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Jinsong Zhou </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           </dl>
+                           
+                    <dl>
+                    
+                      <dt class="session-date" style="float: left;"><h5 class="lh-2em fw-normal">2026-08-09</h5></dt>
+                    
+                      <dd class="session-list">
+                        
+                        <p>
+                            
+                            
+                            <span>14:00 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-892384.html" title="Resolving Data Silos: Apache Gravitino&#39;s Production Implementation Practices at Bilibili">Resolving Data Silos: Apache Gravitino&#39;s Production Implementation Practices at Bilibili</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Tianhang Li </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>14:30 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-910660.html" title="Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support for Hudi / Icebe">Unified Data Lake Real-Time Integration: Decoding SeaTunnel’s Architectural Support for Hudi / Icebe</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Lidong Dai </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>15:00 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-915155.html" title="Introduction to Apache Cloudberry: Evolution, Key Features, and Roadmap">Introduction to Apache Cloudberry: Evolution, Key Features, and Roadmap</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Max Yang </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>15:45 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-914197.html" title="The Future of ETL with Branching &amp; Tagging in Apache Hive">The Future of ETL with Branching &amp; Tagging in Apache Hive</a>
+                            <sub>English Session</sub>
+                            
+                            <span> Attila Turóczy </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>16:15 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-915110.html" title="Technical Progression of Flink &#43; Paimon Real-time Lakehouse Solutions">Technical Progression of Flink &#43; Paimon Real-time Lakehouse Solutions</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Xuannan Su </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>16:45 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-911489.html" title="SF Express&#39;s Journey with Apache Spark and Gluten">SF Express&#39;s Journey with Apache Spark and Gluten</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Weiting Chen, Xixu Wang, Feilong He </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>17:15 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-913187.html" title="Xiaomi&#39;s Efficient Data &amp; AI Optimization with Apache Paimon">Xiaomi&#39;s Efficient Data &amp; AI Optimization with Apache Paimon</a>
+                            <sub>Chinese Session</sub>
+                            
+                            <span> Houliang Qi </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                        
+                        
+                           
+                        <p>
+                            
+                            
+                            <span>17:45 GMT&#43;8</span>
+                            
+                            <span></span>
+                            <a href="http://localhost:1313/acasia2023/sessions/datalake-896996.html" title="Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses">Apache Iceberg: Table Maintenance Strategies for High-Performance Data Lakehouses</a>
+                            <sub>English Session</sub>
+                            
+                            <span> Akshat Mathur </span>
+                        </p>
+                        
+                    
+                
+                
+                
+                    
+                
+                
+                
+                    
+                
+                
+                    </dd>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    </dd>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    </dd>
+
+
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2026, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+
+</body>
+</html>

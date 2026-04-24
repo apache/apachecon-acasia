@@ -1,0 +1,30 @@
+---
+title: Apache Cassandra 驱动最佳实践：最大化性能与健壮性
+date: '2026-08-08T14:00:00'
+room: 万寿山会议室
+track: datastorage
+presenters: Siyao He
+stype: 中文演讲
+depth: intermediate
+practice_level: 4
+projects:
+- apache cassandra
+audience:
+- 开发者
+- SRE/运维
+related_sessions:
+- 深入 Apache Cloudberry 的向量化执行：设计、挑战与性能提升
+- 高性能、低成本、开源可观测性，由Apache Doris驱动
+- Celeborn 的革新：多引擎支持、性能掌控与技术创新
+- Apache Pulsar 在腾讯云上的高可用性最佳实践
+- Kafka 4.0 核心亮点：新特性、移除项与升级指南
+---
+想要让您的 Apache Cassandra 应用发挥最大潜力吗？本次会议将深入探讨如何有效使用 Cassandra 驱动以构建更快、更健壮的系统。我们将涵盖需要避免的常见陷阱、性能调优的实用技巧以及高级配置。您将学习如何利用推测执行策略和自动分页等功能，以及如何设置日志和指标以提高可观测性。虽然这些概念适用于所有官方 Cassandra 驱动，但本次演讲将使用 Java 驱动作为具体示例。无论您是 Apache Cassandra 驱动的新手，还是希望优化现有部署，本次演讲都将帮助您解锁驱动的全部潜力。
+
+### 讲师:
+
+<img src="https://sessionize.com/image/9339-400o400o1-pg5e1X6d1Zvbp9W8Rq7uEh.jpg" width="200" /><br/>
+
+Siyao He: DataStax 软件工程师兼 Apache Cassandra 驱动程序维护员
+
+我是 DataStax 连接团队的一名软件工程师，专注于 Apache Cassandra 驱动的开发。我对开源技术和社区驱动的开发充满热情，并致力于增强驱动的功能和性能。我热衷于分享关于 Apache Cassandra Java 驱动及其背后活跃社区的见解，希望促进合作与创新。

@@ -42,3 +42,15 @@ weight = -100
 name = "专题"
 url = "/zh/tracks"
 weight = -100
+
+# menu for en (final list includes translated pages from /content)
+[[languages.en.menu.main]]
+name = "Sessions"
+url = "/sessions"
+weight = -100
+
+# menu for ZH language (final list includes translated pages from /content)
+[[languages.zh.menu.main]]
+name = "日程"
+url = "/zh/sessions"
+weight = -100

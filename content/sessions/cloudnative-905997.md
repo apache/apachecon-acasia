@@ -1,0 +1,36 @@
+---
+title: Apache HertzBeat, a new generation open-source real-time monitoring and alerting
+  platform
+date: '2026-08-07T14:00:00'
+room: Mtn Yang Hall
+track: cloudnative
+presenters: Hongyu Liu
+stype: Chinese Session
+depth: beginner
+practice_level: 3
+projects:
+- apache hertzbeat
+- apache shenyu
+audience:
+- 开发者
+- SRE/运维
+- 架构师
+related_sessions:
+- Why do we need an open source AI gateway
+- Implementation and Tuning Practice of Apache IoTDB System Monitoring Framework
+- 'Building Highly Reliable Subscription & Push with Apache Pulsar: Challenges and
+  Best Practices'
+- 'Best Practices for Messaging Systems Observability: A Case Study of Apache RocketMQ
+  & OpenTelemetry'
+- 'Apache Hudi in Action: Accelerating Kuaishou''s Data Warehouse Architecture Upgrade'
+---
+Apache HertzBeat is a next-generation open-source real-time monitoring and alerting platform. It highlights the importance of monitoring and the pain points of traditional solutions, positioning HertzBeat as an "All in One" solution for unified monitoring and an enhanced user experience.
+
+### Speakers:
+
+
+<img src="https://sessionize.com/image/d76b-400o400o1-wmu7Pfw1uhFLyi2grzXbzB.png" width="200" /><br/>
+
+Hongyu Liu: Software Engineer in China Unicom, Apache Shenyu\Hertzbeat Committer
+
+I am currently employed by China Unicom Data Intelligence Co., Ltd. I contributed my first line of code to the Apache ShenYu community in 2024 and am currently a Committer for both Apache ShenYu and Apache HertzBeat.

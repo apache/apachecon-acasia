@@ -1,0 +1,46 @@
+---
+title: 优化 Parquet 存储：元数据管理、性能调优和无缝迁移
+date: '2026-08-08T16:45:00'
+room: 万春厅
+track: datalake
+presenters: 甘红楠, 何正杰
+stype: 中文演讲
+depth: advanced
+practice_level: 4
+projects:
+- spark
+audience:
+- 架构师
+- 开发者
+- SRE/运维
+related_sessions:
+- 基于历史信息的SparkSQL优化
+- 字节跳动 Flink 内存治理实践
+- Apache DataFusion 中的基础优化
+- 优化可观测性：揭秘BanyanDB的热-温-冷架构
+- 在实践中构建实时数据湖
+---
+本次会议将深入探讨优化 Parquet 存储生态系统的高级技术。我们将探索一种全面的元数据管理方法——从高效的收集和存储到构建可扩展的元数据仓库。与会者将学习实用的存储优化策略，包括 ZSTD 压缩升级、本地/全局排序以及用于提升性能的列级调优。此外，我们还将介绍如何通过就地回溯和异构格式互操作性无缝迁移旧格式。无论您是处理大规模数据集还是优化存储效率，本次会议都能提供切实可行的见解，帮助您提升 Parquet 工作流程。
+
+关键要点：
+
+1. 元数据生命周期管理（捕获、存储和利用）的最佳实践。
+2. 使用 ZSTD 和数据组织提升查询/压缩性能的成熟方法。
+3. 无需中断管道即可实现透明格式迁移的策略。
+
+### 讲师:
+
+<img src="https://sessionize.com/image/c52a-400o400o1-fqHUaN3MbFjUnx1NxULM9c.jpg" width="200" /><br/>
+
+甘红楠: 字节跳动高级研发工程师
+
+* 复旦大学学士和硕士学位
+* 字节跳动 SparkSQL 内核开发人员
+* 对 SQL 优化感兴趣
+
+
+<img src="https://sessionize.com/image/d454-400o400o1-ahCLB728yY3mjf8N7yAAtu.jpg" width="200" /><br/>
+
+何正杰: 字节跳动大数据工程师
+
+我是一名大数据工程师，在查询引擎优化方面拥有数年专业知识，专门从事大规模数据系统的性能调整和经济高效的查询执行。
