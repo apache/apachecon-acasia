@@ -24,17 +24,18 @@
 					{{ end }}
 
 					<div class="home-btn-wrap">
+						<!-- Disabled the CFP button 
 						<a href="https://sessionize.com/community-over-code-asia-2026/"
 							target="_blank"
 							class="btn btn-warning btn-lg me-3">
 							{{ i18n "call_for_proposals" }}
-						</a> 
-						<!--Disable the regsister button 
+						</a--> 
+						<!--enable the regsister button -->
 						<a href="{{ if eq .Site.Language.Lang "zh" }}/zh/{{end}}#register"
 							role="button" 
 							class="btn btn-warning btn-lg">
 							{{ i18n "register" }}
-						</a> -->
+						</a>
 					</div>
 				</div>
 				
@@ -62,13 +63,13 @@
 			</div>
 
 			<!-- Register Section -->
-			<!-- Disable the register button for now 
+			<!-- enabled the register button for now -->
 			<div class="wrapper style6" id="register">
 				<section class="container">
 					<h2 class="text-center">{{ i18n "register" }}</h2>
 					<div class="mt-5">
 						{{ if eq .Site.Language.Lang "zh" }}
-						<iframe id="promote_ticket_iframe" width="100%" src="https://www.bagevent.com/widget/ticket/8984866?widget=2&iframe=1" frameborder="0" scrolling="no"></iframe>
+						<iframe id="promote_ticket_iframe" width="100%" src="https://www.bagevent.com/widget/ticket/9200424?widget=2&iframe=1" frameborder="0" scrolling="no"></iframe>
 						<script>
 							(function (i, s, o, g, r, a, m) {
 									i['BagEventIFrameResize'] = r;
@@ -84,7 +85,7 @@
 							bfr('iFrameResize', {checkOrigin: false, heightCalculationMethod: 'taggedElement'}, "#promote_ticket_iframe");
 						</script>
 						{{else}}
-						<iframe id="promote_ticket_iframe" width="100%" src="https://www.bagevent.com/widget/ticket/8984952?widget=2&iframe=1" frameborder="0" scrolling="no"></iframe>
+						<iframe id="promote_ticket_iframe" width="100%" src="https://www.bagevent.com/widget/ticket/9200424?widget=2&iframe=1" frameborder="0" scrolling="no"></iframe>
 						<script>
 								(function (i, s, o, g, r, a, m) {
 										i['BagEventIFrameResize'] = r;
@@ -102,7 +103,7 @@
 						{{end}}
 					</div>
 				</section>
-			</div> -->
+			</div> 
 			
 
 			<!--div class="wrapper style4">
