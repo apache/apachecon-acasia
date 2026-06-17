@@ -28,7 +28,7 @@ Before asking for a visa invitation letter, please check out [the website of Chi
 
 **!! NOTE: The information provided above is for reference only. For specific visa policies applicable to you, please check out** [the website of Chinese Visa Application Service Center](https://www.visaforchina.cn/globle/).
 
-If, after understanding all the information above, you believe you still need an invitation letter, please send the following information to Willem Jiang, at [ningjiang@apache.org](mailto:ningjiang@apache.org). If all of your information is present, you will receive an invitation letter within 3 business days.
+If, after understanding all the information above, you believe you still need an invitation letter, please send the following information to Willem Jiang, at [ningjiang@apache.org](mailto:ningjiang@apache.org). If all of your information is present, you will receive an invitation letter within 10 business days.
 
 ### INFORMATION NEEDED
 - Complete name
@@ -39,5 +39,5 @@ If, after understanding all the information above, you believe you still need an
 - The name of the Chinese embassy or consulate where to apply for a visa.
 - The company represented and the person’s position
 - The person’s address and telephone number
-- The date the person intends to visit China
+- The date the person intends to visit China, include the arraval and departure time
 - Who supports the person’s travel experience

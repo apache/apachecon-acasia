@@ -28,7 +28,7 @@ weight: 20
 
 **!! 注意: 以上信息仅供参考，适用您的具体签证政策，请见** [中国签证申请服务中心](https://www.visaforchina.cn/globle/).
 
-如您了解了以上全部信息，仍确认需要邀请函，请将以下信息发送至 Willem Jiang，邮箱地址为 [ningjiang@apache.org](mailto:ningjiang@apache.org). 如果您的信息齐全无误，我们将在 3 个工作日内向您发送邀请函。
+如您了解了以上全部信息，仍确认需要邀请函，请将以下信息发送至 Willem Jiang，邮箱地址为 [ningjiang@apache.org](mailto:ningjiang@apache.org). 如果您的信息齐全无误，我们将在 10 个工作日内向您发送邀请函。
 
 ### 所需信息
 - 您的完整姓名
@@ -39,5 +39,5 @@ weight: 20
 - 您计划申请签证的中国大使馆或领事馆名称
 - 您所代表的公司及职位
 - 您的个人住址和电话号码
-- 您拟访问中国的日期
+- 您拟访问中国的日期，包含到达以及离开时间
 - 您的差旅由谁负责
