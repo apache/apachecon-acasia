@@ -17,7 +17,7 @@ This panel will discuss how open-source infrastructure may need to evolve in the
 
 <img src="https://cdn.sessionize.com/image/db56-400o400o1-JhVweUbiicXGKShk6tJBtu.jpg" width="200" /><br/>
 
-Ian Xu: OpenSeed 发起人, 开源社理事, OpenBuild Co-founder
+Ian Xu: Founder of OpenSeed, Board Member of KAIYUANSHE, Co-founder of OpenBuild
 
-OpenSeed 发起人, 开源社理事, OpenBuild Co-founder
+Founder of OpenSeed, Board Member of KAIYUANSHE, Co-founder of OpenBuild
 
