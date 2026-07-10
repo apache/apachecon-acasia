@@ -1,26 +1,22 @@
 ---
-title: "守护湖仓安全：用 Apache Gravitino 为 Iceberg REST 提供身份感知的治理"
+title: "Apache Cloudberry（孵化中）2.1 与 3.0 有哪些新特性"
 date: ""
 track: "datalake"
-presenters: "Rory Qi"
-stype: "英文演讲"
+presenters: "Max Yang"
+stype: "中文演讲"
 ---
 
-Apache Iceberg 已经成为开放表格式的事实标准，而 Iceberg REST Catalog 是实现存算分离的关键。然而，尽管 REST 规范定义了如何交换元数据，却把安全——认证、授权和审计——留给了用户自行解决。对于从试验性项目迈向生产级湖仓的组织而言，这一"安全缺口"是一个重大障碍。
-在本次演讲中，我们介绍 Apache REST——一个开源的联邦元数据湖，提供生产可用的 Iceberg REST 服务实现。我们将走查 REST 如何作为安全 catalog 代理的技术架构。
-核心收获包括：
-身份与认证：深入剖析 Gravitino 对 OAuth2、Basic、Kerberos 和 HTTPS 的支持，确保只有经过验证的客户端才能访问 catalog。
-统一访问控制：如何在 catalog、namespace 和表级别管理细粒度权限（RBAC），即使在使用 Hive Metastore 或 JDBC 等传统后端时也能做到。
-凭据分发（Credential Vending）：Gravitino 如何安全地向客户端发放短时有效的存储凭据（S3/GCS/Azure），确保数据层的安全性与元数据层一样强。
-真实集成：演示 Spark、Trino 和 Flink 如何与受 Gravitino 安全保护的 Iceberg REST 端点交互，且无需对引擎进行自定义 fork 或打补丁。
-无论你是构建多租户数据湖的平台工程师，还是关注开源治理的安全架构师，本次演讲都将为构建一套安全、厂商中立的 Iceberg 基础设施提供蓝图。
-
+Apache Cloudberry 是一款先进且成熟的开源 MPP 数据库，源自 Pivotal Greenplum Database® 的开源版本，但构建在更现代的 PostgreSQL 内核之上，并具备更高级的企业能力。Cloudberry 既可以用作数据仓库，也可用于大规模分析以及 AI/ML 工作负载。
+自 Apache Cloudberry 进入 Apache 孵化器并于 2025 年交付首个孵化版本以来，该项目持续快速演进。2026 年，社区同时推进 2.x 和 3.x 两条发布线，在性能、架构和易用性上带来了重大增强。
+在本次演讲中，我们将概述 Apache Cloudberry 的最新创新。我们将介绍基于 PostgreSQL 14 构建的 2.x 系列的持续改进，包括性能优化、新特性和生态增强。我们还会介绍基于 PostgreSQL 16 的 3.x 系列，并探讨更新的 PostgreSQL 内核所带来的架构机遇。
+话题将涵盖查询执行、存储、安全、开发者体验和兼容性方面的精选改进，并展望这些变化如何塑造 Apache Cloudberry 的未来方向。
+本次演讲面向用户、贡献者，以及任何对下一代开源 MPP 数据仓库技术演进感兴趣的人。
 
 ### 讲师:
 
 
-<img src="https://cdn.sessionize.com/image/3df9-400o400o1-4yoKkoqsJnbKwTammtx8VP.jpg" width="200" /><br/>
+<img src="https://cdn.sessionize.com/image/7d99-400o400o1-KXGZ6fS6aQcuWW63gVwjQs.jpg" width="200" /><br/>
 
-Rory Qi：Apache Gravitino committer，Apache Uniffle PMC Chair
+Max Yang：Apache Cloudberry PPMC 成员，HashData 技术 VP
 
-Apache Gravitino PMC 成员，Apache Uniffle PMC Chair，ASF 成员，Datastrato 工程师，曾就职于腾讯、百度
+Apache Cloudberry PPMC 成员，HashData 技术 VP

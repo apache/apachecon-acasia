@@ -1,26 +1,14 @@
 ---
-title: "优化 Apache Iceberg 性能"
+title: "理解与探索 Apache Iceberg v3"
 date: ""
 track: "datalake"
 presenters: "Lester Martin"
 stype: "英文演讲"
 ---
 
-加入 Lester 的这场实用、节奏紧凑的演讲，一起提升数据湖仓中的查询性能。虽然我们聚焦 Apache Iceberg，但这些技术同样广泛适用于 Delta Lake 和 Apache Hive。
+Apache Iceberg 是一种开源表格式，为存储在数据湖中的大型分析数据集提供类数据库的能力，例如 ACID 事务、schema 演进和 time travel。Iceberg Spec v3 带来了重大进展，包括用于更快删除和更新的二进制 deletion vector、更丰富的数据类型（如面向半结构化数据的 variant 类型）、纳秒级精度的时间戳，以及用于增强数据治理的内建行级血缘（row lineage）。
 
-我们会先从作为表消费者今天就能应用的优化讲起：维护统计信息、使用高效的过滤与投影，以及利用缓存来降低延迟。
-
-随后我们会深入底层，展示湖仓表应当如何组织与维护以提升大规模下的性能，涵盖 join 优化与文件大小考量，以及 compaction、分区、分桶（bucketing）和文件级排序。
-
-你将学到如何：
-
- - 借助统计信息、过滤和投影裁剪，减少扫描的数据量并加速查询。
-
- - 基于最佳实践，用分区策略设计可扩展的表。
-
- - 通过 compaction、元数据重写与过期清理来维护表。
- 
-你将带走可以立即应用的实用指导——无需迁移平台。 
+除了了解这些酷炫特性能为你带来什么，你还将看到许多热门特性的现场演示，并带走一份动手练习——如果你也想在实践中学习的话。
 
 ### 讲师:
 
