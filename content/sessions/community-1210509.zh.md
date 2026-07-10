@@ -1,5 +1,5 @@
 ---
-title: "超越"禁用 AI"：开源社区如何治理 GenAI 贡献"
+title: "超越'禁用 AI'：开源社区如何治理 GenAI 贡献"
 date: ""
 track: "community"
 presenters: "Wenhao Yang"

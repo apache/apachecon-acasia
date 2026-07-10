@@ -1,5 +1,5 @@
 ---
-title: "一种新的消费者 Offset 策略——"从现在起，我想要每一条消息""
+title: "一种新的消费者 Offset 策略——'从现在起，我想要每一条消息'"
 date: ""
 track: "streaming"
 presenters: "Jiunn-Yang Huang"
