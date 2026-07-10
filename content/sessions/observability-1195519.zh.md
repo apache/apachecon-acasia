@@ -1,19 +1,18 @@
 ---
-title: "Apache Cloudberry: gathering statistics for queries executed by multiple PostgreSQL instances."
+title: "Apache Cloudberry：为多个 PostgreSQL 实例执行的查询收集统计信息"
 date: ""
 track: "observability"
 presenters: "Leonid Borchuk"
 stype: "英文演讲"
 ---
 
-Let's say you have Apache Cloudberry cluster that consists of several PostgreSQL instances. They all execute a single query, and you want to collect general statistics on how many resources were spent on executing this query. The built-in pg_stat_statements module is no longer suitable here, since it works within the same database. I will present a solution with a similar central idea — collecting data through query execution hooks, but instead of storing it in PostgreSQL shared memory, we send raw data to an external agent process. This process is responsible for aggregating metrics, providing a unified picture across all instances, as well as additional functions, such as the forced termination of problematic sessions, while not limited to PostgreSQL: the solution can collect data from other system components. I will talk about architecture, product tasks, and share links to the repositories (Apache 2.0 License) with the code.
+假设你拥有一个由多个 PostgreSQL 实例组成的 Apache Cloudberry 集群。它们共同执行同一条查询，而你希望收集执行该查询所耗费资源的一般性统计信息。内置的 pg_stat_statements 模块在这里已经不再适用，因为它只能工作在同一个数据库之内。我将介绍一个核心思路相似的方案——同样通过查询执行钩子（hook）来采集数据，但不再将数据存放在 PostgreSQL 的共享内存中，而是把原始数据发送给一个外部的 agent 进程。该进程负责对指标进行聚合，给出跨所有实例的统一视图，并提供额外的功能，例如强制终止有问题的会话；同时它并不仅限于 PostgreSQL：该方案还能从其他系统组件采集数据。我将介绍其架构、产品层面的任务，并分享相关仓库（Apache 2.0 License）的代码链接。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/429e-400o400o1-X15FYUcE9UQzxFpN9AkBKZ.png" width="200" /><br/>
 
-Leonid Borchuk: Developer at Yandex Cloud, Moscow. Apache Cloudberry commiter
+Leonid Borchuk：Yandex Cloud（莫斯科）开发者，Apache Cloudberry committer
 
-Team lead of the MPP postgres development team at Yandex.Cloud. He started his career with the administration of large commercial universal and analytical databases. But now he's finally writing his own. Apache Cloudberry commiter.
-
+Yandex Cloud MPP PostgreSQL 开发团队的团队负责人。他的职业生涯始于大型商用通用数据库和分析数据库的管理，而如今他终于开始编写自己的数据库。Apache Cloudberry committer。
