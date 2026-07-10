@@ -1,36 +1,35 @@
 ---
-title: "Five Years into Open Source: Rethinking “Community Health” Through the Lens of a Storage Project"
+title: "开源五年：从一个存储项目重新审视"社区健康""
 date: ""
 track: "community"
 presenters: "Rui Su"
 stype: "中文演讲"
 ---
 
-Five years ago, we open-sourced a storage project. Like many teams, we believed at the time that if the code was good enough, a community would gradually form around it. Over the following five years, however, we came to realize that the growth of an open-source project is not only about code evolution. It is also about how a community is built, how it is perceived, and how it can remain sustainable over time.
+五年前，我们开源了一个存储项目。和许多团队一样，我们当时相信：只要代码足够好，社区就会自然而然地在它周围形成。然而在随后的五年里，我们逐渐意识到，一个开源项目的成长绝不仅仅是代码的演进，还关乎社区如何被建设、如何被认知，以及如何长期保持可持续。
 
-During these five years, we continuously observed and reflected on many signals commonly used to evaluate open-source projects: GitHub stars, issue activity, contributor numbers, user adoption, license choices, donations, and commercial support models. All of these signals are valuable, but they are also easy to oversimplify. For open-source infrastructure projects, community health does not always mean higher visibility or more activity. The real condition of a project often lies in more complex relationships: whether user adoption continues to grow, whether feedback is high quality, whether contributions are sustainable, whether the license builds trust, and whether the business model strengthens the community rather than weakening it.
+在这五年里，我们持续观察并反思了许多常用于评估开源项目的信号：GitHub stars、issue 活跃度、贡献者数量、用户采用情况、许可证选择、捐赠，以及商业支持模式。所有这些信号都有价值，但也容易被过度简化。对于开源基础设施项目而言，社区健康并不总是意味着更高的可见度或更活跃的活动。一个项目的真实状况往往藏在更复杂的关系里：用户采用是否持续增长、反馈是否高质量、贡献是否可持续、许可证是否建立信任、商业模式是在强化社区还是在削弱它。
 
-In this talk, I will share five years of practical experience from an open-source storage project, together with public data from sources such as OSS Insight, to discuss how open-source storage projects have changed in terms of community building and sustainability. The talk will focus on several questions: Which metrics should open-source projects really care about? Should infrastructure projects pay more attention to contributor growth or user adoption? How do different license choices and forms of commercial involvement affect community behavior and external perception? And in the reality of “open source + commercial operations,” how can a project build long-term trust?
+在本次演讲中，我将分享一个开源存储项目五年的实战经验，并结合来自 OSS Insight 等来源的公开数据，探讨开源存储项目在社区建设与可持续性方面发生了哪些变化。演讲将围绕几个问题展开：开源项目真正应该关注哪些指标？基础设施项目更应该看重贡献者增长，还是用户采用？不同的许可证选择与商业化介入形式，会如何影响社区行为与外部认知？而在"开源 + 商业化运营"的现实里，一个项目又该如何建立长期信任？
 
-This is not a ranking of projects, nor a simple judgment of which model is better. It is a community retrospective based on real-world practice. I hope this talk can provide other open-source projects, especially infrastructure projects, with a more practical framework for observing and understanding community health.
+这既不是项目排行榜，也不是对哪种模式更好的简单评判。它是一次基于真实实践的社区复盘。我希望本次演讲能为其他开源项目（尤其是基础设施项目）提供一个更务实的框架，去观察和理解社区健康。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/bbdf-400o400o1-UxyepShfdzeHUN3FbnajTv.jpg" width="200" /><br/>
 
-Rui Su: Open-source advocate and co-founder of JuiceFS, a cloud-native distributed file system
+Rui Su：开源倡导者，云原生分布式文件系统 JuiceFS 联合创始人
 
-Rui Su is the co-founder of Juicedata and creator of JuiceFS, an open-source distributed file system built on object storage. He has spent the past seven years building storage infrastructure for AI, analytics, and cloud-native environments, and leading JuiceFS from a proprietary product into a globally adopted Apache 2.0 project.
+Rui Su 是 Juicedata 的联合创始人，也是 JuiceFS 的创建者——JuiceFS 是一个基于对象存储构建的开源分布式文件系统。过去七年里，他一直为 AI、分析和云原生环境构建存储基础设施，并带领 JuiceFS 从一款闭源产品走向全球采用的 Apache 2.0 项目。
 
-Rui speaks regularly on topics including AI/ML storage, Kubernetes-native data infrastructure, POSIX access over object storage, and open-source project strategy. He has presented at KubeCon 2023 Shanghai, SNIA SDC 2025, Community Over Code 2025, and KubeCon 2025 Atlanta.
+Rui 经常围绕 AI/ML 存储、Kubernetes 原生数据基础设施、基于对象存储的 POSIX 访问，以及开源项目策略等主题发表演讲。他曾在 KubeCon 2023 上海、SNIA SDC 2025、Community Over Code 2025 以及 KubeCon 2025 亚特兰大发表演讲。
 
-Selected talks:
+精选演讲：
 
-SNIA SDC 2025 — Why s3fs Fails in AI/ML and How to Achieve Scalable POSIX Access Anyway
+SNIA SDC 2025 —— 为什么 s3fs 在 AI/ML 场景下会失败，以及如何实现可扩展的 POSIX 访问
 https://www.youtube.com/watch?v=deQKBSAvt_M
-Community Over Code 2025 — Why We Chose Openness: The Story Behind JuiceFS Switching to Apache 2.0
+Community Over Code 2025 —— 我们为何选择开放：JuiceFS 切换到 Apache 2.0 背后的故事
 https://www.youtube.com/watch?v=DtyJHVz4CJE
-KubeCon 2023 Shanghai — How to Accelerate Model Training and Eliminate the I/O Bottleneck for the Cloud (in Chinese)
+KubeCon 2023 上海 —— 如何为云端加速模型训练、消除 I/O 瓶颈（中文）
 https://www.youtube.com/watch?v=pK9pUxRpBSM
-

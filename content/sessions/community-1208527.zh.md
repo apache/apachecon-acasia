@@ -1,21 +1,20 @@
 ---
-title: "The Open Source Way in the AI Era: Exploring the Diversity of Apache and CNCF Governance Styles"
+title: "AI 时代的开源之道：探索 Apache 与 CNCF 治理风格的多样性"
 date: ""
 track: "community"
 presenters: "Fengjun Lyu"
 stype: "中文演讲"
 ---
 
-In the AI era, where technology iterates exponentially, the philosophy of "Community Over Code" is more critical than ever. As an active Apache PMC member, a CNCF project Maintainer, and an enterprise OSPO practitioner, I will share the diverse governance styles and successful practices of these two top-tier open-source foundations.
+在技术呈指数级迭代的 AI 时代，"Community Over Code（社区重于代码）"的理念比以往任何时候都更为关键。作为一名活跃的 Apache PMC 成员、CNCF 项目 Maintainer，以及企业 OSPO 实践者，我将分享这两大顶级开源基金会多样化的治理风格与成功实践。
 
-This session is not about comparing which is better; rather, it focuses on the operational wisdom behind different governance models. We will dive deep into their governance structures, contributor incentive mechanisms, and community event organization. Combined with real-world success stories, we will discuss how open-source communities can flexibly adapt to the new trends and challenges in the AI era, and how to harness the power of the community to drive continuous innovation. Regardless of your technical ecosystem, you will walk away with practical guidelines for participating in, understanding, and building thriving open-source communities.
+本次演讲不是要比出孰优孰劣，而是聚焦于不同治理模式背后的运营智慧。我们将深入剖析它们的治理结构、贡献者激励机制以及社区活动组织。结合真实的成功案例，讨论开源社区如何灵活应对 AI 时代的新趋势与新挑战，以及如何借助社区的力量驱动持续创新。无论你身处何种技术生态，都能带走参与、理解并建设繁荣开源社区的实用指南。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/f2cb-400o400o1-HGs8bAPipabeAmu7Ph9uiB.png" width="200" /><br/>
 
-Fengjun Lyu: Ant Group, Technical Evangelist 
+Fengjun Lyu：蚂蚁集团，技术布道师
 
-I'm Mingcheng (明城). Originally from Ningbo, I am currently based in Hangzhou, China. I work as an open-source evangelist at Ant Group and serve on the Project Management Committee (PMC) at the Apache Software Foundation. I actively maintain several open-source projects, including InclusionAI, Dragonfly, and Apache Geaflow.
-
+我是 Mingcheng（明城）。来自宁波，目前定居中国杭州。我在蚂蚁集团担任开源布道师，并任职于 Apache 软件基金会的项目管理委员会（PMC）。我积极维护多个开源项目，包括 InclusionAI、Dragonfly 和 Apache Geaflow。

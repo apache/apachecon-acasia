@@ -1,23 +1,22 @@
 ---
-title: "Beyond Banning AI: How Open Source Communities Are Governing GenAI Contributions"
+title: "超越"禁用 AI"：开源社区如何治理 GenAI 贡献"
 date: ""
 track: "community"
 presenters: "Wenhao Yang"
 stype: "中文演讲"
 ---
 
-Generative AI is making it dramatically easier to produce contribution-like inputs in open source projects: code, documentation, issues, pull requests, and even security reports. But cheaper generation does not mean cheaper review. For maintainers, the real challenge is no longer whether AI can help contributors, but how communities can govern AI-assisted contributions without overwhelming review capacity or weakening trust.
+生成式 AI 让在开源项目中产出"类贡献"内容变得前所未有地容易：代码、文档、issue、pull request，甚至安全报告都是如此。但生成成本更低，并不意味着评审成本更低。对于维护者而言，真正的挑战已不再是 AI 能否帮助贡献者，而是社区如何治理 AI 辅助的贡献，而不至于压垮评审能力或削弱信任。
 
-Designed as a compact 15-minute session, I will share findings from a study of 67 highly visible open source projects that have started to articulate rules, expectations, and enforcement mechanisms around GenAI use. The results show that open source governance goes far beyond a simple “ban or allow” choice. Communities are experimenting with multiple governance approaches, from strict prohibition to boundary-setting, disclosure, accountability requirements, quality-first review practices, and platform-level control points.
+作为一场紧凑的 15 分钟演讲，我将分享对 67 个高关注度开源项目的研究成果——这些项目已经开始围绕 GenAI 的使用阐明规则、期望与执行机制。结果表明，开源治理远不止"禁止还是允许"这么简单的二选一。社区正在尝试多种治理方式，从严令禁止，到划定边界、披露要求、问责要求、质量优先的评审实践，再到平台层面的管控点。
 
-This session translates those findings into practical lessons for maintainers, PMC members, community builders, and open source program offices. Attendees will leave with a clearer picture of the emerging governance landscape, the trade-offs behind different policy choices, and a concrete vocabulary for discussing GenAI governance in their own communities.
+本次演讲把这些发现转化为面向维护者、PMC 成员、社区建设者以及开源项目办公室的实用经验。听众离场时将更清晰地了解正在浮现的治理图景、不同政策选择背后的权衡，以及一套可以在自己社区中讨论 GenAI 治理的具体词汇。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/f0d0-400o400o1-QQtcmapGcNwpKADAtNDBNx.jpg" width="200" /><br/>
 
-Wenhao Yang: Peking University, PhD Candidate
+Wenhao Yang：北京大学博士研究生
 
-Wenhao Yang is a Ph.D. Candidate at the School of Computer Science, Peking University, and a researcher with the Open Source Software Data Analytics Lab. His research focuses on open source software communities, software governance, and the impact of generative AI on collaborative development. He studies how open source projects adapt their contribution processes, policies, and review practices in response to emerging AI-assisted workflows.
-
+Wenhao Yang 是北京大学计算机学院的博士研究生，也是开源软件数据分析实验室的研究员。他的研究方向涵盖开源软件社区、软件治理，以及生成式 AI 对协作开发的影响。他研究开源项目如何针对新兴的 AI 辅助工作流，调整其贡献流程、政策与评审实践。

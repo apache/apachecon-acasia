@@ -1,25 +1,24 @@
 ---
-title: "The Power of Consensus: How Community Built Contributor Covenant 3"
+title: "共识的力量：社区是如何打造 Contributor Covenant 3 的"
 date: ""
 track: "community"
 presenters: "Maryblessing  Okolie"
 stype: "英文演讲"
 ---
 
-Open source can only thrive with collaboration - but collaboration doesn’t come naturally to some, and contribution doesn’t come naturally to others. How do we drive behavior change in open source to create a psychologically safe & collegial environment for all contributors?
+开源只有在协作之下才能繁荣——但协作对一些人来说并非与生俱来，贡献对另一些人而言也不是自然而然的事。我们如何才能在开源中推动行为改变，为所有贡献者营造一个心理安全、彼此友善的环境？
 
-For over a decade, the Contributor Covenant has been the most widely adopted open source code of conduct in the world - and the scope of the Covenant is not merely to lay out a set of prescriptive rules, but to offer contributors a hopeful vision of how a project team collaborates.
+十余年来，Contributor Covenant 一直是全球采用最广泛的开源行为准则——而它的意义不仅仅是列出一组命令式的规则，更是为贡献者呈现一幅关于项目团队如何协作的、令人向往的愿景。
 
-When we started version 3, we realized that today’s open source projects needed a truly international document, and that even a diverse handful of core committers couldn’t represent the many ways of working in open source today. Our solution was to anchor our drafting in the needs of our adopters.
+当我们启动第 3 版时，我们意识到当今的开源项目需要一份真正国际化的文档，而且即便是一小群多元的核心 committer，也无法代表当今开源世界中各式各样的工作方式。我们的解决之道是：把起草工作锚定在采纳者的需求上。
 
-Come join us to learn how to strengthen your contribution funnel by prioritizing diverse perspectives in every step of the release process.
+欢迎加入我们，了解如何通过在发布流程的每一步都优先纳入多元视角，来强化你的贡献漏斗（contribution funnel）。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/2b83-400o400o1-JFswTHF6eyHxpUqvpmomY8.jpg" width="200" /><br/>
 
-Maryblessing  Okolie: Community Architect
+Maryblessing  Okolie：社区架构师
 
-Community architect, Open Source, EDIA
-
+社区架构师，开源，EDIA（平等、多元、包容与无障碍）

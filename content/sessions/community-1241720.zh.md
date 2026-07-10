@@ -1,16 +1,16 @@
 ---
-title: "When AI Becomes the Downstream: Rethinking Open Source Attribution, Licensing, and Long-Term Sustain"
+title: "当 AI 成为下游：重新思考开源的署名、许可与长期可持续性"
 date: ""
 track: "community"
 presenters: "Ian Xu"
 stype: "中文演讲"
 ---
 
-AI-assisted development and software agents are changing how open-source software is reused. Code can now be referenced, rewritten, or propagated through AI workflows without showing up in package manifests, forks, or traditional dependency graphs.
+AI 辅助开发和软件 agent 正在改变开源软件被复用的方式。如今，代码可以经由 AI 工作流被引用、改写或传播，而不出现在包清单（package manifest）、fork 或传统的依赖图当中。
 
-This creates a new challenge for open-source communities: how do we preserve attribution, provenance, maintainer visibility, and long-term sustainability without restricting software freedom or blocking AI usage?
+这给开源社区带来了一个新挑战：在不限制软件自由、也不封禁 AI 使用的前提下，我们如何保留署名（attribution）、来源（provenance）、维护者可见性以及长期可持续性？
 
-This panel will discuss how open-source infrastructure may need to evolve in the agentic era, covering machine-readable attribution, dependency visibility, maintainer metadata, voluntary pledges, public accountability, and AI-era licensing. Using OpenSeed and the draft OpenSeed Agentic Open License 0.1 as a case study, we will explore how communities can keep open-source ecosystems visible, accountable, and sustainable as AI changes the meaning of downstream reuse.
+本小组讨论将探讨在 agentic 时代，开源基础设施可能需要如何演进，话题涵盖机器可读的署名、依赖可见性、维护者元数据、自愿承诺（voluntary pledges）、公共问责，以及 AI 时代的许可证。我们将以 OpenSeed 及其草案版 OpenSeed Agentic Open License 0.1 为案例，探讨随着 AI 改变"下游复用"的含义，社区如何让开源生态保持可见、可问责且可持续。
 
 ### 讲师:
 
@@ -20,4 +20,3 @@ This panel will discuss how open-source infrastructure may need to evolve in the
 Ian Xu: OpenSeed 发起人, 开源社理事, OpenBuild Co-founder
 
 OpenSeed 发起人, 开源社理事, OpenBuild Co-founder
-

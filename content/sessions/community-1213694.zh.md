@@ -1,19 +1,19 @@
 ---
-title: "Teaching the Apache Way with a little help from AI"
+title: "借助一点 AI 的帮助来传授 Apache 之道"
 date: ""
 track: "community"
 presenters: "Justin Mclean"
 stype: "英文演讲"
 ---
 
-Every ASF project leaves lessons behind. This talk shows how real Incubator case studies were turned into practical training using AI to identify patterns and summarise discussions, helping improve onboarding, mentoring, and community development.
+每一个 ASF 项目都会留下经验教训。本次演讲展示如何把真实的 Incubator（孵化器）案例转化为实用的培训材料——借助 AI 来识别模式、总结讨论，从而帮助改进新人上手、导师辅导和社区发展。
 
 
-Every ASF project has its own story. Some grow quickly, while others take years to find their rhythm, and still others fade away. Each leaves behind valuable lessons about community, governance, and collaboration.
+每一个 ASF 项目都有自己的故事。有的迅速成长，有的需要数年才找到节奏，还有的则逐渐淡出。每一个都留下了关于社区、治理与协作的宝贵经验。
 
-This talk shows how those lessons were turned into practical mentoring and training materials for the Apache Incubator. By analysing case studies from real projects and utilising AI tools to summarise patterns and draft content, we created new guides, quizzes, and interactive learning scenarios that help mentors and contributors learn from real-world experiences.
+本次演讲展示如何把这些经验教训转化为面向 Apache 孵化器的实用辅导与培训材料。通过分析真实项目的案例研究，并借助 AI 工具总结模式、起草内容，我们创建了新的指南、测验和互动式学习场景，帮助导师和贡献者从真实经历中学习。
 
-We will share what went well, what did not, and how AI helped us quickly identify patterns and transform lengthy conversations into clear, useful learning materials. You will receive practical tips on how any open-source group can utilize AI to document its history, streamline onboarding, and facilitate more effective mentoring.
+我们将分享哪些做法奏效、哪些没有，以及 AI 如何帮助我们快速识别模式，并把冗长的对话转化为清晰、有用的学习材料。你将获得实用的建议，了解任何开源群体都可以如何利用 AI 来记录自己的历史、简化新人上手流程，并促进更高效的导师辅导。
 
 
 ### 讲师:
@@ -21,12 +21,10 @@ We will share what went well, what did not, and how AI helped us quickly identif
 
 <img src="https://cdn.sessionize.com/image/abea-400o400o1-G3ffQGzCrw1XXcqnfNEzrB.jpg" width="200" /><br/>
 
-Justin Mclean: ASF Director, VP ASF Incubator, Datastrato Community Manager
+Justin Mclean：ASF 董事，VP ASF Incubator，Datastrato 社区经理
 
-Justin Mclean is a long-time contributor to the Apache Software Foundation (ASF) and currently serves as VP of the ASF Incubator and a member of the ASF Board of Directors. Over several years, he has contributed to evolving the Incubator’s governance, policies, and training programs, including documenting how projects operate in practice and analysing the Incubator’s history. Through this work, he has supported hundreds of open source projects in building sustainable and independent communities.
+Justin Mclean 是 Apache 软件基金会（ASF）的长期贡献者，目前担任 ASF 孵化器的 VP，同时也是 ASF 董事会成员。多年来，他参与了孵化器治理、政策和培训项目的演进，包括记录项目在实践中的真实运作方式，以及分析孵化器的历史。通过这些工作，他已支持数以百计的开源项目构建可持续、独立的社区。
 
-He has extensive experience guiding projects from early incubation through to successful graduation, and has reviewed over a thousand open source releases. His work focuses on open source governance, community health, and the design of systems that enable collaboration at scale.
+他在引导项目从早期孵化到成功毕业方面经验丰富，并已审阅过上千次开源发布。他的工作聚焦于开源治理、社区健康，以及支撑大规模协作的系统设计。
 
-Justin regularly speaks at international conferences on topics such as open source governance, licensing, and community building, sharing practical lessons drawn from real-world experience across a wide range of ASF projects and communities.
-
-
+Justin 经常在国际会议上围绕开源治理、许可证和社区建设等主题发表演讲，分享从众多 ASF 项目和社区的真实经验中提炼出的实践教训。

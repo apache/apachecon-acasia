@@ -1,25 +1,24 @@
 ---
-title: "The Global Bridge: Navigating Open Source Culture from the US to China"
+title: "全球之桥：从美国到中国，导航开源文化"
 date: ""
 track: "community"
 presenters: "Miaolai Zhou"
 stype: "英文演讲"
 ---
 
-The global nature of open source is its greatest strength, yet "global" looks very different depending on whether you are in Beijing, Seattle, or Berlin. While the code remains the same, the culture surrounding it—and how we approach community—varies significantly across regions.
-Drawing from my work with global ecosystems and security initiatives like PostgreSQL, Valkey, and Alpha Omega, this session explores the nuances of open source culture in China versus the US and Europe. Following my experience at Community Over Code Asia 2025, I’ve identified key differences in communication styles, engagement strategies, and community expectations that often go unnoticed.
-In this session, we will cover:
-• Cultural Nuances: A look at how community building differs between the East and West.
-• Global Observations: Real-world examples of how collaboration shifts across different regions.
-• Bridging the Gap: Practical ways to navigate these differences to foster a more inclusive and effective global conversation.
-By recognizing these diverse approaches, we can better bridge the gaps in our global community building and create a more unified ecosystem.
+开源的全球性是它最大的优势，然而"全球"这个词，取决于你身处北京、西雅图还是柏林，看起来截然不同。代码是一样的，但它周围的文化——以及我们对待社区的方式——在不同地区差异显著。
+结合我在 PostgreSQL、Valkey、Alpha Omega 等全球生态与安全倡议方面的工作，本次演讲探讨中国与美国、欧洲之间开源文化的细微差异。继我在 Community Over Code Asia 2025 的经历之后，我梳理出了一些在沟通风格、参与策略和社区期望上常常被忽视的关键差异。
+在本次演讲中，我们将涵盖：
+• 文化细节：看一看东西方在社区建设上的差异。
+• 全球观察：协作在不同地区如何转变的真实案例。
+• 弥合鸿沟：应对这些差异的实用方法，以营造更具包容性、更高效的全球对话。
+通过认识这些多元的做法，我们可以更好地弥合全球社区建设中的鸿沟，打造一个更统一的生态。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/331c-400o400o1-smrryn7qJwnVcr44qTbcyn.jpg" width="200" /><br/>
 
-Miaolai Zhou: AWS, Program Manager
+Miaolai Zhou：AWS，项目经理
 
-Mila is a passionate program manager at AWS, spearheading funding programs that provide vital resources to open source projects. Her unwavering commitment to empowering and supporting these communities fosters sustainability, drives innovation, and enables collaboration. She actively engages with the open source community, attending conferences and contributing to discussions on sustainability, security, and best practices, establishing herself as an influential figure in the ecosystem.
-
+Mila 是 AWS 一位充满热情的项目经理，牵头为开源项目提供关键资源的资助项目。她对赋能和支持这些社区的坚定投入，促进了可持续性、推动了创新，也让协作成为可能。她积极参与开源社区，出席各类会议，并参与关于可持续性、安全和最佳实践的讨论，逐渐成为该生态中有影响力的人物。
