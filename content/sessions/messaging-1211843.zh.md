@@ -1,19 +1,18 @@
 ---
-title: "Xiaomi RocketMQ Production Practices in Large-Scale Clusters"
+title: "小米 RocketMQ 在大规模集群中的生产实践"
 date: ""
 track: "messaging"
 presenters: "Kunming Han"
 stype: "中文演讲"
 ---
 
-This sharing focuses on Xiaomi’s practical experience in applying RocketMQ and MQTT in large-scale cluster scenarios, with an emphasis on the core challenges faced by Xiaomi in the field of message middleware and the corresponding solutions.It covers the optimization of ordered messages, disaster recovery and current limiting mechanisms, and multi-dimensional performance tuning for RocketMQ, as well as stability assurance and architectural optimization practices of MQTT in scenarios with tens of millions of connections.The session aims to provide the industry with reference insights for the implementation of large-scale messaging systems.
+本次分享聚焦于小米在大规模集群场景下应用 RocketMQ 与 MQTT 的实践经验，重点介绍小米在消息中间件领域所面临的核心挑战及相应的解决方案。内容涵盖 RocketMQ 的顺序消息优化、容灾与限流机制、多维度性能调优，以及 MQTT 在千万级连接场景下的稳定性保障与架构优化实践。本次分享旨在为业界大规模消息系统的落地提供参考与借鉴。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/7e72-400o400o1-SzuraehoisbVvKGXiSuzpF.jpg" width="200" /><br/>
 
-Kunming Han: Xiaomi, Software R&D Engineer
+Kunming Han：小米，软件研发工程师
 
-Mainly responsible for message queue related work in Xiaomi
-
+主要负责小米的消息队列相关工作

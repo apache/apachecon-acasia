@@ -1,25 +1,24 @@
 ---
-title: "Challenges and Breakthroughs in TDMQ for Apache Pulsar: Multi-Modal Storage  Delayed Messaging"
+title: "TDMQ for Apache Pulsar 的挑战与突破：多模态存储与延迟消息"
 date: ""
 track: "messaging"
 presenters: "Xiaolong Ran"
 stype: "中文演讲"
 ---
 
-In the large-scale deployment of Apache Pulsar, storage architecture and delayed messages are two unavoidable core challenges.
+在 Apache Pulsar 的大规模部署中，存储架构与延迟消息是两个绕不开的核心挑战。
 
-On the delayed messaging side, the community solution suffers from message hole issues, high index memory consumption, and long index loading times when dealing with a large volume of delayed messages with randomly distributed delay times. While scaling partitions, increasing bandwidth, and expanding memory can partially mitigate these issues, the cost is prohibitively high and difficult to standardize as a cloud product. This talk will share how TDMQ for Apache Pulsar addresses these challenges, enabling stable large-scale delayed messaging while significantly reducing resource costs.
+在延迟消息方面，社区方案在处理大量、延迟时间随机分布的延迟消息时，会遇到消息空洞（message hole）、索引内存占用过高以及索引加载时间过长等问题。虽然通过扩分区、加带宽、扩内存可以在一定程度上缓解这些问题，但其成本高得令人难以承受，也很难标准化为云产品。本次演讲将分享 TDMQ for Apache Pulsar 如何应对这些挑战，在实现稳定的大规模延迟消息的同时显著降低资源成本。
 
-On the delayed messaging side, the community solution faces several challenges when handling large volumes of delayed messages with highly random delay time distributions, including excessive memory consumption of subscription progress objects and prolonged loading times for delayed message indexes. Although these issues can be partially mitigated by expanding partitions, increasing bandwidth, and scaling up memory, the cost is prohibitively high from an economic perspective, and it is difficult to flexibly adapt to diverse business scenarios from a cloud product standardization standpoint. This talk will share TDMQ for Apache Pulsar's optimization approach and production practices to address these challenges, ensuring stable operation of large-scale delayed messaging while significantly reducing resource costs.
+在延迟消息方面，社区方案在处理大量、延迟时间高度随机分布的延迟消息时会面临若干挑战，包括订阅进度对象内存占用过高、延迟消息索引加载时间过长等。尽管通过扩分区、加带宽、扩内存可在一定程度上缓解这些问题，但从经济角度看成本高得难以承受，从云产品标准化的角度也难以灵活适配多样的业务场景。本次演讲将分享 TDMQ for Apache Pulsar 应对这些挑战的优化思路与生产实践，保障大规模延迟消息的稳定运行，同时显著降低资源成本。
 
-Both topics are based on real production experience from the TDMQ team, aiming to provide valuable insights for large-scale Pulsar deployments on the cloud.
+这两个议题都基于 TDMQ 团队的真实生产经验，旨在为云端大规模 Pulsar 部署提供有价值的参考。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/252a-400o400o1-h3njznGdpVYDR3J9gMCkjd.jpg" width="200" /><br/>
 
-Xiaolong Ran: Senior R&D Engineer at Tencent Cloud Middleware
+Xiaolong Ran：腾讯云中间件高级研发工程师
 
-Apache Pulsar Committer, author of Pulsar Go Functions, Go Client, and pulsarctl, as well as a Maintainer and one of the core developers of RoP.
-
+Apache Pulsar Committer，Pulsar Go Functions、Go Client 和 pulsarctl 的作者，同时也是 RoP 的 Maintainer 和核心开发者之一。

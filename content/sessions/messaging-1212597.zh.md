@@ -1,37 +1,36 @@
 ---
-title: "Apache RocketMQ For AI: Reliable Collaboration Mechanisms for Multi-Agent Systems"
+title: "面向 AI 的 Apache RocketMQ：多 Agent 系统的可靠协作机制"
 date: ""
 track: "messaging"
 presenters: "Zhou Li"
 stype: "中文演讲"
 ---
 
-Section 1: Engineering Challenges in Agent Collaboration
-1.1 Communication Complexity: Link fragmentation, resource contention, and scheduling blind spots under concurrent inference.
-1.2 Engineering Hazards: Disrupted communication links, resource contention and scheduling failure caused by transient bursts, and the difficulty of fault recovery following the loss of collaborative context.
+第一部分：Agent 协作中的工程挑战
+1.1 通信复杂度：并发推理下的链路碎片化、资源竞争与调度盲区。
+1.2 工程风险：瞬时突发造成的通信链路中断、资源竞争与调度失败，以及在协作上下文丢失后故障恢复的困难。
 
-Section 2: Lite-Topic: Efficient Routing and Scheduling for Massive Sessions
-2.1 Dynamic Session Management: Building a TTL-based, second-level dynamic topology to achieve logical isolation of session spaces between agents.
-2.2 ReadySet Scheduling Mechanism: Optimizing the delivery efficiency of massive agent events via distributed brokers, addressing "thundering herd" problems and latency jitter under ultra-high concurrency.
+第二部分：Lite-Topic：面向海量会话的高效路由与调度
+2.1 动态会话管理：构建基于 TTL 的秒级动态拓扑，实现 agent 之间会话空间的逻辑隔离。
+2.2 ReadySet 调度机制：通过分布式 broker 优化海量 agent 事件的投递效率，解决超高并发下的"惊群"（thundering herd）问题与延迟抖动。
 
-Section 3: RocketMQ-A2A Asynchronous Interaction Model: Decoupling and Deterministic Control
-3.1 Asynchronous Paradigm Refactoring: Building a full-link asynchronous model for "task orchestration, trigger execution, and result return," sinking collaboration logic into the RocketMQ foundation.
-3.2 Deterministic Communication Orchestration: Defining standardized protocols for inter-agent communication to ensure the deterministic execution of complex business flows.
+第三部分：RocketMQ-A2A 异步交互模型：解耦与确定性控制
+3.1 异步范式重构：为"任务编排、触发执行、结果返回"构建全链路异步模型，将协作逻辑下沉到 RocketMQ 基础设施中。
+3.2 确定性通信编排：为 agent 之间的通信定义标准化协议，确保复杂业务流程的确定性执行。
 
-Section 4: Collaborative Consistency and Observability: Constructing Event-Driven Evidence Chains
-4.1 Semantic Enhancement and State Recovery: Leveraging idempotency design and event logs to achieve atomic interruption replay and lossless state migration for agent collaboration flows.
-4.2 Full-Link Collaborative Auditing: Creating "collaborative evidence chains" based on structured messages to transform fragmented agent behaviors into traceable and attributable system governance data.
+第四部分：协作一致性与可观测性：构建事件驱动的证据链
+4.1 语义增强与状态恢复：利用幂等设计和事件日志，实现 agent 协作流程的原子化中断重放与无损状态迁移。
+4.2 全链路协作审计：基于结构化消息构建"协作证据链"，将碎片化的 agent 行为转化为可追溯、可归因的系统治理数据。
 
-Section 5: Large-Scale Cluster Performance and Practical Closed-Loop
-5.1 Stability and fault recovery under high-pressure collaboration.
-5.2 How AI gateways leverage the messaging foundation to achieve fault self-healing and collaborative task orchestration for large-scale multi-agent systems.
+第五部分：大规模集群性能与实践闭环
+5.1 高压协作下的稳定性与故障恢复。
+5.2 AI 网关如何借助消息基础设施，实现大规模多 Agent 系统的故障自愈与协作任务编排。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/89b7-400o400o1-3UL89hviMkFYw2SmgNyGZM.jpg" width="200" /><br/>
 
-Zhou Li: aliyun
+Zhou Li：阿里云
 
-Messaging Expert at Alibaba Cloud, responsible for Alibaba's core messaging middleware
-
+阿里云消息中间件专家，负责阿里巴巴核心消息中间件。

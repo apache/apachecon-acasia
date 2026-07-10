@@ -1,21 +1,20 @@
 ---
-title: "Apache RocketMQ Routing Control Plane Evolution"
+title: "Apache RocketMQ 路由控制面演进"
 date: ""
 track: "messaging"
 presenters: "Xiao Yang"
 stype: "中文演讲"
 ---
 
-This session explains how we evolved a lightweight external routing control plane for Apache RocketMQ to support large-cluster governance without changing brokers, nameservers, or client access patterns.
+本次分享将讲解我们如何为 Apache RocketMQ 演进出一套轻量级的外部路由控制面，在不改动 broker、nameserver 以及客户端访问模式的前提下，支撑大规模集群的治理。
 
-As multiple business lines gradually shared one common cluster, the real challenge shifted from throughput to governance: faster failure convergence, controllable topic migration, and flexible lane-based traffic isolation. In this talk, I will show why these problems are better solved in the routing layer, why existing NameServer and Broker mechanisms are not sufficient, and how broker write isolation, topic migration, and lane-based traffic isolation can be unified in one control plane to support large-cluster split with a smaller blast radius and more controllable governance.
+随着多条业务线逐步共用同一个集群，真正的挑战从吞吐量转向治理：更快的故障收敛、可控的 topic 迁移，以及灵活的基于泳道（lane）的流量隔离。在本次演讲中，我将说明为什么这些问题更适合在路由层解决，为什么现有的 NameServer 和 Broker 机制并不足够，以及如何将 broker 写隔离、topic 迁移和基于泳道的流量隔离统一在同一个控制面中，从而以更小的爆炸半径、更可控的治理方式支撑大规模集群的拆分。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/ed42-400o400o1-3Jm5SmqbknYn3ZeVXQQXY2.jpg" width="200" /><br/>
 
-Xiao Yang: Tongcheng Travel, Messaging Middleware Core Developer
+Xiao Yang：同程旅行，消息中间件核心开发者
 
-I am Xiao Yang from the Infrastructure Engineering team at Tongcheng Travel. I mainly focus on the architecture evolution and maintenance of messaging middleware. I am passionate about open source, a committer of Apache ShardingSphere, and an active contributor to Apache RocketMQ.
-
+我是来自同程旅行基础架构工程团队的 Xiao Yang。我主要负责消息中间件的架构演进与维护。我热爱开源，是 Apache ShardingSphere 的 committer，同时也是 Apache RocketMQ 的活跃贡献者。

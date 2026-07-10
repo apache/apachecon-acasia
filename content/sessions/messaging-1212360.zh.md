@@ -1,25 +1,24 @@
 ---
-title: "RocketMQ 5 in Production at Meituan"
+title: "RocketMQ 5 在美团的生产实践"
 date: ""
 track: "messaging"
 presenters: "Jiangge Zhang"
 stype: "中文演讲"
 ---
 
-Meituan operates one of China's largest internal messaging platforms, originally built on an early Kafka fork—internally known as Mafka. Mafka served us well, but over time hit two hard limits. First, consumer scalability was capped by partition count: adding more consumer instances beyond the number of partitions yielded no throughput gain. Second, the client became a heavyweight artifact—carrying complex routing logic and a wire protocol that made cross-language support a maintenance nightmare.
+美团运营着中国最大的内部消息平台之一，它最初构建于一个早期 Kafka 分支之上——内部称为 Mafka。Mafka 曾很好地服务于我们，但随着时间推移，碰到了两个硬性瓶颈。其一，消费者的可扩展性受限于分区数量：当消费者实例数量超过分区数时，吞吐量不会有任何提升。其二，客户端变成了一个沉重的产物——携带复杂的路由逻辑和一套二进制通信协议（wire protocol），使得跨语言支持沦为运维噩梦。
 
-Apache RocketMQ 5 addressed both. The Pop consumption model manages message lifecycle per message rather than per partition, allowing a queue to be shared across consumers simultaneously—unlocking horizontal elasticity. The Proxy architecture, built on gRPC, enables lightweight, language-agnostic clients. But RocketMQ 5 out of the box could not cover what Meituan needs at scale: a unified global metadata layer and enterprise-grade traffic isolation across multiple deployment environments and business units.
+Apache RocketMQ 5 同时解决了这两个问题。Pop 消费模型按消息（而非按分区）管理消息生命周期，使一个队列可以同时被多个消费者共享——从而解锁横向弹性。基于 gRPC 构建的 Proxy 架构，带来了轻量级、与语言无关的客户端。但开箱即用的 RocketMQ 5 并不能覆盖美团在大规模场景下的需求：一套统一的全局元数据层，以及跨多个部署环境和业务单元的企业级流量隔离。
 
-This talk walks through the decisions and trade-offs behind our production adoption of RocketMQ 5 at Meituan. We cover three areas: first, how we designed a three-tier topology—tenant, placement group, and cluster—where placement groups serve as blast-radius boundaries within a tenant; second, how we implemented multiple modes of traffic isolation and routing entirely outside RocketMQ, so the broker stays a pure messaging primitive and isolation policies can evolve independently; third, how we built a single authoritative metadata service to keep all components in sync.
+本次演讲将梳理我们在美团将 RocketMQ 5 投入生产所做出的决策与权衡。我们涵盖三个方面：第一，我们如何设计一套三层拓扑——租户（tenant）、放置组（placement group）和集群（cluster），其中放置组作为租户内的爆炸半径边界；第二，我们如何完全在 RocketMQ 之外实现多种模式的流量隔离与路由，使 broker 保持为一个纯粹的消息原语，而隔离策略可以独立演进；第三，我们如何构建单一权威的元数据服务，让所有组件保持同步。
 
-We will ground the talk in real-world results from active production migration. Running at scale has validated our core architectural choices, but also surfaced hard problems we are still working through—from data-plane constraints in RocketMQ 5's replication model to capacity isolation challenges inherent in its shared commit log design. We hope these production learnings are useful to the broader RocketMQ community.
+我们将结合正在进行的生产迁移的真实结果来展开。大规模运行验证了我们的核心架构选型，但也暴露了一些我们仍在攻克的难题——从 RocketMQ 5 复制模型中的数据面约束，到其共享 commit log 设计中固有的容量隔离挑战。我们希望这些生产经验对更广泛的 RocketMQ 社区有所助益。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/52fa-400o400o1-PcJvReCZbyEkp2HS9DpDKt.jpg" width="200" /><br/>
 
-Jiangge Zhang: Software Architect at Meituan
+Jiangge Zhang：美团软件架构师
 
-Jiangge Zhang is an architect at Meituan, working on the messaging infrastructure team. He previously worked on SOA middleware and has been focused on large-scale distributed systems throughout his career.
-
+Jiangge Zhang 是美团的架构师，就职于消息基础设施团队。他此前从事 SOA 中间件工作，整个职业生涯都专注于大规模分布式系统。

@@ -1,25 +1,24 @@
 ---
-title: "Apache Pulsar multi-cluster disaster recovery and progressive traffic migration"
+title: "Apache Pulsar 多集群容灾与渐进式流量迁移"
 date: ""
 track: "messaging"
 presenters: "Dezhi LIU"
 stype: "中文演讲"
 ---
 
-Multi-cluster Pulsar operations face two core challenges: rapid disaster recovery failover in the event of a primary cluster failure, and smooth traffic migration during cluster relocation. This presentation introduces the design and implementation of a proxy, which unifies disaster recovery and scheduling through three key technologies—directed connection closure, native weighted routing, and a progressive migration engine—to achieve arbitrary-precision traffic allocation and zero-explosion-radius failover.
+多集群 Pulsar 的运维面临两大核心挑战：主集群故障时的快速容灾切换，以及集群搬迁期间的平滑流量迁移。本次分享介绍一款 proxy 的设计与实现，它通过三项关键技术——定向连接关闭、原生加权路由以及渐进式迁移引擎——将容灾与调度统一起来，从而实现任意精度的流量分配与零爆炸半径的故障切换。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/9fea-400o400o1-3hsAPnSmwMffEueB73VS6x.jpg" width="200" /><br/>
 
-Dezhi LIU: Ascentstream Technology co-founder
+Dezhi LIU：Ascentstream Technology 联合创始人
 
-● Co-founder of Anliu Technology
+● 安流科技联合创始人
 
-● 10+ years of experience in large-scale internet/financial infrastructure development
+● 10 年以上大规模互联网/金融基础架构开发经验
 
-● Former expert engineer at Tencent, successfully driving the large-scale deployment of Pulsar on Tencent Group's unified billing platform's message bus (capable of handling hundreds of billions of messages) and Tencent Cloud's financial-grade messaging service (TDMQ).
+● 前腾讯专家工程师，曾成功推动 Pulsar 在腾讯集团统一计费平台消息总线（可处理千亿级消息）以及腾讯云金融级消息服务（TDMQ）上的大规模落地
 
-● Apache Pulsar Committer.
-
+● Apache Pulsar Committer
