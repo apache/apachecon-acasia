@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Why Your RAG Benchmark Lies and How to Fix It with Kafka, Iceberg, Spark, and Solr - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>你的 RAG 基准测试为何在骗人——如何用 Kafka、Iceberg、Spark 和 Solr 修复它 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Why Your RAG Benchmark Lies and How to Fix It with Kafka, Iceberg, Spark, and Solr'/>
+    <meta property='og:title' content='你的 RAG 基准测试为何在骗人——如何用 Kafka、Iceberg、Spark 和 Solr 修复它'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,21 +118,21 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Why Your RAG Benchmark Lies and How to Fix It with Kafka, Iceberg, Spark, and Solr</h3>
+                    <h3 class="text-center">你的 RAG 基准测试为何在骗人——如何用 Kafka、Iceberg、Spark 和 Solr 修复它</h3>
                     <h4>Renaldi Gondosubroto</h4>
                     英文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/dataai.html">#dataai</a></li>
                 </header>
 
-                <p>Most Retrieval-Augmented Generation systems look impressive in demos and then quietly degrade in production. The problem is usually not the LLM. It is the data plane underneath it. Documents change, chunking strategies evolve, embeddings get regenerated inconsistently, retrieval quality drifts across domains, and teams often cannot reproduce why one version of the system answered well while another regressed.</p>
-<p>This session shows how to build a reproducible and debuggable RAG pipeline using Apache projects. I will walk through an end-to-end architecture where Apache Kafka captures live query and feedback streams, Apache Iceberg versions corpora, chunks, embeddings, and evaluation datasets with full time-travel support, Apache Spark performs large-scale chunking, enrichment, and offline retrieval evaluation, and Apache Solr provides hybrid retrieval across lexical and vector search. The focus is not on high-level diagrams. It is on the engineering details that determine whether a RAG system can actually be trusted.</p>
-<p>We will go deep into issues that are often skipped in AI talks but matter enormously in practice: schema design for chunk and embedding lineage, handling re-embedding without losing comparability, building evaluation datasets that do not accidentally leak, replaying historical queries against older retrieval states, diagnosing recall regressions by slice rather than relying on a single average score, combining BM25 and vector retrieval without masking failure modes, and using Iceberg snapshots to answer the most important production question of all: what exactly changed?</p>
-<p>The session includes a realistic failure scenario where a retrieval pipeline appears to improve overall metrics while becoming materially worse for a high-value query segment. I will show how to detect that regression, trace it back to a data change, and compare alternate retrieval configurations in a way that is reproducible and explainable. Attendees will leave with concrete design patterns for building AI systems whose behavior can be audited, benchmarked, replayed, and improved using open source Apache technologies rather than opaque vendor tooling.</p>
+                <p>大多数检索增强生成（RAG）系统在 Demo 中表现惊艳，到了生产环境却悄悄退化。问题通常不出在 LLM 上，而在于其底下的数据层。文档在变，分块（chunking）策略在演进，嵌入被不一致地重新生成，检索质量在不同领域间漂移，而团队往往无法复现&quot;为什么某个版本的系统回答得好，另一个版本却退化了&quot;。</p>
+<p>本次演讲将展示如何基于 Apache 项目构建可复现、可调试的 RAG 流水线。我将端到端地讲解一套架构：由 Apache Kafka 捕获实时查询与反馈流，Apache Iceberg 对语料、分块、嵌入及评测数据集进行带完整时间旅行（time-travel）支持的版本管理，Apache Spark 执行大规模分块、富化与离线检索评测，而 Apache Solr 则提供词法检索与向量检索的混合检索能力。重点不在高层架构图，而在于那些决定一个 RAG 系统是否真正可信的工程细节。</p>
+<p>我们将深入探讨那些在 AI 演讲中常被略过、但在实践中却至关重要的议题：分块与嵌入血缘（lineage）的模式设计、在不丢失可比性的前提下进行重新嵌入、构建不会意外泄露的评测数据集、针对更旧的检索状态回放历史查询、按切片（slice）诊断召回率退化而非依赖单一平均分、在不掩盖失败模式的前提下融合 BM25 与向量检索，以及如何用 Iceberg 快照回答生产中最关键的那个问题——到底什么变了？</p>
+<p>演讲中将包含一个贴近真实的失败场景：某条检索流水线表面上整体指标有所提升，却对一个高价值查询群体显著恶化。我将演示如何检测这种退化、将其追溯到某次数据变更，并以可复现、可解释的方式对比不同的检索配置。听众将带走具体的设计模式，用于构建行为可审计、可基准测试、可回放、可改进的 AI 系统，且这些系统由开源 Apache 技术驱动，而非依赖不透明的厂商工具。</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/d196-400o400o1-4S1r2xLWP4x4VWDwGkiPis.png" width="200" /><br/></p>
-<p>Renaldi Gondosubroto: Director at Cloudetica Solutions</p>
-<p>Renaldi Gondosubroto is the Director of Cloudetica Solutions, where he leads the building of open-source solutions on cloud platforms. He brings over a decade of software development experience and has been active within the research community; putting a lot of his research focus within IoT and virtual reality. He is the author of three technical books, including &ldquo;Using Amazon Bedrock: Learn to Architect, Secure and Optimize Generative AI Applications on AWS&rdquo; published by Wiley. Having spoken over 50 events and conferences, he has been an international speaker for the past six years, sharing his experiences and projects. He also currently is an AWS Subject Matter Expert (SME) for its Professional, Associate and Specialty Certifications and holds all 14 AWS certifications. He aims to build open-source solutions which can both help people achieve more value in what they do and promote best practices for fellow developers.</p>
+<p>Renaldi Gondosubroto：Cloudetica Solutions 总监</p>
+<p>Renaldi Gondosubroto 是 Cloudetica Solutions 的总监，负责带领团队在云平台上构建开源解决方案。他拥有十余年软件开发经验，活跃于研究社区，研究重心集中在物联网（IoT）与虚拟现实领域。他是三本技术著作的作者，其中包括由 Wiley 出版的《Using Amazon Bedrock: Learn to Architect, Secure and Optimize Generative AI Applications on AWS》。他在过去六年里担任国际演讲者，曾在超过 50 场活动和会议上分享经验与项目。他目前也是 AWS Professional、Associate 和 Specialty 认证的 AWS 主题专家（SME），并持有全部 14 项 AWS 认证。他的目标是构建既能帮助人们在所做的事情中创造更多价值、又能为同行开发者推广最佳实践的开源解决方案。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>How Post-4.0 Kafka Streams Reshapes Development and Operations - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>4.0 之后的 Kafka Streams 如何重塑开发与运维 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='How Post-4.0 Kafka Streams Reshapes Development and Operations'/>
+    <meta property='og:title' content='4.0 之后的 Kafka Streams 如何重塑开发与运维'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,41 +118,41 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">How Post-4.0 Kafka Streams Reshapes Development and Operations</h3>
+                    <h3 class="text-center">4.0 之后的 Kafka Streams 如何重塑开发与运维</h3>
                     <h4>PoAn Yang</h4>
                     中文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/streaming.html">#streaming</a></li>
                 </header>
 
-                <p>As Apache Kafka enters the 4.0 era, not only has the underlying architecture undergone historical transformations, but Kafka Streams has also experienced a series of evolutions in developer experience and operational mechanisms. This session will guide the audience through key updates beyond Kafka Streams 4.0, analyzing how these features fundamentally reshape the lifecycle of stateful streaming applications.</p>
-<p>The presentation will center around three core dimensions:</p>
+                <p>随着 Apache Kafka 步入 4.0 时代，不仅底层架构经历了历史性的变革，Kafka Streams 在开发者体验与运维机制上也经历了一系列演进。本次演讲将带领听众了解 Kafka Streams 4.0 之后的关键更新，分析这些特性如何从根本上重塑有状态流应用的生命周期。</p>
+<p>本次演讲将围绕三个核心维度展开：</p>
 <ol>
 <li>
-<p>Topology Optimization &amp; Data Mastery
-We will explore how to write more lightweight and expressive DSL topologies. With KIP-1104, developers can extract foreign keys directly from either the Key or Value, drastically reducing unnecessary data duplication and state store overhead. Additionally, we will analyze KIP-1271 and KIP-1285 (Headers-Aware State Stores). Previously, to prevent the loss of metadata like Trace IDs or tenant tags within stateful nodes, developers were often forced to &ldquo;cram&rdquo; this system information into pure business payloads (the Value), resulting in bloated data structures and redundant code. These two proposals finally enable state stores to natively retain Headers, allowing developers to cleanly decouple business logic from system information.</p>
+<p>拓扑优化与数据驾驭
+我们将探讨如何编写更轻量、更具表达力的 DSL 拓扑。借助 KIP-1104，开发者可以直接从 Key 或 Value 中提取外键（foreign key），大幅减少不必要的数据冗余和 state store 开销。此外，我们还会分析 KIP-1271 和 KIP-1285（支持 Headers 的 State Store，Headers-Aware State Stores）。此前，为了防止 Trace ID 或租户标签等元数据在有状态节点中丢失，开发者往往不得不把这些系统信息&quot;硬塞&quot;进纯业务负载（Value）中，导致数据结构臃肿、代码冗余。这两个提案最终让 state store 能够原生保留 Headers，使开发者可以将业务逻辑与系统信息干净地解耦。</p>
 </li>
 <li>
-<p>Resilience &amp; E2E Observability
-In production environments, network fluctuations and transient failures are inevitable. We will demonstrate how to utilize the native RETRY mechanism in ProductionExceptionHandler introduced by KIP-1065 to build self-healing processing pipelines. Following this, we will combine KIP-1112 (Custom Processor Wrapping) with headers-aware state stores to showcase how OpenTelemetry tracing logic can be seamlessly injected across the entire topology, achieving true End-to-End (E2E) Tracing across stateful nodes.</p>
+<p>弹性与端到端可观测性
+在生产环境中，网络波动和瞬时故障在所难免。我们将演示如何利用 KIP-1065 在 ProductionExceptionHandler 中引入的原生 RETRY 机制，构建具备自愈能力的处理管道。随后，我们将把 KIP-1112（自定义 Processor 包装，Custom Processor Wrapping）与支持 Headers 的 state store 结合起来，展示如何在整个拓扑中无缝注入 OpenTelemetry tracing 逻辑，在有状态节点之间实现真正的端到端（E2E）Tracing。</p>
 </li>
 <li>
-<p>Seamless Scaling &amp; Operations
-Finally, we will address the operational pain points of scaling large clusters. We will introduce how KIP-1106 (Duration-Based Offset Reset) helps developers precisely control the data replay range when dealing with infinite-retention topics in Tiered Storage, avoiding meaningless computational waste. We will also dive into KIP-1071 (Streams Rebalance Protocol), exploring why the previous Cooperative Rebalancing still encountered &ldquo;Sync Barrier&rdquo; wait latencies and processing-timeout-induced &ldquo;Rebalance Storms&rdquo; in large clusters. By dissecting the newly introduced server-side driven assignment and independent Background Heartbeat mechanism in KIP-1071, we will show how Kafka 4.0 completely eradicates performance jitter during scaling, leading developers into an era of truly seamless background scaling.</p>
+<p>无缝扩缩容与运维
+最后，我们将探讨大规模集群扩缩容的运维痛点。我们会介绍 KIP-1106（基于时长的 Offset 重置，Duration-Based Offset Reset）如何帮助开发者在 Tiered Storage 中处理无限保留（infinite-retention）的 topic 时精确控制数据重放范围，避免无意义的算力浪费。我们还会深入讲解 KIP-1071（Streams Rebalance 协议，Streams Rebalance Protocol），探究为什么此前的 Cooperative Rebalancing 在大集群中仍会出现&quot;Sync Barrier&quot;等待时延，以及因处理超时而引发的&quot;Rebalance 风暴&quot;。通过剖析 KIP-1071 中新引入的服务端驱动分配（server-side driven assignment）与独立的 Background Heartbeat 机制，我们将展示 Kafka 4.0 如何彻底消除扩缩容过程中的性能抖动，带领开发者迈入真正无缝的后台扩缩容时代。</p>
 </li>
 </ol>
-<p>Target Audience:
-Whether you are a data engineer striving to streamline topology code, an architect focused on system tracing, or an SRE pursuing zero-downtime scaling, attendees will gain practical architectural insights and code examples from this session to fully master the next-generation capabilities of Kafka Streams.</p>
-<p>Key Takeaways:</p>
+<p>目标听众：
+无论你是力求精简拓扑代码的数据工程师、专注于系统追踪的架构师，还是追求零停机扩缩容的 SRE，听众都能从本次演讲中获得实用的架构洞见与代码示例，全面掌握 Kafka Streams 的下一代能力。</p>
+<p>核心收获：</p>
 <ul>
-<li>Understand how to use the new APIs to eliminate redundant conversion logic through practical DSL code examples, allowing streaming applications to return to a clean, maintainable business essence.</li>
-<li>Master how to elegantly integrate End-to-End (E2E) Tracing and native error retry mechanisms without polluting business code, elevating system observability in production environments.</li>
-<li>Gain a thorough understanding of the underlying mechanisms of server-side rebalancing and independent heartbeat threads, empowering your team to make more confident architectural decisions during future Kafka upgrades, routine deployments, or large-scale cluster expansions.</li>
+<li>通过实际的 DSL 代码示例，了解如何使用新 API 消除冗余的转换逻辑，让流式应用回归干净、可维护的业务本质。</li>
+<li>掌握如何在不污染业务代码的前提下，优雅地集成端到端（E2E）Tracing 与原生错误重试机制，提升生产环境下的系统可观测性。</li>
+<li>深入理解服务端 rebalance 与独立心跳线程的底层机制，让团队在未来 Kafka 升级、日常部署或大规模集群扩展时，能够做出更有底气的架构决策。</li>
 </ul>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/ffab-400o400o1-BdC4HcaDRfMRLrxR8onB4r.png" width="200" /><br/></p>
-<p>PoAn Yang: ASF, Apache Kafka / YuniKorn committer</p>
-<p>I am an open-source software enthusiast, primarily focusing on Apache Kafka. I am among the top 20 contributors, and my work involves enhancing the AsyncKafkaConsumer and developing the next-generation group coordinator.</p>
+<p>PoAn Yang：ASF，Apache Kafka / YuniKorn committer</p>
+<p>我是一名开源软件爱好者，主要专注于 Apache Kafka。我位列贡献者前 20 名，工作内容包括增强 AsyncKafkaConsumer 以及开发下一代 group coordinator。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

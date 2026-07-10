@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>We tried DPDK for network but failed. Why and what we have learned from this? - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>我们尝试用 DPDK 加速网络却失败了：原因以及我们的经验教训 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='We tried DPDK for network but failed. Why and what we have learned from this?'/>
+    <meta property='og:title' content='我们尝试用 DPDK 加速网络却失败了：原因以及我们的经验教训'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,19 +118,19 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">We tried DPDK for network but failed. Why and what we have learned from this?</h3>
+                    <h3 class="text-center">我们尝试用 DPDK 加速网络却失败了：原因以及我们的经验教训</h3>
                     <h4>Leonid Borchuk</h4>
                     英文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/olap.html">#olap</a></li>
                 </header>
 
-                <p>The CPU frequency is practically not growing, but everything else: network/ssd/ data volumes are growing exponentially. This poses new challenges for the databases: reduce CPU costs for working with the infrastructure. The bottleneck of MPP systems is the network. What happens if the network in Greenplum becomes 10 times faster? We accelerated 5 times. Then we tried DPDK, but realized that we couldn&rsquo;t move forward without serious core refinement. I would share what happened to the database when the network accelerated 5 times. And also why DPDK didn&rsquo;t start.
-What conclusions have we learned and what are we planning to do next (spoiler: all new changes will be in Apache Cloudberry).</p>
+                <p>CPU 频率实际上已经不再增长，但其他一切——网络、SSD、数据量——都在呈指数级增长。这给数据库带来了新的挑战：降低与基础设施打交道时的 CPU 开销。MPP 系统的瓶颈在于网络。如果 Greenplum 中的网络变快 10 倍会发生什么？我们实现了 5 倍的加速。随后我们尝试了 DPDK，却意识到如果不做深入的内核改进，就无法继续推进。我将分享当网络加速 5 倍后，数据库发生了什么，以及为什么 DPDK 没能跑起来。
+我们从中得出了哪些结论，以及接下来打算做什么（剧透：所有新变化都将出现在 Apache Cloudberry 中）。</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/429e-400o400o1-X15FYUcE9UQzxFpN9AkBKZ.png" width="200" /><br/></p>
-<p>Leonid Borchuk: Developer at Yandex Cloud, Moscow. Apache Cloudberry commiter</p>
-<p>Team lead of the MPP postgres development team at Yandex.Cloud. He started his career with the administration of large commercial universal and analytical databases. But now he&rsquo;s finally writing his own. Apache Cloudberry commiter.</p>
+<p>Leonid Borchuk：Yandex Cloud（莫斯科）开发者，Apache Cloudberry committer</p>
+<p>Yandex Cloud MPP PostgreSQL 开发团队的团队负责人。他的职业生涯始于大型商用通用数据库和分析数据库的管理，而如今他终于开始编写自己的数据库。Apache Cloudberry committer。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

@@ -135,9 +135,9 @@
     </item>
     <item>
       <title>Apache NIFI , what been updated since 2025</title>
-      <link>/sessions/undefined-1185186.html</link>
+      <link>/sessions/iot-1185186.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/undefined-1185186.html</guid>
+      <guid>/sessions/iot-1185186.html</guid>
       <description>&lt;p&gt;I will introduce the recent improvements in Apache NIFI since 2025, including new features and how enterprise use Apache NIFI to help their daily works&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/7f2b-400o400o1-nuJLtj28mqNhmWTXfrjWMp.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yan Liu: Cloudera&lt;/p&gt;&#xA;&lt;p&gt;Cloudera Solution Engineering . Apache Hive and Apache Flink Contributor. Over 10 Years of Practical Experience in Big Data and my current focus is real-time data warehouse using Apache Flink, Apache Hive, and Apache Iceberg.&lt;/p&gt;</description>
     </item>
     <item>
@@ -513,9 +513,9 @@
     </item>
     <item>
       <title>From Time Series Data to Specialized Data Management</title>
-      <link>/sessions/undefined-1213290.html</link>
+      <link>/sessions/iot-1213290.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/undefined-1213290.html</guid>
+      <guid>/sessions/iot-1213290.html</guid>
       <description>&lt;p&gt;This session focuses on the evolution of data management from time-series data to specialized data. As IoT, scientific computing, and intelligent systems continue to grow, data management is expanding from classic time-series workloads to more complex data types, including spatiotemporal, gridded, remote sensing, meteorological, log, and multimodal data. The session will discuss the new challenges these data bring to storage, indexing, querying, and unified access, and explore emerging approaches such as format-aware queries, cross-file organization, and database–file system integration.&lt;/p&gt;</description>
     </item>
     <item>
@@ -681,9 +681,9 @@
     </item>
     <item>
       <title>openvela AI Agent: Building the Next-Generation Proactive Intelligent Hardware Ecosystem</title>
-      <link>/sessions/undefined-1213309.html</link>
+      <link>/sessions/iot-1213309.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/undefined-1213309.html</guid>
+      <guid>/sessions/iot-1213309.html</guid>
       <description>&lt;p&gt;AI Agents are moving from the cloud to edge devices. openvela is an open-source operating system built on Apache NuttX, deployed on over 100 million devices. This talk introduces the openvela lightweight native AI Agent engine — a pure C implementation requiring as little as 100KB RAM — enabling watches, speakers, glasses, earbuds, and other AI hardware to make autonomous decisions and deliver proactive services.Outline:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The Trend: AI Agents Moving from Cloud to Edge&lt;/li&gt;&#xA;&lt;li&gt;openvela AI Agent Architecture Deep Dive&lt;/li&gt;&#xA;&lt;li&gt;Real-World Scenario Demonstrations&lt;/li&gt;&#xA;&lt;li&gt;Open Source Ecosystem and Future Outlook&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2b2f-400o400o1-auhPijapQK6VAvrhyzUUh8.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -750,11 +750,11 @@
       <description>&lt;p&gt;The Apache Incubator is the gateway for projects joining the Apache Software Foundation, but for many new Podlings the real incubation journey involves much more than following official documentation.&lt;/p&gt;&#xA;&lt;p&gt;In practice, many important details—such as working effectively with mentors, bootstrapping Apache infrastructure, and navigating the first release vote—are often learned through experience rather than documentation.&lt;/p&gt;&#xA;&lt;p&gt;In this session, a PPMC member of Apache Fesod (Incubating) will share practical lessons learned from running a Podling in the real world. We will discuss how to evaluate whether a project is ready for the ASF, how to collaborate with mentors, how to bootstrap essential ASF infrastructure, and what really happens during a Podling’s first Apache release.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Rust 语言 与 AI Coding</title>
+      <title>Rust and AI Coding</title>
       <link>/sessions/rust-1240155.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/sessions/rust-1240155.html</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;为什么说 Rust 语言是 AI Coding 最佳语言&lt;/li&gt;&#xA;&lt;li&gt;我的 AI Coding 与写作工作流&lt;/li&gt;&#xA;&lt;li&gt;探讨开源社区目前面临的 AI Coding 与 传统手艺的矛盾与未来&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/a62e-400o400o1-MmYrJ4rptX8mPxcsmY9uWC.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;汉东 张: Independent Consultant, Technical Writer&lt;/p&gt;&#xA;&lt;p&gt;Senior Independent Rust Consultant, Former Huawei Advisor, Rust Evangelist in the Chinese Community, Author of The Way of Rust Programming,（《Rust编程之道》）and Co-organizer of RustChinaConf.&lt;/p&gt;</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Why Rust is the best language for AI coding.&lt;/li&gt;&#xA;&lt;li&gt;My AI coding and writing workflow.&lt;/li&gt;&#xA;&lt;li&gt;Exploring the contradiction and future between AI coding and traditional craftsmanship currently faced by the open-source community.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/a62e-400o400o1-MmYrJ4rptX8mPxcsmY9uWC.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Handong Zhang: Independent Consultant, Technical Writer&lt;/p&gt;&#xA;&lt;p&gt;Senior Independent Rust Consultant, Former Huawei Advisor, Rust Evangelist in the Chinese Community, Author of The Way of Rust Programming,（《Rust编程之道》）and Co-organizer of RustChinaConf.&lt;/p&gt;</description>
     </item>
     <item>
       <title>RustFS Scaling Laws: Performance Analysis and Insights from a more 200-Node Distributed Cluster</title>
@@ -884,9 +884,9 @@
     </item>
     <item>
       <title>Unifying Robotic Data: Managing ROS Messages with Apache TsFile on the Edge</title>
-      <link>/sessions/undefined-1213890.html</link>
+      <link>/sessions/iot-1213890.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/undefined-1213890.html</guid>
+      <guid>/sessions/iot-1213890.html</guid>
       <description>&lt;p&gt;The Robot Operating System (ROS) is the de facto standard for robotics development, yet efficiently managing the vast amounts of time-series data generated on edge devices remains a challenge. This session introduces a new open-source tool that bridges the ROS ecosystem with the Apache big data world. We will demonstrate how to convert ROS messages directly into Apache TsFile, a high-performance, columnar file format designed for IoT time-series data. This approach enables efficient local storage, compression, and seamless data synchronization with Apache IoTDB in the cloud. Attendees will learn about the tool&amp;rsquo;s architecture, see a live demo of edge data collection from a simulated robot, and understand how this pattern can be extended to build a complete edge-to-cloud data pipeline for robotics and industrial IoT.&lt;/p&gt;</description>
     </item>
     <item>
@@ -940,9 +940,9 @@
     </item>
     <item>
       <title>When MQTT Meets Kafka: Evolving IoT Infrastructure from Ingestion Layer to Data Layer</title>
-      <link>/sessions/undefined-1196529.html</link>
+      <link>/sessions/iot-1196529.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/undefined-1196529.html</guid>
+      <guid>/sessions/iot-1196529.html</guid>
       <description>&lt;p&gt;Data generated by IoT devices is being consumed by an ever-growing number of downstream systems — real-time analytics, model training, AI agent decision-making. The familiar engineering playbook is to let MQTT handle device connectivity and Kafka handle the data pipeline, gluing the two together with a bridge layer. This architecture works well enough in traditional IoT scenarios. But when the number of downstream consumers grows from one to five, when the same data needs to feed both a training pipeline and a real-time inference service simultaneously, the cracks in the bridge layer become hard to ignore: unpredictable latency, silent data loss, broken backpressure propagation.&lt;/p&gt;</description>
     </item>
     <item>

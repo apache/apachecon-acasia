@@ -74,28 +74,16 @@
                 href="/zh/search/search.html"
                 />
   </url><url>
-    <loc>/zh/sessions/streaming-1199793.html</loc>
+    <loc>/zh/sessions/streaming-1200805.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/streaming-1199793.html"
+                href="/sessions/streaming-1200805.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/streaming-1199793.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/general-1194670.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/general-1194670.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/general-1194670.html"
+                href="/zh/sessions/streaming-1200805.html"
                 />
   </url><url>
     <loc>/zh/tracks/agenticcoding.html</loc>
@@ -134,18 +122,6 @@
                 href="/zh/sessions/agenticcoding-1212139.html"
                 />
   </url><url>
-    <loc>/zh/sessions/agenticcoding-1213218.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/agenticcoding-1213218.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/agenticcoding-1213218.html"
-                />
-  </url><url>
     <loc>/zh/sessions/messaging-1212296.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -170,28 +146,52 @@
                 href="/zh/sessions/incubator-1213722.html"
                 />
   </url><url>
-    <loc>/zh/sessions/dataai-1213652.html</loc>
+    <loc>/zh/sessions/messaging-1203579.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/dataai-1213652.html"
+                href="/sessions/messaging-1203579.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/dataai-1213652.html"
+                href="/zh/sessions/messaging-1203579.html"
                 />
   </url><url>
-    <loc>/zh/sessions/aiinfra-1214790.html</loc>
+    <loc>/zh/sessions/dataops-1212212.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/aiinfra-1214790.html"
+                href="/sessions/dataops-1212212.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/aiinfra-1214790.html"
+                href="/zh/sessions/dataops-1212212.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/community-1208527.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1208527.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1208527.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/aiinfra-1214842.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/aiinfra-1214842.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/aiinfra-1214842.html"
                 />
   </url><url>
     <loc>/zh/sessions/datastorage-1199721.html</loc>
@@ -218,6 +218,18 @@
                 href="/zh/sessions/observability-1195519.html"
                 />
   </url><url>
+    <loc>/zh/sessions/datalake-1213358.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1213358.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1213358.html"
+                />
+  </url><url>
     <loc>/zh/sessions/general-1205364.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -228,18 +240,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/general-1205364.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataai-1186507.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1186507.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1186507.html"
                 />
   </url><url>
     <loc>/zh/sessions/streaming-1210323.html</loc>
@@ -278,40 +278,28 @@
                 href="/zh/sessions/incubator-1214505.html"
                 />
   </url><url>
-    <loc>/zh/sessions/dataops-1198216.html</loc>
+    <loc>/zh/sessions/olap-1212858.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/dataops-1198216.html"
+                href="/sessions/olap-1212858.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/dataops-1198216.html"
+                href="/zh/sessions/olap-1212858.html"
                 />
   </url><url>
-    <loc>/zh/sessions/datalake-1211108.html</loc>
+    <loc>/zh/sessions/iot-1185186.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/datalake-1211108.html"
+                href="/sessions/iot-1185186.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/datalake-1211108.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/undefined-1185186.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/undefined-1185186.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/undefined-1185186.html"
+                href="/zh/sessions/iot-1185186.html"
                 />
   </url><url>
     <loc>/zh/sessions/general-1213363.html</loc>
@@ -350,16 +338,28 @@
                 href="/zh/sessions/messaging-1212333.html"
                 />
   </url><url>
-    <loc>/zh/sessions/messaging-1212597.html</loc>
+    <loc>/zh/sessions/datastorage-1211330.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/messaging-1212597.html"
+                href="/sessions/datastorage-1211330.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/messaging-1212597.html"
+                href="/zh/sessions/datastorage-1211330.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/messaging-1213289.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/messaging-1213289.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/messaging-1213289.html"
                 />
   </url><url>
     <loc>/zh/sessions/messaging-1196418.html</loc>
@@ -386,196 +386,16 @@
                 href="/zh/sessions/general-1215238.html"
                 />
   </url><url>
-    <loc>/zh/sessions/dataai-1214460.html</loc>
+    <loc>/zh/sessions/datastorage-1202774.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/dataai-1214460.html"
+                href="/sessions/datastorage-1202774.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/dataai-1214460.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/community-1210509.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1210509.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1210509.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/incubator-1210256.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/incubator-1210256.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/incubator-1210256.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1208879.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1208879.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1208879.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1214197.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1214197.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1214197.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/incubator-1212002.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/incubator-1212002.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/incubator-1212002.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/aiinfra-1208628.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/aiinfra-1208628.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/aiinfra-1208628.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataai-1207761.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1207761.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1207761.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1212404.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1212404.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1212404.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataops-1214632.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataops-1214632.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataops-1214632.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/aiinfra-1214534.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/aiinfra-1214534.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/aiinfra-1214534.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataai-1213409.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1213409.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1213409.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1207558.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1207558.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1207558.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/olap-1211106.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/olap-1211106.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/olap-1211106.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/messaging-1209406.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/messaging-1209406.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/messaging-1209406.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1212438.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1212438.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1212438.html"
+                href="/zh/sessions/datastorage-1202774.html"
                 />
   </url><url>
     <loc>/zh/index.html</loc>
@@ -588,42 +408,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/index.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/agenticcoding-1212968.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/agenticcoding-1212968.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/agenticcoding-1212968.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/messaging-1203579.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/messaging-1203579.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/messaging-1203579.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/aiinfra-1212762.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/aiinfra-1212762.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/aiinfra-1212762.html"
                 />
   </url><url>
     <loc>/zh/tracks/dataai.html</loc>
@@ -650,42 +434,6 @@
                 href="/zh/tracks/dataops.html"
                 />
   </url><url>
-    <loc>/zh/sessions/olap-1210336.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/olap-1210336.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/olap-1210336.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-1191917.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/streaming-1191917.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-1191917.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/microservice-1196673.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/microservice-1196673.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/microservice-1196673.html"
-                />
-  </url><url>
     <loc>/zh/sessions/rust-1213258.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -698,160 +446,16 @@
                 href="/zh/sessions/rust-1213258.html"
                 />
   </url><url>
-    <loc>/zh/sessions/olap-1212858.html</loc>
+    <loc>/zh/sessions/streaming-1212230.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/olap-1212858.html"
+                href="/sessions/streaming-1212230.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/olap-1212858.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataai-1213757.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1213757.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1213757.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataops-1214716.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataops-1214716.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataops-1214716.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datastorage-1213232.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datastorage-1213232.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datastorage-1213232.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/microservice-1212847.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/microservice-1212847.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/microservice-1212847.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1213297.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1213297.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1213297.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1211745.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1211745.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1211745.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/messaging-1213289.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/messaging-1213289.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/messaging-1213289.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/rust-1211660.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/rust-1211660.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/rust-1211660.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-1211523.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/streaming-1211523.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-1211523.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1206024.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1206024.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1206024.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/community-1211847.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1211847.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1211847.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/microservice-1206998.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/microservice-1206998.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/microservice-1206998.html"
+                href="/zh/sessions/streaming-1212230.html"
                 />
   </url><url>
     <loc>/zh/sessions/streaming-1213500.html</loc>
@@ -876,150 +480,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/datalake-1209515.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataops-1207567.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataops-1207567.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataops-1207567.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-1209049.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/streaming-1209049.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-1209049.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1212598.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1212598.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1212598.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataai-1214199.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1214199.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1214199.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1203260.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1203260.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1203260.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataai-1185667.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1185667.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1185667.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/community-1199603.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1199603.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1199603.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/olap-1214229.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/olap-1214229.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/olap-1214229.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataops-1212167.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataops-1212167.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataops-1212167.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/undefined-1213290.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/undefined-1213290.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/undefined-1213290.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datastorage-1212544.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datastorage-1212544.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datastorage-1212544.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/rust-1209378.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/rust-1209378.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/rust-1209378.html"
                 />
   </url><url>
     <loc>/zh/sessions/streaming-1213708.html</loc>
@@ -1070,66 +530,6 @@
                 href="/zh/guide/index.html"
                 />
   </url><url>
-    <loc>/zh/sessions/keynote-1228764.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/keynote-1228764.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/keynote-1228764.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datastorage-1211771.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datastorage-1211771.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datastorage-1211771.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datastorage-1202774.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datastorage-1202774.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datastorage-1202774.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-1200805.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/streaming-1200805.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-1200805.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataai-1207386.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1207386.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1207386.html"
-                />
-  </url><url>
     <loc>/zh/sessions/datalake-1206028.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1142,16 +542,28 @@
                 href="/zh/sessions/datalake-1206028.html"
                 />
   </url><url>
-    <loc>/zh/sessions/olap-1212540.html</loc>
+    <loc>/zh/sessions/datalake-1212641.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/olap-1212540.html"
+                href="/sessions/datalake-1212641.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/olap-1212540.html"
+                href="/zh/sessions/datalake-1212641.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1206024.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1206024.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1206024.html"
                 />
   </url><url>
     <loc>/zh/sessions/olap-1211809.html</loc>
@@ -1166,6 +578,18 @@
                 href="/zh/sessions/olap-1211809.html"
                 />
   </url><url>
+    <loc>/zh/sessions/olap-1212540.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/olap-1212540.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/olap-1212540.html"
+                />
+  </url><url>
     <loc>/zh/tracks/incubator.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1176,18 +600,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tracks/incubator.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/olap-1186419.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/olap-1186419.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/olap-1186419.html"
                 />
   </url><url>
     <loc>/zh/sessions/streaming-1207387.html</loc>
@@ -1214,66 +626,6 @@
                 href="/zh/tracks/keynote.html"
                 />
   </url><url>
-    <loc>/zh/sessions/datalake-1210488.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1210488.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1210488.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1212302.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1212302.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1212302.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-1210252.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/streaming-1210252.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-1210252.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/observability-1206017.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/observability-1206017.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/observability-1206017.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1206542.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1206542.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1206542.html"
-                />
-  </url><url>
     <loc>/zh/tracks/olap.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1298,76 +650,28 @@
                 href="/zh/sessions/aiinfra-1212172.html"
                 />
   </url><url>
-    <loc>/zh/sessions/rust-1241357.html</loc>
+    <loc>/zh/sessions/aiinfra-1214790.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/rust-1241357.html"
+                href="/sessions/aiinfra-1214790.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/rust-1241357.html"
+                href="/zh/sessions/aiinfra-1214790.html"
                 />
   </url><url>
-    <loc>/zh/sessions/aiinfra-1214842.html</loc>
+    <loc>/zh/sessions/iot-1213309.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/aiinfra-1214842.html"
+                href="/sessions/iot-1213309.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/aiinfra-1214842.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/undefined-1213309.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/undefined-1213309.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/undefined-1213309.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1198219.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1198219.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1198219.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datastorage-1209471.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datastorage-1209471.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datastorage-1209471.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/webserver-1213943.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/webserver-1213943.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/webserver-1213943.html"
+                href="/zh/sessions/iot-1213309.html"
                 />
   </url><url>
     <loc>/zh/sessions/datastorage-1214278.html</loc>
@@ -1382,40 +686,16 @@
                 href="/zh/sessions/datastorage-1214278.html"
                 />
   </url><url>
-    <loc>/zh/sessions/messaging-1212359.html</loc>
+    <loc>/zh/sessions/olap-1186419.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/messaging-1212359.html"
+                href="/sessions/olap-1186419.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/messaging-1212359.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataai-1210506.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1210506.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1210506.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/messaging-1211234.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/messaging-1211234.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/messaging-1211234.html"
+                href="/zh/sessions/olap-1186419.html"
                 />
   </url><url>
     <loc>/zh/sessions/messaging-1212360.html</loc>
@@ -1428,18 +708,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/messaging-1212360.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/incubator-1187157.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/incubator-1187157.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/incubator-1187157.html"
                 />
   </url><url>
     <loc>/zh/tracks/rust.html</loc>
@@ -1478,30 +746,6 @@
                 href="/zh/sessions/rust-1213284.html"
                 />
   </url><url>
-    <loc>/zh/sessions/datastorage-1212205.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datastorage-1212205.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datastorage-1212205.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datastorage-1213677.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datastorage-1213677.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datastorage-1213677.html"
-                />
-  </url><url>
     <loc>/zh/search/index.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1512,18 +756,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/search/index.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1213484.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1213484.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1213484.html"
                 />
   </url><url>
     <loc>/zh/sessions/microservice-1213252.html</loc>
@@ -1550,124 +782,16 @@
                 href="/zh/sessions/index.html"
                 />
   </url><url>
-    <loc>/zh/sessions/agenticcoding-1207762.html</loc>
+    <loc>/zh/sessions/messaging-1209406.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/agenticcoding-1207762.html"
+                href="/sessions/messaging-1209406.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/agenticcoding-1207762.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/rust-1213228.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/rust-1213228.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/rust-1213228.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/community-1213694.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1213694.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1213694.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datalake-1212641.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1212641.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1212641.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datastorage-1211330.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datastorage-1211330.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datastorage-1211330.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-1212230.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/streaming-1212230.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-1212230.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/community-1212116.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1212116.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1212116.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/community-1208527.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1208527.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1208527.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/community-1196034.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1196034.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1196034.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/community-1205782.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1205782.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1205782.html"
+                href="/zh/sessions/messaging-1209406.html"
                 />
   </url><url>
     <loc>/zh/tracks/index.html</loc>
@@ -1682,78 +806,6 @@
                 href="/zh/tracks/index.html"
                 />
   </url><url>
-    <loc>/zh/sessions/datalake-1198215.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1198215.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1198215.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datastorage-1214223.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datastorage-1214223.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datastorage-1214223.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-1199628.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/streaming-1199628.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-1199628.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/undefined-1213890.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/undefined-1213890.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/undefined-1213890.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datastorage-1186318.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datastorage-1186318.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datastorage-1186318.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataai-1206062.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1206062.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1206062.html"
-                />
-  </url><url>
     <loc>/zh/venue_travel/index.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1764,30 +816,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/venue_travel/index.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/agenticcoding-1185936.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/agenticcoding-1185936.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/agenticcoding-1185936.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/olap-1195516.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/olap-1195516.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/olap-1195516.html"
                 />
   </url><url>
     <loc>/zh/tracks/webserver.html</loc>
@@ -1802,124 +830,28 @@
                 href="/zh/tracks/webserver.html"
                 />
   </url><url>
-    <loc>/zh/sessions/datalake-1213358.html</loc>
+    <loc>/zh/sessions/agenticcoding-1213218.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/datalake-1213358.html"
+                href="/sessions/agenticcoding-1213218.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/datalake-1213358.html"
+                href="/zh/sessions/agenticcoding-1213218.html"
                 />
   </url><url>
-    <loc>/zh/sessions/community-1241720.html</loc>
+    <loc>/zh/sessions/webserver-1213943.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/community-1241720.html"
+                href="/sessions/webserver-1213943.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/community-1241720.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/community-1214785.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1214785.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1214785.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/undefined-1196529.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/undefined-1196529.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/undefined-1196529.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/datastorage-1213149.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datastorage-1213149.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datastorage-1213149.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataops-1210676.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataops-1210676.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataops-1210676.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataai-1192012.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1192012.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1192012.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataops-1212212.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataops-1212212.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataops-1212212.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/messaging-1211843.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/messaging-1211843.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/messaging-1211843.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataai-1210452.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1210452.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1210452.html"
+                href="/zh/sessions/webserver-1213943.html"
                 />
   </url><url>
     <loc>/zh/venue_travel/travel.html</loc>
@@ -1934,6 +866,282 @@
                 href="/zh/venue_travel/travel.html"
                 />
   </url><url>
+    <loc>/zh/sessions/community-1210509.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1210509.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1210509.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1214197.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1214197.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1214197.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1208879.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1208879.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1208879.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataops-1207567.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataops-1207567.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataops-1207567.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1210488.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1210488.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1210488.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1185667.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1185667.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1185667.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/iot-1213290.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/iot-1213290.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/iot-1213290.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1214199.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1214199.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1214199.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/streaming-1209049.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/streaming-1209049.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-1209049.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1212598.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1212598.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1212598.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1203260.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1203260.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1203260.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/community-1199603.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1199603.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1199603.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/olap-1214229.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/olap-1214229.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/olap-1214229.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datastorage-1212544.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datastorage-1212544.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datastorage-1212544.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataops-1212167.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataops-1212167.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataops-1212167.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataops-1214632.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataops-1214632.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataops-1214632.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/community-1241720.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1241720.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1241720.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/iot-1196529.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/iot-1196529.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/iot-1196529.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/community-1214785.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1214785.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1214785.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datastorage-1213149.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datastorage-1213149.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datastorage-1213149.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datastorage-1212205.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datastorage-1212205.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datastorage-1212205.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/community-1196034.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1196034.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1196034.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/incubator-1210256.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/incubator-1210256.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/incubator-1210256.html"
+                />
+  </url><url>
     <loc>/zh/tracks/iot.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1944,6 +1152,198 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tracks/iot.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/community-1205782.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1205782.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1205782.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1212404.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1212404.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1212404.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/agenticcoding-1207762.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/agenticcoding-1207762.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/agenticcoding-1207762.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/agenticcoding-1212968.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/agenticcoding-1212968.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/agenticcoding-1212968.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1186507.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1186507.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1186507.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/aiinfra-1214534.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/aiinfra-1214534.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/aiinfra-1214534.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/aiinfra-1212762.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/aiinfra-1212762.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/aiinfra-1212762.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/aiinfra-1208628.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/aiinfra-1208628.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/aiinfra-1208628.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1207558.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1207558.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1207558.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1213757.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1213757.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1213757.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/streaming-1211523.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/streaming-1211523.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-1211523.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/general-1194670.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/general-1194670.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/general-1194670.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1214460.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1214460.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1214460.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/agenticcoding-1185936.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/agenticcoding-1185936.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/agenticcoding-1185936.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/community-1213694.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1213694.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1213694.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1212302.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1212302.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1212302.html"
                 />
   </url><url>
     <loc>/zh/tracks/community.html</loc>
@@ -1958,6 +1358,18 @@
                 href="/zh/tracks/community.html"
                 />
   </url><url>
+    <loc>/zh/sessions/community-1211847.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1211847.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1211847.html"
+                />
+  </url><url>
     <loc>/zh/tracks/observability.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1970,6 +1382,42 @@
                 href="/zh/tracks/observability.html"
                 />
   </url><url>
+    <loc>/zh/sessions/dataai-1213409.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1213409.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1213409.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datastorage-1213677.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datastorage-1213677.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datastorage-1213677.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1198215.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1198215.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1198215.html"
+                />
+  </url><url>
     <loc>/zh/tracks/streaming.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1980,6 +1428,114 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tracks/streaming.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1213652.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1213652.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1213652.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1213297.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1213297.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1213297.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1207386.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1207386.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1207386.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/microservice-1212847.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/microservice-1212847.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/microservice-1212847.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/messaging-1212597.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/messaging-1212597.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/messaging-1212597.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/keynote-1228764.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1228764.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1228764.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1192012.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1192012.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1192012.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/community-1212116.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1212116.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1212116.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/rust-1209378.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/rust-1209378.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/rust-1209378.html"
                 />
   </url><url>
     <loc>/zh/tracks/aiinfra.html</loc>
@@ -2006,6 +1562,114 @@
                 href="/zh/tracks/5minstalk.html"
                 />
   </url><url>
+    <loc>/zh/sessions/olap-1210336.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/olap-1210336.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/olap-1210336.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/streaming-1191917.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/streaming-1191917.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-1191917.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/microservice-1196673.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/microservice-1196673.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/microservice-1196673.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1211108.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1211108.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1211108.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/messaging-1212359.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/messaging-1212359.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/messaging-1212359.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/rust-1241357.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/rust-1241357.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/rust-1241357.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/observability-1206017.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/observability-1206017.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/observability-1206017.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datastorage-1186318.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datastorage-1186318.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datastorage-1186318.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1213484.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1213484.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1213484.html"
+                />
+  </url><url>
     <loc>/zh/tracks/datastorage.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -2028,6 +1692,18 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tracks/datalake.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/rust-1211660.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/rust-1211660.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/rust-1211660.html"
                 />
   </url><url>
     <loc>/zh/guide/terms.html</loc>
@@ -2054,6 +1730,42 @@
                 href="/zh/tracks/general.html"
                 />
   </url><url>
+    <loc>/zh/sessions/iot-1213890.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/iot-1213890.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/iot-1213890.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/streaming-1199628.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/streaming-1199628.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-1199628.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datastorage-1213232.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datastorage-1213232.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datastorage-1213232.html"
+                />
+  </url><url>
     <loc>/zh/tracks/microservice.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -2064,6 +1776,42 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tracks/microservice.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/streaming-1210252.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/streaming-1210252.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-1210252.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataops-1210676.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataops-1210676.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataops-1210676.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/olap-1195516.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/olap-1195516.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/olap-1195516.html"
                 />
   </url><url>
     <loc>/zh/guide/accessibility.html</loc>
@@ -2078,6 +1826,30 @@
                 href="/zh/guide/accessibility.html"
                 />
   </url><url>
+    <loc>/zh/sessions/datalake-1206542.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1206542.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1206542.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1206062.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1206062.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1206062.html"
+                />
+  </url><url>
     <loc>/zh/tracks/messaging.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -2088,6 +1860,234 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tracks/messaging.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datastorage-1211771.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datastorage-1211771.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datastorage-1211771.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1210452.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1210452.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1210452.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/messaging-1211843.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/messaging-1211843.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/messaging-1211843.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/microservice-1206998.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/microservice-1206998.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/microservice-1206998.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1211745.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1211745.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1211745.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/incubator-1212002.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/incubator-1212002.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/incubator-1212002.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/streaming-1199793.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/streaming-1199793.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-1199793.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1210506.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1210506.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1210506.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataops-1198216.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataops-1198216.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataops-1198216.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1207761.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1207761.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1207761.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datastorage-1214223.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datastorage-1214223.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datastorage-1214223.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datastorage-1209471.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datastorage-1209471.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datastorage-1209471.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1198219.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1198219.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1198219.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/datalake-1212438.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/datalake-1212438.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/datalake-1212438.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/olap-1211106.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/olap-1211106.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/olap-1211106.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/incubator-1187157.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/incubator-1187157.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/incubator-1187157.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataops-1214716.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataops-1214716.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataops-1214716.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/messaging-1211234.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/messaging-1211234.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/messaging-1211234.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/rust-1213228.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/rust-1213228.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/rust-1213228.html"
                 />
   </url>
 </urlset>

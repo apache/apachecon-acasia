@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Paimon-cpp: Bringing Native High-Performance Data Lakehouse Access to the Apache Ecosystem - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>Paimon-cpp：为 Apache 生态带来原生高性能的湖仓访问 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Paimon-cpp: Bringing Native High-Performance Data Lakehouse Access to the Apache Ecosystem'/>
+    <meta property='og:title' content='Paimon-cpp：为 Apache 生态带来原生高性能的湖仓访问'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,37 +118,37 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Paimon-cpp: Bringing Native High-Performance Data Lakehouse Access to the Apache Ecosystem</h3>
+                    <h3 class="text-center">Paimon-cpp：为 Apache 生态带来原生高性能的湖仓访问</h3>
                     <h4>Xinyu Liu</h4>
                     中文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/datastorage.html">#datastorage</a></li>
                 </header>
 
-                <p>Apache Paimon has become one of the most actively developed data lakehouse formats in the Apache ecosystem. As native query engines increasingly demand direct access to lakehouse data without JVM overhead, we are excited to introduce Paimon-cpp — a high-performance, ground-up C++ implementation of the Apache Paimon format, in the process of being contributed to the Apache Paimon community.</p>
-<p>In this session, we will walk through:</p>
+                <p>Apache Paimon 已成为 Apache 生态中开发最活跃的湖仓格式之一。随着原生查询引擎越来越希望在不引入 JVM 开销的情况下直接访问湖仓数据，我们很高兴地介绍 Paimon-cpp——一套从头构建、高性能的 Apache Paimon 格式 C++ 实现，目前正贡献给 Apache Paimon 社区。</p>
+<p>在本次演讲中，我们将涵盖：</p>
 <ul>
 <li>
-<p><strong>Why Paimon-cpp</strong>: The motivation behind building a native C++ implementation — bridging the gap between JVM-based data lake ecosystems and the growing world of native query engines, while maintaining full wire-compatibility with Java Paimon.</p>
+<p><strong>为什么是 Paimon-cpp</strong>：构建原生 C++ 实现的动机——在基于 JVM 的数据湖生态与日益壮大的原生查询引擎世界之间架起桥梁，同时与 Java 版 Paimon 保持完全的线协议兼容（wire-compatibility）。</p>
 </li>
 <li>
-<p><strong>Format &amp; Features</strong>: Paimon-cpp provides full read/write/compaction support for both append tables and primary key tables, including Merge-On-Read (MOR) and Deletion Vector (DV) scenarios. It also supports schema evolution, predicate push-down, AI-oriented data evolution mode, and various index types (e.g., vector search, full text search).</p>
+<p><strong>格式与特性</strong>：Paimon-cpp 为 append 表和主键表都提供完整的读/写/compaction 支持，包括 Merge-On-Read（MOR）和 Deletion Vector（DV）场景。它还支持模式演进、谓词下推、面向 AI 的数据演进模式，以及多种索引类型（如向量检索、全文检索）。</p>
 </li>
 <li>
-<p><strong>Performance Optimizations</strong>: Shallow data copy data exchange, file prefetching for read-ahead, multi-threaded &amp; asynchronous row-columnar conversion for primary key tables, and Blob I/O optimizations.</p>
+<p><strong>性能优化</strong>：浅拷贝数据交换、用于预读的文件预取（prefetch）、面向主键表的多线程异步行列转换，以及 Blob I/O 优化。</p>
 </li>
 <li>
-<p><strong>Architecture &amp; Extensibility</strong>: Built on the Apache Arrow Columnar In-Memory Format, with a modular, plugin-oriented architecture providing well-defined interfaces for file systems, file formats, memory management, executors, and observability — designed to be easily embedded into any native engine.</p>
+<p><strong>架构与可扩展性</strong>：构建在 Apache Arrow 列式内存格式之上，采用模块化、插件化的架构，为文件系统、文件格式、内存管理、执行器和可观测性提供了定义良好的接口——设计上便于嵌入任意原生引擎。</p>
 </li>
 <li>
-<p><strong>Best Practices &amp; Getting Started</strong>: Practical guidance on configuring write/read/compaction pipelines, tuning for production workloads, and integrating Paimon-cpp into your own engine.</p>
+<p><strong>最佳实践与上手指南</strong>：关于配置读/写/compaction 流水线、面向生产负载的调优，以及把 Paimon-cpp 集成到你自有引擎的实操指南。</p>
 </li>
 </ul>
-<p>Paimon-cpp is being actively contributed to the Apache Paimon project and is expected to be part of the official Apache repository by the time of this talk. We warmly welcome developers, engine builders, and data enthusiasts to try it out, report issues, and contribute — whether it&rsquo;s new features, bug fixes, documentation, or integration with your favorite native engine. Let&rsquo;s build the native data lakehouse ecosystem together!</p>
+<p>Paimon-cpp 正积极贡献给 Apache Paimon 项目，预计在本次演讲之时已成为 Apache 官方仓库的一部分。我们热忱欢迎开发者、引擎构建者和数据爱好者试用、反馈问题并贡献代码——无论是新功能、bug 修复、文档，还是与你钟爱的原生引擎的集成。让我们共同打造原生的湖仓生态！</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/581f-400o400o1-wHvbmZBcWsHGkZircGN71i.jpg" width="200" /><br/></p>
-<p>Xinyu Liu: Senior Software Engineer at Alibaba | Maintainer of Paimon-cpp | 3 Years with Paimon</p>
-<p>I am a Senior Software Engineer on the Storage Service team at Alibaba. I have been working on Paimon-cpp for 3 years, currently serving as the maintainer of the Paimon-cpp open-source library and leading the adoption of Paimon-cpp across Alibaba&rsquo;s internal data infrastructure. Prior to Paimon, I was responsible for Khronos, a time-series database that powers the monitoring system storage and retrieval for Alibaba Group. My experience spans storage engine design, high-performance data formats, and systems-level optimization. I am passionate about open-source collaboration and look forward to building the native data lakehouse ecosystem together with the Apache community.</p>
+<p>Xinyu Liu：阿里巴巴高级软件工程师 | Paimon-cpp Maintainer | 3 年 Paimon 经验</p>
+<p>我是阿里巴巴存储服务团队的高级软件工程师。我从事 Paimon-cpp 工作已有 3 年，目前担任 Paimon-cpp 开源库的 maintainer，并负责推动 Paimon-cpp 在阿里巴巴内部数据基础设施中的落地。在 Paimon 之前，我负责 Khronos——一个支撑阿里巴巴集团监控系统存储与检索的时序数据库。我的经验涵盖存储引擎设计、高性能数据格式以及系统级优化。我对开源协作充满热情，期待与 Apache 社区共同建设原生湖仓生态。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

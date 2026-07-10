@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Fluss X Lakehouse: Unlocking Sub-Second Data Freshness on Your Data Lake - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>Fluss × 湖仓：在数据湖上解锁亚秒级数据新鲜度 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Fluss X Lakehouse: Unlocking Sub-Second Data Freshness on Your Data Lake'/>
+    <meta property='og:title' content='Fluss × 湖仓：在数据湖上解锁亚秒级数据新鲜度'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,36 +118,27 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Fluss X Lakehouse: Unlocking Sub-Second Data Freshness on Your Data Lake</h3>
+                    <h3 class="text-center">Fluss × 湖仓：在数据湖上解锁亚秒级数据新鲜度</h3>
                     <h4>Yuxia Luo</h4>
                     中文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/datalake.html">#datalake</a></li>
                 </header>
 
-                <p>Modern data platforms are torn between two worlds: streaming systems deliver fresh data but lack long-term
-storage, while lakehouses provide durable analytics but can&rsquo;t serve truly real-time queries. For primary-key
-tables, this gap is especially painful — Paimon requires compaction before new rows become visible, and Iceberg
-accumulates equality delete files that cripple query performance.</p>
-<p>Apache Fluss (incubating) closes this gap as a dedicated streaming storage layer that unifies with the lakehouse.
-In this talk, we&rsquo;ll walk through:</p>
+                <p>现代数据平台被夹在两个世界之间：流式系统交付新鲜数据，却缺乏长期存储；湖仓提供持久的分析能力，却无法服务真正的实时查询。对于主键表而言，这一鸿沟尤为痛苦——Paimon 需要经过 compaction 才能让新行可见，而 Iceberg 则会累积 equality delete 文件，从而拖垮查询性能。</p>
+<p>Apache Fluss（孵化中）作为一个与湖仓统一的专用流式存储层，弥合了这一鸿沟。
+在本次演讲中，我们将走查：</p>
 <ul>
-<li>The Tiering Service that continuously syncs data from Fluss to Paimon, Iceberg, and Hudi</li>
-<li>Union Read, which transparently merges real-time Fluss data with historical lake data in a single query</li>
-<li>How Fluss leverages its native primary-key index to generate Deletion Vectors during tiering, eliminating the
-compaction bottleneck in Paimon and the equality-delete overhead in Iceberg</li>
-<li>A live end-to-end demo using Fluss + Iceberg/Paimon + DuckDB, showing sub-second freshness on primary-key tables</li>
+<li>Tiering Service：持续地把数据从 Fluss 同步到 Paimon、Iceberg 和 Hudi</li>
+<li>Union Read：在一次查询中透明地合并实时 Fluss 数据与历史湖数据</li>
+<li>Fluss 如何利用其原生主键索引，在分层（tiering）过程中生成 Deletion Vector，从而消除 Paimon 的 compaction 瓶颈和 Iceberg 的 equality-delete 开销</li>
+<li>一场使用 Fluss + Iceberg/Paimon + DuckDB 的端到端现场演示，展示主键表上的亚秒级新鲜度</li>
 </ul>
-<p>We&rsquo;ll close with the roadmap: multi-engine Union Read (Spark, Trino, StarRocks), broader lake support (Hudi,
-Delta), and heterogeneous tiering within a single Fluss cluster.</p>
+<p>我们将以路线图收尾：多引擎 Union Read（Spark、Trino、StarRocks）、更广泛的湖支持（Hudi、Delta），以及单个 Fluss 集群内的异构分层（tiering）。</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/ca53-400o400o1-WCz7bXLtTwAYYZGVPMgNLv.png" width="200" /><br/></p>
-<p>Yuxia Luo: Apache Fluss PMC | Software Engineer @ Alibaba</p>
-<p>Yuxia Luo is a software engineer at Alibaba and a PMC member of Apache Fluss, working on streaming
-storage and its convergence with modern lakehouse formats. He drives features around Tiering, Union Read, and
-real-time queryability for primary-key tables across Paimon, Iceberg. With years of experience on Apache
-Flink and large-scale real-time data platforms, he is passionate about closing the gap between streaming and the
-data lake. He has previously shared his work at Flink Forward and QCon.</p>
+<p>Yuxia Luo：Apache Fluss PMC | 阿里巴巴软件工程师</p>
+<p>Yuxia Luo 是阿里巴巴的软件工程师，也是 Apache Fluss 的 PMC 成员，从事流式存储及其与现代湖仓格式融合的工作。他主导了围绕 Tiering、Union Read 以及跨 Paimon、Iceberg 的主键表实时可查询性等特性。凭借在 Apache Flink 和大规模实时数据平台方面多年的经验，他热衷于弥合流式与数据湖之间的鸿沟。他曾在此前的 Flink Forward 和 QCon 上分享过他的工作。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

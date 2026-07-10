@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>From &#39;Usable&#39; to &#39;Governable&#39;: ClassLoader Lifecycle Governance Practice in Apache SeaTunnel - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>从&#39;可用&#39;到&#39;可治&#39;：Apache SeaTunnel 中的 ClassLoader 生命周期治理实践 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='From &#39;Usable&#39; to &#39;Governable&#39;: ClassLoader Lifecycle Governance Practice in Apache SeaTunnel'/>
+    <meta property='og:title' content='从&#39;可用&#39;到&#39;可治&#39;：Apache SeaTunnel 中的 ClassLoader 生命周期治理实践'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,26 +118,26 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">From &#39;Usable&#39; to &#39;Governable&#39;: ClassLoader Lifecycle Governance Practice in Apache SeaTunnel</h3>
+                    <h3 class="text-center">从&#39;可用&#39;到&#39;可治&#39;：Apache SeaTunnel 中的 ClassLoader 生命周期治理实践</h3>
                     <h4>金祥 杨</h4>
                     中文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/dataops.html">#dataops</a></li>
                 </header>
 
-                <p>ClassLoader leaks are among the most hidden and difficult-to-diagnose runtime problems in long-lived JVM systems, and a common challenge faced by long-running JVM workloads across the Apache ecosystem. Existing approaches largely remain at the &ldquo;post-mortem investigation&rdquo; stage: monitoring tools and heap dumps can tell developers &ldquo;which ClassLoaders are still alive,&rdquo; but struggle to clearly explain &ldquo;why they cannot be reclaimed,&rdquo; let alone translate governance intent into verifiable, reproducible engineering practices.</p>
-<p>Through deep analysis of Apache SeaTunnel&rsquo;s classloading mechanism, we identified a widely overlooked blind spot: a large number of seemingly correct lifecycle implementations never establish explicit resource-close semantics. Without enforced close and drain constraints, resource reclamation becomes highly unpredictable — and in certain scenarios, leads to ClassLoaders that can never be collected.</p>
-<p>Drawing on our exploration of runtime governance for long-lived JVM systems, we proposed a systematic ClassLoader lifecycle governance improvement plan to the Apache SeaTunnel community. The core shift is from passive &ldquo;post-hoc residual reference hunting&rdquo; to proactive &ldquo;building deterministic reclaimable semantics and lifecycle closure.&rdquo; We incrementally introduced explicit lifecycle close mechanisms, enforced classloading boundary constraints, and active residual reference cleanup. The governance proposal is currently under community discussion, with the Phase 1 optimization PR in review.</p>
-<p>This talk will explore real-world community practices in Apache SeaTunnel, covering:</p>
+                <p>在长生命周期的 JVM 系统中，ClassLoader 泄漏是最隐蔽、也最难诊断的一类运行时问题，同时也是整个 Apache 生态中长时运行 JVM 工作负载普遍面临的挑战。现有方案大多仍停留在&quot;事后排查&quot;阶段：监控工具和堆转储（heap dump）能告诉开发者&quot;哪些 ClassLoader 还活着&quot;，却很难讲清&quot;为什么它们无法被回收&quot;，更遑论把治理意图转化为可验证、可复现的工程实践。</p>
+<p>通过对 Apache SeaTunnel 类加载机制的深入分析，我们发现了一个被广泛忽视的盲区：大量看似正确的生命周期实现，从未建立显式的资源关闭（close）语义。没有强制的 close 与 drain 约束，资源回收就变得高度不可预测——在某些场景下，甚至会导致 ClassLoader 永远无法被回收。</p>
+<p>基于我们对长生命周期 JVM 系统运行时治理的探索，我们向 Apache SeaTunnel 社区提出了一套系统化的 ClassLoader 生命周期治理改进方案。其核心转变在于：从被动的&quot;事后追查残留引用&quot;，转向主动地&quot;构建确定性的可回收语义与生命周期闭环&quot;。我们渐进式地引入了显式的生命周期 close 机制、强制的类加载边界约束，以及主动的残留引用清理。该治理提案目前正在社区讨论中，第一阶段优化的 PR 处于评审阶段。</p>
+<p>本次演讲将探讨 Apache SeaTunnel 中真实的社区实践，涵盖：</p>
 <ol>
-<li>Why long-lived systems cannot rely on implicit GC to manage underlying runtime resources</li>
-<li>How to build a ClassLoader governance standard for long-lived JVM systems and progressively land it in Apache open source projects</li>
-<li>How to complete a smooth, kernel-level architectural governance upgrade without breaking compatibility</li>
+<li>为什么长生命周期系统不能依赖隐式的 GC 来管理底层运行时资源</li>
+<li>如何为长生命周期 JVM 系统构建 ClassLoader 治理标准，并逐步落地到 Apache 开源项目中</li>
+<li>如何在不破坏兼容性的前提下，完成平滑的内核级架构治理升级</li>
 </ol>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/1113-400o400o1-3NZsnqGSdC4aQEzcPge4TY.jpg" width="200" /><br/></p>
-<p>金祥 杨: Creator of LingFrame &amp; LingMirror | Apache SeaTunnel Community Member | JVM Runtime Governance</p>
-<p>Jinxiang Yang is the creator of LingFrame (灵珑), an open source runtime governance framework for long-lived JVM single-process systems, and LingMirror, an IntelliJ IDEA plugin for static ClassLoader leak diagnosis. Focused on the governance of long-running JVM systems, he identified critical ClassLoader lifecycle gaps in Apache SeaTunnel through deep source code analysis, and proposed a systematic governance improvement plan that has been actively discussed in the SeaTunnel community. He believes a system is not complete when it runs — it is complete when its lifecycle can be observed, governed, and proven correct over time.</p>
+<p>金祥 杨：LingFrame 与 LingMirror 作者 | Apache SeaTunnel 社区成员 | JVM 运行时治理</p>
+<p>Jinxiang Yang 是 LingFrame（灵珑）和 LingMirror 的作者。前者是面向长生命周期 JVM 单进程系统的开源运行时治理框架，后者是用于静态诊断 ClassLoader 泄漏的 IntelliJ IDEA 插件。他专注于长时运行 JVM 系统的治理，通过对源码的深入分析，定位到 Apache SeaTunnel 中关键的 ClassLoader 生命周期缺口，并提出了一套系统化的治理改进方案，目前在 SeaTunnel 社区被积极讨论。他相信：一个系统在&quot;能跑&quot;时并不算完成——只有当它的生命周期可被观测、可被治理，并能被证明长期正确时，才算真正完成。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

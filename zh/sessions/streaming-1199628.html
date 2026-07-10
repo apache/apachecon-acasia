@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Unifying Message Streaming and Data Lake: How We Built a Streaming Lakehouse Engine on Apache Pulsar - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>统一消息流与数据湖：我们如何在 Apache Pulsar 之上构建流式湖仓引擎 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Unifying Message Streaming and Data Lake: How We Built a Streaming Lakehouse Engine on Apache Pulsar'/>
+    <meta property='og:title' content='统一消息流与数据湖：我们如何在 Apache Pulsar 之上构建流式湖仓引擎'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,25 +118,25 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Unifying Message Streaming and Data Lake: How We Built a Streaming Lakehouse Engine on Apache Pulsar</h3>
+                    <h3 class="text-center">统一消息流与数据湖：我们如何在 Apache Pulsar 之上构建流式湖仓引擎</h3>
                     <h4>Dawei Zhang</h4>
                     中文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/streaming.html">#streaming</a></li>
                 </header>
 
-                <p>As organizations increasingly demand real-time analytics on streaming data, the gap between message streaming systems and data lakes becomes a critical bottleneck. BiFang is a streaming lakehouse engine built on top of Apache Pulsar that bridges this gap by deeply integrating Apache Iceberg, Apache Arrow (Flight RPC), and RocksDB KV storage.
-In this talk, we will share how we extended Apache Pulsar&rsquo;s Broker architecture — without forking the core — to achieve unified streaming and lakehouse storage. Key topics include:
-Delta Manifest Pipeline: How we generate and commit Iceberg Delta Manifests in real-time as messages flow through Pulsar, enabling sub-second data visibility in the data lake.
-Arrow Flight Data Channel: How we built a high-performance columnar data read path using Arrow Flight gRPC, supporting zero-copy server-side column pruning that reduces network bandwidth by 85%+.
-Two-Phase Tiered Storage: How we offload Pulsar Ledger data from AVRO_BLOCK to Parquet format using a Rust JNI Parquet Writer, achieving seamless integration with Spark, Flink, and Trino.
-KV Storage with RocksDB: How we implemented primary key deduplication and CDC Changelog generation on the Broker side, enabling upsert semantics on streaming tables.</p>
-<p>We will also share lessons learned from running BiFang in production at scale, including  threading model design, and protocol extension strategies for Apache Pulsar.
-Attendees will learn practical patterns for building lakehouse capabilities on top of existing messaging systems, and gain insights into the future of streaming-lakehouse convergence.</p>
+                <p>随着组织对流数据实时分析的需求日益增长，消息流系统与数据湖之间的鸿沟已成为一个关键瓶颈。BiFang 是一个构建在 Apache Pulsar 之上的流式湖仓引擎，通过深度集成 Apache Iceberg、Apache Arrow（Flight RPC）以及 RocksDB KV 存储，弥合了这一鸿沟。
+在本次演讲中，我们将分享如何在不对核心进行 fork 的前提下扩展 Apache Pulsar 的 Broker 架构，实现流与湖仓的统一存储。关键话题包括：
+Delta Manifest 管道：我们如何在消息流经 Pulsar 时实时生成并提交 Iceberg Delta Manifest，使数据湖中的数据达到亚秒级可见。
+Arrow Flight 数据通道：我们如何使用 Arrow Flight gRPC 构建高性能的列式数据读取路径，支持服务端零拷贝列裁剪，从而将网络带宽消耗降低 85% 以上。
+两阶段分层存储：我们如何使用 Rust JNI Parquet Writer 将 Pulsar Ledger 数据从 AVRO_BLOCK 卸载为 Parquet 格式，实现与 Spark、Flink 和 Trino 的无缝集成。
+基于 RocksDB 的 KV 存储：我们如何在 Broker 侧实现主键去重和 CDC Changelog 生成，从而在流式表上支持 upsert 语义。</p>
+<p>我们还将分享在大规模生产环境中运行 BiFang 所积累的经验教训，包括线程模型设计，以及针对 Apache Pulsar 的协议扩展策略。
+听众将学到在现有消息系统之上构建湖仓能力的实用模式，并对流与湖仓融合的未来趋势获得洞见。</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/e808-400o400o1-X3wB9Mg1L6DccyMb45ienS.png" width="200" /><br/></p>
-<p>Dawei Zhang: Tencent</p>
-<p>Dawei Zhang is a softerware engineer  at Tencent, focusing on messaging and streaming infrastructure. He is a committer to Apache Pulsar and the creator of BiFang — a streaming lakehouse engine that unifies message streaming and data lake storage. He has extensive experience in distributed systems, real-time data processing, and open-source community development.</p>
+<p>Dawei Zhang：腾讯</p>
+<p>Dawei Zhang 是腾讯的软件工程师，专注于消息与流式基础设施。他是 Apache Pulsar 的 committer，也是 BiFang 的创建者——BiFang 是一个统一消息流与数据湖存储的流式湖仓引擎。他在分布式系统、实时数据处理以及开源社区发展方面拥有丰富经验。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

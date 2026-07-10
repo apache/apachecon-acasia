@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Apache RocketMQ Routing Control Plane Evolution - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>Apache RocketMQ 路由控制面演进 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Apache RocketMQ Routing Control Plane Evolution'/>
+    <meta property='og:title' content='Apache RocketMQ 路由控制面演进'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,19 +118,19 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Apache RocketMQ Routing Control Plane Evolution</h3>
+                    <h3 class="text-center">Apache RocketMQ 路由控制面演进</h3>
                     <h4>Xiao Yang</h4>
                     中文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/messaging.html">#messaging</a></li>
                 </header>
 
-                <p>This session explains how we evolved a lightweight external routing control plane for Apache RocketMQ to support large-cluster governance without changing brokers, nameservers, or client access patterns.</p>
-<p>As multiple business lines gradually shared one common cluster, the real challenge shifted from throughput to governance: faster failure convergence, controllable topic migration, and flexible lane-based traffic isolation. In this talk, I will show why these problems are better solved in the routing layer, why existing NameServer and Broker mechanisms are not sufficient, and how broker write isolation, topic migration, and lane-based traffic isolation can be unified in one control plane to support large-cluster split with a smaller blast radius and more controllable governance.</p>
+                <p>本次分享将讲解我们如何为 Apache RocketMQ 演进出一套轻量级的外部路由控制面，在不改动 broker、nameserver 以及客户端访问模式的前提下，支撑大规模集群的治理。</p>
+<p>随着多条业务线逐步共用同一个集群，真正的挑战从吞吐量转向治理：更快的故障收敛、可控的 topic 迁移，以及灵活的基于泳道（lane）的流量隔离。在本次演讲中，我将说明为什么这些问题更适合在路由层解决，为什么现有的 NameServer 和 Broker 机制并不足够，以及如何将 broker 写隔离、topic 迁移和基于泳道的流量隔离统一在同一个控制面中，从而以更小的爆炸半径、更可控的治理方式支撑大规模集群的拆分。</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/ed42-400o400o1-3Jm5SmqbknYn3ZeVXQQXY2.jpg" width="200" /><br/></p>
-<p>Xiao Yang: Tongcheng Travel, Messaging Middleware Core Developer</p>
-<p>I am Xiao Yang from the Infrastructure Engineering team at Tongcheng Travel. I mainly focus on the architecture evolution and maintenance of messaging middleware. I am passionate about open source, a committer of Apache ShardingSphere, and an active contributor to Apache RocketMQ.</p>
+<p>Xiao Yang：同程旅行，消息中间件核心开发者</p>
+<p>我是来自同程旅行基础架构工程团队的 Xiao Yang。我主要负责消息中间件的架构演进与维护。我热爱开源，是 Apache ShardingSphere 的 committer，同时也是 Apache RocketMQ 的活跃贡献者。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

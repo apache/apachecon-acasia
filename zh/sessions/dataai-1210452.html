@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Xiaomi&#39;s HDFS Cloud Migration Practice: Building a Unified Storage for Data &#43; AI - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>小米 HDFS 云迁移实践：打造面向 Data &#43; AI 的统一存储 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Xiaomi&#39;s HDFS Cloud Migration Practice: Building a Unified Storage for Data &#43; AI'/>
+    <meta property='og:title' content='小米 HDFS 云迁移实践：打造面向 Data &#43; AI 的统一存储'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,24 +118,24 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Xiaomi&#39;s HDFS Cloud Migration Practice: Building a Unified Storage for Data &#43; AI</h3>
+                    <h3 class="text-center">小米 HDFS 云迁移实践：打造面向 Data &#43; AI 的统一存储</h3>
                     <h4>朝晖 王</h4>
                     中文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/dataai.html">#dataai</a></li>
                 </header>
 
-                <p>With the rapid development of Xiaomi&rsquo;s business needs, particularly the ongoing implementation in scenarios like Generative AI and autonomous driving, the underlying technology stack is continuously evolving towards big data and cloud-native directions. This evolution places multiple demands on the storage system, including large capacity, high performance, low cost, and multi-protocol access. Simultaneously, business data often needs to flow across multiple systems such as object storage, high-performance file storage, HDFS, and local disks, leading to issues like complex pipelines, elevated migration and operational costs, and uneven resource utilization. To address these challenges, we have gradually implemented a unified file storage solution in our production environment to support data access, management, and distribution across various scenarios. This practice currently covers 40 clusters, supporting the management of hundreds of billions of files and a storage scale of hundreds of petabytes.
-This presentation will focus on this solution, detailing the following key aspects:
-Unified Architecture Design:​ The overall division of labor among the client, control plane, and data plane, along with a tiered design comprising the capacity layer, cache layer, and performance layer; client-side support for various access methods including POSIX, HDFS, S3, CSI Driver, and Python SDK.
-Storage Practice for the Full AI Pipeline:​ How to meet the requirements of different stages—raw data, training data, and model file distribution—and optimize read-intensive, write-rare scenarios through caching mechanisms.
-Cloud Migration Practice for the Apache Big Data Ecosystem:​ How to achieve compute-storage separation for cloud migration based on Apache Hadoop/HDFS compatibility, support the conversion of Apache Hive tables to Apache Iceberg, and enable data lakehouse scenarios with technologies like Apache Paimon.
-Hot Data Caching and Cloud-Native Practice:​ How to improve computational efficiency through automatic caching of hot tables, achieve compute-storage separation for cloud-migrated services via CSI mounting, and reduce disk redundancy and accelerate model loading through shared data and cache distribution.
-Through these practices, we aim to share insights on implementing unified storage in Data + AI environments and how to balance migration complexity, system scalability, access performance, and overall cost.</p>
+                <p>随着小米业务需求的快速发展，尤其是生成式 AI、自动驾驶等场景的持续推进，底层技术栈不断向大数据和云原生方向演进。这种演进对存储系统提出了多重诉求：大容量、高性能、低成本，以及多协议访问。与此同时，业务数据常常需要在对象存储、高性能文件存储、HDFS 和本地磁盘等多个系统之间流转，由此带来流水线复杂、迁移与运维成本高企、资源利用不均等问题。为应对这些挑战，我们逐步在生产环境中落地了一套统一文件存储方案，以支撑各类场景下的数据访问、管理与分发。该实践目前覆盖 40 个集群，支撑千亿级文件的管理与数百 PB 级的存储规模。
+本次演讲将围绕这一方案展开，详细讲解以下关键方面：
+统一架构设计：客户端、控制面与数据面之间的整体分工，以及由容量层、缓存层和性能层构成的分层设计；客户端支持 POSIX、HDFS、S3、CSI Driver 和 Python SDK 等多种访问方式。
+面向 AI 全流水线的存储实践：如何满足原始数据、训练数据和模型文件分发等不同阶段的需求，并通过缓存机制优化&quot;读多写少&quot;的场景。
+Apache 大数据生态的云迁移实践：如何基于 Apache Hadoop/HDFS 兼容性实现云迁移所需的存算分离，支持 Apache Hive 表向 Apache Iceberg 转换，并借助 Apache Paimon 等技术实现数据湖仓场景。
+热数据缓存与云原生实践：如何通过热点表的自动缓存提升计算效率，通过 CSI 挂载为云迁移业务实现存算分离，并通过共享数据与缓存分发降低磁盘冗余、加速模型加载。
+通过这些实践，我们希望分享在 Data + AI 环境下落地统一存储的洞察，以及如何在迁移复杂度、系统可扩展性、访问性能与总体成本之间取得平衡。</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/0957-400o400o1-a2s9RBkPpjBjwTqhvjqVpi.jpg" width="200" /><br/></p>
-<p>朝晖 王: Xiaomi Software R&amp;D Engineer</p>
-<p>HDFS/Ozone/JuiceFS contributor</p>
+<p>朝晖 王：小米软件研发工程师</p>
+<p>HDFS/Ozone/JuiceFS 贡献者</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

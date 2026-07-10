@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>From Vision to Production: How Apache Fluss Defines the Storage Layer for Real-Time Data Lakehouses - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>从愿景到生产：Apache Fluss 如何定义实时数据湖仓的存储层 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='From Vision to Production: How Apache Fluss Defines the Storage Layer for Real-Time Data Lakehouses'/>
+    <meta property='og:title' content='从愿景到生产：Apache Fluss 如何定义实时数据湖仓的存储层'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,19 +118,19 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">From Vision to Production: How Apache Fluss Defines the Storage Layer for Real-Time Data Lakehouses</h3>
+                    <h3 class="text-center">从愿景到生产：Apache Fluss 如何定义实时数据湖仓的存储层</h3>
                     <h4>Yang Wang</h4>
                     中文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/datastorage.html">#datastorage</a></li>
                 </header>
 
-                <p>Last year at Community Over Code Asia, we introduced Apache Fluss and its vision of a dedicated storage layer for real-time lakehouses. Several releases later, that vision has been validated in production at Alibaba&rsquo;s Double 11 scale.</p>
-<p>In this talk, we present what we have delivered across three themes. First, pushing compute into storage: the Aggregation Merge Engine pushes real-time aggregation — including RoaringBitmap UV deduplication — into the storage layer with built-in exactly-once semantics, and log filter pushdown moves predicate evaluation from compute to storage, enabling Flink to offload aggregation, join, and wide-table state entirely to storage. Second, ecosystem and data model evolution: secondary indexes for flexible query patterns, Change Data Feed, complex data types, zero-copy schema evolution, and multi-language clients (Rust, Python, C++). Third, enterprise-grade foundation: goal-driven rebalance, zero-downtime rolling upgrades, fast Coordinator recovery, SASL authentication with three-level ACL, and deep RocksDB diagnostics.</p>
+                <p>去年的 Community Over Code Asia 上，我们介绍了 Apache Fluss，以及它为实时湖仓打造专用存储层的愿景。经过几个版本的迭代，这一愿景已在阿里巴巴双十一规模的生产中得到验证。</p>
+<p>在本次演讲中，我们将围绕三个主题介绍已交付的成果。第一，将计算下推到存储：聚合合并引擎（Aggregation Merge Engine）把实时聚合——包括基于 RoaringBitmap 的 UV 去重——下推到存储层，并内置 exactly-once 语义；日志过滤下推（log filter pushdown）则把谓词求值从计算侧移到存储侧，使 Flink 能够把聚合、join 和宽表状态完全卸载到存储。第二，生态与数据模型演进：用于灵活查询模式的二级索引、Change Data Feed、复杂数据类型、零拷贝模式演进，以及多语言客户端（Rust、Python、C++）。第三，企业级基础设施：目标驱动的 rebalance、零停机滚动升级、快速的 Coordinator 恢复、带三级 ACL 的 SASL 认证，以及深度的 RocksDB 诊断。</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/caa5-400o400o1-7N761jmkijrU21jsU1NuAN.jpg" width="200" /><br/></p>
-<p>Yang Wang: Staff Engineer at Alibaba Cloud , HangZhou,  Apache Fluss Core Developer</p>
-<p>Yang Wang is a Staff Engineer at Alibaba Cloud and a core development team member of Apache Fluss, a streaming storage system for real-time analytics. He focuses on storage engine internals — including the KV store (RocksDB integration, performance tuning, monitoring, and memory management), aggregation merge engine, secondary index support, and Flink connector enhancements such as filter pushdown and lookup joins. He is an active contributor to the Apache Fluss open-source community.</p>
+<p>Yang Wang：阿里云高级主任工程师，杭州，Apache Fluss 核心开发者</p>
+<p>Yang Wang 是阿里云高级主任工程师，也是面向实时分析的流式存储系统 Apache Fluss 的核心开发团队成员。他专注于存储引擎内部实现——包括 KV 存储（RocksDB 集成、性能调优、监控与内存管理）、聚合合并引擎、二级索引支持，以及 Flink connector 的增强（如过滤下推、lookup join）。他是 Apache Fluss 开源社区的活跃贡献者。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

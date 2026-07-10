@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Unifying Robotic Data: Managing ROS Messages with Apache TsFile on the Edge - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>当 MQTT 遇见 Kafka：IoT 基础设施从数据接入层到数据层的演进 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Unifying Robotic Data: Managing ROS Messages with Apache TsFile on the Edge'/>
+    <meta property='og:title' content='当 MQTT 遇见 Kafka：IoT 基础设施从数据接入层到数据层的演进'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -42,7 +42,7 @@
   <div class="container py-1">
     <div class="btn-wrap d-flex align-items-center justify-content-between">
         
-            <a href="/" class="navbar-brand">
+            <a href="/zh/" class="navbar-brand">
                 <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
             </a>
         
@@ -58,8 +58,8 @@
         <ul class="navbar-nav">
             
                 <li class="nav-item">
-                    <a class="nav-link" href="/">
-                        Home
+                    <a class="nav-link" href="/zh/">
+                        首页
                     </a>
                 </li>
             
@@ -67,23 +67,23 @@
             
                 <li class="nav-item">
                     
-                    <a href="/tracks" class="nav-link">Tracks</a>
+                    <a href="/zh/tracks" class="nav-link">专题</a>
                 </li>
             
                 <li class="nav-item">
                     
-                    <a href="/guide/visa_letter_request.html" class="nav-link">Guide</a>
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
                 </li>
             
                 <li class="nav-item">
                     
-                    <a href="/venue_travel/venue.html" class="nav-link">Venue &#43; Travel</a>
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
                 </li>
             
             
                 
                     <li class="nav-item">
-                        <a href="/zh/sessions/undefined-1213890.html" class="nav-link">中文</a>
+                        <a href="/sessions/iot-1196529.html" class="nav-link">English</a>
                     </li>
                 
             
@@ -118,18 +118,31 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Unifying Robotic Data: Managing ROS Messages with Apache TsFile on the Edge</h3>
-                    <h4>Ansi Zhang</h4>
-                    Chinese Session  &nbsp;
+                    <h3 class="text-center">当 MQTT 遇见 Kafka：IoT 基础设施从数据接入层到数据层的演进</h3>
+                    <h4>Lobo Xu</h4>
+                    中文演讲  &nbsp;
                     
-                    <a class="label" href="/tracks/undefined.html">#undefined</a></li>
+                    <a class="label" href="/zh/tracks/iot.html">#iot</a></li>
                 </header>
 
-                <p>The Robot Operating System (ROS) is the de facto standard for robotics development, yet efficiently managing the vast amounts of time-series data generated on edge devices remains a challenge. This session introduces a new open-source tool that bridges the ROS ecosystem with the Apache big data world. We will demonstrate how to convert ROS messages directly into Apache TsFile, a high-performance, columnar file format designed for IoT time-series data. This approach enables efficient local storage, compression, and seamless data synchronization with Apache IoTDB in the cloud. Attendees will learn about the tool&rsquo;s architecture, see a live demo of edge data collection from a simulated robot, and understand how this pattern can be extended to build a complete edge-to-cloud data pipeline for robotics and industrial IoT.</p>
-<h3 id="speakers">Speakers:</h3>
-<p><img src="https://cdn.sessionize.com/image/59aa-400o400o1-K1BYoUCJnhhcQTk1VVLNhV.jpg" width="200" /><br/></p>
-<p>Ansi Zhang: ROS + Apache TsFile | Edge Data Management</p>
-<p>Ansi Zhang is an Associate Professor at Guizhou University, as well as a Visiting Scholar at Tsinghua University. His research focuses on UAV Big Data and Industrial Big Data, areas where efficient edge data management is critical. He has led 7 national and provincial research projects, published over 20 SCI/EI papers, and holds 19 patents and 10 software copyrights. As the creator of the ROS-to-TsFile tool, he bridges the gap between robotic data collection and the Apache big data ecosystem, enabling lightweight, high-compression storage for autonomous systems at the edge. At Community Over Code, he looks forward to sharing how Apache TsFile can revolutionize data pipelines in robotics and IIoT.</p>
+                <p>IoT 设备产生的数据正被越来越多的下游系统消费——实时分析、模型训练、AI 智能体决策。大家熟悉的工程套路是：让 MQTT 负责设备连接，Kafka 负责数据管道，再用一个桥接层把两者粘合起来。这种架构在传统 IoT 场景下表现尚可。但当下游消费者从一个增加到五个，当同一份数据需要同时喂给训练管道和实时推理服务时，桥接层的裂缝就难以忽视了：不可预测的延迟、悄无声息的数据丢失、断裂的反压传导。</p>
+<p>根因并不在桥接层本身，而在于 MQTT Broker 的定位——它被设计为数据接入层，数据一到就急于推送出去，没有内置的持久化或流式消费能力。每新增一个下游用例，就意味着多一条桥接链路、多一个运维盲区。</p>
+<p>本次演讲将分享来自 RobustMQ 的架构经验——这是一个用 Rust 构建的开源统一消息中间件。其核心理念是：一个原生同时支持 MQTT 和 Kafka 协议的统一存储层——设备通过 MQTT 写入的数据可以直接通过 Kafka 协议消费，无需桥接、无需数据复制，一条消息、一份拷贝，可被任意协议消费。</p>
+<p>我们将分享：
+• 多消费者 IoT 场景下 MQTT + Kafka 桥接架构的真实痛点
+• 将 MQTT Broker 从&quot;数据接入层&quot;演进为&quot;数据层&quot;的关键架构决策
+• 统一存储层设计：一份数据，由多种协议原生消费
+• 从边缘到云的完整管道：离线缓冲、自动同步、最小化部署 footprint
+• 当前进度、已知局限与未来方向</p>
+<p>这是一次正在进行的架构探索，而非一个成功故事。RobustMQ 在 Apache 2.0 许可证下完全开源。我们期待与同样在解决 IoT 数据管道问题的工程师交流实战经验，也希望最终能成为 Apache 软件基金会的顶级项目，回馈开源社区。</p>
+<p><a href="https://robustmq.com/">https://robustmq.com/</a></p>
+<p><a href="https://github.com/robustmq/robustmq">https://github.com/robustmq/robustmq</a></p>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://cdn.sessionize.com/image/7904-400o400o1-SCZoJP3LCoK4kcDXsr3s26.jpg" width="200" /><br/></p>
+<p>Lobo Xu: RobustMQ Auther</p>
+<p>RobustMQ 作者，前字节跳动高级工程师，前腾讯云高级工程师。曾任腾讯云消息队列 Kafka/RabbitMQ 技术负责人。
+作为 RobustMQ 作者及 Apache Kafka/RocketMQ/Pulsar 贡献者，他活跃于消息队列和 Serverless 开源社区，对 MQ 和 Serverless 有着深入的产品、技术与商业理解及前瞻视野。
+他是极客时间专栏《深入拆解消息队列》和《Rust 实战：编写下一代云原生消息队列》的作者，并合著了技术书籍《基础软件之路：企业实践与开源策略》。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

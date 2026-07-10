@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Vector Lakebase: Rethinking Data Infrastructure for AI-Native Applications - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>向量湖仓（Vector Lakebase）：重新思考面向 AI 原生应用的数据基础设施 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Vector Lakebase: Rethinking Data Infrastructure for AI-Native Applications'/>
+    <meta property='og:title' content='向量湖仓（Vector Lakebase）：重新思考面向 AI 原生应用的数据基础设施'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,30 +118,30 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Vector Lakebase: Rethinking Data Infrastructure for AI-Native Applications</h3>
+                    <h3 class="text-center">向量湖仓（Vector Lakebase）：重新思考面向 AI 原生应用的数据基础设施</h3>
                     <h4>Xiaofan Luan</h4>
                     中文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/dataai.html">#dataai</a></li>
                 </header>
 
-                <p>Description
-As AI applications move from prototypes to production, traditional data infrastructure is starting to show its limits. Systems designed for analytics or transactions struggle to support modern AI workloads — especially vector search, hybrid filtering, and multi-modal data at scale.</p>
-<p>In this talk, we present Milvus and the concept of a Vector Lakebase — an AI-native data platform that unifies vector search with lakehouse storage. Instead of building yet another standalone vector database, Vector Lakebase brings indexing and retrieval directly to data lakes such as Iceberg and Paimon.</p>
-<p>We’ll dive into the architecture and key design decisions behind Milvus, including:</p>
-<p>How to enable efficient vector search directly on Iceberg/Paimon tables without data duplication
-Zero-copy data access: separating compute and storage while avoiding costly data movement
-Snapshot-aligned indexing: keeping vector indexes consistent with lakehouse metadata
-Handling production challenges like multi-tenancy, filtering, and cold-start performance</p>
-<p>We’ll also share real-world patterns where this architecture matters most:</p>
-<p>Agentic search systems that require consistent, high-recall retrieval
-Data discovery across large, heterogeneous datasets
-Data deduplication and similarity-based data management at scale</p>
-<p>Finally, we’ll discuss how AI-native data infrastructure is evolving — and why integrating vector search into the lake, rather than building isolated systems, is becoming the dominant pattern.</p>
+                <p>描述
+随着 AI 应用从原型走向生产，传统数据基础设施的局限性开始显现。为分析或事务设计的系统，难以支撑现代 AI 工作负载——尤其是大规模的向量检索、混合过滤与多模态数据。</p>
+<p>在本次演讲中，我们将介绍 Milvus 以及&quot;向量湖仓&quot;（Vector Lakebase）的概念——这是一个 AI 原生的数据平台，将向量检索与湖仓存储统一起来。Vector Lakebase 不再是构建又一个独立的向量数据库，而是把索引与检索能力直接带到 Iceberg、Paimon 等数据湖之上。</p>
+<p>我们将深入 Milvus 背后的架构与关键设计决策，包括：</p>
+<p>如何在不复制数据的前提下，直接在 Iceberg/Paimon 表上实现高效向量检索
+零拷贝数据访问：分离计算与存储，同时避免代价高昂的数据搬运
+快照对齐的索引：让向量索引与湖仓元数据保持一致
+应对多租户、过滤、冷启动性能等生产级挑战</p>
+<p>我们还会分享该架构最能发挥价值的一些真实场景：</p>
+<p>需要一致、高召回率检索的 Agentic 检索系统
+跨越大型异构数据集的数据发现
+大规模场景下的数据去重与基于相似度的数据管理</p>
+<p>最后，我们将讨论 AI 原生数据基础设施的演进方向——以及为何&quot;将向量检索融入数据湖&quot;而非构建孤立系统，正在成为主导范式。</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/2fc1-400o400o1-hq3xZpvWNPBgprs3caTFZE.png" width="200" /><br/></p>
-<p>Xiaofan Luan: Zilliz, Partner and Director of Engineering</p>
-<p>Xiaofan Luan, Partner and Director of Engineering of Zilliz, member of Technical Advisory Committee of LF AI &amp; Data Foundation. He worked successively in the US headquarters of Oracle and Hedvig, a software defined storage startup. He joined Alibaba cloud database team and was in charge of the development of  NoSQL database HBase and  Lindorm. Xiaofan Luan holds a master&rsquo;s degree in Electronic Computer Engineering from Cornell University.</p>
+<p>Xiaofan Luan：Zilliz 合伙人兼工程总监</p>
+<p>Xiaofan Luan 是 Zilliz 合伙人兼工程总监，LF AI &amp; Data 基金会技术咨询委员会（Technical Advisory Committee）成员。他先后任职于 Oracle 美国总部以及软件定义存储初创公司 Hedvig。之后加入阿里云数据库团队，负责 NoSQL 数据库 HBase 与 Lindorm 的研发。Xiaofan Luan 拥有康奈尔大学电子计算机工程硕士学位。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

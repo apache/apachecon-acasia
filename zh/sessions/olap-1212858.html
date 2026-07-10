@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Efficient metadata caching in Apache Impala - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>Apache Impala 中的高效元数据缓存 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Efficient metadata caching in Apache Impala'/>
+    <meta property='og:title' content='Apache Impala 中的高效元数据缓存'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,30 +118,30 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Efficient metadata caching in Apache Impala</h3>
+                    <h3 class="text-center">Apache Impala 中的高效元数据缓存</h3>
                     <h4>Csaba Ringhofer, Noémi Pap-Takács</h4>
                     英文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/olap.html">#olap</a></li>
                 </header>
 
-                <p>How to cache enough info in memory to plan queries on  &gt; 1 million file tables? Our talk will describe Apache Impala&rsquo;s metadata caching solution that can deal with massive Iceberg and Hive tables efficiently.</p>
-<p>Caching table and file metadata is key to high query throughput by allowing query planning without reaching out to other services. For huge tables (e.g. &gt;1M files) the metadata cache becomes a massive memory hog and expensive to maintain. Impala’s current fine-grained caching and invalidation is effective for Hive tables, but doesn’t fully translate to Iceberg’s architecture. The focus of the talk is a new, cleaner and more efficient caching solution for Iceberg tables.</p>
-<p>Attendees can learn about:</p>
+                <p>如何在内存中缓存足够的信息，以便对超过 100 万个文件的表进行查询规划？我们的演讲将介绍 Apache Impala 的元数据缓存方案，它能够高效地应对海量的 Iceberg 和 Hive 表。</p>
+<p>缓存表与文件元数据是实现高查询吞吐的关键，因为它让查询规划无需再去访问其他服务。对于巨型表（例如超过 100 万个文件），元数据缓存会变成内存大户，维护成本高昂。Impala 现有的细粒度缓存与失效机制对 Hive 表很有效，但并不能完全套用到 Iceberg 的架构上。本次演讲的重点，是面向 Iceberg 表的一套全新、更简洁也更高效的缓存方案。</p>
+<p>听众可以了解到：</p>
 <ul>
-<li>metadata caching problem in SQL engines</li>
-<li>caching quirks for classic Hive and Iceberg tables</li>
-<li>the effect of file system: cost of caching in Hadoop vs object stores</li>
-<li>minimizing memory footprint in Java</li>
-<li>benchmarking the overhead of updating the cache</li>
+<li>SQL 引擎中的元数据缓存问题</li>
+<li>经典 Hive 表与 Iceberg 表在缓存上的差异与特性</li>
+<li>文件系统的影响：在 Hadoop 与对象存储中缓存的成本差异</li>
+<li>在 Java 中尽量减小内存占用</li>
+<li>对更新缓存的开销进行基准测试</li>
 </ul>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/d50e-400o400o1-JAFu2kek5qZCDbFHxwmDLw.jpg" width="200" /><br/></p>
-<p>Csaba Ringhofer: Software engineer at Cloudera</p>
-<p>Csaba Ringhofer has been working on Apache Impala since 2017 at Cloudera. He is a Member of the Apache Impala PMC. He studied at the Budapest University of Technology and Economics.</p>
+<p>Csaba Ringhofer：Cloudera 软件工程师</p>
+<p>Csaba Ringhofer 自 2017 年起在 Cloudera 从事 Apache Impala 相关工作。他是 Apache Impala PMC 的成员。他毕业于布达佩斯技术与经济大学（Budapest University of Technology and Economics）。</p>
 <p><img src="https://cdn.sessionize.com/image/5a3f-400o400o1-BYhDA4rBpsGm8n4d5mcvhs.jpg" width="200" /><br/></p>
-<p>Noémi Pap-Takács: Apache Impala Committer</p>
-<p>Noémi Pap-Takács is a software engineer at Cloudera and a committer on the Apache Impala project. Her focus lies in performance optimization and the integration of Apache Iceberg into Impala.</p>
+<p>Noémi Pap-Takács：Apache Impala Committer</p>
+<p>Noémi Pap-Takács 是 Cloudera 的软件工程师，也是 Apache Impala 项目的 committer。她的专长在于性能优化以及将 Apache Iceberg 集成到 Impala 中。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

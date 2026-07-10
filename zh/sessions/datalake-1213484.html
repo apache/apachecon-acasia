@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>Securing the Lakehouse: Identity-Aware Governance for Iceberg REST with Apache Gravitino - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>守护湖仓安全：用 Apache Gravitino 为 Iceberg REST 提供身份感知的治理 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='Securing the Lakehouse: Identity-Aware Governance for Iceberg REST with Apache Gravitino'/>
+    <meta property='og:title' content='守护湖仓安全：用 Apache Gravitino 为 Iceberg REST 提供身份感知的治理'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,25 +118,25 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">Securing the Lakehouse: Identity-Aware Governance for Iceberg REST with Apache Gravitino</h3>
+                    <h3 class="text-center">守护湖仓安全：用 Apache Gravitino 为 Iceberg REST 提供身份感知的治理</h3>
                     <h4>Rory Qi</h4>
                     英文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/datalake.html">#datalake</a></li>
                 </header>
 
-                <p>Apache Iceberg has become the de facto standard for open table formats, and the Iceberg REST Catalog is the key to decoupling compute from storage. However, while the REST specification defines how to exchange metadata, it leaves the security—authentication, authorization, and audit—as an exercise for the user. For organizations transitioning from experimental projects to production lakehouses, this &ldquo;security gap&rdquo; presents a significant hurdle.
-In this talk, we introduce Apache REST, an open-source federated metadata lake that provides a production-ready implementation of the Iceberg REST service. We will walk through the technical architecture of how REST acts as a secure catalog proxy.
-Key takeaways include:
-Identity &amp; Authentication: A deep dive into Gravitino’s support for OAuth2, Basic, Kerberos, and HTTPS to ensure only verified clients can access the catalog.
-Unified Access Control: How to manage fine-grained permissions (RBAC) at the catalog, namespace, and table levels, even when using legacy backends like Hive Metastore or JDBC.
-Credential Vending: How Gravitino securely provides short-lived storage credentials (S3/GCS/Azure) to clients, ensuring data-layer security is as strong as the metadata layer.
-Real-world Integration: A demonstration of how Spark, Trino, and Flink can interact with a secured Gravitino Iceberg REST endpoint without custom engine forks or patches.
-Whether you are a platform engineer building a multi-tenant data lake or a security architect concerned about open-source governance, this session will provide a blueprint for a secure, vendor-neutral Iceberg infrastructure</p>
+                <p>Apache Iceberg 已经成为开放表格式的事实标准，而 Iceberg REST Catalog 是实现存算分离的关键。然而，尽管 REST 规范定义了如何交换元数据，却把安全——认证、授权和审计——留给了用户自行解决。对于从试验性项目迈向生产级湖仓的组织而言，这一&quot;安全缺口&quot;是一个重大障碍。
+在本次演讲中，我们介绍 Apache REST——一个开源的联邦元数据湖，提供生产可用的 Iceberg REST 服务实现。我们将走查 REST 如何作为安全 catalog 代理的技术架构。
+核心收获包括：
+身份与认证：深入剖析 Gravitino 对 OAuth2、Basic、Kerberos 和 HTTPS 的支持，确保只有经过验证的客户端才能访问 catalog。
+统一访问控制：如何在 catalog、namespace 和表级别管理细粒度权限（RBAC），即使在使用 Hive Metastore 或 JDBC 等传统后端时也能做到。
+凭据分发（Credential Vending）：Gravitino 如何安全地向客户端发放短时有效的存储凭据（S3/GCS/Azure），确保数据层的安全性与元数据层一样强。
+真实集成：演示 Spark、Trino 和 Flink 如何与受 Gravitino 安全保护的 Iceberg REST 端点交互，且无需对引擎进行自定义 fork 或打补丁。
+无论你是构建多租户数据湖的平台工程师，还是关注开源治理的安全架构师，本次演讲都将为构建一套安全、厂商中立的 Iceberg 基础设施提供蓝图。</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/3df9-400o400o1-4yoKkoqsJnbKwTammtx8VP.jpg" width="200" /><br/></p>
-<p>Rory Qi: Apache Gravitino committer, Apache Uniffle PMC Chair</p>
-<p>Apache Gravitino PMC member, Apache Uniffle PMC chair, ASF member, Datastrato engineer, ever worked at Tencent, Baidu</p>
+<p>Rory Qi：Apache Gravitino committer，Apache Uniffle PMC Chair</p>
+<p>Apache Gravitino PMC 成员，Apache Uniffle PMC Chair，ASF 成员，Datastrato 工程师，曾就职于腾讯、百度</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">

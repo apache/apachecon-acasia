@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>The Consistency Model in Apache Ratis - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>Apache Ratis 中的一致性模型 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='The Consistency Model in Apache Ratis'/>
+    <meta property='og:title' content='Apache Ratis 中的一致性模型'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -118,20 +118,20 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h3 class="text-center">The Consistency Model in Apache Ratis</h3>
+                    <h3 class="text-center">Apache Ratis 中的一致性模型</h3>
                     <h4>Tsz-Wo Nicholas Sze</h4>
                     英文演讲  &nbsp;
                     
                     <a class="label" href="/zh/tracks/datastorage.html">#datastorage</a></li>
                 </header>
 
-                <p>Apache Ratis is an open source Java library for the Raft Consensus Protocol, a distributed consensus algorithm ensuring that multiple machines work together as a single, coherent unit.  Ratis constitutes a high performance implementation of Raft.  To accommodate a diverse array of use cases, Ratis supports various configurable consistency levels.  Furthermore, Ratis offers both synchronous and asynchronous APIs for read and write operations.  Numerous projects, such as Apache Ozone, Apache IoTDB, Apache Celeborn, and Alluxio, utilize Ratis.</p>
-<p>Raft along with Ratis are designed to provide strong consistency; specifically, once a write operation is acknowledged as complete, all subsequent reads are guaranteed to reflect the effects of that write.  Read operations are more interesting since there is a fundamental trade-off between consistency and performance.  Ratis has implemented several read mechanisms, including direct read from the leader, linearizable read, read from the followers, read-after-write consistency and stale-read from followers.</p>
-<p>This presentation will commence with a concise introduction to the Raft protocol. Subsequently, we will examine the consistency model within Ratis and detail the associated APIs and configurations.</p>
+                <p>Apache Ratis 是一个实现 Raft 共识协议的开源 Java 库，Raft 是一种分布式共识算法，用于确保多台机器像一个协调一致的整体那样协同工作。Ratis 是 Raft 的高性能实现。为适应多种多样的使用场景，Ratis 支持多种可配置的一致性级别。此外，Ratis 为读写操作同时提供了同步与异步 API。众多项目都使用了 Ratis，例如 Apache Ozone、Apache IoTDB、Apache Celeborn 和 Alluxio。</p>
+<p>Raft 与 Ratis 的设计目标都是提供强一致性——具体而言，一旦某次写操作被确认完成，此后所有的读操作都保证能反映这次写操作的效果。读操作则更有意思，因为一致性与性能之间存在根本性的权衡。Ratis 实现了多种读机制，包括从 leader 直接读取、线性一致读（linearizable read）、从 follower 读取、读后写（read-after-write）一致性以及从 follower 读取陈旧数据（stale-read）。</p>
+<p>本次演讲将先简要介绍 Raft 协议，随后考察 Ratis 中的一致性模型，并详细说明相关的 API 与配置。</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/ef71-400o400o1-MpFqHHnN7VnXA2oxvNY6T.jpg" width="200" /><br/></p>
-<p>Tsz-Wo Nicholas Sze: Principal Software Engineer</p>
-<p>Dr. Tsz-Wo Nicholas Sze serves as a Principal Engineer at Cloudera. He holds the position of PMC Chair for Apache Ratis and is a PMC member for Apache Hadoop and Apache Ozone. His involvement with Apache Hadoop and HDFS dates back to 2007, making him one of the few initial contributors still active in the project. In 2016, he initiated the Apache Ratis project to facilitate high availability and high-performance write pipelines within Apache Ozone. Apache Ratis has since become one of the most widely adopted Raft Java libraries. He earned his Ph.D. degree in Computer Science from the University of Maryland College Park in 2007.</p>
+<p>Tsz-Wo Nicholas Sze：首席软件工程师</p>
+<p>Tsz-Wo Nicholas Sze 博士在 Cloudera 担任首席工程师。他是 Apache Ratis 的 PMC 主席，也是 Apache Hadoop 与 Apache Ozone 的 PMC 成员。他参与 Apache Hadoop 和 HDFS 的工作可追溯到 2007 年，是该项目为数不多、至今仍活跃的早期贡献者之一。2016 年，他发起了 Apache Ratis 项目，以支撑 Apache Ozone 中的高可用与高性能写入流水线。如今，Apache Ratis 已成为使用最广泛的 Raft Java 库之一。他于 2007 年获得马里兰大学帕克分校计算机科学博士学位。</p>
 
 
                 <div style="position:relative; padding-bottom:50%; width:90%; height:0">
