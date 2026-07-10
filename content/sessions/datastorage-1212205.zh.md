@@ -1,35 +1,34 @@
 ---
-title: "Scaling Apache Ozone at Didi: Operating 100PB+ Storage and Billions of Files in Production"
+title: "滴滴 Apache Ozone 规模化实践：生产环境运营 100PB+ 存储与数十亿文件"
 date: ""
 track: "datastorage"
 presenters: "Shilun Fan, Ming Wei, Hongbing Wang"
 stype: "中文演讲"
 ---
 
-As Didi’s unstructured data grew rapidly, HDFS metadata pressure became a major scalability challenge. Apache Ozone was introduced as the next-generation storage engine to address these limitations, and it has now been running in production at Didi for more than two years, supporting over 100 PB of data and tens of billions of files.
+随着滴滴非结构化数据快速增长，HDFS 元数据压力成为主要的可扩展性挑战。滴滴引入 Apache Ozone 作为下一代存储引擎来突破这些瓶颈，目前 Ozone 已在滴滴稳定运行两年多，支撑超过 100 PB 数据和数百亿文件。
 
-This session gives an introductory overview of Didi’s Ozone journey, including why Ozone was chosen, how the platform evolved in production, and what engineering work was required to improve scalability, performance, and reliability. We will share practical experience in multi-cluster routing, follower-read optimization for S3 workloads, read performance tuning, erasure coding adoption, large-scale deletion and migration, observability, and availability improvements. The session will also summarize lessons learned from operating Ozone at scale and contributing improvements back to the Apache Ozone community.
+本次演讲将对滴滴的 Ozone 历程做入门级概览，包括当初为何选择 Ozone、平台在生产环境中的演进，以及为提升可扩展性、性能和可靠性所做的工程工作。我们将分享在多集群路由、面向 S3 工作负载的 follower-read 优化、读性能调优、纠删码应用、大规模删除与迁移、可观测性以及可用性提升等方面的实践经验。演讲还会总结大规模运营 Ozone 的经验教训，以及把改进回馈给 Apache Ozone 社区的过程。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/06ea-400o400o1-Wwh5e6GkraWD5RMk1W3UK2.jpg" width="200" /><br/>
 
-Shilun Fan: Storage Engineer at DiDi, Apache Ozone Contributor
+Shilun Fan：滴滴存储工程师，Apache Ozone 贡献者
 
-Shilun Fan is an Apache Hadoop PMC Member, an Apache Auron Committer, and an Apache Ozone Contributor. He works on large-scale distributed storage systems and data infrastructure at DiDi. He has been deeply involved in the production deployment and optimization of Apache Ozone, with a focus on scalability, performance tuning, erasure coding, and reliability. His work focuses on building scalable, reliable, and cost-efficient storage platforms for massive data workloads.
+Shilun Fan 是 Apache Hadoop PMC 成员、Apache Auron Committer，以及 Apache Ozone 贡献者。他在滴滴从事大规模分布式存储系统与数据基础设施的工作。他深度参与了 Apache Ozone 的生产部署与优化，重点关注可扩展性、性能调优、纠删码与可靠性。他的工作重心是为海量数据工作负载构建可扩展、可靠且高性价比的存储平台。
 
 
 <img src="https://cdn.sessionize.com/image/b659-400o400o1-3YG7S2Eu2hqjimXdLd2L7h.jpg" width="200" /><br/>
 
-Ming Wei: Storage Engineer at DiDi
+Ming Wei：滴滴存储工程师
 
-Apache Ozone Contributor
+Apache Ozone 贡献者
 
 
 <img src="https://cdn.sessionize.com/image/fd26-400o400o1-LdRsa125u41W2EhLPzcXxk.jpg" width="200" /><br/>
 
-Hongbing Wang: Storage Engineer at DiDi
+Hongbing Wang：滴滴存储工程师
 
 Apache Ozone Committer
-

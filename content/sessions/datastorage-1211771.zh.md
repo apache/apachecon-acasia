@@ -1,81 +1,80 @@
 ---
-title: "HBase Function Iteration and Architecture Evolution Practice at Xiaomi"
+title: "小米 HBase 功能迭代与架构演进实践"
 date: ""
 track: "datastorage"
 presenters: "Yuting sun, Yiming Gong"
 stype: "中文演讲"
 ---
 
-2. Description：
-This session will introduce the function iteration and deployment architecture evolution of HBase system at Xiaomi Group, as well as the work done in stability, performance and cost optimization, including dictionary compression, data structuring, SQL engine capabilities, containerization, and storage-compute separation.
-3. Presentation Outline
-3.1 Data Compression and Storage Optimization
-Dictionary Compression Technology
-- Core Principle: Build auxiliary compression structure based on high-frequency byte sequences
-- Technical Features: Compression/decompression using the same dictionary, particularly suitable for structured data with repetitive patterns
-- Practical Results: Significantly reduce storage costs and improve I/O efficiency
-3.2 Observability and Governance Capabilities
-Table Lineage Feature
-- Functionality: Implement lightweight table lineage collection capability
-- Collected Information: Client version, IP address, Kerberos account, and other key metadata
-- Application Value: Support one-click lineage query for data governance and issue troubleshooting
-3.3 Consistency and Availability Trade-offs
-HBase AP Practice Exploration
-- Positioning Shift: Exploration from CP (consistency priority) to AP (availability priority)
-- Tiered Strategy: Set consistency priority levels for tables
-- Degradation Mechanism: Prioritize service recovery for tables with lower consistency requirements, rather than waiting for complete data recovery
-3.4 Version Upgrade Practice
-3.x Version Implementation
-- Validation Strategy: Build independent test clusters for functionality and stability verification
-- Gradual Rollout: Progressively deploy community 3.x version in production environment
-- Lessons Learned: Challenges and best practices during version upgrade
-3.5 Data Structuring Transformation
-HBase Table Schema Definition
-- Pain Points: Address the issue that native HBase only has column family-level constraints, lacking column-level type definitions
-- Solution Design: Define field types and field-to-column-family/column mapping relationships
-- Benefits:
-  - Unified table structure management for business teams
-  - Automatic serialization/deserialization
-  - Foundation for SQL engine capabilities
-3.6 SQL Engine Capabilities
-SQL Semantics Implementation Based on Structuring
-- Technical Foundation: Built upon data structuring achievements
-- Core Capabilities: Implement standard SQL query semantics
-- Usability Improvements:
-  - More convenient console queries
-  - Friendlier offline job data access
-  - Lower barrier to entry and improved readability
-3.7 HBase Containerization
-- Deployment Method: Deploy containerized Master and RegionServer processes based on Kubernetes
-- Capability Enhancements:
-  - Improved elastic scaling
-  - Higher resource utilization
-  - Enhanced operation automation
-3.8 HBase Storage-Compute Separation Architecture
-- Technical Solution: Implement storage-compute separation based on JuiceFS + Object Storage
-- Cost Reduction Impact: Significantly reduce storage costs
-- Key Technologies:
-  - Smooth file system migration solution
-  - Interface adaptation and performance tuning
-  - Ensure seamless migration for business services
+2. 描述：
+本次演讲将介绍小米集团 HBase 系统的功能迭代与部署架构演进，以及在稳定性、性能和成本优化方面所做的工作，包括字典压缩、数据结构化、SQL 引擎能力、容器化以及存算分离。
+3. 演讲大纲
+3.1 数据压缩与存储优化
+字典压缩技术
+- 核心原理：基于高频字节序列构建辅助压缩结构
+- 技术特点：压缩与解压使用同一字典，尤其适用于具有重复模式的结构化数据
+- 实践成效：显著降低存储成本，提升 I/O 效率
+3.2 可观测性与治理能力
+表血缘（Lineage）特性
+- 功能：实现轻量级的表血缘采集能力
+- 采集信息：客户端版本、IP 地址、Kerberos 账号等关键元数据
+- 应用价值：支持一键血缘查询，用于数据治理与问题排查
+3.3 一致性与可用性的权衡
+HBase AP 实践探索
+- 定位转变：从 CP（一致性优先）向 AP（可用性优先）的探索
+- 分级策略：为表设置一致性优先级
+- 降级机制：优先恢复一致性要求较低的表的服务，而非等待数据完全恢复
+3.4 版本升级实践
+3.x 版本落地
+- 验证策略：搭建独立测试集群进行功能与稳定性验证
+- 逐步推广：在生产环境中渐进式部署社区 3.x 版本
+- 经验教训：版本升级过程中的挑战与最佳实践
+3.5 数据结构化改造
+HBase 表 Schema 定义
+- 痛点：解决原生 HBase 仅有列族级约束、缺少列级类型定义的问题
+- 方案设计：定义字段类型以及字段到列族/列的映射关系
+- 收益：
+  - 为业务团队提供统一的表结构管理
+  - 自动序列化/反序列化
+  - 为 SQL 引擎能力奠定基础
+3.6 SQL 引擎能力
+基于结构化的 SQL 语义实现
+- 技术基础：建立在数据结构化成果之上
+- 核心能力：实现标准 SQL 查询语义
+- 易用性提升：
+  - 更便捷的控制台查询
+  - 更友好的离线作业数据访问
+  - 更低的使用门槛与更好的可读性
+3.7 HBase 容器化
+- 部署方式：基于 Kubernetes 部署容器化的 Master 和 RegionServer 进程
+- 能力提升：
+  - 更好的弹性伸缩
+  - 更高的资源利用率
+  - 更强的运维自动化
+3.8 HBase 存算分离架构
+- 技术方案：基于 JuiceFS + 对象存储实现存算分离
+- 降本成效：显著降低存储成本
+- 关键技术：
+  - 平滑的文件系统迁移方案
+  - 接口适配与性能调优
+  - 确保业务服务无缝迁移
 
 ---
-4. Summary
-Through the above series of technical evolution, Xiaomi HBase system has achieved dual goals of performance improvement and cost optimization while ensuring business stability, providing practical reference for the evolution of large-scale distributed storage systems.
+4. 总结
+通过上述一系列技术演进，小米 HBase 系统在保障业务稳定的同时，达成了性能提升与成本优化的双重目标，为大规模分布式存储系统的演进提供了实践参考。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/f58e-400o400o1-94JMLSeRT14HWn8mTYNdUm.png" width="200" /><br/>
 
-Yuting sun: Storage R&D Engineer
+Yuting sun：存储研发工程师
 
-Xiaomi software R&D engineer, mainly responsible for HBase development
+小米软件研发工程师，主要负责 HBase 开发。
 
 
 <img src="https://cdn.sessionize.com/image/c543-400o400o1-PaMvtfz6PJnDHzzhvx71Me.jpg" width="200" /><br/>
 
-Yiming Gong: Xiaomi, SDE
+Yiming Gong：小米，SDE
 
-HBase developer at xiaomi
-
+小米 HBase 开发者。

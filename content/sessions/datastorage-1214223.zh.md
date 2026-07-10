@@ -1,23 +1,22 @@
 ---
-title: "Unifying Lance Metadata Management with Gravitino"
+title: "用 Gravitino 统一 Lance 的元数据管理"
 date: ""
 track: "datastorage"
 presenters: "Qi Yu"
 stype: "中文演讲"
 ---
 
-With the rise of AI and vector-based workloads, Lance is gaining traction as a high-performance data format for analytical and ML use cases. However, managing Lance datasets across systems remains challenging due to the lack of a unified metadata layer.
+随着 AI 和基于向量的工作负载兴起，Lance 作为面向分析与机器学习场景的高性能数据格式，正受到越来越多的关注。然而，由于缺少统一的元数据层，跨系统管理 Lance 数据集仍然充满挑战。
 
-In this talk, we introduce how Apache Gravitino enables centralized metadata management for Lance through its Lance REST service integration. We will walk through how Lance datasets can be modeled using a unified catalog abstraction, making them easier to manage, discover, and access across different engines.
+在本次演讲中，我们将介绍 Apache Gravitino 如何通过其 Lance REST 服务集成，实现对 Lance 的集中化元数据管理。我们将演示如何用统一的目录抽象来建模 Lance 数据集，使其更易于在不同引擎间被管理、发现和访问。
 
-We will also share the design considerations behind this integration, demonstrate how to create and access Lance datasets via Gravitino, and discuss how this approach helps build a more consistent and extensible data platform for both traditional analytics and emerging AI workload.
+我们还会分享这次集成背后的设计考量，演示如何通过 Gravitino 创建并访问 Lance 数据集，并讨论这种做法如何帮助构建一个更一致、更具扩展性的数据平台，以同时服务传统分析和新涌现的 AI 工作负载。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/b330-400o400o1-TDqhGWSyPAGG48dG2H2tHm.jpg" width="200" /><br/>
 
-Qi Yu: Data infrastructure engineer, Apache Gravitino PMC
+Qi Yu：数据基础设施工程师，Apache Gravitino PMC
 
-Engineer at Datastato and PMC member of Apache Gravitino, working on big data infrastructure, metadata management, and database systems, with a focus on scalable data platform development.
-
+Datastrato 工程师、Apache Gravitino PMC 成员，从事大数据基础设施、元数据管理与数据库系统的工作，专注于可扩展数据平台的研发。
