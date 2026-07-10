@@ -1,22 +1,21 @@
 ---
-title: "Evolution of Open-Source Projects for Agents: Seata’s Path to AI-Friendliness"
+title: "面向 Agent 的开源项目演进：Seata 走向 AI 友好之路"
 date: ""
 track: "microservice"
 presenters: "Feng Zhang"
 stype: "中文演讲"
 ---
 
-In the past, open-source projects have largely built their communities and operations around human developers: clear wikis, readable code comments, and user-friendly graphical dashboards. However, with the rapid rise of large language models and AI agents, open-source codebases and infrastructure are now facing a whole new kind of user. In the future, open-source projects should not only be easy and enjoyable for humans to use, but also structured in a way that AI can “understand” and “debug” effectively.
+过去，开源项目主要围绕人类开发者来构建社区和运营：清晰的 wiki、易读的代码注释，以及对用户友好的图形化面板。然而，随着大语言模型和 AI agent 的快速崛起，开源代码库和基础设施正面对一种全新的"用户"。未来，开源项目不仅要让人类用起来轻松愉悦，还应当在结构上便于 AI 有效地"理解"和"调试"。
 
-From the perspective of the open-source ecosystem, this analysis explores how open-source projects can become more “AI-friendly” in the age of AI. Using Apache Seata as a starting point, we will introduce our journey toward AI-oriented optimization.
+本演讲从开源生态的视角出发，探讨在 AI 时代开源项目如何变得更加"AI 友好"。我们将以 Apache Seata 为切入点，分享我们走向面向 AI 优化的实践历程。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/ff07-400o400o1-9EDorTxm4s8EUAGsan1y1V.jpg" width="200" /><br/>
 
-Feng Zhang: DiDi Global Inc, Senior Software Engineer
+Feng Zhang：DiDi Global Inc（滴滴），资深软件工程师
 
-Open-source enthusiast
-Apache Seata(incubating)  Committer
-
+开源爱好者
+Apache Seata（孵化中）Committer

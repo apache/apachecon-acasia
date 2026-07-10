@@ -1,27 +1,28 @@
 ---
-title: "Fixing Authorization in Microservices Without Breaking Everything"
+title: "修复微服务中的授权问题，且不必推倒重来"
 date: ""
 track: "microservice"
 presenters: "Aram Andreasyan"
 stype: "英文演讲"
 ---
 
-Authorization is one of those things that starts simple and quietly becomes a mess as systems grow. In a microservices setup, it often ends up duplicated across services, implemented slightly differently each time, and hard to reason about when something goes wrong.
+授权这件事往往一开始很简单，但随着系统规模的增长，会在不知不觉中变得一团糟。在微服务架构下，授权逻辑常常在多个服务之间重复实现，每次的实现方式都略有不同，一旦出现问题，就很难理清原因。
 
-In this talk, Aram will walk through what typically happens as teams scale from a single service to many and how access control logic starts to drift across the system. We’ll look at common patterns that seem fine at first but break down over time, especially when services need to share context or enforce consistent rules.
+在本次演讲中，Aram 将梳理团队从单一服务扩展到众多服务时通常会出现的状况，以及访问控制逻辑如何在系统中逐渐出现偏差。我们会审视那些最初看起来没问题、但随时间推移逐渐失效的常见模式，尤其是当服务之间需要共享上下文或执行一致规则时。
 
-From there, he'll go over a more practical approach to handling authorization as a separate concern instead of embedding it everywhere. This includes how to structure policies, how services interact with an external decision layer, and what changes in terms of development and debugging.
+随后，他将介绍一种更实用的做法：把授权作为一个独立的关注点来处理，而不是到处嵌入到业务代码中。这包括如何组织策略（policy）、服务如何与外部的决策层（decision layer）交互，以及在开发和调试方面会发生哪些变化。
 
-The focus is on real implementation patterns and trade-offs, not theory. By the end, the audience should have a clearer way to think about authorization in distributed systems and how to avoid the usual pitfalls without rewriting everything from scratch.
+本次演讲聚焦于真实的实现模式与权衡，而非理论。演讲结束后，听众应当能够以更清晰的思路来思考分布式系统中的授权问题，并学会如何在不推倒重来的情况下避开常见陷阱。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/cd9a-400o400o1-sgGoPSzQYUTb5WVgD7YNNt.jpg" width="200" /><br/>
 
-Aram Andreasyan: Director of Solutions
+Aram Andreasyan：解决方案总监
 
-Aram specializes in helping organizations simplify and scale authorization through policy-as-code approaches. With a strong background in cybersecurity, infrastructure, and access control, he works closely with engineering and security teams to design efficient, compliant, and developer-friendly authorization systems.
-Prior to Cerbos, Aram consulted for technology startups and enterprise clients across EMEA and North America, focusing on digital transformation and cloud security strategies. Aram has experience working with distributed architectures, MDM (Master Data Management), and complex SaaS deployments. He's passionate about externalized authorization, IAM modernization, and helping economic buyers (CISOs, security architects, and engineering leaders) align technical decisions with regulatory and business needs.
-When Aram's not solving authorization challenges, he enjoys staying close to tech communities, mentoring startups, and occasionally moonlight as a cyberpunk lore nerd.
+Aram 专注于通过 policy-as-code（策略即代码）的方式，帮助组织简化并扩展其授权体系。他在网络安全、基础设施和访问控制方面拥有深厚背景，与工程团队和安全团队紧密合作，设计高效、合规且对开发者友好的授权系统。
 
+在加入 Cerbos 之前，Aram 曾为 EMEA 和北美地区的技术初创公司及企业客户提供咨询服务，专注于数字化转型和云安全策略。Aram 在分布式架构、MDM（主数据管理）以及复杂的 SaaS 部署方面拥有丰富经验。他热衷于外部化授权（externalized authorization）、IAM 现代化，并帮助决策者（CISO、安全架构师和工程负责人）将技术决策与合规及业务需求对齐。
+
+工作之余，Aram 喜欢与科技社区保持紧密联系、为初创公司提供指导，偶尔也会"兼职"做个赛博朋克背景故事的极客。
