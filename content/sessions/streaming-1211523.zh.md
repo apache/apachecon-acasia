@@ -1,33 +1,32 @@
 ---
-title: "Exploring Real-Time AI Application Scenarios Based on Flink"
+title: "基于 Flink 探索实时 AI 应用场景"
 date: ""
 track: "streaming"
 presenters: "饶饶 熊"
 stype: "中文演讲"
 ---
 
-**1. Background**
-- Typical real-time AI application scenarios: real-time ad features, recommendation prediction, fraud detection, content moderation, intelligent operations, etc.
-- PyFlink's role in real-time AI: bridging Flink's stream processing capabilities with the Python AI ecosystem, lowering the barrier for algorithm engineers to build real-time AI Flink jobs
+**1. 背景**
+- 典型的实时 AI 应用场景：实时广告特征、推荐预测、欺诈检测、内容审核、智能运维等。
+- PyFlink 在实时 AI 中的角色：把 Flink 的流处理能力与 Python AI 生态连接起来，降低算法工程师构建实时 AI Flink 作业的门槛。
 
-**2. PyFlink Practices at Tencent**
-- Platform support: dependency management for PyFlink jobs, interpreter optimization, vectorized UDFs, async functions, library/table SDK, and other key technical infrastructure
-- Real-time ad feature engineering: building a second-level real-time feature pipeline with PyFlink, addressing feature freshness and online-offline consistency challenges while connecting to the Python ecosystem
-- AI Function scenarios: supporting remote inference (AsyncI/O calls to LLM/GPU model services) and local inference (embedded lightweight models), covering a wide range of real-time inference needs from large models to lightweight models
+**2. PyFlink 在腾讯的实践**
+- 平台支持：PyFlink 作业的依赖管理、解释器优化、向量化 UDF、异步函数、库/表 SDK 等关键技术基础设施。
+- 实时广告特征工程：用 PyFlink 构建秒级实时特征管道，在接入 Python 生态的同时，解决特征新鲜度与线上线下一致性的挑战。
+- AI Function 场景：支持远程推理（通过 Async I/O 调用 LLM/GPU 模型服务）和本地推理（内嵌轻量级模型），覆盖从大模型到轻量级模型的广泛实时推理需求。
 
-**3. AI Agent-Driven Development & Operations**
-- Operations efficiency: building an intelligent diagnostic Agent based on LLM + RAG for anomaly pattern recognition, log analysis, root cause reasoning, and assisted remediation
-- Development efficiency: natural language generation of Flink SQL/PyFlink code, schema-aware assistance, code review, and debugging support
+**3. AI Agent 驱动的开发与运维**
+- 运维效率：基于 LLM + RAG 构建智能诊断 Agent，用于异常模式识别、日志分析、根因推理和辅助修复。
+- 开发效率：用自然语言生成 Flink SQL/PyFlink 代码，提供 schema 感知的辅助、代码评审与调试支持。
 
-**4. Future Outlook**
-- Flink AI Agents: a natural language-driven, end-to-end Agent for job development, debugging, and deployment — closing the loop from requirement understanding → code generation → deployment → operations monitoring
+**4. 未来展望**
+- Flink AI Agents：一个由自然语言驱动、端到端的 Agent，用于作业开发、调试和部署——打通"需求理解 → 代码生成 → 部署 → 运维监控"的闭环。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/541e-400o400o1-fRk5WkYAbfkxwYJD5QVohU.jpg" width="200" /><br/>
 
-饶饶 熊: Tencent, Senior Backend Development Engineer
+饶饶 熊：腾讯，资深后端开发工程师
 
-Senior Big Data Engineer at Tencent, focusing on Flink real-time computing and AI infrastructure. Core contributor to Tencent's Flink-based real-time computing platform (Oceanus), with extensive experience in PyFlink ecosystem development, Flink SQL/Runtime related work, and AI-integrated stream processing. Currently leading the exploration of AI Agent-driven development and operations for real-time data platforms. Passionate about bridging the gap between streaming data systems and the AI/ML ecosystem.
-
+腾讯资深大数据工程师，专注于 Flink 实时计算与 AI 基础设施。腾讯基于 Flink 的实时计算平台（Oceanus）的核心贡献者，在 PyFlink 生态开发、Flink SQL/Runtime 相关工作以及 AI 与流处理结合方面经验丰富。目前牵头实时数据平台 AI Agent 驱动的开发与运维方向的探索。热衷于弥合流式数据系统与 AI/ML 生态之间的鸿沟。

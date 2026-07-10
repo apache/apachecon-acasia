@@ -1,33 +1,32 @@
 ---
-title: "Kafka Streams 4.2.0 Dead Letter Queue: From Manual Workarounds to Built-in Transaction Safety"
+title: "Kafka Streams 4.2.0 死信队列（DLQ）：从手工变通到内置的事务安全"
 date: ""
 track: "streaming"
 presenters: "Eric Chang"
 stype: "中文演讲"
 ---
 
-Handling bad records in Kafka Streams looks simple at first: catch the bad record, write it to another topic, and continue. In practice, it becomes more subtle once deserialization errors, custom exception handlers, and exactly-once processing are involved.
+在 Kafka Streams 中处理坏记录（bad record）乍看很简单：捕获坏记录，把它写到另一个 topic，然后继续。但在实践中，一旦牵涉到反序列化错误、自定义异常处理器和 exactly-once 处理，事情就变得更微妙了。
 
-This session is a practical walkthrough of KIP-1034: Dead Letter Queue in Kafka Streams, a Kafka improvement proposal created by Damien Gasparina and coauthored by Damien Gasparina, Loic Greffier, and Sebastien Viale. I am not an author of the KIP; this talk is an engineer’s reading and hands-on exploration of the feature through runnable examples.
+本次演讲是对 KIP-1034：Kafka Streams 中的死信队列（Dead Letter Queue）的实战讲解，这是一项由 Damien Gasparina 发起、并由 Damien Gasparina、Loic Greffier 和 Sebastien Viale 共同撰写的 Kafka 改进提案。我并非该 KIP 的作者；本次演讲是一名工程师对该特性的研读，以及借助可运行示例所做的实践探索。
 
-Before Kafka 4.2.0, adding a Dead Letter Queue often meant writing and maintaining custom exception handlers, a separate producer, producer lifecycle code, and manual header handling for source topic, partition, offset, exception type, message, and stack trace. Kafka Streams 4.2.0 introduces built-in Dead Letter Queue support that can be enabled with just a few configuration lines. Kafka Streams creates the default Dead Letter Queue record, adds the standard error headers automatically, and sends it through its internal producer path.
+在 Kafka 4.2.0 之前，增加一个死信队列往往意味着要编写并维护自定义的异常处理器、一个独立的 producer、producer 的生命周期代码，还要手工处理 source topic、分区、offset、异常类型、消息和堆栈跟踪等 header。Kafka Streams 4.2.0 引入了内置的死信队列支持，只需几行配置即可启用。Kafka Streams 会创建默认的死信队列记录，自动添加标准的错误 header，并通过其内部 producer 路径发送出去。
 
-We will compare a pre-KIP-1034 manual Dead Letter Queue implementation with the Kafka 4.2.0 approach, then look at why this matters for transaction safety. With a manual Dead Letter Queue producer, the Dead Letter Queue write sits outside the Kafka Streams transaction boundary. If that write is committed and the Streams transaction later aborts, the same bad input record may be retried and written to the Dead Letter Queue again. KIP-1034 closes this gap by letting Dead Letter Queue writes follow the same Kafka Streams internal write path as normal output records.
+我们将对比 KIP-1034 之前的手工死信队列实现与 Kafka 4.2.0 的做法，然后看看为什么这对事务安全很重要。使用手工的 DLQ producer 时，死信队列的写入位于 Kafka Streams 的事务边界之外。如果该写入被提交，而随后 Streams 事务被中止，那么同一条坏输入记录可能会被重试，并再次被写入死信队列。KIP-1034 弥合了这一缺口，让死信队列的写入与正常输出记录一样，走 Kafka Streams 的内部写入路径。
 
-Attendees will leave with a practical mental model for when KIP-1034 helps, what problems it solves, and how to migrate away from ad hoc Dead Letter Queue implementations in Kafka Streams.
+听众离场时将获得一个实用的思维模型，了解 KIP-1034 在何时能帮上忙、它解决了哪些问题，以及如何从 Kafka Streams 中临时的（ad hoc）死信队列实现迁移过来。
 
-References:
+参考资料：
 
-- [blog post about the content of this session](https://blog.unknowntpo.me/blog/kafka-kip-1034-dlq)
+- [关于本次演讲内容的博客文章](https://blog.unknowntpo.me/blog/kafka-kip-1034-dlQ)
 - [KIP-1034](https://cwiki.apache.org/confluence/display/KAFKA/KIP-1034%3A+Dead+letter+queue+in+Kafka+Streams)
-And here's the link to the KIP: 
+以下是该 KIP 的链接：
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/66b0-400o400o1-UHasfsGgbmwaRvqqXqtoL1.png" width="200" /><br/>
 
-Eric Chang: Apache Gravitino Committer, Apache Kafka contributor, and member of OpenSourceForYou, a vibrant Taiwan-based open-source community founded by Chia-Ping Tsai
+Eric Chang：Apache Gravitino Committer、Apache Kafka 贡献者，以及 OpenSourceForYou（由 Chia-Ping Tsai 创立的、活跃的台湾开源社区）成员
 
-Eric Chang is an Apache Gravitino Committer and Apache Kafka contributor based in Taiwan. He is also a member of OpenSourceForYou, a vibrant Taiwan-based open-source community founded by Chia-Ping Tsai. Eric is interested in backend systems, Kafka, and distributed data processing, and he writes technical articles with runnable examples to explain practical engineering problems. His recent work explores Kafka Streams KIP-1034 and how built-in Dead Letter Queue support changes the way applications handle bad records under exactly-once processing.
-
+Eric Chang 是驻台湾的 Apache Gravitino Committer 和 Apache Kafka 贡献者。他同时也是 OpenSourceForYou（由 Chia-Ping Tsai 创立的、活跃的台湾开源社区）的成员。Eric 对后端系统、Kafka 和分布式数据处理感兴趣，并通过带有可运行示例的技术文章来讲解实际的工程问题。他近期的工作聚焦于 Kafka Streams 的 KIP-1034，以及内置死信队列支持如何改变应用在 exactly-once 处理下处理坏记录的方式。
