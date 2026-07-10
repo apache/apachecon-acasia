@@ -1,19 +1,18 @@
 ---
-title: "Orchestrating and Diagnosing: Seata-Go Agent Platform and seata-ctl Toolchain"
+title: "编排与诊断：Seata-Go Agent 平台与 seata-ctl 工具链"
 date: ""
 track: "webserver"
 presenters: "Tun Guo"
 stype: "中文演讲"
 ---
 
-To address the complexity of long-transaction orchestration and the challenges of distributed transaction diagnostics, this talk will cover the evolution of Seata Go and its infrastructure, the capabilities of the Agent orchestration platform and diagnostic tools, and practical use cases integrating the two.
+为了应对长事务编排的复杂性以及分布式事务诊断的挑战，本次演讲将介绍 Seata Go 及其基础设施的演进、Agent 编排平台与诊断工具的能力，以及将二者结合的实践用例。
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/e22a-400o400o1-aMZP9AC2ZUbPKtpnLFD2sT.jpg" width="200" /><br/>
 
-Tun Guo: Backend Developer, Apache Seata(Incubator) Committer
+Tun Guo：后端开发者，Apache Seata（孵化中）Committer
 
-A backend development engineer at an embedded AI company, and an Apache Seata (Incubator) Committer.
-
+一家嵌入式 AI 公司的后端开发工程师，Apache Seata（孵化中）Committer。
