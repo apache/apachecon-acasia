@@ -1,5 +1,5 @@
 {
-  "Cloud Native": "cloudnative",
+  "Data + AI": "dataai",
   "DataOps": "dataops",
   "Streaming": "streaming",
   "Incubator": "incubator",
@@ -8,7 +8,8 @@
   "Community": "community",
   "Data Storage & Computing": "datastorage",
   "Web Application & Framework": "webserver",
-  "AI": "ai",
+  "AI Infra": "aiinfra",
+  "Agentic Coding": "agenticcoding",
   "IoT": "iot",
   "Messaging": "messaging",
   "Microservice": "microservice",
