@@ -1,28 +1,23 @@
 ---
-title: "Building a Unified Lakehouse: Best Practices with Apache Paimon and Ecosystem"
+title: "精简元数据，驾驭大数据：让 Apache Iceberg 中的查询保持飞快"
 date: ""
 track: "datalake"
-presenters: "Zhoulong Liu"
-stype: "中文演讲"
+presenters: "Hongyue Zhang"
+stype: "英文演讲"
 ---
 
-As data architectures evolve, maintaining separate silos for batch and streaming processing — the hallmark of Lambda architecture — has become increasingly costly and complex. How can we build a truly unified platform that delivers both real-time data freshness and high-performance analytics at scale?
+Apache Iceberg 的元数据层正是 schema 演进、分区演进和谓词下推（predicate pushdown）得以实现的基础。但在 PB 级规模下，这些元数据本身可能膨胀到数百 GB 甚至更多。当规划阶段拖慢了执行阶段，就总得有所取舍。
 
-In this talk, we go beyond theory and dive into the trenches of building a next-generation Unified Lakehouse centered around Apache Paimon. We will share battle-tested best practices and real-world implementation patterns, demonstrating how to architect a seamless data pipeline through deep ecosystem synergy:
+本次演讲探讨 Iceberg 的元数据是如何通过 manifest、分区摘要（partition summary）以及列级指标来组织的，以及为什么每一层都是为了支撑快速分析查询而存在。随后，我们将走查 Iceberg 的原生 API、procedure，以及把它们应用于大规模场景下控制元数据体量的实用策略。最后，我们会预览 Iceberg v4 规范中的一些提案，它们旨在让元数据在默认情况下更紧凑、更具可扩展性。
 
-Apache Flink + Paimon — Robust, low-latency real-time ingestion into a transactional data lake
-Apache Paimon — The core storage layer enabling ACID transactions, schema evolution, and unified batch-streaming reads
-StarRocks & Apache Spark + Paimon — Delivering exceptional interactive and batch query performance directly on the lake
-Apache Kyuubi — The unified, serverless SQL gateway tying it all together
-Apache Gravitino — Unified metadata management, enabling centralized metadata governance across engines and data sources
-Attendees will walk away with a proven methodology for building a unified Lakehouse around Paimon and other key components, along with practical guidance on component selection, integration, and production tuning across the ecosystem, as well as additional Data+AI application scenarios.
+你将清晰地了解那数 GB 的元数据究竟从何而来，获得一份以 Iceberg 自身方式来控制元数据体量的"打法手册"，以及对 v4 规范足够的背景认知——足以让你开始参与贡献，并了解该格式未来的走向。
+
 
 ### 讲师:
 
 
-<img src="https://cdn.sessionize.com/image/be84-400o400o1-BzW6ygnHFUNsYubzvrwjzK.jpg" width="200" /><br/>
+<img src="https://cdn.sessionize.com/image/1050-400o400o1-3JfnogDnkgNnwSMLv7LeQm.jpg" width="200" /><br/>
 
-Zhoulong Liu:  Senior Big Data Specialist, eclicktech
+Hongyue Zhang：Snowflake 软件工程师
 
-The head of the Big Data Department at eclicktech previously worked at Sohu Video and Tencent and is skilled in building big data platforms and related systems.
-
+Hongyue 自 2022 年起开始为 Apache Iceberg 项目做贡献，当时他在 Apple 数据平台工作。如今在 Snowflake，他围绕 Apache Iceberg 构建工具和系统，以帮助做出数据驱动的决策。

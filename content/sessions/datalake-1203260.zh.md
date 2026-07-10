@@ -1,26 +1,25 @@
 ---
-title: "From database to lakehouse in real-time: CDC, Kafka, Apicurio, and Apache Iceberg"
+title: "从数据库到实时湖仓：CDC、Kafka、Apicurio 与 Apache Iceberg"
 date: ""
 track: "datalake"
 presenters: "Carles Arnal"
 stype: "英文演讲"
 ---
 
-Batch ETL runs nightly. Your analysts query stale data. Your ML models train on yesterday's features. The streaming-first lakehouse replaces all of that with a single, real-time pipeline — and you can build it entirely with open-source tools.
+批处理 ETL 在夜间运行。你的分析师查询的是过时数据。你的 ML 模型基于昨天的特征来训练。而流式优先（streaming-first）的湖仓用一条实时管道取代了这一切——而且你可以完全用开源工具来构建它。
 
-In this talk, I'll demo a complete pipeline: Debezium captures row-level changes from PostgreSQL, streams them through Kafka with schemas enforced by Apicurio Registry (a CNCF sandbox project), and lands them in Apache Iceberg tables — queryable within seconds via Trino or Spark. I'll cover how the Flink Dynamic Iceberg Sink leverages schema registries for automatic schema evolution, eliminating the manual DDL changes that plague traditional data lakes.
+在本次演讲中，我将演示一条完整的管道：Debezium 从 PostgreSQL 捕获行级变更，通过 Kafka 进行流转（其 schema 由 Apicurio Registry——一个 CNCF sandbox 项目——强制约束），最终落入 Apache Iceberg 表中——几秒钟内即可通过 Trino 或 Spark 查询。我还会讲解 Flink Dynamic Iceberg Sink 如何借助 schema registry 实现自动 schema 演进，从而消除困扰传统数据湖的手工 DDL 变更。
 
-Attendees will leave with:
-- A deployable CDC-to-Iceberg pipeline architecture using only open-source components on Kubernetes
-- Practical patterns for handling schema evolution across the Kafka-to-Iceberg boundary
-- A clear understanding of when this approach replaces batch ETL and where hybrid patterns still make sense
+听众将带走：
+- 一套可部署的、仅使用 Kubernetes 上开源组件的 CDC-to-Iceberg 管道架构
+- 处理 Kafka 到 Iceberg 边界处 schema 演进的实用模式
+- 清晰地理解这种方法何时能取代批处理 ETL，以及哪些场景下混合模式仍然合理
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/ebeb-400o400o1-nXA4VjZFgbUQrzL5Hm1DKV.jpg" width="200" /><br/>
 
-Carles Arnal: Principal Software Engineer at Red Hat
+Carles Arnal：Red Hat 软件首席工程师
 
-Carles Arnal is a Principal Software Engineer at IBM and a core maintainer of Apicurio Registry (CNCF sandbox project) working in the AI and Data Streaming space. He's also an associate professor at BarcelonaTech and he's an active committer of Quarkus with over 10 years of industry experience.
-
+Carles Arnal 是 IBM 的软件首席工程师，也是 Apicurio Registry（CNCF sandbox 项目）的核心维护者，活跃于 AI 与数据流领域。他还是 BarcelonaTech 的副教授，以及 Quarkus 的活跃 committer，拥有 10 年以上的行业经验。

@@ -1,36 +1,22 @@
 ---
-title: "The Anatomy of Iceberg Failures: Lessons from Real-World Escalations"
+title: "迈向湖仓：高性价比的 Hive 迁移与大规模实时入湖"
 date: ""
 track: "datalake"
-presenters: "Noémi Pap-Takács, Boglárka Egyed"
-stype: "英文演讲"
+presenters: "Hangxiang Yu"
+stype: "中文演讲"
 ---
 
-Apache Iceberg has revolutionized data lakes by bringing ACID transactions and flexible table updates. However, at enterprise scale, "hands-off" management is a myth. Without the right maintenance strategy, high-throughput systems often suffer from rising storage costs, query performance degradation, and failures.
+在滴滴，把我们的 Hive 生态扩展到 Iceberg，需要的不仅仅是简单的格式转换，而是重建我们的数据完整性与治理策略。我们设计了一套基于快照的零停机离线迁移策略，能够在切换之前进行一致性检查和即时回滚。为了应对元数据膨胀和孤儿文件问题，我们还集成了 Apache Amoro 来实现自主优化。
 
-In this session, we will dissect real-world customer escalations ranging from systems crashing because they had to process massive amounts of metadata, to cleanup tasks being blocked by constant data updates from multiple concurrent writers. 
+在这一基础上，我们把架构扩展到了实时场景。通过用 Iceberg 精简入湖管道，我们把数据延迟从小时级降低到了分钟级。这种统一的做法不仅简化了 ETL 管道，还节省了 PB 级的存储，并显著降低了计算成本。 
 
-Attendees will move beyond the documentation to learn a proven practical guide for switching from firefighting emergencies to proactive management, keeping the data lake healthy and performant.
-
-We will cover:
-- Observability: Key metrics to monitor to detect health issues before they trigger an escalation,
-- Tips for performance: Reducing storage and compute costs,
-- Maintenance strategies: Configure maintenance features and schedule compaction jobs without locking out production writers,
-- Recovery: How to repair tables and recover from failures.
+本次演讲提供关于在生产环境中构建稳定、高性能湖仓的可落地洞见。
 
 ### 讲师:
 
 
-<img src="https://cdn.sessionize.com/image/5a3f-400o400o1-BYhDA4rBpsGm8n4d5mcvhs.jpg" width="200" /><br/>
+<img src="https://cdn.sessionize.com/image/d20f-400o400o1-WrCCe8TfkfC32qDkTEEfSN.jpg" width="200" /><br/>
 
-Noémi Pap-Takács: Apache Impala Committer
+Hangxiang Yu：Apache Flink Committer & 滴滴实时计算团队负责人
 
-Noémi Pap-Takács is a software engineer at Cloudera and a committer on the Apache Impala project. Her focus lies in performance optimization and the integration of Apache Iceberg into Impala.
-
-
-<img src="https://cdn.sessionize.com/image/bbcc-400o400o1-faLy6maxgVArZ88BQgaPnH.jpg" width="200" /><br/>
-
-Boglárka Egyed: Engineering Director at Cloudera
-
-Boglárka Egyed is an Engineering Director at Cloudera, leading the teams behind Apache Impala and Hive. A former automotive engineer turned big data enthusiast, she spent years as an Apache Sqoop developer before moving into leadership. Today, she focuses on scaling engineering excellence and advancing open-source innovation for modern data architecture.
-
+Hangxiang Yu 是 Apache Flink Committer，目前在滴滴带领实时计算工程团队。凭借在分布式系统和存储方面多年的实战经验，他管理着滴滴的实时基础设施，包括 Apache Flink、数据入湖管道以及 P0 级实时数据仓库。他还致力于推进滴滴的湖仓架构，努力提升数据新鲜度、优化基础设施成本，并构建自管理的治理能力。
