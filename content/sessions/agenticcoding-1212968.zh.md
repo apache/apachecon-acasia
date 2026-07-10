@@ -1,16 +1,16 @@
 ---
-title: "Core Design Gets Harder: Lessons from Rewriting Bub"
+title: "核心设计变得更难了：重写 Bub 的经验教训"
 date: ""
 track: "agenticcoding"
 presenters: "卓燃 尚"
 stype: "中文演讲"
 ---
 
-Agentic coding makes it easier than ever to generate features. But that is exactly why extensibility is not enough: we need systems that remain understandable, replaceable, and governable.
+Agentic coding 让生成功能变得前所未有地容易。但这恰恰说明，仅有可扩展性已经不够：我们需要的是始终保持可理解、可替换、可治理的系统。
 
-This talk uses the rewrite of Bub as a case study in a deliberately counterintuitive design choice. At a time when AI is increasingly good at producing demos and edge features, Bub’s core is still largely designed and handwritten by humans. Bub grew out of messy multi-person group chats rather than polished single-user demos, which exposed structural problems early: once channels, skills, and memory-related capabilities accumulated, continuing to absorb them into the framework core would make the system harder to understand, configure, and maintain.
+本次演讲以 Bub 的重写为案例，探讨一种刻意"反直觉"的设计选择。在 AI 越来越擅长产出 demo 和边缘功能的当下，Bub 的核心很大程度上仍由人类设计并手工编写。Bub 脱胎于杂乱的多人群聊，而非精致的单用户 demo，这早早暴露了结构性问题：一旦频道（channel）、技能（skill）以及与记忆相关的能力不断累积，继续把它们吸收进框架核心，只会让系统越来越难以理解、配置和维护。
 
-I will share why the rewrite pushed more variation out of the framework core, kept the system small and hook-first, and treated built-ins as replaceable default plugins. I will also discuss Bub’s tape model as a way to make context more explicit, reconstructable, and reviewable for both humans and agents. The broader argument is practical: when feature generation gets cheaper, careful human design of core boundaries, dependency direction, extension points, and context becomes more important, not less.
+我将分享为什么这次重写把更多的变化推出了框架核心，让系统保持小巧且以 hook 为先，并把内置功能当作可替换的默认插件。我还会讨论 Bub 的 tape 模型——它使上下文对人和 agent 都更明确、可重建、可审查。更宏观的论点是切实的：当功能生成的成本降低时，由人精心设计核心边界、依赖方向、扩展点和上下文，这件事会变得更加重要，而不是更不重要。
 
 
 ### 讲师:
@@ -18,7 +18,6 @@ I will share why the rewrite pushed more variation out of the framework core, ke
 
 <img src="https://cdn.sessionize.com/image/6bf9-400o400o1-DQtQav4AMVTHbmyVtQMfBY.jpg" width="200" /><br/>
 
-卓燃 尚: ASF Member, Senior Engineer @ OceanBase
+卓燃 尚：ASF Member，OceanBase 资深工程师
 
-Data Systems · AI Infrastructure · OSS
-
+数据系统 · AI 基础设施 · 开源（OSS）

@@ -1,21 +1,20 @@
 ---
-title: "Agents as Testbed: Using Agents to Navigate High-Dimensional Optimization Spaces"
+title: "把 Agent 当作试验台：用 Agent 探索高维优化空间"
 date: ""
 track: "agenticcoding"
 presenters: "Ruihang Xia"
 stype: "中文演讲"
 ---
 
-We may have had many sparks of performance optimization, and wanna a quick PoC to verify if one idea works or not. But this procedure is very time-consuming, especially in a mature and complex system. This topic shares my practice of leveraging LLM Agent to accelerate my performance optimization tasks in real product systems by having agents do "quick tries" for me and leave the precious human decision to real critical things. And some lessons learned from it, like this method can't reduce your work but makes you even more tired :P
+我们或许有过许多性能优化方面的灵感火花，想做一次快速的 PoC 来验证某个想法是否可行。但这个过程非常耗时，尤其是在一个成熟且复杂的系统中。本议题分享我的实践：利用 LLM Agent 来加速真实产品系统中的性能优化任务——让 agent 替我做"快速尝试"，而把宝贵的人类决策留给真正关键的事情。以及从中获得的一些经验教训，比如这种方法并不能减少你的工作量，反而会让你更累 :P
 
 ### 讲师:
 
 
 <img src="https://cdn.sessionize.com/image/17ae-400o400o1-PGTz6fMBHyvwhcgyuLCThc.png" width="200" /><br/>
 
-Ruihang Xia: Software Architect at Greptime Inc.
+Ruihang Xia：Greptime Inc. 软件架构师
 
-Software Architect at Greptime
-Apache DataFusion PMC, Apache Arrow Committer, Apache HoraeDB PPMC
+Greptime 软件架构师
+Apache DataFusion PMC，Apache Arrow Committer，Apache HoraeDB PPMC
 https://github.com/waynexia
-
