@@ -1,5 +1,5 @@
 ---
-title: "Apache GraphAr (Incubating): Graph Data Management Format for the AI Era"
+title: "Apache GraphAr（孵化中）：面向 AI 时代的图数据管理格式"
 date: ""
 track: "incubator"
 presenters: "Xiaokang Yang, Zhe Wang"
@@ -7,9 +7,9 @@ stype: "中文演讲"
 ---
 
 
-With the rapid evolution of AI, the application scenarios for graph data have become remarkably diverse and widespread. Iterative graph computing, Graph Neural Networks (GNN), and GraphRAG are driving growing demand for graph-structured data across industries. However, in most enterprises today, graph data remains siloed -- hidden in log files, scattered across MySQL databases, or locked inside proprietary graph databases. When different scenarios require graph data to flow between systems, engineers face repeated ETL efforts, format incompatibilities, and significant friction. Meanwhile, a fundamental question arises: should we always load graph data into a transactional graph database just to serve diverse workloads? Doing so often leads to unnecessary data redundancy and operational overhead.
+随着 AI 的快速演进，图数据的应用场景变得异常多元和广泛。迭代式图计算、图神经网络（GNN）和 GraphRAG 正在推动各行各业对图结构数据的需求不断增长。然而，在当今大多数企业中，图数据仍处于孤岛状态——藏在日志文件里，散落在 MySQL 数据库中，或被锁在专有图数据库之内。当不同场景需要图数据在系统间流转时，工程师们要反复应对 ETL 工作量、格式不兼容，以及显著的摩擦。与此同时，一个根本性的问题随之而来：我们是否总是要把图数据加载到事务型图数据库中，才能服务于各种工作负载？这样做往往带来不必要的数据冗余与运维开销。
 
-Fortunately, Apache GraphAr (Incubating) effectively addresses this challenge by providing an open graph storage format.In this talk, we will introduce GraphAr's core philosophy of enabling seamless graph data flow across systems, and share recent collaborations with different open-source communities that put this vision into practice. We will also discuss the community operations of GraphAr within the Apache Incubator -- how we build a diverse contributor base, practice the Apache Way, and plan the roadmap toward graduation. This session is designed for developers, data engineers, and open-source enthusiasts interested in graph technologies, data lake architecture, or community building under the Apache umbrella.
+幸运的是，Apache GraphAr（孵化中）通过提供一种开放的图存储格式，有效地应对了这一挑战。在本次演讲中，我们将介绍 GraphAr 让图数据在系统间无缝流动的核心理念，并分享我们与不同开源社区近期合作、把这一愿景付诸实践的案例。我们还会讨论 GraphAr 在 Apache 孵化器内的社区运营——我们如何构建多元化的贡献者基础、践行 The Apache Way，以及规划走向毕业的路线图。本次演讲面向对图技术、数据湖架构，或在 Apache 体系下进行社区建设感兴趣的开发者、数据工程师与开源爱好者。
 
 
 ### 讲师:
@@ -17,14 +17,13 @@ Fortunately, Apache GraphAr (Incubating) effectively addresses this challenge by
 
 <img src="https://cdn.sessionize.com/image/cf34-400o400o1-Q8g3g6xxvfJnxRNuQRU8v8.jpg" width="200" /><br/>
 
-Xiaokang Yang: Apache GraphAr (Incubating) Committer
+Xiaokang Yang：Apache GraphAr（孵化中）Committer
 
-Xiaokang Yang is a Committer of Apache GraphAr (Incubating), an open-source project that provides a standardized file format and multi-language libraries for graph data storage in data lakes. He is currently a Master's student at Northeastern University (China) and an intern at Alibaba, with a research focus on graph computing. He has authored two research papers in the graph domain. He is passionate about graph data management and building open-source communities following the Apache Way.
+Xiaokang Yang 是 Apache GraphAr（孵化中）的 Committer——这是一个为数据湖中的图数据存储提供标准化文件格式与多语言库的开源项目。他目前是东北大学（中国）的硕士研究生，在阿里巴巴实习，研究方向为图计算。他在图领域发表过两篇研究论文。他热衷于图数据管理，并致力于遵循 The Apache Way 建设开源社区。
 
 
 <img src="https://cdn.sessionize.com/image/a4c6-400o400o1-SkLjRuNKy7hLZfXnMfQZdt.jpg" width="200" /><br/>
 
-Zhe Wang: Apache GraphAr(incubating) PPMC
+Zhe Wang：Apache GraphAr（孵化中）PPMC
 
-Master student at JLU, interested in graph store and graph AI.
-
+吉林大学硕士研究生，兴趣方向为图存储与图 AI。
