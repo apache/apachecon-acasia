@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Exploring Real-Time AI Application Scenarios Based on Flink - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Exploring Real-Time AI Application Scenarios Based on Flink'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        <nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="/zh/" class="navbar-brand">
+                <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks" class="nav-link">专题</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/streaming-1211523.html" class="nav-link">English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+</script>
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">Exploring Real-Time AI Application Scenarios Based on Flink</h3>
+                    <h4>饶饶 熊</h4>
+                    中文演讲  &nbsp;
+                    
+                    <a class="label" href="/zh/tracks/streaming.html">#streaming</a></li>
+                </header>
+
+                <p><strong>1. Background</strong></p>
+<ul>
+<li>Typical real-time AI application scenarios: real-time ad features, recommendation prediction, fraud detection, content moderation, intelligent operations, etc.</li>
+<li>PyFlink&rsquo;s role in real-time AI: bridging Flink&rsquo;s stream processing capabilities with the Python AI ecosystem, lowering the barrier for algorithm engineers to build real-time AI Flink jobs</li>
+</ul>
+<p><strong>2. PyFlink Practices at Tencent</strong></p>
+<ul>
+<li>Platform support: dependency management for PyFlink jobs, interpreter optimization, vectorized UDFs, async functions, library/table SDK, and other key technical infrastructure</li>
+<li>Real-time ad feature engineering: building a second-level real-time feature pipeline with PyFlink, addressing feature freshness and online-offline consistency challenges while connecting to the Python ecosystem</li>
+<li>AI Function scenarios: supporting remote inference (AsyncI/O calls to LLM/GPU model services) and local inference (embedded lightweight models), covering a wide range of real-time inference needs from large models to lightweight models</li>
+</ul>
+<p><strong>3. AI Agent-Driven Development &amp; Operations</strong></p>
+<ul>
+<li>Operations efficiency: building an intelligent diagnostic Agent based on LLM + RAG for anomaly pattern recognition, log analysis, root cause reasoning, and assisted remediation</li>
+<li>Development efficiency: natural language generation of Flink SQL/PyFlink code, schema-aware assistance, code review, and debugging support</li>
+</ul>
+<p><strong>4. Future Outlook</strong></p>
+<ul>
+<li>Flink AI Agents: a natural language-driven, end-to-end Agent for job development, debugging, and deployment — closing the loop from requirement understanding → code generation → deployment → operations monitoring</li>
+</ul>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://cdn.sessionize.com/image/541e-400o400o1-fRk5WkYAbfkxwYJD5QVohU.jpg" width="200" /><br/></p>
+<p>饶饶 熊: Tencent, Senior Backend Development Engineer</p>
+<p>Senior Big Data Engineer at Tencent, focusing on Flink real-time computing and AI infrastructure. Core contributor to Tencent&rsquo;s Flink-based real-time computing platform (Oceanus), with extensive experience in PyFlink ecosystem development, Flink SQL/Runtime related work, and AI-integrated stream processing. Currently leading the exploration of AI Agent-driven development and operations for real-time data platforms. Passionate about bridging the gap between streaming data systems and the AI/ML ecosystem.</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2026, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

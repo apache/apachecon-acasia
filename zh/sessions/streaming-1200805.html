@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>How Post-4.0 Kafka Streams Reshapes Development and Operations - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='How Post-4.0 Kafka Streams Reshapes Development and Operations'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        <nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="/zh/" class="navbar-brand">
+                <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks" class="nav-link">专题</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/streaming-1200805.html" class="nav-link">English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+</script>
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">How Post-4.0 Kafka Streams Reshapes Development and Operations</h3>
+                    <h4>PoAn Yang</h4>
+                    中文演讲  &nbsp;
+                    
+                    <a class="label" href="/zh/tracks/streaming.html">#streaming</a></li>
+                </header>
+
+                <p>As Apache Kafka enters the 4.0 era, not only has the underlying architecture undergone historical transformations, but Kafka Streams has also experienced a series of evolutions in developer experience and operational mechanisms. This session will guide the audience through key updates beyond Kafka Streams 4.0, analyzing how these features fundamentally reshape the lifecycle of stateful streaming applications.</p>
+<p>The presentation will center around three core dimensions:</p>
+<ol>
+<li>
+<p>Topology Optimization &amp; Data Mastery
+We will explore how to write more lightweight and expressive DSL topologies. With KIP-1104, developers can extract foreign keys directly from either the Key or Value, drastically reducing unnecessary data duplication and state store overhead. Additionally, we will analyze KIP-1271 and KIP-1285 (Headers-Aware State Stores). Previously, to prevent the loss of metadata like Trace IDs or tenant tags within stateful nodes, developers were often forced to &ldquo;cram&rdquo; this system information into pure business payloads (the Value), resulting in bloated data structures and redundant code. These two proposals finally enable state stores to natively retain Headers, allowing developers to cleanly decouple business logic from system information.</p>
+</li>
+<li>
+<p>Resilience &amp; E2E Observability
+In production environments, network fluctuations and transient failures are inevitable. We will demonstrate how to utilize the native RETRY mechanism in ProductionExceptionHandler introduced by KIP-1065 to build self-healing processing pipelines. Following this, we will combine KIP-1112 (Custom Processor Wrapping) with headers-aware state stores to showcase how OpenTelemetry tracing logic can be seamlessly injected across the entire topology, achieving true End-to-End (E2E) Tracing across stateful nodes.</p>
+</li>
+<li>
+<p>Seamless Scaling &amp; Operations
+Finally, we will address the operational pain points of scaling large clusters. We will introduce how KIP-1106 (Duration-Based Offset Reset) helps developers precisely control the data replay range when dealing with infinite-retention topics in Tiered Storage, avoiding meaningless computational waste. We will also dive into KIP-1071 (Streams Rebalance Protocol), exploring why the previous Cooperative Rebalancing still encountered &ldquo;Sync Barrier&rdquo; wait latencies and processing-timeout-induced &ldquo;Rebalance Storms&rdquo; in large clusters. By dissecting the newly introduced server-side driven assignment and independent Background Heartbeat mechanism in KIP-1071, we will show how Kafka 4.0 completely eradicates performance jitter during scaling, leading developers into an era of truly seamless background scaling.</p>
+</li>
+</ol>
+<p>Target Audience:
+Whether you are a data engineer striving to streamline topology code, an architect focused on system tracing, or an SRE pursuing zero-downtime scaling, attendees will gain practical architectural insights and code examples from this session to fully master the next-generation capabilities of Kafka Streams.</p>
+<p>Key Takeaways:</p>
+<ul>
+<li>Understand how to use the new APIs to eliminate redundant conversion logic through practical DSL code examples, allowing streaming applications to return to a clean, maintainable business essence.</li>
+<li>Master how to elegantly integrate End-to-End (E2E) Tracing and native error retry mechanisms without polluting business code, elevating system observability in production environments.</li>
+<li>Gain a thorough understanding of the underlying mechanisms of server-side rebalancing and independent heartbeat threads, empowering your team to make more confident architectural decisions during future Kafka upgrades, routine deployments, or large-scale cluster expansions.</li>
+</ul>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://cdn.sessionize.com/image/ffab-400o400o1-BdC4HcaDRfMRLrxR8onB4r.png" width="200" /><br/></p>
+<p>PoAn Yang: ASF, Apache Kafka / YuniKorn committer</p>
+<p>I am an open-source software enthusiast, primarily focusing on Apache Kafka. I am among the top 20 contributors, and my work involves enhancing the AsyncKafkaConsumer and developing the next-generation group coordinator.</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2026, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

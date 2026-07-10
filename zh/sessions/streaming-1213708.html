@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>GeaFlow | Streaming Memory: Building a Real-time Stateful Backend to Empower AI&#43;Graph Scenarios - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='GeaFlow | Streaming Memory: Building a Real-time Stateful Backend to Empower AI&#43;Graph Scenarios'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        <nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="/zh/" class="navbar-brand">
+                <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks" class="nav-link">专题</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/streaming-1213708.html" class="nav-link">English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+</script>
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">GeaFlow | Streaming Memory: Building a Real-time Stateful Backend to Empower AI&#43;Graph Scenarios</h3>
+                    <h4>Litao Lin, Yao Zhongqiang</h4>
+                    中文演讲  &nbsp;
+                    
+                    <a class="label" href="/zh/tracks/streaming.html">#streaming</a></li>
+                </header>
+
+                <p>In 2026, AI Agent memory architecture is undergoing a paradigm shift. Traditional AI Agent memory systems largely adopt a batch processing mode characterized by &ldquo;append-only writes + asynchronous indexing.&rdquo; This results in significant latency in memory updates, making it difficult to support contextual evolution in real-time interaction scenarios. The essence of memory is not a static dataset, but an unbounded data stream composed of dialogue, perception, and decision-making. How to perform low-latency state management and incremental computation on this stream represents a new challenge for stream computing technology in the AI era.
+This session will focus on how stream computing technology addresses the memory challenge. Apache GeaFlow (Incubating), an open-source streaming graph computation engine, is positioned as a real-time incremental graph computation layer, serving as the real-time stateful backend for Agents. Unlike traditional graph databases and stream computing engines that lack native relationship modeling capabilities, GeaFlow processes incoming data as continuous graph updates via incremental computation—where each event triggers only necessary subgraph changes, thereby avoiding expensive full recomputations.
+Specifically, GeaFlow replaces full computation with incremental streaming computation to enable real-time updates of local subgraphs the instant a dialogue occurs. Through dynamic graph state management, it maintains temporal memory as stream state, resolving state consistency issues in long-running dialogues. Furthermore, it leverages a distributed snapshot mechanism to ensure state fault tolerance and recovery for enterprise-level multi-Agent collaboration.
+In the technical practice segment, we will demonstrate how to build a knowledge assistant capable of millisecond-level memory updates. We will also showcase how GeaFlow provides foundational support for AI systems operating on continuously evolving knowledge graphs.</p>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://cdn.sessionize.com/image/942a-400o400o1-UTgxQ7mc7kgpLPSnYWcsvV.jpg" width="200" /><br/></p>
+<p>Litao Lin: Apache GeaFlow (Incubating) Committer</p>
+<p>Apache GeaFlow (Incubating) Committer. As a core member of the project, he participated in the architecture design and development of the GeaFlow graph computing engine from scratch, with a particular focus on the design and implementation of the graph computing DSL and the evolution of data intelligence technologies. He is deeply involved in open source community activities and currently works at Ant Group.</p>
+<p><img src="https://cdn.sessionize.com/image/8e82-400o400o1-fiJe6bcjN6hvokxoSwtyfp.jpg" width="200" /><br/></p>
+<p>Yao Zhongqiang: Graph Computing Expert &amp; Development Engineer at Ant Group</p>
+<p>Deeply involved in the big data field, specializing in graph computing, real-time computing, and OLAP. Current team focus is on Agent Memory and MARL.</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2026, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>HBase Function Iteration and Architecture Evolution Practice at Xiaomi - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='HBase Function Iteration and Architecture Evolution Practice at Xiaomi'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        <nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="/zh/" class="navbar-brand">
+                <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks" class="nav-link">专题</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/datastorage-1211771.html" class="nav-link">English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+</script>
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">HBase Function Iteration and Architecture Evolution Practice at Xiaomi</h3>
+                    <h4>Yuting sun, Yiming Gong</h4>
+                    中文演讲  &nbsp;
+                    
+                    <a class="label" href="/zh/tracks/datastorage.html">#datastorage</a></li>
+                </header>
+
+                <ol start="2">
+<li>Description：
+This session will introduce the function iteration and deployment architecture evolution of HBase system at Xiaomi Group, as well as the work done in stability, performance and cost optimization, including dictionary compression, data structuring, SQL engine capabilities, containerization, and storage-compute separation.</li>
+<li>Presentation Outline
+3.1 Data Compression and Storage Optimization
+Dictionary Compression Technology</li>
+</ol>
+<ul>
+<li>Core Principle: Build auxiliary compression structure based on high-frequency byte sequences</li>
+<li>Technical Features: Compression/decompression using the same dictionary, particularly suitable for structured data with repetitive patterns</li>
+<li>Practical Results: Significantly reduce storage costs and improve I/O efficiency
+3.2 Observability and Governance Capabilities
+Table Lineage Feature</li>
+<li>Functionality: Implement lightweight table lineage collection capability</li>
+<li>Collected Information: Client version, IP address, Kerberos account, and other key metadata</li>
+<li>Application Value: Support one-click lineage query for data governance and issue troubleshooting
+3.3 Consistency and Availability Trade-offs
+HBase AP Practice Exploration</li>
+<li>Positioning Shift: Exploration from CP (consistency priority) to AP (availability priority)</li>
+<li>Tiered Strategy: Set consistency priority levels for tables</li>
+<li>Degradation Mechanism: Prioritize service recovery for tables with lower consistency requirements, rather than waiting for complete data recovery
+3.4 Version Upgrade Practice
+3.x Version Implementation</li>
+<li>Validation Strategy: Build independent test clusters for functionality and stability verification</li>
+<li>Gradual Rollout: Progressively deploy community 3.x version in production environment</li>
+<li>Lessons Learned: Challenges and best practices during version upgrade
+3.5 Data Structuring Transformation
+HBase Table Schema Definition</li>
+<li>Pain Points: Address the issue that native HBase only has column family-level constraints, lacking column-level type definitions</li>
+<li>Solution Design: Define field types and field-to-column-family/column mapping relationships</li>
+<li>Benefits:
+<ul>
+<li>Unified table structure management for business teams</li>
+<li>Automatic serialization/deserialization</li>
+<li>Foundation for SQL engine capabilities
+3.6 SQL Engine Capabilities
+SQL Semantics Implementation Based on Structuring</li>
+</ul>
+</li>
+<li>Technical Foundation: Built upon data structuring achievements</li>
+<li>Core Capabilities: Implement standard SQL query semantics</li>
+<li>Usability Improvements:
+<ul>
+<li>More convenient console queries</li>
+<li>Friendlier offline job data access</li>
+<li>Lower barrier to entry and improved readability
+3.7 HBase Containerization</li>
+</ul>
+</li>
+<li>Deployment Method: Deploy containerized Master and RegionServer processes based on Kubernetes</li>
+<li>Capability Enhancements:
+<ul>
+<li>Improved elastic scaling</li>
+<li>Higher resource utilization</li>
+<li>Enhanced operation automation
+3.8 HBase Storage-Compute Separation Architecture</li>
+</ul>
+</li>
+<li>Technical Solution: Implement storage-compute separation based on JuiceFS + Object Storage</li>
+<li>Cost Reduction Impact: Significantly reduce storage costs</li>
+<li>Key Technologies:
+<ul>
+<li>Smooth file system migration solution</li>
+<li>Interface adaptation and performance tuning</li>
+<li>Ensure seamless migration for business services</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ol start="4">
+<li>Summary
+Through the above series of technical evolution, Xiaomi HBase system has achieved dual goals of performance improvement and cost optimization while ensuring business stability, providing practical reference for the evolution of large-scale distributed storage systems.</li>
+</ol>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://cdn.sessionize.com/image/f58e-400o400o1-94JMLSeRT14HWn8mTYNdUm.png" width="200" /><br/></p>
+<p>Yuting sun: Storage R&amp;D Engineer</p>
+<p>Xiaomi software R&amp;D engineer, mainly responsible for HBase development</p>
+<p><img src="https://cdn.sessionize.com/image/c543-400o400o1-PaMvtfz6PJnDHzzhvx71Me.jpg" width="200" /><br/></p>
+<p>Yiming Gong: Xiaomi, SDE</p>
+<p>HBase developer at xiaomi</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2026, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

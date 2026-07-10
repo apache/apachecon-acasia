@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Real-Time Lakehouse Pipeline: Native Lake Ingestion and Embedded Computation in Disaggregated Kafka - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Real-Time Lakehouse Pipeline: Native Lake Ingestion and Embedded Computation in Disaggregated Kafka'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        <nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="/zh/" class="navbar-brand">
+                <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks" class="nav-link">专题</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/messaging-1212359.html" class="nav-link">English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+</script>
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">Real-Time Lakehouse Pipeline: Native Lake Ingestion and Embedded Computation in Disaggregated Kafka</h3>
+                    <h4>Hongjian Fei</h4>
+                    中文演讲  &nbsp;
+                    
+                    <a class="label" href="/zh/tracks/messaging.html">#messaging</a></li>
+                </header>
+
+                <p>Apache Kafka has established itself as the central nervous system of modern real-time data architectures. Yet in conventional lakehouse designs, data from Kafka typically must traverse external compute engines such as Flink or Spark before it can be landed, modeled, and organized into analytical layers. This multi-hop &ldquo;messaging → computation → storage&rdquo; pipeline not only inflates operational complexity but also introduces weak state consistency, elevated end-to-end latency, and a fragmented hot/cold data lifecycle.</p>
+<p>This talk focuses on disaggregated storage-compute architectures and explores the evolution of Kafka&rsquo;s native capabilities in lakehouse scenarios. We aim to restructure the real-time data pipeline through the following core techniques:</p>
+<p>Disaggregated Storage-Compute with Intelligent Data Tiering. Built on a disaggregated storage-compute model with intelligent tiering and a lightweight high-availability architecture, we employ a dual-path Table-Topic synchronization mechanism that strikes an optimal balance between data freshness and system stability. By internalizing ingestion progress into the leader&rsquo;s metadata, we completely eliminate the dependency on external key-value stores, dramatically simplifying the pipeline while preserving strong consistency guarantees.</p>
+<p>Dual Row-Columnar Engine with Strong Consistency Guarantees. Leveraging a pluggable architecture, we achieve protocol-aware parsing coupled with zero-copy direct writes in Apache Parquet columnar format — effectively turning streaming writes into immediate lakehouse persistence. A lightweight distributed transaction coordinator, integrated with an OSS-backed Table Catalog, strictly enforces Exactly-Once semantics and atomic file commits across node failures, delivering high-availability disaster recovery and autonomous state healing for the ingestion pipeline.</p>
+<p>Embedded Declarative Stream Processing. Apache Calcite is embedded as a lightweight operator engine, enabling users to express computation logic through a SQL dialect. With operator pushdown and dynamic compilation of logical plans, filtering, aggregation, and transformation operations are executed in-situ within the Kafka pipeline, right at the data&rsquo;s point of origin.</p>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://cdn.sessionize.com/image/1bd1-400o400o1-X3dGLdsBdwR23onKjs1wZj.png" width="200" /><br/></p>
+<p>Hongjian Fei: Alibaba Cloud, Middleware Development Engineer, Staff Engineer</p>
+<p>Hongjian Fei (费红健) is an Apache Software Committer who has long been dedicated to development on RocketMQ and Kafka. At Alibaba Cloud, he is one of the core designers of disaggregated storage and compute architecture for Kafka, bringing extensive experience in Kafka development and operations.</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2026, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

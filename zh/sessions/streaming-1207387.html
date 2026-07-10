@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Kafka Streams 4.2.0 Dead Letter Queue: From Manual Workarounds to Built-in Transaction Safety - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Kafka Streams 4.2.0 Dead Letter Queue: From Manual Workarounds to Built-in Transaction Safety'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        <nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="/zh/" class="navbar-brand">
+                <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks" class="nav-link">专题</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/streaming-1207387.html" class="nav-link">English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+</script>
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">Kafka Streams 4.2.0 Dead Letter Queue: From Manual Workarounds to Built-in Transaction Safety</h3>
+                    <h4>Eric Chang</h4>
+                    中文演讲  &nbsp;
+                    
+                    <a class="label" href="/zh/tracks/streaming.html">#streaming</a></li>
+                </header>
+
+                <p>Handling bad records in Kafka Streams looks simple at first: catch the bad record, write it to another topic, and continue. In practice, it becomes more subtle once deserialization errors, custom exception handlers, and exactly-once processing are involved.</p>
+<p>This session is a practical walkthrough of KIP-1034: Dead Letter Queue in Kafka Streams, a Kafka improvement proposal created by Damien Gasparina and coauthored by Damien Gasparina, Loic Greffier, and Sebastien Viale. I am not an author of the KIP; this talk is an engineer’s reading and hands-on exploration of the feature through runnable examples.</p>
+<p>Before Kafka 4.2.0, adding a Dead Letter Queue often meant writing and maintaining custom exception handlers, a separate producer, producer lifecycle code, and manual header handling for source topic, partition, offset, exception type, message, and stack trace. Kafka Streams 4.2.0 introduces built-in Dead Letter Queue support that can be enabled with just a few configuration lines. Kafka Streams creates the default Dead Letter Queue record, adds the standard error headers automatically, and sends it through its internal producer path.</p>
+<p>We will compare a pre-KIP-1034 manual Dead Letter Queue implementation with the Kafka 4.2.0 approach, then look at why this matters for transaction safety. With a manual Dead Letter Queue producer, the Dead Letter Queue write sits outside the Kafka Streams transaction boundary. If that write is committed and the Streams transaction later aborts, the same bad input record may be retried and written to the Dead Letter Queue again. KIP-1034 closes this gap by letting Dead Letter Queue writes follow the same Kafka Streams internal write path as normal output records.</p>
+<p>Attendees will leave with a practical mental model for when KIP-1034 helps, what problems it solves, and how to migrate away from ad hoc Dead Letter Queue implementations in Kafka Streams.</p>
+<p>References:</p>
+<ul>
+<li><a href="https://blog.unknowntpo.me/blog/kafka-kip-1034-dlq">blog post about the content of this session</a></li>
+<li><a href="https://cwiki.apache.org/confluence/display/KAFKA/KIP-1034%3A&#43;Dead&#43;letter&#43;queue&#43;in&#43;Kafka&#43;Streams">KIP-1034</a>
+And here&rsquo;s the link to the KIP:</li>
+</ul>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://cdn.sessionize.com/image/66b0-400o400o1-UHasfsGgbmwaRvqqXqtoL1.png" width="200" /><br/></p>
+<p>Eric Chang: Apache Gravitino Committer, Apache Kafka contributor, and member of OpenSourceForYou, a vibrant Taiwan-based open-source community founded by Chia-Ping Tsai</p>
+<p>Eric Chang is an Apache Gravitino Committer and Apache Kafka contributor based in Taiwan. He is also a member of OpenSourceForYou, a vibrant Taiwan-based open-source community founded by Chia-Ping Tsai. Eric is interested in backend systems, Kafka, and distributed data processing, and he writes technical articles with runnable examples to explain practical engineering problems. His recent work explores Kafka Streams KIP-1034 and how built-in Dead Letter Queue support changes the way applications handle bad records under exactly-once processing.</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2026, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

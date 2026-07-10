@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Optimizing Apache YARN Clusters Using Intelligent Overcommitment - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Optimizing Apache YARN Clusters Using Intelligent Overcommitment'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        <nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="/" class="navbar-brand">
+                <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        Home
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/tracks" class="nav-link">Tracks</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/guide/visa_letter_request.html" class="nav-link">Guide</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/venue_travel/venue.html" class="nav-link">Venue &#43; Travel</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/zh/sessions/datastorage-1209471.html" class="nav-link">中文</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+</script>
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">Optimizing Apache YARN Clusters Using Intelligent Overcommitment</h3>
+                    <h4>Sumit Puri, Wasif Khan</h4>
+                    English Session  &nbsp;
+                    
+                    <a class="label" href="/tracks/datastorage.html">#datastorage</a></li>
+                </header>
+
+                <p>Apache YARN clusters running compute frameworks such as Apache Spark, Apache Tez, and MapReduce often face major inefficiencies due to static, user-defined resource allocations. This leads to over-provisioning, low utilization, and increased infrastructure costs, while requiring continuous manual tuning to maintain performance.
+This talk introduces a method to Optimize Yarn, which improves cluster efficiency through a real-time, intelligent approach to resource management. By understanding workload behavior over time and combining it with live cluster conditions, the solution can make dynamic decisions that improve how resources are utilized across nodes without requiring application changes.
+The solution is designed with planned safeguards to ensure stability and reliability in production environments, enabling organizations to adopt it without risking application performance or service-level objectives.
+This talk shares a result-driven approach that delivered substantial improvements. Container throughput increased from under by 100%, while application throughput improved from approximately 28.5%. At the same time, the number of active YARN nodes required was reduced by 33%, directly resulting in a reduction of the infrastructure footprint. These gains were driven by significantly improved CPU and Memory utilization across the cluster.
+By enabling smarter, real-time resource allocation, this methodology can help organizations increase throughput, reduce infrastructure costs, and simplify cluster operations.</p>
+<p>Refer to this Blog for a detailed explanation along with a video demo : <a href="https://engineering.acceldata.io/how-we-optimized-yarn-clusters-using-intelligent-overcommitment/">https://engineering.acceldata.io/how-we-optimized-yarn-clusters-using-intelligent-overcommitment/</a></p>
+<h3 id="speakers">Speakers:</h3>
+<p><img src="https://cdn.sessionize.com/image/5502-400o400o1-Xudbf8rTBpCFNcw8zQnqsN.jpg" width="200" /><br/></p>
+<p>Sumit Puri: Senior Software Engineer, Acceldata Inc.</p>
+<p>Sumit Puri is a Senior Software Engineer at Acceldata, working on large-scale data infrastructure and resource optimization systems. His work focuses on improving cluster efficiency across YARN and Kubernetes environments through intelligent resource management, real-time telemetry, and predictive modeling.</p>
+<p>He has hands-on experience building distributed systems using Go, Kubernetes, and big data frameworks such as Spark and Tez. His recent work explores node-level optimization strategies, workload fingerprinting, and adaptive overcommitment techniques to maximize infrastructure utilization while maintaining stability.</p>
+<p><img src="https://cdn.sessionize.com/image/0c3f-400o400o1-K7zab49Sy9ANFPEDSgMzt6.jpg" width="200" /><br/></p>
+<p>Wasif Khan: Principal Engineer, Acceldata</p>
+<p>Principal Engineer at Acceldata, working on big data observability solutions</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2026, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

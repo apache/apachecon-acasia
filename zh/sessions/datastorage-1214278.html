@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Paimon-cpp: Bringing Native High-Performance Data Lakehouse Access to the Apache Ecosystem - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='Paimon-cpp: Bringing Native High-Performance Data Lakehouse Access to the Apache Ecosystem'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        <nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="/zh/" class="navbar-brand">
+                <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks" class="nav-link">专题</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/datastorage-1214278.html" class="nav-link">English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+</script>
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">Paimon-cpp: Bringing Native High-Performance Data Lakehouse Access to the Apache Ecosystem</h3>
+                    <h4>Xinyu Liu</h4>
+                    中文演讲  &nbsp;
+                    
+                    <a class="label" href="/zh/tracks/datastorage.html">#datastorage</a></li>
+                </header>
+
+                <p>Apache Paimon has become one of the most actively developed data lakehouse formats in the Apache ecosystem. As native query engines increasingly demand direct access to lakehouse data without JVM overhead, we are excited to introduce Paimon-cpp — a high-performance, ground-up C++ implementation of the Apache Paimon format, in the process of being contributed to the Apache Paimon community.</p>
+<p>In this session, we will walk through:</p>
+<ul>
+<li>
+<p><strong>Why Paimon-cpp</strong>: The motivation behind building a native C++ implementation — bridging the gap between JVM-based data lake ecosystems and the growing world of native query engines, while maintaining full wire-compatibility with Java Paimon.</p>
+</li>
+<li>
+<p><strong>Format &amp; Features</strong>: Paimon-cpp provides full read/write/compaction support for both append tables and primary key tables, including Merge-On-Read (MOR) and Deletion Vector (DV) scenarios. It also supports schema evolution, predicate push-down, AI-oriented data evolution mode, and various index types (e.g., vector search, full text search).</p>
+</li>
+<li>
+<p><strong>Performance Optimizations</strong>: Shallow data copy data exchange, file prefetching for read-ahead, multi-threaded &amp; asynchronous row-columnar conversion for primary key tables, and Blob I/O optimizations.</p>
+</li>
+<li>
+<p><strong>Architecture &amp; Extensibility</strong>: Built on the Apache Arrow Columnar In-Memory Format, with a modular, plugin-oriented architecture providing well-defined interfaces for file systems, file formats, memory management, executors, and observability — designed to be easily embedded into any native engine.</p>
+</li>
+<li>
+<p><strong>Best Practices &amp; Getting Started</strong>: Practical guidance on configuring write/read/compaction pipelines, tuning for production workloads, and integrating Paimon-cpp into your own engine.</p>
+</li>
+</ul>
+<p>Paimon-cpp is being actively contributed to the Apache Paimon project and is expected to be part of the official Apache repository by the time of this talk. We warmly welcome developers, engine builders, and data enthusiasts to try it out, report issues, and contribute — whether it&rsquo;s new features, bug fixes, documentation, or integration with your favorite native engine. Let&rsquo;s build the native data lakehouse ecosystem together!</p>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://cdn.sessionize.com/image/581f-400o400o1-wHvbmZBcWsHGkZircGN71i.jpg" width="200" /><br/></p>
+<p>Xinyu Liu: Senior Software Engineer at Alibaba | Maintainer of Paimon-cpp | 3 Years with Paimon</p>
+<p>I am a Senior Software Engineer on the Storage Service team at Alibaba. I have been working on Paimon-cpp for 3 years, currently serving as the maintainer of the Paimon-cpp open-source library and leading the adoption of Paimon-cpp across Alibaba&rsquo;s internal data infrastructure. Prior to Paimon, I was responsible for Khronos, a time-series database that powers the monitoring system storage and retrieval for Alibaba Group. My experience spans storage engine design, high-performance data formats, and systems-level optimization. I am passionate about open-source collaboration and look forward to building the native data lakehouse ecosystem together with the Apache community.</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2026, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>
