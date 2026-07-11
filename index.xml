@@ -85,13 +85,6 @@
       <description>&lt;p&gt;Agentic Coding isn’t just about smarter autocomplete—it’s a paradigm shift where AI‑driven tools proactively understand context, make autonomous decisions, and collaborate across platforms to build, integrate, and maintain complex systems. In this talk, we’ll move beyond simple code generation to demonstrate how Cursor (the AI‑native editor), Trae (the AI‑powered testing &amp;amp; deployment agent), and OpenClaw (the embeddable AI assistant) work together as a cohesive, multi‑agent development squad. We’ll walk through a real‑world scenario: autonomously designing, implementing, testing, and deploying an intelligent chat‑room integration, showcasing how Agentic Coding reduces human‑to‑tool friction and elevates developers from coders to system architects.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Agentic Debugging: Using LLMs to Auto-Diagnose Impala Query Profiles</title>
-      <link>/sessions/agenticcoding-1212139.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/agenticcoding-1212139.html</guid>
-      <description>&lt;p&gt;Large Language Models show incredible promise for code generation, but debugging distributed systems is a different beast. If you feed a raw 400MB database query profile to an LLM, it will either choke on the token limit or hallucinate wildly. To turn agents into dependable collaborators in production, we have to fix the data pipeline feeding them.&lt;/p&gt;&#xA;&lt;p&gt;This session shares hands-on experience from Apache Impala on making &amp;ldquo;Agentic Debugging&amp;rdquo; a reality. We will explore how transitioning from verbose execution forests to Aggregated Runtime Profiles solves the LLM context problem. By dense-packing telemetry and safely structuring missing events into token-efficient JSON payloads, we empower AI agents to autonomously and accurately diagnose execution bottlenecks. Attendees will learn repeatable patterns for bridging the gap between massive system logs and strict LLM context windows.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Agents as Testbed: Using Agents to Navigate High-Dimensional Optimization Spaces</title>
       <link>/sessions/agenticcoding-1213218.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -519,13 +512,6 @@
       <description>&lt;p&gt;&lt;strong&gt;1. Background&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Typical real-time AI application scenarios: real-time ad features, recommendation prediction, fraud detection, content moderation, intelligent operations, etc.&lt;/li&gt;&#xA;&lt;li&gt;PyFlink&amp;rsquo;s role in real-time AI: bridging Flink&amp;rsquo;s stream processing capabilities with the Python AI ecosystem, lowering the barrier for algorithm engineers to build real-time AI Flink jobs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. PyFlink Practices at Tencent&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Platform support: dependency management for PyFlink jobs, interpreter optimization, vectorized UDFs, async functions, library/table SDK, and other key technical infrastructure&lt;/li&gt;&#xA;&lt;li&gt;Real-time ad feature engineering: building a second-level real-time feature pipeline with PyFlink, addressing feature freshness and online-offline consistency challenges while connecting to the Python ecosystem&lt;/li&gt;&#xA;&lt;li&gt;AI Function scenarios: supporting remote inference (AsyncI/O calls to LLM/GPU model services) and local inference (embedded lightweight models), covering a wide range of real-time inference needs from large models to lightweight models&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;3. AI Agent-Driven Development &amp;amp; Operations&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>First-Class Constraint Metadata in Iceberg: Portable Data Quality Across Engines</title>
-      <link>/sessions/datalake-1206024.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/datalake-1206024.html</guid>
-      <description>&lt;p&gt;Modern lakehouse deployments increasingly need reliable, portable data quality guarantees across the ecosystem. Today, constraints are handled inconsistently across engines and connectors, and Iceberg does not yet provide an engine-agnostic constraint model. This session proposes adding constraint support to Apache Iceberg as first-class metadata: stable IDs, binding by field IDs for schema-evolution safety, and consistent cross-engine introspection. Phase 1 is pragmatic: NOT NULL stays enforced via required fields; CHECK constraints are stored and exposed by Iceberg and enforced on writes by engines that support it; UNIQUE/PRIMARY KEY/FOREIGN KEY are informational. Phase 1 also delivers an end-to-end Spark DSv2 integration (CREATE/ALTER with constraints, validation on ADD CHECK, and write-time CHECK enforcement where supported). For ADD CHECK, engines validate existing data on a specific table version and Iceberg commits only if the current snapshot/version still matches the validated token (strict CAS), preventing races and stale validations.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Five Years into Open Source: Rethinking “Community Health” Through the Lens of a Storage Project</title>
       <link>/sessions/community-1211847.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -580,13 +566,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/sessions/dataai-1214199.html</guid>
       <description>&lt;p&gt;Natural language data querying is no longer a future promise — it&amp;rsquo;s an engineering problem you can solve today. In this talk, we&amp;rsquo;ll walk through how to combine Apache Gravitino&amp;rsquo;s unified metadata management with dbt&amp;rsquo;s MetricFlow to construct a robust semantic layer that sits between your raw data and your AI agents. You&amp;rsquo;ll learn how Gravitino catalogs and governs your data assets across heterogeneous sources, how MetricFlow defines consistent, reusable metrics on top of them, and how to wire both together so that a data agent can answer business questions reliably — without hallucinating schema details or misinterpreting metric definitions. We&amp;rsquo;ll close with a live demo of an agent asking questions against a multi-source environment and getting accurate, governed answers.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>From database to lakehouse in real-time: CDC, Kafka, Apicurio, and Apache Iceberg</title>
-      <link>/sessions/datalake-1203260.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/datalake-1203260.html</guid>
-      <description>&lt;p&gt;Batch ETL runs nightly. Your analysts query stale data. Your ML models train on yesterday&amp;rsquo;s features. The streaming-first lakehouse replaces all of that with a single, real-time pipeline — and you can build it entirely with open-source tools.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, I&amp;rsquo;ll demo a complete pipeline: Debezium captures row-level changes from PostgreSQL, streams them through Kafka with schemas enforced by Apicurio Registry (a CNCF sandbox project), and lands them in Apache Iceberg tables — queryable within seconds via Trino or Spark. I&amp;rsquo;ll cover how the Flink Dynamic Iceberg Sink leverages schema registries for automatic schema evolution, eliminating the manual DDL changes that plague traditional data lakes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Lakehouse to Multimodal Data Lake: Rethinking Data Infrastructure for AI</title>
