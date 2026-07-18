@@ -148,13 +148,6 @@
       <description>&lt;p&gt;随着基于 agent 的技术和应用不断演进，我们相信构建事件驱动的流式 agent 应用将成为该领域的一个重要方向。在这一背景下，Flink 社区推出了 Flink Agents——一个构建在 Apache Flink 之上的子项目和 agent 构建框架。&#xA;自 2025 年 9 月发布首个版本以来，在社区各方的紧密协作下，Flink Agents 在功能迭代、容错执行、生态集成和可观测性方面都取得了长足进步。基于 Flink Agents 0.2.1，社区开发了一个智能 Flink 运维 agent 示例，能够自动分析 Flink 作业健康状况、提供诊断建议，并尝试使用可用工具来解决问题。&#xA;本次演讲将涵盖以下主题：&#xA;● 事件驱动流式 agent 的用例，以及 Flink Agents 为该领域带来的优势。&#xA;● Flink Agents 的架构与核心特性。&#xA;● Flink Agents 的最新进展，包括对 Agent Skills、基于 Mem0 的长期记忆（Long-Term memory）以及增强的持久化执行（Durable Execution）的支持。&#xA;● Flink Agents 的路线图。&#xA;● 一个用 Flink Agents 构建的智能 Flink 作业运维 agent 的现场演示。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2c5c-400o400o1-KkSiGpTkeBFdvq6YVESw45.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Wenjin Xie：阿里云高级开发工程师，Apache Flink Committer&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Apache Fluss：数据之城的英雄</title>
-      <link>/zh/sessions/streaming-1207347.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/sessions/streaming-1207347.html</guid>
-      <description>&lt;p&gt;消息队列是现代流式系统的骨干，但当它们被当作长期的数据平台使用时，会带来数据重复、成本上升以及架构复杂化的问题。随着实时分析需求的增长，把流当作瞬时消息来对待已经远远不够。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将介绍 Apache Fluss——一种流式存储系统，旨在让数据一到达即可被查询。通过结合 schema-first 表、原生记录变更（record mutation）、列式存储以及统一的数据分层，Fluss 能够支持新鲜查询、更简洁的架构，以及更低的运维成本。&lt;/p&gt;&#xA;&lt;p&gt;通过架构对比与真实用例，本次演讲将展示 Fluss 如何作为消息队列的补充，帮助团队构建更快、更可持续的实时数据平台。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/6bf5-400o400o1-4aUHxsoc27FFDvdhQ8TeHE.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alex Campos：数据战略师&lt;/p&gt;&#xA;&lt;p&gt;经验丰富的技术销售专业人士，在拉美、加勒比以及欧洲地区拥有 10 年以上数据方案的实战经验，熟悉多个行业。我将自身的技术背景与经验，与面向业务、富有创新精神的方法相结合，帮助企业发现那些能够借助技术加速数字化转型的机遇。&lt;/p&gt;&#xA;&lt;p&gt;主要技能：思想领导力、技术销售、基于价值的销售（Value-based Selling）、创新、数字化转型&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Apache GraphAr（孵化中）：面向 AI 时代的图数据管理格式</title>
       <link>/zh/sessions/incubator-1214505.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

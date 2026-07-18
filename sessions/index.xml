@@ -99,13 +99,6 @@
       <description>&lt;p&gt;As agent-based technologies and applications continue to evolve, we believe that building event-driven streaming agent applications will emerge as a critical direction for the field. Against this backdrop, the Flink community has launched Flink Agents — a subproject and agent-building framework built on top of Apache Flink.&#xA;Since the release of its first version in September 2025, Flink Agents has made significant strides in functional iteration, fault-tolerant execution, ecosystem integration, and observability, all driven by close collaboration across the community. Building on Flink Agents 0.2.1, the community developed an intelligent Flink operations agent demo capable of automatically analyzing Flink job health, providing diagnostic recommendations, and attempting to resolve issues using available tools.&#xA;This talk will cover the following topics:&#xA;● Event-driven streaming agent use cases and the advantages Flink Agents brings to this space.&#xA;● The architecture and core features of Flink Agents.&#xA;● Latest advancements in Flink Agents, including support for Agent Skills, Mem0-based Long-Term memory, and enhanced Durable Execution.&#xA;● The roadmap for Flink Agents.&#xA;● A live demo of an intelligent Flink job operations agent built with Flink Agents.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Apache Fluss, The Hero of Data City</title>
-      <link>/sessions/streaming-1207347.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/streaming-1207347.html</guid>
-      <description>&lt;p&gt;Message queues are the backbone of modern streaming systems, but when used as long-term data platforms, they introduce duplication, rising costs, and complex architectures. As real-time analytics demands increase, treating streams as transient messages is no longer sufficient.&lt;/p&gt;&#xA;&lt;p&gt;This talk introduces Apache Fluss, a streaming storage system designed to make data queryable immediately as it arrives. By combining schema-first tables, native record mutation, columnar storage, and unified data tiering, Fluss enables fresh queries, simpler architectures, and lower operational cost.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Apache GraphAr (Incubating): Graph Data Management Format for the AI Era</title>
       <link>/sessions/incubator-1214505.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
