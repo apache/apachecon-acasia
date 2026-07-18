@@ -290,18 +290,6 @@
                 href="/sessions/incubator-1214505.html"
                 />
   </url><url>
-    <loc>/sessions/dataops-1198216.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataops-1198216.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataops-1198216.html"
-                />
-  </url><url>
     <loc>/sessions/datalake-1211108.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1444,18 +1432,6 @@
                 href="/sessions/iot-1213309.html"
                 />
   </url><url>
-    <loc>/sessions/datalake-1198219.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1198219.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1198219.html"
-                />
-  </url><url>
     <loc>/sessions/datastorage-1209471.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1818,18 +1794,6 @@
                 href="/tracks/index.html"
                 />
   </url><url>
-    <loc>/sessions/datalake-1198215.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1198215.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1198215.html"
-                />
-  </url><url>
     <loc>/sessions/datastorage-1214223.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -2008,18 +1972,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="/sessions/dataops-1210676.html"
-                />
-  </url><url>
-    <loc>/sessions/dataai-1192012.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1192012.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1192012.html"
                 />
   </url><url>
     <loc>/sessions/dataops-1212212.html</loc>

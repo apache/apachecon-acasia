@@ -176,13 +176,6 @@
       <description>&lt;p&gt;With the rapid evolution of AI, the application scenarios for graph data have become remarkably diverse and widespread. Iterative graph computing, Graph Neural Networks (GNN), and GraphRAG are driving growing demand for graph-structured data across industries. However, in most enterprises today, graph data remains siloed &amp;ndash; hidden in log files, scattered across MySQL databases, or locked inside proprietary graph databases. When different scenarios require graph data to flow between systems, engineers face repeated ETL efforts, format incompatibilities, and significant friction. Meanwhile, a fundamental question arises: should we always load graph data into a transactional graph database just to serve diverse workloads? Doing so often leads to unnecessary data redundancy and operational overhead.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Apache Iceberg ingestion with Apache NiFi</title>
-      <link>/sessions/dataops-1198216.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/dataops-1198216.html</guid>
-      <description>&lt;p&gt;A cornerstone requirement of an Icehouse (Iceberg + Trino) is data ingestion. One approach is to leverage Apache NiFi. NiFi, a multimodal data pipelining tool, has a multitude of processors that can be assembled into a flow to address your specific scenarios. NiFi&amp;rsquo;s low-code/no-code approach allows data engineers to rapidly build, deploy, and monitor their data ingestion &amp;amp; transformation pipelines. NiFi also allows custom processor development with a variety of languages, including Java and Python.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Apache Iceberg V3 in Production: Lessons from a Large-Scale Deployment</title>
       <link>/sessions/datalake-1211108.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -834,13 +827,6 @@
       <description>&lt;p&gt;AI Agents are moving from the cloud to edge devices. openvela is an open-source operating system built on Apache NuttX, deployed on over 100 million devices. This talk introduces the openvela lightweight native AI Agent engine — a pure C implementation requiring as little as 100KB RAM — enabling watches, speakers, glasses, earbuds, and other AI hardware to make autonomous decisions and deliver proactive services.Outline:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The Trend: AI Agents Moving from Cloud to Edge&lt;/li&gt;&#xA;&lt;li&gt;openvela AI Agent Architecture Deep Dive&lt;/li&gt;&#xA;&lt;li&gt;Real-World Scenario Demonstrations&lt;/li&gt;&#xA;&lt;li&gt;Open Source Ecosystem and Future Outlook&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2b2f-400o400o1-auhPijapQK6VAvrhyzUUh8.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Optimizing Apache Iceberg Performance</title>
-      <link>/sessions/datalake-1198219.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/datalake-1198219.html</guid>
-      <description>&lt;p&gt;Join Lester for a practical, fast-paced session on improving query performance across your data lakehouse. While we focus on Apache Iceberg, the techniques apply broadly to Delta Lake and Apache Hive as well.&lt;/p&gt;&#xA;&lt;p&gt;We’ll start with optimizations you can apply today as a table consumer: maintaining statistics, using effective filtering and projection, and leveraging caching to reduce latency.&lt;/p&gt;&#xA;&lt;p&gt;Then we will go under the hood to show how your lakehouse tables should be structured and maintained to improve performance at scale, covering join optimization and file size considerations, as well as compaction, partitioning, bucketing, and file-level sorting.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Optimizing Apache YARN Clusters Using Intelligent Overcommitment</title>
       <link>/sessions/datastorage-1209471.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1030,13 +1016,6 @@
       <description>&lt;p&gt;Open source can only thrive with collaboration - but collaboration doesn’t come naturally to some, and contribution doesn’t come naturally to others. How do we drive behavior change in open source to create a psychologically safe &amp;amp; collegial environment for all contributors?&lt;/p&gt;&#xA;&lt;p&gt;For over a decade, the Contributor Covenant has been the most widely adopted open source code of conduct in the world - and the scope of the Covenant is not merely to lay out a set of prescriptive rules, but to offer contributors a hopeful vision of how a project team collaborates.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Understanding &amp; Exploring Apache Iceberg v3</title>
-      <link>/sessions/datalake-1198215.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/datalake-1198215.html</guid>
-      <description>&lt;p&gt;Apache Iceberg is an open-source table format that provides database-like functionalities such as ACID transactions, schema evolution, and time travel for large analytic datasets stored in data lakes. Iceberg Spec v3 introduces significant advancements, including binary deletion vectors for faster deletes and updates, richer data types like variant for semi-structured data, nanosecond-precision timestamps, and built-in row lineage for enhanced data governance.&lt;/p&gt;&#xA;&lt;p&gt;In addition to learning what these cool features can do for you, you&amp;rsquo;ll see a live demo of many of the popular features and walk away with a hands-on exercise in case you want to learn by doing, too.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Unifying Lance Metadata Management with Gravitino</title>
       <link>/sessions/datastorage-1214223.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1133,13 +1112,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/sessions/dataops-1210676.html</guid>
       <description>&lt;p&gt;In distributed data processing engines, responsibilities such as coordination, communication, and state management are often tightly coupled within a single framework. This can make the system difficult to evolve, extend, or replace individual components over time.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, I will share my experience working on the SeaTunnel engine, where we explored introducing clearer abstractions to reduce dependency on a single distributed framework. I will discuss why this kind of decoupling is necessary, the approach we considered, and the challenges we encountered along the way.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Why Your RAG Benchmark Lies and How to Fix It with Kafka, Iceberg, Spark, and Solr</title>
-      <link>/sessions/dataai-1192012.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/dataai-1192012.html</guid>
-      <description>&lt;p&gt;Most Retrieval-Augmented Generation systems look impressive in demos and then quietly degrade in production. The problem is usually not the LLM. It is the data plane underneath it. Documents change, chunking strategies evolve, embeddings get regenerated inconsistently, retrieval quality drifts across domains, and teams often cannot reproduce why one version of the system answered well while another regressed.&lt;/p&gt;&#xA;&lt;p&gt;This session shows how to build a reproducible and debuggable RAG pipeline using Apache projects. I will walk through an end-to-end architecture where Apache Kafka captures live query and feedback streams, Apache Iceberg versions corpora, chunks, embeddings, and evaluation datasets with full time-travel support, Apache Spark performs large-scale chunking, enrichment, and offline retrieval evaluation, and Apache Solr provides hybrid retrieval across lexical and vector search. The focus is not on high-level diagrams. It is on the engineering details that determine whether a RAG system can actually be trusted.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Workflow Orchestration in the AI Era: New Challenges and Practices for Data Processing at Scale</title>
