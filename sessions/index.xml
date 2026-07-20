@@ -883,13 +883,6 @@
       <description>&lt;p&gt;AI-assisted development and software agents are changing how open-source software is reused. Code can now be referenced, rewritten, or propagated through AI workflows without showing up in package manifests, forks, or traditional dependency graphs.&lt;/p&gt;&#xA;&lt;p&gt;This creates a new challenge for open-source communities: how do we preserve attribution, provenance, maintainer visibility, and long-term sustainability without restricting software freedom or blocking AI usage?&lt;/p&gt;&#xA;&lt;p&gt;This panel will discuss how open-source infrastructure may need to evolve in the agentic era, covering machine-readable attribution, dependency visibility, maintainer metadata, voluntary pledges, public accountability, and AI-era licensing. Using OpenSeed and the draft OpenSeed Agentic Open License 0.1 as a case study, we will explore how communities can keep open-source ecosystems visible, accountable, and sustainable as AI changes the meaning of downstream reuse.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>When More Isn’t Better: Rethinking Open Source in the Age of AI</title>
-      <link>/sessions/community-1214785.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/community-1214785.html</guid>
-      <description>&lt;p&gt;Open source projects have traditionally relied on visible contributions, pull requests, proposals, and activity to identify and evaluate contributors. But as the cost of generating contributions has decreased with the rise of AI-assisted development, these signals are becoming harder to trust. What happens when contribution no longer reflects understanding?&lt;/p&gt;&#xA;&lt;p&gt;In this talk, I share insights from my experience as a contributor, mentor, and community manager in the CircuitVerse ecosystem, along with learnings shaped by conversations with maintainers and organization administrators across programs like Google Summer of Code. I’m deeply grateful for the openness of the community in sharing their challenges, experiments, and evolving practices during this time of change.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>When MQTT Meets Kafka: Evolving IoT Infrastructure from Ingestion Layer to Data Layer</title>
       <link>/sessions/iot-1196529.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
