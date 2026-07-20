@@ -1,9 +1,10 @@
 ---
 title: "Unleashing Native Performance: The Architecture and Roadmap of Apache Iceberg-cpp"
-date: ""
+date: "2026-08-08T16:15:00"
 track: "datastorage"
 presenters: "Gang Wu, Junwang Zhao"
 stype: "Chinese Session"
+room: "Mtn WanShou Hall"
 ---
 
 As modern data engines shift toward native execution (C++, Rust, and SIMD-optimized processing), the need for a high-performance, JVM-independent Iceberg implementation has never been greater. This session dives into the origins and design philosophy of iceberg-cpp, the official C++ implementation of the Apache Iceberg specification.
@@ -25,4 +26,3 @@ Gang is a software engineer at Singdata working on the lakehouse storage. He is 
 Junwang Zhao: Database Engineer at Ant Group
 
 Junwang is a database engineer at Ant Group and contributes to PostgreSQL development in his spare time, where he is recognized as a PostgreSQL Significant Contributor. He is also a co-creator of the iceberg-cpp project, focusing on building open, high-performance data infrastructure.
-

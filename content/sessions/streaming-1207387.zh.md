@@ -1,9 +1,10 @@
 ---
 title: "Kafka Streams 4.2.0 死信队列（DLQ）：从手工变通到内置的事务安全"
-date: ""
+date: "2026-08-09T15:45:00"
 track: "streaming"
 presenters: "Eric Chang"
 stype: "中文演讲"
+room: "圆明厅"
 ---
 
 在 Kafka Streams 中处理坏记录（bad record）乍看很简单：捕获坏记录，把它写到另一个 topic，然后继续。但在实践中，一旦牵涉到反序列化错误、自定义异常处理器和 exactly-once 处理，事情就变得更微妙了。

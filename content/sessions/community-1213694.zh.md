@@ -1,9 +1,10 @@
 ---
 title: "借助一点 AI 的帮助来传授 Apache 之道"
-date: ""
+date: "2026-08-08T16:15:00"
 track: "community"
 presenters: "Justin Mclean"
 stype: "英文演讲"
+room: "玉泉山会议室"
 ---
 
 每一个 ASF 项目都会留下经验教训。本次演讲展示如何把真实的 Incubator（孵化器）案例转化为实用的培训材料——借助 AI 来识别模式、总结讨论，从而帮助改进新人上手、导师辅导和社区发展。

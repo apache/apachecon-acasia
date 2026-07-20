@@ -1,9 +1,10 @@
 ---
 title: "The Anatomy of Iceberg Failures: Lessons from Real-World Escalations"
-date: ""
+date: "2026-08-07T16:45:00"
 track: "datalake"
 presenters: "Noémi Pap-Takács, Boglárka Egyed"
 stype: "English Session"
+room: "WanChun Hall"
 ---
 
 Apache Iceberg has revolutionized data lakes by bringing ACID transactions and flexible table updates. However, at enterprise scale, "hands-off" management is a myth. Without the right maintenance strategy, high-throughput systems often suffer from rising storage costs, query performance degradation, and failures.
@@ -33,4 +34,3 @@ Noémi Pap-Takács is a software engineer at Cloudera and a committer on the Apa
 Boglárka Egyed: Engineering Director at Cloudera
 
 Boglárka Egyed is an Engineering Director at Cloudera, leading the teams behind Apache Impala and Hive. A former automotive engineer turned big data enthusiast, she spent years as an Apache Sqoop developer before moving into leadership. Today, she focuses on scaling engineering excellence and advancing open-source innovation for modern data architecture.
-

@@ -1,9 +1,10 @@
 ---
 title: "重新思考云端 Apache RocketMQ 的高可用：面向秒级故障恢复的 Protocol-Fenced 接管"
-date: ""
+date: "2026-08-07T15:45:00"
 track: "messaging"
 presenters: "Rongtong Jin"
 stype: "中文演讲"
+room: "静宜厅"
 ---
 
 云端有状态消息系统的高可用，往往受制于成本、稳态性能与故障恢复速度之间艰难的权衡。基于副本（replication）的方案可以缩短恢复时间，但通常会带来额外的写放大、资源开销和运维复杂度。相比之下，单副本部署能够保持性能与成本效率，但其在 Kubernetes 中的故障恢复路径往往被缓慢且不可控的 volume detach/attach 流程所主导。

@@ -1,9 +1,10 @@
 ---
 title: "Lean Metadata, Big Data: Keep the Query Fast in Apache Iceberg"
-date: ""
+date: "2026-08-09T14:30:00"
 track: "datalake"
 presenters: "Hongyue Zhang"
 stype: "English Session"
+room: "WanChun Hall"
 ---
 
 Apache Iceberg's metadata layer is what makes schema evolution, partition evolution, and predicate pushdown possible . But at petabyte scale, that metadata itself can balloon to hundreds of gigabytes or more. When planning slows down the execution, something has to give.
@@ -21,4 +22,3 @@ You'll walk away with a clear picture of where all those gigabytes of metadata a
 Hongyue Zhang: Software Engineer at Snowflake
 
 Hongyue started to contribute to apache iceberg project since 2022 while work on Apple data platform. Now at Snowflake, he is building tools and systems around Apache Iceberg to help make data-driven decisions.
-

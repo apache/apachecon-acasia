@@ -1,9 +1,10 @@
 ---
 title: "AI 时代的开源之道：探索 Apache 与 CNCF 治理风格的多样性"
-date: ""
+date: "2026-08-07T14:00:00"
 track: "community"
 presenters: "Fengjun Lyu"
 stype: "中文演讲"
+room: "玉泉山会议室"
 ---
 
 在技术呈指数级迭代的 AI 时代，"Community Over Code（社区重于代码）"的理念比以往任何时候都更为关键。作为一名活跃的 Apache PMC 成员、CNCF 项目 Maintainer，以及企业 OSPO 实践者，我将分享这两大顶级开源基金会多样化的治理风格与成功实践。

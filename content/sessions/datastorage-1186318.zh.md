@@ -1,9 +1,10 @@
 ---
 title: "释放原生性能：Apache Iceberg-cpp 的架构与路线图"
-date: ""
+date: "2026-08-08T16:15:00"
 track: "datastorage"
 presenters: "Gang Wu, Junwang Zhao"
 stype: "中文演讲"
+room: "万寿山会议室"
 ---
 
 随着现代数据引擎转向原生执行（C++、Rust 以及 SIMD 优化的处理），业界对高性能、不依赖 JVM 的 Iceberg 实现的需求达到了前所未有的高度。本次演讲将深入剖析 iceberg-cpp 的起源与设计理念——这是 Apache Iceberg 规范的官方 C++ 实现。

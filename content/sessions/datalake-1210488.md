@@ -1,9 +1,10 @@
 ---
 title: "Lakehouse to AI Data Lake: Xiaomi AI scene data storage and computing architecture evolution"
-date: ""
+date: "2026-08-09T14:00:00"
 track: "datalake"
 presenters: "Kainan Bao"
 stype: "Chinese Session"
+room: "WanChun Hall"
 ---
 
 While the lakehouse architecture has become the de facto standard for business intelligence (BI) workloads, it faces two fundamental bottlenecks when extended to large-scale foundation model training pipelines. Unlike traditional BI which centers on structured tabular data, AI training processes massive volumes of unstructured data (text, images, audio, video), exposing critical gaps in unified unstructured data governance and architectural silos between Hadoop-based data processing and cloud-native model training infrastructure.
@@ -20,4 +21,3 @@ Kainan Bao: Software Engineer at Xiaomi | Core Contributor of Xiaomi Mimo Models
 Software Engineer at Xiaomi and a Core Contributor of Xiaomi Mimo Models, responsible for PB-scale data processing for Xiaomi Mimo foundation model training. Specializes in solving the unique challenges of processing massive volumes of multimodal unstructured data including text, images and video.
 
 Has extensive experience in data lake governance, with contributions to the Iceberg, Paimon & Gravitino open source communities. In this session, will share how Xiaomi evolved its traditional data lake to unify structured and unstructured data governance with Gravitino, and built AI-native data processing systems using Ray and Lance.
-

@@ -1,9 +1,10 @@
 ---
 title: "The Power of Consensus: How Community Built Contributor Covenant 3"
-date: ""
+date: "2026-08-07T16:15:00"
 track: "community"
 presenters: "Maryblessing  Okolie"
 stype: "English Session"
+room: "Mtn YuQuan Hall"
 ---
 
 Open source can only thrive with collaboration - but collaboration doesn’t come naturally to some, and contribution doesn’t come naturally to others. How do we drive behavior change in open source to create a psychologically safe & collegial environment for all contributors?
@@ -22,4 +23,3 @@ Come join us to learn how to strengthen your contribution funnel by prioritizing
 Maryblessing  Okolie: Community Architect
 
 Community architect, Open Source, EDIA
-

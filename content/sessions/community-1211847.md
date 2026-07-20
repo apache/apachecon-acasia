@@ -1,9 +1,10 @@
 ---
 title: "Five Years into Open Source: Rethinking “Community Health” Through the Lens of a Storage Project"
-date: ""
+date: "2026-08-08T14:30:00"
 track: "community"
 presenters: "Rui Su"
 stype: "Chinese Session"
+room: "Mtn YuQuan Hall"
 ---
 
 Five years ago, we open-sourced a storage project. Like many teams, we believed at the time that if the code was good enough, a community would gradually form around it. Over the following five years, however, we came to realize that the growth of an open-source project is not only about code evolution. It is also about how a community is built, how it is perceived, and how it can remain sustainable over time.
@@ -33,4 +34,3 @@ Community Over Code 2025 — Why We Chose Openness: The Story Behind JuiceFS Swi
 https://www.youtube.com/watch?v=DtyJHVz4CJE
 KubeCon 2023 Shanghai — How to Accelerate Model Training and Eliminate the I/O Bottleneck for the Cloud (in Chinese)
 https://www.youtube.com/watch?v=pK9pUxRpBSM
-

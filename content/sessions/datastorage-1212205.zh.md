@@ -1,9 +1,10 @@
 ---
 title: "滴滴 Apache Ozone 规模化实践：生产环境运营 100PB+ 存储与数十亿文件"
-date: ""
+date: "2026-08-07T17:15:00"
 track: "datastorage"
 presenters: "Shilun Fan, Ming Wei, Hongbing Wang"
 stype: "中文演讲"
+room: "万寿山会议室"
 ---
 
 随着滴滴非结构化数据快速增长，HDFS 元数据压力成为主要的可扩展性挑战。滴滴引入 Apache Ozone 作为下一代存储引擎来突破这些瓶颈，目前 Ozone 已在滴滴稳定运行两年多，支撑超过 100 PB 数据和数百亿文件。

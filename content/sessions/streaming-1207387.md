@@ -1,9 +1,10 @@
 ---
 title: "Kafka Streams 4.2.0 Dead Letter Queue: From Manual Workarounds to Built-in Transaction Safety"
-date: ""
+date: "2026-08-09T15:45:00"
 track: "streaming"
 presenters: "Eric Chang"
 stype: "Chinese Session"
+room: "YuanMing Hall"
 ---
 
 Handling bad records in Kafka Streams looks simple at first: catch the bad record, write it to another topic, and continue. In practice, it becomes more subtle once deserialization errors, custom exception handlers, and exactly-once processing are involved.
@@ -30,4 +31,3 @@ And here's the link to the KIP:
 Eric Chang: Apache Gravitino Committer, Apache Kafka contributor, and member of OpenSourceForYou, a vibrant Taiwan-based open-source community founded by Chia-Ping Tsai
 
 Eric Chang is an Apache Gravitino Committer and Apache Kafka contributor based in Taiwan. He is also a member of OpenSourceForYou, a vibrant Taiwan-based open-source community founded by Chia-Ping Tsai. Eric is interested in backend systems, Kafka, and distributed data processing, and he writes technical articles with runnable examples to explain practical engineering problems. His recent work explores Kafka Streams KIP-1034 and how built-in Dead Letter Queue support changes the way applications handle bad records under exactly-once processing.
-

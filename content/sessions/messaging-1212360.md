@@ -1,9 +1,10 @@
 ---
 title: "RocketMQ 5 in Production at Meituan"
-date: ""
+date: "2026-08-09T14:00:00"
 track: "messaging"
 presenters: "Jiangge Zhang"
 stype: "Chinese Session"
+room: "JingYi Hall"
 ---
 
 Meituan operates one of China's largest internal messaging platforms, originally built on an early Kafka fork—internally known as Mafka. Mafka served us well, but over time hit two hard limits. First, consumer scalability was capped by partition count: adding more consumer instances beyond the number of partitions yielded no throughput gain. Second, the client became a heavyweight artifact—carrying complex routing logic and a wire protocol that made cross-language support a maintenance nightmare.
@@ -22,4 +23,3 @@ We will ground the talk in real-world results from active production migration. 
 Jiangge Zhang: Software Architect at Meituan
 
 Jiangge Zhang is an architect at Meituan, working on the messaging infrastructure team. He previously worked on SOA middleware and has been focused on large-scale distributed systems throughout his career.
-

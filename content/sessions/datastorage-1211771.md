@@ -1,9 +1,10 @@
 ---
 title: "HBase Function Iteration and Architecture Evolution Practice at Xiaomi"
-date: ""
+date: "2026-08-07T15:45:00"
 track: "datastorage"
 presenters: "Yuting sun, Yiming Gong"
 stype: "Chinese Session"
+room: "Mtn WanShou Hall"
 ---
 
 2. Description：
@@ -78,4 +79,3 @@ Xiaomi software R&D engineer, mainly responsible for HBase development
 Yiming Gong: Xiaomi, SDE
 
 HBase developer at xiaomi
-

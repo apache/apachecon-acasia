@@ -1,9 +1,10 @@
 ---
 title: "ServerlessX：面向基于 RDMA 的分离式架构的内核态 Serverless 系统"
-date: ""
+date: "2026-08-09T16:15:00"
 track: "microservice"
 presenters: "Mingxuan Liu"
 stype: "中文演讲"
+room: "阳山会议室"
 ---
 
 本演讲探讨一种新颖的 Linux 内核态 Serverless 框架，旨在弥合物理分离的硬件资源池（例如分离式内存）与现代 Serverless 函数即时执行语义之间的差距。通过构建一个跨越 RDMA 网络基础、分布式操作系统内核原语（RDMA Fork、Map 和 mmap）以及面向特定应用扩展策略的三层架构，我们展示了如何在分离式资源之间实现毫秒级的弹性伸缩。听众将深入了解三个实际案例，包括面向 LLM 推理的快速 GPU 扩展、面向推荐系统的动态内存扩容，以及面向存储引擎的解耦式 I/O 容量扩展。

@@ -1,9 +1,10 @@
 ---
 title: "Apache Cloudberry（孵化中）2.1 与 3.0 有哪些新特性"
-date: ""
+date: "2026-08-07T15:45:00"
 track: "datalake"
 presenters: "Max Yang"
 stype: "中文演讲"
+room: "万春厅"
 ---
 
 Apache Cloudberry 是一款先进且成熟的开源 MPP 数据库，源自 Pivotal Greenplum Database® 的开源版本，但构建在更现代的 PostgreSQL 内核之上，并具备更高级的企业能力。Cloudberry 既可以用作数据仓库，也可用于大规模分析以及 AI/ML 工作负载。

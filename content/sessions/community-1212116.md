@@ -1,9 +1,10 @@
 ---
 title: "The Global Bridge: Navigating Open Source Culture from the US to China"
-date: ""
+date: "2026-08-08T15:45:00"
 track: "community"
 presenters: "Miaolai Zhou"
 stype: "English Session"
+room: "Mtn YuQuan Hall"
 ---
 
 The global nature of open source is its greatest strength, yet "global" looks very different depending on whether you are in Beijing, Seattle, or Berlin. While the code remains the same, the culture surrounding it—and how we approach community—varies significantly across regions.
@@ -22,4 +23,3 @@ By recognizing these diverse approaches, we can better bridge the gaps in our gl
 Miaolai Zhou: AWS, Program Manager
 
 Mila is a passionate program manager at AWS, spearheading funding programs that provide vital resources to open source projects. Her unwavering commitment to empowering and supporting these communities fosters sustainability, drives innovation, and enables collaboration. She actively engages with the open source community, attending conferences and contributing to discussions on sustainability, security, and best practices, establishing herself as an influential figure in the ecosystem.
-

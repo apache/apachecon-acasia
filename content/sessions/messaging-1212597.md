@@ -1,9 +1,10 @@
 ---
 title: "Apache RocketMQ For AI: Reliable Collaboration Mechanisms for Multi-Agent Systems"
-date: ""
+date: "2026-08-09T15:15:00"
 track: "messaging"
 presenters: "Zhou Li"
 stype: "Chinese Session"
+room: "JingYi Hall"
 ---
 
 Section 1: Engineering Challenges in Agent Collaboration
@@ -34,4 +35,3 @@ Section 5: Large-Scale Cluster Performance and Practical Closed-Loop
 Zhou Li: aliyun
 
 Messaging Expert at Alibaba Cloud, responsible for Alibaba's core messaging middleware
-

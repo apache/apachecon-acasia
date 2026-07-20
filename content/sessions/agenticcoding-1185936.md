@@ -1,9 +1,10 @@
 ---
 title: "Vibing BanyanDB Trace Storage through Agentic Workflows"
-date: ""
+date: "2026-08-09T13:30:00"
 track: "agenticcoding"
 presenters: "Youliang Huang"
 stype: "Chinese Session"
+room: "JingMing Hall"
 ---
 
 This session explores how to build trace storage capabilities using an agentic coding approach, with a deep dive into BanyanDB’s trace storage engine. Rather than following a traditional, manually driven development model, we demonstrate how agentic coding reshapes the engineering workflow — from requirement analysis and system design to implementation and iterative optimization.

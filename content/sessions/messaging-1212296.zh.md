@@ -1,9 +1,10 @@
 ---
 title: "AI Link：腾讯云 MQTT 的 AI 接入层"
-date: ""
+date: "2026-08-07T16:45:00"
 track: "messaging"
 presenters: "Wei Yang, Senze Zhang"
 stype: "中文演讲"
+room: "静宜厅"
 ---
 
 AI Link 是腾讯云 MQTT 的 AI 接入层——让 AI agent 能够发现、理解并控制物理设备。它构建于 MQTT broker 之上，将物理设备暴露为 MCP 兼容的工具，并聚合实时状态与历史上下文以供 AI 推理使用。

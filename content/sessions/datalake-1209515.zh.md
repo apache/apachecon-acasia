@@ -1,9 +1,10 @@
 ---
 title: "Fluss × 湖仓：在数据湖上解锁亚秒级数据新鲜度"
-date: ""
+date: "2026-08-08T16:15:00"
 track: "datalake"
 presenters: "Yuxia Luo"
 stype: "中文演讲"
+room: "万春厅"
 ---
 
 现代数据平台被夹在两个世界之间：流式系统交付新鲜数据，却缺乏长期存储；湖仓提供持久的分析能力，却无法服务真正的实时查询。对于主键表而言，这一鸿沟尤为痛苦——Paimon 需要经过 compaction 才能让新行可见，而 Iceberg 则会累积 equality delete 文件，从而拖垮查询性能。

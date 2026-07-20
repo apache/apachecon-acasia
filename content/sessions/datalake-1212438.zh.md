@@ -1,9 +1,10 @@
 ---
 title: "在 C++ 查询引擎中实现 Iceberg 特性的挑战"
-date: ""
+date: "2026-08-08T16:45:00"
 track: "datalake"
 presenters: "Zoltán Borók-Nagy, Péter Rózsa"
 stype: "英文演讲"
+room: "万春厅"
 ---
 
 Apache Impala 是一个混合的大规模并行查询引擎：它的查询规划和元数据处理由 Java 实现，而执行引擎则用 C++ 编写。这种架构在集成 Apache Iceberg 时会带来独特的挑战——因为 Iceberg 的参考实现与生态主要以 Java 为基础。听众将了解到把 Iceberg 引入非 JVM 查询引擎时所面临的实际挑战。

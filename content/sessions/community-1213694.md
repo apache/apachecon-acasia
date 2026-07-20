@@ -1,9 +1,10 @@
 ---
 title: "Teaching the Apache Way with a little help from AI"
-date: ""
+date: "2026-08-08T16:15:00"
 track: "community"
 presenters: "Justin Mclean"
 stype: "English Session"
+room: "Mtn YuQuan Hall"
 ---
 
 Every ASF project leaves lessons behind. This talk shows how real Incubator case studies were turned into practical training using AI to identify patterns and summarise discussions, helping improve onboarding, mentoring, and community development.
@@ -28,5 +29,3 @@ Justin Mclean is a long-time contributor to the Apache Software Foundation (ASF)
 He has extensive experience guiding projects from early incubation through to successful graduation, and has reviewed over a thousand open source releases. His work focuses on open source governance, community health, and the design of systems that enable collaboration at scale.
 
 Justin regularly speaks at international conferences on topics such as open source governance, licensing, and community building, sharing practical lessons drawn from real-world experience across a wide range of ASF projects and communities.
-
-

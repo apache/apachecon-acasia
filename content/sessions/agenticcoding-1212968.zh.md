@@ -1,9 +1,10 @@
 ---
 title: "核心设计变得更难了：重写 Bub 的经验教训"
-date: ""
+date: "2026-08-09T15:15:00"
 track: "agenticcoding"
 presenters: "卓燃 尚"
 stype: "中文演讲"
+room: "静明厅"
 ---
 
 Agentic coding 让生成功能变得前所未有地容易。但这恰恰说明，仅有可扩展性已经不够：我们需要的是始终保持可理解、可替换、可治理的系统。

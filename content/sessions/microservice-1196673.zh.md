@@ -1,9 +1,10 @@
 ---
 title: "深入剖析：在 Apache Dubbo 中实现 OTel 最新 RPC 语义约定"
-date: ""
+date: "2026-08-09T14:30:00"
 track: "microservice"
 presenters: "Zihao Rao"
 stype: "中文演讲"
+room: "阳山会议室"
 ---
 
 过去一年，OTel 社区致力于稳定 RPC 相关的语义约定——具体而言，通过深入讨论，推动 RPC 框架语义从"实验性"状态迈向"稳定"状态。本演讲将介绍 RPC 语义约定的最新进展，并详细讲解这些语义约定在 Dubbo 框架中的设计与实现。

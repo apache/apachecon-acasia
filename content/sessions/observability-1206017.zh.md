@@ -1,9 +1,10 @@
 ---
 title: "使用 SkyWalking 10.4 监控 LLM 应用：性能与成本的洞察"
-date: ""
+date: "2026-08-09T14:00:00"
 track: "observability"
 presenters: "YiMing Shao"
 stype: "中文演讲"
+room: "阳山会议室"
 ---
 
 本次演讲将从 Apache SkyWalking 10.4 的突破性特性——AI 可观测性（AI Observability）的介绍开始。我们将探讨监控大语言模型（LLM）应用的战略重要性，以及 Envoy AI Gateway 在基础设施边缘保障和管理 AI 流量方面所扮演的角色。

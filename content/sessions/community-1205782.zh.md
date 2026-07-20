@@ -1,9 +1,10 @@
 ---
 title: "共识的力量：社区是如何打造 Contributor Covenant 3 的"
-date: ""
+date: "2026-08-07T16:15:00"
 track: "community"
 presenters: "Maryblessing  Okolie"
 stype: "英文演讲"
+room: "玉泉山会议室"
 ---
 
 开源只有在协作之下才能繁荣——但协作对一些人来说并非与生俱来，贡献对另一些人而言也不是自然而然的事。我们如何才能在开源中推动行为改变，为所有贡献者营造一个心理安全、彼此友善的环境？

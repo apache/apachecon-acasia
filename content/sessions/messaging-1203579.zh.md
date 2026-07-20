@@ -1,9 +1,10 @@
 ---
 title: "AI 时代 Apache Kafka 的成本挑战：优化实践与社区最新进展"
-date: ""
+date: "2026-08-07T14:30:00"
 track: "messaging"
 presenters: "Jian Fu"
 stype: "中文演讲"
+room: "静宜厅"
 ---
 
 AI 驱动的数据爆发式增长，使得 Kafka 的工作负载和运维成本显著上升。本次分享聚焦于如何优化 Kafka 成本，涵盖以下几个关键方面：

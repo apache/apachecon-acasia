@@ -1,9 +1,10 @@
 ---
 title: "GeaFlow | Streaming Memory: Building a Real-time Stateful Backend to Empower AI+Graph Scenarios"
-date: ""
+date: "2026-08-08T16:15:00"
 track: "streaming"
 presenters: "Litao Lin, Yao Zhongqiang"
 stype: "Chinese Session"
+room: "YuanMing Hall"
 ---
 
 In 2026, AI Agent memory architecture is undergoing a paradigm shift. Traditional AI Agent memory systems largely adopt a batch processing mode characterized by "append-only writes + asynchronous indexing." This results in significant latency in memory updates, making it difficult to support contextual evolution in real-time interaction scenarios. The essence of memory is not a static dataset, but an unbounded data stream composed of dialogue, perception, and decision-making. How to perform low-latency state management and incremental computation on this stream represents a new challenge for stream computing technology in the AI era.
@@ -26,4 +27,3 @@ Apache GeaFlow (Incubating) Committer. As a core member of the project, he parti
 Yao Zhongqiang: Graph Computing Expert & Development Engineer at Ant Group
 
 Deeply involved in the big data field, specializing in graph computing, real-time computing, and OLAP. Current team focus is on Agent Memory and MARL.
-

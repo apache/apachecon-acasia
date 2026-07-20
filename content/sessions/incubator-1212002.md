@@ -1,9 +1,10 @@
 ---
 title: "Build Once, Run on Any Linux: SynxDB CE for Apache Cloudberry (Incubating)"
-date: ""
+date: "2026-08-09T15:45:00"
 track: "incubator"
 presenters: "Shine Zhang, Ed Espino"
 stype: "English Session"
+room: "Mtn YuQuan Hall"
 ---
 
 Apache Cloudberry (Incubating) is a Postgres-compatible MPP analytical database with a fast-growing community. Like many Apache projects, its official releases are source tarballs — exactly right for ASF governance, but leaving a gap for the people who actually want to run it. Hobbyists, evaluators, and enterprise teams all expect an installable binary.
@@ -40,4 +41,3 @@ Ed Espino: CEO and co-founder of Synx Data Labs, Inc.
 Ed Espino is co-founder of Synx Data Labs and creator of SynxDB, with over 30 years of experience in database engineering and analytics infrastructure. His career spans foundational work at Informix and Sybase, joining Greenplum in 2009, and contributing to successful IPOs at OnDisplay and Pivotal.
 A member of the Apache Software Foundation and PPMC member for Apache Cloudberry (Incubating), Ed is an active contributor to the open-source analytics ecosystem. He currently leads infrastructure development at Synx Data Labs, including the cloudberry-image-factory and assembly-bom projects, and is building The Analytics Workshop — a Substack publication focused on analytics engineering through an infrastructure-first lens.
 Ed brings a practitioner’s perspective shaped by decades at the intersection of database architecture, open-source community governance, and enterprise data platforms.
-

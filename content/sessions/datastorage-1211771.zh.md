@@ -1,9 +1,10 @@
 ---
 title: "小米 HBase 功能迭代与架构演进实践"
-date: ""
+date: "2026-08-07T15:45:00"
 track: "datastorage"
 presenters: "Yuting sun, Yiming Gong"
 stype: "中文演讲"
+room: "万寿山会议室"
 ---
 
 2. 描述：

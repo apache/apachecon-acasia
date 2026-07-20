@@ -1,9 +1,10 @@
 ---
 title: "基于 Flink 探索实时 AI 应用场景"
-date: ""
+date: "2026-08-08T14:30:00"
 track: "streaming"
 presenters: "饶饶 熊"
 stype: "中文演讲"
+room: "圆明厅"
 ---
 
 **1. 背景**

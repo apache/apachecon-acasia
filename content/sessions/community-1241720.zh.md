@@ -1,9 +1,10 @@
 ---
 title: "当 AI 成为下游：重新思考开源的署名、许可与长期可持续性"
-date: ""
+date: "2026-08-07T14:30:00"
 track: "community"
 presenters: "Ian Xu"
 stype: "中文演讲"
+room: "玉泉山会议室"
 ---
 
 AI 辅助开发和软件 agent 正在改变开源软件被复用的方式。如今，代码可以经由 AI 工作流被引用、改写或传播，而不出现在包清单（package manifest）、fork 或传统的依赖图当中。

@@ -1,9 +1,10 @@
 ---
 title: "Cost Challenges of Apache Kafka in the AI Era: Optimization Practice and Latest Community Progress"
-date: ""
+date: "2026-08-07T14:30:00"
 track: "messaging"
 presenters: "Jian Fu"
 stype: "Chinese Session"
+room: "JingYi Hall"
 ---
 
 The explosive growth of data driven by AI has significantly increased Kafka workloads and operational costs. This session focuses on how to optimize Kafka costs, covering the following key aspects:
@@ -60,4 +61,3 @@ Author of the online courses:
 	极客时间:
 		(Spring 编程常见错误50例)
 		(Netty 源码剖析与实战)
-

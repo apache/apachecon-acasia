@@ -1,9 +1,10 @@
 ---
 title: "Scaling Apache Ozone at Didi: Operating 100PB+ Storage and Billions of Files in Production"
-date: ""
+date: "2026-08-07T17:15:00"
 track: "datastorage"
 presenters: "Shilun Fan, Ming Wei, Hongbing Wang"
 stype: "Chinese Session"
+room: "Mtn WanShou Hall"
 ---
 
 As Didi’s unstructured data grew rapidly, HDFS metadata pressure became a major scalability challenge. Apache Ozone was introduced as the next-generation storage engine to address these limitations, and it has now been running in production at Didi for more than two years, supporting over 100 PB of data and tens of billions of files.
@@ -32,4 +33,3 @@ Apache Ozone Contributor
 Hongbing Wang: Storage Engineer at DiDi
 
 Apache Ozone Committer
-

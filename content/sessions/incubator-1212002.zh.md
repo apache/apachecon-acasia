@@ -1,9 +1,10 @@
 ---
 title: "一次构建，任意 Linux 运行：面向 Apache Cloudberry（孵化中）的 SynxDB CE"
-date: ""
+date: "2026-08-09T15:45:00"
 track: "incubator"
 presenters: "Shine Zhang, Ed Espino"
 stype: "英文演讲"
+room: "玉泉山会议室"
 ---
 
 Apache Cloudberry（孵化中）是一个兼容 Postgres 的 MPP 分析型数据库，社区增长迅速。与许多 Apache 项目一样，它的官方发布物是源码 tarball——这完全符合 ASF 的治理要求，却给真正想运行它的人留下了一段空白。爱好者、评估者以及企业团队，都期望能有一个可直接安装的二进制包。

@@ -1,9 +1,10 @@
 ---
 title: "When the Optimizer Lies: Debugging Cross-Slice Execution in Apache Cloudberry"
-date: ""
+date: "2026-08-08T16:45:00"
 track: "datastorage"
 presenters: "Alena Rybakina"
 stype: "English Session"
+room: "Mtn WanShou Hall"
 ---
 
 In Apache Cloudberry, the optimizer, planner, and executor operate with different abstractions of a query. When these abstractions diverge, even simple queries can trigger severe failures.
@@ -30,4 +31,3 @@ Main Projects and Contributions
 Development of optimization-related extensions and features, including AQO (Adaptive Query Optimization) and Self-Join Elimination
 Experimental and production-oriented improvements to the PostgreSQL query planner
 Contributions to PostgreSQL core, including the OR-to-ANY and VALUES-to-ANY transformations in the optimizer
-

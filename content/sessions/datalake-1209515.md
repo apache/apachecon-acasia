@@ -1,9 +1,10 @@
 ---
 title: "Fluss X Lakehouse: Unlocking Sub-Second Data Freshness on Your Data Lake"
-date: ""
+date: "2026-08-08T16:15:00"
 track: "datalake"
 presenters: "Yuxia Luo"
 stype: "Chinese Session"
+room: "WanChun Hall"
 ---
 
 Modern data platforms are torn between two worlds: streaming systems deliver fresh data but lack long-term
@@ -35,4 +36,3 @@ Yuxia Luo is a software engineer at Alibaba and a PMC member of Apache Fluss, wo
   real-time queryability for primary-key tables across Paimon, Iceberg. With years of experience on Apache
    Flink and large-scale real-time data platforms, he is passionate about closing the gap between streaming and the
    data lake. He has previously shared his work at Flink Forward and QCon.
-

@@ -1,9 +1,10 @@
 ---
 title: "From Data Ingestion to Data Lake: Building a Modern Lakehouse with Apache SeaTunnel"
-date: ""
+date: "2026-08-08T14:30:00"
 track: "datalake"
 presenters: "Lidong Dai"
 stype: "Chinese Session"
+room: "WanChun Hall"
 ---
 
 Building a data lake is no longer just about choosing Iceberg, Hudi, or Paimon.
@@ -31,4 +32,3 @@ The session will cover:
 Lidong Dai: WhaleOps Technology co-founder
 
 Apache Incubator Mentor, Apache DolphinScheduler PMC member & Apache SeaTunnel PMC member
-

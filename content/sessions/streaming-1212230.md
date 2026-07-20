@@ -1,9 +1,10 @@
 ---
 title: "The Evolution and Production Practices of Flink 2.x in Tencent"
-date: ""
+date: "2026-08-08T15:00:00"
 track: "streaming"
 presenters: "Zihao Chen"
 stype: "Chinese Session"
+room: "YuanMing Hall"
 ---
 
 1. Business Context and Architectural Evolution
@@ -40,4 +41,3 @@ stype: "Chinese Session"
 Zihao Chen: Tencent, Senior Software Development Engineer
 
 Zihao has been engaged in R&D related to the Flink kernel for many years. In recent years, he has mainly focused on driving the evolution of Flink 2.x and developing Flink's autoscaling capabilities to maintain the Flink engine's technological edge and improve the stability and resource utilization of Flink jobs.
-

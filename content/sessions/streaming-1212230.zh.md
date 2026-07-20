@@ -1,9 +1,10 @@
 ---
 title: "Flink 2.x 在腾讯的演进与生产实践"
-date: ""
+date: "2026-08-08T15:00:00"
 track: "streaming"
 presenters: "Zihao Chen"
 stype: "中文演讲"
+room: "圆明厅"
 ---
 
 1. 业务背景与架构演进

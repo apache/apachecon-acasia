@@ -1,11 +1,11 @@
 ---
 title: "Apache GraphAr (Incubating): Graph Data Management Format for the AI Era"
-date: ""
+date: "2026-08-09T14:30:00"
 track: "incubator"
 presenters: "Xiaokang Yang, Zhe Wang"
 stype: "Chinese Session"
+room: "Mtn YuQuan Hall"
 ---
-
 
 With the rapid evolution of AI, the application scenarios for graph data have become remarkably diverse and widespread. Iterative graph computing, Graph Neural Networks (GNN), and GraphRAG are driving growing demand for graph-structured data across industries. However, in most enterprises today, graph data remains siloed -- hidden in log files, scattered across MySQL databases, or locked inside proprietary graph databases. When different scenarios require graph data to flow between systems, engineers face repeated ETL efforts, format incompatibilities, and significant friction. Meanwhile, a fundamental question arises: should we always load graph data into a transactional graph database just to serve diverse workloads? Doing so often leads to unnecessary data redundancy and operational overhead.
 
@@ -27,4 +27,3 @@ Xiaokang Yang is a Committer of Apache GraphAr (Incubating), an open-source proj
 Zhe Wang: Apache GraphAr(incubating) PPMC
 
 Master student at JLU, interested in graph store and graph AI.
-

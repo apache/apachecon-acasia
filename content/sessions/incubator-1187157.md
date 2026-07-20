@@ -1,9 +1,10 @@
 ---
 title: "Running an Apache Podling in the Real World: Lessons Beyond the Docs"
-date: ""
+date: "2026-08-09T14:00:00"
 track: "incubator"
 presenters: "Shuxin Pan"
 stype: "Chinese Session"
+room: "Mtn YuQuan Hall"
 ---
 
 The Apache Incubator is the gateway for projects joining the Apache Software Foundation, but for many new Podlings the real incubation journey involves much more than following official documentation.
@@ -22,4 +23,3 @@ Using Apache Fesod (Incubating) release practices as a case study, this session 
 Shuxin Pan: Apache Committer | Open Source Enthusiast
 
 Shuxin Pan is an open-source developer focused on Java distributed systems and AI. He serves as a PPMC member for Apache Fesod (Incubating) and a Committer for Apache Seata (Incubating) and Apache Ozhera (Incubating). With years of open-source contributions, He hopes to help more newcomers enter the world of open source.
-

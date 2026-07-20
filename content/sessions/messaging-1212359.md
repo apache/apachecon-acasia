@@ -1,9 +1,10 @@
 ---
 title: "Real-Time Lakehouse Pipeline: Native Lake Ingestion and Embedded Computation in Disaggregated Kafka"
-date: ""
+date: "2026-08-09T13:30:00"
 track: "messaging"
 presenters: "Hongjian Fei"
 stype: "Chinese Session"
+room: "JingYi Hall"
 ---
 
 Apache Kafka has established itself as the central nervous system of modern real-time data architectures. Yet in conventional lakehouse designs, data from Kafka typically must traverse external compute engines such as Flink or Spark before it can be landed, modeled, and organized into analytical layers. This multi-hop "messaging → computation → storage" pipeline not only inflates operational complexity but also introduces weak state consistency, elevated end-to-end latency, and a fragmented hot/cold data lifecycle.
@@ -24,4 +25,3 @@ Embedded Declarative Stream Processing. Apache Calcite is embedded as a lightwei
 Hongjian Fei: Alibaba Cloud, Middleware Development Engineer, Staff Engineer
 
 Hongjian Fei (费红健) is an Apache Software Committer who has long been dedicated to development on RocketMQ and Kafka. At Alibaba Cloud, he is one of the core designers of disaggregated storage and compute architecture for Kafka, bringing extensive experience in Kafka development and operations.
-

@@ -1,9 +1,10 @@
 ---
 title: "TDMQ for Apache Pulsar 的挑战与突破：多模态存储与延迟消息"
-date: ""
+date: "2026-08-07T15:00:00"
 track: "messaging"
 presenters: "Xiaolong Ran"
 stype: "中文演讲"
+room: "静宜厅"
 ---
 
 在 Apache Pulsar 的大规模部署中，存储架构与延迟消息是两个绕不开的核心挑战。

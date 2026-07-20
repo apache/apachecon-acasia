@@ -1,9 +1,10 @@
 ---
 title: "守护湖仓安全：用 Apache Gravitino 为 Iceberg REST 提供身份感知的治理"
-date: ""
+date: "2026-08-09T15:45:00"
 track: "datalake"
 presenters: "Rory Qi"
 stype: "英文演讲"
+room: "万春厅"
 ---
 
 Apache Iceberg 已经成为开放表格式的事实标准，而 Iceberg REST Catalog 是实现存算分离的关键。然而，尽管 REST 规范定义了如何交换元数据，却把安全——认证、授权和审计——留给了用户自行解决。对于从试验性项目迈向生产级湖仓的组织而言，这一"安全缺口"是一个重大障碍。

@@ -1,9 +1,10 @@
 ---
 title: "超越协议：在企业级规模下让 Iceberg REST Catalog 走向生产"
-date: ""
+date: "2026-08-07T15:00:00"
 track: "datalake"
 presenters: "Jerry Shao"
 stype: "中文演讲"
+room: "万春厅"
 ---
 
 尽管 Iceberg REST Catalog（IRC）为表管理提供了标准化的协议，但在关键任务的企业环境中落地它，会暴露出一个显著的"实现差距"。从传统的 Hive Metastore（HMS）迁移到基于 REST 的架构，需要的不仅仅是一个新的 API——它要求对安全、性能和数据连续性进行彻底的重新思考。

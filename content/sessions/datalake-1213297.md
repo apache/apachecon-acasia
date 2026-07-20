@@ -1,9 +1,10 @@
 ---
 title: "Evolution to Lakehouse: Cost-Effective Hive Migration and Real-Time Ingestion at Scale"
-date: ""
+date: "2026-08-08T15:00:00"
 track: "datalake"
 presenters: "Hangxiang Yu"
 stype: "Chinese Session"
+room: "WanChun Hall"
 ---
 
 At Didi, scaling our Hive ecosystem to Iceberg required rebuilding our strategy of data integrity and governance beyond simple format conversion. We engineered a zero-downtime offline migration strategy using a snapshot-based approach, enabling consistency checks and instant rollbacks before cutover. To tackle metadata bloat and orphan files, we also integrated Apache Amoro for autonomous optimization.
@@ -20,4 +21,3 @@ This session offers actionable insights into building a stable, high-performance
 Hangxiang Yu: Apache Flink Committer & Real-Time Computing Team Lead at Didi
 
 Hangxiang Yu is an Apache Flink Committer and currently leads the real-time computing engineering team at Didi. With years of hands-on practice in distributed systems and storage, he manages Didi's real-time infrastructure, including Apache Flink, data ingestion pipelines, and P0-level real-time data warehousing. He is also focused on advancing Didi's Lakehouse architecture, working to improve data freshness, optimize infrastructure costs, and build self-managing governance capabilities.
-

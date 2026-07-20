@@ -1,9 +1,10 @@
 ---
 title: "4.0 之后的 Kafka Streams 如何重塑开发与运维"
-date: ""
+date: "2026-08-09T15:15:00"
 track: "streaming"
 presenters: "PoAn Yang"
 stype: "中文演讲"
+room: "圆明厅"
 ---
 
 随着 Apache Kafka 步入 4.0 时代，不仅底层架构经历了历史性的变革，Kafka Streams 在开发者体验与运维机制上也经历了一系列演进。本次演讲将带领听众了解 Kafka Streams 4.0 之后的关键更新，分析这些特性如何从根本上重塑有状态流应用的生命周期。

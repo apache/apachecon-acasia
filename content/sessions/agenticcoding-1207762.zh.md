@@ -1,9 +1,10 @@
 ---
 title: "规模化场景下的规约驱动开发（Spec-Driven Development）"
-date: ""
+date: "2026-08-09T14:00:00"
 track: "agenticcoding"
 presenters: "Zhangjian He"
 stype: "中文演讲"
+room: "静明厅"
 ---
 
 随着 AI 辅助开发成为主流，传统的代码组织方式与开发工作流正日益显得力不从心。大规模代码库、多仓库（multi-repository）环境，以及老旧的企业系统，都为有效应用 AI 带来了严峻挑战。

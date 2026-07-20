@@ -1,9 +1,10 @@
 ---
 title: "The Open Source Way in the AI Era: Exploring the Diversity of Apache and CNCF Governance Styles"
-date: ""
+date: "2026-08-07T14:00:00"
 track: "community"
 presenters: "Fengjun Lyu"
 stype: "Chinese Session"
+room: "Mtn YuQuan Hall"
 ---
 
 In the AI era, where technology iterates exponentially, the philosophy of "Community Over Code" is more critical than ever. As an active Apache PMC member, a CNCF project Maintainer, and an enterprise OSPO practitioner, I will share the diverse governance styles and successful practices of these two top-tier open-source foundations.
@@ -18,4 +19,3 @@ This session is not about comparing which is better; rather, it focuses on the o
 Fengjun Lyu: Ant Group, Technical Evangelist 
 
 I'm Mingcheng (明城). Originally from Ningbo, I am currently based in Hangzhou, China. I work as an open-source evangelist at Ant Group and serve on the Project Management Committee (PMC) at the Apache Software Foundation. I actively maintain several open-source projects, including InclusionAI, Dragonfly, and Apache Geaflow.
-

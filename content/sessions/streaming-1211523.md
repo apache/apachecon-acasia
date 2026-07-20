@@ -1,9 +1,10 @@
 ---
 title: "Exploring Real-Time AI Application Scenarios Based on Flink"
-date: ""
+date: "2026-08-08T14:30:00"
 track: "streaming"
 presenters: "饶饶 熊"
 stype: "Chinese Session"
+room: "YuanMing Hall"
 ---
 
 **1. Background**
@@ -30,4 +31,3 @@ stype: "Chinese Session"
 饶饶 熊: Tencent, Senior Backend Development Engineer
 
 Senior Big Data Engineer at Tencent, focusing on Flink real-time computing and AI infrastructure. Core contributor to Tencent's Flink-based real-time computing platform (Oceanus), with extensive experience in PyFlink ecosystem development, Flink SQL/Runtime related work, and AI-integrated stream processing. Currently leading the exploration of AI Agent-driven development and operations for real-time data platforms. Passionate about bridging the gap between streaming data systems and the AI/ML ecosystem.
-

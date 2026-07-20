@@ -1,9 +1,10 @@
 ---
 title: "为湖流集成从 Kafka 迁移到 Fluss：落地实践"
-date: ""
+date: "2026-08-09T16:15:00"
 track: "streaming"
 presenters: "zuo yan"
 stype: "中文演讲"
+room: "圆明厅"
 ---
 
 用 Fluss 替换 Kafka 的主要收益如下：

@@ -1,9 +1,10 @@
 ---
 title: "Rethinking High Availability for Apache RocketMQ on the Cloud: Protocol-Fenced Takeover for Second-L"
-date: ""
+date: "2026-08-07T15:45:00"
 track: "messaging"
 presenters: "Rongtong Jin"
 stype: "Chinese Session"
+room: "JingYi Hall"
 ---
 
 High availability for stateful messaging systems in the cloud is often constrained by a difficult trade-off among cost, steady-state performance, and failover speed. Replication-based approaches can reduce recovery time, but they usually introduce extra write amplification, resource overhead, and operational complexity. In contrast, single-replica deployments preserve performance and cost efficiency, yet their failover path in Kubernetes is often dominated by slow and unpredictable volume detach/attach workflows.
@@ -22,4 +23,3 @@ Finally, I will share production experience from Alibaba Cloud, where this archi
 Rongtong Jin: Technical Expert at Alibaba Cloud, Apache RocketMQ PMC Member
 
 Rongtong Jin is a Technical Expert at Alibaba Cloud and a PMC Member of Apache RocketMQ. He works on the architecture and production operations of cloud messaging systems, with a focus on high availability, storage reliability, and large-scale stateful services. He has extensive experience in the cloud evolution, production rollout, and stability engineering of Apache RocketMQ.
-

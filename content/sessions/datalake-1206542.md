@@ -1,9 +1,10 @@
 ---
 title: "Next-Gen Data Fabric: SeaTunnel & Gravitino on Mobile Cloud DataStudio"
-date: ""
+date: "2026-08-09T15:15:00"
 track: "datalake"
 presenters: "li jie"
 stype: "Chinese Session"
+room: "WanChun Hall"
 ---
 
 Abstract:
@@ -28,4 +29,3 @@ Together, they empower DataStudio to deliver a highly secure, agile, and intelli
 li jie: cmss-suzhou-engineer
 
 Dec. 2024 – Present | Mobile Cloud
-

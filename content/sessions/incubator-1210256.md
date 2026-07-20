@@ -1,9 +1,10 @@
 ---
 title: "Beyond Incubation: Building a Sustainable Apache Community with Cloudberry"
-date: ""
+date: "2026-08-09T15:15:00"
 track: "incubator"
 presenters: "Dianjin Wang"
 stype: "Chinese Session"
+room: "Mtn YuQuan Hall"
 ---
 
 Entering the Apache Incubator is only the beginning of an open-source project’s journey. The real challenge lies in what comes next: building a sustainable, diverse, and self-governing community that can thrive beyond its original creators.
@@ -23,5 +24,4 @@ We will cover key aspects, including:
 
 Dianjin Wang: ALC Beijing Member, Track Chair of ApacheCon Asia 2021-2024, Head of Open Source at HashData
 
-ALC Beijing Member, Track Chair of ApacheCon Asia 2021-2024, Head of Open Source at HashData. 
-
+ALC Beijing Member, Track Chair of ApacheCon Asia 2021-2024, Head of Open Source at HashData.

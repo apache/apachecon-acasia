@@ -1,9 +1,10 @@
 ---
 title: "跨越 EB 级规模：LY Corporation 的 Hadoop 集成与运营经验"
-date: ""
+date: "2026-08-08T14:30:00"
 track: "datastorage"
 presenters: "Akira Ajisaka, Kai Hirayama"
 stype: "英文演讲"
+room: "万寿山会议室"
 ---
 
 在 LINE 与 Yahoo! JAPAN 合并之后，我们面临一项艰巨的任务：在两个庞大且完全独立、各自拥有孤立网络和不同账户体系的 Hadoop 生态之间，实现无缝的数据访问。本次演讲将深入剖析我们用来突破这些架构壁垒、实现跨集群互操作的技术策略。

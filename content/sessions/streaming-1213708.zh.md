@@ -1,9 +1,10 @@
 ---
 title: "GeaFlow | 流式记忆（Streaming Memory）：构建实时有状态后端，赋能 AI+Graph 场景"
-date: ""
+date: "2026-08-08T16:15:00"
 track: "streaming"
 presenters: "Litao Lin, Yao Zhongqiang"
 stype: "中文演讲"
+room: "圆明厅"
 ---
 
 2026 年，AI Agent 的记忆架构正在经历一次范式转变。传统 AI Agent 的记忆系统大多采用"只追加写入 + 异步索引"的批处理模式。这导致记忆更新存在显著时延，难以支撑实时交互场景下的上下文演进。记忆的本质并非一个静态数据集，而是由对话、感知和决策构成的无界数据流。如何在这条流上进行低时延的状态管理与增量计算，是流计算技术在 AI 时代面临的新挑战。

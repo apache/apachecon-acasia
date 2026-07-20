@@ -1,9 +1,10 @@
 ---
 title: "GeaFlow｜Streaming Graph Computing Engine and AI Memory Practice"
-date: ""
+date: "2026-08-09T13:30:00"
 track: "incubator"
 presenters: "Litao Lin, Yao Zhongqiang"
 stype: "Chinese Session"
+room: "Mtn YuQuan Hall"
 ---
 
 GeaFlow is currently incubating at the Apache Software Foundation (ASF). As the industry's first open-source engine dedicated to streaming graph computing, it addresses the challenges that traditional static graph computing faces in dynamic scenarios amid the explosion of real-time data. Through unified semantic design and scheduling models for streaming-batch graph processing, GeaFlow enables efficient analysis and computation of trillion-scale graphs, redefining the technical boundaries of graph computing.
@@ -25,4 +26,3 @@ Apache GeaFlow (Incubating) Committer. As a core member of the project, he parti
 Yao Zhongqiang: Graph Computing Expert & Development Engineer at Ant Group
 
 Deeply involved in the big data field, specializing in graph computing, real-time computing, and OLAP. Current team focus is on Agent Memory and MARL.
-

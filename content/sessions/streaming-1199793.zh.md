@@ -1,9 +1,10 @@
 ---
 title: "一种新的消费者 Offset 策略——'从现在起，我想要每一条消息'"
-date: ""
+date: "2026-08-09T14:30:00"
 track: "streaming"
 presenters: "Jiunn-Yang Huang"
 stype: "中文演讲"
+room: "圆明厅"
 ---
 
 Kafka 的 auto.offset.reset 只提供 earliest、latest 和 none 三种选择，但没有一种能满足最常见的诉求："从现在开始消费，但一条消息都不要漏"。latest 在分区扩展或日志截断时会悄悄丢数据；earliest 会强制重新处理海量历史数据；而 by_duration 由于动态时间戳计算，仍然存在丢数据的风险。

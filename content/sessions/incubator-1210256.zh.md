@@ -1,9 +1,10 @@
 ---
 title: "孵化之后：用 Cloudberry 构建可持续的 Apache 社区"
-date: ""
+date: "2026-08-09T15:15:00"
 track: "incubator"
 presenters: "Dianjin Wang"
 stype: "中文演讲"
+room: "玉泉山会议室"
 ---
 
 进入 Apache 孵化器只是一个开源项目旅程的起点。真正的挑战在于接下来：构建一个可持续、多元、能够自我治理的社区，让它能在最初的创建者之外蓬勃发展。

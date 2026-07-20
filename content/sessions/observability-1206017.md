@@ -1,9 +1,10 @@
 ---
 title: "Monitoring LLM Applications with SkyWalking 10.4: Insights into Performance and Cost"
-date: ""
+date: "2026-08-09T14:00:00"
 track: "observability"
 presenters: "YiMing Shao"
 stype: "Chinese Session"
+room: "Mtn Yang Hall"
 ---
 
 This session begins with an introduction to the groundbreaking feature of Apache SkyWalking 10.4: AI Observability. We will explore the strategic importance of monitoring Large Language Model (LLM) applications and the role of Envoy AI Gateway in securing and managing AI traffic at the infrastructure edge.
@@ -21,4 +22,3 @@ YiMing Shao: Apache SkyWalking Committer
 
 Apache SkyWalking Committer
 Primarily focused on research in the observability domain.
-

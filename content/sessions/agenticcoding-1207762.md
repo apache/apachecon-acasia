@@ -1,9 +1,10 @@
 ---
 title: "Spec-Driven Development at Scale"
-date: ""
+date: "2026-08-09T14:00:00"
 track: "agenticcoding"
 presenters: "Zhangjian He"
 stype: "Chinese Session"
+room: "JingMing Hall"
 ---
 
 As AI-assisted development becomes mainstream, traditional code organization and development workflows are increasingly insufficient. Large-scale codebases, multi-repository environments, and legacy enterprise systems introduce significant challenges for applying AI effectively.
@@ -24,4 +25,3 @@ The talk focuses on real-world challenges and solutions in large-scale environme
 Zhangjian He: Huawei Cloud Senior Engineer | Huawei Cloud Open Source Team Member
 
 Open-source enthusiast and experienced engineer. Since starting software development in 2017, I have played a key role in leading the cloud-native transformation of Huawei Cloud's IoT platform and the development of an industrial IoT platform. I serve as an Apache BookKeeper/ServiceComb PMC member, Apache Pulsar Committer, and CNCF openGemini Maintainer. I specialize in coding, software engineering, open source, and ecosystem development, driving best practices and development standards.
-

@@ -1,9 +1,10 @@
 ---
 title: "用 Gravitino 统一 Lance 的元数据管理"
-date: ""
+date: "2026-08-08T15:45:00"
 track: "datastorage"
 presenters: "Qi Yu"
 stype: "中文演讲"
+room: "万寿山会议室"
 ---
 
 随着 AI 和基于向量的工作负载兴起，Lance 作为面向分析与机器学习场景的高性能数据格式，正受到越来越多的关注。然而，由于缺少统一的元数据层，跨系统管理 Lance 数据集仍然充满挑战。

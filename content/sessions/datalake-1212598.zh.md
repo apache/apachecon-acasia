@@ -1,9 +1,10 @@
 ---
 title: "从数据接入到数据湖：用 Apache SeaTunnel 构建现代湖仓"
-date: ""
+date: "2026-08-08T14:30:00"
 track: "datalake"
 presenters: "Lidong Dai"
 stype: "中文演讲"
+room: "万春厅"
 ---
 
 构建数据湖，早已不再只是选择 Iceberg、Hudi 还是 Paimon 的问题。

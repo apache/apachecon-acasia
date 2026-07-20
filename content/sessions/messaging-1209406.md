@@ -1,9 +1,10 @@
 ---
 title: "Challenges and Breakthroughs in TDMQ for Apache Pulsar: Multi-Modal Storage  Delayed Messaging"
-date: ""
+date: "2026-08-07T15:00:00"
 track: "messaging"
 presenters: "Xiaolong Ran"
 stype: "Chinese Session"
+room: "JingYi Hall"
 ---
 
 In the large-scale deployment of Apache Pulsar, storage architecture and delayed messages are two unavoidable core challenges.
@@ -22,4 +23,3 @@ Both topics are based on real production experience from the TDMQ team, aiming t
 Xiaolong Ran: Senior R&D Engineer at Tencent Cloud Middleware
 
 Apache Pulsar Committer, author of Pulsar Go Functions, Go Client, and pulsarctl, as well as a Maintainer and one of the core developers of RoP.
-

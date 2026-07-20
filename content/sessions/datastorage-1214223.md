@@ -1,9 +1,10 @@
 ---
 title: "Unifying Lance Metadata Management with Gravitino"
-date: ""
+date: "2026-08-08T15:45:00"
 track: "datastorage"
 presenters: "Qi Yu"
 stype: "Chinese Session"
+room: "Mtn WanShou Hall"
 ---
 
 With the rise of AI and vector-based workloads, Lance is gaining traction as a high-performance data format for analytical and ML use cases. However, managing Lance datasets across systems remains challenging due to the lack of a unified metadata layer.
@@ -20,4 +21,3 @@ We will also share the design considerations behind this integration, demonstrat
 Qi Yu: Data infrastructure engineer, Apache Gravitino PMC
 
 Engineer at Datastato and PMC member of Apache Gravitino, working on big data infrastructure, metadata management, and database systems, with a focus on scalable data platform development.
-

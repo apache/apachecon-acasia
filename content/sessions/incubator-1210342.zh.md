@@ -1,9 +1,10 @@
 ---
 title: "GeaFlow｜流式图计算引擎与 AI 记忆实践"
-date: ""
+date: "2026-08-09T13:30:00"
 track: "incubator"
 presenters: "Litao Lin, Yao Zhongqiang"
 stype: "中文演讲"
+room: "玉泉山会议室"
 ---
 
 GeaFlow 目前正在 Apache 软件基金会（ASF）孵化。作为业界首个专注于流式图计算的开源引擎，它应对的是实时数据爆发背景下，传统静态图计算在动态场景中所面临的挑战。通过统一的语义设计和面向流批一体的图处理调度模型，GeaFlow 能够对万亿规模的图进行高效分析与计算，重新定义了图计算的技术边界。

@@ -1,9 +1,10 @@
 ---
 title: "Optimizing Apache YARN Clusters Using Intelligent Overcommitment"
-date: ""
+date: "2026-08-07T16:45:00"
 track: "datastorage"
 presenters: "Sumit Puri, Wasif Khan"
 stype: "English Session"
+room: "Mtn WanShou Hall"
 ---
 
 Apache YARN clusters running compute frameworks such as Apache Spark, Apache Tez, and MapReduce often face major inefficiencies due to static, user-defined resource allocations. This leads to over-provisioning, low utilization, and increased infrastructure costs, while requiring continuous manual tuning to maintain performance.
@@ -32,4 +33,3 @@ He has hands-on experience building distributed systems using Go, Kubernetes, an
 Wasif Khan: Principal Engineer, Acceldata
 
 Principal Engineer at Acceldata, working on big data observability solutions
-

@@ -1,9 +1,10 @@
 ---
 title: "Apache RocketMQ 路由控制面演进"
-date: ""
+date: "2026-08-07T14:00:00"
 track: "messaging"
 presenters: "Xiao Yang"
 stype: "中文演讲"
+room: "静宜厅"
 ---
 
 本次分享将讲解我们如何为 Apache RocketMQ 演进出一套轻量级的外部路由控制面，在不改动 broker、nameserver 以及客户端访问模式的前提下，支撑大规模集群的治理。

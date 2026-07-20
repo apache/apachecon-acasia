@@ -1,9 +1,10 @@
 ---
 title: "从数据混乱到可控：一家全球电信运营商如何用 Apache Iceberg 驯服 PB 级挑战"
-date: ""
+date: "2026-08-08T16:45:00"
 track: "streaming"
 presenters: "Akshat Mathur, Bill Zhang"
 stype: "英文演讲"
+room: "圆明厅"
 ---
 
 当一家领先的电信运营商在其老旧的 Hive 基础设施上撞到扩展瓶颈时，跨数十亿条记录管理 PB 级客户数据变得难以为继。他们的 IDPR 工作负载饱受查询缓慢、存储成本上升、分区爆炸，以及 schema 变更破坏下游系统等问题的困扰。

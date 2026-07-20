@@ -1,9 +1,10 @@
 ---
 title: "Fixing Authorization in Microservices Without Breaking Everything"
-date: ""
+date: "2026-08-09T15:45:00"
 track: "microservice"
 presenters: "Aram Andreasyan"
 stype: "English Session"
+room: "Mtn Yang Hall"
 ---
 
 Authorization is one of those things that starts simple and quietly becomes a mess as systems grow. In a microservices setup, it often ends up duplicated across services, implemented slightly differently each time, and hard to reason about when something goes wrong.
@@ -24,4 +25,3 @@ Aram Andreasyan: Director of Solutions
 Aram specializes in helping organizations simplify and scale authorization through policy-as-code approaches. With a strong background in cybersecurity, infrastructure, and access control, he works closely with engineering and security teams to design efficient, compliant, and developer-friendly authorization systems.
 Prior to Cerbos, Aram consulted for technology startups and enterprise clients across EMEA and North America, focusing on digital transformation and cloud security strategies. Aram has experience working with distributed architectures, MDM (Master Data Management), and complex SaaS deployments. He's passionate about externalized authorization, IAM modernization, and helping economic buyers (CISOs, security architects, and engineering leaders) align technical decisions with regulatory and business needs.
 When Aram's not solving authorization challenges, he enjoys staying close to tech communities, mentoring startups, and occasionally moonlight as a cyberpunk lore nerd.
-

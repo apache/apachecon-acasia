@@ -1,9 +1,10 @@
 ---
 title: "Securing the Lakehouse: Identity-Aware Governance for Iceberg REST with Apache Gravitino"
-date: ""
+date: "2026-08-09T15:45:00"
 track: "datalake"
 presenters: "Rory Qi"
 stype: "English Session"
+room: "WanChun Hall"
 ---
 
 Apache Iceberg has become the de facto standard for open table formats, and the Iceberg REST Catalog is the key to decoupling compute from storage. However, while the REST specification defines how to exchange metadata, it leaves the security—authentication, authorization, and audit—as an exercise for the user. For organizations transitioning from experimental projects to production lakehouses, this "security gap" presents a significant hurdle.
@@ -24,4 +25,3 @@ Whether you are a platform engineer building a multi-tenant data lake or a secur
 Rory Qi: Apache Gravitino committer, Apache Uniffle PMC Chair
 
 Apache Gravitino PMC member, Apache Uniffle PMC chair, ASF member, Datastrato engineer, ever worked at Tencent, Baidu
-

@@ -1,9 +1,10 @@
 ---
 title: "Apache Ratis 中的一致性模型"
-date: ""
+date: "2026-08-08T14:00:00"
 track: "datastorage"
 presenters: "Tsz-Wo Nicholas Sze"
 stype: "英文演讲"
+room: "万寿山会议室"
 ---
 
 Apache Ratis 是一个实现 Raft 共识协议的开源 Java 库，Raft 是一种分布式共识算法，用于确保多台机器像一个协调一致的整体那样协同工作。Ratis 是 Raft 的高性能实现。为适应多种多样的使用场景，Ratis 支持多种可配置的一致性级别。此外，Ratis 为读写操作同时提供了同步与异步 API。众多项目都使用了 Ratis，例如 Apache Ozone、Apache IoTDB、Apache Celeborn 和 Alluxio。

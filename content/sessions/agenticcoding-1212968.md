@@ -1,9 +1,10 @@
 ---
 title: "Core Design Gets Harder: Lessons from Rewriting Bub"
-date: ""
+date: "2026-08-09T15:15:00"
 track: "agenticcoding"
 presenters: "卓燃 尚"
 stype: "Chinese Session"
+room: "JingMing Hall"
 ---
 
 Agentic coding makes it easier than ever to generate features. But that is exactly why extensibility is not enough: we need systems that remain understandable, replaceable, and governable.
@@ -21,4 +22,3 @@ I will share why the rewrite pushed more variation out of the framework core, ke
 卓燃 尚: ASF Member, Senior Engineer @ OceanBase
 
 Data Systems · AI Infrastructure · OSS
-

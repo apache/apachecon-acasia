@@ -1,9 +1,10 @@
 ---
 title: "Apache Flink Agents Deep Dive"
-date: ""
+date: "2026-08-08T14:00:00"
 track: "streaming"
 presenters: "Wenjin Xie"
 stype: "Chinese Session"
+room: "YuanMing Hall"
 ---
 
 As agent-based technologies and applications continue to evolve, we believe that building event-driven streaming agent applications will emerge as a critical direction for the field. Against this backdrop, the Flink community has launched Flink Agents — a subproject and agent-building framework built on top of Apache Flink.
@@ -25,4 +26,3 @@ Wenjin Xie: Alibaba Cloud Senior Development Engineer, Apache Flink Committer
 Senior development engineer in Alibaba Cloud.
 Apache Flink Committer.
 One of the core contributors to the Apache Flink Agents.
-

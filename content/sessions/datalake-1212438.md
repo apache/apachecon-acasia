@@ -1,9 +1,10 @@
 ---
 title: "Challenges of Implementing Iceberg Features in a C++ Query Engine"
-date: ""
+date: "2026-08-08T16:45:00"
 track: "datalake"
 presenters: "Zoltán Borók-Nagy, Péter Rózsa"
 stype: "English Session"
+room: "WanChun Hall"
 ---
 
 Apache Impala is a hybrid, massively parallel query engine: its query planning and metadata handling are implemented in Java, while its execution engine is written in C++. This architecture presents unique challenges when integrating Apache Iceberg, whose reference implementation and ecosystem are primarily Java-based. Attendees will gain insight into the practical challenges of bringing Iceberg to non-JVM query engines.
@@ -27,4 +28,3 @@ Zoltán is a software engineer at Cloudera, working on Apache Impala. He is also
 Péter Rózsa: Cloudera, Software Engineer
 
 Péter Rózsa, a Software Engineer at Cloudera since 2020, started contributing to Apache Impala in 2022. He's been working on different parts of the Impala project, recently on Iceberg integrations
-

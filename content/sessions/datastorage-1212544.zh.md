@@ -1,9 +1,10 @@
 ---
 title: "从愿景到生产：Apache Fluss 如何定义实时数据湖仓的存储层"
-date: ""
+date: "2026-08-07T15:00:00"
 track: "datastorage"
 presenters: "Yang Wang"
 stype: "中文演讲"
+room: "万寿山会议室"
 ---
 
 去年的 Community Over Code Asia 上，我们介绍了 Apache Fluss，以及它为实时湖仓打造专用存储层的愿景。经过几个版本的迭代，这一愿景已在阿里巴巴双十一规模的生产中得到验证。

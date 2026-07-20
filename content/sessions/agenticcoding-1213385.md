@@ -1,9 +1,10 @@
 ---
 title: "Agentic Coding Unleashed From Autocomplete to Autonomous"
-date: ""
+date: "2026-08-09T14:30:00"
 track: "agenticcoding"
 presenters: "Wentao Liu, Zeguo Mao, Xianxiong Luo"
 stype: "Chinese Session"
+room: "JingMing Hall"
 ---
 
 Agentic Coding isn’t just about smarter autocomplete—it’s a paradigm shift where AI‑driven tools proactively understand context, make autonomous decisions, and collaborate across platforms to build, integrate, and maintain complex systems. In this talk, we’ll move beyond simple code generation to demonstrate how Cursor (the AI‑native editor), Trae (the AI‑powered testing & deployment agent), and OpenClaw (the embeddable AI assistant) work together as a cohesive, multi‑agent development squad. We’ll walk through a real‑world scenario: autonomously designing, implementing, testing, and deploying an intelligent chat‑room integration, showcasing how Agentic Coding reduces human‑to‑tool friction and elevates developers from coders to system architects.
@@ -39,4 +40,3 @@ Xianxiong Luo: organizer of GitCoffee Open Source Community
 Xianxiong is a seasoned technology leader with 17+ years of hands-on experience in software development, enterprise architecture, and technical team management across E-commerce, Ride-hailing, and Open Source ecosystems. Former Product Manager for the Membership Business Line at Better Life Group and former Architect & Technical Director at Guangcai Shenzhou Group. Currently serving as the Head of Yifei Open Source and Lead Maintainer of GitCoffee Open Source Community.
 
 Recognized as a 2024 & 2025 Outstanding Partner of the OpenTiny Open Source Community (under Huawei Cloud). Deeply focused on bridging open-source community building with enterprise-grade AI applications. Core technical expertise spans Java Backend Architecture, Full-Stack Development, and AI Agent Implementation.
-

@@ -1,9 +1,10 @@
 ---
 title: "Apache Flink Agents 深度解析"
-date: ""
+date: "2026-08-08T14:00:00"
 track: "streaming"
 presenters: "Wenjin Xie"
 stype: "中文演讲"
+room: "圆明厅"
 ---
 
 随着基于 agent 的技术和应用不断演进，我们相信构建事件驱动的流式 agent 应用将成为该领域的一个重要方向。在这一背景下，Flink 社区推出了 Flink Agents——一个构建在 Apache Flink 之上的子项目和 agent 构建框架。

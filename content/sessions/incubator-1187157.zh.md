@@ -1,9 +1,10 @@
 ---
 title: "在真实世界中运营一个 Apache 孵化项目：文档之外的实战经验"
-date: ""
+date: "2026-08-09T14:00:00"
 track: "incubator"
 presenters: "Shuxin Pan"
 stype: "中文演讲"
+room: "玉泉山会议室"
 ---
 
 Apache 孵化器（Incubator）是项目加入 Apache 软件基金会的入口，但对许多新晋 Podling（孵化项目）而言，真正的孵化之旅远不止照着官方文档按部就班。

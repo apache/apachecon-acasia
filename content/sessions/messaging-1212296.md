@@ -1,9 +1,10 @@
 ---
 title: "AI Link，AI access layer of Tencent Cloud MQTT"
-date: ""
+date: "2026-08-07T16:45:00"
 track: "messaging"
 presenters: "Wei Yang, Senze Zhang"
 stype: "Chinese Session"
+room: "JingYi Hall"
 ---
 
 AI Link is the AI access layer of Tencent Cloud MQTT — enabling AI agents to discover, understand, and control physical devices. Built on top of the MQTT broker, it exposes physical devices as MCP-compatible tools, aggregates real-time state and historical context for AI reasoning
@@ -23,4 +24,3 @@ Wei Yang, Senior Product Manager of Cloud Middleware at Tencent Cloud, leading t
 Senze Zhang: Apache RocketMQ Committer
 
 Senze Zhang is a seasoned engineer specializing in the field of message queuing systems. With extensive experience in the design, implementation, and optimization of high-performance messaging solutions, Senze has participated in deploying various industry-leading message queuing platforms including RocketMQ, Kafka, and MQTT.
-

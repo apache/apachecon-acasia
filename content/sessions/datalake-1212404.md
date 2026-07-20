@@ -1,9 +1,10 @@
 ---
 title: "Building a Unified Lakehouse: Best Practices with Apache Paimon and Ecosystem"
-date: ""
+date: "2026-08-07T14:30:00"
 track: "datalake"
 presenters: "Zhoulong Liu"
 stype: "Chinese Session"
+room: "WanChun Hall"
 ---
 
 As data architectures evolve, maintaining separate silos for batch and streaming processing — the hallmark of Lambda architecture — has become increasingly costly and complex. How can we build a truly unified platform that delivers both real-time data freshness and high-performance analytics at scale?
@@ -25,4 +26,3 @@ Attendees will walk away with a proven methodology for building a unified Lakeho
 Zhoulong Liu:  Senior Big Data Specialist, eclicktech
 
 The head of the Big Data Department at eclicktech previously worked at Sohu Video and Tencent and is skilled in building big data platforms and related systems.
-

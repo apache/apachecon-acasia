@@ -1,9 +1,10 @@
 ---
 title: "From Vision to Production: How Apache Fluss Defines the Storage Layer for Real-Time Data Lakehouses"
-date: ""
+date: "2026-08-07T15:00:00"
 track: "datastorage"
 presenters: "Yang Wang"
 stype: "Chinese Session"
+room: "Mtn WanShou Hall"
 ---
 
 Last year at Community Over Code Asia, we introduced Apache Fluss and its vision of a dedicated storage layer for real-time lakehouses. Several releases later, that vision has been validated in production at Alibaba's Double 11 scale.
@@ -19,4 +20,3 @@ In this talk, we present what we have delivered across three themes. First, push
 Yang Wang: Staff Engineer at Alibaba Cloud , HangZhou,  Apache Fluss Core Developer
 
 Yang Wang is a Staff Engineer at Alibaba Cloud and a core development team member of Apache Fluss, a streaming storage system for real-time analytics. He focuses on storage engine internals — including the KV store (RocksDB integration, performance tuning, monitoring, and memory management), aggregation merge engine, secondary index support, and Flink connector enhancements such as filter pushdown and lookup joins. He is an active contributor to the Apache Fluss open-source community.
-

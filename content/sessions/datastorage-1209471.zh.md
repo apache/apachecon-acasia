@@ -1,9 +1,10 @@
 ---
 title: "用智能超分（Overcommitment）优化 Apache YARN 集群"
-date: ""
+date: "2026-08-07T16:45:00"
 track: "datastorage"
 presenters: "Sumit Puri, Wasif Khan"
 stype: "英文演讲"
+room: "万寿山会议室"
 ---
 
 运行 Apache Spark、Apache Tez 和 MapReduce 等计算框架的 Apache YARN 集群，常因静态的、由用户定义的资源分配而出现严重的低效。这会导致过度配置、利用率低下和基础设施成本攀升，同时需要持续的人工调优才能维持性能。

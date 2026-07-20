@@ -1,9 +1,10 @@
 ---
 title: "When AI Becomes the Downstream: Rethinking Open Source Attribution, Licensing, and Long-Term Sustain"
-date: ""
+date: "2026-08-07T14:30:00"
 track: "community"
 presenters: "Ian Xu"
 stype: "Chinese Session"
+room: "Mtn YuQuan Hall"
 ---
 
 AI-assisted development and software agents are changing how open-source software is reused. Code can now be referenced, rewritten, or propagated through AI workflows without showing up in package manifests, forks, or traditional dependency graphs.
@@ -20,4 +21,3 @@ This panel will discuss how open-source infrastructure may need to evolve in the
 Ian Xu: Founder of OpenSeed, Board Member of KAIYUANSHE, Co-founder of OpenBuild
 
 Founder of OpenSeed, Board Member of KAIYUANSHE, Co-founder of OpenBuild
-

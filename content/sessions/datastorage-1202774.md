@@ -1,9 +1,10 @@
 ---
 title: "How Celeborn Makes Shuffle in AlibabaCloud Serverless Spark Comfortable, Reassuring, and Worry-Free"
-date: ""
+date: "2026-08-07T16:15:00"
 track: "datastorage"
 presenters: "Zhentao Shuai, Jiashu Xiong"
 stype: "Chinese Session"
+room: "Mtn WanShou Hall"
 ---
 
 How AlibabCloud EMR Serverless Spark integrates Apache Celeborn to overcome traditional Spark Shuffle limitations (coupled storage/compute, connection storms, random I/O, and single-point failures), delivering a robust production experience.
@@ -24,4 +25,3 @@ Celeborn committer
 Jiashu Xiong: Alibaba Cloud, Senior Development Engineer
 
 Apache Celeborn PMC member, mainly focused on the optimization of Apache Celeborn and the integration of Apache Celeborn with engines such as Flink and Spark
-

@@ -1,9 +1,10 @@
 ---
 title: "Migration from Kafka to Fluss for Lake-Stream Integration: Practical Implementation"
-date: ""
+date: "2026-08-09T16:15:00"
 track: "streaming"
 presenters: "zuo yan"
 stype: "Chinese Session"
+room: "YuanMing Hall"
 ---
 
 The main benefits of replacing Kafka with Fluss are as follows:
@@ -17,4 +18,3 @@ Kafka uses local centralized storage, while Fluss stores cold data in Paimon. Wi
 zuo yan:  technology expert
 
 Zuo Yan,  technology expert, is responsible for building the data center and log platform. Contributors for open-source projects such as Apache Flink, Apache Doris, Flink CDC, StarRocks, and Fluss.
-

@@ -1,9 +1,10 @@
 ---
 title: "Paimon-cpp: Bringing Native High-Performance Data Lakehouse Access to the Apache Ecosystem"
-date: ""
+date: "2026-08-08T15:00:00"
 track: "datastorage"
 presenters: "Xinyu Liu"
 stype: "Chinese Session"
+room: "Mtn WanShou Hall"
 ---
 
 Apache Paimon has become one of the most actively developed data lakehouse formats in the Apache ecosystem. As native query engines increasingly demand direct access to lakehouse data without JVM overhead, we are excited to introduce Paimon-cpp — a high-performance, ground-up C++ implementation of the Apache Paimon format, in the process of being contributed to the Apache Paimon community.
@@ -30,4 +31,3 @@ Paimon-cpp is being actively contributed to the Apache Paimon project and is exp
 Xinyu Liu: Senior Software Engineer at Alibaba | Maintainer of Paimon-cpp | 3 Years with Paimon
 
 I am a Senior Software Engineer on the Storage Service team at Alibaba. I have been working on Paimon-cpp for 3 years, currently serving as the maintainer of the Paimon-cpp open-source library and leading the adoption of Paimon-cpp across Alibaba's internal data infrastructure. Prior to Paimon, I was responsible for Khronos, a time-series database that powers the monitoring system storage and retrieval for Alibaba Group. My experience spans storage engine design, high-performance data formats, and systems-level optimization. I am passionate about open-source collaboration and look forward to building the native data lakehouse ecosystem together with the Apache community.
-

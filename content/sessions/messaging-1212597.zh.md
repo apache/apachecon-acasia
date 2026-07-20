@@ -1,9 +1,10 @@
 ---
 title: "面向 AI 的 Apache RocketMQ：多 Agent 系统的可靠协作机制"
-date: ""
+date: "2026-08-09T15:15:00"
 track: "messaging"
 presenters: "Zhou Li"
 stype: "中文演讲"
+room: "静宜厅"
 ---
 
 第一部分：Agent 协作中的工程挑战

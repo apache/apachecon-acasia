@@ -1,9 +1,10 @@
 ---
 title: "下一代数据编织（Data Fabric）：移动云 DataStudio 上的 SeaTunnel 与 Gravitino"
-date: ""
+date: "2026-08-09T15:15:00"
 track: "datalake"
 presenters: "li jie"
 stype: "中文演讲"
+room: "万春厅"
 ---
 
 摘要：

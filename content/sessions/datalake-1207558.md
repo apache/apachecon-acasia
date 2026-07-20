@@ -1,9 +1,10 @@
 ---
 title: "Building Audit and Integrations with Apache Polaris Events"
-date: ""
+date: "2026-08-07T16:15:00"
 track: "datalake"
 presenters: "Adnan Hemani"
 stype: "English Session"
+room: "WanChun Hall"
 ---
 
 Apache Iceberg REST Catalogs are rapidly becoming the standard for interoperable data catalogs, and Apache Polaris (Incubating) is an Apache project implementation of the Apache Iceberg REST API. One of the things that makes Polaris so powerful is how it lets you observe and react to changes in your data ecosystem.
@@ -17,5 +18,4 @@ This session will introduce Apache Polaris, and the Polaris Events functionality
 
 Adnan Hemani: Senior Software Engineer at Snowflake
 
-Adnan Hemani is currently a Senior Software Engineer at Snowflake, where he currently works on open source technologies, such as Apache Iceberg and Apache Polaris. Previously, he led multiple teams within the Amazon Web Services (AWS) EMR (ElasticMapReduce) organization with a special focus on Data Access Controls across all Big Data engines that are offered on the product (Spark, Trino, Presto, Hive, etc.) 
-
+Adnan Hemani is currently a Senior Software Engineer at Snowflake, where he currently works on open source technologies, such as Apache Iceberg and Apache Polaris. Previously, he led multiple teams within the Amazon Web Services (AWS) EMR (ElasticMapReduce) organization with a special focus on Data Access Controls across all Big Data engines that are offered on the product (Spark, Trino, Presto, Hive, etc.)

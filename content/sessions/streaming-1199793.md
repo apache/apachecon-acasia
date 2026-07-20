@@ -1,9 +1,10 @@
 ---
 title: "A New Consumer Offset Policy — 'From Now On, I Want Every Single Message'"
-date: ""
+date: "2026-08-09T14:30:00"
 track: "streaming"
 presenters: "Jiunn-Yang Huang"
 stype: "Chinese Session"
+room: "YuanMing Hall"
 ---
 
 Kafka's auto.offset.reset offers only earliest, latest, and none, yet none satisfies the most common need: "start consuming from now, but don't miss a single message." latest silently drops data during partition expansion or log truncation; earliest forces reprocessing of massive history; and by_duration still risks data loss due to dynamic timestamp computation.
@@ -23,4 +24,3 @@ Key Takeaways:
 Jiunn-Yang Huang: Backend Engineer
 
 I’m a backend engineer who contributes to Apache Kafka. I love learning about distributed systems and event streaming—especially how they power real-time data platforms at scale.
-

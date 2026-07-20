@@ -1,10 +1,10 @@
-
 ---
 title: "超越元数据：用 Apache Gravitino 进行进阶 Iceberg 管理"
-date: ""
+date: "2026-08-07T14:00:00"
 track: "datalake"
 presenters: "Xiaojing Fang"
 stype: "中文演讲"
+room: "万春厅"
 ---
 
 Apache Iceberg 为开放数据湖表提供了坚实的基础，但生产级部署往往需要的不仅是一个表格式。它们还需要统一的元数据访问、安全的授权、云原生的凭据管理、查询加速，以及自动化的维护。

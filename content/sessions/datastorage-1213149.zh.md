@@ -1,9 +1,10 @@
 ---
 title: "当优化器说谎时：调试 Apache Cloudberry 中的跨 Slice 执行"
-date: ""
+date: "2026-08-08T16:45:00"
 track: "datastorage"
 presenters: "Alena Rybakina"
 stype: "英文演讲"
+room: "万寿山会议室"
 ---
 
 在 Apache Cloudberry 中，优化器、规划器（planner）和执行器对同一条查询持有不同的抽象。当这些抽象之间出现分歧时，即使是简单的查询也可能引发严重的故障。

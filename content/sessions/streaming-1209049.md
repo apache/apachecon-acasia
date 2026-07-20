@@ -1,9 +1,10 @@
 ---
 title: "From Data Chaos to Control: How a Global Telco Tamed Petabyte-Scale Challenges with Apache Iceberg"
-date: ""
+date: "2026-08-08T16:45:00"
 track: "streaming"
 presenters: "Akshat Mathur, Bill Zhang"
 stype: "English Session"
+room: "YuanMing Hall"
 ---
 
 When a leading telecommunications operator hit the scaling wall with their legacy Hive infrastructure, managing petabyte-scale customer data across billions of records became untenable. Their IDPR workloads suffered from slow queries, rising storage costs,partition explosion, and schema changes that broke downstream systems. 
@@ -33,5 +34,4 @@ Akshat has made contributions towards Apache Hive and Tez
 
 Bill Zhang: VP Product, Cloudera, Lakehouse , Iceberg Integration
 
-Bill is vice president of product management at Cloudera, responsible for Open Data Lakehouse product strategy and Apache Iceberg integration with all Cloudera Data Platform (CDP) form factors. Bill also leads Apache Hive product roadmap and adoption.  Most recently, Bill was responsible for solution management for SAP HANA Data Platform and SAP HANA Cloud. Prior to that he led product management for Sybase Replication Server. 
-
+Bill is vice president of product management at Cloudera, responsible for Open Data Lakehouse product strategy and Apache Iceberg integration with all Cloudera Data Platform (CDP) form factors. Bill also leads Apache Hive product roadmap and adoption.  Most recently, Bill was responsible for solution management for SAP HANA Data Platform and SAP HANA Cloud. Prior to that he led product management for Sybase Replication Server.

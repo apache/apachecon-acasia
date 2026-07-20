@@ -1,9 +1,10 @@
 ---
 title: "AI-assisted Apache Incubator oversight"
-date: ""
+date: "2026-08-09T16:15:00"
 track: "incubator"
 presenters: "Justin Mclean"
 stype: "English Session"
+room: "Mtn YuQuan Hall"
 ---
 
 Managing multiple podlings across the Apache Incubator requires synthesising data from multiple disconnected sources: Confluence reports, GitHub activity, mailing lists, Whimsy, with no single view of the full picture. This talk introduces a set of Model Context Protocol (MCP) servers built to change that.
@@ -22,5 +23,3 @@ Justin Mclean is a long-time contributor to the Apache Software Foundation (ASF)
 He has extensive experience guiding projects from early incubation through to successful graduation, and has reviewed over a thousand open source releases. His work focuses on open source governance, community health, and the design of systems that enable collaboration at scale.
 
 Justin regularly speaks at international conferences on topics such as open source governance, licensing, and community building, sharing practical lessons drawn from real-world experience across a wide range of ASF projects and communities.
-
-

@@ -1,9 +1,10 @@
 ---
 title: "精简元数据，驾驭大数据：让 Apache Iceberg 中的查询保持飞快"
-date: ""
+date: "2026-08-09T14:30:00"
 track: "datalake"
 presenters: "Hongyue Zhang"
 stype: "英文演讲"
+room: "万春厅"
 ---
 
 Apache Iceberg 的元数据层正是 schema 演进、分区演进和谓词下推（predicate pushdown）得以实现的基础。但在 PB 级规模下，这些元数据本身可能膨胀到数百 GB 甚至更多。当规划阶段拖慢了执行阶段，就总得有所取舍。

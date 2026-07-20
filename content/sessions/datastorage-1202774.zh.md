@@ -1,9 +1,10 @@
 ---
 title: "Celeborn 如何让阿里云 Serverless Spark 的 Shuffle 省心、放心、无忧"
-date: ""
+date: "2026-08-07T16:15:00"
 track: "datastorage"
 presenters: "Zhentao Shuai, Jiashu Xiong"
 stype: "中文演讲"
+room: "万寿山会议室"
 ---
 
 介绍阿里云 EMR Serverless Spark 如何通过集成 Apache Celeborn，克服传统 Spark Shuffle 的种种局限（存算耦合、连接风暴、随机 I/O 以及单点故障），从而带来稳健的生产体验。

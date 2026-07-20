@@ -1,9 +1,10 @@
 ---
 title: "Scaling Beyond the Exabyte: Lessons from Hadoop Integration and Operations at LY Corporation"
-date: ""
+date: "2026-08-08T14:30:00"
 track: "datastorage"
 presenters: "Akira Ajisaka, Kai Hirayama"
 stype: "English Session"
+room: "Mtn WanShou Hall"
 ---
 
 Following the merger of LINE and Yahoo! JAPAN, we faced the monumental task of enabling seamless data access between two massive, completely independent Hadoop ecosystems—each with its own isolated networks and disparate account systems. This session provides a deep dive into the technical strategies we used to overcome these architectural barriers and achieve cross-cluster interoperability.
@@ -25,4 +26,3 @@ Akira Ajisaka is a Principal Engineer at LY Corporation, with over 10 years of e
 Kai Hirayama: Data Engineer, LY Corporation
 
 Data Platform Engineer working on Hadoop ecosystem, including YARN and HDFS. Experienced in operating and troubleshooting large-scale distributed systems.
-

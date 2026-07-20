@@ -1,9 +1,10 @@
 ---
 title: "How Post-4.0 Kafka Streams Reshapes Development and Operations"
-date: ""
+date: "2026-08-09T15:15:00"
 track: "streaming"
 presenters: "PoAn Yang"
 stype: "Chinese Session"
+room: "YuanMing Hall"
 ---
 
 As Apache Kafka enters the 4.0 era, not only has the underlying architecture undergone historical transformations, but Kafka Streams has also experienced a series of evolutions in developer experience and operational mechanisms. This session will guide the audience through key updates beyond Kafka Streams 4.0, analyzing how these features fundamentally reshape the lifecycle of stateful streaming applications.
@@ -35,4 +36,3 @@ Key Takeaways:
 PoAn Yang: ASF, Apache Kafka / YuniKorn committer
 
 I am an open-source software enthusiast, primarily focusing on Apache Kafka. I am among the top 20 contributors, and my work involves enhancing the AsyncKafkaConsumer and developing the next-generation group coordinator.
-

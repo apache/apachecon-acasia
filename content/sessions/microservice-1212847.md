@@ -1,9 +1,10 @@
 ---
 title: "Evolution of Open-Source Projects for Agents: Seata’s Path to AI-Friendliness"
-date: ""
+date: "2026-08-09T15:15:00"
 track: "microservice"
 presenters: "Feng Zhang"
 stype: "Chinese Session"
+room: "Mtn Yang Hall"
 ---
 
 In the past, open-source projects have largely built their communities and operations around human developers: clear wikis, readable code comments, and user-friendly graphical dashboards. However, with the rapid rise of large language models and AI agents, open-source codebases and infrastructure are now facing a whole new kind of user. In the future, open-source projects should not only be easy and enjoyable for humans to use, but also structured in a way that AI can “understand” and “debug” effectively.
@@ -19,4 +20,3 @@ Feng Zhang: DiDi Global Inc, Senior Software Engineer
 
 Open-source enthusiast
 Apache Seata(incubating)  Committer
-

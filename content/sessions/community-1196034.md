@@ -1,9 +1,10 @@
 ---
 title: "The OSS-ential Understanding of Community Health and Metrics"
-date: ""
+date: "2026-08-07T15:00:00"
 track: "community"
 presenters: "Ijeoma Onwuka"
 stype: "English Session"
+room: "Mtn YuQuan Hall"
 ---
 
 Open source powers most of today’s technology, yet many people still judge a project only by visible activity. The problem is that activity does not always reflect real health. A project can look busy while struggling behind the scenes. It can also look quiet while staying stable and strong.
@@ -24,4 +25,3 @@ Ijeoma Onwuka: Event Coordinator at MLOps Community
 Ijeoma Onwuka is an experienced Community and Event Manager with over 4 years of building thriving communities for tech startups and non-profits. She currently leads events at MLOps Community, creating engaging spaces for developers, technical writers, and tech enthusiasts. 
 
 Passionate about open source, she actively contributes to projects like OpenSSF, DevRel Foundation, CHAOSS, and UNICEF, focusing on the intersection of technology and community.
-

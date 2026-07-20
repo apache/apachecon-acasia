@@ -1,9 +1,10 @@
 ---
 title: "Unifying Message Streaming and Data Lake: How We Built a Streaming Lakehouse Engine on Apache Pulsar"
-date: ""
+date: "2026-08-09T14:00:00"
 track: "streaming"
 presenters: "Dawei Zhang"
 stype: "Chinese Session"
+room: "YuanMing Hall"
 ---
 
 As organizations increasingly demand real-time analytics on streaming data, the gap between message streaming systems and data lakes becomes a critical bottleneck. BiFang is a streaming lakehouse engine built on top of Apache Pulsar that bridges this gap by deeply integrating Apache Iceberg, Apache Arrow (Flight RPC), and RocksDB KV storage.
@@ -24,4 +25,3 @@ Attendees will learn practical patterns for building lakehouse capabilities on t
 Dawei Zhang: Tencent
 
 Dawei Zhang is a softerware engineer  at Tencent, focusing on messaging and streaming infrastructure. He is a committer to Apache Pulsar and the creator of BiFang — a streaming lakehouse engine that unifies message streaming and data lake storage. He has extensive experience in distributed systems, real-time data processing, and open-source community development.
-

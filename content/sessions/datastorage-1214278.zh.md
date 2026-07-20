@@ -1,9 +1,10 @@
 ---
 title: "Paimon-cpp：为 Apache 生态带来原生高性能的湖仓访问"
-date: ""
+date: "2026-08-08T15:00:00"
 track: "datastorage"
 presenters: "Xinyu Liu"
 stype: "中文演讲"
+room: "万寿山会议室"
 ---
 
 Apache Paimon 已成为 Apache 生态中开发最活跃的湖仓格式之一。随着原生查询引擎越来越希望在不引入 JVM 开销的情况下直接访问湖仓数据，我们很高兴地介绍 Paimon-cpp——一套从头构建、高性能的 Apache Paimon 格式 C++ 实现，目前正贡献给 Apache Paimon 社区。

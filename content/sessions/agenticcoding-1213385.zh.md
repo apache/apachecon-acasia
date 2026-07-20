@@ -1,9 +1,10 @@
 ---
 title: "Agentic Coding 全面释放：从自动补全到自主执行"
-date: ""
+date: "2026-08-09T14:30:00"
 track: "agenticcoding"
 presenters: "Wentao Liu, Zeguo Mao, Xianxiong Luo"
 stype: "中文演讲"
+room: "静明厅"
 ---
 
 Agentic Coding 不仅仅是更聪明的自动补全——它是一次范式转变：AI 驱动的工具会主动理解上下文、自主做出决策，并跨平台协作，以构建、集成和维护复杂系统。在本次演讲中，我们将超越简单的代码生成，演示 Cursor（AI 原生编辑器）、Trae（AI 驱动的测试与部署 agent）以及 OpenClaw（可嵌入的 AI 助手）如何作为一个紧密协作的多 agent 开发小队协同工作。我们将走完一个真实场景：自主地设计、实现、测试并部署一个智能聊天室集成，展示 Agentic Coding 如何减少人与工具之间的摩擦，并让开发者从"码农"跃升为系统架构师。

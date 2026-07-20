@@ -1,9 +1,10 @@
 ---
 title: "Apache RocketMQ Routing Control Plane Evolution"
-date: ""
+date: "2026-08-07T14:00:00"
 track: "messaging"
 presenters: "Xiao Yang"
 stype: "Chinese Session"
+room: "JingYi Hall"
 ---
 
 This session explains how we evolved a lightweight external routing control plane for Apache RocketMQ to support large-cluster governance without changing brokers, nameservers, or client access patterns.
@@ -18,4 +19,3 @@ As multiple business lines gradually shared one common cluster, the real challen
 Xiao Yang: Tongcheng Travel, Messaging Middleware Core Developer
 
 I am Xiao Yang from the Infrastructure Engineering team at Tongcheng Travel. I mainly focus on the architecture evolution and maintenance of messaging middleware. I am passionate about open source, a committer of Apache ShardingSphere, and an active contributor to Apache RocketMQ.
-

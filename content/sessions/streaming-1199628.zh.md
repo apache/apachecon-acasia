@@ -1,9 +1,10 @@
 ---
 title: "统一消息流与数据湖：我们如何在 Apache Pulsar 之上构建流式湖仓引擎"
-date: ""
+date: "2026-08-09T14:00:00"
 track: "streaming"
 presenters: "Dawei Zhang"
 stype: "中文演讲"
+room: "圆明厅"
 ---
 
 随着组织对流数据实时分析的需求日益增长，消息流系统与数据湖之间的鸿沟已成为一个关键瓶颈。BiFang 是一个构建在 Apache Pulsar 之上的流式湖仓引擎，通过深度集成 Apache Iceberg、Apache Arrow（Flight RPC）以及 RocksDB KV 存储，弥合了这一鸿沟。
