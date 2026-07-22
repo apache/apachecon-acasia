@@ -468,7 +468,7 @@
       <link>/zh/sessions/streaming-1213500.html</link>
       <pubDate>Sat, 08 Aug 2026 15:45:00 +0000</pubDate>
       <guid>/zh/sessions/streaming-1213500.html</guid>
-      <description>&lt;p&gt;本文介绍 Fluss 在 Alipay 营销场景中的落地实践。从业务挑战出发，详细讲述整个过程，包括技术选型、架构设计，以及核心用例的部署。通过与 SLS 等方案的对比，展示 Fluss 在实时数据处理方面的优势。文中还分享了真实的性能指标与成本优化结果，最后总结最佳实践，为业界同行提供有价值的参考。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/b04e-400o400o1-nHqgvJopGSCzFYcK7yvxkX.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;育锋 朱: 蚂蚁集团-数智引擎技术部-实时智能平台-研发工程师&lt;/p&gt;&#xA;&lt;p&gt;负责维护 Ant Group 的 Dataphin 实时开发平台以及 Ant Group 的 Fluss。&lt;/p&gt;</description>
+      <description>&lt;p&gt;本文介绍 Fluss 在 Alipay 营销场景中的落地实践。从业务挑战出发，详细讲述整个过程，包括技术选型、架构设计，以及核心用例的部署。通过与 SLS 等方案的对比，展示 Fluss 在实时数据处理方面的优势。文中还分享了真实的性能指标与成本优化结果，最后总结最佳实践，为业界同行提供有价值的参考。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://github.com/user-attachments/assets/d4c7a50d-3664-4d47-8362-b4cb65b1c9d8&#34; width=&#34;200&#34; height=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;育锋 朱: 蚂蚁集团高级开发工程师、Apache Paimon &amp;amp; Fluss Contributor&lt;/p&gt;&#xA;&lt;p&gt;多年来专注于大数据实时计算/数据湖领域，负责Paimon、Fluss在蚂蚁业务场景的探索应用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>从数据湖到数据 Agent：用 Apache Gravitino 与 MetricFlow 构建语义层</title>
