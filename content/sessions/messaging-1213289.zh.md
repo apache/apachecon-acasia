@@ -14,6 +14,6 @@ room: "静宜厅"
 
 <img src="https://cdn.sessionize.com/image/6bdf-400o400o1-HSmKWKawRzfoxashePJybP.jpg" width="200" /><br/>
 
-熙凯 魏: 腾讯云消息中间件高级开发工程师
+熙凯 魏: 腾讯云高级开发工程师
 
 腾讯云高级开发工程师，拥有多年计算、存储及分布式系统性能优化经验。
