@@ -209,7 +209,7 @@
       <link>/zh/sessions/messaging-1213289.html</link>
       <pubDate>Sun, 09 Aug 2026 14:30:00 +0000</pubDate>
       <guid>/zh/sessions/messaging-1213289.html</guid>
-      <description>&lt;p&gt;在我们的一些使用场景中，存在严格的低延迟要求，核心诉求是将 P99 或最大延迟稳定控制在某个固定阈值之内。本次分享将介绍我们团队在 Apache RocketMQ 低延迟模式的优化与实现方面所做的探索和努力。我们从 RocketMQ 架构中的核心延迟瓶颈出发，梳理影响端到端延迟的关键环节，包括网络传输、消息调度和资源分配，并详细阐述我们针对性地进行的优化、架构调整以及实现效果的验证。此外，本议题还将分享 RocketMQ 全链路延迟调优的方法论和实践经验，希望能为社区的开发者和用户提供一些帮助。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/6bdf-400o400o1-HSmKWKawRzfoxashePJybP.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;熙凯 魏: 腾讯云消息中间件高级开发工程师&lt;/p&gt;&#xA;&lt;p&gt;腾讯云高级开发工程师，拥有多年计算、存储及分布式系统性能优化经验。&lt;/p&gt;</description>
+      <description>&lt;p&gt;在我们的一些使用场景中，存在严格的低延迟要求，核心诉求是将 P99 或最大延迟稳定控制在某个固定阈值之内。本次分享将介绍我们团队在 Apache RocketMQ 低延迟模式的优化与实现方面所做的探索和努力。我们从 RocketMQ 架构中的核心延迟瓶颈出发，梳理影响端到端延迟的关键环节，包括网络传输、消息调度和资源分配，并详细阐述我们针对性地进行的优化、架构调整以及实现效果的验证。此外，本议题还将分享 RocketMQ 全链路延迟调优的方法论和实践经验，希望能为社区的开发者和用户提供一些帮助。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/6bdf-400o400o1-HSmKWKawRzfoxashePJybP.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;熙凯 魏: 腾讯云高级开发工程师&lt;/p&gt;&#xA;&lt;p&gt;腾讯云高级开发工程师，拥有多年计算、存储及分布式系统性能优化经验。&lt;/p&gt;</description>
     </item>
     <item>
       <title>从&#39;可用&#39;到&#39;可治&#39;：Apache SeaTunnel 中的 ClassLoader 生命周期治理实践</title>
