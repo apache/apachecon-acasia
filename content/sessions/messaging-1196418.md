@@ -16,6 +16,6 @@ As multiple business lines gradually shared one common cluster, the real challen
 
 <img src="https://cdn.sessionize.com/image/ed42-400o400o1-3Jm5SmqbknYn3ZeVXQQXY2.jpg" width="200" /><br/>
 
-Xiao Yang: Tongcheng Travel, Messaging Middleware Core Developer
+Xiao Yang: Middleware Engineer at Tongcheng Travel, Apache RocketMQ Committer
 
-I am Xiao Yang from the Infrastructure Engineering team at Tongcheng Travel. I mainly focus on the architecture evolution and maintenance of messaging middleware. I am passionate about open source, a committer of Apache ShardingSphere, and an active contributor to Apache RocketMQ.
+Responsible for the architectural evolution, reliability engineering, and platform development of messaging middleware.

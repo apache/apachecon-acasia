@@ -16,6 +16,6 @@ room: "静宜厅"
 
 <img src="https://cdn.sessionize.com/image/ed42-400o400o1-3Jm5SmqbknYn3ZeVXQQXY2.jpg" width="200" /><br/>
 
-Xiao Yang：同程旅行，消息中间件核心开发者
+Xiao Yang：同程旅行中间件工程师，Apache RocketMQ Committer
 
-我是来自同程旅行基础架构工程团队的 Xiao Yang。我主要负责消息中间件的架构演进与维护。我热爱开源，是 Apache ShardingSphere 的 committer，同时也是 Apache RocketMQ 的活跃贡献者。
+负责消息中间件架构演进、稳定性治理与平台化能力建设。
