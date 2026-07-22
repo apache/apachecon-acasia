@@ -12,8 +12,9 @@ room: "圆明厅"
 ### 讲师:
 
 
-<img src="https://cdn.sessionize.com/image/b04e-400o400o1-nHqgvJopGSCzFYcK7yvxkX.png" width="200" /><br/>
+<img src="https://github.com/user-attachments/assets/d4c7a50d-3664-4d47-8362-b4cb65b1c9d8" width="200" height="200" /><br/>
 
-育锋 朱: 蚂蚁集团-数智引擎技术部-实时智能平台-研发工程师
 
-负责维护 Ant Group 的 Dataphin 实时开发平台以及 Ant Group 的 Fluss。
+育锋 朱: 蚂蚁集团高级开发工程师、Apache Paimon & Fluss Contributor
+
+多年来专注于大数据实时计算/数据湖领域，负责Paimon、Fluss在蚂蚁业务场景的探索应用。
