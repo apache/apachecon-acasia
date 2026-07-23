@@ -394,13 +394,6 @@
       <description>&lt;p&gt;When a leading telecommunications operator hit the scaling wall with their legacy Hive infrastructure, managing petabyte-scale customer data across billions of records became untenable. Their IDPR workloads suffered from slow queries, rising storage costs,partition explosion, and schema changes that broke downstream systems.&lt;/p&gt;&#xA;&lt;p&gt;This session explains why they chose Apache Iceberg and how it transformed their architecture, including the business and technical decision criteria used to select Iceberg over other open table formats&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Iceberg for Agents - Elevate Data to Context For Modern AI Systems</title>
-      <link>/sessions/dataai-1207386.html</link>
-      <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
-      <guid>/sessions/dataai-1207386.html</guid>
-      <description>&lt;p&gt;AI agents fail in production not because models are weak, but because the data stack is. Fragmented silos, inconsistent definitions, and logic buried in tribal knowledge leave agents overwhelmed with data yet starved for context.&lt;/p&gt;&#xA;&lt;p&gt;Apache Iceberg fixes the foundation. ACID transactions, time travel, and schema evolution turn storage into a live, versioned context layer that agents can reason over reliably. dbt fixes the meaning. Semantic models and the dbt MCP server give agents a governed interface to your data — translating natural language into structured queries grounded in business logic.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>When the Optimizer Lies: Debugging Cross-Slice Execution in Apache Cloudberry</title>
       <link>/sessions/datastorage-1213149.html</link>
       <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
