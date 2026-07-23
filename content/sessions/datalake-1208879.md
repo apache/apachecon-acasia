@@ -18,6 +18,6 @@ This session will be useful for engineers and architects building secure, open, 
 
 <img src="https://cdn.sessionize.com/image/55b6-400o400o1-WRxegEMYqhs6HUADASeHmN.png" width="200" /><br/>
 
-Xiaojing Fang: Apache Gravitino PPMC
+Xiaojing Fang: Apache Gravitino Committer
 
-Apache Gravitino PPMC, architect at China Mobile, focusing on data and AI infrastructure.
+Apache Gravitino Committer, architect at China Mobile, focusing on data and AI infrastructure.
