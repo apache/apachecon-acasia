@@ -2,7 +2,7 @@
 title: "Iceberg UDF Spec: Portable SQL Functions Across Engines"
 date: "2026-08-09T13:30:00"
 track: "datalake"
-presenters: "Huaxin Gao, Yufei Gu"
+presenters: "Huaxin Gao"
 stype: "English Session"
 room: "WanChun Hall"
 ---
@@ -17,12 +17,3 @@ Iceberg’s UDF spec introduces a self-contained, versioned metadata format for 
 Huaxin Gao: Software engineer at Snowflake
 
 Huaxin Gao is a software engineer at Snowflake and an Apache Spark committer and PMC member. She is also a committer for Apache Iceberg and Apache DataFusion Comet, with contributions spanning query engines, table formats, and distributed data systems.
-
-
-<img src="https://cdn.sessionize.com/image/f687-400o400o1-MLqGgndoS3yUwVgfUrDXTT.jpg" width="200" /><br/>
-
-Yufei Gu: Senior software engineer at Snowflake
-
-Apache Polaris PPMC member
-Apache Iceberg PMC member
-Apache Hadoop PMC member
