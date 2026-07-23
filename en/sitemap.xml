@@ -608,6 +608,19 @@
                 href="/sessions/streaming-1191917.html"
                 />
   </url><url>
+    <loc>/sessions/agenticcoding-1185936.html</loc>
+    <lastmod>2026-08-09T13:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/agenticcoding-1185936.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/agenticcoding-1185936.html"
+                />
+  </url><url>
     <loc>/sessions/incubator-1210342.html</loc>
     <lastmod>2026-08-09T13:30:00+00:00</lastmod>
     <xhtml:link
@@ -658,19 +671,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="/sessions/messaging-1212359.html"
-                />
-  </url><url>
-    <loc>/sessions/agenticcoding-1185936.html</loc>
-    <lastmod>2026-08-09T13:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/agenticcoding-1185936.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/agenticcoding-1185936.html"
                 />
   </url><url>
     <loc>/sessions/datastorage-1199721.html</loc>

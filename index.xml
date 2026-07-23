@@ -324,6 +324,13 @@
       <description>&lt;p&gt;Syncing hundreds of databases and tens of thousands of tables, tracking schema evolution,connecting heterogeneous systems—these are common pain points in enterprise real-time data integration. Flink CDC introduces a new Pipeline architecture that enables declarative multi-table synchronization, automatic schema evolution tracking, and one-stop data transformation. Beyond the Pipeline architecture, Flink CDC 3.6 adds support for Flink 2.2 and delivers seamless integration with mainstream databases (MySQL, PostgreSQL, Oracle) and lakehouse systems (Iceberg, Paimon, Hudi). This session will dive into the Pipeline architecture design and share performance tuning and production deployment experiences from actual production environment large-scale real-time data lake ingestion practices,  helping attendees build reliable, maintainable enterprise-grade real-time data pipelines.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Engineering BanyanDB with AI Agents: Agentic Coding in Practice</title>
+      <link>/sessions/agenticcoding-1185936.html</link>
+      <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
+      <guid>/sessions/agenticcoding-1185936.html</guid>
+      <description>&lt;p&gt;This session explores how agentic coding is applied to the development of BanyanDB. Through practical examples from system design, implementation, debugging and testing, we demonstrate how engineers and AI agents can work together across different stages of software development.&#xA;Rather than focusing on code generation alone, the talk presents agentic coding as an engineering workflow in which engineers define goals, constraints, and architectural principles, while agents assist with exploration, execution, validation, and iteration. The session will also summarize practical lessons and discuss how engineering constraints and validation can make agentic coding reliable and controllable in complex systems.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>GeaFlow｜Streaming Graph Computing Engine and AI Memory Practice</title>
       <link>/sessions/incubator-1210342.html</link>
       <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
@@ -350,13 +357,6 @@
       <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
       <guid>/sessions/messaging-1212359.html</guid>
       <description>&lt;p&gt;Apache Kafka has established itself as the central nervous system of modern real-time data architectures. Yet in conventional lakehouse designs, data from Kafka typically must traverse external compute engines such as Flink or Spark before it can be landed, modeled, and organized into analytical layers. This multi-hop &amp;ldquo;messaging → computation → storage&amp;rdquo; pipeline not only inflates operational complexity but also introduces weak state consistency, elevated end-to-end latency, and a fragmented hot/cold data lifecycle.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Vibing BanyanDB Trace Storage through Agentic Workflows</title>
-      <link>/sessions/agenticcoding-1185936.html</link>
-      <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
-      <guid>/sessions/agenticcoding-1185936.html</guid>
-      <description>&lt;p&gt;This session explores how to build trace storage capabilities using an agentic coding approach, with a deep dive into BanyanDB’s trace storage engine. Rather than following a traditional, manually driven development model, we demonstrate how agentic coding reshapes the engineering workflow — from requirement analysis and system design to implementation and iterative optimization.&#xA;By combining agentic coding practices with BanyanDB’s purpose-built trace storage architecture, this talk demonstrates a new development paradigm: leveraging intelligent agents to accelerate system development, with BanyanDB’s trace storage engine serving as a practical example of a system designed for trace-native workloads.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Auron (Incubating): Working Progress and Community Development</title>

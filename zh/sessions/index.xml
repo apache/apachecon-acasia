@@ -303,13 +303,6 @@
       <description>&lt;p&gt;摘要：&#xA;在 GenAI 时代，多模态数据的海量流动需要坚实的基础设施，然而割裂的数据流水线已成为企业的关键瓶颈。在同程旅行，我们历史上并行运行着 4 套互不相通的数据流水线服务（离线同步、实时入湖、老旧的 Sqoop，以及一套独立的 SeaTunnel 服务）。这种割裂带来了极高的维护成本，也阻碍了统一的数据治理。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将详细讲解我们如何通过平台化，成功打造一条统一的&amp;quot;数据动脉&amp;quot;。我们将探讨如何整合数据入口，并基于 Apache SeaTunnel 构建真正&amp;quot;批流一体&amp;quot;的基础架构，全面支撑从传统数仓到现代 AI 场景的数据流转。&lt;/p&gt;&#xA;&lt;p&gt;核心内容：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;打破数据孤岛：深入讲解基于 Apache SeaTunnel 引擎设计的统一多模态数据流水线服务，平滑替换并整合 4 套老旧集成系统，实现彻底的架构标准化。&lt;/li&gt;&#xA;&lt;li&gt;计算增强与 AI 多模态赋能：探讨如何将 SeaTunnel 的 Transform 机制与实时流处理能力深度融合，高效执行复杂的数据清洗与动态转换。我们将重点呈现对 AI 工作负载的硬核支撑，包括非结构化数据的实时解析，以及面向 LLM 的 Embedding 预处理。&lt;/li&gt;&#xA;&lt;li&gt;零停机迁移与严格校验：分享海量存量任务迁移的企业级实践。我们将详细讲解所设计的&amp;quot;动态任务转换与双向数据比对（reconciliation）机制&amp;quot;，确保在底层架构升级过程中零数据丢失，并实现业务的无缝过渡。&lt;/li&gt;&#xA;&lt;li&gt;面向未来的云原生演进：展望多模态统一数据流水线的蓝图。我们将讨论基于 Kubernetes 的云原生容器化部署以实现弹性伸缩，以及如何与 LLM 生态深度融合，构建坚实的 Data+AI 底座。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/81c7-400o400o1-Eg1HTUVtNGMZybmJeeri5E.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Xiaochen Zhou：同程旅行数据工程师 | Apache SeaTunnel Committer&lt;/p&gt;&#xA;&lt;p&gt;Xiaochen Zhou 是同程旅行的数据工程师，也是活跃的 Apache SeaTunnel Committer。在当前岗位上，他专注于设计、构建和优化高性能数据流水线。在开源社区中，他深度参与 Apache SeaTunnel 的核心开发与技术演进。近来，他的重心转向数据与 AI 的交汇领域，致力于为 GenAI 时代架构统一的多模态数据流水线。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>借助 Agentic 工作流玩转 BanyanDB 追踪存储</title>
-      <link>/zh/sessions/agenticcoding-1185936.html</link>
-      <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
-      <guid>/zh/sessions/agenticcoding-1185936.html</guid>
-      <description>&lt;p&gt;本次演讲探讨如何用 agentic coding（智能体编码）的方式来构建追踪（trace）存储能力，并深入剖析 BanyanDB 的 trace 存储引擎。我们不再遵循传统的、人工驱动的开发模式，而是展示 agentic coding 如何重塑工程工作流——从需求分析、系统设计，到实现与迭代优化。&#xA;通过把 agentic coding 的实践与 BanyanDB 专为 trace 设计的存储架构相结合，本次演讲展示了一种新的开发范式：借助智能体加速系统开发，并以 BanyanDB 的 trace 存储引擎作为面向 trace 原生（trace-native）工作负载系统的真实范例。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ac60-400o400o1-DgPShxggsdTLJHgVdJeHvd.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Youliang Huang：Apache SkyWalking Committer&lt;/p&gt;&#xA;&lt;p&gt;开源爱好者。Apache SkyWalking Committer。致力于构建高性能的可观测性、存储与网络系统。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>深入剖析 Flink CDC 架构与大规模生产实践</title>
       <link>/zh/sessions/streaming-1191917.html</link>
       <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
@@ -322,6 +315,13 @@
       <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
       <guid>/zh/sessions/messaging-1212359.html</guid>
       <description>&lt;p&gt;Apache Kafka 已经成为现代实时数据架构的中枢神经。然而在传统的湖仓设计中，来自 Kafka 的数据通常必须先经过 Flink 或 Spark 等外部计算引擎，才能被落库、建模并组织成分析层。这种多跳的&amp;quot;消息 → 计算 → 存储&amp;quot;管道不仅推高了运维复杂度，还带来了状态一致性较弱、端到端时延升高、冷热数据生命周期割裂等问题。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲聚焦于存储计算分离架构，探讨 Kafka 原生能力在湖仓场景下的演进。我们希望通过以下核心技术来重塑实时数据管道：&lt;/p&gt;&#xA;&lt;p&gt;存储计算分离与智能数据分层。建立在存储计算分离模型之上，结合智能分层与轻量级高可用架构，我们采用了双路径 Table-Topic 同步机制，在数据新鲜度与系统稳定性之间取得最佳平衡。通过将摄入（ingestion）进度内化到 leader 的元数据中，我们彻底消除对外部 KV 存储的依赖，在保持强一致性保证的同时极大简化了管道。&lt;/p&gt;&#xA;&lt;p&gt;具备强一致性保证的行列双引擎。借助可插拔架构，我们实现了协议感知（protocol-aware）的解析，并结合 Apache Parquet 列式格式的零拷贝直写——有效地把流式写入转化为即时的湖仓持久化。一个轻量级的分布式事务协调器与基于 OSS 的 Table Catalog 相结合，在节点故障情况下严格保证 Exactly-Once 语义与原子文件提交，为摄入管道提供高可用容灾与自主状态自愈能力。&lt;/p&gt;&#xA;&lt;p&gt;内嵌的声明式流处理。我们将 Apache Calcite 作为轻量级算子引擎内嵌进来，让用户可以通过一种 SQL 方言来表达计算逻辑。借助算子下推与逻辑计划的动态编译，过滤、聚合和转换操作可直接在 Kafka 管道中、在数据的产生处就地执行。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/1bd1-400o400o1-X3dGLdsBdwR23onKjs1wZj.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hongjian Fei：阿里云，中间件开发工程师，Staff Engineer&lt;/p&gt;&#xA;&lt;p&gt;Hongjian Fei（费红健）是一位 Apache 软件基金会 Committer，长期致力于 RocketMQ 与 Kafka 的开发。在阿里云，他是 Kafka 存储计算分离架构的核心设计者之一，在 Kafka 的开发与运维方面经验丰富。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用 AI Agent 构建 BanyanDB：Agentic Coding 工程实践</title>
+      <link>/zh/sessions/agenticcoding-1185936.html</link>
+      <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
+      <guid>/zh/sessions/agenticcoding-1185936.html</guid>
+      <description>&lt;p&gt;本次分享将介绍 Agentic Coding 在 BanyanDB 研发中的实际应用。通过系统设计、代码实现、问题调试和测试等实践案例，展示工程师与 AI Agent 如何在软件开发的不同环节中协同工作。&#xA;分享不会局限于代码生成，而是将 Agentic Coding 视为一种工程协作流程：工程师负责定义目标、约束和架构原则，Agent 则协助完成探索、执行、验证和迭代。同时，分享还将总结相关实践经验，并讨论如何通过工程约束和验证机制，让 Agentic Coding 在复杂系统研发中更加可靠、可控。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ac60-400o400o1-DgPShxggsdTLJHgVdJeHvd.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Youliang Huang：Apache SkyWalking PMC Member&lt;/p&gt;&#xA;&lt;p&gt;开源爱好者。Apache SkyWalking PMC Member。致力于构建高性能的可观测性、存储与网络系统。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Auron（孵化中）：研发进展与社区发展</title>
