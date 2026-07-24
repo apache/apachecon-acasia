@@ -6,15 +6,8 @@
     <description>Recent content in Sessions on Community Over Code Asia 2026</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2026 16:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 16:15:00 +0000</lastBuildDate>
     <atom:link href="/sessions/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Orchestrating and Diagnosing: Seata-Go Agent Platform and seata-ctl Toolchain</title>
-      <link>/sessions/webserver-1213943.html</link>
-      <pubDate>Sun, 09 Aug 2026 16:45:00 +0000</pubDate>
-      <guid>/sessions/webserver-1213943.html</guid>
-      <description>&lt;p&gt;To address the complexity of long-transaction orchestration and the challenges of distributed transaction diagnostics, this talk will cover the evolution of Seata Go and its infrastructure, the capabilities of the Agent orchestration platform and diagnostic tools, and practical use cases integrating the two.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/e22a-400o400o1-aMZP9AC2ZUbPKtpnLFD2sT.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tun Guo: Backend Developer, Apache Seata(Incubator) Committer&lt;/p&gt;&#xA;&lt;p&gt;A backend development engineer at an embedded AI company, and an Apache Seata (Incubator) Committer.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>AI-assisted Apache Incubator oversight</title>
       <link>/sessions/incubator-1213722.html</link>
@@ -30,11 +23,11 @@
       <description>&lt;p&gt;The main benefits of replacing Kafka with Fluss are as follows:&#xA;Kafka uses local centralized storage, while Fluss stores cold data in Paimon. With Paimon’s S3 storage deployed on HDDs, significant storage cost savings are achieved without sacrificing query performance.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d1e8-400o400o1-MMvXTnvrxxYuEAieaKuXvD.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;zuo yan:  technology expert&lt;/p&gt;&#xA;&lt;p&gt;Zuo Yan,  technology expert, is responsible for building the data center and log platform. Contributors for open-source projects such as Apache Flink, Apache Doris, Flink CDC, StarRocks, and Fluss.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>ServerlessX: A Kernel-Space Serverless System for RDMA-based Disaggregated Architectures</title>
-      <link>/sessions/microservice-1213252.html</link>
+      <title>Orchestrating and Diagnosing: Seata-Go Agent Platform and seata-ctl Toolchain</title>
+      <link>/sessions/webserver-1213943.html</link>
       <pubDate>Sun, 09 Aug 2026 16:15:00 +0000</pubDate>
-      <guid>/sessions/microservice-1213252.html</guid>
-      <description>&lt;p&gt;This session explores a novel Linux kernel-space Serverless framework designed to bridge the gap between physically disaggregated hardware pools (e.g. disaggregated memory) and the instant execution semantics of modern Serverless functions. By building a three-layer architecture spanning an RDMA network foundation, distributed OS kernel primitives (RDMA Fork, Map, and mmap), and application-specific scaling strategies, we demonstrate how to achieve millisecond-level elasticity across disaggregated resources. Attendees will dive into three practical cases, including rapid GPU scale-out for LLM inference, dynamic memory scale-up for recommendation systems, and decoupled I/O capacity scaling for storage engines.&lt;/p&gt;</description>
+      <guid>/sessions/webserver-1213943.html</guid>
+      <description>&lt;p&gt;To address the complexity of long-transaction orchestration and the challenges of distributed transaction diagnostics, this talk will cover the evolution of Seata Go and its infrastructure, the capabilities of the Agent orchestration platform and diagnostic tools, and practical use cases integrating the two.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/e22a-400o400o1-aMZP9AC2ZUbPKtpnLFD2sT.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tun Guo: Backend Developer, Apache Seata(Incubator) Committer&lt;/p&gt;&#xA;&lt;p&gt;A backend development engineer at an embedded AI company, and an Apache Seata (Incubator) Committer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Workflow Orchestration in the AI Era: New Challenges and Practices for Data Processing at Scale</title>
@@ -65,11 +58,11 @@
       <description>&lt;p&gt;Apache Cloudberry (Incubating) is a Postgres-compatible MPP analytical database with a fast-growing community. Like many Apache projects, its official releases are source tarballs — exactly right for ASF governance, but leaving a gap for the people who actually want to run it. Hobbyists, evaluators, and enterprise teams all expect an installable binary.&lt;/p&gt;&#xA;&lt;p&gt;The obvious approach — &amp;ldquo;just build one package per distro&amp;rdquo; — is a trap. glibc symbol versions, compiler ABIs, bundled library versions (OpenSSL, Perl, Python), and RPM-vs-DEB packaging all multiply the matrix until you&amp;rsquo;re maintaining a dozen variants of the same release.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Fixing Authorization in Microservices Without Breaking Everything</title>
-      <link>/sessions/microservice-1206998.html</link>
+      <title>Deep Dive: Implementing OTel&#39;s Latest RPC Semantic Conventions in Apache Dubbo</title>
+      <link>/sessions/microservice-1196673.html</link>
       <pubDate>Sun, 09 Aug 2026 15:45:00 +0000</pubDate>
-      <guid>/sessions/microservice-1206998.html</guid>
-      <description>&lt;p&gt;Authorization is one of those things that starts simple and quietly becomes a mess as systems grow. In a microservices setup, it often ends up duplicated across services, implemented slightly differently each time, and hard to reason about when something goes wrong.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, Aram will walk through what typically happens as teams scale from a single service to many and how access control logic starts to drift across the system. We’ll look at common patterns that seem fine at first but break down over time, especially when services need to share context or enforce consistent rules.&lt;/p&gt;</description>
+      <guid>/sessions/microservice-1196673.html</guid>
+      <description>&lt;p&gt;Over the past year, the OTel community has focused on stabilizing RPC-related semantic conventions—specifically, engaging in in-depth discussions to advance RPC framework semantics from an &amp;ldquo;experimental&amp;rdquo; to a &amp;ldquo;stable&amp;rdquo; state. This presentation outlines the latest developments in RPC semantic conventions and details the design and implementation of these semantic conventions within the Dubbo framework.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/03b4-400o400o1-G7eFVip3FYMFfS2svgjoHq.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zihao Rao: Passionate about Opensource&lt;/p&gt;&#xA;&lt;p&gt;Zihao is a software engineer at Alibaba Cloud. Over the past few years, he has participated in several well-known open source projects, he is steering committee member of Spring Cloud Alibaba project, and is an approver for OpenTelemetry Java Instrumentation now.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Time Series Data to Specialized Data Management</title>
@@ -128,11 +121,11 @@
       <description>&lt;p&gt;Agentic coding makes it easier than ever to generate features. But that is exactly why extensibility is not enough: we need systems that remain understandable, replaceable, and governable.&lt;/p&gt;&#xA;&lt;p&gt;This talk uses the rewrite of Bub as a case study in a deliberately counterintuitive design choice. At a time when AI is increasingly good at producing demos and edge features, Bub’s core is still largely designed and handwritten by humans. Bub grew out of messy multi-person group chats rather than polished single-user demos, which exposed structural problems early: once channels, skills, and memory-related capabilities accumulated, continuing to absorb them into the framework core would make the system harder to understand, configure, and maintain.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Evolution of Open-Source Projects for Agents: Seata’s Path to AI-Friendliness</title>
-      <link>/sessions/microservice-1212847.html</link>
+      <title>Fixing Authorization in Microservices Without Breaking Everything</title>
+      <link>/sessions/microservice-1206998.html</link>
       <pubDate>Sun, 09 Aug 2026 15:15:00 +0000</pubDate>
-      <guid>/sessions/microservice-1212847.html</guid>
-      <description>&lt;p&gt;In the past, open-source projects have largely built their communities and operations around human developers: clear wikis, readable code comments, and user-friendly graphical dashboards. However, with the rapid rise of large language models and AI agents, open-source codebases and infrastructure are now facing a whole new kind of user. In the future, open-source projects should not only be easy and enjoyable for humans to use, but also structured in a way that AI can “understand” and “debug” effectively.&lt;/p&gt;</description>
+      <guid>/sessions/microservice-1206998.html</guid>
+      <description>&lt;p&gt;Authorization is one of those things that starts simple and quietly becomes a mess as systems grow. In a microservices setup, it often ends up duplicated across services, implemented slightly differently each time, and hard to reason about when something goes wrong.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, Aram will walk through what typically happens as teams scale from a single service to many and how access control logic starts to drift across the system. We’ll look at common patterns that seem fine at first but break down over time, especially when services need to share context or enforce consistent rules.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Natural Language to Reliable Data Pipelines: Building an AI-Powered CLI for Apache SeaTunnel</title>
@@ -177,11 +170,11 @@
       <description>&lt;p&gt;With the rapid evolution of AI, the application scenarios for graph data have become remarkably diverse and widespread. Iterative graph computing, Graph Neural Networks (GNN), and GraphRAG are driving growing demand for graph-structured data across industries. However, in most enterprises today, graph data remains siloed &amp;ndash; hidden in log files, scattered across MySQL databases, or locked inside proprietary graph databases. When different scenarios require graph data to flow between systems, engineers face repeated ETL efforts, format incompatibilities, and significant friction. Meanwhile, a fundamental question arises: should we always load graph data into a transactional graph database just to serve diverse workloads? Doing so often leads to unnecessary data redundancy and operational overhead.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Deep Dive: Implementing OTel&#39;s Latest RPC Semantic Conventions in Apache Dubbo</title>
-      <link>/sessions/microservice-1196673.html</link>
+      <title>Evolution of Open-Source Projects for Agents: Seata’s Path to AI-Friendliness</title>
+      <link>/sessions/microservice-1212847.html</link>
       <pubDate>Sun, 09 Aug 2026 14:30:00 +0000</pubDate>
-      <guid>/sessions/microservice-1196673.html</guid>
-      <description>&lt;p&gt;Over the past year, the OTel community has focused on stabilizing RPC-related semantic conventions—specifically, engaging in in-depth discussions to advance RPC framework semantics from an &amp;ldquo;experimental&amp;rdquo; to a &amp;ldquo;stable&amp;rdquo; state. This presentation outlines the latest developments in RPC semantic conventions and details the design and implementation of these semantic conventions within the Dubbo framework.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/03b4-400o400o1-G7eFVip3FYMFfS2svgjoHq.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zihao Rao: Passionate about Opensource&lt;/p&gt;&#xA;&lt;p&gt;Zihao is a software engineer at Alibaba Cloud. Over the past few years, he has participated in several well-known open source projects, he is steering committee member of Spring Cloud Alibaba project, and is an approver for OpenTelemetry Java Instrumentation now.&lt;/p&gt;</description>
+      <guid>/sessions/microservice-1212847.html</guid>
+      <description>&lt;p&gt;In the past, open-source projects have largely built their communities and operations around human developers: clear wikis, readable code comments, and user-friendly graphical dashboards. However, with the rapid rise of large language models and AI agents, open-source codebases and infrastructure are now facing a whole new kind of user. In the future, open-source projects should not only be easy and enjoyable for humans to use, but also structured in a way that AI can “understand” and “debug” effectively.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exploration and Practice of Low-Latency Optimizations in Apache RocketMQ</title>
@@ -226,13 +219,6 @@
       <description>&lt;p&gt;While the lakehouse architecture has become the de facto standard for business intelligence (BI) workloads, it faces two fundamental bottlenecks when extended to large-scale foundation model training pipelines. Unlike traditional BI which centers on structured tabular data, AI training processes massive volumes of unstructured data (text, images, audio, video), exposing critical gaps in unified unstructured data governance and architectural silos between Hadoop-based data processing and cloud-native model training infrastructure.&lt;/p&gt;&#xA;&lt;p&gt;This session presents Xiaomi&amp;rsquo;s production-proven two-phase architecture evolution to address these challenges. Phase 1 integrates unstructured data into a unified metadata governance layer using Gravitino and Fileset, and enables seamless interoperability between cloud object storage and the Hadoop ecosystem via GVFS. Phase 2 adopts a Ray-Lance stack that transcends the limitations of the traditional Hadoop stack, leveraging Ray as the cloud-native distributed computing engine and Lance as the AI-optimized storage format. Attendees will learn practical implementation details and real-world performance gains from production use cases including incremental data deduplication and multimodal data management.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Monitoring LLM Applications with SkyWalking 10.4: Insights into Performance and Cost</title>
-      <link>/sessions/observability-1206017.html</link>
-      <pubDate>Sun, 09 Aug 2026 14:00:00 +0000</pubDate>
-      <guid>/sessions/observability-1206017.html</guid>
-      <description>&lt;p&gt;This session begins with an introduction to the groundbreaking feature of Apache SkyWalking 10.4: AI Observability. We will explore the strategic importance of monitoring Large Language Model (LLM) applications and the role of Envoy AI Gateway in securing and managing AI traffic at the infrastructure edge.&lt;/p&gt;&#xA;&lt;p&gt;The core of the talk will focus on the technical architecture and principles of this new feature. Using the SkyWalking Spring AI agent plugin and Envoy AI Gateway as primary examples, we will demonstrate how telemetry data is captured across different layers of the AI stack. We will then dive into how the Observability Analysis Platform (OAP) processes this data, specifically focusing on the transformation of OTLP and Zipkin formatted traces into actionable statistical metrics. The workflow concludes with a showcase of how these insights are visualized through out-of-the-box dashboards.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>RocketMQ 5 in Production at Meituan</title>
       <link>/sessions/messaging-1212360.html</link>
       <pubDate>Sun, 09 Aug 2026 14:00:00 +0000</pubDate>
@@ -245,6 +231,13 @@
       <pubDate>Sun, 09 Aug 2026 14:00:00 +0000</pubDate>
       <guid>/sessions/incubator-1187157.html</guid>
       <description>&lt;p&gt;The Apache Incubator is the gateway for projects joining the Apache Software Foundation, but for many new Podlings the real incubation journey involves much more than following official documentation.&lt;/p&gt;&#xA;&lt;p&gt;In practice, many important details—such as working effectively with mentors, bootstrapping Apache infrastructure, and navigating the first release vote—are often learned through experience rather than documentation.&lt;/p&gt;&#xA;&lt;p&gt;In this session, a PPMC member of Apache Fesod (Incubating) will share practical lessons learned from running a Podling in the real world. We will discuss how to evaluate whether a project is ready for the ASF, how to collaborate with mentors, how to bootstrap essential ASF infrastructure, and what really happens during a Podling’s first Apache release.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ServerlessX: A Kernel-Space Serverless System for RDMA-based Disaggregated Architectures</title>
+      <link>/sessions/microservice-1213252.html</link>
+      <pubDate>Sun, 09 Aug 2026 14:00:00 +0000</pubDate>
+      <guid>/sessions/microservice-1213252.html</guid>
+      <description>&lt;p&gt;This session explores a novel Linux kernel-space Serverless framework designed to bridge the gap between physically disaggregated hardware pools (e.g. disaggregated memory) and the instant execution semantics of modern Serverless functions. By building a three-layer architecture spanning an RDMA network foundation, distributed OS kernel primitives (RDMA Fork, Map, and mmap), and application-specific scaling strategies, we demonstrate how to achieve millisecond-level elasticity across disaggregated resources. Attendees will dive into three practical cases, including rapid GPU scale-out for LLM inference, dynamic memory scale-up for recommendation systems, and decoupled I/O capacity scaling for storage engines.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spec-Driven Development at Scale</title>
@@ -266,13 +259,6 @@
       <pubDate>Sun, 09 Aug 2026 14:00:00 +0000</pubDate>
       <guid>/sessions/iot-1213890.html</guid>
       <description>&lt;p&gt;The Robot Operating System (ROS) is the de facto standard for robotics development, yet efficiently managing the vast amounts of time-series data generated on edge devices remains a challenge. This session introduces a new open-source tool that bridges the ROS ecosystem with the Apache big data world. We will demonstrate how to convert ROS messages directly into Apache TsFile, a high-performance, columnar file format designed for IoT time-series data. This approach enables efficient local storage, compression, and seamless data synchronization with Apache IoTDB in the cloud. Attendees will learn about the tool&amp;rsquo;s architecture, see a live demo of edge data collection from a simulated robot, and understand how this pattern can be extended to build a complete edge-to-cloud data pipeline for robotics and industrial IoT.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Apache Cloudberry: gathering statistics for queries executed by multiple PostgreSQL instances.</title>
-      <link>/sessions/observability-1195519.html</link>
-      <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
-      <guid>/sessions/observability-1195519.html</guid>
-      <description>&lt;p&gt;Let&amp;rsquo;s say you have Apache Cloudberry cluster that consists of several PostgreSQL instances. They all execute a single query, and you want to collect general statistics on how many resources were spent on executing this query. The built-in pg_stat_statements module is no longer suitable here, since it works within the same database. I will present a solution with a similar central idea — collecting data through query execution hooks, but instead of storing it in PostgreSQL shared memory, we send raw data to an external agent process. This process is responsible for aggregating metrics, providing a unified picture across all instances, as well as additional functions, such as the forced termination of problematic sessions, while not limited to PostgreSQL: the solution can collect data from other system components. I will talk about architecture, product tasks, and share links to the repositories (Apache 2.0 License) with the code.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building AI&#39;s Data Artery: Architecture and Practices of Unified Multimodal Data Pipelines</title>
@@ -310,6 +296,13 @@
       <description>&lt;p&gt;Iceberg’s UDF spec introduces a self-contained, versioned metadata format for SQL scalar and table functions that can move across catalogs and engines like Spark and Trino. This talk walks through the core model, definitions, parameter naming rules, return types, and dialect-specific representations, and explains how versioning, rollback, determinism, and null-handling hints make UDFs portable without sacrificing engine optimizations. We’ll highlight key design choices such as immutable signatures, overload compatibility with defaults, and secure functions, and close with practical guidance for implementing the spec in an engine or catalog.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Monitoring LLM Applications with SkyWalking 10.4: Insights into Performance and Cost</title>
+      <link>/sessions/observability-1206017.html</link>
+      <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
+      <guid>/sessions/observability-1206017.html</guid>
+      <description>&lt;p&gt;This session begins with an introduction to the groundbreaking feature of Apache SkyWalking 10.4: AI Observability. We will explore the strategic importance of monitoring Large Language Model (LLM) applications and the role of Envoy AI Gateway in securing and managing AI traffic at the infrastructure edge.&lt;/p&gt;&#xA;&lt;p&gt;The core of the talk will focus on the technical architecture and principles of this new feature. Using the SkyWalking Spring AI agent plugin and Envoy AI Gateway as primary examples, we will demonstrate how telemetry data is captured across different layers of the AI stack. We will then dive into how the Observability Analysis Platform (OAP) processes this data, specifically focusing on the transformation of OTLP and Zipkin formatted traces into actionable statistical metrics. The workflow concludes with a showcase of how these insights are visualized through out-of-the-box dashboards.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>openvela AI Agent: Building the Next-Generation Proactive Intelligent Hardware Ecosystem</title>
       <link>/sessions/iot-1213309.html</link>
       <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
@@ -336,6 +329,13 @@
       <pubDate>Sat, 08 Aug 2026 17:15:00 +0000</pubDate>
       <guid>/sessions/rust-1213228.html</guid>
       <description>&lt;p&gt;We always care about how much workload our software can handle, especially in large-scale scenarios. However the reality is not always ideal, but almost always comes with skewed workloads and fluctuating resources, challenging our software&amp;rsquo;s stability and tail latency. In this session, I&amp;rsquo;ll share our experience on tuning a product-ready Rust system to achieve predictable scheduling and promising self-protection in complex environments. Including failed tries, what existing Rust infrastructure can&amp;rsquo;t achieve, and how we get there.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache Cloudberry: gathering statistics for queries executed by multiple PostgreSQL instances.</title>
+      <link>/sessions/observability-1195519.html</link>
+      <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
+      <guid>/sessions/observability-1195519.html</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s say you have Apache Cloudberry cluster that consists of several PostgreSQL instances. They all execute a single query, and you want to collect general statistics on how many resources were spent on executing this query. The built-in pg_stat_statements module is no longer suitable here, since it works within the same database. I will present a solution with a similar central idea — collecting data through query execution hooks, but instead of storing it in PostgreSQL shared memory, we send raw data to an external agent process. This process is responsible for aggregating metrics, providing a unified picture across all instances, as well as additional functions, such as the forced termination of problematic sessions, while not limited to PostgreSQL: the solution can collect data from other system components. I will talk about architecture, product tasks, and share links to the repositories (Apache 2.0 License) with the code.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Challenges of Implementing Iceberg Features in a C&#43;&#43; Query Engine</title>

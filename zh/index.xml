@@ -6,7 +6,7 @@
     <description>Recent content in Community Over Code Asia 2026 - ASF旗下大会 将于2026年8月7-9日在北京举行 on Community Over Code Asia 2026</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 09 Aug 2026 16:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 16:15:00 +0000</lastBuildDate>
     <atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>会场 &#43; 旅行</title>
@@ -44,13 +44,6 @@
       <description>&lt;p&gt;在Apache软件基金会，所有在线互动均受&lt;a href=&#34;http://apache.org/foundation/policies/conduct.html&#34;&gt;ASF行为准则&lt;/a&gt;的管辖，而面对面的活动则受&lt;a href=&#34;http://apache.org/foundation/policies/anti-harassment.html&#34;&gt;反骚扰政策&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;p&gt;Community Over Code (前 ApacheCon ) 致力于为每个人提供无骚扰的体验。我们不容忍任何形式的参与者骚扰。违反这些规则的参加者可以根据活动组织者的判断，予以制裁或开除，且不予退款。&lt;/p&gt;&#xA;&lt;p&gt;骚扰包括令人反感的口头评论，故意的恐吓，跟踪，跟踪，不必要的摄影或录音，谈话或其他事件的持续中断，不适当的身体接触以及不受欢迎的性关注。被要求停止任何骚扰行为的参与者应立即遵守。&lt;/p&gt;&#xA;&lt;p&gt;在包括演讲在内的任何活动场所，都不会容忍性语言和图像。参展商还应避免使用带有色情色彩的图像，活动或其他材料。展位人员（包括志愿者）不得使用带有性服装/制服/服装，或以其他方式营造性环境。&lt;/p&gt;&#xA;&lt;p&gt;如果参与者进行骚扰行为，组织者可以采取他们认为适当的任何措施，包括警告违法者或开除该事件，不予退款。我们希望参与者在所有活动场所和相关社交活动中都遵守这些规则。&lt;/p&gt;&#xA;&lt;p&gt;如果您受到骚扰，请注意有人受到骚扰，或有其他任何疑虑，请立即与活动团队成员联系。该团队可以在注册处找到。&lt;/p&gt;&#xA;&lt;p&gt;您可以通过电子邮件 &lt;a href=&#34;mailto:planners@apachecon.com&#34;&gt;planners@apachecon.com&lt;/a&gt;或活动网站上的实时聊天功能与活动团队联系。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>编排与诊断：Seata-Go Agent 平台与 seata-ctl 工具链</title>
-      <link>/zh/sessions/webserver-1213943.html</link>
-      <pubDate>Sun, 09 Aug 2026 16:45:00 +0000</pubDate>
-      <guid>/zh/sessions/webserver-1213943.html</guid>
-      <description>&lt;p&gt;为了应对长事务编排的复杂性以及分布式事务诊断的挑战，本次演讲将介绍 Seata Go 及其基础设施的演进、Agent 编排平台与诊断工具的能力，以及将二者结合的实践用例。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/e22a-400o400o1-aMZP9AC2ZUbPKtpnLFD2sT.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tun Guo：后端开发者，Apache Seata（孵化中）Committer&lt;/p&gt;&#xA;&lt;p&gt;一家嵌入式 AI 公司的后端开发工程师，Apache Seata（孵化中）Committer。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>AI 辅助的 Apache 孵化器监督</title>
       <link>/zh/sessions/incubator-1213722.html</link>
       <pubDate>Sun, 09 Aug 2026 16:15:00 +0000</pubDate>
@@ -65,11 +58,11 @@
       <description>&lt;p&gt;AI 工作负载——自动驾驶与大语言模型——的兴起，正在从根本上重塑数据处理范式。数据已从结构化的表格转变为 PB 级的多模态文件；处理粒度从分区级细化到了帧级/文档级；任务依赖图也从线性的 ETL 流水线，演进为具备动态并行与条件分支的复杂工作流。传统调度系统围绕结构化数据、静态 DAG 与同构资源而建，正面临前所未有的挑战。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲基于小米在自动驾驶与大语言模型业务中、每天编排数百万任务实例的生产经验。我们审视四个核心挑战——超越静态 DAG 的动态执行、跨 YARN/K8s/GPU 上 Spark/Flink/脚本的异构资源编排、百万级调度吞吐，以及数据事件驱动的多条件触发——并给出我们的解决方案。亮点包括：声明式的基于 YAML 的工作流定义；一次带来调度吞吐 10 倍提升的架构升级；将利用率提升 50% 的资源画像与资源池化治理；以及我们在 Agent 驱动的开发与运维上的探索。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/5942-400o400o1-wDo4F7LUUS58Cv2NhH98GQ.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;LiWei Yang：软件研发工程师&lt;/p&gt;&#xA;&lt;p&gt;小米高级软件研发工程师，负责大数据开发平台的数据工程方向。Kestra、Apache Gravitino 与 Apache DolphinScheduler 的贡献者。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>ServerlessX：面向基于 RDMA 的分离式架构的内核态 Serverless 系统</title>
-      <link>/zh/sessions/microservice-1213252.html</link>
+      <title>编排与诊断：Seata-Go Agent 平台与 seata-ctl 工具链</title>
+      <link>/zh/sessions/webserver-1213943.html</link>
       <pubDate>Sun, 09 Aug 2026 16:15:00 +0000</pubDate>
-      <guid>/zh/sessions/microservice-1213252.html</guid>
-      <description>&lt;p&gt;本演讲探讨一种新颖的 Linux 内核态 Serverless 框架，旨在弥合物理分离的硬件资源池（例如分离式内存）与现代 Serverless 函数即时执行语义之间的差距。通过构建一个跨越 RDMA 网络、分布式操作系统内核原语（RDMA Fork、Map 和 mmap）以及面向特定应用扩展策略的三层架构，我们展示了如何在分离式资源之间实现毫秒级的弹性伸缩。听众将深入了解三个实际案例，包括面向 LLM 推理的快速 GPU 扩展、面向推荐系统的动态内存扩容，以及面向存储引擎的解耦式 I/O 容量扩展。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/16a6-400o400o1-KNwE7WjxEY3ppBwwGySxky.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mingxuan Liu 刘明轩：澳门大学博士后研究员&lt;/p&gt;&#xA;&lt;p&gt;Mingxuan Liu 刘明轩，现为澳门大学博士后研究员，拥有十余年的研究经验，研究方向涵盖操作系统内核、RDMA 网络、Serverless 计算和大语言模型基础设施。他在博士期间的研究聚焦于面向 RDMA 分离式架构的内核态 Serverless 资源弹性伸缩方法。他已以第一作者身份在 CCF-A/B 类高水平学术会议和期刊发表十余篇论文。目前，他在澳门大学继续从事高性能分布式系统研究。&lt;/p&gt;</description>
+      <guid>/zh/sessions/webserver-1213943.html</guid>
+      <description>&lt;p&gt;为了应对长事务编排的复杂性以及分布式事务诊断的挑战，本次演讲将介绍 Seata Go 及其基础设施的演进、Agent 编排平台与诊断工具的能力，以及将二者结合的实践用例。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/e22a-400o400o1-aMZP9AC2ZUbPKtpnLFD2sT.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tun Guo：后端开发者，Apache Seata（孵化中）Committer&lt;/p&gt;&#xA;&lt;p&gt;一家嵌入式 AI 公司的后端开发工程师，Apache Seata（孵化中）Committer。&lt;/p&gt;</description>
     </item>
     <item>
       <title>为湖流集成从 Kafka 迁移到 Fluss：落地实践</title>
@@ -107,6 +100,13 @@
       <description>&lt;p&gt;本次演讲聚焦数据管理从时序数据到专业化数据的演进。随着 IoT、科学计算和智能系统的持续发展，数据管理正在从经典的时序工作负载扩展到更复杂的数据类型，包括时空数据、网格数据、遥感数据、气象数据、日志数据和多模态数据。本次演讲将讨论这些数据给存储、索引、查询和统一访问带来的新挑战，并探索格式感知查询、跨文件组织以及数据库与文件系统融合等新兴方法。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/4d3b-400o400o1-KCzTKrVsyHFxNEWdi4vEMv.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;洪胤 张: Apache IoTDB PMC, PhD student at Tsinghua University&lt;/p&gt;&#xA;&lt;p&gt;张洪胤，Apache IoTDB PMC，清华大学博士研究生，目前负责 Apache IoTDB 的内存管理、系统监控和标准化测试工作。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>深入剖析：在 Apache Dubbo 中实现 OTel 最新 RPC 语义约定</title>
+      <link>/zh/sessions/microservice-1196673.html</link>
+      <pubDate>Sun, 09 Aug 2026 15:45:00 +0000</pubDate>
+      <guid>/zh/sessions/microservice-1196673.html</guid>
+      <description>&lt;p&gt;过去一年，OTel 社区致力于稳定 RPC 相关的语义约定——具体而言，通过深入讨论，推动 RPC 框架语义从&amp;quot;实验性&amp;quot;状态迈向&amp;quot;稳定&amp;quot;状态。本演讲将介绍 RPC 语义约定的最新进展，并详细讲解这些语义约定在 Dubbo 框架中的设计与实现。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/03b4-400o400o1-G7eFVip3FYMFfS2svgjoHq.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zihao Rao：热衷于开源&lt;/p&gt;&#xA;&lt;p&gt;Zihao 是阿里巴巴云的软件工程师。过去几年间，他参与了多个知名开源项目，是 Spring Cloud Alibaba 项目的指导委员会（steering committee）成员，目前也是 OpenTelemetry Java Instrumentation 的 approver。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>守护湖仓安全：用 Apache Gravitino 为 Iceberg REST 提供身份感知的治理</title>
       <link>/zh/sessions/datalake-1213484.html</link>
       <pubDate>Sun, 09 Aug 2026 15:45:00 +0000</pubDate>
@@ -119,13 +119,6 @@
       <pubDate>Sun, 09 Aug 2026 15:45:00 +0000</pubDate>
       <guid>/zh/sessions/dataops-1210676.html</guid>
       <description>&lt;p&gt;在分布式数据处理引擎中，协调、通信和状态管理等职责往往紧密耦合在单一框架之内。这会让系统随着时间推移变得难以演进、扩展，也难以替换其中的个别组件。&lt;/p&gt;&#xA;&lt;p&gt;在本次演讲中，我将分享自己在 SeaTunnel 引擎上的工作经验——我们探索如何引入更清晰的抽象，以降低对单一分布式框架的依赖。我会讨论这种解耦为何必要、我们考虑过的方式，以及一路上遇到的挑战。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲不会聚焦于某项具体的技术选型，而是着重于在分布式引擎中分离核心职责时所涉及的设计问题与权衡。&lt;/p&gt;&#xA;&lt;p&gt;听众将获得关于如何思考抽象边界、如何在真实分布式系统中推进架构演进的实用洞察。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/93bb-400o400o1-NHkPdFMQpRmTdxQh55vYGh.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Doyeon Kim：Apache SeaTunnel Committer&lt;/p&gt;&#xA;&lt;p&gt;Doyeon Kim 是 Apache SeaTunnel Committer，也是一名学生，对数据工程与分布式系统抱有浓厚兴趣。她为 SeaTunnel 贡献过连接器开发、引擎改进以及架构讨论等方面的工作。她近期的工作聚焦于引擎内部实现、依赖解耦以及分布式系统中的设计权衡。在本次演讲中，她将分享在 SeaTunnel 引擎中探索更清晰抽象的经验教训。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>修复微服务中的授权问题，且不必推倒重来</title>
-      <link>/zh/sessions/microservice-1206998.html</link>
-      <pubDate>Sun, 09 Aug 2026 15:45:00 +0000</pubDate>
-      <guid>/zh/sessions/microservice-1206998.html</guid>
-      <description>&lt;p&gt;授权这件事往往一开始很简单，但随着系统规模的增长，会在不知不觉中变得一团糟。在微服务架构下，授权逻辑常常在多个服务之间重复实现，每次的实现方式都略有不同，一旦出现问题，就很难理清原因。&lt;/p&gt;&#xA;&lt;p&gt;在本次演讲中，Aram 将梳理团队从单一服务扩展到众多服务时通常会出现的状况，以及访问控制逻辑如何在系统中逐渐出现偏差。我们会审视那些最初看起来没问题、但随时间推移逐渐失效的常见模式，尤其是当服务之间需要共享上下文或执行一致规则时。&lt;/p&gt;&#xA;&lt;p&gt;随后，他将介绍一种更实用的做法：把授权作为一个独立的关注点来处理，而不是到处嵌入到业务代码中。这包括如何组织策略（policy）、服务如何与外部的决策层（decision layer）交互，以及在开发和调试方面会发生哪些变化。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲聚焦于真实的实现模式与权衡，而非理论。演讲结束后，听众应当能够以更清晰的思路来思考分布式系统中的授权问题，并学会如何在不推倒重来的情况下避开常见陷阱。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/cd9a-400o400o1-sgGoPSzQYUTb5WVgD7YNNt.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Aram Andreasyan：解决方案总监&lt;/p&gt;&#xA;&lt;p&gt;Aram 专注于通过 policy-as-code（策略即代码）的方式，帮助组织简化并扩展其授权体系。他在网络安全、基础设施和访问控制方面拥有深厚背景，与工程团队和安全团队紧密合作，设计高效、合规且对开发者友好的授权系统。&lt;/p&gt;&#xA;&lt;p&gt;在加入 Cerbos 之前，Aram 曾为 EMEA 和北美地区的技术初创公司及企业客户提供咨询服务，专注于数字化转型和云安全策略。Aram 在分布式架构、MDM（主数据管理）以及复杂的 SaaS 部署方面拥有丰富经验。他热衷于外部化授权（externalized authorization）、IAM 现代化，并帮助决策者（CISO、安全架构师和工程负责人）将技术决策与合规及业务需求对齐。&lt;/p&gt;&#xA;&lt;p&gt;工作之余，Aram 喜欢与科技社区保持紧密联系、为初创公司提供指导，偶尔也会&amp;quot;兼职&amp;quot;做个赛博朋克背景故事的极客。&lt;/p&gt;</description>
     </item>
     <item>
       <title>一次构建，任意 Linux 运行：面向 Apache Cloudberry（孵化中）的 SynxDB CE</title>
@@ -170,13 +163,6 @@
       <description>&lt;p&gt;Agentic coding 让生成功能变得前所未有地容易。但这恰恰说明，仅有可扩展性已经不够：我们需要的是始终保持可理解、可替换、可治理的系统。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲以 Bub 的重写为案例，探讨一种刻意&amp;quot;反直觉&amp;quot;的设计选择。在 AI 越来越擅长产出 demo 和边缘功能的当下，Bub 的核心很大程度上仍由人类设计并手工编写。Bub 脱胎于杂乱的多人群聊，而非精致的单用户 demo，这早早暴露了结构性问题：一旦频道（channel）、技能（skill）以及与记忆相关的能力不断累积，继续把它们吸收进框架核心，只会让系统越来越难以理解、配置和维护。&lt;/p&gt;&#xA;&lt;p&gt;我将分享为什么这次重写把更多的变化推出了框架核心，让系统保持小巧且以 hook 为先，并把内置功能当作可替换的默认插件。我还会讨论 Bub 的 tape 模型——它使上下文对人和 agent 都更明确、可重建、可审查。更宏观的论点是切实的：当功能生成的成本降低时，由人精心设计核心边界、依赖方向、扩展点和上下文，这件事会变得更加重要，而不是更不重要。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/6bf9-400o400o1-DQtQav4AMVTHbmyVtQMfBY.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;卓燃 尚：ASF Member，OceanBase 资深工程师&lt;/p&gt;&#xA;&lt;p&gt;数据系统 · AI 基础设施 · 开源（OSS）&lt;/p&gt;</description>
     </item>
     <item>
-      <title>面向 Agent 的开源项目演进：Seata 走向 AI 友好之路</title>
-      <link>/zh/sessions/microservice-1212847.html</link>
-      <pubDate>Sun, 09 Aug 2026 15:15:00 +0000</pubDate>
-      <guid>/zh/sessions/microservice-1212847.html</guid>
-      <description>&lt;p&gt;过去，开源项目主要围绕人类开发者来构建社区和运营：清晰的 wiki、易读的代码注释，以及对用户友好的图形化面板。然而，随着大语言模型和 AI agent 的快速崛起，开源代码库和基础设施正面对一种全新的&amp;quot;用户&amp;quot;。未来，开源项目不仅要让人类用起来轻松愉悦，还应当在结构上便于 AI 有效地&amp;quot;理解&amp;quot;和&amp;quot;调试&amp;quot;。&lt;/p&gt;&#xA;&lt;p&gt;本演讲从开源生态的视角出发，探讨在 AI 时代开源项目如何变得更加&amp;quot;AI 友好&amp;quot;。我们将以 Apache Seata 为切入点，分享我们走向面向 AI 优化的实践历程。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ff07-400o400o1-9EDorTxm4s8EUAGsan1y1V.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Feng Zhang：DiDi Global Inc（滴滴），资深软件工程师&lt;/p&gt;&#xA;&lt;p&gt;开源爱好者&#xA;Apache Seata（孵化中）Committer&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>面向 AI 的 Apache RocketMQ：多 Agent 系统的可靠协作机制</title>
       <link>/zh/sessions/messaging-1212597.html</link>
       <pubDate>Sun, 09 Aug 2026 15:15:00 +0000</pubDate>
@@ -189,6 +175,13 @@
       <pubDate>Sun, 09 Aug 2026 15:15:00 +0000</pubDate>
       <guid>/zh/sessions/datalake-1206542.html</guid>
       <description>&lt;p&gt;摘要：&lt;/p&gt;&#xA;&lt;p&gt;本次演讲为中国移动云 DataStudio 引入一次范式转变：通过将 Apache SeaTunnel（高性能数据引擎）与 Apache Gravitino（统一元数据大脑）相结合，构建下一代联邦式数据编织（Federated Data Fabric）。&lt;/p&gt;&#xA;&lt;p&gt;通过将元数据治理与数据执行解耦，我们实现了真正的 Zero-ETL 体验。Gravitino 提供集中化的 catalog、安全和 schema 治理，而 SeaTunnel 则基于这些策略执行超高速的分布式数据同步。&lt;/p&gt;&#xA;&lt;p&gt;关键创新：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;零配置集成：元数据驱动的管道免去了手工配置。&lt;/li&gt;&#xA;&lt;li&gt;自动化 Schema 演进：跨数据湖进行安全、受治理的 DDL 变更。&lt;/li&gt;&#xA;&lt;li&gt;实时血缘：在数据流转过程中捕获 100% 准确的列级血缘。&lt;/li&gt;&#xA;&lt;li&gt;统一安全：面向企业合规的、跨云的基于 token 的数据访问。&#xA;二者结合，赋能 DataStudio 在多云时代交付一套高安全、敏捷且智能的湖仓架构。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/c0e6-400o400o1-EzbRtZqHo8Lhg4r51CDvC9.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;li jie：cmss-suzhou 工程师&lt;/p&gt;&#xA;&lt;p&gt;2024 年 12 月 – 至今 | 移动云&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>修复微服务中的授权问题，且不必推倒重来</title>
+      <link>/zh/sessions/microservice-1206998.html</link>
+      <pubDate>Sun, 09 Aug 2026 15:15:00 +0000</pubDate>
+      <guid>/zh/sessions/microservice-1206998.html</guid>
+      <description>&lt;p&gt;授权这件事往往一开始很简单，但随着系统规模的增长，会在不知不觉中变得一团糟。在微服务架构下，授权逻辑常常在多个服务之间重复实现，每次的实现方式都略有不同，一旦出现问题，就很难理清原因。&lt;/p&gt;&#xA;&lt;p&gt;在本次演讲中，Aram 将梳理团队从单一服务扩展到众多服务时通常会出现的状况，以及访问控制逻辑如何在系统中逐渐出现偏差。我们会审视那些最初看起来没问题、但随时间推移逐渐失效的常见模式，尤其是当服务之间需要共享上下文或执行一致规则时。&lt;/p&gt;&#xA;&lt;p&gt;随后，他将介绍一种更实用的做法：把授权作为一个独立的关注点来处理，而不是到处嵌入到业务代码中。这包括如何组织策略（policy）、服务如何与外部的决策层（decision layer）交互，以及在开发和调试方面会发生哪些变化。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲聚焦于真实的实现模式与权衡，而非理论。演讲结束后，听众应当能够以更清晰的思路来思考分布式系统中的授权问题，并学会如何在不推倒重来的情况下避开常见陷阱。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/cd9a-400o400o1-sgGoPSzQYUTb5WVgD7YNNt.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Aram Andreasyan：解决方案总监&lt;/p&gt;&#xA;&lt;p&gt;Aram 专注于通过 policy-as-code（策略即代码）的方式，帮助组织简化并扩展其授权体系。他在网络安全、基础设施和访问控制方面拥有深厚背景，与工程团队和安全团队紧密合作，设计高效、合规且对开发者友好的授权系统。&lt;/p&gt;&#xA;&lt;p&gt;在加入 Cerbos 之前，Aram 曾为 EMEA 和北美地区的技术初创公司及企业客户提供咨询服务，专注于数字化转型和云安全策略。Aram 在分布式架构、MDM（主数据管理）以及复杂的 SaaS 部署方面拥有丰富经验。他热衷于外部化授权（externalized authorization）、IAM 现代化，并帮助决策者（CISO、安全架构师和工程负责人）将技术决策与合规及业务需求对齐。&lt;/p&gt;&#xA;&lt;p&gt;工作之余，Aram 喜欢与科技社区保持紧密联系、为初创公司提供指导，偶尔也会&amp;quot;兼职&amp;quot;做个赛博朋克背景故事的极客。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Agentic Coding 全面释放：从自动补全到自主执行</title>
@@ -233,11 +226,11 @@
       <description>&lt;p&gt;Apache Iceberg 的元数据层正是 schema 演进、分区演进和谓词下推（predicate pushdown）得以实现的基础。但在 PB 级规模下，这些元数据本身可能膨胀到数百 GB 甚至更多。当规划阶段拖慢了执行阶段，就总得有所取舍。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲探讨 Iceberg 的元数据是如何通过 manifest、分区摘要（partition summary）以及列级指标来组织的，以及为什么每一层都是为了支撑快速分析查询而存在。随后，我们将走查 Iceberg 的原生 API、procedure，以及把它们应用于大规模场景下控制元数据体量的实用策略。最后，我们会预览 Iceberg v4 规范中的一些提案，它们旨在让元数据在默认情况下更紧凑、更具可扩展性。&lt;/p&gt;&#xA;&lt;p&gt;你将清晰地了解那数 GB 的元数据究竟从何而来，获得一份以 Iceberg 自身方式来控制元数据体量的&amp;quot;打法手册&amp;quot;，以及对 v4 规范足够的背景认知——足以让你开始参与贡献，并了解该格式未来的走向。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/1050-400o400o1-3JfnogDnkgNnwSMLv7LeQm.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hongyue Zhang：Snowflake 软件工程师&lt;/p&gt;&#xA;&lt;p&gt;Hongyue 自 2022 年起开始为 Apache Iceberg 项目做贡献，当时他在 Apple 数据平台工作。如今在 Snowflake，他围绕 Apache Iceberg 构建工具和系统，以帮助做出数据驱动的决策。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>深入剖析：在 Apache Dubbo 中实现 OTel 最新 RPC 语义约定</title>
-      <link>/zh/sessions/microservice-1196673.html</link>
+      <title>面向 Agent 的开源项目演进：Seata 走向 AI 友好之路</title>
+      <link>/zh/sessions/microservice-1212847.html</link>
       <pubDate>Sun, 09 Aug 2026 14:30:00 +0000</pubDate>
-      <guid>/zh/sessions/microservice-1196673.html</guid>
-      <description>&lt;p&gt;过去一年，OTel 社区致力于稳定 RPC 相关的语义约定——具体而言，通过深入讨论，推动 RPC 框架语义从&amp;quot;实验性&amp;quot;状态迈向&amp;quot;稳定&amp;quot;状态。本演讲将介绍 RPC 语义约定的最新进展，并详细讲解这些语义约定在 Dubbo 框架中的设计与实现。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/03b4-400o400o1-G7eFVip3FYMFfS2svgjoHq.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zihao Rao：热衷于开源&lt;/p&gt;&#xA;&lt;p&gt;Zihao 是阿里巴巴云的软件工程师。过去几年间，他参与了多个知名开源项目，是 Spring Cloud Alibaba 项目的指导委员会（steering committee）成员，目前也是 OpenTelemetry Java Instrumentation 的 approver。&lt;/p&gt;</description>
+      <guid>/zh/sessions/microservice-1212847.html</guid>
+      <description>&lt;p&gt;过去，开源项目主要围绕人类开发者来构建社区和运营：清晰的 wiki、易读的代码注释，以及对用户友好的图形化面板。然而，随着大语言模型和 AI agent 的快速崛起，开源代码库和基础设施正面对一种全新的&amp;quot;用户&amp;quot;。未来，开源项目不仅要让人类用起来轻松愉悦，还应当在结构上便于 AI 有效地&amp;quot;理解&amp;quot;和&amp;quot;调试&amp;quot;。&lt;/p&gt;&#xA;&lt;p&gt;本演讲从开源生态的视角出发，探讨在 AI 时代开源项目如何变得更加&amp;quot;AI 友好&amp;quot;。我们将以 Apache Seata 为切入点，分享我们走向面向 AI 优化的实践历程。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ff07-400o400o1-9EDorTxm4s8EUAGsan1y1V.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Feng Zhang：DiDi Global Inc（滴滴），资深软件工程师&lt;/p&gt;&#xA;&lt;p&gt;开源爱好者&#xA;Apache Seata（孵化中）Committer&lt;/p&gt;</description>
     </item>
     <item>
       <title>一种新的消费者 Offset 策略——&#39;从现在起，我想要每一条消息&#39;</title>
@@ -254,6 +247,13 @@
       <description>&lt;p&gt;美团运营着中国最大的内部消息平台之一，它最初构建于一个早期 Kafka 分支之上——内部称为 Mafka。Mafka 曾很好地服务于我们，但随着时间推移，碰到了两个硬性瓶颈。其一，消费者的可扩展性受限于分区数量：当消费者实例数量超过分区数时，吞吐量不会有任何提升。其二，客户端变成了一个沉重的产物——携带复杂的路由逻辑和一套二进制通信协议（wire protocol），使得跨语言支持沦为运维噩梦。&lt;/p&gt;&#xA;&lt;p&gt;Apache RocketMQ 5 同时解决了这两个问题。Pop 消费模型按消息（而非按分区）管理消息生命周期，使一个队列可以同时被多个消费者共享——从而解锁横向弹性。基于 gRPC 构建的 Proxy 架构，带来了轻量级、与语言无关的客户端。但开箱即用的 RocketMQ 5 并不能覆盖美团在大规模场景下的需求：一套统一的全局元数据层，以及跨多个部署环境和业务单元的企业级流量隔离。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将梳理我们在美团将 RocketMQ 5 投入生产所做出的决策与权衡。我们涵盖三个方面：第一，我们如何设计一套三层拓扑——租户（tenant）、放置组（placement group）和集群（cluster），其中放置组作为租户内的爆炸半径边界；第二，我们如何完全在 RocketMQ 之外实现多种模式的流量隔离与路由，使 broker 保持为一个纯粹的消息原语，而隔离策略可以独立演进；第三，我们如何构建单一权威的元数据服务，让所有组件保持同步。&lt;/p&gt;&#xA;&lt;p&gt;我们将结合正在进行的生产迁移的真实结果来展开。大规模运行验证了我们的核心架构选型，但也暴露了一些我们仍在攻克的难题——从 RocketMQ 5 复制模型中的数据面约束，到其共享 commit log 设计中固有的容量隔离挑战。我们希望这些生产经验对更广泛的 RocketMQ 社区有所助益。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/52fa-400o400o1-PcJvReCZbyEkp2HS9DpDKt.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jiangge Zhang：美团软件架构师&lt;/p&gt;&#xA;&lt;p&gt;Jiangge Zhang 是美团的架构师，就职于消息基础设施团队。他此前从事 SOA 中间件工作，整个职业生涯都专注于大规模分布式系统。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>ServerlessX：面向基于 RDMA 的分离式架构的内核态 Serverless 系统</title>
+      <link>/zh/sessions/microservice-1213252.html</link>
+      <pubDate>Sun, 09 Aug 2026 14:00:00 +0000</pubDate>
+      <guid>/zh/sessions/microservice-1213252.html</guid>
+      <description>&lt;p&gt;本演讲探讨一种新颖的 Linux 内核态 Serverless 框架，旨在弥合物理分离的硬件资源池（例如分离式内存）与现代 Serverless 函数即时执行语义之间的差距。通过构建一个跨越 RDMA 网络、分布式操作系统内核原语（RDMA Fork、Map 和 mmap）以及面向特定应用扩展策略的三层架构，我们展示了如何在分离式资源之间实现毫秒级的弹性伸缩。听众将深入了解三个实际案例，包括面向 LLM 推理的快速 GPU 扩展、面向推荐系统的动态内存扩容，以及面向存储引擎的解耦式 I/O 容量扩展。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/16a6-400o400o1-KNwE7WjxEY3ppBwwGySxky.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mingxuan Liu 刘明轩：澳门大学博士后研究员&lt;/p&gt;&#xA;&lt;p&gt;Mingxuan Liu 刘明轩，现为澳门大学博士后研究员，拥有十余年的研究经验，研究方向涵盖操作系统内核、RDMA 网络、Serverless 计算和大语言模型基础设施。他在博士期间的研究聚焦于面向 RDMA 分离式架构的内核态 Serverless 资源弹性伸缩方法。他已以第一作者身份在 CCF-A/B 类高水平学术会议和期刊发表十余篇论文。目前，他在澳门大学继续从事高性能分布式系统研究。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>从湖仓到 AI 数据湖：小米 AI 场景数据存储与计算架构演进</title>
       <link>/zh/sessions/datalake-1210488.html</link>
       <pubDate>Sun, 09 Aug 2026 14:00:00 +0000</pubDate>
@@ -266,13 +266,6 @@
       <pubDate>Sun, 09 Aug 2026 14:00:00 +0000</pubDate>
       <guid>/zh/sessions/agenticcoding-1207762.html</guid>
       <description>&lt;p&gt;随着 AI 辅助开发成为主流，传统的代码组织方式与开发工作流正日益显得力不从心。大规模代码库、多仓库（multi-repository）环境，以及老旧的企业系统，都为有效应用 AI 带来了严峻挑战。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲介绍规约驱动开发（Spec-Driven Development，SDD），作为规模化 AI 辅助工程的一种实践方法。SDD 不再依赖临时的（ad-hoc）prompt，而是把规约（specification）视为一等公民，用以驱动代码生成、验证与演进。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲聚焦大规模环境下的真实挑战与解决方案：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;代码库结构化：设计对 AI 友好、与规约对齐的仓库与模块结构&lt;/li&gt;&#xA;&lt;li&gt;跨仓库协同：使用规约驱动的工作流，管理多个仓库之间的依赖与变更&lt;/li&gt;&#xA;&lt;li&gt;企业集成：将 SDD 集成到现有系统、CI/CD 流水线以及开发流程中&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/a7d4-400o400o1-4GZYizF3DAJcbH1tVcZhj4.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zhangjian He：华为云高级工程师 | 华为云开源团队成员&lt;/p&gt;&#xA;&lt;p&gt;开源爱好者，经验丰富的工程师。自 2017 年开始软件开发以来，我在华为云物联网平台的云原生转型以及工业物联网平台的开发中扮演了关键角色。我担任 Apache BookKeeper/ServiceComb 的 PMC 成员、Apache Pulsar Committer，以及 CNCF openGemini Maintainer。我的专长涵盖编码、软件工程、开源与生态建设，致力于推动最佳实践与开发标准。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>使用 SkyWalking 10.4 监控 LLM 应用：性能与成本的洞察</title>
-      <link>/zh/sessions/observability-1206017.html</link>
-      <pubDate>Sun, 09 Aug 2026 14:00:00 +0000</pubDate>
-      <guid>/zh/sessions/observability-1206017.html</guid>
-      <description>&lt;p&gt;本次演讲将从 Apache SkyWalking 10.4 的突破性特性——AI 可观测性（AI Observability）的介绍开始。我们将探讨监控大语言模型（LLM）应用的战略重要性，以及 Envoy AI Gateway 在基础设施边缘保障和管理 AI 流量方面所扮演的角色。&lt;/p&gt;&#xA;&lt;p&gt;演讲的核心将聚焦于这一新特性的技术架构与原理。我们将以 SkyWalking Spring AI agent 插件和 Envoy AI Gateway 为主要示例，展示遥测数据如何在 AI 技术栈的不同层被采集。随后，我们将深入讲解可观测分析平台（OAP）如何处理这些数据，重点介绍如何把 OTLP 和 Zipkin 格式的链路数据转换为可操作的统计指标。整个工作流最终会以开箱即用的仪表盘如何将这些洞察可视化作为收尾。&lt;/p&gt;&#xA;&lt;p&gt;为了提供更广阔的视角，我们将在最后讨论当前的 AI 可观测性版图。我们会考察 Langfuse 和 Arize AI 等业界领先者，分析他们各自独特的做法——从 LLM 生命周期链路追踪、prompt 管理，到模型评估与防护（guardrails）——并与 SkyWalking 的生态进行对比。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/1dda-400o400o1-UaYwPFBbWkcjx4seCrUQP2.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;YiMing Shao：Apache SkyWalking Committer&lt;/p&gt;&#xA;&lt;p&gt;Apache SkyWalking Committer&#xA;主要专注于可观测性领域的研究。&lt;/p&gt;</description>
     </item>
     <item>
       <title>统一机器人数据：在边缘侧用 Apache TsFile 管理 ROS 消息</title>
@@ -301,13 +294,6 @@
       <pubDate>Sun, 09 Aug 2026 14:00:00 +0000</pubDate>
       <guid>/zh/sessions/dataops-1214716.html</guid>
       <description>&lt;p&gt;Gravitino 在不同的数据系统之上提供统一的元数据层。在本次演讲中，我们将展示如何使用 OpenSearch 对来自 Gravitino 的元数据进行索引与检索，从而实现快速、简便的元数据发现。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/5b0f-400o400o1-PodF8L3CQHvsGUQtEv3o3m.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yu Hui：软件工程师，Datastrato（上海）&lt;/p&gt;&#xA;&lt;p&gt;Datastrato（上海）软件工程师，从事数据基础设施与元数据系统的工作。Apache Gravitino 贡献者，专注于统一目录、元数据联邦，以及与 Trino 等查询引擎的集成。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Apache Cloudberry：为多个 PostgreSQL 实例执行的查询收集统计信息</title>
-      <link>/zh/sessions/observability-1195519.html</link>
-      <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
-      <guid>/zh/sessions/observability-1195519.html</guid>
-      <description>&lt;p&gt;假设你拥有一个由多个 PostgreSQL 实例组成的 Apache Cloudberry 集群。它们共同执行同一条查询，而你希望收集执行该查询所耗费资源的一般性统计信息。内置的 pg_stat_statements 模块在这里已经不再适用，因为它只能工作在同一个数据库之内。我将介绍一个核心思路相似的方案——同样通过查询执行钩子（hook）来采集数据，但不再将数据存放在 PostgreSQL 的共享内存中，而是把原始数据发送给一个外部的 agent 进程。该进程负责对指标进行聚合，给出跨所有实例的统一视图，并提供额外的功能，例如强制终止有问题的会话；同时它并不仅限于 PostgreSQL：该方案还能从其他系统组件采集数据。我将介绍其架构、产品层面的任务，并分享相关仓库（Apache 2.0 License）的代码链接。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/429e-400o400o1-X15FYUcE9UQzxFpN9AkBKZ.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Leonid Borchuk：Yandex Cloud（莫斯科）开发者，Apache Cloudberry committer&lt;/p&gt;&#xA;&lt;p&gt;Yandex Cloud MPP PostgreSQL 开发团队的团队负责人。他的职业生涯始于大型商用通用数据库和分析数据库的管理，而如今他终于开始编写自己的数据库。Apache Cloudberry committer。&lt;/p&gt;</description>
     </item>
     <item>
       <title>GeaFlow｜流式图计算引擎与 AI 记忆实践</title>
@@ -352,6 +338,13 @@
       <description>&lt;p&gt;Apache Kafka 已经成为现代实时数据架构的中枢神经。然而在传统的湖仓设计中，来自 Kafka 的数据通常必须先经过 Flink 或 Spark 等外部计算引擎，才能被落库、建模并组织成分析层。这种多跳的&amp;quot;消息 → 计算 → 存储&amp;quot;管道不仅推高了运维复杂度，还带来了状态一致性较弱、端到端时延升高、冷热数据生命周期割裂等问题。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲聚焦于存储计算分离架构，探讨 Kafka 原生能力在湖仓场景下的演进。我们希望通过以下核心技术来重塑实时数据管道：&lt;/p&gt;&#xA;&lt;p&gt;存储计算分离与智能数据分层。建立在存储计算分离模型之上，结合智能分层与轻量级高可用架构，我们采用了双路径 Table-Topic 同步机制，在数据新鲜度与系统稳定性之间取得最佳平衡。通过将摄入（ingestion）进度内化到 leader 的元数据中，我们彻底消除对外部 KV 存储的依赖，在保持强一致性保证的同时极大简化了管道。&lt;/p&gt;&#xA;&lt;p&gt;具备强一致性保证的行列双引擎。借助可插拔架构，我们实现了协议感知（protocol-aware）的解析，并结合 Apache Parquet 列式格式的零拷贝直写——有效地把流式写入转化为即时的湖仓持久化。一个轻量级的分布式事务协调器与基于 OSS 的 Table Catalog 相结合，在节点故障情况下严格保证 Exactly-Once 语义与原子文件提交，为摄入管道提供高可用容灾与自主状态自愈能力。&lt;/p&gt;&#xA;&lt;p&gt;内嵌的声明式流处理。我们将 Apache Calcite 作为轻量级算子引擎内嵌进来，让用户可以通过一种 SQL 方言来表达计算逻辑。借助算子下推与逻辑计划的动态编译，过滤、聚合和转换操作可直接在 Kafka 管道中、在数据的产生处就地执行。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/1bd1-400o400o1-X3dGLdsBdwR23onKjs1wZj.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hongjian Fei：阿里云，中间件开发工程师，Staff Engineer&lt;/p&gt;&#xA;&lt;p&gt;Hongjian Fei（费红健）是一位 Apache 软件基金会 Committer，长期致力于 RocketMQ 与 Kafka 的开发。在阿里云，他是 Kafka 存储计算分离架构的核心设计者之一，在 Kafka 的开发与运维方面经验丰富。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>使用 SkyWalking 10.4 监控 LLM 应用：性能与成本的洞察</title>
+      <link>/zh/sessions/observability-1206017.html</link>
+      <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
+      <guid>/zh/sessions/observability-1206017.html</guid>
+      <description>&lt;p&gt;本次演讲将从 Apache SkyWalking 10.4 的突破性特性——AI 可观测性（AI Observability）的介绍开始。我们将探讨监控大语言模型（LLM）应用的战略重要性，以及 Envoy AI Gateway 在基础设施边缘保障和管理 AI 流量方面所扮演的角色。&lt;/p&gt;&#xA;&lt;p&gt;演讲的核心将聚焦于这一新特性的技术架构与原理。我们将以 SkyWalking Spring AI agent 插件和 Envoy AI Gateway 为主要示例，展示遥测数据如何在 AI 技术栈的不同层被采集。随后，我们将深入讲解可观测分析平台（OAP）如何处理这些数据，重点介绍如何把 OTLP 和 Zipkin 格式的链路数据转换为可操作的统计指标。整个工作流最终会以开箱即用的仪表盘如何将这些洞察可视化作为收尾。&lt;/p&gt;&#xA;&lt;p&gt;为了提供更广阔的视角，我们将在最后讨论当前的 AI 可观测性版图。我们会考察 Langfuse 和 Arize AI 等业界领先者，分析他们各自独特的做法——从 LLM 生命周期链路追踪、prompt 管理，到模型评估与防护（guardrails）——并与 SkyWalking 的生态进行对比。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/1dda-400o400o1-UaYwPFBbWkcjx4seCrUQP2.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;YiMing Shao：Apache SkyWalking Committer&lt;/p&gt;&#xA;&lt;p&gt;Apache SkyWalking Committer&#xA;主要专注于可观测性领域的研究。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>用 AI Agent 构建 BanyanDB：Agentic Coding 工程实践</title>
       <link>/zh/sessions/agenticcoding-1185936.html</link>
       <pubDate>Sun, 09 Aug 2026 13:30:00 +0000</pubDate>
@@ -371,6 +364,13 @@
       <pubDate>Sat, 08 Aug 2026 17:15:00 +0000</pubDate>
       <guid>/zh/sessions/rust-1213228.html</guid>
       <description>&lt;p&gt;我们一直很关心自己的软件能扛住多大的负载，尤其是在大规模场景下。然而现实往往并不理想——几乎总是伴随着倾斜的负载和波动的资源，不断挑战着软件的稳定性与尾延迟。在本次演讲中，我将分享我们在调优一个产品级 Rust 系统时的经验，使其在复杂环境中实现可预测的调度和可靠的自保护。内容包括失败的尝试、现有 Rust 基础设施做不到的事情，以及我们是如何达成目标的。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/17ae-400o400o1-PGTz6fMBHyvwhcgyuLCThc.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ruihang Xia：Greptime Inc. 软件架构师&lt;/p&gt;&#xA;&lt;p&gt;Greptime 软件架构师&#xA;Apache DataFusion PMC，Apache Arrow Committer，Apache HoraeDB PPMC&#xA;&lt;a href=&#34;https://github.com/waynexia&#34;&gt;https://github.com/waynexia&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache Cloudberry：为多个 PostgreSQL 实例执行的查询收集统计信息</title>
+      <link>/zh/sessions/observability-1195519.html</link>
+      <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
+      <guid>/zh/sessions/observability-1195519.html</guid>
+      <description>&lt;p&gt;假设你拥有一个由多个 PostgreSQL 实例组成的 Apache Cloudberry 集群。它们共同执行同一条查询，而你希望收集执行该查询所耗费资源的一般性统计信息。内置的 pg_stat_statements 模块在这里已经不再适用，因为它只能工作在同一个数据库之内。我将介绍一个核心思路相似的方案——同样通过查询执行钩子（hook）来采集数据，但不再将数据存放在 PostgreSQL 的共享内存中，而是把原始数据发送给一个外部的 agent 进程。该进程负责对指标进行聚合，给出跨所有实例的统一视图，并提供额外的功能，例如强制终止有问题的会话；同时它并不仅限于 PostgreSQL：该方案还能从其他系统组件采集数据。我将介绍其架构、产品层面的任务，并分享相关仓库（Apache 2.0 License）的代码链接。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/429e-400o400o1-X15FYUcE9UQzxFpN9AkBKZ.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Leonid Borchuk：Yandex Cloud（莫斯科）开发者，Apache Cloudberry committer&lt;/p&gt;&#xA;&lt;p&gt;Yandex Cloud MPP PostgreSQL 开发团队的团队负责人。他的职业生涯始于大型商用通用数据库和分析数据库的管理，而如今他终于开始编写自己的数据库。Apache Cloudberry committer。&lt;/p&gt;</description>
     </item>
     <item>
       <title>从数据混乱到可控：一家全球电信运营商如何用 Apache Iceberg 驯服 PB 级挑战</title>

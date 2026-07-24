@@ -62,45 +62,6 @@
                 href="/zh/guide/code_of_conduct.html"
                 />
   </url><url>
-    <loc>/zh/index.html</loc>
-    <lastmod>2026-08-09T16:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/index.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/index.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/index.html</loc>
-    <lastmod>2026-08-09T16:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/index.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/index.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/webserver-1213943.html</loc>
-    <lastmod>2026-08-09T16:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/webserver-1213943.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/webserver-1213943.html"
-                />
-  </url><url>
     <loc>/zh/sessions/incubator-1213722.html</loc>
     <lastmod>2026-08-09T16:15:00+00:00</lastmod>
     <xhtml:link
@@ -127,17 +88,43 @@
                 href="/zh/sessions/dataops-1212212.html"
                 />
   </url><url>
-    <loc>/zh/sessions/microservice-1213252.html</loc>
+    <loc>/zh/index.html</loc>
     <lastmod>2026-08-09T16:15:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/microservice-1213252.html"
+                href="/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/microservice-1213252.html"
+                href="/zh/index.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/index.html</loc>
+    <lastmod>2026-08-09T16:15:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/index.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/index.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/webserver-1213943.html</loc>
+    <lastmod>2026-08-09T16:15:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/webserver-1213943.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/webserver-1213943.html"
                 />
   </url><url>
     <loc>/zh/sessions/streaming-1210252.html</loc>
@@ -205,6 +192,19 @@
                 href="/zh/sessions/iot-1213290.html"
                 />
   </url><url>
+    <loc>/zh/sessions/microservice-1196673.html</loc>
+    <lastmod>2026-08-09T15:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/microservice-1196673.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/microservice-1196673.html"
+                />
+  </url><url>
     <loc>/zh/sessions/datalake-1213484.html</loc>
     <lastmod>2026-08-09T15:45:00+00:00</lastmod>
     <xhtml:link
@@ -229,19 +229,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/dataops-1210676.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/microservice-1206998.html</loc>
-    <lastmod>2026-08-09T15:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/microservice-1206998.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/microservice-1206998.html"
                 />
   </url><url>
     <loc>/zh/sessions/incubator-1212002.html</loc>
@@ -322,19 +309,6 @@
                 href="/zh/sessions/agenticcoding-1212968.html"
                 />
   </url><url>
-    <loc>/zh/sessions/microservice-1212847.html</loc>
-    <lastmod>2026-08-09T15:15:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/microservice-1212847.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/microservice-1212847.html"
-                />
-  </url><url>
     <loc>/zh/sessions/messaging-1212597.html</loc>
     <lastmod>2026-08-09T15:15:00+00:00</lastmod>
     <xhtml:link
@@ -359,6 +333,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/datalake-1206542.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/microservice-1206998.html</loc>
+    <lastmod>2026-08-09T15:15:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/microservice-1206998.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/microservice-1206998.html"
                 />
   </url><url>
     <loc>/zh/sessions/agenticcoding-1213385.html</loc>
@@ -439,17 +426,17 @@
                 href="/zh/sessions/datalake-1212302.html"
                 />
   </url><url>
-    <loc>/zh/sessions/microservice-1196673.html</loc>
+    <loc>/zh/sessions/microservice-1212847.html</loc>
     <lastmod>2026-08-09T14:30:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/microservice-1196673.html"
+                href="/sessions/microservice-1212847.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/microservice-1196673.html"
+                href="/zh/sessions/microservice-1212847.html"
                 />
   </url><url>
     <loc>/zh/sessions/streaming-1199793.html</loc>
@@ -478,6 +465,19 @@
                 href="/zh/sessions/messaging-1212360.html"
                 />
   </url><url>
+    <loc>/zh/sessions/microservice-1213252.html</loc>
+    <lastmod>2026-08-09T14:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/microservice-1213252.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/microservice-1213252.html"
+                />
+  </url><url>
     <loc>/zh/sessions/datalake-1210488.html</loc>
     <lastmod>2026-08-09T14:00:00+00:00</lastmod>
     <xhtml:link
@@ -502,19 +502,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/agenticcoding-1207762.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/observability-1206017.html</loc>
-    <lastmod>2026-08-09T14:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/observability-1206017.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/observability-1206017.html"
                 />
   </url><url>
     <loc>/zh/sessions/iot-1213890.html</loc>
@@ -567,19 +554,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/dataops-1214716.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/observability-1195519.html</loc>
-    <lastmod>2026-08-09T13:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/observability-1195519.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/observability-1195519.html"
                 />
   </url><url>
     <loc>/zh/sessions/incubator-1210342.html</loc>
@@ -660,6 +634,19 @@
                 href="/zh/sessions/messaging-1212359.html"
                 />
   </url><url>
+    <loc>/zh/sessions/observability-1206017.html</loc>
+    <lastmod>2026-08-09T13:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/observability-1206017.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/observability-1206017.html"
+                />
+  </url><url>
     <loc>/zh/sessions/agenticcoding-1185936.html</loc>
     <lastmod>2026-08-09T13:30:00+00:00</lastmod>
     <xhtml:link
@@ -697,6 +684,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/rust-1213228.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/observability-1195519.html</loc>
+    <lastmod>2026-08-08T16:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/observability-1195519.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/observability-1195519.html"
                 />
   </url><url>
     <loc>/zh/sessions/streaming-1209049.html</loc>
