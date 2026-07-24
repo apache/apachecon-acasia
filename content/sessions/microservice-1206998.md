@@ -1,6 +1,6 @@
 ---
 title: "Fixing Authorization in Microservices Without Breaking Everything"
-date: "2026-08-09T15:45:00"
+date: "2026-08-09T15:15:00"
 track: "microservice"
 presenters: "Aram Andreasyan"
 stype: "English Session"

@@ -1,6 +1,6 @@
 ---
 title: "使用 SkyWalking 10.4 监控 LLM 应用：性能与成本的洞察"
-date: "2026-08-09T14:00:00"
+date: "2026-08-09T13:30:00"
 track: "observability"
 presenters: "YiMing Shao"
 stype: "中文演讲"

@@ -1,6 +1,6 @@
 ---
 title: "Orchestrating and Diagnosing: Seata-Go Agent Platform and seata-ctl Toolchain"
-date: "2026-08-09T16:45:00"
+date: "2026-08-09T16:15:00"
 track: "webserver"
 presenters: "Tun Guo"
 stype: "Chinese Session"

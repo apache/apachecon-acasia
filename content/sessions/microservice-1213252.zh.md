@@ -1,6 +1,6 @@
 ---
 title: "ServerlessX：面向基于 RDMA 的分离式架构的内核态 Serverless 系统"
-date: "2026-08-09T16:15:00"
+date: "2026-08-09T14:00:00"
 track: "microservice"
 presenters: "Mingxuan Liu"
 stype: "中文演讲"

@@ -1,6 +1,6 @@
 ---
 title: "Monitoring LLM Applications with SkyWalking 10.4: Insights into Performance and Cost"
-date: "2026-08-09T14:00:00"
+date: "2026-08-09T13:30:00"
 track: "observability"
 presenters: "YiMing Shao"
 stype: "Chinese Session"

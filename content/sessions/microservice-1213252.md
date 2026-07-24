@@ -1,6 +1,6 @@
 ---
 title: "ServerlessX: A Kernel-Space Serverless System for RDMA-based Disaggregated Architectures"
-date: "2026-08-09T16:15:00"
+date: "2026-08-09T14:00:00"
 track: "microservice"
 presenters: "Mingxuan Liu"
 stype: "Chinese Session"

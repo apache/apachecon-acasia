@@ -1,6 +1,6 @@
 ---
 title: "深入剖析：在 Apache Dubbo 中实现 OTel 最新 RPC 语义约定"
-date: "2026-08-09T14:30:00"
+date: "2026-08-09T15:45:00"
 track: "microservice"
 presenters: "Zihao Rao"
 stype: "中文演讲"

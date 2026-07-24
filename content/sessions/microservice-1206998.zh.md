@@ -1,6 +1,6 @@
 ---
 title: "修复微服务中的授权问题，且不必推倒重来"
-date: "2026-08-09T15:45:00"
+date: "2026-08-09T15:15:00"
 track: "microservice"
 presenters: "Aram Andreasyan"
 stype: "英文演讲"

@@ -1,6 +1,6 @@
 ---
 title: "编排与诊断：Seata-Go Agent 平台与 seata-ctl 工具链"
-date: "2026-08-09T16:45:00"
+date: "2026-08-09T16:15:00"
 track: "webserver"
 presenters: "Tun Guo"
 stype: "中文演讲"

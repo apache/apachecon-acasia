@@ -1,6 +1,6 @@
 ---
 title: "Evolution of Open-Source Projects for Agents: Seata’s Path to AI-Friendliness"
-date: "2026-08-09T15:15:00"
+date: "2026-08-09T14:30:00"
 track: "microservice"
 presenters: "Feng Zhang"
 stype: "Chinese Session"

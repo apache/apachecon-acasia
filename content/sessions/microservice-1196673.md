@@ -1,6 +1,6 @@
 ---
 title: "Deep Dive: Implementing OTel's Latest RPC Semantic Conventions in Apache Dubbo"
-date: "2026-08-09T14:30:00"
+date: "2026-08-09T15:45:00"
 track: "microservice"
 presenters: "Zihao Rao"
 stype: "Chinese Session"

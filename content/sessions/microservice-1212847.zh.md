@@ -1,6 +1,6 @@
 ---
 title: "面向 Agent 的开源项目演进：Seata 走向 AI 友好之路"
-date: "2026-08-09T15:15:00"
+date: "2026-08-09T14:30:00"
 track: "microservice"
 presenters: "Feng Zhang"
 stype: "中文演讲"
