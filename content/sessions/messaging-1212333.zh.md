@@ -16,10 +16,8 @@ room: "静宜厅"
 
 Dezhi LIU：Ascentstream Technology 联合创始人
 
-● 安流科技联合创始人
+● 谙流科技联合创始人
 
 ● 10 年以上大规模互联网/金融基础架构开发经验
 
 ● 前腾讯专家工程师，曾成功推动 Pulsar 在腾讯集团统一计费平台消息总线（可处理千亿级消息）以及腾讯云金融级消息服务（TDMQ）上的大规模落地
-
-● Apache Pulsar Committer

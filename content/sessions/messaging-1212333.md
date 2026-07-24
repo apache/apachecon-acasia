@@ -14,12 +14,10 @@ Multi-cluster Pulsar operations face two core challenges: rapid disaster recover
 
 <img src="https://cdn.sessionize.com/image/9fea-400o400o1-3hsAPnSmwMffEueB73VS6x.jpg" width="200" /><br/>
 
-Dezhi LIU: Ascentstream Technology co-founder
+Dezhi LIU: AscentStream Technology co-founder
 
-● Co-founder of Anliu Technology
+● Co-founder of AscentStream Technology
 
 ● 10+ years of experience in large-scale internet/financial infrastructure development
 
 ● Former expert engineer at Tencent, successfully driving the large-scale deployment of Pulsar on Tencent Group's unified billing platform's message bus (capable of handling hundreds of billions of messages) and Tencent Cloud's financial-grade messaging service (TDMQ).
-
-● Apache Pulsar Committer.
