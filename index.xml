@@ -429,11 +429,11 @@
       <description>&lt;p&gt;In 2026, AI Agent memory architecture is undergoing a paradigm shift. Traditional AI Agent memory systems largely adopt a batch processing mode characterized by &amp;ldquo;append-only writes + asynchronous indexing.&amp;rdquo; This results in significant latency in memory updates, making it difficult to support contextual evolution in real-time interaction scenarios. The essence of memory is not a static dataset, but an unbounded data stream composed of dialogue, perception, and decision-making. How to perform low-latency state management and incremental computation on this stream represents a new challenge for stream computing technology in the AI era.&#xA;This session will focus on how stream computing technology addresses the memory challenge. Apache GeaFlow (Incubating), an open-source streaming graph computation engine, is positioned as a real-time incremental graph computation layer, serving as the real-time stateful backend for Agents. Unlike traditional graph databases and stream computing engines that lack native relationship modeling capabilities, GeaFlow processes incoming data as continuous graph updates via incremental computation—where each event triggers only necessary subgraph changes, thereby avoiding expensive full recomputations.&#xA;Specifically, GeaFlow replaces full computation with incremental streaming computation to enable real-time updates of local subgraphs the instant a dialogue occurs. Through dynamic graph state management, it maintains temporal memory as stream state, resolving state consistency issues in long-running dialogues. Furthermore, it leverages a distributed snapshot mechanism to ensure state fault tolerance and recovery for enterprise-level multi-Agent collaboration.&#xA;In the technical practice segment, we will demonstrate how to build a knowledge assistant capable of millisecond-level memory updates. We will also showcase how GeaFlow provides foundational support for AI systems operating on continuously evolving knowledge graphs.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Teaching the Apache Way with a little help from AI</title>
-      <link>/sessions/community-1213694.html</link>
+      <title>The Global Bridge: Navigating Open Source Culture from the US to China</title>
+      <link>/sessions/community-1212116.html</link>
       <pubDate>Sat, 08 Aug 2026 16:15:00 +0000</pubDate>
-      <guid>/sessions/community-1213694.html</guid>
-      <description>&lt;p&gt;Every ASF project leaves lessons behind. This talk shows how real Incubator case studies were turned into practical training using AI to identify patterns and summarise discussions, helping improve onboarding, mentoring, and community development.&lt;/p&gt;&#xA;&lt;p&gt;Every ASF project has its own story. Some grow quickly, while others take years to find their rhythm, and still others fade away. Each leaves behind valuable lessons about community, governance, and collaboration.&lt;/p&gt;&#xA;&lt;p&gt;This talk shows how those lessons were turned into practical mentoring and training materials for the Apache Incubator. By analysing case studies from real projects and utilising AI tools to summarise patterns and draft content, we created new guides, quizzes, and interactive learning scenarios that help mentors and contributors learn from real-world experiences.&lt;/p&gt;</description>
+      <guid>/sessions/community-1212116.html</guid>
+      <description>&lt;p&gt;The global nature of open source is its greatest strength, yet &amp;ldquo;global&amp;rdquo; looks very different depending on whether you are in Beijing, Seattle, or Berlin. While the code remains the same, the culture surrounding it—and how we approach community—varies significantly across regions.&#xA;Drawing from my work with global ecosystems and security initiatives like PostgreSQL, Valkey, and Alpha Omega, this session explores the nuances of open source culture in China versus the US and Europe. Following my experience at Community Over Code Asia 2025, I’ve identified key differences in communication styles, engagement strategies, and community expectations that often go unnoticed.&#xA;In this session, we will cover:&#xA;• Cultural Nuances: A look at how community building differs between the East and West.&#xA;• Global Observations: Real-world examples of how collaboration shifts across different regions.&#xA;• Bridging the Gap: Practical ways to navigate these differences to foster a more inclusive and effective global conversation.&#xA;By recognizing these diverse approaches, we can better bridge the gaps in our global community building and create a more unified ecosystem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unleashing Native Performance: The Architecture and Roadmap of Apache Iceberg-cpp</title>
@@ -485,11 +485,11 @@
       <description>&lt;p&gt;Open Source and safety are two parallel ecosystems. But they are slowly coming together. This talk presents not only one of the solutions (the Ferrocene Rust compiler), but also walks through some already finished projects in the industrial space with Rust. We present how Rust is the next big language in automotive, industrial robotics and medicine.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/01f3-400o400o1-WW2P7kugtiYnEM4EJwCxPE.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Allen Wyma: Founder and Director at Plangora&lt;/p&gt;&#xA;&lt;p&gt;Allen is a programmer at heart and a visionary technology leader. With over 16 years of hands-on development experience, he guides Plangora&amp;rsquo;s technical strategy and fosters a culture of innovation and engineering excellence.&#xA;His career includes shaping critical solutions for industry giants like Motorola, Credit Suisse, and Bank of America. As a software architect, he has a proven track record of leading teams and guiding complex projects from initial concept to successful MVP, always on schedule and above expectations.&#xA;Beyond client work, Allen is a respected thought leader in the tech community. He shares his deep expertise in languages like Rust and Flutter through his popular podcasts&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Global Bridge: Navigating Open Source Culture from the US to China</title>
-      <link>/sessions/community-1212116.html</link>
+      <title>Teaching the Apache Way with a little help from AI</title>
+      <link>/sessions/community-1213694.html</link>
       <pubDate>Sat, 08 Aug 2026 15:45:00 +0000</pubDate>
-      <guid>/sessions/community-1212116.html</guid>
-      <description>&lt;p&gt;The global nature of open source is its greatest strength, yet &amp;ldquo;global&amp;rdquo; looks very different depending on whether you are in Beijing, Seattle, or Berlin. While the code remains the same, the culture surrounding it—and how we approach community—varies significantly across regions.&#xA;Drawing from my work with global ecosystems and security initiatives like PostgreSQL, Valkey, and Alpha Omega, this session explores the nuances of open source culture in China versus the US and Europe. Following my experience at Community Over Code Asia 2025, I’ve identified key differences in communication styles, engagement strategies, and community expectations that often go unnoticed.&#xA;In this session, we will cover:&#xA;• Cultural Nuances: A look at how community building differs between the East and West.&#xA;• Global Observations: Real-world examples of how collaboration shifts across different regions.&#xA;• Bridging the Gap: Practical ways to navigate these differences to foster a more inclusive and effective global conversation.&#xA;By recognizing these diverse approaches, we can better bridge the gaps in our global community building and create a more unified ecosystem.&lt;/p&gt;</description>
+      <guid>/sessions/community-1213694.html</guid>
+      <description>&lt;p&gt;Every ASF project leaves lessons behind. This talk shows how real Incubator case studies were turned into practical training using AI to identify patterns and summarise discussions, helping improve onboarding, mentoring, and community development.&lt;/p&gt;&#xA;&lt;p&gt;Every ASF project has its own story. Some grow quickly, while others take years to find their rhythm, and still others fade away. Each leaves behind valuable lessons about community, governance, and collaboration.&lt;/p&gt;&#xA;&lt;p&gt;This talk shows how those lessons were turned into practical mentoring and training materials for the Apache Incubator. By analysing case studies from real projects and utilising AI tools to summarise patterns and draft content, we created new guides, quizzes, and interactive learning scenarios that help mentors and contributors learn from real-world experiences.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unifying Lance Metadata Management with Gravitino</title>
@@ -506,18 +506,18 @@
       <description>&lt;p&gt;Apache OpenMeetings is a mature, open-source video conferencing and collaboration platform trusted by enterprises and educational institutions worldwide. This session will provide a comprehensive overview of OpenMeetings&amp;rsquo; core capabilities including OAuth2 authentication, LDAP integration, virtual backgrounds, mobile applications, clustering for high availability, and WebService APIs for enterprise integration. This talk is designed for developers, system administrators, and decision-makers exploring self-hosted video conferencing solutions with modern AI enhancements. Key Takeaways of the talk are: Understand the enterprise‑grade capabilities of Apache OpenMeetings, Learn how to integrate OpenMeetings with existing identity providers and directory services, See how virtual backgrounds and mobile apps enhance the user experience, Discover clustering options for scaling to thousands of concurrent users, Extend OpenMeetings with custom WebService integrations, Witness a live demonstration of AI‑agent integration using OpenClaw.By the end of this session, you will understand OpenMeetings&amp;rsquo; architecture, deployment options, and how to extend it with AI agents to build next-generation collaboration platforms.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Beyond Banning AI: How Open Source Communities Are Governing GenAI Contributions</title>
-      <link>/sessions/community-1210509.html</link>
-      <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
-      <guid>/sessions/community-1210509.html</guid>
-      <description>&lt;p&gt;Generative AI is making it dramatically easier to produce contribution-like inputs in open source projects: code, documentation, issues, pull requests, and even security reports. But cheaper generation does not mean cheaper review. For maintainers, the real challenge is no longer whether AI can help contributors, but how communities can govern AI-assisted contributions without overwhelming review capacity or weakening trust.&lt;/p&gt;&#xA;&lt;p&gt;Designed as a compact 15-minute session, I will share findings from a study of 67 highly visible open source projects that have started to articulate rules, expectations, and enforcement mechanisms around GenAI use. The results show that open source governance goes far beyond a simple “ban or allow” choice. Communities are experimenting with multiple governance approaches, from strict prohibition to boundary-setting, disclosure, accountability requirements, quality-first review practices, and platform-level control points.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Evolution to Lakehouse: Cost-Effective Hive Migration and Real-Time Ingestion at Scale</title>
       <link>/sessions/datalake-1213297.html</link>
       <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
       <guid>/sessions/datalake-1213297.html</guid>
       <description>&lt;p&gt;At Didi, scaling our Hive ecosystem to Iceberg required rebuilding our strategy of data integrity and governance beyond simple format conversion. We engineered a zero-downtime offline migration strategy using a snapshot-based approach, enabling consistency checks and instant rollbacks before cutover. To tackle metadata bloat and orphan files, we also integrated Apache Amoro for autonomous optimization.&lt;/p&gt;&#xA;&lt;p&gt;Building on this foundation, we extended our architecture to real-time scenarios. By streamlining the ingestion pipeline with Iceberg, we reduced data latency from hourly to minute-level. This unified approach not only simplified ETL pipelines but also saved petabytes of storage and significantly cut computing costs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Free Software Won The Battle, But Not the War</title>
+      <link>/sessions/community-1293961.html</link>
+      <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
+      <guid>/sessions/community-1293961.html</guid>
+      <description>&lt;p&gt;The Free Software Movement was a line in the sand. In the 80s and 90s, as the industry was rushing to lock software behind proprietary licenses and call that progress, a handful of people steered a cultural movement with the goal to prevent this at any cost. Decades later, the results are in: ostensibly total victory in infrastructure norms. Open source is now the  default way software is built. Almost all students learn development through it, and no CIO at any institution today needs to justify the decision to build on open source, and it has become so deeply normalised.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Paimon-cpp: Bringing Native High-Performance Data Lakehouse Access to the Apache Ecosystem</title>
@@ -709,6 +709,13 @@
       <description>&lt;p&gt;Apache Iceberg has revolutionized data lakes by bringing ACID transactions and flexible table updates. However, at enterprise scale, &amp;ldquo;hands-off&amp;rdquo; management is a myth. Without the right maintenance strategy, high-throughput systems often suffer from rising storage costs, query performance degradation, and failures.&lt;/p&gt;&#xA;&lt;p&gt;In this session, we will dissect real-world customer escalations ranging from systems crashing because they had to process massive amounts of metadata, to cleanup tasks being blocked by constant data updates from multiple concurrent writers.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>The Power of Consensus: How Community Built Contributor Covenant 3</title>
+      <link>/sessions/community-1205782.html</link>
+      <pubDate>Fri, 07 Aug 2026 16:45:00 +0000</pubDate>
+      <guid>/sessions/community-1205782.html</guid>
+      <description>&lt;p&gt;Open source can only thrive with collaboration - but collaboration doesn’t come naturally to some, and contribution doesn’t come naturally to others. How do we drive behavior change in open source to create a psychologically safe &amp;amp; collegial environment for all contributors?&lt;/p&gt;&#xA;&lt;p&gt;For over a decade, the Contributor Covenant has been the most widely adopted open source code of conduct in the world - and the scope of the Covenant is not merely to lay out a set of prescriptive rules, but to offer contributors a hopeful vision of how a project team collaborates.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Building a Palantir-like Data &amp; AI Platform with the Apache Stack</title>
       <link>/sessions/dataai-1207761.html</link>
       <pubDate>Fri, 07 Aug 2026 16:15:00 +0000</pubDate>
@@ -744,11 +751,11 @@
       <description>&lt;p&gt;An organization shall establish AI governance frameworks, policies, and practices to ensure that AI systems are developed, deployed, and managed responsibly. Governance shall emphasize compliance with applicable and emerging AI laws and regulations (e.g., the EU AI Act), while also addressing ethical considerations, risk management, and transparency.&#xA;Based on the above principles, OpenChain has developed an AI SBOM Self-Certification program to help organizations reduce AI-related risks from an implementation perspective. This approach aligns with and supports the implementation of ISO/IEC 42001.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Power of Consensus: How Community Built Contributor Covenant 3</title>
-      <link>/sessions/community-1205782.html</link>
+      <title>When AI Becomes the Downstream: Rethinking Open Source Attribution, Licensing, and Long-Term Sustain</title>
+      <link>/sessions/community-1241720.html</link>
       <pubDate>Fri, 07 Aug 2026 16:15:00 +0000</pubDate>
-      <guid>/sessions/community-1205782.html</guid>
-      <description>&lt;p&gt;Open source can only thrive with collaboration - but collaboration doesn’t come naturally to some, and contribution doesn’t come naturally to others. How do we drive behavior change in open source to create a psychologically safe &amp;amp; collegial environment for all contributors?&lt;/p&gt;&#xA;&lt;p&gt;For over a decade, the Contributor Covenant has been the most widely adopted open source code of conduct in the world - and the scope of the Covenant is not merely to lay out a set of prescriptive rules, but to offer contributors a hopeful vision of how a project team collaborates.&lt;/p&gt;</description>
+      <guid>/sessions/community-1241720.html</guid>
+      <description>&lt;p&gt;AI-assisted development and software agents are changing how open-source software is reused. Code can now be referenced, rewritten, or propagated through AI workflows without showing up in package manifests, forks, or traditional dependency graphs.&lt;/p&gt;&#xA;&lt;p&gt;This creates a new challenge for open-source communities: how do we preserve attribution, provenance, maintainer visibility, and long-term sustainability without restricting software freedom or blocking AI usage?&lt;/p&gt;&#xA;&lt;p&gt;This panel will discuss how open-source infrastructure may need to evolve in the agentic era, covering machine-readable attribution, dependency visibility, maintainer metadata, voluntary pledges, public accountability, and AI-era licensing. Using OpenSeed and the draft OpenSeed Agentic Open License 0.1 as a case study, we will explore how communities can keep open-source ecosystems visible, accountable, and sustainable as AI changes the meaning of downstream reuse.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Xiaomi RocketMQ Production Practices in Large-Scale Clusters</title>
@@ -856,6 +863,13 @@
       <description>&lt;p&gt;Flink operations and tuning heavily rely on expert experience, with slow anomaly resolution, high remediation costs, and continuous developer queries for SQL optimization and troubleshooting. To address this, we built Flink Ops, an intelligent operations platform integrating self-healing, diagnosis, and Q&amp;amp;A capabilities, and developed Flink Expert Agent powered by LLMs — forming a closed-loop system of &amp;ldquo;observe-decide-act-interact&amp;rdquo;.&#xA;This session covers:&#xA;Platform architecture: Unified ingestion of metrics, logs, lineage, and knowledge bases for real-time health profiling&#xA;Self-healing engine: Dual-mode automation — rule-based remediation plus Agent-driven intelligent recovery&#xA;Intelligent diagnosis: Automated anomaly detection, root-cause reasoning, and remediation recommendation&#xA;Expert Q&amp;amp;A: Natural language interface for SQL optimization, configuration tuning, and troubleshooting&#xA;Production results: MTTR reduced to X minutes, with Y% developer self-service rate&#xA;Who should attend: Data platform engineers, SREs, and AI practitioners interested in intelligent DataOps and LLM-powered operational systems.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Beyond Banning AI: How Open Source Communities Are Governing GenAI Contributions</title>
+      <link>/sessions/community-1210509.html</link>
+      <pubDate>Fri, 07 Aug 2026 14:30:00 +0000</pubDate>
+      <guid>/sessions/community-1210509.html</guid>
+      <description>&lt;p&gt;Generative AI is making it dramatically easier to produce contribution-like inputs in open source projects: code, documentation, issues, pull requests, and even security reports. But cheaper generation does not mean cheaper review. For maintainers, the real challenge is no longer whether AI can help contributors, but how communities can govern AI-assisted contributions without overwhelming review capacity or weakening trust.&lt;/p&gt;&#xA;&lt;p&gt;Designed as a compact 15-minute session, I will share findings from a study of 67 highly visible open source projects that have started to articulate rules, expectations, and enforcement mechanisms around GenAI use. The results show that open source governance goes far beyond a simple “ban or allow” choice. Communities are experimenting with multiple governance approaches, from strict prohibition to boundary-setting, disclosure, accountability requirements, quality-first review practices, and platform-level control points.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Building a Unified Lakehouse: Best Practices with Apache Paimon and Ecosystem</title>
       <link>/sessions/datalake-1212404.html</link>
       <pubDate>Fri, 07 Aug 2026 14:30:00 +0000</pubDate>
@@ -889,13 +903,6 @@
       <pubDate>Fri, 07 Aug 2026 14:30:00 +0000</pubDate>
       <guid>/sessions/datastorage-1213232.html</guid>
       <description>&lt;p&gt;On the way to re-implement PromQL (the query language behind Prometheus) on top of Apache DataFusion, we found many similar optimization patterns between these two totally different languages. Some share a similar idea, some can be mixed together, and some are fed back to DataFusion. We further confirmed that almost all different-looking computing systems, no matter what their user interface looks like, are composed of several generic primitives. In this session, we&amp;rsquo;ll first discuss those primitives and their optimizations. Then talk about high-level philosophies of how to keep things simple and unified while making optimizations for different systems and purposes, with lots of famous systems as examples.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>When AI Becomes the Downstream: Rethinking Open Source Attribution, Licensing, and Long-Term Sustain</title>
-      <link>/sessions/community-1241720.html</link>
-      <pubDate>Fri, 07 Aug 2026 14:30:00 +0000</pubDate>
-      <guid>/sessions/community-1241720.html</guid>
-      <description>&lt;p&gt;AI-assisted development and software agents are changing how open-source software is reused. Code can now be referenced, rewritten, or propagated through AI workflows without showing up in package manifests, forks, or traditional dependency graphs.&lt;/p&gt;&#xA;&lt;p&gt;This creates a new challenge for open-source communities: how do we preserve attribution, provenance, maintainer visibility, and long-term sustainability without restricting software freedom or blocking AI usage?&lt;/p&gt;&#xA;&lt;p&gt;This panel will discuss how open-source infrastructure may need to evolve in the agentic era, covering machine-readable attribution, dependency visibility, maintainer metadata, voluntary pledges, public accountability, and AI-era licensing. Using OpenSeed and the draft OpenSeed Agentic Open License 0.1 as a case study, we will explore how communities can keep open-source ecosystems visible, accountable, and sustainable as AI changes the meaning of downstream reuse.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache APISIX 从 API 网关到 AI 网关</title>
@@ -1029,13 +1036,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tracks/dataops.html</guid>
       <description>&lt;p&gt;Featuring some of the most innovative and cutting-edge projects in the Apache ecosystem. This track brings together leading experts and contributors from Apache DolphinScheduler, Apache Airflow, Apache SeaTunnel, Apache Flume, Apache Sqoop, Apache Griffin, Apache Atlas and other DataOps-related projects to explore the latest advances in data operations, automation, and orchestration. Whether you’re a seasoned data professional or just getting started in the field, this track offers something for everyone, with sessions covering topics such as data pipelines, ETL, orchestration, data qulity, metadata, and more. Join us at ApacheCon for an exciting and informative deep dive into the world of DataOps.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Free Software Won The Battle, But Not the War</title>
-      <link>/sessions/community-1293961.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/community-1293961.html</guid>
-      <description>&lt;p&gt;The Free Software Movement was a line in the sand. In the 80s and 90s, as the industry was rushing to lock software behind proprietary licenses and call that progress, a handful of people steered a cultural movement with the goal to prevent this at any cost. Decades later, the results are in: ostensibly total victory in infrastructure norms. Open source is now the  default way software is built. Almost all students learn development through it, and no CIO at any institution today needs to justify the decision to build on open source, and it has become so deeply normalised.&lt;/p&gt;</description>
     </item>
     <item>
       <title>General</title>

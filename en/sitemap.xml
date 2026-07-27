@@ -803,17 +803,17 @@
                 href="/sessions/streaming-1213708.html"
                 />
   </url><url>
-    <loc>/sessions/community-1213694.html</loc>
+    <loc>/sessions/community-1212116.html</loc>
     <lastmod>2026-08-08T16:15:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/community-1213694.html"
+                href="/zh/sessions/community-1212116.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/community-1213694.html"
+                href="/sessions/community-1212116.html"
                 />
   </url><url>
     <loc>/sessions/datastorage-1186318.html</loc>
@@ -907,17 +907,17 @@
                 href="/sessions/rust-1241357.html"
                 />
   </url><url>
-    <loc>/sessions/community-1212116.html</loc>
+    <loc>/sessions/community-1213694.html</loc>
     <lastmod>2026-08-08T15:45:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/community-1212116.html"
+                href="/zh/sessions/community-1213694.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/community-1212116.html"
+                href="/sessions/community-1213694.html"
                 />
   </url><url>
     <loc>/sessions/datastorage-1214223.html</loc>
@@ -946,19 +946,6 @@
                 href="/sessions/general-1213363.html"
                 />
   </url><url>
-    <loc>/sessions/community-1210509.html</loc>
-    <lastmod>2026-08-08T15:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1210509.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1210509.html"
-                />
-  </url><url>
     <loc>/sessions/datalake-1213297.html</loc>
     <lastmod>2026-08-08T15:00:00+00:00</lastmod>
     <xhtml:link
@@ -970,6 +957,19 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="/sessions/datalake-1213297.html"
+                />
+  </url><url>
+    <loc>/sessions/community-1293961.html</loc>
+    <lastmod>2026-08-08T15:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1293961.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1293961.html"
                 />
   </url><url>
     <loc>/sessions/datastorage-1214278.html</loc>
@@ -1323,6 +1323,19 @@
                 href="/sessions/datalake-1212641.html"
                 />
   </url><url>
+    <loc>/sessions/community-1205782.html</loc>
+    <lastmod>2026-08-07T16:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1205782.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1205782.html"
+                />
+  </url><url>
     <loc>/sessions/dataai-1207761.html</loc>
     <lastmod>2026-08-07T16:15:00+00:00</lastmod>
     <xhtml:link
@@ -1388,17 +1401,17 @@
                 href="/sessions/aiinfra-1212172.html"
                 />
   </url><url>
-    <loc>/sessions/community-1205782.html</loc>
+    <loc>/sessions/community-1241720.html</loc>
     <lastmod>2026-08-07T16:15:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/community-1205782.html"
+                href="/zh/sessions/community-1241720.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/community-1205782.html"
+                href="/sessions/community-1241720.html"
                 />
   </url><url>
     <loc>/sessions/messaging-1211843.html</loc>
@@ -1596,6 +1609,19 @@
                 href="/sessions/dataai-1213652.html"
                 />
   </url><url>
+    <loc>/sessions/community-1210509.html</loc>
+    <lastmod>2026-08-07T14:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1210509.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1210509.html"
+                />
+  </url><url>
     <loc>/sessions/datalake-1212404.html</loc>
     <lastmod>2026-08-07T14:30:00+00:00</lastmod>
     <xhtml:link
@@ -1659,19 +1685,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="/sessions/datastorage-1213232.html"
-                />
-  </url><url>
-    <loc>/sessions/community-1241720.html</loc>
-    <lastmod>2026-08-07T14:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1241720.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1241720.html"
                 />
   </url><url>
     <loc>/sessions/aiinfra-1214790.html</loc>
@@ -1910,18 +1923,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="/tracks/dataops.html"
-                />
-  </url><url>
-    <loc>/sessions/community-1293961.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1293961.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1293961.html"
                 />
   </url><url>
     <loc>/tracks/general.html</loc>
