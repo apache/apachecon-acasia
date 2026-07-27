@@ -982,6 +982,13 @@
       <description>&lt;p&gt;The AI Sub-forum is a professional exchange platform focusing on the integration of artificial intelligence (AI) technology and Apache open-source projects. This sub-forum aims to bring together developers, researchers, and industry users from around the world to explore the application and development of AI technology in the open-source ecosystem, showcase cutting-edge technologies, share practical experience, and promote the implementation of open-source AI solutions across various industries. Topics suitable for this sub-forum include:&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Automate Everything Except the Maintainer</title>
+      <link>/sessions/community-1290507.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/sessions/community-1290507.html</guid>
+      <description>&lt;p&gt;Every AI-for-open-source pitch promises the same thing: maintainers get their time back. But time was never the bottleneck — if it were, funding and contributor drives would have fixed burnout years ago. The real problem is that when a maintainer leaves, everything they knew leaves too: why that workaround exists, which &amp;ldquo;cleanup&amp;rdquo; detonates in production, what failed in 2019. Bus factor one. This talk makes the case that AI&amp;rsquo;s real value isn&amp;rsquo;t speed, it&amp;rsquo;s transfer — turning what a maintainer knows into a SKILL an agent can run and a newcomer can read. Drawing on the decade from Breeze to Apache Magpie, I&amp;rsquo;ll show where to draw the line between what you automate and what you don&amp;rsquo;t, and why getting that line wrong builds a faster treadmill instead of a survivable project.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Business Travel</title>
       <link>/venue_travel/travel.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1022,6 +1029,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tracks/dataops.html</guid>
       <description>&lt;p&gt;Featuring some of the most innovative and cutting-edge projects in the Apache ecosystem. This track brings together leading experts and contributors from Apache DolphinScheduler, Apache Airflow, Apache SeaTunnel, Apache Flume, Apache Sqoop, Apache Griffin, Apache Atlas and other DataOps-related projects to explore the latest advances in data operations, automation, and orchestration. Whether you’re a seasoned data professional or just getting started in the field, this track offers something for everyone, with sessions covering topics such as data pipelines, ETL, orchestration, data qulity, metadata, and more. Join us at ApacheCon for an exciting and informative deep dive into the world of DataOps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Free Software Won The Battle, But Not the War</title>
+      <link>/sessions/community-1293961.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/sessions/community-1293961.html</guid>
+      <description>&lt;p&gt;The Free Software Movement was a line in the sand. In the 80s and 90s, as the industry was rushing to lock software behind proprietary licenses and call that progress, a handful of people steered a cultural movement with the goal to prevent this at any cost. Decades later, the results are in: ostensibly total victory in infrastructure norms. Open source is now the  default way software is built. Almost all students learn development through it, and no CIO at any institution today needs to justify the decision to build on open source, and it has become so deeply normalised.&lt;/p&gt;</description>
     </item>
     <item>
       <title>General</title>
