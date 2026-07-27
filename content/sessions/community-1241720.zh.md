@@ -1,6 +1,6 @@
 ---
 title: "当 AI 成为下游：重新思考开源的署名、许可与长期可持续性"
-date: "2026-08-07T14:30:00"
+date: "2026-08-07T16:15:00"
 track: "community"
 presenters: "Ian Xu"
 stype: "中文演讲"

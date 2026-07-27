@@ -1,6 +1,6 @@
 ---
 title: "共识的力量：社区是如何打造 Contributor Covenant 3 的"
-date: "2026-08-07T16:15:00"
+date: "2026-08-07T16:45:00"
 track: "community"
 presenters: "Maryblessing  Okolie"
 stype: "英文演讲"

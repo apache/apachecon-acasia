@@ -1,6 +1,6 @@
 ---
 title: "When AI Becomes the Downstream: Rethinking Open Source Attribution, Licensing, and Long-Term Sustain"
-date: "2026-08-07T14:30:00"
+date: "2026-08-07T16:15:00"
 track: "community"
 presenters: "Ian Xu"
 stype: "Chinese Session"

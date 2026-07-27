@@ -1,6 +1,6 @@
 ---
 title: "Teaching the Apache Way with a little help from AI"
-date: "2026-08-08T16:15:00"
+date: "2026-08-08T15:45:00"
 track: "community"
 presenters: "Justin Mclean"
 stype: "English Session"

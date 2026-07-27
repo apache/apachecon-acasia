@@ -1,6 +1,6 @@
 ---
 title: "全球之桥：从美国到中国，导航开源文化"
-date: "2026-08-08T15:45:00"
+date: "2026-08-08T16:15:00"
 track: "community"
 presenters: "Miaolai Zhou"
 stype: "英文演讲"

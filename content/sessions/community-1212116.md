@@ -1,6 +1,6 @@
 ---
 title: "The Global Bridge: Navigating Open Source Culture from the US to China"
-date: "2026-08-08T15:45:00"
+date: "2026-08-08T16:15:00"
 track: "community"
 presenters: "Miaolai Zhou"
 stype: "English Session"

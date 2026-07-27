@@ -1,6 +1,6 @@
 ---
 title: "Beyond Banning AI: How Open Source Communities Are Governing GenAI Contributions"
-date: "2026-08-08T15:00:00"
+date: "2026-08-07T14:30:00"
 track: "community"
 presenters: "Wenhao Yang"
 stype: "Chinese Session"

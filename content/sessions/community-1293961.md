@@ -1,9 +1,10 @@
 ---
 title: "Free Software Won The Battle, But Not the War"
-date: ""
+date: "2026-08-08T15:00:00"
 track: "community"
 presenters: "Shyam Sridhar"
 stype: "English Session"
+room: "Mtn YuQuan Hall"
 ---
 
 The Free Software Movement was a line in the sand. In the 80s and 90s, as the industry was rushing to lock software behind proprietary licenses and call that progress, a handful of people steered a cultural movement with the goal to prevent this at any cost. Decades later, the results are in: ostensibly total victory in infrastructure norms. Open source is now the  default way software is built. Almost all students learn development through it, and no CIO at any institution today needs to justify the decision to build on open source, and it has become so deeply normalised. 
@@ -19,5 +20,4 @@ This talk argues that the four freedoms secured freedom, but they do not secure 
 
 Shyam Sridhar: Ethereum Foundation
 
-Shyam Sridhar leads the Academic Secretariat at the Ethereum Foundation, serving as the interface between the Ethereum research ecosystem and academia by connecting open research questions with scholars and supporting independent research. 
-
+Shyam Sridhar leads the Academic Secretariat at the Ethereum Foundation, serving as the interface between the Ethereum research ecosystem and academia by connecting open research questions with scholars and supporting independent research.

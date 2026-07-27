@@ -1,6 +1,6 @@
 ---
 title: "The Power of Consensus: How Community Built Contributor Covenant 3"
-date: "2026-08-07T16:15:00"
+date: "2026-08-07T16:45:00"
 track: "community"
 presenters: "Maryblessing  Okolie"
 stype: "English Session"

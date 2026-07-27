@@ -1,6 +1,6 @@
 ---
 title: "超越'禁用 AI'：开源社区如何治理 GenAI 贡献"
-date: "2026-08-08T15:00:00"
+date: "2026-08-07T14:30:00"
 track: "community"
 presenters: "Wenhao Yang"
 stype: "中文演讲"

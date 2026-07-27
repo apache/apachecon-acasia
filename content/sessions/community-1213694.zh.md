@@ -1,6 +1,6 @@
 ---
 title: "借助一点 AI 的帮助来传授 Apache 之道"
-date: "2026-08-08T16:15:00"
+date: "2026-08-08T15:45:00"
 track: "community"
 presenters: "Justin Mclean"
 stype: "英文演讲"
