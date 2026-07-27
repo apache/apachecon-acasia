@@ -1815,6 +1815,18 @@
                 href="/zh/tracks/agenticcoding.html"
                 />
   </url><url>
+    <loc>/zh/sessions/keynote-1288711.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1288711.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1288711.html"
+                />
+  </url><url>
     <loc>/zh/tracks/dataai.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1959,6 +1971,18 @@
                 href="/zh/venue_travel/travel.html"
                 />
   </url><url>
+    <loc>/zh/sessions/keynote-1214444.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1214444.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1214444.html"
+                />
+  </url><url>
     <loc>/zh/tracks/iot.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -2017,6 +2041,18 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tracks/aiinfra.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/keynote-1285193.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1285193.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1285193.html"
                 />
   </url><url>
     <loc>/zh/tracks/5minstalk.html</loc>
@@ -2113,6 +2149,42 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/tracks/messaging.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/keynote-1277291.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1277291.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1277291.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/keynote-1290495.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1290495.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1290495.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/keynote-1275170.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1275170.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1275170.html"
                 />
   </url><url>
     <loc>/zh/sessions/community-1290507.html</loc>

@@ -1877,6 +1877,18 @@
                 href="/tracks/community.html"
                 />
   </url><url>
+    <loc>/sessions/keynote-1288711.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1288711.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1288711.html"
+                />
+  </url><url>
     <loc>/tracks/dataai.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1925,6 +1937,18 @@
                 href="/tracks/dataops.html"
                 />
   </url><url>
+    <loc>/sessions/keynote-1214444.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1214444.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1214444.html"
+                />
+  </url><url>
     <loc>/tracks/general.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1947,6 +1971,18 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="/guide/index.html"
+                />
+  </url><url>
+    <loc>/sessions/keynote-1285193.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1285193.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1285193.html"
                 />
   </url><url>
     <loc>/tracks/incubator.html</loc>
@@ -1995,6 +2031,18 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="/tracks/5minstalk.html"
+                />
+  </url><url>
+    <loc>/sessions/keynote-1290495.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1290495.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1290495.html"
                 />
   </url><url>
     <loc>/tracks/messaging.html</loc>
@@ -2093,6 +2141,30 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="/guide/terms.html"
+                />
+  </url><url>
+    <loc>/sessions/keynote-1277291.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1277291.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1277291.html"
+                />
+  </url><url>
+    <loc>/sessions/keynote-1275170.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1275170.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1275170.html"
                 />
   </url><url>
     <loc>/tracks/index.html</loc>
