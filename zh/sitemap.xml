@@ -1505,6 +1505,19 @@
                 href="/zh/sessions/messaging-1211234.html"
                 />
   </url><url>
+    <loc>/zh/sessions/community-1290507.html</loc>
+    <lastmod>2026-08-07T15:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/community-1290507.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/community-1290507.html"
+                />
+  </url><url>
     <loc>/zh/sessions/olap-1212858.html</loc>
     <lastmod>2026-08-07T15:00:00+00:00</lastmod>
     <xhtml:link
@@ -2185,18 +2198,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/keynote-1275170.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/community-1290507.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/community-1290507.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/community-1290507.html"
                 />
   </url>
 </urlset>

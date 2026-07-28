@@ -772,6 +772,13 @@
       <description>&lt;p&gt;As AI systems evolve, the Model Context Protocol (MCP) is emerging as a standardized way to connect intelligent agents with external systems. Applying this framework to a distributed data warehouse like Apache Hive requires specialized architectural patterns designed for scale and security. This session details the mechanics of exposing Hive through an MCP-compatible interface to build a highly context-aware data source for AI-driven workflows. This session also evaluates the technical feasibility and operational implications of bridging Apache Hive with AI ecosystems using an MCP-driven approach.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Automate Everything Except the Maintainer</title>
+      <link>/sessions/community-1290507.html</link>
+      <pubDate>Fri, 07 Aug 2026 15:45:00 +0000</pubDate>
+      <guid>/sessions/community-1290507.html</guid>
+      <description>&lt;p&gt;Every AI-for-open-source pitch promises the same thing: maintainers get their time back. But time was never the bottleneck — if it were, funding and contributor drives would have fixed burnout years ago. The real problem is that when a maintainer leaves, everything they knew leaves too: why that workaround exists, which &amp;ldquo;cleanup&amp;rdquo; detonates in production, what failed in 2019. Bus factor one. This talk makes the case that AI&amp;rsquo;s real value isn&amp;rsquo;t speed, it&amp;rsquo;s transfer — turning what a maintainer knows into a SKILL an agent can run and a newcomer can read. Drawing on the decade from Breeze to Apache Magpie, I&amp;rsquo;ll show where to draw the line between what you automate and what you don&amp;rsquo;t, and why getting that line wrong builds a faster treadmill instead of a survivable project.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Cost Effective Agent Observability and Evaluation built on Apache Doris</title>
       <link>/sessions/aiinfra-1212762.html</link>
       <pubDate>Fri, 07 Aug 2026 15:45:00 +0000</pubDate>
@@ -987,13 +994,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tracks/aiinfra.html</guid>
       <description>&lt;p&gt;The AI Sub-forum is a professional exchange platform focusing on the integration of artificial intelligence (AI) technology and Apache open-source projects. This sub-forum aims to bring together developers, researchers, and industry users from around the world to explore the application and development of AI technology in the open-source ecosystem, showcase cutting-edge technologies, share practical experience, and promote the implementation of open-source AI solutions across various industries. Topics suitable for this sub-forum include:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Automate Everything Except the Maintainer</title>
-      <link>/sessions/community-1290507.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/community-1290507.html</guid>
-      <description>&lt;p&gt;Every AI-for-open-source pitch promises the same thing: maintainers get their time back. But time was never the bottleneck — if it were, funding and contributor drives would have fixed burnout years ago. The real problem is that when a maintainer leaves, everything they knew leaves too: why that workaround exists, which &amp;ldquo;cleanup&amp;rdquo; detonates in production, what failed in 2019. Bus factor one. This talk makes the case that AI&amp;rsquo;s real value isn&amp;rsquo;t speed, it&amp;rsquo;s transfer — turning what a maintainer knows into a SKILL an agent can run and a newcomer can read. Drawing on the decade from Breeze to Apache Magpie, I&amp;rsquo;ll show where to draw the line between what you automate and what you don&amp;rsquo;t, and why getting that line wrong builds a faster treadmill instead of a survivable project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Business Travel</title>
