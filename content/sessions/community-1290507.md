@@ -1,10 +1,10 @@
 ---
 title: "Automate Everything Except the Maintainer"
-date: ""
+date: "2026-08-07T15:45:00"
 track: "community"
 presenters: "Jarek Potiuk"
 stype: "English Session"
-room: ""
+room: "Mtn YuQuan Hall"
 ---
 
 Every AI-for-open-source pitch promises the same thing: maintainers get their time back. But time was never the bottleneck — if it were, funding and contributor drives would have fixed burnout years ago. The real problem is that when a maintainer leaves, everything they knew leaves too: why that workaround exists, which "cleanup" detonates in production, what failed in 2019. Bus factor one. This talk makes the case that AI's real value isn't speed, it's transfer — turning what a maintainer knows into a SKILL an agent can run and a newcomer can read. Drawing on the decade from Breeze to Apache Magpie, I'll show where to draw the line between what you automate and what you don't, and why getting that line wrong builds a faster treadmill instead of a survivable project.
