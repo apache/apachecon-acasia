@@ -1,5 +1,5 @@
 ---
-title: "使用 SkyWalking 10.4 监控 LLM 应用：性能与成本的洞察"
+title: "使用 SkyWalking 10.4 监控 LLM 应用：从性能、成本到质量的可观测性"
 date: "2026-08-09T13:30:00"
 track: "observability"
 presenters: "YiMing Shao"
@@ -7,11 +7,20 @@ stype: "中文演讲"
 room: "阳山会议室"
 ---
 
-本次演讲将从 Apache SkyWalking 10.4 的突破性特性——AI 可观测性（AI Observability）的介绍开始。我们将探讨监控大语言模型（LLM）应用的战略重要性，以及 Envoy AI Gateway 在基础设施边缘保障和管理 AI 流量方面所扮演的角色。
+  随着大语言模型逐步进入生产系统，传统 APM 已不足以回答模型选择、Token 消耗、首 Token 延迟、调用成本与输出质量等关键问
+  题。本次演讲将介绍 Apache SkyWalking 10.4 的 AI 可观测性能力，展示如何将 LLM 调用转化为可关联、可分析、可运营的观测数
+  据。
 
-演讲的核心将聚焦于这一新特性的技术架构与原理。我们将以 SkyWalking Spring AI agent 插件和 Envoy AI Gateway 为主要示例，展示遥测数据如何在 AI 技术栈的不同层被采集。随后，我们将深入讲解可观测分析平台（OAP）如何处理这些数据，重点介绍如何把 OTLP 和 Zipkin 格式的链路数据转换为可操作的统计指标。整个工作流最终会以开箱即用的仪表盘如何将这些洞察可视化作为收尾。
+  演讲以 SkyWalking Spring AI 1.x Agent 插件为例，说明如何自动采集 Chat、Streaming、Tool Calling、RAG Retrieval、
+ Vector Search 等调用，并遵循 OpenTelemetry GenAI Semantic Conventions 上报模型、Provider、Token、TTFT 及
+  请求响应等数据。同时也会简要介绍 Envoy AI Gateway 如何从网关侧通过 OTLP 上报 GenAI 指标与访问日志，为 AI 流量提供基础
+  设施层的观测入口。
 
-为了提供更广阔的视角，我们将在最后讨论当前的 AI 可观测性版图。我们会考察 Langfuse 和 Arize AI 等业界领先者，分析他们各自独特的做法——从 LLM 生命周期链路追踪、prompt 管理，到模型评估与防护（guardrails）——并与 SkyWalking 的生态进行对比。
+  随后将深入 OAP 的处理流程：SkyWalking 如何接收 SkyWalking、OTLP 与 Zipkin Trace，匹配 Provider 与 Model，加载模型定价
+  配置并计算预估成本，最终生成按 Provider 和 Model 聚合的性能、Token、SLA 与成本指标，并通过开箱即用的 Dashboard 展示。
+
+  最后将介绍正在演进的 LLM as Judge 评测能力：系统可对 GenAI Span 进行采样评测，依据可配置的 Rubrics 生成质量记录、等级
+  和评分指标，并与 Trace、Dashboard 和告警关联，形成从调用采集、性能与成本分析到质量评测的完整闭环。
 
 ### 讲师:
 
