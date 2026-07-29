@@ -429,13 +429,6 @@
       <description>&lt;p&gt;量子机器学习（QML）虽然前景广阔，但在实际应用中，往往会在量子计算开始之前遇到一个主要瓶颈。经典特征向量必须先经过处理并编码成量子态。随着数据维度和量子比特数量的增加，这一步骤可能占据端到端执行时间的大部分，并限制 QML 工作流的可扩展性。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将介绍 Quantum Data Plane（QDP，量子数据平面）。这是 Apache Mahout 中正在开发的 GPU 加速数据平面，旨在让量子数据编码更加高效且更具可扩展性。QDP 将数据编码视为一个专门的执行层，而不是一次性的预处理任务。我们将介绍其设计动机、整体架构、与 Apache Mahout 的集成方式，以及 GPU 并行计算如何帮助解决数据编码瓶颈。&lt;/p&gt;&#xA;&lt;p&gt;结合实际开发经验，我们将分享构建 QDP 过程中的关键设计选择与经验总结，并讨论 GPU 加速最能发挥价值的场景、这种方法的局限与取舍，以及项目未来如何通过开源协作持续发展。&lt;/p&gt;&#xA;&lt;p&gt;听众将了解 QML 中数据准备所面临的实际挑战，并从更广泛的视角认识 Apache Mahout 如何连接经典机器学习基础设施与新兴的量子计算工作流。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/6b2a-400o400o1-nbSA2ncJzfTvAieYESc8nK.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;张杰凯：Apache Mahout 项目管理委员会成员&lt;/p&gt;&#xA;&lt;p&gt;张杰凯长期参与开源社区与项目治理，关注高性能计算、GPU 加速及机器学习基础设施。他也参与 Ray 与 KubeRay 社区，探索分布式计算、云原生 AI，以及 Kubernetes 上的 AI 工作负载管理。目前致力于解决量子机器学习中的数据编码瓶颈，并推动 Apache Mahout Quantum Data Plane（QDP）的设计与实现。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/3ff9-400o400o2-WwwDMsRTLkU2W9JqkZaTxF.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;温冠华：Apache Mahout Committer&lt;/p&gt;&#xA;&lt;p&gt;微软研发实习生&lt;/p&gt;</description>
     </item>
     <item>
-      <title>全球之桥：从美国到中国，导航开源文化</title>
-      <link>/zh/sessions/community-1212116.html</link>
-      <pubDate>Sat, 08 Aug 2026 16:15:00 +0000</pubDate>
-      <guid>/zh/sessions/community-1212116.html</guid>
-      <description>&lt;p&gt;开源的全球性是它最大的优势，然而&amp;quot;全球&amp;quot;这个词，取决于你身处北京、西雅图还是柏林，看起来截然不同。代码是一样的，但它周围的文化——以及我们对待社区的方式——在不同地区差异显著。&#xA;结合我在 PostgreSQL、Valkey、Alpha Omega 等全球生态与安全倡议方面的工作，本次演讲探讨中国与美国、欧洲之间开源文化的细微差异。继我在 Community Over Code Asia 2025 的经历之后，我梳理出了一些在沟通风格、参与策略和社区期望上常常被忽视的关键差异。&#xA;在本次演讲中，我们将涵盖：&#xA;• 文化细节：看一看东西方在社区建设上的差异。&#xA;• 全球观察：协作在不同地区如何转变的真实案例。&#xA;• 弥合鸿沟：应对这些差异的实用方法，以营造更具包容性、更高效的全球对话。&#xA;通过认识这些多元的做法，我们可以更好地弥合全球社区建设中的鸿沟，打造一个更统一的生态。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/331c-400o400o1-smrryn7qJwnVcr44qTbcyn.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Miaolai Zhou：AWS，项目经理&lt;/p&gt;&#xA;&lt;p&gt;Mila 是 AWS 一位充满热情的项目经理，牵头为开源项目提供关键资源的资助项目。她对赋能和支持这些社区的坚定投入，促进了可持续性、推动了创新，也让协作成为可能。她积极参与开源社区，出席各类会议，并参与关于可持续性、安全和最佳实践的讨论，逐渐成为该生态中有影响力的人物。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>全栈 Rust × AI Native：我们在 NonConvex 如何演进产品与研发</title>
       <link>/zh/sessions/rust-1209378.html</link>
       <pubDate>Sat, 08 Aug 2026 16:15:00 +0000</pubDate>
