@@ -940,11 +940,11 @@
       <description>&lt;p&gt;On the way to re-implement PromQL (the query language behind Prometheus) on top of Apache DataFusion, we found many similar optimization patterns between these two totally different languages. Some share a similar idea, some can be mixed together, and some are fed back to DataFusion. We further confirmed that almost all different-looking computing systems, no matter what their user interface looks like, are composed of several generic primitives. In this session, we&amp;rsquo;ll first discuss those primitives and their optimizations. Then talk about high-level philosophies of how to keep things simple and unified while making optimizations for different systems and purposes, with lots of famous systems as examples.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Apache APISIX 从 API 网关到 AI 网关</title>
+      <title>Apache APISIX: From API Gateway to AI Gateway</title>
       <link>/sessions/aiinfra-1214790.html</link>
       <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
       <guid>/sessions/aiinfra-1214790.html</guid>
-      <description>&lt;p&gt;Apache APISIX 是一个云原生 API 网关，现在也逐渐变为一个 AI 网关，这个分享中会大概介绍这个演进过程，以及 AI 网关的一些核心功能和实现思路。&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2621-400o400o1-PUyHgnJweYXq4DhABszJKA.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ming Wen: PMC Chair of Apache APISIX&lt;/p&gt;&#xA;&lt;p&gt;PMC Chair of Apache APISIX, Member of ASF&lt;/p&gt;</description>
+      <description>&lt;p&gt;Apache APISIX is a cloud-native API gateway that is now gradually evolving into an AI gateway as well. This talk will provide an overview of this evolution, along with some of the core features of the AI gateway and the ideas behind its implementation.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2621-400o400o1-PUyHgnJweYXq4DhABszJKA.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ming Wen: PMC Chair of Apache APISIX&lt;/p&gt;&#xA;&lt;p&gt;PMC Chair of Apache APISIX, Member of ASF&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Ozone: Auto File Expiration and Removing through S3 Lifecycle Configuration</title>

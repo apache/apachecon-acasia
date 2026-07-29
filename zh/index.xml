@@ -702,13 +702,6 @@
       <description>&lt;p&gt;AI Link 是腾讯云 MQTT 的 AI 接入层——让 AI agent 能够发现、理解并控制物理设备。它构建于 MQTT broker 之上，将物理设备暴露为 MCP 兼容的工具，并聚合实时状态与历史上下文以供 AI 推理使用。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/3272-400o400o1-U5M1yqn1gt42PZ685dPfhB.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Wei Yang：腾讯云 TDMQ 产品经理&lt;/p&gt;&#xA;&lt;p&gt;Wei Yang，腾讯云云中间件高级产品经理，主导腾讯云 MQTT 的商业化落地。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/eb41-400o400o1-43rFfawUrhCrcY3FQoA1rg.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Senze Zhang：Apache RocketMQ Committer&lt;/p&gt;&#xA;&lt;p&gt;Senze Zhang 是一位资深的工程师，专注于消息队列系统领域。他在高性能消息解决方案的设计、实现与优化方面经验丰富，曾参与部署包括 RocketMQ、Kafka、MQTT 在内的多种业界领先的消息队列平台。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Apache APISIX 从 API 网关到 AI 网关</title>
-      <link>/zh/sessions/aiinfra-1214842.html</link>
-      <pubDate>Fri, 07 Aug 2026 16:45:00 +0000</pubDate>
-      <guid>/zh/sessions/aiinfra-1214842.html</guid>
-      <description>&lt;p&gt;Apache APISIX 是一个云原生 API 网关，现在也逐渐变为一个 AI 网关，这个分享中会大概介绍这个演进过程，以及 AI 网关的一些核心功能和实现思路。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2621-400o400o1-PUyHgnJweYXq4DhABszJKA.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ming Wen：Apache APISIX PMC Chair&lt;/p&gt;&#xA;&lt;p&gt;Apache APISIX PMC Chair，ASF Member&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Iceberg 故障剖析：来自真实线上升级事件的经验教训</title>
       <link>/zh/sessions/datalake-1212641.html</link>
       <pubDate>Fri, 07 Aug 2026 16:45:00 +0000</pubDate>
@@ -721,6 +714,13 @@
       <pubDate>Fri, 07 Aug 2026 16:45:00 +0000</pubDate>
       <guid>/zh/sessions/olap-1211809.html</guid>
       <description>&lt;p&gt;Apache Impala 是一款采用大规模并行处理（MPP）架构、面向开放数据和开放表格式实现的原生查询引擎。&lt;/p&gt;&#xA;&lt;p&gt;在本次演讲中，我们将分享过去一年 Impala 社区的更新，包括即将发布的 5.0 版本的亮点：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;与 Apache Iceberg 更深度的集成，包括在行级血缘（row lineage）和删除向量（deletion vectors）等 Iceberg v3 能力上的进展；REST catalog 支持；以及元数据处理和表维护方面更广泛的改进。&lt;/li&gt;&#xA;&lt;li&gt;基于 Calcite 的查询规划器（query planner）的一个重大里程碑，包括各种优化和针对边缘场景的正确性修复，目标是在最关键的场合追平或超越旧版规划器。&lt;/li&gt;&#xA;&lt;li&gt;Catalog 可扩展性与可观测性的改进，包括 catalogd HA 的热故障转移（warm failover）、HMS 增量事件处理，以及对 local-catalog 模式的增强。&lt;/li&gt;&#xA;&lt;li&gt;执行侧的改进，例如中间结果缓存、数组的延迟物化（late materialization）、更精确的内存估算以及相关优化。&lt;/li&gt;&#xA;&lt;li&gt;在负载管理、admissiond、OpenTelemetry 集成以及其他运维和生态面向特性方面的额外工作。&#xA;我们还将简要介绍面向未来版本正在推进的工作，例如基于历史的优化器（History-based Optimizer）、PIVOT/UNPIVOT 支持、AI Query Profile Analyzer 等。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/398d-400o400o1-S5epraDQAwGwUV91W9Pq4n.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Quanlong Huang：Cloudera，Senior Staff Engineer&lt;/p&gt;&#xA;&lt;p&gt;Quanlong Huang 是 Cloudera 的软件工程师。过去 8 年多以来，他持续为 Apache Impala 项目做贡献。他是 Apache Impala 的 committer 和 PMC 成员，也是 Apache ORC 的 committer，并参与了 Apache Hive、Apache Hadoop、Apache Thrift 等其他开源项目的贡献。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenClaw 安全治理：从无序到有序</title>
+      <link>/zh/sessions/aiinfra-1214842.html</link>
+      <pubDate>Fri, 07 Aug 2026 16:45:00 +0000</pubDate>
+      <guid>/zh/sessions/aiinfra-1214842.html</guid>
+      <description>&lt;p&gt;通过真实案例，本演讲揭示了以 OpenClaw 为代表的自主 AI agent 爆发式增长背后，那些不容忽视的系统性安全风险，并将其根因归结为&amp;quot;功能性与安全性无法兼得&amp;quot;的&amp;quot;致命三角&amp;quot;。以此为契机，展示了其完整的产品生态——涵盖治理理念、核心技术（元认知，metacognition），并覆盖评估、防御、训练与硬件的整条链路——旨在为企业提供一站式的 AI agent 安全治理方案。最终目标，是带领 AI 从当下的&amp;quot;无序&amp;quot;状态，走向一个被定义为&amp;quot;第一秩序（First Order）&amp;ldquo;的新生态。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/b98d-400o400o1-UCkGgLPPWQ3tzmR29RkpQX.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Leo (Zhiquan) Yu：守序智能（Shouxu Intelligence）AI 生态与市场负责人&lt;/p&gt;&#xA;&lt;p&gt;AIFun（AI 产业交流与合作社区）联合创始人；守序智能（Shouxu Intelligence）AI 生态与市场负责人。在软件研发与管理、技术社区运营方面拥有多年经验。&#xA;此前曾任连尚网络（WiFi 万能钥匙）PMO 及技术委员会执委，明道云（开放平台与应用市场）技术总监，海丁网络 Headin 技术社区与活动平台负责人，以及 Corel 的研发经理。&#xA;社会职务包括中国计算机学会（CCF）TF 工程师文化执委与 CTO 俱乐部（上海），苏州市计算机学会（SZCF）与上海开源协会（SHOpen）成员，并参与敏捷社区 / Agile Tour。深度参与 Google GDG、Amazon Web Services UG、华为 HDG 等开发者生态，担任相关技术社区的核心组织者。&lt;/p&gt;</description>
     </item>
     <item>
       <title>共识的力量：社区是如何打造 Contributor Covenant 3 的</title>
@@ -807,11 +807,11 @@
       <description>&lt;p&gt;企业 OLAP 引擎、BI 工具和指标体系已经存在多年。然而一旦组织迈向自然语言数据问答、跨引擎分析，以及由 AI agent 自动消费数据的场景，隐藏的问题便会迅速浮现：同一个指标在不同系统里可能定义各异，表和列往往缺乏一致的业务含义，治理规则也常常无法随分析流程流转。结果是分析成果难以复用，AI 生成的答案难以令人信任，许多有前景的 AI 用例迟迟无法走向生产。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲分享来自真实企业交流与方案设计中的实践观察，聚焦于 OLAP 系统向 AI 驱动分析演进时最常见的缺口：碎片化的元数据、缺失的语义层、无法一致复用的指标定义、止步于系统边界的治理，以及面向 AI 应用的不稳定或不可控的数据访问上下文。&lt;/p&gt;&#xA;&lt;p&gt;我将讨论一种面向开放数据栈的一体化方法。其思路是：用统一的元数据层跨多个引擎和 catalog 组织数据对象，用语义层定义可复用的指标与分析含义，再把这些能力一致地暴露给 BI 工具、自然语言数据问答以及基于 agent 的应用。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将围绕三个问题展开。第一，引入 AI 之后，OLAP 系统为何会面临新的一致性与治理挑战？第二，元数据、语义层、查询引擎和 AI agent 应当如何分工协作，在发现、定义、访问控制和执行中各司其职？第三，架构师该如何在生态开放性、实现复杂度与用户体验之间取得平衡，使分析不仅能跑起来，还能被复用、可解释、受治理？&lt;/p&gt;&#xA;&lt;p&gt;本议题不局限于单一查询引擎，而是从 Apache 数据生态的视角来看待这个问题，探讨 OLAP 系统如何补齐其缺失的语义与治理层，从而支撑更可信的分析、更自然的数据交互，以及更可控的 AI 驱动数据消费。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2f32-400o400o1-hZgxcGzAcpuUqU5GRPEqAy.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Binhui Liu：Datastrato 解决方案工程师，专注于元数据、数据治理以及面向 AI 的数据基础设施&lt;/p&gt;&#xA;&lt;p&gt;Levent Liu 是 Datastrato 的解决方案工程师，专注于元数据、数据治理以及面向 AI 的数据基础设施。他与企业用户合作推进开放数据架构的落地，尤其围绕元数据管理、湖仓互操作性，以及 AI 对受治理数据的访问。他近期的工作聚焦于元数据、语义和治理如何支撑更可靠的 AI 用例，例如自然语言 BI、RAG 和基于 agent 的工作流。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>基于 Apache Gravitino 在腾讯云构建 AI 原生元数据服务</title>
+      <title>基于 Apache Doris 构建高性价比的 Agent 可观测性与评估</title>
       <link>/zh/sessions/aiinfra-1212762.html</link>
       <pubDate>Fri, 07 Aug 2026 15:45:00 +0000</pubDate>
       <guid>/zh/sessions/aiinfra-1212762.html</guid>
-      <description>&lt;p&gt;2026 年是 AI agent 从 demo 走向生产的一年。每一个 agent——无论它是在查询数据、训练模型，还是编排管道——都会撞上同一堵墙：&amp;ldquo;数据在哪里？我有没有权限？&amp;rdquo; 元数据 catalog 不再只是一个被动的登记簿；它是 agent 用来发现、推理和行动的&amp;quot;上下文大脑&amp;quot;。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲分享我们如何在 Apache Gravitino 之上构建 TCCatalog，使其在腾讯云的规模下胜任这一新角色。我们将介绍云原生架构、面向 AI 原生工作负载的扩展（Iceberg + Lance + Model Registry + MCP），以及来之不易的生产经验——包括真实故障故事、性能数据与工程权衡。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/427b-400o400o1-XCDWSeV9FXWG42HjVudX9.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jinsong Zhou：腾讯 Staff 软件工程师，Apache Amoro（孵化中）PPMC 成员&lt;/p&gt;&#xA;&lt;p&gt;Jinsong Zhou 是腾讯的 Staff 软件工程师，在数据库和大数据领域拥有 10 年的专业经验。他目前在腾讯云牵头基于 Apache Iceberg 的湖仓架构落地，同时担任 Apache Amoro（孵化中）的 PPMC 成员，积极推动社区发展。&lt;/p&gt;</description>
+      <description>&lt;p&gt;在 AI 时代，可观测性的目标已远远超出单纯的系统稳定性和高性能。鉴于大语言模型（LLM）和 AI Agent 固有的不确定性，细致的追踪、评估与优化变得前所未有地关键。&lt;/p&gt;&#xA;&lt;p&gt;Litefuse 是一个基于 Apache Doris 构建的 Agent 可观测性与评估平台。它支持评估驱动开发（evaluation-driven development），帮助开发者构建并交付更可靠的 AI Agent。&lt;/p&gt;&#xA;&lt;p&gt;演讲亮点：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Agent 可观测性与评估的重要性。&lt;/li&gt;&#xA;&lt;li&gt;Agent 可观测性与评估的关键挑战。&lt;/li&gt;&#xA;&lt;li&gt;基于 Apache Doris 构建 Agent 可观测性与评估。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/40fa-400o400o1-LJ32faVgD31ycD9L9S4w5G.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kang Xiao：SelectDB 联合创始人&lt;/p&gt;&#xA;&lt;p&gt;SelectDB 联合创始人&#xA;360 与奇安信（QianXin）总监&#xA;百度高级工程师&lt;/p&gt;</description>
     </item>
     <item>
       <title>架设 AI 与数据的桥梁：探索面向 Apache Hive 的模型上下文协议（MCP）</title>
@@ -912,11 +912,11 @@
       <description>&lt;p&gt;随着数据架构不断演进，为批处理和流处理分别维护独立的孤岛——Lambda 架构的标志——已经变得越来越昂贵和复杂。我们如何才能构建一个真正统一的平台，既能提供实时的数据新鲜度，又能在规模化场景下实现高性能分析？&lt;/p&gt;&#xA;&lt;p&gt;在本次演讲中，我们将超越理论，深入构建以 Apache Paimon 为中心的下一代统一湖仓的实战一线。我们将分享身经百战的最佳实践和真实落地模式，演示如何通过深度的生态协同来架构一条无缝的数据管道：&lt;/p&gt;&#xA;&lt;p&gt;Apache Flink + Paimon —— 稳健、低时延的实时入湖，进入事务型数据湖&#xA;Apache Paimon —— 核心存储层，支持 ACID 事务、schema 演进和流批统一读取&#xA;StarRocks 与 Apache Spark + Paimon —— 直接在湖上提供卓越的交互式和批处理查询性能&#xA;Apache Kyuubi —— 把这一切串联起来的统一、无服务器 SQL 网关&#xA;Apache Gravitino —— 统一元数据管理，支持跨引擎和数据源的集中化元数据治理&#xA;听众将带走一套围绕 Paimon 及其他关键组件构建统一湖仓的、经过验证的方法论，以及跨生态的组件选型、集成和生产调优的实用指导，还有额外的 Data+AI 应用场景。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/be84-400o400o1-BzW6ygnHFUNsYubzvrwjzK.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zhoulong Liu：eclicktech 资深大数据专家&lt;/p&gt;&#xA;&lt;p&gt;作为 eclicktech 大数据部门的负责人，他此前曾在搜狐视频和腾讯工作，擅长构建大数据平台及相关系统。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>基于 Apache Doris 构建高性价比的 Agent 可观测性与评估</title>
+      <title>基于 Apache Gravitino 在腾讯云构建 AI 原生元数据服务</title>
       <link>/zh/sessions/aiinfra-1214534.html</link>
       <pubDate>Fri, 07 Aug 2026 14:30:00 +0000</pubDate>
       <guid>/zh/sessions/aiinfra-1214534.html</guid>
-      <description>&lt;p&gt;在 AI 时代，可观测性的目标已远远超出单纯的系统稳定性和高性能。鉴于大语言模型（LLM）和 AI Agent 固有的不确定性，细致的追踪、评估与优化变得前所未有地关键。&lt;/p&gt;&#xA;&lt;p&gt;Litefuse 是一个基于 Apache Doris 构建的 Agent 可观测性与评估平台。它支持评估驱动开发（evaluation-driven development），帮助开发者构建并交付更可靠的 AI Agent。&lt;/p&gt;&#xA;&lt;p&gt;演讲亮点：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Agent 可观测性与评估的重要性。&lt;/li&gt;&#xA;&lt;li&gt;Agent 可观测性与评估的关键挑战。&lt;/li&gt;&#xA;&lt;li&gt;基于 Apache Doris 构建 Agent 可观测性与评估。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/40fa-400o400o1-LJ32faVgD31ycD9L9S4w5G.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kang Xiao：SelectDB 联合创始人&lt;/p&gt;&#xA;&lt;p&gt;SelectDB 联合创始人&#xA;360 与奇安信（QianXin）总监&#xA;百度高级工程师&lt;/p&gt;</description>
+      <description>&lt;p&gt;2026 年是 AI agent 从 demo 走向生产的一年。每一个 agent——无论它是在查询数据、训练模型，还是编排管道——都会撞上同一堵墙：&amp;ldquo;数据在哪里？我有没有权限？&amp;rdquo; 元数据 catalog 不再只是一个被动的登记簿；它是 agent 用来发现、推理和行动的&amp;quot;上下文大脑&amp;quot;。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲分享我们如何在 Apache Gravitino 之上构建 TCCatalog，使其在腾讯云的规模下胜任这一新角色。我们将介绍云原生架构、面向 AI 原生工作负载的扩展（Iceberg + Lance + Model Registry + MCP），以及来之不易的生产经验——包括真实故障故事、性能数据与工程权衡。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/427b-400o400o1-XCDWSeV9FXWG42HjVudX9.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jinsong Zhou：腾讯 Staff 软件工程师，Apache Amoro（孵化中）PPMC 成员&lt;/p&gt;&#xA;&lt;p&gt;Jinsong Zhou 是腾讯的 Staff 软件工程师，在数据库和大数据领域拥有 10 年的专业经验。他目前在腾讯云牵头基于 Apache Iceberg 的湖仓架构落地，同时担任 Apache Amoro（孵化中）的 PPMC 成员，积极推动社区发展。&lt;/p&gt;</description>
     </item>
     <item>
       <title>蚂蚁实时计算团队在 Flink Expert Agent 上的实践</title>
@@ -947,6 +947,13 @@
       <description>&lt;p&gt;在技术呈指数级迭代的 AI 时代，&amp;ldquo;Community Over Code（社区重于代码）&amp;ldquo;的理念比以往任何时候都更为关键。作为一名活跃的 Apache PMC 成员、CNCF 项目 Maintainer，以及企业 OSPO 实践者，我将分享这两大顶级开源基金会多样化的治理风格与成功实践。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲不是要比出孰优孰劣，而是聚焦于不同治理模式背后的运营智慧。我们将深入剖析它们的治理结构、贡献者激励机制以及社区活动组织。结合真实的成功案例，讨论开源社区如何灵活应对 AI 时代的新趋势与新挑战，以及如何借助社区的力量驱动持续创新。无论你身处何种技术生态，都能带走参与、理解并建设繁荣开源社区的实用指南。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/f2cb-400o400o1-HGs8bAPipabeAmu7Ph9uiB.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Fengjun Lyu：蚂蚁集团，技术布道师&lt;/p&gt;&#xA;&lt;p&gt;我是 Mingcheng（明城）。来自宁波，目前定居中国杭州。我在蚂蚁集团担任开源布道师，并任职于 Apache 软件基金会的项目管理委员会（PMC）。我积极维护多个开源项目，包括 InclusionAI、Dragonfly 和 Apache Geaflow。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Apache APISIX 从 API 网关到 AI 网关</title>
+      <link>/zh/sessions/aiinfra-1214790.html</link>
+      <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
+      <guid>/zh/sessions/aiinfra-1214790.html</guid>
+      <description>&lt;p&gt;Apache APISIX 是一个云原生 API 网关，现在也逐渐变为一个 AI 网关，这个分享中会大概介绍这个演进过程，以及 AI 网关的一些核心功能和实现思路。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2621-400o400o1-PUyHgnJweYXq4DhABszJKA.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ming Wen：Apache APISIX PMC Chair&lt;/p&gt;&#xA;&lt;p&gt;Apache APISIX PMC Chair，ASF Member&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Apache Ozone：基于 S3 生命周期配置的文件自动过期与删除</title>
       <link>/zh/sessions/datastorage-1210477.html</link>
       <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
@@ -959,13 +966,6 @@
       <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
       <guid>/zh/sessions/messaging-1196418.html</guid>
       <description>&lt;p&gt;本次分享将讲解我们如何为 Apache RocketMQ 演进出一套轻量级的外部路由控制面，在不改动 broker、nameserver 以及客户端访问模式的前提下，支撑大规模集群的治理。&lt;/p&gt;&#xA;&lt;p&gt;随着多条业务线逐步共用同一个集群，真正的挑战从吞吐量转向治理：更快的故障收敛、可控的 topic 迁移，以及灵活的基于泳道（lane）的流量隔离。在本次演讲中，我将说明为什么这些问题更适合在路由层解决，为什么现有的 NameServer 和 Broker 机制并不足够，以及如何将 broker 写隔离、topic 迁移和基于泳道的流量隔离统一在同一个控制面中，从而以更小的爆炸半径、更可控的治理方式支撑大规模集群的拆分。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ed42-400o400o1-3Jm5SmqbknYn3ZeVXQQXY2.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Xiao Yang：同程旅行中间件工程师，Apache RocketMQ Committer&lt;/p&gt;&#xA;&lt;p&gt;负责消息中间件架构演进、稳定性治理与平台化能力建设。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>OpenClaw 安全治理：从无序到有序</title>
-      <link>/zh/sessions/aiinfra-1214790.html</link>
-      <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
-      <guid>/zh/sessions/aiinfra-1214790.html</guid>
-      <description>&lt;p&gt;通过真实案例，本演讲揭示了以 OpenClaw 为代表的自主 AI agent 爆发式增长背后，那些不容忽视的系统性安全风险，并将其根因归结为&amp;quot;功能性与安全性无法兼得&amp;quot;的&amp;quot;致命三角&amp;quot;。以此为契机，展示了其完整的产品生态——涵盖治理理念、核心技术（元认知，metacognition），并覆盖评估、防御、训练与硬件的整条链路——旨在为企业提供一站式的 AI agent 安全治理方案。最终目标，是带领 AI 从当下的&amp;quot;无序&amp;quot;状态，走向一个被定义为&amp;quot;第一秩序（First Order）&amp;ldquo;的新生态。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/b98d-400o400o1-UCkGgLPPWQ3tzmR29RkpQX.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Leo (Zhiquan) Yu：守序智能（Shouxu Intelligence）AI 生态与市场负责人&lt;/p&gt;&#xA;&lt;p&gt;AIFun（AI 产业交流与合作社区）联合创始人；守序智能（Shouxu Intelligence）AI 生态与市场负责人。在软件研发与管理、技术社区运营方面拥有多年经验。&#xA;此前曾任连尚网络（WiFi 万能钥匙）PMO 及技术委员会执委，明道云（开放平台与应用市场）技术总监，海丁网络 Headin 技术社区与活动平台负责人，以及 Corel 的研发经理。&#xA;社会职务包括中国计算机学会（CCF）TF 工程师文化执委与 CTO 俱乐部（上海），苏州市计算机学会（SZCF）与上海开源协会（SHOpen）成员，并参与敏捷社区 / Agile Tour。深度参与 Google GDG、Amazon Web Services UG、华为 HDG 等开发者生态，担任相关技术社区的核心组织者。&lt;/p&gt;</description>
     </item>
     <item>
       <title>超越元数据：用 Apache Gravitino 进行进阶 Iceberg 管理</title>
