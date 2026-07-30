@@ -660,6 +660,32 @@
                 href="/sessions/messaging-1212359.html"
                 />
   </url><url>
+    <loc>/sessions/keynote-1298466.html</loc>
+    <lastmod>2026-08-09T10:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1298466.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1298466.html"
+                />
+  </url><url>
+    <loc>/sessions/keynote-1285193.html</loc>
+    <lastmod>2026-08-09T09:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1285193.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1285193.html"
+                />
+  </url><url>
     <loc>/sessions/keynote-1275170.html</loc>
     <lastmod>2026-08-09T09:00:00+00:00</lastmod>
     <xhtml:link
@@ -1206,17 +1232,17 @@
                 href="/sessions/olap-1195516.html"
                 />
   </url><url>
-    <loc>/sessions/keynote-1285193.html</loc>
+    <loc>/sessions/keynote-1228764.html</loc>
     <lastmod>2026-08-08T10:30:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/keynote-1285193.html"
+                href="/zh/sessions/keynote-1228764.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/keynote-1285193.html"
+                href="/sessions/keynote-1228764.html"
                 />
   </url><url>
     <loc>/sessions/keynote-1277291.html</loc>
@@ -1232,21 +1258,8 @@
                 href="/sessions/keynote-1277291.html"
                 />
   </url><url>
-    <loc>/sessions/keynote-1290495.html</loc>
-    <lastmod>2026-08-08T09:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/keynote-1290495.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/keynote-1290495.html"
-                />
-  </url><url>
     <loc>/sessions/keynote-1288711.html</loc>
-    <lastmod>2026-08-08T09:00:00+00:00</lastmod>
+    <lastmod>2026-08-08T09:30:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1256,6 +1269,19 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="/sessions/keynote-1288711.html"
+                />
+  </url><url>
+    <loc>/sessions/keynote-1298213.html</loc>
+    <lastmod>2026-08-08T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1298213.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1298213.html"
                 />
   </url><url>
     <loc>/sessions/dataai-1213757.html</loc>
@@ -1844,7 +1870,7 @@
                 />
   </url><url>
     <loc>/sessions/keynote-1214444.html</loc>
-    <lastmod>2026-08-07T11:00:00+00:00</lastmod>
+    <lastmod>2026-08-07T11:30:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1856,17 +1882,43 @@
                 href="/sessions/keynote-1214444.html"
                 />
   </url><url>
-    <loc>/sessions/keynote-1228764.html</loc>
-    <lastmod>2026-08-07T10:30:00+00:00</lastmod>
+    <loc>/sessions/keynote-1298341.html</loc>
+    <lastmod>2026-08-07T11:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/keynote-1228764.html"
+                href="/zh/sessions/keynote-1298341.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/keynote-1228764.html"
+                href="/sessions/keynote-1298341.html"
+                />
+  </url><url>
+    <loc>/sessions/keynote-1298389.html</loc>
+    <lastmod>2026-08-07T10:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1298389.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1298389.html"
+                />
+  </url><url>
+    <loc>/sessions/keynote-1290495.html</loc>
+    <lastmod>2026-08-07T10:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1290495.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1290495.html"
                 />
   </url><url>
     <loc>/sessions/keynote-1296710.html</loc>

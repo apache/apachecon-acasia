@@ -352,6 +352,20 @@
       <description>&lt;p&gt;本次分享将介绍 Agentic Coding 在 BanyanDB 研发中的实际应用。通过系统设计、代码实现、问题调试和测试等实践案例，展示工程师与 AI Agent 如何在软件开发的不同环节中协同工作。&#xA;分享不会局限于代码生成，而是将 Agentic Coding 视为一种工程协作流程：工程师负责定义目标、约束和架构原则，Agent 则协助完成探索、执行、验证和迭代。同时，分享还将总结相关实践经验，并讨论如何通过工程约束和验证机制，让 Agentic Coding 在复杂系统研发中更加可靠、可控。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ac60-400o400o1-DgPShxggsdTLJHgVdJeHvd.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Youliang Huang：Apache SkyWalking PMC Member&lt;/p&gt;&#xA;&lt;p&gt;开源爱好者。Apache SkyWalking PMC Member。致力于构建高性能的可观测性、存储与网络系统。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Open Collaboration for Embodied AI - Insights from RoboChallenge Real-Robot Benchmarking</title>
+      <link>/zh/sessions/keynote-1298466.html</link>
+      <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+      <guid>/zh/sessions/keynote-1298466.html</guid>
+      <description>&lt;p&gt;具身智能正加速从实验室研究走向真实世界应用。随着 Vision-Language-Action（VLA）模型快速发展，机器人正在从“理解世界”迈向“操作世界”。与此同时，如何建立开放、可信、可复现的评测体系，如何通过开源协作推动技术快速迭代，成为具身智能发展的关键议题。 本次演讲将基于 RoboChallenge 平台，分享全球具身智能基础模型在真实机器人环境中的最新评测成果，并介绍 RoboChallenge 在 CVPR、ICRA 国际真机挑战赛，以及 AI for Good 全球峰会发布 EAI Bench 等方面的最新进展。 基于数万次真实机器人执行数据，将分析具身智能模型的发展趋势。当前领先 VLA 模型在 Table30 基准上的成功率已提升至约 62%，但精细操作等复杂任务成功率仍不足 15%，表明具身智能仍处于从语义理解向复杂操作能力突破的关键阶段。同时，RoboChallenge 已吸引来自中国、美国、新加坡、日本等多个国家和地区的开发者参与，开源模型、开放数据和开放评测正在成为推动技术创新的重要力量。&lt;/p&gt;&#xA;&lt;p&gt;在具身智能时代，开源正在从软件共享走向更广泛的开放协作。未来需要共同推动模型、数据、机器人接口、评测基准和开放标准的发展。RoboChallenge 致力于连接全球开发者、机器人厂商、科研机构和产业伙伴，建设开放、可信、可复现的真机测评生态，让更多开发者共享真实机器人资源，加速具身智能创新。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ecee-400o400o1-YZQx8Pug57uvGmzNtKWsvr.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Emily Chen: Co-Founder of Kaiyuanshe&lt;/p&gt;&#xA;&lt;p&gt;陈阳（Emily Chen），开源社联合创始人，现任开源社理事会成员。她是深耕开源社区多年的实践者、组织者与连接者，致力于推动开源文化在全球与中国的发展与融合。&lt;/p&gt;&#xA;&lt;p&gt;2008年，陈阳创立了 GNOME.Asia 社区，将 GNOME.Asia 峰会成功带到十多个亚洲国家和地区。2010年，她担任 GNOME 基金会董事会成员，并于2014年在瑞典 GUADEC 大会上荣获 GNOME 基金会最高荣誉——“GNOME Pants Award”。&lt;/p&gt;&#xA;&lt;p&gt;自2017年起，陈阳多次组织 GitHub CEO、COO 及全球开源领袖的访华之行，积极推动国际平台与中国开源生态的交流与合作。她曾任OSI 中国联盟代表、中国开源促进联盟副秘书长（2016），在国际标准组织沟通方面发挥了重要作用。&lt;/p&gt;&#xA;&lt;p&gt;她发起了多个在中国极具影响力的开源项目，包括开源社年度报告、中国开源年会（COSCon）以及“33位开源先行者”榜单。此外，她还是 Mozilla 的核心贡献者、Google Summer of Code（GSoC）导师，以及2024 开源议会（Open Source Congress）的组织者之一。现任开放原子开源基金会 TOC 导师。&lt;/p&gt;&#xA;&lt;p&gt;作为中国开源领域的见证者与推动者，陈阳持续以开放、协作、连接的姿态，探索 AI 时代下全球开源的新范式。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何用脚手架让你的编程 Agent 不再那么笨</title>
+      <link>/zh/sessions/keynote-1285193.html</link>
+      <pubDate>Sun, 09 Aug 2026 09:30:00 +0000</pubDate>
+      <guid>/zh/sessions/keynote-1285193.html</guid>
+      <description>&lt;p&gt;了解脚手架如何加速开发并降低你的 token 用量。我将带你梳理在把 Agent 放进你的代码库之前应该做出的几个关键决策。随后，我会演示 freeCodeCamp 全新的开源工具 create-constellation-app。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/5abe-400o400o1-swyUNMsPchJr8DQS2Y1pMM.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Quincy Larson：freeCodeCamp.org 创始人&lt;/p&gt;&#xA;&lt;p&gt;Quincy Larson 是一名教师，也是 freeCodeCamp.org 的创始人&amp;ndash;这是一个帮助了数百万人学习编程的开源项目。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>中国开源人工智能发展现状与全球影响力</title>
       <link>/zh/sessions/keynote-1275170.html</link>
       <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
@@ -646,11 +660,11 @@
       <description>&lt;p&gt;CPU 频率实际上已经不再增长，但其他一切——网络、SSD、数据量——都在呈指数级增长。这给数据库带来了新的挑战：降低与基础设施打交道时的 CPU 开销。MPP 系统的瓶颈在于网络。如果 Greenplum 中的网络变快 10 倍会发生什么？我们实现了 5 倍的加速。随后我们尝试了 DPDK，却意识到如果不做深入的内核改进，就无法继续推进。我将分享当网络加速 5 倍后，数据库发生了什么，以及为什么 DPDK 没能跑起来。&#xA;我们从中得出了哪些结论，以及接下来打算做什么（剧透：所有新变化都将出现在 Apache Cloudberry 中）。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/429e-400o400o1-X15FYUcE9UQzxFpN9AkBKZ.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Leonid Borchuk：Yandex Cloud（莫斯科）开发者，Apache Cloudberry committer&lt;/p&gt;&#xA;&lt;p&gt;Yandex Cloud MPP PostgreSQL 开发团队的团队负责人。他的职业生涯始于大型商用通用数据库和分析数据库的管理，而如今他终于开始编写自己的数据库。Apache Cloudberry committer。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>如何用脚手架让你的编程 Agent 不再那么笨</title>
-      <link>/zh/sessions/keynote-1285193.html</link>
+      <title>面向 DataOps 的 Harness 工程化</title>
+      <link>/zh/sessions/keynote-1228764.html</link>
       <pubDate>Sat, 08 Aug 2026 10:30:00 +0000</pubDate>
-      <guid>/zh/sessions/keynote-1285193.html</guid>
-      <description>&lt;p&gt;了解脚手架如何加速开发并降低你的 token 用量。我将带你梳理在把 Agent 放进你的代码库之前应该做出的几个关键决策。随后，我会演示 freeCodeCamp 全新的开源工具 create-constellation-app。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/5abe-400o400o1-swyUNMsPchJr8DQS2Y1pMM.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Quincy Larson：freeCodeCamp.org 创始人&lt;/p&gt;&#xA;&lt;p&gt;Quincy Larson 是一名教师，也是 freeCodeCamp.org 的创始人&amp;ndash;这是一个帮助了数百万人学习编程的开源项目。&lt;/p&gt;</description>
+      <guid>/zh/sessions/keynote-1228764.html</guid>
+      <description>&lt;p&gt;在过去十年里，现代数据栈（Modern Data Stack）为数据工程师构建了一个丰富的工具生态，覆盖数据接入、湖仓架构、编排、治理、BI 和 AI。然而在 Agentic（智能体）时代，数据平台需要进一步演进：从&amp;quot;人类操作工具&amp;quot;，走向&amp;quot;人类定义目标、由 Agent 编排执行&amp;quot;。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将探讨一种新的平台范式：面向数据的 Harness 工程（Harness Engineering for Data）。它将讨论如何把数据接入、ETL/ELT、SQL 开发、编排、数据质量、元数据、血缘、监控，以及企业本体（ontology）统一起来，封装成 Agent 能够理解、调用并治理的工程能力。&lt;/p&gt;&#xA;&lt;p&gt;通过将业务本体、技术元数据和执行上下文注入到 Agent 的工作流中，企业可以让 Agent 更好地理解数据对象和业务关系，更高效地执行 Skills，减少对上下文的猜测以及 token 消耗，并提升 ETL 管道生成、SQL 产出、数据建模和可视化分析的准确性。&lt;/p&gt;&#xA;&lt;p&gt;最终，数据工程平台将从传统的工具集合，演进为一种面向人-Agent 协作而设计的 Data Engineering Harness，帮助企业在 Agentic 时代实现更高效、更可信、更可控的数据工程交付。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/fb8f-400o400o1-T1E8GLsc8EudG7sBWyEmjN.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;William Guo：Apache Software Foundation Member&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apache Software Foundation Member&lt;/li&gt;&#xA;&lt;li&gt;Apache IPMC Member&lt;/li&gt;&#xA;&lt;li&gt;Apache DolphinScheduler PMC&lt;/li&gt;&#xA;&lt;li&gt;Apache SeaTunnel（孵化中）Mentor&lt;/li&gt;&#xA;&lt;li&gt;ClickHouse 中国社区创始人&lt;/li&gt;&#xA;&lt;li&gt;ApacheCon Asia 2021/2022 工作流/数据治理 Track Chair&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;William 曾担任易观（Analysys）的 CTO、联想的大数据高级总监，以及万达的大数据总经理。他曾在 CIBM、IBM 和 Teradata 担任大数据总监/经理。他在大数据技术与数据管理领域拥有 20 年以上的经验。&lt;/p&gt;</description>
     </item>
     <item>
       <title>信任的基础设施：让 Apache 软件基金会为 AI 辅助开源做好准备</title>
@@ -660,18 +674,18 @@
       <description>&lt;p&gt;二十多年来，Apache 软件基金会一直维系着支撑数百个开源项目运转的技术骨干，这些项目为全球数十亿人所使用。ASF 基础设施团队负责运维让这一切成为可能的系统：CI 流水线、身份系统、安全工具以及治理框架，确保大规模的贡献得以持续流动。如今，AI 编程助手正迅速降低参与开源的门槛，带来了贡献者、拉取请求以及由自动化工具编写或辅助编写的代码的显著增长。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将探讨这一变化，以及它为支撑开源贡献的基础设施所引发的诸多问题。开源一直以来都依赖于对贡献者身份、代码审查以及所合并内容长期可维护性的信任。讨论将涵盖自动化质量门禁、CI 加固与大规模代码扫描所扮演的角色；即便贡献是由 AI 辅助完成的，为每一项贡献保持清晰的人类归属与问责的重要性；以及支撑如此众多项目所依赖的基础设施所带来的更广泛责任。目标并非抗拒 AI 辅助的贡献，而是思考那些用于验证、核实与治理它的系统，如何才能为即将到来的浪潮做好准备。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2972-400o400o1-D9XoNJckAPxtD6Nt5kvxwo.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Chris Wells：基础设施极客&lt;/p&gt;&#xA;&lt;p&gt;Chris Wells 是一名基础设施工程师，也是 Apache 软件基金会的成员。他在技术领域工作了近三十年，最初还是个少年时，他就在当地的公共图书馆维护那些计算机的运转。此后，他先后担任过图书馆 IT 主管、数据库管理员、顾问、出版人以及一家非营利机构的联合创始人。如今，他协助运维支撑基金会各项目与贡献者的基础设施。他的工作横跨可观测性、网络、自动化以及 AI 辅助开发。Chris 相信技术应当让知识对每一个人都更易触达，他也始终以此为目标来进行构建。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>再无众目：AI 时代的开源安全</title>
-      <link>/zh/sessions/keynote-1290495.html</link>
-      <pubDate>Sat, 08 Aug 2026 09:30:00 +0000</pubDate>
-      <guid>/zh/sessions/keynote-1290495.html</guid>
-      <description>&lt;p&gt;二十五年来，开源安全建立在两个假设之上：足够多的人眼终将发现任何 bug，以及那些前来帮忙的人，假以时日，是可以被信任的。AI 把这两点都瓦解了。如今，单一行为者就能生成源源不断、看似合理的补丁，提交打磨得超乎人类水平的漏洞报告，并扮演一个耐心、乐于助人的长期贡献者&amp;ndash;这正是 xz 后门背后的那套社会工程学手法&amp;ndash;而且规模之大，没有任何志愿维护者能够匹敌。攻击者已经握有他们的力量倍增器。而大多数维护者（还）没有。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将审视：当一次提交的双方都可能是一台机器时，开源安全究竟会是什么样子&amp;ndash;AI&amp;quot;垃圾&amp;quot;报告淹没安全收件箱，像 Shai-Hulud 这样自我传播的供应链蠕虫蔓延速度远超任何人类分诊所能及。基于十年间为维护者构建工具的经验&amp;ndash;从 Breeze 到 Magpie 背后的 agentic 工作流&amp;ndash;它论证：答案并非要求疲惫的志愿者更拼命地工作，而是赋予他们攻击者业已握有的同一种非对称杠杆&amp;ndash;防御性的、agentic 的基础设施，它通过守护那授予信任的稀缺人类注意力，来保护 AI 无法取代的那样东西：人类的信任。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d2aa-400o400o1-EewiHHXp9U5qwHQBiQVVtc.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jarek Potiuk：独立开源贡献者与顾问&lt;/p&gt;&#xA;&lt;p&gt;独立开源贡献者与顾问，Apache Airflow Committer 与 PMC 成员，Apache 软件基金会成员&lt;/p&gt;&#xA;&lt;p&gt;Jarek 是一位工程师，在众多领域拥有丰富经验&amp;ndash;开源、云计算、移动端、机器人、人工智能、后端、开发者体验；同时他也有大量非工程领域的经验&amp;ndash;经营公司、担任 CTO、组织大型国际社区活动、技术销售支持、公关与营销咨询，以及研究许可证的法律层面和构建开源社区，这些都尽在他的掌握之中。&lt;/p&gt;&#xA;&lt;p&gt;凭借在从极小到极大以及介于两者之间的各类公司中积累的经验，Jarek 在开源世界中找到了自己的位置，在这里，他作为个人贡献者的内在驱动力能够被发挥到极致。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Agentic Coding 时代的 Community Over Code：培育信任与共识</title>
       <link>/zh/sessions/keynote-1288711.html</link>
-      <pubDate>Sat, 08 Aug 2026 09:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2026 09:30:00 +0000</pubDate>
       <guid>/zh/sessions/keynote-1288711.html</guid>
       <description>&lt;p&gt;Agentic coding 降低了贡献的门槛，也催生了更多轻量级的 fork。本次分享将探讨：当 AI 来编写代码时，为何 ASF 社区、共识与信任依然是可验证软件不可或缺的基石。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/09df-400o400o1-NXMWPfZTqBRnxHMRJKnVpD.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zili Chen：ScopeDB 联合创始人&lt;/p&gt;&#xA;&lt;p&gt;陈梓立（@tison）联合创立了 ScopeDB，一款面向半结构化数据、内置云服务的数据库。他是一位资深的开源倡导者，也是 ASF 成员，经验丰富。他曾维护过多个重要项目，包括 Apache Flink、Apache ZooKeeper 和 Apache Pulsar。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache 软件基金会的负责任 AI：挑战与机遇</title>
+      <link>/zh/sessions/keynote-1298213.html</link>
+      <pubDate>Sat, 08 Aug 2026 09:00:00 +0000</pubDate>
+      <guid>/zh/sessions/keynote-1298213.html</guid>
+      <description>&lt;p&gt;自上世纪成立以来，Apache 软件基金会（ASF）始终秉持这样一个原则：来自世界各地的社区成员，是那些造福公众的项目最理想的管理者。负责管理资源的企业组织以自下而上的基金会形式运作，项目管理的决策权主要下放给项目自身。&lt;/p&gt;&#xA;&lt;p&gt;这种组织模式运作良好，项目社区在短短 25 年多的时间里，从单个项目发展到超过 300 个项目。随着 AI 的迅猛崛起，计算的基础设施已被根本性地改变。任何忽视 AI 潜在影响的人，都将被时代抛在身后。&lt;/p&gt;&#xA;&lt;p&gt;ASF 社区近期采用了众多 AI 工具，其中一些成员直接参与到相关环境的创建中，帮助各个项目将这些工具融入其开发流程。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将探讨 AI 在项目管理方面的一些有益应用，以及在 ASF 迈入 AI 时代之际应当审慎考量的一些不足之处。本次还将发布两项重要内容：负责任 AI 副总裁（VP, Responsible AI）以及 Magpie 项目。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/3194-400o400o1-94Sk7eKXZREt1kbzW2diBZ.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Craig Russell：ASF 成员、孵化器 PMC 成员、ASF 董事会名誉主席&lt;/p&gt;&#xA;&lt;p&gt;我于 2005 年作为孵化中的 JDO 项目的 committer 加入 Apache，并在 2007 年成为 Apache 成员。2009 年我被任命为助理秘书（Assistant Secretary），2010 年担任秘书（Secretary），在该职位上服务至 2019 年。2019 年我当选为董事会成员，目前担任董事。&lt;/p&gt;&#xA;&lt;p&gt;我最初被 Apache 吸引，正是因为它的治理理念——由真正做事的人来决定项目的发展方向。这与大多数公司的运作方式截然相反，后者由&amp;quot;房间里最聪明的人（管理者和高管）&amp;ldquo;来做决策。&lt;/p&gt;&#xA;&lt;p&gt;当自己的项目被 Apache 接纳后，我开始四处寻找还能贡献些什么，并加入了许多我可以提供帮助的项目。我也开始研究贡献代码的知识产权许可模型以及最终产品的许可模式。这让我开始参与到秘书这一角色中，处理那些将知识产权授予基金会的&amp;quot;书面工作&amp;rdquo;。&lt;/p&gt;&#xA;&lt;p&gt;最近我注意到，有人觉得基金会&amp;quot;规则太多&amp;quot;，这与人们所追求的自由表达相违背。深入审视这一问题后，我发现其中有一些共同的主题，如果能够更好地理解它们，就能让大家在参与时更加顺畅。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Parquet 已死？一位列存巨头在 AI 时代的演进</title>
@@ -991,16 +1005,30 @@
     <item>
       <title>赋能智能体 AI：Apache 项目如何塑造下一代开放数据与 AI 技术栈</title>
       <link>/zh/sessions/keynote-1214444.html</link>
-      <pubDate>Fri, 07 Aug 2026 11:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Aug 2026 11:30:00 +0000</pubDate>
       <guid>/zh/sessions/keynote-1214444.html</guid>
       <description>&lt;p&gt;随着 AI 系统从被动的助手演变为更加自主、目标驱动的智能体，对开放、可靠且可互操作的基础设施的需求变得愈发重要。本场座谈将探讨 Apache 项目如何通过提供数据访问、处理、治理、流式处理、编排与执行的核心构建模块，助力赋能下一波智能体 AI。&lt;/p&gt;&#xA;&lt;p&gt;从用于实时事件流的 Apache Kafka、用于大规模数据处理的Apache Spark 与 Apache Flink、用于现代湖仓存储的 Apache Iceberg，再到 Apache Gravitino 等元数据与治理项目，Apache 生态已经提供了智能体安全、高效地与企业数据交互所需的大部分基础。讨论将审视开源数据基础设施已在哪些地方支撑起智能体工作流、目前仍存在哪些技术缺口，以及 Apache 社区如何协作来定义下一代 AI 原生的数据系统。&lt;/p&gt;&#xA;&lt;p&gt;本场座谈既是对 Apache 在塑造现代数据技术栈中长期作用的回顾，也是一场面向未来的对话&amp;ndash;探讨开放社区如何助力为智能体 AI 构建可信、受治理且可扩展的基石。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d19a-400o400o1-PtNxnrM3VAe9ELH4fdQb2n.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Junping Du：创始人兼 CEO&lt;/p&gt;&#xA;&lt;p&gt;Datastrato 创始人兼 CEO，LF AI &amp;amp; DATA 前主席，ASF 成员，Apache Hadoop Committer 与 PMC 成员，Apache Ozone、YuniKorn 等项目的联合创始人。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>面向 DataOps 的 Harness 工程化</title>
-      <link>/zh/sessions/keynote-1228764.html</link>
+      <title>Agentic AI 新趋势下，开放生态的那些老规矩</title>
+      <link>/zh/sessions/keynote-1298341.html</link>
+      <pubDate>Fri, 07 Aug 2026 11:00:00 +0000</pubDate>
+      <guid>/zh/sessions/keynote-1298341.html</guid>
+      <description>&lt;p&gt;生态一直在变，而决定一项技术能不能成为公共基础设施的，仍是一些熟悉的问题。我们会回到 Apache 社区熟悉的经验，讨论公开过程和逐步建立的信任，怎样继续作用在 Agentic AI 生态里。开放模型也带来了新的问题：模型把开放对象扩展到了权重、数据与评测，许可证之外还需要交付什么？&#xA;这场分享从更新后的 Agentic AI Landscape 出发，观察 Agent Infra、Model Infra、大模型及可复用知识仓库（awesome*）的变化；再把 Apache 放回这张技术地图，看看在数据与分布式系统上的长期积累处在新生态里怎样的关键位置？而蚂蚁通过 inclusionAI 的实践，提供了另一个具体样本：模型、基础设施和行业应用，可以怎样形成一套更多人能够参与的开放技术栈。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/e746-400o400o1-irRRfX45oHJUwig85uBoD.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Xiaoya Xia: Open Source Analyst, Ant Group&lt;/p&gt;&#xA;&lt;p&gt;Xiaoya Xia is a member of the Ant Group OSPO, where she focuses on catalyzing open source success through data-driven insights. Before joining Ant Group, Xiaoya was a PhD at East China Normal University (ECNU), where she concentrated on research into open source ecosystem sustainability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>从模型到智能体：开源如何驱动下一波 AI 创新浪潮</title>
+      <link>/zh/sessions/keynote-1298389.html</link>
       <pubDate>Fri, 07 Aug 2026 10:30:00 +0000</pubDate>
-      <guid>/zh/sessions/keynote-1228764.html</guid>
-      <description>&lt;p&gt;在过去十年里，现代数据栈（Modern Data Stack）为数据工程师构建了一个丰富的工具生态，覆盖数据接入、湖仓架构、编排、治理、BI 和 AI。然而在 Agentic（智能体）时代，数据平台需要进一步演进：从&amp;quot;人类操作工具&amp;quot;，走向&amp;quot;人类定义目标、由 Agent 编排执行&amp;quot;。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将探讨一种新的平台范式：面向数据的 Harness 工程（Harness Engineering for Data）。它将讨论如何把数据接入、ETL/ELT、SQL 开发、编排、数据质量、元数据、血缘、监控，以及企业本体（ontology）统一起来，封装成 Agent 能够理解、调用并治理的工程能力。&lt;/p&gt;&#xA;&lt;p&gt;通过将业务本体、技术元数据和执行上下文注入到 Agent 的工作流中，企业可以让 Agent 更好地理解数据对象和业务关系，更高效地执行 Skills，减少对上下文的猜测以及 token 消耗，并提升 ETL 管道生成、SQL 产出、数据建模和可视化分析的准确性。&lt;/p&gt;&#xA;&lt;p&gt;最终，数据工程平台将从传统的工具集合，演进为一种面向人-Agent 协作而设计的 Data Engineering Harness，帮助企业在 Agentic 时代实现更高效、更可信、更可控的数据工程交付。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/fb8f-400o400o1-T1E8GLsc8EudG7sBWyEmjN.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;William Guo：Apache Software Foundation Member&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apache Software Foundation Member&lt;/li&gt;&#xA;&lt;li&gt;Apache IPMC Member&lt;/li&gt;&#xA;&lt;li&gt;Apache DolphinScheduler PMC&lt;/li&gt;&#xA;&lt;li&gt;Apache SeaTunnel（孵化中）Mentor&lt;/li&gt;&#xA;&lt;li&gt;ClickHouse 中国社区创始人&lt;/li&gt;&#xA;&lt;li&gt;ApacheCon Asia 2021/2022 工作流/数据治理 Track Chair&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;William 曾担任易观（Analysys）的 CTO、联想的大数据高级总监，以及万达的大数据总经理。他曾在 CIBM、IBM 和 Teradata 担任大数据总监/经理。他在大数据技术与数据管理领域拥有 20 年以上的经验。&lt;/p&gt;</description>
+      <guid>/zh/sessions/keynote-1298389.html</guid>
+      <description>&lt;p&gt;AI 的重心已经发生了转移——从独立的模型，转向能够推理、行动并协作的自主智能体（autonomous agents）。而在这个新堆栈的几乎每一层，开源都在承担着核心重任：开放的表格式与数据基础设施为模型供给养分，开放的智能体框架编排着推理过程，而开放协议则让智能体得以与工具以及彼此之间进行沟通。&lt;/p&gt;&#xA;&lt;p&gt;本主题演讲将以 Apache 生态乃至更广范围中的真实项目为例——从面向 AI 就绪数据的 Apache Iceberg，到 Strands 这样的开源智能体 SDK，再到 MCP 等新兴标准——梳理一个健康的开源社区如何成为生产级智能体 AI（agentic AI）的根基。我们将探讨当智能体从演示走向生产时会暴露出哪些问题（状态、控制、可观测性），社区又是如何以开源的方式加以解决，以及开发者可以在哪些环节接入并贡献力量。&lt;/p&gt;&#xA;&lt;p&gt;你将带着一幅清晰的现代&amp;quot;AI + 开源&amp;quot;技术栈全景图离开，并获得在此基础上进行构建——并回馈社区——的具体路径。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/faf5-400o400o1-YHrrcdU4oFpW6vdwzDoAvS.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Betty Zheng：资深开发者&lt;/p&gt;&#xA;&lt;p&gt;Yubin Zheng 是一位资深的工程师，在 ICT 与数字化转型领域拥有超过 20 年的经验。她专注于构建面向真实场景的 AI 系统，工作涵盖智能体运行时设计、多智能体协同以及生产化部署。她活跃于开发者与开源社区，是云原生与 AI 领域各类活动的常邀演讲嘉宾。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>再无众目：AI 时代的开源安全</title>
+      <link>/zh/sessions/keynote-1290495.html</link>
+      <pubDate>Fri, 07 Aug 2026 10:00:00 +0000</pubDate>
+      <guid>/zh/sessions/keynote-1290495.html</guid>
+      <description>&lt;p&gt;二十五年来，开源安全建立在两个假设之上：足够多的人眼终将发现任何 bug，以及那些前来帮忙的人，假以时日，是可以被信任的。AI 把这两点都瓦解了。如今，单一行为者就能生成源源不断、看似合理的补丁，提交打磨得超乎人类水平的漏洞报告，并扮演一个耐心、乐于助人的长期贡献者&amp;ndash;这正是 xz 后门背后的那套社会工程学手法&amp;ndash;而且规模之大，没有任何志愿维护者能够匹敌。攻击者已经握有他们的力量倍增器。而大多数维护者（还）没有。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将审视：当一次提交的双方都可能是一台机器时，开源安全究竟会是什么样子&amp;ndash;AI&amp;quot;垃圾&amp;quot;报告淹没安全收件箱，像 Shai-Hulud 这样自我传播的供应链蠕虫蔓延速度远超任何人类分诊所能及。基于十年间为维护者构建工具的经验&amp;ndash;从 Breeze 到 Magpie 背后的 agentic 工作流&amp;ndash;它论证：答案并非要求疲惫的志愿者更拼命地工作，而是赋予他们攻击者业已握有的同一种非对称杠杆&amp;ndash;防御性的、agentic 的基础设施，它通过守护那授予信任的稀缺人类注意力，来保护 AI 无法取代的那样东西：人类的信任。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d2aa-400o400o1-EewiHHXp9U5qwHQBiQVVtc.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jarek Potiuk：独立开源贡献者与顾问&lt;/p&gt;&#xA;&lt;p&gt;独立开源贡献者与顾问，Apache Airflow Committer 与 PMC 成员，Apache 软件基金会成员&lt;/p&gt;&#xA;&lt;p&gt;Jarek 是一位工程师，在众多领域拥有丰富经验&amp;ndash;开源、云计算、移动端、机器人、人工智能、后端、开发者体验；同时他也有大量非工程领域的经验&amp;ndash;经营公司、担任 CTO、组织大型国际社区活动、技术销售支持、公关与营销咨询，以及研究许可证的法律层面和构建开源社区，这些都尽在他的掌握之中。&lt;/p&gt;&#xA;&lt;p&gt;凭借在从极小到极大以及介于两者之间的各类公司中积累的经验，Jarek 在开源世界中找到了自己的位置，在这里，他作为个人贡献者的内在驱动力能够被发挥到极致。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Agent 时代的开源生态与中国机会</title>

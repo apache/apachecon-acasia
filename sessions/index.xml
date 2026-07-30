@@ -317,6 +317,20 @@
       <description>&lt;p&gt;Apache Kafka has established itself as the central nervous system of modern real-time data architectures. Yet in conventional lakehouse designs, data from Kafka typically must traverse external compute engines such as Flink or Spark before it can be landed, modeled, and organized into analytical layers. This multi-hop &amp;ldquo;messaging → computation → storage&amp;rdquo; pipeline not only inflates operational complexity but also introduces weak state consistency, elevated end-to-end latency, and a fragmented hot/cold data lifecycle.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Open Collaboration for Embodied AI - Insights from RoboChallenge Real-Robot Benchmarking</title>
+      <link>/sessions/keynote-1298466.html</link>
+      <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+      <guid>/sessions/keynote-1298466.html</guid>
+      <description>&lt;p&gt;Embodied AI is rapidly moving from laboratory research toward real-world applications. With the rapid advancement of Vision-Language-Action (VLA) models, robots are evolving from “understanding the world” to “acting in the world.” At the same time, building open, trustworthy, and reproducible evaluation systems, and leveraging open collaboration to accelerate technological progress, have become critical challenges for the development of embodied AI.&lt;/p&gt;&#xA;&lt;p&gt;This keynote will present insights from the RoboChallenge 2025 Annual Report, sharing the latest evaluation results of global embodied AI foundation models in real-world robotic environments. It will also highlight RoboChallenge’s latest progress, including real-robot challenges at leading international conferences such as CVPR and ICRA, as well as the launch of EAI Bench at the AI for Good Global Summit in Geneva.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Use Scaffolding to Make Your Coding Agents Less Dumb</title>
+      <link>/sessions/keynote-1285193.html</link>
+      <pubDate>Sun, 09 Aug 2026 09:30:00 +0000</pubDate>
+      <guid>/sessions/keynote-1285193.html</guid>
+      <description>&lt;p&gt;Learn how scaffolding can speed up development and reduce your token usage. I&amp;rsquo;ll walk you through the key decisions you should make before sending agents into your codebase. Then I&amp;rsquo;ll demo freeCodeCamp’s new open source create-constellation-app tool.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/5abe-400o400o1-swyUNMsPchJr8DQS2Y1pMM.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Quincy Larson: Founder of freeCodeCamp.org&lt;/p&gt;&#xA;&lt;p&gt;Quincy Larson is a teacher and founder of freeCodeCamp.org, an open source project that has helped helped millions of people learn programming.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>The State of Open Source AI in China and Global Implications（中国开源人工智能发展现状与全球影响力）</title>
       <link>/sessions/keynote-1275170.html</link>
       <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
@@ -611,11 +625,11 @@
       <description>&lt;p&gt;The CPU frequency is practically not growing, but everything else: network/ssd/ data volumes are growing exponentially. This poses new challenges for the databases: reduce CPU costs for working with the infrastructure. The bottleneck of MPP systems is the network. What happens if the network in Greenplum becomes 10 times faster? We accelerated 5 times. Then we tried DPDK, but realized that we couldn&amp;rsquo;t move forward without serious core refinement. I would share what happened to the database when the network accelerated 5 times. And also why DPDK didn&amp;rsquo;t start.&#xA;What conclusions have we learned and what are we planning to do next (spoiler: all new changes will be in Apache Cloudberry).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to Use Scaffolding to Make Your Coding Agents Less Dumb</title>
-      <link>/sessions/keynote-1285193.html</link>
+      <title>Harness Engineering for DataOps</title>
+      <link>/sessions/keynote-1228764.html</link>
       <pubDate>Sat, 08 Aug 2026 10:30:00 +0000</pubDate>
-      <guid>/sessions/keynote-1285193.html</guid>
-      <description>&lt;p&gt;Learn how scaffolding can speed up development and reduce your token usage. I&amp;rsquo;ll walk you through the key decisions you should make before sending agents into your codebase. Then I&amp;rsquo;ll demo freeCodeCamp’s new open source create-constellation-app tool.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/5abe-400o400o1-swyUNMsPchJr8DQS2Y1pMM.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Quincy Larson: Founder of freeCodeCamp.org&lt;/p&gt;&#xA;&lt;p&gt;Quincy Larson is a teacher and founder of freeCodeCamp.org, an open source project that has helped helped millions of people learn programming.&lt;/p&gt;</description>
+      <guid>/sessions/keynote-1228764.html</guid>
+      <description>&lt;p&gt;Over the past decade, the Modern Data Stack has built a rich ecosystem of tools for data engineers, covering data ingestion, lakehouse architecture, orchestration, governance, BI, and AI. However, in the Agentic era, data platforms need to evolve further: from “humans operating tools” to “humans defining goals, and Agents orchestrating execution.”&lt;/p&gt;&#xA;&lt;p&gt;This talk will explore a new platform paradigm: Harness Engineering for Data. It will discuss how data ingestion, ETL/ELT, SQL development, orchestration, data quality, metadata, lineage, monitoring, and enterprise ontology can be unified and packaged as engineering capabilities that Agents can understand, invoke, and govern.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Infrastructure of Trust: Preparing the Apache Software Foundation for AI-Assisted Open Source</title>
@@ -625,18 +639,18 @@
       <description>&lt;p&gt;For over two decades, the Apache Software Foundation has maintained the technical backbone that powers hundreds of open source projects used by billions of people worldwide. The ASF Infrastructure team operates the systems that make this possible: the CI pipelines, identity systems, security tooling, and governance frameworks that keep contribution flowing at scale. AI coding assistants are now rapidly lowering the barrier to open source participation, bringing a significant increase in contributors, pull requests, and code that is authored or assisted by automated tools.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Many Eyes No Longer: Open Source Security in the Age of AI</title>
-      <link>/sessions/keynote-1290495.html</link>
-      <pubDate>Sat, 08 Aug 2026 09:30:00 +0000</pubDate>
-      <guid>/sessions/keynote-1290495.html</guid>
-      <description>&lt;p&gt;For twenty-five years, open source security rested on two assumptions: that enough human eyes would eventually catch any bug, and that the people showing up to help could, over time, be trusted. AI dissolves both. A single actor can now generate an endless stream of plausible patches, file superhuman-polished vulnerability reports, and play the patient, helpful long-term contributor — the exact social-engineering pattern behind the xz backdoor — at a scale no volunteer maintainer can match. The attackers already have their force multiplier. Most maintainers do not (yet).&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Community Over Code in the Era of Agentic Coding: Fostering Trust and Consensus</title>
       <link>/sessions/keynote-1288711.html</link>
-      <pubDate>Sat, 08 Aug 2026 09:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2026 09:30:00 +0000</pubDate>
       <guid>/sessions/keynote-1288711.html</guid>
       <description>&lt;p&gt;Agentic coding lowers contribution barriers and encourages lightweight forks. This session explores why ASF communities, consensus, and trust remain the essential bedrock for verifiable software when AI writes the code.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/09df-400o400o1-NXMWPfZTqBRnxHMRJKnVpD.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zili Chen: Co-Founder, ScopeDB&lt;/p&gt;&#xA;&lt;p&gt;Zili Chen (@tison) co-founded ScopeDB, a database built for semi-structured data with cloud services. He is a seasoned open-source advocate and ASF member with a wealth of experience. He has maintained several significant projects, including Apache Flink, Apache ZooKeeper, and Apache Pulsar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Responsible AI at Apache Software Foundation: Challenges and Opportunities</title>
+      <link>/sessions/keynote-1298213.html</link>
+      <pubDate>Sat, 08 Aug 2026 09:00:00 +0000</pubDate>
+      <guid>/sessions/keynote-1298213.html</guid>
+      <description>&lt;p&gt;From its creation in the last century, the Apache Software Foundation has operated on the principle that communities of people from around the world are the best stewards of projects that benefit the public. The corporation that manages the resources is organized as a bottom-up foundation, with decisions about project management left primarily to the projects themselves.&lt;/p&gt;&#xA;&lt;p&gt;This organizational model has worked well, with communities of projects growing from one project to over 300 projects in just over 25 years. With the spectacular rise of AI, the infrastructure of computing has been fundamentally altered. Anyone who ignores the potential effects of AI will be left behind.&lt;/p&gt;</description>
     </item>
     <item>
       <title>End-to-End Training System for Time-Series Foundation Models Based on Apache TsFile</title>
@@ -956,16 +970,30 @@
     <item>
       <title>Empowering Agentic AI: How Apache Projects Can Shape the Next Open Data and AI Stack</title>
       <link>/sessions/keynote-1214444.html</link>
-      <pubDate>Fri, 07 Aug 2026 11:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Aug 2026 11:30:00 +0000</pubDate>
       <guid>/sessions/keynote-1214444.html</guid>
       <description>&lt;p&gt;As AI systems evolve from passive assistants into more autonomous, goal-driven agents, the need for open, reliable, and interoperable infrastructure becomes increasingly important. This panel explores how Apache projects can help empower the next wave of agentic AI by providing the core building blocks for data access, processing, governance, streaming, orchestration, and execution.&lt;/p&gt;&#xA;&lt;p&gt;From Apache Kafka for real-time event streams, Apache Spark and Apache Flink for large-scale data processing, Apache Iceberg for modern lakehouse storage, to metadata and governance projects such as Apache Gravitino, the Apache ecosystem already provides much of the foundation needed for intelligent agents to interact with enterprise data safely and effectively. The discussion will examine where open-source data infrastructure is already enabling agentic workflows, what technical gaps still remain, and how Apache communities can collaborate to define the next generation of AI-native data systems.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Harness Engineering for DataOps</title>
-      <link>/sessions/keynote-1228764.html</link>
+      <title>The Old Rules of an Open Ecosystem Under the New Trends of Agentic AI</title>
+      <link>/sessions/keynote-1298341.html</link>
+      <pubDate>Fri, 07 Aug 2026 11:00:00 +0000</pubDate>
+      <guid>/sessions/keynote-1298341.html</guid>
+      <description>&lt;p&gt;Ecosystems are always changing, yet what determines whether a technology can become public infrastructure remains a set of familiar questions. We&amp;rsquo;ll return to the well-known experience of the Apache community to discuss how open processes and incrementally built trust continue to work within the Agentic AI ecosystem. Open models also raise new questions: models extend the scope of what is opened to weights, data, and evaluation — beyond the license, what else needs to be delivered?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Models to Agents: How Open Source Powers the Next Wave of AI Innovation</title>
+      <link>/sessions/keynote-1298389.html</link>
       <pubDate>Fri, 07 Aug 2026 10:30:00 +0000</pubDate>
-      <guid>/sessions/keynote-1228764.html</guid>
-      <description>&lt;p&gt;Over the past decade, the Modern Data Stack has built a rich ecosystem of tools for data engineers, covering data ingestion, lakehouse architecture, orchestration, governance, BI, and AI. However, in the Agentic era, data platforms need to evolve further: from “humans operating tools” to “humans defining goals, and Agents orchestrating execution.”&lt;/p&gt;&#xA;&lt;p&gt;This talk will explore a new platform paradigm: Harness Engineering for Data. It will discuss how data ingestion, ETL/ELT, SQL development, orchestration, data quality, metadata, lineage, monitoring, and enterprise ontology can be unified and packaged as engineering capabilities that Agents can understand, invoke, and govern.&lt;/p&gt;</description>
+      <guid>/sessions/keynote-1298389.html</guid>
+      <description>&lt;p&gt;The center of gravity in AI has shifted — from standalone models to autonomous agents that reason, act, and collaborate. And at nearly every layer of this new stack, open source is doing the heavy lifting: open table formats and data infrastructure feeding the models, open agent frameworks orchestrating the reasoning, and open protocols letting agents talk to tools and to each other.&lt;/p&gt;&#xA;&lt;p&gt;Drawing on real projects across the Apache ecosystem and beyond — from Apache Iceberg for AI-ready data, to open-source agent SDKs like Strands, to emerging standards such as MCP — this keynote traces how a healthy open source community becomes the foundation for production-grade agentic AI. We&amp;rsquo;ll look at what breaks when agents move from demo to production (state, control, observability), how the community is solving it in the open, and where developers can plug in and contribute.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Many Eyes No Longer: Open Source Security in the Age of AI</title>
+      <link>/sessions/keynote-1290495.html</link>
+      <pubDate>Fri, 07 Aug 2026 10:00:00 +0000</pubDate>
+      <guid>/sessions/keynote-1290495.html</guid>
+      <description>&lt;p&gt;For twenty-five years, open source security rested on two assumptions: that enough human eyes would eventually catch any bug, and that the people showing up to help could, over time, be trusted. AI dissolves both. A single actor can now generate an endless stream of plausible patches, file superhuman-polished vulnerability reports, and play the patient, helpful long-term contributor — the exact social-engineering pattern behind the xz backdoor — at a scale no volunteer maintainer can match. The attackers already have their force multiplier. Most maintainers do not (yet).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Open Source in the Age of AI Agents: Ecosystem Shifts and Opportunities for China </title>
