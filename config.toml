@@ -38,6 +38,11 @@ url = "/tracks"
 weight = -100
 
 [[languages.en.menu.main]]
+name = "Sessions"
+url = "/sessions"
+weight = -50
+
+[[languages.en.menu.main]]
 name = "Guide"
 url = "/guide/visa_letter_request.html"
 weight = 4
@@ -46,6 +51,12 @@ weight = 4
 name = "Venue + Travel"
 url = "/venue_travel/venue.html"
 weight = 5
+
+# menu for ZH language (final list includes translated pages from /content)
+[[languages.zh.menu.main]]
+name = "议题"
+url = "/zh/sessions"
+weight = -50
 
 # menu for ZH language (final list includes translated pages from /content)
 [[languages.zh.menu.main]]
