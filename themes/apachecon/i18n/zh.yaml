@@ -181,3 +181,15 @@ business_travel:
 
 unknown_date:
   other: 时间待定
+
+schedule_time:
+  other: 时间
+
+schedule_room:
+  other: 会场
+
+schedule_sessions:
+  other: 个议题
+
+schedule_scroll_hint:
+  other: 左右滑动可查看全部会场

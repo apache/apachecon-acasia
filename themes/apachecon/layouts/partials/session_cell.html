@@ -1,0 +1,32 @@
+{{- /*
+  Renders one session inside the schedule grid.
+  Params:
+    page     : the session page
+    hue      : 0-359, used to colour code the track
+    showRoom : also print the room name (grid columns already carry it)
+*/ -}}
+{{- $page := .page -}}
+{{- $hue := .hue | default 210 -}}
+{{- $showRoom := .showRoom | default false -}}
+{{- $track := $page.Params.track -}}
+{{- $trackName := $track -}}
+{{- with site.GetPage (printf "/tracks/%s" $track) -}}
+  {{- $trackName = .Title -}}
+{{- end -}}
+<div class="sess" style="--sess-hue: {{ $hue }}">
+  <a class="sess-title" href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+  {{- with $page.Params.presenters }}
+  <div class="sess-speaker">{{ . }}</div>
+  {{- end }}
+  <div class="sess-meta">
+    {{- with $track }}
+    <a class="sess-track" href="{{ "tracks" | relLangURL }}/{{ . }}.html" title="{{ $trackName }}">{{ $trackName | strings.TrimSpace }}</a>
+    {{- end }}
+    {{- if $showRoom }}{{ with $page.Params.room }}
+    <span class="sess-room">{{ . }}</span>
+    {{- end }}{{ end }}
+    {{- with $page.Params.stype }}
+    <span class="sess-type">{{ . }}</span>
+    {{- end }}
+  </div>
+</div>

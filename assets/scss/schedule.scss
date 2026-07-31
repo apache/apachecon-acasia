@@ -1,0 +1,294 @@
+/* schedule.scss - session grid on /sessions */
+
+$schedule-ink: #0f072d;
+$schedule-line: #dcdfe6;
+$schedule-accent: #EA7826;
+
+.schedule-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  border-bottom: 1px solid $schedule-ink;
+  margin-bottom: 20px;
+
+  .schedule-tab {
+    position: relative;
+    bottom: -1px;
+    margin: 0;
+    padding: 6px 16px;
+    font-size: 18px;
+    line-height: 1.4;
+    background-color: transparent;
+    border: 1px solid $schedule-ink;
+    border-bottom-color: transparent;
+    border-radius: 4px 4px 0 0;
+    cursor: pointer;
+
+    &.is-selected {
+      background-color: $schedule-ink;
+      color: #fff;
+    }
+  }
+}
+
+.schedule-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #555;
+
+  .schedule-date {
+    font-size: 22px;
+    font-weight: 700;
+    color: $schedule-ink;
+  }
+
+  .schedule-count {
+    color: $schedule-accent;
+  }
+
+  .schedule-hint {
+    display: none;
+    margin-left: auto;
+    font-size: 13px;
+  }
+}
+
+.schedule-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid $schedule-line;
+  border-radius: 6px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.schedule-block + .schedule-block {
+  margin-top: 18px;
+}
+
+/* a block with a single room (plenary / keynote) fills the width */
+.schedule-block.is-single-room {
+  .schedule-grid {
+    width: 100%;
+  }
+
+  .col-room {
+    min-width: 0;
+  }
+}
+
+.schedule-grid {
+  width: auto;
+  min-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 14px;
+  background: #fff;
+
+  th,
+  td {
+    border-right: 1px solid $schedule-line;
+    border-bottom: 1px solid $schedule-line;
+    vertical-align: top;
+    padding: 8px;
+
+    &:last-child {
+      border-right: 0;
+    }
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: #f6f7f9;
+    text-align: left;
+    font-weight: 700;
+    color: $schedule-ink;
+    white-space: normal;
+  }
+
+  .col-room {
+    min-width: 230px;
+
+    .room-name {
+      display: block;
+      font-size: 15px;
+    }
+
+    .room-tracks {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 4px;
+    }
+
+    .room-track {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: hsl(var(--sess-hue), 55%, 28%);
+      background: hsl(var(--sess-hue), 60%, 92%);
+
+      &:hover {
+        background: hsl(var(--sess-hue), 60%, 85%);
+      }
+    }
+  }
+
+  .col-time {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    min-width: 84px;
+    background: #f6f7f9;
+    font-weight: 700;
+    color: $schedule-ink;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  thead .col-time {
+    z-index: 4;
+  }
+
+  .tz {
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+    color: #888;
+  }
+
+  tbody tr:last-child th,
+  tbody tr:last-child td {
+    border-bottom: 0;
+  }
+
+  tbody tr:hover .cell {
+    background: #fcfcfd;
+  }
+
+  .cell.is-empty {
+    background: repeating-linear-gradient(135deg, #fafafa, #fafafa 6px, #f3f4f6 6px, #f3f4f6 12px);
+  }
+}
+
+.sess {
+  padding: 7px 10px;
+  border-left: 4px solid hsl(var(--sess-hue), 60%, 45%);
+  border-radius: 4px;
+  background: hsl(var(--sess-hue), 65%, 97%);
+
+  & + .sess {
+    margin-top: 6px;
+  }
+
+  .sess-title {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.35;
+    color: $schedule-ink;
+    text-decoration: none;
+
+    &:hover {
+      color: hsl(var(--sess-hue), 60%, 38%);
+      text-decoration: underline;
+    }
+  }
+
+  .sess-speaker {
+    margin-top: 3px;
+    font-size: 12px;
+    color: #5a5a6a;
+  }
+
+  .sess-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    font-size: 11px;
+  }
+
+  .sess-track {
+    font-weight: 600;
+    padding: 1px 6px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: hsl(var(--sess-hue), 55%, 28%);
+    background: hsl(var(--sess-hue), 60%, 90%);
+  }
+
+  .sess-room,
+  .sess-type {
+    color: #6b6b7b;
+  }
+
+  .sess-room::before {
+    content: "\2302\00a0";
+  }
+}
+
+/* stacked view for narrow screens */
+.schedule-list {
+  display: none;
+
+  &.is-visible {
+    display: block;
+  }
+
+  .slot {
+    padding: 10px 0;
+    border-bottom: 1px solid $schedule-line;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  .slot-time {
+    font-size: 18px;
+    font-weight: 700;
+    color: $schedule-ink;
+    margin-bottom: 8px;
+
+    .tz {
+      font-size: 12px;
+      font-weight: 400;
+      color: #888;
+    }
+  }
+
+  .slot-sessions .sess {
+    margin-bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .schedule-scroll {
+    display: none;
+  }
+
+  .schedule-list {
+    display: block;
+  }
+
+  .schedule-tabs .schedule-tab {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+}
+
+@media screen and (min-width: 861px) {
+  .schedule-summary .schedule-hint {
+    display: inline;
+  }
+}

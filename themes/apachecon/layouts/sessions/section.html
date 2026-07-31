@@ -18,57 +18,221 @@
         <div id="content" class="container">
             <section>
                 <header class="major">
-                    <h2 class="text-center">{{.Title}}</h2>
+                    <h2 class="text-center">{{ .Title }}</h2>
                 </header>
 
-                {{ $day := "" }}
-                {{ $time := "" }}
-                {{ $day1 := "0001-01-01" }}
-                {{ $day2 := "2021-08-06" }}
-                <!-- Tabbox  -->
-                <div class="tab_box">
-                    {{ range $index, $value := .Site.Params.schedule }}
-                        <button class="tab_{{$value}}" onclick="tabChange({{ $value }})">{{ $value }}</button>
-                    {{ end }}   
+                {{/* ---------- track colours: golden angle keeps neighbours distinguishable ---------- */}}
+                {{ $trackSlugs := slice }}
+                {{ range .Pages }}
+                    {{ with .Params.track }}
+                        {{ if not (in $trackSlugs .) }}{{ $trackSlugs = $trackSlugs | append . }}{{ end }}
+                    {{ end }}
+                {{ end }}
+                {{ $hues := dict }}
+                {{ range $i, $slug := sort $trackSlugs }}
+                    {{ $hues = merge $hues (dict $slug (mod (mul $i 137) 360)) }}
+                {{ end }}
+
+                {{/* ---------- days: configured schedule first, then anything left over ---------- */}}
+                {{ $days := .Site.Params.schedule | default slice }}
+                {{ $unscheduled := slice }}
+                {{ range .Pages }}
+                    {{ if not (in $days (dateFormat "2006-01-02" .Date)) }}
+                        {{ $unscheduled = $unscheduled | append . }}
+                    {{ end }}
+                {{ end }}
+
+                {{ $roomOrder := slice }}
+                {{ with hugo.Data.rooms }}
+                    {{ $roomOrder = index . $.Site.Language.Lang | default slice }}
+                {{ end }}
+
+                <div class="schedule-tabs" role="tablist">
+                    {{ range $days }}
+                        <button type="button" class="schedule-tab" role="tab" data-day="{{ . }}">{{ . }}</button>
+                    {{ end }}
+                    {{ if $unscheduled }}
+                        <button type="button" class="schedule-tab" role="tab" data-day="tbd">{{ i18n "unknown_date" }}</button>
+                    {{ end }}
                 </div>
 
-                {{ range $page_index, $page_val := sort .Pages "Date" "asc"}}
-                {{ $pageDay := dateFormat "2006-01-02" .Date }}
-                {{ $pageTime := dateFormat "15:04 GMT+8" .Date }}
+                {{ range $days }}
+                    {{ $day := . }}
 
-                {{ if eq $pageDay $day }}
-                    <div class="tab_content tab_content_{{$pageDay}}">
-                        {{if eq $pageTime $time}}
-                        {{else}}
-                            <h3>{{$pageTime}}</h3>
-                        {{end}}
-                        {{ if .Title}}
-                            <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
-                                {{if eq .Params.track "bigdata"}}
-                                    (ROOM : {{.Params.room}})
-                                {{end}}
-                            <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
-                        {{end}}
-                    </div>
+                    {{/* sessions of the day */}}
+                    {{ $daySessions := slice }}
+                    {{ range $.Pages }}
+                        {{ if eq (dateFormat "2006-01-02" .Date) $day }}
+                            {{ $daySessions = $daySessions | append . }}
+                        {{ end }}
+                    {{ end }}
 
-                {{else}}
-                    {{ if eq $pageDay $day1 }}
-                    {{else}}
-                        {{ if eq $pageDay $day2 }}
-                        {{else}}
-                            <!-- </br> -->
-                        {{end}}
-                        <div class="tab_content tab_content_{{$pageDay}}">
-                            <h2>{{ $pageDay }}</h2>
-                            <h3>{{$pageTime}}</h3>
-                            <p>{{.Params.presenters}}: <a href="{{.Permalink}}">{{.Title}}</a>
-                            <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></p>
+                    {{/* time slots */}}
+                    {{ $times := slice }}
+                    {{ range $daySessions }}
+                        {{ $t := dateFormat "15:04" .Date }}
+                        {{ if not (in $times $t) }}{{ $times = $times | append $t }}{{ end }}
+                    {{ end }}
+                    {{ $times = sort $times }}
+
+                    {{/* room columns: curated order first, remaining rooms by first slot + track */}}
+                    {{ $dayRooms := slice }}
+                    {{ range $roomOrder }}
+                        {{ if where $daySessions "Params.room" . }}
+                            {{ $dayRooms = $dayRooms | append . }}
+                        {{ end }}
+                    {{ end }}
+                    {{ $roomKeys := slice }}
+                    {{ range $daySessions }}
+                        {{ $roomKeys = $roomKeys | append (printf "%s|%s|%s" (dateFormat "15:04" .Date) .Params.track .Params.room) }}
+                    {{ end }}
+                    {{ range sort $roomKeys }}
+                        {{ $r := index (split . "|") 2 }}
+                        {{ if not (in $dayRooms $r) }}{{ $dayRooms = $dayRooms | append $r }}{{ end }}
+                    {{ end }}
+
+                    {{/* rows, reused by the grid and by the mobile list */}}
+                    {{ $rows := slice }}
+                    {{ range $times }}
+                        {{ $t := . }}
+                        {{ $slot := slice }}
+                        {{ $slotRooms := slice }}
+                        {{ range $daySessions }}
+                            {{ if eq (dateFormat "15:04" .Date) $t }}
+                                {{ $slot = $slot | append . }}
+                                {{ if not (in $slotRooms .Params.room) }}{{ $slotRooms = $slotRooms | append .Params.room }}{{ end }}
+                            {{ end }}
+                        {{ end }}
+                        {{ $rows = $rows | append (dict "time" $t "sessions" $slot "rooms" $slotRooms) }}
+                    {{ end }}
+
+                    {{/* group consecutive slots that share the same set of rooms into blocks, so the
+                         morning plenary does not drag an empty column through the afternoon */}}
+                    {{ $blocks := slice }}
+                    {{ $blockRooms := slice }}
+                    {{ $blockRows := slice }}
+                    {{ range $rows }}
+                        {{ $slotRooms := .rooms }}
+                        {{ $subset := true }}
+                        {{ range $slotRooms }}{{ if not (in $blockRooms .) }}{{ $subset = false }}{{ end }}{{ end }}
+                        {{ $superset := true }}
+                        {{ range $blockRooms }}{{ if not (in $slotRooms .) }}{{ $superset = false }}{{ end }}{{ end }}
+                        {{ if not $blockRows }}
+                            {{ $blockRooms = $slotRooms }}
+                            {{ $blockRows = slice . }}
+                        {{ else if $subset }}
+                            {{ $blockRows = $blockRows | append . }}
+                        {{ else if $superset }}
+                            {{ $blockRooms = $slotRooms }}
+                            {{ $blockRows = $blockRows | append . }}
+                        {{ else }}
+                            {{ $blocks = $blocks | append (dict "rooms" $blockRooms "rows" $blockRows) }}
+                            {{ $blockRooms = $slotRooms }}
+                            {{ $blockRows = slice . }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if $blockRows }}
+                        {{ $blocks = $blocks | append (dict "rooms" $blockRooms "rows" $blockRows) }}
+                    {{ end }}
+
+                    <div class="schedule-day" data-day="{{ $day }}" hidden>
+                        <div class="schedule-summary">
+                            <span class="schedule-date">{{ $day }}</span>
+                            <span class="schedule-count">{{ len $daySessions }} {{ i18n "schedule_sessions" }}</span>
+                            <span class="schedule-hint">{{ i18n "schedule_scroll_hint" }}</span>
                         </div>
-                    {{end}}
-                {{end}}
-                {{ $day = $pageDay }}
-                {{ $time = $pageTime }}
-                {{end}}
+
+                        {{ range $blocks }}
+                            {{ $block := . }}
+                            {{/* keep the curated column order, but only for the rooms used in this block */}}
+                            {{ $cols := slice }}
+                            {{ range $dayRooms }}
+                                {{ if in $block.rooms . }}{{ $cols = $cols | append . }}{{ end }}
+                            {{ end }}
+                            {{ $blockSessions := slice }}
+                            {{ range $block.rows }}
+                                {{ range .sessions }}{{ $blockSessions = $blockSessions | append . }}{{ end }}
+                            {{ end }}
+
+                            <div class="schedule-block schedule-scroll{{ if eq (len $cols) 1 }} is-single-room{{ end }}">
+                                <table class="schedule-grid">
+                                    <thead>
+                                        <tr>
+                                            <th class="col-time">{{ i18n "schedule_time" }}<span class="tz">GMT+8</span></th>
+                                            {{ range $cols }}
+                                                {{ $room := . }}
+                                                {{ $roomTracks := slice }}
+                                                {{ range where $blockSessions "Params.room" $room }}
+                                                    {{ if not (in $roomTracks .Params.track) }}{{ $roomTracks = $roomTracks | append .Params.track }}{{ end }}
+                                                {{ end }}
+                                                <th class="col-room">
+                                                    <span class="room-name">{{ $room }}</span>
+                                                    <span class="room-tracks">
+                                                        {{ range $roomTracks }}
+                                                            {{ $slug := . }}
+                                                            {{ $name := $slug }}
+                                                            {{ with site.GetPage (printf "/tracks/%s" $slug) }}{{ $name = .Title }}{{ end }}
+                                                            <a class="room-track" style="--sess-hue: {{ index $hues $slug | default 210 }}"
+                                                               href="{{ "tracks" | relLangURL }}/{{ $slug }}.html">{{ $name | strings.TrimSpace }}</a>
+                                                        {{ end }}
+                                                    </span>
+                                                </th>
+                                            {{ end }}
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {{ range $block.rows }}
+                                            {{ $row := . }}
+                                            <tr>
+                                                <th class="col-time">{{ $row.time }}</th>
+                                                {{ range $cols }}
+                                                    {{ $cell := where $row.sessions "Params.room" . }}
+                                                    <td class="cell{{ if not $cell }} is-empty{{ end }}">
+                                                        {{ range $cell }}
+                                                            {{ partial "session_cell.html" (dict "page" . "hue" (index $hues .Params.track | default 210)) }}
+                                                        {{ end }}
+                                                    </td>
+                                                {{ end }}
+                                            </tr>
+                                        {{ end }}
+                                    </tbody>
+                                </table>
+                            </div>
+                        {{ end }}
+
+                        <!-- narrow screens: same data, stacked by time slot -->
+                        <div class="schedule-list">
+                            {{ range $rows }}
+                                <div class="slot">
+                                    <div class="slot-time">{{ .time }} <span class="tz">GMT+8</span></div>
+                                    <div class="slot-sessions">
+                                        {{ range .sessions }}
+                                            {{ partial "session_cell.html" (dict "page" . "hue" (index $hues .Params.track | default 210) "showRoom" true) }}
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                {{ end }}
+
+                {{ if $unscheduled }}
+                    <div class="schedule-day" data-day="tbd" hidden>
+                        <div class="schedule-summary">
+                            <span class="schedule-date">{{ i18n "unknown_date" }}</span>
+                            <span class="schedule-count">{{ len $unscheduled }} {{ i18n "schedule_sessions" }}</span>
+                        </div>
+                        <div class="schedule-list is-visible">
+                            <div class="slot">
+                                <div class="slot-sessions">
+                                    {{ range $unscheduled }}
+                                        {{ partial "session_cell.html" (dict "page" . "hue" (index $hues .Params.track | default 210) "showRoom" true) }}
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{ end }}
 
             </section>
         </div>
@@ -76,60 +240,36 @@
 
     {{ partial "footer.html" . }}
 
-    <style>
-        .tab_box{
-            border-bottom: 1px solid #0f072d;
-            padding: 0;
-            margin-bottom: 30px;
-        }
-        .tab_box button{
-            position: relative;
-            bottom: -1px;
-            margin: 0;
-            border-style: none;
-            background-color: transparent;
-            border: 1px solid #0f072d;
-            padding: 5px 10px;
-            font-size: 19px;
-            cursor: pointer;
-        }
-        .tab_box .tab_selected{
-            background-color: #0f072d;
-            color:white;
-        }
-        .tab_content h2{
-            margin: 18px 0;
-        }
-        .tab_content p{
-            text-indent: 2em;
-        }
-
-
-    </style>
-
 <script>
-    const tab_list = {{ .Site.Params.schedule }}
+    (function () {
+        var tabs = Array.prototype.slice.call(document.querySelectorAll('.schedule-tab'));
+        var days = Array.prototype.slice.call(document.querySelectorAll('.schedule-day'));
+        if (!tabs.length) { return; }
 
-    window.onload = function() {
-        tabChange(tab_list[0])
-    }
+        function show(day) {
+            tabs.forEach(function (tab) {
+                var on = tab.dataset.day === day;
+                tab.classList.toggle('is-selected', on);
+                tab.setAttribute('aria-selected', on ? 'true' : 'false');
+            });
+            days.forEach(function (panel) {
+                panel.hidden = panel.dataset.day !== day;
+            });
+        }
 
-    function tabChange(index){
-        
-        tab_list.forEach(el => {
-            const tab_name = `.tab_content_${el}`
-            const button_name = `.tab_${el}`
-            if( index == el){
-                $(button_name).addClass('tab_selected')
-                $(tab_name).show()
-
-            }else{
-                $(button_name).removeClass('tab_selected')
-                $(tab_name).hide()
-
-            }
+        tabs.forEach(function (tab) {
+            tab.addEventListener('click', function () {
+                show(tab.dataset.day);
+                if (window.history && window.history.replaceState) {
+                    window.history.replaceState(null, '', '#' + tab.dataset.day);
+                }
+            });
         });
-    }
+
+        var known = tabs.map(function (tab) { return tab.dataset.day; });
+        var fromHash = decodeURIComponent((window.location.hash || '').replace('#', ''));
+        show(known.indexOf(fromHash) > -1 ? fromHash : known[0]);
+    })();
 </script>
 </body>
 </html>

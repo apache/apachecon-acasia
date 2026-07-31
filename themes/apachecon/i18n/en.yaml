@@ -181,3 +181,15 @@ business_travel:
 
 unknown_date:
   other: Unknown Date  
+
+schedule_time:
+  other: Time
+
+schedule_room:
+  other: Room
+
+schedule_sessions:
+  other: sessions
+
+schedule_scroll_hint:
+  other: Scroll horizontally to see all rooms
