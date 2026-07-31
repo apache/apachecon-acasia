@@ -1596,19 +1596,6 @@
                 href="/sessions/datalake-1213358.html"
                 />
   </url><url>
-    <loc>/sessions/dataai-1186507.html</loc>
-    <lastmod>2026-08-07T15:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1186507.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1186507.html"
-                />
-  </url><url>
     <loc>/sessions/datalake-1214197.html</loc>
     <lastmod>2026-08-07T15:00:00+00:00</lastmod>
     <xhtml:link
@@ -1659,6 +1646,19 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="/sessions/olap-1212858.html"
+                />
+  </url><url>
+    <loc>/sessions/dataai-1186507.html</loc>
+    <lastmod>2026-08-07T15:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1186507.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1186507.html"
                 />
   </url><url>
     <loc>/sessions/datastorage-1212544.html</loc>

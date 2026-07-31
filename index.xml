@@ -856,13 +856,6 @@
       <description>&lt;p&gt;Apache Cloudberry is an advanced and mature open-source MPP database, derived from the open-source version of the Pivotal Greenplum Database® but built on a more modern PostgreSQL kernel and with more advanced enterprise capabilities. Cloudberry can serve as a data warehouse and can also be used for large-scale analytics and AI/ML workloads.&#xA;Since Apache Cloudberry entered the Apache Incubator and delivered its first incubating release in 2025, the project has continued to evolve rapidly. In 2026, the community is advancing both the 2.x and 3.x release lines, bringing significant enhancements across performance, architecture, and usability.&#xA;In this talk, we will provide an overview of the latest innovations in Apache Cloudberry. We will cover continued improvements in the 2.x series, built on PostgreSQL 14, including performance optimizations, new features, and ecosystem enhancements. We will also introduce the 3.x series, powered by PostgreSQL 16, and discuss the architectural opportunities enabled by the newer PostgreSQL kernel.&#xA;Topics will include selected improvements in query execution, storage, security, developer experience, and compatibility, along with a look at how these changes shape the future direction of Apache Cloudberry.&#xA;This session is intended for users, contributors, and anyone interested in the technical evolution of next-generation open-source MPP data warehouses.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Apache Doris-Powered AI4Data Decision Platform: Production Landing &amp; Practice</title>
-      <link>/sessions/dataai-1186507.html</link>
-      <pubDate>Fri, 07 Aug 2026 15:00:00 +0000</pubDate>
-      <guid>/sessions/dataai-1186507.html</guid>
-      <description>&lt;p&gt;As Apache Doris 2025 MVP, core contributor to Doris-MCP, and Co-Founder of Yiwen Data Agent, I will leverage my experience supporting over 500 leading enterprises in their data warehouse transformation within the Apache Doris community, combined with hands-on implementation expertise in the AI4Data field, to share an end-to-end solution for building a zero-illusion AI-assisted decision-making platform on Apache Doris.&lt;/p&gt;&#xA;&lt;p&gt;This session will dispel industry misconceptions about AI4Data, focus on the real-world decision-making needs of enterprises, and deliver a replicable, validated practice framework for AI + data engine integration to the Apache Doris community, covering the full lifecycle from technical architecture design to production deployment:&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Beyond the Protocol: Productionizing the Iceberg REST Catalog at Enterprise Scale</title>
       <link>/sessions/datalake-1214197.html</link>
       <pubDate>Fri, 07 Aug 2026 15:00:00 +0000</pubDate>
@@ -889,6 +882,13 @@
       <pubDate>Fri, 07 Aug 2026 15:00:00 +0000</pubDate>
       <guid>/sessions/olap-1212858.html</guid>
       <description>&lt;p&gt;How to cache enough info in memory to plan queries on  &amp;gt; 1 million file tables? Our talk will describe Apache Impala&amp;rsquo;s metadata caching solution that can deal with massive Iceberg and Hive tables efficiently.&lt;/p&gt;&#xA;&lt;p&gt;Caching table and file metadata is key to high query throughput by allowing query planning without reaching out to other services. For huge tables (e.g. &amp;gt;1M files) the metadata cache becomes a massive memory hog and expensive to maintain. Impala’s current fine-grained caching and invalidation is effective for Hive tables, but doesn’t fully translate to Iceberg’s architecture. The focus of the talk is a new, cleaner and more efficient caching solution for Iceberg tables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From MCP to Dynamic Ontology: How Enterprises Can Choose the Right ChatBI and Data Agent Architecture on Apache Doris</title>
+      <link>/sessions/dataai-1186507.html</link>
+      <pubDate>Fri, 07 Aug 2026 15:00:00 +0000</pubDate>
+      <guid>/sessions/dataai-1186507.html</guid>
+      <description>&lt;p&gt;When enterprises begin building ChatBI or Data Agents, the hardest question is often not whether a large language model can generate SQL. It is how to choose a cost-effective architecture that can evolve with the company&amp;rsquo;s existing data foundation, business complexity, and risk profile.&lt;/p&gt;&#xA;&lt;p&gt;A team that has just completed a real-time data warehouse and wants to validate the value of conversational analytics should not use the same architecture as an enterprise that already has a mature metrics platform and needs to coordinate analysis across sales, supply chain, production, and service.&#xA;Direct NL2SQL is not inherently wrong. When the data scope is limited, business definitions are clear, and access is read-only and low-risk, it can be the fastest way to validate value.&#xA;The problem begins when enterprises take an architecture designed for a proof of concept and expose it directly to hundreds or thousands of tables in a complex production environment, leaving schema discovery, business semantics, permissions, security, cost, and result correctness to a single probabilistic model.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Vision to Production: How Apache Fluss Defines the Storage Layer for Real-Time Data Lakehouses</title>
