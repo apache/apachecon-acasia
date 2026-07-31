@@ -292,3 +292,213 @@ $schedule-accent: #EA7826;
     display: inline;
   }
 }
+
+/* ------------------------------------------------------------------ *
+ *  Track detail page (/tracks/<track>.html)
+ * ------------------------------------------------------------------ */
+
+.track-page {
+  .track-hero {
+    padding: 18px 22px;
+    margin-bottom: 26px;
+    border-left: 5px solid hsl(var(--track-hue), 60%, 45%);
+    border-radius: 6px;
+    background: linear-gradient(90deg, hsl(var(--track-hue), 65%, 96%), #fff 85%);
+  }
+
+  .track-back {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: hsl(var(--track-hue), 55%, 32%);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .track-title {
+    margin: 6px 0 14px;
+    font-size: 34px;
+    line-height: 1.25;
+    color: $schedule-ink;
+  }
+
+  .track-facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 32px;
+    margin: 0;
+
+    .fact {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    dt {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #7a7a8a;
+    }
+
+    dd {
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      font-size: 15px;
+      color: $schedule-ink;
+    }
+
+    .chair {
+      padding: 1px 8px;
+      border-radius: 10px;
+      font-size: 13px;
+      background: hsl(var(--track-hue), 60%, 92%);
+      color: hsl(var(--track-hue), 55%, 28%);
+    }
+  }
+
+  .track-intro {
+    max-width: 900px;
+    margin-bottom: 34px;
+    font-size: 15px;
+    line-height: 1.75;
+
+    p {
+      margin-bottom: 1em;
+    }
+  }
+
+  .track-agenda-title {
+    margin: 0 0 14px;
+    padding-bottom: 8px;
+    font-size: 22px;
+    border-bottom: 2px solid hsl(var(--track-hue), 60%, 45%);
+    color: $schedule-ink;
+  }
+
+  .track-day + .track-day {
+    margin-top: 22px;
+  }
+
+  .track-day-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: hsl(var(--track-hue), 45%, 95%);
+
+    .track-day-date {
+      font-size: 17px;
+      font-weight: 700;
+      color: $schedule-ink;
+    }
+
+    .track-day-link {
+      font-size: 12px;
+      text-decoration: none;
+      color: hsl(var(--track-hue), 55%, 35%);
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .track-slots {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* one session per row: time in the left gutter, speaker and room to the right */
+  .track-slot {
+    display: flex;
+    gap: 12px;
+    padding: 0;
+
+    & + .track-slot {
+      margin-top: 6px;
+    }
+
+    .track-slot-time {
+      flex: 0 0 62px;
+      padding-top: 9px;
+      font-size: 14px;
+      font-weight: 700;
+      color: $schedule-ink;
+
+      .tz {
+        display: block;
+        font-size: 10px;
+        font-weight: 400;
+        color: #999;
+      }
+    }
+
+    .sess {
+      flex: 1 1 auto;
+      min-width: 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 4px 16px;
+      padding: 9px 12px;
+    }
+
+    .sess-title {
+      flex: 1 1 340px;
+      font-size: 15px;
+    }
+
+    .sess-speaker,
+    .sess-meta {
+      flex: 0 0 auto;
+      margin-top: 0;
+      font-size: 12px;
+    }
+  }
+
+  .track-tba {
+    padding: 14px;
+    border: 1px dashed $schedule-line;
+    border-radius: 6px;
+    color: #6b6b7b;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .track-page {
+    .track-title {
+      font-size: 27px;
+    }
+
+    .track-intro {
+      margin-bottom: 26px;
+    }
+
+    /* stacked card again: a single row per session gets too cramped */
+    .track-slot .sess {
+      display: block;
+    }
+
+    .track-slot .sess-speaker {
+      margin-top: 3px;
+    }
+
+    .track-slot .sess-meta {
+      margin-top: 5px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}

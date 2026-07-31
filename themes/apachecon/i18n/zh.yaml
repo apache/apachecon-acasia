@@ -193,3 +193,15 @@ schedule_sessions:
 
 schedule_scroll_hint:
   other: 左右滑动可查看全部会场
+
+track_agenda:
+  other: 专题日程
+
+track_full_schedule:
+  other: 查看完整日程
+
+track_tba:
+  other: 本专题日程即将公布。
+
+schedule_sessions_label:
+  other: 议题

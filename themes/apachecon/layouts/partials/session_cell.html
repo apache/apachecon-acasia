@@ -1,13 +1,15 @@
 {{- /*
-  Renders one session inside the schedule grid.
+  Renders one session card, used by the schedule grid and by the track pages.
   Params:
-    page     : the session page
-    hue      : 0-359, used to colour code the track
-    showRoom : also print the room name (grid columns already carry it)
+    page      : the session page
+    hue       : 0-359, used to colour code the track
+    showRoom  : also print the room name (grid columns already carry it)
+    hideTrack : drop the track tag (redundant on a track page)
 */ -}}
 {{- $page := .page -}}
 {{- $hue := .hue | default 210 -}}
 {{- $showRoom := .showRoom | default false -}}
+{{- $hideTrack := .hideTrack | default false -}}
 {{- $track := $page.Params.track -}}
 {{- $trackName := $track -}}
 {{- with site.GetPage (printf "/tracks/%s" $track) -}}
@@ -19,9 +21,9 @@
   <div class="sess-speaker">{{ . }}</div>
   {{- end }}
   <div class="sess-meta">
-    {{- with $track }}
+    {{- if not $hideTrack }}{{ with $track }}
     <a class="sess-track" href="{{ "tracks" | relLangURL }}/{{ . }}.html" title="{{ $trackName }}">{{ $trackName | strings.TrimSpace }}</a>
-    {{- end }}
+    {{- end }}{{ end }}
     {{- if $showRoom }}{{ with $page.Params.room }}
     <span class="sess-room">{{ . }}</span>
     {{- end }}{{ end }}

@@ -1,0 +1,20 @@
+{{- /*
+  Returns a map of track slug -> hue (0-359), shared by the schedule grid and the
+  track pages so a track keeps the same colour everywhere.
+  The golden angle (137) keeps neighbouring tracks distinguishable.
+  Usage: {{ $hues := partialCached "track_hues.html" . site.Language.Lang }}
+*/ -}}
+{{- $slugs := slice -}}
+{{- range where site.RegularPages "Section" "sessions" -}}
+  {{- with .Params.track -}}
+    {{- if not (in $slugs .) }}{{ $slugs = $slugs | append . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- $hues := dict -}}
+{{- range $i, $slug := sort $slugs -}}
+  {{- $h := mod (mul $i 137) 360 -}}
+  {{- /* 360 renders like 0 in hsl() but stays truthy, so `default` cannot swallow it */ -}}
+  {{- if eq $h 0 }}{{ $h = 360 }}{{ end -}}
+  {{- $hues = merge $hues (dict $slug $h) -}}
+{{- end -}}
+{{- return $hues -}}

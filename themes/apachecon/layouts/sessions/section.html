@@ -21,17 +21,8 @@
                     <h2 class="text-center">{{ .Title }}</h2>
                 </header>
 
-                {{/* ---------- track colours: golden angle keeps neighbours distinguishable ---------- */}}
-                {{ $trackSlugs := slice }}
-                {{ range .Pages }}
-                    {{ with .Params.track }}
-                        {{ if not (in $trackSlugs .) }}{{ $trackSlugs = $trackSlugs | append . }}{{ end }}
-                    {{ end }}
-                {{ end }}
-                {{ $hues := dict }}
-                {{ range $i, $slug := sort $trackSlugs }}
-                    {{ $hues = merge $hues (dict $slug (mod (mul $i 137) 360)) }}
-                {{ end }}
+                {{/* ---------- track colours, shared with the track pages ---------- */}}
+                {{ $hues := partialCached "track_hues.html" . site.Language.Lang }}
 
                 {{/* ---------- days: configured schedule first, then anything left over ---------- */}}
                 {{ $days := .Site.Params.schedule | default slice }}
