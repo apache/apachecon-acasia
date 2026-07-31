@@ -16,24 +16,73 @@
 
         <!-- Content -->
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">{{.Title}}</h3>
-                    <h4>{{.Params.presenters}}</h4>
-                    {{.Params.stype}}  {{if  .Date}}{{dateFormat "2006-01-02 15:04 GMT+8" .Date}}{{end}}&nbsp;
-                    {{if .Params.room }}
-                        (ROOM : {{.Params.room}})
-                    {{end}}
-                    <a class="label" href="{{ "tracks" | relLangURL }}/{{.Params.track}}.html">#{{.Params.track}}</a></li>
+
+            {{ $hues := partialCached "track_hues.html" . site.Language.Lang }}
+            {{ $slug := .Params.track }}
+            {{ $hue := index $hues $slug | default 210 }}
+            {{ $trackName := $slug }}
+            {{ with site.GetPage (printf "/tracks/%s" $slug) }}{{ $trackName = .Title | strings.TrimSpace }}{{ end }}
+            {{ $day := "" }}{{ if not .Date.IsZero }}{{ $day = dateFormat "2006-01-02" .Date }}{{ end }}
+
+            <article class="session-detail" style="--track-hue: {{ $hue }}">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="{{ "sessions" | relLangURL }}/{{ with $day }}#{{ . }}{{ end }}">{{ i18n "sessions" }}</a>
+                        <span class="sep">/</span>
+                        {{ with $slug }}<a href="{{ "tracks" | relLangURL }}/{{ . }}.html">{{ $trackName }}</a>{{ end }}
+                    </nav>
+
+                    <h1 class="session-title">{{ .Title }}</h1>
+
+                    {{ with .Params.presenters }}
+                        <div class="session-presenters">
+                            {{ range split . "," }}<span class="presenter">{{ . | strings.TrimSpace }}</span>{{ end }}
+                        </div>
+                    {{ end }}
+
+                    <ul class="session-meta">
+                        {{ if not .Date.IsZero }}
+                            <li class="meta-date"><span class="ico">&#128197;</span>{{ dateFormat "Mon, Jan 2" .Date }}</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>{{ dateFormat "15:04" .Date }}<span class="tz">GMT+8</span></li>
+                        {{ else }}
+                            <li class="meta-date"><span class="ico">&#128197;</span>{{ i18n "unknown_date" }}</li>
+                        {{ end }}
+                        {{ with .Params.room }}<li class="meta-room"><span class="ico">&#128205;</span>{{ . }}</li>{{ end }}
+                        {{ with .Params.stype }}<li class="meta-type"><span class="ico">&#127908;</span>{{ . }}</li>{{ end }}
+                        {{ with $slug }}<li class="meta-track"><a href="{{ "tracks" | relLangURL }}/{{ . }}.html">#{{ $trackName }}</a></li>{{ end }}
+                    </ul>
                 </header>
 
-                {{.Content}}
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src="{{.Params.speechLink}}"  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                <div class="session-body">
+                    {{ .Content }}
                 </div>
 
-            </section>
+                {{ with .Params.speechLink }}
+                    <div class="session-video">
+                        <iframe src="{{ . }}" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
+                    </div>
+                {{ end }}
+
+                {{/* prev / next within the same track, ordered by time */}}
+                {{ $trackSessions := sort (where (where site.RegularPages "Section" "sessions") "Params.track" $slug) "Date" "asc" }}
+                {{ $prev := "" }}{{ $next := "" }}{{ $found := false }}
+                {{ range $trackSessions }}
+                    {{ if $found }}{{ if not $next }}{{ $next = . }}{{ end }}
+                    {{ else if eq .File.Path $.File.Path }}{{ $found = true }}
+                    {{ else }}{{ $prev = . }}{{ end }}
+                {{ end }}
+                {{ if or $prev $next }}
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            {{ with $prev }}<a href="{{ .Permalink }}"><span class="dir">&larr; {{ i18n "prevPage" }}</span><span class="nav-title">{{ .Title }}</span></a>{{ end }}
+                        </div>
+                        <div class="nav-next">
+                            {{ with $next }}<a href="{{ .Permalink }}"><span class="dir">{{ i18n "nextPage" }} &rarr;</span><span class="nav-title">{{ .Title }}</span></a>{{ end }}
+                        </div>
+                    </nav>
+                {{ end }}
+            </article>
+
         </div>
     </div>
 

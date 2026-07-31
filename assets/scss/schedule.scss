@@ -502,3 +502,200 @@ $schedule-accent: #EA7826;
     }
   }
 }
+
+/* ------------------------------------------------------------------ *
+ *  Session detail page (/sessions/<id>.html)
+ * ------------------------------------------------------------------ */
+
+.session-detail {
+  max-width: 860px;
+  margin: 0 auto;
+
+  .session-hero {
+    padding: 20px 24px;
+    margin-bottom: 26px;
+    border-left: 5px solid hsl(var(--track-hue), 60%, 45%);
+    border-radius: 6px;
+    background: linear-gradient(90deg, hsl(var(--track-hue), 65%, 96%), #fff 88%);
+  }
+
+  .session-crumbs {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #9a9aa8;
+
+    a {
+      color: hsl(var(--track-hue), 55%, 32%);
+      text-decoration: none;
+
+      &:hover { text-decoration: underline; }
+    }
+
+    .sep { margin: 0 6px; }
+  }
+
+  .session-title {
+    margin: 0 0 12px;
+    font-size: 32px;
+    line-height: 1.25;
+    color: $schedule-ink;
+  }
+
+  .session-presenters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 16px;
+
+    .presenter {
+      font-size: 14px;
+      font-weight: 600;
+      padding: 2px 10px;
+      border-radius: 12px;
+      color: hsl(var(--track-hue), 55%, 28%);
+      background: hsl(var(--track-hue), 60%, 92%);
+    }
+  }
+
+  .session-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    color: #55555f;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .ico {
+      font-size: 15px;
+      line-height: 1;
+      filter: grayscale(0.2);
+    }
+
+    .tz {
+      margin-left: 3px;
+      font-size: 11px;
+      color: #999;
+    }
+
+    .meta-track a {
+      font-weight: 600;
+      text-decoration: none;
+      color: hsl(var(--track-hue), 55%, 32%);
+
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  .session-body {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #2c2c35;
+
+    p { margin-bottom: 1.1em; }
+
+    /* the "Speakers" / 讲师 heading that precedes the bios */
+    h3 {
+      margin: 30px 0 16px;
+      padding-bottom: 8px;
+      font-size: 20px;
+      border-bottom: 2px solid hsl(var(--track-hue), 60%, 45%);
+      color: $schedule-ink;
+    }
+
+    img {
+      float: left;
+      width: 130px !important;
+      height: auto;
+      margin: 4px 20px 12px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+    }
+
+    /* clear the floated portrait before the next block */
+    h3 + p,
+    br + img { clear: left; }
+  }
+
+  .session-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: 28px 0;
+    border-radius: 8px;
+    overflow: hidden;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .session-nav {
+    display: flex;
+    gap: 16px;
+    margin-top: 36px;
+    padding-top: 20px;
+    border-top: 1px solid $schedule-line;
+
+    .nav-prev,
+    .nav-next {
+      flex: 1 1 0;
+      min-width: 0;
+    }
+
+    .nav-next { text-align: right; }
+
+    a {
+      display: inline-flex;
+      flex-direction: column;
+      gap: 3px;
+      text-decoration: none;
+      color: $schedule-ink;
+
+      &:hover .nav-title { color: hsl(var(--track-hue), 55%, 38%); }
+    }
+
+    .dir {
+      font-size: 12px;
+      font-weight: 600;
+      color: hsl(var(--track-hue), 55%, 35%);
+    }
+
+    .nav-title {
+      font-size: 14px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .session-detail {
+    .session-title { font-size: 25px; }
+
+    .session-body img {
+      float: none;
+      display: block;
+      margin: 4px 0 12px;
+    }
+
+    .session-nav {
+      flex-direction: column;
+
+      .nav-next { text-align: left; }
+    }
+  }
+}

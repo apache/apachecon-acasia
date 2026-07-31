@@ -205,3 +205,6 @@ track_tba:
 
 schedule_sessions_label:
   other: Sessions
+
+sessions:
+  other: Sessions

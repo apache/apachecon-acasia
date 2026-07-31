@@ -205,3 +205,6 @@ track_tba:
 
 schedule_sessions_label:
   other: 议题
+
+sessions:
+  other: 议题
