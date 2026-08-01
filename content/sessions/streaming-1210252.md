@@ -1,6 +1,6 @@
 ---
 title: "Migration from Kafka to Fluss for Lake-Stream Integration: Practical Implementation"
-date: "2026-08-09T16:15:00"
+date: "2026-08-08T14:30:00"
 track: "streaming"
 presenters: "zuo yan"
 stype: "Chinese Session"

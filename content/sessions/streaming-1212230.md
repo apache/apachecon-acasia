@@ -1,6 +1,6 @@
 ---
 title: "The Evolution and Production Practices of Flink 2.x in Tencent"
-date: "2026-08-08T15:00:00"
+date: "2026-08-09T16:15:00"
 track: "streaming"
 presenters: "Zihao Chen"
 stype: "Chinese Session"

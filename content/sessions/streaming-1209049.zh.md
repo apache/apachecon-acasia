@@ -1,6 +1,6 @@
 ---
 title: "从数据混乱到可控：一家全球电信运营商如何用 Apache Iceberg 驯服 PB 级挑战"
-date: "2026-08-08T16:45:00"
+date: "2026-08-08T15:00:00"
 track: "streaming"
 presenters: "Akshat Mathur, Bill Zhang"
 stype: "英文演讲"

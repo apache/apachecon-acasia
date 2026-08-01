@@ -1,6 +1,6 @@
 ---
 title: "From Data Chaos to Control: How a Global Telco Tamed Petabyte-Scale Challenges with Apache Iceberg"
-date: "2026-08-08T16:45:00"
+date: "2026-08-08T15:00:00"
 track: "streaming"
 presenters: "Akshat Mathur, Bill Zhang"
 stype: "English Session"
