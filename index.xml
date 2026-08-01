@@ -51,18 +51,18 @@
       <description>&lt;p&gt;Managing multiple podlings across the Apache Incubator requires synthesising data from multiple disconnected sources: Confluence reports, GitHub activity, mailing lists, Whimsy, with no single view of the full picture. This talk introduces a set of Model Context Protocol (MCP) servers built to change that.&#xA;The tooling spans multiple connected servers: a podlings server reading lifecycle data directly from podlings.xml, an apache-health server exposing commit and community metrics, an incubator-mail server providing searchable access to &lt;a href=&#34;mailto:general@incubator.apache.org&#34;&gt;general@incubator.apache.org&lt;/a&gt;, and an IPMC synthesis layer that combines all three into watchlists, graduation readiness assessments, podling briefs, and stall detection.&#xA;The talk will demonstrate real workflows: monthly IPMC oversight passes, mentor check-ins on specific podlings, identifying chronically stalled projects, and cross-referencing report narratives against health metrics to spot where the two tell different stories. It will also explore a bigger question the tooling raises - Could AI-assisted oversight change the need, frequency, or format of podling reports themselves?&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Migration from Kafka to Fluss for Lake-Stream Integration: Practical Implementation</title>
-      <link>/sessions/streaming-1210252.html</link>
-      <pubDate>Sun, 09 Aug 2026 16:15:00 +0000</pubDate>
-      <guid>/sessions/streaming-1210252.html</guid>
-      <description>&lt;p&gt;The main benefits of replacing Kafka with Fluss are as follows:&#xA;Kafka uses local centralized storage, while Fluss stores cold data in Paimon. With Paimon’s S3 storage deployed on HDDs, significant storage cost savings are achieved without sacrificing query performance.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d1e8-400o400o1-MMvXTnvrxxYuEAieaKuXvD.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;zuo yan:  technology expert&lt;/p&gt;&#xA;&lt;p&gt;Zuo Yan,  technology expert, is responsible for building the data center and log platform. Contributors for open-source projects such as Apache Flink, Apache Doris, Flink CDC, StarRocks, and Fluss.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Orchestrating and Diagnosing: Seata-Go Agent Platform and seata-ctl Toolchain</title>
       <link>/sessions/webserver-1213943.html</link>
       <pubDate>Sun, 09 Aug 2026 16:15:00 +0000</pubDate>
       <guid>/sessions/webserver-1213943.html</guid>
       <description>&lt;p&gt;To address the complexity of long-transaction orchestration and the challenges of distributed transaction diagnostics, this talk will cover the evolution of Seata Go and its infrastructure, the capabilities of the Agent orchestration platform and diagnostic tools, and practical use cases integrating the two.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/e22a-400o400o1-aMZP9AC2ZUbPKtpnLFD2sT.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tun Guo: Backend Developer, Apache Seata(Incubator) Committer&lt;/p&gt;&#xA;&lt;p&gt;A backend development engineer at an embedded AI company, and an Apache Seata (Incubator) Committer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Evolution and Production Practices of Flink 2.x in Tencent</title>
+      <link>/sessions/streaming-1212230.html</link>
+      <pubDate>Sun, 09 Aug 2026 16:15:00 +0000</pubDate>
+      <guid>/sessions/streaming-1212230.html</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Business Context and Architectural Evolution&#xA;a. Business Drivers: As Tencent&amp;rsquo;s business demands for real-time Lakehouse solutions and data preprocessing for Large Language Models (LLMs) surged, the iteration of the legacy 1.x version faced challenges such as high labor costs and a growing disconnect from the open-source community.&#xA;b. Core Value of Flink 2.x: The enhancements and optimizations introduced in Flink 2.x—spanning compute-storage separation, materialized tables, batch processing optimizations, Lakehouse architectures, and AI workflows—align perfectly with Tencent&amp;rsquo;s specific business scenarios.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Workflow Orchestration in the AI Era: New Challenges and Practices for Data Processing at Scale</title>
@@ -394,6 +394,13 @@
       <description>&lt;p&gt;Let&amp;rsquo;s say you have Apache Cloudberry cluster that consists of several PostgreSQL instances. They all execute a single query, and you want to collect general statistics on how many resources were spent on executing this query. The built-in pg_stat_statements module is no longer suitable here, since it works within the same database. I will present a solution with a similar central idea — collecting data through query execution hooks, but instead of storing it in PostgreSQL shared memory, we send raw data to an external agent process. This process is responsible for aggregating metrics, providing a unified picture across all instances, as well as additional functions, such as the forced termination of problematic sessions, while not limited to PostgreSQL: the solution can collect data from other system components. I will talk about architecture, product tasks, and share links to the repositories (Apache 2.0 License) with the code.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Building Agentic Payment &amp; Data Monetization Layer for AI on Solana</title>
+      <link>/sessions/dataai-1300514.html</link>
+      <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
+      <guid>/sessions/dataai-1300514.html</guid>
+      <description>&lt;p&gt;Introducing mainstream agentic payment protocols in apache ecosystem, agentic payment gateway built by Solana, successful case study of data monetization open-source projects, and how blockchain protocols can bootstrap open source agent economy.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ec39-400o400o1-9Nf9FeCvduJjeZehKMU9nB.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mike Ma: Developer Advocate @Solana Foundation&lt;/p&gt;&#xA;&lt;p&gt;Mike Ma is developer advocate at Solana Foundation and an open source developer in apache ecosystem and Solana ecosystem contributing Solana-go SDK, x402 protocol, APP agentic payment protocol and initiated Solar - the chinese speaking Solana developer community.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Challenges of Implementing Iceberg Features in a C&#43;&#43; Query Engine</title>
       <link>/sessions/datalake-1212438.html</link>
       <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
@@ -406,13 +413,6 @@
       <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
       <guid>/sessions/rust-1211660.html</guid>
       <description>&lt;p&gt;Apache Teaclave is a suite of Rust SDKs that provides a memory-safe framework for developing Trusted Applications in Rust, specialized for confidential computing environments such as Arm Arm TrustZone.&lt;/p&gt;&#xA;&lt;p&gt;Beyond offering developer APIs, it also demonstrates practical use cases in Web3 and AI agent scenarios by enabling secure key management and signing vaults, while serving as a trust anchor for device and agent authenticity.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, we will explore how Apache Teaclave can be applied in decentralized infrastructure, autonomous agent, and edge computing scenarios. We will also examine how attestation can be used as a proof mechanism for verifying integrity, establishing trust, and enabling secure interactions across distributed systems.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>From Data Chaos to Control: How a Global Telco Tamed Petabyte-Scale Challenges with Apache Iceberg</title>
-      <link>/sessions/streaming-1209049.html</link>
-      <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
-      <guid>/sessions/streaming-1209049.html</guid>
-      <description>&lt;p&gt;When a leading telecommunications operator hit the scaling wall with their legacy Hive infrastructure, managing petabyte-scale customer data across billions of records became untenable. Their IDPR workloads suffered from slow queries, rising storage costs,partition explosion, and schema changes that broke downstream systems.&lt;/p&gt;&#xA;&lt;p&gt;This session explains why they chose Apache Iceberg and how it transformed their architecture, including the business and technical decision criteria used to select Iceberg over other open table formats&lt;/p&gt;</description>
     </item>
     <item>
       <title>When the Optimizer Lies: Debugging Cross-Slice Execution in Apache Cloudberry</title>
@@ -534,6 +534,13 @@
       <description>&lt;p&gt;The Free Software Movement was a line in the sand. In the 80s and 90s, as the industry was rushing to lock software behind proprietary licenses and call that progress, a handful of people steered a cultural movement with the goal to prevent this at any cost. Decades later, the results are in: ostensibly total victory in infrastructure norms. Open source is now the  default way software is built. Almost all students learn development through it, and no CIO at any institution today needs to justify the decision to build on open source, and it has become so deeply normalised.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>From Data Chaos to Control: How a Global Telco Tamed Petabyte-Scale Challenges with Apache Iceberg</title>
+      <link>/sessions/streaming-1209049.html</link>
+      <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
+      <guid>/sessions/streaming-1209049.html</guid>
+      <description>&lt;p&gt;When a leading telecommunications operator hit the scaling wall with their legacy Hive infrastructure, managing petabyte-scale customer data across billions of records became untenable. Their IDPR workloads suffered from slow queries, rising storage costs,partition explosion, and schema changes that broke downstream systems.&lt;/p&gt;&#xA;&lt;p&gt;This session explains why they chose Apache Iceberg and how it transformed their architecture, including the business and technical decision criteria used to select Iceberg over other open table formats&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Paimon-cpp: Bringing Native High-Performance Data Lakehouse Access to the Apache Ecosystem</title>
       <link>/sessions/datastorage-1214278.html</link>
       <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
@@ -546,13 +553,6 @@
       <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
       <guid>/sessions/rust-1240155.html</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;Why Rust is the best language for AI coding.&lt;/li&gt;&#xA;&lt;li&gt;My AI coding and writing workflow.&lt;/li&gt;&#xA;&lt;li&gt;Exploring the contradiction and future between AI coding and traditional craftsmanship currently faced by the open-source community.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/a62e-400o400o1-MmYrJ4rptX8mPxcsmY9uWC.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Handong Zhang: Independent Consultant, Technical Writer&lt;/p&gt;&#xA;&lt;p&gt;Senior Independent Rust Consultant, Former Huawei Advisor, Rust Evangelist in the Chinese Community, Author of The Way of Rust Programming,（《Rust编程之道》）and Co-organizer of RustChinaConf.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Evolution and Production Practices of Flink 2.x in Tencent</title>
-      <link>/sessions/streaming-1212230.html</link>
-      <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
-      <guid>/sessions/streaming-1212230.html</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Business Context and Architectural Evolution&#xA;a. Business Drivers: As Tencent&amp;rsquo;s business demands for real-time Lakehouse solutions and data preprocessing for Large Language Models (LLMs) surged, the iteration of the legacy 1.x version faced challenges such as high labor costs and a growing disconnect from the open-source community.&#xA;b. Core Value of Flink 2.x: The enhancements and optimizations introduced in Flink 2.x—spanning compute-storage separation, materialized tables, batch processing optimizations, Lakehouse architectures, and AI workflows—align perfectly with Tencent&amp;rsquo;s specific business scenarios.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Xiaomi&#39;s HDFS Cloud Migration Practice: Building a Unified Storage for Data &#43; AI</title>
@@ -569,13 +569,6 @@
       <description>&lt;p&gt;Apache CloudStack is a mature open-source cloud management platform used by service providers and enterprises to build scalable Infrastructure-as-a-Service (IaaS) clouds.&lt;/p&gt;&#xA;&lt;p&gt;In this session, we will introduce the architecture and core concepts behind CloudStack and explore how it simplifies the orchestration of compute, storage, and networking across diverse infrastructure environments. We will also discuss why organizations choose CloudStack as a powerful alternative to other cloud management platforms.&lt;/p&gt;&#xA;&lt;p&gt;The talk will highlight some of the latest innovations and key capabilities in the CloudStack ecosystem, demonstrating how the platform continues to evolve to meet modern infrastructure needs.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Exploring Real-Time AI Application Scenarios Based on Flink</title>
-      <link>/sessions/streaming-1211523.html</link>
-      <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
-      <guid>/sessions/streaming-1211523.html</guid>
-      <description>&lt;p&gt;&lt;strong&gt;1. Background&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Typical real-time AI application scenarios: real-time ad features, recommendation prediction, fraud detection, content moderation, intelligent operations, etc.&lt;/li&gt;&#xA;&lt;li&gt;PyFlink&amp;rsquo;s role in real-time AI: bridging Flink&amp;rsquo;s stream processing capabilities with the Python AI ecosystem, lowering the barrier for algorithm engineers to build real-time AI Flink jobs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. PyFlink Practices at Tencent&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Platform support: dependency management for PyFlink jobs, interpreter optimization, vectorized UDFs, async functions, library/table SDK, and other key technical infrastructure&lt;/li&gt;&#xA;&lt;li&gt;Real-time ad feature engineering: building a second-level real-time feature pipeline with PyFlink, addressing feature freshness and online-offline consistency challenges while connecting to the Python ecosystem&lt;/li&gt;&#xA;&lt;li&gt;AI Function scenarios: supporting remote inference (AsyncI/O calls to LLM/GPU model services) and local inference (embedded lightweight models), covering a wide range of real-time inference needs from large models to lightweight models&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;3. AI Agent-Driven Development &amp;amp; Operations&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Five Years into Open Source: Rethinking “Community Health” Through the Lens of a Storage Project</title>
       <link>/sessions/community-1211847.html</link>
       <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
@@ -588,6 +581,13 @@
       <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
       <guid>/sessions/datalake-1212598.html</guid>
       <description>&lt;p&gt;Building a data lake is no longer just about choosing Iceberg, Hudi, or Paimon.&#xA;In real-world systems, the biggest challenge often lies one step earlier: how data reliably, efficiently, and continuously enters the lake.&#xA;In this session, we will explore how Apache SeaTunnel serves as a unified data ingestion and integration layer for modern data lake architectures. Starting from common pain points—multi-source data, Batch + CDC coexistence, schema evolution, and operational complexity—we will walk through how SeaTunnel simplifies data movement into data lakes and lakehouse systems.&#xA;Through real production scenarios, you will see how SeaTunnel connects transactional databases, message queues, and file systems into Iceberg- or lakehouse-based storage, enabling scalable, maintainable, and evolvable data platforms. The talk focuses on practical architecture decisions, not vendor-specific solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Migration from Kafka to Fluss for Lake-Stream Integration: Practical Implementation</title>
+      <link>/sessions/streaming-1210252.html</link>
+      <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
+      <guid>/sessions/streaming-1210252.html</guid>
+      <description>&lt;p&gt;The main benefits of replacing Kafka with Fluss are as follows:&#xA;Kafka uses local centralized storage, while Fluss stores cold data in Paimon. With Paimon’s S3 storage deployed on HDDs, significant storage cost savings are achieved without sacrificing query performance.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d1e8-400o400o1-MMvXTnvrxxYuEAieaKuXvD.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;zuo yan:  technology expert&lt;/p&gt;&#xA;&lt;p&gt;Zuo Yan,  technology expert, is responsible for building the data center and log platform. Contributors for open-source projects such as Apache Flink, Apache Doris, Flink CDC, StarRocks, and Fluss.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Real-Time Sports Commentary as a Lens into Flink&#39;s New Paradigm for Streaming AI</title>
@@ -658,6 +658,13 @@
       <pubDate>Sat, 08 Aug 2026 14:00:00 +0000</pubDate>
       <guid>/sessions/olap-1195516.html</guid>
       <description>&lt;p&gt;The CPU frequency is practically not growing, but everything else: network/ssd/ data volumes are growing exponentially. This poses new challenges for the databases: reduce CPU costs for working with the infrastructure. The bottleneck of MPP systems is the network. What happens if the network in Greenplum becomes 10 times faster? We accelerated 5 times. Then we tried DPDK, but realized that we couldn&amp;rsquo;t move forward without serious core refinement. I would share what happened to the database when the network accelerated 5 times. And also why DPDK didn&amp;rsquo;t start.&#xA;What conclusions have we learned and what are we planning to do next (spoiler: all new changes will be in Apache Cloudberry).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Should Open Source Communities Govern AI-Generated Code</title>
+      <link>/sessions/keynote-1296719.html</link>
+      <pubDate>Sat, 08 Aug 2026 11:00:00 +0000</pubDate>
+      <guid>/sessions/keynote-1296719.html</guid>
+      <description>&lt;p&gt;Open-source communities have traditionally worked to attract more contributions. Agentic coding reverses that assumption: code, documentation, issues, pull requests, and even security reports can now be produced at a scale that volunteer reviewers were never designed to absorb.&lt;/p&gt;&#xA;&lt;p&gt;When producing something that looks like a contribution becomes almost free, how should a community decide what deserves attention, who is accountable, and who earns trust? Should AI use be disclosed? Should the ASF define a common baseline, or should every project decide independently? Can an agent ever become a contributor in the community sense?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Harness Engineering for DataOps</title>
@@ -1036,6 +1043,13 @@
       <pubDate>Fri, 07 Aug 2026 09:30:00 +0000</pubDate>
       <guid>/sessions/keynote-1296710.html</guid>
       <description>&lt;p&gt;This is the best of times for open source: a weekend project can top GitHub in just 60 days, open-weight models are rapidly closing the gap with proprietary flagships, and an open-source inference engine has raised the largest seed round in history.&lt;/p&gt;&#xA;&lt;p&gt;It is also the worst of times for open source: maintainers are drowning in AI-generated junk pull requests, bounty programs are shutting down, and the most valuable engineering data is bypassing GitHub altogether.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Opening Talk: Open Source in the Agentic Era</title>
+      <link>/sessions/keynote-1300492.html</link>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0000</pubDate>
+      <guid>/sessions/keynote-1300492.html</guid>
+      <description>&lt;p&gt;AI is rapidly reshaping how software is created. Code generation, testing, documentation, and review are becoming more efficient, yet the challenges of understanding code, maintaining it over time, and sharing responsibility do not disappear. When code grows faster than human understanding, open-source communities may also accumulate a new form of cognitive debt.&lt;/p&gt;&#xA;&lt;p&gt;In these opening remarks, Willem Jiang draws on his twenty-year journey in the Apache community. He will explore the opportunities and trust challenges facing open source in the agentic era and invite a new generation of developers to help build better ways for humans and AI to collaborate.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

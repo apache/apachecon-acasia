@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>开源社区应如何治理 AI 生成的代码 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <meta property='og:title' content='开源社区应如何治理 AI 生成的代码'/>
+    <meta property='og:url' content='https://asia.communityovercode.org'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="/"/>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
+    
+    <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <noscript>
+        
+    </noscript>
+    <link rel="stylesheet" href="css/search.css"/>
+</head>
+
+<body>
+
+
+<div class="wrapper style1">
+
+    <div id="header" class="sub-banner position-relative d-flex flex-column">
+        <nav id="nav" class="navbar navbar-expand-lg bg-transparent">
+  <div class="container py-1">
+    <div class="btn-wrap d-flex align-items-center justify-content-between">
+        
+            <a href="/zh/" class="navbar-brand">
+                <img class="logo-img" src="/images/2025-logo.png" height="120" width="200px" ALIGN=CENTER>
+            </a>
+        
+         <button
+            onclick="changeMenuBg()"
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="/zh/">
+                        首页
+                    </a>
+                </li>
+            
+            
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/tracks" class="nav-link">专题</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/sessions" class="nav-link">议题</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/guide/visa_letter_request.html" class="nav-link">参会指南</a>
+                </li>
+            
+                <li class="nav-item">
+                    
+                    <a href="/zh/venue_travel/venue.html" class="nav-link">会场 &#43; 旅行</a>
+                </li>
+            
+            
+                
+                    <li class="nav-item">
+                        <a href="/sessions/keynote-1296719.html" class="nav-link">English</a>
+                    </li>
+                
+            
+            
+            
+        </ul>
+    </div>
+  </div>
+</nav>
+<script>
+    const isHome = "false";
+    function changeMenuBg () {
+        const nav = document.getElementById('nav');
+        if (isHome !== 'true') {
+            return;
+        }
+        if (nav.classList.contains('bg-custom')) {
+            nav.classList.remove('bg-custom');
+            nav.classList.add('bg-transparent');
+        } else {
+            nav.classList.add('bg-custom');
+            nav.classList.remove('bg-transparent');
+        }
+    }
+</script>
+    </div>
+
+    
+    <div id="main" class="wrapper style4 page-session">
+
+        
+        <div id="content" class="container">
+            <section>
+                <header class="major">
+                    <h3 class="text-center">开源社区应如何治理 AI 生成的代码</h3>
+                    <h4>Willem Jiang, Jarek Potiuk, Craig Russell, Justin Mclean, Zili Chen</h4>
+                    英文演讲  2026-08-08 11:00 GMT&#43;8&nbsp;
+                    
+                        (ROOM : 主会场 - 颐和厅)
+                    
+                    <a class="label" href="/zh/tracks/keynote.html">#keynote</a></li>
+                </header>
+
+                <p>开源社区长期面对的问题是“如何吸引更多贡献者”。Agentic Coding 正在反转这个前提：代码、文档、Issue、Pull Request，甚至漏洞报告，都可以由 Agent 以远超人工的速度生成。</p>
+<p>更多产出不一定意味着更健康的社区。对于依靠志愿者运作的项目，真正稀缺的资源正在变成 Maintainer 的评审注意力、能够承担后果的人类判断，以及通过长期协作建立的信任。</p>
+<p>一份由 AI 生成、通过全部测试却没有披露来源的 PR，应该接受吗？ASF 是否需要统一的 AI 贡献底线，还是应继续由各项目自主制定规则？当 AI 生成的代码引发安全或许可问题，提交者、评审者、项目流程和工具提供方分别承担什么责任？一个可以持续提交补丁、回应评审并维护 Fork 的 Agent，能否成为社区意义上的 Contributor？</p>
+<p>本场英文圆桌由 Willem Jiang 主持，Jarek Potiuk、Craig Russell、Zili Chen 与 Justin Mclean 将从开源安全、基金会政策、社区信任和孵化教育四个方向展开直接交锋。我们不会停留在“AI 有利也有弊”，而会尝试给出能够写入项目贡献指南的具体规则。</p>
+<h3 id="讲师">讲师:</h3>
+<p><img src="https://cdn.sessionize.com/image/7248-400o400o1-BjZnK4uk17L2eC9ZJkMqHU.png" width="200" /><br/></p>
+<p>Willem Jiang: 独立开源与 Agentic AI 顾问</p>
+<p>Willem Jiang（姜宁）是一名独立的开源与 Agentic AI 顾问，也是 DeerFlow 的维护者。他此前曾任字节跳动 OSPO 的开源布道师，以及 Apache 软件基金会董事会成员。Willem 曾为众多 Apache 项目做出贡献，包括 Apache Camel、CXF、ServiceMix 和 ServiceComb。在加入字节跳动之前，他在华为担任开源技术专家六年。在职业生涯早期，他曾任 Red Hat 首席工程师，参与 Fuse ESB 的开发，并曾在 FuseSource、IONA 和 TravelSky 担任工程职务。</p>
+<p><img src="https://cdn.sessionize.com/image/d2aa-400o400o1-EewiHHXp9U5qwHQBiQVVtc.png" width="200" /><br/></p>
+<p>Jarek Potiuk: 独立开源贡献者与顾问</p>
+<p>独立开源贡献者与顾问，Apache Airflow Committer 及 PMC 成员，Apache 软件基金会成员。</p>
+<p>Jarek 是一名工程师，在众多领域拥有丰富经验——开源、云、移动、机器人、AI、后端、开发者体验；同时他也积累了大量非工程类经验——运营公司、担任 CTO、组织大型国际社区活动、技术销售支持、公关与营销咨询，以及从法律视角审视许可授权和构建开源社区。</p>
+<p>凭借在从极小型到极大型各类公司以及介于两者之间的各种规模企业中的经历，Jarek 在开源世界找到了自己的位置——在那里，他作为个体贡献者的内在驱动力能够得到最大程度的发挥。</p>
+<p><img src="https://cdn.sessionize.com/image/3194-400o400o1-94Sk7eKXZREt1kbzW2diBZ.jpg" width="200" /><br/></p>
+<p>Craig Russell: ASF 成员、孵化器 PMC 成员、ASF 董事会主席（荣休）</p>
+<p>我于 2005 年作为孵化中的 JDO 项目的 Committer 加入 Apache，并于 2007 年成为 Apache 成员。2009 年我被任命为助理秘书，2010 年起担任秘书，直至 2019 年。2019 年我当选董事会成员，目前担任董事一职。</p>
+<p>最初吸引我加入 Apache 的是它的治理理念——由实际做事的人决定项目的发展方向。这与大多数公司的运作方式恰好相反，在那些公司里，由“房间里最聪明的人（管理者和高管）”来做决策。</p>
+<p>当我的项目被 Apache 接纳后，我开始四处寻找还可以贡献什么，并加入了若干我能帮上忙的项目。我也开始研究贡献的知识产权许可模型以及最终产品的许可模型。这促使我开始承担秘书职责，处理将知识产权授予基金会的相关“文书工作”。</p>
+<p>最近我注意到，不少人觉得基金会“规则太多”，这与人们所追求的自由表达相悖。深入审视这个问题后，我发现其中有一些共同的主题，如果能更好地理解它们，就能让整个过程变得更轻松。</p>
+<p><img src="https://cdn.sessionize.com/image/abea-400o400o1-G3ffQGzCrw1XXcqnfNEzrB.jpg" width="200" /><br/></p>
+<p>Justin Mclean: ASF 董事、ASF 孵化器副总裁、Datastrato 社区经理</p>
+<p>Justin Mclean 是 Apache 软件基金会（ASF）的长期贡献者，目前担任 ASF 孵化器副总裁及 ASF 董事会成员。多年来，他参与了孵化器治理、政策与培训项目的演进，包括记录项目实际运作方式并分析孵化器历史。通过这些工作，他帮助数百个开源项目构建了可持续且独立的社区。</p>
+<p>他在引导项目从早期孵化到顺利毕业方面经验丰富，并审阅过上千个开源发布版本。他的工作聚焦于开源治理、社区健康以及支持大规模协作的机制设计。</p>
+<p>Justin 经常在国际会议上发表演讲，主题涵盖开源治理、许可授权与社区建设，分享来自众多 ASF 项目与社区真实经验的实践教训。</p>
+<p><img src="https://cdn.sessionize.com/image/09df-400o400o1-NXMWPfZTqBRnxHMRJKnVpD.jpg" width="200" /><br/></p>
+<p>Zili Chen: ScopeDB 联合创始人</p>
+<p>Zili Chen（@tison）联合创办了 ScopeDB，这是一款面向半结构化数据、提供云服务的数据库。他是一位经验丰富的开源倡导者及 ASF 成员，曾维护多个重要项目，包括 Apache Flink、Apache ZooKeeper 和 Apache Pulsar。</p>
+
+
+                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
+                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    
+
+<div id="footer">
+  <section class="container">
+    <header class="major">
+      <h2>Connect with us</h2>
+    </header>
+    <div class="d-flex align-items-center justify-content-between mx-auto mb-5" style="max-width: 512px">
+      <a href="https://www.facebook.com/ApacheSoftwareFoundation/">
+        <img width="64" src="images/icon-facebook-128.png">
+      </a>
+      <a href="https://twitter.com/ApacheCon">
+        <img width="64" src="images/icon-twitter-x-128.png">
+      </a>
+      <a href="http://s.apache.org/apachecon-slack">
+        <img width="64" src="images/icon-slack-128.png">
+      </a>
+    </div>
+		<p>Community Over Code operates under the terms of the <a href="https://www.apache.org/foundation/policies/conduct.html">Apache Software Foundation Code of Conduct</a>. </p>
+    <p class="byline mb-0">Copyright 2026, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the Apache License, Version 2.0. <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</div>
+    </section>
+</div>
+</div>
+
+
+</body>
+</html>

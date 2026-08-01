@@ -23,18 +23,18 @@
       <description>&lt;p&gt;AI 工作负载——自动驾驶与大语言模型——的兴起，正在从根本上重塑数据处理范式。数据已从结构化的表格转变为 PB 级的多模态文件；处理粒度从分区级细化到了帧级/文档级；任务依赖图也从线性的 ETL 流水线，演进为具备动态并行与条件分支的复杂工作流。传统调度系统围绕结构化数据、静态 DAG 与同构资源而建，正面临前所未有的挑战。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲基于小米在自动驾驶与大语言模型业务中、每天编排数百万任务实例的生产经验。我们审视四个核心挑战——超越静态 DAG 的动态执行、跨 YARN/K8s/GPU 上 Spark/Flink/脚本的异构资源编排、百万级调度吞吐，以及数据事件驱动的多条件触发——并给出我们的解决方案。亮点包括：声明式的基于 YAML 的工作流定义；一次带来调度吞吐 10 倍提升的架构升级；将利用率提升 50% 的资源画像与资源池化治理；以及我们在 Agent 驱动的开发与运维上的探索。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/5942-400o400o1-wDo4F7LUUS58Cv2NhH98GQ.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;LiWei Yang：软件研发工程师&lt;/p&gt;&#xA;&lt;p&gt;小米高级软件研发工程师，负责大数据开发平台的数据工程方向。Kestra、Apache Gravitino 与 Apache DolphinScheduler 的贡献者。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Flink 2.x 在腾讯的演进与生产实践</title>
+      <link>/zh/sessions/streaming-1212230.html</link>
+      <pubDate>Sun, 09 Aug 2026 16:15:00 +0000</pubDate>
+      <guid>/zh/sessions/streaming-1212230.html</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;业务背景与架构演进&#xA;a. 业务驱动：随着腾讯对实时湖仓方案以及大语言模型（LLM）数据预处理的需求激增，老旧 1.x 版本的迭代面临着人力成本高企、与开源社区日益脱节等挑战。&#xA;b. Flink 2.x 的核心价值：Flink 2.x 所引入的增强与优化——涵盖存算分离、物化表（materialized table）、批处理优化、湖仓架构以及 AI 工作流——与腾讯的具体业务场景高度契合。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;引擎能力的迭代优化&#xA;为了与开源社区更紧密地融合，我们已将一部分内部能力全面适配到 Flink 2.x 框架，并逐步回馈给社区。&#xA;a. 计算性能：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;异步 I/O 优化：支持批量异步 I/O，通过批处理与异步处理技术提升吞吐。&lt;/li&gt;&#xA;&lt;li&gt;Lookup Join 优化：支持批量异步 Lookup Join。&#xA;b. AI on Flink：支持与 Triton Inference Server 集成。&#xA;c. 增强 WindowStagger 一致性：解决了此前在开启 WindowStagger 特性时出现的窗口分配行为不一致问题。&#xA;d. 改进运维与可观测能力：&lt;/li&gt;&#xA;&lt;li&gt;原生数据采样（Native Data Sampling）：支持对生产作业进行零侵入的数据探查，从而降低实时应用的调试与测试成本。&lt;/li&gt;&#xA;&lt;li&gt;HistoryServer 优化：解决大规模生产集群中的归档瓶颈，确保历史作业的可靠可追溯。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;多样业务场景下的落地实践&#xA;a. 流批一体：展示把流批一体场景升级到 Flink 2.x 后所获得的性能提升。&#xA;b. AI 时代的实时数据流：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AI Functions：支持在 Flink SQL 中直接集成 AI 模型调用，构建低时延的 AI 数据处理管道。&lt;/li&gt;&#xA;&lt;li&gt;PyFlink 性能优化：聚焦广告特征工程场景，分享我们如何通过优化 Python UDF 运行时显著提升特征计算效率。&#xA;c. 超大规模状态治理：重点介绍如何利用 Delta Join 和 BiFang 来解决双流 Join 中状态过大相关的问题。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;未来展望：从流式计算到智能流式计算&#xA;a. 平衡性能与成本：我们希望持续深化增量计算与物化视图的结合，实现最大化的算力复用，从而在性能与运维成本之间取得最佳平衡。&#xA;b. 事件驱动的 AI Agents：探索 Flink Agents，把 Flink 从一个独立的数据处理引擎演进为一个事件驱动的流式 agent 框架。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>编排与诊断：Seata-Go Agent 平台与 seata-ctl 工具链</title>
       <link>/zh/sessions/webserver-1213943.html</link>
       <pubDate>Sun, 09 Aug 2026 16:15:00 +0000</pubDate>
       <guid>/zh/sessions/webserver-1213943.html</guid>
       <description>&lt;p&gt;为了应对长事务编排的复杂性以及分布式事务诊断的挑战，本次演讲将介绍 Seata Go 及其基础设施的演进、Agent 编排平台与诊断工具的能力，以及将二者结合的实践用例。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/e22a-400o400o1-aMZP9AC2ZUbPKtpnLFD2sT.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tun Guo：后端开发者，Apache Seata（孵化中）Committer&lt;/p&gt;&#xA;&lt;p&gt;一家嵌入式 AI 公司的后端开发工程师，Apache Seata（孵化中）Committer。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>为湖流集成从 Kafka 迁移到 Fluss：落地实践</title>
-      <link>/zh/sessions/streaming-1210252.html</link>
-      <pubDate>Sun, 09 Aug 2026 16:15:00 +0000</pubDate>
-      <guid>/zh/sessions/streaming-1210252.html</guid>
-      <description>&lt;p&gt;用 Fluss 替换 Kafka 的主要收益如下：&#xA;Kafka 使用本地集中式存储，而 Fluss 把冷数据存放在 Paimon 中。借助部署在 HDD 上的 Paimon S3 存储，在不牺牲查询性能的前提下实现了显著的存储成本节省。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d1e8-400o400o1-MMvXTnvrxxYuEAieaKuXvD.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;zuo yan：技术专家&lt;/p&gt;&#xA;&lt;p&gt;Zuo Yan，技术专家，负责数据中心与日志平台的建设。是 Apache Flink、Apache Doris、Flink CDC、StarRocks、Fluss 等开源项目的贡献者。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Pulsar 多集群容灾与渐进式流量迁移</title>
@@ -359,13 +359,6 @@
       <description>&lt;p&gt;假设你拥有一个由多个 PostgreSQL 实例组成的 Apache Cloudberry 集群。它们共同执行同一条查询，而你希望收集执行该查询所耗费资源的一般性统计信息。内置的 pg_stat_statements 模块在这里已经不再适用，因为它只能工作在同一个数据库之内。我将介绍一个核心思路相似的方案——同样通过查询执行钩子（hook）来采集数据，但不再将数据存放在 PostgreSQL 的共享内存中，而是把原始数据发送给一个外部的 agent 进程。该进程负责对指标进行聚合，给出跨所有实例的统一视图，并提供额外的功能，例如强制终止有问题的会话；同时它并不仅限于 PostgreSQL：该方案还能从其他系统组件采集数据。我将介绍其架构、产品层面的任务，并分享相关仓库（Apache 2.0 License）的代码链接。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/429e-400o400o1-X15FYUcE9UQzxFpN9AkBKZ.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Leonid Borchuk：Yandex Cloud（莫斯科）开发者，Apache Cloudberry committer&lt;/p&gt;&#xA;&lt;p&gt;Yandex Cloud MPP PostgreSQL 开发团队的团队负责人。他的职业生涯始于大型商用通用数据库和分析数据库的管理，而如今他终于开始编写自己的数据库。Apache Cloudberry committer。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>从数据混乱到可控：一家全球电信运营商如何用 Apache Iceberg 驯服 PB 级挑战</title>
-      <link>/zh/sessions/streaming-1209049.html</link>
-      <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
-      <guid>/zh/sessions/streaming-1209049.html</guid>
-      <description>&lt;p&gt;当一家领先的电信运营商在其老旧的 Hive 基础设施上撞到扩展瓶颈时，跨数十亿条记录管理 PB 级客户数据变得难以为继。他们的 IDPR 工作负载饱受查询缓慢、存储成本上升、分区爆炸，以及 schema 变更破坏下游系统等问题的困扰。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将解释他们为何选择 Apache Iceberg，以及它如何改造了他们的架构，其中包括用于在其他开放表格式之间选择 Iceberg 的业务与技术决策标准。&lt;/p&gt;&#xA;&lt;p&gt;核心收获：&#xA;为何选择 Iceberg：ACID 保证、隐藏分区（hidden partitioning）、time travel、互操作性，以及促成决策层认同的方案陈述。&#xA;架构与最佳实践：高层架构，以及 Cloudera 推荐的 Iceberg + Impala 模式、分区策略、compaction 策略、元数据优化，以及面向工作负载的查询引擎调优。&#xA;可量化的影响：更快的查询、显著的存储与基础设施成本下降、更简单的运维，以及更强的合规性。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d598-400o400o1-TWRJCfGzVB3ZKDH85a4riC.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Akshat Mathur：Cloudera 高级产品经理&lt;/p&gt;&#xA;&lt;p&gt;在充满活力的数据工程领域拥有 8 年以上的专注经验，曾帮助多家组织架构并落地稳健的数据基础设施，助力其成功驾驭数据的力量，目前负责 Cloudera 数据湖仓（Data Lakehouse）的产品战略。&lt;/p&gt;&#xA;&lt;p&gt;Akshat 还曾为 Apache Hive 和 Tez 做出过贡献。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/c664-400o400o1-D8zfmit88E5Ypmb4yaDdJ.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Bill Zhang：Cloudera 产品副总裁，负责 Lakehouse 与 Iceberg 集成&lt;/p&gt;&#xA;&lt;p&gt;Bill 是 Cloudera 的产品管理副总裁，负责开放数据湖仓（Open Data Lakehouse）的产品战略，以及 Apache Iceberg 与所有 Cloudera Data Platform（CDP）形态的集成。Bill 同时也主导 Apache Hive 的产品路线图与推广。此前不久，Bill 负责 SAP HANA Data Platform 和 SAP HANA Cloud 的方案管理。再之前，他负责 Sybase Replication Server 的产品管理。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>当优化器说谎时：调试 Apache Cloudberry 中的跨 Slice 执行</title>
       <link>/zh/sessions/datastorage-1213149.html</link>
       <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
@@ -385,6 +378,13 @@
       <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
       <guid>/zh/sessions/datalake-1212438.html</guid>
       <description>&lt;p&gt;Apache Impala 是一个混合的大规模并行查询引擎：它的查询规划和元数据处理由 Java 实现，而执行引擎则用 C++ 编写。这种架构在集成 Apache Iceberg 时会带来独特的挑战——因为 Iceberg 的参考实现与生态主要以 Java 为基础。听众将了解到把 Iceberg 引入非 JVM 查询引擎时所面临的实际挑战。&lt;/p&gt;&#xA;&lt;p&gt;我们将探讨 Iceberg 的特性如何在一个分布式 C++ 查询引擎中实现，以及 Impala 在哪些地方可以复用现有的 Iceberg 库、哪些地方又需要自定义实现。我们会深入具体案例，包括元数据处理和行级操作。本次演讲还会强调这种模式所带来的机遇，例如重新思考 merge-on-read 的实现方式。&lt;/p&gt;&#xA;&lt;p&gt;最后，听众还将了解 Impala 对 Iceberg 支持的现状，以及我们朝着采用 Iceberg V3 所取得的进展。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/84b3-400o400o1-7GoTobWcFvV4kLv5UvF1Mn.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zoltán Borók-Nagy：Cloudera，Principal Engineer&lt;/p&gt;&#xA;&lt;p&gt;Zoltán 是 Cloudera 的软件工程师，从事 Apache Impala 相关工作。他也是该项目的 PMC 成员。目前他负责牵头 Impala/Iceberg 的集成工作。在加入 Cloudera 之前，Zoltán 从事 C++ 静态分析工具的开发。他感兴趣的方向包括分布式系统、大规模并行系统、数据库以及性能工程。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/0f03-400o400o1-VjFuA65v8Md5uQxrNPHre2.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Péter Rózsa：Cloudera，软件工程师&lt;/p&gt;&#xA;&lt;p&gt;Péter Rózsa 自 2020 年起在 Cloudera 担任软件工程师，于 2022 年开始为 Apache Impala 做贡献。他参与过 Impala 项目的多个部分，最近主要专注于 Iceberg 集成相关工作。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>在 Solana 上为 AI 构建智能体支付与数据变现层</title>
+      <link>/zh/sessions/dataai-1300514.html</link>
+      <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
+      <guid>/zh/sessions/dataai-1300514.html</guid>
+      <description>&lt;p&gt;介绍 Apache 生态中主流的智能体支付协议、由 Solana 构建的智能体支付网关、数据变现开源项目的成功案例，以及区块链协议如何引导开源智能体经济的发展。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ec39-400o400o1-9Nf9FeCvduJjeZehKMU9nB.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mike Ma：Solana Foundation 开发者布道师&lt;/p&gt;&#xA;&lt;p&gt;Mike Ma 现任 Solana Foundation 开发者布道师，同时也是 Apache 生态与 Solana 生态的开源开发者，贡献了 Solana-go SDK、x402 协议、APP（Agentic Payment Protocol，智能体支付协议），并创办了 Solar——中文 Solana 开发者社区。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fluss × 湖仓：在数据湖上解锁亚秒级数据新鲜度</title>
@@ -485,13 +485,6 @@
       <description>&lt;p&gt;Apache OpenMeetings 是一个成熟的开源视频会议与协作平台，受到全球企业与教育机构的信赖。本次演讲将全面介绍 OpenMeetings 的核心能力，包括 OAuth2 认证、LDAP 集成、虚拟背景、移动应用、面向高可用的集群，以及用于企业集成的 WebService API。本次演讲面向正在探索具备现代 AI 增强能力的自建视频会议方案的开发者、系统管理员和决策者。演讲的核心要点包括：了解 Apache OpenMeetings 的企业级能力；学习如何把 OpenMeetings 与现有的身份提供方和目录服务集成；了解虚拟背景和移动应用如何提升用户体验；了解用于扩展到数千并发用户的集群方案；通过自定义 WebService 集成扩展 OpenMeetings；以及亲眼见证使用 OpenClaw 进行 AI Agent 集成的现场演示。在本次演讲结束时，你将理解 OpenMeetings 的架构、部署选项，以及如何用 AI Agent 对其进行扩展，从而构建下一代协作平台。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/79ae-400o400o1-McLtJ9gLa5DQfWjg2VuFg8.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Wentao Liu：omfoss.com 负责人&lt;/p&gt;&#xA;&lt;p&gt;Wentao Liu 多年来一直是 Apache 软件基金会充满热情的贡献者。他在 Linux 和开源生态拥有逾 20 年经验，在推动 OpenMeetings 项目发展方面发挥了关键作用——从核心开发、社区建设到真实的企业级落地。&lt;/p&gt;&#xA;&lt;p&gt;他的贡献包括：&#xA;在 ApacheCon、FOSSASIA、FOSDEM、CommunityOverCode 等各大开源会议上发表关于 Apache OpenMeetings 的演讲和工作坊，帮助向全球受众推广该平台的能力。&#xA;创办了一家基于 Apache OpenMeetings 构建商用视频会议硬件（appliance）的公司，展示了该项目如何为安全、可扩展的本地化部署进行定制。&#xA;推动了现代认证（OAuth2、LDAP）、虚拟背景、移动应用和集群等特性的集成，让 OpenMeetings 为企业级使用做好了准备。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/b7ba-400o400o1-Gp8mbsw4VmhSzFPCpvkeNR.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zeguo Mao：大二学生&lt;/p&gt;&#xA;&lt;p&gt;Zeguo Mao 是中南林业科技大学计算机科学与技术专业的大二学生。他在 C、C++、Java 以及包括 SpringBoot、HTML/CSS、JavaScript 在内的 Web 技术方面拥有扎实基础，在构建交互式系统上形成了注重实践、以项目驱动的方法。他的技术好奇心深入人工智能领域，对机器学习和深度学习算法有扎实的理解。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Flink 2.x 在腾讯的演进与生产实践</title>
-      <link>/zh/sessions/streaming-1212230.html</link>
-      <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
-      <guid>/zh/sessions/streaming-1212230.html</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;业务背景与架构演进&#xA;a. 业务驱动：随着腾讯对实时湖仓方案以及大语言模型（LLM）数据预处理的需求激增，老旧 1.x 版本的迭代面临着人力成本高企、与开源社区日益脱节等挑战。&#xA;b. Flink 2.x 的核心价值：Flink 2.x 所引入的增强与优化——涵盖存算分离、物化表（materialized table）、批处理优化、湖仓架构以及 AI 工作流——与腾讯的具体业务场景高度契合。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;引擎能力的迭代优化&#xA;为了与开源社区更紧密地融合，我们已将一部分内部能力全面适配到 Flink 2.x 框架，并逐步回馈给社区。&#xA;a. 计算性能：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;异步 I/O 优化：支持批量异步 I/O，通过批处理与异步处理技术提升吞吐。&lt;/li&gt;&#xA;&lt;li&gt;Lookup Join 优化：支持批量异步 Lookup Join。&#xA;b. AI on Flink：支持与 Triton Inference Server 集成。&#xA;c. 增强 WindowStagger 一致性：解决了此前在开启 WindowStagger 特性时出现的窗口分配行为不一致问题。&#xA;d. 改进运维与可观测能力：&lt;/li&gt;&#xA;&lt;li&gt;原生数据采样（Native Data Sampling）：支持对生产作业进行零侵入的数据探查，从而降低实时应用的调试与测试成本。&lt;/li&gt;&#xA;&lt;li&gt;HistoryServer 优化：解决大规模生产集群中的归档瓶颈，确保历史作业的可靠可追溯。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;多样业务场景下的落地实践&#xA;a. 流批一体：展示把流批一体场景升级到 Flink 2.x 后所获得的性能提升。&#xA;b. AI 时代的实时数据流：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AI Functions：支持在 Flink SQL 中直接集成 AI 模型调用，构建低时延的 AI 数据处理管道。&lt;/li&gt;&#xA;&lt;li&gt;PyFlink 性能优化：聚焦广告特征工程场景，分享我们如何通过优化 Python UDF 运行时显著提升特征计算效率。&#xA;c. 超大规模状态治理：重点介绍如何利用 Delta Join 和 BiFang 来解决双流 Join 中状态过大相关的问题。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;未来展望：从流式计算到智能流式计算&#xA;a. 平衡性能与成本：我们希望持续深化增量计算与物化视图的结合，实现最大化的算力复用，从而在性能与运维成本之间取得最佳平衡。&#xA;b. 事件驱动的 AI Agents：探索 Flink Agents，把 Flink 从一个独立的数据处理引擎演进为一个事件驱动的流式 agent 框架。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Paimon-cpp：为 Apache 生态带来原生高性能的湖仓访问</title>
       <link>/zh/sessions/datastorage-1214278.html</link>
       <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
@@ -504,6 +497,13 @@
       <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
       <guid>/zh/sessions/rust-1240155.html</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;为什么说 Rust 语言是 AI Coding 最佳语言&lt;/li&gt;&#xA;&lt;li&gt;我的 AI Coding 与写作工作流&lt;/li&gt;&#xA;&lt;li&gt;探讨开源社区目前面临的 AI Coding 与 传统手艺的矛盾与未来&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/a62e-400o400o1-MmYrJ4rptX8mPxcsmY9uWC.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;汉东 张：独立顾问，技术作者&lt;/p&gt;&#xA;&lt;p&gt;资深独立 Rust 顾问，前华为顾问，中国 Rust 社区布道者，《Rust 编程之道》作者，RustChinaConf 联合发起人。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>从数据混乱到可控：一家全球电信运营商如何用 Apache Iceberg 驯服 PB 级挑战</title>
+      <link>/zh/sessions/streaming-1209049.html</link>
+      <pubDate>Sat, 08 Aug 2026 15:00:00 +0000</pubDate>
+      <guid>/zh/sessions/streaming-1209049.html</guid>
+      <description>&lt;p&gt;当一家领先的电信运营商在其老旧的 Hive 基础设施上撞到扩展瓶颈时，跨数十亿条记录管理 PB 级客户数据变得难以为继。他们的 IDPR 工作负载饱受查询缓慢、存储成本上升、分区爆炸，以及 schema 变更破坏下游系统等问题的困扰。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将解释他们为何选择 Apache Iceberg，以及它如何改造了他们的架构，其中包括用于在其他开放表格式之间选择 Iceberg 的业务与技术决策标准。&lt;/p&gt;&#xA;&lt;p&gt;核心收获：&#xA;为何选择 Iceberg：ACID 保证、隐藏分区（hidden partitioning）、time travel、互操作性，以及促成决策层认同的方案陈述。&#xA;架构与最佳实践：高层架构，以及 Cloudera 推荐的 Iceberg + Impala 模式、分区策略、compaction 策略、元数据优化，以及面向工作负载的查询引擎调优。&#xA;可量化的影响：更快的查询、显著的存储与基础设施成本下降、更简单的运维，以及更强的合规性。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d598-400o400o1-TWRJCfGzVB3ZKDH85a4riC.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Akshat Mathur：Cloudera 高级产品经理&lt;/p&gt;&#xA;&lt;p&gt;在充满活力的数据工程领域拥有 8 年以上的专注经验，曾帮助多家组织架构并落地稳健的数据基础设施，助力其成功驾驭数据的力量，目前负责 Cloudera 数据湖仓（Data Lakehouse）的产品战略。&lt;/p&gt;&#xA;&lt;p&gt;Akshat 还曾为 Apache Hive 和 Tez 做出过贡献。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/c664-400o400o1-D8zfmit88E5Ypmb4yaDdJ.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Bill Zhang：Cloudera 产品副总裁，负责 Lakehouse 与 Iceberg 集成&lt;/p&gt;&#xA;&lt;p&gt;Bill 是 Cloudera 的产品管理副总裁，负责开放数据湖仓（Open Data Lakehouse）的产品战略，以及 Apache Iceberg 与所有 Cloudera Data Platform（CDP）形态的集成。Bill 同时也主导 Apache Hive 的产品路线图与推广。此前不久，Bill 负责 SAP HANA Data Platform 和 SAP HANA Cloud 的方案管理。再之前，他负责 Sybase Replication Server 的产品管理。&lt;/p&gt;</description>
     </item>
     <item>
       <title>迈向湖仓：高性价比的 Hive 迁移与大规模实时入湖</title>
@@ -548,13 +548,6 @@
       <description>&lt;p&gt;构建数据湖，早已不再只是选择 Iceberg、Hudi 还是 Paimon 的问题。&#xA;在真实系统中，最大的挑战往往更靠前一步：数据如何可靠、高效、持续地进入数据湖。&#xA;在本次演讲中，我们将探讨 Apache SeaTunnel 如何作为现代数据湖架构的统一数据接入与集成层。从常见的痛点出发——多源数据、Batch 与 CDC 共存、schema 演进，以及运维复杂度——我们将走查 SeaTunnel 如何简化进入数据湖与湖仓系统的数据流转。&#xA;通过真实的生产场景，你将看到 SeaTunnel 如何把事务型数据库、消息队列和文件系统接入基于 Iceberg 或湖仓的存储，从而构建可扩展、可维护、可演进的数据平台。本次演讲聚焦于务实的架构决策，而非特定厂商的方案。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将涵盖：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;典型的数据湖架构演进与常见陷阱&lt;/li&gt;&#xA;&lt;li&gt;数据集成在数据湖与湖仓系统中的角色&lt;/li&gt;&#xA;&lt;li&gt;Apache SeaTunnel 的架构与设计原则&lt;/li&gt;&#xA;&lt;li&gt;端到端的接入示例：把数据库、CDC 和流式数据接入数据湖&lt;/li&gt;&#xA;&lt;li&gt;运维考量与最佳实践&lt;/li&gt;&#xA;&lt;li&gt;SeaTunnel 在数据湖生态中的路线图&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/8393-400o400o1-KRgoC646wAhZ7x4c288p6t.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Lidong Dai：WhaleOps Technology 联合创始人&lt;/p&gt;&#xA;&lt;p&gt;Apache 孵化器 Mentor，Apache DolphinScheduler PMC 成员 &amp;amp; Apache SeaTunnel PMC 成员&lt;/p&gt;</description>
     </item>
     <item>
-      <title>基于 Flink 探索实时 AI 应用场景</title>
-      <link>/zh/sessions/streaming-1211523.html</link>
-      <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
-      <guid>/zh/sessions/streaming-1211523.html</guid>
-      <description>&lt;p&gt;&lt;strong&gt;1. 背景&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;典型的实时 AI 应用场景：实时广告特征、推荐预测、欺诈检测、内容审核、智能运维等。&lt;/li&gt;&#xA;&lt;li&gt;PyFlink 在实时 AI 中的角色：把 Flink 的流处理能力与 Python AI 生态连接起来，降低算法工程师构建实时 AI Flink 作业的门槛。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. PyFlink 在腾讯的实践&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;平台支持：PyFlink 作业的依赖管理、解释器优化、向量化 UDF、异步函数、库/表 SDK 等关键技术基础设施。&lt;/li&gt;&#xA;&lt;li&gt;实时广告特征工程：用 PyFlink 构建秒级实时特征管道，在接入 Python 生态的同时，解决特征新鲜度与线上线下一致性的挑战。&lt;/li&gt;&#xA;&lt;li&gt;AI Function 场景：支持远程推理（通过 Async I/O 调用 LLM/GPU 模型服务）和本地推理（内嵌轻量级模型），覆盖从大模型到轻量级模型的广泛实时推理需求。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;3. AI Agent 驱动的开发与运维&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;运维效率：基于 LLM + RAG 构建智能诊断 Agent，用于异常模式识别、日志分析、根因推理和辅助修复。&lt;/li&gt;&#xA;&lt;li&gt;开发效率：用自然语言生成 Flink SQL/PyFlink 代码，提供 schema 感知的辅助、代码评审与调试支持。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;4. 未来展望&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Flink AI Agents：一个由自然语言驱动、端到端的 Agent，用于作业开发、调试和部署——打通&amp;quot;需求理解 → 代码生成 → 部署 → 运维监控&amp;quot;的闭环。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/541e-400o400o1-fRk5WkYAbfkxwYJD5QVohU.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;饶饶 熊：腾讯，资深后端开发工程师&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>开源五年：从一个存储项目重新审视&#39;社区健康&#39;</title>
       <link>/zh/sessions/community-1211847.html</link>
       <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
@@ -567,6 +560,13 @@
       <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
       <guid>/zh/sessions/datastorage-1213677.html</guid>
       <description>&lt;p&gt;在 LINE 与 Yahoo! JAPAN 合并之后，我们面临一项艰巨的任务：在两个庞大且完全独立、各自拥有孤立网络和不同账户体系的 Hadoop 生态之间，实现无缝的数据访问。本次演讲将深入剖析我们用来突破这些架构壁垒、实现跨集群互操作的技术策略。&lt;/p&gt;&#xA;&lt;p&gt;此外，我们将分享利用 NameNode Federation（包括基于 Router 的 Federation）和 Observer NameNode 进行扩展与性能调优的历程，以突破单个 NameNode 的固有上限。我们会分享所遇到的真实运维难题，以及为在这个全球最大规模的 Hadoop 部署之一中维持稳定性所需的针对性调优。最后，我们还会讨论把补丁回馈给开源社区的经验，以确保这些特性经过企业级要求的实战检验。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/4c07-400o400o1-Kxiy8Tni5PoTVQEAq6EPPy.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Akira Ajisaka：LY Corporation 首席工程师&lt;/p&gt;&#xA;&lt;p&gt;Akira Ajisaka 是 LY Corporation 的首席工程师，在本地和公有云环境下的大数据技术领域拥有超过 10 年的专业经验。他是 Apache 成员、Apache Hadoop PMC 成员，以及 Apache Kyuubi PMC 成员。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/a1fb-400o400o1-fJFuwtVkvy4YB91sdCMsQc.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kai Hirayama：LY Corporation 数据工程师&lt;/p&gt;&#xA;&lt;p&gt;数据平台工程师，从事包括 YARN 和 HDFS 在内的 Hadoop 生态工作，在大规模分布式系统的运维与排障方面经验丰富。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>为湖流集成从 Kafka 迁移到 Fluss：落地实践</title>
+      <link>/zh/sessions/streaming-1210252.html</link>
+      <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
+      <guid>/zh/sessions/streaming-1210252.html</guid>
+      <description>&lt;p&gt;用 Fluss 替换 Kafka 的主要收益如下：&#xA;Kafka 使用本地集中式存储，而 Fluss 把冷数据存放在 Paimon 中。借助部署在 HDD 上的 Paimon S3 存储，在不牺牲查询性能的前提下实现了显著的存储成本节省。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d1e8-400o400o1-MMvXTnvrxxYuEAieaKuXvD.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;zuo yan：技术专家&lt;/p&gt;&#xA;&lt;p&gt;Zuo Yan，技术专家，负责数据中心与日志平台的建设。是 Apache Flink、Apache Doris、Flink CDC、StarRocks、Fluss 等开源项目的贡献者。&lt;/p&gt;</description>
     </item>
     <item>
       <title>以实时体育解说为窗口，透视 Flink 流式 AI 的新范式</title>
@@ -623,6 +623,13 @@
       <pubDate>Sat, 08 Aug 2026 14:00:00 +0000</pubDate>
       <guid>/zh/sessions/olap-1195516.html</guid>
       <description>&lt;p&gt;CPU 频率实际上已经不再增长，但其他一切——网络、SSD、数据量——都在呈指数级增长。这给数据库带来了新的挑战：降低与基础设施打交道时的 CPU 开销。MPP 系统的瓶颈在于网络。如果 Greenplum 中的网络变快 10 倍会发生什么？我们实现了 5 倍的加速。随后我们尝试了 DPDK，却意识到如果不做深入的内核改进，就无法继续推进。我将分享当网络加速 5 倍后，数据库发生了什么，以及为什么 DPDK 没能跑起来。&#xA;我们从中得出了哪些结论，以及接下来打算做什么（剧透：所有新变化都将出现在 Apache Cloudberry 中）。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/429e-400o400o1-X15FYUcE9UQzxFpN9AkBKZ.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Leonid Borchuk：Yandex Cloud（莫斯科）开发者，Apache Cloudberry committer&lt;/p&gt;&#xA;&lt;p&gt;Yandex Cloud MPP PostgreSQL 开发团队的团队负责人。他的职业生涯始于大型商用通用数据库和分析数据库的管理，而如今他终于开始编写自己的数据库。Apache Cloudberry committer。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>开源社区应如何治理 AI 生成的代码</title>
+      <link>/zh/sessions/keynote-1296719.html</link>
+      <pubDate>Sat, 08 Aug 2026 11:00:00 +0000</pubDate>
+      <guid>/zh/sessions/keynote-1296719.html</guid>
+      <description>&lt;p&gt;开源社区长期面对的问题是“如何吸引更多贡献者”。Agentic Coding 正在反转这个前提：代码、文档、Issue、Pull Request，甚至漏洞报告，都可以由 Agent 以远超人工的速度生成。&lt;/p&gt;&#xA;&lt;p&gt;更多产出不一定意味着更健康的社区。对于依靠志愿者运作的项目，真正稀缺的资源正在变成 Maintainer 的评审注意力、能够承担后果的人类判断，以及通过长期协作建立的信任。&lt;/p&gt;&#xA;&lt;p&gt;一份由 AI 生成、通过全部测试却没有披露来源的 PR，应该接受吗？ASF 是否需要统一的 AI 贡献底线，还是应继续由各项目自主制定规则？当 AI 生成的代码引发安全或许可问题，提交者、评审者、项目流程和工具提供方分别承担什么责任？一个可以持续提交补丁、回应评审并维护 Fork 的 Agent，能否成为社区意义上的 Contributor？&lt;/p&gt;&#xA;&lt;p&gt;本场英文圆桌由 Willem Jiang 主持，Jarek Potiuk、Craig Russell、Zili Chen 与 Justin Mclean 将从开源安全、基金会政策、社区信任和孵化教育四个方向展开直接交锋。我们不会停留在“AI 有利也有弊”，而会尝试给出能够写入项目贡献指南的具体规则。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/7248-400o400o1-BjZnK4uk17L2eC9ZJkMqHU.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Willem Jiang: 独立开源与 Agentic AI 顾问&lt;/p&gt;&#xA;&lt;p&gt;Willem Jiang（姜宁）是一名独立的开源与 Agentic AI 顾问，也是 DeerFlow 的维护者。他此前曾任字节跳动 OSPO 的开源布道师，以及 Apache 软件基金会董事会成员。Willem 曾为众多 Apache 项目做出贡献，包括 Apache Camel、CXF、ServiceMix 和 ServiceComb。在加入字节跳动之前，他在华为担任开源技术专家六年。在职业生涯早期，他曾任 Red Hat 首席工程师，参与 Fuse ESB 的开发，并曾在 FuseSource、IONA 和 TravelSky 担任工程职务。&lt;/p&gt;</description>
     </item>
     <item>
       <title>面向 DataOps 的 Harness 工程化</title>
@@ -1001,6 +1008,13 @@
       <pubDate>Fri, 07 Aug 2026 09:30:00 +0000</pubDate>
       <guid>/zh/sessions/keynote-1296710.html</guid>
       <description>&lt;p&gt;这是开源最好的时刻:周末项目 60 天登顶 GitHub,开放权重模型直追闭源旗舰,开源推理引擎拿到史上最大种子轮。这也是开源最坏的时刻:AI 垃圾 PR 淹没维护者,赏金关停,最值钱的工程数据绕开了 GitHub。本演讲提出一个判断:Agent 不是来替开源写更多代码的,它在换开源三十年赖以成立的地基——代码变便宜,信任变昂贵。开源的四个答案(代码为何值钱、开发者为何贡献、公司怎么赚钱、秩序谁来定义)都要重写;协作平台将被&amp;quot;再盖一层&amp;quot;,身份、记忆、信誉、结算构成新的制度栈。而这一轮,中国第一次不是跟随者:开放权重的追击、双生态的分化、Agent 协作平台的空位与中立治理的窗口,是摆在中国开源社区面前的四个机会。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/baab-400o400o1-Mx2KaY8Rh42DkTmwhLR1Bj.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tao Jiang: CSDN创始人、董事长&lt;/p&gt;&#xA;&lt;p&gt;CSDN创始人、董事长，现任中国开源联盟副主席、中国软件协会智能应用分会主任委员，开放原子开源基金会理事、奇点智能研究院理事长 。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>开场演讲：Agentic 时代的开源</title>
+      <link>/zh/sessions/keynote-1300492.html</link>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0000</pubDate>
+      <guid>/zh/sessions/keynote-1300492.html</guid>
+      <description>&lt;p&gt;AI 正在迅速重塑软件的创造方式。代码生成、测试、文档与评审正变得愈发高效，但理解代码、长期维护代码以及分担责任这些挑战并未随之消失。当代码增长的速度超过人类的理解速度时，开源社区也可能积累起一种新的认知债务。&lt;/p&gt;&#xA;&lt;p&gt;在本场开场演讲中，Willem Jiang 将回顾自己在 Apache 社区二十年的历程。他将探讨 Agentic 时代开源所面临的机遇与信任挑战，并邀请新一代开发者共同构建人与 AI 更好的协作方式。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/7248-400o400o1-BjZnK4uk17L2eC9ZJkMqHU.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Willem Jiang: 独立开源与 Agentic AI 顾问&lt;/p&gt;&#xA;&lt;p&gt;Willem Jiang（姜宁）是一名独立的开源与 Agentic AI 顾问，也是 DeerFlow 的维护者。他此前曾任字节跳动 OSPO 的开源布道师，以及 Apache 软件基金会董事会成员。Willem 曾为众多 Apache 项目做出贡献，包括 Apache Camel、CXF、ServiceMix 和 ServiceComb。在加入字节跳动之前，他在华为担任开源技术专家六年。在职业生涯早期，他曾任 Red Hat 首席工程师，参与 Fuse ESB 的开发，并曾在 FuseSource、IONA 和 TravelSky 担任工程职务。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

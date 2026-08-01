@@ -101,6 +101,19 @@
                 href="/zh/index.html"
                 />
   </url><url>
+    <loc>/zh/sessions/streaming-1212230.html</loc>
+    <lastmod>2026-08-09T16:15:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/streaming-1212230.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-1212230.html"
+                />
+  </url><url>
     <loc>/zh/sessions/index.html</loc>
     <lastmod>2026-08-09T16:15:00+00:00</lastmod>
     <xhtml:link
@@ -125,19 +138,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/webserver-1213943.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/streaming-1210252.html</loc>
-    <lastmod>2026-08-09T16:15:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/streaming-1210252.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-1210252.html"
                 />
   </url><url>
     <loc>/zh/sessions/messaging-1212333.html</loc>
@@ -738,19 +738,6 @@
                 href="/zh/sessions/observability-1195519.html"
                 />
   </url><url>
-    <loc>/zh/sessions/streaming-1209049.html</loc>
-    <lastmod>2026-08-08T16:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/streaming-1209049.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-1209049.html"
-                />
-  </url><url>
     <loc>/zh/sessions/datastorage-1213149.html</loc>
     <lastmod>2026-08-08T16:45:00+00:00</lastmod>
     <xhtml:link
@@ -788,6 +775,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/datalake-1212438.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/dataai-1300514.html</loc>
+    <lastmod>2026-08-08T16:45:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1300514.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1300514.html"
                 />
   </url><url>
     <loc>/zh/sessions/datalake-1209515.html</loc>
@@ -972,19 +972,6 @@
                 href="/zh/sessions/general-1213363.html"
                 />
   </url><url>
-    <loc>/zh/sessions/streaming-1212230.html</loc>
-    <lastmod>2026-08-08T15:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/streaming-1212230.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-1212230.html"
-                />
-  </url><url>
     <loc>/zh/sessions/datastorage-1214278.html</loc>
     <lastmod>2026-08-08T15:00:00+00:00</lastmod>
     <xhtml:link
@@ -1009,6 +996,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/rust-1240155.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/streaming-1209049.html</loc>
+    <lastmod>2026-08-08T15:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/streaming-1209049.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-1209049.html"
                 />
   </url><url>
     <loc>/zh/sessions/datalake-1213297.html</loc>
@@ -1089,19 +1089,6 @@
                 href="/zh/sessions/datalake-1212598.html"
                 />
   </url><url>
-    <loc>/zh/sessions/streaming-1211523.html</loc>
-    <lastmod>2026-08-08T14:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/streaming-1211523.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/streaming-1211523.html"
-                />
-  </url><url>
     <loc>/zh/sessions/community-1211847.html</loc>
     <lastmod>2026-08-08T14:30:00+00:00</lastmod>
     <xhtml:link
@@ -1126,6 +1113,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/datastorage-1213677.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/streaming-1210252.html</loc>
+    <lastmod>2026-08-08T14:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/streaming-1210252.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/streaming-1210252.html"
                 />
   </url><url>
     <loc>/zh/sessions/dataai-1210506.html</loc>
@@ -1230,6 +1230,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/olap-1195516.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/keynote-1296719.html</loc>
+    <lastmod>2026-08-08T11:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1296719.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1296719.html"
                 />
   </url><url>
     <loc>/zh/sessions/keynote-1228764.html</loc>
@@ -1932,6 +1945,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/keynote-1296710.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/keynote-1300492.html</loc>
+    <lastmod>2026-08-07T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1300492.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1300492.html"
                 />
   </url><url>
     <loc>/zh/search/search.html</loc>
