@@ -4,7 +4,7 @@ date: "2026-08-09T14:30:00"
 track: "datalake"
 presenters: "Hongyue Zhang"
 stype: "English Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 Apache Iceberg's metadata layer is what makes schema evolution, partition evolution, and predicate pushdown possible . But at petabyte scale, that metadata itself can balloon to hundreds of gigabytes or more. When planning slows down the execution, something has to give.

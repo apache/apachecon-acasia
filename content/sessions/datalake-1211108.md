@@ -4,7 +4,7 @@ date: "2026-08-08T14:00:00"
 track: "datalake"
 presenters: "Yuming Wang"
 stype: "Chinese Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 Apache Iceberg V3 brings powerful capabilities, but running it reliably in production takes more than a version upgrade. In this session, we share our real-world adoption journey with Iceberg 1.10: table design, write/read path tuning, compaction strategy, and metadata lifecycle management. We’ll unpack the key bottlenecks we faced—small-file growth, snapshot sprawl, merge/update pressure, and query latency variance—and the concrete optimizations that improved both stability and cost efficiency. You’ll leave with practical architecture patterns, anti-patterns, and a battle-tested checklist to move from pilot to production with confidence.

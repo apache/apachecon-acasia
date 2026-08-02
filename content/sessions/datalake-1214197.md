@@ -4,7 +4,7 @@ date: "2026-08-07T15:00:00"
 track: "datalake"
 presenters: "Jerry Shao"
 stype: "Chinese Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 While the Iceberg REST Catalog (IRC) provides a standardized protocol for table management, implementing it in a mission-critical enterprise environment reveals a significant "implementation gap." Moving from a legacy Hive Metastore (HMS) to a REST-based architecture requires more than just a new API—it demands a total rethink of security, performance, and data continuity.

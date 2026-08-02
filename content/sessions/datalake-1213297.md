@@ -4,7 +4,7 @@ date: "2026-08-08T15:00:00"
 track: "datalake"
 presenters: "Hangxiang Yu"
 stype: "Chinese Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 At Didi, scaling our Hive ecosystem to Iceberg required rebuilding our strategy of data integrity and governance beyond simple format conversion. We engineered a zero-downtime offline migration strategy using a snapshot-based approach, enabling consistency checks and instant rollbacks before cutover. To tackle metadata bloat and orphan files, we also integrated Apache Amoro for autonomous optimization.

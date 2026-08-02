@@ -4,7 +4,7 @@ date: "2026-08-08T16:15:00"
 track: "datalake"
 presenters: "Yuxia Luo"
 stype: "Chinese Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 Modern data platforms are torn between two worlds: streaming systems deliver fresh data but lack long-term

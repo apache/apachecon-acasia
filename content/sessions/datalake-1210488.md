@@ -4,7 +4,7 @@ date: "2026-08-09T14:00:00"
 track: "datalake"
 presenters: "Kainan Bao"
 stype: "Chinese Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 While the lakehouse architecture has become the de facto standard for business intelligence (BI) workloads, it faces two fundamental bottlenecks when extended to large-scale foundation model training pipelines. Unlike traditional BI which centers on structured tabular data, AI training processes massive volumes of unstructured data (text, images, audio, video), exposing critical gaps in unified unstructured data governance and architectural silos between Hadoop-based data processing and cloud-native model training infrastructure.

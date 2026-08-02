@@ -4,7 +4,7 @@ date: "2026-08-08T15:45:00"
 track: "datalake"
 presenters: "Zhuojun Jiang, Wenling Zhang"
 stype: "Chinese Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 As real-time data processing becomes the foundation of modern data platforms, the challenge is no longer just enabling real-time ingestion, but ensuring stability, consistency, and high performance under large-scale and high-concurrency workloads. Following our previous practice on building a real-time lakehouse, we further evolved the architecture to address critical bottlenecks in large-scale production environments.

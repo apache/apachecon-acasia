@@ -4,7 +4,7 @@ date: "2026-08-09T13:30:00"
 track: "datalake"
 presenters: "Huaxin Gao"
 stype: "English Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 Iceberg’s UDF spec introduces a self-contained, versioned metadata format for SQL scalar and table functions that can move across catalogs and engines like Spark and Trino. This talk walks through the core model, definitions, parameter naming rules, return types, and dialect-specific representations, and explains how versioning, rollback, determinism, and null-handling hints make UDFs portable without sacrificing engine optimizations. We’ll highlight key design choices such as immutable signatures, overload compatibility with defaults, and secure functions, and close with practical guidance for implementing the spec in an engine or catalog.

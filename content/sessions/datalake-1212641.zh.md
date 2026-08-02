@@ -4,7 +4,7 @@ date: "2026-08-07T16:45:00"
 track: "datalake"
 presenters: "Noémi Pap-Takács, Boglárka Egyed"
 stype: "英文演讲"
-room: "万春厅"
+room: "主会场 - 颐和厅"
 ---
 
 Apache Iceberg 通过引入 ACID 事务和灵活的表更新，彻底改变了数据湖。然而在企业级规模下，"放手不管"式的管理只是一种幻想。如果没有正确的维护策略，高吞吐系统往往会饱受存储成本上升、查询性能退化乃至故障的困扰。

@@ -4,7 +4,7 @@ date: "2026-08-07T16:15:00"
 track: "datalake"
 presenters: "Adnan Hemani"
 stype: "English Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 Apache Iceberg REST Catalogs are rapidly becoming the standard for interoperable data catalogs, and Apache Polaris (Incubating) is an Apache project implementation of the Apache Iceberg REST API. One of the things that makes Polaris so powerful is how it lets you observe and react to changes in your data ecosystem.

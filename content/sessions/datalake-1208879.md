@@ -4,7 +4,7 @@ date: "2026-08-07T14:00:00"
 track: "datalake"
 presenters: "Xiaojing Fang"
 stype: "Chinese Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 Apache Iceberg provides a strong foundation for open data lake tables, but production-grade deployments often need more than a table format. They need unified metadata access, secure authorization, cloud-native credential management, query acceleration, and automated maintenance.

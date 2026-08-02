@@ -4,7 +4,7 @@ date: "2026-08-07T14:30:00"
 track: "datalake"
 presenters: "Zhoulong Liu"
 stype: "Chinese Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 As data architectures evolve, maintaining separate silos for batch and streaming processing — the hallmark of Lambda architecture — has become increasingly costly and complex. How can we build a truly unified platform that delivers both real-time data freshness and high-performance analytics at scale?

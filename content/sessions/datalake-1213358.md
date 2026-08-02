@@ -4,7 +4,7 @@ date: "2026-08-07T15:45:00"
 track: "datalake"
 presenters: "Max Yang"
 stype: "Chinese Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 Apache Cloudberry is an advanced and mature open-source MPP database, derived from the open-source version of the Pivotal Greenplum Database® but built on a more modern PostgreSQL kernel and with more advanced enterprise capabilities. Cloudberry can serve as a data warehouse and can also be used for large-scale analytics and AI/ML workloads.

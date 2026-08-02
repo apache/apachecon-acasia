@@ -4,7 +4,7 @@ date: "2026-08-08T14:30:00"
 track: "datalake"
 presenters: "Lidong Dai"
 stype: "Chinese Session"
-room: "WanChun Hall"
+room: "MainRoom - YiHe Hall"
 ---
 
 Building a data lake is no longer just about choosing Iceberg, Hudi, or Paimon.
