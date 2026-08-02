@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,18 +123,43 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">演进中的实时湖仓：大规模下的稳定性与性能突破</h3>
-                    <h4>Zhuojun Jiang, Wenling Zhang</h4>
-                    中文演讲  2026-08-08 15:45 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 188">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/zh/sessions/#2026-08-08">议题</a>
+                        <span class="sep">/</span>
+                        <a href="/zh/tracks/datalake.html">数据湖/数据仓库</a>
+                    </nav>
+
+                    <h1 class="session-title">演进中的实时湖仓：大规模下的稳定性与性能突破</h1>
+
                     
-                        (ROOM : 主会场 - 颐和厅)
+                        <div class="session-presenters">
+                            <span class="presenter">Zhuojun Jiang</span><span class="presenter">Wenling Zhang</span>
+                        </div>
                     
-                    <a class="label" href="/zh/tracks/datalake.html">#datalake</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>周六, 8月 8</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>15:45<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>主会场 - 颐和厅</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>中文演讲</li>
+                        <li class="meta-track"><a href="/zh/tracks/datalake.html">#数据湖/数据仓库</a></li>
+                    </ul>
                 </header>
 
-                <p>随着实时数据平台规模不断扩大，在高并发与大规模数据场景下保障系统的稳定性、一致性与高性能，成为实时湖仓建设的核心挑战。我们基于之前的实时湖仓实践，进一步对架构进行了持续演进，重点解决生产环境中的关键瓶颈问题。</p>
+                <div class="session-body">
+                    <p>随着实时数据平台规模不断扩大，在高并发与大规模数据场景下保障系统的稳定性、一致性与高性能，成为实时湖仓建设的核心挑战。我们基于之前的实时湖仓实践，进一步对架构进行了持续演进，重点解决生产环境中的关键瓶颈问题。</p>
 <p>本次分享将介绍一个基于 Flink CDC 3.4、Apache Iceberg 与 Apache Amoro 构建的生产级实时湖仓架构，支持多业务表、多分片场景下的秒级数据入湖能力。</p>
 <p>在数据同步层，我们重构了 Schema Evolution 架构，消除了模式变更过程中下游重复写入带来的性能瓶颈，使写入效率提升 80% 以上。同时，针对分布式环境中的模式一致性问题进行了系统性优化，显著提升了高并发场景下的数据同步稳定性。</p>
 <p>在数据优化层，基于 Apache Amoro 的自适应刷新与零拷贝合并机制，在显著降低 Metastore 负载的同时，实现了 4 倍的文件合并性能提升，并通过优化服务重启与运行机制进一步增强系统整体稳定性。</p>
@@ -148,12 +175,65 @@
 <p>Wenling Zhang：StateCloud</p>
 <p>Apache（孵化中）Amoro contributor</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            <a href="/zh/sessions/datalake-1213297.html"><span class="dir">&larr; 上一页</span><span class="nav-title">迈向湖仓：高性价比的 Hive 迁移与大规模实时入湖</span></a>
+                        </div>
+                        <div class="nav-next">
+                            <a href="/zh/sessions/datalake-1209515.html"><span class="dir">下一页 &rarr;</span><span class="nav-title">Fluss × 湖仓：在数据湖上解锁亚秒级数据新鲜度</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 

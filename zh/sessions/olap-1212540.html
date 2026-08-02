@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,18 +123,43 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">Impala 中的 Iceberg v3：Puffin 与 Deletion Vectors</h3>
-                    <h4>Péter Rózsa, Zoltán Borók-Nagy</h4>
-                    英文演讲  2026-08-07 16:15 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 118">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/zh/sessions/#2026-08-07">议题</a>
+                        <span class="sep">/</span>
+                        <a href="/zh/tracks/olap.html">OLAP和数据分析</a>
+                    </nav>
+
+                    <h1 class="session-title">Impala 中的 Iceberg v3：Puffin 与 Deletion Vectors</h1>
+
                     
-                        (ROOM : 百望山会议室)
+                        <div class="session-presenters">
+                            <span class="presenter">Péter Rózsa</span><span class="presenter">Zoltán Borók-Nagy</span>
+                        </div>
                     
-                    <a class="label" href="/zh/tracks/olap.html">#olap</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>周五, 8月 7</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>16:15<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>百望山会议室</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>英文演讲</li>
+                        <li class="meta-track"><a href="/zh/tracks/olap.html">#OLAP和数据分析</a></li>
+                    </ul>
                 </header>
 
-                <p>Iceberg v3 通过 Puffin 规范和 Deletion Vectors（删除向量）带来了性能提升。本次演讲将详细介绍在 Apache Impala 中实现高性能 C++ Puffin 读写器（reader/writer）的工程工作。我们将走过从 v2 迁移到 v3 的路径，重点讲解把这些特性引入 C++ 引擎的技术挑战。通过实现 Puffin 读写器，Impala 同时也具备了读写 Apache Datasketches 统计信息的能力。
+                <div class="session-body">
+                    <p>Iceberg v3 通过 Puffin 规范和 Deletion Vectors（删除向量）带来了性能提升。本次演讲将详细介绍在 Apache Impala 中实现高性能 C++ Puffin 读写器（reader/writer）的工程工作。我们将走过从 v2 迁移到 v3 的路径，重点讲解把这些特性引入 C++ 引擎的技术挑战。通过实现 Puffin 读写器，Impala 同时也具备了读写 Apache Datasketches 统计信息的能力。
 讨论的核心聚焦于从 position deletes 到 v3 deletion vectors 的架构转变。我们将深入对比这两种方案，分享实现细节以及在实现过程中观察到的性能收益。
 我们将展示真实的基准测试结果，并讨论 Impala 后续 v3 特性的计划。这包括基于 Puffin 的 deletion vectors 如何提升扫描性能，以及 Impala 如何从与引擎无关的（engine-agnostic）统计信息中获益。听众将清晰地了解如何利用 Iceberg v3 来应对高吞吐、写密集型的工作负载。</p>
 <h3 id="讲师">讲师:</h3>
@@ -143,12 +170,46 @@
 <p>Zoltán Borók-Nagy：Cloudera，Principal Engineer</p>
 <p>Zoltán 是 Cloudera 的软件工程师，从事 Apache Impala 相关工作。他也是该项目的 PMC 成员。目前他负责牵头 Impala/Iceberg 的集成工作。在加入 Cloudera 之前，Zoltán 从事 C++ 静态分析工具的开发。他感兴趣的方向包括分布式系统、大规模并行系统、数据库以及性能工程。</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            <a href="/zh/sessions/olap-1214229.html"><span class="dir">&larr; 上一页</span><span class="nav-title">从元数据到语义分析：面向企业 OLAP 与 AI 驱动数据的一体化方法</span></a>
+                        </div>
+                        <div class="nav-next">
+                            <a href="/zh/sessions/olap-1211809.html"><span class="dir">下一页 &rarr;</span><span class="nav-title">Impala 5.0：让湖仓表获得更低时延与更优可运维性</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 

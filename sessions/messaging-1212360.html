@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,18 +123,43 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">RocketMQ 5 in Production at Meituan</h3>
-                    <h4>Jiangge Zhang</h4>
-                    Chinese Session  2026-08-09 14:00 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 67">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/sessions/#2026-08-09">Sessions</a>
+                        <span class="sep">/</span>
+                        <a href="/tracks/messaging.html">Messaging</a>
+                    </nav>
+
+                    <h1 class="session-title">RocketMQ 5 in Production at Meituan</h1>
+
                     
-                        (ROOM : JingYi Hall)
+                        <div class="session-presenters">
+                            <span class="presenter">Jiangge Zhang</span>
+                        </div>
                     
-                    <a class="label" href="/tracks/messaging.html">#messaging</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>Sun, Aug 9</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>14:00<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>JingYi Hall</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>Chinese Session</li>
+                        <li class="meta-track"><a href="/tracks/messaging.html">#Messaging</a></li>
+                    </ul>
                 </header>
 
-                <p>Meituan operates one of China&rsquo;s largest internal messaging platforms, originally built on an early Kafka fork—internally known as Mafka. Mafka served us well, but over time hit two hard limits. First, consumer scalability was capped by partition count: adding more consumer instances beyond the number of partitions yielded no throughput gain. Second, the client became a heavyweight artifact—carrying complex routing logic and a wire protocol that made cross-language support a maintenance nightmare.</p>
+                <div class="session-body">
+                    <p>Meituan operates one of China&rsquo;s largest internal messaging platforms, originally built on an early Kafka fork—internally known as Mafka. Mafka served us well, but over time hit two hard limits. First, consumer scalability was capped by partition count: adding more consumer instances beyond the number of partitions yielded no throughput gain. Second, the client became a heavyweight artifact—carrying complex routing logic and a wire protocol that made cross-language support a maintenance nightmare.</p>
 <p>Apache RocketMQ 5 addressed both. The Pop consumption model manages message lifecycle per message rather than per partition, allowing a queue to be shared across consumers simultaneously—unlocking horizontal elasticity. The Proxy architecture, built on gRPC, enables lightweight, language-agnostic clients. But RocketMQ 5 out of the box could not cover what Meituan needs at scale: a unified global metadata layer and enterprise-grade traffic isolation across multiple deployment environments and business units.</p>
 <p>This talk walks through the decisions and trade-offs behind our production adoption of RocketMQ 5 at Meituan. We cover three areas: first, how we designed a three-tier topology—tenant, placement group, and cluster—where placement groups serve as blast-radius boundaries within a tenant; second, how we implemented multiple modes of traffic isolation and routing entirely outside RocketMQ, so the broker stays a pure messaging primitive and isolation policies can evolve independently; third, how we built a single authoritative metadata service to keep all components in sync.</p>
 <p>We will ground the talk in real-world results from active production migration. Running at scale has validated our core architectural choices, but also surfaced hard problems we are still working through—from data-plane constraints in RocketMQ 5&rsquo;s replication model to capacity isolation challenges inherent in its shared commit log design. We hope these production learnings are useful to the broader RocketMQ community.</p>
@@ -141,12 +168,52 @@
 <p>Jiangge Zhang: Software Architect at Meituan</p>
 <p>Jiangge Zhang is an architect at Meituan, working on the messaging infrastructure team. He previously worked on SOA middleware and has been focused on large-scale distributed systems throughout his career.</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            <a href="/sessions/messaging-1212359.html"><span class="dir">&larr; Previous</span><span class="nav-title">Real-Time Lakehouse Pipeline: Native Lake Ingestion and Embedded Computation in Disaggregated Kafka</span></a>
+                        </div>
+                        <div class="nav-next">
+                            <a href="/sessions/messaging-1213289.html"><span class="dir">Next &rarr;</span><span class="nav-title">Exploration and Practice of Low-Latency Optimizations in Apache RocketMQ</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 

@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -122,1652 +124,321 @@
 
         
         <div id="content" class="container">
-            <section class="session">
-                <header class="major">
-                    <h2 class="text-center mb-5">Messaging</h2>
-                    <hr></hr>
-                    <h3>Track Chairs : Jia Zha, Qingshan Lin, Zongtang Hu</h3>
+
+            
+            
+            
+            
+
+            
+            
+            
+                
+            
+            
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+
+            <section class="track-page" style="--track-hue: 67">
+                <header class="track-hero">
+                    <a class="track-back" href="/tracks/">&larr; Tracks</a>
+                    <h2 class="track-title">Messaging</h2>
+
+                    <dl class="track-facts">
+                        
+                            <div class="fact">
+                                <dt>Track Chairs</dt>
+                                <dd>
+                                    
+                                        <span class="chair">Jia Zha</span>
+                                    
+                                        <span class="chair">Qingshan Lin</span>
+                                    
+                                        <span class="chair">Zongtang Hu</span>
+                                    
+                                </dd>
+                            </div>
+                        
+                        
+                            <div class="fact">
+                                <dt>Sessions</dt>
+                                <dd>11</dd>
+                            </div>
+                        
+                        
+                            <div class="fact">
+                                <dt>Room</dt>
+                                <dd>JingYi Hall</dd>
+                            </div>
+                        
+                    </dl>
                 </header>
 
-                <article><p>With the large-scale landing of serverless, IoT and real-time data technology, event-driven architecture and event streaming technology have been more widely applied, making message queue become more and more important infrastructure. Today, a number of excellent  messaging projects have emerged in the Apache ecosystem, including
+                <article class="track-intro"><p>With the large-scale landing of serverless, IoT and real-time data technology, event-driven architecture and event streaming technology have been more widely applied, making message queue become more and more important infrastructure. Today, a number of excellent  messaging projects have emerged in the Apache ecosystem, including
 <a href="https://pulsar.apache.org/">Apache Pulsar</a>, <a href="https://kafka.apache.org/">Apache Kafka</a>, <a href="https://rocketmq.apache.org/">Apache RocketMQ</a>, <a href="https://activemq.apache.org/">Apache ActiveMQ</a>, <a href="https://inlong.apache.org/">Apache Inlong</a>, etc, facing new technological trends, each messaging project is also continuing to evolve.</p>
 <p>In this topic, you will learn how different messaging systems make the best technical evolution direction based on their own architectural characteristics, including storage and computing separation,  serverless, messaging-streaming integration,and so on.  You can also learn how major manufacturers choose the right messaging technology based on their own industry characteristics and business scenarios, and obtain the best practices of messaging technology.</p>
 </article>
-                
-                 
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                        
-                        
-                           
-                    <dl>
-                    
-                      <dt class="session-date" style="float: left;"><h5 class="lh-2em fw-normal">2026-08-07</h5></dt>
-                    
-                      <dd class="session-list">
-                        
-                        <p>
-                            
-                            
-                            <span>14:00 GMT&#43;8</span>
-                            
-                            <span></span>
-                            <a href="/sessions/messaging-1196418.html" title="Apache RocketMQ Routing Control Plane Evolution">Apache RocketMQ Routing Control Plane Evolution</a>
-                            <sub>Chinese Session</sub>
-                            
-                            <span> Xiao Yang </span>
-                        </p>
-                        
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                        
-                        
-                           
-                        <p>
-                            
-                            
-                            <span>14:30 GMT&#43;8</span>
-                            
-                            <span></span>
-                            <a href="/sessions/messaging-1203579.html" title="Cost Challenges of Apache Kafka in the AI Era: Optimization Practice and Latest Community Progress">Cost Challenges of Apache Kafka in the AI Era: Optimization Practice and Latest Community Progress</a>
-                            <sub>Chinese Session</sub>
-                            
-                            <span> Jian Fu </span>
-                        </p>
-                        
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                        
-                        
-                           
-                        <p>
-                            
-                            
-                            <span>15:00 GMT&#43;8</span>
-                            
-                            <span></span>
-                            <a href="/sessions/messaging-1209406.html" title="Challenges and Breakthroughs in TDMQ for Apache Pulsar: Multi-Modal Storage  Delayed Messaging">Challenges and Breakthroughs in TDMQ for Apache Pulsar: Multi-Modal Storage  Delayed Messaging</a>
-                            <sub>Chinese Session</sub>
-                            
-                            <span> Xiaolong Ran </span>
-                        </p>
-                        
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                        
-                        
-                           
-                        <p>
-                            
-                            
-                            <span>15:45 GMT&#43;8</span>
-                            
-                            <span></span>
-                            <a href="/sessions/messaging-1211234.html" title="Rethinking High Availability for Apache RocketMQ on the Cloud: Protocol-Fenced Takeover for Second-L">Rethinking High Availability for Apache RocketMQ on the Cloud: Protocol-Fenced Takeover for Second-L</a>
-                            <sub>Chinese Session</sub>
-                            
-                            <span> Rongtong Jin </span>
-                        </p>
-                        
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                        
-                        
-                           
-                        <p>
-                            
-                            
-                            <span>16:15 GMT&#43;8</span>
-                            
-                            <span></span>
-                            <a href="/sessions/messaging-1211843.html" title="Xiaomi RocketMQ Production Practices in Large-Scale Clusters">Xiaomi RocketMQ Production Practices in Large-Scale Clusters</a>
-                            <sub>Chinese Session</sub>
-                            
-                            <span> Kunming Han </span>
-                        </p>
-                        
-                    
-                
-                
-                
-                    
-                        
-                        
-                           
-                        <p>
-                            
-                            
-                            <span>16:45 GMT&#43;8</span>
-                            
-                            <span></span>
-                            <a href="/sessions/messaging-1212296.html" title="AI Link，AI access layer of Tencent Cloud MQTT">AI Link，AI access layer of Tencent Cloud MQTT</a>
-                            <sub>Chinese Session</sub>
-                            
-                            <span> Wei Yang, Senze Zhang </span>
-                        </p>
-                        
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                        
-                        
-                           </dl>
-                           
-                    <dl>
-                    
-                      <dt class="session-date" style="float: left;"><h5 class="lh-2em fw-normal">2026-08-09</h5></dt>
-                    
-                      <dd class="session-list">
-                        
-                        <p>
-                            
-                            
-                            <span>13:30 GMT&#43;8</span>
-                            
-                            <span></span>
-                            <a href="/sessions/messaging-1212359.html" title="Real-Time Lakehouse Pipeline: Native Lake Ingestion and Embedded Computation in Disaggregated Kafka">Real-Time Lakehouse Pipeline: Native Lake Ingestion and Embedded Computation in Disaggregated Kafka</a>
-                            <sub>Chinese Session</sub>
-                            
-                            <span> Hongjian Fei </span>
-                        </p>
-                        
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                        
-                        
-                           
-                        <p>
-                            
-                            
-                            <span>14:00 GMT&#43;8</span>
-                            
-                            <span></span>
-                            <a href="/sessions/messaging-1212360.html" title="RocketMQ 5 in Production at Meituan">RocketMQ 5 in Production at Meituan</a>
-                            <sub>Chinese Session</sub>
-                            
-                            <span> Jiangge Zhang </span>
-                        </p>
-                        
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                        
-                        
-                           
-                        <p>
-                            
-                            
-                            <span>14:30 GMT&#43;8</span>
-                            
-                            <span></span>
-                            <a href="/sessions/messaging-1213289.html" title="Exploration and Practice of Low-Latency Optimizations in Apache RocketMQ">Exploration and Practice of Low-Latency Optimizations in Apache RocketMQ</a>
-                            <sub>Chinese Session</sub>
-                            
-                            <span> Xikai Wei </span>
-                        </p>
-                        
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                        
-                        
-                           
-                        <p>
-                            
-                            
-                            <span>15:15 GMT&#43;8</span>
-                            
-                            <span></span>
-                            <a href="/sessions/messaging-1212597.html" title="Apache RocketMQ For AI: Reliable Collaboration Mechanisms for Multi-Agent Systems">Apache RocketMQ For AI: Reliable Collaboration Mechanisms for Multi-Agent Systems</a>
-                            <sub>Chinese Session</sub>
-                            
-                            <span> Zhou Li </span>
-                        </p>
-                        
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                        
-                        
-                           
-                        <p>
-                            
-                            
-                            <span>15:45 GMT&#43;8</span>
-                            
-                            <span></span>
-                            <a href="/sessions/messaging-1212333.html" title="Apache Pulsar multi-cluster disaster recovery and progressive traffic migration">Apache Pulsar multi-cluster disaster recovery and progressive traffic migration</a>
-                            <sub>Chinese Session</sub>
-                            
-                            <span> Dezhi LIU </span>
-                        </p>
-                        
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                
-                    
-                
-                
-                    </dd>
 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                    </dd>
+                <div class="track-agenda">
+                    <h3 class="track-agenda-title">Agenda</h3>
 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                    </dd>
+                    
+                        
+                            
+                            <div class="track-day">
+                                <div class="track-day-head">
+                                    <span class="track-day-date">2026-08-07</span>
+                                    
+                                        <a class="track-day-link" href="/sessions/#2026-08-07">Full schedule &rarr;</a>
+                                    
+                                </div>
+                                <ol class="track-slots">
+                                    
+                                        <li class="track-slot">
+                                            <span class="track-slot-time">
+                                                14:00<span class="tz">GMT+8</span>
+                                            </span>
+                                            <div class="sess" style="--sess-hue: 67">
+  <a class="sess-title" href="/sessions/messaging-1196418.html">Apache RocketMQ Routing Control Plane Evolution</a>
+  <div class="sess-speaker">Xiao Yang</div>
+  <div class="sess-meta">
+    <span class="sess-room">JingYi Hall</span>
+    <span class="sess-type">Chinese Session</span>
+  </div>
+</div>
 
+                                        </li>
+                                    
+                                        <li class="track-slot">
+                                            <span class="track-slot-time">
+                                                14:30<span class="tz">GMT+8</span>
+                                            </span>
+                                            <div class="sess" style="--sess-hue: 67">
+  <a class="sess-title" href="/sessions/messaging-1203579.html">Cost Challenges of Apache Kafka in the AI Era: Optimization Practice and Latest Community Progress</a>
+  <div class="sess-speaker">Jian Fu</div>
+  <div class="sess-meta">
+    <span class="sess-room">JingYi Hall</span>
+    <span class="sess-type">Chinese Session</span>
+  </div>
+</div>
 
+                                        </li>
+                                    
+                                        <li class="track-slot">
+                                            <span class="track-slot-time">
+                                                15:00<span class="tz">GMT+8</span>
+                                            </span>
+                                            <div class="sess" style="--sess-hue: 67">
+  <a class="sess-title" href="/sessions/messaging-1209406.html">Challenges and Breakthroughs in TDMQ for Apache Pulsar: Multi-Modal Storage  Delayed Messaging</a>
+  <div class="sess-speaker">Xiaolong Ran</div>
+  <div class="sess-meta">
+    <span class="sess-room">JingYi Hall</span>
+    <span class="sess-type">Chinese Session</span>
+  </div>
+</div>
 
+                                        </li>
+                                    
+                                        <li class="track-slot">
+                                            <span class="track-slot-time">
+                                                15:45<span class="tz">GMT+8</span>
+                                            </span>
+                                            <div class="sess" style="--sess-hue: 67">
+  <a class="sess-title" href="/sessions/messaging-1211234.html">Rethinking High Availability for Apache RocketMQ on the Cloud: Protocol-Fenced Takeover for Second-L</a>
+  <div class="sess-speaker">Rongtong Jin</div>
+  <div class="sess-meta">
+    <span class="sess-room">JingYi Hall</span>
+    <span class="sess-type">Chinese Session</span>
+  </div>
+</div>
+
+                                        </li>
+                                    
+                                        <li class="track-slot">
+                                            <span class="track-slot-time">
+                                                16:15<span class="tz">GMT+8</span>
+                                            </span>
+                                            <div class="sess" style="--sess-hue: 67">
+  <a class="sess-title" href="/sessions/messaging-1211843.html">Xiaomi RocketMQ Production Practices in Large-Scale Clusters</a>
+  <div class="sess-speaker">Kunming Han</div>
+  <div class="sess-meta">
+    <span class="sess-room">JingYi Hall</span>
+    <span class="sess-type">Chinese Session</span>
+  </div>
+</div>
+
+                                        </li>
+                                    
+                                        <li class="track-slot">
+                                            <span class="track-slot-time">
+                                                16:45<span class="tz">GMT+8</span>
+                                            </span>
+                                            <div class="sess" style="--sess-hue: 67">
+  <a class="sess-title" href="/sessions/messaging-1212296.html">AI Link，AI access layer of Tencent Cloud MQTT</a>
+  <div class="sess-speaker">Wei Yang, Senze Zhang</div>
+  <div class="sess-meta">
+    <span class="sess-room">JingYi Hall</span>
+    <span class="sess-type">Chinese Session</span>
+  </div>
+</div>
+
+                                        </li>
+                                    
+                                </ol>
+                            </div>
+                        
+                            
+                            <div class="track-day">
+                                <div class="track-day-head">
+                                    <span class="track-day-date">2026-08-09</span>
+                                    
+                                        <a class="track-day-link" href="/sessions/#2026-08-09">Full schedule &rarr;</a>
+                                    
+                                </div>
+                                <ol class="track-slots">
+                                    
+                                        <li class="track-slot">
+                                            <span class="track-slot-time">
+                                                13:30<span class="tz">GMT+8</span>
+                                            </span>
+                                            <div class="sess" style="--sess-hue: 67">
+  <a class="sess-title" href="/sessions/messaging-1212359.html">Real-Time Lakehouse Pipeline: Native Lake Ingestion and Embedded Computation in Disaggregated Kafka</a>
+  <div class="sess-speaker">Hongjian Fei</div>
+  <div class="sess-meta">
+    <span class="sess-room">JingYi Hall</span>
+    <span class="sess-type">Chinese Session</span>
+  </div>
+</div>
+
+                                        </li>
+                                    
+                                        <li class="track-slot">
+                                            <span class="track-slot-time">
+                                                14:00<span class="tz">GMT+8</span>
+                                            </span>
+                                            <div class="sess" style="--sess-hue: 67">
+  <a class="sess-title" href="/sessions/messaging-1212360.html">RocketMQ 5 in Production at Meituan</a>
+  <div class="sess-speaker">Jiangge Zhang</div>
+  <div class="sess-meta">
+    <span class="sess-room">JingYi Hall</span>
+    <span class="sess-type">Chinese Session</span>
+  </div>
+</div>
+
+                                        </li>
+                                    
+                                        <li class="track-slot">
+                                            <span class="track-slot-time">
+                                                14:30<span class="tz">GMT+8</span>
+                                            </span>
+                                            <div class="sess" style="--sess-hue: 67">
+  <a class="sess-title" href="/sessions/messaging-1213289.html">Exploration and Practice of Low-Latency Optimizations in Apache RocketMQ</a>
+  <div class="sess-speaker">Xikai Wei</div>
+  <div class="sess-meta">
+    <span class="sess-room">JingYi Hall</span>
+    <span class="sess-type">Chinese Session</span>
+  </div>
+</div>
+
+                                        </li>
+                                    
+                                        <li class="track-slot">
+                                            <span class="track-slot-time">
+                                                15:15<span class="tz">GMT+8</span>
+                                            </span>
+                                            <div class="sess" style="--sess-hue: 67">
+  <a class="sess-title" href="/sessions/messaging-1212597.html">Apache RocketMQ For AI: Reliable Collaboration Mechanisms for Multi-Agent Systems</a>
+  <div class="sess-speaker">Zhou Li</div>
+  <div class="sess-meta">
+    <span class="sess-room">JingYi Hall</span>
+    <span class="sess-type">Chinese Session</span>
+  </div>
+</div>
+
+                                        </li>
+                                    
+                                        <li class="track-slot">
+                                            <span class="track-slot-time">
+                                                15:45<span class="tz">GMT+8</span>
+                                            </span>
+                                            <div class="sess" style="--sess-hue: 67">
+  <a class="sess-title" href="/sessions/messaging-1212333.html">Apache Pulsar multi-cluster disaster recovery and progressive traffic migration</a>
+  <div class="sess-speaker">Dezhi LIU</div>
+  <div class="sess-meta">
+    <span class="sess-room">JingYi Hall</span>
+    <span class="sess-type">Chinese Session</span>
+  </div>
+</div>
+
+                                        </li>
+                                    
+                                </ol>
+                            </div>
+                        
+                    
+                </div>
             </section>
         </div>
     </div>
@@ -1795,7 +466,6 @@
     </section>
 </div>
 </div>
-
 
 
 </body>

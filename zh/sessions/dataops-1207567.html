@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,18 +123,43 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">从&#39;可用&#39;到&#39;可治&#39;：Apache SeaTunnel 中的 ClassLoader 生命周期治理实践</h3>
-                    <h4>金祥 杨</h4>
-                    中文演讲  2026-08-09 14:30 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 325">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/zh/sessions/#2026-08-09">议题</a>
+                        <span class="sep">/</span>
+                        <a href="/zh/tracks/dataops.html">DataOps</a>
+                    </nav>
+
+                    <h1 class="session-title">从&#39;可用&#39;到&#39;可治&#39;：Apache SeaTunnel 中的 ClassLoader 生命周期治理实践</h1>
+
                     
-                        (ROOM : 万寿山会议室)
+                        <div class="session-presenters">
+                            <span class="presenter">金祥 杨</span>
+                        </div>
                     
-                    <a class="label" href="/zh/tracks/dataops.html">#dataops</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>周日, 8月 9</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>14:30<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>万寿山会议室</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>中文演讲</li>
+                        <li class="meta-track"><a href="/zh/tracks/dataops.html">#DataOps</a></li>
+                    </ul>
                 </header>
 
-                <p>在长生命周期的 JVM 系统中，ClassLoader 泄漏是最隐蔽、也最难诊断的一类运行时问题，同时也是整个 Apache 生态中长时运行 JVM 工作负载普遍面临的挑战。现有方案大多仍停留在&quot;事后排查&quot;阶段：监控工具和堆转储（heap dump）能告诉开发者&quot;哪些 ClassLoader 还活着&quot;，却很难讲清&quot;为什么它们无法被回收&quot;，更遑论把治理意图转化为可验证、可复现的工程实践。</p>
+                <div class="session-body">
+                    <p>在长生命周期的 JVM 系统中，ClassLoader 泄漏是最隐蔽、也最难诊断的一类运行时问题，同时也是整个 Apache 生态中长时运行 JVM 工作负载普遍面临的挑战。现有方案大多仍停留在&quot;事后排查&quot;阶段：监控工具和堆转储（heap dump）能告诉开发者&quot;哪些 ClassLoader 还活着&quot;，却很难讲清&quot;为什么它们无法被回收&quot;，更遑论把治理意图转化为可验证、可复现的工程实践。</p>
 <p>通过对 Apache SeaTunnel 类加载机制的深入分析，我们发现了一个被广泛忽视的盲区：大量看似正确的生命周期实现，从未建立显式的资源关闭（close）语义。没有强制的 close 与 drain 约束，资源回收就变得高度不可预测——在某些场景下，甚至会导致 ClassLoader 永远无法被回收。</p>
 <p>基于我们对长生命周期 JVM 系统运行时治理的探索，我们向 Apache SeaTunnel 社区提出了一套系统化的 ClassLoader 生命周期治理改进方案。其核心转变在于：从被动的&quot;事后追查残留引用&quot;，转向主动地&quot;构建确定性的可回收语义与生命周期闭环&quot;。我们渐进式地引入了显式的生命周期 close 机制、强制的类加载边界约束，以及主动的残留引用清理。该治理提案目前正在社区讨论中，第一阶段优化的 PR 处于评审阶段。</p>
 <p>本次演讲将探讨 Apache SeaTunnel 中真实的社区实践，涵盖：</p>
@@ -146,12 +173,42 @@
 <p>金祥 杨：LingFrame 与 LingMirror 作者 | Apache SeaTunnel 社区成员 | JVM 运行时治理</p>
 <p>Jinxiang Yang 是 LingFrame（灵珑）和 LingMirror 的作者。前者是面向长生命周期 JVM 单进程系统的开源运行时治理框架，后者是用于静态诊断 ClassLoader 泄漏的 IntelliJ IDEA 插件。他专注于长时运行 JVM 系统的治理，通过对源码的深入分析，定位到 Apache SeaTunnel 中关键的 ClassLoader 生命周期缺口，并提出了一套系统化的治理改进方案，目前在 SeaTunnel 社区被积极讨论。他相信：一个系统在&quot;能跑&quot;时并不算完成——只有当它的生命周期可被观测、可被治理，并能被证明长期正确时，才算真正完成。</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            <a href="/zh/sessions/dataops-1214716.html"><span class="dir">&larr; 上一页</span><span class="nav-title">增强元数据发现能力：Gravitino &#43; OpenSearch</span></a>
+                        </div>
+                        <div class="nav-next">
+                            <a href="/zh/sessions/dataops-1212167.html"><span class="dir">下一页 &rarr;</span><span class="nav-title">从自然语言到可靠的数据流水线：为 Apache SeaTunnel 打造 AI 驱动的 CLI</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 

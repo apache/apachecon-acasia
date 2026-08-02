@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,18 +123,43 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">GeaFlow | Streaming Memory: Building a Real-time Stateful Backend to Empower AI&#43;Graph Scenarios</h3>
-                    <h4>Litao Lin, Yao Zhongqiang</h4>
-                    Chinese Session  2026-08-08 16:15 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 32">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/sessions/#2026-08-08">Sessions</a>
+                        <span class="sep">/</span>
+                        <a href="/tracks/streaming.html">Streaming</a>
+                    </nav>
+
+                    <h1 class="session-title">GeaFlow | Streaming Memory: Building a Real-time Stateful Backend to Empower AI&#43;Graph Scenarios</h1>
+
                     
-                        (ROOM : YuanMing Hall)
+                        <div class="session-presenters">
+                            <span class="presenter">Litao Lin</span><span class="presenter">Yao Zhongqiang</span>
+                        </div>
                     
-                    <a class="label" href="/tracks/streaming.html">#streaming</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>Sat, Aug 8</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>16:15<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>YuanMing Hall</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>Chinese Session</li>
+                        <li class="meta-track"><a href="/tracks/streaming.html">#Streaming</a></li>
+                    </ul>
                 </header>
 
-                <p>In 2026, AI Agent memory architecture is undergoing a paradigm shift. Traditional AI Agent memory systems largely adopt a batch processing mode characterized by &ldquo;append-only writes + asynchronous indexing.&rdquo; This results in significant latency in memory updates, making it difficult to support contextual evolution in real-time interaction scenarios. The essence of memory is not a static dataset, but an unbounded data stream composed of dialogue, perception, and decision-making. How to perform low-latency state management and incremental computation on this stream represents a new challenge for stream computing technology in the AI era.
+                <div class="session-body">
+                    <p>In 2026, AI Agent memory architecture is undergoing a paradigm shift. Traditional AI Agent memory systems largely adopt a batch processing mode characterized by &ldquo;append-only writes + asynchronous indexing.&rdquo; This results in significant latency in memory updates, making it difficult to support contextual evolution in real-time interaction scenarios. The essence of memory is not a static dataset, but an unbounded data stream composed of dialogue, perception, and decision-making. How to perform low-latency state management and incremental computation on this stream represents a new challenge for stream computing technology in the AI era.
 This session will focus on how stream computing technology addresses the memory challenge. Apache GeaFlow (Incubating), an open-source streaming graph computation engine, is positioned as a real-time incremental graph computation layer, serving as the real-time stateful backend for Agents. Unlike traditional graph databases and stream computing engines that lack native relationship modeling capabilities, GeaFlow processes incoming data as continuous graph updates via incremental computation—where each event triggers only necessary subgraph changes, thereby avoiding expensive full recomputations.
 Specifically, GeaFlow replaces full computation with incremental streaming computation to enable real-time updates of local subgraphs the instant a dialogue occurs. Through dynamic graph state management, it maintains temporal memory as stream state, resolving state consistency issues in long-running dialogues. Furthermore, it leverages a distributed snapshot mechanism to ensure state fault tolerance and recovery for enterprise-level multi-Agent collaboration.
 In the technical practice segment, we will demonstrate how to build a knowledge assistant capable of millisecond-level memory updates. We will also showcase how GeaFlow provides foundational support for AI systems operating on continuously evolving knowledge graphs.</p>
@@ -144,12 +171,55 @@ In the technical practice segment, we will demonstrate how to build a knowledge 
 <p>Yao Zhongqiang: Graph Computing Expert &amp; Development Engineer at Ant Group</p>
 <p>Deeply involved in the big data field, specializing in graph computing, real-time computing, and OLAP. Current team focus is on Agent Memory and MARL.</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            <a href="/sessions/streaming-1213500.html"><span class="dir">&larr; Previous</span><span class="nav-title">Fluss × Alipay: Streaming Storage Practices in Marketing Scenarios</span></a>
+                        </div>
+                        <div class="nav-next">
+                            <a href="/sessions/streaming-1191917.html"><span class="dir">Next &rarr;</span><span class="nav-title">Deep Dive to Flink CDC Architecture and Large-Scale Production Practices</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 

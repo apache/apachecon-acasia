@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,29 +123,74 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">Apache Cloudberry: gathering statistics for queries executed by multiple PostgreSQL instances.</h3>
-                    <h4>Leonid Borchuk</h4>
-                    English Session  2026-08-08 16:45 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 341">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/sessions/#2026-08-08">Sessions</a>
+                        <span class="sep">/</span>
+                        <a href="/tracks/observability.html">Observability</a>
+                    </nav>
+
+                    <h1 class="session-title">Apache Cloudberry: gathering statistics for queries executed by multiple PostgreSQL instances.</h1>
+
                     
-                        (ROOM : Mtn BaiWang Hall)
+                        <div class="session-presenters">
+                            <span class="presenter">Leonid Borchuk</span>
+                        </div>
                     
-                    <a class="label" href="/tracks/observability.html">#observability</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>Sat, Aug 8</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>16:45<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>Mtn BaiWang Hall</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>English Session</li>
+                        <li class="meta-track"><a href="/tracks/observability.html">#Observability</a></li>
+                    </ul>
                 </header>
 
-                <p>Let&rsquo;s say you have Apache Cloudberry cluster that consists of several PostgreSQL instances. They all execute a single query, and you want to collect general statistics on how many resources were spent on executing this query. The built-in pg_stat_statements module is no longer suitable here, since it works within the same database. I will present a solution with a similar central idea — collecting data through query execution hooks, but instead of storing it in PostgreSQL shared memory, we send raw data to an external agent process. This process is responsible for aggregating metrics, providing a unified picture across all instances, as well as additional functions, such as the forced termination of problematic sessions, while not limited to PostgreSQL: the solution can collect data from other system components. I will talk about architecture, product tasks, and share links to the repositories (Apache 2.0 License) with the code.</p>
+                <div class="session-body">
+                    <p>Let&rsquo;s say you have Apache Cloudberry cluster that consists of several PostgreSQL instances. They all execute a single query, and you want to collect general statistics on how many resources were spent on executing this query. The built-in pg_stat_statements module is no longer suitable here, since it works within the same database. I will present a solution with a similar central idea — collecting data through query execution hooks, but instead of storing it in PostgreSQL shared memory, we send raw data to an external agent process. This process is responsible for aggregating metrics, providing a unified picture across all instances, as well as additional functions, such as the forced termination of problematic sessions, while not limited to PostgreSQL: the solution can collect data from other system components. I will talk about architecture, product tasks, and share links to the repositories (Apache 2.0 License) with the code.</p>
 <h3 id="speakers">Speakers:</h3>
 <p><img src="https://cdn.sessionize.com/image/429e-400o400o1-X15FYUcE9UQzxFpN9AkBKZ.png" width="200" /><br/></p>
 <p>Leonid Borchuk: Developer at Yandex Cloud, Moscow. Apache Cloudberry commiter</p>
 <p>Team lead of the MPP postgres development team at Yandex.Cloud. He started his career with the administration of large commercial universal and analytical databases. But now he&rsquo;s finally writing his own. Apache Cloudberry commiter.</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            
+                        </div>
+                        <div class="nav-next">
+                            <a href="/sessions/observability-1206017.html"><span class="dir">Next &rarr;</span><span class="nav-title">Observing LLM Applications with SkyWalking 10.4: From Performance and Cost to Quality</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 

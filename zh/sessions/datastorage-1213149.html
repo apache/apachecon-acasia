@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,18 +123,43 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">当优化器说谎时：调试 Apache Cloudberry 中的跨 Slice 执行</h3>
-                    <h4>Alena Rybakina</h4>
-                    英文演讲  2026-08-08 16:45 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 102">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/zh/sessions/#2026-08-08">议题</a>
+                        <span class="sep">/</span>
+                        <a href="/zh/tracks/datastorage.html">数据存储与计算</a>
+                    </nav>
+
+                    <h1 class="session-title">当优化器说谎时：调试 Apache Cloudberry 中的跨 Slice 执行</h1>
+
                     
-                        (ROOM : 万寿山会议室)
+                        <div class="session-presenters">
+                            <span class="presenter">Alena Rybakina</span>
+                        </div>
                     
-                    <a class="label" href="/zh/tracks/datastorage.html">#datastorage</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>周六, 8月 8</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>16:45<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>万寿山会议室</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>英文演讲</li>
+                        <li class="meta-track"><a href="/zh/tracks/datastorage.html">#数据存储与计算</a></li>
+                    </ul>
                 </header>
 
-                <p>在 Apache Cloudberry 中，优化器、规划器（planner）和执行器对同一条查询持有不同的抽象。当这些抽象之间出现分歧时，即使是简单的查询也可能引发严重的故障。
+                <div class="session-body">
+                    <p>在 Apache Cloudberry 中，优化器、规划器（planner）和执行器对同一条查询持有不同的抽象。当这些抽象之间出现分歧时，即使是简单的查询也可能引发严重的故障。
 本次演讲分享一个涉及复制表（replicated table）上公共表表达式（CTE）共享扫描（Shared Scan）的真实 bug。当此类 CTE 被作为标量子查询多次引用时，查询可能无限期挂起，或报出&quot;could not open existing temporary file&quot;之类的错误。
 根本原因在于逻辑执行与物理执行之间的错配：标量 SubPlan 向优化器隐藏了依赖关系，导致 slice 分配不正确，破坏了生产者—消费者的局部性。
 在本次演讲中，我将梳理几种可选的修复方案，并解释每种方案是如何尝试解决这一问题的。我们会深入优化器内部，理解这个 bug 为何会产生、不同修复方案如何改变执行拓扑，以及为什么其中一些方案——尽管可行——却无法作为最终方案被接受。
@@ -152,12 +179,56 @@ PostgreSQL 经验
 对 PostgreSQL 查询规划器的实验性及面向生产的改进。
 对 PostgreSQL 核心的贡献，包括优化器中的 OR-to-ANY 和 VALUES-to-ANY 转换。</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            <a href="/zh/sessions/datastorage-1186318.html"><span class="dir">&larr; 上一页</span><span class="nav-title">释放原生性能：Apache Iceberg-cpp 的架构与路线图</span></a>
+                        </div>
+                        <div class="nav-next">
+                            <a href="/zh/sessions/datastorage-1199721.html"><span class="dir">下一页 &rarr;</span><span class="nav-title">Apache Auron（孵化中）：研发进展与社区发展</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 

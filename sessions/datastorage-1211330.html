@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,18 +123,43 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">The Consistency Model in Apache Ratis</h3>
-                    <h4>Tsz-Wo Nicholas Sze</h4>
-                    English Session  2026-08-08 14:00 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 102">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/sessions/#2026-08-08">Sessions</a>
+                        <span class="sep">/</span>
+                        <a href="/tracks/datastorage.html">Data Storage &amp; Computing</a>
+                    </nav>
+
+                    <h1 class="session-title">The Consistency Model in Apache Ratis</h1>
+
                     
-                        (ROOM : Mtn WanShou Hall)
+                        <div class="session-presenters">
+                            <span class="presenter">Tsz-Wo Nicholas Sze</span>
+                        </div>
                     
-                    <a class="label" href="/tracks/datastorage.html">#datastorage</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>Sat, Aug 8</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>14:00<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>Mtn WanShou Hall</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>English Session</li>
+                        <li class="meta-track"><a href="/tracks/datastorage.html">#Data Storage &amp; Computing</a></li>
+                    </ul>
                 </header>
 
-                <p>Apache Ratis is an open source Java library for the Raft Consensus Protocol, a distributed consensus algorithm ensuring that multiple machines work together as a single, coherent unit.  Ratis constitutes a high performance implementation of Raft.  To accommodate a diverse array of use cases, Ratis supports various configurable consistency levels.  Furthermore, Ratis offers both synchronous and asynchronous APIs for read and write operations.  Numerous projects, such as Apache Ozone, Apache IoTDB, Apache Celeborn, and Alluxio, utilize Ratis.</p>
+                <div class="session-body">
+                    <p>Apache Ratis is an open source Java library for the Raft Consensus Protocol, a distributed consensus algorithm ensuring that multiple machines work together as a single, coherent unit.  Ratis constitutes a high performance implementation of Raft.  To accommodate a diverse array of use cases, Ratis supports various configurable consistency levels.  Furthermore, Ratis offers both synchronous and asynchronous APIs for read and write operations.  Numerous projects, such as Apache Ozone, Apache IoTDB, Apache Celeborn, and Alluxio, utilize Ratis.</p>
 <p>Raft along with Ratis are designed to provide strong consistency; specifically, once a write operation is acknowledged as complete, all subsequent reads are guaranteed to reflect the effects of that write.  Read operations are more interesting since there is a fundamental trade-off between consistency and performance.  Ratis has implemented several read mechanisms, including direct read from the leader, linearizable read, read from the followers, read-after-write consistency and stale-read from followers.</p>
 <p>This presentation will commence with a concise introduction to the Raft protocol. Subsequently, we will examine the consistency model within Ratis and detail the associated APIs and configurations.</p>
 <h3 id="speakers">Speakers:</h3>
@@ -140,12 +167,61 @@
 <p>Tsz-Wo Nicholas Sze: Principal Software Engineer</p>
 <p>Dr. Tsz-Wo Nicholas Sze serves as a Principal Engineer at Cloudera. He holds the position of PMC Chair for Apache Ratis and is a PMC member for Apache Hadoop and Apache Ozone. His involvement with Apache Hadoop and HDFS dates back to 2007, making him one of the few initial contributors still active in the project. In 2016, he initiated the Apache Ratis project to facilitate high availability and high-performance write pipelines within Apache Ozone. Apache Ratis has since become one of the most widely adopted Raft Java libraries. He earned his Ph.D. degree in Computer Science from the University of Maryland College Park in 2007.</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            <a href="/sessions/datastorage-1212205.html"><span class="dir">&larr; Previous</span><span class="nav-title">Scaling Apache Ozone at Didi: Operating 100PB&#43; Storage and Billions of Files in Production</span></a>
+                        </div>
+                        <div class="nav-next">
+                            <a href="/sessions/datastorage-1213677.html"><span class="dir">Next &rarr;</span><span class="nav-title">Scaling Beyond the Exabyte: Lessons from Hadoop Integration and Operations at LY Corporation</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 

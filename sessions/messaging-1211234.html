@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,18 +123,43 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">Rethinking High Availability for Apache RocketMQ on the Cloud: Protocol-Fenced Takeover for Second-L</h3>
-                    <h4>Rongtong Jin</h4>
-                    Chinese Session  2026-08-07 15:45 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 67">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/sessions/#2026-08-07">Sessions</a>
+                        <span class="sep">/</span>
+                        <a href="/tracks/messaging.html">Messaging</a>
+                    </nav>
+
+                    <h1 class="session-title">Rethinking High Availability for Apache RocketMQ on the Cloud: Protocol-Fenced Takeover for Second-L</h1>
+
                     
-                        (ROOM : JingYi Hall)
+                        <div class="session-presenters">
+                            <span class="presenter">Rongtong Jin</span>
+                        </div>
                     
-                    <a class="label" href="/tracks/messaging.html">#messaging</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>Fri, Aug 7</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>15:45<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>JingYi Hall</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>Chinese Session</li>
+                        <li class="meta-track"><a href="/tracks/messaging.html">#Messaging</a></li>
+                    </ul>
                 </header>
 
-                <p>High availability for stateful messaging systems in the cloud is often constrained by a difficult trade-off among cost, steady-state performance, and failover speed. Replication-based approaches can reduce recovery time, but they usually introduce extra write amplification, resource overhead, and operational complexity. In contrast, single-replica deployments preserve performance and cost efficiency, yet their failover path in Kubernetes is often dominated by slow and unpredictable volume detach/attach workflows.</p>
+                <div class="session-body">
+                    <p>High availability for stateful messaging systems in the cloud is often constrained by a difficult trade-off among cost, steady-state performance, and failover speed. Replication-based approaches can reduce recovery time, but they usually introduce extra write amplification, resource overhead, and operational complexity. In contrast, single-replica deployments preserve performance and cost efficiency, yet their failover path in Kubernetes is often dominated by slow and unpredictable volume detach/attach workflows.</p>
 <p>In this session, I will share how we rethought high availability for Apache RocketMQ on the cloud and built a production-proven architecture that achieves second-level failover without adding extra data replicas in the steady state. The key idea is to keep RocketMQ’s normal storage path unchanged while redesigning the takeover path around Multi-Attach block storage and NVMe Persistent Reservation. This protocol-fenced takeover model allows a new node to safely preempt disk ownership, prevent split-brain, and resume service quickly without waiting for the traditional storage migration process.</p>
 <p>I will walk through the architecture, failure detection and takeover workflow, safety and consistency considerations, and the implementation details in Apache RocketMQ. The talk will also cover how decentralized lease probing, node-side takeover orchestration, and crash-consistent recovery work together to shorten and stabilize the failover critical path.</p>
 <p>Finally, I will share production experience from Alibaba Cloud, where this architecture has already been deployed for Apache RocketMQ services and validated through large-scale disaster recovery drills. The underlying work behind this session has also been accepted by the FSE 2026 Industry track, while this talk will focus on the production architecture, engineering trade-offs, and practical lessons learned from Apache RocketMQ. Attendees will gain practical insights into designing highly available stateful messaging systems in cloud-native environments, and learn how to balance recovery objectives with cost and performance in real-world production systems.</p>
@@ -141,12 +168,56 @@
 <p>Rongtong Jin: Technical Expert at Alibaba Cloud, Apache RocketMQ PMC Member</p>
 <p>Rongtong Jin is a Technical Expert at Alibaba Cloud and a PMC Member of Apache RocketMQ. He works on the architecture and production operations of cloud messaging systems, with a focus on high availability, storage reliability, and large-scale stateful services. He has extensive experience in the cloud evolution, production rollout, and stability engineering of Apache RocketMQ.</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            <a href="/sessions/messaging-1209406.html"><span class="dir">&larr; Previous</span><span class="nav-title">Challenges and Breakthroughs in TDMQ for Apache Pulsar: Multi-Modal Storage  Delayed Messaging</span></a>
+                        </div>
+                        <div class="nav-next">
+                            <a href="/sessions/messaging-1211843.html"><span class="dir">Next &rarr;</span><span class="nav-title">Xiaomi RocketMQ Production Practices in Large-Scale Clusters</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 

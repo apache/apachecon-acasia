@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,18 +123,43 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">Apache Impala 中的高效元数据缓存</h3>
-                    <h4>Csaba Ringhofer, Noémi Pap-Takács</h4>
-                    英文演讲  2026-08-07 15:00 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 118">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/zh/sessions/#2026-08-07">议题</a>
+                        <span class="sep">/</span>
+                        <a href="/zh/tracks/olap.html">OLAP和数据分析</a>
+                    </nav>
+
+                    <h1 class="session-title">Apache Impala 中的高效元数据缓存</h1>
+
                     
-                        (ROOM : 百望山会议室)
+                        <div class="session-presenters">
+                            <span class="presenter">Csaba Ringhofer</span><span class="presenter">Noémi Pap-Takács</span>
+                        </div>
                     
-                    <a class="label" href="/zh/tracks/olap.html">#olap</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>周五, 8月 7</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>15:00<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>百望山会议室</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>英文演讲</li>
+                        <li class="meta-track"><a href="/zh/tracks/olap.html">#OLAP和数据分析</a></li>
+                    </ul>
                 </header>
 
-                <p>如何在内存中缓存足够的信息，以便对超过 100 万个文件的表进行查询规划？我们的演讲将介绍 Apache Impala 的元数据缓存方案，它能够高效地应对海量的 Iceberg 和 Hive 表。</p>
+                <div class="session-body">
+                    <p>如何在内存中缓存足够的信息，以便对超过 100 万个文件的表进行查询规划？我们的演讲将介绍 Apache Impala 的元数据缓存方案，它能够高效地应对海量的 Iceberg 和 Hive 表。</p>
 <p>缓存表与文件元数据是实现高查询吞吐的关键，因为它让查询规划无需再去访问其他服务。对于巨型表（例如超过 100 万个文件），元数据缓存会变成内存大户，维护成本高昂。Impala 现有的细粒度缓存与失效机制对 Hive 表很有效，但并不能完全套用到 Iceberg 的架构上。本次演讲的重点，是面向 Iceberg 表的一套全新、更简洁也更高效的缓存方案。</p>
 <p>听众可以了解到：</p>
 <ul>
@@ -150,12 +177,48 @@
 <p>Noémi Pap-Takács：Apache Impala Committer</p>
 <p>Noémi Pap-Takács 是 Cloudera 的软件工程师，也是 Apache Impala 项目的 committer。她的专长在于性能优化以及将 Apache Iceberg 集成到 Impala 中。</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            <a href="/zh/sessions/olap-1210336.html"><span class="dir">&larr; 上一页</span><span class="nav-title">深入剖析 Apache Cloudberry 的并行查询执行方案</span></a>
+                        </div>
+                        <div class="nav-next">
+                            <a href="/zh/sessions/olap-1214229.html"><span class="dir">下一页 &rarr;</span><span class="nav-title">从元数据到语义分析：面向企业 OLAP 与 AI 驱动数据的一体化方法</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 

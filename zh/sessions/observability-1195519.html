@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,29 +123,74 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">Apache Cloudberry：为多个 PostgreSQL 实例执行的查询收集统计信息</h3>
-                    <h4>Leonid Borchuk</h4>
-                    英文演讲  2026-08-08 16:45 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 341">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/zh/sessions/#2026-08-08">议题</a>
+                        <span class="sep">/</span>
+                        <a href="/zh/tracks/observability.html">可观测性</a>
+                    </nav>
+
+                    <h1 class="session-title">Apache Cloudberry：为多个 PostgreSQL 实例执行的查询收集统计信息</h1>
+
                     
-                        (ROOM : 百望山会议室)
+                        <div class="session-presenters">
+                            <span class="presenter">Leonid Borchuk</span>
+                        </div>
                     
-                    <a class="label" href="/zh/tracks/observability.html">#observability</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>周六, 8月 8</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>16:45<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>百望山会议室</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>英文演讲</li>
+                        <li class="meta-track"><a href="/zh/tracks/observability.html">#可观测性</a></li>
+                    </ul>
                 </header>
 
-                <p>假设你拥有一个由多个 PostgreSQL 实例组成的 Apache Cloudberry 集群。它们共同执行同一条查询，而你希望收集执行该查询所耗费资源的一般性统计信息。内置的 pg_stat_statements 模块在这里已经不再适用，因为它只能工作在同一个数据库之内。我将介绍一个核心思路相似的方案——同样通过查询执行钩子（hook）来采集数据，但不再将数据存放在 PostgreSQL 的共享内存中，而是把原始数据发送给一个外部的 agent 进程。该进程负责对指标进行聚合，给出跨所有实例的统一视图，并提供额外的功能，例如强制终止有问题的会话；同时它并不仅限于 PostgreSQL：该方案还能从其他系统组件采集数据。我将介绍其架构、产品层面的任务，并分享相关仓库（Apache 2.0 License）的代码链接。</p>
+                <div class="session-body">
+                    <p>假设你拥有一个由多个 PostgreSQL 实例组成的 Apache Cloudberry 集群。它们共同执行同一条查询，而你希望收集执行该查询所耗费资源的一般性统计信息。内置的 pg_stat_statements 模块在这里已经不再适用，因为它只能工作在同一个数据库之内。我将介绍一个核心思路相似的方案——同样通过查询执行钩子（hook）来采集数据，但不再将数据存放在 PostgreSQL 的共享内存中，而是把原始数据发送给一个外部的 agent 进程。该进程负责对指标进行聚合，给出跨所有实例的统一视图，并提供额外的功能，例如强制终止有问题的会话；同时它并不仅限于 PostgreSQL：该方案还能从其他系统组件采集数据。我将介绍其架构、产品层面的任务，并分享相关仓库（Apache 2.0 License）的代码链接。</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/429e-400o400o1-X15FYUcE9UQzxFpN9AkBKZ.png" width="200" /><br/></p>
 <p>Leonid Borchuk：Yandex Cloud（莫斯科）开发者，Apache Cloudberry committer</p>
 <p>Yandex Cloud MPP PostgreSQL 开发团队的团队负责人。他的职业生涯始于大型商用通用数据库和分析数据库的管理，而如今他终于开始编写自己的数据库。Apache Cloudberry committer。</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            
+                        </div>
+                        <div class="nav-next">
+                            <a href="/zh/sessions/observability-1206017.html"><span class="dir">下一页 &rarr;</span><span class="nav-title">使用 SkyWalking 10.4 监控 LLM 应用：从性能、成本到质量的可观测性</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 

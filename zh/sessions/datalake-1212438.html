@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,18 +123,43 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">在 C&#43;&#43; 查询引擎中实现 Iceberg 特性的挑战</h3>
-                    <h4>Zoltán Borók-Nagy, Péter Rózsa</h4>
-                    英文演讲  2026-08-08 16:45 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 188">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/zh/sessions/#2026-08-08">议题</a>
+                        <span class="sep">/</span>
+                        <a href="/zh/tracks/datalake.html">数据湖/数据仓库</a>
+                    </nav>
+
+                    <h1 class="session-title">在 C&#43;&#43; 查询引擎中实现 Iceberg 特性的挑战</h1>
+
                     
-                        (ROOM : 主会场 - 颐和厅)
+                        <div class="session-presenters">
+                            <span class="presenter">Zoltán Borók-Nagy</span><span class="presenter">Péter Rózsa</span>
+                        </div>
                     
-                    <a class="label" href="/zh/tracks/datalake.html">#datalake</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>周六, 8月 8</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>16:45<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>主会场 - 颐和厅</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>英文演讲</li>
+                        <li class="meta-track"><a href="/zh/tracks/datalake.html">#数据湖/数据仓库</a></li>
+                    </ul>
                 </header>
 
-                <p>Apache Impala 是一个混合的大规模并行查询引擎：它的查询规划和元数据处理由 Java 实现，而执行引擎则用 C++ 编写。这种架构在集成 Apache Iceberg 时会带来独特的挑战——因为 Iceberg 的参考实现与生态主要以 Java 为基础。听众将了解到把 Iceberg 引入非 JVM 查询引擎时所面临的实际挑战。</p>
+                <div class="session-body">
+                    <p>Apache Impala 是一个混合的大规模并行查询引擎：它的查询规划和元数据处理由 Java 实现，而执行引擎则用 C++ 编写。这种架构在集成 Apache Iceberg 时会带来独特的挑战——因为 Iceberg 的参考实现与生态主要以 Java 为基础。听众将了解到把 Iceberg 引入非 JVM 查询引擎时所面临的实际挑战。</p>
 <p>我们将探讨 Iceberg 的特性如何在一个分布式 C++ 查询引擎中实现，以及 Impala 在哪些地方可以复用现有的 Iceberg 库、哪些地方又需要自定义实现。我们会深入具体案例，包括元数据处理和行级操作。本次演讲还会强调这种模式所带来的机遇，例如重新思考 merge-on-read 的实现方式。</p>
 <p>最后，听众还将了解 Impala 对 Iceberg 支持的现状，以及我们朝着采用 Iceberg V3 所取得的进展。</p>
 <h3 id="讲师">讲师:</h3>
@@ -143,12 +170,63 @@
 <p>Péter Rózsa：Cloudera，软件工程师</p>
 <p>Péter Rózsa 自 2020 年起在 Cloudera 担任软件工程师，于 2022 年开始为 Apache Impala 做贡献。他参与过 Impala 项目的多个部分，最近主要专注于 Iceberg 集成相关工作。</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            <a href="/zh/sessions/datalake-1209515.html"><span class="dir">&larr; 上一页</span><span class="nav-title">Fluss × 湖仓：在数据湖上解锁亚秒级数据新鲜度</span></a>
+                        </div>
+                        <div class="nav-next">
+                            <a href="/zh/sessions/datalake-1206028.html"><span class="dir">下一页 &rarr;</span><span class="nav-title">Iceberg UDF 规范：跨引擎的可移植 SQL 函数</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 

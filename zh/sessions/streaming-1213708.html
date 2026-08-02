@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
     <link rel="stylesheet" href="/scss/acasia2021.min.f7f58a4c9ff35c6c173a83010ea7e86ef4f57dd469455a6bed73cb3450006a08.css">
+    
+    <link rel="stylesheet" href="/scss/schedule.min.ac32e16624296d9ca25b4e963dce249f74727ea7c6a9c5365dd526fbaa7dc6e4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -121,18 +123,43 @@
 
         
         <div id="content" class="container">
-            <section>
-                <header class="major">
-                    <h3 class="text-center">GeaFlow | 流式记忆（Streaming Memory）：构建实时有状态后端，赋能 AI&#43;Graph 场景</h3>
-                    <h4>Litao Lin, Yao Zhongqiang</h4>
-                    中文演讲  2026-08-08 16:15 GMT&#43;8&nbsp;
+
+            
+            
+            
+            
+            
+            
+
+            <article class="session-detail" style="--track-hue: 32">
+                <header class="session-hero">
+                    <nav class="session-crumbs">
+                        <a href="/zh/sessions/#2026-08-08">议题</a>
+                        <span class="sep">/</span>
+                        <a href="/zh/tracks/streaming.html">流处理</a>
+                    </nav>
+
+                    <h1 class="session-title">GeaFlow | 流式记忆（Streaming Memory）：构建实时有状态后端，赋能 AI&#43;Graph 场景</h1>
+
                     
-                        (ROOM : 圆明厅)
+                        <div class="session-presenters">
+                            <span class="presenter">Litao Lin</span><span class="presenter">Yao Zhongqiang</span>
+                        </div>
                     
-                    <a class="label" href="/zh/tracks/streaming.html">#streaming</a></li>
+
+                    <ul class="session-meta">
+                        
+                            <li class="meta-date"><span class="ico">&#128197;</span>周六, 8月 8</li>
+                            <li class="meta-time"><span class="ico">&#128336;</span>16:15<span class="tz">GMT+8</span></li>
+                        
+                        <li class="meta-room"><span class="ico">&#128205;</span>圆明厅</li>
+                        <li class="meta-type"><span class="ico">&#127908;</span>中文演讲</li>
+                        <li class="meta-track"><a href="/zh/tracks/streaming.html">#流处理</a></li>
+                    </ul>
                 </header>
 
-                <p>2026 年，AI Agent 的记忆架构正在经历一次范式转变。传统 AI Agent 的记忆系统大多采用&quot;只追加写入 + 异步索引&quot;的批处理模式。这导致记忆更新存在显著时延，难以支撑实时交互场景下的上下文演进。记忆的本质并非一个静态数据集，而是由对话、感知和决策构成的无界数据流。如何在这条流上进行低时延的状态管理与增量计算，是流计算技术在 AI 时代面临的新挑战。
+                <div class="session-body">
+                    <p>2026 年，AI Agent 的记忆架构正在经历一次范式转变。传统 AI Agent 的记忆系统大多采用&quot;只追加写入 + 异步索引&quot;的批处理模式。这导致记忆更新存在显著时延，难以支撑实时交互场景下的上下文演进。记忆的本质并非一个静态数据集，而是由对话、感知和决策构成的无界数据流。如何在这条流上进行低时延的状态管理与增量计算，是流计算技术在 AI 时代面临的新挑战。
 本次演讲将聚焦流计算技术如何应对记忆这一挑战。Apache GeaFlow（孵化中）是一款开源的流式图计算引擎，定位为实时增量图计算层，作为 Agent 的实时有状态后端。与缺乏原生关系建模能力的传统图数据库和流计算引擎不同，GeaFlow 通过增量计算把到达的数据作为连续的图更新来处理——每个事件只触发必要的子图变更，从而避免昂贵的全量重算。
 具体而言，GeaFlow 用增量流式计算取代全量计算，使局部子图能够在对话发生的瞬间实时更新。通过动态的图状态管理，它把时序记忆作为流状态来维护，解决长会话中的状态一致性问题。此外，它借助分布式快照机制，保障企业级多 Agent 协作下的状态容错与恢复。
 在技术实践环节，我们将演示如何构建一个具备毫秒级记忆更新能力的知识助手。我们还将展示 GeaFlow 如何为运行在持续演进知识图谱之上的 AI 系统提供基础支撑。</p>
@@ -144,12 +171,55 @@
 <p>Yao Zhongqiang：Ant Group 图计算专家与开发工程师</p>
 <p>深耕大数据领域，专长于图计算、实时计算和 OLAP。所在团队目前专注于 Agent Memory 与 MARL。</p>
 
-
-                <div style="position:relative; padding-bottom:50%; width:90%; height:0">
-                    <iframe src=""  class="iframe_video" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
                 </div>
 
-            </section>
+                
+
+                
+                
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    <nav class="session-nav">
+                        <div class="nav-prev">
+                            <a href="/zh/sessions/streaming-1213500.html"><span class="dir">&larr; 上一页</span><span class="nav-title">Fluss × Alipay：营销场景下的流式存储实践</span></a>
+                        </div>
+                        <div class="nav-next">
+                            <a href="/zh/sessions/streaming-1191917.html"><span class="dir">下一页 &rarr;</span><span class="nav-title">深入剖析 Flink CDC 架构与大规模生产实践</span></a>
+                        </div>
+                    </nav>
+                
+            </article>
+
         </div>
     </div>
 
