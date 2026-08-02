@@ -17,119 +17,94 @@
 
         <!-- Content -->
         <div id="content" class="container">
-            <section class="session">
-                <header class="major">
-                    <h2 class="text-center mb-5">{{ .Title }}</h2>
-                    <hr></hr>
-                    <h3>{{i18n "trackchairs"}} : {{.Params.trackchairs}}</h3>
+
+            {{ $slug := .File.TranslationBaseName }}
+            {{ $hues := partialCached "track_hues.html" . site.Language.Lang }}
+            {{ $hue := index $hues $slug | default 210 }}
+            {{ $sessions := where (where site.RegularPages "Section" "sessions") "Params.track" $slug }}
+
+            {{/* rooms used by this track, in schedule column order */}}
+            {{ $roomOrder := slice }}
+            {{ with hugo.Data.rooms }}
+                {{ $roomOrder = index . $.Site.Language.Lang | default slice }}
+            {{ end }}
+            {{ $rooms := slice }}
+            {{ range $roomOrder }}
+                {{ if where $sessions "Params.room" . }}{{ $rooms = $rooms | append . }}{{ end }}
+            {{ end }}
+            {{ range $sessions }}
+                {{ with .Params.room }}
+                    {{ if not (in $rooms .) }}{{ $rooms = $rooms | append . }}{{ end }}
+                {{ end }}
+            {{ end }}
+
+            <section class="track-page" style="--track-hue: {{ $hue }}">
+                <header class="track-hero">
+                    <a class="track-back" href="{{ "tracks" | relLangURL }}/">&larr; {{ i18n "tracks" }}</a>
+                    <h2 class="track-title">{{ .Title | strings.TrimSpace }}</h2>
+
+                    <dl class="track-facts">
+                        {{ with .Params.trackchairs }}
+                            <div class="fact">
+                                <dt>{{ i18n "trackchairs" }}</dt>
+                                <dd>
+                                    {{ range split . "," }}
+                                        <span class="chair">{{ . | strings.TrimSpace }}</span>
+                                    {{ end }}
+                                </dd>
+                            </div>
+                        {{ end }}
+                        {{ if $sessions }}
+                            <div class="fact">
+                                <dt>{{ i18n "schedule_sessions_label" }}</dt>
+                                <dd>{{ len $sessions }}</dd>
+                            </div>
+                        {{ end }}
+                        {{ with $rooms }}
+                            <div class="fact">
+                                <dt>{{ i18n "schedule_room" }}</dt>
+                                <dd>{{ delimit . " / " }}</dd>
+                            </div>
+                        {{ end }}
+                    </dl>
                 </header>
 
-                <article>{{.Content}}</article>
-                {{$fn := .File.TranslationBaseName}}
-                {{ $bigtracks := "bigdata" }} 
-                {{ $day := "" }}
-                {{ range $page_index, $page_val :=  sort .Site.Pages "Date" "asc" }}
-                {{if in $bigtracks .Params.track}} <!--do nothing here-->
-                {{else}}
-                    {{if eq $fn .Params.track}}
-                        {{ $pageDay := dateFormat "2006-01-02" .Date }}
-                        {{ if eq $pageDay $day }}
-                           {{else}}
-                           {{if $day}}</dl>
-                           {{end}}
-                    <dl>
-                    {{if .Date}}
-                      <dt class="session-date" style="float: left;"><h5 class="lh-2em fw-normal">{{ $pageDay }}</h5></dt>
-                    {{else}}
-                    <dt class="session-date">{{ i18n "unknown_date" }}</dt>
-                    {{end}}
-                      <dd class="session-list">
-                        {{end}}
-                        <p>
-                            <!-- @TODO: link to session list of the day -->
-                            {{if .Date}}
-                            <span>{{dateFormat "15:04 GMT+8" .Date}}</span>
-                            {{end}}
-                            <span></span>
-                            <a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a>
-                            <sub>{{.Params.stype}}</sub>
-                            <!-- @TODO: link to info page of the speaker -->
-                            <span>{{if .Params.speaker}} {{.Params.speaker}} {{else}} {{.Params.presenters}} {{end}}</span>
-                        </p>
-                        {{ $day = $pageDay }}
-                    {{end}}
-                {{end}}
-                {{end}}
-                    </dd>
+                <article class="track-intro">{{ .Content }}</article>
 
-                {{ range $page_index, $page_val :=  sort .Site.Pages "Date" "asc" }}
-                {{if in $bigtracks .Params.track}} 
-                {{if eq "A" .Params.room}}
-                    {{if eq $fn .Params.track}}
-                        {{ $pageDay := dateFormat "2006-01-02" .Date }}
-                        {{ if eq $pageDay $day }}
-                           {{else}}
-                           {{if $day}}</dl>
-                           {{end}}
-                    <dl>
-                      <dt class="session-date" style="float: left;"><h3 class="lh-2em">{{ $pageDay }}</h3>
-                        <h3 class="lh-2em">ROOM : A</h3>
-                    </dt>
-                      <dd class="session-list">
-                        {{end}}
-                        <p>
-                            <!-- @TODO: link to session list of the day -->
-                            <span>{{dateFormat "15:04 GMT+8" .Date}}</span>
-                            <a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a>
-                            <sub>{{.Params.stype}}</sub>
-                            <!-- @TODO: link to info page of the speaker -->
-                            <span>{{if .Params.speaker}} {{.Params.speaker}} {{else}} {{.Params.presenters}} {{end}}</span>
-                        </p>
-                        {{ $day = $pageDay }}
-                    {{end}}
-                {{end}}
-                {{end}}
-                {{end}}
-                    </dd>
+                <div class="track-agenda">
+                    <h3 class="track-agenda-title">{{ i18n "track_agenda" }}</h3>
 
-                {{ range $page_index, $page_val :=  sort .Site.Pages "Date" "asc" }}
-                {{if in $bigtracks .Params.track}}
-                {{if eq "B" .Params.room}}
-                    {{if eq $fn .Params.track}}
-                        {{ $pageDay := dateFormat "2006-01-02" .Date }}
-                        {{ if eq $pageDay $day }}
-                           {{else}}
-                           {{if $day}}</dl>
-                           {{end}}
-                    <dl>
-                      <dt class="session-date" style="float: left;"><h3 class="lh-2em">{{ $pageDay }}</h3>
-                        <h3 class="lh-2em">ROOM : B</h3>
-                    </dt>
-                      <dd class="session-list">
-                        {{end}}
-                        <p>
-                            <!-- @TODO: link to session list of the day -->
-                            <span>{{dateFormat "15:04 GMT+8" .Date}}</span>
-                            <a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a>
-                            <sub>{{.Params.stype}}</sub>
-                            <!-- @TODO: link to info page of the speaker -->
-                            <span>{{if .Params.speaker}} {{.Params.speaker}} {{else}} {{.Params.presenters}} {{end}}</span>
-                        </p>
-                        {{ $day = $pageDay }}
-                    {{end}}
-                {{end}}
-                {{end}}
-                {{end}}
-                    </dd>
-
-
-
+                    {{ if $sessions }}
+                        {{ range $sessions.GroupByDate "2006-01-02" "asc" }}
+                            {{ $isKnown := not (hasPrefix .Key "0001") }}
+                            <div class="track-day">
+                                <div class="track-day-head">
+                                    <span class="track-day-date">{{ if $isKnown }}{{ .Key }}{{ else }}{{ i18n "unknown_date" }}{{ end }}</span>
+                                    {{ if $isKnown }}
+                                        <a class="track-day-link" href="{{ "sessions" | relLangURL }}/#{{ .Key }}">{{ i18n "track_full_schedule" }} &rarr;</a>
+                                    {{ end }}
+                                </div>
+                                <ol class="track-slots">
+                                    {{ range sort .Pages "Date" "asc" }}
+                                        <li class="track-slot">
+                                            <span class="track-slot-time">
+                                                {{ if .Date.IsZero }}&mdash;{{ else }}{{ dateFormat "15:04" .Date }}<span class="tz">GMT+8</span>{{ end }}
+                                            </span>
+                                            {{ partial "session_cell.html" (dict "page" . "hue" $hue "showRoom" true "hideTrack" true) }}
+                                        </li>
+                                    {{ end }}
+                                </ol>
+                            </div>
+                        {{ end }}
+                    {{ else }}
+                        <p class="track-tba">{{ i18n "track_tba" }}</p>
+                    {{ end }}
+                </div>
             </section>
         </div>
     </div>
 
     {{ partial "footer.html" . }}
-
 
 </body>
 </html>

@@ -1,0 +1,25 @@
+# Column order of the session grid on /sessions, per language.
+# Room names must match the `room` front matter of content/sessions/*.md.
+# Rooms that are missing here are appended automatically (ordered by the
+# first session time, then by track), so the schedule never breaks when the
+# venue data changes.
+en:
+  - "MainRoom - YiHe Hall"
+  - "YuanMing Hall"
+  - "WanChun Hall"
+  - "JingMing Hall"
+  - "JingYi Hall"
+  - "Mtn WanShou Hall"
+  - "Mtn BaiWang Hall"
+  - "Mtn YuQuan Hall"
+  - "Mtn Yang Hall"
+zh:
+  - "主会场 - 颐和厅"
+  - "圆明厅"
+  - "万春厅"
+  - "静明厅"
+  - "静宜厅"
+  - "万寿山会议室"
+  - "百望山会议室"
+  - "玉泉山会议室"
+  - "阳山会议室"
