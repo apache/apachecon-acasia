@@ -218,19 +218,6 @@
                 href="/sessions/streaming-1207387.html"
                 />
   </url><url>
-    <loc>/sessions/datalake-1213484.html</loc>
-    <lastmod>2026-08-09T15:45:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/datalake-1213484.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/datalake-1213484.html"
-                />
-  </url><url>
     <loc>/sessions/dataops-1210676.html</loc>
     <lastmod>2026-08-09T15:45:00+00:00</lastmod>
     <xhtml:link
@@ -335,17 +322,17 @@
                 href="/sessions/streaming-1200805.html"
                 />
   </url><url>
-    <loc>/sessions/datalake-1206542.html</loc>
+    <loc>/sessions/datalake-1213484.html</loc>
     <lastmod>2026-08-09T15:15:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/datalake-1206542.html"
+                href="/zh/sessions/datalake-1213484.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/datalake-1206542.html"
+                href="/sessions/datalake-1213484.html"
                 />
   </url><url>
     <loc>/sessions/streaming-1199793.html</loc>
