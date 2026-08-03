@@ -975,6 +975,13 @@
       <description>&lt;p&gt;In the AI era, where technology iterates exponentially, the philosophy of &amp;ldquo;Community Over Code&amp;rdquo; is more critical than ever. As an active Apache PMC member, a CNCF project Maintainer, and an enterprise OSPO practitioner, I will share the diverse governance styles and successful practices of these two top-tier open-source foundations.&lt;/p&gt;&#xA;&lt;p&gt;This session is not about comparing which is better; rather, it focuses on the operational wisdom behind different governance models. We will dive deep into their governance structures, contributor incentive mechanisms, and community event organization. Combined with real-world success stories, we will discuss how open-source communities can flexibly adapt to the new trends and challenges in the AI era, and how to harness the power of the community to drive continuous innovation. Regardless of your technical ecosystem, you will walk away with practical guidelines for participating in, understanding, and building thriving open-source communities.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Empowering Agentic AI: How Apache Projects Can Shape the Next Open Data and AI Stack</title>
+      <link>/sessions/keynote-1214444.html</link>
+      <pubDate>Fri, 07 Aug 2026 11:30:00 +0000</pubDate>
+      <guid>/sessions/keynote-1214444.html</guid>
+      <description>&lt;p&gt;As AI systems evolve from passive assistants into more autonomous, goal-driven agents, the need for open, reliable, and interoperable infrastructure becomes increasingly important. This panel explores how Apache projects can help empower the next wave of agentic AI by providing the core building blocks for data access, processing, governance, streaming, orchestration, and execution.&lt;/p&gt;&#xA;&lt;p&gt;From Apache Kafka for real-time event streams, Apache Spark and Apache Flink for large-scale data processing, Apache Iceberg for modern lakehouse storage, to metadata and governance projects such as Apache Gravitino, the Apache ecosystem already provides much of the foundation needed for intelligent agents to interact with enterprise data safely and effectively. The discussion will examine where open-source data infrastructure is already enabling agentic workflows, what technical gaps still remain, and how Apache communities can collaborate to define the next generation of AI-native data systems.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>The Old Rules of an Open Ecosystem Under the New Trends of Agentic AI</title>
       <link>/sessions/keynote-1298341.html</link>
       <pubDate>Fri, 07 Aug 2026 11:00:00 +0000</pubDate>
@@ -1008,13 +1015,6 @@
       <pubDate>Fri, 07 Aug 2026 09:00:00 +0000</pubDate>
       <guid>/sessions/keynote-1300492.html</guid>
       <description>&lt;p&gt;AI is rapidly reshaping how software is created. Code generation, testing, documentation, and review are becoming more efficient, yet the challenges of understanding code, maintaining it over time, and sharing responsibility do not disappear. When code grows faster than human understanding, open-source communities may also accumulate a new form of cognitive debt.&lt;/p&gt;&#xA;&lt;p&gt;In these opening remarks, Willem Jiang draws on his twenty-year journey in the Apache community. He will explore the opportunities and trust challenges facing open source in the agentic era and invite a new generation of developers to help build better ways for humans and AI to collaborate.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Empowering Agentic AI: How Apache Projects Can Shape the Next Open Data and AI Stack</title>
-      <link>/sessions/keynote-1214444.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/keynote-1214444.html</guid>
-      <description>&lt;p&gt;As AI systems evolve from passive assistants into more autonomous, goal-driven agents, the need for open, reliable, and interoperable infrastructure becomes increasingly important. This panel explores how Apache projects can help empower the next wave of agentic AI by providing the core building blocks for data access, processing, governance, streaming, orchestration, and execution.&lt;/p&gt;&#xA;&lt;p&gt;From Apache Kafka for real-time event streams, Apache Spark and Apache Flink for large-scale data processing, Apache Iceberg for modern lakehouse storage, to metadata and governance projects such as Apache Gravitino, the Apache ecosystem already provides much of the foundation needed for intelligent agents to interact with enterprise data safely and effectively. The discussion will examine where open-source data infrastructure is already enabling agentic workflows, what technical gaps still remain, and how Apache communities can collaborate to define the next generation of AI-native data systems.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
