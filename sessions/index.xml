@@ -310,11 +310,25 @@
       <description>&lt;p&gt;Apache Kafka has established itself as the central nervous system of modern real-time data architectures. Yet in conventional lakehouse designs, data from Kafka typically must traverse external compute engines such as Flink or Spark before it can be landed, modeled, and organized into analytical layers. This multi-hop &amp;ldquo;messaging → computation → storage&amp;rdquo; pipeline not only inflates operational complexity but also introduces weak state consistency, elevated end-to-end latency, and a fragmented hot/cold data lifecycle.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Building the Open Embodied AI Ecosystem:Infrastructure, Data, Models, and Paths to Commercialization</title>
+      <link>/sessions/keynote-1301331.html</link>
+      <pubDate>Sun, 09 Aug 2026 10:40:00 +0000</pubDate>
+      <guid>/sessions/keynote-1301331.html</guid>
+      <description>&lt;p&gt;Embodied AI is driving the expansion of artificial intelligence from the digital world into the physical world. Yet its development remains constrained by several factors: relatively closed software stacks built around a limited number of computing platforms, costly data that is difficult to reuse, and fragmented toolchains across simulation, training, evaluation, and deployment.&lt;/p&gt;&#xA;&lt;p&gt;This talk explores how to build an open, portable, and commercially sustainable embodied AI ecosystem—around infrastructure, data, and models. In light of the impact that generative AI has had on software production methods and traditional open-source business models, the talk will also reexamine the boundaries of open source: which infrastructure, interfaces, standards, and evaluation capabilities are suitable for open co-development, and which data, models, and industry-specific capabilities should retain commercial differentiation. Open source needs to strike a new balance among technological autonomy, ecosystem collaboration, commercial returns, and long-term maintainability. The large-scale development of embodied AI should not be built upon dependence on a single model, a single simulator, or a single compute platform—it requires an open ecosystem that connects infrastructure, data, models, compute vendors, robotics companies, research institutions, and developers.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Open Collaboration for Embodied AI - Insights from RoboChallenge Real-Robot Benchmarking</title>
       <link>/sessions/keynote-1298466.html</link>
-      <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Aug 2026 10:20:00 +0000</pubDate>
       <guid>/sessions/keynote-1298466.html</guid>
       <description>&lt;p&gt;Embodied AI is rapidly moving from laboratory research toward real-world applications. With the rapid advancement of Vision-Language-Action (VLA) models, robots are evolving from “understanding the world” to “acting in the world.” At the same time, building open, trustworthy, and reproducible evaluation systems, and leveraging open collaboration to accelerate technological progress, have become critical challenges for the development of embodied AI.&lt;/p&gt;&#xA;&lt;p&gt;This keynote will present insights from the RoboChallenge 2025 Annual Report, sharing the latest evaluation results of global embodied AI foundation models in real-world robotic environments. It will also highlight RoboChallenge’s latest progress, including real-robot challenges at leading international conferences such as CVPR and ICRA, as well as the launch of EAI Bench at the AI for Good Global Summit in Geneva.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When Code Is No Longer Scarce: Capital, Open Source &amp; SourceDance</title>
+      <link>/sessions/keynote-1301244.html</link>
+      <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+      <guid>/sessions/keynote-1301244.html</guid>
+      <description>&lt;p&gt;As AI makes code generation increasingly abundant and inexpensive, what remains truly scarce in open source? This talk reexamines the value of open source in the AI era from the perspective of capital. In 2026, funding is more abundant, yet increasingly concentrated, while the defensibility of open source projects is shifting from distribution efficiency toward trusted adoption, maintainer resilience, and community governance.&#xA;Drawing on SourceDance—an AI-enabled open source internship initiative—the talk explores how lower barriers to participation can be translated into a stronger pipeline of high-quality contributors. It also offers a framework for investors, entrepreneurs, and maintainers to assess the long-term value of an open source project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Use Scaffolding to Make Your Coding Agents Less Dumb</title>

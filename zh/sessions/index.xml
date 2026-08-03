@@ -310,11 +310,25 @@
       <description>&lt;p&gt;本次分享将介绍 Agentic Coding 在 BanyanDB 研发中的实际应用。通过系统设计、代码实现、问题调试和测试等实践案例，展示工程师与 AI Agent 如何在软件开发的不同环节中协同工作。&#xA;分享不会局限于代码生成，而是将 Agentic Coding 视为一种工程协作流程：工程师负责定义目标、约束和架构原则，Agent 则协助完成探索、执行、验证和迭代。同时，分享还将总结相关实践经验，并讨论如何通过工程约束和验证机制，让 Agentic Coding 在复杂系统研发中更加可靠、可控。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ac60-400o400o1-DgPShxggsdTLJHgVdJeHvd.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Youliang Huang：Apache SkyWalking PMC Member&lt;/p&gt;&#xA;&lt;p&gt;开源爱好者。Apache SkyWalking PMC Member。致力于构建高性能的可观测性、存储与网络系统。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>构建具身智能开放生态：基础设施、数据、模型与商业化路径</title>
+      <link>/zh/sessions/keynote-1301331.html</link>
+      <pubDate>Sun, 09 Aug 2026 10:40:00 +0000</pubDate>
+      <guid>/zh/sessions/keynote-1301331.html</guid>
+      <description>&lt;p&gt;具身智能正在推动 AI 从数字世界走向真实物理世界，但其发展仍受到多重制约：围绕单一算力平台形成的相对封闭软件栈，成本高昂且难以复用的数据，以及彼此割裂的仿真、训练、评测与部署工具链。&#xA;本次演讲将围绕基础设施、数据与模型，探讨如何构建开放、可移植且具有商业可持续性的具身智能生态。面对生成式 AI 对软件生产方式和传统开源商业模式带来的冲击，演讲也将重新审视开源的边界：哪些基础设施、接口、标准和评测能力适合开放共建，哪些数据、模型与行业能力需要保留商业差异化。开源需要在技术自主、生态协作、商业回报和长期维护之间建立新的平衡。具身智能的规模化发展，不应建立在对单一模型、单一仿真器或单一算力平台的依赖之上，而需要一个连接基础设施、数据、模型、算力厂商、机器人企业、研究机构与开发者的开放生态。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/926e-400o400o1-wtR1hy2y4K1xwNZ7Wdjbq5.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jiaqi Sun: Motphys, Co-founder (谋先飞联合创始人)&lt;/p&gt;&#xA;&lt;p&gt;Jiaqi Sun，谋先飞（Motphys）联合创始人，北京大学力学系博士。他在物理仿真、计算几何与图形算法、异构 CPU/GPU 计算，以及人工智能与科学计算融合等领域拥有丰富的研究与产业经验。十余年来，他一直深耕工业级物理求解器开发前沿，主导打造了连接几何处理与多物理场仿真的集成软件，相关技术与产品已应用于汽车工程、航空航天、数据中心、可再生能源、半导体制造等多个工业仿真领域。&lt;/p&gt;&#xA;&lt;p&gt;近年来，Jiaqi 在谋先飞致力于将物理仿真与具身智能相结合，推动 Motrix 系列仿真训练平台和 MotrixBench 开放仿真评测框架的研发，并支持 GS-Playground、UniLab 等学术合作项目。他的工作探索面向 Real2Sim2Real 流程、机器人学习与异构计算平台的开放基础设施，同时研究如何构建一个在技术自主、协同创新与长期商业可持续性之间取得平衡的开源具身智能生态。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Open Collaboration for Embodied AI - Insights from RoboChallenge Real-Robot Benchmarking</title>
       <link>/zh/sessions/keynote-1298466.html</link>
-      <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Aug 2026 10:20:00 +0000</pubDate>
       <guid>/zh/sessions/keynote-1298466.html</guid>
       <description>&lt;p&gt;具身智能正加速从实验室研究走向真实世界应用。随着 Vision-Language-Action（VLA）模型快速发展，机器人正在从“理解世界”迈向“操作世界”。与此同时，如何建立开放、可信、可复现的评测体系，如何通过开源协作推动技术快速迭代，成为具身智能发展的关键议题。 本次演讲将基于 RoboChallenge 平台，分享全球具身智能基础模型在真实机器人环境中的最新评测成果，并介绍 RoboChallenge 在 CVPR、ICRA 国际真机挑战赛，以及 AI for Good 全球峰会发布 EAI Bench 等方面的最新进展。 基于数万次真实机器人执行数据，将分析具身智能模型的发展趋势。当前领先 VLA 模型在 Table30 基准上的成功率已提升至约 62%，但精细操作等复杂任务成功率仍不足 15%，表明具身智能仍处于从语义理解向复杂操作能力突破的关键阶段。同时，RoboChallenge 已吸引来自中国、美国、新加坡、日本等多个国家和地区的开发者参与，开源模型、开放数据和开放评测正在成为推动技术创新的重要力量。&lt;/p&gt;&#xA;&lt;p&gt;在具身智能时代，开源正在从软件共享走向更广泛的开放协作。未来需要共同推动模型、数据、机器人接口、评测基准和开放标准的发展。RoboChallenge 致力于连接全球开发者、机器人厂商、科研机构和产业伙伴，建设开放、可信、可复现的真机测评生态，让更多开发者共享真实机器人资源，加速具身智能创新。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ecee-400o400o1-YZQx8Pug57uvGmzNtKWsvr.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Emily Chen: Co-Founder of Kaiyuanshe&lt;/p&gt;&#xA;&lt;p&gt;陈阳（Emily Chen），开源社联合创始人，现任开源社理事会成员。她是深耕开源社区多年的实践者、组织者与连接者，致力于推动开源文化在全球与中国的发展与融合。&lt;/p&gt;&#xA;&lt;p&gt;2008年，陈阳创立了 GNOME.Asia 社区，将 GNOME.Asia 峰会成功带到十多个亚洲国家和地区。2010年，她担任 GNOME 基金会董事会成员，并于2014年在瑞典 GUADEC 大会上荣获 GNOME 基金会最高荣誉——“GNOME Pants Award”。&lt;/p&gt;&#xA;&lt;p&gt;自2017年起，陈阳多次组织 GitHub CEO、COO 及全球开源领袖的访华之行，积极推动国际平台与中国开源生态的交流与合作。她曾任OSI 中国联盟代表、中国开源促进联盟副秘书长（2016），在国际标准组织沟通方面发挥了重要作用。&lt;/p&gt;&#xA;&lt;p&gt;她发起了多个在中国极具影响力的开源项目，包括开源社年度报告、中国开源年会（COSCon）以及“33位开源先行者”榜单。此外，她还是 Mozilla 的核心贡献者、Google Summer of Code（GSoC）导师，以及2024 开源议会（Open Source Congress）的组织者之一。现任开放原子开源基金会 TOC 导师。&lt;/p&gt;&#xA;&lt;p&gt;作为中国开源领域的见证者与推动者，陈阳持续以开放、协作、连接的姿态，探索 AI 时代下全球开源的新范式。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>当代码不再稀缺：资本、开源与一场 SourceDance</title>
+      <link>/zh/sessions/keynote-1301244.html</link>
+      <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+      <guid>/zh/sessions/keynote-1301244.html</guid>
+      <description>&lt;p&gt;当 AI 让代码生成趋近于廉价，开源项目真正稀缺的还会是代码吗？本次演讲从资本视角重新审视 AI 时代的开源价值：2026 年的资金更充裕，也更集中；开源的护城河正从“分发效率”转向可信采用、维护者韧性与社区治理。结合 AI 开源实习项目 SourceDance 的探索，分享如何把更低的参与门槛转化为更高质量的贡献者供给，并讨论投资人、创业者与维护者应如何衡量一个开源项目的长期价值。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/3f38-400o400o1-fTH4w81YhgjeBGUFsDPhCn.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Lucy Chen: Singapore VC, EIR&lt;/p&gt;&#xA;&lt;p&gt;Lucy Chen 是新加坡某 VC 机构（管理规模超 20 亿美元）的 EIR（入驻企业家），专注于通过开源信号进行 AI 基础设施项目的投资寻源。她创建了 OSS Investment Scorecard&amp;ndash;首个面向 AI 项目的开源 VC 评估框架&amp;ndash;发布首周阅读量即突破 10 万，并获得 6 家以上美元基金参与共建。她为 SourceDance.AI 提供项目遴选咨询，在全球 AI 生态中将开源社区健康度指标与风险投资决策相连接。&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何用脚手架让你的编程 Agent 不再那么笨</title>
