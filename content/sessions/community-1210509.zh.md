@@ -23,7 +23,7 @@ room: "玉泉山会议室"
 杨文昊是北京大学计算机学院的博士研究生，也是周明辉教授开源软件数据分析实验室的成员。他的研究方向涵盖开源软件社区、软件治理，以及生成式 AI 对协作开发的影响。他研究开源项目如何针对新兴的 AI 辅助工作流，调整其贡献流程、政策与评审实践。
 
 
-<img src="/images/speakers/runzhi-he.png" width="200" /><br/>
+<img src="https://cdn.sessionize.com/image/813d-200o200o2-n2KdzPJCorAPdGW7U2ctec.jpg" width="200" /><br/>
 
 何润之：北京大学计算机学院博士研究生
 

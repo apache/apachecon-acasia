@@ -23,7 +23,7 @@ Wenhao Yang: Peking University, PhD Candidate
 Wenhao Yang is a Ph.D. Candidate at the School of Computer Science, Peking University, and a member of Professor Minghui Zhou's Open Source Software Data Analytics Lab. His research focuses on open source software communities, software governance, and the impact of generative AI on collaborative development. He studies how open source projects adapt their contribution processes, policies, and review practices in response to emerging AI-assisted workflows.
 
 
-<img src="/images/speakers/runzhi-he.png" width="200" /><br/>
+<img src="https://cdn.sessionize.com/image/813d-200o200o2-n2KdzPJCorAPdGW7U2ctec.jpg" width="200" /><br/>
 
 Runzhi He: PhD Candidate, School of Computer Science, Peking University
 
