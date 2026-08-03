@@ -583,6 +583,13 @@
       <description>&lt;p&gt;作为一款分布式对象存储方案，RustFS 依靠横向可扩展性来驱动容量增长。为了保障一个稳健、可靠的扩展机制，我们团队执行了涉及数百个节点的大规模测试。本次演讲将深入剖析我们在 RustFS 集群扩展到 200+ 节点过程中所采用的性能基准测试与分析方法论。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ccab-400o400o1-TWdGkGQu8E2BaT5mdJdZQq.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jinghe Ma：RustFS，核心贡献者&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;RustFS 的核心贡献者，专注于 Docker/Helm chart 开发以及问题处理。&lt;/li&gt;&#xA;&lt;li&gt;曾担任 DevOps/DevSecOps 工程师，专注于 DevOps/DevSecOps/ChatOps 以及开源软件供应链安全。曾在 SECon、TiD、DevOps 社区峰会等场合分享最佳实践。&lt;/li&gt;&#xA;&lt;li&gt;Linux Foundation Evangelist 成员，中国云原生社区与中国 DevOps 社区成员。&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
+      <title>从实时体育解说看 Flink 流式 AI 新范式</title>
+      <link>/zh/sessions/dataai-1210506.html</link>
+      <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
+      <guid>/zh/sessions/dataai-1210506.html</guid>
+      <description>&lt;p&gt;今天的 AI 并不慢——单个请求几秒内就能返回结果。但这种&amp;quot;在线实时&amp;quot;本质上是由请求触发的被动推理，而真实世界产生的数据却是一连串持续的事件流。当 AI 需要在实时数据流上做连续、增量且有状态的处理时，我们便进入了一种全新范式——流式 AI（Streaming AI）。它带来一系列独特挑战：把多模态数据作为流处理流水线中的一等公民；在流处理运行时内支持本地执行的计算，例如视频解码、图像处理以及在运行时中借助 GPU 进行小模型推理，而非绕道远程服务；将 Agent 式的多步推理、工具调用、上下文与记忆管理与事件驱动的流处理相融合；并复用流处理在 join、聚合、状态管理和时间语义方面的深厚积累，而非从零重建。&lt;/p&gt;&#xA;&lt;p&gt;Flink 正通过一系列进展来应对这些挑战：把音频、视频、图像和向量等多模态数据处理为一等数据；为 Flink 运行时内的本地计算提供 GPU 调度；Flink Agents 将带有上下文管理、记忆和工具调用的 Agent 原生嵌入流处理之中；以及为 AI 与数据工程师提供统一、简洁接口的 DataFrame API。这些进展与 Flink 在流式状态和时间语义上的核心优势相结合，共同定义了 Flink 的新角色——流式 AI 的统一底座。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将以一个基于 Flink 构建的实时 AI 体育解说系统作为端到端案例：从直播帧抽取与视觉理解，到结合上下文的解说生成，再到与播出画面同步的 TTS 合成。一个看似简单的&amp;quot;AI 解说员&amp;quot;，会同时用到上述每一项能力。&lt;/p&gt;&#xA;&lt;p&gt;听众将带走对流式 AI 核心挑战的清晰认识、Flink 最新的 AI 能力、一套可复用的多模态流水线架构，以及在生产中平衡延迟、成本与模型质量的工程洞察。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/47dd-400o400o1-aEC9VKjiLoZ17X9guibiwx.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;宋辛童：Apache Flink PMC 成员，阿里云高级技术专家&lt;/p&gt;&#xA;&lt;p&gt;宋辛童是 Apache Flink PMC 成员，也是 Flink Agents 子项目的主要推动者。他同时是阿里云的高级技术专家，带领团队从事 Flink 与 AI、湖仓（Lakehouse）融合方向的工作。此前，他在北京大学获得计算机科学博士学位。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>从数据接入到数据湖：用 Apache SeaTunnel 构建现代湖仓</title>
       <link>/zh/sessions/datalake-1212598.html</link>
       <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
@@ -609,13 +616,6 @@
       <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
       <guid>/zh/sessions/streaming-1210252.html</guid>
       <description>&lt;p&gt;用 Fluss 替换 Kafka 的主要收益如下：&#xA;Kafka 使用本地集中式存储，而 Fluss 把冷数据存放在 Paimon 中。借助部署在 HDD 上的 Paimon S3 存储，在不牺牲查询性能的前提下实现了显著的存储成本节省。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d1e8-400o400o1-MMvXTnvrxxYuEAieaKuXvD.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;zuo yan：技术专家&lt;/p&gt;&#xA;&lt;p&gt;Zuo Yan，技术专家，负责数据中心与日志平台的建设。是 Apache Flink、Apache Doris、Flink CDC、StarRocks、Fluss 等开源项目的贡献者。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>以实时体育解说为窗口，透视 Flink 流式 AI 的新范式</title>
-      <link>/zh/sessions/dataai-1210506.html</link>
-      <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
-      <guid>/zh/sessions/dataai-1210506.html</guid>
-      <description>&lt;p&gt;今天的 AI 并不慢——单个请求几秒内就能返回结果。但这种&amp;quot;在线实时&amp;quot;本质上是由请求触发的被动推理，而真实世界产生的数据却是一连串持续的事件流。当 AI 需要在实时数据流上做连续、增量且有状态的处理时，我们便进入了一种全新范式——流式 AI（Streaming AI）。它带来一系列独特挑战：把多模态数据作为流处理流水线中的一等公民；在流处理运行时内支持本地执行的计算，例如视频解码、图像处理以及在运行时中借助 GPU 进行小模型推理，而非绕道远程服务；将 Agent 式的多步推理、工具调用、上下文与记忆管理与事件驱动的流处理相融合；并复用流处理在 join、聚合、状态管理和时间语义方面的深厚积累，而非从零重建。&lt;/p&gt;&#xA;&lt;p&gt;Flink 正通过一系列进展来应对这些挑战：把音频、视频、图像和向量等多模态数据处理为一等数据；为 Flink 运行时内的本地计算提供 GPU 调度；Flink Agents 将带有上下文管理、记忆和工具调用的 Agent 原生嵌入流处理之中；以及为 AI 与数据工程师提供统一、简洁接口的 DataFrame API。这些进展与 Flink 在流式状态和时间语义上的核心优势相结合，共同定义了 Flink 的新角色——流式 AI 的统一底座。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将以一个基于 Flink 构建的实时 AI 体育解说系统作为端到端案例：从直播帧抽取与视觉理解，到结合上下文的解说生成，再到与播出画面同步的 TTS 合成。一个看似简单的&amp;quot;AI 解说员&amp;quot;，会同时用到上述每一项能力。&lt;/p&gt;&#xA;&lt;p&gt;听众将带走对流式 AI 核心挑战的清晰认识、Flink 最新的 AI 能力、一套可复用的多模态流水线架构，以及在生产中平衡延迟、成本与模型质量的工程洞察。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/47dd-400o400o1-aEC9VKjiLoZ17X9guibiwx.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Xintong Song：Apache Flink PMC 成员，阿里云高级主任工程师&lt;/p&gt;&#xA;&lt;p&gt;Xintong 是 Apache Flink PMC 成员，也是 Flink Agents 子项目的主要推动者。他同时是阿里云的高级主任工程师，带领团队从事 Flink 与 AI、湖仓（Lakehouse）融合方向的工作。此前，他在北京大学获得计算机科学博士学位。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Flink Agents 深度解析</title>

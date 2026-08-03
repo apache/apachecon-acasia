@@ -1089,6 +1089,19 @@
                 href="/zh/sessions/rust-1213284.html"
                 />
   </url><url>
+    <loc>/zh/sessions/dataai-1210506.html</loc>
+    <lastmod>2026-08-08T14:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/dataai-1210506.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/dataai-1210506.html"
+                />
+  </url><url>
     <loc>/zh/sessions/datalake-1212598.html</loc>
     <lastmod>2026-08-08T14:30:00+00:00</lastmod>
     <xhtml:link
@@ -1139,19 +1152,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/sessions/streaming-1210252.html"
-                />
-  </url><url>
-    <loc>/zh/sessions/dataai-1210506.html</loc>
-    <lastmod>2026-08-08T14:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/dataai-1210506.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/dataai-1210506.html"
                 />
   </url><url>
     <loc>/zh/sessions/streaming-1210323.html</loc>
