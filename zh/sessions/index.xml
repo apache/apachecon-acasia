@@ -667,13 +667,6 @@
       <description>&lt;p&gt;随着滴滴非结构化数据快速增长，HDFS 元数据压力成为主要的可扩展性挑战。滴滴引入 Apache Ozone 作为下一代存储引擎来突破这些瓶颈，目前 Ozone 已在滴滴稳定运行两年多，支撑超过 100 PB 数据和数百亿文件。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将对滴滴的 Ozone 历程做入门级概览，包括当初为何选择 Ozone、平台在生产环境中的演进，以及为提升可扩展性、性能和可靠性所做的工程工作。我们将分享在多集群路由、面向 S3 工作负载的 follower-read 优化、读性能调优、纠删码应用、大规模删除与迁移、可观测性以及可用性提升等方面的实践经验。演讲还会总结大规模运营 Ozone 的经验教训，以及把改进回馈给 Apache Ozone 社区的过程。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/06ea-400o400o1-Wwh5e6GkraWD5RMk1W3UK2.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Shilun Fan：滴滴存储工程师，Apache Ozone 贡献者&lt;/p&gt;&#xA;&lt;p&gt;Shilun Fan 是 Apache Hadoop PMC 成员、Apache Auron Committer，以及 Apache Ozone 贡献者。他在滴滴从事大规模分布式存储系统与数据基础设施的工作。他深度参与了 Apache Ozone 的生产部署与优化，重点关注可扩展性、性能调优、纠删码与可靠性。他的工作重心是为海量数据工作负载构建可扩展、可靠且高性价比的存储平台。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/b659-400o400o1-3YG7S2Eu2hqjimXdLd2L7h.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ming Wei：滴滴存储工程师&lt;/p&gt;&#xA;&lt;p&gt;Apache Ozone 贡献者&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/fd26-400o400o1-LdRsa125u41W2EhLPzcXxk.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hongbing Wang：滴滴存储工程师&lt;/p&gt;&#xA;&lt;p&gt;Apache Ozone Committer&lt;/p&gt;</description>
     </item>
     <item>
-      <title>基于 Apache TsFile 的时序基础模型端到端训练系统</title>
-      <link>/zh/sessions/dataai-1213757.html</link>
-      <pubDate>Fri, 07 Aug 2026 17:15:00 +0000</pubDate>
-      <guid>/zh/sessions/dataai-1213757.html</guid>
-      <description>&lt;p&gt;随着 Timer 等时序基础模型（TSFM）快速走向规模化，算法能力与底层系统基础设施之间出现了关键缺口。在海量工业物联网场景中，传统数据流水线（例如将数据库导出为 CSV/Numpy）会引入严重的 I/O 瓶颈。此外，细粒度的 MoE 时序架构在训练过程中面临巨大的内存与通信墙。&#xA;本次演讲介绍一套原生构建于 Apache TsFile 之上的高性能、端到端 AI 训练基础设施。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d7ca-400o400o1-pbnY8iwoX3SDrjE5yeHLaf.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Xinhao Gu：清华大学博士生 | Apache IoTDB Committer | Apache TsFile Committer&lt;/p&gt;&#xA;&lt;p&gt;Xinhao Gu 是清华大学软件学院博士生，也是活跃的开源社区贡献者，担任 Apache Committer，并是 Apache IoTDB 中 AINode 的核心成员。他的研究主要聚焦于 AI Infra 与 MLSys，尤其关注时序基础模型的高效训练与系统集成。他致力于打通端到端的系统瓶颈——从海量工业时序数据存储到分布式深度学习框架——推动时序基础设施向 AI 时代演进。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>AI Link：腾讯云 MQTT 的 AI 接入层</title>
       <link>/zh/sessions/messaging-1212296.html</link>
       <pubDate>Fri, 07 Aug 2026 16:45:00 +0000</pubDate>

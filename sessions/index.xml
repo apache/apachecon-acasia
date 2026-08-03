@@ -653,13 +653,6 @@
       <description>&lt;p&gt;From its creation in the last century, the Apache Software Foundation has operated on the principle that communities of people from around the world are the best stewards of projects that benefit the public. The corporation that manages the resources is organized as a bottom-up foundation, with decisions about project management left primarily to the projects themselves.&lt;/p&gt;&#xA;&lt;p&gt;This organizational model has worked well, with communities of projects growing from one project to over 300 projects in just over 25 years. With the spectacular rise of AI, the infrastructure of computing has been fundamentally altered. Anyone who ignores the potential effects of AI will be left behind.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>End-to-End Training System for Time-Series Foundation Models Based on Apache TsFile</title>
-      <link>/sessions/dataai-1213757.html</link>
-      <pubDate>Fri, 07 Aug 2026 17:15:00 +0000</pubDate>
-      <guid>/sessions/dataai-1213757.html</guid>
-      <description>&lt;p&gt;As Time-Series Foundation Models (TSFMs) like Timer rapidly scale up, a critical gap has emerged between algorithmic capabilities and underlying system infrastructure. In massive Industrial IoT scenarios, traditional data pipelines (e.g., exporting databases to CSV/Numpy) introduce severe I/O bottlenecks. Furthermore, fine-grained MoE time-series architectures face immense memory and communication walls during training.&#xA;This session introduces a high-performance, end-to-end AI training infrastructure built natively on Apache TsFile.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d7ca-400o400o1-pbnY8iwoX3SDrjE5yeHLaf.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Xinhao Gu: Ph.D. Student, Tsinghua University | Apache IoTDB Committer | Apache TsFile Committer&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Is Parquet Dead? The Evolution of a Columnar Giant in the AI Era</title>
       <link>/sessions/olap-1186419.html</link>
       <pubDate>Fri, 07 Aug 2026 17:15:00 +0000</pubDate>
