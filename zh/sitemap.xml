@@ -1882,19 +1882,6 @@
                 href="/zh/sessions/olap-1211106.html"
                 />
   </url><url>
-    <loc>/zh/sessions/keynote-1214444.html</loc>
-    <lastmod>2026-08-07T11:30:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/keynote-1214444.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/keynote-1214444.html"
-                />
-  </url><url>
     <loc>/zh/sessions/keynote-1298341.html</loc>
     <lastmod>2026-08-07T11:00:00+00:00</lastmod>
     <xhtml:link
@@ -2126,6 +2113,18 @@
                 rel="alternate"
                 hreflang="zh"
                 href="/zh/venue_travel/travel.html"
+                />
+  </url><url>
+    <loc>/zh/sessions/keynote-1214444.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/keynote-1214444.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/keynote-1214444.html"
                 />
   </url><url>
     <loc>/zh/tracks/iot.html</loc>
