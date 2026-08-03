@@ -884,13 +884,6 @@
       <description>&lt;p&gt;Flink operations and tuning heavily rely on expert experience, with slow anomaly resolution, high remediation costs, and continuous developer queries for SQL optimization and troubleshooting. To address this, we built Flink Ops, an intelligent operations platform integrating self-healing, diagnosis, and Q&amp;amp;A capabilities, and developed Flink Expert Agent powered by LLMs — forming a closed-loop system of &amp;ldquo;observe-decide-act-interact&amp;rdquo;.&#xA;This session covers:&#xA;Platform architecture: Unified ingestion of metrics, logs, lineage, and knowledge bases for real-time health profiling&#xA;Self-healing engine: Dual-mode automation — rule-based remediation plus Agent-driven intelligent recovery&#xA;Intelligent diagnosis: Automated anomaly detection, root-cause reasoning, and remediation recommendation&#xA;Expert Q&amp;amp;A: Natural language interface for SQL optimization, configuration tuning, and troubleshooting&#xA;Production results: MTTR reduced to X minutes, with Y% developer self-service rate&#xA;Who should attend: Data platform engineers, SREs, and AI practitioners interested in intelligent DataOps and LLM-powered operational systems.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Beyond Banning AI: How Open Source Communities Are Governing GenAI Contributions</title>
-      <link>/sessions/community-1210509.html</link>
-      <pubDate>Fri, 07 Aug 2026 14:30:00 +0000</pubDate>
-      <guid>/sessions/community-1210509.html</guid>
-      <description>&lt;p&gt;Generative AI is making it dramatically easier to produce contribution-like inputs in open source projects: code, documentation, issues, pull requests, and even security reports. But cheaper generation does not mean cheaper review. For maintainers, the real challenge is no longer whether AI can help contributors, but how communities can govern AI-assisted contributions without overwhelming review capacity or weakening trust.&lt;/p&gt;&#xA;&lt;p&gt;Designed as a compact 15-minute session, I will share findings from a study of 67 highly visible open source projects that have started to articulate rules, expectations, and enforcement mechanisms around GenAI use. The results show that open source governance goes far beyond a simple “ban or allow” choice. Communities are experimenting with multiple governance approaches, from strict prohibition to boundary-setting, disclosure, accountability requirements, quality-first review practices, and platform-level control points.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Building a Unified Lakehouse: Best Practices with Apache Paimon and Ecosystem</title>
       <link>/sessions/datalake-1212404.html</link>
       <pubDate>Fri, 07 Aug 2026 14:30:00 +0000</pubDate>
@@ -924,6 +917,13 @@
       <pubDate>Fri, 07 Aug 2026 14:30:00 +0000</pubDate>
       <guid>/sessions/datastorage-1213232.html</guid>
       <description>&lt;p&gt;On the way to re-implement PromQL (the query language behind Prometheus) on top of Apache DataFusion, we found many similar optimization patterns between these two totally different languages. Some share a similar idea, some can be mixed together, and some are fed back to DataFusion. We further confirmed that almost all different-looking computing systems, no matter what their user interface looks like, are composed of several generic primitives. In this session, we&amp;rsquo;ll first discuss those primitives and their optimizations. Then talk about high-level philosophies of how to keep things simple and unified while making optimizations for different systems and purposes, with lots of famous systems as examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>To Ban or Not to Ban? How Open Source Projects Govern GenAI Contributions</title>
+      <link>/sessions/community-1210509.html</link>
+      <pubDate>Fri, 07 Aug 2026 14:30:00 +0000</pubDate>
+      <guid>/sessions/community-1210509.html</guid>
+      <description>&lt;p&gt;Generative AI now writes code, opens issues, files pull requests, reviews changes, and even reports vulnerabilities in open source projects. But cheaper generation does not mean cheaper review. Under the growing maintenance burden, projects have started writing GenAI-specific rules — in CONTRIBUTING files, security policies, PR templates, and AGENTS.md — ranging from mandatory disclosure all the way to total bans.&lt;/p&gt;&#xA;&lt;p&gt;To understand what is actually emerging, we read the AI rules of 67 of the most visible open source projects, along with the incidents and debates behind them. The picture goes far beyond ban-or-not. Maintainers&amp;rsquo; worries cluster around seven pressure points in the contribution workflow, from unreviewable PRs to fabricated security reports. Projects respond with three distinct mindsets — keep it out, let it in with conditions, or judge the contribution rather than the tool — put into practice through twelve concrete strategies: disclosure checkboxes, evidence requirements, PR limits, agent-facing instruction files, and more. Each choice carries real trade-offs, and copying the strictest policy you can find is usually a mistake.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache APISIX: From API Gateway to AI Gateway</title>
