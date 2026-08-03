@@ -23,3 +23,9 @@ Both topics are based on real production experience from the TDMQ team, aiming t
 Xiaolong Ran: Senior R&D Engineer at Tencent Cloud Middleware
 
 Apache Pulsar Committer, author of Pulsar Go Functions, Go Client, and pulsarctl, as well as a Maintainer and one of the core developers of RoP.
+
+<img src="https://cdn.sessionize.com/image/3847-200o200o2-PaiuFTXs2KUKYvKYYacbjJ.jpg" width="200" /><br/>
+
+ZhenJiang Wang: Senior R&D Engineer at Tencent Cloud Middleware
+
+Apache Pulsar contributor, Open-source community enthusiasts

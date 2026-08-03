@@ -23,3 +23,9 @@ room: "静宜厅"
 Xiaolong Ran：腾讯云中间件高级研发工程师
 
 Apache Pulsar Committer，Pulsar Go Functions、Go Client 和 pulsarctl 的作者，同时也是 RoP 的 Maintainer 和核心开发者之一。
+
+<img src="https://cdn.sessionize.com/image/3847-200o200o2-PaiuFTXs2KUKYvKYYacbjJ.jpg" width="200" /><br/>
+
+ZhenJiang Wang: 腾讯云中间件高级研发工程师
+
+Apache Pulsar contributor, 开源社区爱好者
