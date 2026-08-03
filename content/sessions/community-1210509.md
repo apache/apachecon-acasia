@@ -1,17 +1,17 @@
 ---
-title: "Beyond Banning AI: How Open Source Communities Are Governing GenAI Contributions"
+title: "To Ban or Not to Ban? How Open Source Projects Govern GenAI Contributions"
 date: "2026-08-07T14:30:00"
 track: "community"
-presenters: "Wenhao Yang"
+presenters: "Wenhao Yang, Runzhi He"
 stype: "Chinese Session"
 room: "Mtn YuQuan Hall"
 ---
 
-Generative AI is making it dramatically easier to produce contribution-like inputs in open source projects: code, documentation, issues, pull requests, and even security reports. But cheaper generation does not mean cheaper review. For maintainers, the real challenge is no longer whether AI can help contributors, but how communities can govern AI-assisted contributions without overwhelming review capacity or weakening trust.
+Generative AI now writes code, opens issues, files pull requests, reviews changes, and even reports vulnerabilities in open source projects. But cheaper generation does not mean cheaper review. Under the growing maintenance burden, projects have started writing GenAI-specific rules — in CONTRIBUTING files, security policies, PR templates, and AGENTS.md — ranging from mandatory disclosure all the way to total bans.
 
-Designed as a compact 15-minute session, I will share findings from a study of 67 highly visible open source projects that have started to articulate rules, expectations, and enforcement mechanisms around GenAI use. The results show that open source governance goes far beyond a simple “ban or allow” choice. Communities are experimenting with multiple governance approaches, from strict prohibition to boundary-setting, disclosure, accountability requirements, quality-first review practices, and platform-level control points.
+To understand what is actually emerging, we read the AI rules of 67 of the most visible open source projects, along with the incidents and debates behind them. The picture goes far beyond ban-or-not. Maintainers' worries cluster around seven pressure points in the contribution workflow, from unreviewable PRs to fabricated security reports. Projects respond with three distinct mindsets — keep it out, let it in with conditions, or judge the contribution rather than the tool — put into practice through twelve concrete strategies: disclosure checkboxes, evidence requirements, PR limits, agent-facing instruction files, and more. Each choice carries real trade-offs, and copying the strictest policy you can find is usually a mistake.
 
-This session translates those findings into practical lessons for maintainers, PMC members, community builders, and open source program offices. Attendees will leave with a clearer picture of the emerging governance landscape, the trade-offs behind different policy choices, and a concrete vocabulary for discussing GenAI governance in their own communities.
+Whether you are a maintainer, PMC member, community builder, or OSPO practitioner, you will leave with a clear map of what other communities are doing, the trade-offs behind each option, and a practical starting point for the conversation in your own project. And before we close — one more thing: a first look at what actually happens when coding agents meet the rules you write.
 
 ### Speakers:
 
@@ -20,4 +20,11 @@ This session translates those findings into practical lessons for maintainers, P
 
 Wenhao Yang: Peking University, PhD Candidate
 
-Wenhao Yang is a Ph.D. Candidate at the School of Computer Science, Peking University, and a researcher with the Open Source Software Data Analytics Lab. His research focuses on open source software communities, software governance, and the impact of generative AI on collaborative development. He studies how open source projects adapt their contribution processes, policies, and review practices in response to emerging AI-assisted workflows.
+Wenhao Yang is a Ph.D. Candidate at the School of Computer Science, Peking University, and a member of Professor Minghui Zhou's Open Source Software Data Analytics Lab. His research focuses on open source software communities, software governance, and the impact of generative AI on collaborative development. He studies how open source projects adapt their contribution processes, policies, and review practices in response to emerging AI-assisted workflows.
+
+
+<img src="/images/speakers/runzhi-he.png" width="200" /><br/>
+
+Runzhi He: PhD Candidate, School of Computer Science, Peking University
+
+Runzhi He is currently a Ph.D. candidate at the School of Computer Science, Peking University, and a member of Professor Minghui Zhou's Open Source Software Data Analytics Lab. He received his B.S. degree from the School of Electronics Engineering and Computer Science (EECS), Peking University. His research mainly focuses on AI4SE and software supply chains. He can be contacted at rzhe@pku.edu.cn.
