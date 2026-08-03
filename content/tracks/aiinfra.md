@@ -1,6 +1,6 @@
 ---
 title: AI Infra
-trackchairs: "Jerry Tan, junping Du"
+trackchairs: "Jerry Tan, Junping Du, Gabriel Wang"
 ---
 
 The AI Sub-forum is a professional exchange platform focusing on the integration of artificial intelligence (AI) technology and Apache open-source projects. This sub-forum aims to bring together developers, researchers, and industry users from around the world to explore the application and development of AI technology in the open-source ecosystem, showcase cutting-edge technologies, share practical experience, and promote the implementation of open-source AI solutions across various industries. Topics suitable for this sub-forum include:
