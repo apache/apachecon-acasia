@@ -2,7 +2,7 @@
 title: "生产环境中的 Apache Iceberg V3：来自大规模部署的经验教训"
 date: "2026-08-08T14:00:00"
 track: "datalake"
-presenters: "Yuming Wang"
+presenters: "Yuming Wang, Fei Wang"
 stype: "中文演讲"
 room: "主会场 - 颐和厅"
 ---
@@ -17,3 +17,8 @@ Apache Iceberg V3 带来了强大的能力，但要可靠地在生产环境中�
 Yuming Wang：eBay，计算与湖仓
 
 Yuming Wang 是 Apache Spark 项目管理委员会（PMC）的成员，目前负责公司计算平台的建设与演进。他专注于在生产规模下对 Spark 进行架构设计、优化和运营，同时推动基于 Apache Iceberg 的湖仓架构的落地与运营。他致力于把前沿的开源数据技术转化为可靠、高效的企业级生产系统。
+
+
+Fei Wang：eBay，Hadoop
+
+王斐是 Apache Kyuubi 与 Apache Celeborn 项目管理委员会（PMC）成员，目前参与公司计算平台的建设与演进。他专注于分布式计算、Spark 引擎优化以及基于 Apache Iceberg 的 Lakehouse 架构实践，致力于将开源数据技术转化为稳定高效的企业级计算服务。

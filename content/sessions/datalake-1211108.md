@@ -2,7 +2,7 @@
 title: "Apache Iceberg V3 in Production: Lessons from a Large-Scale Deployment"
 date: "2026-08-08T14:00:00"
 track: "datalake"
-presenters: "Yuming Wang"
+presenters: "Yuming Wang, Fei Wang"
 stype: "Chinese Session"
 room: "MainRoom - YiHe Hall"
 ---
@@ -17,3 +17,8 @@ Apache Iceberg V3 brings powerful capabilities, but running it reliably in produ
 Yuming Wang: eBay, Compute, Lakehouse
 
 Yuming Wang is a member of the Apache Spark Project Management Committee (PMC) and currently leads the build-out and evolution of his company’s compute platform. He focuses on architecting, optimizing, and operating Spark at production scale, while also driving the implementation and operation of a Lakehouse architecture based on Apache Iceberg. He is committed to turning cutting-edge open-source data technologies into reliable and efficient enterprise-grade production systems.
+
+
+Fei Wang: eBay, Hadoop
+
+Fei Wang is a PMC member of both Apache Kyuubi and Apache Celeborn, currently focusing on the development and evolution of enterprise computing platforms. He specializes in distributed computing, Spark engine optimization, and Lakehouse architecture based on Apache Iceberg, dedicated to translating open-source data technologies into stable and efficient enterprise-grade computing services.
