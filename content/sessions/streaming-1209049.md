@@ -2,7 +2,7 @@
 title: "From Data Chaos to Control: How a Global Telco Tamed Petabyte-Scale Challenges with Apache Iceberg"
 date: "2026-08-08T15:00:00"
 track: "streaming"
-presenters: "Akshat Mathur, Bill Zhang"
+presenters: "Attila Turóczy"
 stype: "English Session"
 room: "YuanMing Hall"
 ---
@@ -19,19 +19,8 @@ Measurable Impact: Faster queries, significant storage and infrastructure cost r
 
 ### Speakers:
 
+<img src="https://cdn.sessionize.com/image/457d-0o0o0-pXaRdzu6oxK2Frg1bgmVJa.jpg" width="200" /><br/>
 
-<img src="https://cdn.sessionize.com/image/d598-400o400o1-TWRJCfGzVB3ZKDH85a4riC.jpg" width="200" /><br/>
+Attila Turóczy: Senior Director of Engineering at Cloudera
 
-Akshat Mathur: Senior Product Manager @ Cloudera
-
-With over 8 years of dedicated experience in the dynamic field of data engineering, Helped architecting and implementing robust data infrastructure for a variety of organizations, contributing to their success in harnessing the power of data, and now managing product strategy for Cloudera's Data Lakehouse
-
-Akshat has made contributions towards Apache Hive and Tez
-
-
-
-<img src="https://cdn.sessionize.com/image/c664-400o400o1-D8zfmit88E5Ypmb4yaDdJ.jpg" width="200" /><br/>
-
-Bill Zhang: VP Product, Cloudera, Lakehouse , Iceberg Integration
-
-Bill is vice president of product management at Cloudera, responsible for Open Data Lakehouse product strategy and Apache Iceberg integration with all Cloudera Data Platform (CDP) form factors. Bill also leads Apache Hive product roadmap and adoption.  Most recently, Bill was responsible for solution management for SAP HANA Data Platform and SAP HANA Cloud. Prior to that he led product management for Sybase Replication Server.
+Apache Hive, Impala and Big Data enthusiasm at Cloudera

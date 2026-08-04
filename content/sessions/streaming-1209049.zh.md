@@ -2,7 +2,7 @@
 title: "从数据混乱到可控：一家全球电信运营商如何用 Apache Iceberg 驯服 PB 级挑战"
 date: "2026-08-08T15:00:00"
 track: "streaming"
-presenters: "Akshat Mathur, Bill Zhang"
+presenters: "Attila Turóczy"
 stype: "英文演讲"
 room: "圆明厅"
 ---
@@ -19,19 +19,8 @@ room: "圆明厅"
 
 ### 讲师:
 
+<img src="https://cdn.sessionize.com/image/457d-0o0o0-pXaRdzu6oxK2Frg1bgmVJa.jpg" width="200" /><br/>
 
-<img src="https://cdn.sessionize.com/image/d598-400o400o1-TWRJCfGzVB3ZKDH85a4riC.jpg" width="200" /><br/>
+Attila Turóczy：Cloudera 工程高级总监
 
-Akshat Mathur：Cloudera 高级产品经理
-
-在充满活力的数据工程领域拥有 8 年以上的专注经验，曾帮助多家组织架构并落地稳健的数据基础设施，助力其成功驾驭数据的力量，目前负责 Cloudera 数据湖仓（Data Lakehouse）的产品战略。
-
-Akshat 还曾为 Apache Hive 和 Tez 做出过贡献。
-
-
-
-<img src="https://cdn.sessionize.com/image/c664-400o400o1-D8zfmit88E5Ypmb4yaDdJ.jpg" width="200" /><br/>
-
-Bill Zhang：Cloudera 产品副总裁，负责 Lakehouse 与 Iceberg 集成
-
-Bill 是 Cloudera 的产品管理副总裁，负责开放数据湖仓（Open Data Lakehouse）的产品战略，以及 Apache Iceberg 与所有 Cloudera Data Platform（CDP）形态的集成。Bill 同时也主导 Apache Hive 的产品路线图与推广。此前不久，Bill 负责 SAP HANA Data Platform 和 SAP HANA Cloud 的方案管理。再之前，他负责 Sybase Replication Server 的产品管理。
+在 Cloudera 致力于 Apache Hive、Impala 及大数据领域的推广。
