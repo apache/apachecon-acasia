@@ -2,7 +2,7 @@
 title: "TDMQ for Apache Pulsar 的挑战与突破：多模态存储与延迟消息"
 date: "2026-08-07T15:00:00"
 track: "messaging"
-presenters: "Xiaolong Ran"
+presenters: "Xiaolong Ran, ZhenJiang Wang"
 stype: "中文演讲"
 room: "静宜厅"
 ---

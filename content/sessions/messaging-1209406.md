@@ -2,7 +2,7 @@
 title: "Challenges and Breakthroughs in TDMQ for Apache Pulsar: Multi-Modal Storage  Delayed Messaging"
 date: "2026-08-07T15:00:00"
 track: "messaging"
-presenters: "Xiaolong Ran"
+presenters: "Xiaolong Ran, ZhenJiang Wang"
 stype: "Chinese Session"
 room: "JingYi Hall"
 ---

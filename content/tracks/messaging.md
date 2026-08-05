@@ -1,6 +1,6 @@
 ---
 title: Messaging
-trackchairs: "Jia Zha, Qingshan Lin, Zongtang Hu"
+trackchairs: "Jia Zhai, Qingshan Lin, Zongtang Hu"
 ---
 
 With the large-scale landing of serverless, IoT and real-time data technology, event-driven architecture and event streaming technology have been more widely applied, making message queue become more and more important infrastructure. Today, a number of excellent  messaging projects have emerged in the Apache ecosystem, including
