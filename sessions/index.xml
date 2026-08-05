@@ -723,13 +723,6 @@
       <description>&lt;p&gt;Apache Iceberg has revolutionized data lakes by bringing ACID transactions and flexible table updates. However, at enterprise scale, &amp;ldquo;hands-off&amp;rdquo; management is a myth. Without the right maintenance strategy, high-throughput systems often suffer from rising storage costs, query performance degradation, and failures.&lt;/p&gt;&#xA;&lt;p&gt;In this session, we will dissect real-world customer escalations ranging from systems crashing because they had to process massive amounts of metadata, to cleanup tasks being blocked by constant data updates from multiple concurrent writers.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Power of Consensus: How Community Built Contributor Covenant 3</title>
-      <link>/sessions/community-1205782.html</link>
-      <pubDate>Fri, 07 Aug 2026 16:45:00 +0000</pubDate>
-      <guid>/sessions/community-1205782.html</guid>
-      <description>&lt;p&gt;Open source can only thrive with collaboration - but collaboration doesn’t come naturally to some, and contribution doesn’t come naturally to others. How do we drive behavior change in open source to create a psychologically safe &amp;amp; collegial environment for all contributors?&lt;/p&gt;&#xA;&lt;p&gt;For over a decade, the Contributor Covenant has been the most widely adopted open source code of conduct in the world - and the scope of the Covenant is not merely to lay out a set of prescriptive rules, but to offer contributors a hopeful vision of how a project team collaborates.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Building a Palantir-like Data &amp; AI Platform with the Apache Stack</title>
       <link>/sessions/dataai-1207761.html</link>
       <pubDate>Fri, 07 Aug 2026 16:15:00 +0000</pubDate>
