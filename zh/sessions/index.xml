@@ -394,13 +394,6 @@
       <description>&lt;p&gt;介绍 Apache 生态中主流的智能体支付协议、由 Solana 构建的智能体支付网关、数据变现开源项目的成功案例，以及区块链协议如何引导开源智能体经济的发展。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ec39-400o400o1-9Nf9FeCvduJjeZehKMU9nB.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mike Ma：Solana Foundation 开发者布道师&lt;/p&gt;&#xA;&lt;p&gt;Mike Ma 现任 Solana Foundation 开发者布道师，同时也是 Apache 生态与 Solana 生态的开源开发者，贡献了 Solana-go SDK、x402 协议、APP（Agentic Payment Protocol，智能体支付协议），并创办了 Solar——中文 Solana 开发者社区。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Apache CloudStack：驱动现代基础设施的开源云平台</title>
-      <link>/zh/sessions/general-1205364.html</link>
-      <pubDate>Sat, 08 Aug 2026 16:15:00 +0000</pubDate>
-      <guid>/zh/sessions/general-1205364.html</guid>
-      <description>&lt;p&gt;Apache CloudStack 是一个成熟的开源云管理平台，被众多服务提供商和企业用于构建可扩展的基础设施即服务（IaaS）云。&lt;/p&gt;&#xA;&lt;p&gt;在本次演讲中，我们将介绍 CloudStack 背后的架构与核心概念，探讨它如何简化跨多种基础设施环境下的计算、存储和网络编排。我们还会讨论为什么众多组织会选择 CloudStack，将其作为其他云管理平台之外的有力替代方案。&lt;/p&gt;&#xA;&lt;p&gt;演讲将重点介绍 CloudStack 生态中的一些最新创新与关键能力，展示该平台如何持续演进以满足现代基础设施的需求。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/aa4e-400o400o1-T5MGQJx6Qx8tNJM6ZE2Ari.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Abhishek Kumar：Apache CloudStack PMC 成员&lt;/p&gt;&#xA;&lt;p&gt;Abhishek Kumar 是 ShapeBlue 的软件工程师，从事 Apache CloudStack 及云基础设施解决方案的工作。他是 CloudStack 项目的活跃贡献者，专注于平台可扩展性、各类集成以及对云编排的改进。他的兴趣涵盖虚拟化、大规模基础设施自动化，以及推动开源云技术的发展。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Fluss × 湖仓：在数据湖上解锁亚秒级数据新鲜度</title>
       <link>/zh/sessions/datalake-1209515.html</link>
       <pubDate>Sat, 08 Aug 2026 16:15:00 +0000</pubDate>
@@ -413,6 +406,13 @@
       <pubDate>Sat, 08 Aug 2026 16:15:00 +0000</pubDate>
       <guid>/zh/sessions/streaming-1213708.html</guid>
       <description>&lt;p&gt;2026 年，AI Agent 的记忆架构正在经历一次范式转变。传统 AI Agent 的记忆系统大多采用&amp;quot;只追加写入 + 异步索引&amp;quot;的批处理模式。这导致记忆更新存在显著时延，难以支撑实时交互场景下的上下文演进。记忆的本质并非一个静态数据集，而是由对话、感知和决策构成的无界数据流。如何在这条流上进行低时延的状态管理与增量计算，是流计算技术在 AI 时代面临的新挑战。&#xA;本次演讲将聚焦流计算技术如何应对记忆这一挑战。Apache GeaFlow（孵化中）是一款开源的流式图计算引擎，定位为实时增量图计算层，作为 Agent 的实时有状态后端。与缺乏原生关系建模能力的传统图数据库和流计算引擎不同，GeaFlow 通过增量计算把到达的数据作为连续的图更新来处理——每个事件只触发必要的子图变更，从而避免昂贵的全量重算。&#xA;具体而言，GeaFlow 用增量流式计算取代全量计算，使局部子图能够在对话发生的瞬间实时更新。通过动态的图状态管理，它把时序记忆作为流状态来维护，解决长会话中的状态一致性问题。此外，它借助分布式快照机制，保障企业级多 Agent 协作下的状态容错与恢复。&#xA;在技术实践环节，我们将演示如何构建一个具备毫秒级记忆更新能力的知识助手。我们还将展示 GeaFlow 如何为运行在持续演进知识图谱之上的 AI 系统提供基础支撑。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/942a-400o400o1-UTgxQ7mc7kgpLPSnYWcsvV.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Litao Lin：Apache GeaFlow（孵化中）Committer&lt;/p&gt;&#xA;&lt;p&gt;Apache GeaFlow（孵化中）Committer。作为项目的核心成员，他从零参与了 GeaFlow 图计算引擎的架构设计与开发，尤其专注于图计算 DSL 的设计与实现，以及数据智能技术的演进。他深度参与开源社区活动，目前就职于 Ant Group。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/8e82-400o400o1-fiJe6bcjN6hvokxoSwtyfp.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yao Zhongqiang：Ant Group 图计算专家与开发工程师&lt;/p&gt;&#xA;&lt;p&gt;深耕大数据领域，专长于图计算、实时计算和 OLAP。所在团队目前专注于 Agent Memory 与 MARL。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>加速量子机器学习：在 Apache Mahout 中构建 GPU 加速数据平面</title>
+      <link>/zh/sessions/general-1194670.html</link>
+      <pubDate>Sat, 08 Aug 2026 16:15:00 +0000</pubDate>
+      <guid>/zh/sessions/general-1194670.html</guid>
+      <description>&lt;p&gt;量子机器学习（QML）虽然前景广阔，但在实际应用中，往往会在量子计算开始之前遇到一个主要瓶颈。经典特征向量必须先经过处理并编码成量子态。随着数据维度和量子比特数量的增加，这一步骤可能占据端到端执行时间的大部分，并限制 QML 工作流的可扩展性。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将介绍 Quantum Data Plane（QDP，量子数据平面）。这是 Apache Mahout 中正在开发的 GPU 加速数据平面，旨在让量子数据编码更加高效且更具可扩展性。QDP 将数据编码视为一个专门的执行层，而不是一次性的预处理任务。我们将介绍其设计动机、整体架构、与 Apache Mahout 的集成方式，以及 GPU 并行计算如何帮助解决数据编码瓶颈。&lt;/p&gt;&#xA;&lt;p&gt;结合实际开发经验，我们将分享构建 QDP 过程中的关键设计选择与经验总结，并讨论 GPU 加速最能发挥价值的场景、这种方法的局限与取舍，以及项目未来如何通过开源协作持续发展。&lt;/p&gt;&#xA;&lt;p&gt;听众将了解 QML 中数据准备所面临的实际挑战，并从更广泛的视角认识 Apache Mahout 如何连接经典机器学习基础设施与新兴的量子计算工作流。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/6b2a-400o400o1-nbSA2ncJzfTvAieYESc8nK.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;张杰凯：Apache Mahout 项目管理委员会成员&lt;/p&gt;&#xA;&lt;p&gt;张杰凯长期参与开源社区与项目治理，关注高性能计算、GPU 加速及机器学习基础设施。他也参与 Ray 与 KubeRay 社区，探索分布式计算、云原生 AI，以及 Kubernetes 上的 AI 工作负载管理。目前致力于解决量子机器学习中的数据编码瓶颈，并推动 Apache Mahout Quantum Data Plane（QDP）的设计与实现。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/3ff9-400o400o2-WwwDMsRTLkU2W9JqkZaTxF.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;温冠华：Apache Mahout Committer&lt;/p&gt;&#xA;&lt;p&gt;微软研发实习生&lt;/p&gt;</description>
     </item>
     <item>
       <title>全栈 Rust × AI Native：我们在 NonConvex 如何演进产品与研发</title>
@@ -534,6 +534,13 @@
       <description>&lt;p&gt;自由软件运动曾是一道划在沙地上的界线。在 80 和 90 年代，随着整个行业争相将软件锁进专有许可证的牢笼、并称之为进步，一小群人引领了一场文化运动，目标是无论如何都要阻止这一切。几十年过去，结果已经揭晓：在基础设施的规范层面，这是一场表面上的彻底胜利。开源如今已成为软件开发默认的方式。几乎所有学生都通过它学习开发，今天任何机构的 CIO 都无需再为选择基于开源来构建而辩护，它已被深度常态化。&lt;/p&gt;&#xA;&lt;p&gt;如果仔细审视我们所赢得的东西，四大自由中的每一项，都是针对一个你能够握在手中的事物的自由&amp;ndash;运行程序、学习并改造它、分享它、改进并发布它。然而，软件本身从未孤立存在，而且这一点随着时间推移愈发明显。你可以端到端地运行自由软件，每一行代码都可审计，每一个许可证都干净无瑕，但这几乎不会改变你的实际处境，因为在它们之下受限制的协议、运行其上的不透明硬件、它所通信的服务、对你进行身份认证的平台、能够一夜之间改变条款的 API，都是这些自由被绕开的地方。事实上，一个明摆着的讽刺是：GitHub&amp;ndash;围绕 Git 构建、承载着大多数开源项目的社会化层&amp;ndash;本身就是一个封闭系统，在这里许多此类自由都受到实质性的限制，规则也能在一夜之间改变。更何况，进入这一层的参与者已不再只是优化订阅服务的公司，而是各国政府，它们正着手将整个技术栈纳入国家优先事项之中。他们学到的教训很简单：如果你拥有代码运行所在的那一层，你就不必拥有代码本身。如果这扼杀了四大自由，整座大厦是否会轰然倒塌？自由软件运动是否已经输掉了这场持久战？&lt;/p&gt;&#xA;&lt;p&gt;本次演讲认为，四大自由确保了自由，但并未确保对软件日益依赖的那些系统的自由。你可以完全运行自由软件，却仍依赖着一套其规则可在未经你同意下被更改的基础设施。因此，所缺失的自由，是一种摆脱对控制其底层基础设施的任何单一行为者依赖的自由。姑且称之为第五项自由：一个保证&amp;ndash;我们所依赖的系统对所有人保持中立且清晰可读，无论你是谁都一视同仁地适用相同的规则。实现这一点所需的远不止开源许可证。它需要为可信中立性而设计的系统，在其中没有任何参与者能够永久性地独占公共资源。然而，这些保证最终取决于捍卫它们的社区。中立的协议需要有愿意抵制其被俘获的社区，而社区也需要不会悄无声息地被私利所扭曲的中立协议。二者共同构成了那些能够长久保持可信的基础设施的技术与社会基石。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/b638-400o400o1-DCdjG4ANLFLTthYmoxVicK.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Shyam Sridhar：以太坊基金会&lt;/p&gt;&#xA;&lt;p&gt;Shyam Sridhar 在以太坊基金会领导学术秘书处，作为以太坊研究生态与学术界之间的接口，将开放的研究问题与学者对接，并支持独立研究。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Apache CloudStack：驱动现代基础设施的开源云平台</title>
+      <link>/zh/sessions/general-1205364.html</link>
+      <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
+      <guid>/zh/sessions/general-1205364.html</guid>
+      <description>&lt;p&gt;Apache CloudStack 是一个成熟的开源云管理平台，被众多服务提供商和企业用于构建可扩展的基础设施即服务（IaaS）云。&lt;/p&gt;&#xA;&lt;p&gt;在本次演讲中，我们将介绍 CloudStack 背后的架构与核心概念，探讨它如何简化跨多种基础设施环境下的计算、存储和网络编排。我们还会讨论为什么众多组织会选择 CloudStack，将其作为其他云管理平台之外的有力替代方案。&lt;/p&gt;&#xA;&lt;p&gt;演讲将重点介绍 CloudStack 生态中的一些最新创新与关键能力，展示该平台如何持续演进以满足现代基础设施的需求。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/aa4e-400o400o1-T5MGQJx6Qx8tNJM6ZE2Ari.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Abhishek Kumar：Apache CloudStack PMC 成员&lt;/p&gt;&#xA;&lt;p&gt;Abhishek Kumar 是 ShapeBlue 的软件工程师，从事 Apache CloudStack 及云基础设施解决方案的工作。他是 CloudStack 项目的活跃贡献者，专注于平台可扩展性、各类集成以及对云编排的改进。他的兴趣涵盖虚拟化、大规模基础设施自动化，以及推动开源云技术的发展。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>RustFS 扩展定律：来自 200&#43; 节点分布式集群的性能分析与洞察</title>
       <link>/zh/sessions/rust-1213284.html</link>
       <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
@@ -553,13 +560,6 @@
       <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
       <guid>/zh/sessions/datalake-1212598.html</guid>
       <description>&lt;p&gt;构建数据湖，早已不再只是选择 Iceberg、Hudi 还是 Paimon 的问题。&#xA;在真实系统中，最大的挑战往往更靠前一步：数据如何可靠、高效、持续地进入数据湖。&#xA;在本次演讲中，我们将探讨 Apache SeaTunnel 如何作为现代数据湖架构的统一数据接入与集成层。从常见的痛点出发——多源数据、Batch 与 CDC 共存、schema 演进，以及运维复杂度——我们将走查 SeaTunnel 如何简化进入数据湖与湖仓系统的数据流转。&#xA;通过真实的生产场景，你将看到 SeaTunnel 如何把事务型数据库、消息队列和文件系统接入基于 Iceberg 或湖仓的存储，从而构建可扩展、可维护、可演进的数据平台。本次演讲聚焦于务实的架构决策，而非特定厂商的方案。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将涵盖：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;典型的数据湖架构演进与常见陷阱&lt;/li&gt;&#xA;&lt;li&gt;数据集成在数据湖与湖仓系统中的角色&lt;/li&gt;&#xA;&lt;li&gt;Apache SeaTunnel 的架构与设计原则&lt;/li&gt;&#xA;&lt;li&gt;端到端的接入示例：把数据库、CDC 和流式数据接入数据湖&lt;/li&gt;&#xA;&lt;li&gt;运维考量与最佳实践&lt;/li&gt;&#xA;&lt;li&gt;SeaTunnel 在数据湖生态中的路线图&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/8393-400o400o1-KRgoC646wAhZ7x4c288p6t.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Lidong Dai：WhaleOps Technology 联合创始人&lt;/p&gt;&#xA;&lt;p&gt;Apache 孵化器 Mentor，Apache DolphinScheduler PMC 成员 &amp;amp; Apache SeaTunnel PMC 成员&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>加速量子机器学习：在 Apache Mahout 中构建 GPU 加速数据平面</title>
-      <link>/zh/sessions/general-1194670.html</link>
-      <pubDate>Sat, 08 Aug 2026 14:30:00 +0000</pubDate>
-      <guid>/zh/sessions/general-1194670.html</guid>
-      <description>&lt;p&gt;量子机器学习（QML）虽然前景广阔，但在实际应用中，往往会在量子计算开始之前遇到一个主要瓶颈。经典特征向量必须先经过处理并编码成量子态。随着数据维度和量子比特数量的增加，这一步骤可能占据端到端执行时间的大部分，并限制 QML 工作流的可扩展性。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将介绍 Quantum Data Plane（QDP，量子数据平面）。这是 Apache Mahout 中正在开发的 GPU 加速数据平面，旨在让量子数据编码更加高效且更具可扩展性。QDP 将数据编码视为一个专门的执行层，而不是一次性的预处理任务。我们将介绍其设计动机、整体架构、与 Apache Mahout 的集成方式，以及 GPU 并行计算如何帮助解决数据编码瓶颈。&lt;/p&gt;&#xA;&lt;p&gt;结合实际开发经验，我们将分享构建 QDP 过程中的关键设计选择与经验总结，并讨论 GPU 加速最能发挥价值的场景、这种方法的局限与取舍，以及项目未来如何通过开源协作持续发展。&lt;/p&gt;&#xA;&lt;p&gt;听众将了解 QML 中数据准备所面临的实际挑战，并从更广泛的视角认识 Apache Mahout 如何连接经典机器学习基础设施与新兴的量子计算工作流。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/6b2a-400o400o1-nbSA2ncJzfTvAieYESc8nK.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;张杰凯：Apache Mahout 项目管理委员会成员&lt;/p&gt;&#xA;&lt;p&gt;张杰凯长期参与开源社区与项目治理，关注高性能计算、GPU 加速及机器学习基础设施。他也参与 Ray 与 KubeRay 社区，探索分布式计算、云原生 AI，以及 Kubernetes 上的 AI 工作负载管理。目前致力于解决量子机器学习中的数据编码瓶颈，并推动 Apache Mahout Quantum Data Plane（QDP）的设计与实现。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/3ff9-400o400o2-WwwDMsRTLkU2W9JqkZaTxF.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;温冠华：Apache Mahout Committer&lt;/p&gt;&#xA;&lt;p&gt;微软研发实习生&lt;/p&gt;</description>
     </item>
     <item>
       <title>开源五年：从一个存储项目重新审视&#39;社区健康&#39;</title>
