@@ -62,7 +62,7 @@
       <link>/zh/sessions/iot-1213290.html</link>
       <pubDate>Sun, 09 Aug 2026 15:45:00 +0000</pubDate>
       <guid>/zh/sessions/iot-1213290.html</guid>
-      <description>&lt;p&gt;本次演讲聚焦数据管理从时序数据到专业化数据的演进。随着 IoT、科学计算和智能系统的持续发展，数据管理正在从经典的时序工作负载扩展到更复杂的数据类型，包括时空数据、网格数据、遥感数据、气象数据、日志数据和多模态数据。本次演讲将讨论这些数据给存储、索引、查询和统一访问带来的新挑战，并探索格式感知查询、跨文件组织以及数据库与文件系统融合等新兴方法。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/4d3b-400o400o1-KCzTKrVsyHFxNEWdi4vEMv.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;洪胤 张: Apache IoTDB PMC, PhD student at Tsinghua University&lt;/p&gt;&#xA;&lt;p&gt;张洪胤，Apache IoTDB PMC，清华大学博士研究生，目前负责 Apache IoTDB 的内存管理、系统监控和标准化测试工作。&lt;/p&gt;</description>
+      <description>&lt;p&gt;本次演讲聚焦数据管理从时序数据到专业化数据的演进。随着 IoT、科学计算和智能系统的持续发展，数据管理正在从经典的时序工作负载扩展到更复杂的数据类型，包括时空数据、网格数据、遥感数据、气象数据、日志数据和多模态数据。本次演讲将讨论这些数据给存储、索引、查询和统一访问带来的新挑战，并探索格式感知查询、跨文件组织以及数据库与文件系统融合等新兴方法。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/4d3b-400o400o1-KCzTKrVsyHFxNEWdi4vEMv.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;洪胤 张: Apache IoTDB PMC, PhD student at Tsinghua University&lt;/p&gt;&#xA;&lt;p&gt;张洪胤，Apache IoTDB PMC，清华大学博士研究生，目前负责 Apache IoTDB 的内存管理、系统监控和标准化测试工作。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/33e2-200o200o2-4mKTrpL6Yz5bgGHqaSVaVK.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;泽宇 张: Graduate student at Tsinghua University&lt;/p&gt;&#xA;&lt;p&gt;张泽宇，清华大学本科毕业生，目前聚焦 Apache IoTDB agent-friendly system，以及时间序列模型训练和推理。&lt;/p&gt;</description>
     </item>
     <item>
       <title>深入剖析：在 Apache Dubbo 中实现 OTel 最新 RPC 语义约定</title>
