@@ -352,13 +352,6 @@
       <description>&lt;p&gt;This session will cover the latest development progress of Apache Auron (Incubating) project, focusing on two key advancements: 1. Auron on GPU - optimizing performance through GPU acceleration, and 2. Flink on Auron - integration with Apache Flink for enhanced stream processing capabilities. Additionally, I will share insights on community development, strategies and how to contribute to this incubating project.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/b6f5-400o400o1-pKzdt4QmJ2nn1oxBwb2oxe.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zhang Li: PPMC member of Apache Auron (Incubating) project&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Take back your control of coroutine resources</title>
-      <link>/sessions/rust-1213228.html</link>
-      <pubDate>Sat, 08 Aug 2026 17:15:00 +0000</pubDate>
-      <guid>/sessions/rust-1213228.html</guid>
-      <description>&lt;p&gt;We always care about how much workload our software can handle, especially in large-scale scenarios. However the reality is not always ideal, but almost always comes with skewed workloads and fluctuating resources, challenging our software&amp;rsquo;s stability and tail latency. In this session, I&amp;rsquo;ll share our experience on tuning a product-ready Rust system to achieve predictable scheduling and promising self-protection in complex environments. Including failed tries, what existing Rust infrastructure can&amp;rsquo;t achieve, and how we get there.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Apache Cloudberry: gathering statistics for queries executed by multiple PostgreSQL instances.</title>
       <link>/sessions/observability-1195519.html</link>
       <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
@@ -464,11 +457,11 @@
       <description>&lt;p&gt;Natural language data querying is no longer a future promise — it&amp;rsquo;s an engineering problem you can solve today. In this talk, we&amp;rsquo;ll walk through how to combine Apache Gravitino&amp;rsquo;s unified metadata management with dbt&amp;rsquo;s MetricFlow to construct a robust semantic layer that sits between your raw data and your AI agents. You&amp;rsquo;ll learn how Gravitino catalogs and governs your data assets across heterogeneous sources, how MetricFlow defines consistent, reusable metrics on top of them, and how to wire both together so that a data agent can answer business questions reliably — without hallucinating schema details or misinterpreting metric definitions. We&amp;rsquo;ll close with a live demo of an agent asking questions against a multi-source environment and getting accurate, governed answers.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Open Source Safety-Critical Software with Rust</title>
-      <link>/sessions/rust-1241357.html</link>
+      <title>Take back your control of coroutine resources</title>
+      <link>/sessions/rust-1213228.html</link>
       <pubDate>Sat, 08 Aug 2026 15:45:00 +0000</pubDate>
-      <guid>/sessions/rust-1241357.html</guid>
-      <description>&lt;p&gt;Open Source and safety are two parallel ecosystems. But they are slowly coming together. This talk presents not only one of the solutions (the Ferrocene Rust compiler), but also walks through some already finished projects in the industrial space with Rust. We present how Rust is the next big language in automotive, industrial robotics and medicine.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/01f3-400o400o1-WW2P7kugtiYnEM4EJwCxPE.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Allen Wyma: Founder and Director at Plangora&lt;/p&gt;&#xA;&lt;p&gt;Allen is a programmer at heart and a visionary technology leader. With over 16 years of hands-on development experience, he guides Plangora&amp;rsquo;s technical strategy and fosters a culture of innovation and engineering excellence.&#xA;His career includes shaping critical solutions for industry giants like Motorola, Credit Suisse, and Bank of America. As a software architect, he has a proven track record of leading teams and guiding complex projects from initial concept to successful MVP, always on schedule and above expectations.&#xA;Beyond client work, Allen is a respected thought leader in the tech community. He shares his deep expertise in languages like Rust and Flutter through his popular podcasts&lt;/p&gt;</description>
+      <guid>/sessions/rust-1213228.html</guid>
+      <description>&lt;p&gt;We always care about how much workload our software can handle, especially in large-scale scenarios. However the reality is not always ideal, but almost always comes with skewed workloads and fluctuating resources, challenging our software&amp;rsquo;s stability and tail latency. In this session, I&amp;rsquo;ll share our experience on tuning a product-ready Rust system to achieve predictable scheduling and promising self-protection in complex environments. Including failed tries, what existing Rust infrastructure can&amp;rsquo;t achieve, and how we get there.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Teaching the Apache Way with a little help from AI</title>
@@ -863,11 +856,11 @@
       <description>&lt;p&gt;Last year at Community Over Code Asia, we introduced Apache Fluss and its vision of a dedicated storage layer for real-time lakehouses. Several releases later, that vision has been validated in production at Alibaba&amp;rsquo;s Double 11 scale.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, we present what we have delivered across three themes. First, pushing compute into storage: the Aggregation Merge Engine pushes real-time aggregation — including RoaringBitmap UV deduplication — into the storage layer with built-in exactly-once semantics, and log filter pushdown moves predicate evaluation from compute to storage, enabling Flink to offload aggregation, join, and wide-table state entirely to storage. Second, ecosystem and data model evolution: secondary indexes for flexible query patterns, Change Data Feed, complex data types, zero-copy schema evolution, and multi-language clients (Rust, Python, C++). Third, enterprise-grade foundation: goal-driven rebalance, zero-downtime rolling upgrades, fast Coordinator recovery, SASL authentication with three-level ACL, and deep RocksDB diagnostics.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The OSS-ential Understanding of Community Health and Metrics</title>
+      <title>Open Source Community Operations and Developer Ecosystem AMA</title>
       <link>/sessions/community-1196034.html</link>
       <pubDate>Fri, 07 Aug 2026 15:00:00 +0000</pubDate>
       <guid>/sessions/community-1196034.html</guid>
-      <description>&lt;p&gt;Open source powers most of today’s technology, yet many people still judge a project only by visible activity. The problem is that activity does not always reflect real health. A project can look busy while struggling behind the scenes. It can also look quiet while staying stable and strong.&lt;/p&gt;&#xA;&lt;p&gt;This talk explores the gap between what we see on the surface and what a community is actually experiencing. It draws from my work as a contributor and member of the Linux Foundation’s CHAOSS project, where researchers and maintainers built shared ways to study open-source health in a practical and human way.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;Richard Lin&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ant Real-Time Computing Team&#39;s Practice on Flink Expert Agent</title>

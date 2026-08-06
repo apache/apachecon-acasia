@@ -352,13 +352,6 @@
       <description>&lt;p&gt;本次演讲将介绍 Apache Auron（孵化中）项目的最新研发进展，重点聚焦两项关键进展：1. Auron on GPU——通过 GPU 加速优化性能；2. Flink on Auron——与 Apache Flink 集成以增强流处理能力。此外，我还会分享关于社区发展的思考、策略，以及如何参与到这个孵化项目中来。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/b6f5-400o400o1-pKzdt4QmJ2nn1oxBwb2oxe.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zhang Li：Apache Auron（孵化中）项目 PPMC 成员&lt;/p&gt;&#xA;&lt;p&gt;Zhang Li 来自快手数据平台团队，是 Apache Auron（孵化中）项目的 PPMC 成员与主要开发者。他拥有 10 年大数据架构开发经验，目前专注于提升 Apache Spark 与 Auron 的性能。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>重新掌控你的协程资源</title>
-      <link>/zh/sessions/rust-1213228.html</link>
-      <pubDate>Sat, 08 Aug 2026 17:15:00 +0000</pubDate>
-      <guid>/zh/sessions/rust-1213228.html</guid>
-      <description>&lt;p&gt;我们一直很关心自己的软件能扛住多大的负载，尤其是在大规模场景下。然而现实往往并不理想——几乎总是伴随着倾斜的负载和波动的资源，不断挑战着软件的稳定性与尾延迟。在本次演讲中，我将分享我们在调优一个产品级 Rust 系统时的经验，使其在复杂环境中实现可预测的调度和可靠的自保护。内容包括失败的尝试、现有 Rust 基础设施做不到的事情，以及我们是如何达成目标的。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/17ae-400o400o1-PGTz6fMBHyvwhcgyuLCThc.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ruihang Xia：Greptime Inc. 软件架构师&lt;/p&gt;&#xA;&lt;p&gt;Greptime 软件架构师&#xA;Apache DataFusion PMC，Apache Arrow Committer，Apache HoraeDB PPMC&#xA;&lt;a href=&#34;https://github.com/waynexia&#34;&gt;https://github.com/waynexia&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Apache Cloudberry：为多个 PostgreSQL 实例执行的查询收集统计信息</title>
       <link>/zh/sessions/observability-1195519.html</link>
       <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
@@ -440,7 +433,7 @@
       <link>/zh/sessions/general-1215238.html</link>
       <pubDate>Sat, 08 Aug 2026 15:45:00 +0000</pubDate>
       <guid>/zh/sessions/general-1215238.html</guid>
-      <description>&lt;p&gt;本次演讲围绕 Apache Seata 的孵化与成长展开：从阿里巴巴内部项目到进入 Apache 孵化，再到社区治理、生态扩展与版本演进的历程。我们将分析在多数据库、跨语言支持、性能和一致性保证等方面的关键技术挑战与设计决策。第二部分呈现 Seata 在 AI 驱动方向的探索，包括基于机器学习的异常事务检测、智能冲突预测与自适应回滚策略、自动化的性能瓶颈定位以及测试用例生成——并结合实际案例与成果加以说明。适合对分布式事务实现、开源社区建设以及 AI + 中间件实践感兴趣的听众。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ed51-400o400o1-BTDBgQinUQqS5cv8CRWb4e.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Min Ji：Apache Seata PPMC&lt;/p&gt;&#xA;&lt;p&gt;Min Ji（花名清明）担任阿里云分布式事务产品负责人。作为在中间件、云原生和微服务领域深耕逾 10 年的资深架构师，他在推动中间件于阿里巴巴集团大规模落地、以及主导微服务 PaaS 的商业化与开源方面发挥了关键作用。他目前专注于面向下一代智能应用架构的 AI Infra。&lt;/p&gt;</description>
+      <description>&lt;p&gt;本次演讲围绕 Apache Seata 的孵化与成长展开：从阿里巴巴内部项目到进入 Apache 孵化，再到社区治理、生态扩展与版本演进的历程。我们将分析在多数据库、跨语言支持、性能和一致性保证等方面的关键技术挑战与设计决策。第二部分呈现 Seata 在 AI 驱动方向的探索，包括基于机器学习的异常事务检测、智能冲突预测与自适应回滚策略、自动化的性能瓶颈定位以及测试用例生成——并结合实际案例与成果加以说明。适合对分布式事务实现、开源社区建设以及 AI + 中间件实践感兴趣的听众。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ed51-400o400o1-BTDBgQinUQqS5cv8CRWb4e.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;孙浩然：Apache Seata Committer&lt;/p&gt;&#xA;&lt;p&gt;Apache Seata Committer，目前在小红书云原生存储组做引擎开发，青岛科技大学软件工程大三学生，热爱开源&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fluss × Alipay：营销场景下的流式存储实践</title>
@@ -483,6 +476,13 @@
       <pubDate>Sat, 08 Aug 2026 15:45:00 +0000</pubDate>
       <guid>/zh/sessions/datastorage-1214223.html</guid>
       <description>&lt;p&gt;随着 AI 和基于向量的工作负载兴起，Lance 作为面向分析与机器学习场景的高性能数据格式，正受到越来越多的关注。然而，由于缺少统一的元数据层，跨系统管理 Lance 数据集仍然充满挑战。&lt;/p&gt;&#xA;&lt;p&gt;在本次演讲中，我们将介绍 Apache Gravitino 如何通过其 Lance REST 服务集成，实现对 Lance 的集中化元数据管理。我们将演示如何用统一的目录抽象来建模 Lance 数据集，使其更易于在不同引擎间被管理、发现和访问。&lt;/p&gt;&#xA;&lt;p&gt;我们还会分享这次集成背后的设计考量，演示如何通过 Gravitino 创建并访问 Lance 数据集，并讨论这种做法如何帮助构建一个更一致、更具扩展性的数据平台，以同时服务传统分析和新涌现的 AI 工作负载。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/b330-400o400o1-TDqhGWSyPAGG48dG2H2tHm.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Qi Yu：数据基础设施工程师，Apache Gravitino PMC&lt;/p&gt;&#xA;&lt;p&gt;Datastrato 工程师、Apache Gravitino PMC 成员，从事大数据基础设施、元数据管理与数据库系统的工作，专注于可扩展数据平台的研发。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>重新掌控你的协程资源</title>
+      <link>/zh/sessions/rust-1213228.html</link>
+      <pubDate>Sat, 08 Aug 2026 15:45:00 +0000</pubDate>
+      <guid>/zh/sessions/rust-1213228.html</guid>
+      <description>&lt;p&gt;我们一直很关心自己的软件能扛住多大的负载，尤其是在大规模场景下。然而现实往往并不理想——几乎总是伴随着倾斜的负载和波动的资源，不断挑战着软件的稳定性与尾延迟。在本次演讲中，我将分享我们在调优一个产品级 Rust 系统时的经验，使其在复杂环境中实现可预测的调度和可靠的自保护。内容包括失败的尝试、现有 Rust 基础设施做不到的事情，以及我们是如何达成目标的。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/17ae-400o400o1-PGTz6fMBHyvwhcgyuLCThc.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ruihang Xia：Greptime Inc. 软件架构师&lt;/p&gt;&#xA;&lt;p&gt;Greptime 软件架构师&#xA;Apache DataFusion PMC，Apache Arrow Committer，Apache HoraeDB PPMC&#xA;&lt;a href=&#34;https://github.com/waynexia&#34;&gt;https://github.com/waynexia&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache OpenMeetings：企业级视频会议遇上 AI Agent</title>
@@ -856,18 +856,18 @@
       <description>&lt;p&gt;去年的 Community Over Code Asia 上，我们介绍了 Apache Fluss，以及它为实时湖仓打造专用存储层的愿景。经过几个版本的迭代，这一愿景已在阿里巴巴双十一规模的生产中得到验证。&lt;/p&gt;&#xA;&lt;p&gt;在本次演讲中，我们将围绕三个主题介绍已交付的成果。第一，将计算下推到存储：聚合合并引擎（Aggregation Merge Engine）把实时聚合——包括基于 RoaringBitmap 的 UV 去重——下推到存储层，并内置 exactly-once 语义；日志过滤下推（log filter pushdown）则把谓词求值从计算侧移到存储侧，使 Flink 能够把聚合、join 和宽表状态完全卸载到存储。第二，生态与数据模型演进：用于灵活查询模式的二级索引、Change Data Feed、复杂数据类型、零拷贝模式演进，以及多语言客户端（Rust、Python、C++）。第三，企业级基础设施：目标驱动的 rebalance、零停机滚动升级、快速的 Coordinator 恢复、带三级 ACL 的 SASL 认证，以及深度的 RocksDB 诊断。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/caa5-400o400o1-7N761jmkijrU21jsU1NuAN.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yang Wang：阿里云高级主任工程师，杭州，Apache Fluss 核心开发者&lt;/p&gt;&#xA;&lt;p&gt;Yang Wang 是阿里云高级主任工程师，也是面向实时分析的流式存储系统 Apache Fluss 的核心开发团队成员。他专注于存储引擎内部实现——包括 KV 存储（RocksDB 集成、性能调优、监控与内存管理）、聚合合并引擎、二级索引支持，以及 Flink connector 的增强（如过滤下推、lookup join）。他是 Apache Fluss 开源社区的活跃贡献者。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>对社区健康与度量的&#39;开源式&#39;理解</title>
-      <link>/zh/sessions/community-1196034.html</link>
-      <pubDate>Fri, 07 Aug 2026 15:00:00 +0000</pubDate>
-      <guid>/zh/sessions/community-1196034.html</guid>
-      <description>&lt;p&gt;开源驱动着当今的大部分技术，然而许多人仍然只凭可见的活动量来评判一个项目。问题在于，活动量并不总能反映真实的健康状况。一个项目可能看起来热火朝天，背后却在苦苦支撑；它也可能看似平静，实则稳定而强健。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲探讨我们所看到的表面现象与社区实际经历之间的差距。它源于我作为贡献者和 Linux Foundation CHAOSS 项目成员的工作——在那里，研究者和维护者们构建了一些共享的方法，以务实且以人为本的方式来研究开源项目的健康度。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲解释了两个核心理念。可持续性（Sustainability）涵盖贡献者体验、文档、新人上手、清晰度，以及在不停摆、不倦怠的情况下持续向前推进的能力。生存力（Survivability）涵盖风险、对关键人物的依赖、治理强度，以及应对突变的能力。&lt;/p&gt;&#xA;&lt;p&gt;听众将学会如何提出更好的问题、捕捉早期信号、避免误读数据，并以对&amp;quot;健康究竟长什么样&amp;quot;更清晰的理解来支持社区。本次演讲面向社区经理、贡献者、OSPO 团队，以及每一位日常在开源领域工作的人。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/4c5f-400o400o1-RNARTEeACDQNvmxvdHUvKZ.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ijeoma Onwuka：MLOps Community 活动协调员&lt;/p&gt;&#xA;&lt;p&gt;Ijeoma Onwuka 是一位经验丰富的社区与活动经理，拥有 4 年以上为科技初创公司和非营利组织构建繁荣社区的经验。她目前在 MLOps Community 负责活动，为开发者、技术写作人员和科技爱好者打造有参与感的空间。&lt;/p&gt;&#xA;&lt;p&gt;她热衷于开源，积极参与 OpenSSF、DevRel Foundation、CHAOSS 和 UNICEF 等项目的贡献，专注于技术与社区的交汇点。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>基于 Apache Gravitino 在中国移动梧桐数据平台构建多模态 AI 湖仓</title>
       <link>/zh/sessions/aiinfra-1208628.html</link>
       <pubDate>Fri, 07 Aug 2026 15:00:00 +0000</pubDate>
       <guid>/zh/sessions/aiinfra-1208628.html</guid>
       <description>&lt;p&gt;随着 AI 工作负载成为现代数据平台的核心组成部分，企业不仅需要管理结构化表，还需要以统一的方式管理非结构化数据、向量数据、AI 模型和 AI 函数。传统的湖仓架构往往只以表格数据为中心，这使得在异构数据与 AI 资产之间构建一致的元数据和控制面变得困难。&lt;/p&gt;&#xA;&lt;p&gt;在本次演讲中，我们将分享中国移动如何基于 Apache Gravitino 在梧桐数据平台构建多模态 AI 湖仓。在这一架构中，Gravitino 作为统一的元数据和控制面，把结构化、非结构化数据与 AI 模型、AI 函数一并纳管。这使得平台中不同类型的资产能够获得一致的治理、发现与管理能力。&lt;/p&gt;&#xA;&lt;p&gt;我们还将讨论该平台如何结合 Apache Iceberg 和 Lance，以支撑对表格数据和多模态数据的统一分析。除了介绍 Apache Gravitino 的相关能力外，本次演讲还将呈现来自中国移动生产平台的实战经验，涵盖架构设计、元数据组织、集成模式、治理考量，以及真实部署中总结的经验教训。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲面向数据平台工程师、湖仓架构师以及 AI 基础设施从业者，适合那些正在探索多模态数据与 AI 资产管理开放架构的人士。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/55b6-400o400o1-WRxegEMYqhs6HUADASeHmN.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Xiaojing Fang：Apache Gravitino Committer&lt;/p&gt;&#xA;&lt;p&gt;Apache Gravitino PPMC，中国移动架构师，专注于数据与 AI 基础设施。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/bb92-400o400o1-WjBK5tePeRDdbeQyJPHyyG.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Xintong Jiang：中国移动软件研发工程师&lt;/p&gt;&#xA;&lt;p&gt;拥有十余年大数据与 AI 领域的专业经验，在中国移动数智（Digital Intelligence）业务单元主导 PB 级多模态数据湖的开发。核心能力在于分布式计算与混合检索（hybrid retrieval）。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>开源社区运营及开发者生态 AMA</title>
+      <link>/zh/sessions/community-1196034.html</link>
+      <pubDate>Fri, 07 Aug 2026 15:00:00 +0000</pubDate>
+      <guid>/zh/sessions/community-1196034.html</guid>
+      <description>&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;Richard Lin&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI 时代 Apache Kafka 的成本挑战：优化实践与社区最新进展</title>

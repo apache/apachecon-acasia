@@ -725,19 +725,6 @@
                 href="/sessions/datastorage-1199721.html"
                 />
   </url><url>
-    <loc>/sessions/rust-1213228.html</loc>
-    <lastmod>2026-08-08T17:15:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/rust-1213228.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/rust-1213228.html"
-                />
-  </url><url>
     <loc>/sessions/observability-1195519.html</loc>
     <lastmod>2026-08-08T16:45:00+00:00</lastmod>
     <xhtml:link
@@ -933,17 +920,17 @@
                 href="/sessions/dataai-1214199.html"
                 />
   </url><url>
-    <loc>/sessions/rust-1241357.html</loc>
+    <loc>/sessions/rust-1213228.html</loc>
     <lastmod>2026-08-08T15:45:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/rust-1241357.html"
+                href="/zh/sessions/rust-1213228.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/rust-1241357.html"
+                href="/sessions/rust-1213228.html"
                 />
   </url><url>
     <loc>/sessions/community-1213694.html</loc>
