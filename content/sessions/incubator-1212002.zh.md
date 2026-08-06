@@ -2,7 +2,7 @@
 title: "一次构建，任意 Linux 运行：面向 Apache Cloudberry（孵化中）的 SynxDB CE"
 date: "2026-08-09T15:45:00"
 track: "incubator"
-presenters: "Shine Zhang, Ed Espino"
+presenters: "Shine Zhang"
 stype: "英文演讲"
 room: "玉泉山会议室"
 ---
@@ -33,14 +33,3 @@ Apache Cloudberry（孵化中）是一个兼容 Postgres 的 MPP 分析型数据
 Shine Zhang：Synx Data Labs 联合创始人兼 CTO
 
 Xin Zhang（Shine）——Synx Data Labs 联合创始人兼 CTO。前 Pivotal/VMware Greenplum 工程师、PostgreSQL 贡献者，长期参与 Greenplum / Cloudberry 这一技术脉络。负责 Synx 对 Apache Cloudberry（孵化中）的上游贡献，以及 SynxDB 社区版的发布流水线。
-
-
-<img src="https://cdn.sessionize.com/image/f030-400o400o1-sEY99WaWKxwojYGUBVLoqZ.jpg" width="200" /><br/>
-
-Ed Espino：Synx Data Labs, Inc. 联合创始人兼 CEO
-
-Ed Espino 是 Synx Data Labs 的联合创始人、SynxDB 的缔造者，在数据库工程与分析基础设施领域拥有 30 余年经验。他的职业经历涵盖在 Informix 与 Sybase 的奠基性工作、2009 年加入 Greenplum，并参与了 OnDisplay 和 Pivotal 的成功上市。
-
-作为 Apache 软件基金会成员、Apache Cloudberry（孵化中）的 PPMC 成员，Ed 是开源分析生态的活跃贡献者。他目前在 Synx Data Labs 领导基础设施建设，包括 cloudberry-image-factory 与 assembly-bom 项目，并正在打造 The Analytics Workshop——一个以"基础设施优先"视角探讨分析工程的 Substack 出版物。
-
-Ed 带来的是实干家的视角，这种视角来自他数十年来身处数据库架构、开源社区治理与企业数据平台交汇处的经历。
