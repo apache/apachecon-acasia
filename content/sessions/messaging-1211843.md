@@ -1,6 +1,6 @@
 ---
 title: "Xiaomi RocketMQ Production Practices in Large-Scale Clusters"
-date: "2026-08-07T16:15:00"
+date: "2026-08-09T15:15:00"
 track: "messaging"
 presenters: "Kunming Han"
 stype: "Chinese Session"

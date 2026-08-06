@@ -1,6 +1,6 @@
 ---
 title: "Apache RocketMQ 路由控制面演进"
-date: "2026-08-07T14:00:00"
+date: "2026-08-07T16:15:00"
 track: "messaging"
 presenters: "Xiao Yang"
 stype: "中文演讲"

@@ -1,6 +1,6 @@
 ---
 title: "小米 RocketMQ 在大规模集群中的生产实践"
-date: "2026-08-07T16:15:00"
+date: "2026-08-09T15:15:00"
 track: "messaging"
 presenters: "Kunming Han"
 stype: "中文演讲"

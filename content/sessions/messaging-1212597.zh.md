@@ -1,6 +1,6 @@
 ---
 title: "面向 AI 的 Apache RocketMQ：多 Agent 系统的可靠协作机制"
-date: "2026-08-09T15:15:00"
+date: "2026-08-07T14:00:00"
 track: "messaging"
 presenters: "Zhou Li"
 stype: "中文演讲"

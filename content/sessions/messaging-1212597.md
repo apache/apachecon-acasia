@@ -1,6 +1,6 @@
 ---
 title: "Apache RocketMQ For AI: Reliable Collaboration Mechanisms for Multi-Agent Systems"
-date: "2026-08-09T15:15:00"
+date: "2026-08-07T14:00:00"
 track: "messaging"
 presenters: "Zhou Li"
 stype: "Chinese Session"
