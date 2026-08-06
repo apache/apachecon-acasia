@@ -244,19 +244,6 @@
                 href="/sessions/iot-1185186.html"
                 />
   </url><url>
-    <loc>/sessions/messaging-1212597.html</loc>
-    <lastmod>2026-08-09T15:15:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/messaging-1212597.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/messaging-1212597.html"
-                />
-  </url><url>
     <loc>/sessions/incubator-1210256.html</loc>
     <lastmod>2026-08-09T15:15:00+00:00</lastmod>
     <xhtml:link
@@ -333,6 +320,19 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="/sessions/datalake-1213484.html"
+                />
+  </url><url>
+    <loc>/sessions/messaging-1211843.html</loc>
+    <lastmod>2026-08-09T15:15:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/messaging-1211843.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/messaging-1211843.html"
                 />
   </url><url>
     <loc>/sessions/streaming-1199793.html</loc>
@@ -1414,6 +1414,19 @@
                 href="/sessions/datalake-1212641.html"
                 />
   </url><url>
+    <loc>/sessions/messaging-1196418.html</loc>
+    <lastmod>2026-08-07T16:15:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/messaging-1196418.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/sessions/messaging-1196418.html"
+                />
+  </url><url>
     <loc>/sessions/dataai-1207761.html</loc>
     <lastmod>2026-08-07T16:15:00+00:00</lastmod>
     <xhtml:link
@@ -1490,19 +1503,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="/sessions/community-1241720.html"
-                />
-  </url><url>
-    <loc>/sessions/messaging-1211843.html</loc>
-    <lastmod>2026-08-07T16:15:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/messaging-1211843.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="/sessions/messaging-1211843.html"
                 />
   </url><url>
     <loc>/sessions/dataai-1214460.html</loc>
@@ -1804,17 +1804,17 @@
                 href="/sessions/datastorage-1210477.html"
                 />
   </url><url>
-    <loc>/sessions/messaging-1196418.html</loc>
+    <loc>/sessions/messaging-1212597.html</loc>
     <lastmod>2026-08-07T14:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/sessions/messaging-1196418.html"
+                href="/zh/sessions/messaging-1212597.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/sessions/messaging-1196418.html"
+                href="/sessions/messaging-1212597.html"
                 />
   </url><url>
     <loc>/sessions/datalake-1208879.html</loc>

@@ -93,13 +93,6 @@
       <description>&lt;p&gt;I will introduce the recent improvements in Apache NIFI since 2025, including new features and how enterprise use Apache NIFI to help their daily works&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/7f2b-400o400o1-nuJLtj28mqNhmWTXfrjWMp.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yan Liu: Cloudera&lt;/p&gt;&#xA;&lt;p&gt;Cloudera Solution Engineering . Apache Hive and Apache Flink Contributor. Over 10 Years of Practical Experience in Big Data and my current focus is real-time data warehouse using Apache Flink, Apache Hive, and Apache Iceberg.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Apache RocketMQ For AI: Reliable Collaboration Mechanisms for Multi-Agent Systems</title>
-      <link>/sessions/messaging-1212597.html</link>
-      <pubDate>Sun, 09 Aug 2026 15:15:00 +0000</pubDate>
-      <guid>/sessions/messaging-1212597.html</guid>
-      <description>&lt;p&gt;Section 1: Engineering Challenges in Agent Collaboration&#xA;1.1 Communication Complexity: Link fragmentation, resource contention, and scheduling blind spots under concurrent inference.&#xA;1.2 Engineering Hazards: Disrupted communication links, resource contention and scheduling failure caused by transient bursts, and the difficulty of fault recovery following the loss of collaborative context.&lt;/p&gt;&#xA;&lt;p&gt;Section 2: Lite-Topic: Efficient Routing and Scheduling for Massive Sessions&#xA;2.1 Dynamic Session Management: Building a TTL-based, second-level dynamic topology to achieve logical isolation of session spaces between agents.&#xA;2.2 ReadySet Scheduling Mechanism: Optimizing the delivery efficiency of massive agent events via distributed brokers, addressing &amp;ldquo;thundering herd&amp;rdquo; problems and latency jitter under ultra-high concurrency.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Beyond Incubation: Building a Sustainable Apache Community with Cloudberry</title>
       <link>/sessions/incubator-1210256.html</link>
       <pubDate>Sun, 09 Aug 2026 15:15:00 +0000</pubDate>
@@ -140,6 +133,13 @@
       <pubDate>Sun, 09 Aug 2026 15:15:00 +0000</pubDate>
       <guid>/sessions/datalake-1213484.html</guid>
       <description>&lt;p&gt;Apache Iceberg has become the de facto standard for open table formats, and the Iceberg REST Catalog is the key to decoupling compute from storage. However, while the REST specification defines how to exchange metadata, it leaves the security—authentication, authorization, and audit—as an exercise for the user. For organizations transitioning from experimental projects to production lakehouses, this &amp;ldquo;security gap&amp;rdquo; presents a significant hurdle.&#xA;In this talk, we introduce Apache REST, an open-source federated metadata lake that provides a production-ready implementation of the Iceberg REST service. We will walk through the technical architecture of how REST acts as a secure catalog proxy.&#xA;Key takeaways include:&#xA;Identity &amp;amp; Authentication: A deep dive into Gravitino’s support for OAuth2, Basic, Kerberos, and HTTPS to ensure only verified clients can access the catalog.&#xA;Unified Access Control: How to manage fine-grained permissions (RBAC) at the catalog, namespace, and table levels, even when using legacy backends like Hive Metastore or JDBC.&#xA;Credential Vending: How Gravitino securely provides short-lived storage credentials (S3/GCS/Azure) to clients, ensuring data-layer security is as strong as the metadata layer.&#xA;Real-world Integration: A demonstration of how Spark, Trino, and Flink can interact with a secured Gravitino Iceberg REST endpoint without custom engine forks or patches.&#xA;Whether you are a platform engineer building a multi-tenant data lake or a security architect concerned about open-source governance, this session will provide a blueprint for a secure, vendor-neutral Iceberg infrastructure&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xiaomi RocketMQ Production Practices in Large-Scale Clusters</title>
+      <link>/sessions/messaging-1211843.html</link>
+      <pubDate>Sun, 09 Aug 2026 15:15:00 +0000</pubDate>
+      <guid>/sessions/messaging-1211843.html</guid>
+      <description>&lt;p&gt;This sharing focuses on Xiaomi’s practical experience in applying RocketMQ and MQTT in large-scale cluster scenarios, with an emphasis on the core challenges faced by Xiaomi in the field of message middleware and the corresponding solutions.It covers the optimization of ordered messages, disaster recovery and current limiting mechanisms, and multi-dimensional performance tuning for RocketMQ, as well as stability assurance and architectural optimization practices of MQTT in scenarios with tens of millions of connections.The session aims to provide the industry with reference insights for the implementation of large-scale messaging systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A New Consumer Offset Policy — &#39;From Now On, I Want Every Single Message&#39;</title>
@@ -723,6 +723,13 @@
       <description>&lt;p&gt;Apache Iceberg has revolutionized data lakes by bringing ACID transactions and flexible table updates. However, at enterprise scale, &amp;ldquo;hands-off&amp;rdquo; management is a myth. Without the right maintenance strategy, high-throughput systems often suffer from rising storage costs, query performance degradation, and failures.&lt;/p&gt;&#xA;&lt;p&gt;In this session, we will dissect real-world customer escalations ranging from systems crashing because they had to process massive amounts of metadata, to cleanup tasks being blocked by constant data updates from multiple concurrent writers.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Apache RocketMQ Routing Control Plane Evolution</title>
+      <link>/sessions/messaging-1196418.html</link>
+      <pubDate>Fri, 07 Aug 2026 16:15:00 +0000</pubDate>
+      <guid>/sessions/messaging-1196418.html</guid>
+      <description>&lt;p&gt;This session explains how we evolved a lightweight external routing control plane for Apache RocketMQ to support large-cluster governance without changing brokers, nameservers, or client access patterns.&lt;/p&gt;&#xA;&lt;p&gt;As multiple business lines gradually shared one common cluster, the real challenge shifted from throughput to governance: faster failure convergence, controllable topic migration, and flexible lane-based traffic isolation. In this talk, I will show why these problems are better solved in the routing layer, why existing NameServer and Broker mechanisms are not sufficient, and how broker write isolation, topic migration, and lane-based traffic isolation can be unified in one control plane to support large-cluster split with a smaller blast radius and more controllable governance.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Building a Palantir-like Data &amp; AI Platform with the Apache Stack</title>
       <link>/sessions/dataai-1207761.html</link>
       <pubDate>Fri, 07 Aug 2026 16:15:00 +0000</pubDate>
@@ -763,13 +770,6 @@
       <pubDate>Fri, 07 Aug 2026 16:15:00 +0000</pubDate>
       <guid>/sessions/community-1241720.html</guid>
       <description>&lt;p&gt;AI-assisted development and software agents are changing how open-source software is reused. Code can now be referenced, rewritten, or propagated through AI workflows without showing up in package manifests, forks, or traditional dependency graphs.&lt;/p&gt;&#xA;&lt;p&gt;This creates a new challenge for open-source communities: how do we preserve attribution, provenance, maintainer visibility, and long-term sustainability without restricting software freedom or blocking AI usage?&lt;/p&gt;&#xA;&lt;p&gt;This panel will discuss how open-source infrastructure may need to evolve in the agentic era, covering machine-readable attribution, dependency visibility, maintainer metadata, voluntary pledges, public accountability, and AI-era licensing. Using OpenSeed and the draft OpenSeed Agentic Open License 0.1 as a case study, we will explore how communities can keep open-source ecosystems visible, accountable, and sustainable as AI changes the meaning of downstream reuse.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Xiaomi RocketMQ Production Practices in Large-Scale Clusters</title>
-      <link>/sessions/messaging-1211843.html</link>
-      <pubDate>Fri, 07 Aug 2026 16:15:00 +0000</pubDate>
-      <guid>/sessions/messaging-1211843.html</guid>
-      <description>&lt;p&gt;This sharing focuses on Xiaomi’s practical experience in applying RocketMQ and MQTT in large-scale cluster scenarios, with an emphasis on the core challenges faced by Xiaomi in the field of message middleware and the corresponding solutions.It covers the optimization of ordered messages, disaster recovery and current limiting mechanisms, and multi-dimensional performance tuning for RocketMQ, as well as stability assurance and architectural optimization practices of MQTT in scenarios with tens of millions of connections.The session aims to provide the industry with reference insights for the implementation of large-scale messaging systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Architecting the AI-Data Bridge: Exploring the Model Context Protocol (MCP) for Apache Hive</title>
@@ -923,7 +923,7 @@
       <link>/sessions/aiinfra-1214790.html</link>
       <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
       <guid>/sessions/aiinfra-1214790.html</guid>
-      <description>&lt;p&gt;Apache APISIX is a cloud-native API gateway that is now gradually evolving into an AI gateway as well. This talk will provide an overview of this evolution, along with some of the core features of the AI gateway and the ideas behind its implementation.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2621-400o400o1-PUyHgnJweYXq4DhABszJKA.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ming Wen: PMC Chair of Apache APISIX&lt;/p&gt;&#xA;&lt;p&gt;PMC Chair of Apache APISIX, Member of ASF&lt;/p&gt;</description>
+      <description>&lt;p&gt;Apache APISIX is a cloud-native API gateway that is now gradually evolving into an AI gateway as well. This talk will provide an overview of this evolution, along with some of the core features of the AI gateway and the ideas behind its implementation.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2621-400o400o1-PUyHgnJweYXq4DhABszJKA.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Qi Guo: Committer of Apache APISIX&lt;/p&gt;&#xA;&lt;p&gt;Committer of Apache APISIX&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Ozone: Auto File Expiration and Removing through S3 Lifecycle Configuration</title>
@@ -933,11 +933,11 @@
       <description>&lt;p&gt;Apache Ozone is a distributed storage system in the Hadoop ecosystem. It supports both Hadoop Filesystem and AWS S3 compatible RESTFull API. In a distributed storage system in the big data ecosystem, normally some files are short lived temporary data, and some files are long lived permanent data, system administrators or users have to manually remove the temporary files when they are not used anymore. In this session, we will introduce the new feature S3 Lifecycle Configuration - Object Expiration, which will be released soon in the next Ozone 2.2.0 release, about how the S3 Lifecycle Configuration - Object Expiration feature is designed, how to use the feature to automatically expiration and removing temporary files by setting lifecycle configuration on target bucket, and share the experience of this feature in production environment.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Apache RocketMQ Routing Control Plane Evolution</title>
-      <link>/sessions/messaging-1196418.html</link>
+      <title>Apache RocketMQ For AI: Reliable Collaboration Mechanisms for Multi-Agent Systems</title>
+      <link>/sessions/messaging-1212597.html</link>
       <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
-      <guid>/sessions/messaging-1196418.html</guid>
-      <description>&lt;p&gt;This session explains how we evolved a lightweight external routing control plane for Apache RocketMQ to support large-cluster governance without changing brokers, nameservers, or client access patterns.&lt;/p&gt;&#xA;&lt;p&gt;As multiple business lines gradually shared one common cluster, the real challenge shifted from throughput to governance: faster failure convergence, controllable topic migration, and flexible lane-based traffic isolation. In this talk, I will show why these problems are better solved in the routing layer, why existing NameServer and Broker mechanisms are not sufficient, and how broker write isolation, topic migration, and lane-based traffic isolation can be unified in one control plane to support large-cluster split with a smaller blast radius and more controllable governance.&lt;/p&gt;</description>
+      <guid>/sessions/messaging-1212597.html</guid>
+      <description>&lt;p&gt;Section 1: Engineering Challenges in Agent Collaboration&#xA;1.1 Communication Complexity: Link fragmentation, resource contention, and scheduling blind spots under concurrent inference.&#xA;1.2 Engineering Hazards: Disrupted communication links, resource contention and scheduling failure caused by transient bursts, and the difficulty of fault recovery following the loss of collaborative context.&lt;/p&gt;&#xA;&lt;p&gt;Section 2: Lite-Topic: Efficient Routing and Scheduling for Massive Sessions&#xA;2.1 Dynamic Session Management: Building a TTL-based, second-level dynamic topology to achieve logical isolation of session spaces between agents.&#xA;2.2 ReadySet Scheduling Mechanism: Optimizing the delivery efficiency of massive agent events via distributed brokers, addressing &amp;ldquo;thundering herd&amp;rdquo; problems and latency jitter under ultra-high concurrency.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Beyond Metadata: Advanced Iceberg Management with Apache Gravitino</title>
