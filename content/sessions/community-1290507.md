@@ -1,6 +1,6 @@
 ---
 title: "Automate Everything Except the Maintainer"
-date: "2026-08-07T15:45:00"
+date: "2026-08-07T15:00:00"
 track: "community"
 presenters: "Jarek Potiuk"
 stype: "English Session"

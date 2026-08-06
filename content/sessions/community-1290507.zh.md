@@ -1,6 +1,6 @@
 ---
 title: "自动化一切，除了维护者"
-date: "2026-08-07T15:45:00"
+date: "2026-08-07T15:00:00"
 track: "community"
 presenters: "Jarek Potiuk"
 stype: "英文演讲"
