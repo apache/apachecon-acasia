@@ -958,7 +958,7 @@
       <link>/sessions/aiinfra-1214790.html</link>
       <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
       <guid>/sessions/aiinfra-1214790.html</guid>
-      <description>&lt;p&gt;Apache APISIX is a cloud-native API gateway that is now gradually evolving into an AI gateway as well. This talk will provide an overview of this evolution, along with some of the core features of the AI gateway and the ideas behind its implementation.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2621-400o400o1-PUyHgnJweYXq4DhABszJKA.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Qi Guo: Committer of Apache APISIX&lt;/p&gt;&#xA;&lt;p&gt;Committer of Apache APISIX&lt;/p&gt;</description>
+      <description>&lt;p&gt;Apache APISIX is a cloud-native API gateway that is now gradually evolving into an AI gateway as well. This talk will provide an overview of this evolution, along with some of the core features of the AI gateway and the ideas behind its implementation.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/8836-400o400o2-43Jo23WQRRMAoNvjDAofCy.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Qi Guo: Committer of Apache APISIX&lt;/p&gt;&#xA;&lt;p&gt;Committer of Apache APISIX&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Ozone: Auto File Expiration and Removing through S3 Lifecycle Configuration</title>

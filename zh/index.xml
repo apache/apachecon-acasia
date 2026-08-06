@@ -965,7 +965,7 @@
       <link>/zh/sessions/aiinfra-1214790.html</link>
       <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
       <guid>/zh/sessions/aiinfra-1214790.html</guid>
-      <description>&lt;p&gt;Apache APISIX 是一个云原生 API 网关，现在也逐渐变为一个 AI 网关，这个分享中会大概介绍这个演进过程，以及 AI 网关的一些核心功能和实现思路。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/2621-400o400o1-PUyHgnJweYXq4DhABszJKA.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;郭奇：Apache APISIX Committer&lt;/p&gt;&#xA;&lt;p&gt;Apache APISIX Committer&lt;/p&gt;</description>
+      <description>&lt;p&gt;Apache APISIX 是一个云原生 API 网关，现在也逐渐变为一个 AI 网关，这个分享中会大概介绍这个演进过程，以及 AI 网关的一些核心功能和实现思路。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/8836-400o400o2-43Jo23WQRRMAoNvjDAofCy.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;郭奇：Apache APISIX Committer&lt;/p&gt;&#xA;&lt;p&gt;Apache APISIX Committer&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Ozone：基于 S3 生命周期配置的文件自动过期与删除</title>
