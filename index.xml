@@ -793,11 +793,11 @@
       <description>&lt;p&gt;An organization shall establish AI governance frameworks, policies, and practices to ensure that AI systems are developed, deployed, and managed responsibly. Governance shall emphasize compliance with applicable and emerging AI laws and regulations (e.g., the EU AI Act), while also addressing ethical considerations, risk management, and transparency.&#xA;Based on the above principles, OpenChain has developed an AI SBOM Self-Certification program to help organizations reduce AI-related risks from an implementation perspective. This approach aligns with and supports the implementation of ISO/IEC 42001.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Open Source Community Operations and Developer Ecosystem AMA</title>
+      <title>Open Source Community &amp; Developer Ecosystem AMA: How Communities Succeed Beyond Code</title>
       <link>/sessions/community-1196034.html</link>
       <pubDate>Fri, 07 Aug 2026 16:00:00 +0000</pubDate>
       <guid>/sessions/community-1196034.html</guid>
-      <description>&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;Richard Lin&lt;/p&gt;</description>
+      <description>&lt;p&gt;The success of an open source project is never determined by code alone. Why should companies continue investing in open source and developer ecosystems? Do stars, downloads, and signups truly reflect community health? How can users become contributors and maintainers? How can a vendor-led project earn community trust while building a sustainable business? And how do we address maintainer burnout, career ceilings, and leadership succession?&lt;/p&gt;&#xA;&lt;p&gt;This session is not a conventional lecture. It is a small, interactive AMA where participants are encouraged to ask questions, interrupt, challenge assumptions, and share real problems from their projects, communities, and companies.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Architecting the AI-Data Bridge: Exploring the Model Context Protocol (MCP) for Apache Hive</title>
