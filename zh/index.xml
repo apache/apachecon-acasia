@@ -468,7 +468,7 @@
       <link>/zh/sessions/general-1215238.html</link>
       <pubDate>Sat, 08 Aug 2026 15:45:00 +0000</pubDate>
       <guid>/zh/sessions/general-1215238.html</guid>
-      <description>&lt;p&gt;本次演讲围绕 Apache Seata 的孵化与成长展开：从阿里巴巴内部项目到进入 Apache 孵化，再到社区治理、生态扩展与版本演进的历程。我们将分析在多数据库、跨语言支持、性能和一致性保证等方面的关键技术挑战与设计决策。第二部分呈现 Seata 在 AI 驱动方向的探索，包括基于机器学习的异常事务检测、智能冲突预测与自适应回滚策略、自动化的性能瓶颈定位以及测试用例生成——并结合实际案例与成果加以说明。适合对分布式事务实现、开源社区建设以及 AI + 中间件实践感兴趣的听众。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ed51-400o400o1-BTDBgQinUQqS5cv8CRWb4e.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;孙浩然：Apache Seata Committer&lt;/p&gt;&#xA;&lt;p&gt;Apache Seata Committer，目前在小红书云原生存储组做引擎开发，青岛科技大学软件工程大三学生，热爱开源&lt;/p&gt;</description>
+      <description>&lt;p&gt;本次演讲围绕 Apache Seata 的孵化与成长展开：从阿里巴巴内部项目到进入 Apache 孵化，再到社区治理、生态扩展与版本演进的历程。我们将分析在多数据库、跨语言支持、性能和一致性保证等方面的关键技术挑战与设计决策。第二部分呈现 Seata 在 AI 驱动方向的探索，包括基于机器学习的异常事务检测、智能冲突预测与自适应回滚策略、自动化的性能瓶颈定位以及测试用例生成——并结合实际案例与成果加以说明。适合对分布式事务实现、开源社区建设以及 AI + 中间件实践感兴趣的听众。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/f959-400o400o2-w3yrBz5ZaQj7HLSHCTeHuP.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;孙浩然：Apache Seata Committer&lt;/p&gt;&#xA;&lt;p&gt;Apache Seata Committer，目前在小红书云原生存储组做引擎开发，青岛科技大学软件工程大三学生，热爱开源&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fluss × Alipay：营销场景下的流式存储实践</title>
@@ -490,13 +490,6 @@
       <pubDate>Sat, 08 Aug 2026 15:45:00 +0000</pubDate>
       <guid>/zh/sessions/community-1213694.html</guid>
       <description>&lt;p&gt;每一个 ASF 项目都会留下经验教训。本次演讲展示如何把真实的 Incubator（孵化器）案例转化为实用的培训材料——借助 AI 来识别模式、总结讨论，从而帮助改进新人上手、导师辅导和社区发展。&lt;/p&gt;&#xA;&lt;p&gt;每一个 ASF 项目都有自己的故事。有的迅速成长，有的需要数年才找到节奏，还有的则逐渐淡出。每一个都留下了关于社区、治理与协作的宝贵经验。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲展示如何把这些经验教训转化为面向 Apache 孵化器的实用辅导与培训材料。通过分析真实项目的案例研究，并借助 AI 工具总结模式、起草内容，我们创建了新的指南、测验和互动式学习场景，帮助导师和贡献者从真实经历中学习。&lt;/p&gt;&#xA;&lt;p&gt;我们将分享哪些做法奏效、哪些没有，以及 AI 如何帮助我们快速识别模式，并把冗长的对话转化为清晰、有用的学习材料。你将获得实用的建议，了解任何开源群体都可以如何利用 AI 来记录自己的历史、简化新人上手流程，并促进更高效的导师辅导。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/abea-400o400o1-G3ffQGzCrw1XXcqnfNEzrB.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Justin Mclean：ASF 董事，VP ASF Incubator，Datastrato 社区经理&lt;/p&gt;&#xA;&lt;p&gt;Justin Mclean 是 Apache 软件基金会（ASF）的长期贡献者，目前担任 ASF 孵化器的 VP，同时也是 ASF 董事会成员。多年来，他参与了孵化器治理、政策和培训项目的演进，包括记录项目在实践中的真实运作方式，以及分析孵化器的历史。通过这些工作，他已支持数以百计的开源项目构建可持续、独立的社区。&lt;/p&gt;&#xA;&lt;p&gt;他在引导项目从早期孵化到成功毕业方面经验丰富，并已审阅过上千次开源发布。他的工作聚焦于开源治理、社区健康，以及支撑大规模协作的系统设计。&lt;/p&gt;&#xA;&lt;p&gt;Justin 经常在国际会议上围绕开源治理、许可证和社区建设等主题发表演讲，分享从众多 ASF 项目和社区的真实经验中提炼出的实践教训。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>使用 Rust 构建开源的安全关键软件</title>
-      <link>/zh/sessions/rust-1241357.html</link>
-      <pubDate>Sat, 08 Aug 2026 15:45:00 +0000</pubDate>
-      <guid>/zh/sessions/rust-1241357.html</guid>
-      <description>&lt;p&gt;开源和安全是两个平行的生态系统，但它们正在逐渐走到一起。本次演讲不仅会介绍其中一种解决方案（Ferrocene Rust 编译器），还会回顾一些已经在工业领域用 Rust 完成的项目。我们将展示 Rust 如何成为汽车、工业机器人以及医疗领域的下一门重要语言。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/01f3-400o400o1-WW2P7kugtiYnEM4EJwCxPE.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Allen Wyma：Plangora 创始人兼董事&lt;/p&gt;&#xA;&lt;p&gt;Allen 骨子里是一名程序员，也是一位富有远见的技术领导者。他拥有超过 16 年的一线开发经验，为 Plangora 制定技术战略，并培育创新与工程卓越的文化。&#xA;他的职业生涯包括为 Motorola、Credit Suisse 和 Bank of America 等行业巨头打造关键解决方案。作为一名软件架构师，他在带领团队、推动复杂项目从最初的概念走向成功的 MVP 方面拥有公认的业绩，始终按时交付并超出预期。&#xA;在客户工作之外，Allen 也是科技社区中备受尊敬的意见领袖。他通过自己广受欢迎的播客，分享自己在 Rust、Flutter 等语言方面的深厚专业知识。&lt;/p&gt;</description>
     </item>
     <item>
       <title>演进中的实时湖仓：大规模下的稳定性与性能突破</title>
@@ -786,13 +779,6 @@
       <description>&lt;p&gt;组织应当建立 AI 治理框架、政策和实践，以确保 AI 系统的开发、部署和管理是负责任的。治理应当强调遵守现行及新兴的 AI 法律法规（例如欧盟《AI 法案》），同时兼顾伦理考量、风险管理与透明度。&#xA;基于上述原则，OpenChain 推出了一项 AI SBOM 自认证（Self-Certification）计划，帮助组织从落地实施的角度降低与 AI 相关的风险。这一方法与 ISO/IEC 42001 的实施相契合，并对其形成支撑。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d738-400o400o1-HFEDBLyHWFW58F4W9v8bbc.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Meixia Wang：Linux Foundation，OpenChain 项目执行董事&lt;/p&gt;&#xA;&lt;p&gt;Mary Wang 是 Linux Foundation 旗下 OpenChain 基金会的执行董事。&lt;/p&gt;&#xA;&lt;p&gt;在担任此职务之前，她曾任沃尔沃汽车（Volvo Cars）开源生态总监，主导了多项关键举措，包括发起开源项目、为开源生态建设配套基础设施，以及在公司内部建立开源项目办公室（OSPO）。&lt;/p&gt;&#xA;&lt;p&gt;在加入沃尔沃汽车之前，Mary 曾在爱立信（Ericsson）工作九年。期间，她先是担任 DevOps 工程师，开发并实施 CI/CD 流水线；后来担任技术产品经理（TPM），对产品进行端到端的负责。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>当 AI 成为下游：重新思考开源的署名、许可与长期可持续性</title>
-      <link>/zh/sessions/community-1241720.html</link>
-      <pubDate>Fri, 07 Aug 2026 16:15:00 +0000</pubDate>
-      <guid>/zh/sessions/community-1241720.html</guid>
-      <description>&lt;p&gt;AI 辅助开发和软件 agent 正在改变开源软件被复用的方式。如今，代码可以经由 AI 工作流被引用、改写或传播，而不出现在包清单（package manifest）、fork 或传统的依赖图当中。&lt;/p&gt;&#xA;&lt;p&gt;这给开源社区带来了一个新挑战：在不限制软件自由、也不封禁 AI 使用的前提下，我们如何保留署名（attribution）、来源（provenance）、维护者可见性以及长期可持续性？&lt;/p&gt;&#xA;&lt;p&gt;本小组讨论将探讨在 agentic 时代，开源基础设施可能需要如何演进，话题涵盖机器可读的署名、依赖可见性、维护者元数据、自愿承诺（voluntary pledges）、公共问责，以及 AI 时代的许可证。我们将以 OpenSeed 及其草案版 OpenSeed Agentic Open License 0.1 为案例，探讨随着 AI 改变&amp;quot;下游复用&amp;quot;的含义，社区如何让开源生态保持可见、可问责且可持续。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/db56-400o400o1-JhVweUbiicXGKShk6tJBtu.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ian Xu: OpenSeed 发起人, 开源社理事, OpenBuild Co-founder&lt;/p&gt;&#xA;&lt;p&gt;OpenSeed 发起人, 开源社理事, OpenBuild Co-founder&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>基于 Apache Polaris Events 构建审计与集成</title>
       <link>/zh/sessions/datalake-1207558.html</link>
       <pubDate>Fri, 07 Aug 2026 16:15:00 +0000</pubDate>
@@ -805,6 +791,13 @@
       <pubDate>Fri, 07 Aug 2026 16:15:00 +0000</pubDate>
       <guid>/zh/sessions/dataai-1207761.html</guid>
       <description>&lt;p&gt;越来越多的现代企业希望拥有一个集数据集成、治理、血缘与业务应用于一体的统一平台——类似于 Palantir Foundry 这类平台所提供的能力。然而，从零开始构建这样一套系统，往往显得复杂得令人望而却步。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲将介绍一种务实、以工程为驱动的方法，讲解如何基于 Apache 生态构建一个&amp;quot;类 Foundry&amp;quot;的平台。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/a7d4-400o400o1-4GZYizF3DAJcbH1tVcZhj4.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zhangjian He：华为云高级工程师 | 华为云开源团队成员&lt;/p&gt;&#xA;&lt;p&gt;开源爱好者，经验丰富的工程师。自 2017 年开始软件开发以来，我在华为云物联网平台的云原生转型以及工业物联网平台的开发中扮演了关键角色。我担任 Apache BookKeeper/ServiceComb PMC 成员、Apache Pulsar Committer，以及 CNCF openGemini Maintainer。我专长涵盖编码、软件工程、开源与生态建设，致力于推动最佳实践与开发标准。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>开源社区运营及开发者生态 AMA</title>
+      <link>/zh/sessions/community-1196034.html</link>
+      <pubDate>Fri, 07 Aug 2026 16:00:00 +0000</pubDate>
+      <guid>/zh/sessions/community-1196034.html</guid>
+      <description>&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;Richard Lin&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Cloudberry（孵化中）2.1 与 3.0 有哪些新特性</title>
@@ -849,11 +842,11 @@
       <description>&lt;p&gt;云端有状态消息系统的高可用，往往受制于成本、稳态性能与故障恢复速度之间艰难的权衡。基于副本（replication）的方案可以缩短恢复时间，但通常会带来额外的写放大、资源开销和运维复杂度。相比之下，单副本部署能够保持性能与成本效率，但其在 Kubernetes 中的故障恢复路径往往被缓慢且不可控的 volume detach/attach 流程所主导。&lt;/p&gt;&#xA;&lt;p&gt;在本次演讲中，我将分享我们如何重新思考云端 Apache RocketMQ 的高可用，并构建了一套经过生产验证的架构——在稳态下不增加额外数据副本即可实现秒级故障恢复。核心思路是保持 RocketMQ 常规存储路径不变，转而围绕 Multi-Attach 块存储和 NVMe Persistent Reservation 重新设计接管路径。这种 protocol-fenced 接管模型让新节点能够安全地抢占磁盘所有权、防止脑裂，并快速恢复服务，而无需等待传统的存储迁移流程。&lt;/p&gt;&#xA;&lt;p&gt;我将讲解整体架构、故障检测与接管流程、安全性与一致性考量，以及在 Apache RocketMQ 中的实现细节。演讲还会介绍去中心化的租约探测（lease probing）、节点侧的接管编排，以及崩溃一致性恢复（crash-consistent recovery）如何协同工作，从而缩短并稳定故障恢复的关键路径。&lt;/p&gt;&#xA;&lt;p&gt;最后，我将分享来自阿里云的生产经验——这套架构已部署于 Apache RocketMQ 服务，并通过了大规模容灾演练的验证。本议题背后的底层工作也被 FSE 2026 Industry track 收录，而本次演讲将聚焦于生产架构、工程权衡，以及从 Apache RocketMQ 中总结的实践教训。听众将获得在云原生环境下设计高可用有状态消息系统的实用洞察，并学会在真实生产系统中如何在恢复目标与成本、性能之间取得平衡。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/c982-400o400o1-fRQaABrX2ckEWrDpwXmMNW.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Rongtong Jin：阿里云技术专家，Apache RocketMQ PMC 成员&lt;/p&gt;&#xA;&lt;p&gt;Rongtong Jin 是阿里云的技术专家，也是 Apache RocketMQ 的 PMC 成员。他从事云端消息系统的架构设计与生产运维，专注于高可用、存储可靠性和大规模有状态服务。他在 Apache RocketMQ 的云化演进、生产落地和稳定性工程方面拥有丰富经验。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>自动化一切，除了维护者</title>
-      <link>/zh/sessions/community-1290507.html</link>
-      <pubDate>Fri, 07 Aug 2026 15:45:00 +0000</pubDate>
-      <guid>/zh/sessions/community-1290507.html</guid>
-      <description>&lt;p&gt;每一个面向开源的 AI 方案都在承诺同一件事：让维护者找回时间。但时间从来都不是瓶颈——如果是的话，资金支持和贡献者招募早就在多年前解决了倦怠问题。真正的问题在于，当一位维护者离开时，他所知道的一切也随之消失：那个变通方案为何存在、哪次&amp;quot;清理&amp;quot;会在生产环境中引发爆炸、2019 年到底什么失败了。巴士因子为一。本次演讲要论证的是，AI 真正的价值不在于速度，而在于传承——把维护者所掌握的知识转化为一种 Agent 可以执行、新人可以阅读的技能。结合从 Breeze 到 Apache Magpie 的十年经验，我将展示如何在&amp;quot;该自动化&amp;quot;与&amp;quot;不该自动化&amp;quot;之间划清界限，以及为什么这条线划错了，只会造出一台跑得更快的跑步机，而不是一个能够存续的项目。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d2aa-400o400o1-EewiHHXp9U5qwHQBiQVVtc.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jarek Potiuk：独立开源贡献者与顾问&lt;/p&gt;&#xA;&lt;p&gt;独立开源贡献者与顾问，Apache Airflow Committer 与 PMC 成员，Apache 软件基金会成员&lt;/p&gt;&#xA;&lt;p&gt;Jarek 是一位工程师，在众多领域拥有丰富经验——开源、云计算、移动端、机器人、人工智能、后端、开发者体验；同时他也有大量非工程领域的经验——经营公司、担任 CTO、组织大型国际社区活动、技术销售支持、公关与营销咨询，以及研究许可证的法律层面和构建开源社区，这些都尽在他的掌握之中。&lt;/p&gt;&#xA;&lt;p&gt;凭借在从极小到极大以及介于两者之间的各类公司中积累的经验，Jarek 在开源世界中找到了自己的位置，在这里，他作为个人贡献者的内在驱动力能够被发挥到极致。&lt;/p&gt;</description>
+      <title>当 AI 成为下游：重新思考开源的署名、许可与长期可持续性</title>
+      <link>/zh/sessions/community-1241720.html</link>
+      <pubDate>Fri, 07 Aug 2026 15:30:00 +0000</pubDate>
+      <guid>/zh/sessions/community-1241720.html</guid>
+      <description>&lt;p&gt;AI 辅助开发和软件 agent 正在改变开源软件被复用的方式。如今，代码可以经由 AI 工作流被引用、改写或传播，而不出现在包清单（package manifest）、fork 或传统的依赖图当中。&lt;/p&gt;&#xA;&lt;p&gt;这给开源社区带来了一个新挑战：在不限制软件自由、也不封禁 AI 使用的前提下，我们如何保留署名（attribution）、来源（provenance）、维护者可见性以及长期可持续性？&lt;/p&gt;&#xA;&lt;p&gt;本小组讨论将探讨在 agentic 时代，开源基础设施可能需要如何演进，话题涵盖机器可读的署名、依赖可见性、维护者元数据、自愿承诺（voluntary pledges）、公共问责，以及 AI 时代的许可证。我们将以 OpenSeed 及其草案版 OpenSeed Agentic Open License 0.1 为案例，探讨随着 AI 改变&amp;quot;下游复用&amp;quot;的含义，社区如何让开源生态保持可见、可问责且可持续。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/db56-400o400o1-JhVweUbiicXGKShk6tJBtu.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ian Xu: OpenSeed 发起人, 开源社理事, OpenBuild Co-founder&lt;/p&gt;&#xA;&lt;p&gt;OpenSeed 发起人, 开源社理事, OpenBuild Co-founder&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Impala 中的高效元数据缓存</title>
@@ -898,11 +891,11 @@
       <description>&lt;p&gt;随着 AI 工作负载成为现代数据平台的核心组成部分，企业不仅需要管理结构化表，还需要以统一的方式管理非结构化数据、向量数据、AI 模型和 AI 函数。传统的湖仓架构往往只以表格数据为中心，这使得在异构数据与 AI 资产之间构建一致的元数据和控制面变得困难。&lt;/p&gt;&#xA;&lt;p&gt;在本次演讲中，我们将分享中国移动如何基于 Apache Gravitino 在梧桐数据平台构建多模态 AI 湖仓。在这一架构中，Gravitino 作为统一的元数据和控制面，把结构化、非结构化数据与 AI 模型、AI 函数一并纳管。这使得平台中不同类型的资产能够获得一致的治理、发现与管理能力。&lt;/p&gt;&#xA;&lt;p&gt;我们还将讨论该平台如何结合 Apache Iceberg 和 Lance，以支撑对表格数据和多模态数据的统一分析。除了介绍 Apache Gravitino 的相关能力外，本次演讲还将呈现来自中国移动生产平台的实战经验，涵盖架构设计、元数据组织、集成模式、治理考量，以及真实部署中总结的经验教训。&lt;/p&gt;&#xA;&lt;p&gt;本次演讲面向数据平台工程师、湖仓架构师以及 AI 基础设施从业者，适合那些正在探索多模态数据与 AI 资产管理开放架构的人士。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/55b6-400o400o1-WRxegEMYqhs6HUADASeHmN.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Xiaojing Fang：Apache Gravitino Committer&lt;/p&gt;&#xA;&lt;p&gt;Apache Gravitino PPMC，中国移动架构师，专注于数据与 AI 基础设施。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/bb92-400o400o1-WjBK5tePeRDdbeQyJPHyyG.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Xintong Jiang：中国移动软件研发工程师&lt;/p&gt;&#xA;&lt;p&gt;拥有十余年大数据与 AI 领域的专业经验，在中国移动数智（Digital Intelligence）业务单元主导 PB 级多模态数据湖的开发。核心能力在于分布式计算与混合检索（hybrid retrieval）。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>开源社区运营及开发者生态 AMA</title>
-      <link>/zh/sessions/community-1196034.html</link>
+      <title>自动化一切，除了维护者</title>
+      <link>/zh/sessions/community-1290507.html</link>
       <pubDate>Fri, 07 Aug 2026 15:00:00 +0000</pubDate>
-      <guid>/zh/sessions/community-1196034.html</guid>
-      <description>&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;Richard Lin&lt;/p&gt;</description>
+      <guid>/zh/sessions/community-1290507.html</guid>
+      <description>&lt;p&gt;每一个面向开源的 AI 方案都在承诺同一件事：让维护者找回时间。但时间从来都不是瓶颈——如果是的话，资金支持和贡献者招募早就在多年前解决了倦怠问题。真正的问题在于，当一位维护者离开时，他所知道的一切也随之消失：那个变通方案为何存在、哪次&amp;quot;清理&amp;quot;会在生产环境中引发爆炸、2019 年到底什么失败了。巴士因子为一。本次演讲要论证的是，AI 真正的价值不在于速度，而在于传承——把维护者所掌握的知识转化为一种 Agent 可以执行、新人可以阅读的技能。结合从 Breeze 到 Apache Magpie 的十年经验，我将展示如何在&amp;quot;该自动化&amp;quot;与&amp;quot;不该自动化&amp;quot;之间划清界限，以及为什么这条线划错了，只会造出一台跑得更快的跑步机，而不是一个能够存续的项目。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/d2aa-400o400o1-EewiHHXp9U5qwHQBiQVVtc.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jarek Potiuk：独立开源贡献者与顾问&lt;/p&gt;&#xA;&lt;p&gt;独立开源贡献者与顾问，Apache Airflow Committer 与 PMC 成员，Apache 软件基金会成员&lt;/p&gt;&#xA;&lt;p&gt;Jarek 是一位工程师，在众多领域拥有丰富经验——开源、云计算、移动端、机器人、人工智能、后端、开发者体验；同时他也有大量非工程领域的经验——经营公司、担任 CTO、组织大型国际社区活动、技术销售支持、公关与营销咨询，以及研究许可证的法律层面和构建开源社区，这些都尽在他的掌握之中。&lt;/p&gt;&#xA;&lt;p&gt;凭借在从极小到极大以及介于两者之间的各类公司中积累的经验，Jarek 在开源世界中找到了自己的位置，在这里，他作为个人贡献者的内在驱动力能够被发挥到极致。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI 时代 Apache Kafka 的成本挑战：优化实践与社区最新进展</title>
