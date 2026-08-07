@@ -2,14 +2,14 @@
 
 <html>
 <head>
-    <title>演进中的实时湖仓：大规模下的稳定性与性能突破 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
+    <title>实时湖仓的演进：面向大规模场景的稳定性与性能突破 - Community Over Code Asia 2026 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src * maps: ;">
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='演进中的实时湖仓：大规模下的稳定性与性能突破'/>
+    <meta property='og:title' content='实时湖仓的演进：面向大规模场景的稳定性与性能突破'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -139,7 +139,7 @@
                         <a href="/zh/tracks/datalake.html">数据湖/数据仓库</a>
                     </nav>
 
-                    <h1 class="session-title">演进中的实时湖仓：大规模下的稳定性与性能突破</h1>
+                    <h1 class="session-title">实时湖仓的演进：面向大规模场景的稳定性与性能突破</h1>
 
                     
                         <div class="session-presenters">
@@ -163,17 +163,19 @@
 <p>本次分享将介绍一个基于 Flink CDC 3.4、Apache Iceberg 与 Apache Amoro 构建的生产级实时湖仓架构，支持多业务表、多分片场景下的秒级数据入湖能力。</p>
 <p>在数据同步层，我们重构了 Schema Evolution 架构，消除了模式变更过程中下游重复写入带来的性能瓶颈，使写入效率提升 80% 以上。同时，针对分布式环境中的模式一致性问题进行了系统性优化，显著提升了高并发场景下的数据同步稳定性。</p>
 <p>在数据优化层，基于 Apache Amoro 的自适应刷新与零拷贝合并机制，在显著降低 Metastore 负载的同时，实现了 4 倍的文件合并性能提升，并通过优化服务重启与运行机制进一步增强系统整体稳定性。</p>
-<p>本次分享将重点介绍两方面实践经验：
-● 面向大规模实时同步的分布式 Schema 演进与一致性保障
-● 基于自适应优化机制的湖仓性能优化与系统稳定性提升</p>
+<p>本次分享将重点介绍两方面实践经验：</p>
+<ul>
+<li>面向大规模实时同步的分布式 Schema 演进与一致性保障</li>
+<li>基于自适应优化机制的湖仓性能优化与系统稳定性提升</li>
+</ul>
 <p>相关能力已在电信运营商生产环境中落地，支撑 PB 级数据规模，为构建高性能、高稳定性的实时湖仓提供可落地的实践路径。</p>
 <h3 id="讲师">讲师:</h3>
 <p><img src="https://cdn.sessionize.com/image/9680-400o400o1-YG3mh3cmWmJDXyGB8CpYZy.jpg" width="200" /><br/></p>
-<p>Zhuojun Jiang：State Cloud 资深大数据工程师</p>
-<p>Zhuojun Jiang 是 State Cloud 的资深大数据工程师，专长于实时数据湖仓架构。她专注于基于 Apache FlinkCDC、Iceberg、Amoro 等技术的大数据开发、系统性能优化和实时数据同步。她积极参与开源社区，并通过行业论坛和技术分享传播实战经验。</p>
+<p>Zhuojun Jiang：天翼云 高级大数据工程师</p>
+<p>Zhuojun Jiang 是电信天翼云的一名大数据开发工程师，也是Apache Amoro (incubating) 项目的Committer。她正致力于实时大数据湖仓架构研发与优化，专注于基于Apache FlinkCDC、Iceberg 和 Amoro 等组件搭建的大数据湖仓设计与开发，并积极参与开源社区贡献。</p>
 <p><img src="https://cdn.sessionize.com/image/cc23-400o400o1-HUNA5fNUTQtYn6ZuzRMZPq.jpg" width="200" /><br/></p>
-<p>Wenling Zhang：StateCloud</p>
-<p>Apache（孵化中）Amoro contributor</p>
+<p>Wenling Zhang：天翼云 高级大数据工程师</p>
+<p>Wenling Zhang 是天翼云的一名大数据开发工程师，也是 Apache Amoro (incubating) 的 contributor。目前主要从事 Apache Iceberg、Amoro、Lance 等数据湖开源组件的开发与性能优化工作。</p>
 
                 </div>
 
