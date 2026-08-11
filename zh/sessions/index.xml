@@ -366,6 +366,13 @@
       <description>&lt;p&gt;在 Apache Cloudberry 中，优化器、规划器（planner）和执行器对同一条查询持有不同的抽象。当这些抽象之间出现分歧时，即使是简单的查询也可能引发严重的故障。&#xA;本次演讲分享一个涉及复制表（replicated table）上公共表表达式（CTE）共享扫描（Shared Scan）的真实 bug。当此类 CTE 被作为标量子查询多次引用时，查询可能无限期挂起，或报出&amp;quot;could not open existing temporary file&amp;quot;之类的错误。&#xA;根本原因在于逻辑执行与物理执行之间的错配：标量 SubPlan 向优化器隐藏了依赖关系，导致 slice 分配不正确，破坏了生产者—消费者的局部性。&#xA;在本次演讲中，我将梳理几种可选的修复方案，并解释每种方案是如何尝试解决这一问题的。我们会深入优化器内部，理解这个 bug 为何会产生、不同修复方案如何改变执行拓扑，以及为什么其中一些方案——尽管可行——却无法作为最终方案被接受。&#xA;有些修复会引入细微的回归、改变计划形态，或被迫回退到 Postgres 优化器，这凸显了在不破坏全局行为的前提下做局部改进的困难。&#xA;本次演讲展示了看似简单的查询模式如何暴露优化器与执行器之间深层的不一致——以及为什么修复这类问题往往需要在权衡中抉择，而非寻找一个唯一&amp;quot;正确&amp;quot;的答案。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/62a6-400o400o1-LjXRcX4dAwc4VGESotUqiG.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alena Rybakina：软件开发工程师，Yandex Cloud&lt;/p&gt;&#xA;&lt;p&gt;工作经历&#xA;拥有 5 年以上数据库系统专业经验，其中包括在 Postgres Professional 工作的 5 年。&#xA;主要兴趣&#xA;查询优化、MVCC 内部机制与数据库统计信息。&#xA;PostgreSQL 经验&#xA;拥有 4 年以上从事 PostgreSQL 内部实现、性能改进及优化器相关功能的一手经验。&#xA;主要项目与贡献&#xA;开发与优化相关的扩展和功能，包括 AQO（自适应查询优化，Adaptive Query Optimization）和自连接消除（Self-Join Elimination）。&#xA;对 PostgreSQL 查询规划器的实验性及面向生产的改进。&#xA;对 PostgreSQL 核心的贡献，包括优化器中的 OR-to-ANY 和 VALUES-to-ANY 转换。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>谁为数据买单？为 AI Agent 计量 Apache 数据管道</title>
+      <link>/zh/sessions/dataai-1300514.html</link>
+      <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
+      <guid>/zh/sessions/dataai-1300514.html</guid>
+      <description>&lt;p&gt;Solana 的数据基础设施早已运行在 Apache 之上——Kafka、Parquet、Arrow、DataFusion、Airflow、Beam 已被 Coinbase、Allium、Blockdaemon 等生态团队广泛采用。而 Apache 栈中缺失的一环是&amp;quot;计量&amp;quot;：目前没有任何组件能回答&amp;quot;这次调用谁来付、付多少、付给谁？&amp;quot;。本次分享将呈现 Solana 上最繁忙的开源数据管道如何依托 Apache 栈，并提出在数据面网关引入 x402（HTTP 402 Payment Required）中间件的方案，让开源项目可以对 AI Agent 按次计费；同时回顾链上数据变现的真实成功案例。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ec39-400o400o1-9Nf9FeCvduJjeZehKMU9nB.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mike Ma：Solana Foundation 开发者布道师&lt;/p&gt;&#xA;&lt;p&gt;Mike Ma 现任 Solana Foundation 开发者布道师，同时也是 Apache 生态与 Solana 生态的开源开发者，贡献了 Solana-go SDK、x402 协议、APP（Agentic Payment Protocol，智能体支付协议），并创办了 Solar——中文 Solana 开发者社区。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>探索用于守护 Web3 与 AI Agent 系统的机密计算</title>
       <link>/zh/sessions/rust-1211660.html</link>
       <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
@@ -378,13 +385,6 @@
       <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
       <guid>/zh/sessions/datalake-1212438.html</guid>
       <description>&lt;p&gt;Apache Impala 是一个混合的大规模并行查询引擎：它的查询规划和元数据处理由 Java 实现，而执行引擎则用 C++ 编写。这种架构在集成 Apache Iceberg 时会带来独特的挑战——因为 Iceberg 的参考实现与生态主要以 Java 为基础。听众将了解到把 Iceberg 引入非 JVM 查询引擎时所面临的实际挑战。&lt;/p&gt;&#xA;&lt;p&gt;我们将探讨 Iceberg 的特性如何在一个分布式 C++ 查询引擎中实现，以及 Impala 在哪些地方可以复用现有的 Iceberg 库、哪些地方又需要自定义实现。我们会深入具体案例，包括元数据处理和行级操作。本次演讲还会强调这种模式所带来的机遇，例如重新思考 merge-on-read 的实现方式。&lt;/p&gt;&#xA;&lt;p&gt;最后，听众还将了解 Impala 对 Iceberg 支持的现状，以及我们朝着采用 Iceberg V3 所取得的进展。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/84b3-400o400o1-7GoTobWcFvV4kLv5UvF1Mn.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Zoltán Borók-Nagy：Cloudera，Principal Engineer&lt;/p&gt;&#xA;&lt;p&gt;Zoltán 是 Cloudera 的软件工程师，从事 Apache Impala 相关工作。他也是该项目的 PMC 成员。目前他负责牵头 Impala/Iceberg 的集成工作。在加入 Cloudera 之前，Zoltán 从事 C++ 静态分析工具的开发。他感兴趣的方向包括分布式系统、大规模并行系统、数据库以及性能工程。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/0f03-400o400o1-VjFuA65v8Md5uQxrNPHre2.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Péter Rózsa：Cloudera，软件工程师&lt;/p&gt;&#xA;&lt;p&gt;Péter Rózsa 自 2020 年起在 Cloudera 担任软件工程师，于 2022 年开始为 Apache Impala 做贡献。他参与过 Impala 项目的多个部分，最近主要专注于 Iceberg 集成相关工作。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>在 Solana 上为 AI 构建智能体支付与数据变现层</title>
-      <link>/zh/sessions/dataai-1300514.html</link>
-      <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
-      <guid>/zh/sessions/dataai-1300514.html</guid>
-      <description>&lt;p&gt;介绍 Apache 生态中主流的智能体支付协议、由 Solana 构建的智能体支付网关、数据变现开源项目的成功案例，以及区块链协议如何引导开源智能体经济的发展。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ec39-400o400o1-9Nf9FeCvduJjeZehKMU9nB.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mike Ma：Solana Foundation 开发者布道师&lt;/p&gt;&#xA;&lt;p&gt;Mike Ma 现任 Solana Foundation 开发者布道师，同时也是 Apache 生态与 Solana 生态的开源开发者，贡献了 Solana-go SDK、x402 协议、APP（Agentic Payment Protocol，智能体支付协议），并创办了 Solar——中文 Solana 开发者社区。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fluss × 湖仓：在数据湖上解锁亚秒级数据新鲜度</title>

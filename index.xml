@@ -394,13 +394,6 @@
       <description>&lt;p&gt;Let&amp;rsquo;s say you have Apache Cloudberry cluster that consists of several PostgreSQL instances. They all execute a single query, and you want to collect general statistics on how many resources were spent on executing this query. The built-in pg_stat_statements module is no longer suitable here, since it works within the same database. I will present a solution with a similar central idea — collecting data through query execution hooks, but instead of storing it in PostgreSQL shared memory, we send raw data to an external agent process. This process is responsible for aggregating metrics, providing a unified picture across all instances, as well as additional functions, such as the forced termination of problematic sessions, while not limited to PostgreSQL: the solution can collect data from other system components. I will talk about architecture, product tasks, and share links to the repositories (Apache 2.0 License) with the code.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Building Agentic Payment &amp; Data Monetization Layer for AI on Solana</title>
-      <link>/sessions/dataai-1300514.html</link>
-      <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
-      <guid>/sessions/dataai-1300514.html</guid>
-      <description>&lt;p&gt;Introducing mainstream agentic payment protocols in apache ecosystem, agentic payment gateway built by Solana, successful case study of data monetization open-source projects, and how blockchain protocols can bootstrap open source agent economy.&lt;/p&gt;&#xA;&lt;h3 id=&#34;speakers&#34;&gt;Speakers:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ec39-400o400o1-9Nf9FeCvduJjeZehKMU9nB.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mike Ma: Developer Advocate @Solana Foundation&lt;/p&gt;&#xA;&lt;p&gt;Mike Ma is developer advocate at Solana Foundation and an open source developer in apache ecosystem and Solana ecosystem contributing Solana-go SDK, x402 protocol, APP agentic payment protocol and initiated Solar - the chinese speaking Solana developer community.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Challenges of Implementing Iceberg Features in a C&#43;&#43; Query Engine</title>
       <link>/sessions/datalake-1212438.html</link>
       <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
@@ -420,6 +413,13 @@
       <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
       <guid>/sessions/datastorage-1213149.html</guid>
       <description>&lt;p&gt;In Apache Cloudberry, the optimizer, planner, and executor operate with different abstractions of a query. When these abstractions diverge, even simple queries can trigger severe failures.&#xA;This talk presents a real bug involving Shared Scans over Common Table Expressions (CTEs) on replicated tables. When such CTEs were referenced multiple times as scalar subqueries, queries could hang indefinitely or fail with errors like &amp;ldquo;could not open existing temporary file&amp;rdquo;.&#xA;The root cause was a mismatch between logical and physical execution: scalar SubPlans hid dependencies from the optimizer, leading to incorrect slice assignment and broken producer–consumer locality.&#xA;In this talk, I will walk through several alternative fixes and explain how each of them attempts to address the problem. We will dive into the optimizer internals to understand why the bug happens in the first place, how different fixes change the execution topology, and why some of them - despite working - cannot be accepted as a final solution.&#xA;Some fixes introduce subtle regressions, change plan shapes, or force fallback to the Postgres optimizer, highlighting the difficulty of making local improvements without breaking global behavior.&#xA;This talk shows how a seemingly simple query pattern can expose deep inconsistencies between optimizer and execution - and why fixing such issues often requires navigating trade-offs rather than finding a single “correct” solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Who Pays for the Data? Metering Apache Pipelines for AI Agents</title>
+      <link>/sessions/dataai-1300514.html</link>
+      <pubDate>Sat, 08 Aug 2026 16:45:00 +0000</pubDate>
+      <guid>/sessions/dataai-1300514.html</guid>
+      <description>&lt;p&gt;Solana&amp;rsquo;s data infrastructure already runs on Apache — Kafka, Parquet, Arrow, DataFusion, Airflow, Beam — used by Coinbase, Allium, Blockdaemon and other ecosystem teams. What&amp;rsquo;s missing from the stack is metering: nothing today answers &amp;ldquo;who pays for this call, how much, and to whom?&amp;rdquo; This talk walks through how the busiest open-source streaming pipelines on Solana are empowered by the Apache stack, proposes adding an x402 (HTTP 402 Payment Required) middleware at the data-plane gateway so open-source projects can charge AI agents per call, and reviews real success cases of onchain data monetization.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Accelerating Quantum Machine Learning: Building a GPU-Accelerated Data Plane in Apache Mahout</title>
